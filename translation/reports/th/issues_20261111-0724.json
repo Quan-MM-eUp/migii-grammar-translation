@@ -1,0 +1,1048 @@
+{
+ "lang": "th",
+ "round": "20261111-0724",
+ "batches": [
+  {
+   "batch": "b081",
+   "translator_note": "Batch b081 (Thai) is written to /home/claude/dich_th/translation/out/th/b081.json. It has 9 items, ids 1249 to 1257.\n\n**Checker result:** 0 errors and 2 warnings. Both warnings are checker false positives, and I left them as they are:\n- **#1253.mistakes[3]:** \"câu hỏi JLPT\" here means an exam question, not an interrogative sentence, so the glossary term ประโยคคำถาม doesn't fit. I wrote \"ในข้อสอบ JLPT ที่ถาม…\".\n- **#1254.explain:** \"văn cảnh khiêm nhường\" means a context where you should be modest. It doesn't mean humble language (คำถ่อมตน), so I used \"บริบทที่ต้องถ่อมตน\".\n\nI fixed one other warning. In #1252 notes, \"biến thể lịch sự\" is now รูปสุภาพ.\n\n**Hard or ambiguous items:**\n- **1257 (～を前提として):** no glossary term covers \"tiền đề\", so I used ข้อตั้ง. It already appears 6 times in earlier Thai outputs. I avoided เงื่อนไข because the glossary uses that for \"điều kiện\", and the source explicitly contrasts the two.\n- **1252 (～ものとして):** the meaning field says \"Với tư cách là…\", which I translated faithfully as ในฐานะ…. The examples and explanation actually mean \"treat as / deem\" (ถือว่า), so the source meaning field is probably off.\n- **1249 (～まみれ):**\n  - The notes call 臭う an adjective. It's really a verb, but I kept the source wording (คำคุณศัพท์).\n  - The comparison row ～だら is odd in the source, and I translated it as written.\n- **1253 (～やしない), mistakes[1]:** \"bài viết danh chính\" looks like a typo in the source. I read it as formal writing (งานเขียนที่เป็นทางการ).\n- **1254 (～をものともせずに):** \"tác nhân tiêu cực\" here means a negative factor, not the glossary's agent sense (ผู้กระทำ). I wrote ปัจจัยเชิงลบ.\n- **1250 and 1251:** the source uses both ◯ and ○. I kept each one exactly as given.\n\nThe helper script is at /tmp/th_b081/build.py, outside the workspace.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1250,
+     "score": 97,
+     "field": "meaning",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ก็ว่าไปอย่าง\" is colloquial and does not clearly convey 'A is of course so, but B even more'.",
+     "fix": "… ก็ไม่ต้องพูดถึง แต่ … ยิ่งกว่า…"
+    },
+    {
+     "id": 1250,
+     "score": 97,
+     "field": "examples[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ก็ส่วนหนึ่ง\" is unnatural Thai for もさることながら.",
+     "fix": "ทำเลที่ตั้งก็ดีอยู่แล้ว แต่ที่ได้รับคำชมยิ่งกว่าคือบริการหลังการขายที่ดี"
+    },
+    {
+     "id": 1250,
+     "score": 97,
+     "field": "examples[2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Same awkward \"ก็ส่วนหนึ่ง\" pattern (also ex5).",
+     "fix": "ความเร็วก็เป็นจุดเด่นอยู่แล้ว แต่ในด้านความเสถียรยังเหนือกว่าบริษัทอื่น"
+    },
+    {
+     "id": 1253,
+     "score": 99,
+     "field": "notes[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ความสามารถในการทำให้เสร็จได้\" is a clumsy rendering of 'dạng khả năng/khả năng hoàn thành' (e.g. 終わりゃしない).",
+     "fix": "ใช้ร่วมกับรูปความสามารถและรูปที่แสดงว่าทำเสร็จได้อย่างกว้างขวาง"
+    },
+    {
+     "id": 1256,
+     "score": 99,
+     "field": "explain",
+     "category": "terminology",
+     "severity": "minor",
+     "note": "\"รูปประธานกระทำ\" is a non-standard hybrid term for the active form.",
+     "fix": "สาเหตุ (ภัยธรรมชาติ โรคระบาด ตลาด…) มักเป็นประธานในรูปกระทำ ～を余儀なくする"
+    },
+    {
+     "id": 1257,
+     "score": 99,
+     "field": "meaning",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ข้อตั้ง\" for 前提 is a rare, logic-textbook rendering that may read stiffly to learners; used consistently, so understandable.",
+     "fix": "โดยมี… เป็นข้อสมมติเบื้องต้น"
+    }
+   ]
+  },
+  {
+   "batch": "b082",
+   "translator_note": "I translated batch b082 into Thai (9 items, ids 1258–1266). The checker now reports 0 errors and 0 warnings. It first gave 2 glossary warnings, in #1263 mistakes[2] and #1266 notes, and I fixed both.\n\nOutput: /home/claude/dich_th/translation/out/th/b082.json\n\nItems that were hard or ambiguous:\n- **#1260 notes:** The source pairs Japanese example 3 (会議では前回までの議論を踏まえて…) with the Vietnamese gloss meant for example 2. I translated it as written and did not fix it.\n- **#1261 examples:** The pattern means \"the given time is the last one\", but the source meaning is \"Kể từ…\" (\"starting from…\"). I translated the meaning as \"นับตั้งแต่…\" and kept the example sentences natural. For example, 今日を限りに became \"starting from today, I'll quit…\".\n- **#1264 example 5:** 東京並みの家賃では地方では借りられない can be read two ways. I followed the Vietnamese hint: \"with Tokyo-level rent, you couldn't rent in the provinces\".\n- **#1265 comparison:** The ruby reading for 際 is wrong in the source (ぎわ instead of さい). I copied it unchanged.\n- **#1265 mistakes[3]:** The source has a stray Japanese \"と\" in \"～折には と\". I kept it.\n- **#1265 example 6:** This example had no Vietnamese hint, so I translated it from the Japanese only.\n- **#1262 and #1263:** In the connection field, \"bỏ ない\" became \"ตัด ない\" and \"ngoại lệ\" became \"ข้อยกเว้น\". All the Japanese text is unchanged.\n\nChecker false positives: none.\n\nScratch scripts are in /tmp/claude-0/-home-claude/55316782-d577-5b41-afba-0d66fef55a0e/scratchpad/th_b082/.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1263,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "会場 (venue/hall) rendered as ฮอลล์; slightly narrow but understandable.",
+     "fix": "ทั่วทั้งสถานที่จัดงานอบอวลไปด้วยเสียงปรบมือกึกก้องราวกับจะแตกออก"
+    }
+   ]
+  },
+  {
+   "batch": "b083",
+   "translator_note": "Batch b083 (Thai) is translated. Output file: /home/claude/dich_th/translation/out/th/b083.json (8 items, ids 1267–1274, model claude-opus-5-5, prompt_ver 2, dated 2026-11-11).\n\n**Checker result:** 0 errors and 0 warnings on the final run, with no false positives. The first run gave one warning: in #1274.explain, \"lượng từ\" should use the glossary term ลักษณนาม. It now reads \"ต่อท้ายจำนวนและลักษณนาม\". Here \"lượng từ\" really means \"number + unit\" (数十万円), so I put both words in.\n\n**Hard or ambiguous items:**\n- **#1271 notes:** the source has old embedded content: the labels `meaning_vi:` and `explain:`, a `⏐` separator, and two numbered Japanese examples with Vietnamese glosses. I kept the labels, separator, numbering and Japanese exactly as they were, and translated the Vietnamese glosses into Thai.\n- **#1273 example 3** (あの絵は数千万からする価値がある): the Vietnamese hint adds \"yên\", but the Japanese has no unit. I translated it as \"หลายสิบล้าน\" without a currency.\n- **#1268 example 5** (命あっての仕事だ。無理はしないで。): I used a natural rendering (\"ต้องมีชีวิตอยู่ก่อนจึงจะทำงานได้ อย่าฝืนตัวเองนะ\") rather than a literal one.\n- **\"thể ý chí\" / \"ý hướng\"** (#1267, #1269, #1270): rendered with the glossary term รูปเจตนา. The form written in Japanese, `V意向` / `意向形`, is left in Japanese.\n- **#1269 explain:** \"hình thái văn ngữ\" (for かろう) became \"รูปแบบภาษาเขียนโบราณ\" (\"old written-language form\"). The meaning is close, but this is my interpretation, so it could be reviewed.\n\nThe helper scripts are in /tmp/th_b083/, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1269,
+     "score": 99,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "\"hình thái văn ngữ\" (literary form) rendered as \"ภาษาเขียนโบราณ\" (archaic written language), which slightly overstates the source",
+     "fix": "กับ Aい ใช้ かろうが (รูปแบบภาษาเขียน)"
+    },
+    {
+     "id": 1273,
+     "score": 98,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Currency unit (yen) from the Vietnamese hint is omitted; the Japanese has none, but 'yen' is implied by context and the Vietnamese gives it",
+     "fix": "ภาพวาดนั้นมีมูลค่าถึงหลายสิบล้านเยนเลย"
+    },
+    {
+     "id": 1273,
+     "score": 98,
+     "field": "examples[3]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "千人からの means 'a thousand or more'; \"ถึงพันคน\" loses the 'more than' nuance (Vietnamese: hơn một nghìn)",
+     "fix": "มีผู้ชมมารวมตัวกันที่สถานที่จัดงานมากถึงพันกว่าคน"
+    },
+    {
+     "id": 1274,
+     "score": 99,
+     "field": "examples[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "The Vietnamese hint says 'at least hundreds of ten-thousands of yen'; the 'at least' nuance is dropped",
+     "fix": "การปรับปรุงต้องใช้ค่าใช้จ่ายอย่างน้อยหลายล้านเยน"
+    }
+   ]
+  },
+  {
+   "batch": "b084",
+   "translator_note": "Batch b084 (Thai) is translated: 8 items written to `/home/claude/dich_th/translation/out/th/b084.json`. The checker passes with 0 errors and 2 warnings, both checker false positives (listed below).\n\n**Hard or ambiguous items**\n- **1276**: The explain field repeats the same content twice. It appears once run together after labels like \"Cách dùng :\" and again line by line. I translated both copies as they are. The examples 遠かれ近かれ and 高かれ安かれ are not standard set phrases, but I translated them as written. 遠かれ近かれ became ไม่ช้าก็เร็ว (\"sooner or later\"), which fits the sentence.\n- **1278**: \"Với ナ形/N: であるが望ましい.\" is half Japanese and half Vietnamese. I kept であるが望ましい unchanged, as the checker requires.\n- **1279**: The examples (親が親なら、子も子だ and similar) are translated as \"X เป็นอย่างนี้ Y ก็เป็นอย่างนี้\" (\"X is like this, so Y is like this too\"). The source notes end with a line that reads like an editor's comment (\"hai point riêng, giữ cả hai\", roughly \"two separate points, keep both\"). I translated it as it is.\n- **1280**: Several comparison cells have a Japanese example followed by a Vietnamese gloss in the same cell. I kept the Japanese and translated only the gloss.\n- **1281**: In the example 私ごとき, the speaker refers to himself as humble. I used ข้าพเจ้า, a formal, humble first-person word in Thai.\n- **1283**: One comparison cell, 提出は今日でなくてはならないわけではずともよい, is ungrammatical Japanese in the source. I copied it unchanged, as the rules require.\n\n**Checker result**: 0 errors, 2 warnings.\n\n**Checker false positives**\n- **#1276.explain, 'số từ'**: The match comes from \"một số từ\", which means \"some words\" here. It is not the grammar term for numerals.\n- **#1278.explain, 'bổ ngữ'**: \"bổ ngữ danh từ\" here means a noun modifier. I used ส่วนขยายคำนาม (\"noun modifier\"); the glossary term ส่วนเติมเต็ม (\"complement\") would be wrong in this sentence.",
+   "fix_rounds": [
+    {
+     "actions": [
+      {
+       "id": 1276,
+       "field": "examples[4]",
+       "action": "fixed",
+       "note": "Reviewer is right: the source 遠かれ近かれ (vi: 'Gần hay xa') means 'near or far', but it had been translated as ไม่ช้าก็เร็ว ('sooner or later'). Replaced it with 'ไม่ว่าใกล้หรือไกล ความรับผิดชอบของเขาก็คงจะถูกเรียกร้อง'. check.py: 0 errors. Its 2 warnings are terminology suggestions in the explain fields of #1276 and #1278, which were not flagged, so they were left unchanged."
+      }
+     ]
+    }
+   ],
+   "judge_issues": [
+    {
+     "id": 1276,
+     "score": 98,
+     "field": "examples[4]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "問われる (be held accountable) rendered as ถูกเรียกร้อง (be demanded), which is slightly off",
+     "fix": "ไม่ว่าใกล้หรือไกล เขาก็คงจะต้องรับผิดชอบ"
+    },
+    {
+     "id": 1276,
+     "score": 98,
+     "field": "explain",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'danh từ/tính chất hóa' rendered as คำที่แปลงเป็นลักษณะ, which is unclear in Thai",
+     "fix": "บางวลีใช้กับคำนาม/คำที่เปลี่ยนเป็นคำบอกลักษณะ: 若かれ老いかれ"
+    },
+    {
+     "id": 1277,
+     "score": 98,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'bản chất' (inherent/essential) rendered as 'เป็นธรรมชาติโดยแท้', which reads like 'natural-sounding'.",
+     "fix": "เหตุผลที่เป็นลักษณะโดยธรรมชาติของสิ่งนั้น/เป็นแก่นแท้"
+    },
+    {
+     "id": 1277,
+     "score": 98,
+     "field": "comparison[r1.1]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Same issue: 'bản chất' as 'เป็นธรรมชาติโดยแท้'.",
+     "fix": "เป็นทางการ เกี่ยวกับสภาพแท้จริง/ลักษณะประจำตัว"
+    },
+    {
+     "id": 1279,
+     "score": 99,
+     "field": "notes",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'มีลักษณะเป็นสูตรสูง' is awkward for 'tính công thức cao'.",
+     "fix": "มีลักษณะเป็นสูตรสำเร็จมาก"
+    }
+   ]
+  },
+  {
+   "batch": "b085",
+   "translator_note": "Report for b085 (th): all 8 items (ids 1284–1291) are translated and written to `/home/claude/dich_th/translation/out/th/b085.json`.\n\n**Checker result:** 0 errors, 1 warning.\n\n**Checker false positive:**\n- **#1286.mistakes[1]:** the warning says to use the glossary term รูปเงื่อนไข ば (\"thể giả định\"). The source reads \"không thể giả định\", which means \"cannot be assumed\", not the grammar form. The match is a substring hit, so I left the translation as is (ไม่สามารถสมมติได้).\n\n**Hard or ambiguous items:**\n- **1289 explain:** the source repeats the two nuance lines, once without bullets and once with them. I kept both copies to stay faithful to the source.\n- **1287 comparison row 1:** the ruby markup is malformed (`<ruby>言<rt>いいだし</rt></ruby>い<ruby>出<rt></rt></ruby>`). Since Japanese is copied as is, I left it unchanged. It should be fixed in the source.\n- **1291 notes:** the source has an empty parenthesis in `～足る～ ()` and the English word \"point\". I kept the empty parenthesis and translated \"point\" as ประเด็น.\n- **1290 connection:** I translated \"[đơn vị đếm]\" as [ลักษณนาม] (Thai counter word), which fits Thai grammar better than a literal \"counting unit\".\n- **1284 example 4 and 1287 example 4:** both Japanese sentences have structures that don't map word for word. I translated them naturally from the Japanese rather than following the Vietnamese hint.\n\nThe helper scripts are in `/tmp/th_b085/`.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1284,
+     "score": 98,
+     "field": "examples[3]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "情けない means pitiful/disappointing; 'สมเพช' is too harsh (contempt)",
+     "fix": "รู้สึกเศร้าใจกับตัวเองที่อ่านไปปุ๊บก็ลืมเนื้อหาไปปั๊บ"
+    },
+    {
+     "id": 1284,
+     "score": 98,
+     "field": "explain",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ผู้พูดมีความรู้สึกบ่น' is awkward Thai",
+     "fix": "ผู้พูดมีอารมณ์บ่นหรือไม่พอใจ"
+    },
+    {
+     "id": 1286,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "届かなかった means 'did not arrive'; 'ไม่ได้ส่งไปถึง' shifts slightly toward sending",
+     "fix": "ขอให้ถือว่าอีเมลฉบับนี้ไม่ได้มาถึงค่ะ เป็นการส่งผิดค่ะ"
+    },
+    {
+     "id": 1287,
+     "score": 99,
+     "field": "explain",
+     "category": "terminology",
+     "severity": "minor",
+     "note": "'bổ ngữ mức độ' rendered as 'ส่วนเติมเต็มที่แสดงระดับ', an unnatural grammar term in Thai",
+     "fix": "ใช้ร่วมกับส่วนขยายที่แสดงระดับได้ดี: ～ほど/～くらい"
+    },
+    {
+     "id": 1288,
+     "score": 98,
+     "field": "explain",
+     "category": "terminology",
+     "severity": "minor",
+     "note": "'bổ ngữ nhấn' rendered as 'ส่วนเติมเต็มที่แสดงการเน้น', unnatural term",
+     "fix": "ใช้ร่วมกับส่วนขยายที่แสดงการเน้นได้ดี: いったん/一度/ひとたび"
+    },
+    {
+     "id": 1288,
+     "score": 98,
+     "field": "examples[3]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "二度と返済できない = can never repay; 'ใช้หนี้หมด' adds a nuance of 'finish paying'",
+     "fix": "จะไม่มีวันใช้หนี้คืนได้อีกเลยนะ"
+    },
+    {
+     "id": 1289,
+     "score": 99,
+     "field": "comparison[r3.2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'เงื่อนไขแบบการยอมรับแบบขัดแย้งทั่วไป' is clumsy with doubled 'แบบ'",
+     "fix": "เงื่อนไขเชิงการยอมรับแบบขัดแย้งโดยทั่วไป ไม่มีจังหวะการซ้ำ"
+    }
+   ]
+  },
+  {
+   "batch": "b086",
+   "translator_note": "I translated batch b086 into Thai: 7 items, ids 1292 to 1298, written to /home/claude/dich_th/translation/out/th/b086.json. The final checker run shows 0 errors and 1 warning.\n\n**Checker warning (false positive):**\n- #1298.explain: the checker says \"câu hỏi\" should be ประโยคคำถาม. The source phrase is \"câu hỏi tu từ\" (rhetorical question), and I used the glossary term for that, คำถามเชิงวาทศิลป์. I left it as is.\n\n**Hard or ambiguous items:**\n- **1293 (～だの～だの):**\n  - mistakes[4] contradicts itself. It says 不便だの is \"ok\", then calls for 不便だだの. I translated it as written and did not correct it.\n  - The notes contain \"Bằng với cách nói toka... toka\", which is Japanese written in Latin letters. I kept \"toka... toka\" exactly as the source has it, which breaks the style guide's \"Thai script only\" rule; the faithfulness rule won. The \"meaning_vi:\" and \"examples:\" labels stay unchanged, as the style guide requires.\n- **1296 (～てかなわない):**\n  - The source cites a polite form \"～てかないません\". This looks like a typo for かないません, but I copied it unchanged.\n  - The notes contain an embedded legacy block (\"meaning_vi: … ⏐ explain: … ⏐ examples: …\"). I kept the labels and ⏐ separators and translated only the Vietnamese prose.\n  - In the comparison table, the Vietnamese cell says しょうがない is \"more formal\" (trang trọng hơn). I translated that faithfully.\n- **1297 (～ては):**\n  - The meaning field \"Cứ… thì… (kết xấu)\" (with a bad result) doesn't match examples that describe neutral alternation. I translated it faithfully.\n  - The English words \"trigger\" and \"reaction\" in the source prose stay in English.\n- **1295 (～つ～つ):** example 5, 資料を読みつ書きつ, was hard to make natural in Thai. I rendered it as อ่านบ้างเขียนบ้าง.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1292,
+     "score": 99,
+     "field": "explain",
+     "category": "terminology",
+     "severity": "minor",
+     "note": "行政 (hành chính) rendered as การปกครอง (governance/rule); administrative context is better as การบริหารราชการ/ราชการ.",
+     "fix": "มักพบในบริบทด้านกฎหมาย ราชการ ธุรกิจ ข่าว"
+    },
+    {
+     "id": 1293,
+     "score": 98,
+     "field": "examples[2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "หมกมุ่นอยู่กับทั้งเกมทั้งการ์ตูน is awkward Thai; the ทั้ง…ทั้ง… pattern reads unnaturally after the particle.",
+     "fix": "เด็ก ๆ หมกมุ่นอยู่กับเกมบ้าง การ์ตูนบ้าง"
+    },
+    {
+     "id": 1293,
+     "score": 98,
+     "field": "examples[5]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "ทั้งไปทำงานต่างจังหวัด is a slightly stiff rendering of 出張.",
+     "fix": "ทั้งเดินทางไปทำงานต่างจังหวัด ทั้งประชุม สัปดาห์นี้ตารางแน่นเอี้ยด"
+    },
+    {
+     "id": 1294,
+     "score": 99,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "chính luận (argumentative/editorial writing) rendered as เชิงวิจารณ์ (critical/reviewing), slightly shifted.",
+     "fix": "ในภาษาเขียนเชิงโต้แย้ง/เชิงแสดงทัศนะ นิยมใช้ であろうとなかろうと"
+    },
+    {
+     "id": 1295,
+     "score": 98,
+     "field": "meaning",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Source says 'Vừa… vừa… (lặp)' (repeated); translation says สลับไปมา (alternating), which shifts the gloss.",
+     "fix": "ทั้ง… ทั้ง… (ซ้ำไปมา)"
+    },
+    {
+     "id": 1295,
+     "score": 98,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'cổ điển' (classical) rendered as ภาษาโบราณ (archaic language).",
+     "fix": "มีกลิ่นอายวรรณกรรม/แบบคลาสสิก"
+    }
+   ]
+  },
+  {
+   "batch": "b087",
+   "translator_note": "Batch b087 (th, 9 items) is translated and written to /home/claude/dich_th/translation/out/th/b087.json. The checker reports 0 errors and 1 warning, and the warning is a false positive (see below).\n\n**Hard or ambiguous items:**\n- **#1299**: Mistake [1] and notes give 正しいであれ and 必要であれ as examples. The source marks them right/wrong in ways that look questionable, but I translated them as written.\n- **#1303**: Comparison row `～せいぜい` keeps the source's odd 〜 prefix. Example [4] (今のところ…) is rendered as \"ตอนนี้ …\".\n- **#1304**: The `explain` field lists せめて among the \"upper limit\" words. That is doubtful (せめて means \"at least\"), but I translated it as written.\n- **#1305**: The notes gloss ありはしない with \"=全くないわけではない\", which looks contradictory. I kept it and translated only \"nhấn mạnh phủ định\" (emphasises the negation). The examples are rendered freely, as \"too much to describe\".\n- **#1307**: Examples use different verbs (กล่าวกันว่า / ได้รับการยกย่องว่า / ถือว่า / เชื่อว่า) to fit each context, all rendering the \"is considered\" meaning of とされる.\n\n**Checker false positives:**\n- **#1307.mistakes[0]**: The checker wants the glossary term ประโยคคำถาม (interrogative sentence) for \"câu hỏi\". Here \"Câu hỏi JLPT\" means a JLPT exam question, not an interrogative sentence, so I translated it as ข้อสอบ JLPT.\n\nHelper scripts are in /tmp/th_b087/, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1299,
+     "score": 99,
+     "field": "explain",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Last bullet: 'หากเป็นการสมมติ' reads as 'if it is a supposition'; the source says 'but is a hypothetical (even if it is)'.",
+     "fix": "แต่เป็นการสมมติในความหมาย \"แม้ว่าจะเป็น\""
+    },
+    {
+     "id": 1300,
+     "score": 99,
+     "field": "examples[4]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "夢にすら見なかった is rendered tautologically ('did not dream of it even in a dream'), which is illogical in Thai.",
+     "fix": "เหนื่อยมากจนเมื่อคืนไม่ได้ฝันอะไรเลยแม้แต่นิดเดียว"
+    },
+    {
+     "id": 1304,
+     "score": 99,
+     "field": "mistakes[0]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ใช้เพื่อพูดเกินจริงเป็นนัยความหมายที่ผิด' is awkward; the source means that using it to exaggerate gets the nuance wrong.",
+     "fix": "ใช้เพื่อพูดเกินจริงเป็นการใช้นัยความหมายผิด: ×最高で100人も来るといったところだ"
+    }
+   ]
+  },
+  {
+   "batch": "b088",
+   "translator_note": "Output: /home/claude/dich_th/translation/out/th/b088.json (7 items, ids 1308–1314). Helper scripts are in /tmp/th_b088/.\n\nChecker result: OK, 0 errors and 0 warnings. The first run gave 2 glossary warnings, both fixed:\n- #1313 notes: changed to use คำกริยาแสดงสภาพ.\n- #1314 notes: changed to use การละ.\n\nChecker false positives: none.\n\nHard or ambiguous items:\n- **1308:** I translated example 4's 成果 as ผลงาน, not the glossary term ผลลัพธ์. Here it means \"achievements\", not the grammar term \"result\".\n- **1310:**\n  - The source has extra spaces: before ～とみえる and after the opening quote in “ có vẻ như…”. I kept both as they are.\n  - Two mistakes lines (\"Lẫn với ～らしい:\" and \"Thiếu mệnh đề quan sát A:\") are only headings. I translated them as short lines, keeping the same count of 8 entries.\n- **1311:** The explain text says \"Chủ thể\" (the subject). The glossary maps this to ผู้กระทำ, so I used it, though here it means the person being described.\n- **1311, 1313:** In the comparison tables I copied the Japanese cells exactly, including odd source furigana: `<ruby>凡<rt>凡</rt></ruby>` and 者 read as しゃ in ～たる者.\n- **1313:** For \"chính luận\" (argumentative or editorial style) I wrote เชิงบทความแสดงทัศนะ.\n- **1312, 1313:** The source mistakes say the pattern should not take a verb before it, but the connection lines say \"Vともなると\" and \"Vともなれば\". I translated both faithfully without fixing the contradiction.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1311,
+     "score": 99,
+     "field": "mistakes[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Vietnamese 'đối tượng' (the subject/person the pattern is applied to) rendered as 'เป้าหมาย' (goal/target), which reads oddly for a learner.",
+     "fix": "ใช้กับผู้ที่ไม่มี “ชั้น” (ระดับ) ชัดเจน → นัยความหมายผิด ควรเลือกคำนามที่มีสถานะ"
+    },
+    {
+     "id": 1313,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'พอกพูน' for かさむ (expenses/time piling up) is slightly unnatural for costs and time.",
+     "fix": "พอถึงช่วงเลี้ยงลูก ทั้งค่าใช้จ่ายและเวลาก็มักจะเพิ่มขึ้น"
+    }
+   ]
+  },
+  {
+   "batch": "b089",
+   "translator_note": "Batch b089 (th) is translated: 10 items, ids 1315–1324. Output is at /home/claude/dich_th/translation/out/th/b089.json.\n\n**Checker:** 0 errors and 0 warnings on the final run. The first run gave 5 glossary warnings and no errors. I fixed all 5 by using the glossary terms การยกคำพูด, ประโยคคำถาม, การทำให้เป็นคำนาม and การละ. I left nothing as a false positive.\n\n**Hard or ambiguous items:**\n- **1316 `notes`:** this field holds a whole second entry, with the labels `explain:`, `examples:`, `comparison:` (written as a pipe table) and `common_mistakes:`. I kept the labels, the Japanese lines and the `（）` readings unchanged and translated only the Vietnamese prose.\n- **1317 `explain`:** the source says the pattern is not used with a verb \"unless nominalized (N + の)\". That is odd, but I translated it as written. The same idea appears in mistakes[1].\n- **1320 `examples`:** the third Japanese sentence is 理想とまではいかないが, which is not a ～ないまでも sentence. I translated the Japanese as it is.\n- **1320 `comparison`:** \"Trang trọng\" and \"Cứng\" both came out as เป็นทางการ in Thai, so those two cells are now the same.\n- **1321 `examples`:** 事故をこれ以上増やさないものだろうか is literally \"can't we keep accidents from increasing any further\". I followed the Japanese, not the Vietnamese hint, which says \"reduce further\".\n- **1322 `examples`:** the Vietnamese hint for 涙ながらに has an extra note in brackets. I left it out, because the rules say to translate from the Japanese only.\n- **1322 `comparison`:** the cell \"(xem 214)\" refers to another item. I kept the number 214 as it is.\n\nScratch scripts are in /tmp/th_b089/, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1315,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Word order reversed relative to the Japanese: 彼の経験と相まって is the added factor and チームの努力 is the subject; Thai makes the team effort 'combined with' his experience.",
+     "fix": "ประกอบกับประสบการณ์ของเขา ความพยายามของทีมจึงนำไปสู่ความสำเร็จ"
+    },
+    {
+     "id": 1316,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "待ってました means 'I have been waiting for this'; 'รออยู่เลย' is a little thin and ambiguous.",
+     "fix": "เด็กกระโจนเข้าหาขนมราวกับจะพูดว่า \"รอมานานแล้ว\""
+    },
+    {
+     "id": 1321,
+     "score": 98,
+     "field": "examples[0]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Double negative 'จะไม่ให้…เพิ่มขึ้น…ไม่ได้' is awkward and can be misread as the 'must' pattern of 1319. The Japanese means 'isn't there some way to stop accidents increasing further?'.",
+     "fix": "จะไม่มีวิธีทำให้อุบัติเหตุไม่เพิ่มขึ้นไปมากกว่านี้เลยหรือ"
+    },
+    {
+     "id": 1321,
+     "score": 98,
+     "field": "meaning",
+     "category": "style",
+     "severity": "minor",
+     "note": "'…ไม่ได้เชียวหรือ' reads as indignant, whereas the source (and Thai explain field) expresses a hopeful 'is it not possible… I wonder'.",
+     "fix": "จะ… ไม่ได้หรือนะ"
+    },
+    {
+     "id": 1322,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "講義 means lectures; 'เรียนวิชา' is imprecise.",
+     "fix": "เป็นยุคที่สามารถฟังการบรรยายจากทั่วโลกได้โดยไม่ต้องออกจากบ้าน"
+    }
+   ]
+  },
+  {
+   "batch": "b090",
+   "translator_note": "Batch b090 (th) is done. The output is at /home/claude/dich_th/translation/out/th/b090.json and has 8 items (1325–1332).\n\n**Checker:** 0 errors, 1 warning.\n\n**Checker false positives:**\n- #1329.mistakes[3]: the warning says \"nguyên dạng mệnh lệnh\" should use รูปพจนานุกรม. In that sentence \"nguyên dạng\" means \"using the imperative form as-is (bluntly)\", not the dictionary form. It is translated as \"ใช้รูปคำสั่งตรง ๆ\" and I left it as is.\n\n**Hard or ambiguous items:**\n- **1327, notes:** the source says \"đảo trật tự ngữ nghĩa … bằng ～ならともかく\", which is vague. I translated it literally with the glossary term การสลับลำดับคำ.\n- **1328, examples:** the ～なら～なりに sentences (for example 彼は忙しいなら忙しいなりの工夫をしている) are hard to render naturally. I used \"ตามแบบของ…\" and \"ที่เหมาะกับ…\".\n- **1328, notes:** \"danh từ hóa\" sounds awkward with the glossary term การทำให้เป็นคำนาม, but I used it as required.\n- **1330, comparison:** the cell \"～上（じょう）\" has ruby reading うえ in the example. I kept it unchanged, including what looks like an error in the source.\n- **1325, example 6 (予約なしでは、入場できません。):** I translated it neutrally, without ครับ/ค่ะ, because the speaker is not clear.\n\nScratch scripts are in /tmp/claude-0/-home-claude/55316782-d577-5b41-afba-0d66fef55a0e/scratchpad/th_b090/.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1325,
+     "score": 99,
+     "field": "explain",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'นัยความหมายเชิงภววิสัย' is stiff and slightly unnatural for a learner-facing text.",
+     "fix": "มีนัยเป็นการตัดสินอย่างเป็นกลาง"
+    },
+    {
+     "id": 1326,
+     "score": 99,
+     "field": "mistakes[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Source says 'không thể/không được' (cannot / not allowed); 'ไม่ได้รับอนุญาต' shifts it toward 'not permitted'.",
+     "fix": "ให้เลือก \"なしには\" เมื่อท่อนหลังเป็น \"ไม่สามารถ/ไม่ได้\""
+    },
+    {
+     "id": 1327,
+     "score": 98,
+     "field": "examples[4]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ถ้าคนน้อย' is unnatural for 少人数.",
+     "fix": "ถ้ามีคนไม่มากก็ยังพอว่า แต่ในระดับร้อยคน วิธีนี้เป็นไปไม่ได้"
+    },
+    {
+     "id": 1327,
+     "score": 98,
+     "field": "notes[2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ใช้การสลับลำดับคำในเชิงความหมาย' faithfully mirrors a clumsy source but reads awkwardly.",
+     "fix": "ใช้ ～ならともかく แสดงความหมายทำนองเดียวกันได้"
+    },
+    {
+     "id": 1328,
+     "score": 99,
+     "field": "examples[4]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'เมื่อยุ่ง' loses the conditional なら nuance and the repeated pattern.",
+     "fix": "ถ้ายุ่งก็คิดหาวิธีที่เหมาะกับความยุ่งนั้น"
+    },
+    {
+     "id": 1329,
+     "score": 97,
+     "field": "examples[1]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'ทำอะไรสักอย่างนะ' is added and not in the Japanese or source; the sentence is also a command (しなさい).",
+     "fix": "ถ้ามีปัญหา ให้ถามอาจารย์หรือไปค้นที่ห้องสมุดสักอย่างสิ"
+    },
+    {
+     "id": 1329,
+     "score": 97,
+     "field": "examples[2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'มาดูหนัง' has an unneeded 'มา'.",
+     "fix": "วันหยุดไปดูหนังหรือไปเดินเล่นเพื่อเปลี่ยนบรรยากาศกันเถอะ"
+    },
+    {
+     "id": 1330,
+     "score": 99,
+     "field": "examples[3]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ในฐานะเช่นเขา' is awkward Thai.",
+     "fix": "ด้วยสถานะของเขา การพูดจาต้องระมัดระวังอย่างที่สุด"
+    },
+    {
+     "id": 1331,
+     "score": 98,
+     "field": "mistakes[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'สิ่งที่เป็นเป้าหมายที่ไม่ใช่' is clumsy (glossary term 対象 stacked).",
+     "fix": "ใช้กับสิ่งที่ไม่ใช่ \"บทบาท/สถานะ\": × 天気にあるまじき → ไม่เหมาะสม"
+    },
+    {
+     "id": 1331,
+     "score": 98,
+     "field": "examples[4]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Ending is vague; 暴言 is not itself something a leader 'does'. Better: such words are unbecoming of a leader.",
+     "fix": "คำพูดรุนแรงของเขาเป็นสิ่งที่ไม่สมควรเกิดขึ้นกับผู้นำ"
+    },
+    {
+     "id": 1332,
+     "score": 98,
+     "field": "explain / mistakes[0]",
+     "category": "terminology",
+     "severity": "minor",
+     "note": "'จุดหมาย' means destination/goal; source 'mốc' is a milestone.",
+     "fix": "หมุดหมาย / จุดสำคัญ"
+    },
+    {
+     "id": 1332,
+     "score": 98,
+     "field": "examples[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Long and heavy; 'เป็นครั้งแรก' stacked after 'จึงได้ตระหนัก'.",
+     "fix": "เมื่อได้เป็นผู้รับผิดชอบหน้างานจึงตระหนักถึงน้ำหนักของการตัดสินใจอย่างลึกซึ้ง"
+    }
+   ]
+  },
+  {
+   "batch": "b091",
+   "translator_note": "ข้อมูล b091 (th) แปลครบแล้ว 8 รายการ (ids 1333, 1335, 1336, 1337, 1338, 1339, 1340, 1341) และบันทึกไว้ที่ /home/claude/dich_th/translation/out/th/b091.json\n\nChecker: 0 errors, 1 warning, which I left as is on purpose.\n- #1339.notes: the checker wants \"trợ số từ\" (lượng từ) translated as ลักษณนาม. In this sentence \"lượng từ cường điệu\" refers to exaggerated quantity words like ゼロ / 無意味 / 無駄, not counters. I translated it as \"คำแสดงปริมาณแบบพูดเกินจริง\" because the glossary term would be wrong here.\n\nItems that were hard or ambiguous:\n- 1335 notes: the source has an old embedded block (meaning_vi: / explain: / examples:) with broken text. One line is cut off at the start (\"hình hay nghe bài hát…\", missing \"Nhìn\") and one example is \"XXX\". I kept the labels and the XXX as they are and translated the truncated line faithfully, still incomplete.\n- 1336: the source has no `meaning` field, so the output doesn't have one either. Example 6 includes an extra note about the kanji \"則\", which I translated along with it.\n- 1337/1338: the source contradicts itself between 1337 and 1338 on V-る vs V-ます語幹 + に堪える. I translated both faithfully without changing anything.\n- 1339 mistakes[0]: there are 2 × marks in one line (× 寒いも同然だ → … × 寒さも同然だ). I kept them exactly as in the source.\n- 1340 example 4 (聴くに耐えない) is the negative form inside an item about ～に耐える. I translated it from the Japanese as \"ไม่น่าฟัง\".\n- The source uses \"〇\" (U+3007), not \"○\". I copied it exactly as is.\n\nTemporary scripts are in /tmp/th_b091/, outside the WS folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1333,
+     "score": 99,
+     "field": "comparison[r2.2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Source 'Đối lập mạnh' (strong contrast) rendered as 'เปรียบต่างอย่างชัดเจน' (clear), which slightly weakens the intensity.",
+     "fix": "เปรียบต่างอย่างรุนแรง จุดประสงค์ต่างกัน"
+    },
+    {
+     "id": 1335,
+     "score": 99,
+     "field": "notes (legacy examples block, example 1 gloss)",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Source 'đất nước' (country) rendered as 'บ้านเกิด' (hometown); 国 is the homeland/country.",
+     "fix": "รูปหรือฟังเพลงก็จะนึกถึงประเทศของตน"
+    },
+    {
+     "id": 1336,
+     "score": 99,
+     "field": "examples[5]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Source says only 'theo đúng pháp luật'; 'และข้อบังคับ' is an addition.",
+     "fix": "ดำเนินขั้นตอนตามกฎหมาย (ใช้ \"則\" เพื่อเน้นบรรทัดฐาน)"
+    },
+    {
+     "id": 1337,
+     "score": 99,
+     "field": "explain / notes (公文 / văn thư)",
+     "category": "terminology",
+     "severity": "minor",
+     "note": "'công văn / văn thư trang trọng' rendered as 'หนังสือราชการ' (government correspondence); acceptable but narrower than the glossary ภาษาธุรกิจ / official-document sense.",
+     "fix": "keep, or use 'เอกสารทางการ'"
+    },
+    {
+     "id": 1338,
+     "score": 99,
+     "field": "examples[0]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ได้อย่างเต็มที่' is awkwardly placed; source '十分に…出来' means quality is fully sufficient to be worth watching.",
+     "fix": "ภาพยนตร์เรื่องนี้มีคุณภาพเพียงพอที่จะคู่ควรแก่การดูอย่างแน่นอน / ภาพยนตร์เรื่องนี้คุณภาพดีพอที่จะดูได้สบาย ๆ"
+    }
+   ]
+  },
+  {
+   "batch": "b092",
+   "translator_note": "Batch b092 (Thai) is translated. Output: /home/claude/dich_th/translation/out/th/b092.json. It has 9 items, ids 1343–1351.\n\n**Checker:** 0 errors, 0 warnings. On the first run it gave 2 glossary warnings in #1350: \"mệnh đề sau\" should be ท่อนหลัง. I made that change and re-ran it clean.\n\n**Hard or ambiguous items:**\n- **1343 explain:** \"Đặt trước danh từ trừu tượng\" literally says the pattern is placed *before* abstract nouns, but its own example has the noun first (想像 + に難くない). I followed the example: ใช้คำนามนามธรรมนำหน้า (\"an abstract noun comes before it\").\n- **1343 notes:** the source mixes Vietnamese with a Japanese fragment (\"前置きに とても／大いに を thêm vào\"). I kept the fragment exactly as written and translated only the Vietnamese around it, so the Thai sentence reads a bit oddly.\n- **1344 notes:** \"協議に会議を重ねて\" is described as \"swapping N2 to avoid repetition\", which goes against the pattern's usual rule of repeating the same noun. I translated it as written.\n- **1346 explain:** \"N có phổ biến/độ biến thiên\" is garbled in the source. I rendered it as ความแพร่หลาย/ความแปรผัน (\"widespread / variable\").\n- **1351 (～の嫌いがある):** the connection says N + の嫌いがある, but most examples use V + きらいがある. This field is context only, so nothing to translate. For the \"嫌い\" glosses I used ข้อเสีย/สิ่งที่น่าติ (\"a fault / something to criticise\").\n- **Comparison tables:** wherever a pattern or example cell had no Vietnamese, I copied it over unchanged.\n\nThe build script is outside the workspace at /tmp/th_b092/build.py.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1349,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Without a space, \"ฤดูใบไม้ผลิ\" + \"ตกลงมา\" runs together as \"ผลิตกลงมา\" and can be misread as \"ผลิต\" (to produce).",
+     "fix": "หิมะฤดูใบไม้ผลิ ตกลงมาทับถมราวกับปุยฝ้าย"
+    },
+    {
+     "id": 1350,
+     "score": 99,
+     "field": "examples[3]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ทำหน้าที่ดูไม่ออก\" reads as \"ทำหน้าที่\" (perform a duty). The intended meaning is \"made a face that\". The reader can still recover it from context.",
+     "fix": "ทำหน้าแบบที่ดูไม่ออกว่ากำลังร้องไห้หรือกำลังหัวเราะ"
+    },
+    {
+     "id": 1351,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "\"ชอบฟังคนอื่นพูดไม่จบ\" is ambiguous. It can be read as \"likes listening endlessly\". The source means \"tends not to listen to others until the end\".",
+     "fix": "ฉันมีนิสัยไม่ฟังคนอื่นพูดจนจบ"
+    }
+   ]
+  },
+  {
+   "batch": "b093",
+   "translator_note": "Batch b093 (Thai) is translated and checked: 0 errors and 3 warnings, all of them checker false positives.\n\nOutput: /home/claude/dich_th/translation/out/th/b093.json (10 items, ids 1352–1361; model claude-opus-5-5, prompt_ver 2, date 2026-11-11).\n\nHard or ambiguous items:\n- **1354, example 5** (彼は日本語はおろか、英語すら話せる): this is a positive use of はおろか, which is unusual. I translated the Japanese sentence as it stands and left out the Vietnamese hint's note \"(khẳng định nhấn mạnh bất ngờ)\", because examples are translated from the `jp` line only.\n- **1358, comparison**: the example cells (`言え ばものを…`, `言えばよかった のに。` and others) look like faulty Japanese, with stray spaces and an odd form. They contain only Japanese, so I copied them unchanged.\n- **1359, comparison**: the cell `<ruby>言<rt>いいかた</rt></ruby>い<ruby>方<rt></rt></ruby>` has broken ruby markup. It is Japanese only, so I copied it unchanged.\n- **1358, explain**: the source has bullets alone on a line (\"•\\n…\"). I kept that layout.\n- **1356, mistakes[2]**: the source uses ◯ (U+25EF) instead of ○. I kept it as in the source.\n- **1352–1356**: the Vietnamese meanings \"chứ đừng nói\" / \"khỏi nói\" / \"không nói làm gì\" are rendered as \"ไม่ต้องพูดถึง\" (and \"ก็ว่าไปอย่าง\" in the いざ知らず examples).\n- **1361**: \"Làm như…\" became \"ทำเหมือน…\" to keep it apart from 1360's \"Ra vẻ…\" (\"ทำท่าเหมือน…\").\n\nChecker false positives (left as they are):\n- **#1353.explain, \"thể khẳng định\"**: the source phrase is \"không thể khẳng định\", which means \"cannot assert\", not the affirmative form.\n- **#1354.mistakes[0], \"đảo ngữ\"**: the source says \"Đảo trật tự mức độ\", which means reversing the order of degree, not grammatical inversion.\n- **#1360.notes, \"số từ\"**: this is a substring of \"Một số từ gốc\" (\"some base words\"), not the term for numerals.\n\nScratch files are in /tmp/th_b093/, outside the workspace.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1352,
+     "score": 99,
+     "field": "mistakes[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Source says 'ngụy biện' (sophistry/excuse-making). Thai adds the idiom 'ข้าง ๆ คู ๆ' (evasive reasoning), which slightly shifts the nuance.",
+     "fix": "ใช้เพื่อแก้ตัวให้กับพฤติกรรมเชิงลบอย่างไม่เลือก → มีนัยของการอ้างเหตุผลเกินจริงและไม่สุภาพ"
+    },
+    {
+     "id": 1358,
+     "score": 99,
+     "field": "comparison[r3.2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'chê bai, phê phán' rendered as 'ดูถูก' (look down on), which is stronger than the source.",
+     "fix": "มีลักษณะตำหนิ วิจารณ์ผู้อื่น"
+    },
+    {
+     "id": 1360,
+     "score": 99,
+     "field": "meaning",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'ทำท่าเหมือน…' suggests pretending, which conflicts with the item's own explanation that ～びる is not 'giả bộ' like ～ぶる. 'Ra vẻ' here means 'take on the appearance of'.",
+     "fix": "ดูมีลักษณะ…"
+    }
+   ]
+  },
+  {
+   "batch": "b094",
+   "translator_note": "Batch b094 (Thai) is done. All 9 items (ids 1362–1370) are translated and written to `/home/claude/dich_th/translation/out/th/b094.json`. The checker reports 0 errors and 5 warnings, all of them false positives.\n\n**Hard or ambiguous items**\n- **1362 / 1363 (～ぶって / ～ぶる):** the source uses many overlapping Vietnamese words for \"putting on airs\" (làm bộ, ra vẻ, tỏ ra, giả vờ). I rendered them as ทำท่าเป็น / วางท่า / แสร้ง / ทำเป็นรู้ดี, keeping the \"mocking\" tone without making it stronger.\n- **1364 (～までだ):** I translated the example sentences from the Japanese with \"แค่…เท่านั้น\". Both meanings stay distinct: Vる \"no choice but to\" and Vた \"merely\".\n- **1367 (～も～なら、～も～だ):** the Vietnamese hints give literal \"X cũng ra X\" readings. I used idiomatic Thai like \"…ก็แย่ …ก็แย่พอกัน\" or \"…ก็อย่างนั้น …ก็อย่างนั้น\". The ironic meaning is kept, but these lines are not word-for-word.\n- **1370 notes:** the source says to avoid 来まい/すまい. Item 1368 says すまい is the more natural form. I translated both as written and did not reconcile them.\n- **Comparison tables:** cells with only Japanese or ruby markup were copied from the source by script, so they are unchanged character for character.\n\n**Checker false positives**\n- #1363.explain: \"Số lượng từ\" here means \"the number of words\", not a counter word (trợ số từ / ลักษณนาม).\n- #1364.explain, #1364.mistakes[1], #1364.comparison[r2.2]: \"khiêm nhường\" means \"humble\" (playing down one's own credit), not the honorific-language term 謙譲語. I used ถ่อมตน.\n- #1369.mistakes[2]: \"câu hỏi chọn mẫu\" means a JLPT test question, not an interrogative sentence. I used ข้อสอบ.\n\nThe scratch scripts are in `/tmp/claude-0/-home-claude/55316782-d577-5b41-afba-0d66fef55a0e/scratchpad/th_b094/`.",
+   "fix_rounds": [
+    {
+     "actions": [
+      {
+       "id": 1367,
+       "field": "examples[0]",
+       "action": "fixed",
+       "note": "Replaced the neutral 'พ่อแม่ก็เป็นอย่างนี้ ลูกก็เป็นอย่างนี้' with 'พ่อแม่ก็แย่ ลูกก็แย่พอกัน' so the sentence now says both sides are bad, which is what the pattern means, and it matches examples 1 and 2. check.py: 0 errors. Its 5 warnings are on items that weren't flagged (1363, 1364, 1369), so I left them alone."
+      }
+     ]
+    }
+   ],
+   "judge_issues": [
+    {
+     "id": 1362,
+     "score": 99,
+     "field": "examples[4]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ปฏิเสธไม่แจกลายเซ็น\" reads as a double negative and is awkward",
+     "fix": "การทำท่าเป็นคนดังแล้วปฏิเสธที่จะเซ็นลายเซ็นให้นั้นดูไม่ดี"
+    },
+    {
+     "id": 1365,
+     "score": 99,
+     "field": "comparison[r3.2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "\"ทีเดียวก็\" is not a natural Thai rendering of ついでに (tiện thể)",
+     "fix": "ถือโอกาสทำอีกอย่างด้วย"
+    },
+    {
+     "id": 1368,
+     "score": 99,
+     "field": "notes",
+     "category": "format",
+     "severity": "minor",
+     "note": "Separate points in the first and second bullets are run together without a separator (source uses ; and . between them), which hurts readability",
+     "fix": "• รูปมาตรฐาน: Vる＋まい; กับคำกริยากลุ่ม 一段 บางครั้งพบ Vまい ในภาษาพูด แต่ข้อสอบให้ความสำคัญกับ Vるまい"
+    }
+   ]
+  },
+  {
+   "batch": "b095",
+   "translator_note": "Batch b095 (th) is translated: 9 items, written to /home/claude/dich_th/translation/out/th/b095.json. The checker reports 0 errors and 0 warnings.\n\n**Checker:** the first run gave 2 glossary warnings, and I fixed both:\n- #1371, comparison row 2: now uses the glossary term รูปถูกกระทำ for \"bị động\".\n- #1378, notes: now uses the glossary term การละ for \"lược bỏ\".\n\n**Checker false positives:** none.\n\n**Hard or ambiguous items:**\n- **#1371:** \"chủ động\" means active voice here, the opposite of the passive (bị động), so I wrote รูปผู้กระทำ. The phrase \"sắc thái bị động\" is about meaning, not grammatical form, so I wrote นัยความหมายแบบถูกกระทำ. In example 3, 成り行きのがままに is unusual Japanese; I translated what it means and did not correct it.\n- **#1376 comparison:** \"Thích/ muốn V\" was translated literally as ชอบ/อยากจะ V. The same choice applies to #1377.\n- **#1377 mistakes:** \"mẫu 167\" points to another entry in the database. I kept the number as is (รูปไวยากรณ์ที่ 167).\n- **#1378 meaning:** I translated \"Điều không được phép…\" as สิ่งที่ไม่พึง… so the short label also fits the second sense, \"indispensable\" (欠くべからざる).\n- **#1379:** Several examples (ここでの喫煙するべからず etc.) and the notes contain questionable Japanese, such as 撮影斯くの如し. I translated them faithfully without changing anything. Example 3 (境内) became \"ภายในเขตศาลเจ้าหรือวัด\" (shrine or temple grounds), following the Vietnamese \"đền/chùa\".\n- **#1380 comparison:** the source gives \"Càng…càng\" for なるべく, which is inaccurate. I translated it faithfully as ยิ่ง…ยิ่ง… and kept the explanation in brackets.\n\nThe build script is at /tmp/th_b095/build.py, outside the workspace.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1371,
+     "score": 99,
+     "field": "examples[5]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "思うがままに means 'as one wishes/pleases'; 'ตามที่คิดได้' (whatever you can think of) shifts the nuance slightly",
+     "fix": "กรุณาแสดงความคิดเห็นตามใจคิดได้เลย"
+    },
+    {
+     "id": 1372,
+     "score": 99,
+     "field": "examples[4]",
+     "category": "style",
+     "severity": "minor",
+     "note": "'ปุ๊บ' is colloquial, slightly out of line with the neutral textbook register",
+     "fix": "พ่อกลับถึงบ้านก็เปิดทีวีทันที"
+    }
+   ]
+  },
+  {
+   "batch": "b096",
+   "translator_note": "Batch b096 (th) is done. Output: /home/claude/dich_th/translation/out/th/b096.json (9 items, ids 1381–1389, model claude-opus-5-5, prompt_ver 2, date 2026-11-11).\n\n**Checker:** `OK b096: 0 errors, 0 warnings`. The first run had 0 errors and 3 glossary warnings: \"lược bỏ\" should be การละ in #1382.explain and #1382.mistakes[2], and \"rút gọn\" should be รูปย่อ in #1384.notes. I fixed all three.\n\n**Checker false positives:** none.\n\n**Hard or ambiguous items:**\n- **#1382 mistakes[2]:** the source \"Sai chủ thể\" means \"wrong subject\". A literal Thai rendering, ผู้กระทำผิด, would read as \"wrongdoer\", so I wrote \"ผิดเรื่องผู้กระทำ\".\n- **#1385 explain:** the source says \"có thể dùng ... phủ định hiếm khi\" in a slightly unclear way. I translated it as written. The source also says 真面目な is an i-adjective, which is wrong (it is a na-adjective). Per the rules, I kept \"i\" as in the source and did not correct it.\n- **#1387 mistakes[1]:** the source repeats \"～で/～で\". I kept the repeat.\n- **#1387 examples:** ～をもって has two senses here, a time cutoff and a means. I wrote each example to fit its own sense, e.g. \"มีผลตั้งแต่วันนี้\" for the cutoff.\n- **#1388:** the source uses \"tiền đề\" (premise) throughout. I wrote สมมติฐานเบื้องต้น / ตั้งอยู่บนสมมติฐาน, and used the glossary term เงื่อนไข only in the meaning field, where the source says \"điều kiện\". In the comparison table the explanatory cells became Thai; cells that contained only Japanese were copied unchanged.\n- **#1384 notes:** I kept the label `meaning_vi:` as a key and translated only the text after it, as the style guide says.\n- **#1381 and #1385 comparison:** ruby cells with empty `<rt></rt>` (言い方, 言い訳) were copied exactly as in the source.\n\nScratch files are in /tmp/claude-0/-home-claude/55316782-d577-5b41-afba-0d66fef55a0e/scratchpad/th_b096/, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1381,
+     "score": 99,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'bài luận' (essay) rendered as 'บทความเชิงวิเคราะห์' (analytical article), slight shift.",
+     "fix": "ส่วนใหญ่ใช้ในภาษาเขียน เรียงความ และหนังสือพิมพ์"
+    },
+    {
+     "id": 1383,
+     "score": 99,
+     "field": "notes",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'kịch tính' (dramatic) rendered as 'ตื่นเต้น' (exciting), slightly different nuance.",
+     "fix": "เป็นทางการและให้ความรู้สึกเร้าใจ/ดราม่ากว่า"
+    },
+    {
+     "id": 1385,
+     "score": 99,
+     "field": "comparison[r3.1]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'phủ định nhẹ' here means mildly negative nuance; 'ปฏิเสธเล็กน้อย' reads as mild negation/refusal.",
+     "fix": "มักจะ, ชอบ (นัยเชิงลบเล็กน้อย)"
+    },
+    {
+     "id": 1386,
+     "score": 98,
+     "field": "examples[4]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ไม่มีอื่นใดนอกจากแผนนี้' is awkward; also drops that this is the proposal reaching the final.",
+     "fix": "ตัวเลือกสุดท้าย ไม่มีอะไรอื่นนอกจากแผนนี้"
+    },
+    {
+     "id": 1386,
+     "score": 98,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'ไม่มีใครเหมือน' adds a meaning (incomparable) not in 'độc nhất/duy nhất'.",
+     "fix": "ยืนยันความเป็นหนึ่งเดียว: \"นอกจาก N แล้วไม่มีตัวเลือกอื่นอีก\""
+    },
+    {
+     "id": 1387,
+     "score": 98,
+     "field": "explain",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'danh từ ... định danh' translated as 'คำนามเฉพาะ' (proper noun), which narrows/changes the meaning.",
+     "fix": "นิยมใช้กับคำนามนามธรรมหรือคำนามที่ระบุสิ่งชัดเจน"
+    },
+    {
+     "id": 1387,
+     "score": 98,
+     "field": "examples[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'ดิฉัน' adds a female-speaker assumption not in the source.",
+     "fix": "ขอลาออกโดยมีผลตั้งแต่วันนี้เป็นต้นไป"
+    },
+    {
+     "id": 1389,
+     "score": 99,
+     "field": "examples[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "The 'boundary/turning point' nuance of を境に is lost; only 'when he started working'.",
+     "fix": "เมื่อเริ่มทำงานเป็นจุดเปลี่ยน เขาก็ออกจากบ้านเกิดไป"
+    }
+   ]
+  },
+  {
+   "batch": "b097",
+   "translator_note": "Batch b097 (Thai) is done: all 30 items are in /home/claude/dich_th/translation/out/th/b097.json, with model claude-opus-5-5, prompt_ver 2 and date 2026-11-11.\n\nChecker result: no errors and no warnings (`OK  b097: 0 loi, 0 canh bao`). I found no checker false positives.\n\nItems that were hard or ambiguous:\n- **1397**: the notes contain a garbled source line, \"Không gộp với ～たる～ (): khác point.\", with empty brackets and a stray English word. I translated it as written, empty brackets included, without trying to repair it.\n- **1393 and 1395**: the mistake lines use the source's own markers (`◯` in 1393, `(x)`/`(o)` in 1395). I kept them exactly as they are and did not change them to the usual `×`/`○`.\n- **1394**: the source uses both `-` and `•` bullets in the same explain field. I kept both as they are.\n- **1403**: the first example contains a Japanese sign text in 「」. I kept it in Japanese and added a Thai meaning in brackets after it.\n- **1412**: the Vietnamese hint for example 3 (\"E rằng… chẳng phải… sao?\") mixes a worry with a question. I translated from the Japanese instead, as a hedged guess (\"อาจจะ…ก็ได้กระมัง\").\n- **1404, 1408, 1419**: these examples have idiomatic meanings: べくして (\"bound to happen\"), the regretful tone of だろうに (I used \"…แท้ ๆ\"), and 伸び放題 (\"overgrown\"). I gave natural Thai readings rather than literal ones.\n\nThe helper scripts are in /tmp/th_b097/, outside the translation folder.",
+   "fix_rounds": [
+    {
+     "actions": [
+      {
+       "id": 1393,
+       "field": "explain",
+       "action": "fixed",
+       "note": "The reviewer was right: 前提 means a premise, not evidence. In the explain field, หลักฐาน / หลักฐานเบื้องต้น is replaced with ข้อตั้งต้น: \"โดยมีข้อตั้งต้นหรือสมมติฐานว่า …\" and \"ข้อตั้งต้นถือเป็นเงื่อนไขจำเป็น หากข้อตั้งต้นเปลี่ยนไป …\". The same mistranslation (หลักฐานเบื้องต้น) is still in fields that were not flagged: notes bullet 3 and comparison rows 1-2, column 2. I left those unchanged because the instructions allow editing only the flagged fields; they should be flagged for a follow-up fix. check.py: 0 errors, 0 warnings."
+      },
+      {
+       "id": 1402,
+       "field": "examples[0]",
+       "action": "fixed",
+       "note": "The reviewer was right: คิดถึง means 'miss', but 君のためを思えば means 'thinking of your good'. Changed to \"ก็เพราะคิดเพื่อเธอนั่นแหละ ถึงได้พูดอย่างเข้มงวด\". check.py: 0 errors, 0 warnings."
+      }
+     ]
+    },
+    {
+     "actions": [
+      {
+       "id": 1393,
+       "field": "notes",
+       "action": "fixed",
+       "note": "The reviewer is right: the source says 'tiền đề' (premise), so 'หลักฐานเบื้องต้น' (preliminary evidence) was wrong. I changed it to 'ข้อตั้งต้น', which matches the explain field, and edited only the notes field. check.py passed with 0 errors and 0 warnings. The comparison rows of the same item (meaning column, rows 1-2) still say 'หลักฐานเบื้องต้น'. I left them because they were not flagged, but they should be changed to ข้อตั้งต้น too."
+      }
+     ]
+    }
+   ],
+   "judge_issues": [
+    {
+     "id": 1391,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Added 'เป็นครั้งแรก' (for the first time) which is not in the source.",
+     "fix": "หลังจากได้รับรางวัลนี้ ก็มีงานติดต่อเข้ามาไม่ขาดสาย"
+    },
+    {
+     "id": 1393,
+     "score": 89,
+     "field": "comparison[r1.1]",
+     "category": "accuracy",
+     "severity": "major",
+     "note": "前提 (tiền đề / premise) rendered as 'หลักฐานเบื้องต้น' (preliminary evidence), which is a wrong meaning and misleads the learner.",
+     "fix": "โดยมีข้อตั้งต้นว่า…"
+    },
+    {
+     "id": 1393,
+     "score": 89,
+     "field": "comparison[r2.1]",
+     "category": "accuracy",
+     "severity": "major",
+     "note": "Same mistranslation: 'tiền đề' rendered as 'หลักฐานเบื้องต้น' (evidence). It should be the premise or starting assumption, consistent with explain.",
+     "fix": "ถือ N เป็นข้อตั้งต้น"
+    },
+    {
+     "id": 1393,
+     "score": 89,
+     "field": "examples[2]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ตั้งอยู่บนพื้นฐานที่จะใช้ระบบ' is awkward and stilted for 活用する前提で.",
+     "fix": "ออกแบบโดยถือว่าจะใช้ประโยชน์จากระบบที่มีอยู่เดิม"
+    },
+    {
+     "id": 1397,
+     "score": 99,
+     "field": "examples[4]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'พอสมควร' (moderately) weakens 懸念するに足る (enough to warrant concern).",
+     "fix": "สถานการณ์นี้น่าเป็นห่วง (มีเหตุให้กังวล)"
+    },
+    {
+     "id": 1399,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "'พูดตรง ๆ' adds meaning, while あえて (daring to say it anyway) is not conveyed.",
+     "fix": "แม้รู้ดีว่าจะถูกคัดค้าน แต่ขออนุญาตพูดอย่างกล้าหาญ"
+    },
+    {
+     "id": 1403,
+     "score": 99,
+     "field": "examples[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Added a Thai gloss in parentheses and dropped the 'sign' (biển) idea; source only states it is written on a sign.",
+     "fix": "มีป้ายเขียนไว้ว่า「芝生に入るべからず」"
+    }
+   ]
+  },
+  {
+   "batch": "b098",
+   "translator_note": "Report for b098 (th), written to /home/claude/dich_th/translation/out/th/b098.json. All 40 items are translated.\n\n**Checker result:** `OK b098: 0 loi, 0 canh bao`, so no errors and no warnings. There are no checker false positives to list.\n\n**Items that were hard or ambiguous:**\n- **1432 まくる:** The Vietnamese meaning \"…lấy…để, …liên hồi\" is partly garbled. I translated it by the sense the examples show (\"ไม่หยุด …อย่างบ้าคลั่ง\") and did not copy the odd first part literally.\n- **1424 じみた:** The source says \"sắc thái xấu\", which I rendered with the glossary term นัยความหมาย (\"มีนัยความหมายในทางลบ\").\n- **1442 に至るまで:** The source says \"liệt kê\", which I rendered with the glossary term การแจกแจง.\n- **1461 を兼ねて:** The source says \"mục đích\", which I rendered with the glossary term จุดประสงค์.\n- **1444 に至っては:** It was hard to give the \"even worse, as for X\" sense in a short meaning field. I used \"ส่วน…นั้น (ยิ่งกว่า) / พอถึงกรณีของ…\".\n- **1451 に足る:** In example 1 (信頼するに足る人物), \"น่าไว้วางใจ\" does not spell out the \"worthy of\" sense of に足る in so many words.\n- **1438 何しろ:** In example 3, 何しろ is rendered as \"มากจริง ๆ\". It reads naturally, but the word for 何しろ itself is not there.\n\nThe script that builds the output is at /tmp/claude-0/-home-claude/55316782-d577-5b41-afba-0d66fef55a0e/scratchpad/th_b098/build.py, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1425,
+     "score": 99,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Adds 'two sides' (สองฝ่าย); source only says opinions were divided.",
+     "fix": "ความเห็นแตกแยกกันในเรื่องว่าจะดำเนินแผนหรือไม่"
+    },
+    {
+     "id": 1438,
+     "score": 98,
+     "field": "examples[0]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'ยังไงก็ร้อนมากเสียจน...' is awkward; 何しろ ('the fact is / after all') is not conveyed naturally.",
+     "fix": "ก็ร้อนมากเสียจนไม่มีอารมณ์จะทำอะไรเลย"
+    },
+    {
+     "id": 1438,
+     "score": 98,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "何しろ nuance is dropped entirely in the translation.",
+     "fix": "ก็คนเยอะมากจริง ๆ จนเดินไปข้างหน้าไม่ได้"
+    },
+    {
+     "id": 1451,
+     "score": 99,
+     "field": "examples[0]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "に足る nuance (worthy of trust) is weakened to a plain adjective.",
+     "fix": "เขาเป็นบุคคลที่คู่ควรแก่การไว้วางใจ"
+    }
+   ]
+  },
+  {
+   "batch": "b099",
+   "translator_note": "Batch b099 (Thai) is finished: all 40 items (ids 1464–1503) are translated and written to `/home/claude/dich_th/translation/out/th/b099.json`. The checker reports 0 errors and 0 warnings, so there are no checker false positives to list.\n\nItems I found hard or ambiguous:\n- **1502** – the connection field contains the English words \"How to use\" inside a vi_parts field. I translated them as \"วิธีใช้\" so no foreign prose is left for Thai readers. Everything Japanese and the arrow notation are kept exactly.\n- **1483** – the meaning \"Cứ… đi rồi ráng chịu\" is an idiom, translated as \"…ไปเถอะ แล้วจะรับผลเอง\". The examples use the natural Thai \"ก็ไม่รู้ด้วยนะ\" for ても知らない.\n- **1488** – \"Ai chứ… mà lại thế\" has no close Thai equivalent, so I used \"ไม่น่าเชื่อว่า…จะเป็นแบบนี้\" (\"hard to believe that … would be like this\").\n- **1485** – example 3 follows the Vietnamese hint's double-negative nuance: \"ก็ไม่ใช่ว่าจะพูดไม่ได้ว่า…\" (\"it's not that one can't say…\").\n- **1466** – the meaning keeps the source's example 辛い思いをする unchanged, even though it doesn't match this item's own examples.\n- **Placeholders** – \"[câu/mệnh đề]\" is rendered \"[ประโยค/อนุประョค]\" and \"V thể thường\" / \"V thể ý chí\" as \"V รูปธรรมดา\" / \"V รูปเจตนา\". This matches the earlier batches and the glossary.\n\nThe build script is at `/tmp/claude-0/-home-claude/55316782-d577-5b41-afba-0d66fef55a0e/scratchpad/th_b099/build.py`, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1469,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "「外に出てもらいます」 is rendered as a bare 'จะต้องให้ออกไปข้างนอก', which is ambiguous about who does what; a request/ask-to-leave phrasing is more natural.",
+     "fix": "เงียบ ๆ หน่อย ไม่อย่างนั้นจะต้องขอให้ออกไปข้างนอก"
+    },
+    {
+     "id": 1484,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "'พูดขึ้นมาราวกับว่า \"...\"' is awkward; 発言した (spoke up) combined with とばかりに reads more naturally as 'ลุกขึ้นพูดราวกับจะบอกว่า'.",
+     "fix": "เธอลุกขึ้นพูดราวกับจะบอกว่า \"นี่แหละคือโอกาส\""
+    }
+   ]
+  },
+  {
+   "batch": "b100",
+   "translator_note": "Batch b100 (Thai) is finished: all 40 items are translated and the checker passes with no errors and no warnings. Output is at `/home/claude/dich_th/translation/out/th/b100.json`.\n\nItems that were hard or ambiguous:\n- **1570** (explain): the Japanese source has 「若しことば」, which looks like a typo for 話しことば (\"spoken language\"). I translated it as ภาษาพูด (spoken language).\n- **1577** (explain): the Japanese source has 「医用的」, which looks like a typo for 慣用的 (\"idiomatic\"). I translated it as แบบสำนวน (idiomatic). The odd label 「6. ⑦」 is kept as the source wrote it.\n- **1573** (example 2): 「安楽器」 looks garbled (perhaps 弦楽器, string instrument). I translated it neutrally as เครื่องดนตรี (\"musical instrument\"). In the same sentence 「和まって」 was read as 相まって.\n- **1569** (example 3): the Japanese sentence is cut off at 「恐れが」. The Thai keeps it unfinished and ends with \"…\", as the Vietnamese hint does.\n- **1526** (example 2): I kept 「蓮華」 in Japanese because the sentence defines that word. In example 1, パソコン became \"คอมพิวเตอร์ส่วนบุคคล\" (\"personal computer\").\n- **1521** (example 1): 訳あり商品 is translated as \"สินค้ามีตำหนิ\" (\"flawed goods\"). The Vietnamese hint's extra note in brackets is not carried over.\n- **1576 and 1578**: the `explain` text was in English, and I translated it from English. 1576 mentions an \"example sentence\" that is not in the item; I translated that faithfully.\n- **1524 and 1527**: I left out gendered politeness particles (ครับ/ค่ะ) in the A/B dialogues because the speakers' gender isn't known. In 1527 I did not add a Thai gloss after 「何となくそんな気がする」.\n\nChecker: `OK b100: 0 loi, 0 canh bao` (\"0 errors, 0 warnings\"). No false positives.\n\nScratch scripts are in `/tmp/th_b100/`, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1507,
+     "score": 99,
+     "field": "examples[1]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Slightly stilted rendering of なんて優しい人なんだろう",
+     "fix": "ช่างเป็นคนที่ใจดีเสียจริง"
+    },
+    {
+     "id": 1519,
+     "score": 99,
+     "field": "examples[0]",
+     "category": "style",
+     "severity": "minor",
+     "note": "Pronoun 'ข้า' is archaic and does not match coarse 俺/あいつ colloquial register",
+     "fix": "ไอ้หมอนั่น บังอาจขโมยเงินของกู"
+    },
+    {
+     "id": 1576,
+     "score": 99,
+     "field": "explain",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Literal carry-over of the English 'X means The grammar point...' gives an awkward opening in Thai",
+     "fix": "のみか ใช้แสดงว่าไม่เพียงแต่ข้อเท็จจริงแรกที่กล่าวถึงเป็นความจริง แต่ยังมีข้อเท็จจริงเพิ่มเติม..."
+    },
+    {
+     "id": 1578,
+     "score": 99,
+     "field": "explain",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Opening 'หมายถึง แสดง...' is clumsy, a literal carry-over of the English 'means Indicates'",
+     "fix": "もあろう（数量詞＋もあろう） ใช้แสดงปริมาณหรือจำนวนที่มากอย่างน่าประหลาดใจ..."
+    }
+   ]
+  },
+  {
+   "batch": "b101",
+   "translator_note": "I translated batch b101 (5 items, ids 1579–1583) into Thai and wrote it to /home/claude/dich_th/translation/out/th/b101.json. The checker reports 0 errors and 0 warnings.\n\nItems that were hard or ambiguous:\n- **1579**: The Japanese explanation is a meaning written as a Japanese quote (「それを出発点として」). I translated it as a Thai quote in \" \", as the earlier Thai batches (e.g. b076) do. The alternative forms 「…をかわきりにして」「…をかわきりとして」 and the reference number （６４８） are kept unchanged. The glossary term for \"điểm xuất phát\" (จุดเริ่มต้น) is used in the meaning field.\n- **1580**: In the name and connection fields, only the Vietnamese parts were translated (\"nghi vấn từ\" → คำแสดงคำถาม, \"trợ từ\" → คำช่วย). The plant 沈丁花 (daphne) is rendered as ดอกแดฟนี.\n- **1582**: The explanation refers to example \"1.\" by number, so I kept \"1.\" in the Thai text. The full-width ２ in example 4 is written as the Arabic numeral 2, as the style guide requires.\n- **1581 and 1583**: Both entries have only examples and explain fields. The にしたって sense is rendered as แม้แต่… for nouns (1581) and ต่อให้…ก็ตาม for verbs (1583).\n\nChecker false positives: none.\n\nThe build script is in /tmp/th_b101/, outside the translation folder.",
+   "fix_rounds": [],
+   "judge_issues": [
+    {
+     "id": 1583,
+     "score": 98,
+     "field": "examples[0]",
+     "category": "fluency",
+     "severity": "minor",
+     "note": "Redundant 'ต่อให้จะ ... ก็ตาม' sounds clumsy",
+     "fix": "ต่อให้ตักเตือนผู้อื่น ก็ควรระวังการใช้ถ้อยคำให้มากกว่านี้อีกสักหน่อย"
+    },
+    {
+     "id": 1583,
+     "score": 98,
+     "field": "examples[2]",
+     "category": "accuracy",
+     "severity": "minor",
+     "note": "Adds potential 'ได้' not in 休暇をとる (take leave)",
+     "fix": "ต่อให้ลาพักร้อน จะไปเที่ยวก็เป็นไปไม่ได้เลย"
+    }
+   ]
+  }
+ ]
+}
