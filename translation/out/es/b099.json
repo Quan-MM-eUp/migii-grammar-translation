@@ -1,0 +1,746 @@
+{
+ "batch": "b099",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 1464,
+   "src_hash": "74b6af76c37d5a62",
+   "fields": {
+    "meaning": "A pesar de (la oposición)…, superando… (を押して)",
+    "examples": [
+     "A pesar de estar enfermo, participó en el partido.",
+     "Venciendo la oposición de quienes los rodeaban, los dos se casaron.",
+     "A pesar de la oposición de mi familia, decidí estudiar en el extranjero."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1465,
+   "src_hash": "4fac851f11bf1802",
+   "fields": {
+    "meaning": "A partir de… (punto de un gran cambio: を境に)",
+    "examples": [
+     "A partir de aquel incidente, la relación entre los dos cambió.",
+     "A partir de los 40 años, empecé a notar que mi fuerza física disminuía.",
+     "Desde la mudanza, no lo he vuelto a ver."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1466,
+   "src_hash": "7828e81f255f228f",
+   "fields": {
+    "meaning": "Sentir…, pasar por la experiencia de… (辛い思いをする)",
+    "examples": [
+     "Pasé vergüenza en el tren.",
+     "De niño, crecí sintiéndome solo.",
+     "No quiero volver a pasar miedo nunca más."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1467,
+   "src_hash": "9af6bed80e269bdc",
+   "fields": {
+    "meaning": "Aproximadamente…; en general…; en absoluto (no) (およそ)",
+    "connection": "およそ + Cantidad / およそ + N",
+    "examples": [
+     "Hasta la estación se tarda aproximadamente 20 minutos.",
+     "Esa historia no es realista en absoluto.",
+     "En general, lo importante en el estudio es la constancia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1468,
+   "src_hash": "b6283c5176b618dc",
+   "fields": {
+    "meaning": "Con aire de…, como si… (さも)",
+    "connection": "さも + [oración/cláusula] + (そうに/そうな) [oración/cláusula] + (ように/ような)",
+    "examples": [
+     "Habló como si fuera mérito suyo.",
+     "El gato duerme con aire de estar muy a gusto.",
+     "Ella puso cara como de estar muy sorprendida."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1469,
+   "src_hash": "790892e79c23580a",
+   "fields": {
+    "meaning": "Si no…, de lo contrario… (さもないと)",
+    "connection": "[oración/cláusula] 1 + さもないと さもなければ + [oración/cláusula] 2",
+    "examples": [
+     "Sal pronto. Si no, llegarás tarde.",
+     "Guarde silencio. De lo contrario, tendré que pedirle que salga.",
+     "Más vale que te disculpes ahora mismo. Si no, él no te perdonará."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1470,
+   "src_hash": "ed7d039d798f0b33",
+   "fields": {
+    "meaning": "Perder la ocasión de…, no llegar a… (V+そびれる)",
+    "examples": [
+     "Se me pasó el momento y no llegué a darle las gracias.",
+     "Estaba tan ocupado que no llegué a almorzar.",
+     "Hay algo que no llegué a preguntar, así que volveré a contactarle."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1471,
+   "src_hash": "19f8b7f7ae27ca5d",
+   "fields": {
+    "meaning": "Fallar al…, hacer mal… (損なう/損ねる)",
+    "examples": [
+     "Me quedé dormido y perdí el tren.",
+     "Me expresé mal y terminé por ponerlo de mal humor.",
+     "Las postales mal escritas se pueden cambiar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1472,
+   "src_hash": "d13e5045efa33c9b",
+   "fields": {
+    "meaning": "No haber manera de… (術がない)",
+    "examples": [
+     "No sé cómo contactarlo, así que no hay manera de avisarle.",
+     "En aquella época no había manera de curar esta enfermedad.",
+     "No hay manera de comprobar la verdad."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1473,
+   "src_hash": "731d24fc47f8f547",
+   "fields": {
+    "meaning": "Justo en el momento de… (sin intención: た弾みに/た拍子に)",
+    "examples": [
+     "Al caerme, las gafas salieron volando.",
+     "Al levantarme, me di un golpe en la cabeza.",
+     "Al cerrar la puerta, me pillé el dedo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1474,
+   "src_hash": "6508be4e9ad8dff4",
+   "fields": {
+    "meaning": "Hacer como si ya…, considerar que… (たことにする)",
+    "examples": [
+     "Hagamos como si no hubiera oído lo que acabas de decir.",
+     "Por favor, haga como si esa promesa nunca hubiera existido.",
+     "Sobre el papel, consta que la reunión se celebró."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1475,
+   "src_hash": "5ed20bb38b9d1762",
+   "fields": {
+    "meaning": "No tener ninguna intención de… (たつもりはない)",
+    "examples": [
+     "No era mi intención herirte.",
+     "No pretendía mentir.",
+     "No era mi intención dar una orden, pero parece que sonó así."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1476,
+   "src_hash": "677e01a5dee55269",
+   "fields": {
+    "meaning": "Solo queda…, no queda más que… (ただ～のみだ)",
+    "examples": [
+     "Los preparativos han terminado. Ahora solo queda esperar el resultado.",
+     "No pondré excusas. Solo me queda pedir perdón.",
+     "Llegados a este punto, no queda más que seguir adelante."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1477,
+   "src_hash": "5b9cbca579282a69",
+   "fields": {
+    "meaning": "Nunca ha ocurrido que…, nunca… (ためしがない)",
+    "examples": [
+     "Él nunca ha llegado a la hora.",
+     "Este plan nunca ha salido bien.",
+     "Mi hermano menor nunca ha cumplido una promesa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1478,
+   "src_hash": "bfaec309d1b00f58",
+   "fields": {
+    "meaning": "Si…, habría… (suposición contraria a la realidad: たら～ところだ)",
+    "connection": "たら ば なら + [oración/cláusula] + V forma simple + ところだ",
+    "examples": [
+     "Si hubiera llegado 5 minutos más tarde, habría perdido el tren.",
+     "Si no me lo hubieras dicho, habría cometido un gran error.",
+     "Si no hubiera tenido seguro, habría sido un desastre."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1479,
+   "src_hash": "688fb7dacc7695be",
+   "fields": {
+    "meaning": "Siendo…, se debe… (posición: たる者)",
+    "examples": [
+     "Un profesor, por el hecho de serlo, debe ser un ejemplo para sus alumnos.",
+     "Quien es líder no debe rendirse fácilmente.",
+     "Un político, por su condición, debe escuchar la voz del pueblo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1480,
+   "src_hash": "73688c2cba538590",
+   "fields": {
+    "meaning": "…es lo natural, debería… (てしかるべきだ)",
+    "examples": [
+     "Sus méritos deberían valorarse más.",
+     "Este asunto debería debatirse en el Parlamento.",
+     "¿No sería lo natural que hubiera una disculpa?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1481,
+   "src_hash": "65914c1b3b8c9f23",
+   "fields": {
+    "meaning": "No basta con… para resolverlo (て済むことではない)",
+    "examples": [
+     "Esto no se resuelve con una disculpa.",
+     "No es algo que se resuelva con dinero.",
+     "No basta con decir «No lo sabía»."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1482,
+   "src_hash": "818e44f325fd7664",
+   "fields": {
+    "meaning": "Aunque…, no sirve de nada (てもどうにもならない)",
+    "examples": [
+     "Ya no sirve de nada arrepentirse.",
+     "Preocuparte tú solo no sirve de nada.",
+     "Llorar no resuelve nada."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1483,
+   "src_hash": "0c0ec620b5bb8484",
+   "fields": {
+    "meaning": "Si…, allá tú (advertencia: ても知らない)",
+    "examples": [
+     "Si comes tanto y te duele el estómago, allá tú.",
+     "Si te quedas jugando hasta tarde y mañana no puedes levantarte, no me eches la culpa.",
+     "Si no haces caso del consejo y fracasas, allá tú."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1484,
+   "src_hash": "7d8d7b2424cb5a20",
+   "fields": {
+    "meaning": "Como queriendo decir… (とばかりに)",
+    "connection": "[oración/cláusula] + とばかりに",
+    "examples": [
+     "Señaló la puerta como diciendo «¡Vete!».",
+     "Como si pensara «ahora es la ocasión», ella tomó la palabra.",
+     "El perro mueve la cola como diciendo que quiere jugar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1485,
+   "src_hash": "ce8b15f7c18bacfb",
+   "fields": {
+    "meaning": "Se podría decir que… (と言えなくもない)",
+    "connection": "V forma simple + と言えなくもない / N + (だ/である) / Na + (だ/である) / Aい",
+    "examples": [
+     "Se podría decir que su opinión tiene algo de razón.",
+     "A este precio, se podría decir que es barato.",
+     "No sería del todo falso decir que la responsabilidad es mía."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1486,
+   "src_hash": "50e4f7a949bfba91",
+   "fields": {
+    "meaning": "En cuanto se ve que…, enseguida… (と見るや)",
+    "connection": "V forma simple + とみるや",
+    "examples": [
+     "En cuanto vio que no venían clientes, la tienda empezó de inmediato a bajar los precios.",
+     "En cuanto vio que la situación le era desfavorable, cambió de estrategia.",
+     "En cuanto vio la oportunidad, ella atacó de golpe."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1487,
+   "src_hash": "b8b940a88bf419af",
+   "fields": {
+    "meaning": "A la mínima…, tender a… (ともすれば)",
+    "connection": "ともすれば + [oración/cláusula] (suele ir con ～がちだ)",
+    "examples": [
+     "Cuando se vive solo, la rutina tiende a volverse irregular.",
+     "Cuando se está ocupado, se tiende a descuidar la salud.",
+     "Aunque tendemos a olvidarlo, la gratitud es importante."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1488,
+   "src_hash": "82fe94999d8e59e5",
+   "fields": {
+    "meaning": "Precisamente…, y aun así… (としたことが)",
+    "examples": [
+     "¡Precisamente yo, olvidar unos documentos tan importantes!",
+     "¡Que alguien tan prudente como él cometa un error así!",
+     "¡Que un profesional se equivoque en lo básico!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1489,
+   "src_hash": "321f8a31ad00f5e1",
+   "fields": {
+    "meaning": "Al instante, en un abrir y cerrar de ojos (とっさに)",
+    "examples": [
+     "Venía un coche, así que me aparté de un salto al instante.",
+     "Cuando me preguntaron el nombre, no supe responder en el momento.",
+     "Una decisión instantánea salvó una vida."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1490,
+   "src_hash": "418166e0b41c3e7d",
+   "fields": {
+    "meaning": "Incluso…, aunque sea… (とて)",
+    "examples": [
+     "Ni siquiera los padres lo saben todo de sus hijos.",
+     "Incluso los expertos se equivocan a veces.",
+     "Incluso el presidente de la empresa debe cumplir las normas."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1491,
+   "src_hash": "af045cb164d2ffe0",
+   "fields": {
+    "meaning": "Muy diferente de…, totalmente distinto a… (とは打って変わって)",
+    "examples": [
+     "A diferencia de la lluvia de ayer, hoy hace un día espléndido.",
+     "Muy distinto de su actitud habitual, estaba serio.",
+     "En un cambio total respecto al mes pasado, las ventas están creciendo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1492,
+   "src_hash": "2f9198643896160e",
+   "fields": {
+    "meaning": "…por completo, …del todo (V+尽くす)",
+    "examples": [
+     "Conoce esa ciudad como la palma de su mano.",
+     "El incendio redujo a cenizas todos los bienes de la casa.",
+     "Estoy tan agradecido que no hay palabras para expresarlo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1493,
+   "src_hash": "80ec208673132c25",
+   "fields": {
+    "meaning": "¡Que ya te dije que…! (reproche: ってば/ったら)",
+    "connection": "[oración/cláusula] + ってば ったら / N + (だ) Na + (だ)",
+    "examples": [
+     "¡Que ya lo entendí! No lo repitas tantas veces.",
+     "¡Ay, mamá! Otra vez no me está escuchando.",
+     "¡Que sí voy! Espera un poco."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1494,
+   "src_hash": "4af388b80bb03331",
+   "fields": {
+    "meaning": "No llegar a contar como…, no merecer llamarse… (うちに入らない)",
+    "connection": "V forma simple + うちに(は)入らない / N + の / Na / Aい",
+    "examples": [
+     "Una lluvia así no cuenta como lluvia.",
+     "Estudiar 3 meses no cuenta como haber estudiado.",
+     "Ese nivel de picante no se puede llamar picante."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1495,
+   "src_hash": "a0735594ec80b52e",
+   "fields": {
+    "meaning": "Desatendiendo…, dejando… de lado (をそっちのけで)",
+    "examples": [
+     "Mi hijo deja de lado los deberes y se pone a jugar a videojuegos.",
+     "Deja el trabajo de lado y se entrega a sus aficiones.",
+     "Dejando de lado el orden del día de la reunión, la charla siguió y siguió."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1496,
+   "src_hash": "20be8f14f4c4767a",
+   "fields": {
+    "meaning": "Entre que… y que… (enumeración con matiz negativo: わ～わで)",
+    "connection": "V forma simple + わ + V forma simple + わ(で) / Aいわ + Aいわ(で) / Naだわ + Naだわ(で)",
+    "examples": [
+     "Entre que perdí la cartera y que me pilló la lluvia, fue el peor día.",
+     "Entre que el tren se retrasó y que llegué tarde a la reunión, fue un desastre.",
+     "Entre que el niño lloraba y que sonaba el teléfono, fue agotador."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1497,
+   "src_hash": "0bce5f246ec652f5",
+   "fields": {
+    "meaning": "En cuanto…, inmediatamente… (や否や)",
+    "examples": [
+     "En cuanto abrí la puerta, el gato salió disparado.",
+     "En cuanto se metió en la cama, se quedó dormido.",
+     "En cuanto salió a la venta, el producto se agotó."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1498,
+   "src_hash": "d89962b4c1250e5a",
+   "fields": {
+    "meaning": "Que si… que si… (やれ～やれ～)",
+    "connection": "やれ + N + だ(の) + やれ + N + だ(の) + と / [oración/cláusula] + [oración/cláusula]",
+    "examples": [
+     "Que si horas extra, que si trabajar en días festivos: últimamente no tengo ni un momento de descanso.",
+     "Mi madre no para: que si estudia, que si ordena tu cuarto.",
+     "Que si le duele la cabeza, que si está cansado: él no hace más que quejarse."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1499,
+   "src_hash": "52e538f0d7032133",
+   "fields": {
+    "meaning": "Por mucho que…, aunque… (ようが/ようと)",
+    "connection": "V (V forma volitiva) + が と(も) / N + だろう/であろう / Na + だろう/であろう / Aい + かろう",
+    "examples": [
+     "Digan lo que digan los demás, no me importa.",
+     "Por caro que sea, compro lo que necesito.",
+     "Aunque llueva, el partido se celebrará."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1500,
+   "src_hash": "0c71ebc9d8873ed7",
+   "fields": {
+    "meaning": "Ya sea… o… (ようが～ようが)",
+    "connection": "V (V forma volitiva) + が と(も) / N + だろう/であろう / Na + だろう/であろう / Aい + かろう",
+    "examples": [
+     "Llores o grites, la decisión no cambiará.",
+     "Llueva o haga viento, corro todos los días.",
+     "Aunque se opongan o se rían de mí, lo haré."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1501,
+   "src_hash": "3760203861356972",
+   "fields": {
+    "meaning": "Según cómo se… (ようによっては)",
+    "examples": [
+     "Según cómo se mire, un fracaso también es una buena experiencia.",
+     "Según cómo se mire, este cuadro también parece una cara humana.",
+     "Según cómo se use, esta herramienta es muy útil."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1502,
+   "src_hash": "00225d49a453b271",
+   "fields": {
+    "meaning": "Tanto si… como si no… (ようと～まいと)",
+    "connection": "V (V forma volitiva) + と + V + まいと が + V + まいが / Cómo usar まい るV -> Vるまい / V ます まい うV -> Vるまい くる -> こまい / くるまい する -> しまい / すまい / するまい",
+    "examples": [
+     "Llueva o no, saldremos según lo previsto.",
+     "Venga él o no, empezaremos la reunión.",
+     "Lo crea la gente o no, esto es un hecho."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1503,
+   "src_hash": "914da60b26abbf4f",
+   "fields": {
+    "meaning": "…¡eh!, …¿vale? (partícula final de habla masculina, énfasis: ぞ/ぜ)",
+    "connection": "[oración/cláusula] / ぞ / ぜ",
+    "examples": [
+     "¡Venga, vamos!",
+     "Si llegas tarde, te dejamos atrás, ¿eh?",
+     "¡Este es un partido importante, eh!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

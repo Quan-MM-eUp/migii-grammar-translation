@@ -1,0 +1,894 @@
+{
+ "batch": "b029",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 439,
+   "src_hash": "846811318df9942a",
+   "fields": {
+    "meaning": "En medio de… / durante…",
+    "examples": [
+     "Ahora estoy en una reunión.",
+     "No se puede usar el celular durante la clase.",
+     "En Japón, los cerezos florecen entre marzo y abril.",
+     "Estuvo lloviendo todo el día.",
+     "Gente de todo el mundo está prestando atención."
+    ],
+    "explain": "N + ちゅう : se usa para un estado en curso → «en medio de…».\nEjemplo:使用中（en uso）,勉強中（estudiando）.\nN + じゅう : indica todo el alcance → «durante todo…», «por todo…».\nEjemplo:一年中（durante todo el año）,日本中（por todo Japón）.\nEn los casos difíciles de distinguir, puede uno guiarse por el significado de la oración o por la lectura del diccionario.\n\n•\n① En medio de…（～しているところ）：indica una acción o un estado en curso.\n«Durante…», «estar…».\n\n•\n② Todo / durante todo / por todo…（～の全体）：expresa el alcance total en el tiempo o el espacio.\n«Durante todo…», «por todo…».\n\n•\nPronunciación:\n\n・Según la palabra a la que se une, se lee ちゅう o じゅう.\n・N + ちゅう：acción en curso (授業中, 使用中, 会議中).\n・N + じゅう：durante todo, todo el alcance (一日中, 世界中, 年中).",
+    "notes": "• Además de la pronunciación habitual, algunos casos especiales hay que memorizarlos palabra por palabra.\n• No se usa la partícula に antes de 中 con el significado de «en medio de…» (✕ 授業に中 → ○ 授業中).\n• Puede ir después de una cantidad: 5分 中（en 5 minutos）, 3回 中2回（2 de cada 3 veces）.",
+    "mistakes": [
+     "Confundir «ちゅう» y «じゅう» → hay que fijarse en el significado de la palabra: estado (ちゅう) o todo el alcance (じゅう).",
+     "Confundir con ～の間 (durante un periodo de tiempo) → 間 enfatiza la duración en el tiempo; 中 enfatiza el estado en curso.",
+     "El JLPT suele preguntar la lectura correcta y la diferencia de matiz: 会議中 vs 一日中."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "N + <ruby>中<rt>なか</rt></ruby>（ちゅう）",
+       "En medio de…",
+       "Indica una acción en curso",
+       "<ruby>会議<rt>かいぎ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby> → estar en una reunión"
+      ],
+      [
+       "N + <ruby>中<rt>なか</rt></ruby>（じゅう）",
+       "Durante todo…, por todo…",
+       "Todo el tiempo/alcance",
+       "<ruby>一日<rt>ついたち</rt></ruby><ruby>中<rt>ちゅう</rt></ruby> → durante todo el día"
+      ],
+      [
+       "～ている",
+       "Estar haciendo…",
+       "Describe un estado/acción que se prolonga",
+       "<ruby>食<rt>た</rt></ruby>べている（estar comiendo）"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 440,
+   "src_hash": "16138f09132e05d4",
+   "fields": {
+    "meaning": "En caso de ~",
+    "examples": [
+     "En caso de incendio o terremoto, no usen el ascensor.",
+     "A: ¿Qué hay que hacer en caso de sufrir un accidente de tráfico?\nB: Comuníquese de inmediato con la policía.",
+     "A: Oiga, ¿qué hago si quiero que me den un recibo?\nB: Si lo necesita, dígaselo al personal de la tienda."
+    ],
+    "explain": "Plantea una situación hipotética; la parte que sigue indica cómo actuar o el resultado que se produce.\nComo 場合 es un sustantivo, se une igual que cualquier modificador de un sustantivo.",
+    "notes": "Se usa cuando, entre las diversas situaciones que pueden darse, se toma solo una para tratarla. En ①～⑥ puede sustituirse por 「…時は」. Sin embargo, como en el siguiente caso, 「場合」 no puede usarse en oraciones que expresan una relación temporal concreta basada en la experiencia personal del hablante.\n*（正） 私が行った時には会議は始まっていた。\n*（誤） 私が行った場合には会議は始まっていた。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 441,
+   "src_hash": "f74e6e92cae93892",
+   "fields": {
+    "name": "～forma volitiva＋と思う",
+    "meaning": "expresar la intención o el plan propio (parecido a つもり）",
+    "connection": "V forma volitiva + と思う",
+    "examples": [
+     "Después de graduarme, pienso ponerme a trabajar en lugar de seguir estudiando.",
+     "Este fin de semana pienso descansar tranquilamente en casa.",
+     "«¿Qué piensas hacer en las vacaciones de invierno?» «Estoy pensando en volver a mi país».",
+     "Pensaba levantarme a las 7, pero como anoche me acosté tarde, no pude levantarme."
+    ],
+    "notes": "Nota:\n●主語が三人称のときは「～（よ）うと思います」は使えない。\nCuando el sujeto es la tercera persona, no se puede usar 「と思います」\n1.  〇　わたしは彼女と結婚しようと思います。\nPienso casarme con ella.\n2.  〇　わたしは彼女と結婚しようと思っています。\nPienso casarme con ella.\n3.  X山田さんは彼女と結婚しようと思います。\nYamada piensa casarse con ella.\n4.  〇山田さんは彼女と結婚しようと思っています。\nYamada piensa casarse con ella."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 443,
+   "src_hash": "66e35041a3d38d0f",
+   "fields": {
+    "meaning": "Expresa la voluntad del hablante. El sujeto de la oración es la primera persona. El patrón おもっています se usa para expresar una voluntad del hablante que se mantiene en el tiempo, como en los ejemplos ②③④．El patrón ～とはおもいません expresa una negación enfática, como en el ejemplo ⑤.",
+    "connection": "V forma volitiva + と思います",
+    "examples": [
+     "Como hace buen tiempo, pienso salir.",
+     "Como voy a ir de viaje, estoy pensando en comprar una maleta.",
+     "Hoy, al volver a casa, estoy pensando en pasar por la biblioteca.",
+     "Estoy pensando en viajar por Europa el año que viene.",
+     "No se me ocurre ir al karaoke yo solo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 445,
+   "src_hash": "ea469951bed33310",
+   "fields": {
+    "name": "～（ら）れます（capacidad）",
+    "meaning": "Expresa la capacidad de hacer algo (①②) o una circunstancia en la que una acción siempre puede realizarse (③). También puede expresar una posibilidad como propiedad de una cosa, como en el ejemplo ④. Se usa con verbos que expresan verbos volitivos de las personas. Muchas veces la partícula",
+    "connection": "V forma potencial (話せます・食べられます)",
+    "examples": [
+     "Joe sabe hablar inglés, japonés y chino.",
+     "Hana todavía no puede vestirse sola.",
+     "En este museo se pueden ver cuadros famosos.",
+     "Esta agua no se puede beber."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 447,
+   "src_hash": "7205dba205a615c3",
+   "fields": {
+    "meaning": "…? ¿O…?",
+    "connection": "それとも + [oración/cláusula]",
+    "examples": [
+     "¿Va a tomar café? ¿O prefiere té?",
+     "¿Esta noche cenamos en casa o salimos a comer?",
+     "¿Seguimos con este plan o elegimos otro?",
+     "No sé si él vendrá o no.",
+     "¿En tren? ¿O en autobús?",
+     "¿Hablamos en inglés? ¿O prefiere en japonés?"
+    ],
+    "explain": "Se usa al presentar 2 (a veces 3) opciones que se excluyen entre sí; no sirve para hacer una enumeración abierta.\nSuele ir entre dos cláusulas interrogativas, o después de una pregunta corta para añadir otra opción.\nEs natural en la conversación; en textos o formularios suele sustituirse por または／あるいは／もしくは.\nEn la interrogación indirecta: Aか、 それとも Bか… presenta dos posibilidades y va seguido de verbos como 決める・迷う・分からない.\nEntonación: se acentúa ligeramente それとも para dejar claro el «o bien».\n\n• Une dos opciones que se excluyen en una pregunta: «¿A o B?».\n• Se espera que el oyente elija una opción; la entonación sube al final de la oración interrogativa.\n• Propio de la conversación, neutro en cuanto a formalidad (poco usado en textos formales).\n• A diferencia de las conjunciones de adición (それに, そして): それとも no añade información, sino que plantea una elección.\n• Puede usarse en la interrogación indirecta (…のか) para presentar dos posibilidades que hay que distinguir.",
+    "notes": "• En oraciones largas, pueden usarse dos partículas か rodeando a それとも: Aか、それともBか。\n• No se coloca それとも entre dos cláusulas afirmativas para expresar «o»; en ese caso se usa または/あるいは/か.\n• それとも al principio de la oración para «cambiar el rumbo» de la pregunta también es natural: それとも予定を変えますか？\n• En la conversación rápida se puede omitir el sujeto o el predicado si quedan claros por el contexto. explain: Se usa para unir dos preguntas y ofrecer varias opciones al interlocutor ⏐ examples: 1. コーヒーにしますか。それとも紅茶にしますか。\n¿Toma café? ¿O prefiere té?\n2. 来週にしましょうか。それとも再来週がいいですか。\n¿Lo dejamos para la semana que viene? ¿O le viene mejor la siguiente?\n3. 話し合って決めましょうか。それとも私が決めてしまってもいいですか。\n¿Lo decidimos hablándolo? ¿O puedo decidirlo yo?",
+    "mistakes": [
+     "Usar それとも en una oración afirmativa: error pragmático. Se debe usar または／あるいは／もしくは／AかBか.",
+     "Mezclar «AかB、それともC？» resulta redundante; es mejor «AかBか、それともC？» o reformular la enumeración para que quede equilibrada.",
+     "Omitir el signo de interrogación al final convierte la oración en una afirmación ambigua; en el examen debe haber «？» o か al final de la oración.",
+     "Confundir con それに/それから (añadir información/continuar) → no tienen sentido de elección."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "AかBか",
+       "A o B (en una sola oración)",
+       "Conciso, neutro; se usa también en la lengua escrita.",
+       "<ruby>行<rt>い</rt></ruby>きます&lt; b&gt;か、<ruby>帰<rt>かえ</rt></ruby>ります&lt; b&gt;か？"
+      ],
+      [
+       "それとも",
+       "O bien (en preguntas)",
+       "Marcadamente conversacional; suele separarse en 2 preguntas.",
+       "<ruby>紅茶<rt>こうちゃ</rt></ruby>？それともコーヒー？"
+      ],
+      [
+       "または／あるいは／もしくは",
+       "O (neutro-cortés)",
+       "Habitual en la lengua escrita y en formularios; se usa también en oraciones afirmativas.",
+       "<ruby>郵送<rt>ゆうそう</rt></ruby>または<ruby>持参<rt>じさん</rt></ruby>。"
+      ],
+      [
+       "それに／そして",
+       "Y, además",
+       "No es una elección entre opciones excluyentes.",
+       "<ruby>安<rt>やす</rt></ruby>い。それに<ruby>便利<rt>べんり</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 448,
+   "src_hash": "40683450f5fcb9b5",
+   "fields": {
+    "meaning": "Ser… (forma cortés y formal de です)",
+    "examples": [
+     "Este es nuestro nuevo producto.",
+     "Gracias por su llamada. Le atiende la empresa ABC.",
+     "La sala de reuniones está en el tercer piso."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 449,
+   "src_hash": "494db8b3da7df51c",
+   "fields": {
+    "meaning": "Haber/tener… (forma cortés y formal de あります)",
+    "examples": [
+     "Si tiene alguna pregunta, háganoslo saber, por favor.",
+     "Los baños están por allá.",
+     "Lo sentimos mucho. En este momento no hay asientos libres."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 450,
+   "src_hash": "8cf12d74ed120c8a",
+   "fields": {
+    "meaning": "Estar/venir/ir (lenguaje respetuoso de いる/来る/行く)",
+    "examples": [
+     "El profesor está ahora en el aula.",
+     "El presidente de la empresa va a Osaka mañana.",
+     "¿Se encuentra el señor Tanaka?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 451,
+   "src_hash": "c02394950b2522c5",
+   "fields": {
+    "meaning": "Hacer… (lenguaje humilde de します)",
+    "examples": [
+     "Yo le enviaré los documentos.",
+     "Me pondré en contacto con usted más tarde.",
+     "Le agradezco de antemano su atención."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 453,
+   "src_hash": "0cb3ddcfe893a49d",
+   "fields": {
+    "meaning": "Hacer… (lenguaje respetuoso de する)",
+    "examples": [
+     "El presidente de la empresa sale a correr todas las mañanas.",
+     "¿Qué hace usted los fines de semana?",
+     "Dicen que el profesor se casa el mes que viene."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 454,
+   "src_hash": "0b135dde018bb37f",
+   "fields": {
+    "name": "お～になる（lenguaje respetuoso）",
+    "meaning": "お+Vます+になる: hacer… (lenguaje respetuoso)",
+    "examples": [
+     "El presidente de la empresa ya se ha ido a casa.",
+     "¿Ha leído usted este libro?",
+     "¿A qué hora volverá el profesor, más o menos?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 455,
+   "src_hash": "abcf288f7ce2e189",
+   "fields": {
+    "meaning": "Mientras… (algo ocurre en un momento dentro de un periodo)",
+    "connection": "V forma simple + 間に / N + の / Na / Aい",
+    "examples": [
+     "Voy a ir al banco durante el descanso del mediodía.",
+     "Mientras no estábamos en casa, entró un ladrón.",
+     "Hice las compras mientras el bebé dormía."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 456,
+   "src_hash": "09544a0a0b98680e",
+   "fields": {
+    "meaning": "Basta con… para…, solo con…",
+    "connection": "V forma simple + だけで / N",
+    "examples": [
+     "Solo con ver la foto, me entraron ganas de comer ese plato.",
+     "En este museo se puede entrar solo con hacer una reserva.",
+     "Basta con que escriba su nombre aquí."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 457,
+   "src_hash": "56f1add30050d820",
+   "fields": {
+    "meaning": "Necesitar…, ser necesario… (Nが必要)",
+    "examples": [
+     "Para trabajar en Japón se necesita visa.",
+     "Este trabajo requiere experiencia.",
+     "Para alquilar un coche se necesita licencia de conducir."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 459,
+   "src_hash": "4829aa6ddf132018",
+   "fields": {
+    "meaning": "Tener que…, ser necesario… (Vる必要がある)",
+    "examples": [
+     "Hay que entregar el informe antes de mañana.",
+     "Es necesario cambiar la contraseña.",
+     "No hay por qué preocuparse."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 460,
+   "src_hash": "2f1c252e8652d76f",
+   "fields": {
+    "meaning": "Estar hecho de… (materia prima: から / material visible: で)",
+    "examples": [
+     "El tofu se hace con soja.",
+     "El sake se hace con arroz.",
+     "Esta mesa la hice de madera."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 461,
+   "src_hash": "5d9b0579df1649a5",
+   "fields": {
+    "meaning": "De repente, de pronto…",
+    "connection": "急に + [oración/cláusula]",
+    "examples": [
+     "De repente empezó a llover.",
+     "El coche se detuvo de repente.",
+     "De repente me surgió un compromiso y ya no pude ir a la fiesta."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 462,
+   "src_hash": "7fa185783edfbd48",
+   "fields": {
+    "meaning": "O…, o bien… (elegir A o B)",
+    "examples": [
+     "Comuníquese por teléfono o por correo electrónico.",
+     "Escriba con bolígrafo o con lápiz.",
+     "Venga el lunes o el miércoles."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 463,
+   "src_hash": "bec88dfa7c94f67e",
+   "fields": {
+    "meaning": "Darse cuenta de…, notar…",
+    "connection": "V forma simple + こと + に気がつく に気がついた / N",
+    "examples": [
+     "Me di cuenta de que había olvidado el paraguas en el tren.",
+     "Si se da cuenta de algún error, corríjalo de inmediato.",
+     "No me di cuenta en absoluto de que él estaba detrás de mí."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 464,
+   "src_hash": "6c0737eed609e448",
+   "fields": {
+    "meaning": "Parecer…, verse como…",
+    "connection": "Vて + 見える / V forma simple + ように / N + (のよう)に / Na + に / Aい く",
+    "examples": [
+     "Tanaka se ve joven.",
+     "Aquella nube parece un animal.",
+     "Esta piedra parece una joya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 465,
+   "src_hash": "19f73ff27bc39a63",
+   "fields": {
+    "meaning": "Entre…, de entre…",
+    "examples": [
+     "De todos los deportes, el que más me gusta es el fútbol.",
+     "¿Quién canta mejor de la clase?",
+     "Agosto es el mes más caluroso del año."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 466,
+   "src_hash": "7fe570ee0fb04ad6",
+   "fields": {
+    "meaning": "Cada…, una vez cada… (2日おきに)",
+    "connection": "Cantidad + おきに",
+    "examples": [
+     "Tome este medicamento cada 4 horas.",
+     "El autobús pasa cada 10 minutos.",
+     "Nado en la piscina cada dos días."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 467,
+   "src_hash": "cad60929a42042e2",
+   "fields": {
+    "name": "Verbo transitivo・Verbo intransitivo（pares correspondientes）",
+    "meaning": "Verbo transitivo y verbo intransitivo (pares correspondientes)",
+    "connection": "Nが + V verbo intransitivo ⇔ Nを + V verbo transitivo (開く⇔開ける)",
+    "examples": [
+     "La ventana se abrió por el viento.",
+     "Como hacía calor, abrí la ventana.",
+     "La luz está apagada. ¿Quién la apagó?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 468,
+   "src_hash": "5619fde696dc829a",
+   "fields": {
+    "meaning": "Partícula て/で para unir cláusulas: como A, B; A y luego B",
+    "examples": [
+     "Por la mañana me levanto, me ducho y voy a la escuela.",
+     "Falté a la escuela por un resfriado.",
+     "Este plato es barato y rico."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 469,
+   "src_hash": "5513759018b41baf",
+   "fields": {
+    "meaning": "Estaba haciendo… (pasado de una acción en curso ～ていた)",
+    "examples": [
+     "Anoche, hacia las 10, me estaba bañando.",
+     "De niño vivía en esta ciudad.",
+     "Cuando llegué a la estación, estaba lloviendo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 471,
+   "src_hash": "27e0f32b8845202f",
+   "fields": {
+    "meaning": "Perdón por…",
+    "examples": [
+     "Perdón por llegar tarde.",
+     "Perdón por hacerle esperar.",
+     "Perdón por llamar tan tarde por la noche."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 472,
+   "src_hash": "436ac5e7537700aa",
+   "fields": {
+    "meaning": "Menos mal que…, qué bueno que…",
+    "examples": [
+     "Me alegro de haberte conocido.",
+     "Menos mal que traje el paraguas.",
+     "Qué bueno que fue pronto al hospital, ¿verdad?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 473,
+   "src_hash": "beb91b682cb11e9c",
+   "fields": {
+    "meaning": "Se puede decir que…",
+    "connection": "[oración/cláusula] + と言ってもいい といっても",
+    "examples": [
+     "Habla japonés tan bien que casi se podría decir que es japonés.",
+     "Se puede decir que el ramen de este restaurante es el más rico de la ciudad.",
+     "Se podría decir que estudiar kanji es lo más difícil."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 474,
+   "src_hash": "734c1399984d69e8",
+   "fields": {
+    "meaning": "(Yo) he oído que…, dicen que…",
+    "connection": "[oración/cláusula] + と聞いた",
+    "examples": [
+     "He oído que Tanaka vuelve a su país el mes que viene.",
+     "Oí que los pasteles de esta tienda son ricos, así que vine a comprar.",
+     "He oído que mañana va a llover, ¿es verdad?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 475,
+   "src_hash": "197643b328c73e0f",
+   "fields": {
+    "meaning": "A sí…, pero B no… (は de contraste)",
+    "connection": "N-1 + は + ～が + N-2 + は + [oración/cláusula]",
+    "examples": [
+     "Carne sí como, pero pescado no.",
+     "A China no voy, pero a Japón sí."
+    ],
+    "explain": "Enfatiza la comparación, el contraste, la voluntad o la opinión del hablante.",
+    "notes": "meaning_vi: Contraste: A sí… y en cambio B… (～は～が、～は～)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 476,
+   "src_hash": "9c8c046e4d48b98b",
+   "fields": {
+    "meaning": "Como era de esperar…, tal como se esperaba (さすが)",
+    "connection": "さすが(に) + [oración/cláusula] / さすがの + N + も",
+    "examples": [
+     "Se nota que es un profesional. Trabaja rapidísimo.",
+     "Como era de esperar del restaurante más popular de Japón. Está delicioso.",
+     "Ni siquiera Tanaka, con lo bueno que es, pudo resolver este problema."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 477,
+   "src_hash": "7566fd54bb059acd",
+   "fields": {
+    "name": "お～する（lenguaje humilde）",
+    "meaning": "Hacer… (lenguaje humilde: おVますする/ごNする)",
+    "examples": [
+     "¿Le llevo la bolsa?",
+     "Le acompaño hasta la estación.",
+     "Le pedí prestado un diccionario al profesor."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 478,
+   "src_hash": "43013d59553314d6",
+   "fields": {
+    "meaning": "Todo el tiempo, sin parar (se prolonga sin interrupción durante un periodo)",
+    "examples": [
+     "Lleva lloviendo sin parar desde la mañana.",
+     "Ayer estuve en casa todo el día.",
+     "Lo estuve esperando todo el tiempo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 479,
+   "src_hash": "ff0a0805e6710960",
+   "fields": {
+    "meaning": "Gracias por… (hacerlo por mí)",
+    "examples": [
+     "Gracias por ayudarme.",
+     "Gracias por acordarte de mi cumpleaños.",
+     "Gracias por venir a buscarme a la estación."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 480,
+   "src_hash": "609b77a3528443df",
+   "fields": {
+    "meaning": "Rápidamente, cada vez más (deprisa/en mayor cantidad)…",
+    "examples": [
+     "Tu japonés está mejorando a pasos agigantados, ¿eh?",
+     "Los precios están subiendo cada vez más.",
+     "Si tienen preguntas, pregunten sin reparo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 481,
+   "src_hash": "9adc8507558a585e",
+   "fields": {
+    "meaning": "Como no… (causa; la segunda cláusula expresa un sentimiento o estado)",
+    "connection": "Vなくて / Aくなくて / Naで(は)なくて / Nで(は)なくて + [oración/cláusula]",
+    "examples": [
+     "Como no entendía japonés, me vi en apuros.",
+     "Como el autobús no llegaba, terminé llegando tarde.",
+     "Es una pena no haber podido aprobar el examen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 482,
+   "src_hash": "c22183ccc9311f37",
+   "fields": {
+    "meaning": "Introducción suave antes de pedir o preguntar algo (…es que…, verás…)",
+    "examples": [
+     "Es que tengo algo que preguntarle, ¿tiene un momento ahora?",
+     "Sobre la reunión de la semana que viene, ¿te parece si cambiamos la hora?",
+     "Es que mi computadora no funciona, ¿podría echarle un vistazo?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 483,
+   "src_hash": "fadf7f1a6c649175",
+   "fields": {
+    "meaning": "¿Y si ~? ¿Por qué no ~?",
+    "examples": [
+     "Si está preocupado, ¿por qué no llama y pregunta?",
+     "Parece que no te encuentras bien. ¿Por qué no descansas un poco?"
+    ],
+    "explain": "◎ Es un patrón de oración de la lengua hablada que se usa para hacer una sugerencia o una invitación. Si solo se dice 「たら?」, es una expresión de confianza entre iguales.",
+    "notes": "meaning_vi: Forma de aconsejar al interlocutor que haga algo.\nexamples: 1. ①　かさを　持って行ったらどう？\n¿Por qué no te llevas el paraguas?\n2. ②　寒いでしょう。上着　着たら？\nTienes frío, ¿verdad? ¿Por qué no te pones la chaqueta?\n3. ③　そろそろ　ねたらどう？\n¿Por qué no te vas a dormir ya?\n4. ④　大丈夫ですか。少し　休んだらどうですか。\n¿Estás bien? ¿Por qué no descansas un poco?"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 484,
+   "src_hash": "d97d82a192f12d33",
+   "fields": {
+    "meaning": "Aunque…, aun si…",
+    "connection": "もし + Vても/Aくても/N・Naでも + [oración/cláusula]",
+    "examples": [
+     "Aunque llueva, el partido se jugará según lo previsto.",
+     "Aunque esté ocupado, estudio japonés 10 minutos al día.",
+     "Aunque no se tenga dinero, se puede vivir feliz.",
+     "Aunque él no venga, yo empezaré primero.",
+     "Aun siendo estudiante, puedes participar en este evento.",
+     "Aunque los resultados sean malos, no te rindas y sigamos adelante."
+    ],
+    "explain": "Se usa para afirmar que la postura o la voluntad de la segunda cláusula no depende de la condición de la primera cláusula.\nSirve tanto en la lengua hablada como en la lengua escrita; «もし» hace la oración más clara y cortés.\nLa segunda cláusula puede ser una orden, un consejo o una voluntad: ～してください／～しよう／～しなさい.\nNo se usa «もし» con condiciones obvias (verdades generales); en ese caso se usa simplemente ～ても.\nPara enfatizar el grado se usa たとえ: たとえ失敗しても (aunque fracase).\n\n• Significado principal: «Aunque / aun si ..., ...». Plantea una condición hipotética (a menudo desfavorable o contraria a lo esperado), pero el resultado de la segunda cláusula no cambia.\n• «もし» enfatiza el carácter hipotético; puede omitirse «もし» cuando el contexto es claro.\n• Matiz: tiene valor de concesión (concessive). La segunda cláusula suele ser una conclusión, voluntad, postura o evaluación del hablante que no se ve afectada por la condición de la primera cláusula.\n• Grado de suposición: «もし～ても» es más suave que «たとえ～ても» en cuanto a matiz extremo, y más fuerte que el simple «～ても».\n• Se puede usar tanto en presente como en futuro; puede ir acompañado de adverbios de énfasis: たとえ, いくら, どんなに, たとえ何回…ても.",
+    "notes": "• Colocar «もし» antes de la cláusula con ～ても ayuda al oyente a reconocer pronto que se trata de una suposición; es útil en oraciones largas.\n• En la conversación, «もし～なら» suele competir con «もし～ても» según la intención: condición pura (なら) o concesión (ても).\n• La segunda cláusula debe ser un contenido «independiente» de la primera cláusula; evite resultados naturalmente inevitables (para no caer en contradicción lógica).\nmeaning_vi: Forma de plantear una suposición. Se hace o no se hace algo aunque la condición de la primera cláusula se cumpla o se satisfaga.\nexamples: 1. ①　苦しくても\nAunque sea duro\n2. ②　もし　連絡が　なくても　心配しないでください。\nAunque no haya noticias, no se preocupe.\n3. ③　明日　晴れても、せんたくを　しません。今日　全部　しましたから。\nAunque mañana haga sol, no voy a lavar la ropa. Porque hoy ya la lavé toda.\n4. ④　わたしが　いなくなっても、もう　大丈夫ですね。\nAunque yo ya no esté, todo estará bien, ¿verdad?",
+    "mistakes": [
+     "Confundir con «なら»: もし雨なら中止だ (plantea una condición) es distinto de もし雨が降っても行く (concesión).",
+     "Que la segunda cláusula exprese una consecuencia naturalmente inevitable → no es lógico con ～ても (ejemplo incorrecto: もし火をつけても燃える). Para lo inevitable se usa と/ば.",
+     "Olvidar poner い/な/N en la forma correcta: な・N deben usar でも, los adjetivos い usan ～くても.",
+     "En el JLPT: elegir entre たとえ～ても (fuerte) y もし～ても (neutro); fíjate en el contexto de énfasis."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～ても",
+       "Aunque ..., ...",
+       "Sin «もし», matiz neutro.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>っても<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "たとえ～ても",
+       "Aun cuando (incluso en un caso extremo)",
+       "Más fuerte que «もし～ても».",
+       "たとえ<ruby>失敗<rt>しっぱい</rt></ruby>しても<ruby>諦<rt>あきら</rt></ruby>めない。"
+      ],
+      [
+       "いくら～ても",
+       "Por mucho/más que",
+       "Va con grado o cantidad.",
+       "いくら<ruby>高<rt>たか</rt></ruby>くても<ruby>買<rt>か</rt></ruby>わない。"
+      ],
+      [
+       "～としても",
+       "Aun suponiendo que ...",
+       "Algo formal; tiende a la suposición teórica.",
+       "<ruby>彼<rt>かれ</rt></ruby>が<ruby>行<rt>い</rt></ruby>くとしても、<ruby>私<rt>わたし</rt></ruby>は<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "～たって（<ruby>会話<rt>かいわ</rt></ruby>）",
+       "Aunque ... (lengua hablada)",
+       "Forma contraída de ～ても.",
+       "<ruby>忙<rt>いそが</rt></ruby>しいったって<ruby>来<rt>き</rt></ruby>てよ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

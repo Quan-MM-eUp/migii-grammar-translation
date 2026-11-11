@@ -1,0 +1,683 @@
+{
+ "batch": "b010",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 142,
+   "src_hash": "abc31b43a1799371",
+   "fields": {
+    "meaning": "¿Lo hago yo? | ¿(yo) V ~? | Vましょうか ¿V ~ juntos?",
+    "connection": "Vます (sin ます) + ましょうか",
+    "examples": [
+     "¿Descansamos un poco aquí?",
+     "¿Le llevo el equipaje?",
+     "¿Le acompaño hasta la estación?",
+     "Está lloviendo, ¿eh? ¿Vamos en taxi?",
+     "¿Tomamos agua de bebida?",
+     "¿Le ayudo en algo?"
+    ],
+    "explain": "Se usa con la forma ます del verbo (sin ます) para hacer una sugerencia suave.\nCuando se quiere decir «lo hago yo por ti», se añade el sujeto:私が・こちらが + Vます-sinます + ましょうか.\nFormal, cortés; adecuado en atención al cliente/recepción de visitas: ご案内し ましょうか。\nSi solo se quiere hacer una invitación normal, se puede usar ～ませんか; si se quiere decidir juntos en el momento, se usa ～ましょう.\n\nSignificado: «¿… juntos?» / «¿… yo?» Se usa para hacer una sugerencia o propuesta cortés.\nDos matices comunes:\nSugerencia de hacer algo juntos:一緒に行きましょうか(¿Vamos juntos?).\nSugerencia de ayuda:窓を開けましょうか(¿Abro la ventana?).\nSugerencia de hacer algo juntos:一緒に行きましょうか(¿Vamos juntos?).\nSugerencia de ayuda:窓を開けましょうか(¿Abro la ventana?).\nGrado de cortesía: más cortés que «～しようか», más cercano que «～ませんか» cuando se quiere ofrecer ayuda por iniciativa propia.\nLa entonación ascendente al final de la oración expresa sugerencia y suavidad.",
+    "notes": "En atención al cliente,何かお手伝いしましょうかes una fórmula muy natural.\nPara no resultar impositivo, se puede añadir もしよろしければ antes de ～ましょうか.\nNo se usa directamente con adjetivos/sustantivos; solo con verbos en forma ます-sinます.",
+    "mistakes": [
+     "Error de conjugación del verbo: ×行くましょうか → ✓行きましょうか.",
+     "Matiz incorrecto: para ofrecer ayuda se usa ～ましょうか (¿lo hago yo?); para invitar a otros a hacer algo, es preferible ～ませんか.",
+     "Omitir el sujeto al ofrecer ayuda en un contexto ambiguo: conviene usar私が…ましょうか para dejar claro «lo haré yo»."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～ましょう",
+       "Hagamos algo juntos",
+       "Más afirmativo y decidido",
+       "<ruby>行<rt>い</rt></ruby>きましょう。"
+      ],
+      [
+       "～ませんか",
+       "Invitar a alguien a hacer algo juntos",
+       "Pregunta la opinión del oyente, cortés, apenas ofrece ayuda",
+       "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんか。"
+      ],
+      [
+       "～てください",
+       "Haz… (petición)",
+       "Tiene carácter de petición, no de sugerencia de hacer algo juntos",
+       "<ruby>座<rt>すわ</rt></ruby>ってください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 143,
+   "src_hash": "a4078b127c3fd7af",
+   "fields": {
+    "meaning": "Sin embargo…",
+    "connection": "しかし + [oración/cláusula]",
+    "examples": [
+     "El plan va bien. Sin embargo, no hay que bajar la guardia.",
+     "El precio es alto. Sin embargo, la calidad es excelente.",
+     "Los datos han aumentado. Sin embargo, la precisión no ha mejorado.",
+     "Me esforcé. Sin embargo, no obtuve resultados.",
+     "Esa propuesta es atractiva. Sin embargo, el riesgo es grande.",
+     "Hay muchos estudios. Sin embargo, sus conclusiones no coinciden."
+    ],
+    "explain": "Formal, racional; adecuado para transiciones de párrafo o para señalar limitaciones/excepciones tras exponer la idea principal.\nSuele ir al principio de la oración seguido de coma: しかし、…\nEn la conversación coloquial, se sustituye por でも/けど para sonar más natural.\n\nExpresa un contraste/oposición fuerte entre S1 y S2; se usa a menudo para rebatir, añadir limitaciones o presentar excepciones.\nEstilo formal y objetivo; adecuado para la lengua escrita, presentaciones y noticias.\nNo se usa para una «sorpresa contraria a lo esperado» fuerte (es más adecuado: ところが); no es tan coloquial como でも/けど.",
+    "notes": "«しかしながら» es una variante aún más formal, frecuente en textos académicos.\nEn la prensa, しかし puede abrir un nuevo párrafo para marcar un giro en la argumentación.\nEvita abusar de conjunciones al principio de la oración en oraciones consecutivas; se pueden sustituir por が/一方で para variar el texto.",
+    "mistakes": [
+     "Usar しかし en la conversación coloquial suena rígido; es mejor usar でも/けど.",
+     "Confundir しかし con ところが cuando hay un elemento «contrario a lo esperado»; es una trampa frecuente del JLPT.",
+     "Omitir la coma después de しかし dificulta la lectura: «しかし、…».",
+     "Usar しかし para enlazar órdenes/peticiones en la conversación cotidiana puede resultar demasiado formal o tener un matiz desagradable."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Matiz",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "しかし",
+       "Formal",
+       "Contraste claro, lengua escrita.",
+       "<ruby>賛成<rt>さんせい</rt></ruby>。しかし<ruby>課題<rt>かだい</rt></ruby>。"
+      ],
+      [
+       "けれども／けど",
+       "Suave, lengua hablada",
+       "Contraste leve, conversación.",
+       "<ruby>高<rt>たか</rt></ruby>いけど<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "でも",
+       "Marcadamente oral",
+       "Corta el hilo, va al principio de la oración; poco formal.",
+       "でも<ruby>危<rt>あぶ</rt></ruby>ない。"
+      ],
+      [
+       "ところが",
+       "Sorpresa",
+       "Resultado muy contrario a lo esperado.",
+       "<ruby>行<rt>い</rt></ruby>った。ところが<ruby>閉店<rt>へいてん</rt></ruby>。"
+      ],
+      [
+       "が（conector)",
+       "Lengua escrita",
+       "Une dentro de la misma oración: ～が、…",
+       "<ruby>必要<rt>ひつよう</rt></ruby>だが<ruby>十分<rt>じゅっぷん</rt></ruby>でない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 144,
+   "src_hash": "8273444fb79905e1",
+   "fields": {
+    "meaning": "Entonces…",
+    "connection": "[oración/cláusula]。 + じゃ(あ)、 + [oración/cláusula]",
+    "examples": [
+     "Ya es tarde. Entonces, dejémoslo aquí por hoy.",
+     "Ha empezado a llover. Entonces, volvamos en taxi.",
+     "Eso es difícil. Entonces, probemos otro método.",
+     "¿La reunión es a partir de las tres? Entonces, comamos temprano.",
+     "No llevo efectivo. Entonces, te hago la transferencia luego, ¿vale?",
+     "¿Aprobaste el examen? ¡Entonces, vamos a celebrarlo!"
+    ],
+    "explain": "Se usa al resumir o tomar una decisión a partir de la información de S1.\nSe combina con naturalidad con expresiones de voluntad/sugerencia: ～しよう／～しませんか／～しましょう。\nLengua hablada coloquial; en un entorno laboral formal, es preferible それでは／では .\nじゃあ da una sensación suave y alargada; じゃ es breve y tajante.\nSuele ir al principio de una nueva intervención; evita insertarlo en medio de una oración larga.\n\nCambiar de dirección o tomar una decisión a partir de la información recién mencionada: «entonces/pues».\nMarca el siguiente paso en un proceso/acción: introduce una nueva parte tras concluir algo.\nImplica «si es así, entonces», pero es conversacional, no una condición gramatical estricta.\nMatiz coloquial, rápido; se usa a menudo para terminar/cerrar un tema o para ponerse a trabajar.\nLa entonación suele bajar ligeramente despuésじゃ、, y le sigue una cláusula de orden, sugerencia, voluntad o anuncio de un plan.\nNo se usa para rebatir con fuerza; cuando se quiere expresar un contraste/concesión claro, se usaでも/しかし.",
+    "notes": "じゃpuede abrir la oración para llamar la atención:じゃ、次は…\nNo debe confundirse con～じゃal final de la oración en dialectos (habla de personas mayores/arcaica). Aquí es una conjunción al principio de la oración.\nEn los chats existe la forma repetida enfática:じゃ、じゃ、… para volver a llamar la atención; evítala en textos formales.",
+    "mistakes": [
+     "Usarじゃen un texto formal → poco natural; elegirそれでは／では.",
+     "Usarじゃpara un contraste fuerte → matiz incorrecto; es mejor usarでも／しかし.",
+     "Omitir el punto antesじゃ、→ incumple la convención para enlazar oraciones: se necesita S1。じゃ、S2。",
+     "Confundirじゃcon～じゃない(negación) → función distinta.",
+     "JLPT: identificar el grado de cortesía al elegir entre じゃ y それでは/では según el contexto conversacional o formal."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "じゃ、",
+       "Entonces (coloquial)",
+       "Lengua hablada, cercano",
+       "<ruby>遅<rt>おそ</rt></ruby>い。じゃ、<ruby>帰<rt>かえ</rt></ruby>ろう。"
+      ],
+      [
+       "じゃあ、",
+       "Entonces (suave, natural)",
+       "Se alarga la «あ», muy conversacional",
+       "<ruby>終<rt>お</rt></ruby>わり？ じゃあ、またね。"
+      ],
+      [
+       "それじゃ、",
+       "Entonces (algo más cortés que じゃ)",
+       "Remite claramente a «eso» (それ)",
+       "<ruby>締切<rt>しめきり</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby>？ それじゃ、<ruby>急<rt>いそ</rt></ruby>ごう。"
+      ],
+      [
+       "それでは、",
+       "Entonces (cortés)",
+       "Formal, se usa en reuniones/presentaciones",
+       "それでは、<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "では、",
+       "Bien/Entonces (formal, conciso)",
+       "Lengua escrita/conducción de programas",
+       "では、<ruby>次<rt>つぎ</rt></ruby>に<ruby>進<rt>すす</rt></ruby>みます。"
+      ],
+      [
+       "でも、",
+       "Pero/sin embargo",
+       "Contraste, no «tomar una decisión»",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>無理<rt>むり</rt></ruby>。"
+      ],
+      [
+       "それなら、",
+       "Si es así, entonces",
+       "Condición lógica más clara",
+       "それなら、<ruby>別<rt>べつ</rt></ruby><ruby>日<rt>び</rt></ruby>にしよう。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 145,
+   "src_hash": "5a4685a0389f8799",
+   "fields": {
+    "meaning": "Entonces…",
+    "connection": "[oración/cláusula]。 + それじゃ(あ)、 + [oración/cláusula]",
+    "examples": [
+     "Dicen que mañana va a llover. Entonces, se cancela el pícnic, ¿no?",
+     "¿La inscripción es solo hasta hoy? Entonces, la envío ahora mismo.",
+     "Esto es todo en cuanto a la explicación. Entonces, por favor, revísenlo.",
+     "¿Ya te has preparado? Entonces, salgamos.",
+     "Entonces, hasta mañana.",
+     "¿Te olvidaste la llave? Entonces, te abro yo."
+    ],
+    "explain": "Natural en un trabajo de trato cercano, correos internos amistosos y reuniones de equipos pequeños.\nSe usa al principio de la oración, cuando el oyente ya ha entendido «eso (それ)».\nCombina bien con órdenes, voluntad, invitaciones y frases de cierre.\nSi se necesita más cortesía (clientes, presentaciones oficiales), se sustituye por それでは .\n\n«Entonces/pues» basado en la información recién mencionada (a la que remite それ).\nPasar a otro paso, empezar una acción o resumir suavemente en la conversación.\nModeradamente más cortés que じゃ, menos formal que それでは.\nSe usa a menudo para cerrar un tema, despedirse o pasar a una nueva parte.",
+    "notes": "それじゃes adecuado para terminar una llamada/mensaje:それじゃ、また連絡します。\nEn muchos contextos de cortesía ligera,それじゃsigue siendo aceptable, pero no lo uses en discursos formales.\nEl sonido «じゃあ» hace que la oración sea menos brusca y más amable.",
+    "mistakes": [
+     "Usarそれじゃen un texto con keigo de alto nivel → falta formalidad; cambiar aそれでは.",
+     "No dejar clara la referencia de «それ» (el contenido anterior no está claro) → la oración se vuelve ambigua.",
+     "Confundir su función conそれで(por eso → causa-resultado) → lógica distinta.",
+     "JLPT: identificar el matiz de cortesía entre じゃ／それじゃ／それでは／では según el contexto."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "それじゃ、",
+       "Entonces (natural)",
+       "Referencia clara, ligeramente cortés",
+       "<ruby>終<rt>お</rt></ruby>わり？ それじゃ、<ruby>解散<rt>かいさん</rt></ruby>。"
+      ],
+      [
+       "それでは、",
+       "Entonces (formal)",
+       "Más formal, se usa con clientes/público",
+       "それでは、<ruby>質疑<rt>しつぎ</rt></ruby><ruby>応答<rt>おうとう</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>ります。"
+      ],
+      [
+       "じゃ／じゃあ、",
+       "Entonces (coloquial)",
+       "El más coloquial, entre amigos/conocidos",
+       "<ruby>遅<rt>おそ</rt></ruby>い。じゃあ、<ruby>帰<rt>かえ</rt></ruby>ろう。"
+      ],
+      [
+       "では、",
+       "Bien/Entonces (lengua escrita)",
+       "Breve, algo rígido, para conducir un programa",
+       "では、<ruby>次<rt>つぎ</rt></ruby>へ。"
+      ],
+      [
+       "それなら、",
+       "Si es así, entonces",
+       "Condición lógica clara, no es solo una transición",
+       "それなら、<ruby>後日<rt>ごじつ</rt></ruby>に。"
+      ],
+      [
+       "でも、",
+       "Pero/sin embargo",
+       "Contraste, no es tomar una decisión",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>雨<rt>あめ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 146,
+   "src_hash": "0a5c9ce3288ff4f1",
+   "fields": {
+    "meaning": "Entonces…",
+    "connection": "[oración/cláusula]。 + それでは、 + [oración/cláusula]",
+    "examples": [
+     "Ya es la hora. Entonces, comenzamos.",
+     "Muchas gracias por su atención. Entonces, me retiro.",
+     "Con esto termino la explicación. Entonces, pasamos a la ronda de preguntas.",
+     "Si no hay ningún problema en particular, entonces, procederemos a firmar el contrato.",
+     "Hasta aquí el tema principal. Entonces, pasamos al resumen.",
+     "Muchas gracias por el día de hoy. Entonces, hasta la próxima."
+    ],
+    "explain": "Cortés, estándar en el ámbito empresarial/académico; adecuado para correos, presentaciones y presentadores (MC).\nVa al principio de la oración nueva; después suele venir un título, una indicación o el paso siguiente.\nCombina bien con keigo: ～いたします／～でございます。\nSi se necesita algo breve y moderadamente formal: considerar では、 .\n\n«Entonces/pues» con matiz cortés, para conducir la transición a la parte siguiente.\nSe usa para iniciar una nueva acción/tema tras completar la parte anterior.\nCierra una conversación, un correo o una reunión de manera seria.\nTono estándar, adecuado para el ámbito empresarial y académico.",
+    "notes": "それではsuele acompañar fórmulas fijas al abrir/cerrar una reunión.\nEn textos escritos, despuésそれでは、se puede hacer un salto de línea para marcar el cambio de párrafo.\nNo hay que abusar; usarlo demasiado da una sensación «estereotipada».",
+    "mistakes": [
+     "Usarそれじゃen lugar deそれではen un discurso formal → falta cortesía.",
+     "Confundirそれではconそれで(causa-resultado) → relación lógica incorrecta.",
+     "Omitir la coma despuésそれでは reduce el ritmo natural; conviene poner «、».",
+     "JLPT: elegir el grado de cortesía adecuado según el contexto de presentación/correo empresarial."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "それでは、",
+       "Entonces (cortés)",
+       "Suave, formal estándar",
+       "それでは、<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "では、",
+       "Bien/Entonces",
+       "Breve, algo rígido, muy usado en la lengua escrita",
+       "では、<ruby>次<rt>つぎ</rt></ruby>へ。"
+      ],
+      [
+       "それじゃ、",
+       "Entonces (natural)",
+       "Menos formal que それでは",
+       "それじゃ、また<ruby>明日<rt>あした</rt></ruby>。"
+      ],
+      [
+       "じゃ／じゃあ、",
+       "Entonces (coloquial)",
+       "Lengua hablada, entre amigos",
+       "じゃあ、<ruby>行<rt>い</rt></ruby>こう。"
+      ],
+      [
+       "それで、",
+       "Por eso/Por lo tanto",
+       "Causa → resultado, lógica distinta de «tomar una decisión»",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。それで、<ruby>中止<rt>ちゅうし</rt></ruby>した。"
+      ],
+      [
+       "でも、",
+       "Sin embargo",
+       "Contraste/concesión",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>行<rt>い</rt></ruby>けない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 147,
+   "src_hash": "6eded39511644e88",
+   "fields": {
+    "meaning": "Entonces…",
+    "connection": "[oración/cláusula]。 + では、 + [oración/cláusula]",
+    "examples": [
+     "Comenzamos la reunión. Entonces, el primer punto del orden del día.",
+     "Hasta aquí está todo preparado. Entonces, comenzamos el experimento.",
+     "Eso ya está confirmado. Entonces, pasemos al siguiente punto.",
+     "Eso es todo. Entonces, se levanta la sesión.",
+     "¿Todo listo? Entonces, vamos allá.",
+     "Este es el problema. Entonces, ¿qué deberíamos hacer?"
+    ],
+    "explain": "Se coloca al principio de la oración nueva; después viene la parte/acción siguiente.\nAdecuado para actas, diapositivas, libros de texto y avisos.\nSi se quiere algo más suave/estándar para un discurso, se usa それでは ; si es coloquial, じゃ／それじゃ .\n\n«Bien/Entonces/Pues» se usa para pasar al siguiente paso y abrir/cerrar una parte de forma concisa.\nDa una sensación de coordinación, de trámite oficial; poco coloquial.\nSuele ir acompañado de títulos, indicaciones o el siguiente paso de un proceso.",
+    "notes": "ではtambién aparece en la estructura condicional:ではない／ではありません; no debe confundirse con la conjunción al principio de la oración.\nEn guiones de presentador/diapositivas,では、+ sustantivo de título es muy frecuente:では、まとめ。",
+    "mistakes": [
+     "Usarではen una conversación coloquial → suena rígido; es mejor usarじゃ／それじゃ.",
+     "Confundirでは(conjunción) conそれで(causa) → lógica de la oración incorrecta.",
+     "Omitir la coma despuésでは hace que el ritmo sea menos natural.",
+     "JLPT: elegirではcuando el contexto es un texto escrito, una presentación o un aviso oficial."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "では、",
+       "Bien/Entonces",
+       "Breve, formal-lengua escrita",
+       "では、<ruby>次<rt>つぎ</rt></ruby>へ。"
+      ],
+      [
+       "それでは、",
+       "Entonces (cortés)",
+       "Largo, suave, para hablar ante el público",
+       "それでは、<ruby>発表<rt>はっぴょう</rt></ruby>を<ruby>終<rt>お</rt></ruby>わります。"
+      ],
+      [
+       "それじゃ／じゃ、",
+       "Entonces (coloquial)",
+       "Lengua hablada, coloquial",
+       "じゃ、また<ruby>明日<rt>あした</rt></ruby>。"
+      ],
+      [
+       "それで、",
+       "Por eso/Por lo tanto",
+       "Relación causa → resultado",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。それで、<ruby>中止<rt>ちゅうし</rt></ruby>。"
+      ],
+      [
+       "さて、",
+       "Bueno/Bien",
+       "Cambio de tema suave, lengua escrita/hablada",
+       "さて、<ruby>本題<rt>ほんだい</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 148,
+   "src_hash": "9d0bd158e2e70818",
+   "fields": {
+    "meaning": "Pero…",
+    "connection": "[oración/cláusula]。でも、[oración/cláusula]",
+    "examples": [
+     "El japonés es difícil. Pero es interesante.",
+     "Quiero ir. Pero no tengo tiempo.",
+     "Él es amable. Pero a veces es estricto.",
+     "Las reservas estaban completas. Pero, si espera una cancelación, es posible.",
+     "Eso es peligroso. Pero es necesario.",
+     "Está lloviendo. Pero el entrenamiento se hace igual."
+    ],
+    "explain": "Abre la oración siguiente para introducir una idea contraria o una limitación/excepción.\nNeutro → coloquial; en textos más formales, considerar しかし／だが／とはいえ .\nSuele ir seguido de una afirmación de postura, una solución alternativa o una excepción.\nMantén la coma después de でも para un ritmo de lectura natural.\n\nPresenta un punto de contraste/excepción respecto a la oración anterior: «pero/sin embargo».\nMatiz conversacional, más suave queしかし／だが, más fuerte queけど(も)cuando va al principio de la oración.\nEl ritmo «S1。でも、S2。» hace que el texto sea claro y fácil de decir.\nSe usa a menudo cuando S2 expresa una voluntad/evaluación opuesta a S1.",
+    "notes": "でもal principio de la oración marca un corte claro y es fácil de usar en la conversación.\nNo debe confundirse conN + でも(sugerencia «o algo así»/«incluso»). El contexto determina el significado.\nEn textos formales, se sustituye porしかし／とはいえ／一方según la intención.",
+    "mistakes": [
+     "Escribir una oración larga «…,でも、…» → estilo hablado; en la lengua escrita conviene dividirla en dos oraciones.",
+     "Confundir «でも» (conjunción) con «N + でも» (sugerencia/incluso) → significado incorrecto.",
+     "Usarでもen un texto formal en lugar deしかし→ falta formalidad.",
+     "JLPT: distinguirでも／しかし／それでも／ところがsegún el grado de contraste y el matiz."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "でも、",
+       "Pero/sin embargo",
+       "Conversacional, suave",
+       "<ruby>高<rt>たか</rt></ruby>い。でも、<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "しかし、",
+       "Sin embargo",
+       "Formal, lengua escrita",
+       "しかし、<ruby>問題<rt>もんだい</rt></ruby>がある。"
+      ],
+      [
+       "だが、",
+       "Pero",
+       "Lengua escrita, rígido",
+       "だが、<ruby>例外<rt>れいがい</rt></ruby>もある。"
+      ],
+      [
+       "けど(も)、",
+       "Pero",
+       "Suave, suele ir al final/en medio de la oración",
+       "<ruby>行<rt>い</rt></ruby>きたいけど、<ruby>無理<rt>むり</rt></ruby>。"
+      ],
+      [
+       "それでも、",
+       "Aun así",
+       "Concesión más fuerte que «でも»",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。それでも、<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "ところが、",
+       "No obstante",
+       "Giro inesperado",
+       "<ruby>行<rt>い</rt></ruby>くつもりだった。ところが、<ruby>雨<rt>あめ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 149,
+   "src_hash": "70dcb6245d13bff7",
+   "fields": {
+    "meaning": "Enfatiza que una acción o un suceso de la segunda cláusula tiene lugar después de la acción o el suceso de la primera cláusula.",
+    "examples": [
+     "Después de asarlo",
+     "Después de que Hachi muriera, se erigió la estatua de Hachikō en Shibuya.",
+     "Shun vino después de que Hana se fuera a casa.",
+     "¿Por qué no vamos a tomar sake después del trabajo?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 150,
+   "src_hash": "b3217f67eef7cee6",
+   "fields": {
+    "meaning": "¿Qué le parece?",
+    "examples": [
+     "¿Le apetece un café?",
+     "¿Qué tal va el plan de viaje?",
+     "¿Qué le parece esta sopa?",
+     "¿Se encuentra usted bien? / ¿Qué tal está de salud?",
+     "¿Desea algún recuerdo?"
+    ],
+    "explain": "«いかが» se usa en la conversación formal, sobre todo al hablar con clientes o superiores, o en el ámbito de la atención al cliente.\nSe coloca después de un sustantivo o una cláusula, combinado con «は», «で», «でしょうか», etc.\nMatiz cortés y suave, que muestra respeto hacia el oyente.\nSe usa a menudo en situaciones como: invitar a comer o beber, pedir opinión, preguntar por impresiones o presentar productos.\n\n① Se usa para invitar a alguien a comer, beber o hacer algo de forma cortés y elegante.\n② Es una forma más cortés de 「どうですか」– se usa a menudo en la comunicación formal, la atención al cliente o con superiores.\n③ Puede usarse para pedir opinión o impresiones, o para sugerir la elección de algo.\n«いかが» es la forma de keigo (丁寧語) de «どう».",
+    "notes": "«いかが» = «どう» en significado, pero expresa un grado de cortesía mucho mayor.\nAl usarse con «でしょうか», la cortesía aumenta aún más:お味はいかがでしょうか。→ ¿Es de su agrado el sabor?\nMuy frecuente en tiendas, restaurantes, hoteles o al presentar productos/servicios.\nEsta forma no se usa con inferiores ni con amigos (sonaría distante y poco natural).",
+    "mistakes": [
+     "Confundir «どうですか» con «いかがですか»:",
+     "✕ コーヒーはいかが？ (demasiado coloquial → es mejor usar どう).",
+     "○ コーヒーはいかがですか。 (correctamente cortés).",
+     "Contexto incorrecto: «いかが» solo se usa al hablar con superiores o en situaciones de cortesía.",
+     "Omitir «は»: ✕ コーヒーいかがですか → ○ コーヒーはいかがですか。",
+     "El JLPT N5 suele preguntar: elegir correctamente entre «どうですか» (coloquial) y «いかがですか» (cortés)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Grado de cortesía",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "どうですか",
+       "¿Qué tal? / ¿Quieres?",
+       "Normal, con amigos o personas del mismo nivel",
+       "コーヒーはどうですか。"
+      ],
+      [
+       "いかがですか",
+       "¿Qué tal? / ¿Desea?",
+       "Cortés, keigo",
+       "コーヒーはいかがですか。"
+      ],
+      [
+       "いかがでしょうか",
+       "¿Qué le parece? / ¿Cómo lo ve usted?",
+       "Extremadamente cortés, se usa en el ámbito empresarial / atención al cliente",
+       "こちらのプランはいかがでしょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 151,
+   "src_hash": "dd7484872025489a",
+   "fields": {
+    "meaning": "Solo, únicamente | solo",
+    "examples": [
+     "No sé si saldrá bien, pero lo intentaré lo mejor que pueda.",
+     "Hay mucho, así que, por favor, coma todo lo que quiera.",
+     "Cuando terminen los exámenes, quiero divertirme todo lo que quiera.",
+     "«Puede comer todo lo que quiera.»",
+     "«Mañana vendré lo más temprano posible.»",
+     "Creo que hice todo lo que pude."
+    ],
+    "explain": "«solo» neutro, sin la connotación negativa de しか～ない; puede ir con afirmación o negación según el contenido.\nPosición de la partícula: だけ se coloca tras la palabra/frase que se quiere limitar; puede combinarse con は/も/に/を/が para enfatizar (それ だけは、それ だけを …).\nVるだけV y できるだけ tienen el matiz de «lo máximo posible/todo lo que se quiera».\n～だけのN significa «propio solo de/suficiente para ~», y a veces «digno de… hasta tal punto» según el contexto.\n\nLimitación/Solo: solo N/solo eso/solo hacer V (limita el alcance, la cantidad, el destinatario).\nLo máximo posible: できるだけ／VるだけV expresan «al máximo/todo lo que se quiera».\nÉnfasis en el mínimo/excepción: ～だけは (al menos/en cuanto a ~), ～だけでも (aunque sea solo ~…).\nMatiz neutro; en comparación con しか～ない, だけ puede usarse en una oración afirmativa, mientras que しか va con negación.",
+    "notes": "1) Es fácil confundir ～だけ con «solo» en sentido restrictivo.\n→ En N3, ～だけ muy a menudo expresa grado/alcance: できるだけ, 好きなだけ.\n2) Distinguirlo de ～しか.\n→ ～しか siempre va con negación y tiene matiz restrictivo; ～だけ es neutro y puede ser positivo.\n3) Distinguir それだけ de ～だけ.\n→ それだけ suele significar «en la medida correspondiente» (pronombre), no el punto gramatical «solo».",
+    "mistakes": [
+     "Usar だけ con negación para dar un matiz de «escasez» como しか: «三人だけしか来ない» es una superposición incorrecta; elige だけ o しか～ない.",
+     "Omitir la partícula de énfasis: cuando se quiere enfatizar el mínimo/excepción, se necesita は/も: それだけは言いたい。",
+     "Confundir «Vるだけ» (solo hacer) con «VたいだけV» (hacer todo lo que se quiera): significados distintos.",
+     "Malinterpretar «～だけのN»: puede significar «suficiente para ~» (この成績は合格するだけのレベルだ), no solo «propio solo de».",
+     "Confundirlo con «～だけに/～だけあって»: son otros puntos gramaticales; revisa el contexto del JLPT."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "だけ",
+       "solo; tanto como",
+       "Se puede usar en una oración afirmativa",
+       "<ruby>一人<rt>ひとり</rt></ruby>だけ<ruby>来<rt>き</rt></ruby>た"
+      ],
+      [
+       "しか～ない",
+       "solo … (con negación)",
+       "Debe ir con ～ない; matiz de escasez/pena",
+       "<ruby>一人<rt>ひとり</rt></ruby>しか<ruby>来<rt>こ</rt></ruby>なかった"
+      ],
+      [
+       "ばかり",
+       "solo/todo; aproximadamente",
+       "Puede tener matiz de exceso/desequilibrio; también significa «aproximadamente»",
+       "お<ruby>菓<rt>かし</rt></ruby><ruby>子<rt></rt></ruby>ばかり<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "のみ",
+       "solo (formal)",
+       "Lengua escrita, avisos, textos jurídicos",
+       "<ruby>会員<rt>かいいん</rt></ruby>のみ"
+      ],
+      [
+       "くらい/ぐらい",
+       "aproximadamente; hasta el punto de",
+       "Estimación, no es un límite absoluto",
+       "<ruby>三人<rt>さんにん</rt></ruby>くらい"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 153,
+   "src_hash": "b130cb927dff9f18",
+   "fields": {
+    "meaning": "Querer hacer ~",
+    "examples": [
+     "A: ¿Qué quiere hacer ahora?\nB: Quiero beber agua.",
+     "A: ¿Qué va a hacer?\nB: ¡No quiero estudiar!"
+    ],
+    "explain": "Vたい tiene las características de un adjetivo い.\nEn la forma たい, la partícula が puede sustituir a を.\nNo se conjuga el verbo ある en la forma たい."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

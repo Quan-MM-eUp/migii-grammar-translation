@@ -1,0 +1,646 @@
+{
+ "batch": "b025",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 372,
+   "src_hash": "97d65e6e409b8123",
+   "fields": {
+    "meaning": "porque ~ | Como…, …",
+    "examples": [
+     "Ahora estoy ocupado, así que no puedo ir.",
+     "Me quedé dormido, así que corrí un poco hasta la estación.",
+     "Como era barato, lo compré.",
+     "No me gusta esto, así que no lo quiero.",
+     "Como olvidé el diccionario, se lo pedí prestado a un amigo.",
+     "Me mojé con la lluvia y acabé resfriándome."
+    ],
+    "explain": "Tiene un matiz explicativo e informativo; se usa mucho en textos, cartas y avisos de empresa.\nRara vez se usa para órdenes tajantes; cuando se quiere presionar o dar una orden directa, ～から suele resultar más natural.\nLa cláusula de razón (～ので) va antes de la cláusula de resultado para destacar la razón.\nCon adjetivos な y sustantivos se necesita な → なので (no se omite な).\nEn una conversación cortés: ～ですので; es neutro y no culpa a nadie.\n\n• Expresa una causa o razón objetiva y neutra: «porque / debido a / por eso».\n• Matiz suave: explica el contexto más que culpar; se usa a menudo en el habla cortés, la lengua escrita y los avisos.\n• Suele usarse para causas naturales y objetivas (el tiempo, normas, situaciones) o para razones personales presentadas con suavidad.\n• Comparado con ～から: ～ので es objetivo y evita ser directo; ～から es subjetivo y franco. Con órdenes o sugerencias, ～から es más natural.\n• El pasado antes de ～ので enfatiza que la razón ya ocurrió: 渋滞だったので、遅れました。",
+    "notes": "Nota:\n●　ていねいにお願いするときやあやめるときは「から」より「ので」をつかったほうがよい。\nnormalmente, cuando se pide un favor o cuando se pide disculpas, es mejor usar 「ので」 que 「から」\n●文末には使えない。\nno se puede usar al final de la oración.\n1.  「どうして遅れたのですか」\n«¿Qué ha pasado?»\nX 　「電車の事故があったのでです」　→　「～からです」\nX «Porque hubo un accidente.»\nmeaning_vi: Expresa causa o razón. Es una forma más cortés que ～から. Las expresiones de orden (por ejemplo よめ、みろ、こい, etc.) o los saludos y agradecimientos (すみません、ありがとうなど, etc.) normalmente no van después de este patrón de oración.\nexamples: 1. ①すみません、頭がいたいので、今日は休みます。\nDisculpe, como me duele la cabeza, hoy me tomo el día libre.\n2. ②この子はまだ5歳なので、バス代はかかりません。\nComo este niño solo tiene 5 años, no tiene que pagar el autobús.\n3. ③雨が降っていたので、今日は散歩に行かなかった。\nComo estaba lloviendo, hoy no salí a pasear.",
+    "mistakes": [
+     "Olvidar な: 静かので× → 静かなので✓; 学生ので× → 学生なので✓",
+     "Usar ～ので con una orden demasiado directa: “～ので、しろ×” → usa ～から o ～てください.",
+     "Confundirlo con ～から cuando hay un matiz de culpa; el JLPT suele pedir elegir la forma suave (～ので) en un contexto cortés.",
+     "Tiempo verbal: una razón pasada requiere pasado antes de ～ので: 病気だったので休んだ。"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～から",
+       "Porque, debido a (subjetivo)",
+       "Directo; adecuado para órdenes y sugerencias",
+       "<ruby>寒<rt>さむ</rt></ruby>いから、<ruby>窓<rt>まど</rt></ruby>を<ruby>閉<rt>し</rt></ruby>めて。"
+      ],
+      [
+       "～ので",
+       "Porque, debido a (objetivo, explicativo)",
+       "Suave, cortés; adecuado para la lengua escrita y avisos",
+       "<ruby>寒<rt>さむ</rt></ruby>いので、<ruby>窓<rt>まど</rt></ruby>を<ruby>閉<rt>し</rt></ruby>めてください。"
+      ],
+      [
+       "～ため（に）",
+       "Porque (causa objetiva) / Para (finalidad)",
+       "Formal; para finalidad: Vる＋ために",
+       "<ruby>事故<rt>じこ</rt></ruby>のため、<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れた。"
+      ],
+      [
+       "～せいで／～おかげで",
+       "Por culpa de (negativo) / Gracias a (positivo)",
+       "Califica emocionalmente la causa",
+       "<ruby>雨<rt>あめ</rt></ruby>のせいで<ruby>遅<rt>おく</rt></ruby>れた。<ruby>友達<rt>ともだち</rt></ruby>のおかげで<ruby>助<rt>たす</rt></ruby>かった。"
+      ],
+      [
+       "～ものだから（もんで）",
+       "Es que… (justificación)",
+       "Lengua hablada, con tono de justificación",
+       "<ruby>急<rt>いそい</rt></ruby>いでいたものだから…"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 373,
+   "src_hash": "c6c8b377635eb2e3",
+   "fields": {
+    "meaning": "Aunque…, y sin embargo… | para ~ | y aun así ~",
+    "examples": [
+     "Se lo advertí y, aun así, volvió a llegar tarde.",
+     "Pensé que terminaría enseguida, pero me llevó nada menos que 2 horas.",
+     "Este apartamento está lejos de la estación y, sin embargo, el alquiler es caro.",
+     "Ya he pagado, ¿por qué no llega el producto?",
+     "Él lleva solo medio año desde que llegó a Japón y, sin embargo, no pudo hablar bien. Y eso que practicó con todas sus fuerzas…",
+     "En el concurso de oratoria me puse nervioso y no pude hablar bien. Y eso que practiqué con todas mis fuerzas…"
+    ],
+    "explain": "Expresión emotiva fuerte para quejarse: ～のに！ puede ir al final (omitiendo la segunda cláusula) para enfatizar el pesar.\nSe usa a menudo en la lengua hablada para expresar sentimientos contrarios a lo esperado.\nNo combina de forma natural con una voluntad fuerte u órdenes en la segunda cláusula; para dar consejos se usa ～けれど(も)/が.\nCuidado con la persona: usado con el oyente puede sonar a reproche.\n\n• Paradoja, contraste con lo esperado: «aunque / a pesar de que… pero…».\n• Suele implicar pesar, descontento o un ligero reproche.\n• La segunda cláusula suele ser un resultado contrario a lo esperado según la primera cláusula.\n• No es natural si va seguido de una orden o sugerencia directa, ya que la segunda cláusula debe ser un resultado o una evaluación.\n• Distíngase de «Vる＋のに (para ~)», que tiene otro significado (la partícula «に» tras una nominalización).",
+    "notes": "Diferencia entre のに y が:\nSi se sustituye のに en los 2 ejemplos siguientes, no se expresa el sentimiento de sorpresa o descontento.\n①約束(やくそく)を　しましたが、彼女(かのじょ)が来(き)ませんでした。\nQuedé con ella, pero no vino.\n② きょうは日曜日(にちようび)ですが、働(はたら)かなければなりません。\nHoy es domingo, pero tengo que trabajar.\nDiferencia entre のに y ても:\nのに es una expresión que muestra el sentimiento del hablante sobre algo que ya ha ocurrido, y no puede expresar un resultado contrario hipotético como ても.\n〇 あした雨(あめ)が降(ふ)っても、サッカーを　します。\nAunque mañana llueva, jugaremos al fútbol.\n✖あした雨(あめ)が降(ふ)るのに、サッカーを　します。\nmeaning_vi: Expresa que algo ~ que parecía obvio en realidad no ocurre. Este patrón de oración se usa normalmente para transmitir sorpresa, pesar, descontento o queja del hablante. Normalmente, las oraciones que expresan el deseo o la intención del hablante, o una invitación o apremio al interlocutor para que actúe\nexamples: 1. ①昨日宿題をやったのに、持ってきませんでした。\nAunque ayer hice los deberes, no los traje.\n2. ②雨が降っていないのに、あの人は傘をさしています。\nAunque no está lloviendo, esa persona lleva el paraguas abierto.\n3. ③このかばんはまだ新しいのに、もう壊れました。\nEste bolso todavía es nuevo y ya se ha roto.\n4. ④花ちゃんはまだ3歳なのに、漢字がわかる。\nHana solo tiene 3 años y ya entiende los kanji.\n5. ⑤はな「お兄ちゃん、雨が降っているよ。」\nけん「本当？あーあ、今日は運動会なのに。」\nHana: \"Hermano, está lloviendo.\"\nKen: \"¿En serio? Ay, y eso que hoy es el día de deportes...\"",
+    "mistakes": [
+     "Olvidar なのに con Aな/N: 便利のに× → 便利なのに✓; 学生のに× → 学生なのに✓",
+     "Confundirlo con “Vる＋のに（に）= para ~” → significado totalmente distinto.",
+     "Usar una orden en la segunda cláusula: ～のに、行きなさい× → ～けれど(も) es más natural.",
+     "El JLPT suele jugar con el sentimiento de queja; elige ～のに cuando hay “contrario a lo esperado + pesar”."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～けれど（も）／～が",
+       "Aunque / pero (neutro)",
+       "Más suave, con menos queja que ～のに",
+       "<ruby>雨<rt>あめ</rt></ruby>だが、<ruby>出<rt>で</rt></ruby>かける。"
+      ],
+      [
+       "～ても／～でも",
+       "Aunque… igualmente… (hipotético/concesivo)",
+       "Hipotético o condicional, no necesariamente paradójico",
+       "<ruby>高<rt>たか</rt></ruby>くても<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "～くせに",
+       "Aunque… (ironía/reproche)",
+       "Sentimiento negativo más fuerte que ～のに",
+       "<ruby>知<rt>し</rt></ruby>っているくせに、<ruby>教<rt>おし</rt></ruby>えない。"
+      ],
+      [
+       "Vる＋のに（に）",
+       "“para ~”",
+       "No es paradoja; indica la finalidad de uso",
+       "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>するのに<ruby>役立<rt>やくだ</rt></ruby>つ。"
+      ],
+      [
+       "～ながら（も）",
+       "Aunque (simultaneidad/concesión)",
+       "Formal, frecuente en la lengua escrita",
+       "<ruby>残念<rt>ざんねん</rt></ruby>ながら、<ruby>行<rt>い</rt></ruby>けません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 374,
+   "src_hash": "0a15e86b065b7f04",
+   "fields": {
+    "name": "～のに［tiempo・costo］",
+    "meaning": "Tiempo, costo",
+    "examples": [
+     "Para ir a Kioto se tarda dos horas y media.",
+     "Para entrar en el recinto se necesita esta postal."
+    ],
+    "explain": "◎ 「の」 significa 「こと」 y la expresión indica cuánto tiempo o costo hace falta para hacer algo. Se usa con la forma de diccionario del verbo."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 375,
+   "src_hash": "a9de2fd691df1afa",
+   "fields": {
+    "meaning": "Énfasis en el sujeto: lo que / quien… es N (～のはNです)",
+    "examples": [
+     "Donde nací es una ciudad bonita y cerca del mar.",
+     "El mes más ocupado del año es diciembre.",
+     "A: ¿Nació en Bangkok?\nB: No, donde nací es Chiang Mai."
+    ],
+    "explain": "Este patrón de oración es una forma de enfatizar N."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 376,
+   "src_hash": "a4b962a4f7af385e",
+   "fields": {
+    "name": "～の［partícula final］",
+    "meaning": "Partícula final",
+    "connection": "[oración/cláusula en forma simple] + の(？)",
+    "examples": [
+     "Mamá, hoy ha pasado algo divertido en la escuela.",
+     "Sakura, ¿a qué hora vuelves hoy a casa?"
+    ],
+    "explain": "◎ Es la forma abreviada de 「のです」 y se usa entre personas cercanas. Con entonación descendente es una afirmación (el sujeto es mujer); con entonación ascendente es una pregunta."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 377,
+   "src_hash": "b750c89c9877a93d",
+   "fields": {
+    "name": "～ば［condición hipotética］",
+    "meaning": "Condición hipotética",
+    "examples": [
+     "Si lees esto, lo entenderás.",
+     "Si practicas, mejorarás.",
+     "Si es barato, pienso comprarlo."
+    ],
+    "explain": "◎ 「～ば」 es un patrón de condición hipotética; 「A ば、B」 significa \"cuando se está en la situación o circunstancia A, se da B\". 「～ば」 se forma cambiando la parte conjugable del verbo o del adjetivo a"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 378,
+   "src_hash": "764321f85a58668f",
+   "fields": {
+    "meaning": "(no) tan ~ como",
+    "examples": [
+     "No soy tan inteligente como ella.",
+     "En realidad, no es tan fácil como decirlo."
+    ],
+    "explain": "◎ 「～ほど」 es un patrón de oración que expresa comparación; la segunda parte va en forma negativa.",
+    "notes": "Se usa en la forma 「ＸはＹほど…ない」 y, tomando Ｙ como referencia, indica que Ｘ está por debajo de Ｙ. Por ejemplo, 「ＸはＹほど大きくない」 equivale a 「ＸはＹより小さい」. Sin embargo, mientras que 「ＸはＹより…」 simplemente compara ambos elementos, cuando se usa el patrón 「ＸはＹほど…ない」 puede incluir el sentido de «tanto Ｘ como Ｙ son…, pero si se comparan entre sí». Por ejemplo, en el ejemplo ① se sobrentiende «este verano también hace calor, pero es más llevadero que el del año pasado»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 379,
+   "src_hash": "464c7e7dff8c8fe6",
+   "fields": {
+    "meaning": "El ~ (ordinal)",
+    "connection": "Cantidad + め(目)",
+    "examples": [
+     "Bájese en la tercera parada de autobús, por favor.",
+     "Eso estaba escrito en la segunda hoja de la carta."
+    ],
+    "explain": "◎ Indica el orden contando desde el primero."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 380,
+   "src_hash": "978b03e258004063",
+   "fields": {
+    "name": "～も［grado］",
+    "meaning": "Grado",
+    "connection": "Cantidad + も",
+    "examples": [
+     "Estaba tan rico que me comí nada menos que 3.",
+     "Me quedé dormido y llegué nada menos que 20 minutos tarde."
+    ],
+    "explain": "◎ Un grado que supera lo previsto."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 381,
+   "src_hash": "cadcb730842d8ee1",
+   "fields": {
+    "meaning": "~ Empezar a / ~ solo (nada más que ~)",
+    "examples": [
+     "Ya puedo leer un poco de kanji.",
+     "Ahora se puede reservar por internet.",
+     "Últimamente he empezado a hablar mucho con mi padre."
+    ],
+    "explain": "◎ Expresa un cambio: surge una situación nueva que antes no existía. Se combina con la forma potencial y la forma de diccionario del verbo."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 383,
+   "src_hash": "682cc617c6437e2a",
+   "fields": {
+    "meaning": "Por favor, procura ~",
+    "examples": [
+     "Procure hacer ejercicio todos los días, por favor.",
+     "Mañana procure no llegar tarde bajo ningún concepto, por favor."
+    ],
+    "explain": "～ようにしてください： Por favor, procura ~\nGuía y explicación\nSe usa para pedir a otra persona, de forma cortés, que haga o no haga algo.\nEs más suave que ～Vてください o ～Vないで　ください。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 384,
+   "src_hash": "45dcceabd97dacda",
+   "fields": {
+    "meaning": "Procurar… | procurar que ~",
+    "examples": [
+     "Procurar comer verduras",
+     "Procuro comer verduras por mi salud.",
+     "Por su salud, procure no beber demasiado alcohol.",
+     "«De ahora en adelante procuraré no llegar tarde»",
+     "Cuando hace calor, procuremos beber mucha agua.",
+     "Procuro usar enseguida las palabras que he aprendido."
+    ],
+    "explain": "Enfatiza el esfuerzo personal y es cortés al aconsejar: ～ようにしてください/お願いします。\n～ようにしている expresa un hábito actual; ～ようにした es la acción de empezar un hábito.\nNo se usa con cambios espontáneos o incontrolables (en ese caso se usa ～ようになる).\n\n• Expresa «procurar…», «tener cuidado de…», con el fin de crear un hábito o asegurar que una conducta se produzca.\n• No garantiza el resultado; enfatiza el esfuerzo o la conciencia del sujeto.\n• La forma ～ようにしている enfatiza un estado mantenido y regular.\n• Se usa para acciones que se pueden controlar con la voluntad personal.",
+    "notes": "• Palabras con matiz intencional: 心がける・意識する・努める también tienen un significado cercano a ～ようにする.\n• En instrucciones y avisos: ゴミは持ち帰るようにしてください。 es muy frecuente.\n• Se puede añadir duración o frecuencia: 毎日／できるだけ／必ず + ～ようにする。\nmeaning_vi: Para no ~, no sea que ~\nexplain: ◎ Expresa el esfuerzo por evitar un resultado o una situación negativa.\nexamples: 1. 私は、いつも約束の時間に遅れないようにしている。\nSiempre procuro no llegar tarde a las citas.\n2. あまり疲れないようにしたほうがいいですよ。\nDeberías procurar no cansarte demasiado.\nProcura no olvidar tus cosas.\n2. 毎食後、歯をみがくようにしています。\nCada día, después de comer, me lavo los dientes.",
+    "mistakes": [
+     "Usarlo con verbos no controlables: × 雨が降るようにする → contradictorio (no se puede controlar la lluvia).",
+     "Confundirlo con ～ようになる: × 日本語が話せるようにする (esfuerzo propio) → ○ 日本語が話せるようになる (resultado de un cambio).",
+     "Olvidar pasar correctamente a la negación: × 忘れるようにする → ○ 忘れないようにする。",
+     "Usar ～ことにする en lugar de ～ようにする al hablar de hábitos pierde el matiz de “esfuerzo por mantener”."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vることにする",
+       "Decidir hacer",
+       "Resultado de una decisión; no enfatiza el esfuerzo diario.",
+       "<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>走<rt>はし</rt></ruby>ることにした。"
+      ],
+      [
+       "Vるようになる",
+       "Llegar a / empezar a tener el hábito",
+       "Cambio de estado como resultado (normalmente objetivo), sin énfasis en el esfuerzo.",
+       "<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べるようになった。"
+      ],
+      [
+       "Vようとする",
+       "Intentar / estar a punto de",
+       "El momento justo antes de hacer algo; no es crear un hábito.",
+       "<ruby>起<rt>お</rt></ruby>きようとしたが、<ruby>眠<rt>ねむ</rt></ruby>かった。"
+      ],
+      [
+       "Vてみる",
+       "Probar a hacer",
+       "Hacer algo una vez a modo de prueba; no enfatiza la constancia.",
+       "<ruby>新<rt>あたら</rt></ruby>しい<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>試<rt>ため</rt></ruby>してみる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 385,
+   "src_hash": "38ac44f84860c98b",
+   "fields": {
+    "name": "～ように（finalidad）",
+    "meaning": "Para, con el fin de, según | para que ~ | Para…, con el fin de…",
+    "examples": [
+     "Para no olvidarlo, apunto el plan en el calendario.",
+     "Hable un poco más alto, por favor, para que todos lo oigan.",
+     "Camino todos los días para poder mantenerme sano.",
+     "El profesor me llamó la atención para que me quedara callado.",
+     "Ojalá apruebe.",
+     "Se rio como un niño."
+    ],
+    "explain": "La primera cláusula (antes de “ように”) indica el estado o la capacidad que se quiere alcanzar; la segunda cláusula es la acción o medida para lograrlo.\nPara peticiones indirectas: se usa “～ように言う/頼む/注意する” para ser cortés y menos directo.\n“～ますように” tiene un matiz de lenguaje humilde y cortés; se usa a menudo por escrito, en correos y en ruegos.\n“N のように/ような” forma comparaciones; no debe confundirse con “ようだ” (juicio / parecer que).\n\n• “Para/para que ...”: apunta a lograr un estado o una capacidad (poder oír, poder ver, poder hacer...). Suele ir con verbos potenciales o con resultados que no dependen totalmente de la voluntad directa (聞こえる・見える・できる・間違えない...).\n• “Como/igual que ...”: se usa con sustantivos y “ような/ように” para formar comparaciones metafóricas.\n• Estructura de deseo “～ますように”: expresa un deseo de forma cortés.\n• En mensajes u órdenes indirectas: ～ように言う／頼む expresa “haz/no hagas” de forma indirecta y cortés.",
+    "notes": "• Cuando el objetivo es una capacidad o un permiso: 聞こえる・見える・できる・分かる van con “ように”.\n• Los dos grandes usos de “ように” (finalidad y comparación) suelen evaluarse en contraste con “ために” y “ようだ/みたい”.\n• En instrucciones de seguridad y señales: 火の取り扱いに注意するように（ten cuidado al usar el fuego）.",
+    "mistakes": [
+     "Confundirlo con ～ために: finalidad por voluntad directa → se usa ために; capacidad/resultado → se usa ように.",
+     "Usar “ように” con un verbo de objetivo de voluntad directa sin forma potencial: 日本に行くように勉強する（más natural: 行けるように/合格するために）.",
+     "Confundir “ように” (comparación) con “ようだ” (conjetura): 子どものように（como un niño）≠ 子どものようだ（parece un niño)",
+     "Olvidar Vない形 para un objetivo negativo: 遅れないように（para no llegar tarde), no 遅れるように."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～ために",
+       "Para (finalidad intencional)",
+       "El sujeto tiene la voluntad de realizar directamente la acción objetivo.",
+       "<ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>くために<ruby>貯金<rt>ちょきん</rt></ruby>する。"
+      ],
+      [
+       "～ように",
+       "Para/para que (resultado/capacidad)",
+       "Se usa con capacidad o resultado, sin control directo.",
+       "<ruby>日本<rt>にほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>けるように<ruby>貯金<rt>ちょきん</rt></ruby>する。"
+      ],
+      [
+       "～ようだ",
+       "Parece / es como",
+       "Juicio, distinto de la comparación real “ように/ような”.",
+       "<ruby>雨<rt>あめ</rt></ruby>のようだ。"
+      ],
+      [
+       "みたい（に／な）",
+       "Como / igual que (lengua hablada)",
+       "Más coloquial que “ように/ような”.",
+       "<ruby>子<rt>こ</rt></ruby>どもみたいに<ruby>笑<rt>わら</rt></ruby>う。"
+      ],
+      [
+       "～ようにしてください",
+       "Procura / recuerda...",
+       "Orden cortés e indirecta.",
+       "<ruby>遅<rt>おく</rt></ruby>れないようにしてください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 386,
+   "src_hash": "a38188feac96e739",
+   "fields": {
+    "meaning": "Comparación",
+    "connection": "N + の + ようだ / V en forma simple + ようだ",
+    "examples": [
+     "Este pan está durísimo, es como una piedra.",
+     "Eran días tan divertidos como un sueño.",
+     "Estaba agotado, así que esta mañana dormía como un muerto."
+    ],
+    "explain": "◎ ｢Xのよう｣ significa que algo se parece a otra cosa (X). ｢女の子のよう｣ significa [en realidad ese niño es un chico, pero parece una chica]\n◎ Además, se puede añadir ｢よう｣ a la forma simple del verbo para expresar un significado parecido."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 387,
+   "src_hash": "194a4ddd2a90bfd4",
+   "fields": {
+    "name": "～よう［finalidad・resultado］",
+    "meaning": "Finalidad - resultado / sin voluntad",
+    "connection": "Vる / Vない (sin voluntad) + ように",
+    "examples": [
+     "Envuélvalo en papel, por favor, para que no se ensucie.",
+     "Estudio todos los días para aprobar."
+    ],
+    "explain": "◎ Se usa 「よう」 con la forma de diccionario del verbo para indicar la finalidad o el resultado de una acción. 「～よう＋V」 y 「～ように＋V」 tienen un significado similar.",
+    "notes": "Expresión propia de la lengua escrita equivalente a 「だろうか」. Expresa duda o pregunta retórica. Los ejemplos ②～④ son preguntas retóricas y pueden interpretarse como «…だろうか。いやそうではない». Se usa con más frecuencia en forma simple."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 388,
+   "src_hash": "ace4c23ad34cf42b",
+   "fields": {
+    "name": "～らしい［conjetura］",
+    "meaning": "~ Parece que (juicio)",
+    "connection": "V・Aい en forma simple + らしい / N・Na + らしい",
+    "examples": [
+     "Todos dicen que parece que Yamashita va a dejar la empresa.",
+     "Parece que ella aprobó el examen de ingreso a la Universidad M."
+    ],
+    "explain": "◎ Significa 「そう思われる」 y expresa un juicio fundamentado en cierta información. Se conjuga como un adjetivo, con las formas 「～らしい、～らしくない、～らしかった」.",
+    "notes": "Se coloca al final de la oración e indica que el hablante considera el contenido como algo bastante seguro. El fundamento de ese juicio es objetivo, como información externa o hechos observables, y no una simple imaginación. Por ejemplo, en ① el juicio 「雨らしい」 se basa en la información del pronóstico del tiempo. En ⑤, el juicio 「試験がうまくいかなかったらしい」 se basa en la situación de que 「帰ってくるなり部屋に閉じ込もってしまった」. Sobre la diferencia con 「みたいだ」 y 「そうだ」, véase 「みたいだ２」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 389,
+   "src_hash": "3748c3a4361c0bca",
+   "fields": {
+    "meaning": "Durante, dentro de",
+    "examples": [
+     "Todavía no está claro. Le responderé dentro de 4 o 5 días.",
+     "Me iré de esta habitación dentro de este mes.",
+     "Saque la basura hoy mismo, por favor."
+    ],
+    "explain": "◎ 「～中」 en la expresión 「２，３日中」 tiene el significado de \"dentro de ese periodo de tiempo.\"",
+    "notes": "meaning_vi: Significa hacer algo dentro de un plazo o mientras dura un estado. 「中」 tiene dos lecturas: 「ちゅう」 y 「じゅう」 .\nexamples: 1. ①　今日中に\nHoy mismo.\n2. ②　夏休み中に　一回　会いましょう。\nVeámonos una vez durante las vacaciones de verano.\n3. ➂　授業中に　地震が　ありました。\nDurante la clase hubo un terremoto.\n4. ➃　外出中に　どろぼうが　入った。\nEntró un ladrón mientras estaba fuera."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 391,
+   "src_hash": "1aba77a13da7b7e4",
+   "fields": {
+    "name": "Lenguaje respetuoso de Vてください",
+    "meaning": "Es el lenguaje respetuoso (sonkeigo) de Vてください",
+    "examples": [
+     "Voy a preguntar al encargado y vuelvo, así que espere un momento, por favor.",
+     "Use este bolígrafo, por favor."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 393,
+   "src_hash": "ff5c07f78579042a",
+   "fields": {
+    "meaning": "Hay / se nota ~",
+    "examples": [
+     "Se oye un ruido raro, ¿verdad? Parece que algo se ha roto.",
+     "Tiene un sabor raro. Parece que esta leche está pasada.",
+     "Se oye algo en el segundo piso, ¿verdad?",
+     "Esta leche huele un poco raro.",
+     "Esta sopa sabe a manzana.",
+     "La probé para ver a qué sabía."
+    ],
+    "explain": "◎ Percibir sonidos, olores y sabores con los sentidos.\n\nse pueden percibir sabores, olores, sonidos (expresa una propiedad habitual)",
+    "notes": "Se une a sustantivos como におい、かおり、味、昔、感じ、気、寒気、吐き気 y expresa esa sensación o percepción."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 394,
+   "src_hash": "b39db4de89632279",
+   "fields": {
+    "meaning": "decidir/elegir ~ | Decidirse por…",
+    "examples": [
+     "¿Qué va a pedir? — Voy a tomar curry.",
+     "La reunión la fijamos para el martes de la semana que viene.",
+     "Voy a iluminar más la habitación.",
+     "Voy a bajar el volumen.",
+     "Me dejaré el pelo algo corto.",
+     "He decidido no derrochar."
+    ],
+    "explain": "Nにします es muy natural y cortés en conversaciones de servicio, con el matiz de «me quedo con / elijo…».\nにします (fijar) expresa una decisión del hablante o del grupo; moderadamente formal.\nCambio de estado: を+Adj-na/N+にします; con Adj-i es obligatorio くします.\nことにします expresa una decisión personal; ようにします enfatiza el esfuerzo por mantener un hábito.\n\nElección inmediata o según la situación (pedir un plato, elegir una opción): Nにします.\nFijar una hora o un punto: 会議は３時にします (decidimos que sea a las 3).\nCambio intencionado: を + N/Adj-na にします; con Adj-i se usa くします.\nDecisión con compromiso personal: Vる/ない + ことにします (he decidido…); más suave que に決めます.",
+    "notes": "En un restaurante, la pregunta típica: お飲み物は何にしますか／お決まりですか。\nにします puede ir con adverbios de grado: 少なめにします／辛さは控えめにします。\nAjustes de opciones o técnicos: 画面の明るさを50％にします。",
+    "mistakes": [
+     "Adj-i + にします (incorrecto): 早いにします→早くします.",
+     "Confundir にします y に決めます: cuando el enunciado pide un matiz tajante, elige に決めます.",
+     "Falta de を al cambiar el objeto: 部屋にします (ambiguo) →部屋をきれいにします.",
+     "Usar にします en lugar de ことにします en decisiones sobre acciones: 毎日走るにします (incorrecto) →毎日走ることにします."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Nにします",
+       "elegir/fijar N",
+       "Decisión ligera, cotidiana",
+       "<ruby>水<rt>みず</rt></ruby>にします"
+      ],
+      [
+       "Nに<ruby>決<rt>き</rt></ruby>めます",
+       "decidir N",
+       "Firme, tajante",
+       "<ruby>水<rt>みず</rt></ruby>に<ruby>決<rt>き</rt></ruby>めます"
+      ],
+      [
+       "Vる/ないことにします",
+       "decidir por uno mismo",
+       "Intención personal",
+       "<ruby>早起<rt>はやお</rt></ruby>きすることにします"
+      ],
+      [
+       "Vるようにします",
+       "procurar",
+       "Enfatiza el esfuerzo por mantener",
+       "<ruby>早起<rt>はやお</rt></ruby>きするようにします"
+      ],
+      [
+       "になる vs にする",
+       "volverse / hacer que",
+       "Espontáneo vs intencionado",
+       "<ruby>静<rt>しず</rt></ruby>かになる／<ruby>静<rt>しず</rt></ruby>かにする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 1
+}

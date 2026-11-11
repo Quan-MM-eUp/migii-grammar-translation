@@ -1,0 +1,558 @@
+{
+ "batch": "b068",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 1043,
+   "src_hash": "262513a2bf941e39",
+   "fields": {
+    "meaning": "Y sin embargo, pese a ello",
+    "connection": "それなのに + [oración/cláusula]",
+    "examples": [
+     "Estudié muchísimo. Y aun así, suspendí el examen.",
+     "Estaba lloviendo. Y sin embargo, él no llevaba paraguas.",
+     "Ella lo prometió. Y aun así, no vino.",
+     "Esta tienda es popular. Y sin embargo, hoy hay pocos clientes.",
+     "Te dije que si te esforzabas lo lograrías. Y aun así, lo hiciste a medias, ¿eh?"
+    ],
+    "explain": "Posición: siempre va al principio de la segunda cláusula, tras un punto o una coma.\nSe usa cuando se quiere enfatizar un sentimiento: decepción, indignación, reproche, sorpresa.\nNo es simplemente un resultado como それで, ni solo «aun así» como それでも, sino «debería haber sido distinto, pero…».\nSe usa a menudo en la lengua hablada, en conversaciones o en narraciones con carga emocional.\n\n•\nExpresa un fuerte contraste con lo esperado: la cláusula B va totalmente en contra de lo que debería haber ocurrido a partir de la cláusula A.\n\n•\nMatiz emocional claro: suele transmitir reproche, sorpresa, decepción o indignación.\n\n•\nTraducción natural: «Y sin embargo…», «Pero…», «Aun así…».\n\n• Diferencia con それでも: それなのに enfatiza un sentimiento más fuerte y un contraste más marcado.",
+    "notes": "• Frecuente en conversaciones cotidianas, anime y manga cuando un personaje expresa sus emociones.\n• Funciona bien en la narración cuando se quiere enfatizar la contradicción entre expectativa y realidad.\n• Suele traducirse como «Y sin embargo…», «Pero…», «Y aun así…». meaning_vi: Pero, y sin embargo ～ ⏐ explain: Indica un resultado inesperado. ⏐ examples: 1. この時計は高かった。それなのにすぐに壊れた。\nEste reloj era caro. Y sin embargo, se rompió enseguida.\n2. 一生懸命勉強している。それなのに成績はよくならない。\nEstudio con mucho empeño. Y sin embargo, mis notas no mejoran.",
+    "mistakes": [
+     "Confusión con それでも: それでも = «aun así, sigue…», mientras que それなのに = «y sin embargo…» (enfatiza la decepción).",
+     "Es incorrecto usarlo cuando las dos oraciones no tienen una relación de contraste.",
+     "No es adecuado en textos muy formales; conviene sustituirlo por しかしながら o とはいえ.",
+     "Omitir la coma en la lengua escrita → conviene escribir «それなのに、…»。"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "それなのに",
+       "Y sin embargo…, aun así…",
+       "Enfatiza el contraste + sentimiento de decepción.",
+       "<ruby>努力<rt>どりょく</rt></ruby>した。 それなのに<ruby>負<rt>ま</rt></ruby>けた。"
+      ],
+      [
+       "それでも",
+       "Aun así… sigue…",
+       "Se admite A y aun así ocurre B (menos emotivo).",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "でも／けど",
+       "Pero…",
+       "Propio de la lengua hablada; no enfatiza sentimientos ni un contraste fuerte.",
+       "<ruby>行<rt>い</rt></ruby>きたい。 でも<ruby>忙<rt>いそが</rt></ruby>しい。"
+      ],
+      [
+       "ところが",
+       "Sin embargo (sorpresa fuerte)",
+       "Resultado totalmente contrario a lo esperado, con sensación de «¡no puede ser!».",
+       "<ruby>勝<rt>か</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>った。 ところが<ruby>負<rt>ま</rt></ruby>けた。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1044,
+   "src_hash": "ddce389243933b82",
+   "fields": {
+    "meaning": "No obstante (limitación de condiciones)",
+    "connection": "[oración/cláusula]。 + ただし、 + [condición/excepción/limitación]",
+    "examples": [
+     "La participación es gratuita. No obstante, se requiere inscripción previa.",
+     "Se permite fumar. No obstante, solo en los lugares designados.",
+     "El contrato se renovará automáticamente. No obstante, podrá modificarse por acuerdo de ambas partes.",
+     "Se aplica el descuento para estudiantes. No obstante, es condición presentar el carné de estudiante.",
+     "Este medicamento es para adultos. No obstante, las mujeres embarazadas deben consultar a su médico."
+    ],
+    "explain": "Siempre va al principio de la oración siguiente, seguido de coma: «ただし、…».\nEs adecuado para fijar el alcance o las condiciones de aplicación, no para debatir sentimientos.\nEn documentos de empresa, なお añade información y ただし establece condiciones o excepciones.\n\n• Establece una excepción o condición adicional que restringe la oración anterior.\n• Carácter normativo marcado, matiz más rígido y oficial que ただ o でも.\n• S2 suele contener expresiones de condición: ～に限る／～を除く／～場合は／要～／原則として…など.",
+    "notes": "• «ただし書き» es la cláusula de «salvedad» en un reglamento; suele seguir a una cláusula principal de carácter declarativo.\n• En correos corteses se puede usar: ただし、〜となります／〜が必要となります。\n• Cuando el contenido de S2 es una advertencia de seguridad, ただし ayuda al lector a percibir su importancia de inmediato.",
+    "mistakes": [
+     "Usar ただし para oponer opiniones personales → poco natural; conviene usar しかし/でも/ただ.",
+     "Falta de carácter normativo en S2 (sin condición ni limitación) → elección incorrecta en la lectura.",
+     "Confundir なお con ただし: なお solo añade información, no impone restricciones.",
+     "El JLPT suele poner trampas como «無料。なお、事前登録が必要だ。» → el matiz no es exacto; la respuesta correcta suele ser ただし."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "ただし、",
+       "Excepción/condición",
+       "Formal, normativo",
+       "<ruby>無料<rt>むりょう</rt></ruby>。ただし、<ruby>会員<rt>かいいん</rt></ruby>のみ。"
+      ],
+      [
+       "ただ、",
+       "Nota/limitación leve",
+       "Suave, neutro",
+       "<ruby>便利<rt>べんり</rt></ruby>だ。ただ、<ruby>高<rt>たか</rt></ruby>い。"
+      ],
+      [
+       "しかし、",
+       "Sin embargo (contraste fuerte)",
+       "Argumento contrario, no necesariamente una excepción",
+       "<ruby>賛成<rt>さんせい</rt></ruby><ruby>多数<rt>たすう</rt></ruby>。しかし、<ruby>不満<rt>ふまん</rt></ruby>もある。"
+      ],
+      [
+       "なお、",
+       "Añade información",
+       "No impone condiciones",
+       "<ruby>受付<rt>うけつけ</rt></ruby>は<ruby>9時<rt>きゅうじ</rt></ruby>。なお、<ruby>土日<rt>どにち</rt></ruby>は<ruby>休<rt>やす</rt></ruby>み。"
+      ],
+      [
+       "exceptive: ～を<ruby>除<rt>のぞ</rt></ruby>く",
+       "«Excepto …»",
+       "Sintagma nominal, no un conector",
+       "<ruby>祝日<rt>しゅくじつ</rt></ruby>を<ruby>除<rt>のぞ</rt></ruby>く<ruby>平日<rt>へいじつ</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1045,
+   "src_hash": "eaaed737ef804084",
+   "fields": {
+    "meaning": "Solo que, sin embargo",
+    "connection": "[oración/cláusula]。 + ただ、 + [contraste leve/observación]",
+    "examples": [
+     "Este plan es barato. Solo que tiene pocos datos.",
+     "Mañana no hace falta que vengas a trabajar. Solo que entrega el informe por la mañana.",
+     "Este medicamento es muy eficaz. Solo que a veces da sueño.",
+     "Según el pronóstico, hoy hará sol. Sin embargo, parece que por la tarde el viento se intensificará.",
+     "Este libro es fácil de leer. Solo que tiene muchos términos técnicos."
+    ],
+    "explain": "Va al principio de la oración siguiente, seguido de coma: «ただ、…».\nS2 suele ser una condición adicional, una excepción o una advertencia de seguridad.\nNeutro y moderadamente cortés; se puede usar en correos de trabajo habituales.\nEvita usar ただ para normas o cláusulas legales rígidas (en ese caso se usa ただし).\n\n• Conexión que añade una restricción: S2 presenta una condición, excepción, desventaja u observación sobre la información de S1.\n• Intensidad: más suave que しかし, más neutro que でも; no tan formal como ただし.\n• Matiz: «es cierto que S1, solo que/sin embargo S2». No niega S1, sino que ajusta las expectativas.\n• Contexto: se usa tanto en la lengua hablada como en la escrita; adecuado para explicar, negociar o añadir condiciones.",
+    "notes": "• En presentaciones, ただ ayuda a «amortiguar el golpe» al señalar un punto negativo después de un elogio.\n• Colocar ただ entre dos oraciones cortas ahorra palabras frente a けれども/とはいえ y sigue siendo natural.\n• No confundir con ただ = «solo/único»: ただ一つ (solo uno), ただの冗談 (solo una broma).",
+    "mistakes": [
+     "Confundir ただ con ただし: en preguntas sobre normas o cláusulas se elige ただし, no ただ.",
+     "Falta la coma después de ただ: conviene escribir «ただ、…».",
+     "Traducir mecánicamente como «however» en cualquier contexto: con peticiones leves, traduce como «solo que/pero».",
+     "Elegir しかし cuando se necesita una refutación fuerte; ただ es un grado más leve."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "ただ、",
+       "Sin embargo (leve), excepción/observación",
+       "Suave; válido en lengua hablada y escrita",
+       "<ruby>安<rt>やす</rt></ruby>い。ただ、<ruby>質<rt>しつ</rt></ruby>は<ruby>普通<rt>ふつう</rt></ruby>。"
+      ],
+      [
+       "しかし、",
+       "Sin embargo (fuerte)",
+       "Más formal, argumento contrario claro",
+       "<ruby>賛成<rt>さんせい</rt></ruby><ruby>多数<rt>たすう</rt></ruby>。しかし、<ruby>課題<rt>かだい</rt></ruby>は<ruby>残<rt>のこ</rt></ruby>る。"
+      ],
+      [
+       "でも、",
+       "Pero (casual)",
+       "Muy propio de la lengua hablada, poco usado en textos serios",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ],
+      [
+       "ただし、",
+       "Pero/salvo (cláusulas)",
+       "Se usa en normas y condiciones oficiales",
+       "<ruby>無料<rt>むりょう</rt></ruby>。ただし、<ruby>学生<rt>がくせい</rt></ruby>に<ruby>限<rt>かぎ</rt></ruby>る。"
+      ],
+      [
+       "とはいえ、",
+       "Aun dicho esto",
+       "Lengua escrita; concesión y luego argumento contrario",
+       "<ruby>簡単<rt>かんたん</rt></ruby>だ。とはいえ、<ruby>注意<rt>ちゅうい</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1046,
+   "src_hash": "7cb1bddb510381ad",
+   "fields": {
+    "meaning": "Pero, sin embargo",
+    "connection": "[oración/cláusula]。 + だが、 + [oración/cláusula de contraste]",
+    "examples": [
+     "Se redujeron los gastos. Pero el déficit no se ha resuelto.",
+     "Él es joven. Pero tiene mucha experiencia.",
+     "Corrí con todas mis fuerzas. Pero no pude alcanzarlo.",
+     "La propuesta es innovadora. Pero le falta viabilidad.",
+     "Ha dejado de llover. Pero el pavimento sigue resbaladizo."
+    ],
+    "explain": "Se usa para pasar a una cláusula claramente contrapuesta, manteniendo un estilo firme y conciso.\nEs adecuado para narraciones, argumentaciones y exposiciones. En conversaciones corteses se suele usar しかし/でも/けれども.\nPuede ir al inicio de un párrafo o al principio de la oración para crear un ritmo tajante.\n\n• Significado: «Pero/Sin embargo». Conexión de contraste lógico, con matiz de lengua escrita y tono tajante.\n• Matiz: masculino, narración enérgica; frecuente en artículos, exposiciones y el estilo periodístico o narrativo.\n• Neutralidad: menos emotivo que それなのに; más enérgico que しかし en el tono (no necesariamente en la lógica).",
+    "notes": "• だが es una conjunción independiente, distinta de «〜だ + が» (cópula + partícula de contraste) dentro de una oración. Aunque se parezcan, su función es diferente.\n• En el estilo publicitario o de entretenimiento, «だがしかし» se usa para exagerar y crear ritmo.\n• Usar muchos だが seguidos puede volver el texto rígido; conviene alternar con しかし/一方/ところが según la argumentación. explain: Forma rígida de 「しかし」 「けれども」. ⏐ examples: 1. これは難しい挑戦だ。だが失敗を恐れてはいけない。\nEste es un reto difícil. Pero no hay que temer al fracaso.\n2. 生活は貧しい。だが幸せだ。\nLa vida es pobre. Pero soy feliz.",
+    "mistakes": [
+     "Confundir la conjunción «だが» con «〜だ + が» dentro de una oración: las preguntas pueden tender trampas de análisis. El punto antes de だが indica que es una conjunción.",
+     "Usar だが en una conversación cortés con clientes → suena brusco; elige しかし/けれども.",
+     "Usar だが para una relación concesiva de «aun así lo hago» → matiz desviado (conviene usar それでも)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "しかし",
+       "Sin embargo",
+       "Neutro, más general; menos «tajante» que だが",
+       "<ruby>急<rt>いそい</rt></ruby>いだ。しかし<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わず。"
+      ],
+      [
+       "でも",
+       "Pero (lengua hablada)",
+       "Familiar, se usa en conversación",
+       "<ruby>安<rt>やす</rt></ruby>い。でも<ruby>質<rt>しつ</rt></ruby>が…"
+      ],
+      [
+       "それなのに",
+       "Y sin embargo",
+       "Implica indignación/sorpresa; だが es más neutro",
+       "<ruby>約束<rt>やくそく</rt></ruby>。それなのに<ruby>来<rt>こ</rt></ruby>ない。"
+      ],
+      [
+       "けれども／が",
+       "Pero/aunque",
+       "Más suave/cortés en la lengua hablada",
+       "<ruby>高<rt>たか</rt></ruby>いけれども<ruby>必要<rt>ひつよう</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1047,
+   "src_hash": "297436b923c8297e",
+   "fields": {
+    "meaning": "Por cierto…",
+    "connection": "ちなみに + [oración/cláusula]",
+    "examples": [
+     "La reunión es a partir de las 10. Por cierto, el lugar es la sala de reuniones n.º 3.",
+     "Esta tienda tiene buena fama. Por cierto, el dueño es un exdeportista profesional.",
+     "Este software es gratuito. Por cierto, también hay una versión de pago.",
+     "Él es de Osaka. Por cierto, casi no se le nota el dialecto.",
+     "La próxima semana estaré de viaje de negocios. Por cierto, el viernes trabajaré desde casa."
+    ],
+    "explain": "Va al principio de la oración (una oración nueva), seguido de coma: «ちなみに、…».\nAñade información que no es una «condición/excepción» ni una «conclusión».\nEn la escritura formal, なお sustituye a ちなみに cuando se quiere un estilo más rígido.\n\n• «Por cierto/de paso»: aporta información secundaria útil, pero que no determina el hilo principal.\n• Mantiene la relación con el tema; no cambia de tema bruscamente como ところで.\n• Se usa a menudo en presentaciones, correos y conversaciones para intercalar un dato interesante o relacionado.",
+    "notes": "• Usa ちなみに para insertar un «dato curioso» que dé vida a tu discurso, pero no abuses de él para no diluir el hilo principal.\n• En correos corteses: «ちなみにですが、〜をご存じでしょうか。» introduce un tema con suavidad.\n• Si la información añadida es una condición o excepción, cambia a ただし/なお para lograr el matiz correcto. explain: Se usa para añadir un pequeño dato a la oración anterior (a). ⏐ examples: 1. 最近は、ペットを飼う家が増えているようです。ちなみに、うちにも犬が１ 匹とネコが２ 匹います。\nÚltimamente parece que hay cada vez más hogares con mascotas. Por cierto, en mi casa también tenemos un perro y dos gatos.\n2. 燃えるゴミは月曜日と木曜日、燃えないゴミは金曜日に出してください。ちなみに資源ごみの収集日は第３水曜日です。\nSaquen la basura combustible los lunes y jueves, y la no combustible los viernes. Por cierto, la recogida de residuos reciclables es el tercer miércoles del mes.",
+    "mistakes": [
+     "Usar ちなみに para introducir una condición restrictiva → función incorrecta; hay que usar ただし.",
+     "Confusión con ところで: las preguntas sobre el tema suelen exigir ところで cuando hay un cambio de hilo marcado.",
+     "Insertar ちなみに con demasiada frecuencia enreda el hilo; en textos escritos, a veces la respuesta es なお (más formal)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "ちなみに、",
+       "Por cierto (dato relacionado)",
+       "No cambia de tema bruscamente",
+       "<ruby>締切<rt>しめきり</rt></ruby>は<ruby>金曜<rt>きんよう</rt></ruby>。ちなみに、<ruby>土曜<rt>どよう</rt></ruby>は<ruby>休<rt>やす</rt></ruby>み。"
+      ],
+      [
+       "ところで、",
+       "A propósito (cambio de tema)",
+       "Pasa a un tema nuevo, cambia de hilo",
+       "ところで、<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は？"
+      ],
+      [
+       "ついでに",
+       "Aprovechando que se hace A, se hace B",
+       "Adverbio/preposición; indica una acción concomitante",
+       "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>ついでに<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "なお、",
+       "Cabe añadir",
+       "Formal, avisos y comunicados",
+       "<ruby>受付<rt>うけつけ</rt></ruby>は<ruby>9時<rt>きゅうじ</rt></ruby>。なお、<ruby>午後<rt>ごご</rt></ruby>は<ruby>休止<rt>きゅうし</rt></ruby>。"
+      ],
+      [
+       "ちなみに<ruby>言<rt>い</rt></ruby>うと",
+       "Dicho sea de paso",
+       "Más largo, misma función",
+       "ちなみに<ruby>言<rt>い</rt></ruby>うと、～。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1048,
+   "src_hash": "cfb4804fe8f12f78",
+   "fields": {
+    "meaning": "Además, asimismo",
+    "connection": "なお + [oración/cláusula]",
+    "examples": [
+     "Hoy el centro permanece cerrado de forma extraordinaria. Cabe señalar que mañana abrirá con normalidad.",
+     "Las solicitudes se aceptan solo en línea. Cabe señalar que no se admiten solicitudes por correo postal.",
+     "La cuota de participación es de 1.000 yenes. Cabe señalar que para los estudiantes es gratuita.",
+     "Le adjunto el material. Asimismo, para más detalles, consulte la página 3.",
+     "Atención hasta las 17:00. Además, sábados y domingos, cerrado."
+    ],
+    "explain": "Va al principio de la oración B; siempre lleva coma para separar el contenido.\nTono neutro-formal; adecuado para documentos oficiales, poco usado en conversaciones informales (se sustituye por それで/それから/あと).\nCuando tiene el sentido de «excepción leve», es más débil que ただし y no tiene un matiz de refutación fuerte como しかし.\nSuele ir con verbos de instrucción: ご確認ください／ご注意ください／お問い合わせください.\n\n• Adición de información: añade detalles relacionados, a menudo importantes para el lector.\n• Nota/recordatorio: pasa a un tono de instrucción, advertencia o normativa adicional.\n• Corrección/excepción: presenta un caso especial sin negar el contenido anterior.\n• Matiz: formal, típico de avisos, documentos administrativos, manuales de instrucciones y correos de trabajo.",
+    "notes": "• En títulos o carteles se pueden omitir el sujeto y las partículas: なお、入場は一方通行.\n• El kanji 尚 se usa a menudo en textos formales; en ordenadores o formularios puede verse escrito todo en kanji.\n• En los correos, «なお» suele ir justo antes de la oración que contiene un verbo en keigo (lenguaje honorífico) que pide una acción. explain: Se usa al añadir algo a la conversación. No tiene por qué estar relacionado con la oración anterior.\n2\n「今日はこれで終わります。 なお 次回の日時は・・・」 Por hoy terminamos aquí. Además, la fecha y hora de la próxima sesión es…",
+    "mistakes": [
+     "Usar なお en una conversación informal → suena rígido; conviene usar それで/それから/あと.",
+     "Confundir なお con ただし: なお no tiene suficiente fuerza para imponer una condición restrictiva.",
+     "Confusión con なおさら (aún más) → distinta categoría gramatical y significado.",
+     "Omitir la coma después de なお dificulta la lectura; en la comprensión lectora del JLPT la coma ayuda a identificar la estructura."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "なお",
+       "Adición/nota formal",
+       "Escritura, avisos; suave",
+       "A。なお、B。"
+      ],
+      [
+       "ただし",
+       "Establece condición/excepción",
+       "Fuerte, claramente normativo",
+       "A。ただし、Bは<ruby>除<rt>のぞ</rt></ruby>く。"
+      ],
+      [
+       "ちなみに",
+       "Dicho sea de paso",
+       "Información secundaria, no esencial",
+       "A。ちなみに、B。"
+      ],
+      [
+       "それに／また",
+       "Añade información del mismo nivel",
+       "Neutro, conversación",
+       "A。それに、B。"
+      ],
+      [
+       "なおさら",
+       "Aún más…",
+       "No es la conjunción «なお»; significado distinto",
+       "<ruby>寒<rt>さむ</rt></ruby>いからなおさら<ruby>行<rt>い</rt></ruby>きたくない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1049,
+   "src_hash": "96a020807a756620",
+   "fields": {
+    "meaning": "Sin embargo, aun así",
+    "connection": "もっとも + [oración/cláusula]",
+    "examples": [
+     "Estoy de acuerdo con su propuesta. Eso sí, siempre que se pueda hacer dentro del presupuesto.",
+     "Quiero estudiar en Japón. Eso sí, si mis padres me dejan.",
+     "Esta cámara tiene buenas prestaciones. Aunque, eso sí, también es cara.",
+     "Creo que el examen fue fácil. Aunque si aprobé o no ya es otra cuestión.",
+     "Dije que no iría. Aunque puede que cambie de opinión."
+    ],
+    "explain": "Va al principio de la cláusula B para corregir o completar la cláusula A.\nNo niega por completo, sino que suaviza lo dicho o añade una condición.\nMatiz: cortés y razonado, algo propio de la lengua escrita, como si se estuviera «precisando» lo dicho.\nNo tiene la carga emocional de それなのに o それでも; tiende a lo racional, a añadir información.\n\n•\nSe usa para añadir información, una excepción o un ajuste a lo dicho en la primera cláusula.\n\n• Su significado se aproxima a «Sin embargo / Aun así / Aunque, dicho esto…».\n•\nLa cláusula B no niega por completo la cláusula A, sino que solo la limita o la corrige para que sea más precisa.\n\n• Se usa a menudo en la lengua escrita, en la lengua hablada ligeramente formal y en exposiciones lógicas.",
+    "notes": "• Aparece con mucha frecuencia en la comprensión lectora del JLPT, cuando el autor expone la idea principal y luego la ajusta con もっとも para precisarla o añadir una excepción.\n• Se puede traducir de forma flexible: «Sin embargo», «Aunque, dicho esto…», «Por supuesto…», «Eso sí…».\n• Suele ir tras un punto o una coma, o puede escribirse: 「～。 もっとも～。」. explain: Se usa para completar la oración anterior añadiendo una excepción o una condición. ⏐ examples: 1. 検査の前夜から飲食禁止です。もっとも水は飲んでもかまいません。\nDesde la noche anterior a la prueba está prohibido comer y beber. Eso sí, se puede beber agua.\n2. 全員が参加しなければなりません。もっとも病気の場合の別です。\nTodos deben participar. Eso sí, en caso de enfermedad es distinto.",
+    "mistakes": [
+     "Confusión con それでも: それでも = se hace B aunque A sea un obstáculo; もっとも = solo añade una excepción o una condición.",
+     "Usarlo en contextos con emociones fuertes, como una queja → poco natural; conviene usar それなのに・でも.",
+     "Omitir la cláusula A: もっとも siempre se basa en información previa.",
+     "Omitir la coma: en la lengua escrita conviene escribir «もっとも、～»。"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "もっとも",
+       "Aun así, pero…",
+       "Añade una excepción/condición, sin negar por completo la idea anterior.",
+       "<ruby>便利<rt>べんり</rt></ruby>だ。 もっとも、<ruby>高<rt>たか</rt></ruby>いが。"
+      ],
+      [
+       "それでも",
+       "Aun así… sigue…",
+       "B expresa una acción/determinación que supera A.",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "それなのに",
+       "Y sin embargo…",
+       "Sentimiento de decepción; B contradice fuertemente lo esperado a partir de A.",
+       "<ruby>約束<rt>やくそく</rt></ruby>した。 それなのに<ruby>来<rt>こ</rt></ruby>なかった。"
+      ],
+      [
+       "しかし",
+       "Pero, sin embargo",
+       "Argumentativo, con fuerte carácter de oposición; se usa en la lengua escrita formal.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>く</rt></ruby>ると<ruby>言<rt>い</rt></ruby>った。 しかし<ruby>来<rt>こ</rt></ruby>なかった。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1050,
+   "src_hash": "4906f2adafec20de",
+   "fields": {
+    "meaning": "En resumen, en definitiva",
+    "connection": "[oración/cláusula]。 + 要するに、 + [conclusión/punto principal]",
+    "examples": [
+     "Lo he pensado mucho. En resumen, no queda más que intentarlo.",
+     "Él está ocupado y, al parecer, tampoco le interesa. En resumen, que no va a venir.",
+     "La explicación se ha alargado, pero en resumen, esta máquina ya no se puede usar.",
+     "Has dado un montón de razones, pero en resumen, no quieres ir, ¿verdad?",
+     "Este trabajo es difícil y además lleva tiempo. En resumen, hay que estar preparado."
+    ],
+    "explain": "Va al principio de la cláusula B para extraer la esencia o el núcleo de la cláusula A.\nMatiz: objetivo/neutro o, a veces, algo frío y tajante.\nSe usa a menudo cuando el hablante quiere concluir rápido o cuando siente que el oyente se está yendo por las ramas.\nAparece mucho en la lengua hablada, presentaciones, informes y en la comprensión lectora del JLPT.\n\n•\nResume o concluye de forma breve y concisa el contenido anterior.\n\n•\nExpresa el punto central, la esencia del asunto, tras una exposición larga o con muchos detalles.\n\n•\nTraducción natural: «En resumen…», «Dicho de otro modo…», «En definitiva…», «Al final…».\n\n• Se usa a menudo en explicaciones, presentaciones, conversaciones lógicas o para enfatizar una opinión personal.",
+    "notes": "• Suele ir después de un punto o una coma: 「～。 要するに、～。」\n• Aparece con facilidad en textos explicativos, cuando el autor quiere enfatizar el resultado o el núcleo.\n• Puede tener un matiz algo irónico en la conversación: «要するにさ、君はやりたくないんでしょ？» meaning_vi: Dicho brevemente, en resumen ～ ⏐ explain: Significa explicar de forma sencilla la oración anterior. ⏐ examples: 1. 試合に大負けした。要するに、相手のチームと力の差があったということだ。\nPerdimos el partido por mucho. En resumen, había una diferencia de nivel con el equipo rival.\n2. 彼は一度も入賞しなかった。要するに、才能がなかったということだ。\nÉl nunca ganó ningún premio. En resumen, no tenía talento.",
+    "mistakes": [
+     "Confusión con つまり: つまり = reformular la información de otra manera; 要するに = extraer una conclusión.",
+     "Usarlo cuando todavía no hay contenido que resumir → poco natural.",
+     "Usarlo en textos demasiado formales, como una tesis → conviene usar «結論としては…, 要するに…» u otras expresiones académicas.",
+     "Omitir la coma/、 después de 要するに en la lengua escrita no es correcto."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "<ruby>要<rt>よう</rt></ruby>するに",
+       "En resumen, para concluir",
+       "Presenta una conclusión breve tras una explicación detallada.",
+       "<ruby>要<rt>よう</rt></ruby>するに、<ruby>無理<rt>むり</rt></ruby>だ。"
+      ],
+      [
+       "つまり",
+       "Es decir, dicho de otro modo",
+       "Reexplica la misma información de otra manera.",
+       "<ruby>日本語<rt>にほんご</rt></ruby>、 つまり、<ruby>日本<rt>にほん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>。"
+      ],
+      [
+       "<ruby>結局<rt>けっきょく</rt></ruby>",
+       "Al final",
+       "Pone el énfasis en el resultado final tras un proceso.",
+       "<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>来<rt>こ</rt></ruby>なかった。"
+      ],
+      [
+       "<ruby>要<rt>よう</rt></ruby>は",
+       "En resumen",
+       "Más propio de la lengua hablada; significado cercano a <ruby>要<rt>よう</rt></ruby>するに.",
+       "<ruby>要<rt>よう</rt></ruby>は、<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1051,
+   "src_hash": "0b6efc13ade9a5f1",
+   "fields": {
+    "meaning": "～すぎた結果(けっか)→（-）の結果(けっか)\nPor algo fuera de lo normal, un resultado excesivo",
+    "examples": [
+     "Me encontré mal de tantos nervios.",
+     "Mi madre acabó enfermando de tanto preocuparse.",
+     "En el Japón actual hay mujeres que, por preocuparse en exceso por su figura, hacen dietas extremas.",
+     "En Japón, por la excesiva prisa por crecer económicamente, la destrucción del medio ambiente avanzó a gran velocidad.",
+     "Estaba tan absorto en el videojuego que no me di cuenta de que mi padre había vuelto.",
+     "*Hacía tanto frío (= por el exceso de frío) que no podía respirar."
+    ],
+    "notes": "Se une a sustantivos y verbos que expresan sentimientos o estados e indica que su grado es extremo; en la segunda parte se expone el resultado negativo que se produjo por ello."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

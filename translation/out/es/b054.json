@@ -1,0 +1,798 @@
+{
+ "batch": "b054",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 865,
+   "src_hash": "808c33b6fad47a67",
+   "fields": {
+    "meaning": "Entre… del mismo grupo, … entre sí (友達同士)",
+    "examples": [
+     "Fuimos de viaje entre amigos.",
+     "Como somos vecinos, hablamos a menudo.",
+     "No te metas en una conversación entre mujeres."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 867,
+   "src_hash": "7404f0cc80761b84",
+   "fields": {
+    "meaning": "Por el contrario…, por otro lado…",
+    "connection": "V forma simple + 反面 / N・Na + である / Na + な / Aい",
+    "examples": [
+     "La ciudad es práctica, pero por otro lado los precios son altos.",
+     "Este medicamento es muy eficaz, pero por otro lado tiene efectos secundarios fuertes.",
+     "Él es serio, pero por otro lado es poco flexible.",
+     "El teletrabajo da libertad, pero por otro lado es difícil organizarse uno mismo.",
+     "Ella es tímida con los desconocidos, pero en cambio es muy abierta con las personas cercanas.",
+     "Aunque es práctico, por otro lado…"
+    ],
+    "explain": "Matiz neutro, de análisis o evaluación objetiva.\nAdecuado para la lengua escrita, informes y presentaciones; en la conversación también resulta natural al comparar dos aspectos.\nNo se usa con órdenes o voluntad en la segunda cláusula; se centra en describir hechos o características.\n\n• Expresa dos aspectos opuestos o una compensación dentro de una misma cosa o hecho: «por otro lado / por el contrario».\n• Suele presentar una ventaja junto con una desventaja (o al revés), manteniendo el equilibrio en la evaluación.\n• El sujeto A de las dos cláusulas debe ser el mismo para garantizar que se trata de «dos aspectos de un mismo objeto».",
+    "notes": "• Cuando los sujetos son distintos, es preferible ～一方で/～に対して en lugar de ～反面.\n• En el registro formal, Nである反面 hace la oración concisa y precisa.\n• Formas alternativas más suaves en la conversación: その一方で/でも.\nmeaning_vi: 「～だが、逆に…の面もある。」あることの対比的な両面を言うときに使う。\n~ pero, por el contrario, también tiene el aspecto de…\nSe usa para expresar dos aspectos opuestos de un asunto.\nexamples: 1. 都会の生活は面白いことが多い反面、ストレスも多い。\nLa vida en la ciudad tiene muchas cosas interesantes, pero también mucho estrés.\n2. 一人旅は気楽な反面、何でも一人でやらなければならないので、不便だ。\nViajar solo es cómodo, pero a la vez resulta incómodo porque hay que hacerlo todo uno mismo.\n3. 仕事を辞めて自由な時間が増えた反面、緊張感もなくなってしまった。\nAl dejar el trabajo tengo más tiempo libre, pero por otro lado he perdido la tensión necesaria. | También se escribe 半面",
+    "mistakes": [
+     "Usarlo con dos sujetos distintos: X 東京は便利な反面、田舎は不便だ → se debe usar ～に対して/～一方で.",
+     "Segunda cláusula con petición o voluntad: X 便利な反面、我慢しましょう → no encaja con el matiz descriptivo.",
+     "Confundir la secuencia con un simple «pero»: ～が/けれども no implica necesariamente «dos aspectos»."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～<ruby>一方<rt>いっぽう</rt></ruby>（で）",
+       "Por otro lado / mientras que",
+       "Puede comparar dos objetos distintos; alcance más amplio.",
+       "<ruby>都市<rt>とし</rt></ruby>は<ruby>人口<rt>じんこう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える<ruby>一方<rt>いっぽう</rt></ruby>で、<ruby>地方<rt>ちほう</rt></ruby>は<ruby>減<rt>へ</rt></ruby>っている。"
+      ],
+      [
+       "～かわりに",
+       "En lugar de / a cambio",
+       "Enfatiza el intercambio o la compensación, no necesariamente «dos aspectos».",
+       "<ruby>手伝<rt>てつだ</rt></ruby>うかわりに、<ruby>夕飯<rt>ゆうはん</rt></ruby>を<ruby>奢<rt>おご</rt></ruby>って。"
+      ],
+      [
+       "～に<ruby>対<rt>たい</rt></ruby>して",
+       "Al contrario que / con respecto a",
+       "Contraste entre dos sujetos o aspectos; también se usa con el sentido de «con respecto a».",
+       "<ruby>兄<rt>あに</rt></ruby>は<ruby>無口<rt>むくち</rt></ruby>なのに<ruby>対<rt>たい</rt></ruby>して、<ruby>弟<rt>おとうと</rt></ruby>はよく<ruby>話<rt>はな</rt></ruby>す。"
+      ],
+      [
+       "～<ruby>反面<rt>はんめん</rt></ruby>",
+       "Dos aspectos de un mismo objeto",
+       "Ventajas y desventajas de una misma cosa; evaluación equilibrada.",
+       "<ruby>便利<rt>べんり</rt></ruby>な<ruby>反面<rt>はんめん</rt></ruby>、<ruby>危険<rt>きけん</rt></ruby>もある。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 868,
+   "src_hash": "d312233eefa4f4c7",
+   "fields": {
+    "meaning": "Basta con… para que…",
+    "examples": [
+     "Con tal de tener tiempo, te ayudaré.",
+     "Mientras te tenga a ti, no tengo miedo.",
+     "Con solo prepararse, no es difícil.",
+     "Con tal de haber avisado, no pasa nada aunque llegues tarde.",
+     "Este medicamento funciona bien con solo tomarlo después de las comidas.",
+     "Con tal de que el precio sea bajo, se venderá en grandes cantidades."
+    ],
+    "explain": "Enfatiza la condición mínima, con cierta sensación de «con eso basta».\nLo normal es la omisión de la partícula original de N (が/を/は) antes de さえ: お金 さえ あれば (no se dice お金 がさえ …).\nB puede ser una orden, voluntad o consejo:早く連絡し さえすれば、間に合うよ。\nSe evita cuando A y B se contradicen lógicamente (A es la condición mínima suficiente, pero B implica una negación total).\n\n• «Basta con… para que…»; enfatiza la condición mínima: cuando se cumple, se produce el resultado deseado.\n• «さえ» significa «incluso / con solo», y al combinarse con «～ば» forma una condición mínima suficiente.\n• V-てさえいれば enfatiza un estado asegurado de antemano o durante todo un periodo de tiempo.\n• Se usa en inferencias, consejos y para enunciar principios; B normalmente no contradice a A.",
+    "notes": "• Verbos irregulares: する→しさえすれば；来る→来さえすれば（きさえすれば）.\n• V-てさえいれば es adecuado cuando la condición debe mantenerse en el tiempo: 連絡してさえいれば安心だ。\n• Si se quiere enfatizar que «es muy difícil que ocurra sin A», se puede añadir さえ: これさえあれば十分だ。\nmeaning_vi: Indica que, si se cumple la condición, eso solo ya es suficiente.\nexamples: 1. ①　熱さえ下がれば\nCon tal de que baje la fiebre...\n2. ②　恋人の声さえ聞ければと思って、電話をした。\nLlamé por teléfono solo para poder oír la voz de mi pareja.\n3. ③　あの問題さえわかれば、合格したと思う。\nCreo que, con solo haber entendido esa pregunta, habría aprobado.\n4. ➃　だれかに道を聞きさえすれば、間に合ったのに。\nCon solo haberle preguntado el camino a alguien, habría llegado a tiempo.\nmeaning_vi: 「～が実現すれば、それだけで…が実現する。」「～さえ～ば（なら）」は…が成り立つための必要最低限の条件を示す。\nSi ~ se cumple, con solo eso se cumplirá ….\n～さえ～ば（なら） indica la condición mínima que debe cumplirse…\nexamples: 1. 太郎は漫画さえ読んでいれば退屈しないようだ。\nParece que Taro no se aburre con tal de estar leyendo manga.\n2. 体さえ丈夫ならどんなことにも挑戦できる。\nCon tal de tener buena salud, se puede afrontar cualquier reto.\n3. 一言「ごめんなさい。」と言いさえすれば、相手は許してくれるだろう。\nCon solo decir 「Lo siento.」, la otra persona te perdonará.\nmeaning_vi: それだけで→後(うし)ろのことが成立(せいりつ)する\nBasta con, tener\nexamples: 1. あとは肉さえ焼けば、夕食の準備は終わりだ。\nAhora solo falta asar la carne y la cena estará lista.\n2. あの子は暇さえあればいつも本を読んでいる。\nEse niño, en cuanto tiene un rato libre, se pone a leer.\n3. 元気さえ良かったら、山頂までいきたっかたのだが・・・・・。\nCon tal de que hiciera buen tiempo, quería subir hasta la cima...\n4. この国では、まじめに働きさえすれば生活に困ることはない。\nEn este país, con solo trabajar con seriedad, no se pasan apuros para vivir.\n5. あなたと私が黙ってさえいれば（/黙っていさえすれば）、このことはだれにもわからないだろう。\nCon tal de que tú y yo guardemos silencio, nadie se enterará de esto.\n6. 道が込んでさえいなければ10分ぐらいで着くだろう。\nCon tal de que no haya atasco, se llega en unos 10 minutos.\n7. 「あまり辛いさえなければ何でもいただきます」\nCon tal de que no pique mucho, como de todo.\n8. 「体が丈夫でさえあれば、もっと働きたいですが」\nCon tal de tener buena salud, quisiera trabajar más, pero...\n9. このコンテストは、２０歳以上でさえあればだれでも参加できる。\nEn este concurso puede participar cualquiera con solo tener 20 años o más.\nexplain: Expresa que basta con tener ～ para que el estado posterior se cumpla.\nexamples: 1. 携帯電話を買った。これさえあれば、時計もカメラもいらない。\nHe comprado un móvil. Con solo tener esto, no necesito ni reloj ni cámara.\n2. この薬を飲みさえすれば、すぐに治ります。\nCon solo tomar este medicamento, te curarás enseguida.",
+    "mistakes": [
+     "Mantener la partícula original: お金がさえあれば × → お金さえあれば ✓",
+     "Confundirlo con «さえ» en el sentido de «incluso», que no va con «ば»: 彼さえ来た（incluso él vino）≠ condición.",
+     "Usarlo con adjetivos sin «ある/状態»: 高いさえあれば × → 安くさえあれば（acompañado de ある）.",
+     "B contradice a A: お金さえあれば、買わない × (ilógico) → お金さえあれば、買える ✓"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～さえ～ば",
+       "Basta con A para que B",
+       "Condición mínima, fuerte",
+       "<ruby>努力<rt>どりょく</rt></ruby>さえすれば<ruby>成功<rt>せいこう</rt></ruby>する。"
+      ],
+      [
+       "～だけで",
+       "Solo con / con solo",
+       "Describe un medio, no una condición",
+       "<ruby>見<rt>み</rt></ruby>るだけで<ruby>楽<rt>たの</rt></ruby>しい。"
+      ],
+      [
+       "～ば",
+       "Si",
+       "Condición general, sin énfasis en «lo mínimo»",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>れば<ruby>中止<rt>ちゅうし</rt></ruby>。"
+      ],
+      [
+       "～さえあれば vs ～さえすれば",
+       "N (existencia) vs V (acción)",
+       "N cuando la condición es la existencia; V cuando la condición es una acción",
+       "<ruby>時間<rt>じかん</rt></ruby>さえあれば／<ruby>連絡<rt>れんらく</rt></ruby>さえすれば"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 869,
+   "src_hash": "3902961d147522c9",
+   "fields": {
+    "meaning": "Quizá por…, probablemente debido a… (せいか)",
+    "connection": "V/A forma simple + せいか / Nの/Naな + せいか",
+    "examples": [
+     "Quizá por la edad, últimamente me canso con facilidad.",
+     "Será por la falta de sueño, pero me duele la cabeza.",
+     "Quizá porque ha llovido, hoy hay pocos clientes."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 870,
+   "src_hash": "9b5915f92cafe533",
+   "fields": {
+    "meaning": "Si uno se pregunta si… (en realidad no del todo); la razón de que… es que",
+    "examples": [
+     "Si uno se pregunta si a todos los japoneses se les dan bien los kanji, pues tampoco es así.",
+     "Si se pregunta por qué lo eligieron a él, es porque tiene mucha experiencia.",
+     "Si uno se pregunta si lo caro siempre es bueno, no necesariamente es así."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 871,
+   "src_hash": "993e50f3a57d0b6a",
+   "fields": {
+    "meaning": "A la par de…, junto con…",
+    "examples": [
+     "Kioto es, junto con Nara, una ciudad de larga historia.",
+     "Se dice que el monte Fuji es, junto con los cerezos, un símbolo de Japón.",
+     "El fútbol es, junto con el béisbol, un deporte muy popular."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 872,
+   "src_hash": "d84273e53f054f90",
+   "fields": {
+    "meaning": "Adaptarse a…, ajustarse a…",
+    "examples": [
+     "Cambio mi forma de hablar según el nivel de la otra persona.",
+     "Bailemos al ritmo de la música.",
+     "Quiero encontrar un trabajo adecuado para mí."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 873,
+   "src_hash": "6cd7dc3e358d6427",
+   "fields": {
+    "meaning": "Corresponder a…, ser… (彼は私のおじに当たる)",
+    "examples": [
+     "Él es el hermano menor de mi madre, es decir, es mi tío.",
+     "Este año se cumplen 50 años de la fundación."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 874,
+   "src_hash": "2dfd750596c8215e",
+   "fields": {
+    "meaning": "Ni que decir tiene…, por supuesto…",
+    "examples": [
+     "Ni que decir tiene que él aprobó.",
+     "No hace falta decir que la salud es importante.",
+     "Ni que decir tiene que hace falta practicar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 875,
+   "src_hash": "a2a6449f92d93910",
+   "fields": {
+    "meaning": "Estar establecido como…, ser actualmente… (objetivo)",
+    "connection": "N + となっている / [norma・estado] + となっている",
+    "examples": [
+     "En este edificio está prohibido fumar en el interior.",
+     "El plazo de inscripción termina a finales de este mes.",
+     "La entrada cuesta 500 yenes para adultos."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 876,
+   "src_hash": "aae12f0560968ce3",
+   "fields": {
+    "meaning": "El primero…, el segundo… (lengua escrita)",
+    "connection": "（N1とN2 mencionados antes）前者は + [oración/cláusula]、後者は + [oración/cláusula]",
+    "examples": [
+     "Entre el tren y el autobús, el primero es rápido y el segundo es barato.",
+     "Hay un plan A y un plan B: el primero es caro y el segundo ofrece pocos servicios.",
+     "Entre los kanji y el hiragana, los primeros llegaron de China y el segundo se creó en Japón."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 877,
+   "src_hash": "3a4863b0a9634c34",
+   "fields": {
+    "meaning": "No necesariamente…, no siempre…",
+    "connection": "必ずしも + V/A/N forma simple + ～ない（とは限らない・わけではない）",
+    "examples": [
+     "Lo caro no siempre es bueno.",
+     "Aunque te gradúes en una universidad famosa, no necesariamente tendrás éxito.",
+     "No se puede decir que su opinión sea necesariamente correcta."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 878,
+   "src_hash": "62ae0922aaf74672",
+   "fields": {
+    "meaning": "…punto, en cuanto a… (この点, ～という点で)",
+    "connection": "V forma simple + 点 / Nの点 / Naな点 / Aい点 / ～という点で",
+    "examples": [
+     "Ese plan tiene problemas en cuanto al coste.",
+     "En cuanto a la seguridad, este coche está muy bien valorado.",
+     "Las dos propuestas coinciden en que requieren mucho tiempo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 879,
+   "src_hash": "0861d0f02f5daf56",
+   "fields": {
+    "meaning": "Ante todo, en primer lugar…; además",
+    "connection": "(まず)第一に、 + [oración/cláusula]",
+    "examples": [
+     "Ante todo, la salud es lo importante.",
+     "Piense, en primer lugar, en la seguridad y, en segundo lugar, en la velocidad.",
+     "No quiero ir y, para empezar, no tengo dinero."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 880,
+   "src_hash": "a2bbe2e733aa9f41",
+   "fields": {
+    "meaning": "Sufijo 型: tipo, modelo, tamaño… (最新型)",
+    "examples": [
+     "Me compré un smartphone de último modelo.",
+     "Mi grupo sanguíneo es A.",
+     "En esta fábrica se producen máquinas de pequeño tamaño."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 881,
+   "src_hash": "b9e29e3d68b81ca9",
+   "fields": {
+    "meaning": "Hay…, con… (lengua clásica, forma antigua de ある en textos escritos o anuncios)",
+    "connection": "N + あり（lengua clásica: 経験あり・条件あり）",
+    "examples": [
+     "Buscamos personas «con experiencia».",
+     "Este apartamento tiene aparcamiento, así que es muy práctico.",
+     "Es una oferta con condiciones, así que léala con atención."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 882,
+   "src_hash": "b7c02894e85e6fd8",
+   "fields": {
+    "meaning": "Influir en, determinar… (el éxito o el fracaso)",
+    "examples": [
+     "A veces el tiempo influye en el resultado del partido.",
+     "La primera impresión determina la relación posterior.",
+     "Esta decisión probablemente determinará el futuro de la empresa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1539,
+   "src_hash": "9af085d6455d46a3",
+   "fields": {
+    "meaning": "Ser impensable o inimaginable; ser inaceptable (考えられない)",
+    "connection": "forma simple + とは + 考えられない"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1540,
+   "src_hash": "d71dc83b51a6f9ff",
+   "fields": {
+    "meaning": "Tener relación (con …) (関係がある)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1541,
+   "src_hash": "ce8a683f2af7e6a2",
+   "fields": {
+    "meaning": "(A) es precisamente (el contenido que describe A); (A) significa … / (A) es decir …"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1542,
+   "src_hash": "2aadda6bee9039e5",
+   "fields": {
+    "meaning": "Tanto si … como si no … (el resultado es el mismo)",
+    "examples": [
+     "Entregues o no este informe, no afectará en absoluto a tu calificación.",
+     "Participen todos o no, de todos modos reservaré asientos para cada persona.",
+     "Si es solo un día, comas o no comas, tu peso apenas cambia."
+    ],
+    "explain": "Con formas como 「…してもしなくても」, presenta condiciones en relación de afirmación y negación, y expresa que el resultado no cambia en ninguno de los dos casos."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1543,
+   "src_hash": "6155925d8fc2e2bb",
+   "fields": {
+    "meaning": "Ser (…) — forma de la lengua escrita o formal de 「だ・です」"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1544,
+   "src_hash": "cf543a4fbc8dd869",
+   "fields": {
+    "meaning": "Expresa necesidad, obligación",
+    "examples": [
+     "No hacía ninguna falta hablar de una forma tan desagradable.",
+     "Por algo así, un adulto hecho y derecho no debería llorar.",
+     "Con una llamada o una carta basta para resolverlo, así que no hará falta ir hasta allí expresamente."
+    ],
+    "explain": "Se usa para expresar un juicio crítico de que una acción es inapropiada, o el juicio de que una acción es innecesaria. Es una expresión rígida propia de la lengua escrita; en la lengua hablada se usa más 「Ｖ－ることもないだろう」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1545,
+   "src_hash": "4826353990905828",
+   "fields": {
+    "meaning": "Lo que / quien … es precisamente … (énfasis en la parte elegida)",
+    "connection": "[forma simple]のは ～ N/[forma simple] + のほうだ"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1546,
+   "src_hash": "915761930f82b328",
+   "fields": {
+    "meaning": "Encima …, … también …"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1547,
+   "src_hash": "bc292e7f45728e66",
+   "fields": {
+    "meaning": "¿No es …?, … ¿verdad? (conjetura o confirmación, tono coloquial)",
+    "examples": [
+     "Esa persona, ¿no es Yamada?",
+     "Mira, se te ha puesto la cara roja. ¿No será que te gusta Yamada?",
+     "Eso está bien, ¿no? No me parece nada mal.",
+     "¿Las llaves? ¿No están encima de la mesa?",
+     "¿Sato? ¿No se ha ido ya a casa?"
+    ],
+    "explain": "Forma coloquial de 「のではないか」. Se pronuncia con entonación ascendente. Como en 2., también es posible 「んじゃないの」. Los hombres usan además 「んじゃないか」. La forma cortés es 「んじゃありません」"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1594,
+   "src_hash": "385cfc52e33b2a97",
+   "fields": {
+    "meaning": "～がた (sufijo plural cortés para personas, como en あなたがた) significa que ～がた es un sufijo plural cortés usado para referirse respetuosamente a vari",
+    "explain": "～がた (sufijo plural cortés para personas, como en あなたがた) significa que ～がた es un sufijo plural cortés usado para referirse respetuosamente a varias personas, similar a «ustedes» o «señoras y señores» en español.\n\nEstructura: sustantivo + がた\n\nEl sufijo ～がた se une a un sustantivo que se refiere a personas (a menudo pronombres o títulos) para formar un plural cortés. Es más respetuoso y formal que el sufijo plural coloquial ～たち. Por ejemplo, あなたがた significa «ustedes» de manera cortés. Se usa habitualmente en el habla y la escritura formales o corteses."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1595,
+   "src_hash": "8dfce5fe8f4c32ab",
+   "fields": {
+    "meaning": "Expresa un grado extremo",
+    "examples": [
+     "Él se levantó y miró a su alrededor.",
+     "En cuanto llegó a casa, mi hermana menor subió las escaleras de un tirón y se metió en su habitación.",
+     "Ella apartó a sus rivales y ascendió hasta convertirse en una estrella.",
+     "El profesor de ciencias políticas se ha quedado calvo hasta bien arriba de la frente.",
+     "Surgió el plan de ir todos juntos a unas aguas termales en las vacaciones de invierno.",
+     "Como había muy pocos inscritos en el tour, permitieron participar con la familia, y entonces el número de personas se disparó a más del doble, lo que tiene en apuros a la agencia de viajes."
+    ],
+    "explain": "Se une al 連用形 del verbo y expresa una acción o un movimiento hacia arriba, o un estado orientado hacia arriba. 5. ～⑧ son expresiones metafóricas basadas en el sentido de «hacia arriba»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1596,
+   "src_hash": "95a5f7bfa7774b80",
+   "fields": {
+    "meaning": "Expresa una inferencia",
+    "connection": "forma simple + だとすれば",
+    "examples": [
+     "A: Es seguro que van a construir un gran hotel cerca.\nB: Si es así, puede que suba la tasa de empleo de esta ciudad.",
+     "A: Esta foto se tomó en Kioto en verano.\nB: Si es así, eso significa que él estaba en Japón en julio del año pasado."
+    ],
+    "explain": "Se usa al principio de la oración para expresar una conjetura o un juicio del hablante tomando como base lo que ha dicho el interlocutor. Significa «pensando a partir de ese hecho o situación». Es parecido a 「それなら」, pero 「だとすれば」 es algo más formal y se usa también en la lengua escrita. También existen 「そうだとすれば」「だとすると」「そうだとすると」, etc. （２００）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1597,
+   "src_hash": "114821bee530a63d",
+   "fields": {
+    "meaning": "Expresa una condición (condición hipotética)",
+    "examples": [
+     "Supongo que, desde el punto de vista del marido, habrá muchas quejas hacia una esposa que descuida las tareas del hogar.",
+     "Desde su posición de implicado directo, él no puede decidirlo tan fácilmente.",
+     "Creo que, desde el punto de vista de un profesor, es natural interesarse por los estudiantes que rinden bien."
+    ],
+    "explain": "Se usa con sustantivos que designan personas y significa «visto o pensado desde la posición de esa persona». Es algo propio de la lengua escrita. En la lengua hablada se usan más 「にしたら／にしてみれば」.（３４２）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1598,
+   "src_hash": "5740016affed6754",
+   "fields": {
+    "examples": [
+     "En lugar de mi madre, que ha enfermado de repente, asistirá mi padre.",
+     "Se prevé que en el siglo 21 los países asiáticos tomarán el relevo de los países desarrollados de hasta ahora y pasarán a liderar el mundo, pero hay que reconocer que aún quedan muchas incógnitas."
+    ],
+    "explain": "Forma formal y propia de la lengua escrita de 「…にかわって」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1599,
+   "src_hash": "03cf5d0aa5a8c39c",
+   "fields": {
+    "examples": [
+     "Según este registro, el castillo se terminó a finales del siglo 11.",
+     "Según lo que él dice, este cuenco de té es una antigüedad de gran valor."
+    ],
+    "explain": "Tiene el mismo significado que 「…によると」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1600,
+   "src_hash": "cf03ff0371c295fd",
+   "fields": {
+    "name": "～向き（dirección）",
+    "examples": [
+     "Las habitaciones orientadas al sur son luminosas y cálidas.",
+     "Colóquelo mirando hacia la derecha, por favor.",
+     "Acuéstese de lado, por favor.",
+     "Nos gustaría estudiarlo de manera favorable."
+    ],
+    "explain": "Se une a sustantivos que indican dirección, como los puntos cardinales, delante/detrás/izquierda/derecha o arriba/abajo, y expresa que el frente está orientado en esa dirección. 4. es la expresión idiomática 「前向きに」, que significa «esforzarse por hacerlo realidad en la medida de lo posible»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1601,
+   "src_hash": "27a7b9ef0c8b7799",
+   "fields": {
+    "examples": [
+     "Por mucho que le agradezca su amabilidad, nunca será suficiente.",
+     "¿Por qué no estudié más en mi época de estudiante? Por mucho que me arrepienta, nunca será suficiente.",
+     "Si pierdo aquí, ni muerto descansaré en paz."
+    ],
+    "explain": "Usando el mismo verbo, se refuerza su significado. Por ejemplo, 1. enfatiza un profundo agradecimiento y 2., un fuerte arrepentimiento. Es una expresión algo idiomática y los verbos que pueden usarse son limitados. 「死んでも死にきれない」 se usa como expresión enfática de «no poder resignarse» o «arrepentirse»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1602,
+   "src_hash": "35a0c64192e4fa5e",
+   "fields": {
+    "name": "Ｖ－ばいい（consejo）",
+    "examples": [
+     "Si quieres descansar, descansa y ya está.",
+     "Si no tienes dinero, ¿por qué no se lo pides prestado a tu padre?",
+     "A: ¿Qué puedo hacer para adelgazar?\nB: ¿No bastaría con comer menos y hacer mucho ejercicio?",
+     "A: ¿A qué hora vamos?\nB: Basta con que vengas antes de las 10."
+    ],
+    "explain": "Expresión para recomendar o proponer al interlocutor que realice una acción concreta. Se usa para aconsejar, o pedir consejo, sobre qué método o medio conviene emplear para obtener un buen resultado concreto. Es sinónimo de 「たらいい」 y por lo general pueden intercambiarse, pero 「ばいい」 tiene con más fuerza el sentido de «basta con hacer eso». Según el contexto, puede tener un matiz desganado, como si al hablante le diera igual o como si dijera «¿ni siquiera entiendes algo tan simple?». Para pedir consejo, se pregunta indicando claramente el objetivo con la forma 「どうすればやせられるか」, como en ３ａ, o se usa la oración interrogativa 「どうすればいいか」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 883,
+   "src_hash": "cf35629a6224f97e",
+   "fields": {
+    "meaning": "Tener cuidado con…, prestar atención a…",
+    "examples": [
+     "Tenga cuidado con los coches.",
+     "Cuide su salud y siga esforzándose.",
+     "Cuida tu forma de hablar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 884,
+   "src_hash": "092bdfd5e3f31b1c",
+   "fields": {
+    "meaning": "Me temo que ~, hay riesgo de ~ | Indica la posibilidad de que ocurra algo malo",
+    "examples": [
+     "Mañana, a partir de la tarde, hay riesgo de lluvias intensas.",
+     "Hay riesgo de incendio, así que no deje botellas de plástico junto a la ventana.",
+     "Este medicamento puede tener efectos secundarios, así que hay que tener cuidado.",
+     "Si la tasa de asistencia es baja, existe el riesgo de no poder renovar el visado.",
+     "Como el viento era fuerte y había riesgo de que el incendio se extendiera, los vecinos de la zona fueron evacuados.",
+     "La policía cree que existe la posibilidad de que el autor ya haya huido al extranjero."
+    ],
+    "explain": "Expresa la posibilidad de que se produzca un mal resultado en el futuro; suele usarse en la lengua escrita o en avisos.",
+    "notes": "1) Es fácil confundirlo con ～かもしれない.\n→ ～おそれがある significa «me temo / hay riesgo», con un grado de gravedad mayor.\n2) Se usa a menudo en la lengua escrita, avisos y advertencias.\n→ Aparece con frecuencia en noticias y documentos de seguridad.\n3) No se usa para asuntos menores ni para sentimientos personales leves.\n→ Si solo se trata de una preocupación subjetiva, se usa otro patrón según el contexto.\nmeaning_vi: Es posible que…, me temo que…\nexplain: Estilo formal, muy usado en avisos oficiales, prensa, carteles de advertencia e instrucciones de seguridad.\nLa segunda cláusula suele ser una advertencia, petición o recomendación: ～ので注意してください／～を控えてください／～が見込まれます など.\nNo se usa en charlas cotidianas; en su lugar se usa ～かもしれない para hablar de una posibilidad de forma neutra y cercana.\nPuede combinarse con adverbios de grado:十分に/強く/大いに +恐れがある (énfasis alto).\nNegación del riesgo: ～恐れはない (afirma que no hay de qué preocuparse).\nexamples: 1. 大雨の影響で、川が氾濫する恐れがある。\nDebido a las fuertes lluvias, hay riesgo de que el río se desborde.\n2. この薬は眠気を催す恐れがあるため、運転は控えてください。\nEste medicamento puede causar somnolencia, así que evite conducir.\n3. 個人情報が第三者に漏れる恐れがあるため、速やかにパスワードを変更してください。\nExiste riesgo de que los datos personales se filtren a terceros; cambie la contraseña de inmediato.\n4. 設備の老朽化により、稼働を続けると事故の恐れがある。\nDebido al deterioro de los equipos, si se siguen utilizando hay riesgo de accidente.\n5. 地震の際は、落下物でけがをする恐れがあるので、机の下に避難してください。\nDurante un terremoto hay riesgo de herirse por la caída de objetos; refúgiese debajo de la mesa.\n6. 今回の遅れは全体のスケジュールに影響を及ぼす恐れがある。\nEste retraso puede afectar a todo el calendario. meaning_vi: Hay la preocupación de que　～, me temo que ～ ⏐ explain: Expresa que una situación evoluciona en una dirección negativa.\nOración de estilo rígido. ⏐ examples: 1. 地震の際には、窓ガラスが割れたり壁が倒れたりする恐れがある。\nMe temo que durante un terremoto se rompan los cristales de las ventanas y se derrumben las paredes.\n2. 台風１９号は今夜、四国に上陸の恐れがあります。\nMe temo que el tifón n.º 19 toque tierra en Shikoku.",
+    "mistakes": [
+     "Usarlo para un resultado positivo → matiz incorrecto. Para un sentido neutro o positivo se usa 可能性がある.",
+     "Combinarlo directamente con un adjetivo → incorrecto. Debe ser Vる o Nの.",
+     "Usarlo en la lengua hablada, en lenguaje coloquial → resulta demasiado rígido. Conviene cambiarlo a ～かもしれない cuando proceda.",
+     "Confundirlo con ～かねない: ～恐れがある es más formal y objetivo; ～かねない conlleva una evaluación subjetiva y emocional."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～<ruby>恐<rt>おそ</rt></ruby>れがある",
+       "Hay riesgo (negativo)",
+       "Formal, advertencia, objetivo",
+       "<ruby>雨<rt>あめ</rt></ruby>で<ruby>中止<rt>ちゅうし</rt></ruby>の<ruby>恐<rt>おそ</rt></ruby>れがある。"
+      ],
+      [
+       "～かねない",
+       "«Puede llevar a (un mal resultado)»",
+       "Vます<ruby>語幹<rt>ごかん</rt></ruby>+かねない; subjetivo, también se usa en la conversación",
+       "そんな<ruby>発言<rt>はつげん</rt></ruby>は<ruby>誤解<rt>ごかい</rt></ruby>を<ruby>招<rt>まね</rt></ruby>きかねない。"
+      ],
+      [
+       "～<ruby>可能<rt>かのう</rt></ruby><ruby>性<rt>せい</rt></ruby>がある",
+       "Es posible (neutro)",
+       "No necesariamente negativo, poco matiz de advertencia",
+       "<ruby>成功<rt>せいこう</rt></ruby>する<ruby>可能<rt>かのう</rt></ruby><ruby>性<rt>せい</rt></ruby>がある。"
+      ],
+      [
+       "～<ruby>恐<rt>おそ</rt></ruby>れはない",
+       "No hay riesgo",
+       "Negación del riesgo",
+       "<ruby>延期<rt>えんき</rt></ruby>の<ruby>恐<rt>おそ</rt></ruby>れはない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,744 @@
+{
+ "batch": "b100",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 1504,
+   "src_hash": "1acd26fcd74b7338",
+   "fields": {
+    "meaning": "Hasta el final, a toda costa, absolutamente (あくまでも)",
+    "connection": "あくまでも + [oración/cláusula]",
+    "examples": [
+     "Esta es, simplemente, mi opinión personal.",
+     "Él sostuvo hasta el final que era inocente.",
+     "Seguiremos el plan tal como está, pase lo que pase."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1505,
+   "src_hash": "7b7d3cf1a6d6944f",
+   "fields": {
+    "meaning": "Realmente…, de verdad parece muy… (いかにも)",
+    "connection": "いかにも + [oración/cláusula]",
+    "examples": [
+     "Él habla exactamente como un académico.",
+     "Lleva un reloj que parece realmente caro.",
+     "Tenía una cara de verdadera decepción."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1506,
+   "src_hash": "281b5cd588bb965c",
+   "fields": {
+    "meaning": "Ya…, ya no… (もはや)",
+    "connection": "もはや + [oración/cláusula]",
+    "examples": [
+     "Ya es demasiado tarde.",
+     "Esa tecnología ya está anticuada.",
+     "Ya no hay nadie que pueda detenerlo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1507,
+   "src_hash": "ea0e0b4d492b6a62",
+   "fields": {
+    "meaning": "¡Qué…!, ¡tan…! (exclamación: なんという/なんて)",
+    "examples": [
+     "¡Qué paisaje tan hermoso!",
+     "¡Qué persona tan amable!",
+     "¡Pero qué es lo que has hecho!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1508,
+   "src_hash": "6b5123307501ba71",
+   "fields": {
+    "meaning": "Sin duda…, seguramente… (さぞ)",
+    "connection": "さぞ(かし) + [oración/cláusula]",
+    "examples": [
+     "Criar a un hijo sola seguramente fue muy duro.",
+     "Sus padres seguramente se alegraron muchísimo con la noticia de que aprobó.",
+     "En lo alto de la montaña debe de hacer muchísimo frío."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1509,
+   "src_hash": "d3cac6d90af17578",
+   "fields": {
+    "meaning": "Especialmente…, sobre todo… (とりわけ)",
+    "connection": "とりわけ + [oración/cláusula]",
+    "examples": [
+     "Este verano hace especialmente calor.",
+     "Se le dan bien los idiomas, sobre todo la pronunciación.",
+     "Lo que más me impresionó fue la última escena."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1510,
+   "src_hash": "cf6bca587b4fe692",
+   "fields": {
+    "meaning": "Si hay suerte…, con un poco de suerte… (expectativa de aprovechar una oportunidad)",
+    "connection": "あわよくば + [oración/cláusula]",
+    "examples": [
+     "Con un poco de suerte, me gustaría ganar el campeonato.",
+     "Fui a la fiesta pensando que, con un poco de suerte, podría verla.",
+     "Pretender conseguirlo gratis si hay ocasión… ¡qué descaro!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1511,
+   "src_hash": "dbf4b9af413b5721",
+   "fields": {
+    "meaning": "Sin importar cómo sea… (lengua escrita formal)",
+    "examples": [
+     "Sea cual sea la razón, la violencia no se puede permitir.",
+     "Sea cual sea el resultado, haber dado lo mejor de uno mismo tiene sentido.",
+     "Puede presentarse cualquier persona, independientemente de su experiencia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1512,
+   "src_hash": "c1d63f8352fd3939",
+   "fields": {
+    "meaning": "Seguramente… (forma arcaica de だろう: 良かろう)",
+    "connection": "Aい (sin い) + かろう (良かろう)",
+    "examples": [
+     "Con eso bastará.",
+     "Ir solo seguramente será peligroso.",
+     "El mar en invierno debe de estar helado."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1513,
+   "src_hash": "56887bd1f3288081",
+   "fields": {
+    "meaning": "¡Pues hazlo! (orden a un inferior; tono teatral o novelesco)",
+    "examples": [
+     "Si tanto te duele, ¡ven a por mí!",
+     "Si quieres ir, ve.",
+     "Que se ría quien quiera reírse."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1514,
+   "src_hash": "ca5e0bdfd69301a1",
+   "fields": {
+    "meaning": "Dejando tal cual el estado de… (着たなりで寝る)",
+    "examples": [
+     "Se quedó dormido con el abrigo puesto.",
+     "No entres en la habitación con los zapatos puestos.",
+     "Salí y me dejé la luz encendida."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1515,
+   "src_hash": "9b837d66624b921d",
+   "fields": {
+    "meaning": "En cuanto a… (grado extremo; indescriptible)",
+    "examples": [
+     "La belleza del amanecer visto desde el monte Fuji era tal que no se podía expresar con palabras.",
+     "La vergüenza que pasé en ese momento fue indescriptible.",
+     "Su habitación está tan sucia que no hay dónde poner el pie."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1516,
+   "src_hash": "b1168b2fb50817f3",
+   "fields": {
+    "meaning": "Podría decirse que… o quizá… (vacilación al elegir la expresión)",
+    "connection": "[expresión A] + といおうか、[expresión B] + といおうか",
+    "examples": [
+     "No sé si llamarlo sincero o ingenuo, pero dice enseguida lo que piensa.",
+     "No sé si llamarlo audaz o temerario, pero su plan me dejó asombrado.",
+     "No sé si es alegría o vergüenza; es un sentimiento complicado."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1517,
+   "src_hash": "de561607978e4615",
+   "fields": {
+    "meaning": "Si es…, pues también (tiene sus propias dificultades o soluciones)",
+    "connection": "NならNで / VたらVたで（repitiendo la misma palabra）",
+    "examples": [
+     "Si es pequeño, pues es pequeño, pero con un poco de ingenio se vuelve cómodo para vivir.",
+     "Si no hay dinero, pues no lo hay, pero uno siempre se las arregla.",
+     "Ahora que tengo tiempo libre, resulta que no sé qué hacer."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1518,
+   "src_hash": "ed190b5992bf4221",
+   "fields": {
+    "meaning": "Digno de…, a la altura de…",
+    "examples": [
+     "Fue una actuación espléndida, digna del nombre de un campeón.",
+     "Me esforzaré para estar a la altura del nombre de mi antigua escuela.",
+     "Quiero vivir de una manera de la que mi conciencia no tenga que avergonzarse."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1519,
+   "src_hash": "b5bd9ad50b7990c0",
+   "fields": {
+    "meaning": "Atreverse a…, el muy… (vulgar, despectivo)",
+    "examples": [
+     "Ese tipo me ha robado el dinero, el muy desgraciado.",
+     "¡Mira que llamar a estas horas!",
+     "Maldita lluvia, ya está cayendo otra vez."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1520,
+   "src_hash": "9c8cc93f57a897eb",
+   "fields": {
+    "meaning": "Obligar (a alguien) a…, no dejar otra opción",
+    "examples": [
+     "El tifón obligó a los residentes a evacuar.",
+     "La falta de fondos obligó a cambiar el plan.",
+     "La recesión está obligando a muchas tiendas a cerrar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1521,
+   "src_hash": "0087c09ac75f4b03",
+   "fields": {
+    "meaning": "Con circunstancias ocultas, con motivos particulares (訳あり商品)",
+    "connection": "訳あり + の + N / 訳あって + [oración/cláusula]",
+    "examples": [
+     "En esta tienda venden barato productos con algún defecto o motivo especial.",
+     "Parece que esos dos tienen una relación con algo oculto.",
+     "Por motivos personales, ahora vivo en casa de mis padres."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1522,
+   "src_hash": "d31532e238c1c1ff",
+   "fields": {
+    "meaning": "Tanto si … como si no … (indica que ninguna de las dos posibilidades opuestas cambia el resultado)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1523,
+   "src_hash": "140e1816f6ce4d0c",
+   "fields": {
+    "meaning": "Extremadamente, intensamente, al máximo, totalmente (prefijo enfático de la lengua hablada 「ガン」; p. ej., ガン見 = mirar fijamente)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1524,
+   "src_hash": "c48c9412ef029c93",
+   "fields": {
+    "meaning": "Hacer (algo) por alguien o algún animal de posición inferior; también se usa para expresar enfado, haciendo a propósito algo que al otro le disgusta",
+    "examples": [
+     "Le compré una bicicleta nueva a mi hijo y al día siguiente se la robaron.",
+     "Este año también le mandé a mi hermano menor de Tokio productos típicos de nuestra tierra.",
+     "Solté al perro en un parque grande y se puso a correr de un lado a otro, feliz.",
+     "Una empresa que paga tan mal como esta… la dejo cuando me dé la gana.",
+     "A: Si te pesa el equipaje, te lo llevo yo.\nB: Ah, no, no hace falta, estoy bien.",
+     "A: ¡Ojalá te murieras!\nB: Si tanto lo dices, me voy a morir de verdad, para que veas."
+    ],
+    "explain": "Indica que el hablante (o alguien de su lado) realiza una acción en beneficio de una persona de rango inferior o de un animal. Como en 5. 6., también puede usarse como expresión de enfado, con el sentido de hacer algo que al otro le disgusta. Con personas de igual rango que el hablante se usa 「Ｖ－てあげる」.（２８６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1525,
+   "src_hash": "c8a75c60a354c9cb",
+   "fields": {
+    "meaning": "…de que…, …según la cual… (modifica a un sustantivo que denota palabras o pensamientos; lengua escrita formal)",
+    "connection": "forma simple + との + N",
+    "examples": [
+     "Recibí de mi antiguo maestro la respuesta de que no podría asistir a la boda.",
+     "Unos estudiantes han expresado su deseo de que se les permita interrumpir los estudios un año para estudiar en el extranjero.",
+     "Sobre este asunto, todos aprobaron la propuesta del presidente de dejarlo para la próxima deliberación.",
+     "Recibí la orden de traslado según la cual, a partir del mes que viene, iré destinado un año a la sucursal de Sapporo.",
+     "El ministro de Educación expresó la opinión de que, para mejorar la enseñanza escolar, es necesaria una reforma radical del sistema de exámenes de ingreso de las instituciones de educación superior."
+    ],
+    "explain": "Es una cláusula que expresa el contenido de un enunciado o de un pensamiento y que modifica a un sustantivo; se usa en un estilo formal. Como N se emplean sustantivos relacionados con la actividad verbal, como 「手紙、返事、依頼、提案、警告、命令」, o con la actividad mental, como 「意見、見解、考え、希望」. Se usa al hablar de lo que otras personas dicen o piensan; para expresar la opinión del propio hablante, lo normal es usar 「という」 en lugar de 「との」, como en el ejemplo siguiente.\n*（例） 私は夫婦別姓を合法化すべきだという意見をもっている。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1526,
+   "src_hash": "ef40c311006c6a17",
+   "fields": {
+    "meaning": "Expresa confirmación; evaluación",
+    "examples": [
+     "Un パソコン es un ordenador pequeño que puede usar una sola persona.",
+     "蓮華 es la flor del loto.",
+     "¿Qué forma de bienestar social se necesita en el Japón del siglo XXI?",
+     "「普遍的」 significa que se aplica de forma amplia y general en cualquier caso.",
+     "¿Qué es realmente la familia para mí?"
+    ],
+    "explain": "Se usa tras un sustantivo para describir cómo es su significado, su naturaleza o su contenido. Con formas como 「とは…ものだ」 se describen sus rasgos esenciales, y con formas como …とは…のことだ／意味だ」 o 「…とは…ということだ／意味だ」 se usa para definir el significado o el contenido de una palabra o expresión. Es una expresión propia de la lengua escrita; en la lengua hablada es más común 「Ｎというのは」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1527,
+   "src_hash": "2738929f006d32a7",
+   "fields": {
+    "meaning": "No es que no (…); en cierto modo se tiene esa sensación",
+    "examples": [
+     "No es que no reconozca que yo también tuve parte de culpa.",
+     "Pensándolo bien, no dejo de tener la sensación de que su opinión también es razonable.",
+     "A: ¿Le gusta el natto?\nB: No es que no lo coma, pero no me gusta mucho.",
+     "A: Oye, vamos, ¿sí?\nB: Bueno, si tanto insistes, no es que no vaya a ir…"
+    ],
+    "explain": "Se usa con la forma negativa del verbo y expresa que esa acción o percepción puede llegar a darse. Cuando se emplean verbos de pensamiento o percepción como 「言う、考える、思う、認める、感じる、気がする」, expresa un sentido como 「何となくそんな気がする」 («tengo la vaga sensación de que es así»)."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1528,
+   "src_hash": "09517739bae22e71",
+   "fields": {
+    "meaning": "Si fuera …, todavía sería aceptable, pero …",
+    "connection": "N + ならまだしも / forma simple + ならまだしも"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1529,
+   "src_hash": "7bb8e0a3a01a3d40",
+   "fields": {
+    "meaning": "Expresa algo que no concuerda con lo previsto",
+    "examples": [
+     "Aun estando en una situación difícil, él sigue esforzándose sin rendirse.",
+     "Aun viviendo en un hogar cálido, su corazón no se sentía pleno.",
+     "Incluso a punto de morir, mi madre siguió deseando la felicidad de sus hijos."
+    ],
+    "explain": "Se usa tras un sustantivo con el sentido de 「そこで表された状況の中におかれていても」 («aun encontrándose en la situación expresada»). A continuación se expone algo que contradice lo que cabría esperar en esa situación. Propio de la lengua escrita."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1530,
+   "src_hash": "5d30a5bf3487be6d",
+   "fields": {
+    "meaning": "Para (esa persona), desde el punto de vista de (esa persona)",
+    "examples": [
+     "Qué canciones están de moda ahora es algo que, para mí, da igual. Hay montones de cosas mucho más importantes.",
+     "Le regalé un ordenador viejo que llevaba mucho tiempo sin usar, pero para ella, al parecer, fue algo muy de agradecer, porque me dio las gracias una y otra vez.",
+     "Yo hablaba sin darle importancia, pero para él seguramente era un gran problema. Se deprimió y dejó de hablar con todo el mundo.",
+     "Para mi madre, que el hijo al que había criado con tanto cariño se fuera de casa de repente debió de ser un golpe muy duro, pero yo sentía ganas de animar a mi hermano menor, que intentaba independizarse de nuestros padres."
+    ],
+    "explain": "Se usa tras un sustantivo que designa a una persona, con el sentido de 「その人にとっては」 («para esa persona»). Se emplea cuando se quiere decir que esa persona tiene un punto de vista distinto al de los demás. También se dice 「…にしてみたら」.（４３９）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1531,
+   "src_hash": "8f5efd206233b375",
+   "fields": {
+    "meaning": "Creía firmemente que … (pero en realidad no era así)",
+    "examples": [
+     "Creía que esquiar era difícil, pero cuando lo probé resultó fácil.",
+     "Creía que ya había corregido todos los errores, pero me dijeron que todavía quedaban algunos.",
+     "Daba por hecho que mañana no habría clase por la huelga, así que no preparé nada.",
+     "Creía que los clásicos eran aburridos, pero cuando los leí resultaron sorprendentemente interesantes.",
+     "Di por hecho que el Sr. Yoshida no vendría y solo preparé comida para 5 personas."
+    ],
+    "explain": "Expresa una suposición equivocada del hablante. Normalmente se usa cuando se daba algo por cierto, pero en realidad no era así."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1532,
+   "src_hash": "2e4080a63a945708",
+   "fields": {
+    "meaning": "Que si … que si … (enumeración enfática, con matiz de queja)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1568,
+   "src_hash": "c04e810df440a266",
+   "fields": {
+    "name": "palabra interrogativa＋にしたって",
+    "connection": "[palabra interrogativa] + にしたって",
+    "examples": [
+     "Sea cual sea, apenas hay posibilidades de ganar.",
+     "Hagas lo que hagas, cuesta dinero.",
+     "Nadie quiere verse envuelto en un problema así.",
+     "Sea como sea, resolver este tipo de problemas lleva tiempo."
+    ],
+    "explain": "Acompañado de palabras interrogativas como 「いずれ」「どちら」「なに」「だれ」, expresa el sentido de 「どんな場合でも」 («en cualquier caso») o 「だれの場合でも」 («sea quien sea»). Como en 2., también puede usarse una cláusula que contiene una palabra interrogativa. Es la forma coloquial de la lengua hablada de 「…にしても」.（４３６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1569,
+   "src_hash": "c73af965fdf2ce74",
+   "fields": {
+    "connection": "かつて + [cláusula] / かつて + の + N",
+    "examples": [
+     "Esta zona fue en otro tiempo una famosa región productora de arroz.",
+     "Dicen que ella estuvo una vez en Japón como corresponsal de un periódico.",
+     "Si esta vez hubiera un terremoto en esta región, se teme que alcance una magnitud sin precedentes…",
+     "Cuando lo vi después de tanto tiempo, estaba gordo como un luchador de sumo y no quedaba rastro del atleta enérgico de antaño.",
+     "Que nuestro país dependiera del extranjero para producir el arroz, nuestro alimento básico, es algo que jamás había ocurrido."
+    ],
+    "explain": "Significa 「以前」, 「昔」 («antes», «en otro tiempo»). A veces también se dice 「かって」. En forma negativa, como 「かつてない」 en 3. 5., significa 「今までに一度もない」 («nunca hasta ahora»). 「かつてない」 y 「未だかつて…ない」 son expresiones idiomáticas. Propio de la lengua escrita.（７９）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1570,
+   "src_hash": "6b06d87b0937e0fb",
+   "fields": {
+    "examples": [
+     "Justo en el momento en que me levanté, la casa se sacudió con fuerza.",
+     "En el preciso instante en que el príncipe besó a la princesa dormida, el hechizo se rompió.",
+     "En el instante en que supe que había suspendido el examen, todo se volvió negro ante mis ojos y sentí cómo la sangre se me retiraba del rostro.",
+     "Este es el momento del nacimiento."
+    ],
+    "explain": "Significa 「ちょうどその時」 («justo en ese momento»). Rara vez se usa tras un sustantivo. En la lengua hablada se usa 「Ｖ－たとたん」.（１４５）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1571,
+   "src_hash": "1c4e5949b068c991",
+   "fields": {
+    "examples": [
+     "Es una empresa pequeña, pero obtiene unos beneficios razonables.",
+     "Si dice que no quiere, tendrá sus razones.",
+     "Los niños también, a su manera, están uniendo fuerzas y esforzándose.",
+     "Si uno se esfuerza, debería obtener resultados acordes."
+    ],
+    "explain": "Lleva implícito que existen límites o defectos, y expresa el sentido de 「それは認めた上でそれ相応の」 («aun reconociéndolo, lo que corresponde a ello»).（４０７）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1572,
+   "src_hash": "ce13abfbb4669a35",
+   "fields": {
+    "meaning": "Expresa indiferencia ante una condición",
+    "examples": [
+     "Sean enfermos o ancianos, el enemigo ataca sin ninguna consideración.",
+     "Aunque uno esté sano, una vez pasada la mediana edad conviene hacerse revisiones médicas periódicas.",
+     "Incluso un monje de gran renombre puede a veces no lograr liberarse de sus dudas."
+    ],
+    "explain": "Forma algo anticuada de 「Ｎ／Ｎａであっても」.",
+    "notes": "Se une a palabras conjugables y expresa el mismo significado que 「ても」. Como es un uso de la lengua clásica, es una forma más anticuada que 「ても」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1573,
+   "src_hash": "9c6f297c325c6c5e",
+   "fields": {
+    "examples": [
+     "Su arquitectura moderna, junto con la magnífica naturaleza del entorno, crea un espacio sencillo y apacible.",
+     "En esa película, el timbre de los instrumentos se combina con unas imágenes hermosas, y el resultado es una obra magnífica que no puede dejar de conmover al espectador.",
+     "Su originalidad, unida a la belleza tradicional de ella, hace que los muebles que crean estén llenos de personalidad."
+    ],
+    "explain": "Se usa tras un sustantivo con el sentido de 「それが他の要素と作用し合って」 («interactuando con otros elementos») o 「その性質が他の要素の性質と一緒に働いて」 («actuando sus características junto con las de otros elementos»). Es una expresión propia de la lengua escrita.（２９３）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1574,
+   "src_hash": "dadd5bd26c98d9cd",
+   "fields": {
+    "meaning": "Si dejamos hablar a (esa persona)…, según (esa persona)… (に言わせると)",
+    "connection": "N（persona）+ に言わせると"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1575,
+   "src_hash": "c14e186b1faf3606",
+   "fields": {
+    "examples": [
+     "No es difícil imaginar que, si la inflación continúa así, aumentará la inquietud social y los cimientos del gobierno se tambalearán.",
+     "No es difícil imaginar que Taro, abandonado tanto por sus padres como por sus profesores, estuvo a punto de buscar refugio en la invitación de un grupo de delincuentes.",
+     "Por qué actuó de esa manera es fácil de entender si uno se informa bien de las circunstancias anteriores y posteriores al incidente."
+    ],
+    "explain": "Normalmente se usa de forma idiomática como 「想像／理解にかたくない」, con el sentido de que algo se puede imaginar fácilmente o resulta evidente para cualquiera. Es una expresión formal de la lengua escrita.（４３１）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1576,
+   "src_hash": "df3d92f14e940493",
+   "fields": {
+    "meaning": "Expresa adición",
+    "explain": "のみか significa: el punto gramatical ～のみか se usa para indicar que no solo es cierto el primer hecho mencionado, sino también otro hecho adicional, a menudo más sorprendente o significativo. Puede traducirse como «no solo... sino también...» o «así como...».\n\nEstructura: Noun + のみか\n\n～のみか es una conjunción formal que une dos hechos relacionados y subraya que el segundo es un asunto adicional o incluso más grave que el primero. Se usa a menudo en contextos escritos o formales para expresar que algo es cierto no solo en un aspecto, sino también en otro, a veces inesperado. En la oración de ejemplo, indica que, a causa del desastre, la persona perdió no solo sus bienes, sino también a familiares cercanos."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1577,
+   "src_hash": "87fbe1f1a1a7fa34",
+   "fields": {
+    "connection": "ひとつ + V（petición・voluntad）",
+    "examples": [
+     "Cuento con usted, ¿eh?",
+     "Hay una cosa que me gustaría pedirte.",
+     "¿Me harías un favor?",
+     "Bueno, vamos a intentarlo, a ver qué pasa.",
+     "¿Y si me animo a entrar en el asunto?",
+     "Sírvase uno, por favor."
+    ],
+    "explain": "Se usa en la lengua hablada cotidiana de forma idiomática. Significa 「ちょっと、ためしに」 («un poco, a modo de prueba»). Se usa al pedir algo, como en 1. ～3., o al intentar hacer algo a modo de prueba, como en 4. 5. El de 6. ⑦ se usa al ofrecer comida u otra cosa a alguien.（５０６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1578,
+   "src_hash": "6094c96d5c3e2e46",
+   "fields": {
+    "name": "もあろう（contador＋もあろう）",
+    "meaning": "Expresa énfasis | lo grande o pequeño de una cantidad",
+    "connection": "contador＋もあろう",
+    "explain": "もあろう（数量詞＋もあろう） significa: indica una cantidad sorprendentemente grande, subrayando que el número o la cantidad es inesperada o impresionantemente alta.\n\nEstructura: 数量詞＋もあろう\n\nLa expresión 'もあろう' se usa tras un cuantificador numérico para enfatizar la magnitud o el alcance de algo. A menudo transmite sorpresa o énfasis en la gran cantidad, sugiriendo que es notable o significativa. Por ejemplo, '2メートルもあろう' significa «nada menos que 2 metros» o «unos 2 metros, lo cual es bastante». Este punto gramatical se usa normalmente en contextos escritos o formales para destacar el tamaño o la cantidad."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

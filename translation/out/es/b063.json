@@ -1,0 +1,537 @@
+{
+ "batch": "b063",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 985,
+   "src_hash": "ddf38e5f6b184db3",
+   "fields": {
+    "meaning": "Significa «no limitado a ese ámbito, sino en un ámbito más amplio».",
+    "examples": [
+     "Las solicitudes se aceptan no solo entre semana, sino también los sábados y domingos.",
+     "Parece que últimamente los helados se venden bien no solo en verano, sino también en invierno.",
+     "* No solo los niños se apasionan por los videojuegos.",
+     "* Seguramente no soy el único que piensa que la forma de actuar del presidente es extraña.",
+     "No solo en Japón",
+     "Esta novela es famosa no solo en Japón, sino también en el extranjero."
+    ],
+    "explain": "◎ Expresa que no se limita a ese ámbito, sino que abarca un ámbito aún más amplio.",
+    "notes": "examples: 1. この食堂は、学生に限らず、誰でも利用できる。\nEste comedor puede usarlo cualquiera, no solo los estudiantes.\n2. 今回に限らず、田中さんにはいつもお世話になっている。\nNo solo esta vez: Tanaka siempre me ayuda mucho."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 986,
+   "src_hash": "a9ed93fc94a1ab41",
+   "fields": {
+    "meaning": "「～が一番いい・～がいちばんいい方法だ。」客観的な事実ではなくて、話者が主観的に言うときに使う。\n~ es lo mejor / es la mejor manera.\nEsta estructura se usa cuando el hablante quiere expresar una impresión subjetiva y no un hecho objetivo. | No hay nada como…, lo mejor es…",
+    "examples": [
+     "Se buscan diseñadores. Solo personas con experiencia.",
+     "Gratis solo para mayores de 65 años.",
+     "Los informes deben ser solo los escritos en computadora.",
+     "Solo durante las vacaciones de verano se permite comer y beber en el aula.",
+     "No es solo entre los jóvenes donde está disminuyendo la capacidad de escribir kanji.",
+     "Como era de esperar, las películas, donde mejor se ven es en el cine."
+    ],
+    "notes": "Se usa para afirmar que «… es lo mejor». A menudo va precedido de «…なら／たら»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 987,
+   "src_hash": "971774e852ca13ee",
+   "fields": {
+    "meaning": "Al…, con motivo de…",
+    "examples": [
+     "Para utilizar el servicio, es necesario presentar un documento de identidad.",
+     "Al firmar el contrato, revise detenidamente su contenido.",
+     "Con motivo de mi ingreso en la escuela, recibí el apoyo de muchas personas.",
+     "Con motivo de mi incorporación a mi nuevo destino, me dirijo a todos ustedes para saludarlos.",
+     "Para el registro, se requiere su consentimiento.",
+     "Al ingresar en el hospital, me explicaron varias precauciones."
+    ],
+    "explain": "Se usa en documentos oficiales, discursos, instrucciones de uso y contratos.\nTras un sustantivo sinojaponés crea un matiz ceremonial: ご利用に際して／開館に際して.\nVa acompañado de peticiones, normas o expresiones ceremoniales de agradecimiento/disculpa.\n\n• Establece el momento en que comienza/tiene lugar un acontecimiento importante para añadir una advertencia, un agradecimiento o una petición.\n• Matiz más formal que ～とき, cercano a ～にあたって pero centrado en «el momento en que tiene lugar»/lo ceremonial.\n• Suele ir con: 入学／卒業／ご利用／ご登録／契約／開業／赴任／受賞 など.\n• Se usa poco para incidentes negativos imprevistos; si es negativo, considera ～際に (さいに), más neutro.",
+    "notes": "• En discursos: «この場をお借りして» suele ir con «就任に際し».\n• La forma cortés «～に際しまして» es frecuente en avisos de servicios/TI al mostrar términos y condiciones.\n• Con hechos negativos imprevistos (事故・災害), es preferible «際に/とき»; «に際して» suena seco y poco natural.\nmeaning_vi: Con motivo de…, en el momento de/al… (formal)\nexamples: 1. ①　受験に際しては、必ず受験票を持参してください。\n2. ②　〈大学の掲示板〉奨学金の申し込みに際して、以下のような条件があります。よく確かめた上で、申し込みをしてください。\nmeaning_vi: ～（特別(とくべつ)なこと）の前(まえ)に、～のときに\nAl\nexamples: 1. 就職に際して、多くの先輩にお世話になった。\nAl conseguir trabajo, recibí la ayuda de muchos superiores.\n2. 黒田氏はアメリカ大塗料来日際し、通訳を務めた。\nEl Sr. Kuroda se encargó de la interpretación cuando el presidente de EE. UU. vino a Japón.\n3. 海外駐在員を選ぶに際しては、仕事の能力だけではなく性格も考慮すべきだ。\nAl seleccionar al personal destinado en el extranjero, se debe tener en cuenta no solo la capacidad laboral, sino también el carácter.\n4. 「ここに入院に際しての注意事項が書いてありますから、読んでおいてください」\n«Aquí están escritas las precauciones para el ingreso en el hospital, así que léalas antes, por favor».\nmeaning_vi: Al comenzar…, mientras…\nexplain: Significa en el momento de comenzar algo especial o mientras se está llevando a cabo.\nEs un estilo solemne. Lengua escrita formal.\nexamples: 1. お申し込みに際しては、写真が必要となります。\nPara la solicitud se necesita una foto.\n2. A氏は日本を訪問するに際し、喜びを語った。\nEl Sr. A expresó su alegría con motivo de su visita a Japón.",
+    "mistakes": [
+     "Usarlo para pequeñas acciones cotidianas (毎朝起きるに際して…) → poco natural; usa とき.",
+     "Confundirlo con にあたって: en los exámenes suele pedirse elegir el matiz adecuado (preparación vs ceremonia).",
+     "Olvidar la forma cortés en textos formales: conviene usar に際し／に際しまして."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～に<ruby>際<rt>さい</rt></ruby>して",
+       "Al/con motivo de (formal)",
+       "Enfatiza el momento ceremonial/acontecimiento importante",
+       "<ruby>入社<rt>にゅうしゃ</rt></ruby>に<ruby>際<rt>さい</rt></ruby>して<ruby>挨拶<rt>あいさつ</rt></ruby>する。"
+      ],
+      [
+       "～にあたって",
+       "Con motivo de/al (preparación)",
+       "Enfatiza la preparación, un comienzo positivo",
+       "<ruby>開業<rt>かいぎょう</rt></ruby>にあたって<ruby>計画<rt>けいかく</rt></ruby>を<ruby>練<rt>ね</rt></ruby>る。"
+      ],
+      [
+       "～<ruby>際<rt>ぎわ</rt></ruby>（に）",
+       "Al (neutro)",
+       "Menos formal, de uso amplio",
+       "<ruby>来日<rt>らいにち</rt></ruby>の<ruby>際<rt>さい</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>ください。"
+      ],
+      [
+       "～とき",
+       "Cuando",
+       "Lengua hablada, de uso general, sin matiz ceremonial",
+       "<ruby>出<rt>で</rt></ruby>かけるとき。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 988,
+   "src_hash": "88a7e0037ddc78cc",
+   "fields": {
+    "meaning": "Hacer hasta el final, perseverar…",
+    "examples": [
+     "Lo que hayas decidido, llévalo a cabo hasta el final.",
+     "En su primer maratón, él corrió los 42,195 km completos.",
+     "Después de pensarlo a fondo, decidí dejar la empresa e independizarme.",
+     "A sobrevivió a la guerra y, después de ella, se dedicó a la reconstrucción de su patria.",
+     "Preocuparse al máximo / aguantar hasta el final / esforzarse hasta el final / pasar grandes apuros",
+     "Tras soportar hasta el final una época difícil, por fin alcancé el éxito."
+    ],
+    "explain": "Se usa para destacar el esfuerzo y la voluntad: tiene un matiz positivo y alentador.\nNo se usa con acciones instantáneas o sin duración (×笑いぬく). Es adecuado para acciones continuas o prolongadas.\nAparece a menudo en eslóganes, presentaciones personales y textos inspiradores: やりぬく力,最後までやりぬく.\nEl kanji 抜く suele usarse en escritura formal; en kana, ぬく resulta más cercano y suave.\n\n• Expresa hacer algo «hasta el final, por completo» con perseverancia, superando dificultades: Vます + ぬく = hacer V hasta el final.\n• Matiz: enfatiza un proceso largo con muchas pruebas; el hablante valora el esfuerzo.\n• A diferencia de la simple «acción completada» (完了), 〜ぬく implica voluntad tenaz y aguante (耐える、努力する、守る...).\n• Suele ir con verbos que expresan un esfuerzo prolongado: 耐える・守る・戦う・走る・生きる・考える・やる・読み/書き（gran cantidad/difícil）.",
+    "notes": "• «考えぬいた末（すえ）に» es una expresión de lengua escrita frecuente que muestra un proceso de reflexión minuciosa antes de decidir.\n• «〜ぬく» puede usarse en forma potencial si el verbo base la tiene: 耐えぬける es poco natural; ¿usar 耐えきれる? => Para «poder soportar», 耐えきれる/耐え切れる es más natural.\n• En RR. PP./contratación: «困難に立ち向かい、最後までやりぬく人材を求めます。»\nexplain: ◎ No rendirse y continuar hasta el final.\nexamples: 1. これが、彼らが考え抜いて出した結論だった。\nEsta fue la conclusión a la que llegaron tras pensarlo a fondo.\n2. 途中で何度かあきらめかけたが、最後まで走り抜いた。\nVarias veces estuve a punto de rendirme, pero corrí hasta el final.\n──────\n1. ①　初めてのマラソンは思ったん以上にきつかったけど、最後まで走り抜くことができて、大満足です。\n2. ②　〈コーヒー店で〉選び抜かれた豆だけを使った最高級の味を香りをお楽しみください。 meaning_vi: Terminar por completo todo un proceso o una acción.\nEnfatiza el sentido de completar algo tras soportar penalidades. ⏐ examples: 1. 大変な仕事でも、やり抜く自信があります。\nAunque sea un trabajo duro, confío en poder llevarlo a cabo hasta el final.\n2. 彼はあきらめずにゴールまで走り抜いた。\nÉl no se rindió y corrió hasta la meta.",
+    "mistakes": [
+     "Confundirlo con «〜ぬ» (negación clásica: 行かぬ). «〜ぬく» es un sufijo de finalización/perseverancia, no de negación.",
+     "Usarlo con verbos puntuales → poco natural: ×驚きぬく, ×気づきぬく.",
+     "Confundir el matiz con 〜きる: 〜きる = terminar por completo; 〜ぬく = terminar tras superar dificultades. El JLPT suele pedir distinguirlos.",
+     "Olvidar escribir el kanji: «抜く» se usa a menudo en la lengua escrita formal; aun así, en kana «ぬく» también es correcto."
+    ],
+    "comparison": {
+     "headers": [
+      "Punto gramatical",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vます + ぬく（<ruby>抜<rt>ぬ</rt></ruby>く）",
+       "Hacer hasta el final, superando dificultades",
+       "Enfatiza «perseverancia, tenacidad»",
+       "<ruby>最後<rt>さいご</rt></ruby>までやりぬく"
+      ],
+      [
+       "Vます + きる",
+       "Terminar por completo",
+       "Se centra en el resultado completo, no necesariamente con dificultades",
+       "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みきった"
+      ],
+      [
+       "Vます + <ruby>通<rt>とお</rt></ruby>す",
+       "Mantener/continuar hasta el final",
+       "Enfatiza mantener firme una postura/acción",
+       "<ruby>主義<rt>しゅぎ</rt></ruby>を<ruby>貫<rt>つらぬ</rt></ruby>き<ruby>通<rt>とお</rt></ruby>す"
+      ],
+      [
+       "Vます + <ruby>尽<rt>つ</rt></ruby>くす",
+       "Entregarse/darlo todo",
+       "Se inclina por volcar todas las fuerzas y el empeño",
+       "<ruby>患者<rt>かんじゃ</rt></ruby>のために<ruby>尽<rt>つ</rt></ruby>くす"
+      ],
+      [
+       "Vます + <ruby>抜<rt>ぬ</rt></ruby>ける",
+       "Salir/caerse/perderse",
+       "Significado distinto (verbo intransitivo), no es un patrón de finalización",
+       "<ruby>髪<rt>かみ</rt></ruby>が<ruby>抜<rt>ぬ</rt></ruby>ける"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 989,
+   "src_hash": "f501583aebedf635",
+   "fields": {
+    "meaning": "Tener que…, deber…",
+    "examples": [
+     "Tengo que entregar el informe para mañana.",
+     "Debemos cumplir nuestras promesas.",
+     "Cueste lo que cueste, tenemos que sacar adelante este proyecto.",
+     "Hay que apresurar la ayuda a las zonas damnificadas.",
+     "Las normas deben cumplirse."
+    ],
+    "explain": "Se usa en declaraciones formales, compromisos, textos normativos y declaraciones políticas/discursos.\nEn la conversación natural, considera usar ～なきゃ/～なくちゃ/～ないと en su lugar.\nEl sujeto suele ser «yo/nosotros/una organización»; dirigido al oyente, puede sonar fácilmente a orden.\n\n• Expresa una obligación fuerte: normas, responsabilidades, autoexigencia.\n• Matiz formal/normativo, suena más rígido que ～なければならない; tiene un tono algo literario y declamatorio.\n• En la lengua hablada cotidiana suele sustituirse por ～なきゃ／～なくちゃ／～なければならない.",
+    "notes": "• En títulos/eslóganes: ～せねばならない crea un ritmo fuerte y conciso.\n• Forma contraída masculina/de la lengua hablada antigua: ～ねばならん (no formal).\n• «～ねば» puede omitir «ならない» en un estilo exhortativo: 守らねば！ (matiz fuerte, arcaico).",
+    "mistakes": [
+     "Conjugación incorrecta con する: «しねばならない» → incorrecto; debe ser «せねばならない».",
+     "Confundir el matiz con ざるを得ない: este último significa «a regañadientes», no una obligación normativa.",
+     "Usarlo en conversación informal → suena rígido/teatral; conviene usar なきゃ/ないと.",
+     "El JLPT suele evaluar el reconocimiento del 未然形: 書く→書かねばならない; 食べる→食べねばならない."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～ねばならない",
+       "Tener que (formal/clásico)",
+       "Tono fuerte, lengua escrita",
+       "<ruby>守<rt>まも</rt></ruby>らねばならない。"
+      ],
+      [
+       "～なければならない",
+       "Tener que",
+       "Neutro, de uso común",
+       "<ruby>守<rt>まも</rt></ruby>らなければならない。"
+      ],
+      [
+       "～なくてはならない",
+       "Tener que",
+       "Significado cercano, algo más propio de la lengua hablada",
+       "<ruby>守<rt>まも</rt></ruby>らなくてはならない。"
+      ],
+      [
+       "～ないと（いけない）",
+       "Si no…, no está bien",
+       "Lengua hablada, más suave",
+       "<ruby>守<rt>まも</rt></ruby>らないと。"
+      ],
+      [
+       "～ざるを<ruby>得<rt>え</rt></ruby>ない",
+       "No tener más remedio que",
+       "Obligación por las circunstancias, a regañadientes",
+       "<ruby>延期<rt>えんき</rt></ruby>せざるを<ruby>得<rt>え</rt></ruby>ない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 991,
+   "src_hash": "ce768401f2c82026",
+   "fields": {
+    "meaning": "¿No será que…?",
+    "connection": "V/A forma simple + のではないか / N・Na + なのではないか",
+    "examples": [
+     "Creo que quizá en el futuro llegue una época en que los robots se encarguen de cuidar a las personas mayores.",
+     "Me pregunto si ella todavía estará dudando sobre lo de estudiar en el extranjero."
+    ],
+    "explain": "◎ Expresión de conjetura sobre un hecho.",
+    "notes": "Se añade a expresiones en estilo llano y expresa un juicio conjetural del hablante del tipo «no se puede afirmar con seguridad, pero probablemente… ¿no?». El grado de certeza del hablante es menor que con «だろう»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 993,
+   "src_hash": "c554f26d353e039a",
+   "fields": {
+    "meaning": "Es lógico…, es razonable…",
+    "connection": "V forma simple + のも + (は)もっともだ / N + も",
+    "examples": [
+     "Es lógico que te enfades si te rompieron una promesa.",
+     "Si es tu primera presentación, es normal ponerse nervioso.",
+     "Llevaba noches seguidas sin dormir, así que es lógico que cometiera un error.",
+     "Con lo que han subido los precios, es lógico que haya descontento.",
+     "Es un niño, así que es normal que llore."
+    ],
+    "explain": "Suele ir después de la parte que expone la razón (～から/～ので/状況説明).\nSe usa para la segunda o tercera persona; aplicado a uno mismo puede sonar a autojustificación, aunque no es incorrecto si se trata de autorreflexión.\nMatiz normativo, algo objetivo; adecuado en informes/evaluaciones.\n\nIndica que «(A) es comprensible/razonable/natural». El hablante evalúa una acción/sentimiento/estado como razonable según la situación expuesta. Matiz de empatía, de justificación.\n• Se usa a menudo para sentimientos/conductas de otras personas: 怒る・悲しむ・心配する…\n• A diferencia de una orden/voluntad: no sirve para ordenar, solo es una valoración.\n• Enfatiza más la objetividad que 「～のも無理はない」 (menos inclinado a «no se le puede culpar»).",
+    "notes": "• 「もっとも」 también es una conjunción con el sentido de «aunque/dicho esto»: もっとも、例外もある。 No confundir con 「もっともだ」.\n• Admite cambios de tiempo verbal/uso atributivo: ～のももっともだった／～のももっともだろう para ajustar el tiempo/grado de certeza.\n• La negación directa 「もっともではない」 se usa poco; suele sustituirse por otro patrón más suave.",
+    "mistakes": [
+     "Confundirlo con 「もっとも」 (conjunción) → se necesita 「だ」 para que funcione como adjetivo en -だ.",
+     "Unir directamente na/N sin 「な/である」: se necesita Aなのも/Nなのも o であるのも.",
+     "Usarlo para reprochar a otros resulta contradictorio: este patrón expresa empatía/razonabilidad.",
+     "Cambiar de sujeto entre la parte de la razón y la cláusula principal vuelve ambigua la referencia (cuida la coherencia)."
+    ],
+    "comparison": {
+     "headers": [
+      "Punto gramatical",
+      "Significado",
+      "Similitud/Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～のも<ruby>無理<rt>むり</rt></ruby>はない",
+       "No es de extrañar/no se le puede culpar",
+       "Enfatiza lo inevitable, más emocional",
+       "<ruby>忙<rt>いそが</rt></ruby>しすぎて、<ruby>遅<rt>おく</rt></ruby>れるのも<ruby>無理<rt>むり</rt></ruby>はない"
+      ],
+      [
+       "<ruby>当然<rt>とうぜん</rt></ruby>だ / <ruby>当<rt>あ</rt></ruby>たり<ruby>前<rt>まえ</rt></ruby>だ",
+       "Por supuesto, es natural",
+       "Directo, más fuerte; puede sonar a juicio",
+       "<ruby>失敗<rt>しっぱい</rt></ruby>して<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>むのは<ruby>当然<rt>とうぜん</rt></ruby>だ"
+      ],
+      [
+       "<ruby>道理<rt>どうり</rt></ruby>だ",
+       "Es razonable, tiene lógica",
+       "Más propio de la lengua escrita, algo rígido",
+       "<ruby>彼<rt>かれ</rt></ruby>が<ruby>怒<rt>おこ</rt></ruby>るのも<ruby>道理<rt>どうり</rt></ruby>だ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 994,
+   "src_hash": "cf648c347d2f2ed8",
+   "fields": {
+    "meaning": "En teoría…, nominalmente",
+    "examples": [
+     "En teoría es posible, pero llevarlo a la práctica es difícil.",
+     "En el mapa está cerca, pero como es un camino de montaña se tarda.",
+     "Sobre el papel, él figura como empleado fijo.",
+     "Según las estadísticas, el resultado es que la economía se está recuperando.",
+     "Legalmente, la discriminación está prohibida."
+    ],
+    "explain": "Suele ir con una segunda cláusula que expresa una realidad opuesta o añade contexto.\nEstilo neutro → formal; adecuado en documentos, informes y noticias.\nNo se usa para indicar una secuencia temporal/de acciones (ese es otro significado de 上で).\n\n～の上では presenta una valoración del tipo «desde el punto de vista de A / según A / sobre el papel…», y enfatiza la perspectiva teórica, documental, de datos o de mapas. Implicación habitual: la realidad puede ser distinta (contraste entre teoría y realidad).\n• Campo semántico: 理論・記録・統計・法律・書類・地図・規則 など.\n• Se usa a menudo en pares opuestos: Nの上では～が、実際は～／現場では～.\n• Distinto de 「上で(うえで)＝después de/para」; aquí significa «en el aspecto de».",
+    "notes": "• 「見かけの上では」「形式の上では」「制度の上では」 son expresiones frecuentes en el lenguaje periodístico.\n• En la lengua hablada, 「上では」 puede perder 「は」 y quedar en 「上で」, pero es fácil confundirlo con el otro significado; conviene mantener 「は」 al escribir.\n• Se antepone una frase nominal para aclarar el aspecto: 実験結果の上では／理屈の上では…",
+    "mistakes": [
+     "Confundirlo con 「Vた上で」: los exámenes suelen poner trampas para distinguir «en el aspecto de» vs «después de».",
+     "Omitir 「は」 después de 「上で」 vuelve oscuro el sentido; en el examen conviene elegir 「上では」 para el sentido de «sobre el papel».",
+     "Usarlo con sustantivos que no pueden ser un «aspecto» (por ejemplo: 人の上では) → poco natural."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "N + に<ruby>関<rt>かん</rt></ruby>して（は）",
+       "En relación con, sobre",
+       "Neutro, sin implicar contraste con la realidad",
+       "<ruby>統計<rt>とうけい</rt></ruby>に<ruby>関<rt>かん</rt></ruby>しては<ruby>詳<rt>くわ</rt></ruby>しい"
+      ],
+      [
+       "N + において（は）",
+       "En, dentro de, en el aspecto de",
+       "Indica el contexto/el marco espacio-temporal",
+       "<ruby>研究<rt>けんきゅう</rt></ruby>において<ruby>重要<rt>じゅうよう</rt></ruby>だ"
+      ],
+      [
+       "Vた + <ruby>上<rt>うえ</rt></ruby>で",
+       "Después de",
+       "Significado totalmente distinto (secuencia)",
+       "<ruby>確認<rt>かくにん</rt></ruby>した<ruby>上<rt>うえ</rt></ruby>で<ruby>提出<rt>ていしゅつ</rt></ruby>する"
+      ],
+      [
+       "Vる + <ruby>上<rt>うえ</rt></ruby>で",
+       "Al/para",
+       "Contexto necesario, no «sobre el papel»",
+       "<ruby>成功<rt>せいこう</rt></ruby>する<ruby>上<rt>うえ</rt></ruby>で<ruby>大切<rt>たいせつ</rt></ruby>だ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 995,
+   "src_hash": "3a0a5410751c47bb",
+   "fields": {
+    "meaning": "Dejando a un lado…",
+    "examples": [
+     "Bromas aparte, hablemos de la línea a seguir de ahora en adelante.",
+     "Dejando a un lado si habrá resultados o no, primero hay que pasar a la acción.",
+     "Dejando aparte el precio, considero la seguridad como máxima prioridad.",
+     "Dejando a un lado si él tiene responsabilidad o no, lo primero es resolver el problema.",
+     "El diseño aparte, en cuanto a funciones es impecable.",
+     "Dejando a un lado el problema del costo, ¿cuál es el lugar que más le gustaría visitar ahora?"
+    ],
+    "explain": "Suele ir al principio de la oración, como señal de cambio de párrafo/prioridad.\nSe usa cuando hay dos criterios/temas en paralelo pero se quiere centrar la atención en B.\nEvita usarlo de forma directa con temas delicados, ya que puede resultar descortés para el oyente.\n\n• «Dejando a un lado/sin entrar aún en N, (hablemos de/prioricemos) B.» Se usa para hacer un cambio de tema hacia algo más importante/urgente.\n• Matiz de conducir activamente la conversación/discusión; algo cortés, propio de la lengua escrita, reuniones y presentaciones.\n• No es descartarlo para siempre: se deja «temporalmente» a un lado y se puede volver a ello después.",
+    "notes": "• Origen «措く/置く»: dejar a un lado → matiz natural de cambio de dirección.\n• En presentaciones, puede continuarse con «まず/先に/本題に入る».\n• Se combina con facilidad con pares de criterios opuestos: 値段vs品質, 感情vs事実, 理想vs現実.",
+    "mistakes": [
+     "Usarlo en lugar de una «exclusión» absoluta → matiz incorrecto. ～はさておき significa «dejar a un lado temporalmente», no «no tener relación».",
+     "No nominalizar una cláusula interrogativa: × 行けるかはさておき → ◯ 行けるかどうかはさておき.",
+     "Colocarlo después de una oración demasiado larga le quita su efecto de transición; conviene ponerlo pronto, al principio de la oración."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～はさておき",
+       "Dejar a un lado el tema N",
+       "Matiz de conducir la conversación; más formal",
+       "<ruby>冗談<rt>じょうだん</rt></ruby>はさておき、<ruby>本題<rt>ほんだい</rt></ruby>へ"
+      ],
+      [
+       "～はともかく",
+       "Dejar de momento N",
+       "Más propio de la comunicación cotidiana; matiz neutro",
+       "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>はともかく、<ruby>味<rt>あじ</rt></ruby>はいい"
+      ],
+      [
+       "～は<ruby>別<rt>べつ</rt></ruby>として",
+       "Excepto/sin contar N",
+       "Implica excluir N del ámbito de evaluación",
+       "<ruby>休日<rt>きゅうじつ</rt></ruby>は<ruby>別<rt>べつ</rt></ruby>として、<ruby>毎日<rt>まいにち</rt></ruby><ruby>早起<rt>はやお</rt></ruby>きだ"
+      ],
+      [
+       "ひとまず/とりあえず",
+       "Por ahora",
+       "Adverbio, no marca el tema",
+       "ひとまず<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>こう"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 996,
+   "src_hash": "133e6c752fee24f7",
+   "fields": {
+    "meaning": "En cuanto a ~ / hablando de ~",
+    "examples": [
+     "En cuanto a mi objetivo de este año, ante todo es ganar el campeonato nacional.",
+     "En cuanto a ella, parece que todavía no ha decidido si va a participar o no.",
+     "Dicen que anoche hubo un terremoto, ¿verdad? Yo, en cambio, dormía profundamente y no me di cuenta de nada.",
+     "En aquella época, en Japón, el budismo se estaba extendiendo entre la gente."
+    ],
+    "explain": "◎ Es una expresión que introduce un tema; se usa especialmente cuando se quiere plantear un asunto para llamar la atención de los demás."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 998,
+   "src_hash": "824b6bad5f3418e1",
+   "fields": {
+    "meaning": "No solo… sino también…",
+    "examples": [
+     "Su informe recibió una mala evaluación: no solo por el contenido, sino también porque tenía muchas faltas.",
+     "Este anime lo pueden disfrutar plenamente no solo los niños, sino también los adultos.",
+     "Habla no solo japonés, sino también inglés y chino.",
+     "Prestamos la máxima atención no solo a la seguridad, por supuesto, sino también al control de calidad.",
+     "Él no solo es educado, sino que además siempre es puntual.",
+     "Participan no solo los estudiantes, sino incluso los vecinos de la zona."
+    ],
+    "explain": "Se usa para enfatizar «A, por supuesto, y además B también…» con el fin de ampliar el alcance o elevar el nivel de exigencia.\nEstilo serio y cortés; adecuado para informes, textos y discursos oficiales.\nLa segunda cláusula debería llevar も/まで/さえ para expresar la ampliación; evita oraciones «vacías» que solo presentan A como obvio sin información principal después.\nNo se usa para enfatizar sentimientos personales cotidianos; en conversación informal, ～はもちろん/～は言うまでもなく es más natural.\n\n• Significado 1: «ni que decir de…, no hace falta mencionar…, por supuesto…»; se usa para presentar A como algo obvio y luego ampliar el alcance a B, C (y además…).\n• Significado 2: «No solo A, sino incluso B/C también…», con un matiz de énfasis en la amplitud, a menudo con も/まで/さえ en la segunda cláusula.\n• Matiz: formal, propio de la lengua escrita, avisos y presentaciones; más fuerte que ～はもちろん en cuanto a lo «obvio».\n• Sintaxis: la parte A (antes de はもとより) suele ser un sustantivo. Si es una cláusula, debe nominalizarse con の/こと.\n• Lógica: A es la base/lo obvio → B también se cumple/se incluye → se presenta la conclusión general.",
+    "notes": "• Se combina a menudo con palabras de alcance amplio: も・まで・さえ para reforzar el énfasis.\n• «もとより» también tiene el significado léxico de «desde el principio/originalmente», distinto de esta estructura gramatical; se distinguen por la presencia o ausencia de は.\n• En textos administrativos/publicitarios: «安全はもとより、環境にも配慮しています。» es un tipo de oración estereotipada.\n• El orden A-B debe seguir el grado: A es más obvio que B. Invertirlo resta naturalidad. meaning_vi: No solo, ni que decir. ⏐ explain: Presenta cosas que se consideran obvias para expresar el sentido de «no solo eso, sino que también hay cosas más importantes o más leves».\nSe usa en un estilo solemne, propio de la lengua escrita. ⏐ examples: 1. うちには、車はもとより自転車もないんです。\nEn mi casa no solo no hay coche, sino que ni siquiera hay bicicleta.\n2. レタスはサラダで食べるのはもとより、炒めてもおいしい。\nLa lechuga no solo se come en ensalada, sino que también está rica salteada.",
+    "mistakes": [
+     "Usarlo con verbos sin nominalizar: × 努力するはもとより → ○ 努力するのはもとより",
+     "Falta de partícula de ampliación en la segunda cláusula: × Aはもとより、B。 → conviene usar Bも/まで/さえ para dejar clara la ampliación.",
+     "Confundirlo con ～はもちろん en cuanto al estilo: el JLPT suele preguntar por el matiz más formal de ～はもとより.",
+     "Orden de grado incorrecto: la información «obvia» debe ir antes de はもとより."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～はもとより",
+       "A, por supuesto, y además B también…",
+       "Formal, enfatiza que A es «obvio»",
+       "<ruby>日本<rt>にほん</rt></ruby>はもとより、<ruby>海外<rt>かいがい</rt></ruby>でも<ruby>人気<rt>にんき</rt></ruby>だ。"
+      ],
+      [
+       "～はもちろん",
+       "Por supuesto A, B también…",
+       "Neutro, más propio de la lengua hablada",
+       "<ruby>英語<rt>えいご</rt></ruby>はもちろん、<ruby>仏語<rt>ふつご</rt></ruby>もできる。"
+      ],
+      [
+       "～は<ruby>言<rt>い</rt></ruby>うまでもなく",
+       "Ni que decir tiene A",
+       "Significado similar; suele ir al principio de la oración como complemento",
+       "<ruby>言<rt>い</rt></ruby>うまでもなく<ruby>健康<rt>けんこう</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>だ。"
+      ],
+      [
+       "～どころか",
+       "No solo no A, sino B (contrario a lo esperado)",
+       "Contraste fuerte, función distinta",
+       "<ruby>休<rt>やす</rt></ruby>めるどころか、<ruby>忙<rt>いそが</rt></ruby>しい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

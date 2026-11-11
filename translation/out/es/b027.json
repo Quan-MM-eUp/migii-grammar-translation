@@ -1,0 +1,638 @@
+{
+ "batch": "b027",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 408,
+   "src_hash": "81719ebb62bdb785",
+   "fields": {
+    "meaning": "Mientras…, …",
+    "connection": "Vている + 間に + [oración/cláusula]",
+    "examples": [
+     "Mientras yo dormía, nevó.",
+     "Mientras mi padre estaba fuera de casa, entró un ladrón.",
+     "Mientras veía una película, sonó el móvil.",
+     "Mientras los niños jugaban, terminé de preparar la cena.",
+     "Durante la reunión llegó un correo importante."
+    ],
+    "explain": "Añadir una indicación temporal clara hace la oración más precisa: その間に／この間に（durante ese tiempo）。\nEl contenido de B suele ser algo repentino, que no se prolonga; si se prolonga, se cambia a 〜間.\nPuede usarse con la negación:見ている間に気づかなかった（no me di cuenta mientras lo veía）。\n\n• Expresa que el suceso B ocurre en algún momento dentro del período en que A está en curso.\n• Se usa sobre todo cuando B es una acción o situación breve, que termina rápido (鳴る、来る、起きる、入る…).\n• Cuando A es un estado prolongado (寝ている、留守にしている、会議中…), 〜間に resulta muy natural.\n• Si B dura todo el período A, se usa 〜間 (sin に).",
+    "notes": "• N con sentido de período: 留守の間に／授業の間に／休憩の間に resultan muy naturales.\n• “この間” en la conversación suele significar “últimamente/hace poco”, a diferencia de “間に”. Evita confundirlos.\n• En la lengua escrita, para mayor claridad, se puede anteponer B a A: 電話が、映画を見ている間に、鳴った。",
+    "mistakes": [
+     "Confundir 〜間 con 〜間に: si B se prolonga, no se usa に. Ejemplo incorrecto: 勉強している間に音楽を聞いた → mejor: 勉強している間、音楽を聞いた。",
+     "Usar 〜うちに en situaciones sin “cambio”: 映画を見ているうちに電話が鳴った → es más natural con 〜間に.",
+     "El JLPT suele pedir elegir entre 〜間／〜間に／〜うちに según si la cláusula B es “puntual” o “de duración”."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vている<ruby>間<rt>ま</rt></ruby>に",
+       "B ocurre en un momento dentro de A",
+       "B suele ser breve, instantáneo",
+       "<ruby>昼寝<rt>ひるね</rt></ruby>している<ruby>間<rt>ま</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>。"
+      ],
+      [
+       "Vている<ruby>間<rt>ま</rt></ruby>",
+       "B dura todo el tiempo de A",
+       "Dos procesos paralelos",
+       "<ruby>子<rt>こ</rt></ruby>どもが<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>間<rt>ま</rt></ruby>、<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る。"
+      ],
+      [
+       "〜うちに",
+       "Aprovechando que / antes de que A cambie",
+       "Enfatiza el cambio de estado",
+       "<ruby>若<rt>わか</rt></ruby>いうちに<ruby>留学<rt>りゅうがく</rt></ruby>する。"
+      ],
+      [
+       "<ruby>最中<rt>さいちゅう</rt></ruby>に",
+       "Justo en medio de A",
+       "Enfático, a menudo con molestia",
+       "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 409,
+   "src_hash": "5ef9d6825b92df46",
+   "fields": {
+    "meaning": "Expresa que algo se ha completado pronto, como en los ejemplos ①②, o el pesar por no poder volver a cierto estado, como en los ejemplos ③④.",
+    "examples": [
+     "Mañana entregaré el informe y lo dejaré terminado.",
+     "Ya terminé de leer el libro que compré hoy.",
+     "Se me ha olvidado el nombre de esa persona.",
+     "¡Ay, que se va a ensuciar la ropa blanca!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 410,
+   "src_hash": "dae6238f45637053",
+   "fields": {
+    "meaning": "El patrón de oración ～てもいいです expresa permiso o concesión. ~てはいけません　expresa prohibición.",
+    "examples": [
+     "Busco una habitación barata. No importa que sea pequeña.",
+     "Hana, no debes ir sola al río, ¿eh?",
+     "Para el examen de ingreso en la empresa, ir en camiseta no es aceptable.",
+     "Tom: «¿Puedo sentarme aquí?»\nUna mujer: «Sí, adelante.»"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 411,
+   "src_hash": "7753b55f0dacaff1",
+   "fields": {
+    "meaning": "Expresa causa o razón. Este patrón a menudo se usa más que ~から／～ので　para indicar la causa o razón de ciertas sensaciones o sentimientos. Detrás de este patrón, además de palabras que expresan emociones como こまる、さびしい, etc., también aparecen palabras que expresan la imposibilidad de realizar un",
+    "connection": "Vて / Aくて / N・Naで + [oración/cláusula (resultado)]",
+    "examples": [
+     "Hoy tuve mucho trabajo y fue muy duro.",
+     "Como no tengo amigos, siento soledad.",
+     "Por la preocupación, no pude dormir bien.",
+     "Gracias por enseñármelo.",
+     "Disculpe por haber llegado tarde."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 412,
+   "src_hash": "1cbf88146fe8c30e",
+   "fields": {
+    "meaning": "Expectativa, deseo.",
+    "connection": "Vると/Vたら/Vば + いい（expectativa, deseo）",
+    "examples": [
+     "«Ojalá tu madre se recupere pronto de su enfermedad.»",
+     "«Dicen que mañana es el festival deportivo, ¿verdad? Ojalá no llueva.»",
+     "¡Ojalá pueda conseguir una beca este año!",
+     "¡Qué bien sería poder hacer un viaje al extranjero en familia el año que viene!"
+    ],
+    "notes": "Se usa tanto para consejos/sugerencias (～たらいいですよ) como para expectativas/deseos"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 413,
+   "src_hash": "e9694331cf45b5db",
+   "fields": {
+    "meaning": "Justo cuando, en el momento en que | cuando~",
+    "connection": "V forma simple + ところ",
+    "examples": [
+     "Ahora mismo voy a entrar en una reunión.",
+     "Justo lo estoy explicando, así que espere un momento, por favor.",
+     "Acabo de terminar la solicitud hace un momento.",
+     "Justo cuando iba a salir de casa, empezó a llover.",
+     "Siento molestarle estando tan ocupado, pero ¿podría firmar aquí, por favor?",
+     "Estoy a punto de salir de casa."
+    ],
+    "explain": "Se añade una indicación temporal: これから/ちょうど/たった今 para aclarar el sentido de “a punto de / en curso / recién”.\nEn correos/en el trabajo: la frase inicial “お忙しいところ恐縮ですが…” es muy cortés.\nV-たところ: suele presentar un hallazgo/resultado justo después de una experiencia:調べ たところ、～が分かった。\nV-るところ se usa poco con acciones prolongadas; es adecuado para el momento de comenzar.\n\n- “ところ” marca el punto/tramo (time point) de la acción: antes de empezar (V-る), mientras transcurre (V-ている), recién terminada (V-た).\n- V-たところ enfatiza “acabar de” más que たばかり (da una sensación más inmediata). V-ているところ enfatiza lo inmediato: “justo mientras”.\n- Con partículas:\n- ところに/へ: justo en el momento (en que algo llega/se va) “llegar justo cuando…”.\n- ところを: aunque se esté (en un estado), otra acción interviene; también se usa en keigo “お忙しいところを…” (para disculparse/agradecer).\n- ところで: tiene el sentido de conjunción “por cierto” (no se refiere al aspecto temporal de V); hay que distinguirlo.",
+    "notes": "- El patrón “V-たところ、～” se usa a menudo en informes/conclusiones: “Al hacer V, se supo/se descubrió…”. Es una estructura que presenta el resultado de una investigación/prueba breve.\n- “ところを” va con verbos de disculpa/agradecimiento: お忙しいところを申し訳ありません／ありがとうございます。\n- Ojo con la ambigüedad de V-るところ: añade adverbios de tiempo “今から/これから/ちょうど” para dejar claro que es “a punto de”.",
+    "mistakes": [
+     "Confundir V-たところ con たばかり: el JLPT suele preguntar por el matiz de “inmediatez” de たところ.",
+     "Mezclar ところで (conjunción) con ところ＋partícula: tienen funciones totalmente distintas.",
+     "Usar V-るところ para acciones prolongadas (×明日旅行に行くところだ) → mejor usar 前/直前/行くところ “justo cuando me preparo para ir” con el contexto “今/これから”.",
+     "Olvidar la partícula correcta: 来たところに電話が… / 邪魔しているところをすみません。"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "V-たところ",
+       "Acabar de",
+       "Sensación inmediata, justo después",
+       "<ruby>帰<rt>かえ</rt></ruby>ったところだ"
+      ],
+      [
+       "V-たばかり",
+       "Acabar de (relativo)",
+       "El período “reciente” es más amplio",
+       "<ruby>帰<rt>かえ</rt></ruby>ったばかりだ"
+      ],
+      [
+       "V-ているところ",
+       "Estar haciendo",
+       "Justo en el momento en curso",
+       "<ruby>話<rt>はな</rt></ruby>しているところ"
+      ],
+      [
+       "～<ruby>最中<rt>さいちゅう</rt></ruby>（に）",
+       "Justo en medio de",
+       "Enfatiza que no se interrumpe; suele ir con Nの/V-ている",
+       "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に"
+      ],
+      [
+       "ところで（conjunción）",
+       "Por cierto",
+       "No tiene que ver con el aspecto temporal de V",
+       "ところで、<ruby>次<rt>つぎ</rt></ruby>の<ruby>議題<rt>ぎだい</rt></ruby>は…"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 414,
+   "src_hash": "373f1f862260eb2a",
+   "fields": {
+    "meaning": "Cita.",
+    "connection": "「[cita]」/ [oración/cláusula] + と + 言う/聞く/書く",
+    "examples": [
+     "Ayer Takagi dijo que vendría al día siguiente a las 8. Pero todavía no ha llegado.",
+     "En las noticias de la televisión dijeron que esta mañana temprano hubo un terremoto en Chiba.",
+     "En el pronóstico del tiempo de ayer dijeron que probablemente seguiría lloviendo durante un tiempo.",
+     "«He oído que la semana que viene hay un programa de televisión. ¿Es cierto?»",
+     "En la carta de mi madre decía que el festival de la semana pasada fue muy animado y divertido."
+    ],
+    "notes": "Nota:\n●　「　」があるときは、「　　」の中はていねい体でもよい\ncuando hay 「　　」, dentro de 「　　」 también se puede usar la forma cortés。\n1.高木さんはきのう、「あした８時に来ます」と言いました。\nAyer Takagi dijo: «Mañana vendré a las 8.»"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 415,
+   "src_hash": "67cad148b5b0ae2a",
+   "fields": {
+    "meaning": "Decidir no…",
+    "examples": [
+     "Por mi salud, decido no comer después de las 9 de la noche.",
+     "Como quiero ahorrar dinero, decidí no comer fuera.",
+     "Este mes tengo como norma no malgastar dinero.",
+     "Por falta de tiempo, decido no ir al viaje del fin de semana.",
+     "Hoy decidí no comprar bebidas dulces."
+    ],
+    "explain": "Se usa para decisiones personales; enfatiza la voluntad/el control del hablante.\nPara ser cortés con el oyente: 〜ことにしました（he decidido…）.\nPuede ir con una razón/motivo antes o después: 〜ので／〜ために + ないことにする.\nEn una promesa a uno mismo: よし、今日は文句を言わ ないことにする ！\n\n• Expresa una decisión subjetiva del hablante: “decidir no hacer V”.\n• La forma 〜ことにした enfatiza el momento en que se tomó la decisión en el pasado; 〜ことにしている enfatiza un hábito/una norma actual.\n• Sirve tanto para decisiones temporales (hoy) como a largo plazo (de ahora en adelante), según el contexto.\n• A diferencia de 〜ないことになる: 〜ないことにする es decidir uno mismo; 〜ないことになる es que lo deciden las circunstancias/las normas.",
+    "notes": "• Esta forma negativa suele ir con conductas de consumo/salud/malos hábitos: 飲まない・食べない・買わない・行かない・言わない.\n• Para enfatizar lo temporal: 今日は〜しないことにする; a largo plazo: これからは〜しないことにする.\n• En la conversación puede usarse como “recordatorio” a uno mismo, con matiz de determinación.",
+    "mistakes": [
+     "Confundir con 〜ないことになる: los exámenes suelen pedir distinguir quién decide. “会社の方針で飲まないことになった”（por la empresa) ≠ “自分で飲まないことにした”.",
+     "Se usa 〜ことにした al contar una decisión pasada; 〜ことにする se usa al declarar/acordar algo en el presente.",
+     "Error de tiempo verbal: añadir だ después de ことにする es incorrecto. No existe “〜ないことにするだ”.",
+     "Abusar de él con conductas no voluntarias: “雨を見ないことにする” no tiene sentido; solo se usa con conductas controlables."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia esencial",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "V-ない + ことにする",
+       "Decidir uno mismo no hacerlo",
+       "Decisión subjetiva",
+       "<ruby>飲<rt>の</rt></ruby>まないことにする"
+      ],
+      [
+       "V-ない + ことになる",
+       "Se decide (por otros) no hacerlo",
+       "Por las circunstancias/las normas",
+       "<ruby>飲<rt>の</rt></ruby>まないことになった"
+      ],
+      [
+       "V-る/ない + ことにしている",
+       "Hábito/norma personal",
+       "Continuidad",
+       "<ruby>食<rt>た</rt></ruby>べないことにしている"
+      ],
+      [
+       "V-ない + こととする",
+       "Documentos/normativas",
+       "Formal, normativo",
+       "<ruby>喫煙<rt>きつえん</rt></ruby>は<ruby>許可<rt>きょか</rt></ruby>しないこととする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 416,
+   "src_hash": "aa4ca9e567ae26f2",
+   "fields": {
+    "meaning": "Es mejor no…",
+    "examples": [
+     "Hoy es mejor que no te esfuerces demasiado.",
+     "Es mejor no contarle eso al jefe de departamento.",
+     "Por la noche es mejor no andar por ahí a solas.",
+     "Es mejor no tomar ese medicamento con el estómago vacío.",
+     "En un primer encuentro es mejor no hacer preguntas demasiado personales.",
+     "Como llueve mucho, creo que es mejor no ir hoy."
+    ],
+    "explain": "Cortés: ～ないほうがいいです; neutro: ～ないほうがいいよ; suavizado: ～ないほうがいいと思います。\nSe usa cuando el oyente tiene libertad para decidir; evítalo con superiores (cambia a ～てはいかがですか/おすすめしません).\nAl comparar dos opciones, se pueden mencionar ambas:行くより行か ないほうがいい。\nSuele ir acompañado de una razón: ～から/ので/ほうがいい。\nNo se usa para acciones ya ocurridas (para el arrepentimiento se usa ～ないほうがよかった).\n\n• Consejo/sugerencia: “No conviene hacer …”, basado en la experiencia, el sentido común o la opinión del hablante.\n• Matiz más suave que una orden; se usa a menudo al dar consejos personales, sobre salud o seguridad.\n• Muestra la posibilidad de elegir: entre dos posibilidades, la opción de “no hacerlo” es mejor.\n• No se usa para prohibiciones absolutas de una organización (en ese caso se usa ～てはいけない/禁止).\n• Suele ir con ですよ/と思います/かもしれません para reducir la franqueza.\n• Comparado con ～べきではない: es más débil, con menos carga moral/de juicio; se inclina por el consejo práctico.",
+    "notes": "• Escritura: se ven tanto ほう como 方; en la lengua escrita formal se suele usar 方.\n• Para ser aún más cortés: ～ないほうがよろしいかと思います。\n• Añadir una base en la experiencia: ～ないほうがいいですよ、前に失敗しましたから。\n• En la conversación, se omite です para sonar más cercano: ～ないほうがいいよ。",
+    "mistakes": [
+     "Forma incorrecta: usar 辞書形 en lugar de ない形. Correcto: 行かないほうがいい (no 行くほうがいい cuando se quiere decir “no conviene”).",
+     "Confundir con la prohibición absoluta: ～てはいけない es más fuerte y tiene más carácter de norma.",
+     "No distinguir el arrepentimiento: si ya ocurrió, se usa ～ないほうがよかった.",
+     "Verbos irregulares: する→しないほうがいい；来る→来ない（こない）ほうがいい。",
+     "Resulta descortés con superiores/clientes: conviértelo en una sugerencia indirecta para ser cortés."
+    ],
+    "comparison": {
+     "headers": [
+      "Punto gramatical",
+      "Significado",
+      "Similitud/Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～たほうがいい",
+       "Es mejor hacerlo",
+       "Correlato afirmativo. Más fuerte que ～たらどう",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>たほうがいい。"
+      ],
+      [
+       "～ないほうがましだ",
+       "Es preferible no hacerlo",
+       "Comparación negativa fuerte, a menudo cuando ambas opciones son malas",
+       "<ruby>嘘<rt>うそ</rt></ruby>をつくくらいなら<ruby>言<rt>い</rt></ruby>わないほうがましだ。"
+      ],
+      [
+       "～べきではない",
+       "No se debe (normativo)",
+       "Fuerte, matiz de juicio moral/normativo",
+       "<ruby>差別<rt>さべつ</rt></ruby><ruby>的<rt>てき</rt></ruby>な<ruby>発言<rt>はつげん</rt></ruby>はするべきではない。"
+      ],
+      [
+       "～ないほうが<ruby>無難<rt>ぶなん</rt></ruby>だ/<ruby>身<rt>み</rt></ruby>のためだ",
+       "No hacerlo es lo más seguro/lo que te conviene",
+       "Más fuerte que ～ないほうがいい, carácter de advertencia",
+       "<ruby>夜中<rt>やちゅう</rt></ruby>は<ruby>出歩<rt>である</rt></ruby>かないほうが<ruby>無難<rt>ぶなん</rt></ruby>だ。"
+      ],
+      [
+       "～に<ruby>越<rt>こ</rt></ruby>したことはない",
+       "… es lo mejor",
+       "Expresión hecha general; no solo aconseja “no hacer”",
+       "<ruby>関<rt>かか</rt></ruby>わらないに<ruby>越<rt>こ</rt></ruby>したことはない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 417,
+   "src_hash": "2fe0af93cf2d61f9",
+   "fields": {
+    "meaning": "Tener que… (habla natural)",
+    "connection": "Vなければいけない → Vなきゃいけない（contracción; 急がなきゃ）",
+    "examples": [
+     "Ya tengo que irme a dormir.",
+     "Es la fecha límite, así que tengo que darme prisa.",
+     "Mañana tengo que levantarme temprano.",
+     "¿Hay que comer tanto?",
+     "Tengo que ir a recoger al niño.",
+     "Parece que va a llover. Tengo que meter la ropa tendida."
+    ],
+    "explain": "Muy propio de la lengua hablada; se usa en la conversación, el chat y las notas rápidas. Evítalo en textos formales.\nA menudo se omite la terminación cuando el contexto es claro: もう出かけ なきゃ。Alto grado de urgencia.\nCombina bien con ちょっと／やっぱ／もう／そろそろ para sonar natural: もう行かなきゃ。\n\n• Expresa “tener que/estar obligado a” de forma coloquial, en la conversación cotidiana.\n• Origen: なきゃ＝なければ (contracción) → “Si no …, no está bien” → implica que hay que hacerlo.\n• Matiz más suave que ～なければならない; equivale a la versión coloquial de ～ないといけない/～なくてはいけない.",
+    "notes": "• Variaciones fonéticas en la conversación: ～なきゃ → ～なきゃぁ／～なきゃね para suavizar.\n• El foco informativo suele ir antes de なきゃ para enfatizar: 絶対今日中に終わらせなきゃ。\n• La negación de la obligación usa otra estructura: 行かなくてもいい／行かなくてはならないの否定ではない.",
+    "mistakes": [
+     "Confundir con la prohibición ～てはいけない: el significado es totalmente distinto.",
+     "Usarlo en la lengua escrita formal (redacciones/solicitudes): conviene cambiarlo a ～なければならない／～ないといけません.",
+     "Escribir mal la forma original: なきゃ＝なければ, なくちゃ＝なくては; evita combinaciones como “なきゃては”.",
+     "Omitir la terminación en el examen: もう出かけなきゃ… → si no es una conversación, conviene escribirlo completo para no perder puntos."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Matiz/Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vなきゃいけない",
+       "Tener que (lengua hablada)",
+       "Coloquial, cotidiano",
+       "<ruby>帰<rt>かえ</rt></ruby>らなきゃいけない"
+      ],
+      [
+       "Vないといけない",
+       "Tener que",
+       "Neutro; más estándar",
+       "<ruby>帰<rt>かえ</rt></ruby>らないといけない"
+      ],
+      [
+       "Vなければならない",
+       "Obligación",
+       "Fuerte, formal/normativo",
+       "<ruby>守<rt>まも</rt></ruby>らなければならない"
+      ],
+      [
+       "Vなくちゃ（いけない）",
+       "Tener que (muy coloquial)",
+       "Se usa igual que なきゃ",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>しなくちゃ"
+      ],
+      [
+       "Vてはいけない",
+       "No se debe",
+       "Opuesto (prohibición)",
+       "<ruby>入<rt>はい</rt></ruby>ってはいけない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 418,
+   "src_hash": "e15a214a7b28eacd",
+   "fields": {
+    "meaning": "Tener que… (coloquial)",
+    "examples": [
+     "Mañana tengo que levantarme temprano.",
+     "Tengo que entregarlo antes de la fecha límite.",
+     "Aquí tiene que haber silencio, así que llama por teléfono fuera.",
+     "¡Ya tengo que irme!",
+     "Tengo que ponerme en contacto."
+    ],
+    "explain": "Grado de formalidad: lengua hablada. En la lengua escrita o en situaciones formales, se prefiere ～なくてはいけない／～なければならない.\nPersona: normalmente yo/nosotros; se usa poco para dar órdenes directas al oyente (suena brusco). Para aconsejar con suavidad: ～ほうがいい/～たほうがいい.\nNegación de la obligación: se usa ～ なくてもいい (no hace falta), no la negación de いけない.\nCortés: se puede usar ～なくちゃ いけません , pero mezcla lo coloquial con lo cortés; normalmente se usa ～なくてはいけません.\n\n• Significado principal: obligación/algo necesario en registro coloquial: “tener que ...”, “tener que ... sin falta”.\n• Matiz: más suave que ～なければならない; tiene un carácter de “recordatorio a uno mismo”, “regla de grupo” o “consejo fuerte” en la conversación.\n• Origen de la obligación: puede venir de uno mismo, de la agenda, de normas no muy formales o del contexto familiar/de amigos.\n• Omisión de いけない: cuando el hablante tiene prisa o se recuerda lo que debe hacer, solo dice ～なくちゃ／～なきゃ.",
+    "notes": "• Base: ～なくちゃ es la contracción de ～なくては. “ちゃ” viene de “ては” → “ちゃ”.\n• ～ないと (いけない/だめ) es muy frecuente; cuando se omite la parte final, el contexto completa el sentido de “tener que”.\n• Con Aい/N/na: el sentido “tiene que (estar en un estado) ...” se usa a menudo al describir condiciones que deben cumplirse: 安くなくちゃいけない (tiene que ser barato).\n• En la comunicación cortés con clientes/socios, evita ～なくちゃ; elige ～なくてはいけません.",
+    "mistakes": [
+     "Olvidar “で” antes de なくちゃいけない con N/na: ×静かなくちゃいけない → 〇静かでなくちゃいけない.",
+     "Usarlo como orden directa a un superior: suena brusco. Cámbialo a ～てください o ～ていただけますか.",
+     "Confundir con la negación de la obligación con いけない: ×行かなくちゃいけなくない → 〇行かなくてもいい.",
+     "Escritura formal: evita ～なくちゃ en informes/exámenes escritos; usa ～なくてはいけない／～なければならない."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～なくてはいけない",
+       "Tener que (estándar, neutro)",
+       "Más formal; se puede usar en el trabajo",
+       "<ruby>明日<rt>あした</rt></ruby>までに<ruby>出<rt>だ</rt></ruby>さなくてはいけない。"
+      ],
+      [
+       "～なければならない",
+       "Tener que (fuerte, normativo)",
+       "El más fuerte en lengua escrita/oficial",
+       "<ruby>安全<rt>あんぜん</rt></ruby><ruby>基準<rt>きじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>らなければならない。"
+      ],
+      [
+       "～べきだ",
+       "Deber (norma moral)",
+       "No es obligatorio en absoluto; se inclina por la opinión",
+       "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まも</rt></ruby>るべきだ。"
+      ],
+      [
+       "～ことだ",
+       "Consejo",
+       "Más suave que “tener que”",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ることだ。"
+      ],
+      [
+       "～なくてもいい",
+       "No hace falta",
+       "Negación de la obligación",
+       "<ruby>今日<rt>きょう</rt></ruby>は<ruby>行<rt>い</rt></ruby>かなくてもいい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 419,
+   "src_hash": "01f5d12c395068d4",
+   "fields": {
+    "meaning": "El patrón de oración ～なくてもいいです expresa que algo no es necesario o una concesión. ～なければなりません expresa la necesidad, la obligación de hacer algo.",
+    "examples": [
+     "¿No hay algún hotel bueno? No importa que no esté cerca de la estación.",
+     "Mamá, ¿no hay una caja? No importa que no sea resistente.",
+     "Tengo que responder al correo electrónico.",
+     "La firma de aquí tiene que ser la suya.",
+     "Médico: «Ya no hace falta que tome la medicina.»\nPaciente: «¿Ah, sí? Ah, qué bien.»"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 420,
+   "src_hash": "24ff95464bba5a9e",
+   "fields": {
+    "meaning": "Convierte el verbo en sustantivo.",
+    "examples": [
+     "Me gusta leer libros.",
+     "Vivir solo es triste, pero es bueno porque eres libre.",
+     "Se me da bien leer textos, pero escribir se me da mal.",
+     "«¿Sabes que Chin se casa el mes que viene?»"
+    ],
+    "notes": "Nota:\n●次のような文では、「こと」しか使えない。\nEn oraciones como las siguientes solo se puede usar 「こと」\n1.  わたしの趣味は映画を見ることです。\nMi afición es ver películas\n2.  わたしが日本へ来た目的は、日本語の勉強をすることです。\nEl propósito por el que vine a Japón es estudiar japonés."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 421,
+   "src_hash": "4640fa59f269e4f1",
+   "fields": {
+    "meaning": "Mientras…, durante…",
+    "examples": [
+     "Durante las vacaciones de verano fui a casa de mis abuelos.",
+     "Mientras el niño dormía, terminé de lavar la ropa.",
+     "Mientras la casa estaba vacía, entró un ladrón.",
+     "Durante la reunión, el teléfono sonó solo una vez.",
+     "Durante mi etapa de estudios, viví la experiencia de un intercambio académico."
+    ],
+    "explain": "Enfatiza un “punto” dentro de un intervalo: se usa para un suceso aislado que se intercala en un intervalo prolongado.\nFormalidad neutra: funciona bien tanto en la lengua hablada como en la escrita; en carteles se suele usar ～中/～の際 en su lugar, según el contexto.\nSe inclina por un estado de fondo prolongado: antes de ～の間に suele ir un sustantivo que indica un período con cierta duración.\n\n• “Mientras/durante”: expresa que una acción o suceso ocurre en algún momento dentro del período indicado.\n• Cobertura temporal: ～間に se inclina por “un punto/pocas veces dentro del intervalo”, a diferencia de ～間, que enfatiza “de principio a fin, en paralelo”.\n• Combinaciones naturales: N de tiempo (休み、会議、授業、在学) o Vている para expresar un estado prolongado.\nDiferencia esencial: A間、B (B transcurre durante todo A). A間に、B (B ocurre una o pocas veces dentro de A).",
+    "notes": "• Vている + 間に es más natural que Vる + 間に con verbos de duración: 彼がいる間に vs 彼がいている間に (ambos aparecen, pero Vている deja claro el estado).\n• Sustantivos de estado: 留守/在学/勤務/出張 など encajan muy bien con ～の間に.\n• “この間” también significa “hace poco/últimamente”; pero “この間に” enfatiza un período concreto que acaba de pasar.",
+    "mistakes": [
+     "Confundir 間 con 間に: un suceso prolongado requiere 間; un suceso puntual, 間に.",
+     "Usar Vる + 間に con verbos puntuales suena forzado: ×帰る間に 盗まれた → ○帰っている間に? En la práctica conviene usar ～うちに/～とちゅうで según el significado.",
+     "Olvidar 「の」 después del sustantivo: ×夏休み間に → ○夏休みの間に."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Aの<ruby>間<rt>ま</rt></ruby>に、B",
+       "Dentro del período A, ocurre B (pocas veces)",
+       "Un punto en el tiempo dentro del intervalo",
+       "<ruby>授業<rt>じゅぎょう</rt></ruby>の<ruby>間<rt>ま</rt></ruby>にメモした"
+      ],
+      [
+       "Aの<ruby>間<rt>ま</rt></ruby>、B",
+       "Durante todo A, B transcurre de forma continua",
+       "En paralelo y prolongado",
+       "<ruby>授業<rt>じゅぎょう</rt></ruby>の<ruby>間<rt>ま</rt></ruby><ruby>静<rt>しず</rt></ruby>かにしていた"
+      ],
+      [
+       "Aうちに、B",
+       "Aprovechando que / antes de que el estado A cambie",
+       "Enfatiza “antes de perder la oportunidad”",
+       "<ruby>若<rt>わか</rt></ruby>いうちに<ruby>挑戦<rt>ちょうせん</rt></ruby>する"
+      ],
+      [
+       "Aとき（に）、B",
+       "Cuando A, B",
+       "Neutro respecto a la duración",
+       "<ruby>帰<rt>かえ</rt></ruby>るときに<ruby>買<rt>か</rt></ruby>う"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 422,
+   "src_hash": "6db266b7719e5d08",
+   "fields": {
+    "name": "～は…が＋adjetivo／verbo de estado",
+    "meaning": "Habla de estados y características. Indica que 「～」 es el todo y 「・・・」 es una parte.",
+    "connection": "N1は + N2が + A/V(estado)",
+    "examples": [
+     "Mi hermano mayor es alto. Yo tengo el pelo largo. Mi padre tiene la voz fuerte.",
+     "(Yo) Me duele la barriga / Tengo los ojos cansados / Tengo fiebre.",
+     "Mi habitación tiene las ventanas grandes.",
+     "Las verduras de ese supermercado son baratas y frescas.",
+     "Este parque tiene mucha vegetación y es agradable.",
+     "En Tokio hay muchos coches, pero en mi pueblo hay pocos."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

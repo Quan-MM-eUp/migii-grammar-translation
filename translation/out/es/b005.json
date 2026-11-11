@@ -1,0 +1,838 @@
+{
+ "batch": "b005",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 63,
+   "src_hash": "8358793eb0e19416",
+   "fields": {
+    "meaning": "Comparativo de superioridad",
+    "examples": [
+     "Este año hace más calor que el año pasado.",
+     "Este smartphone es más ligero que el modelo anterior.",
+     "Tengo más estatura que mi hermano menor.",
+     "Él habla japonés mejor que yo.",
+     "El autobús tarda más que el tren.",
+     "Entre A y B, A es más popular."
+    ],
+    "explain": "より puede sustituirse por よりも para enfatizar el contraste.\nCon sustantivos de tiempo o lugar, a menudo se omite は: 今年は去年より～.\nAl responder a una pregunta con どちら, lo natural es usar のほうが: AのほうがBより～/Aのほうが～.\nNegación de la comparación: AはBほど～ない (A no es tan ～ como B).\n\nExpresa «A es más ～ que B». より se coloca detrás del elemento de referencia para comparar la diferencia.\nLa parte que acompaña a より es la base de referencia; el predicado recae sobre A.\nSe acompaña de adverbios de grado (ずっと,少し, かなり, やや) para cuantificar la diferencia.\nCon verbos: compara la frecuencia o el grado de una acción (食べる/使う/勉強する...).",
+    "notes": "Comparación encadenada: AはBよりCより～ puede resultar ambigua; conviene dividir la oración o usar 数値 para mayor claridad.\nCon cifras, se colocan directamente: 去年より3%増えた。\nComparación de uno mismo a lo largo del tiempo: 前より/以前より/昔より +形容詞/動詞.",
+    "mistakes": [
+     "Invertir por error la posición de A/B: × BはAより… (el sentido pasa a ser que B supera a A) → atención a «AはBより…».",
+     "Usar を después de より: × Aよりを… → より no va con を; le sigue el predicado.",
+     "Confundirlo con ほど en una oración afirmativa: × AはBほど高い → ほど se usa con la negación en las comparaciones de superioridad e inferioridad.",
+     "Omitir のほうが al responder una pregunta comparativa hace que la oración resulte poco natural en la conversación."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "AはBより～",
+       "A es más que B",
+       "Comparación afirmativa",
+       "この<ruby>本<rt>ほん</rt></ruby>はあれより<ruby>厚<rt>あつ</rt></ruby>い。"
+      ],
+      [
+       "AはBほど～ない",
+       "A no es tan … como B",
+       "Comparación negativa",
+       "<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大阪<rt>おおさか</rt></ruby>ほど<ruby>暑<rt>あつ</rt></ruby>くない。"
+      ],
+      [
+       "AのほうがBより～",
+       "A es más que B",
+       "Énfasis en la elección de A",
+       "<ruby>犬<rt>いぬ</rt></ruby>のほうが<ruby>猫<rt>ねこ</rt></ruby>より<ruby>好<rt>す</rt></ruby>きだ。"
+      ],
+      [
+       "AよりB",
+       "Inversión del orden para enfatizar B",
+       "Énfasis en la lengua hablada",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>より<ruby>遊<rt>あそ</rt></ruby>び？ (crítica)"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 64,
+   "src_hash": "e46b734de120ca87",
+   "fields": {
+    "name": "～よ　～te digo, ¿sabes?",
+    "meaning": "～よ。　~te digo/¿sabes?/eh.",
+    "connection": "[oración/cláusula] + よ",
+    "examples": [
+     "A: ¿Este tren va a Kōshien?\nB: No, no va. Es el próximo, el «ordinario», ¿eh?"
+    ],
+    "explain": "～よ　enfatiza cierta información para el oyente."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 65,
+   "src_hash": "9b69902a3737a77f",
+   "fields": {
+    "meaning": "el A (el que es A)",
+    "examples": [
+     "A: ¿Cuál es el bolso de Karina?\nB: Es aquel rojo y grande."
+    ],
+    "explain": "Sustituye a un sustantivo que ha aparecido antes.\n\nの～：el ~ (el que es ~)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 66,
+   "src_hash": "db415a6062a36cdb",
+   "fields": {
+    "name": "Uso de cantidades y contadores",
+    "meaning": "Posición del contador en la oración: va después de Nを/が y antes de V",
+    "connection": "～は + Nを/が/に + [cantidad] + V",
+    "examples": [
+     "A: ¿Cuántas botellas de cerveza hay sobre la mesa?\nB: Hay seis.",
+     "A: ¿Cuántas personas hay en la sala de reuniones?\nB: Hay cuatro."
+    ],
+    "explain": "La cantidad o el contador siempre va detrás de la partícula."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 67,
+   "src_hash": "30d03ac920edc260",
+   "fields": {
+    "name": "Uso del número de veces",
+    "meaning": "Se usa para hablar de cuántas veces se hace algo.\nなんかい：¿Cuántas veces?",
+    "connection": "Cantidad + 回(かい)",
+    "examples": [
+     "Veo películas dos veces por semana.",
+     "Nam vuelve a su pueblo una vez al mes."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 68,
+   "src_hash": "6434d4b0c8ebc7a1",
+   "fields": {
+    "name": "Uso de partículas con medios de transporte",
+    "meaning": "Subir al vehículo (tren) ~\nBajar del vehículo (tren) ~\nCambiar de vehículo (tren) de ~ a ~\n～を salir de ~, bajar de ~\n～に entrar en ~, subir a ~",
+    "connection": "N(medio de transporte) + に + 乗ります / N + を + 降ります / N1 + から + N2 + に + 乗り換えます",
+    "examples": [
+     "Subo al tren.\nBajo del tren.\nCambio del tren al autobús."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 69,
+   "src_hash": "9724248010a31dd8",
+   "fields": {
+    "name": "N が A de sentimiento o grado",
+    "meaning": "N es A (adjetivo de sentimiento/grado: 頭がいい)",
+    "examples": [
+     "Se me dan mal los kanji.",
+     "A: ¿Qué es lo que no le gusta?\nB: No me gusta el tabaco."
+    ],
+    "explain": "が： se usa con los adjetivos que expresan sentimiento o grado."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 70,
+   "src_hash": "f29af46231fd46fb",
+   "fields": {
+    "name": "N1(persona/cosa/lugar) の N2 de posición",
+    "meaning": "Encima　した：Debajo\nDelante　うしろ：Detrás\nA la derecha　ひだり：　A la izquierda\nDentro　そと：Fuera\nAl lado\nAl lado ( en línea)\nCerca\nEn medio",
+    "examples": [
+     "Mi casa está cerca del parque.",
+     "Miller está en la sala de reuniones."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 71,
+   "src_hash": "2e0db41dcaaa5d79",
+   "fields": {
+    "meaning": "La partícula に indica el lugar N1 donde se encuentra N2 después de realizar la acción V.",
+    "connection": "N1 (lugar) + に + N2 + を + V",
+    "examples": [
+     "Por favor, estacione el coche aquí.",
+     "Por favor, escriba su dirección aquí."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 72,
+   "src_hash": "02612090166a3765",
+   "fields": {
+    "meaning": "detalle de un todo",
+    "examples": [
+     "En Hokkaido nieva mucho.",
+     "A: ¿Cómo es Maria?\nB: Tiene los ojos grandes y la piel blanca.",
+     "A: ¿Cuál es Yumiko?\nB: Es la persona de pelo negro y largo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 73,
+   "src_hash": "02fde66aec831b93",
+   "fields": {
+    "meaning": "Cosas como ~, ~…",
+    "examples": [
+     "En la habitación hay cosas como un televisor y un refrigerador.",
+     "En el supermercado compré cosas como carne y huevos."
+    ],
+    "explain": "Se usa para enumerar sustantivos.\nCon el último N no se usa や, sino など para cerrar la enumeración. など va antes de la partícula adecuada, que corresponde al verbo del final de la oración.\nや + など da la sensación de «solo son ejemplos», adecuada cuando no hace falta o no es posible enumerarlo todo.\nEn la conversación, se puede usar solo や sin añadir など si la lista ya se sobrentiende.\nなど va detrás del último elemento de la lista o detrás de un único elemento con el sentido de «por ejemplo».\nAl hablar de personas: evita Nなど si no quieres resultar descortés; «先生など» puede sonar despectivo.",
+    "notes": "notas originales: «NやNなどのN» se usa a menudo en títulos o informes: «AやBなどの影響».\n«などと +言う/思う» tiene un matiz de cita con menosprecio: 彼が天才だなどと言う。 (implica escepticismo).\nCuando la lista es larga, se puede usar «などを中心に/などについて».\nmeaning_vi: Partícula que une un sustantivo con otro. Se usa para enumerar algunas cosas entre muchas.\nexamples: 1. ①　秋葉原や　原宿。\nAkihabara y Harajuku."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 74,
+   "src_hash": "0c8d185e3b943f0a",
+   "fields": {
+    "name": "Unir oraciones simples en una oración compuesta",
+    "meaning": "Unir oraciones compuestas: Vて/Aくて/Naで/Nで unen cláusulas con el mismo tema",
+    "examples": [
+     "Todos los días me levanto a las 6, desayuno y luego voy a la escuela.",
+     "Yo trabajo en una empresa y Tanaka es médico.",
+     "Soy Hung y soy estudiante.",
+     "Este tronco es largo y pesado.",
+     "Este lugar es bonito y tranquilo."
+    ],
+    "explain": "Se usa para formar una oración compuesta.\nCon V: se usa Vて para enumerar el orden de las acciones.Con N: no solo se usa en oraciones con un mismo tema, sino que también puede unir oraciones con temas distintos.Con A: solo se usa para unir adjetivos semánticamente similares."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 75,
+   "src_hash": "eb5ff4d2b06635d8",
+   "fields": {
+    "name": "Unir varios tipos de cosas con cantidades distintas",
+    "meaning": "Enumerar varios tipos con cantidades distintas (N1を…とN2を…)",
+    "connection": "～は + N1を/が + [cantidad] + と + N2を/が + [cantidad] + V",
+    "examples": [
+     "Sobre la mesa hay dos huevos, un pan y una taza de café.",
+     "A: Deme dos manzanas y tres plátanos, por favor.\nB: Sí, de acuerdo."
+    ],
+    "explain": "La partícula depende del verbo al final de la oración."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 76,
+   "src_hash": "89e10acf50866ce8",
+   "fields": {
+    "meaning": "descripción de fenómenos naturales",
+    "examples": [
+     "Está lloviendo.",
+     "Miller no está, ¿verdad?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 77,
+   "src_hash": "b4fd7949fed263ea",
+   "fields": {
+    "meaning": "La partícula に indica el lugar donde se encuentra el sujeto después de realizar la acción V.",
+    "examples": [
+     "No se puede entrar aquí.",
+     "¿Puedo sentarme en esta silla?"
+    ],
+    "explain": "Verbos que se usan:\nNに～\nはいります entrar en N\nすわります sentarse en N\nのります subir a N(vehículo)\nのぼります subir N(montaña)\nつきます llegar a N",
+    "notes": "meaning_vi: Desplazarse a N (NにV de movimiento: 日本に行く)\nexplain: La partícula に indica el destino y se usa en lugar de la partícula de dirección へ.\nVerbos como いきます/きます/かえります/しゅっちょうします pueden usarse tanto con Nへ como con Nに.\nexamples: 1. A: どこかで　財布を　落として　しまったんです。\nB: それは　大変ですね。すぐ　交番に　行かないと。\nSe me ha caído la cartera en algún sitio.\n¡Qué problema! Hay que ir ya mismo a la comisaría."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 78,
+   "src_hash": "184eb2f81935f440",
+   "fields": {
+    "name": "Nは～にいます/あります N está en ～",
+    "meaning": "N está/hay en… (います para personas y seres vivos, あります para objetos)",
+    "connection": "N + は + N (lugar) + に + います / あります",
+    "examples": [
+     "A: ¿Dónde está el libro de japonés?\nB: Está encima del escritorio.",
+     "A: ¿Dónde está el gato?\nB: Está dentro de la caja."
+    ],
+    "explain": "Se usa para enfatizar la ubicación de algo que tanto el hablante como el oyente conocen."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 79,
+   "src_hash": "7b54ccb5d2831ec9",
+   "fields": {
+    "name": "Comparativo de igualdad",
+    "meaning": "igual, lo mismo.",
+    "examples": [
+     "A tiene más o menos la misma estatura que B.",
+     "A tiene la misma edad que B."
+    ],
+    "explain": "N 1 y N 2 son iguales (en alguna cualidad o característica)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 80,
+   "src_hash": "68a03d699201b561",
+   "fields": {
+    "name": "Comparativo de inferioridad",
+    "meaning": "~ no es tan … como ~",
+    "examples": [
+     "Los plátanos no son tan caros como las manzanas.",
+     "A: ¿Cómo es la habitación de A?\nB: La habitación de A no es tan amplia como la de B."
+    ],
+    "explain": "ほど, junto con la terminación negativa, expresa que N 1 no tiene la cualidad A en el mismo grado que N 2 ."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 81,
+   "src_hash": "017b49ddc5160523",
+   "fields": {
+    "name": "Convertir el objeto directo en tema",
+    "meaning": "Cuando se quiere convertir el objeto directo de la oración «NをV» en el tema, se sustituye la partícula を por は y se coloca Nは al principio de la oración.",
+    "connection": "N + を + V → N + は + V (el objeto directo pasa a ser el tema)",
+    "examples": [
+     "Por favor, no deje el equipaje aquí.\nEl equipaje, por favor, no lo deje aquí.",
+     "Almuerzo en el comedor de la empresa.\nEl almuerzo lo como en el comedor de la empresa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 82,
+   "src_hash": "3da8df5e28bdf48c",
+   "fields": {
+    "meaning": "Querer hacer algo",
+    "examples": [
+     "Quiero ir a Japón.",
+     "¿Qué quiere comer?",
+     "Hoy no quiero volver a casa temprano.",
+     "En mi infancia quería tener un perro.",
+     "Él tiene ganas de comprarse un smartphone nuevo.",
+     "Quiero beber agua."
+    ],
+    "explain": "Es cortés y básico en la comunicación diaria; con superiores o clientes, se usa ～たいと思っております／～させていただきたいです para suavizarlo.\nPara preguntar por el deseo del oyente: ～たいですか／何が～たいですか; más formal: ～たいでしょうか／～たいですかね.\nPara enfatizar un deseo firme: ～たいと思っています (intención ya formada); suave y espontáneo: ～たいです.\nEn oraciones compuestas: puede usarse antes de から・ので・けど para expresar una causa o una sugerencia: 早く帰りたい ので、先に失礼します。\n\nExpresa el deseo o la intención subjetiva del hablante de «querer hacer V»; se hace cortés con です.\nRestricción del agente: suele usarse en primera persona; se puede preguntar a la segunda persona; con la tercera persona se usa ～たがる／～たがっています para objetivarlo.\nNaturaleza gramatical: ～たい es un adjetivo い y se conjuga como los adjetivos い (たくない・たかった...).\nPartículas: el objeto directo suele pasar de を → が cuando se enfatiza el deseo dirigido al objeto de la acción.\nMatiz: directo y natural; para algo más formal se usa ～たいと思っています／～たいと考えています.",
+    "notes": "Resulta poco natural expresar directamente un deseo fuerte ante un superior: «休みたいです» → considera «体調が優れないので、お休みをいただきたいです»。\nEvita «～たいですと思います» (redundante); basta con «～たいと思います».\nSustantivos verbales con する: Nを/が＋したい (勉強をしたい／勉強がしたい) son ambos correctos; が enfatiza el deseo.\nAl preguntar por gustos en general: 何がしたい？ (coloquial) en lugar de 何をしたい？ para sonar natural.",
+    "mistakes": [
+     "Usarlo directamente con la tercera persona: ×彼は帰りたいです → ◯彼は帰りたがっています.",
+     "Confusión de partículas: ×水を飲みたい (no es incorrecto), pero al preguntar o responder sobre preferencias resulta más natural: 水が飲みたい.",
+     "Conjugarlo mal como sustantivo o adjetivo な: ×行きたいですな → ◯行きたいです.",
+     "Mezclarlo con 欲しい: ×食べ物がたい → ◯食べ物がほしい／寿司を食べたい.",
+     "JLPT: se suele evaluar la conjugación de たい como adjetivo い y la diferencia entre ～たい y ～たがる."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vたい",
+       "Querer hacer",
+       "1.ª/2.ª persona; subjetivo",
+       "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたい。"
+      ],
+      [
+       "Vたがる／Vたがっている",
+       "Parecer querer",
+       "Describe a una tercera persona, a partir de la observación",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>帰<rt>かえ</rt></ruby>りたがっている。"
+      ],
+      [
+       "Vてみたい",
+       "Querer probar a hacer",
+       "Énfasis en «probar»",
+       "<ruby>食<rt>た</rt></ruby>べてみたい。"
+      ],
+      [
+       "Nがほしい",
+       "Querer tener (sustantivo)",
+       "El destinatario del deseo es un sustantivo, no una acción",
+       "<ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>がほしい。"
+      ],
+      [
+       "Vたいと<ruby>思<rt>おも</rt></ruby>う／と<ruby>思<rt>おも</rt></ruby>っている",
+       "Intención, deseo",
+       "Cortés; objetiva la intención",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>したいと<ruby>思<rt>おも</rt></ruby>っています。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 84,
+   "src_hash": "fc146d3c5f0f9dcc",
+   "fields": {
+    "meaning": "tener que ~",
+    "examples": [
+     "Mañana tengo un examen, así que esta noche tengo que estudiar.",
+     "Como tengo una enfermedad, tengo que tomar la medicina."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 86,
+   "src_hash": "59f1b36918c5bf0f",
+   "fields": {
+    "meaning": "No… mucho",
+    "connection": "あまり + [predicado negativo] (Vません / Aくない / Naではない / Nがない)",
+    "examples": [
+     "No tengo mucho tiempo.",
+     "Esta película no es muy interesante.",
+     "No como mucha carne.",
+     "El japonés no es muy difícil.",
+     "Aquí no hay mucha gente.",
+     "Ayer no estudié mucho."
+    ],
+    "explain": "Se usa para suavizar la negación y ser cortés en la comunicación.\nCon adjetivos な: ではありません (cortés), じゃない (coloquial).\nCon sustantivos de cantidad: Nが/は あまり ありません para decir «no hay mucho …».\nNo se usa para un énfasis absoluto. Para enfatizar «casi no», se usa ほとんど～ない.\n\nExpresa un grado, duración o frecuencia MÁS BAJOS de lo esperado: «no … mucho/no … demasiado».\nVa obligatoriamente con la forma negativa: ありません／ない. Usar la forma afirmativa es incorrecto con este significado.\nÁmbito: se aplica a verbos (acciones, frecuencia), adjetivos (grado) y sustantivos de cantidad o existencia.\nMatiz suave y neutro; no es una negación enfática (a diferencia de 全然～ない: «en absoluto»).\nVariante fonética de la lengua hablada: あんまり (coloquial). Cortés: ～ません／～ではありません.",
+    "notes": "En la lengua hablada, あまり puede perder ligeramente un sonido antes de ない: «あまり食べない → まり食べない» (no recomendable en el examen).\nCon adjetivos い, tanto くない como くありません son correctos; se elige según el grado de cortesía.\nCon contadores/counters: 数はあまり多くない (la cantidad no es grande) → resulta más natural al añadir palabras de valoración como 多く/少なく.",
+    "mistakes": [
+     "Usar la forma afirmativa después de あまり: × あまり食べます → debe ser ○ あまり食べません.",
+     "Olvidar cambiar la terminación del adjetivo い: × あまり高いない → ○ あまり高くない.",
+     "Confundirlo con 全然/ほとんど en cuanto al grado de negación; elegir mal altera el matiz.",
+     "Partícula incorrecta para la existencia: ×人はあまりありません → las personas son seres vivos → いません."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "あまり～ない／ありません",
+       "No … mucho/demasiado",
+       "Negación suave",
+       "<ruby>今日<rt>きょう</rt></ruby>はあまり<ruby>寒<rt>さむ</rt></ruby>くない。"
+      ],
+      [
+       "そんなに～ない",
+       "No … hasta ese punto",
+       "Comparación con el nivel esperado o mencionado antes",
+       "この<ruby>本<rt>ほん</rt></ruby>はそんなに<ruby>難<rt>むずか</rt></ruby>しくない。"
+      ],
+      [
+       "ほとんど～ない",
+       "Casi no",
+       "Más fuerte que あまり",
+       "<ruby>彼<rt>かれ</rt></ruby>はほとんどテレビを<ruby>見<rt>み</rt></ruby>ない。"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない",
+       "En absoluto",
+       "Negación enfática, fuerte en la lengua hablada",
+       "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>全然<rt>ぜんぜん</rt></ruby>わからない。"
+      ],
+      [
+       "あんまり～ない",
+       "Forma de la lengua hablada de あまり",
+       "Coloquial",
+       "あんまり<ruby>忙<rt>いそが</rt></ruby>しくないよ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 87,
+   "src_hash": "18c46be64d0ca163",
+   "fields": {
+    "meaning": "Cuántos (cosas, años de edad)",
+    "examples": [
+     "¿Cuántas manzanas hay?",
+     "¿Cuántos pasteles comiste?",
+     "¿Cuántas mandarinas compraste?",
+     "Disculpe, ¿cuántos años tiene?",
+     "¿Cuántas cajas hay aquí?",
+     "Tengo algunas preguntas."
+    ],
+    "explain": "Es amable y neutro; cuando se requiere cortesía o el tema es delicado (preguntar la edad), se usa おいくつですか y se añade la fórmula 失礼ですが.\nSi hace falta precisar la unidad, se usa 何＋counter: ビンは何本ですか。\nEn la lengua escrita, いくつか tiene un matiz suave de «algunos», sin precisar demasiado la cifra.\n\nいくつ pregunta por una cantidad indeterminada; suele usarse con objetos pequeños que se pueden contar directamente.\nPuede sustituir a 何＋counter en la comunicación básica; sin embargo, con unidades específicas (本、枚、冊…), 何＋counter es más natural.\nおいくつですか se usa de forma cortés para preguntar la edad (sobre todo a personas mayores).\nいくつか (sustantivo) significa «algunos, unos cuantos».",
+    "notes": "Cuando la cantidad es grande o no se cuenta directamente, se cambia a どのくらい/どれくらい: どのくらい買いましたか。\nConviene evitar preguntar la edad directamente si no es necesario; si hay que hacerlo, se usa おいくつですか para ser cortés.\nEn la respuesta, se usa 数字＋counter o solo la cifra: 3つ／三つ (tanto la escritura en kanji como la forma japonesa nativa son válidas en N5).",
+    "mistakes": [
+     "Confundirlo con いくら (precio): × これはいくつですか → ○ これはいくらですか。",
+     "Olvidar usar el contador cuando hace falta: × ペンはいくつですか (ambiguo) → ○ ペンは何本ですか。",
+     "Usar いくつ para preguntar la edad a un adulto sin cortesía; es mejor usar おいくつですか／何歳ですか."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Uso",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "いくつ",
+       "Preguntar una cantidad en general",
+       "No indica la unidad",
+       "<ruby>卵<rt>たまご</rt></ruby>はいくつありますか。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>＋counter",
+       "Preguntar según la unidad",
+       "Precisa el tipo de unidad",
+       "<ruby>卵<rt>たまご</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>個<rt>こ</rt></ruby>ですか。"
+      ],
+      [
+       "<ruby>何<rt>なん</rt></ruby><ruby>歳<rt>さい</rt></ruby>",
+       "Preguntar la edad",
+       "Neutro",
+       "あなたは<ruby>何<rt>なん</rt></ruby><ruby>歳<rt>さい</rt></ruby>ですか。"
+      ],
+      [
+       "おいくつ",
+       "Preguntar la edad con cortesía",
+       "Respetuoso",
+       "<ruby>失礼<rt>しつれい</rt></ruby>ですが、おいくつですか。"
+      ],
+      [
+       "いくら",
+       "Preguntar el precio",
+       "Significado totalmente distinto",
+       "これはいくらですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 88,
+   "src_hash": "1d8559ba791663db",
+   "fields": {
+    "meaning": "Algún día",
+    "connection": "いつか + [oración/cláusula]",
+    "examples": [
+     "Algún día quiero ir a Japón.",
+     "Algún día tendré mi propia tienda.",
+     "Tarde o temprano quiero comprarme una casa.",
+     "Encontré una foto de aquel día.",
+     "Algún día cumpliré esa promesa.",
+     "Veámonos algún día."
+    ],
+    "explain": "Crea una sensación vaga pero positiva; a menudo va con きっと／必ず para reforzar el compromiso.\nSe usa いつかの para hablar de un día indeterminado del pasado que el hablante y el oyente comparten implícitamente.\nAl expresar metas a largo plazo, いつかは se coloca antes del tema para enfatizar «tarde o temprano …».\n\nIndica un momento indeterminado en el futuro (normalmente) o en el pasado (al usar いつかの). Traducción: «algún día».\nMatiz de esperanza, sueño u orientación a largo plazo cuando va con ～たい, ～つもり, ～ます.\nいつかは significa «al final …»; enfatiza lo inevitable aunque no se sepa cuándo.\nNo se usa para preguntar «cuándo»; para eso está いつ (interrogativo).",
+    "notes": "Para concretar más una meta, se añade una referencia temporal vaga: 将来/いつの日か日本で働きたい。\nEvita abusar de él en agendas que requieren un compromiso de tiempo; いつか es demasiado vago y puede entenderse como una evasiva.\nEn la lengua hablada, いつかさ… puede introducir un tema pasado o un recuerdo (casual).",
+    "mistakes": [
+     "Confundirlo con el interrogativo いつ (cuándo): × いつか来ますか (ambiguo) cuando se necesita una cita concreta → ○ いつ来ますか。",
+     "Usar いつか en un contexto que exige prometer un momento claro (comprensión auditiva) → trampa: la opción «indeterminado» es la más correcta.",
+     "Confundir いつも/いつでも con いつか porque todas contienen いつ: atención a la diferencia entre frecuencia y momento indeterminado."
+    ],
+    "comparison": {
+     "headers": [
+      "Palabra/Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "いつか",
+       "Algún día",
+       "Vago en cuanto al momento",
+       "いつか<ruby>留学<rt>りゅうがく</rt></ruby>したい。"
+      ],
+      [
+       "そのうち",
+       "Pronto, dentro de poco",
+       "Más cercano que いつか",
+       "そのうち<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "いつも",
+       "Siempre",
+       "Indica frecuencia, no un momento vago",
+       "いつも<ruby>忙<rt>いそが</rt></ruby>しいです。"
+      ],
+      [
+       "いつでも",
+       "En cualquier momento",
+       "Disponible en todo momento",
+       "いつでも<ruby>連絡<rt>れんらく</rt></ruby>してください。"
+      ],
+      [
+       "いずれ",
+       "Tarde o temprano",
+       "Más formal que いつか",
+       "いずれ<ruby>分<rt>わ</rt></ruby>かります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 89,
+   "src_hash": "592c4566b7b719d6",
+   "fields": {
+    "meaning": "En cualquier momento",
+    "connection": "いつでも + V (afirmativo)",
+    "examples": [
+     "Si pasa algo, contácteme en cualquier momento.",
+     "Yo puedo ir cuando sea.",
+     "Esta tienda está abierta a cualquier hora.",
+     "Si tiene algún problema, le ayudo cuando quiera.",
+     "Puede hacer preguntas en cualquier momento."
+    ],
+    "explain": "Se usa para mostrar flexibilidad: 予約は いつでも 変更できます (La reserva se puede cambiar en cualquier momento).\nCortés y alentador: いつでもどうぞ／いつでもお越しください suena amable y acogedor.\nEn publicidad o servicios: サポートは いつでも OK (asistencia 24/7).\nSe usa poco con la negación directa; si se niega, lo más natural suele ser cambiar el sentido: いつでもは行けません (no siempre puedo ir) en lugar de una negación total.\n\nSignificado principal: «en cualquier momento»; expresa capacidad, disposición o permiso en todo momento.\nMatiz cortés: suele usarse al hacer una sugerencia, invitar o hablar de flexibilidad horaria.\nDiferencia con «いつも»: いつでも = «cualquier momento sirve (a elección)»; いつも = «siempre (hábito/frecuencia)».\nSuele ir con verbos de capacidad o disponibilidad: 行ける,会える,使える,開いている,連絡する,手伝う.\nSe usa a menudo en invitaciones y servicios: いつでもどうぞ／いつでもお越しください。",
+    "notes": "La combinación «Xでも» forma una serie universal: いつでも・どこでも・だれでも・なんでも.\nEn la lengua hablada, «いつでもOK» es coloquial; más formal: «いつでも結構です／差し支えありません».\nA menudo va con una condición suave: 困ったら、いつでも～ /必要なら、いつでも～.",
+    "mistakes": [
+     "Confundirlo con いつも: いつでもは行きます (sentido incorrecto) → いつも行きます (siempre voy).",
+     "Negación total poco natural: × いつでも行けません → いつでもは行けません (no siempre puedo ir).",
+     "Posición: conviene colocarlo justo antes del verbo o del predicado; evita insertarlo dentro de un sintagma nominal largo, ya que genera ambigüedad.",
+     "El sentido publicitario «24/7» usa いつでも; para hábitos o frecuencia hay que usar いつも."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "いつでも",
+       "En cualquier momento (disponibilidad)",
+       "Enfatiza «cualquier momento sirve»",
+       "いつでも <ruby>来<rt>き</rt></ruby>ていい"
+      ],
+      [
+       "いつも",
+       "Siempre, con frecuencia",
+       "Hábito/frecuencia, no «cualquier momento»",
+       "いつも <ruby>早起<rt>はやお</rt></ruby>きする"
+      ],
+      [
+       "いつか",
+       "En algún momento (futuro vago)",
+       "No es «en cualquier momento», sino «algún día»",
+       "いつか <ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたい"
+      ],
+      [
+       "いつでもいい／<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>",
+       "Cuando sea, está bien",
+       "Expresión de valoración o permiso, cortés",
+       "<ruby>時間<rt>じかん</rt></ruby>は いつでもいいです"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 90,
+   "src_hash": "75a5fe26f55e3dbc",
+   "fields": {
+    "meaning": "Siempre",
+    "connection": "いつも + [oración/cláusula]",
+    "examples": [
+     "Siempre me levanto a las 7.",
+     "Él siempre está lleno de energía.",
+     "Normalmente no voy en autobús, pero hoy sí.",
+     "Ella nunca toma café.",
+     "Este local siempre está animado."
+    ],
+    "explain": "Frecuencia muy alta: casi todas las veces. Si solo es «a menudo», considera よく／たいてい.\n«いつもは» + diferencia actual: abre un marco de comparación.\nAl quejarse, いつも puede tener un matiz de crítica: 彼は いつも 遅れる (siempre llega tarde).\n\nSignificado: «siempre/con frecuencia»; indica una frecuencia alta (casi todas las veces).\n«いつもは» se usa para presentar un hábito general y contrastarlo con la situación actual.\nSe usa tanto en afirmación como en negación: いつも行く／いつも行かない.\nMatiz coloquial/estándar, adecuado tanto para la lengua escrita como para la hablada.",
+    "notes": "Combinación cortés: いつもありがとうございます (Gracias por su apoyo constante).\nPara marcar la diferencia: 今日はいつもより寒い (Hoy hace más frío que de costumbre).\nEn cartas o en el ámbito empresarial: 平素（へいそ）より＝ふだんより (sentido cercano a «いつも»).",
+    "mistakes": [
+     "Confundirlo con いつでも (disponibilidad) → elige según el sentido: frecuencia frente a momento opcional.",
+     "Posición: coloca いつも antes del predicado; evita insertarlo entre el sujeto y una partícula importante, ya que genera ambigüedad.",
+     "Matiz de queja: usar いつも + algo con matiz negativo puede sonar a reproche."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "いつも",
+       "Siempre, con frecuencia",
+       "Enfatiza una frecuencia alta",
+       "いつも <ruby>忙<rt>いそが</rt></ruby>しい"
+      ],
+      [
+       "よく",
+       "A menudo",
+       "Frecuencia bastante alta, pero no «siempre»",
+       "よく <ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "たいてい",
+       "Por lo general",
+       "Neutro, menos fuerte que いつも",
+       "たいてい <ruby>家<rt>いえ</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "ふだん",
+       "Normalmente, en el día a día",
+       "Sustantivo/adverbio sobre hábitos diarios",
+       "ふだんは <ruby>早寝<rt>はやね</rt></ruby>です"
+      ],
+      [
+       "いつでも",
+       "En cualquier momento",
+       "Disponibilidad/permiso, no frecuencia",
+       "いつでも <ruby>来<rt>き</rt></ruby>ていい"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

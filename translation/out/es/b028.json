@@ -1,0 +1,609 @@
+{
+ "batch": "b028",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 423,
+   "src_hash": "9d10147ca5f6bc66",
+   "fields": {
+    "meaning": "Seguramente, se supone que | Seguramente ~",
+    "connection": "V・Aい forma simple + はずだ / Na + な / N + の",
+    "examples": [
+     "Hoy debería ser festivo.",
+     "Él ya debe de haber llegado a la estación.",
+     "El pasaporte debería estar en este cajón.",
+     "Se supone que los estudiantes no van a tiendas tan caras.",
+     "Se suponía que él vendría, pero no vino.",
+     "Es imposible que eso sea un error suyo."
+    ],
+    "explain": "La base del razonamiento debe ser clara (horario, lo que alguien dijo, experiencia).\nResulta más elegante en habla cortés: ～はずです／～はずでしょう（más suave）.\nPara expresar contradicción: ～はずなのに + resultado contrario a lo esperado.\nNegación enfática: ～はずがない ＞ ～ないはずだ en cuanto al matiz negativo.\nNo se usa para peticiones u órdenes; es un juicio, no una voluntad.\n\n- Significado: “Seguramente / en principio debería… (según la lógica, según lo previsto, por una razón)”. El grado de certeza es mayor que だろう/でしょう y se basa en un fundamento claro (información, horario, lógica).\n- Matiz: afirmación con fundamento. En la forma negativa ～はずがない es una negación enfática, porque contradice la lógica o la evidencia.\n- Tiempo verbal: ～はずだった expresa “se suponía que / estaba previsto”, y suele ir con が／のに para indicar un resultado contrario.\n- Combinación: se puede usar con ある/いる/可能・受身・使役, etc.",
+    "notes": "• N + の + はずだ es la forma estándar; evita N + はずだ (sin の) en la lengua escrita formal.\n• “来るはずだった” expresa una expectativa en un momento del pasado; “来たはずだ” es una conjetura de que algo ya ocurrió.\n• ～はずがない enfatiza la negación basándose en la lógica o en lo que se sabe; es más fuerte que ～ないはずだ.\n• En registro cortés: ～のはずです/～のはずではありません se usan en el trabajo y en correos electrónicos.",
+    "mistakes": [
+     "Partícula de unión incorrecta con sustantivos: se usa Nのはずだ, no Nはずだ.",
+     "Confusión con だろう/でしょう: si el enunciado requiere “un fundamento seguro” → elige ～はずだ.",
+     "Confusión con el pasado: 来るはずだった（expectativa en el pasado）≠ 来たはずだ（conjetura de que ya ocurrió）.",
+     "Combinarlo con una orden o petición es poco natural: × 来るはずだ、来なさい。"
+    ],
+    "comparison": {
+     "headers": [
+      "Punto gramatical",
+      "Significado",
+      "Similitud/Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "だろう／でしょう",
+       "Probablemente",
+       "Conjetura más débil, con menos fundamento",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>く</rt></ruby>るでしょう。"
+      ],
+      [
+       "に<ruby>違<rt>ちが</rt></ruby>いない",
+       "Sin duda",
+       "Fuerte, basado en la intuición o en pruebas; cercano a はずだ, pero con un matiz de afirmación más subjetivo",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>犯人<rt>はんにん</rt></ruby>に<ruby>違<rt>ちが</rt></ruby>いない。"
+      ],
+      [
+       "べきだ",
+       "Deber (obligación)",
+       "Norma moral o regla, no una predicción lógica",
+       "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まも</rt></ruby>るべきだ。"
+      ],
+      [
+       "わけがない",
+       "De ninguna manera",
+       "Negación enfática, más propia de la lengua hablada que ～はずがない",
+       "<ruby>彼<rt>かれ</rt></ruby>が<ruby>負<rt>ま</rt></ruby>けるわけがない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 424,
+   "src_hash": "d6972c11df3300e2",
+   "fields": {
+    "name": "～は～に　（forma causativa-pasiva）",
+    "meaning": "Expresión que combina la forma causativa y la pasiva. Indica que uno tiene que hacer algo porque otra persona lo obliga, o que surge un sentimiento a raíz de algún estímulo.",
+    "connection": "N1は + N2に + V forma causativa-pasiva",
+    "examples": [
+     "Me obligaron a pagar la tintorería.",
+     "De pequeño, mi hermano mayor me hacía llorar a menudo.",
+     "En el bachillerato me hacían correr nada menos que 10 km todos los días.",
+     "Mi novia siempre me hace esperar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 426,
+   "src_hash": "535d8829ff6b37cc",
+   "fields": {
+    "meaning": "No tan… como…",
+    "connection": "N1は + N2ほど + A en forma negativa (～くありません/～ない)",
+    "examples": [
+     "No soy tan alto como mi hermano mayor.",
+     "La pronunciación del japonés no es tan difícil como la del inglés.",
+     "Este año no nieva tanto como el año pasado.",
+     "Este problema no es tan complicado como pensaba.",
+     "Él no bebe tanto café como yo."
+    ],
+    "explain": "Forma cortés/escrita: ～くありません／～ではありません; lengua hablada: ～くない／～じゃない.\nSe puede añadir それほど/思ったほど para ajustar el punto de referencia de la comparación: “no hasta ese punto / no tanto como se pensaba”.\nEl orden es fijo: AはBほど…ない. No se invierte B como sujeto.\n\n• “A no es tan … como B” (comparación de inferioridad en forma negativa).\n• ほど indica “hasta el grado/nivel de B”; se añade ない/ありません para negar el grado de A respecto a B.\n• Se usa con naturalidad tanto para cualidades (alto, difícil) como para acciones (comer, estudiar, hablar).",
+    "notes": "• Con Aな/N: se usa ではない/ではありません, no ～くない.\n• La expresión de evaluación subjetiva “思ったほど～ない/予想したほど～ない” es muy natural en redacciones.\n• Se puede omitir A cuando el contexto es claro: 思ったほど難しくない。",
+    "mistakes": [
+     "Forma incorrecta con -な: “親切くない” → correcto: “親切ではない”.",
+     "Orden confundido: “BはAほど…” no es equivalente; A debe seguir siendo el término inferior de la comparación.",
+     "Confusión con より: AはBより～ se usa cuando A supera a B, no es la forma negativa de inferioridad.",
+     "Omitir ほど: “AはBない” es incorrecto; ほど es el núcleo de la comparación."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "AはBほど～ない",
+       "A no es tan … como B",
+       "Forma negativa de la comparación de inferioridad",
+       "<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大阪<rt>おおさか</rt></ruby>ほど<ruby>暑<rt>あつ</rt></ruby>くない"
+      ],
+      [
+       "AよりBのほうが～",
+       "B es más … que A",
+       "Presenta el término superior, sin negación",
+       "<ruby>大阪<rt>おおさか</rt></ruby>のほうが<ruby>暑<rt>あつ</rt></ruby>い"
+      ],
+      [
+       "～ほどではない／ほどでもない",
+       "No hasta el punto de …",
+       "Compara el grado con un referente abstracto",
+       "<ruby>心配<rt>しんぱい</rt></ruby>するほどではない"
+      ],
+      [
+       "～くらい（ぐらい）",
+       "Grado/nivel equivalente",
+       "Más coloquial, con matiz de aproximación",
+       "<ruby>私<rt>わたし</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じくらい<ruby>高<rt>たか</rt></ruby>い"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 427,
+   "src_hash": "224dad2871849076",
+   "fields": {
+    "name": "～ば（forma condicional ば）",
+    "meaning": "si (condición hipotética)",
+    "connection": "Vば / Aければ / N・Naなら(ば) + [oración/cláusula]",
+    "examples": [
+     "Si sales de casa a las 8, seguramente llegarás a tiempo al tren de las 8:15.",
+     "«¿Puede leer periódicos en japonés?» «Sí, si uso un diccionario»",
+     "Si hace buen tiempo, desde aquí se puede ver el monte Fuji.",
+     "«Si no quieres comer, no hace falta que comas»",
+     "«Si este domingo tienes tiempo libre, ven a visitarme, por favor»",
+     "Si no se domina bien el japonés, no se puede hacer este trabajo."
+    ],
+    "notes": "Nota:\n●文末は過去形にならない。（＝結果が出ている文には使えない）\nel final de la oración no puede estar en pasado. (=no se puede usar en oraciones donde ya aparece el resultado)\nX　クーラーをつけらば、すぐに涼しくなった。\nX si enciendo el aire acondicionado, enseguida se refrescó\n〇クーラーをつければ、すぐに涼しくなるだろう。\n〇 Si enciendes el aire acondicionado, seguramente se refrescará enseguida.\n〇クーラーをつけたら、すぐに涼しくなった。\n〇 al encender el aire acondicionado, enseguida se refrescó."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 428,
+   "src_hash": "0a7e017fce8c395f",
+   "fields": {
+    "name": "～ます en el habla cortés",
+    "meaning": "Forma cortés dentro de oraciones compuestas: ～まして/～ますので/～ますのに",
+    "examples": [
+     "Hans tuvo fiebre anoche y esta mañana todavía no le ha bajado.",
+     "Hoy le haré faltar a la escuela, así que, por favor, transmítale mis saludos al profesor."
+    ],
+    "explain": "En la lengua hablada, a veces se usan los verbos de esta forma: V ます まして、Vますので、Vますのに… para que el discurso suene más formal y cortés."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 429,
+   "src_hash": "76b12db16fb25d58",
+   "fields": {
+    "meaning": "Patrón de oración que expresa un límite temporal. Después de ～まで suelen ir oraciones que expresan una acción o un estado continuos. Después de へまでに suelen ir oraciones que expresan una acción puntual.",
+    "connection": "N/Vる + まで + [acción prolongada] / N/Vる + までに + [acción puntual]",
+    "examples": [
+     "Estaré esperando aquí hasta la hora de salida del avión.",
+     "Por favor, no se vaya a casa hasta que termine este trabajo.",
+     "Pagaré el dinero del viaje antes del día 20.",
+     "Ordena la habitación antes de que lleguen las visitas, ¿vale?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 430,
+   "src_hash": "2b24d2670fb35379",
+   "fields": {
+    "meaning": "Parece que…, al parecer… | Parece que ~",
+    "connection": "V・Aい forma simple + ようだ / Na + な / N + の",
+    "examples": [
+     "La luz de la habitación está encendida. Parece que Ali está en su habitación.",
+     "Parece que a Tanaka le gusta cantar. Canta a menudo.",
+     "«Mire este mapa. Parece que la estación no está muy lejos de aquí»",
+     "«¿De quién será este cuaderno?» «Parece que es el cuaderno de Tei. Aquí pone una T»",
+     "Me duele la garganta. Parece que me he resfriado.",
+     "«Ou, parece que últimamente ha adelgazado. ¿Qué le ha pasado?»"
+    ],
+    "explain": "“～ようだ” es neutro y se puede usar en la lengua escrita. Forma cortés: ～ようです.\nComparación con “～みたいだ”: みたいだ es coloquial, propio de la lengua hablada; ようだ es más formal.\nSe usa “～のように/～のような” cuando se quiere convertir en adverbio o modificador.\nCuando el grado de certeza es bajo, o para suavizar la oración, se puede usar: ～ようだと思う, ～ように感じる.\nPara describir una apariencia visual evidente, そうだ（様態） es más natural:雨が降り そうだ (parece que va a llover).\n\n• Conjetura basada en una percepción o en indicios indirectos: “al parecer / parece que”. Ejemplo: 声からすると彼のようだ。\n• Metáfora/comparación: “como”. Ejemplo: 綿のように柔らかい。\n• Describe la apariencia o la impresión general, con un grado más objetivo que みたいだ en la lengua escrita / en el JLPT.\n• La forma ～ように también indica finalidad o manera (significado distinto del de conjetura): 間違えないように書く。",
+    "notes": "• “かのようだ” refuerza el matiz metafórico, propio de la lengua escrita: 何も知らないかのようだ。\n• “～ようでは/ようじゃ” plantea una condición con evaluación negativa: そんなに勉強しないようでは合格できない。\n• “～ようなら/ようだったら” es una condición hipotética basada en un juicio: 雨のようなら中止します。\n• Atención a la unión: Nのようだ, Aなようだ (no se usa Nだようだ / Aだようだ).",
+    "mistakes": [
+     "Unión incorrecta: 学生だようだ × → 学生のようだ 〇.",
+     "Confusión con そうだ（様態）: “parece que va a llover” → 降りそうだ, no 降るようだ.",
+     "Abuso de みたいだ en el estilo del JLPT: en las respuestas estándar, da prioridad a ようだ/ようです.",
+     "Olvidar cambiar a Aな/ Nの al usarlo como modificador: 夢のような vs 夢ような ×."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "ようだ",
+       "al parecer/como",
+       "Formal, basado en indicios percibidos",
+       "<ruby>静<rt>しず</rt></ruby>かなようだ。"
+      ],
+      [
+       "みたいだ",
+       "como/parece",
+       "Lengua hablada, coloquial",
+       "<ruby>静<rt>しず</rt></ruby>かみたいだ。"
+      ],
+      [
+       "らしい",
+       "parece que/típico de",
+       "Información de oídas / rasgo típico",
+       "<ruby>日本人<rt>にほんじん</rt></ruby>らしい<ruby>話<rt>はな</rt></ruby>し<ruby>方<rt>かた</rt></ruby>。"
+      ],
+      [
+       "そうだ（<ruby>様態<rt>ようたい</rt></ruby>）",
+       "parece que (va a / tendencia)",
+       "Basado en la observación directa",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りそうだ。"
+      ],
+      [
+       "そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "dicen que",
+       "Fuente de información, no conjetura personal",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 432,
+   "src_hash": "3a89bc82492182c6",
+   "fields": {
+    "meaning": "Forma de citar una orden, un consejo o una petición.",
+    "examples": [
+     "Me dijeron que lo pensara.",
+     "El profesor me dijo que no olvidara los deberes.",
+     "Me dijeron que mañana viniera 30 minutos antes de lo habitual.",
+     "La persona de al lado me pidió que hiciera un poco menos de ruido."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 433,
+   "src_hash": "2912858d67c9cc8f",
+   "fields": {
+    "name": "～ように（deseo）",
+    "meaning": "Expresa el deseo de que algo llegue a ser ~. Suele ir con verbos que no incluyen la voluntad del hablante (verbos no volitivos, verbos con sentido de capacidad (①）o verbos cuyo sujeto es la tercera persona (②), etc.).",
+    "connection": "Vるように / Vないように + [oración/cláusula]",
+    "examples": [
+     "Sentémonos delante para poder oír bien lo que se dice.",
+     "Abrí bien la ventana para que entrara una buena brisa.",
+     "El día que nevó, salí temprano de casa para no llegar tarde a la escuela.",
+     "Ten cuidado de no hacerte daño, ¿eh?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 434,
+   "src_hash": "ece0f2b975d4e542",
+   "fields": {
+    "meaning": "Parece que, dicen que",
+    "connection": "V forma simple + らしい らしく らしくない / N / Na / Aい",
+    "examples": [
+     "Dicen que el Sr. Oyama está criando un gato que recogió. Es muy propio de él, que adora a los animales.",
+     "«El color de ese suéter es muy primaveral, ¡qué bonito!»",
+     "«Ya que has empezado a trabajar, compórtate más como un miembro adulto de la sociedad»",
+     "Ella tiene muy buena salud y nunca ha tenido una enfermedad digna de ese nombre.",
+     "Parece que él no viene.",
+     "Dicen que mañana va a hacer frío."
+    ],
+    "explain": "La “らしい” de información de oídas expresa una conjetura basada en una fuente (rumor, lo que alguien dijo); el hablante no lo afirma con seguridad.\n“～そうだ” (información de oídas) tiene el matiz de transmitir directamente lo que dijo otra persona; “らしい” es indirecta, más suave, y muestra que el hablante sintetiza las fuentes.\nCon el sentido de “típico de”, “～らしい” es un adjetivo い y puede conjugarse como らしく, らしさ.\n\n• Significado 1 (información de oídas): basado en información oída o en una fuente indirecta → “al parecer / dicen que …”. Grado de certeza moderado, conjetura a partir de una fuente.\n• Significado 2 (carácter típico): expresa que algo es “genuino / digno” de un sustantivo según un modelo o rasgo social.\n• N/Na delante de らしい: no se usa だ. Ejemplo: 便利らしい（no se dice 便利だらしい）.",
+    "notes": "1) Es fácil confundir ～らしい (con aire de / típico de) con ～らしい (dicen que).\n→ Aquí ～らしい expresa “muy característico, fiel a los rasgos de N”.\n2) No se usa para transmitir rumores.\n→ Para rumores o información oída se suele usar: 普通形＋らしい.\n3) Suele ir con sustantivos que indican papel, carácter o estilo.\n→ Su sentido es cercano a “adecuado para, digno de” (にふさわしい).",
+    "mistakes": [
+     "Añadir “だ” delante de らしい: ×便利だらしい → ○便利らしい。",
+     "Confundir “らしい” (información de oídas) con “そうだ（様態）”, que significa “parece que (por su aspecto)”: 雨が降りそうだ ≠ 雨が降るらしい.",
+     "Confundir “子どもらしい”（propio de un niño, positivo) con “子どもっぽい”（infantil, puede tener un matiz de crítica)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Dicen que (cita)",
+       "Fuente más clara, “A dice que …”",
+       "<ruby>先生<rt>せんせい</rt></ruby>によると、<ruby>休<rt>やす</rt></ruby>みだそうだ。"
+      ],
+      [
+       "～ようだ／～みたいだ",
+       "Parece (conjetura por indicios)",
+       "Basado en la observación del hablante",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るようだ／みたいだ。"
+      ],
+      [
+       "～っぽい",
+       "Parecido a, con cierto aire de",
+       "Propio de la lengua hablada, a veces con matiz de crítica",
+       "<ruby>子<rt>こ</rt></ruby>どもっぽい<ruby>態度<rt>たいど</rt></ruby>。"
+      ],
+      [
+       "N + らしい",
+       "Típico de / digno de N",
+       "Carácter típico (norma social)",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>男<rt>おとこ</rt></ruby>らしい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 435,
+   "src_hash": "10f352be61df4ffd",
+   "fields": {
+    "meaning": "A veces…",
+    "examples": [
+     "Cuando tengo mucho trabajo, a veces no almuerzo.",
+     "Esta carretera a veces se congela en invierno.",
+     "Hay casos en que los extranjeros no pueden leer este kanji.",
+     "Dependiendo de la persona, a veces no le gusta el pescado crudo.",
+     "De vez en cuando el tren se retrasa.",
+     "A veces, por el exceso de cansancio, no puedo dormir."
+    ],
+    "explain": "Suele ir con:時々, ときどき, たまに, まれに, よく (menos frecuente),人によっては,場合によっては.\nEn textos descriptivos o normativos: ～では…ことがある para presentar una posibilidad general.\nLa negación “ないことがある” es más suave que “ない”: “a veces no…”.\nFormal: ～ことがあります (~ます) mantiene la cortesía en informes y presentaciones.\n\n• Un comportamiento o hecho ocurre “a veces / en ocasiones” (no con frecuencia, según las circunstancias).\n• Se usa para presentar una posibilidad general, sin comprometerse con una frecuencia concreta.\n• Expresión cortés que reduce el matiz absoluto; adecuada para suavizar una afirmación.\n• La forma negativa ないことがある presenta una excepción: “también hay veces en que no…”.",
+    "notes": "• Si se añade も: V-ることもある → “también hay veces en que”, resalta una posibilidad entre varias.\n• En textos técnicos o de atención al cliente, “～ことがあります” se usa para prevenir riesgos legales (sin comprometerse de forma absoluta).\n• Se antepone “ごくまれに/稀に” para reducir la probabilidad: ごくまれにエラーが発生することがある。",
+    "mistakes": [
+     "Confusión con V-たことがある (experiencia): “日本へ行くことがある” ≠ “行ったことがある”.",
+     "Usar el presente simple absoluto en lugar del patrón suavizado: “必ず遅れる” → cuando no se está seguro, conviene usar “遅れることがある”.",
+     "Sujeto inadecuado: “人は～ことがある” es demasiado general; usa un contexto concreto: この地域では～ことがある。"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "V-る ことがある",
+       "A veces/en ocasiones",
+       "Fenómeno que se repite según las condiciones",
+       "<ruby>雨<rt>あめ</rt></ruby>だと<ruby>遅<rt>おく</rt></ruby>れることがある"
+      ],
+      [
+       "V-た ことがある",
+       "Haber hecho alguna vez",
+       "Experiencia en el pasado",
+       "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったことがある"
+      ],
+      [
+       "V-る <ruby>場合<rt>ばあい</rt></ruby>がある",
+       "Hay casos en que",
+       "Algo rígido/más objetivo, se usa en instrucciones",
+       "<ruby>認証<rt>にんしょう</rt></ruby>に<ruby>失敗<rt>しっぱい</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>がある"
+      ],
+      [
+       "V-たりする",
+       "Enumerar fenómenos ocasionales",
+       "Resalta el carácter de ejemplo, flexible",
+       "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たりする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 436,
+   "src_hash": "030d76dde4bcd91c",
+   "fields": {
+    "meaning": "Decidir…",
+    "examples": [
+     "A partir de este año, decido estudiar inglés todos los días.",
+     "Por mi salud, decidí no beber alcohol.",
+     "Para ahorrar, tengo por norma comer fuera solo una vez a la semana.",
+     "Como llueve mucho, hoy decido ir en coche.",
+     "Hagamos como si esto no hubiera pasado."
+    ],
+    "explain": "En primera persona, presente o pasado: resalta la voluntad personal. Con la tercera persona se necesita un contexto que muestre su intención.\n～ことにしている expresa un hábito y puede ir con palabras de frecuencia:毎日/いつも/なるべく.\nEn la conversación, ～ことにする puede tener el matiz de “acabo de decidirlo”: よし、これにする！\nSuele aparecer con una razón: ～ので/ために + ことにする.\n\n• Indica una decisión deliberada del hablante o del sujeto, tras pensarlo.\n• ～ことにしている: la decisión se ha convertido en un hábito o norma personal que uno mismo mantiene.\n• ～ということにする: hacer como si…, se usa para “acordar provisionalmente / suponer”.\n• Matiz activo, en contraste con ～ことになる (decisión externa o por un procedimiento).",
+    "notes": "• En planes de grupo, ～ことにする puede sonar a decisión unilateral; más cortés: ～ことにしませんか (¿lo decidimos juntos?).\n• Matiz temporal: ことにした (ya está decidido) vs ことにする (decidir ahora mismo / ir a decidir).\n• Al relatar la voluntad de otra persona, se añade ようだ/という: 彼は留学することにしたようだ。",
+    "mistakes": [
+     "Confusión con ことになる: “会社が決めた” → hay que usar ことになる, no ことにする.",
+     "Usar ことにしている cuando se acaba de decidir: si la decisión es reciente, ことにした es más natural.",
+     "Tercera persona sin base sobre su intención: 彼は来ることにした (requiere contexto o fuente).",
+     "Confusión con ようにする: ようにする resalta el esfuerzo, no una decisión firme."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "V-る ことにする",
+       "Decidir por uno mismo",
+       "Intención personal",
+       "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことにした"
+      ],
+      [
+       "V-る ことになる",
+       "Quedar decidido / no quedar más remedio",
+       "Decisión externa o por un procedimiento",
+       "<ruby>転勤<rt>てんきん</rt></ruby>することになった"
+      ],
+      [
+       "V-る ようにする",
+       "Procurar",
+       "Resalta el esfuerzo, no necesariamente una decisión firme",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るようにする"
+      ],
+      [
+       "～ということにする",
+       "Hacer como si / suponer",
+       "Matiz de “dar por hecho” más que de decidir hacer algo",
+       "<ruby>合格<rt>ごうかく</rt></ruby>したということにする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 437,
+   "src_hash": "28e276b433464e95",
+   "fields": {
+    "meaning": "Indica que se hace algo antes de que se realice la acción de la primera cláusula.",
+    "connection": "Vる + とき（la acción de la segunda cláusula ocurre antes）",
+    "examples": [
+     "Al ir",
+     "Antes de comer se dice «いただきます».",
+     "Mañana te llamo cuando salga de casa, ¿vale?",
+     "Ayer, al acostarme, puse el despertador."
+    ],
+    "notes": "Recibe la forma de diccionario de un verbo que expresa una acción e indica que otra acción o hecho se produce antes de que se realice esa acción, o en paralelo y al mismo tiempo que ella. ① y ② son ejemplos del primer caso, y ③ y ④, del segundo."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 438,
+   "src_hash": "67d42bf656df8e37",
+   "fields": {
+    "connection": "Vる + ときに（aún no ha ocurrido） / Vた + ときに（ya ha ocurrido）",
+    "examples": [
+     "Compré una cámara antes de ir a Japón.",
+     "Compré una cámara cuando fui a Japón.",
+     "Cuando salgas, apaga la luz, por favor.",
+     "En mi infancia jugaba a menudo en el río.",
+     "Precisamente cuando hay mucho trabajo es cuando más importa descansar.",
+     "Cuando tenga algún problema, no dude en consultarlo."
+    ],
+    "explain": "Se usa para fijar un punto temporal para la acción principal; la cláusula “とき(に)” puede ir delante o detrás.\nCon verbos de movimiento como行く/来る/帰る: V-るとき suele ser “antes de ir/venir/volver” y V-たとき, “después de haber ido/venido/vuelto”.\n“に” suele usarse cuando la acción principal ocurre justo en ese punto (punto en el tiempo); se omite “に” cuando se habla en general (hábitos, situaciones).\nNo se usa “とき” para relaciones fuertes de causa-efecto (se sustituye por ～ので/から) ni para condiciones (véase ～たら/～と).\n\n• Expresa “cuando / en el momento en que …”: un punto temporal en el que ocurre otra acción o hecho.\n• V-るとき(に): el punto temporal es antes o justo antes de que ocurra la acción (con acciones de desplazamiento o de ir a algún sitio, suele entenderse como “antes de”).\n• V-たとき(に): el punto temporal es posterior a la acción.\n• “に” aclara el carácter “puntual” del tiempo; sin “に” el significado apenas cambia, pero el matiz es más general.\n• El tiempo verbal en la cláusula “とき” es relativo y determina la relación de anterioridad/posterioridad con la cláusula principal.",
+    "notes": "• El tiempo verbal en la cláusula “とき” es relativo: 現在形 no indica solo “presente”, sino “simultaneidad/anterioridad” según el verbo.\n• Con adjetivos/sustantivos: Aい/ Aな/ Nの + とき expresa un estado que sirve de punto temporal.\n• “ときどき” es el adverbio “a veces”, no la estructura “とき + とき”.",
+    "mistakes": [
+     "Confundir V-るとき con V-たとき: 日本へ行くとき/行ったとき significan “antes de ir” / “después de llegar”.",
+     "Olvidar “の” con sustantivos: ×子どもとき → ○子どものとき.",
+     "Usar “とき” en lugar de “あいだ” con acciones prolongadas: ×勉強するときずっと → ○勉強しているあいだずっと.",
+     "Abusar de “に”: no es un error gramatical, pero puede recargar el estilo; elige según el matiz.",
+     "JLPT: las preguntas trampa suelen cambiar el tiempo verbal de la cláusula “とき” para comprobar si se entiende la relación de anterioridad/posterioridad."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "V-る/た + とき(に)",
+       "Cuando/en el momento",
+       "Punto temporal; el tiempo verbal de la cláusula subordinada determina la anterioridad/posterioridad",
+       "<ruby>行<rt>い</rt></ruby>くとき/<ruby>行<rt>おこな</rt></ruby>ったとき"
+      ],
+      [
+       "V-るところ",
+       "Estar a punto de / justo al empezar",
+       "Más cercano al momento que “とき” (inmediatez)",
+       "<ruby>出<rt>で</rt></ruby>かけるところだ"
+      ],
+      [
+       "V-ているあいだ(に)",
+       "Mientras, durante",
+       "Se extiende a lo largo de un periodo, no es un punto",
+       "<ruby>授業<rt>じゅぎょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けているあいだ"
+      ],
+      [
+       "V-たら",
+       "Si / cuando ya… entonces…",
+       "Condición o posterioridad (resultado)",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ったら、<ruby>連絡<rt>れんらく</rt></ruby>して"
+      ],
+      [
+       "V-<ruby>前<rt>まえ</rt></ruby>に / V-<ruby>後<rt>ご</rt></ruby>で",
+       "Antes de / después de",
+       "Indica claramente la relación temporal absoluta",
+       "<ruby>出発<rt>しゅっぱつ</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に/<ruby>後<rt>ご</rt></ruby>で"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

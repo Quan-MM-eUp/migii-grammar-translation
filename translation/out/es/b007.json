@@ -1,0 +1,765 @@
+{
+ "batch": "b007",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 103,
+   "src_hash": "c80e15a4a8ee08f0",
+   "fields": {
+    "examples": [
+     "¿Quién es esa persona?",
+     "¿De quién es este bolígrafo?",
+     "¿Quién está en la entrada?",
+     "No vino nadie.",
+     "¿Alguien sabe hablar japonés?",
+     "¿Con quién va a ir hoy?"
+    ],
+    "explain": "Neutro, se puede usar en casi todos los contextos; más cortés es usar “どなた”.\nEn las preguntas de sí/no, “だれか” suele usarse para preguntar por la existencia de «alguien…».\n“だれも” va con negación con el significado de «nadie».\n\n“だれ” es un pronombre interrogativo referido a personas: quién, qué persona.\nVa con la partícula adecuada a su función: が (sujeto), を (objeto directo), に (destinatario/destino), と (con), の (posesión).\n“だれも + Vません” = «nadie …»; “だれか” = «alguien».",
+    "notes": "“だれも +肯定” en la conversación coloquial a veces se entiende como «todos …», pero en el nivel básico conviene usar “みんな” para evitar ambigüedades.\nEn avisos y ceremonias se prefiere “どなた”.\nAl teléfono o en el timbre: “どなたですか？” es muy cortés.",
+    "mistakes": [
+     "Usar “だれも” con afirmación en el nivel básico es un error de significado: “だれも来ます” puede causar malentendidos; usa “みんな来ます”.",
+     "Olvidar la partícula: “だれですか” (correcto), pero para la posesión hay que usar “だれの”.",
+     "Confundir “だれ” (quién) con “どれ/どの” (cuál/qué + N): tienen funciones distintas."
+    ],
+    "comparison": {
+     "headers": [
+      "Palabra",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "だれ",
+       "Quién",
+       "De uso común",
+       "だれですか"
+      ],
+      [
+       "どなた",
+       "Quién (cortés)",
+       "Con desconocidos, con respeto",
+       "どなたですか"
+      ],
+      [
+       "だれか",
+       "Alguien",
+       "Indeterminado",
+       "だれか<ruby>来<rt>き</rt></ruby>ました"
+      ],
+      [
+       "だれも + Vません",
+       "Nadie",
+       "Debe ir con negación",
+       "だれもいません"
+      ],
+      [
+       "なに／どれ",
+       "Qué/Cuál",
+       "Pregunta por cosas, no por personas",
+       "これは<ruby>何<rt>なに</rt></ruby>ですか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 104,
+   "src_hash": "afde11c596cad7f7",
+   "fields": {
+    "meaning": "A veces",
+    "examples": [
+     "A veces salgo a correr.",
+     "A veces tomo café.",
+     "A veces llueve.",
+     "Cuando era estudiante, a veces iba a la biblioteca.",
+     "Él, de vez en cuando, sí vuelve temprano a casa."
+    ],
+    "explain": "Se coloca al principio de la oración para establecer el contexto de frecuencia: ときどき、～。\nSe coloca después del sujeto para enfatizar el hábito de quien realiza la acción:私はときどき～。\nときどきは tiene el matiz de «de vez en cuando (pocas veces), sí…», y crea un contraste con lo habitual.\nVa con verbos/adjetivos/sustantivos: ときどき忙しいです／ときどき雨です。\n\nときどき expresa una frecuencia más baja que よく y más alta que たまに.\nSuele usarse con el presente para hablar de hábitos; también puede usarse en pasado para describir la frecuencia en un período.\nPuede colocarse al principio de la oración, en medio (antes del verbo) o después del sujeto.",
+    "notes": "Ortografía en kanji:時々(se repite el kanji 時). En hiragana:ときどき. Evita escribir por error “時時”.\nVa con ことがある para hablar de algo que ocurre de vez en cuando: ときどき～ことがあります。\nNo necesita ninguna partícula especial; es un adverbio independiente.",
+    "mistakes": [
+     "Partícula añadida por error: ×ときどきを → ✓ときどき（no necesita を）.",
+     "Confundir su función con に/で: ときどき es un adverbio de frecuencia, no indica lugar ni momento.",
+     "Kanji mal escrito: ×時時→ ✓時々."
+    ],
+    "comparison": {
+     "headers": [
+      "Palabra",
+      "Grado de frecuencia",
+      "Cuándo usarlo",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "いつも",
+       "100% (siempre)",
+       "Hábito fijo",
+       "いつも<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。"
+      ],
+      [
+       "よく",
+       "Mucho, a menudo",
+       "Con bastante frecuencia",
+       "よく<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。"
+      ],
+      [
+       "ときどき／<ruby>時々<rt>ときどき</rt></ruby>",
+       "A veces",
+       "Ocurre de vez en cuando",
+       "ときどき<ruby>運動<rt>うんどう</rt></ruby>します。"
+      ],
+      [
+       "たまに",
+       "Muy pocas veces",
+       "Rara vez, ocasionalmente",
+       "たまに<ruby>外<rt>そと</rt></ruby>で<ruby>食<rt>た</rt></ruby>べます。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 105,
+   "src_hash": "40e06b60b4b92c40",
+   "fields": {
+    "meaning": "¿Por qué ~?（la respuesta usa ～から — ver la entrada ～から（razón））",
+    "connection": "どうして + [oración/cláusula] + か（respuesta: ～から(です)）",
+    "examples": [
+     "A: ¿Por qué volvió temprano ayer?\nB: Porque tenía un asunto pendiente.",
+     "A: ¿Por qué no come?\nB: Porque ya desayuné esta mañana.",
+     "A: ¿Por qué estudia japonés?\nB: Porque quiero trabajar en Japón."
+    ],
+    "explain": "どうして　es una palabra interrogativa que pregunta por la razón. En lugar de repetir lo que dijo la otra persona, se puede usar “どうしてですか” – «¿Por qué?».\nから se usa para explicar la razón: como ~, entonces ~. O para responder a una pregunta con “どうして” – «por qué».\n\nどうして：Por qué ~\nから：Porque ~.\n～から、～：Como ~, ~"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 106,
+   "src_hash": "cfbc78a39bf3a25d",
+   "fields": {
+    "meaning": "¿de qué manera? | De qué manera",
+    "examples": [
+     "¿Cómo se va hasta la estación?",
+     "¿Cómo se usa esta aplicación?",
+     "¿Cómo se va a Tokio?",
+     "¿Cómo resolvió ese problema?",
+     "¿Y cómo estudió japonés?",
+     "¿Cómo debería ir del aeropuerto al hotel?"
+    ],
+    "explain": "Cortés: どうやってVますか／どうやってVたらいいですか。\nColoquial: どうやってVるの？／どうやってやる？\nPara enfatizar que se pide consejo: どうやって…たらいいですか／どうすればいいですか。\nCombinado con el medio: どうやって（電車で／バスで／歩いて）行きますか。\nPara evitar repeticiones largas: se puede añadir el lugar o el destino con まで／へ／に para que el significado quede claro.\n\nどうやって= de qué manera, cómo: pregunta por el proceso, el medio o el camino para alcanzar un objetivo.\nComparado con どう: どう es un «cómo» general, mientras que どうやって enfatiza la manera concreta.\nSuele ir con verbos de movimiento(行く、来る), de uso(使う), de creación(作る), de resolución(直す、解決する)…\nPuede preguntar por la ruta (qué camino tomar), la herramienta (con qué) o la secuencia (qué pasos seguir).",
+    "notes": "No se usa どうやってのN para modificar un sustantivo; en su lugar se usa どのような/どういう（例：どういう方法）.\n何で tiene 2 lecturas:なにで= con qué;なんで= por qué (lengua hablada). Ten cuidado para evitar malentendidos.\nAl preguntar por una ruta: a どうやって行きますか se puede responder con la línea, el medio de transporte o indicaciones del camino.",
+    "mistakes": [
+     "Partícula incorrecta: ×どうやって学校を行きますか → ✓どうやって学校に行きますか。",
+     "Confundirlo con どう, que es demasiado general, y responder sin indicar un método concreto.",
+     "Usarlo con あります/います: para preguntar por desplazamientos se usa 行きます/来ます, no ×どうやってありますか。",
+     "Confundirlo con 何で（なにで）: este solo pregunta por la herramienta, no por la secuencia de pasos."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どうやって",
+       "De qué manera",
+       "Pregunta por el método concreto",
+       "どうやって<ruby>行<rt>い</rt></ruby>く？"
+      ],
+      [
+       "どう",
+       "Cómo",
+       "General, también estados/sentimientos",
+       "<ruby>旅行<rt>りょこう</rt></ruby>はどう？"
+      ],
+      [
+       "<ruby>何<rt>なん</rt></ruby>で（なにで）",
+       "Con qué/en qué medio",
+       "Se limita a herramientas/medios de transporte",
+       "<ruby>何<rt>なん</rt></ruby>で<ruby>行<rt>い</rt></ruby>く？（<ruby>電車<rt>でんしゃ</rt></ruby>で）"
+      ],
+      [
+       "どのように",
+       "De qué manera (formal)",
+       "Cortés, lengua escrita",
+       "どのように<ruby>解決<rt>かいけつ</rt></ruby>しますか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 107,
+   "src_hash": "4af44a7c788a99a0",
+   "fields": {
+    "meaning": "En algún lugar",
+    "examples": [
+     "¿Fue a algún lugar el fin de semana?",
+     "Olvidé la cartera en algún lugar.",
+     "Hace calor, ¿verdad? Descansemos en algún lugar.",
+     "¿Hay algún restaurante barato por aquí cerca?",
+     "¿Por qué no vamos juntos a algún lugar?",
+     "Esta oración tiene algo raro."
+    ],
+    "explain": "Invitación: どこかへ行きませんか (cortés), どこか行かない？ (coloquial).\nOmisión de la partícula へ en la conversación: どこか行く (natural); en estilo formal conviene mantener に／へ.\nÉnfasis en la vaguedad: evita precisar y resulta cortés en la comunicación («comer en algún sitio», «descansar en algún sitio»).\nNo se usa con negación total. Para decir «en ningún lugar» se usa どこにも～ません.\n\nSignificado principal: «en algún lugar, algún sitio»: el hablante no especifica (o no quiere especificar) un lugar concreto.\nMatiz vago, cortés y suave al hacer sugerencias: se usa en invitaciones y en propuestas de planes comunes.\nSe combina con flexibilidad con las partículas de lugar: に／へ (destino), で (lugar donde ocurre la acción), の (modificador de un sustantivo).\nSe diferencia de “どこでも” (en cualquier lugar – abarca todo) y de “どこにも～ません” (no … en ningún lugar – negación total).\nSignificado ampliado frecuente (por intuición lingüística): どこかおかしい／変だ = «hay algo raro».",
+    "notes": "Forma abreviada de la lengua hablada: どっか (ejemplo: どっか行く？). Evita usarla en lengua escrita formal.\nどこかの +人/会社/国: «alguna persona/empresa/país».\nEl significado «hay algo …»: どこか + Adj（変/不自然/おかしい） es muy natural en la conversación.",
+    "mistakes": [
+     "Usar どこか con negación total: × どこか行きません → si significa «no ir a ningún lugar», debe ser どこにも行きません.",
+     "Confundirlo con どこでも: どこか = algún lugar; どこでも = cualquier lugar.",
+     "Olvidar la partícula: × どこか行きます → conviene usar どこかに/へ行きます (formal)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どこか",
+       "algún lugar (indeterminado)",
+       "Uno entre varios lugares",
+       "どこかで<ruby>会<rt>あ</rt></ruby>いましょう。"
+      ],
+      [
+       "どこでも",
+       "cualquier lugar",
+       "Total/sin límites; se usa con afirmación",
+       "どこでも<ruby>入<rt>い</rt></ruby>れます。"
+      ],
+      [
+       "どこにも～ません",
+       "no … en ningún lugar",
+       "Solo con negación",
+       "どこにも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこも（＋<ruby>肯定<rt>こうてい</rt></ruby>/<ruby>否定<rt>ひてい</rt></ruby>）",
+       "en todas partes / en ningún lugar",
+       "Con afirmación = «en todas partes»; con negación = «en ningún lugar»",
+       "どこも<ruby>高<rt>たか</rt></ruby>い。／どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 108,
+   "src_hash": "5c99c3ee1977da8c",
+   "fields": {
+    "meaning": "En cualquier lugar",
+    "connection": "どこでも + V (afirmativo)",
+    "examples": [
+     "Esta tarjeta se puede usar en cualquier lugar.",
+     "Si tengo vacaciones, quiero ir a donde sea.",
+     "Cualquier sitio para sentarse está bien.",
+     "Los niños hacen amigos enseguida en cualquier lugar.",
+     "En esta ciudad se puede usar el Wi‑Fi en cualquier lugar."
+    ],
+    "explain": "Matiz de «sin límites, sin ser exigente».\nEncaja con patrones de permiso/capacidad: ～てもいい／～られる／～ことができる.\nCon verbos de movimiento, どこへでも／どこにでも suena más natural cuando se enfatiza el destino.\nEvita usarlo con negación; cámbialo por どこにも～ません para expresar «en ningún lugar».\n\nIndica un alcance sin restricciones: «en cualquier lugar…».\nSuele ir con afirmación, capacidad, permiso u órdenes suaves:使える／行ける／入れる／座ってください.\nPara enfatizar la dirección se usa どこへでも／どこにでも; si no hace falta, どこでも sigue siendo natural.\nNo se usa para la negación total (para decir «en ningún lugar» debe ser どこにも～ません).",
+    "notes": "Patrón fijo: どこでもいい（です）= «cualquier lugar está bien», frecuente al elegir.\nEn publicidad/productos: どこでも使える／ドア（Doraemon joke） – destaca que «se puede usar en todas partes».\nLa lengua escrita suele evitar repetir でも: elige どこでも o どこへでも según el significado, sin usar ambos innecesariamente.",
+    "mistakes": [
+     "Negación incorrecta: × どこでも行きません → ○ どこにも/どこへも行きません.",
+     "Olvidar enfatizar la dirección cuando hace falta: con verbos de movimiento conviene usar どこへでも/どこにでも para que quede claro.",
+     "Confundirlo con どこか (algún lugar) → evita どこでも cuando solo quieres ser vago, sin abarcar todo."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Distinción",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どこでも",
+       "cualquier lugar (afirmativo)",
+       "Total; suele ir con ～できる/～いい",
+       "どこでも<ruby>行<rt>い</rt></ruby>ける。"
+      ],
+      [
+       "どこへでも／どこにでも",
+       "a cualquier lugar (énfasis en la dirección/destino)",
+       "Se añade へ/に para precisar la dirección",
+       "どこへでも<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どこか",
+       "algún lugar (un lugar cualquiera)",
+       "No abarca todo",
+       "どこかで<ruby>会<rt>あ</rt></ruby>おう。"
+      ],
+      [
+       "どこにも～ません",
+       "no … en ningún lugar",
+       "Negación total",
+       "どこにも<ruby>売<rt>う</rt></ruby>っていません。"
+      ],
+      [
+       "どこも（＋<ruby>肯定<rt>こうてい</rt></ruby>）",
+       "en todas partes…",
+       "Significado cercano a どこでも",
+       "どこもきれいです。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 109,
+   "src_hash": "7a2dd41475ec5b26",
+   "fields": {
+    "meaning": "En ningún lugar",
+    "examples": [
+     "Hoy no voy a ningún lugar.",
+     "La cartera no está en ningún lugar.",
+     "Este libro no se vende en ningún lugar.",
+     "Él no está en ninguna parte.",
+     "Por el cansancio, ni siquiera en mi día libre salí a ningún lugar."
+    ],
+    "explain": "Enfatiza la ausencia o que algo no ocurre en ningún lugar: se añade も después de どこに.\nCortés: どこにも～ません; coloquial: どこにも～ない／いない／ないです（lengua hablada).\nEn búsquedas: ～見つかりません／見つからない para decir «por más que busco, no lo encuentro».\n\nSignificado: «no … en ningún lugar», negación de todo el alcance de lugares.\nSe usa con verbos de movimiento (行く/来る/出かける) y con verbos de existencia/búsqueda (ある/いる/見つかる/売る…).\nに enfatiza «en (qué) lugar»; へ enfatiza «dirección/destino».\nEstilo: ません (cortés), ない (coloquial). El JLPT acepta ambos.",
+    "notes": "Tiene un matiz absoluto; se suaviza añadiendo よ/ね:今日はどこにも行かないよ。\nDistinción entre あります/います: para cosas inanimadas se usa ある（ない）, para personas/animales いる（いない）.\nEn preguntas negativas con sentido de invitación: どこか行きませんか (¿vamos a algún lugar?) es distinto de どこにも～ません.",
+    "mistakes": [
+     "Usar どこでも con negación: × どこでも行きません → ○ どこにも/どこへも行きません.",
+     "Confundir に y へ: con existencia/búsqueda se usa に; con movimiento, para enfatizar la dirección, se puede usar へ.",
+     "Olvidar combinarlo con la forma negativa: × どこにも行きます → debe ser どこにも行きません/行かない."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どこにも～ません",
+       "no … en ningún lugar",
+       "Con に (lugar); neutro",
+       "どこにもありません。"
+      ],
+      [
+       "どこへも～ません",
+       "no ir a ningún lugar",
+       "Énfasis en la dirección/destino (ver 799)",
+       "どこへも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこでも",
+       "cualquier lugar (afirmativo)",
+       "Opuesto en sentido general",
+       "どこでも<ruby>行<rt>い</rt></ruby>ける。"
+      ],
+      [
+       "どこも～ません",
+       "ningún lugar…",
+       "Lengua hablada/general; fácil de usar con «abrir/cerrar, haber/no haber»",
+       "どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 110,
+   "src_hash": "c8e9ab9bc8c68449",
+   "fields": {
+    "meaning": "No ir a ningún lugar",
+    "connection": "どこへも + Vません（V de movimiento）",
+    "examples": [
+     "Los días libres no voy a ningún lugar.",
+     "Como hay un tifón, hoy no salgo a ningún lugar.",
+     "El año pasado no tenía dinero y no pude viajar a ningún lugar.",
+     "Como es peligroso, no dejo que los niños vayan solos a ningún lugar.",
+     "Esta semana tengo mucho trabajo y todavía no he ido a ningún lugar."
+    ],
+    "explain": "Se usa a menudo con 行く／出かける／旅行する／来る en forma negativa.\nCortés: ～ません／～ませんでした; coloquial: ～ない／～なかった.\nSi no hace falta enfatizar la «dirección», どこにも行きません también es natural.\n\nSe usa para negar el movimiento hacia cualquier lugar: no ir/no venir a ningún lugar.\nLa partícula へ indica claramente la dirección/destino; por eso どこへも encaja mejor con los verbos de movimiento.\nSignificado similar a どこにも（行きません）; la diferencia está en el énfasis: に = «en/a», へ = «hacia».",
+    "notes": "En oraciones que enfatizan la razón: ～ので/から + どこへも行きません (como …, no voy a ningún lugar).\nForma más cortés:本日はどこへも伺いません（です） – contexto laboral.\nCorrespondencia cortés afirmativa: どこへでも参ります (lenguaje humilde).",
+    "mistakes": [
+     "Usar どこでも con negación: × どこでも行きません → ○ どこへも/どこにも行きません.",
+     "Olvidar へ: × どこも行きません (con movimiento, en la lengua escrita conviene usar どこへも/どこにも).",
+     "Confundir el matiz: どこへも = movimiento; no lo uses para «no haber/no existir» (usa どこにもありません)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どこへも～ません",
+       "no ir a ningún lugar",
+       "Énfasis en la dirección/destino (へ)",
+       "どこへも<ruby>行<rt>い</rt></ruby>かなかった。"
+      ],
+      [
+       "どこにも～ません",
+       "no … en ningún lugar",
+       "Neutro, de uso más amplio",
+       "どこにも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこへでも",
+       "ir a cualquier lugar",
+       "Correspondencia afirmativa",
+       "どこへでも<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どこも～ません",
+       "ningún lugar…",
+       "General, sobre estados («abierto/cerrado»)",
+       "どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 111,
+   "src_hash": "4250146642b80e31",
+   "fields": {
+    "meaning": "Ningún lugar",
+    "connection": "どこも + Vません / どこも + [predicado negativo]",
+    "examples": [
+     "Ya es muy tarde, así que no hay ninguna tienda abierta.",
+     "En esta ciudad no hay ningún lugar tranquilo.",
+     "No encuentro por ningún lado la llave que perdí.",
+     "Hoy no voy a ningún lugar. Voy a estudiar en casa.",
+     "Aunque era Año Nuevo, no había nada abierto, ni siquiera las tiendas de conveniencia."
+    ],
+    "explain": "Tiene un matiz general, que abarca todo el espacio: «en ningún lugar …».\nEncaja con la descripción de estados:開いていない／混んでいない／売っていない／ない.\nCon movimiento, considera el contexto: en la lengua escrita o en exámenes conviene cambiar a どこへも/どこにも.\n\nSignificado con negación: «ningún lugar …», abarca todo el alcance de lugares.\nSuele usarse para describir situaciones generales: abierto/cerrado, haber/no haber, lleno/vacío, quedar/agotarse…\nCon afirmación, どこも = «en todas partes …». Sin embargo, esta entrada se centra en el patrón negativo どこも～ません.\nCon verbos de movimiento, どこも行きません suena natural en la conversación, pero en el JLPT se prefiere どこへも/どこにも行きません.",
+    "notes": "Suele usarse con もう/全然/まったく para enfatizar: もうどこも開いていない。\nEn oraciones que contradicen una expectativa:探したけど、どこも見つからなかった。\nEn consejos:今日は危ないからどこも行かないほうがいい。",
+    "mistakes": [
+     "Usar どこも para movimiento en lengua escrita académica: se prefiere どこへも/どこにも.",
+     "Confundir どこも～ません con どこにも～ません: ambos son negación total, pero どこにも es neutro y どこも se usa a menudo para «situaciones generales».",
+     "Olvidar la negación: × どこもあります → ○ どこもありません."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どこも～ません",
+       "ningún lugar…",
+       "Énfasis en la situación general",
+       "どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ],
+      [
+       "どこにも～ません",
+       "no … en ningún lugar",
+       "Neutro, de uso amplio (existencia/movimiento)",
+       "どこにもありません。"
+      ],
+      [
+       "どこへも～ません",
+       "no ir a ningún lugar",
+       "Específico para verbos de movimiento",
+       "どこへも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこでも（＋<ruby>肯定<rt>こうてい</rt></ruby>）",
+       "en todas partes…/cualquier lugar",
+       "Contraparte afirmativa",
+       "どこでも<ruby>入<rt>い</rt></ruby>れる。"
+      ],
+      [
+       "どこも（＋<ruby>肯定<rt>こうてい</rt></ruby>）",
+       "en todas partes…",
+       "Cercano a どこでも",
+       "どこもきれいだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 112,
+   "src_hash": "2c885924d73d8a45",
+   "fields": {
+    "meaning": "Dónde",
+    "examples": [
+     "¿Dónde está la estación?",
+     "¿Dónde está el profesor?",
+     "¿Dónde va a almorzar?",
+     "¿Adónde va en sus días libres?",
+     "¿De dónde viene usted? — Vengo de Vietnam.",
+     "¿De qué marca es este teléfono?"
+    ],
+    "explain": "Para preguntar por una ubicación estática: どこに あります／いますか。\nPara preguntar dónde se realiza una acción: どこで Vますか。\nPara preguntar por la dirección/destino: どこへ／どこに 行きますか（へ tiene matiz de dirección, に enfatiza el destino).\nForma cortés: ～はどこですか también se usa para preguntar por la ubicación en general (トイレはどこですか).\n\nどこ es la palabra interrogativa «dónde»; se combina con partículas para preguntar por la ubicación, el lugar donde ocurre algo, la dirección, el origen y el destino.\nどこのN pregunta por el origen/pertenencia de un sustantivo: «N de qué lugar/de qué marca».\nSe distingue entre あります (inanimado) e います (animado) al preguntar por la ubicación.",
+    "notes": "Para preguntar una dirección postal concreta:住所はどこですか（más natural que どこにありますか）.\nCon personas o cosas en movimiento, para preguntar «dónde» están ahora se sigue usando どこにいますか／どこにありますか según sean animadas o inanimadas.\nEn conversación coloquial: どこ？／どこにいる？",
+    "mistakes": [
+     "Partícula incorrecta: ×どこでいますか → ✓どこにいますか（la existencia usa に）.",
+     "Confundir に/で: con acciones se usa で, con ubicaciones estáticas se usa に.",
+     "Confundir あります/います: para cosas inanimadas se usa あります, para personas/animales います.",
+     "Usar へ para una ubicación estática no es natural: ×どこへありますか → ✓どこにありますか。"
+    ],
+    "comparison": {
+     "headers": [
+      "Palabra interrogativa",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "どこ",
+       "Dónde",
+       "Pregunta por el lugar",
+       "どこにありますか。"
+      ],
+      [
+       "どちら",
+       "Qué lado; cuál (cortés)",
+       "Más cortés que どこ/どれ",
+       "お<ruby>手洗<rt>てあら</rt></ruby>いはどちらですか。"
+      ],
+      [
+       "どれ",
+       "Cuál (entre varios)",
+       "No pregunta por lugares",
+       "どれですか。"
+      ],
+      [
+       "どこのN",
+       "N de qué lugar/de qué marca",
+       "Pregunta por el origen/pertenencia",
+       "どこの<ruby>大学<rt>だいがく</rt></ruby>ですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 113,
+   "src_hash": "e257f86ed27a4294",
+   "fields": {
+    "meaning": "Qué lado | tiene 3 significados principales:\nSe usa para preguntar por un lugar (es la forma cortés de どこ)\nSe usa para preguntar por una dirección.\nSe usa para preguntar el nombre de un país, una escuela, una empresa…",
+    "connection": "どちらが + A/V + か / Nは + どちらですか / どちらへ/に + V (preguntar la dirección, cortés)",
+    "examples": [
+     "Entre el café y el té, ¿cuál le gusta?",
+     "¿Dónde está la sala de reuniones?",
+     "¿De qué empresa viene usted?",
+     "¿Hacia dónde debo ir para llegar a la estación?",
+     "Disculpe, ¿quién es usted?",
+     "De estas dos tallas, ¿cuál es más grande?"
+    ],
+    "explain": "Más cortés que どっち; se puede usar en servicios, en el trabajo y con desconocidos.\nPara modificar un sustantivo hay que usar “の”: どちらのN (no se usa directamente どちら N).\nPara preguntar por una ubicación o un lugar conviene usar は + どちらですか para que suene natural y cortés.\nSe usa para preguntar la dirección con へ/に; para preguntar el origen, con から (どちらからいらっしゃいましたか).\n\nSignificado central: «cuál/hacia dónde/dónde» con matiz cortés.\nSe usa comúnmente para elegir entre dos opciones. Con más de dos, lo normativo es usar どれ/どの; sin embargo, en la conversación cortés どちら también puede usarse, pero en el JLPT N5 conviene priorizar la regla de las «2 opciones».\nPreguntar por una ubicación o un lugar de forma cortés: どこ → どちら (トイレはどちらですか).\nPreguntar a qué lado o entidad pertenece algo: どちらの + N (どちらの会社ですか).\nPara preguntar por una persona de forma muy cortés: どちら様ですか (¿Quién es, por favor?).",
+    "notes": "En servicios, “お国はどちらですか” suena muy cortés, en lugar de “どこの国”.\n“どちら様でいらっしゃいますか” es keigo (lenguaje honorífico) muy elevado, usado por teléfono.\nCon más de dos opciones, el JLPT prefiere la respuesta どれ/どの; no lo confundas con どちら salvo en un contexto cortés general.",
+    "mistakes": [
+     "Olvidar “の”: incorrecto × どちら会社→ correcto ✓ どちらの会社.",
+     "Usar どちら cuando hay 3 o más opciones en el examen JLPT (trampa): conviene elegir どれ/どの si no hay un contexto de «2 opciones».",
+     "Confundir どちら («dónde» cortés) con どこ: en la conversación cortés conviene usar どちら.",
+     "Usar どちら con personas muy cercanas suena demasiado formal; con amigos es más adecuado どっち/だれ."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "どちら",
+       "Cuál/hacia dónde (cortés)",
+       "Normalmente 2 opciones; puede ser «dónde» cortés",
+       "AとBはどちら？／トイレはどちら？"
+      ],
+      [
+       "どっち",
+       "Cuál (coloquial)",
+       "Lengua hablada, no cortés",
+       "AとB、どっち？"
+      ],
+      [
+       "どれ",
+       "Cuál (entre 3 o más)",
+       "No modifica sustantivos, va solo",
+       "どれがあなたのですか。"
+      ],
+      [
+       "どの + N",
+       "Qué (modifica un sustantivo)",
+       "Debe ir seguido de un sustantivo",
+       "どの<ruby>本<rt>ほん</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>ですか。"
+      ],
+      [
+       "どこ",
+       "Dónde",
+       "De uso normal; cortés → どちら",
+       "トイレはどこですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 114,
+   "src_hash": "c56a77aeaa94857e",
+   "fields": {
+    "meaning": "Quién (cortés)",
+    "connection": "どなた + ですか / どなたが + V + か（forma cortés de だれ）",
+    "examples": [
+     "Disculpe, ¿quién es usted?",
+     "¿Quién es esta persona?",
+     "¿De quién es este equipaje?",
+     "¿Hay alguien que entienda japonés?",
+     "Cualquier persona puede participar en el evento de mañana.",
+     "Hoy no puede entrar nadie."
+    ],
+    "explain": "Más cortés que だれ; se usa sin riesgo en contextos formales.\n“どなた様（さま）でしょうか／でいらっしゃいますか” es keigo (lenguaje honorífico) muy elevado.\nVa con partículas como が/に/の/を según su función: どなたが来ますか, どなたに会いますか.\nEn la conversación coloquial conviene usar だれ para que suene más natural.\n\n“どなた” = «quién» en nivel cortés/respetuoso; se usa con desconocidos, clientes y superiores.\nVariantes de significado: どなたか (alguien), どなたでも (cualquiera), どなたも〜ません (nadie).\nSe combina de forma natural con keigo: いらっしゃる／お〜になる cuando quien realiza la acción es el cliente.\nSe usa a menudo al teléfono, en recepción, tiendas y hospitales.",
+    "notes": "“どなたでも” aparece a menudo en anuncios abiertos al público: “どなたでも大歓迎”.\nCon negación, “どなたも〜ません” = «nadie»; no uses “どなたでも〜ません”.\n“どなたのご担当者様” suena redundante; elige una de las dos: “ご担当者様” o “どなたがご担当ですか”.",
+    "mistakes": [
+     "Confundir afirmación/negación: × どなたでも来ません→ ✓ どなたも来ません.",
+     "Usar どなた con amigos o personas más jóvenes suena rígido; conviene usar だれ.",
+     "Falta la partícula correcta: × どなた会いますか → ✓ どなたに会いますか.",
+     "Preguntar por características con どなた: para preguntar «qué tipo de persona» hay que usar どんな人/どの方."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "だれ",
+       "Quién (normal)",
+       "Neutro, se usa con amigos",
+       "だれですか。"
+      ],
+      [
+       "どなた",
+       "Quién (cortés)",
+       "Recepción, servicios, desconocidos",
+       "どなたですか。"
+      ],
+      [
+       "どなた<ruby>様<rt>さま</rt></ruby>",
+       "Quién (muy cortés)",
+       "Por teléfono, en el trabajo formal",
+       "どなた<ruby>様<rt>さま</rt></ruby>でしょうか。"
+      ],
+      [
+       "どの<ruby>方<rt>かた</rt></ruby>",
+       "Qué persona",
+       "Cortés, unido al sustantivo <ruby>方<rt>かた</rt></ruby>",
+       "どの<ruby>方<rt>かた</rt></ruby>が<ruby>先生<rt>せんせい</rt></ruby>ですか。"
+      ],
+      [
+       "どんな<ruby>人<rt>ひと</rt></ruby>",
+       "Qué tipo de persona",
+       "Pregunta por características, no por identidad",
+       "どんな<ruby>人<rt>ひと</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 115,
+   "src_hash": "30a187ef8c933bba",
+   "fields": {
+    "meaning": "¿Cuánto tiempo?",
+    "connection": "どのくらい + [oración interrogativa]",
+    "examples": [
+     "A: ¿Cuánto tiempo va a ir a Japón?\nB: Voy unos tres meses.",
+     "A: ¿Cuánto se tarda en Shinkansen de Osaka a Tokio?\nSe tarda dos horas y media."
+    ],
+    "explain": "Se usa para preguntar por la duración o la cantidad.\nSe puede preguntar con どのくらい o con どのぐらい.\n\nどのくらい： ¿cuánto tiempo? ¿cuánto?",
+    "notes": "meaning_vi: Palabra interrogativa que pregunta por la cantidad o el grado.\nexamples: 1. ①　どのぐらい　かかりますか。\n¿Cuánto tiempo se tardará?\n2. ②　毎日　どのぐらい　ねますか。\n¿Cuántas horas duerme más o menos cada día?\n3. ③　うちに　どのぐらい　本が　ありますか。\n¿Cuántos libros hay más o menos en casa?\n4. ④　夏休みは　どのぐらい　ですか。\n¿Cuánto duran más o menos las vacaciones de verano?"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

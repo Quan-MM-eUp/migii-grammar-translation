@@ -1,0 +1,719 @@
+{
+ "batch": "b076",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 1202,
+   "src_hash": "cd6d1d4e058aad43",
+   "fields": {
+    "meaning": "De inmediato, en un instante…",
+    "examples": [
+     "El nuevo producto se agotó en un instante.",
+     "El rumor se extendió de inmediato por toda la escuela.",
+     "El cielo se oscureció y al instante empezó a llover."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1203,
+   "src_hash": "52c305eef334b993",
+   "fields": {
+    "meaning": "Algo…, parece que…",
+    "examples": [
+     "Los dos están hablando de algo en voz baja.",
+     "De la cocina llega un olor muy rico a algo.",
+     "Parece que a él le preocupa algo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1533,
+   "src_hash": "0caf0a49b8ee0342",
+   "fields": {
+    "meaning": "No poder seguir (…) (situación urgente); no poder quedarse quieto sin…",
+    "examples": [
+     "Como no hay tiempo, no podemos quedarnos esperando a los que llegan tarde. Empecemos ya.",
+     "Mañana es el examen, así que no puedo quedarme aquí divirtiéndome tan tranquilamente.",
+     "Esta noche vienen varios invitados, así que no puedo ponerme a jugar al tenis ni nada parecido. Tengo que ir a hacer las compras pronto.",
+     "Ahora nuestros productos se venden bien, pero no podemos descuidarnos, porque salen productos nuevos uno tras otro.",
+     "No podemos quedarnos mirando esta situación sin hacer nada.",
+     "Cuando empieza la temporada de esquí, no puedo quedarme quieto en casa."
+    ],
+    "explain": "Expresa que, por tratarse de una situación apremiante, no se debe seguir haciendo eso, o que se quiere pasar a la acción cuanto antes. Suele ir acompañado de adverbios como 「のんびり」「うかうか」「じっと」.（２６３）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1534,
+   "src_hash": "002293bffdbe8836",
+   "fields": {
+    "meaning": "No poder evitar (…); no poder contenerse de (…)",
+    "examples": [
+     "Al escuchar una historia tan triste, uno no puede evitar llorar.",
+     "Sabía que era mejor no decirlo, pero no pude evitar contarlo.",
+     "Cualquiera que vea esa película no podrá evitar emocionarse.",
+     "Con los hijos, no puedo evitar que me den preocupaciones todos los días."
+    ],
+    "explain": "Sigue a la forma negativa del verbo y expresa que uno termina haciendo algo de forma natural, sin poder contenerlo con la fuerza de voluntad. Se usan verbos que expresan acciones humanas o movimientos del pensamiento y los sentimientos, como 「泣く」「思う」「感動する」. Implica que el hablante lo considera «comprensible». En la lengua escrita también aparece como 「…せずにはいられない」.（３７１）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1535,
+   "src_hash": "a4790b9a4f595b49",
+   "fields": {
+    "meaning": "Expresión de indiferencia (da igual cuál sea)",
+    "examples": [
+     "Ya sea Yamada o Sato, no se puede decir que sean aptos para este trabajo.",
+     "Ya sean perros o gatos, en este edificio de apartamentos no está permitido tener mascotas.",
+     "Tanto si salía elegido como si no, presentarse como candidato en estas elecciones tuvo mucho sentido.",
+     "Vayas o no vayas, por lo menos ten todo preparado.",
+     "Gane o pierda, quiero luchar limpiamente.",
+     "Hayan ganado o hayan perdido, quiero elogiarlos por haberse esforzado tanto."
+    ],
+    "explain": "Toma dos cosas del mismo tipo, o dos cosas opuestas, y expresa el sentido de «en cualquiera de los dos casos»."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1536,
+   "src_hash": "c0311d3f70d8543e",
+   "fields": {
+    "meaning": "Encomendar a …, dejar a merced de …"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1537,
+   "src_hash": "fb08b33fb93776d8",
+   "fields": {
+    "meaning": "Entre …, dentro del ámbito de …",
+    "connection": "N（grupo/cantidad）+ のうちで"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1538,
+   "src_hash": "32f6f36afc72ff2e",
+   "fields": {
+    "meaning": "Expresión de adición",
+    "examples": [
+     "La vida de campamento en la montaña no tiene electricidad ni gas, pero esa incomodidad también tiene su gracia.",
+     "El calor es molesto, pero el frío también es duro.",
+     "Pasear en un día soleado es agradable. Sin embargo, caminar mojándose bajo la lluvia también tiene su encanto y no está nada mal.",
+     "Aunque sea un genio, él también es humano. Tiene momentos alegres y momentos tristes."
+    ],
+    "explain": "Significa 「同じように」 («del mismo modo»). Como en 1. ～3., indica que algo es igual a lo dicho antes. 4. significa 「天才である彼も、普通の人と同じである」 («él, aun siendo un genio, es igual que cualquier persona»)."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1585,
+   "src_hash": "ba88714607080aad",
+   "fields": {
+    "meaning": "Aprovechar, sacar partido de, aplicar (…) (生かす/活かす)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1586,
+   "src_hash": "86ce33a4d4f794ee",
+   "fields": {
+    "meaning": "Después de … (al final, finalmente …) (た末)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1587,
+   "src_hash": "6095b48260b9106a",
+   "fields": {
+    "meaning": "Expresa información de oídas («dicen que…»)",
+    "connection": "N + とか（いう）（+ N）/ forma simple + とか"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1588,
+   "src_hash": "f290da23df04e46f",
+   "fields": {
+    "examples": [
+     "Durante todo el trayecto a la empresa estuve leyendo esta novela.",
+     "Mientras caminaba, no se me iban de la cabeza las palabras que él me había dicho.",
+     "Durante el viaje no hice más que dormir.",
+     "En el trayecto al trabajo tengo por costumbre estudiar idiomas."
+    ],
+    "explain": "Se usa con sustantivos o verbos que expresan un desplazamiento, cuando la acción o el estado posterior continúa durante todo ese trayecto.（３４５）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1590,
+   "src_hash": "df9d3407977d591e",
+   "fields": {
+    "connection": "N（cantidad）+ も + Vば",
+    "examples": [
+     "Esa pieza la puedes comprar con solo pagar unos 1000 yenes.",
+     "Con 5 minutos basta para terminar un trabajo así."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1592,
+   "src_hash": "3419a0a92f8e5807",
+   "fields": {
+    "meaning": "Expresa «a través de», «por medio de»",
+    "examples": [
+     "Esa historia ya debería haberle llegado también a la otra parte a través de Yamada.",
+     "La empresa A también tiene una alianza con la empresa C a través de la empresa B.",
+     "Según la información que llegó al Ministerio de Asuntos Exteriores a través de la embajada local, el número de muertos superó como mínimo los 100"
+    ],
+    "explain": "Significa 「…を経由して」 («pasando por…»). Se usa para decir que se transmite información o se establece una relación pasando por algo. Lo que se transmite es información, conversaciones, avisos, etc.; no se usa con medios de transporte.\n*（誤） この列車はマドリッドをつうじてパリまで行く。\n*（正） この列車はマドリッド｛を通って／を経由して｝パリまで行く。\n!Propio de la lengua escrita. También se dice 「…をとおして」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1593,
+   "src_hash": "9359f3404b88d90f",
+   "fields": {
+    "name": "palabra interrogativa…かとおもったら",
+    "connection": "[forma simple（incluye palabra interrogativa）] + かと思ったら",
+    "examples": [
+     "Me preguntaba qué iría a decir, ¿y resulta que es semejante tontería?",
+     "Me preguntaba qué estaría haciendo sin siquiera comer, ¿y resulta que estaba jugando a los videojuegos?",
+     "Se levantó en plena reunión y, cuando me preguntaba adónde iría, va y dice que quería ver un poco el cielo. Ese tipo está raro últimamente.",
+     "Un bebé de 2 años está absorto haciendo algo. Me preguntaba qué estaría haciendo, y resulta que está sonriendo frente al espejo y agitando la mano."
+    ],
+    "explain": "Expresa que el hablante, extrañado, presta atención a algo. A continuación se presenta un descubrimiento inesperado o un hecho que causa sorpresa."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1204,
+   "src_hash": "cb1007799391a445",
+   "fields": {
+    "meaning": "Solo… (es quien)…",
+    "examples": [
+     "Solo ella aceptaría una petición tan disparatada como esta.",
+     "El único que no se queja cuando lo llaman en plena noche es él.",
+     "Solo Tanaka es capaz de resolver este problema tan difícil dentro del tiempo.",
+     "Los únicos que se enfadan en serio con sus bromas son los empleados nuevos.",
+     "Solo los hijos pueden mostrarse débiles y quejarse delante de sus padres."
+    ],
+    "explain": "Estructura de énfasis: [cláusula] + のは + [persona o cosa única] + ぐらいのものだ。\n“ぐらいのものだ” refuerza el matiz de “solo… y nadie más”, con cierta exageración.\nSe usa a menudo en la conversación y en relatos; también aparece en textos descriptivos.\n\n• Enfatiza un alcance extremadamente reducido: “solo … puede / es precisamente …”.\n• Matiz de exageración/énfasis en el sentimiento del hablante (puede exagerar un poco).\n• Se usa a menudo para elogiar/criticar, o para destacar algo particular, excepcional.",
+    "notes": "• “ぐらいのものだ” > “くらいだ” en grado de énfasis; ambos son naturales.\n• Puede usarse con tiempo/lugar: こんな景色が見られるのはここぐらいのものだ。\n• Suele ir con temas de carácter particular/excepcional para lograr un efecto retórico.\nmeaning_vi: Solo… y nada más (énfasis: くらいのものだ)",
+    "mistakes": [
+     "Posición incorrecta de のは: ×彼くらいのものだ助けてくれる → correcto: 助けてくれるのは彼ぐらいのものだ。",
+     "Abuso en textos formales; en informes conviene usar だけだ para un tono más neutro.",
+     "Entenderlo como una verdad absoluta → en realidad tiene un matiz de exageración/énfasis personal.",
+     "JLPT N2–N1: distinguirlo de ～しかない (falta de opciones) y ～だけだ (neutro)."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón gramatical",
+      "Significado",
+      "Diferencia/similitud",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～のは N ぐらいのものだ",
+       "Solo N…",
+       "Énfasis, con exageración",
+       "できるのは<ruby>彼<rt>かれ</rt></ruby>くらいのものだ"
+      ],
+      [
+       "～のは N だけだ",
+       "Solo N",
+       "Más neutro, menos exageración",
+       "<ruby>分<rt>わ</rt></ruby>かるのは<ruby>彼<rt>かれ</rt></ruby>だけだ"
+      ],
+      [
+       "～くらいしかない",
+       "No queda nada más que…",
+       "Implica escasez/opciones limitadas",
+       "<ruby>頼<rt>たよ</rt></ruby>れるのは<ruby>彼<rt>かれ</rt></ruby>くらいしかない"
+      ],
+      [
+       "～こそ",
+       "Precisamente…",
+       "Enfatiza la causa/el destinatario; gramática distinta",
+       "<ruby>君<rt>きみ</rt></ruby>こそ<ruby>頼<rt>たよ</rt></ruby>りだ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1205,
+   "src_hash": "e8c0a3115eb8dd83",
+   "fields": {
+    "meaning": "Inconscientemente…, sin intención de…",
+    "examples": [
+     "Estaba escuchando la radio distraídamente y, sin darme cuenta, me dormí.",
+     "Estaba en el parque mirando el cielo distraídamente.",
+     "De no se sabe dónde llegó flotando un aroma a flores.",
+     "No se sabe desde cuándo, pero en esta ciudad ha aumentado el número de extranjeros.",
+     "Iba caminando sin rumbo y terminé llegando al mar."
+    ],
+    "explain": "Se usa cuando el hablante no tiene un propósito claro (mirar, escuchar, pensar, pasear…).\nLa forma palabra interrogativa＋ともなく enfatiza lo “indeterminado” del origen, el lugar o el momento.\nNo se usa con acciones claramente intencionadas, órdenes ni una voluntad clara.\nSuele usarse en textos descriptivos, diarios y novelas para crear un ambiente difuso.\n\n• Significado 1 (acción inconsciente): expresa que se realiza una acción de forma distraída, sin intención, sin un objetivo claro. Ejemplo: 聞くともなく聞く (escuchar sin prestar atención).\n• Significado 2 (origen/momento desconocido): va con palabras interrogativas como いつ／どこ／誰 para decir “no se sabe desde cuándo/de dónde/de quién”. Ejemplo: どこからともなく (de algún lugar desconocido).\n• Matiz: lengua escrita, neutro; descriptivo, a veces crea una sensación vaga, difusa.\n• Gramática: Vるともなく puede aparecer solo o repetido como VるともなくVる; el sujeto suele ser el hablante o la persona observada en un estado “relajado”.",
+    "notes": "• La forma repetida VるともなくVる equilibra el ritmo de la oración y resalta lo “inconsciente”.\n• Con palabras interrogativas, suele usarse から/へ: どこからともなく, どこへともなく.\n• Aparece a menudo con verbos de percepción: 見る, 聞く, 眺める, 考える, 歩く.\nmeaning_vi: Sin querer…, sin intención\nexplain: Expresa un estado “relajado”: hacer algo por hacer, sin concentrarse.\nSuele ir en forma repetida para sonar más natural en la lengua hablada/escrita.\nNo se usa cuando el hablante quiere mostrar un objetivo claro o dar una orden/expresar voluntad.\nexamples: 1. ラジオを聞くともなしに聞いていたら、懐かしい曲が流れてきた。\nEstaba escuchando la radio distraídamente cuando sonó una canción conocida.\n2. 通勤電車で外を眺めるともなしに眺めていた。\nEn el tren de camino al trabajo, miraba afuera distraídamente.\n3. 公園を歩くともなしに歩いていたら、友達に会った。\nPaseaba sin rumbo por el parque y me encontré con un amigo.\n4. SNSを見るともなしに見て時間をつぶす。\nMirar las redes sociales sin rumbo para matar el tiempo.\n5. どこからともなしに拍手が起こった。\nDe no se sabe dónde surgieron aplausos.\ncomparison: Patrón gramatical | Significado | Diferencia principal | Ejemplo breve\n～るともなしに | Hacer algo inconscientemente | Suave, con un matiz cotidiano | 外（そと）を 眺（なが）めるともなしに …\n～るともなく | Hacer algo inconscientemente; palabra interrogativa＋ともなく es frecuente | Uso amplio; muchas expresiones fijas con palabras interrogativas | どこ からともなく …\n～ながら | Hacer A mientras se hace B | Expresa simultaneidad, sin enfatizar lo “inconsciente” | 音楽（おんがく）を聞（きき）き ながら 勉強（べんきょう）する\n～つい | Hacer algo sin querer | Expresa un “desliz”/descuido, distinto de lo “distraído” prolongado | つい 食（た）べ過（す）ぎた\ncommon_mistakes: • Usarlo con órdenes/voluntad: × 見るともなしに見てください → poco natural.\n• Usarlo con un propósito claro: × 情報を集めるともなしに集める (esta acción suele tener un objetivo).\n• Confundirlo con ～つい: ～ともなしに es un estado distraído prolongado; ～つい es una acción momentánea, un “desliz”.\nmeaning_vi: Al azar…, sin propósito… (ともなく/ともなしに)",
+    "mistakes": [
+     "Usarlo con una acción de objetivo claro: incorrecto. Ejemplo incorrecto: × 目的地へ行くともなく行く (debe usarse どこへともなく: ir sin rumbo).",
+     "Confundirlo con ～がてら/～ついでに: ～ともなく es inconsciente; los otros dos son intencionados.",
+     "Omitir から/へ en las expresiones con palabra interrogativa: どこともなく (por sí solo tiene otro significado: “en cualquier lugar”); para el sentido “de no se sabe dónde” se necesita どこからともなく."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón gramatical",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～るともなく",
+       "Hacer algo inconscientemente; origen desconocido",
+       "Se usa con V o con palabra interrogativa＋ともなく",
+       "テレビを<ruby>見<rt>み</rt></ruby>るともなく…"
+      ],
+      [
+       "～るともなしに",
+       "Hacer algo inconscientemente (casi sinónimo)",
+       "Enfatiza “sin intención”; se usa menos con palabras interrogativas",
+       "<ruby>空<rt>そら</rt></ruby>を<ruby>眺<rt>なが</rt></ruby>めるともなしに…"
+      ],
+      [
+       "～がてら",
+       "Aprovechar para hacer algo",
+       "Intención de “de paso”; opuesto a lo inconsciente",
+       "<ruby>散歩<rt>さんぽ</rt></ruby>がてら<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>する"
+      ],
+      [
+       "～ついでに",
+       "De paso",
+       "Propósito más claro",
+       "<ruby>出張<rt>しゅっちょう</rt></ruby>のついでに<ruby>観光<rt>かんこう</rt></ruby>した"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1206,
+   "src_hash": "0c85577cb754dc0f",
+   "fields": {
+    "meaning": "De alguna manera, más o menos bien, justo lo suficiente…",
+    "connection": "どうにか + V (lograr hacer algo): de alguna manera, al final se logra hacerlo / どうにか + Aい / Na / Adv (grado justo): estado en que uno se las arregla, más o menos / どうにかなる: todo saldrá bien, se resolverá",
+    "examples": [
+     "De alguna manera llegué a tiempo al último tren.",
+     "Con un sueldo bajo, me las arreglo para vivir como puedo.",
+     "Quiero resolver este problema de alguna manera."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1207,
+   "src_hash": "a44267ae64855c31",
+   "fields": {
+    "meaning": "Partiendo de la premisa de…, suponiendo que…",
+    "examples": [
+     "Estamos saliendo con miras al matrimonio.",
+     "Este plan se elaboró partiendo de la premisa de que todos participarán.",
+     "Se elaboró el presupuesto partiendo de la premisa de una subida de precios."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1208,
+   "src_hash": "843679ae9cbfd5bd",
+   "fields": {
+    "meaning": "Antes de…; sin llegar siquiera al nivel de… (それ以前の問題)",
+    "examples": [
+     "Eso es un problema aún más básico que los modales.",
+     "Antes de hablar de habilidad, el problema es que ni siquiera viene a entrenar.",
+     "Antes de que se popularizaran las computadoras, las cartas eran lo principal."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1209,
+   "src_hash": "36e6636789136bb0",
+   "fields": {
+    "meaning": "Así es como…, el caso es que… (explicación formal)",
+    "connection": "V forma simple + 次第です",
+    "examples": [
+     "Si el informe se retrasó, fue porque la verificación tomó tiempo.",
+     "Me pongo en contacto con ustedes porque deseo solicitar su colaboración.",
+     "Por las circunstancias arriba expuestas, se ha celebrado la reunión de hoy."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1210,
+   "src_hash": "bd7ad70bd906ec69",
+   "fields": {
+    "meaning": "Al mismo tiempo… / Aprovechando…",
+    "examples": [
+     "Hoy he venido a visitarle, aprovechando para darle los saludos de Año Nuevo.",
+     "Aprovechando para expresarle mi agradecimiento, le informo de los resultados.",
+     "Aprovechando el envío de los documentos, le informo de la situación reciente.",
+     "Aprovechando la visita de observación, he venido a saludarle.",
+     "He venido a visitarle, aprovechando para presentarle mis disculpas."
+    ],
+    "explain": "Formal, cortés; adecuado para documentos de empresa, invitaciones y discursos.\nSuele ir acompañado de keigo:伺う,参る,申し上げる,拝見する,致します.\nSe orienta a acciones de desplazamiento/visita/intercambio de carácter social.\n\n• Significado: “de paso, al mismo tiempo que con el fin de N”, con una forma de hablar ceremoniosa y muy cortés.\n• Contexto: cartas, discursos, avisos formales; al visitar a alguien con cortesía.\n• El sujeto suele ser el hablante/el grupo del hablante. Se usa poco para hablar de una tercera persona lejana.\n• El sustantivo que precede suele ser de carácter social: ご挨拶, お礼, お詫び, ご報告, ご連絡, 見学.",
+    "notes": "• Colocar delante un N con “propósito cortés” muestra buenos modales y una razón legítima para la visita/el contacto.\n• Resulta eficaz al escribir correos de trabajo: 「ご報告かたがた資料を送付いたします」。\n• Evita abusar de él en la conversación cotidiana para no dar una impresión excesivamente afectada.",
+    "mistakes": [
+     "Usarlo con verbos coloquiales, sin keigo: poco natural en el estilo de 「かたがた」.",
+     "Usarlo para hablar de una tercera persona lejana: no es típico; conviene que el sujeto sea el hablante.",
+     "Confundirlo con 「がてら」: 「かたがた」 es formal y de carácter social; 「がてら」 es cotidiano.",
+     "Unirlo a un N inadecuado (N cotidiano): algo como 「ゲームかたがた」 resulta extraño."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón gramatical",
+      "Estilo",
+      "Matiz/alcance",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Nかたがた",
+       "Muy formal",
+       "N de carácter social; sobre todo el hablante; verbos en keigo",
+       "ご<ruby>挨拶<rt>あいさつ</rt></ruby>かたがた<ruby>伺<rt>うかがう</rt></ruby>う"
+      ],
+      [
+       "N/Vますがてら",
+       "Cotidiano",
+       "Al salir, hacer A y de paso B",
+       "<ruby>散歩<rt>さんぽ</rt></ruby>がてら<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "〜ついでに",
+       "Neutro",
+       "De uso general, en cualquier contexto",
+       "<ruby>出張<rt>しゅっちょう</rt></ruby>のついでに<ruby>観光<rt>かんこう</rt></ruby>する"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1211,
+   "src_hash": "a86e11085d321b1b",
+   "fields": {
+    "meaning": "Creía que…, pero resulta que…",
+    "connection": "V forma simple + (か)と思いきや / N + (だ) / Na + (だ) / Aい",
+    "examples": [
+     "Creía que había dejado de llover, pero enseguida volvió a caer.",
+     "Creía que hoy sería un día tranquilo, pero resultó ser más bien ajetreado.",
+     "Pensaba que habían bajado el precio, pero en realidad habían reducido la cantidad del contenido.",
+     "Parecía que él iba a ganar el campeonato, pero al final le dieron la vuelta.",
+     "Pensaba que habría silencio, pero empezaron las obras de al lado."
+    ],
+    "explain": "Estilo formal/ligeramente humorístico en narraciones; adecuado para titulares: 順調かと思いきや… .\nNo se usa cuando Y no es contrario, sino una simple continuación.\nX puede ser una impresión subjetiva o un indicio objetivo; Y niega esa expectativa.\n\n～かと思いきや expresa “se pensaba/creía que … pero (en realidad) …”, y enfatiza lo contrario a lo esperado o a los indicios iniciales. Matiz de lengua escrita, titulares de prensa, narración.\n• X suele ser la base de la predicción; Y es un resultado contrario, que causa sorpresa.\n• No se usa para acciones intencionadas del hablante del tipo orden/intención.\n• Suele ir con complementos de tiempo/contexto: ところが・しかし.",
+    "notes": "• “きや” en 思いきや es una forma fija; aquí 思う no se conjuga.\n• Suele usarse con Vた para sugerir la sensación de “justo cuando se creía que…”.\n• Efecto retórico: crea un “giro” en la historia; adecuado para ensayos y para introducir artículos de prensa.",
+    "mistakes": [
+     "Usarlo para una simple relación temporal → incorrecto; este patrón requiere un “resultado contrario”.",
+     "Omitir である delante de sustantivos/adjetivos na: hay que decir N/na + である + かと思いきや.",
+     "Poner una petición/orden después de ～かと思いきや es poco natural en el examen JLPT."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón gramatical",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～かと<ruby>思<rt>おも</rt></ruby>いきや",
+       "Creía que…, pero resulta que…",
+       "Contraste fuerte, lengua escrita",
+       "<ruby>終<rt>お</rt></ruby>わったかと<ruby>思<rt>おも</rt></ruby>いきや<ruby>続<rt>つづ</rt></ruby>いた"
+      ],
+      [
+       "～かと<ruby>思<rt>おも</rt></ruby>うと／～かと<ruby>思<rt>おも</rt></ruby>えば",
+       "Apenas… cuando…",
+       "Ritmo, sucesión; no requiere contraste",
+       "<ruby>降<rt>ふ</rt></ruby>るかと<ruby>思<rt>おも</rt></ruby>うとやむ"
+      ],
+      [
+       "～と<ruby>思<rt>おも</rt></ruby>ったら",
+       "Nada más…",
+       "Lengua hablada, no enfatiza la sorpresa contraria",
+       "<ruby>帰<rt>かえ</rt></ruby>ったと<ruby>思<rt>おも</rt></ruby>ったらまた<ruby>出<rt>で</rt></ruby>た"
+      ],
+      [
+       "～かと<ruby>思<rt>おも</rt></ruby>った",
+       "Creía que…",
+       "Solo presenta la expectativa, no necesariamente el resultado contrario",
+       "<ruby>終<rt>お</rt></ruby>わったかと<ruby>思<rt>おも</rt></ruby>った"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1212,
+   "src_hash": "3ce47352ec1fa9b9",
+   "fields": {
+    "meaning": "Aunque…, …",
+    "examples": [
+     "Aunque es viejo, su rendimiento es suficiente.",
+     "Aunque sea incómodo, uno acaba acostumbrándose y sintiéndose como en casa.",
+     "Aunque hay algo de riesgo, vale la pena intentarlo.",
+     "Aunque tiene defectos, su sinceridad es auténtica.",
+     "Aunque el costo inicial es alto, a largo plazo resulta más económico.",
+     "Aunque cuesta esfuerzo, se aprende mucho."
+    ],
+    "explain": "Estilo de discurso/informe/redacción académica ligera; cortés y formal.\nLa primera cláusula suele ser breve y concisa; la segunda cláusula desarrolla el argumento principal.\nAdecuado cuando se quiere “reconocer un defecto pero seguir apoyando”.\n\n• Estructura concesiva formal: reconoce un defecto/desventaja, pero afirma lo que sigue.\n• Típico: se usa con sustantivos de cualidad (古さ/不便さ/欠点/リスク/難点/苦労).\n• Se centra en enfatizar la segunda cláusula, que suele expresar una evaluación positiva/afirmación.",
+    "notes": "• こそ crea un énfasis fuerte; あれ es una forma de ある (forma continuativa clásica) que aporta un matiz de lengua escrita.\n• Nominalizar el adjetivo con 〜さ resulta natural: 高さこそあれ／弱さこそあれ.\n• Suele ir con cuantificadores como 多少の／わずかな para atenuar el defecto.",
+    "mistakes": [
+     "Usarlo directamente con verbos o adjetivos sin nominalizar: ×高いこそあれ → ○高さこそあれ.",
+     "La segunda cláusula no debe negar por completo el tema: “古さこそあれ、全然価値がない” choca con el estilo; conviene usar ものの.",
+     "JLPT: reconocer el tono formal y las restricciones de combinación (N/〜さ) para elegir correctamente こそあれ."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón gramatical",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Nこそあれ",
+       "Aunque hay N…",
+       "Limitado a N/〜さ; formal.",
+       "<ruby>古<rt>ふる</rt></ruby>さこそあれ<ruby>快適<rt>かいてき</rt></ruby>。"
+      ],
+      [
+       "〜ものの",
+       "Aunque…",
+       "Va con V/A/N en general; neutro.",
+       "<ruby>高<rt>たか</rt></ruby>いものの<ruby>満足<rt>まんぞく</rt></ruby>。"
+      ],
+      [
+       "〜とはいえ",
+       "Aunque se diga que…",
+       "Se usa tanto en conversación como por escrito; flexible.",
+       "<ruby>不便<rt>ふべん</rt></ruby>とはいえ<ruby>住<rt>す</rt></ruby>める。"
+      ],
+      [
+       "〜ながら（も）",
+       "Aunque…",
+       "Va con Vます/いA/なA; muy propio de la lengua hablada.",
+       "<ruby>小<rt>ちい</rt></ruby>さいながら<ruby>機能<rt>きのう</rt></ruby><ruby>的<rt>てき</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1213,
+   "src_hash": "3f080c81aca4e352",
+   "fields": {
+    "meaning": "Solo cabe…, pero no…",
+    "connection": "N + こそすれ + [segunda cláusula] / Vます",
+    "examples": [
+     "Dudas sí tengo, pero no puedo estar de acuerdo.",
+     "Sobre su sinceridad podría haber dudas, pero no hay nada que reprocharle.",
+     "Con el paso del tiempo, el afecto no hace más que profundizarse; nunca se debilita.",
+     "El nuevo sistema puede generar desconcierto, pero no es algo que provoque caos.",
+     "El esfuerzo se valora; nunca se ridiculiza."
+    ],
+    "explain": "Forma : con verbos se usa Vます sin ます + こそすれ; con sustantivos, directamente N + こそすれ .\nRelación de significado : la segunda cláusula suele ir con ～ない／～はしない／～できない／～ことはない para negar con claridad.\nMatiz : formal, tajante, con carácter de “cierre del enunciado”; adecuado para la lengua escrita, discursos y comentarios serios.\nPragmática : enfatiza el “punto máximo” de A (lo máximo que se puede admitir) y rechaza cualquier otra interpretación.\n\n～こそすれ enfatiza un carácter unidireccional: admite la posibilidad/el fenómeno A y, al mismo tiempo, rechaza tajantemente la posibilidad B. Puede entenderse como: “si acaso hay algo, es solo A, pero de ninguna manera B.”\n• El grado de afirmación/negación es fuerte, con un tono formal y argumentativo.\n• Suele usarse para rebatir la predicción del oyente o de la opinión pública: “¿Crees que B? No. Como mucho, A.”\n• La segunda cláusula va con negación: ～ない／～はしない／～できない… para cerrar el sentido por completo.",
+    "notes": "• こそ es aquí una partícula de énfasis fuerte, que aporta un matiz literario al combinarse con すれ (forma continuativa de する en su forma clásica).\n• A suele ser lo “más alto/lejano” que el hablante está dispuesto a admitir; B son las demás posibilidades, que se niegan.\n• Suele ir con sustantivos abstractos o actitudes psicológicas: 疑問・不満・期待・評価・尊敬・戸惑い…",
+    "mistakes": [
+     "Uso incorrecto del tiempo verbal: con verbos debe ir en Vます (sin ます), no directamente en forma de diccionario.",
+     "Falta de negación en la segunda cláusula: el patrón exige la relación “solo A, no B”, por lo que necesita una marca clara de negación.",
+     "Confundirlo con ～こそあれ: ambos son formales, pero こそすれ niega B; こそあれ es “aunque A, (igualmente) B”.",
+     "Matiz: se usa en estilo serio; en una conversación informal suena “rígido”."
+    ],
+    "comparison": {
+     "headers": [
+      "Punto gramatical",
+      "Significado",
+      "Similitud/diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～こそすれ",
+       "A sí, pero B no",
+       "Niega B con fuerza; lengua escrita, tajante",
+       "<ruby>遅<rt>おく</rt></ruby>れこそすれ、<ruby>中止<rt>ちゅうし</rt></ruby>はしない。"
+      ],
+      [
+       "～こそあれ",
+       "Aunque haya A, B",
+       "Concede A (a menudo negativo), pero B se cumple igualmente",
+       "<ruby>不便<rt>ふべん</rt></ruby>こそあれ、<ruby>住<rt>す</rt></ruby>みやすい。"
+      ],
+      [
+       "～とはいえ",
+       "Aunque se diga A, B",
+       "Más suave, sin la restricción “solo A, no B”",
+       "<ruby>安全<rt>あんぜん</rt></ruby>とはいえ<ruby>油断<rt>ゆだん</rt></ruby>できない。"
+      ],
+      [
+       "～といっても",
+       "Se dice A, pero en realidad B",
+       "Rebaja las expectativas; más propio de la lengua hablada",
+       "<ruby>得意<rt>とくい</rt></ruby>といっても<ruby>少<rt>すこ</rt></ruby>しだけ。"
+      ],
+      [
+       "～わけではない",
+       "No es que…",
+       "Negación parcial, mucho más débil",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

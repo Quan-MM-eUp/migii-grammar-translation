@@ -1,0 +1,594 @@
+{
+ "batch": "b073",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 1103,
+   "src_hash": "98466c15543c4398",
+   "fields": {
+    "meaning": "～も・・・だし、～もまた・・・だ\nTanto... como...",
+    "examples": [
+     "En el lugar había tanto solteros como casados.",
+     "Ese restaurante tiene buena comida y buen ambiente, y además los precios son razonables.",
+     "Él es bueno en los deportes y, además, toca el piano como un profesional.",
+     "No me gustaba estudiar y tampoco se me daban bien los deportes, así que, como era de esperar, mis notas también eran malas.",
+     "En casa no tenemos ni aire acondicionado ni microondas.",
+     "*Esos padres no intentan llamarle la atención a su hijo aunque moleste a los demás. ¡De verdad, de tales padres, tal hijo!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1104,
+   "src_hash": "e991f512e91a793f",
+   "fields": {
+    "meaning": "No… en absoluto, nada de…",
+    "examples": [
+     "No te preocupes. No es ninguna enfermedad ni nada parecido.",
+     "Esta tienda no es nada barata y, sin embargo, siempre está llena.",
+     "Eso no es amor ni nada parecido. Es solo obsesión.",
+     "Él no es ningún héroe ni nada parecido. Es una persona normal.",
+     "Es un resultado que no tiene nada de especial."
+    ],
+    "explain": "Propio de la lengua hablada y directo; puede transmitir una negación enfática o bastante brusca. En textos formales conviene pensarlo bien.\n“でも” significa “o algo parecido” y amplía el alcance de la negación; “も” enfatiza “ni siquiera … ”.\nSe usa a menudo para tranquilizar, deshacer malentendidos o rebatir opiniones.\n\n• Expresión de negación enfática: “no es … ni nada por el estilo”, “no … en absoluto”.\n• La forma “Nでもなんでもない” es muy frecuente; “Nもなんでもない” también aparece, pero es menos común y tiene un matiz directo y franco.\n• Con adjetivos, la estructura enfatiza el grado “en absoluto”: 高くもなんでもない（no es nada caro）, 怖くもなんでもない（no da nada de miedo）.",
+    "notes": "• Forma de doble énfasis “XでもYでもなんでもない” para negar todas las opciones: 若さでも実力でもなんでもない.\n• Con los adjetivos い, en algunas regiones existe una variante más natural: ～くもなんともない (～なんともない significa “no pasa nada”).\n• En la conversación, una entonación que cae con fuerza al final refuerza el matiz de rechazo.",
+    "mistakes": [
+     "Usar “Nもなんでもない” en contextos formales resulta brusco; conviene cambiarlo por “Nではない／Nとは言えない”.",
+     "Confundirlo con “なんでもない” solo, que significa “no es nada / no pasa nada”: 痛くもなんでもない（no duele nada） es distinto de なんでもない（no pasa nada）。",
+     "El JLPT y otras pruebas suelen evaluar si se reconoce el amplio alcance de la negación que aporta “でも”: frente a 全然～ない, es una negación que enumera varias opciones."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Nでもなんでもない",
+       "No es N ni nada parecido",
+       "El más común",
+       "<ruby>病気<rt>びょうき</rt></ruby>でもなんでもない"
+      ],
+      [
+       "Aくもなんでもない",
+       "No es A en absoluto",
+       "Con adjetivos い",
+       "<ruby>高<rt>たか</rt></ruby>くもなんでもない"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない／まったく～ない",
+       "En absoluto",
+       "Más neutral, sin “でも”",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>高<rt>たか</rt></ruby>くない"
+      ],
+      [
+       "<ruby>別<rt>べつ</rt></ruby>に～ない",
+       "No especialmente / nada en particular",
+       "Más suave, menos confrontativo",
+       "<ruby>別<rt>べつ</rt></ruby>に<ruby>困<rt>こま</rt></ruby>ってない"
+      ],
+      [
+       "～というものでもない",
+       "No necesariamente …",
+       "Explicativo, no es una negación absoluta",
+       "<ruby>努力<rt>どりょく</rt></ruby>すればいいというものでもない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1105,
+   "src_hash": "cde50e6b3da34ddf",
+   "fields": {
+    "meaning": "Tanto… como…",
+    "examples": [
+     "En la vida hay fracasos y también hay éxitos.",
+     "En este trabajo hay momentos divertidos y también momentos duros.",
+     "En Japón hay tanto tradición como innovación.",
+     "Hay tiendas baratas y también tiendas caras.",
+     "Tan malos son los padres como el hijo."
+    ],
+    "explain": "Se usa mucho con ある/いる/起こる/見られる para presentar la existencia de dos aspectos.\nCuando se quiere enfatizar una crítica fuerte, se usa el esquema “NもNならNもNだ”.\nN puede sustituirse por un sintagma nominal: ～こともあれば～こともある.\n\n• Enumeración de dos aspectos en paralelo: hay A y también hay B; a veces con el matiz “hay esto y también aquello”.\n• El tipo “NもNならNもNだ” suele implicar una evaluación (a menudo negativa): “tal como es A, así es B”.\n• Se usa a menudo para presentar características generales o hacer un comentario equilibrado (ventajas/desventajas) sobre algo.",
+    "notes": "• La forma “Vば” en este patrón aparece sobre todo como “ある/いる/起こる…”; con otros verbos se suele recurrir a la nominalización: ～こともあれば～こともある.\n• “NもNならNもNだ” puede usarse en sentido positivo en raras ocasiones, pero normalmente expresa crítica.\n• Se puede traducir de forma flexible: “también… también…”, “unas veces… otras veces…”, “tanto… como…”. meaning_vi: no solo ～ sino también ～ ⏐ explain: Se añade un hecho que va en la misma dirección que el anterior. (bueno – bueno, malo – malo) ⏐ examples: 1. 彼は勉強もできればスポーツもできる。\nÉl es bueno tanto en los estudios como en los deportes.\n2. 私は歌も下手ならダンスも下手だ。\nCanto mal y también bailo mal.",
+    "mistakes": [
+     "Usar い形容詞 con ければ en este esquema: × 安ければ高いも → debe decirse 安い店もあれば高い店もある.",
+     "Confundirlo con ～たり～たり: para decir “a veces… a veces…”, ambos son correctos, pero ～も～ば～も～ se inclina hacia la existencia o las características generales.",
+     "Olvidar repetir “も”: × 山もあれば海ある → ○ 山もあれば海もある."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia / énfasis",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～たり～たりする",
+       "Unas veces… otras veces…",
+       "Enumera acciones o momentos; se centra en actividades",
+       "<ruby>泣<rt>な</rt></ruby>いたり<ruby>笑<rt>わら</rt></ruby>ったりする。"
+      ],
+      [
+       "～し～し",
+       "Y… y… (varias razones o aspectos)",
+       "Enumera causas o características; no usa la condición ば",
+       "<ruby>安<rt>やす</rt></ruby>いし<ruby>近<rt>ちか</rt></ruby>いし<ruby>便利<rt>べんり</rt></ruby>。"
+      ],
+      [
+       "～もあるし～もある",
+       "Hay A y también hay B",
+       "Lengua hablada, no usa ば",
+       "<ruby>長所<rt>ちょうしょ</rt></ruby>もあるし<ruby>短所<rt>たんしょ</rt></ruby>もある。"
+      ],
+      [
+       "NもNならNもNだ",
+       "Tanto A como B (merecen crítica o comentario)",
+       "Matiz evaluativo fuerte, normalmente negativo",
+       "<ruby>店<rt>みせ</rt></ruby>も<ruby>店<rt>みせ</rt></ruby>なら<ruby>客<rt>きゃく</rt></ruby>も<ruby>客<rt>きゃく</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1106,
+   "src_hash": "864f20b72a1efe69",
+   "fields": {
+    "meaning": "Aunque se quiera…, no se puede…",
+    "connection": "V forma volitiva + にも + [no poder] (行こうにも時間がない)",
+    "examples": [
+     "Aunque quiera ponerme en contacto, no sé el número de teléfono.",
+     "Aunque quiera ir al lugar del evento, el transporte está parado.",
+     "Aunque quiera disculparme, no tengo ocasión de verlo.",
+     "Aunque quiera olvidarlo, no es tan fácil de olvidar.",
+     "Aunque quiera presentar mi solicitud, el plazo ya ha vencido."
+    ],
+    "explain": "Se usa cuando faltan medios o información: 連絡先がない／手段がない／時間がない.\nRegistro de formalidad media; se usa tanto en la lengua escrita como en la hablada.\nLa segunda cláusula suele ser: 〜ない／難しい／無理だ／困難だ.\n\n～ようにも expresa la situación de “aunque se quiera o se intente hacer V, no se puede o es muy difícil” por falta de condiciones o medios, o por un obstáculo objetivo. “にも” enfatiza un intento hipotético pero imposible.\n• Suele ir seguido de una segunda cláusula negativa o que expresa un impedimento.\n• Transmite más “impotencia” ante las circunstancias que una falta subjetiva de ganas.",
+    "notes": "• Se puede omitir la segunda cláusula si el contexto es claro: 金がなくて、行こうにも…。 (lengua hablada)\n• Suele ir con verbos de percepción o de sentimiento: 忘れる／笑う／泣く.\n• En textos formales, la segunda cláusula usa sustantivos abstractos: 〜に障害がある／〜に支障を来す.",
+    "mistakes": [
+     "Usar “ようにも” con una segunda cláusula afirmativa → ilógico (行こうにも時間がある → contradictorio).",
+     "Confundirlo con “ようと”: “ようにも” significa “aunque se quiera…”, mientras que “ようと〜まいと” significa “tanto si… como si no”.",
+     "Omitir “にも”: 連絡しように… → incorrecto; debe ser 連絡しようにも…"
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "VようにもVれない",
+       "Querer hacerlo y no poder",
+       "Forma completa con el verbo repetido; enfatiza la capacidad",
+       "<ruby>会<rt>あ</rt></ruby>おうにも<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "Vます＋ようがない",
+       "No hay manera de hacerlo",
+       "Ausencia absoluta de medios",
+       "<ruby>連絡<rt>れんらく</rt></ruby>しようがない。"
+      ],
+      [
+       "VたくてもVない",
+       "Querer pero no poder",
+       "Enfatiza el deseo (querer hacer)",
+       "<ruby>行<rt>い</rt></ruby>きたくても<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "VようとしてもVない",
+       "Intentarlo sin conseguirlo",
+       "Implica que ya se intentó la acción",
+       "<ruby>寝<rt>ね</rt></ruby>ようとしても<ruby>寝<rt>ね</rt></ruby>られない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1107,
+   "src_hash": "f6d158879cecde05",
+   "fields": {
+    "meaning": "Querer… y no poder…",
+    "connection": "V forma volitiva + にも + V forma potencial ない (読もうにも読めない)",
+    "examples": [
+     "Tengo recuerdos que, aunque quiera, no puedo olvidar.",
+     "El lugar está lleno y, aunque quiera entrar, no puedo.",
+     "Tengo sueño, pero, aunque quiera dormir, no puedo.",
+     "Aunque quiera contactarlo, no puedo. Es que he perdido su número.",
+     "Había un ambiente en el que, aunque uno quisiera reír, no podía."
+    ],
+    "explain": "Se usa para dificultades más objetivas que subjetivas.\nMás formal que “VたくてもVない”.\nAdecuado para la lengua escrita, la prensa y los trabajos académicos cuando se quiere enfatizar la imposibilidad.\n\nExpresa “aunque se quiera o se intente hacer V, no se puede hacer V”. La razón es una limitación objetiva (falta de condiciones, prohibición, salud, distancia, etc.). Enfatiza la impotencia ante las circunstancias.\n• Forma que repite el mismo verbo: Vようにも V-可能形-ない.\n• La segunda cláusula es siempre la forma potencial negativa de ese mismo verbo.",
+    "notes": "• En la lengua estándar, evita las “ら抜き言葉”: 見れない → mejor 見られない.\n• Suele usarse con verbos de percepción o emoción: 忘れる／笑う／泣く／動く.\n• La segunda cláusula también puede usar la forma pasiva-potencial: 〜られない.",
+    "mistakes": [
+     "No repetir correctamente el verbo: 忘れようにも考えられない → incorrecto; debe ser 忘れようにも忘れられない.",
+     "Usar una forma afirmativa en la segunda cláusula → incorrecto: 会おうにも会える.",
+     "Usar mal la forma potencial de する/来る: しようにもしれない → incorrecto; debe ser しようにもできない. 来ようにも来れない (lengua hablada) → en la lengua estándar conviene usar 来られない."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "VたくてもVない",
+       "Querer pero no poder",
+       "Enfatiza “querer”, más neutral",
+       "<ruby>会<rt>あ</rt></ruby>いたくても<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "VようとしてもVない",
+       "Intentarlo sin conseguirlo",
+       "Implica que ya se intentó la acción",
+       "<ruby>寝<rt>ね</rt></ruby>ようとしても<ruby>寝<rt>ね</rt></ruby>られない。"
+      ],
+      [
+       "Vます＋ようがない",
+       "No hay manera de hacerlo",
+       "Falta absoluta de medios o condiciones",
+       "<ruby>連絡<rt>れんらく</rt></ruby>しようがない。"
+      ],
+      [
+       "Vようにも",
+       "Aunque se quiera… (difícil/imposible)",
+       "Forma contraída; no es necesario repetir V",
+       "<ruby>行<rt>い</rt></ruby>こうにも<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1108,
+   "src_hash": "150909a304b57eec",
+   "fields": {
+    "meaning": "No hay manera de…, no se puede…",
+    "connection": "Vます(sin ます) + ようもない (連絡しようもない)",
+    "examples": [
+     "No sé ni su dirección ni su número de teléfono, así que no hay manera de contactarlo.",
+     "No hay pistas, así que no hay forma de investigar el caso.",
+     "Esta mancha es demasiado vieja; no hay manera de quitarla.",
+     "La explicación es ambigua; no hay forma de entenderla.",
+     "Los datos están cifrados; no hay manera de recuperarlos."
+    ],
+    "explain": "Se usa cuando algo es objetivamente imposible, no porque el hablante no quiera.\nMatiz tajante y fuerte; adecuado para la lengua escrita y los informes.\nCon sentimientos: 「言いようもない」= no saber cómo expresarlo (tono literario).\n\n～ようもない expresa “no hay ninguna manera / es imposible hacer V” por falta de información, medios o condiciones. El grado de imposibilidad es mayor que en “〜にくい/づらい”.\n• El foco está en “no hay método”.\n• Suele ir con sustantivos que indican la razón: 連絡先／手がかり／手段／方法／証拠.",
+    "notes": "• “どうしようもない” es una expresión hecha muy común: no poder hacer nada / no quedar otra salida.\n• Se usa a menudo en informes de investigación, QA y TI: 再現しようもない／検証しようもない.\n• No hay que confundirlo con “〜しかない” (solo queda…): su significado es el opuesto.",
+    "mistakes": [
+     "Forma del verbo incorrecta: usar V辞書形 + ようもない → incorrecto; debe ser V-ます sin ます.",
+     "Usarlo cuando aún quedan otras opciones → contradicción de significado.",
+     "Confundirlo con “〜にくい”: “ようもない” es imposibilidad por falta de método, no simplemente “difícil”."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vます＋ようがない",
+       "No hay manera",
+       "Casi sinónimo de ようもない",
+       "<ruby>直<rt>なお</rt></ruby>しようがない。"
+      ],
+      [
+       "VようにもVれない",
+       "Querer hacerlo y no poder",
+       "Enfatiza el deseo o el esfuerzo",
+       "<ruby>会<rt>あ</rt></ruby>おうにも<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "Vにくい／Vづらい",
+       "Difícil de hacer",
+       "Solo difícil, no imposible",
+       "<ruby>読<rt>よ</rt></ruby>みにくい。"
+      ],
+      [
+       "V<ruby>不可能<rt>ふかのう</rt></ruby>（できない）",
+       "No poder",
+       "Neutral, sin implicar “no hay manera”",
+       "<ruby>修理<rt>しゅうり</rt></ruby>できない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1109,
+   "src_hash": "deefe6921c53c45b",
+   "fields": {
+    "meaning": "Sin…, sin… en absoluto",
+    "examples": [
+     "Dejó la empresa sin consultarlo con nadie.",
+     "Ella salió de la habitación sin decir una sola palabra.",
+     "Siguió trabajando sin descansar.",
+     "No se deben consultar los datos sin obtener permiso.",
+     "Terminó el proyecto sin cometer ningún error.",
+     "Presentarse a una exposición sin ninguna preparación es una imprudencia."
+    ],
+    "explain": "Adecuado para textos formales, informes y artículos académicos.\nEnfatiza que la acción A “no se realizó en absoluto”; es más fuerte que ～ないで／～ずに.\nSe usa a menudo cuando A es algo que normalmente debería hacerse, pero el hablante enfatiza que no se hizo.\n\n• Expresa que se realiza la acción B sin hacer en absoluto la acción A (V-る).\n• Muy formal; se usa a menudo en informes, artículos y narraciones.\n• Suele ir con palabras que enfatizan la frecuencia: “一度も／少しも／まったく”.\n• V-る debe ser una acción habitual que se esperaría, pero que aquí “no ocurrió”.",
+    "notes": "• En textos de políticas o normativas, ことなしに da una sensación de seriedad: 許可を得ることなしに～は禁止する。\n• Combinación con expresiones de evaluación: ～ことなしに済む（no tener que hacer A）.\n• Si se busca suavidad, considera ～ないで／～ずに; si se necesita formalidad o énfasis, usa ～ことなしに／～ことなく.",
+    "mistakes": [
+     "Usarlo con acciones sin un claro “carácter habitual” → oración poco natural (el patrón enfatiza “lo que debería haberse hecho, A”).",
+     "Confundirlo con ～ないで: los exámenes suelen evaluar el matiz formal; para la lengua escrita, elige ～ことなしに/ことなく.",
+     "Forma incorrecta: V-ない + ことなしに（×）; lo correcto es V-る + ことなしに.",
+     "Abusar de él en la conversación cotidiana -> suena rígido; conviene cambiarlo por ～ないで／～ずに."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～ないで",
+       "Hacer B sin hacer A",
+       "Lengua hablada, más neutral.",
+       "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べないで<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～ずに",
+       "B sin A",
+       "Formalidad media; frecuente en la escritura.",
+       "<ruby>挨拶<rt>あいさつ</rt></ruby>もせずに<ruby>帰<rt>かえ</rt></ruby>った。"
+      ],
+      [
+       "～ことなく",
+       "B sin A",
+       "Casi equivalente; más común.",
+       "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>止<rt>と</rt></ruby>まることなく<ruby>走<rt>はし</rt></ruby>った。"
+      ],
+      [
+       "N + なしに",
+       "Sin N",
+       "Forma de nominalización; alcance amplio.",
+       "<ruby>断<rt>ことわ</rt></ruby>りなしに<ruby>欠席<rt>けっせき</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1110,
+   "src_hash": "b7ce77bfabeabb09",
+   "fields": {
+    "meaning": "Para que no…, evitar…",
+    "examples": [
+     "Para no cometer errores, vuelva a revisarlo antes de entregarlo.",
+     "Aplicamos rigurosamente las normas de seguridad para que no ocurran accidentes.",
+     "Tenga cuidado con su forma de expresarse para no dar lugar a malentendidos.",
+     "Para que el niño no se perdiera, le di una tarjeta con los datos de contacto.",
+     "Revisaremos el sistema para no volver a cometer nunca el mismo error.",
+     "Ponte una bufanda antes de salir para no resfriarte."
+    ],
+    "explain": "Formal; se usa a menudo en instrucciones, avisos internos y carteles.\nSe centra en el objetivo de prevención; la segunda cláusula presenta una medida o sugerencia clara.\nPuede usarse como modificador: ～ことのないよう注意書き（aviso para que no…）\n\n• “Para que no …”, “con el fin de evitar …”: expresa el objetivo de prevenir que ocurra algo malo.\n• Matiz ceremonioso y formal, adecuado para avisos, instrucciones y políticas.\n• Suele ir acompañado de una petición, sugerencia o medida concreta en la segunda cláusula.",
+    "notes": "• La expresión “二度と～ことのないように” es muy frecuente en textos de disculpa e informes de medidas correctivas.\n• En carteles: 火事の起きることのないように → 火事を起こさないように (más conciso), según el grado de formalidad.\n• Puede ir al principio de la oración como cláusula subordinada: ～ことのないように、関係各所に周知した。",
+    "mistakes": [
+     "Confundirlo con ～ことがない (casi nunca) → significado totalmente distinto.",
+     "Usar un adjetivo o sustantivo directamente antes de ことのないように → incorrecto; debe ser un verbo en forma V-る.",
+     "Omitir la segunda cláusula con la medida o sugerencia hace que la oración resulte poco natural en textos de instrucciones."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia principal",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～ないように",
+       "Para que no…",
+       "Común, poco formal; muy usado en la conversación cotidiana.",
+       "<ruby>忘<rt>わす</rt></ruby>れないようにメモする。"
+      ],
+      [
+       "～ぬように",
+       "Para que no… (lengua escrita)",
+       "Más formal o arcaico; equivale a ～ないように.",
+       "<ruby>間違<rt>まちが</rt></ruby>えぬように<ruby>気<rt>き</rt></ruby>をつける。"
+      ],
+      [
+       "～ないために",
+       "Para evitar…",
+       "Enfatiza claramente la relación finalidad-razón; matiz más racional.",
+       "<ruby>事故<rt>じこ</rt></ruby>を<ruby>起<rt>お</rt></ruby>こさないために<ruby>速度<rt>そくど</rt></ruby>を<ruby>落<rt>お</rt></ruby>とす。"
+      ],
+      [
+       "～ことのないようにする",
+       "Procurar que no…",
+       "Enfatiza el esfuerzo continuo del agente.",
+       "<ruby>遅刻<rt>ちこく</rt></ruby>することのないようにする。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1111,
+   "src_hash": "d528be163af7ed67",
+   "fields": {
+    "meaning": "No acabar nunca si uno se pone a…",
+    "examples": [
+     "Si me pongo a enumerar sus defectos, no acabo nunca.",
+     "Si me pongo a contar las cosas que quiero, no termino nunca.",
+     "Si empiezo a hablar de este tema, no acabo nunca, así que dejémoslo aquí.",
+     "Si enumerara las virtudes del menú, no acabaría nunca, pero primero presentaré los platos clásicos.",
+     "Si empezamos a quejarnos de lo que nos disgusta ahora, no acabaremos nunca, así que centrémonos en las soluciones.",
+     "Si empezamos a buscar aspectos que mejorar, no acabaremos nunca, pero establezcamos prioridades."
+    ],
+    "explain": "Matiz retórico para cambiar de tema, cerrar un asunto y evitar divagaciones.\nSuele ir con から／ので para indicar el motivo para detenerse: ～ときりがないから／ので.\nSirve tanto para la lengua hablada como para la escrita; en la escrita suele usarse con 挙げる・数える.\n\n• Si se empieza a hacer o mencionar V, “es interminable / no tiene fin”.\n• Se usa para abreviar o resumir: “habría mucho más que decir, pero lo dejamos aquí”.\n• Se usa a menudo al enumerar ejemplos, quejas, deseos, ventajas y desventajas…",
+    "notes": "• “きり” en きりがない = 切り（límite/borde）; literalmente: “no hay una línea final”.\n• Precederlo de una expresión de enumeración hace la oración natural: 例を挙げるときりがない／数え上げればきりがない。\n• Muy útil para cerrar un párrafo que se alarga: ～ときりがないので、このあたりで切り上げます。",
+    "mistakes": [
+     "Confundir “きり” con “切り/限り” en la escritura → ojo: en este patrón se escribe en ひらがな: きりがない.",
+     "Usarlo con verbos inadecuados (sin carácter de enumeración o de inicio) hace que la oración resulte poco natural.",
+     "Olvidar la condición と／ば/たら → debe haber una cláusula condicional antes de きりがない."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～たら<ruby>最後<rt>さいご</rt></ruby>",
+       "Una vez que… (consecuencia mala, difícil de parar)",
+       "Enfatiza la consecuencia negativa o la irreversibilidad.",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>始<rt>はじ</rt></ruby>めたら<ruby>最後<rt>さいご</rt></ruby>、<ruby>止<rt>と</rt></ruby>まらない。"
+      ],
+      [
+       "～<ruby>出<rt>だ</rt></ruby>したら<ruby>止<rt>と</rt></ruby>まらない",
+       "En cuanto se empieza, no se para",
+       "Lengua hablada, muy emotivo; significado parecido.",
+       "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>いい</rt></ruby>い<ruby>出<rt>だ</rt></ruby>したら<ruby>止<rt>と</rt></ruby>まらない。"
+      ],
+      [
+       "<ruby>限<rt>かぎ</rt></ruby>りがない／<ruby>限<rt>かぎ</rt></ruby>りない",
+       "No tener límite",
+       "Adjetivo o sustantivo; distinto de la expresión hecha きりがない.",
+       "<ruby>人間<rt>にんげん</rt></ruby>の<ruby>欲望<rt>よくぼう</rt></ruby>は<ruby>限<rt>かぎ</rt></ruby>りない。"
+      ],
+      [
+       "～と<ruby>言<rt>い</rt></ruby>えばきりがない",
+       "Si se habla de ello, es interminable",
+       "Variante fija de este patrón.",
+       "<ruby>欠点<rt>けってん</rt></ruby>と<ruby>言<rt>い</rt></ruby>えばきりがない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1112,
+   "src_hash": "356b711dfcad9e64",
+   "fields": {
+    "meaning": "No hace falta…",
+    "examples": [
+     "Viendo este resultado, no hace falta explicar la causa.",
+     "Solo es una llovizna, así que no hace falta tomar un taxi. Vamos a pie.",
+     "No hace falta decir que él es la persona más adecuada.",
+     "Es algo que se entiende con solo echar un vistazo. No hace falta examinarlo.",
+     "La reunión se puede resolver por correo electrónico, así que no hace falta molestarse en venir a la empresa."
+    ],
+    "explain": "Para enfatizar lo “evidente”: suele ir con 当然・明らか・見れば分かる.\nPara enfatizar que “no vale la pena”: va con わざわざ・わずか・この程度なら.\nEn la lengua escrita formal, ～までもなく resulta más fluido en mitad de la oración.\nDespués de ～るまでもない no se usan órdenes fuertes; es adecuado para recomendaciones suaves o comentarios.\n\n• Evalúa que una acción es innecesaria: por ser demasiado evidente, demasiado sencilla o porque el coste o esfuerzo no vale la pena.\n• Matiz objetivo y cortés; se usa tanto en la lengua hablada como en la escrita. 言うまでもない suele ir al principio de la oración para exponer algo evidente.\n• A diferencia de なくてもいい, ～るまでもない suele implicar “es superfluo / no hace falta porque es demasiado obvio”.",
+    "notes": "• “までも” significa originalmente “hasta el punto de…”; combinado con la negación “ない” da el sentido de “no se llega al punto de tener que…”.\n• En informes, se usa “検討するまでもなく” cuando la conclusión se desprende claramente de los datos.\n• Evita abusar de él para no sonar condescendiente.",
+    "mistakes": [
+     "Confundirlo con ～なくてもいい: los exámenes suelen pedir elegir el matiz “evidente/superfluo” → elige ～るまでもない.",
+     "Forma incorrecta: debe ser V-る + までもない; no se usa V-ない.",
+     "“来なくてもいい” frente a “来るまでもない”: la primera da permiso para no venir; la segunda implica “no hace falta venir porque no vale la pena”.",
+     "Ponerlo después de un sustantivo es incorrecto: ×予約までもない → 予約するまでもない."
+    ],
+    "comparison": {
+     "headers": [
+      "Punto gramatical",
+      "Significado",
+      "Similitud / diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～なくてもいい",
+       "No hace falta",
+       "Neutral, de permiso; no implica “evidente”.",
+       "<ruby>今日<rt>きょう</rt></ruby>、<ruby>宿題<rt>しゅくだい</rt></ruby>はやらなくてもいい。"
+      ],
+      [
+       "～には<ruby>及<rt>およ</rt></ruby>ばない",
+       "No es necesario / no se puede comparar",
+       "Cortés y formal; significa “no hace falta recurrir a ello”.",
+       "ご<ruby>心配<rt>しんぱい</rt></ruby>には<ruby>及<rt>およ</rt></ruby>びません。"
+      ],
+      [
+       "～まで(して)",
+       "Hasta el punto de (excesivo)",
+       "Significado distinto: enfatiza un grado excesivo.",
+       "<ruby>借金<rt>しゃっきん</rt></ruby>までして<ruby>買<rt>か</rt></ruby>う<ruby>必要<rt>ひつよう</rt></ruby>はない。"
+      ],
+      [
+       "<ruby>言<rt>い</rt></ruby>うまでもない",
+       "Evidente",
+       "Expresión hecha; se usa con flexibilidad al principio de la oración.",
+       "<ruby>言<rt>い</rt></ruby>うまでもないが、<ruby>安全<rt>あんぜん</rt></ruby><ruby>第<rt>だい</rt></ruby><ruby>一<rt>いち</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

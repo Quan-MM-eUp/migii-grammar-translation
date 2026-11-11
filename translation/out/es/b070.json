@@ -1,0 +1,514 @@
+{
+ "batch": "b070",
+ "lang": "es",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 1067,
+   "src_hash": "a9ebd5f5f5ed6b1a",
+   "fields": {
+    "meaning": "Por cierto… (cambio de tema)",
+    "connection": "[tema A]。 + それはそうと、 + [tema B]",
+    "examples": [
+     "El proyecto va bien, ¿eh? Por cierto, ¿quién va al viaje de negocios de la semana que viene?",
+     "Dejémoslo aquí por hoy. Por cierto, ¿has visto este documento?",
+     "Gracias. Por cierto, dime cómo llegar a la estación.",
+     "Lo del nuevo producto es interesante. Por cierto, ¿nos alcanza el presupuesto?",
+     "Esa película estuvo muy bien. Por cierto, ¿terminaste los deberes?"
+    ],
+    "explain": "Se usa a menudo en la conversación cotidiana para desviar la charla hacia otro tema.\nEvita usarlo de forma demasiado brusca con un superior en un contexto formal; considera ところで/さて.\nSe coloca justo al principio de la oración nueva, después del punto de la oración anterior.\n\n• Significado: expresión de enlace para cambiar de tema, a menudo de forma bastante repentina pero suave.\n• Matiz: coloquial, algo cotidiano; transmite la sensación de «acordarse de otra cosa».\n• Relación: puede tener una relación vaga con A o ninguna relación.",
+    "notes": "• Se usa mucho para introducir un «recordatorio» que a uno le acaba de venir a la mente durante la conversación.\n• Si se busca más coherencia en una exposición formal, se usa さて/次に/では en lugar de それはそうと.\n• No expresa relación de causa-efecto ni de contraste; es solo una señal de cambio de tema. explain: Se usa al cambiar de tema. ⏐ examples: 1. 「今日の授業、おもしろかったね。」\n「うん、すごくためになった。それはそうと、今度の試験いつだっけ？」\nLa clase de hoy fue interesante, ¿no? Sí, aprendí bastante. Por cierto, ¿cuándo era el próximo examen?\n2. 「春になりましたね。それはそうと、田中さんの息子さん、大学受かったでしょうか。」\nYa llegó la primavera, ¿verdad? Por cierto, ¿habrá aprobado el hijo de Tanaka el examen de ingreso a la universidad?",
+    "mistakes": [
+     "Elegir それはそうと en una oración que necesita una relación de «causa-resultado» → incorrecto (se debe usar だから/そのため/それで).",
+     "Usarlo en medio de la oración o tras una coma dentro de la misma oración larga → poco natural; lo correcto es tras el punto de la oración anterior.",
+     "Confundirlo con それでは (abre el siguiente paso en una presentación) → función diferente."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "それはそうと",
+       "Por cierto / a propósito (coloquial)",
+       "Cambio de tema repentino, no necesariamente relacionado",
+       "<ruby>終<rt>お</rt></ruby>わり。それはそうと、<ruby>次<rt>つぎ</rt></ruby>は？"
+      ],
+      [
+       "ところで",
+       "Por cierto (neutro)",
+       "El más común, moderadamente cortés",
+       "ところで、<ruby>明日<rt>あした</rt></ruby>の<ruby>件<rt>けん</rt></ruby>。"
+      ],
+      [
+       "それはさておき",
+       "Dejando eso de lado",
+       "Implica «pasar por alto A para ir al punto central B»",
+       "それはさておき、<ruby>本題<rt>ほんだい</rt></ruby>へ。"
+      ],
+      [
+       "<ruby>話<rt>はなし</rt></ruby>は<ruby>変<rt>か</rt></ruby>わるけど",
+       "Cambiando de tema",
+       "Muy propio de la lengua hablada, anuncia el cambio de tema",
+       "<ruby>話<rt>はなし</rt></ruby>は<ruby>変<rt>か</rt></ruby>わるけど、さ..."
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1068,
+   "src_hash": "8776dd0fe6389bbd",
+   "fields": {
+    "meaning": "Desear de verdad…, ojalá… (anhelo intenso)",
+    "examples": [
+     "Me gustaría alojarme al menos una vez en un hotel de lujo como este.",
+     "Con lo mucho que trabajo, me gustaría que me subieran un poco el sueldo, ¿no?"
+    ],
+    "notes": "Se usa junto con expresiones de deseo como 「たい」 o 「ほしい」 para enfatizar ese sentimiento."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1069,
+   "src_hash": "e6f39cd3a34c152f",
+   "fields": {
+    "meaning": "Nada más…, ya…",
+    "examples": [
+     "Nada más llover, ya empezó a despejarse.",
+     "El bebé lloró y, al instante, se echó a reír.",
+     "Nada más abrir la tienda, se formó una cola en un abrir y cerrar de ojos.",
+     "Apenas había vuelto y ya se ha ido otra vez a algún sitio.",
+     "En esta estación, en cuanto empieza a hacer frío, de repente hace calor.",
+     "Nada más sonar el timbre, hubo un apagón y todo volvió a quedar en silencio."
+    ],
+    "explain": "Momento: se usa para dos sucesos consecutivos muy seguidos.\nPersona: suele ser una observación objetiva; se evita que la segunda cláusula sea una acción intencionada del hablante.\nMatiz: enfatiza la sorpresa o la rapidez; puede usarse para quejarse de cambios caprichosos.\nEstilo: frecuente en la lengua hablada, también aparece en la lengua escrita que describe fenómenos.\n\n• Expresa que el hecho B ocurre casi inmediatamente después de A, lo que produce en el hablante una sensación de algo «fugaz» y de sorpresa.\n• Suele usarse para observaciones objetivas (el sujeto suele ser una tercera persona o una cosa); el hablante no interviene intencionadamente.\n• La segunda cláusula suele ser un hecho o fenómeno inesperado; no es adecuada para órdenes, intenciones ni invitaciones directas.\n• Puede expresar un cambio repetido y opuesto: A y, enseguida, B, lo contrario.\n• Matiz emocional: sorpresa, fastidio, queja leve o descripción del ritmo rápido de un cambio.",
+    "notes": "• La segunda cláusula usa formas que expresan hechos reales u objetivos (～た／～ている／～たところだ...). Se evitan ～ましょう、～てください.\n• Suele ir con fenómenos naturales, conductas de otras personas y cambios de estado.\n• En expresiones de cambios opuestos repetidos, el patrón ayuda a describir el carácter de «sol por la mañana, lluvia por la tarde».",
+    "mistakes": [
+     "Usar una orden o voluntad en la segunda cláusula: 読んだかと思ったら、勉強しよう× → Se debe usar un hecho u observación.",
+     "Usarlo para una acción intencionada del propio hablante: 私は家に着いたかと思ったら、寝ます× → Poco natural.",
+     "Confundirlo con ～と思いきや (contrario a lo esperado) o ～たとたん (incidente imprevisto). Lee con atención el matiz de la pregunta.",
+     "El tiempo entre las dos cláusulas debe ser muy corto; si es largo, se debe usar ～てから o ～その後."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～たかと<ruby>思<rt>おも</rt></ruby>ったら/～たかと<ruby>思<rt>おも</rt></ruby>うと",
+       "Nada más A, B (sorpresa)",
+       "Enfatiza la sorpresa; la segunda cláusula no es orden ni intención",
+       "<ruby>帰<rt>かえ</rt></ruby>ったかと<ruby>思<rt>おも</rt></ruby>うと、また<ruby>出<rt>で</rt></ruby>た。"
+      ],
+      [
+       "～たとたん(に)",
+       "Justo cuando A, B",
+       "B suele ser un incidente imprevisto; el sujeto de ambas cláusulas suele ser el mismo",
+       "<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がったとたん、<ruby>倒<rt>たお</rt></ruby>れた。"
+      ],
+      [
+       "～か～ないかのうちに",
+       "Apenas terminado A, B",
+       "Expresa una inmediatez aún mayor; matiz más neutro",
+       "<ruby>終<rt>お</rt></ruby>わるか<ruby>終<rt>お</rt></ruby>わらないかのうちに<ruby>帰<rt>かえ</rt></ruby>る。"
+      ],
+      [
+       "～や<ruby>否<rt>いな</rt></ruby>や",
+       "En cuanto A, inmediatamente B",
+       "Formal / lengua escrita arcaica; no se usa con órdenes",
+       "<ruby>着<rt>つ</rt></ruby>くや<ruby>否<rt>いな</rt></ruby>や、<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まった。"
+      ],
+      [
+       "～と<ruby>思<rt>おも</rt></ruby>いきや",
+       "Se creía que A, pero resulta que B",
+       "No implica necesariamente «inmediatez»; enfatiza lo contrario a lo esperado",
+       "<ruby>簡単<rt>かんたん</rt></ruby>かと<ruby>思<rt>おも</rt></ruby>いきや、<ruby>難<rt>むずか</rt></ruby>しい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1070,
+   "src_hash": "6996edfd27b3084f",
+   "fields": {
+    "meaning": "Desde que…, sin cambios desde entonces",
+    "examples": [
+     "Se fue de casa el año pasado y desde entonces no ha vuelto ni una vez.",
+     "Solo nos vimos una vez y desde entonces no he estado en contacto con esa persona.",
+     "Compré este libro y ahí sigue en la estantería, sin leer.",
+     "Recibí una llamada y desde entonces no he sabido nada más.",
+     "Desde que enfermó, mi abuelo vive prácticamente postrado en cama.",
+     "Desde que se graduó, no la he vuelto a ver por la ciudad."
+    ],
+    "explain": "Se usa a menudo con hitos personales (contacto, regreso, encuentros, estudios...).\nMatiz: algo negativo o de pesar, o bien objetivo: «a partir de entonces, se acabó».\nTiempo: se prolonga hasta el presente observado; equivale a «desde que A, sigue...».\n\n• «Después de A, (lo esperado) no volvió a ocurrir» → enfatiza una interrupción prolongada.\n• Suele ir acompañado de negación (～ない／～ていない) en la segunda cláusula. Sin negación, el matiz sigue siendo «solo esa vez» → menos natural con este significado.\n• Se centra en el carácter «único, de una sola vez» de una acción pasada y en su consecuencia, que se prolonga hasta ahora.\n• Se usa mucho en la lengua hablada para describir situaciones de contacto, encuentros, regresos y cambios.",
+    "notes": "• En la conversación, っきり es más frecuente que きり tras un verbo.\n• 寝たきり es una expresión fija que significa «postrado en cama», de carácter descriptivo médico-social.\n• En la lengua escrita puede verse ～たきりだ／～たきりで (sujeto y predicado abreviados) para enfatizar un estado prolongado.",
+    "mistakes": [
+     "Omitir ない en la segunda cláusula cambia el significado principal: 連絡したきり。× → 連絡したきり（連絡が）来ない。/ 連絡していない。",
+     "Confusión con ～て以来: si hay la implicación de «debería haber... pero no», se prefiere ～たきり.",
+     "Usarlo para sucesos que se repiten de forma natural (la salida o puesta del sol) es poco natural.",
+     "Confundir ～っきり con el sentido de «solo»: 会ったっきり＝会って以来（no volver a verse), distinto de 一回だけ会った."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "～たきり（～ない）",
+       "Desde que A, no (se hace) más",
+       "Enfatiza la interrupción y la expectativa de que debería haber habido otra vez",
+       "<ruby>会<rt>あ</rt></ruby>ったきり、<ruby>連絡<rt>れんらく</rt></ruby>しない。"
+      ],
+      [
+       "～て<ruby>以来<rt>いらい</rt></ruby>",
+       "Desde que A hasta ahora",
+       "Más neutro, solo marca un punto en el tiempo; no implica necesariamente expectativa",
+       "<ruby>卒業<rt>そつぎょう</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>、<ruby>東京<rt>とうきょう</rt></ruby>にいる。"
+      ],
+      [
+       "～てからというもの",
+       "Desde que A, (un nuevo estado) se mantiene",
+       "Enfatiza un gran cambio, más formal",
+       "<ruby>子<rt>こ</rt></ruby>が<ruby>生<rt>う</rt></ruby>まれてからというもの、<ruby>外食<rt>がいしょく</rt></ruby>しない。"
+      ],
+      [
+       "～っぱなし",
+       "Dejar en el mismo estado",
+       "Significado distinto; solo indica dejar algo tal cual, desatendido",
+       "<ruby>電気<rt>でんき</rt></ruby>をつけっぱなし。"
+      ],
+      [
+       "～だけ",
+       "Solo, únicamente",
+       "No significa «desde que»; evita confundirlo con っきり (solo)",
+       "<ruby>一度<rt>いちど</rt></ruby>だけ<ruby>会<rt>あ</rt></ruby>った。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1071,
+   "src_hash": "7709d107a0448f58",
+   "fields": {
+    "meaning": "Aunque…, aun así…; aun sabiendo…, igualmente…",
+    "connection": "Vます(sin ます) + つつも",
+    "examples": [
+     "Aunque ya casi me había resignado a no llegar a tiempo, corrí desesperadamente.",
+     "Aunque pienso que debo estudiar, ella no se me va de la cabeza y no puedo.",
+     "Aunque el estado de mi pierna mejora poco a poco, tardaré al menos medio año más en poder correr."
+    ],
+    "notes": "meaning_vi: (1) Aunque …\n(2) Al mismo tiempo que … ⏐ explain: (1) Suele usarse cuando el hablante confiesa algo, se arrepiente, reconsidera… ⏐ examples: 1. 彼女は忙しいと言いつつ、長電話をしている。\nAunque dice que está ocupada, ahí está charlando por teléfono un buen rato.\n2. 今日こそがんばろうと思いつつ、また勉強しなかった。\nAunque pensé que hoy sí me esforzaría, otra vez no estudié.\n3. 先生と相談しつつ、進路を決めたいと思う。\nQuiero decidir mi futuro consultándolo con el profesor."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1072,
+   "src_hash": "fe6dc951ef8075d0",
+   "fields": {
+    "meaning": "No poder seguir…, no poder quedarse…",
+    "examples": [
+     "No puedo seguir esperando el resultado, así que voy a preguntar directamente.",
+     "No puedo seguir deprimido para siempre. Sigamos adelante.",
+     "No puedo estar tan tranquilo. La fecha límite está cerca.",
+     "No puedes quedarte llorando todo el tiempo.",
+     "No podemos quedarnos aquí perdiendo el tiempo. Evacuemos rápido."
+    ],
+    "explain": "Suele ir con verbos de estado: 待つ／落ち込む／のんびりする／迷っている…\nMatiz de urgencia, de impulsarse a uno mismo con determinación; se usa mucho en la lengua hablada, pero también es adecuado en la lengua escrita corriente.\nForma negativa cortés: ～いられません. La forma contraída transmite una sensación más fuerte: ～てられない／～ちゃいられない.\n\n• Expresa una situación en la que no se puede continuar más un estado o acción por presión de tiempo, responsabilidad o circunstancias.\n• Implica que el hablante es consciente de que debe cambiar de acción de inmediato: «no puedo seguir … para siempre».\n• A diferencia del «no poder por capacidad» (できない), este patrón es un «no poder por la situación o la urgencia».",
+    "notes": "• Suele ir acompañado de una causa o circunstancia justo antes o después: 締め切りがあるから、待っていられない。\n• Enfatiza un cambio de acción: la oración siguiente suele ser una alternativa (直接問い合わせる／行動に移す…).\n• La forma てられない es frecuente en la conversación y subraya la urgencia.\nmeaning_vi: No poder seguir… para siempre\nexplain: Matiz de determinación: se reconoce la realidad, pero se enfatiza que «hay que cambiar».\nSuele aparecer con causas o circunstancias apremiantes:時間がない／責任がある／状況が厳しい…\nAdecuado tanto en la lengua hablada como en la escrita; en discursos y reuniones transmite un espíritu de cambio.\nexamples: 1. 締め切りが近いから、遊んでばかりはいられない。\nLa fecha límite está cerca, así que no puedo seguir jugando todo el tiempo.\n2. 失敗したけど、いつまでも泣いてばかりはいられない。\nHe fracasado, pero no puedo seguir llorando para siempre.\n3. もう社会人だ。親に甘えてばかりはいられない。\nYa trabajo. No puedo seguir dependiendo de mis padres.\n4. いつまでも学生でばかりはいられない。自立しなければ。\nNo puedo ser estudiante para siempre. Tengo que independizarme.\n5. 危機の今、守りに回ってばかりはいられない。\nEn plena crisis, no podemos limitarnos a defendernos.\n6. わからないからといって、人に聞いてばかりはいられない。\nNo puedo estar preguntando a los demás cada vez que no sé algo.\ncomparison: Patrón | Significado | Diferencia | Ejemplo breve\nVてばかりはいられない | No poder seguir haciendo V todo el tiempo | Enfatiza el cambio de acción | 寝（ね）てばかりはいられない\nN/なでばかりはいられない | No poder seguir en el estado N/な | Se usa «で» para unir N/Aな | 学生（がくせい）でばかりはいられない\n～てばかりだ | No hacer más que V | Describe la realidad, no implica que haya que cambiar | 遊（あそ）んでばかりだ\n～てはいられない | No poder seguir V | Sin «ばかり» → enfatiza que no se puede continuar la conducta | 悠長（ゆうちょう）にしてはいられない\n～ばかりではない | No solo… | Niega la «exclusividad», significado distinto | 彼（かれ）は遊（あそ）びばかりではない\ncommon_mistakes: • Forma incorrecta con N/Aな: ×学生ばかりはいられない → 学生でばかりはいられない.\n• Usar la forma de diccionario: ×遊ぶばかりはいられない → 遊んでばかりはいられない.\n• Confusión con ～てばかりだ (describe un hábito) → no tiene el matiz de «hay que cambiar».\n• JLPT N2: trampa para distinguir ～てはいられない y ～てばかりはいられない; atención al núcleo del significado «no poder hacer solo una cosa».\nmeaning_vi: No poder seguir…, no tener tiempo para… (てはいられない)\nmeaning_vi: No poder seguir… para siempre (てばかりはいられない)\nmeaning_vi: No poder seguir…, no poder quedarse…\nexamples: 1. 田中君、遅いなあ。もう待ってられないから先に行こう。\nQué tarde llega Tanaka. Ya no podemos seguir esperando, así que vámonos primero.\n2. 忙しくてテレビなんか見てらんない。\nEstoy tan ocupado que no puedo ponerme a ver la tele.\nmeaning_vi: No poder seguir… para siempre\nexamples: 1. 連休だけれど、もうすぐ試験があるから、遊んでばかりはいられない。\nEstamos en un puente largo, pero como pronto hay un examen, no puedo dedicarme solo a divertirme.\n2. もう親に頼ってばかりはいられない。\nYa no puedo seguir dependiendo de mis padres.",
+    "mistakes": [
+     "Confundir «no poder por capacidad» con «no poder por la situación»: ×疲れて走っていられない（puede ser correcto si significa «no poder seguir corriendo» por cansancio; evita confundirlo con 走れない）.",
+     "Omitir la causa hace que la oración suene cortada: conviene indicar la circunstancia o la urgencia para que sea más natural.",
+     "Confusión de sujeto: el patrón suele expresar lo que siente el hablante; evita atribuirlo a una tercera persona salvo que sea una conjetura clara."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo breve"
+     ],
+     "rows": [
+      [
+       "Vてはいられない",
+       "No poder seguir V",
+       "Forma completa; mismo significado que Vていられない",
+       "<ruby>待<rt>ま</rt></ruby>ってはいられない"
+      ],
+      [
+       "Vている<ruby>場合<rt>ばあい</rt></ruby>じゃない",
+       "No es momento de V",
+       "Lengua hablada enfática, situación urgente",
+       "<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>じゃない"
+      ],
+      [
+       "Vわけにはいかない",
+       "No poder (por moral o normas)",
+       "Razón moral o social, no por estar ocupado",
+       "<ruby>行<rt>い</rt></ruby>かないわけにはいかない"
+      ],
+      [
+       "～てたまらない",
+       "Muchísimo (sentimiento)",
+       "Expresión emotiva fuerte; no significa «no poder seguir»",
+       "<ruby>会<rt>あ</rt></ruby>いたくてたまらない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1074,
+   "src_hash": "068802fda8c7ca32",
+   "fields": {
+    "meaning": "…es insoportable, …es un fastidio",
+    "connection": "Vて + はかなわない / V forma pasiva て + はかなわない (来られてはかなわない)",
+    "examples": [
+     "El cliente se equivocó él solo, y no hay quien aguante que encima nos echen la culpa a nosotros.",
+     "Que vengan a divertirse a mi casa cada vez que hay vacaciones es insoportable."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1075,
+   "src_hash": "39493c5e76e24d7c",
+   "fields": {
+    "meaning": "¿Se le puede llamar…?, ¿es esto…?",
+    "connection": "V/A forma simple + というのか / N/Na(だ) + というのか",
+    "examples": [
+     "Todavía no sé si a esto se le llama amor o si es solo admiración.",
+     "No sé si llamar a su actitud descortés o desconsiderada, pero, en cualquier caso, me da rabia.",
+     "Con todo lo que me esforcé, ¿y el resultado es esto?",
+     "No sé si llamarlo felicidad o inquietud; es un sentimiento complicado.",
+     "No sé si llamar a esto milagro o casualidad; en cualquier caso, es increíble."
+    ],
+    "explain": "Suele aparecer al final de la oración o en medio de ella, y expresa pensamientos íntimos o un sentimiento de vacilación difícil de expresar.\nSe usa en la lengua hablada o en la lengua escrita que describe sentimientos, no en la lengua escrita formal como informes o tesis.\nLa entonación suele ser de interrogación suave o de exclamación, pero no es una pregunta que exija respuesta.\n\n• Expresa vacilación al querer nombrar, evaluar o expresar algo: «¿Se puede decir que…?», «¿Cómo debería llamarlo?».\n• Suele contener sentimientos como sorpresa, ironía, incredulidad o dificultad para expresarse.\n• Puede usarse para emitir un juicio suave o dudoso: «¿Sería correcto llamarlo…?».\n• Se usa a menudo en la conversación o en textos que describen el mundo interior de un personaje.",
+    "notes": "• Este patrón se usa a menudo para describir un estado de indecisión en la literatura, el anime y el cine.\n• Puede repetirse dos veces para presentar dos opciones: ～というのか、～というのか.\n• A diferencia de una pregunta normal, es una pregunta retórica que no necesita respuesta del oyente.",
+    "mistakes": [
+     "Confusión con というのに/ということだ → hay que fijarse en el matiz: interrogación exclamativa o paradoja.",
+     "Usarlo en un contexto formal: este patrón es emotivo, no se usa en textos académicos.",
+     "Falta de la primera cláusula o de la segunda: se necesita información con la que contrastar; si no, la oración queda ambigua."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "～というのか",
+       "¿Debería llamarse…?",
+       "Vacilación, dificultad para expresarse, sentimientos complejos.",
+       "<ruby>才能<rt>さいのう</rt></ruby>というのか、<ruby>運<rt>うん</rt></ruby>というのか。"
+      ],
+      [
+       "～というのは",
+       "Significa…, es decir…",
+       "Explicación, definición.",
+       "<ruby>民主<rt>みんしゅ</rt></ruby><ruby>主義<rt>しゅぎ</rt></ruby>というのは…"
+      ],
+      [
+       "～というのに",
+       "Aunque…",
+       "Reproche, paradoja.",
+       "<ruby>雨<rt>あめ</rt></ruby>だというのに<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～のではないか",
+       "¿No será que…?",
+       "Conjetura, interrogación más fuerte.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>怒<rt>おこ</rt></ruby>っているのではないか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1076,
+   "src_hash": "b0b79a6d5c0d0f02",
+   "fields": {
+    "meaning": "Y sin embargo…, a pesar de que…",
+    "examples": [
+     "Con el frío que hace, y él ni siquiera lleva abrigo.",
+     "Quiero que vuelva pronto, y sin embargo todavía no ha dado señales de vida.",
+     "A pesar de que llovía a cántaros, el partido no se suspendió.",
+     "Aunque el sueldo es bajo, me obligan a hacer horas extra constantemente.",
+     "A pesar de que estaba ocupada, ella me ayudó."
+    ],
+    "explain": "Posición: se sitúa entre las dos cláusulas A y B. A es un hecho y B es un resultado opuesto e indeseado.\nSuele tener un sentimiento negativo: reproche, decepción, queja.\nPuede usarse en la lengua hablada, pero con un matiz fuerte → se usa cuando se quiere enfatizar lo irrazonable.\nNo es adecuado en la lengua escrita científica ni en situaciones demasiado formales, como un discurso político.\n\n• Patrón que expresa un fuerte contraste entre la realidad y la expectativa: aunque A es un hecho, el resultado es B, algo sorprendente, que causa descontento o reproche.\n• Matiz emocional fuerte: expresa enfado, queja, decepción e incluso ironía.\n• Traducción natural: «Aunque…», «Y sin embargo…», «A pesar de que…».\n• Se diferencia de 〜のに (normal) en que というのに es más fuerte emocionalmente y se usa mucho en la lengua escrita y en conversaciones expresivas.",
+    "notes": "• Se usa a menudo en novelas y en diálogos con emociones fuertes, como películas, anime o redacciones.\n• La forma cortés 「というのです／というのにです」 se usa poco; normalmente se emplea la forma simple.\n• Cuidado con distinguir la pronunciación de 「というのに？」 (repregunta: «¿quieres decir que…?»).",
+    "mistakes": [
+     "Confusión con ～というのに？ (interrogación) → la versión interrogativa se basa en la entonación, mientras que el patrón gramatical expresa oposición.",
+     "Confusión con ～のに: hay que recordar que というのに es más fuerte y emotivo.",
+     "Usarlo en un contexto incorrecto, cuando la oración no contiene emoción o no hay una oposición clara.",
+     "El JLPT N2 suele evaluar la diferencia con ～にもかかわらず y ～のに."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Rasgo diferencial",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "～というのに",
+       "Aunque… y sin embargo…",
+       "Emoción fuerte, indignación, contrario a lo esperado.",
+       "<ruby>雨<rt>あめ</rt></ruby>というのに<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～のに",
+       "Aunque…, pero…",
+       "Neutro, menos emotivo.",
+       "<ruby>雨<rt>あめ</rt></ruby>なのに<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～にもかかわらず",
+       "Pese a…, aunque…",
+       "Formal, más propio de la lengua escrita.",
+       "<ruby>雨<rt>あめ</rt></ruby>にもかかわらず<ruby>試合<rt>しあい</rt></ruby>が<ruby>行<rt>おこな</rt></ruby>われた。"
+      ],
+      [
+       "～くせに",
+       "Aunque…, y encima… (crítica fuerte)",
+       "Lengua hablada, se usa para reprochar a otros.",
+       "<ruby>知<rt>し</rt></ruby>っているくせに<ruby>教<rt>おし</rt></ruby>えてくれない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1077,
+   "src_hash": "7d5624ffc95e9e66",
+   "fields": {
+    "meaning": "Porque…, la razón es que…",
+    "connection": "[oración A]。というのも、[oración B](からだ)",
+    "examples": [
+     "No hablo mucho con él. Es que nuestros caracteres no encajan.",
+     "La semana que viene estaré ocupado. Es que empieza un nuevo proyecto.",
+     "Hoy no puedo salir. La razón es que llueve muchísimo.",
+     "El partido se suspendió. Y es que se acerca un tifón.",
+     "Él dejó la empresa. Y es que piensa abrir su propia tienda."
+    ],
+    "explain": "Se coloca al principio de la cláusula b para explicar la cláusula a.\nMás formal que だって o なんでかというと.\nSe usa a menudo al dar explicaciones en conversaciones corteses, en la prensa, en ensayos y en textos argumentativos.\nSe diferencia de というのは en que というのは introduce una razón, mientras que というのも enfatiza que «esta es la razón de lo que se acaba de decir».\n\n• Se usa para dar una razón o explicación de la cláusula anterior.\n• Equivale a «Si…, es porque…», «La razón es que…».\n• La cláusula A es una conclusión o un hecho. La cláusula B (tras というのも) es la causa o razón.\n• Se usa a menudo en la lengua escrita y en la lengua hablada formal, especialmente en textos argumentativos, explicativos o persuasivos.",
+    "notes": "• よく se usa en ensayos y en la lengua escrita de opinión cuando se quiere exponer de forma coherente.\n• Puede combinarse con la forma cortés: ～ということです・～というのです.\n• Si la razón es larga, puede invertirse: というのも、～からだ。",
+    "mistakes": [
+     "Confusión con ということだ (información de oídas / conclusión) – función totalmente distinta.",
+     "No se usa en un estilo coloquial sencillo – suena rígido; se debe usar だって/なんでかというと.",
+     "Lo que sigue a というのも debe ser una razón lógica, no información sin relación.",
+     "El JLPT N2~N1 suele preguntar la diferencia con というのは/なぜかというと."
+    ],
+    "comparison": {
+     "headers": [
+      "Patrón",
+      "Significado",
+      "Diferencia",
+      "Ejemplo"
+     ],
+     "rows": [
+      [
+       "というのも",
+       "Porque…, la razón es que…",
+       "Explica la causa de la oración anterior; lengua escrita, formal.",
+       "<ruby>行<rt>い</rt></ruby>かない。というのも、<ruby>忙<rt>いそが</rt></ruby>しいからだ。"
+      ],
+      [
+       "というのは",
+       "Porque…, es decir…",
+       "Introduce una razón o la definición de una palabra o concepto.",
+       "<ruby>行<rt>い</rt></ruby>かない。というのは、<ruby>忙<rt>いそが</rt></ruby>しいからだ。"
+      ],
+      [
+       "なぜかというと",
+       "Porque…, la razón es que…",
+       "Enfatiza la razón; suele ir con ～からだ.",
+       "<ruby>行<rt>い</rt></ruby>かない。なぜかというと、<ruby>忙<rt>いそが</rt></ruby>しいからだ。"
+      ],
+      [
+       "だって",
+       "Es que…",
+       "Lengua hablada, informal, emotivo.",
+       "<ruby>行<rt>い</rt></ruby>かないよ。だって<ruby>忙<rt>いそが</rt></ruby>しいもん。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}
