@@ -1,0 +1,811 @@
+{
+ "batch": "b049",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-09",
+ "items": [
+  {
+   "id": 683,
+   "src_hash": "f51a7b88bd8bcaea",
+   "fields": {
+    "meaning": "Mengemukakan hal-hal kecil, lalu menyatakan perasaan \"segitu saja pun tidak apa-apa\"",
+    "examples": [
+     "Cukup melihat saja.",
+     "Ini PR saja juga cukup, kok, bisa tolong ajari aku?",
+     "Asal kamu ada di sampingku, itu sudah cukup."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 684,
+   "src_hash": "17caab28d3a736fc",
+   "fields": {
+    "name": "～って（katanya）",
+    "meaning": "Bahasa lisan untuk menyampaikan kepada orang lain apa yang didengar dari seseorang (kabar dari orang lain).",
+    "connection": "[kalimat/klausa] + って（menyampaikan kabar dari orang lain）",
+    "examples": [
+     "Katanya tidak ikut.",
+     "Katanya Kimura-san tidak ikut ke pesta.",
+     "Katanya besok turun salju."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 685,
+   "src_hash": "4e6d4419d2b85b1c",
+   "fields": {
+    "meaning": "Bahasa lisan dari struktur「～というのは」、「～と」. Struktur「「N1～ってN2 pada contoh ⑤ adalah bahasa lisan dari struktur「N1 というN2」, yang menyatakan nama dari N2.",
+    "connection": "N/[kalimat/klausa] + って（= というのは/と）",
+    "examples": [
+     "Bantu apa?",
+     "\"Bantu aku sebentar, dong.\" \"Bantu apa?\"",
+     "\"デジカメ itu apa?\" \"デジカメ itu maksudnya kamera digital.\"",
+     "\"Di sini tertulis 'Dilarang merokok', lho.\" \"Oh, saya tidak menyadarinya.\"",
+     "\"Kamu kenal orang yang namanya Yamada dari kelas sebelah?\" \"Nggak kenal.\""
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 686,
+   "src_hash": "39d684e666445863",
+   "fields": {
+    "meaning": "Bahasa lisan dari struktur 「～ても／でも」",
+    "examples": [
+     "Biarpun berlari",
+     "Biarpun berlari dari sekarang, tetap tidak akan keburu.",
+     "Seluas apa pun, aku tidak mau tinggal di kamar yang jauh dari stasiun.",
+     "Masakan ini mudah, jadi anak-anak pun bisa membuatnya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 689,
+   "src_hash": "64b564b30cea7458",
+   "fields": {
+    "meaning": "Bermaksud… tetapi (tidak terjadi)",
+    "examples": [
+     "Saya bermaksud bangun pagi besoknya, tetapi malah kesiangan.",
+     "Saya kira email itu sudah saya kirim, tetapi ternyata masih ada di draf.",
+     "Hari ini saya berniat tidak keluar, tetapi ada urusan mendadak.",
+     "Saya hanya bermaksud bercanda. Maaf kalau menyinggung perasaan Anda.",
+     "Waktu masih mahasiswa, saya berniat belajar ke luar negeri, tetapi dananya tidak cukup."
+    ],
+    "explain": "Bentuk sopan, sering digunakan untuk menjelaskan disertai \"が／けど\" yang mengemukakan hasil yang berlawanan.\nVた + つもりでした biasanya digunakan bersama \"が／のに／けど\" untuk menandakan perbedaan dengan kenyataan.\nUntuk menyatakan niat orang lain: gunakan ～つもりだったようだ／と言っていた agar sopan dan tepat.\nMeminta maaf/meralat: \"～したつもりでしたが…\" adalah pola yang sangat alami dalam email/pekerjaan.\n\n• Niat di masa lampau: \"sudah berniat/bermaksud akan …\" pada suatu titik waktu di masa lampau. Terlaksana atau tidak tergantung konteks sesudahnya.\n• Keyakinan keliru/salah paham: \"mengira sudah …\" digunakan dengan Vた, biasanya diikuti hasil yang berlawanan dan permintaan maaf/ralat.\n• Niat negatif: Vない + つもりでした = \"sudah berniat tidak …\".\n• Subjek biasanya pembicara; untuk orang lain perlu kutipan/ungkapan halus.",
+    "notes": "• Bentuk negatif sekarang \"～つもりはない\" (tidak berniat) berbeda dengan bentuk lampau sopan \"～つもりでした\".\n• Dalam email kerja, \"送ったつもりでしたが、確認が足りませんでした\" adalah cara meminta maaf yang halus.\n• Dengan N: \"冗談のつもり\" adalah ungkapan tetap yang umum saat menjelaskan kesalahpahaman.",
+    "mistakes": [
+     "Digunakan untuk orang lain tanpa kutipan: \"彼は行くつもりでした\" mudah menimbulkan dugaan subjektif; sebaiknya \"と言っていました/だったようです\".",
+     "Tertukar dengan ～はずだった: \"つもり\" adalah niat pribadi; \"はず\" adalah harapan yang berdasar.",
+     "Tertukar antara \"mengira sudah V\" dan \"berniat V\": harus menggunakan Vた + つもり untuk menyatakan \"mengira sudah\".",
+     "Menghilangkan klausa berlawanan sesudahnya: dengan Vた + つもりでした biasanya perlu disebutkan kenyataan yang berbeda agar artinya jelas."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～つもりでした",
+       "Bermaksud/sudah mengira",
+       "Subjektif dari pembicara; bisa berbeda dari kenyataan",
+       "<ruby>行<rt>い</rt></ruby>くつもりでした"
+      ],
+      [
+       "～はずだった",
+       "Seharusnya",
+       "Harapan objektif, berdasar",
+       "<ruby>来<rt>く</rt></ruby>るはずだった"
+      ],
+      [
+       "～<ruby>予定<rt>よてい</rt></ruby>だった",
+       "Ada rencana",
+       "Jadwal/rencana resmi",
+       "<ruby>出張<rt>しゅっちょう</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>だった"
+      ],
+      [
+       "～つもりで",
+       "Dengan niat…",
+       "Keterangan tujuan untuk tindakan utama",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>するつもりで<ruby>来<rt>き</rt></ruby>た"
+      ],
+      [
+       "～ところだった",
+       "Hampir saja",
+       "Nyaris terjadi tetapi tidak",
+       "<ruby>遅<rt>おく</rt></ruby>れるところだった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 691,
+   "src_hash": "f797958a37d3f7f5",
+   "fields": {
+    "meaning": "Disuruh, diminta",
+    "connection": "「Vてくれ」 + と + 頼む/言う（mengutip permintaan）",
+    "examples": [
+     "Dia meminta saya menjelaskan sekali lagi.",
+     "Saya disuruh atasan menyerahkan laporan paling lambat besok.",
+     "Aku disuruh teman supaya lebih sering menghubunginya.",
+     "Saya diminta petugas keamanan untuk tidak memotret di sini.",
+     "Ibu menyuruh saya cepat pulang."
+    ],
+    "explain": "Nuansanya langsung, bisa terdengar kasar jika dipakai sebagai permintaan langsung; biasanya digunakan untuk melaporkan kembali suatu permintaan.\n\"くれ\" menyiratkan keuntungan condong ke pihak yang meminta. Untuk permintaan yang netral/sopan, gunakan \"～てくださいと\" atau \"～ように言う\".\nSubjek/sasaran: AはBにVてくれと頼む → B adalah orang yang melakukan V demi keuntungan A.\nBentuk singkat bahasa lisan \"～てくれって\" umum dalam percakapan, tidak digunakan dalam bahasa formal.\n\n• Mengutip isi permintaan \"tolong V untuk saya/kami\" dengan menggunakan ～てくれと + 言う/頼む/頼まれる.\n• \"くれ\" menunjukkan keuntungan yang mengarah ke pembicara/kelompok pembicara; bernuansa meminta/memerintah yang agak kasar bila digunakan langsung.\n• Bentuk negatif \"～ないでくれと\" = \"menyuruh jangan …\".\n• Biasanya digunakan dengan kata kerja ujaran/permintaan: 言う・頼む・注意する・命じる（kuat, jarang dipakai dengan くれ）.",
+    "notes": "• Dalam laporan di kantor/email, sebaiknya utamakan \"～てくださいと（依頼されました）／～ように言われました\" agar tetap sopan.\n• Kepada atasan/pelanggan, sama sekali hindari memakai \"～てくれ\" secara langsung karena kasar.\n• \"～てくれと言われた\" bisa dipahami sebagai perintah/permintaan tergantung hubungan kekuasaan.\nexamples: 1. 友達に、田中さんの電話番号を教えてくれと頼まれた。\nSaya diminta teman untuk memberi tahu nomor telepon Tanaka-san.\n2. 大家に、玄関の前に自転車を置かないでくれと言われた。\nSaya ditegur pemilik rumah agar tidak menaruh sepeda di depan pintu masuk.",
+    "mistakes": [
+     "Lupa partikel kutipan \"と\": harus \"Vてくれと 言う\".",
+     "Salah arah keuntungan: \"くれ\" berarti melakukan untuk saya/kami. Jika ingin netral, gunakan \"ください\".",
+     "Digunakan kepada orang yang lebih tinggi kedudukannya: tidak sopan. Gantilah dengan \"～ていただけますか／～てください\".",
+     "Tertukar dengan \"Vてくる\": \"～てくれと\" adalah permintaan, bukan kata kerja majemuk."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Nuansa/perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vてくれと<ruby>言<rt>い</rt></ruby>う",
+       "Menyuruh/meminta melakukan V untuk dirinya",
+       "Langsung, agak kasar bila dipakai langsung",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくれと<ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "Vてくださいと <ruby>言<rt>い</rt></ruby>う",
+       "Mengatakan \"tolong V\"",
+       "Sopan, netral",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくださいと <ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "Vてほしいと <ruby>言<rt>い</rt></ruby>う",
+       "Ingin seseorang V",
+       "Menyatakan keinginan, lebih lembut daripada くれ",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってほしいと <ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "V(る/ない)ように <ruby>言<rt>い</rt></ruby>う",
+       "Menyuruh/mengingatkan untuk melakukan/tidak melakukan",
+       "Tidak langsung, lebih sopan",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>く</rt></ruby>るように <ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "Vないでくれ",
+       "Jangan V",
+       "Larangan langsung; kasar",
+       "<ruby>触<rt>さわ</rt></ruby>らないでくれ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 692,
+   "src_hash": "857adcedf6c2d460",
+   "fields": {
+    "meaning": "「～という事実（または仮定の状況）だと、 …というよくない結果になる。」 …はマイナスの意味の文で、話者の希望・意向を表す文や働きかけの文は来ない。\nJika kenyataannya (atau situasi pengandaiannya) ~, maka akan membawa hasil yang tidak baik, yaitu …\n… adalah kalimat yang bernuansa negatif, bukan kalimat yang menyatakan keinginan, niat pembicara, atau ajakan kepada lawan bicara untuk melakukan sesuatu.",
+    "connection": "Vては / Aくては / N・Naでは + [hasil buruk] / V bentuk biasa + のでは",
+    "examples": [
+     "Yamada-san baru saja dioperasi, jadi kalau dijenguk malah akan merepotkannya.",
+     "Dengan sikap tidak bertanggung jawab seperti itu, Anda akan dibenci semua orang, lho.",
+     "Kalau baru mulai membangun rumah sekarang, tidak akan selesai dalam tahun ini."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 693,
+   "src_hash": "06747e10f5df9795",
+   "fields": {
+    "meaning": "Menyatakan nasihat untuk mencoba melakukan ~",
+    "examples": [
+     "Bagaimana kalau Anda mencoba berolahraga?",
+     "\"Setiap malam saya susah karena tidak bisa tidur.\" \"Bagaimana kalau Anda mencoba berolahraga pada siang hari?\"",
+     "Buku ini menarik, coba baca, (gimana)?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 694,
+   "src_hash": "7d9acac6eb7a8206",
+   "fields": {
+    "name": "～てる（bentuk singkat Vている）",
+    "meaning": "Bentuk singkat bahasa lisan dari Vている",
+    "connection": "Vている → Vてる / Vていた → Vてた（bahasa lisan）",
+    "examples": [
+     "Punya / Terlupa / Menulis dulu",
+     "Bir ini masukkan ke kulkas, ya.",
+     "\"Kamu kenal orang yang lagi baca koran di sana?\"\n\"Oh, itu Yoshida-san.\"",
+     "\"Jus ini boleh aku minum semua?\"\n\"Ya, boleh.\""
+    ],
+    "explain": "Bahasa lisan dari struktur「～ている／～てしまう／～ておく」"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 695,
+   "src_hash": "75b960fcf1a92473",
+   "fields": {
+    "meaning": "Menunjukkan keadaan perasaan atau sensasi yang kuat dan tidak dapat dikendalikan.",
+    "examples": [
+     "(Tenggorokan) haus sekali, tidak tahan.",
+     "Ngantuk sekali, tidak tahan.",
+     "Aduh, aku penasaran sekali dengan hasil pertandingannya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 696,
+   "src_hash": "a4e26d2042a4048f",
+   "fields": {
+    "meaning": "「～の動作をすることで、…という事実に気がついた。」… は前から続いている状態を表す文で、少し意外感がある内容。「…ていた」の形がよく使われる。～と…の主語は違う。\nDengan melakukan tindakan ~, menyadari kenyataan bahwa …\n… adalah kalimat yang menyatakan keadaan yang sudah ada sejak sebelumnya, dan isinya agak mengejutkan.\nBentuk ていた sering digunakan.\nSubjek ~ dan … berbeda.",
+    "connection": "Vると/Vたら、～ていた・～た / Vていると/Vていたら、～た（menemukan, keterkejutan）",
+    "examples": [
+     "Waktu hadiahnya dibuka, ternyata isinya boneka.",
+     "Begitu keluar dari pintu depan, di sana ada beberapa pria bertubuh besar.",
+     "Ketika melihat ke luar jendela, pemandangannya salju putih bersih.",
+     "Sekitar jam 12 malam, ketika sedang menonton TV, ada telepon dari teman di Amerika.",
+     "Ketika sedang membicarakan Maki-san di kedai kopi, kebetulan Maki-san masuk.",
+     "Ketika sedang membersihkan halaman, tiba-tiba turun hujan deras."
+    ],
+    "notes": "Vると、(すぐに)Vた — kedua klausa memiliki subjek yang sama, kejadian berurutan"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 697,
+   "src_hash": "ce0838ca11232a31",
+   "fields": {
+    "meaning": "Semoga, andai saja",
+    "connection": "V/A bentuk biasa + といいなあ",
+    "examples": [
+     "Semoga besok cerah, ya.",
+     "Semoga dia senang dengan hadiah ini.",
+     "Semoga lulus ujian.",
+     "Semoga hari ini bisa pulang cepat.",
+     "Semoga kabarnya cepat datang.",
+     "Semoga saja masih ada kursi kosong."
+    ],
+    "explain": "Digunakan untuk sekarang/masa depan; untuk lampau jarang, hanya ketika berharap hal yang sudah terjadi ke arah yang positif (belum tahu hasilnya): ちゃんと届いていた といいなあ。\nUntuk tindakan orang lain yang dilakukan untuk diri sendiri: ～てくれるといいなあ.\nHindari dalam bahasa formal; ganti dengan ～ことを願っております／～だと幸いです。\nといいなあ bersifat harapan pribadi; tidak bernuansa menasihati seseorang untuk melakukan sesuatu.\n\n• Menyatakan harapan/keinginan pribadi tentang masa depan atau hal yang belum diketahui saat ini: \"Andai saja/Semoga…\".\n• Biasanya digunakan ketika pembicara tidak dapat mengendalikan hal tersebut (ujian, cuaca, tanggapan…).\n• Nuansanya akrab, berbicara pada diri sendiri atau berbagi perasaan ringan dengan lawan bicara.\n• Menambahkan なあ memperkuat kesan monolog; な menggantikan なあ di beberapa daerah/bahasa lisan.",
+    "notes": "• Bila ingin sopan kepada mitra: 「ご検討いただけると幸いです」 sebagai pengganti ～といいなあ.\n• Di media sosial/buku harian, ～といいなあ menunjukkan harapan yang tulus dan alami.\n• Nada perasaan: memanjangkan なぁ untuk menekankan perasaan: ～といいなぁ (tulisan sehari-hari, bahasa lisan).\nmeaning_vi: Andai saja…, semoga\nexplain: Digunakan untuk menyatakan keinginan, harapan pribadi. Termasuk jenis kalimat seruan\nexamples: 1. もっと日本語がうまく話せたらいいなあ。\nAndai saja saya bisa berbicara bahasa Jepang dengan lebih lancar.\n2. 明日、雨が降らないといいなあ。\nSemoga besok tidak hujan.",
+    "mistakes": [
+     "Tertukar dengan ～といい (menasihati orang lain) dalam soal pilihan: jika ada subjek \"kamu/Anda\" → itu nasihat, bukan harapan.",
+     "Digunakan dalam bahasa formal → tidak cocok; pilih ～と幸いです／～ことを願っております.",
+     "Salah kala/kata sifat: Aだといいなあ (tidak menghilangkan だ dalam bahasa lisan santai masih dapat diterima; tetapi dalam ujian pertahankan bentuk yang benar).",
+     "Salah mengenai subjek yang dapat mengendalikan: jika pembicara bisa memutuskan, gunakan ～ばいい alih-alih ～といいなあ (bermakna \"sebaiknya\")."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～といいなあ",
+       "Semoga/andai (akrab)",
+       "Monolog, pribadi; biasanya tidak dapat dikendalikan.",
+       "<ruby>合格<rt>ごうかく</rt></ruby>するといいなあ。"
+      ],
+      [
+       "～といい",
+       "Sebaiknya/kalau… akan baik (nasihat)",
+       "Ditujukan kepada lawan bicara; bersifat saran/anjuran.",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るといいよ。"
+      ],
+      [
+       "～ばいいのに",
+       "Andai saja… (penyesalan/keluhan)",
+       "Nuansa ketidakpuasan/penyesalan lebih kuat.",
+       "もっと<ruby>安<rt>やす</rt></ruby>ければいいのに。"
+      ],
+      [
+       "～たらいいなあ",
+       "Semoga/andai (syarat)",
+       "Artinya setara, akrab; menekankan syarat pengandaian.",
+       "<ruby>雨<rt>あめ</rt></ruby>がやんだらいいなあ。"
+      ],
+      [
+       "～といいんだけど",
+       "Semoga…",
+       "Lembut, ragu-ragu; sedikit lebih sopan daripada なあ.",
+       "<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>うといいんだけど。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 698,
+   "src_hash": "1671c6e672b8f05b",
+   "fields": {
+    "meaning": "Menyatakan arti yang mirip dengan struktur 「～のに」, tetapi menunjukkan perasaan terkejut yang lebih kuat daripada 「～のに」",
+    "connection": "V/A bentuk biasa + というのに / N/Naだ + というのに",
+    "examples": [
+     "Padahal akan pergi berwisata",
+     "Padahal mulai besok akan pergi berwisata, persiapannya belum selesai juga.",
+     "Padahal sudah jam 1 malam, ayah belum pulang juga."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 699,
+   "src_hash": "6be25295516b6a39",
+   "fields": {
+    "meaning": "Bermakna \"tepat ketika ~\"",
+    "examples": [
+     "Tepat ketika sedang memasak",
+     "Tepat ketika sedang memasak, ada telepon masuk, jadi saya kerepotan.",
+     "Saya kepergok teman ketika sedang berkencan.",
+     "Ketika naik kereta hendak pergi ke kantor, saya baru sadar bahwa hari ini hari libur nasional."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 700,
+   "src_hash": "5d41b43db9502438",
+   "fields": {
+    "name": "～ところだ・～ところ（＋partikel）…",
+    "meaning": "「～の直前だ（①）・進行中だ（②）・直後だ（③④）。」文中では、後に来る動詞によって「ところを・ところで・ ことろへ」などの形になる。\nTepat sebelum ~ (①)/ Sedang ~ (②)/ Tepat sesudah (③④).\nDalam kalimat, tergantung kata kerja yang mengikutinya, partikel yang menyertainya berubah menjadi bentuk seperti \"ところを／ところで／ところへ／dll.\".",
+    "connection": "Vる + ところだ（akan）/ Vている + ところだ（sedang）/ Vた + ところだ（baru saja selesai）( + partikel を/で/に…)",
+    "examples": [
+     "Roket akan segera lepas landas. Ini saat yang menegangkan.",
+     "Saat ujian, saya ditegur guru ketika sedang melihat jawaban orang di sebelah.",
+     "Tepat ketika drama TV yang saya nanti-nantikan baru dimulai, telepon berdering.",
+     "Tepat ketika kuenya selesai dibuat, anak-anak pulang."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 701,
+   "src_hash": "f8deaa6e9d4f884c",
+   "fields": {
+    "meaning": "Meremehkan/terkejut/menyindir",
+    "connection": "[kalimat/klausa] + などと/なんて + 言う/思う",
+    "examples": [
+     "Saya tidak percaya dia pelakunya.",
+     "Anak berbuat kekerasan kepada orang tua, dulu hal seperti itu tak terbayangkan.",
+     "\"Kalau kamu berpikir 'masih ada seminggu lagi sampai ujian, jadi tidak apa-apa', nanti gagal lagi, lho.\"",
+     "Politikus itu selalu berkata \"saya bekerja untuk rakyat\", tetapi sebenarnya hanya memikirkan keuntungannya sendiri."
+    ],
+    "explain": "Biasanya digunakan untuk menilai, menyindir, atau menyangkal perkataan dan pikiran orang lain.",
+    "notes": "1) Mudah tertukar dengan など (pemberian contoh) biasa.\n→ ～などと（なんて）言う／思う biasanya digunakan saat menilai, menyindir, terkejut, atau menyangkal.\n2) Biasanya disertai kata kerja \"berkata/berpikir\".\n→ Struktur yang sering muncul: 普通形＋などと＋言う／思う.\n3) Jika hanya ingin menyebutkan, jangan gunakan pola ini.\n→ Pola ini menekankan sikap pembicara, bukan sekadar contoh."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 702,
+   "src_hash": "aabe1479dab4fa9e",
+   "fields": {
+    "meaning": "Bahasa lisan yang menunjukkan perasaan terkejut. Bagian setelah「なんて」kadang mengalami penghilangan.\n［ふつう］　+　なんて",
+    "connection": "V/A bentuk biasa + なんて / N/Na(だ) + なんて（keterkejutan）",
+    "examples": [
+     "Tidak disangka ternyata sebaik ini",
+     "Membaca habis buku ini dalam sehari, sungguh tidak bisa dipercaya.",
+     "Pernah ikut Olimpiade, hebat sekali.",
+     "Tidak disangka cerita itu ternyata bohong."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 703,
+   "src_hash": "ae5fea8752178c07",
+   "fields": {
+    "meaning": "Bahasa lisan yang menunjukkan perasaan meremehkan suatu hal.",
+    "connection": "N + なんて（meremehkan）",
+    "examples": [
+     "Yang namanya gosip",
+     "Yang namanya gosip, semua orang akan cepat lupa, kok.",
+     "\"Pilih yang mana, ya?\" \"Yang ini, gimana?\"",
+     "Bikin kue sih gampang, kok."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 704,
+   "src_hash": "9d3caa0306711260",
+   "fields": {
+    "meaning": "Bermakna \"sebagai ~, kok ~\"",
+    "connection": "V bentuk biasa / N / Na + にしては ・ V bentuk biasa / N の / Na な / Aい + わりに",
+    "examples": [
+     "Untuk ukuran mahasiswa",
+     "Untuk ukuran mahasiswa, Tanaka tinggal di apartemen yang bagus. Pasti orang tuanya kaya.",
+     "Untuk orang yang belajar 3 jam setiap hari, nilai Kawata-san tidak begitu bagus.",
+     "Apartemen ini dekat dari stasiun, tetapi sewanya murah."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 705,
+   "src_hash": "c12a9903512b0172",
+   "fields": {
+    "meaning": "Untuk, ditujukan kepada, tentang",
+    "examples": [
+     "Kami menerima pertanyaan tentang produk melalui situs web.",
+     "Mori-sensei menegur dengan keras mahasiswa yang terlambat."
+    ],
+    "explain": "◎ Ungkapan yang menunjukkan sasaran dari tindakan seperti \"memberi hadiah\"",
+    "notes": "Menyatakan arti \"yang ditujukan kepada hal itu\" atau \"yang berkaitan dengan hal itu\", dan menerangkan nomina yang mengikutinya. Kadang juga digunakan bentuk「ＮにたいしてのＮ」, seperti「その問に対しての解答」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 706,
+   "src_hash": "8dad8f0c4fa8b3c6",
+   "fields": {
+    "meaning": "Seiring dengan ~",
+    "examples": [
+     "Seiring dengan bertambahnya penduduk, berbagai masalah pun bermunculan.",
+     "Beberapa prosedur yang berkaitan dengan pindah rumah sudah saya selesaikan."
+    ],
+    "explain": "◎ Menggambarkan suatu hal yang berlangsung bersamaan atau segera setelah suatu hal lain."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 708,
+   "src_hash": "7f8d9317b8333186",
+   "fields": {
+    "name": "～には（tujuan）",
+    "meaning": "Menyatakan tujuan dan hal yang diperlukan untuk mencapai sasaran tersebut.",
+    "connection": "Vる + には / N(サ変) + には（tujuan）",
+    "examples": [
+     "Untuk menjadi mahir",
+     "Untuk menjadi mahir berbahasa Jepang, sebaiknya bagaimana?",
+     "Untuk pergi ke gedung konser, naik bus lebih praktis."
+    ],
+    "notes": "Menyatakan arti \"untuk melakukan hal itu\" atau \"jika ingin melakukan hal itu\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 709,
+   "src_hash": "b799833d4ec5d2ed",
+   "fields": {
+    "meaning": "Berdasarkan …, dengan dasar …",
+    "examples": [
+     "Film ini dibuat berdasarkan peristiwa yang benar-benar terjadi.",
+     "Menyusun hipotesis berdasarkan data.",
+     "Berdasarkan undang-undang, toko kami tidak menjual minuman beralkohol kepada orang yang berusia di bawah 20 tahun.",
+     "Pernyataan gubernur kali ini tidak berdasarkan pengetahuan yang benar.",
+     "Ke depannya pun, kami berencana terus mengembangkan produk berdasarkan pendapat pelanggan."
+    ],
+    "explain": "Digunakan untuk mengemukakan dasar atau landasan bagi keputusan atau penilaian. Biasanya digunakan dalam bahasa tulis.",
+    "notes": "1) Mudah tertukar dengan ～によって.\n→ ～にもとづいて／もとづき berarti \"berdasarkan/berlandaskan\" standar, data, hukum, peraturan.\n2) Sering digunakan dalam bahasa tulis (hukum, berita, penelitian).\n→ Bernuansa formal.\n3) Tidak digunakan untuk sarana.\n→ Jika berarti \"dengan cara…\", gunakan ～によって／～を通じて…"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 710,
+   "src_hash": "8a645f7eeb4f7108",
+   "fields": {
+    "meaning": "Berdasarkan ~",
+    "examples": [
+     "Pertandingan diselenggarakan berdasarkan aturan internasional.",
+     "Perkiraan penjualan ini didasarkan pada data tahun lalu."
+    ],
+    "explain": "◎ Menyatakan bahwa suatu hal atau benda dijadikan dasar ketika melakukan atau menilai sesuatu."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 711,
+   "src_hash": "70ccef5fd7d82a72",
+   "fields": {
+    "meaning": "Tergantung keadaannya, ~ (ada kalanya ~)",
+    "examples": [
+     "Adat kebiasaan berbeda-beda tergantung negaranya.",
+     "Cara merasakan berbeda-beda tergantung orangnya.",
+     "Jam pulang saya berbeda setiap hari. Ada kalanya sampai tengah malam, tergantung harinya.",
+     "Tergantung keadaannya, festival budaya tahun ini mungkin dibatalkan."
+    ],
+    "explain": "「～が違えば…。」 …は一定ではないことを表す文（さまざまだ・変えるなど）。「～によっては…」の…は、いろいろな場合のうちの一つの例を言う文。\nJika ~ berbeda, maka …\n… adalah kalimat yang menyatakan sesuatu yang tidak tetap ( 様々だ／変える dll.)\n… dalam ~ によっては… adalah kalimat yang mengemukakan beberapa contoh di antara berbagai kasus."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 712,
+   "src_hash": "c55c4c01911ea10a",
+   "fields": {
+    "meaning": "「～が原因で…という結果が起こる。」 …には状態を表す文は来ない。また、希望・意向・相手への働きかけなのでの文は来ない。少し硬い言い方。\n~ adalah sebab terjadinya hasil …\n… tidak digunakan untuk menyatakan keadaan, juga bukan kalimat yang menyatakan keinginan, niat, atau ajakan kepada lawan bicara untuk melakukan sesuatu. Merupakan ungkapan yang agak formal.",
+    "examples": [
+     "Dengan mempelajari bahasa asing, kita juga dapat mengetahui cara berpikir orang-orang di negara itu.",
+     "Bagi yang ingin membayar dengan kartu kredit, silakan baca catatan berikut.",
+     "Di pabrik kami, karena kekurangan bahan, tatami sudah tidak dapat diproduksi lagi.",
+     "Influenza tahun ini disebabkan oleh virus jenis baru yang belum pernah ada sebelumnya."
+    ],
+    "notes": "meaning_vi: Dengan…, karena…, tergantung… (によって/による)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 713,
+   "src_hash": "400153cffb9bba16",
+   "fields": {
+    "meaning": "~ Tergantung…, ada kalanya",
+    "examples": [
+     "Setelah disuntik ini, tergantung orangnya, ada kalanya timbul demam.",
+     "Tergantung cuacanya, ada kalanya pertandingan dibatalkan."
+    ],
+    "explain": "◎ Akan ada hal-hal seperti itu dalam syarat dan situasi tertentu."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 714,
+   "src_hash": "3591b48aff6c0735",
+   "fields": {
+    "meaning": "Menyatakan bahwa ada berbagai kasus yang berbeda.",
+    "examples": [
+     "Berbeda tergantung orangnya",
+     "Harganya berbeda-beda tergantung tokonya.",
+     "Waktu makan malam bermacam-macam tergantung orangnya.",
+     "Cara menghabiskan hari libur tergantung suasana hati hari itu."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 716,
+   "src_hash": "56cab1fd67e0f267",
+   "fields": {
+    "meaning": "Mengemukakan sumber informasi\nニュースに　+　よれば／よる",
+    "examples": [
+     "Menurut dokter",
+     "Menurut prakiraan cuaca, besok sepertinya hujan.",
+     "Menurut statistik, penduduk kota ini terus berkurang selama 20 tahun."
+    ],
+    "notes": "Variasi: ～によれば"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 717,
+   "src_hash": "bdc291360bac9f6d",
+   "fields": {
+    "name": "～に対して（sasaran）",
+    "meaning": "Menunjukkan pihak lawan atau sasaran yang dituju oleh tindakan",
+    "connection": "Nに + 対して（sasaran yang dituju oleh tindakan）",
+    "examples": [
+     "Terhadap orang yang lebih tinggi kedudukannya",
+     "Saya berusaha menggunakan keigo terhadap orang yang lebih tinggi kedudukannya.",
+     "Bagi yang memiliki pertanyaan terhadap presentasi ini, silakan.",
+     "Pertanyaan terhadap presentasi, silakan tulis di kertas ini."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 718,
+   "src_hash": "2599ff644deb1a56",
+   "fields": {
+    "meaning": "Menyatakan informasi tentang ...",
+    "examples": [
+     "Soal pesta",
+     "Soal pesta itu, Tanaka-san yang paling tahu, lho.",
+     "Permisi, Sensei. Ada yang ingin saya konsultasikan sedikit mengenai ujian.",
+     "Saya punya pertanyaan tentang tes minggu depan.",
+     "Apakah Anda tahu bahwa Tanaka-san dirawat di rumah sakit?"
+    ],
+    "notes": "Arti asli: Tentang hal"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 719,
+   "src_hash": "49cccbf4560faa9e",
+   "fields": {
+    "meaning": "「～が事実だから、当然…。」 ～には相手が知っているはずの事実を表す文、 …には話者の判断・希望・意向や相手への働きかけなどの文が来る。\nKarena ~ adalah kenyataan, sudah tentu …\n~ adalah kalimat yang menyatakan kenyataan yang pasti juga diketahui lawan bicara.\n… adalah kalimat yang menyatakan penilaian, keinginan, niat pembicara, atau ajakan kepada lawan bicara untuk melakukan sesuatu.",
+    "examples": [
+     "Dunia ini luas, jadi wajar saja ada berbagai macam adat kebiasaan.",
+     "Anda kan sedang terluka, jadi jangan memaksakan diri, ya.",
+     "Tolong jangan tertawa. Saya kan sedang serius."
+    ],
+    "notes": "Menerima suatu klausa, mengakui bahwa hal yang dinyatakan di sana adalah kenyataan, dan menyatakan bahwa kenyataan itu menjadi sebab dan alasan yang menghasilkan hal yang dinyatakan berikutnya. Misalnya, pada ① setelah mengakui bahwa ia masih anak-anak, berdasarkan hal itu ditarik penilaian bahwa wajar saja jika ia tidak mengerti. Sebaliknya, pada「まだ子供だから分からないのだろう」, yang diduga adalah alasannya, yaitu bahwa ia tidak mengerti mungkin karena masih anak-anak. Dalam bahasa lisan sering menjadi「…んだから」.（４６６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 720,
+   "src_hash": "e5a678ad1eb6a845",
+   "fields": {
+    "meaning": "Bukankah ~ ~?",
+    "connection": "V/A bentuk biasa + のではないだろうか / N・Na + なの",
+    "examples": [
+     "Bukankah penting untuk menyampaikan pendapat sendiri dengan jelas?",
+     "Bukankah sebenarnya Tanaka-san menentang cara ini?"
+    ],
+    "explain": "◎ Bagian「だろうか」(bukankah, apakah) ditambahkan setelah akhiran kata negatif「のではない」; dengan cara ini bentuknya adalah kalimat tanya, tetapi sebenarnya menekankan makna penegasan seperti 「～のだ」.",
+    "notes": "Variasi: ～(の)ではないかと思う; bahasa lisan: ～んじゃない？"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,649 @@
+{
+ "batch": "b002",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 22,
+   "src_hash": "0240b5be69114000",
+   "fields": {
+    "name": "Partikel は",
+    "meaning": "Topik kalimat | A\nMenunjukkan topik kalimat yang membicarakan hal atau benda yang tidak berubah.\nB\nMenunjukkan topik kalimat untuk membedakannya dari sasaran lain dalam kalimat.\nC\nMenunjukkan topik kalimat untuk tujuan perbandingan.\nD\nMenunjukkan batas paling rendah.",
+    "examples": [
+     "Saya berumur dua puluh tahun.",
+     "Saya bukan mahasiswa.",
+     "Saya orang Vietnam.",
+     "Jepang memiliki banyak gunung.",
+     "Hari ini tidak ada rapat.",
+     "Sushi saya makan, tetapi ramen jarang saya makan."
+    ],
+    "explain": "Saat memperkenalkan informasi baru, orang Jepang sering memakai が; setelah ada konteks bersama, beralih ke は.\nDua atau lebih は dalam satu kalimat menunjukkan perbandingan/kontras secara alami.\nは setelah partikel lain (には/では/とは) menambah nuansa \"dari segi…, maka…\".\nDalam kalimat tanya, は biasanya menanyakan topik umum; gunakan が untuk menanyakan \"siapa/apa\" secara spesifik.\nDalam percakapan, mengganti topik dengan \"ところで、〜は…？\" terdengar sangat alami.\n\nMenyatakan topik: は menandai \"hal yang akan dibicarakan\", tidak selalu subjek gramatikal.\nKontras: Jika ada beberapa は dalam satu kalimat/paragraf, setiap は membentuk pasangan pertentangan yang tersirat.\nGeneralisasi: Digunakan untuk pernyataan umum (日本は…,犬は…が好きだ, dll.).\nPenetapan kerangka (frame-setting): Dengan waktu/tempat, は menetapkan cakupan ujaran (今日は…,日本では…).\nBerbeda dengan が: が menandai pelaku baru/penekanan, sedangkan は mengangkat sesuatu menjadi topik yang sudah diketahui atau menekankan kontras.",
+    "notes": "Cara baca: は dibaca わ jika berfungsi sebagai partikel.\nDalam klausa relatif, batasi penggunaan は kecuali memang bermaksud mengontraskan; biasanya が/を/に lebih alami.\nMengubah objek menjadi topik: この本を読みました → この本は読みました。\nDalam bahasa tulis, gunakan は untuk membangun alur argumen:前提は…,問題は…,結論は…",
+    "mistakes": [
+     "Salah:誰は来ましたか → Benar:誰が来ましたか (kata tanya + が).",
+     "Mencampuradukkan は dengan が saat memperkenalkan informasi baru: \"新しい先生が来ました\" lebih alami daripada \"は\".",
+     "Menggunakan は dalam klausa bawahan tanpa kontras → terdengar janggal:私は[昨日は買った本]を読む → sebaiknya hilangkan は dalam klausa bawahan.",
+     "Terlalu banyak は berturut-turut membuat kalimat berat; pertimbangkan untuk menguranginya atau menggantinya dengan が/を.",
+     "JLPT sering menguji perbedaan nuansa: AはBが… (A itu B-nya…) vs AがBは… berbeda titik penekanannya."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "は",
+       "Menandai topik/kontras",
+       "Informasi yang sudah diketahui/kerangka ujaran",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>。"
+      ],
+      [
+       "が",
+       "Subjek/penekanan, memperkenalkan hal baru",
+       "Menekankan \"siapa/apa\" yang muncul pertama kali",
+       "<ruby>誰<rt>だれ</rt></ruby>が<ruby>来<rt>き</rt></ruby>た？ <ruby>太郎<rt>たろう</rt></ruby>が<ruby>来<rt>き</rt></ruby>た。"
+      ],
+      [
+       "も",
+       "Juga/semua",
+       "Menambah ke kelompok pelaku/sasaran",
+       "<ruby>私<rt>わたし</rt></ruby>も<ruby>学生<rt>がくせい</rt></ruby>。"
+      ],
+      [
+       "こそ",
+       "Justru/memang",
+       "Penekanan kuat, bahasa lisan/tulis",
+       "<ruby>君<rt>きみ</rt></ruby>こそ<ruby>英雄<rt>えいゆう</rt></ruby>だ。"
+      ],
+      [
+       "とは",
+       "Definisi/penekanan tentang",
+       "Lebih formal daripada は, bernuansa \"adalah…\"",
+       "<ruby>幸福<rt>こうふく</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>か。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 23,
+   "src_hash": "d9980800dd969f83",
+   "fields": {
+    "name": "Partikel へ",
+    "meaning": "digunakan untuk menunjukkan arah. Biasanya dipakai bersama kata kerja gerak.",
+    "connection": "N (arah/tempat) + へ + V gerak",
+    "examples": [
+     "A: Kemarin Anda pergi ke mana?\nB: Saya pergi ke perpustakaan.",
+     "A: Besok Anda akan pergi ke mana?\nB: Saya akan pergi ke rumah pacar saya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 24,
+   "src_hash": "904eda812260e135",
+   "fields": {
+    "name": "Partikel も",
+    "meaning": "Juga…, sampai…, bahkan… | Juga, sama seperti | A\nMenambahkan sasaran yang sejenis.\nB\nBiasanya dipakai bersama kata yang menyatakan jumlah atau gabungan　\"なん　＋ kata bantu bilangan\"　untuk menekankan jumlah yang banyak.\nC\nBiasanya dipakai bersama gabungan \"1 + kata bantu bilangan\" dalam kalimat negatif untuk menekankan bahwa sama sekali tidak ada.\nD\nBiasanya dipakai bersama kata tanya ( + partikel) untuk menekankan kalimat negatif.\nE\nMemberikan contoh yang ekstrem untuk menyiratkan bahwa hal yang lebih rendah atau lebih tinggi lagi sudah tentu demikian.",
+    "examples": [
+     "Saya juga pergi.",
+     "Dia bisa berbicara bahasa Inggris maupun bahasa Jepang.",
+     "Tidak ada seorang pun yang datang.",
+     "Tidak pernah membuat kesalahan sekali pun.",
+     "Saya disuruh menunggu sampai tiga jam.",
+     "Di kota ini, di mana pun tenang."
+    ],
+    "explain": "Menekankan \"juga/sekaligus\": letakkan も di posisi partikel asal (は/が/を), atau setelah partikel lain (にも/からも).\n\"Bahkan\" biasanya menyiratkan keterkejutan/di luar dugaan, artinya dekat dengan さえ/まで (tetapi さえ lebih kuat).\nDengan kata tanya + も: positif → arti \"semua/di mana pun\", negatif → \"tidak … satu pun\".\n数量+ も: menekankan tingkat banyak/sedikit (少しも～ない = sedikit pun tidak).\nDalam penyebutan yang panjang, も memberi kesan lebih mencakup semuanya dibandingkan や (penyebutan tidak lengkap).\n\n• Arti \"juga\": Menambahkan informasi yang searah dengan yang sudah disebutkan. Contoh: 田中さんも来ます (Tanaka-san juga akan datang).\n• Arti \"bahkan/sampai-sampai\": Menekankan sifat yang mengejutkan, ekstrem. Contoh: 子どもも分かる (bahkan anak kecil pun mengerti).\n• Penyebutan sejajar: AもBも～ (baik A maupun B). Dapat diperluas: AもBもCも～.\n• Negasi total dengan kata tanya: 誰も～ない, 何も～ない, どこも～ない → \"tidak … satu pun\".\n• Menekankan jumlah/frekuensi: 数量 + も (sampai…), 何度 + も (berkali-kali).\n• Dalam kalimat positif, beberapa kata tanya + も berarti \"semua/siapa pun/di mana pun\": 誰もが, どこも, いつも.",
+    "notes": "• \"誰もが/皆もが\" digunakan untuk menekankan subjek yang universal dalam bahasa tulis: 誰もが知っている事実だ。\n• \"少しも～ない/ちっとも～ない\" bernuansa \"sedikit pun tidak\".\n• Gabungan ganda: ここにもあそこにも雪が残っている (baik di sini maupun di sana).\n• Dalam kalimat syarat atau konsesif, も tidak berperan sebagai \"walaupun\" (itu adalah ても). Hindari kekeliruan: いくら勉強しても vs いくら～ても (yang benar adalah ても).\n[Kata tanya]も～ない atau digabungkan di sini.",
+    "mistakes": [
+     "Salah: 何もあります。→ Benar: 何もありません (疑問語+も memerlukan bentuk negatif).",
+     "Mencampuradukkan も dengan でも: だれでも (siapa pun) ≠ だれも (\"siapa pun\" dalam kalimat positif sangat terbatas; biasanya memakai 誰もが).",
+     "Lupa mengganti partikel: を/が/は → も saat ingin menekankan \"juga\".",
+     "Menyalahgunakan 数量+も sehingga tidak alami: 三分も待った (sampai 3 menit) hanya cocok jika memang ingin menekankan bahwa itu lama.",
+     "Negasi ganda dengan AもBも～ない: pastikan kata kerja dalam bentuk negatif berlaku untuk keduanya."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "も",
+       "juga/bahkan",
+       "Netral, cakupan luas",
+       "<ruby>私<rt>わたし</rt></ruby>も<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "まで",
+       "bahkan/sampai",
+       "Menekankan tingkat yang berlanjut, biasanya netral",
+       "<ruby>夜中<rt>よなか</rt></ruby>まで<ruby>勉強<rt>べんきょう</rt></ruby>した。"
+      ],
+      [
+       "さえ",
+       "bahkan (kuat)",
+       "Kuat, nuansa keterkejutan lebih besar daripada も",
+       "<ruby>子<rt>こ</rt></ruby>どもでさえ<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "AもBも",
+       "baik A maupun B",
+       "Sejajar dan searah",
+       "<ruby>水<rt>みず</rt></ruby>もお<ruby>茶<rt>ちゃ</rt></ruby>もある。"
+      ],
+      [
+       "AやB",
+       "A dan B (dan lain-lain)",
+       "Penyebutan tidak lengkap",
+       "<ruby>水<rt>みず</rt></ruby>やお<ruby>茶<rt>ちゃ</rt></ruby>がある。"
+      ],
+      [
+       "<ruby>疑問<rt>ぎもん</rt></ruby><ruby>語<rt>ご</rt></ruby> + も + ない",
+       "tidak … satu pun",
+       "Wajib negatif",
+       "<ruby>何<rt>なに</rt></ruby>もない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 25,
+   "src_hash": "616f3b1ebd8a24b6",
+   "fields": {
+    "name": "Partikel を",
+    "meaning": "Objek, sasaran tindakan",
+    "examples": [
+     "Menutup jendela.",
+     "Berjalan menyusuri jalan.",
+     "Keluar dari stasiun.",
+     "Mengantar anak ke sekolah.",
+     "Menetapkan harga menjadi 100 yen.",
+     "Menyebut dia sebagai pahlawan."
+    ],
+    "explain": "Membedakan kata kerja transitif/intransitive: kata kerja transitif dipakai dengan を, kata kerja intransitif biasanya dengan が.\nTitik keberangkatan:駅 を 出る ~駅 から 出る keduanya benar; を menekankan \"meninggalkan titik itu\", から netral menunjukkan asal.\nDalam bahasa lisan, を dilafalkan seperti お.\nJika perlu menekankan pelaku, Nを dapat diubah menjadi Nは untuk dijadikan topik.\n\nを menandai sasaran yang langsung dikenai tindakan (kata kerja transitif).\nDengan kata kerja gerak tertentu, を menunjukkan rute/tempat yang dilalui; dengan出る/離れる, を menunjukkan titik yang ditinggalkan.\nPola \"NをNに/とする・呼ぶ\" menyatakan perubahan/menjadikan/menyebut sebagai.\nRentang waktu + を menunjukkan \"menghabiskan/menggunakan\" rentang waktu tersebut.",
+    "notes": "Banyak ungkapan tetap memakai を:息をする,音楽をやる,夢を見る (meskipun pada夢を見る, を bersifat tersirat).\n\"を通じて／を通して\" dapat menunjukkan \"sepanjang/melalui\", baik dalam arti waktu maupun sarana.\nDalam bahasa formal: \"これをもちまして終了といたします。\" (をもって = dengan/terhitung sejak).",
+    "mistakes": [
+     "Memakai を untuk kata kerja intransitif: ×ドアを開く → ◯ドアが開く (terbuka sendiri); ◯ドアを開ける (membuka).",
+     "Salah saat dipakai dengan行く/来る: ×日本を行く → ◯日本へ/に行く (kecuali untuk rute:道を行く).",
+     "Mencampuradukkan を dan で: ×学校を勉強する → ◯学校で勉強する.",
+     "Melewatkan を dalam penyebutan: ×本、雑誌読む → ◯本や雑誌を読む."
+    ],
+    "comparison": {
+     "headers": [
+      "Partikel",
+      "Fungsi",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "を",
+       "Objek; rute; titik yang ditinggalkan",
+       "Dikenai tindakan langsung/dilalui",
+       "<ruby>道<rt>みち</rt></ruby>を<ruby>走<rt>はし</rt></ruby>る。"
+      ],
+      [
+       "に",
+       "Tujuan/tempat tujuan; titik waktu",
+       "Tujuan spesifik, bukan rute",
+       "<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "へ",
+       "Menuju ke arah",
+       "Lebih samar daripada に",
+       "<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "で",
+       "Tempat terjadinya tindakan; sarana",
+       "Tidak menandai objek",
+       "<ruby>学校<rt>がっこう</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>する。/ バスで<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "から",
+       "Berangkat dari",
+       "Asal, bukan objek",
+       "<ruby>駅<rt>えき</rt></ruby>から<ruby>出<rt>で</rt></ruby>る。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 26,
+   "src_hash": "87cb7f55aa59efdf",
+   "fields": {
+    "name": "Kata sifat い (Aイ)",
+    "meaning": "【gambar】 \n \n Contoh: きのうは　とても　いそがしかったです。 Kemarin sangat sibuk.",
+    "connection": "Aい + (です)（lampau: Aかった / negatif: Aくない）",
+    "examples": [
+     "Tas ini mahal.",
+     "Kemarin sangat dingin.",
+     "Buku ini tidak menarik."
+    ],
+    "explain": "Contoh: きのうは　とても　いそがしかったです。 Kemarin sangat sibuk."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 27,
+   "src_hash": "99a3c76ee4e8f3b7",
+   "fields": {
+    "name": "Kata sifat な (Aナ)",
+    "meaning": "【gambar】 \n \n Contoh: しんかんせんは　とても　べんりです。 Shinkansen sangat praktis.",
+    "connection": "Na + です（lampau: Naでした / negatif: Naじゃありません）",
+    "examples": [
+     "Kota ini sangat tenang.",
+     "Tanaka-san adalah orang yang baik hati.",
+     "Soal ini tidak mudah."
+    ],
+    "explain": "Contoh: しんかんせんは　とても　べんりです。 Shinkansen sangat praktis."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 28,
+   "src_hash": "75da03153b4b5148",
+   "fields": {
+    "meaning": "Nominalisasi kata kerja",
+    "connection": "Vる + こと + [partikel は/が/を]",
+    "examples": [
+     "Belajar bahasa Jepang itu menyenangkan.",
+     "Saya suka mendengarkan musik.",
+     "Hobi saya adalah membaca buku.",
+     "Berjalan kaki setiap hari baik untuk kesehatan.",
+     "Apakah boleh mengambil foto di sini?"
+    ],
+    "explain": "Gunakan Vる + こと saat perlu nominalisasi dalam bahasa tulis/gaya formal.\nDipakai dengan は/が/を seperti kata benda:食べること は …,読むこと が 好き…,作ること を 学ぶ…\nSering terlihat dalam ungkapan hobi, kebiasaan, prinsip.\n\n～ること menominalisasi klausa kata kerja: \"hal …\", \"perihal …\".\nDigunakan untuk:\nMenjadikan subjek/topik:食べることは大切です。\nDigabung dengan kata sifat/kata kerja yang menyatakan penilaian: ピアノを弾くことが好きです。\nMendefinisikan, menggambarkan aturan/kebiasaan:朝早く起きること。\nMenjadikan subjek/topik:食べることは大切です。\nDigabung dengan kata sifat/kata kerja yang menyatakan penilaian: ピアノを弾くことが好きです。\nMendefinisikan, menggambarkan aturan/kebiasaan:朝早く起きること。\nNuansa: formal, lebih umum/general dibandingkan の.",
+    "notes": "Dalam papan peraturan, こと dapat dipakai sebagai bentuk perintah/aturan: ～すること (harap …), ～しないこと (dilarang …).\nJika ingin menekankan perasaan/hal yang konkret, mengganti dengan の akan lebih alami dalam percakapan.",
+    "mistakes": [
+     "Tertukar dengan の: bahasa tulis sebaiknya memakai こと; bahasa lisan santai memakai の. Mencampurnya secara salah membuat kalimat tidak alami.",
+     "Kurang partikel: ×読むこと好き → ✓読むことが好き.",
+     "Menempelkan こと langsung pada kata benda/kata sifat (salah): こと hanya menominalisasi kata kerja/klausa."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vる + こと",
+       "Nominalisasi (formal/umum)",
+       "Umum dalam tulisan, definisi",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>することは<ruby>大切<rt>たいせつ</rt></ruby>"
+      ],
+      [
+       "Vる + の",
+       "Nominalisasi (santai/konkret)",
+       "Bahasa lisan, akrab",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>するのは<ruby>大変<rt>たいへん</rt></ruby>"
+      ],
+      [
+       "Vる + ことができます",
+       "Dapat melakukan",
+       "Bermakna kemampuan/kemungkinan",
+       "<ruby>泳<rt>およ</rt></ruby>ぐことができます"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 29,
+   "src_hash": "64c04e621198adf4",
+   "fields": {
+    "meaning": "Nominalisasi santai",
+    "connection": "Vる + の + [partikel は/が/を]",
+    "examples": [
+     "Saya suka berbicara bahasa Jepang.",
+     "Memasak itu menyenangkan.",
+     "Saya agak tidak pandai bangun pagi.",
+     "Saya suka bermain dengan anjing.",
+     "Tolong bantu saya menulis huruf."
+    ],
+    "explain": "Digunakan dalam percakapan sehari-hari yang santai; tetap dapat diterima dalam gaya sopan dengan です/ます.\nSetelah の, partikel dipakai seperti pada kata benda: のは／のが／のを.\nJika ingin formal/umum, ganti dengan こと.\n\n～るの menominalisasi tindakan dalam bahasa lisan, bernuansa alami dan akrab.\nSering dipakai dengan ungkapan hobi/kemampuan/perasaan: ～のが好き／上手／苦手／楽しい.\nDibandingkan こと, の menekankan situasi konkret, pengalaman pribadi daripada hal umum.",
+    "notes": "Untuk perasaan/sensasi sesaat, の terdengar lebih alami:怖い映画を見るのは苦手。\nDalam judul/peraturan, hindari の, utamakan こと agar formal.",
+    "mistakes": [
+     "Salah partikel: ×読むのは好き → kurang predikat; yang benar:読むのが好きです.",
+     "Memakai の dalam dokumen formal: sebaiknya diganti dengan こと.",
+     "Memakai の langsung setelah kata benda/kata sifat adalah salah; の di sini menominalisasi klausa kata kerja."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vる + の",
+       "Nominalisasi (santai/konkret)",
+       "Alami dalam percakapan",
+       "<ruby>読<rt>よ</rt></ruby>むのが<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "Vる + こと",
+       "Nominalisasi (formal/umum)",
+       "Sering dipakai dalam tulisan/perkenalan",
+       "<ruby>読<rt>よ</rt></ruby>むことが<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "～のです／んです",
+       "Menjelaskan alasan",
+       "Fungsi berbeda; bukan sekadar nominalisasi",
+       "<ruby>雨<rt>あめ</rt></ruby>なんです"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 30,
+   "src_hash": "5ab89999560b13db",
+   "fields": {
+    "name": "～から（titik awal）",
+    "meaning": "Partikel yang menunjukkan titik awal",
+    "examples": [
+     "Saya datang dari Bangkok.",
+     "Saya datang dari Vietnam.",
+     "Sudah diangkut dari Hokkaido.",
+     "Saya pindah rumah dari Yokohama."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 31,
+   "src_hash": "ef91e135bbb3894d",
+   "fields": {
+    "meaning": "Cara menyatakan suka / tidak suka pada seseorang",
+    "examples": [
+     "Saya sangat suka manga dan anime.",
+     "Saya suka warna merah dan kuning.",
+     "Saya tidak suka berendam di bak mandi.",
+     "Apakah kamu membenci saya?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 32,
+   "src_hash": "cd186ef04f78e5b4",
+   "fields": {
+    "meaning": "Menyatakan bahwa suatu benda atau seseorang adalah apa atau siapa",
+    "connection": "Nです / Naです / Aいです（negatif: N/Naではありません・じゃありません）",
+    "examples": [
+     "Saya Tasu.",
+     "Saya seorang pelajar.",
+     "Dia bukan orang Jepang.",
+     "Apakah orang di sebelah itu perempuan?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 33,
+   "src_hash": "2ba395da335f9af8",
+   "fields": {
+    "name": "Menyebut tanggal dan bulan",
+    "meaning": "Bulan berapa?\nTanggal berapa\nTanggal disebutkan dengan urutan berikut: Tahun / Bulan / Tanggal / Hari",
+    "examples": [
+     "Ulang tahun saya tanggal 20 Juli.",
+     "Ujiannya hari Senin, tanggal 9 Oktober.",
+     "A: Hari ini tanggal berapa, bulan apa?\nB: Tanggal 1 April."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 34,
+   "src_hash": "9a30398f8af33ee8",
+   "fields": {
+    "name": "Konjugasi kata kerja dalam kala lampau, sekarang, masa depan",
+    "meaning": "4 bentuk konjugasi ます: positif/negatif × bentuk lampau/bentuk non-lampau",
+    "examples": [
+     "Bekerja\nTidak bekerja\nSudah bekerja\nTidak bekerja (lampau)",
+     "Belajar\nTidak belajar\nSudah belajar\nTidak belajar (lampau)"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 35,
+   "src_hash": "5ce5979ef70a9364",
+   "fields": {
+    "name": "\"Kata/kalimat\" は　～語で何ですか",
+    "meaning": "…dalam bahasa ~ disebut apa? (menanyakan cara mengatakannya dalam bahasa lain)",
+    "examples": [
+     "A: Ini dalam bahasa Jepang disebut apa?\nB: \"Pasokon\".",
+     "A: \"Arigatou\" dalam bahasa Inggris apa?"
+    ],
+    "explain": "Digunakan untuk menanyakan bagaimana arti suatu kata atau kalimat diucapkan dalam bahasa lain."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 36,
+   "src_hash": "29f0ee333608ab5d",
+   "fields": {
+    "meaning": "Memberi.",
+    "examples": [
+     "Saya memberi teman saya pensil.",
+     "Matsumoto-san memberi Harada-sensei anggur dari Prancis."
+    ],
+    "explain": "Seseorang memberikan sesuatu kepada orang lain.\nTidak dipakai ketika orang lain memberi kepada saya.",
+    "notes": "explain: Sudut pandang: あげます menempatkan pemberi di pihak pembicara/kelompok pembicara atau pihak ketiga (tidak mengarah ke \"saya\").\nSopan: kepada orang yang lebih tinggi kedudukannya sebaiknya memakai さしあげます; kepada anak kecil/hewan dapat memakai やります (santai).\nTidak memakai へ untuk penerima; wajib に: N2 に N3 を あげます。\nTanya jawab sehari-hari:誰に～をあげますか／何をあげますか。\nexamples: 1. 私は友だちにプレゼントをあげます。\nSaya memberi teman saya hadiah.\n2. 母は近所の子どもにお菓子をあげました。\nIbu saya memberi permen kepada anak-anak tetangga.\n3. 兄は妹にお金をあげません。\nKakak laki-laki tidak memberi uang kepada adik perempuannya.\n4. 私は先生に花をさしあげます。\nSaya mempersembahkan bunga kepada guru.\n5. 田中さんは彼女に本をあげました。\nTanaka-san memberi buku kepada pacarnya.\n6. 週末、子どもにおもちゃをあげますか。— はい、あげます。\nApakah akhir pekan Anda memberi mainan kepada anak? — Ya.\n7. 私は友だちに宿題を手伝ってあげます。\nSaya membantu teman mengerjakan PR (melakukannya \"untuk\" teman).\nexplain: Nuansanya netral, cukup sopan; hindari memakainya jika penerimanya adalah atasan dalam konteks pekerjaan.\nSering dipakai dalam deskripsi objektif: A が B に何々 を あげる (buku, bunga, hadiah...).\nUntuk benda \"abstrak\" seperti時間/機会/情報: dapat memakai あげる, tetapi dalam bahasa tulis formal sering memakai与える/提供する.\nDibandingkan ～てあげる (melakukan sesuatu untuk seseorang), pola ini adalah \"memberi benda\" yang konkret.\nexamples: 1. 私は友だちに花をあげた。\nSaya memberi teman saya bunga.\n2. 父が近所の子に本をあげることにした。\nAyah saya memutuskan untuk memberi buku kepada anak-anak tetangga.\n3. 彼女は後輩にアドバイスをあげた。\nDia memberi nasihat kepada adik kelasnya.\n4. 姉が子どもにおもちゃをやった。\nKakak perempuan saya memberi mainan kepada anak-anak. (santai, memakai やる)\n5. 私は先生にプレゼントをさしあげた。\nSaya mempersembahkan hadiah kepada guru. (dipakai jika penerimanya orang yang lebih tinggi kedudukannya)\n6. （×）彼が私にチケットをあげた→彼が私にチケットをくれた。\n(Koreksi) Dia memberi saya tiket → memakai くれる.\ncomparison: Pola tata bahasa | Arti | Persamaan/Perbedaan | Contoh singkat\nN をあげる | Memberi (netral) | Sudut pandang pemberi | 私（わたし）は彼（かれ）に本（ほん）をあげた\nN をやる | Memberi (santai, kepada yang lebih rendah) | Kurang sopan dibandingkan あげる | 犬（いぬ）に水（みず）をやる\nN をくれる | Seseorang memberi kepada saya/kelompok saya | Sudut pandang penerima (saya) | 友（とも）だちが私（わたし）に花（はな）をくれた\nN をくださる | Orang yang lebih tinggi kedudukannya memberi kepada saya | Keigo dari くれる | 部長（ぶちょう）が資料（しりょう）をくださった\nN をもらう | Menerima dari seseorang | Sudut pandang penerima (netral) | 私（わたし）は友（とも）だちから花（はな）をもらった\nN をいただく | Menerima (kenjougo/bahasa merendah) | Sangat sopan | 先生（せんせい）から本（ほん）をいただいた\nN をください | Meminta (tolong beri) | Kalimat permintaan, bukan deskripsi | 水（みず）をください\nVてあげる | Melakukan V untuk seseorang | Bukan \"memberi benda\" | 手伝（てつだ）ってあげる\ncommon_mistakes: • Memakai あげる ketika penerimanya \"saya/kami\": salah sudut pandang. Koreksi: くれる/くださる.\n• Memakai あげる kepada atasan dalam konteks sopan: terdengar kurang sopan. Koreksi: ～をさしあげる.\n• Salah partikel: \"B に N を あげる\" (bukan \"B を N に\").\n• Tertukar dengan arti lain dari 上げる (\"mengangkat\", \"menaikkan\"): perlu konteks \"menyerahkan/memberi\".\n• Memakai あげる dengan kata benda abstrak tidak alami: utamakan 与える/提供する dalam bahasa formal (例: 情報を与える).\nmeaning_vi: Menyatakan arti pengalihan kepemilikan kepada lawan bicara.\nexamples: 1. ①　えさを　あげてはいきません。\nTidak boleh memberi makan hewan.\n2. ②　わたしは　かのじょに　ゆびわを　あげます。\nSaya memberi pacar saya cincin.\n3. ③　母に　花を　あげました。\nSaya memberi ibu bunga.\n4. ④　この　ゆびわは　あなたに　あげます。\nCincin ini saya berikan kepadamu.",
+    "mistakes": [
+     "Salah arah pemberian: memakai あげます ketika penerimanya \"saya\" → salah. Harus memakai くれます atau もらいます.",
+     "Salah partikel penerima: memakai を sebagai pengganti に. Yang benar: N2にN3をあげます。",
+     "Peran terbalik: Mengatakan \"本は友だちにあげます\" boleh, tetapi jika perlu jelas siapa yang memberi, harus ada subjek:私は友だちに本をあげます。",
+     "Memakai あげます untuk orang yang lebih tinggi kedudukannya terdengar kurang merendah; sebaiknya memilih さしあげます (kenjougo).",
+     "Memakai dengan pelaku benda mati: ×雨は木に水をあげます → Lebih alami:雨が木に水を与えます／雨は木に水をやります（hanya dalam konteks khusus)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "N1 は N2 に N3 を あげます",
+       "N1 memberi N2 N3",
+       "Arah ke luar",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちに<ruby>本<rt>ほん</rt></ruby>をあげます。"
+      ],
+      [
+       "N1 は <ruby>私<rt>わたし</rt></ruby>(たち) に N3 を くれます",
+       "N1 memberi saya/kami N3",
+       "Arah ke pembicara",
+       "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>私<rt>わたし</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>をくれました。"
+      ],
+      [
+       "<ruby>私<rt>わたし</rt></ruby>は N1 に N3 を もらいます",
+       "Saya menerima N3 dari N1",
+       "Sudut pandang \"menerima\"",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>田中<rt>たなか</rt></ruby>さんに<ruby>本<rt>ほん</rt></ruby>をもらいました。"
+      ],
+      [
+       "N2 に V-て あげます",
+       "Melakukan V untuk N2",
+       "Memberi \"tindakan\"",
+       "<ruby>妹<rt>いもうと</rt></ruby>に<ruby>教<rt>おし</rt></ruby>えてあげます。"
+      ],
+      [
+       "N2 に N3 を やります",
+       "Memberi (santai/kepada yang lebih rendah)",
+       "Dipakai untuk anak kecil/hewan/tanaman",
+       "<ruby>犬<rt>いぬ</rt></ruby>に<ruby>水<rt>みず</rt></ruby>をやります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 37,
+   "src_hash": "b5663a7f135190a0",
+   "fields": {
+    "meaning": "Dari … sampai",
+    "examples": [
+     "Bank buka dari pukul 9.",
+     "A: Setiap minggu Anda belajar dari hari apa sampai hari apa?\nB: Saya belajar dari hari Senin sampai hari Jumat.",
+     "A: Sekolah dari hari apa sampai hari apa?\nB: Dari hari Senin sampai hari Jumat."
+    ],
+    "explain": "から menyatakan titik awal, まで menyatakan titik akhir dari waktu atau tempat.\nから、 まで dapat dipakai secara terpisah dan tidak harus disertai kata kerja.\nUlangan cara menyebut hari, tanggal, jam: Lihat\n\nから：dari\nまで：sampai",
+    "notes": "explain: Netral, cukup formal; dapat dipakai dalam bahasa lisan dan bahasa tulis.\nSalah satu bagian dapat dihilangkan jika konteksnya jelas: ここ から （～） atau （～） まで ですが…, tetapi pola standarnya adalah berpasangan lengkap.\nDapat diletakkan sebelum kata benda: AからBまでのN (tiket, jarak, cakupan).\nJangan tertukar dengan ～までに (batas waktu) atau ～までで (berhenti sampai batas itu).\nDigabung dengan sarana/tujuan: AからBまでNで行く／AからBまでNに送る…\nexamples: 1. 東京から大阪まで新幹線で行きます。\nPergi dari Tokyo ke Osaka dengan shinkansen.\n2. 会議は9時から11時までです。\nRapatnya dari pukul 9 sampai pukul 11.\n3. ここから駅までは歩いて10分くらいです。\nDari sini ke stasiun sekitar 10 menit jalan kaki.\n4. 子どもから大人まで楽しめる映画だ。\nIni film yang dapat dinikmati dari anak-anak sampai orang dewasa.\n5. この店は月曜から金曜まで営業しています。\nToko ini buka dari hari Senin sampai hari Jumat.\n6. 5ページから10ページまでを読んでください。\nTolong baca dari halaman 5 sampai halaman 10.\n7. 1万円から3万円までの予算で探しています。\nSaya sedang mencari dengan anggaran dari 10.000 sampai 30.000 yen.\n8. 北から南まで全国的に雨でしょう。\nMungkin akan hujan di seluruh negeri dari utara sampai selatan.",
+    "mistakes": [
+     "Tertukar dengan ～までに: \"5時から7時までに\" salah makna; seharusnya \"5時から7時まで\".",
+     "Menghilangkan satu bagian sehingga ambigu: Katakan \"5時からです\" hanya jika konteks sudah menjelaskan titik akhirnya; jika tidak, informasinya kurang.",
+     "Memakai ～から～まで untuk durasi padahal cukup ～まで: \"9時まで働く\" sudah cukup jika tidak perlu titik awal.",
+     "Salah urutan: \"大阪まで東京から行く\" tidak alami; sebaiknya \"東京から大阪まで行く\".",
+     "Tertukar antara arti ～から (sebab) dan ～から (titik awal): perlu memperhatikan posisi dan struktur kalimat."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola tata bahasa",
+      "Arti",
+      "Persamaan/Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～から～まで",
+       "Dari A sampai B (cakupan jelas)",
+       "Titik awal-akhir jelas, biasanya mencakup kedua titik",
+       "<ruby>9時<rt>きゅうじ</rt></ruby>から<ruby>11時<rt>じゅういちじ</rt></ruby>まで"
+      ],
+      [
+       "～から～にかけて",
+       "Dari A sampai B (kira-kira)",
+       "Titik tidak jelas, cakupan perkiraan",
+       "<ruby>週末<rt>しゅうまつ</rt></ruby>から<ruby>来週<rt>らいしゅう</rt></ruby>にかけて"
+      ],
+      [
+       "～までに",
+       "Sebelum/paling lambat B",
+       "Batas waktu, tidak menyebut titik awal",
+       "<ruby>5時<rt>ごじ</rt></ruby>までに<ruby>終<rt>お</rt></ruby>える"
+      ],
+      [
+       "～から (sebab)",
+       "Karena…",
+       "Artinya sama sekali berbeda (sebab)",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ],
+      [
+       "～<ruby>間<rt>かん</rt></ruby>",
+       "Selama rentang A–B",
+       "Menekankan durasi yang berkesinambungan",
+       "<ruby>夏<rt>なつ</rt></ruby>の<ruby>間<rt>ま</rt></ruby><ruby>休<rt>やす</rt></ruby>む"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

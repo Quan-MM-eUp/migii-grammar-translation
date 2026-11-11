@@ -1,0 +1,573 @@
+{
+ "batch": "b071",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-10",
+ "items": [
+  {
+   "id": 1078,
+   "src_hash": "85f0ff144b0496c1",
+   "fields": {
+    "meaning": "Kalau sampai…, dalam hal…",
+    "examples": [
+     "Kalau sudah memutuskan untuk belajar ke luar negeri, sebaiknya mulai bersiap sejak awal.",
+     "Begitu tiba saatnya berangkat, tiba-tiba muncul rasa cemas.",
+     "Kalau sampai pindah rumah, membuang sampah berukuran besar itu merepotkan.",
+     "Jika turnamen dibatalkan, biaya pendaftaran akan dikembalikan.",
+     "Kalau sudah minggu depan, mungkin sudah tidak sempat lagi."
+    ],
+    "explain": "Digunakan ketika: menyebut titik waktu keputusan/dimulainya suatu peristiwa (本番、締め切り、出発、中止...), atau ketika tindakan sudah diarahkan (V-辞書形).\nKlausa belakang sering disertai: 準備する、手配する、覚悟する、～べきだ、～つもりだ、～ないと（いけない）.\nNuansa tegas/pribadi lebih kuat daripada となると; lebih akrab dan lebih bahasa lisan daripada となれば.\nTidak alami jika klausa belakang berupa perintah langsung kepada lawan bicara dalam konteks formal; sebaiknya gunakan usulan/kehendak yang lunak.\n\n• Arti utama: \"Jika/ketika (suatu hal) menjadi/diputuskan A, maka B\". Menekankan titik waktu perubahan keadaan atau saat keputusan ditetapkan.\n• Nuansa: condong pada sudut pandang pembicara, sering diikuti kehendak/usulan/tindakan yang direncanakan pembicara di klausa belakang. Kesannya \"kalau sudah tiba saatnya, harus…\".\n• Cakupan penggunaan: baik situasi pengandaian (もし～) maupun situasi yang hampir pasti/sudah diputuskan (いざ/いよいよ～). Klausa belakang biasanya berupa rencana, persiapan, akibat yang diperkirakan.\n• Berbeda dengan ～となると/～となれば: となったら akrab, praktis, sering dipakai untuk persiapan pribadi; となると condong ke \"kalau bicara soal hal itu, maka…\" disertai penilaian/kesulitan; となれば condong ke pengandaian umum, lebih bahasa tulis.",
+    "notes": "• \"いざ～となったら/となると\" adalah ungkapan yang sangat alami untuk menekankan \"ketika benar-benar tiba saatnya\".\n• Dengan penanda waktu: 今日・明日・来週・年度末 + となったら menyatakan \"begitu sudah sampai…, maka\".\n• Intonasi: となった「ら」 membuat kalimat lebih lunak daripada となると; kesannya setelah keputusan diambil.\n• Ketika isi A berupa pemberitahuan resmi (会社の方針、中止等)、となったら menunjukkan \"bagaimana menyikapinya\" dari pihak pembicara.",
+    "mistakes": [
+     "Tertukar dengan となると: kalimat yang menekankan masalah objektif lebih tepat memakai となると (例: お金がかかる“となると”が自然).",
+     "Penggunaan dengan kata sifat: Aい/na + となったら kurang alami; utamakan N/V yang bersifat peristiwa.",
+     "Perintah langsung: 避ける dengan となったら dalam bahasa formal; ganti dengan ～べきだ／～ほうがいい.",
+     "JLPT: Kenali nuansa pribadi (となったら) vs objektif (となると) vs pengandaian umum (となれば)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～となったら",
+       "Jika/ketika menjadi A, maka...",
+       "Condong ke kehendak/persiapan pribadi, akrab",
+       "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すとなったら、<ruby>段取<rt>だんど</rt></ruby>りを<ruby>決<rt>き</rt></ruby>めよう。"
+      ],
+      [
+       "～となると",
+       "Kalau bicara soal/sampai pada hal A, maka...",
+       "Memunculkan masalah/akibat objektif, mengubah arah pembicaraan",
+       "<ruby>雨<rt>あめ</rt></ruby>となると、<ruby>計画<rt>けいかく</rt></ruby>は<ruby>見直<rt>みなお</rt></ruby>しだ。"
+      ],
+      [
+       "～となれば",
+       "Jika seandainya/sampai taraf A, maka...",
+       "Pengandaian umum, bahasa tulis, keniscayaan tinggi",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>となれば、<ruby>損失<rt>そんしつ</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きい。"
+      ],
+      [
+       "～としたら/～とすれば",
+       "Jika misalnya A, maka...",
+       "Syarat pengandaian murni, netral",
+       "<ruby>行<rt>い</rt></ruby>くとしたら、いつにする？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1079,
+   "src_hash": "ec0746dacfab9abb",
+   "fields": {
+    "meaning": "Katanya…, dikabarkan…",
+    "connection": "V/A bentuk biasa + とのことだ / N/Naだ + とのことだ",
+    "examples": [
+     "Kabarnya Tanaka-san tidak masuk hari ini.",
+     "Menurut Badan Meteorologi Jepang, besok katanya akan turun salju lebat.",
+     "Kami mendapat kabar bahwa rapat dibatalkan, jadi harap diperhatikan.",
+     "Penanggung jawab berpesan agar dokumennya dikirim besok.",
+     "Katanya dia tidak bisa datang minggu depan."
+    ],
+    "explain": "Digunakan untuk menyampaikan informasi secara objektif, menjaga jarak yang sopan dengan sumber informasi.\nKetika menyampaikan perintah/permintaan secara tidak langsung: 「～するようにとのことです」 terdengar sopan, menghindari tekanan langsung.\nBiasanya kalimat diakhiri dengan ～とのことです (sopan) dalam bahasa bisnis.\nTidak digunakan untuk menyatakan pendapat/penilaian subjektif pembicara; hanya melaporkan.\n\n• Pola pelaporan kabar dari orang lain (伝聞): menyampaikan informasi tidak langsung dari sumber lain secara sopan dan netral.\n• Sering digunakan dalam pengumuman perusahaan, email, berita: \"～とのことです\" lebih sopan daripada \"～そうです\".\n• Dapat disertai sumber: ～によると／～から／関係者によれば + ～とのことだ.\n• Berbeda dengan ～ということだ: ということだ agak langsung, sering juga dipakai untuk menjelaskan aturan; とのことだ sopan/diplomatis, menekankan sumber berita.",
+    "notes": "• Struktur negatif/lampau tetap dalam bentuk biasa: 来ないとのことだ／終わったとのことだ.\n• Sumber dapat dihilangkan jika sudah jelas dari konteks: （上司から）明日は在宅勤務とのことです。\n• Untuk kutipan panjang, dapat memakai 「～ということだ」 untuk menekankan penjelasan, sedangkan 「～とのことだ」 untuk menutup informasi.\n• Varian sangat sopan: ～とのことでした（lampau sopan, melunakkan kalimat dalam laporan).",
+    "mistakes": [
+     "Dipakai untuk pendapat pribadi → salah: 「おいしいとのことだ」 (jika itu kesan sendiri). Sebaiknya gunakan 「おいしいと思う」.",
+     "Tanpa sumber dalam bahasa formal bisa menjadi ambigu; sebaiknya tambahkan ～によると／～から.",
+     "Tertukar dengan ～そうだ（様態） \"kelihatannya\": とのことだ hanya untuk menyampaikan informasi, bukan menggambarkan kesan indrawi.",
+     "JLPT: Jika jawaban menuntut nuansa \"pemberitahuan pekerjaan/penyampaian yang sopan\", pilih とのことだ alih-alih そうだ/らしい."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～とのことだ",
+       "Katanya/dikabarkan bahwa...",
+       "Sopan, berkesan \"menyampaikan informasi\"",
+       "<ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みとのことです。"
+      ],
+      [
+       "～そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Katanya...",
+       "Lebih bahasa lisan, ringkas, kurang formal",
+       "<ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みだそうだ。"
+      ],
+      [
+       "～ということだ",
+       "Dipahami bahwa/dikatakan bahwa...",
+       "Menjelaskan kesimpulan/aturan; nuansa analitis",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>ということだ。"
+      ],
+      [
+       "～らしい",
+       "Tampaknya/kabarnya...",
+       "Dugaan berdasarkan desas-desus/kesan, kurang pasti",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>らしい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1080,
+   "src_hash": "4b13c120ee4dadea",
+   "fields": {
+    "meaning": "Diperkirakan…, tampaknya…",
+    "connection": "V/A bentuk biasa + とみられる / N/Na(である) + とみられる",
+    "examples": [
+     "Korban meninggal diperkirakan berjumlah 10 orang, tetapi rinciannya masih dikonfirmasi.",
+     "Penyebab utamanya diperkirakan adalah kabel listrik yang sudah aus.",
+     "Penjualan perusahaan tersebut pada periode berikutnya diperkirakan akan mulai pulih.",
+     "Seorang pria yang diduga sebagai pelaku terlihat di sekitar lingkungan itu.",
+     "Jumlah peserta diperkirakan sekitar 300 orang.",
+     "Dia diperkirakan sudah pergi ke luar negeri."
+    ],
+    "explain": "Nuansa netral – objektif: sering digunakan dalam judul/berita untuk menghindari penegasan mutlak sebelum ada kesimpulan akhir.\nKombinasi yang alami: 数字＋とみられる／原因は～とみられる／～に関与したとみられる .\nPosisi: sebagai predikat (akhir kalimat) atau penjelas kata benda (atributif).\nHindari subjektivitas: jangan disertai perasaan pribadi; jika perlu nuansa lunak, tambahkan ～とみられている／～とみられます .\nKala – aspek: bentuk sekarang untuk menyatakan penilaian yang sedang diterima; bentuk lampau untuk penilaian tentang peristiwa yang sudah berlalu.\n\n～とみられる menyatakan arti \" diperkirakan / dianggap / besar kemungkinan…\", menunjukkan penilaian yang bersifat objektif, biasanya berdasarkan fakta, data, atau penilaian ahli. Ini nuansa khas gaya bahasa berita – laporan, yang mengurangi kesan subjektif pembicara.\n\n•\nSumber dugaan: bukti tidak langsung atau gabungan (data, penyelidikan, pengamatan, ahli).\n\n•\nSifat objektif: memakai subjek impersonal, sering dipadukan dengan 警察・専門家・当局・気象庁 di klausa lain.\n\n•\nCakupan arti: perkiraan jumlah ( 約N＋とみられる), penyebab ( 原因は～とみられる), keadaan ( ～にあるとみられる).\n\n•\nTingkat JLPT acuan: N2–N1 (banyak muncul dalam pemahaman bacaan berita).",
+    "notes": "•\nImplikasi tanggung jawab informasi:\n～とみられる membantu menyampaikan berita tanpa penegasan mutlak, cocok untuk tahap penyelidikan.\n•\nUngkapan kuantitatif:\n約N＋とみられる／N超とみられる sering dijumpai dalam statistik, ekonomi, bencana alam.\n•\nKlausa sebab – akibat:\n～が原因だとみられる／～に起因するとみられる digunakan ketika belum ada kesimpulan forensik/teknis.\n•\nPeralihan gaya: saat menulis laporan akademis, dapat diselingi と考えられる／と推定される untuk memvariasikan nuansa.",
+    "mistakes": [
+     "Tertukar dengan ～らしい: soal ujian sering menjebak pada sumber informasi. とみられる = penilaian objektif; らしい = katanya/desas-desus.",
+     "Tertukar dengan ～とされる:",
+     "とされる lebih bersifat \"baku/akademis\", bukan dugaan sementara.",
+     "Lupa 「だ」 dengan N/na-adj: N/na＋ だ＋とみられる adalah bentuk baku dalam bahasa tulis.",
+     "Penggunaan berlebihan dalam bahasa lisan sehari-hari: ucapan sehari-hari lebih cocok dengan ～ようだ／～みたいだ.",
+     "Dipakai untuk perintah/kehendak: tidak alami. Hindari menggabungkan perintah langsung di klausa belakang.",
+     "Tidak cocok ketika bukti sudah pasti: ketika hasilnya sudah dikonfirmasi, sebaiknya gunakan pernyataan langsung alih-alih とみられる."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola tata bahasa",
+      "Arti",
+      "Persamaan/Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～とみられる",
+       "Diperkirakan (penilaian yang berdasar, gaya bahasa berita).",
+       "Objektif, mengurangi kesan \"saya pikir\".",
+       "<ruby>死因<rt>しいん</rt></ruby>は<ruby>心不全<rt>しんふぜん</rt></ruby>とみられる。"
+      ],
+      [
+       "～と<ruby>見<rt>み</rt></ruby>られている",
+       "Sedang dianggap (penilaian yang sedang beredar).",
+       "Menekankan \"penilaian masyarakat/kalangan ahli\".",
+       "<ruby>被害<rt>ひがい</rt></ruby><ruby>総額<rt>そうがく</rt></ruby>は<ruby>数<rt>すう</rt></ruby><ruby>億<rt>おく</rt></ruby><ruby>円<rt>えん</rt></ruby>と<ruby>見<rt>み</rt></ruby>られている。"
+      ],
+      [
+       "～とされる",
+       "Dianggap/ditetapkan sebagai (standar/definisi).",
+       "Lebih kuat, sifat \"baku\" tinggi.",
+       "これは<ruby>世界<rt>せかい</rt></ruby><ruby>最古<rt>さいこ</rt></ruby>とされる<ruby>文書<rt>ぶんしょ</rt></ruby>だ。"
+      ],
+      [
+       "～と<ruby>考<rt>かんが</rt></ruby>えられる",
+       "Dipikirkan/dianggap (argumentasi akademis).",
+       "Menekankan logika, teori.",
+       "<ruby>原因<rt>げんいん</rt></ruby>は<ruby>複合<rt>ふくごう</rt></ruby><ruby>要因<rt>よういん</rt></ruby>と<ruby>考<rt>かんが</rt></ruby>えられる。"
+      ],
+      [
+       "～らしい",
+       "Katanya/tampaknya (berdasarkan sumber berita, desas-desus).",
+       "Bahasa lisan, berdasarkan sumber tidak langsung.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>休職<rt>きゅうしょく</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>らしい。"
+      ],
+      [
+       "～ようだ／～みたいだ",
+       "Tampaknya (kesan umum, penampilan luar).",
+       "Lebih pribadi/bahasa lisan daripada とみられる.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>お</rt></ruby>りそう みたいだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1081,
+   "src_hash": "0bf9730533a14de1",
+   "fields": {
+    "meaning": "Kalau tidak…, maka tidak…",
+    "examples": [
+     "Tanpa menunjukkan kartu identitas, peminjaman tidak dapat dilakukan.",
+     "Jika tidak ada pemberitahuan sebelumnya, biaya pembatalan akan dikenakan.",
+     "Kalau surat kontrak belum diperiksa, pengiriman barang tidak dapat diproses."
+    ],
+    "explain": "Meningkatkan kesan objektif dengan ～ます／です; hindari perintah langsung.\nCocok untuk papan tanda/peraturan: 入室不可,立入禁止…\n\n- Digunakan untuk menyatakan syarat wajib dalam panduan/prosedur: jika tidak dipenuhi, langkah berikutnya tidak dapat dilakukan.\n- Sifat normatifnya tinggi, sering muncul dalam pengumuman instansi, prosedur administrasi, pengendalian keselamatan.",
+    "notes": "• Bentuk singkat dalam percakapan: ～なきゃ（い）けない/～ないと, tetapi nuansa formalnya berbeda.\n• Dalam pemahaman bacaan, frasa judul biasanya 〜手続きの流れ・注意事項 dengan kalimat pola ini. meaning_vi: Kalau tidak ～maka tidak ⏐ explain: Menyatakan bahwa jika klausa depan tidak ～, hal di belakangnya tidak dapat dilakukan.\nKlausa belakang berupa kalimat yang bermakna negatif. Biasanya mengungkapkan perasaan negatif pembicara. ⏐ examples: 1. やってみないことには、できるかどうかわからない。\nKalau tidak mencoba dulu, tidak akan tahu bisa atau tidak.\n2. 実物を見ないことには、買う気にはなれない。\nKalau tidak melihat barang aslinya, saya tidak ingin membeli.",
+    "mistakes": [
+     "Mengira ini syarat cukup: sebenarnya hanya syarat perlu; meskipun ada A, belum tentu cukup untuk terjadinya B.",
+     "Lupa で setelah N/A-na: Nでないことには／静かでないことには."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Digunakan dalam",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "～ないことには～ない",
+       "Prosedur/peraturan",
+       "Menekankan prasyarat",
+       "<ruby>登録<rt>とうろく</rt></ruby>しないことには<ruby>閲覧<rt>えつらん</rt></ruby>できない"
+      ],
+      [
+       "～ないと～ない",
+       "Bahasa lisan",
+       "Lebih lunak, sehari-hari",
+       "<ruby>急<rt>いそ</rt></ruby>がないと<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1082,
+   "src_hash": "e7ff6902ce9984c0",
+   "fields": {
+    "meaning": "Selama tidak…, (tidak)…; kecuali jika…",
+    "examples": [
+     "Saya berpikir bahwa selama saya tidak berhenti dari perusahaan sekarang, kehidupan seperti ini tidak akan berubah.",
+     "Katanya kankernya sudah cukup parah, dan dia diberi tahu bahwa kalau tidak dioperasi, nyawanya tidak akan tertolong."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1083,
+   "src_hash": "53b58c7112c10a4f",
+   "fields": {
+    "meaning": "Bukannya tidak…, bisa juga…",
+    "examples": [
+     "Bukannya tidak bisa pergi, tetapi hari ini perlu persiapan.",
+     "Kalau harganya segini, bukannya tidak mungkin saya beli.",
+     "Bukannya saya tidak memahami perasaannya.",
+     "Soal ini bukannya tidak sulit.",
+     "Bukannya saya tidak suka sake, hanya saja saya tidak kuat minum."
+    ],
+    "explain": "Sering disertai kata sambung/penjelas yang menunjukkan syarat: けど／が／なら／とはいえ.\nSering digunakan untuk menolak/menerima dengan sopan dan hati-hati: \"可能だが積極的ではない\".\nDengan Adj-i, bentuk panjang \"〜くなくはない\" sesuai untuk JLPT, tetapi dalam bahasa lisan cenderung memakai まあ/別に untuk mengungkapkan hal serupa.\n\n• \"Bukannya tidak…\", yaitu mengakui sebagian/dengan enggan/dengan syarat tertentu.\n• Nuansa ambigu, menghindari penegasan yang tegas; sering menyiratkan \"boleh juga, tetapi…/memang ada, namun…\".\n• Arti sangat bergantung pada intonasi dan klausa yang mengikutinya (konsesif, syarat, pembatasan).",
+    "notes": "• Intonasi naik di akhir menambah kesan \"sangat mungkin\", intonasi turun menambah kesan \"enggan\".\n• Dipadukan dengan syarat \"〜次第で／〜条件なら\" untuk memperjelas batasan: 手伝わなくはないが、時間次第だ。\n• Na/N wajib \"でなくはない\"; menghilangkan で salah secara tata bahasa.",
+    "mistakes": [
+     "Lupa \"で\" dengan Na/N: \"静かでなくはない\".",
+     "Tertukar antara \"〜くはない\" (hanya menekankan bagian yang berlawanan) vs \"〜くなくはない\" (negasi ganda). Contoh: 高くはない ≠ 高くなくはない.",
+     "Dipakai untuk penegasan kuat → nuansanya salah (pola ini tidak tegas).",
+     "Soal jebakan JLPT: memilih antara なくはない／ないことはない／なくもない; perhatikan tingkat kepastian dan gaya bahasa."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan nuansa",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "〜なくはない",
+       "Bukannya tidak…",
+       "Penegasan lemah, ambigu",
+       "<ruby>行<rt>い</rt></ruby>かなくはない"
+      ],
+      [
+       "〜ないことはない",
+       "Bukannya tidak…",
+       "Menekankan logika, sedikit lebih kuat daripada \"なくはない\"",
+       "<ruby>行<rt>い</rt></ruby>かないことはない"
+      ],
+      [
+       "〜なくもない",
+       "Tidak sepenuhnya tidak…",
+       "Bahasa lisan, lebih lunak, agak samar",
+       "<ruby>行<rt>い</rt></ruby>かなくもない"
+      ],
+      [
+       "〜わけではない",
+       "Bukan berarti… (negasi total)",
+       "Negasi kuat terhadap kemungkinan penyimpulan",
+       "<ruby>行<rt>い</rt></ruby>けるわけではない"
+      ],
+      [
+       "〜とは<ruby>限<rt>かぎ</rt></ruby>らない",
+       "Tidak selalu…",
+       "Menyangkal sifat menyeluruh/generalisasi",
+       "<ruby>高<rt>たか</rt></ruby>いから<ruby>良<rt>よ</rt></ruby>いとは<ruby>限<rt>かぎ</rt></ruby>らない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1084,
+   "src_hash": "27511e0a797fab73",
+   "fields": {
+    "meaning": "Tidak sepenuhnya tidak…, ada juga…",
+    "examples": [
+     "Bukannya saya tidak makan masakan pedas, tetapi saya kurang menyukainya.",
+     "Saya pun bukannya tidak memahami perasaannya.",
+     "Kalau memaksakan diri, bukannya tidak mungkin sempat.",
+     "Bukannya saya tidak suka tempat yang tenang, tetapi saya lebih suka kota besar.",
+     "Tergantung harganya, bukannya tidak mungkin saya beli, lho."
+    ],
+    "explain": "Tingkat kesopanan: Netral; dapat dipakai dalam percakapan maupun bahasa tulis ringan.\nMembangun argumen yang lunak: Sering dipakai untuk mengalah sebagian sebelum menyatakan syarat/gagasan utama yang berlawanan.\nKombinasi yang sering muncul: ～なくもないが／けど, ～なくもないと思う, ～なくもないかな.\nPragmatik: Menghindari kesan penegasan yang tegas; cocok saat tidak ingin berjanji pasti atau ingin menjaga muka.\n\n• Arti utama: Negasi ganda yang bermakna penegasan lemah: \"tidak sepenuhnya tidak…\", \"bisa juga…\", \"tidak sampai separah…\".\n• Nuansa ragu/konsesif: Pembicara tidak menegaskan dengan kuat, hanya mengakui sampai tingkat tertentu, biasanya untuk membuka kemungkinan atau menghindari berbicara terus terang.\n• Implikasi syarat/konteks: Sering disertai \"が／けど／なら\" untuk menyatakan syarat atau pengecualian: ～なくもないが…\n• Intensitas: Tingkat penegasannya lebih lemah daripada \"できる/ある/いい\", lebih kuat daripada \"わけではない\".",
+    "notes": "• Dengan kata sifat -な dan kata benda, ではなくもない lebih sopan daripada じゃなくもない.\n• Sering dipakai bersama kata keterangan tingkat: 少し/まあ/わりと/条件次第で + ～なくもない.\n• Intonasi naik pada \"ない\" membantu menekankan \"masih mungkin/bukannya tidak\".",
+    "mistakes": [
+     "Tertukar dengan ～わけではない: kalimat dengan ～なくもない mengandung penegasan lemah, tidak hanya menyangkal pengecualian.",
+     "Melewatkan syarat sesudahnya: ～なくもない biasanya memerlukan klausa berikutnya untuk memperjelas batasannya.",
+     "Dipakai di tempat yang menuntut komitmen jelas dapat menimbulkan salah paham \"setengah hati\".",
+     "Bentuk yang salah dengan i-adj: 高くない→高くなくもない (bukan 高いなくもない)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola tata bahasa",
+      "Arti",
+      "Persamaan/Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ないこともない",
+       "Bukannya tidak...",
+       "Setara, sedikit lebih formal.",
+       "<ruby>行<rt>い</rt></ruby>けないこともない。"
+      ],
+      [
+       "～なくはない",
+       "Tidak sepenuhnya tidak...",
+       "Bahasa lisan, ringkas; nuansanya dekat dengan ～なくもない.",
+       "<ruby>高<rt>たか</rt></ruby>くはない。"
+      ],
+      [
+       "～わけではない",
+       "Tidak sepenuhnya/bukan berarti...",
+       "Menyangkal pengecualian; penegasannya lebih lemah daripada tiga pola di atas.",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。"
+      ],
+      [
+       "<ruby>別<rt>べつ</rt></ruby>に～ない",
+       "Tidak terlalu...",
+       "Penyangkalan langsung, tidak mengandung penegasan lemah seperti ～なくもない.",
+       "<ruby>別<rt>べつ</rt></ruby>に<ruby>欲<rt>ほ</rt></ruby>しくない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1085,
+   "src_hash": "5683fcc71377b0df",
+   "fields": {
+    "meaning": "～というのは→驚(おどろ)き、意外(いがい)等(など)の感情(かんじょう)\nMenyatakan rasa terkejut, di luar dugaan",
+    "connection": "N / V/A bentuk biasa + なんて/とは（Na bentuk sekarang boleh menghilangkan だ）",
+    "examples": [
+     "Tidak disangka kehidupan di Jepang sesibuk ini (tak pernah terbayang sekali pun).",
+     "Tidak disangka pengamanan KTT seketat ini (sebelumnya tidak tahu).",
+     "Menang lotre 300 juta yen (sungguh bikin iri)!",
+     "\"Mereka berdua sampai bercerai?! Padahal dulu hubungan mereka begitu baik.\""
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1086,
+   "src_hash": "dc89de08a36bc295",
+   "fields": {
+    "meaning": "Bahkan… pun (tidak)…, sekalipun…",
+    "examples": [
+     "Seberapa laku produk ini, bahkan presiden direktur pun sebenarnya tidak tahu.",
+     "Sekalipun penggunaan ponsel dilarang, tidak diketahui berapa banyak siswa yang akan mematuhinya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1087,
+   "src_hash": "679be16f0cc08120",
+   "fields": {
+    "name": "～にしたら・にすれば（sudut pandang）",
+    "meaning": "～の立場(たちば)からいえば/いっても→気持(きも)ち、考(かんが)え方(かた)\nKontras, dari sudut pandang",
+    "connection": "N(sudut pandang) + にしたら・にすれば・にしてみれば",
+    "examples": [
+     "Mengecat rambut menjadi cokelat bagi saya bukan masalah, tetapi bagi kakek dan nenek tampaknya itu hal yang tidak bisa dimaafkan.",
+     "Karena sudah tahu bahwa kondisi perusahaan sedang sulit, pihak serikat pekerja pun mungkin tidak bisa menuntut kenaikan upah yang besar.",
+     "Suami saya sering dipindahtugaskan. Bagi suami sendiri mungkin tidak masalah karena itu pekerjaan yang ia pilih sendiri karena suka, tetapi bagi anak-anak, mereka mungkin merasa tidak senang karena harus pindah sekolah setiap dua tahun. Saya pun, meskipun mengerti bahwa itu tidak bisa dihindari, merasa berat hati setiap kali pindah rumah."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1088,
+   "src_hash": "0ca3d9952a0ff7f5",
+   "fields": {
+    "meaning": "基準(きじゅん)になるもの、相手(あいて)の希望(きぼう)等(など)から離(はな)れないようにする\nBerdasarkan, sesuai dengan",
+    "examples": [
+     "Jika berjalan menyusuri rel kereta sekitar 5 menit, ada taman di sebelah kanan.",
+     "Ujian tinggal 3 bulan lagi. Mari belajar sesuai rencana ini.",
+     "SMA A, sesuai dengan kebijakan pendidikannya yang menghargai individualitas, juga mementingkan wawancara dalam ujian masuk.",
+     "Di biro perjalanan kami, Anda dapat memilih tur yang sesuai dengan keinginan Anda dari berbagai paket.",
+     "\"Mohon maaf kami tidak dapat memenuhi harapan Anda.\"",
+     "Di jalan sepanjang pantai berjajar restoran-restoran yang apik."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1089,
+   "src_hash": "c3451e07ee640f94",
+   "fields": {
+    "meaning": "Berkaitan dengan…",
+    "examples": [
+     "Kesalahan ini adalah masalah yang menyangkut kepercayaan terhadap perusahaan.",
+     "Karena ini menyangkut nyawa seseorang, tolong tangani sebagai prioritas utama.",
+     "Dia terlibat dalam bisnis baru dan bertanggung jawab atas survei pasar.",
+     "Informasi yang berkaitan dengan privasi tidak boleh dibawa ke luar perusahaan.",
+     "Orang yang kemungkinan terlibat dalam kasus itu telah diidentifikasi."
+    ],
+    "explain": "Digunakan dalam dokumen peraturan/pengumuman untuk menekankan sifat yang penting: 安全に関わる、生命に関わる等.\nBentuk sambung ～に関わって… membantu mengantarkan alasan/akibat yang berkaitan.\nDalam percakapan, ketika menyatakan \"terlibat dalam (suatu hal)\": プロジェクトに関わる/関わっている.\nHindari penggunaan berlebihan jika hanya bermakna \"tentang/topik\": dalam hal itu ～に関する／～について lebih alami.\n\n• Berkaitan dengan, berpengaruh terhadap suatu bidang/sasaran (luas, mencakup dampak baik maupun buruk).\n• Menyiratkan tingkat keterkaitan yang dalam, kadang bernuansa \"terseret/ikut campur\" (negatif) tergantung konteks.\n• Sering digunakan dengan hal-hal yang penting: 命・安全・名誉・権利・プライバシー・信用・成否.\n• Berbeda dengan 関する: 関わる bermakna saling terkait/berpengaruh, bukan sekadar topik semata.",
+    "notes": "• \"命に関わる\" hampir menjadi ungkapan peringatan yang baku (medis, keselamatan kerja).\n• Dalam penyelidikan: \"事件に関わる（人物・証拠）\" = \"terlibat/tersangkut\".\n• Jika perlu menekankan peran keikutsertaan aktif: 関与する/携わる juga bisa cocok (nuansanya berbeda).",
+    "mistakes": [
+     "Tertukar dengan ～に関する/～について ketika hanya menyatakan topik semata.",
+     "Tertukar dengan ～に関わらず (tanpa memandang) karena berasal dari kata kerja yang sama 関わる.",
+     "Terjemahan mesin \"tersangkut\" di semua tempat → mudah menimbulkan nuansa negatif yang tidak perlu; pertimbangkan konteks."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～に<ruby>関<rt>かか</rt></ruby>わる",
+       "Berkaitan/berpengaruh",
+       "Bentuk dasar, dipakai secara luas",
+       "<ruby>名誉<rt>めいよ</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わる<ruby>問題<rt>もんだい</rt></ruby>。"
+      ],
+      [
+       "～に<ruby>関<rt>かん</rt></ruby>する",
+       "Berkaitan dengan (bersifat topik)",
+       "Netral, kurang bernuansa \"terseret\"",
+       "<ruby>環境<rt>かんきょう</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>本<rt>ほん</rt></ruby>。"
+      ],
+      [
+       "～について",
+       "Tentang, berkaitan dengan",
+       "Bahasa lisan, penjelasan/diskusi",
+       "<ruby>計画<rt>けいかく</rt></ruby>について<ruby>話<rt>はな</rt></ruby>す。"
+      ],
+      [
+       "～に<ruby>関<rt>かか</rt></ruby>わらず",
+       "Tanpa memandang",
+       "Pola dengan arti lain, mudah tertukar",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わらず。"
+      ],
+      [
+       "<ruby>係<rt>かか</rt></ruby>る（かかる）",
+       "Berkaitan (dokumen hukum/peraturan)",
+       "Ejaan berbeda; sering dijumpai dalam surat resmi",
+       "<ruby>当社<rt>とうしゃ</rt></ruby>に<ruby>係<rt>かか</rt></ruby>る<ruby>案件<rt>あんけん</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1090,
+   "src_hash": "8889c1f71cfcd95d",
+   "fields": {
+    "meaning": "～を除(のぞ)いて/入(い)れないで\nMengecualikan, tanpa",
+    "examples": [
+     "Tidak sarapan itu tidak baik untuk tubuh.",
+     "Film itu benar-benar seru, tak perlu banyak alasan.",
+     "Saya ingin mendengar kritik yang jujur tanpa basa-basi pujian.",
+     "Gedung ini rusak akibat gempa karena pengerjaan konstruksinya asal-asalan.",
+     "\"Bercandanya cukup sampai di sini, tolong katakan yang sebenarnya.\"",
+     "\"Di pesta akhir tahun, mari kita tidak membicarakan pekerjaan.\""
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

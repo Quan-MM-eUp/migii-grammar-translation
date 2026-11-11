@@ -1,0 +1,598 @@
+{
+ "batch": "b015",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 1620,
+   "src_hash": "0a1e3d578c8340ec",
+   "fields": {
+    "name": "まだ（waktu berlalu）",
+    "meaning": "Menyatakan waktu",
+    "connection": "まだ + [jumlah waktu]（しか…ない）",
+    "examples": [
+     "Baru satu jam berlalu.",
+     "Baru setengah tahun sejak saya datang ke Jepang.",
+     "Baru belajar sekitar 10 menit, tetapi sudah mulai mengantuk.",
+     "Baru satu tahun sejak gempa bumi, tetapi pemulihan kota sangat pesat.",
+     "Saya kira sudah sore, ternyata baru pukul 3."
+    ],
+    "explain": "Digunakan bersama ungkapan waktu untuk menekankan bahwa baru sedikit waktu berlalu sejak suatu kejadian."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1621,
+   "src_hash": "7901ff0fb631a409",
+   "fields": {
+    "meaning": "Menyatakan Uji pengetahuan tentang partikel | cakupan",
+    "explain": "まで(は) berarti まで(は) adalah gabungan partikel yang digunakan untuk menunjukkan batas atau jangkauan dalam waktu maupun ruang, sering diterjemahkan sebagai \"sampai\" atau \"hingga\". は menambahkan nuansa topik atau kontras, sehingga menekankan batas tersebut sebagai titik acuan.\n\nStruktur: Kata benda/Ungkapan waktu + まで(は)\n\nまで(は) menandai titik akhir atau batas suatu tindakan, keadaan, atau kondisi. Jika は ditambahkan setelah まで, batas tersebut disorot atau dikontraskan, sering kali sebagai pengantar pernyataan tentang hal yang berlaku sampai titik itu. Misalnya, 30年前までは berarti \"sampai 30 tahun yang lalu\" dengan penekanan pada batas waktu tersebut, sering kali untuk membandingkan situasi masa lampau dan sekarang."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 215,
+   "src_hash": "97fa5d3c7c7f3249",
+   "fields": {
+    "meaning": "Kecenderungan, keadaan yang mudah menjadi A",
+    "connection": "Aい (hilangkan い) + がる / Na + がる",
+    "examples": [
+     "Dia selalu menginginkan barang yang mahal.",
+     "Anjing itu tidak suka ketika kaki depannya disentuh.",
+     "Dia sangat menyayangi cucu-cucunya."
+    ],
+    "explain": "◎ Digunakan dengan kata sifat perasaan dan sensasi seperti 「暑い、寒い、通い、うれしい、はすかし、残念」 untuk menunjukkan perubahan atau kecenderungan yang khas.",
+    "notes": "Bentuk: ～がって・～がらないで"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 216,
+   "src_hash": "c7343ee9c572aa21",
+   "fields": {
+    "name": "Kata bantu bilangan + で",
+    "meaning": "Kira-kira, dalam waktu ~",
+    "examples": [
+     "Saya belajar bahasa Jepang dalam waktu 3 tahun.",
+     "Masakan ini saya buat dalam 10 menit."
+    ],
+    "explain": "Saat menggunakan Kata bantu bilangan + で：menunjukkan tenggat, batas dengan arti \"Dalam waktu, kira-kira …\""
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 217,
+   "src_hash": "07495f1600532509",
+   "fields": {
+    "meaning": "Menyatakan keinginan orang ketiga.",
+    "examples": [
+     "Semua orang ingin cepat pulang.",
+     "Adik perempuan Anda ingin bertemu, lho.",
+     "Dia tidak mau pergi berbelanja.",
+     "Anak-anak ingin keluar rumah meskipun di musim dingin.",
+     "Dia tidak mau membicarakan hal itu.",
+     "Ayah saya yang sedang dirawat di rumah sakit ingin minum minuman beralkohol."
+    ],
+    "explain": "◎ Digunakan dengan kata kerja bentuk MASU, menyatakan keinginan untuk melakukan hal tersebut."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 218,
+   "src_hash": "5b1089c4c24b9725",
+   "fields": {
+    "meaning": "Nominalisasi dari Vます: 休みます→休み",
+    "connection": "Vます (hilangkan ます) → N (休みます → 休み)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 219,
+   "src_hash": "512e71f0456411fa",
+   "fields": {
+    "meaning": "Ada ~",
+    "connection": "V kata kerja transitif て + ある",
+    "examples": [
+     "Di amplop sudah tertempel perangko.",
+     "あけます(Membuka pintu)\nあけてあります(Pintu sudah dibuka)"
+    ],
+    "explain": "Menyatakan keadaan yang memiliki tujuan, yaitu hasil dari suatu tindakan yang disengaja.",
+    "notes": "meaning_vi: Menyatakan keadaan hasil dari tindakan seseorang yang masih tertinggal.\nexamples: 1. ①　花が　飾ってありますね。\nSudah dihias dengan bunga, ya.\n2. ②　れいぞうこに　白ワインが　入れてありますよ。\nSaya sudah menaruh anggur putih di kulkas, lho.\n3. ➂　あなたの　分も　のこしてあります。\nBagian Anda juga sudah saya sisihkan.\n──────\n1. ①　書いてあります。\nSudah tertulis.\n2. ②　へやに　花が　かざってあります。\nDi kamar sudah dihias bunga.\n3. ③　ポスターが　はってありました。\nPoster sudah ditempel.\nmeaning_vi: Sudah … (keadaan hasil)\nexplain: Subjek biasanya berupa benda/sasaran yang dikenai tindakan, bukan orang yang melakukannya.\nJika ingin membicarakan proses/keadaan alami, gunakan ～ている (窓が開いている).\nUntuk tujuan persiapan: menekankan bahwa tindakan sudah selesai dan sedang \"dibiarkan seperti itu\".\nDalam bahasa tulis, ～てある memberi kesan objektif, tidak membebankan tanggung jawab secara langsung kepada pelaku.\nexamples: 1. 机の上にメモが置いてある。\nDi atas meja sudah ditaruh catatan.\n2. 会場はすでに準備してある。\nAula sudah dipersiapkan.\n3. 明日の会議の資料は印刷してあります。\nMateri rapat besok sudah dicetak.\n4. 壁に写真が飾ってある。\nDi dinding terpajang foto (seseorang sudah memasangnya dan foto itu ada di sana).\n5. このドアは夜鍵をかけてある。\nPintu ini sudah dikunci pada malam hari.\n6. チケットはまだ取ってはない。\nTiketnya belum dipesan.\nKeduanya sama-sama digunakan untuk menggambarkan keadaan, fenomena, tetapi V他てある  adalah hasil dari tindakan yang disengaja.\nれい：\nドアを　あけます\nドアが　あけてあります。(V他)\nドアが　あいています。   (V自)\nMembuka pintu\nPintu sudah dibuka  (Seseorang sudah membuka pintu sebelumnya untuk suatu tujuan)\nPintu terbuka  (Keadaan pintu yang saat ini sedang terbuka)\n1. お皿に　魚が　きってありますから、これから　さしみを　作りましょう。\nKarena di piring sudah ada ikan yang dipotong, mari sekarang kita membuat sashimi bersama.\n2. A: ケーキは　どこですか。\nB: ケーキは　もう　テープルに　おいてありますよ。\nA: Kuenya di mana?\nB: Kuenya sudah ditaruh di atas meja, lho.",
+    "mistakes": [
+     "Menggunakan kata kerja intransitif dengan ～てある: ×窓が開けてある (benar) / ×窓が開いてある (salah untuk arti \"seseorang sudah membukanya\").",
+     "Tertukar dengan ～ている: ドアが閉まっている (keadaan) vs ドアは閉めてある (hasil karena dilakukan seseorang).",
+     "Menyebutkan pelaku secara langsung dengan ～てある tidak alami: ×誰かが窓を開けてある → sebaiknya pelaku dihilangkan, atau gunakan 受身 jika perlu.",
+     "Tertukar dengan ～ておく: 印刷しておいた (saya sudah mencetaknya sebelumnya) ≠ 印刷してある (sekarang dalam keadaan sudah dicetak)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～てある",
+       "Hasil yang disengaja masih bertahan",
+       "Kata kerja transitif; menekankan keadaan yang ada sekarang",
+       "ドアは<ruby>閉<rt>し</rt></ruby>めてある"
+      ],
+      [
+       "～ている",
+       "Keadaan/sedang berlangsung",
+       "Kata kerja intransitif atau tindakan yang sedang berlangsung",
+       "ドアが<ruby>閉<rt>し</rt></ruby>まっている"
+      ],
+      [
+       "～ておく",
+       "Melakukan sebelumnya sebagai persiapan",
+       "Menekankan tindakan persiapan, tidak selalu menyatakan keadaan yang masih ada",
+       "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>印刷<rt>いんさつ</rt></ruby>しておく"
+      ],
+      [
+       "<ruby>受身<rt>うけみ</rt></ruby> + ～ている",
+       "Hasil pasif",
+       "Pelaku dapat disebutkan jika perlu",
+       "ドアは<ruby>彼<rt>かれ</rt></ruby>に<ruby>閉<rt>し</rt></ruby>められている"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 221,
+   "src_hash": "17e3f988171f30cd",
+   "fields": {
+    "name": "V bentuk maksud と思っています",
+    "meaning": "berniat ~",
+    "connection": "V bentuk maksud + と思っています",
+    "examples": [
+     "A: Akhir pekan ini Anda akan melakukan apa?\nB: Saya berniat bermain tenis bersama teman.",
+     "A: Saya berniat pergi ke laut saat liburan musim panas. Mau pergi bersama?\nB: Maaf, saya berniat mendaki gunung bersama keluarga."
+    ],
+    "explain": "Menyatakan niat pembicara.\n• Catatan:\n~思(おも)います：Niat pada titik waktu sekarang.\n~思(おも)っています: Sejak dulu hingga sekarang saya selalu berniat demikian."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 222,
+   "src_hash": "df8296745fe171db",
+   "fields": {
+    "meaning": "Kata kerja intransitif | Menyatakan keadaan hasil setelah suatu perubahan.",
+    "connection": "V kata kerja intransitif て + いる",
+    "examples": [
+     "Jendelanya pecah.",
+     "Jendela kamar saya pecah."
+    ],
+    "explain": "Menyatakan keadaan suatu benda atau suatu fenomena.\nUntuk menggambarkan keadaan, selalu digunakan konjugasi bentuk Vている.\nJika ingin menekankan hal yang dibicarakan, kita dapat mengganti が dengan は."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 223,
+   "src_hash": "58e4f86e54e393d4",
+   "fields": {
+    "name": "～ V bentuk potensial",
+    "meaning": "dapat ~ | Kata kerja bentuk potensial | memiliki kemampuan untuk melakukan sesuatu…\nditinjau dari keadaan..memiliki kemampuan untuk melakukan sesuatu…",
+    "connection": "Vる → V bentuk potensial (golongan I: う→える / golongan II: る→られる / する→できる / くる→こられる)",
+    "examples": [
+     "A: Apakah Karina-chan bisa membaca kanji?\nB: Ya, bisa membaca kanji.",
+     "A: Permisi, apakah di sini bisa memakai kartu?\nB: Ya, bisa."
+    ],
+    "explain": "• Menyatakan kemampuan, kapasitas dari suatu objek sasaran tertentu.\n• Menyatakan suatu kondisi, suatu hal yang diizinkan untuk dilakukan.\n\n~ V可能(かのう)形(けい): dapat ~",
+    "notes": "Catatan:\nSaat diubah ke bentuk potensial, semua kata kerja menjadi kata kerja golongan 2.\nHanya partikel を yang diganti dengan partikel が. Partikel lainnya tetap dipertahankan.\n私は　ビールを　のみません。\nSaya tidak minum bir.\n私は　ビールを　のむことが　できません。\n私は　ビールが　のめません。\nSaya tidak bisa minum bir.\n忙しいですから、いなかへ　帰れません。\nKarena sibuk, saya tidak bisa pulang ke kampung halaman.\nmeaning_vi: Dapat ~\n［可能動詞の作り方］\nexamples: 1. ①　教科書が買える\nDapat membeli buku pelajaran.\n2. ②　あの人はフランス語が話せる。\nOrang itu bisa berbicara bahasa Prancis.\n3. ③　私は生の魚が食べられない。\nSaya tidak bisa makan ikan mentah.\n4. ③　インタネットで予約できる店が増えている。\nToko yang bisa dipesan melalui internet makin bertambah."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 224,
+   "src_hash": "c6ca83a21d50f063",
+   "fields": {
+    "meaning": "~ sambil ~",
+    "examples": [
+     "Saya mendengarkan musik sambil membersihkan kamar.",
+     "Tolong jangan membaca koran sambil makan roti."
+    ],
+    "explain": "Kala dan pola tata bahasa dikonjugasikan pada kata kerja V2.\nV1  dalam bentuk ます, hilangkan ま す\n\n~Vながら: ~ sambil ~",
+    "notes": "Menghubungkan kata kerja yang menyatakan tindakan di depan dan di belakang, untuk menyatakan dua tindakan yang berlangsung secara bersamaan. Dalam hal ini, tindakan di belakang adalah tindakan utama, sedangkan tindakan di depan menyatakan tindakan sampingan yang menggambarkan keadaan saat tindakan utama dilakukan. Jika mengambil contoh ①, \"belajar atau bekerja\" adalah tindakan utama, dan tindakan itu dilakukan sambil disertai tindakan \"mendengarkan musik\". Kalimat berikut berarti tindakan naik ke kereta dan tindakan membaca buku dilakukan bersamaan, sehingga tidak dapat ditafsirkan sebagai membaca buku di dalam kereta.\n*（誤） 電車に乗りながら本を読んだ。\n*（正） 電車に乗って本を読んだ。\n!Subjek pada kedua bagian sama, dan sering kali menyatakan tindakan manusia yang disengaja, tetapi seperti pada ⑤⑥, bisa juga berupa sesuatu yang dapat bergerak atau berubah dengan kekuatannya sendiri, seperti pesawat terbang atau fenomena alam.\n*（誤） 私は本を読みながら、彼はウイスキーを飲んだ。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 225,
+   "src_hash": "f262af34a7f5a28a",
+   "fields": {
+    "meaning": "Oleh karena itu ~",
+    "connection": "それで + [kalimat/klausa]",
+    "examples": [
+     "Saya ingin menjadi novelis di masa depan. Oleh karena itu, sekarang saya menulis novel sambil bekerja paruh waktu.",
+     "Saya jadi tidak bisa melihat huruf kecil. Oleh karena itu, saya membeli kacamata baru.",
+     "Kantor saya jauh. Oleh karena itu, setiap pagi saya berangkat dari rumah lebih awal.",
+     "A: Di sini kopinya enak, bisa makan juga...\nB: Karena itu tempat ini populer, ya."
+    ],
+    "explain": "「それで」 adalah kata sambung yang digunakan untuk menyatakan hasil dari sebab atau alasan yang telah disebutkan sebelumnya.\n\nDigunakan untuk menyatakan akibat dari hal yang disebutkan pada kalimat-kalimat sebelumnya (kenyataan).",
+    "notes": "meaning_vi: Dan oleh karena itu…, maka… ⏐ explain: Cocok dalam penuturan menurut urutan yang logis, sopan, dan jelas.\nDigunakan untuk membuka usulan/permintaan berdasarkan alasan sebelumnya:故障しました。 それで、修理をお願いしたいのですが。\nDalam percakapan, それでね dapat digunakan secara santai untuk beralih ke kesimpulan/akibat. ⏐ examples: 1. 雨が降っていた。それで、試合は中止になった。\nHujan turun. Oleh karena itu, pertandingan dibatalkan.\n2. 頭が痛かった。それで、早退した。\nKepala saya sakit. Karena itu, saya pulang lebih awal.\n3. プリンターが壊れた。それで、新しいのを買った。\nPrinternya rusak. Jadi, saya membeli yang baru.\n4. 会議が長引いた。それで、連絡が遅れました。\nRapatnya berlangsung lama. Oleh karena itu, saya terlambat menghubungi.\n5. それで？彼は何て言ったの。\nLalu? Dia bilang apa? ⏐ comparison: Pola | Arti | Perbedaan utama | Contoh singkat\nそれで | oleh karena itu (hasil) | Kata keterangan di awal S2 | 雨（あめ）だ。 それで 遅（おく）れた。\nだから/ですから | karena itu | Kata sambung, nuansa lebih kuat/langsung | だから 遅（おく）れた。\nmeaning_vi: （1）Oleh karena itu, maka\n（2）Lalu, ～? ⏐ explain: (1) menyatakan hasil.\n(2) kata sambung yang digunakan untuk menanyakan hasil. 「で」 digunakan dalam bahasa lisan.\n⏐ examples: 1. 父は働きすぎた。それで病気になった。\nAyah saya bekerja terlalu keras. Oleh karena itu, ia jatuh sakit.\n2. 「田中君、インフルエンザにかかったんだって。」\n「それで学校を休んだんだね。」\nKatanya Tanaka-kun kena flu. Karena itu hari ini dia tidak masuk sekolah, ya.\n3. 「田中君にお金を貸してくれって言われたんだ。」\n「へえー。それで、貸してあげたの」\nTanaka minta pinjam uang padaku. Hah, lalu kamu pinjamkan?\n4. 「今日、面接を受けたんだ。」\n「で、どうなった。」\nHari ini aku ikut wawancara. Lalu, bagaimana hasilnya?"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 226,
+   "src_hash": "533254f90f6c57b7",
+   "fields": {
+    "meaning": "Digunakan untuk menambahkan hal-hal yang serupa dengan kata atau kalimat sebelumnya.",
+    "connection": "それに + [kalimat/klausa]",
+    "examples": [
+     "Pisang itu enak. Selain itu, murah.",
+     "Hujan sedang turun, dan selain itu, ada angin juga."
+    ],
+    "notes": "explain: Posisi: Di awal kalimat kedua, diikuti tanda koma: それに、…\nTingkat formalitas: Netral; cocok dalam percakapan sehari-hari dan email internal. Dalam teks formal, そのうえ/さらに mungkin lebih sesuai.\nRangkaian penyebutan: Dapat digunakan setelah ～し～し untuk menutup kalimat dengan satu poin tambahan yang bersifat \"kesimpulan lunak\".\nBobot informasi: S2 biasanya searah dan bernilai setara atau sedikit lebih besar daripada S1. ⏐ examples: 1. この店は安い。それに、品質もいい。\nToko ini murah. Selain itu, kualitasnya juga bagus.\n2. 今日は忙しい。それに、会議も三つある。\nHari ini sibuk. Selain itu, ada tiga rapat juga.\n3. この本は読みやすい。それに、図が多くて理解しやすい。\nBuku ini mudah dibaca. Selain itu, gambarnya banyak sehingga mudah dipahami.\n4. 彼は経験が豊富だ。それに、人柄もいい。\nDia kaya akan pengalaman. Selain itu, kepribadiannya juga baik.\n5. 交通費は会社が出す。それに、昼食も支給される。\nBiaya transportasi ditanggung perusahaan. Selain itu, makan siang juga disediakan.\n6. このパソコ ⏐ comparison: Pola | Arti | Perbedaan utama | Contoh singkat\nそれに | Penambahan informasi | Netral, penambahan yang \"setara\". | 安（やす）い。 それに 早（はや）い。\nそして | Dan, lalu | Penghubung netral menurut urutan; kurang menekankan penambahan. | 説明（せつめい）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 227,
+   "src_hash": "9a5cc17633bf343a",
+   "fields": {
+    "meaning": "Lebih",
+    "examples": [
+     "Kereta bawah tanah akan tiba lebih cepat."
+    ],
+    "explain": "◎ Digunakan dalam perbandingan dan penilaian terhadap hal lain. Ada kalanya hal yang dibandingkan dihilangkan."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 228,
+   "src_hash": "9d4ab4922968875b",
+   "fields": {
+    "meaning": "masih ~",
+    "examples": [
+     "A: Apakah hujannya sudah berhenti?\nB: Belum, masih turun, lho.",
+     "A: Bagaimana kalau gunting ini saya simpan?\nB: Jangan, karena masih saya pakai, tolong biarkan saja seperti itu."
+    ],
+    "explain": "Menyatakan suatu keadaan, suatu tindakan yang masih sedang berlangsung."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 230,
+   "src_hash": "f57f0239790c3a59",
+   "fields": {
+    "name": "Bentuk perintah",
+    "meaning": "Menyatakan perintah.",
+    "connection": "Vる → V bentuk perintah (golongan I: う→え / golongan II: る→ろ / する→しろ / くる→こい)",
+    "examples": [
+     "Tutup itu!",
+     "Kalau tidak suka, berhenti saja!",
+     "Kumohon. Jangan datang!",
+     "Jangan sungkan, minum lebih banyak lagi!"
+    ],
+    "explain": "◎ Menyatakan instruksi dan perintah."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 231,
+   "src_hash": "13d0567ce2369090",
+   "fields": {
+    "name": "Kata tanya＋でも",
+    "meaning": "Kata tanya + でも: siapa/apa/di mana… pun",
+    "connection": "Kata tanya + でも",
+    "examples": [
+     "Kalau mendapat kesulitan, silakan beri tahu saya kapan saja.",
+     "Saya akan membelikan apa saja untuk Anda, lho.",
+     "Barang ini bisa dibeli di mana saja.",
+     "Di toko ini, barang apa pun harganya 100 yen.",
+     "Karena dia orang terkenal, siapa pun mengenalnya.",
+     "\"Sekitar jam berapa sebaiknya saya menelepon?\" \"Jam berapa pun boleh.\""
+    ],
+    "explain": "◎ 「Kata tanya + ても」 berarti terjadi dalam semua kasus.\n\nKata tanya + ても",
+    "notes": "meaning_vi: Diletakkan setelah kata tanya seperti 「何」「いつ」「どこ」「だれ」 untuk menyatakan arti yang tidak tertentu.\nexamples: 1. ①　何でも　言ってください。\nSilakan katakan apa saja.\n2. ②　いつでも　電話してください。\nSilakan telepon kapan saja.\n3. ③　旅行は　どこでも　だいじょうぶです。\nUntuk perjalanan, ke mana pun tidak masalah.\n4. ④　だれでも　来てください。\nSilakan datang, siapa saja boleh.\nexamples asli: 1. コンサートのチケットがとれるなら、どんな席でもかまわない。\nKalau bisa mendapatkan tiket konser, kursi mana pun tidak masalah.\n2. 「待ち合わせは何時にしますか」「何時でもいいですよ」。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 232,
+   "src_hash": "b48d85fcd94ebf4a",
+   "fields": {
+    "name": "Kata tanya＋～ても",
+    "meaning": "Kata tanya + ～ても",
+    "connection": "Kata tanya + Vて + も",
+    "examples": [
+     "Berapa lama pun waktu yang dibutuhkan, saya berniat menemukannya.",
+     "Apa pun yang terjadi, saya tidak akan terkejut lagi."
+    ],
+    "explain": "◎ Meskipun situasinya berubah, kesimpulannya tidak berubah."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 233,
+   "src_hash": "29c8d8caea4a9db5",
+   "fields": {
+    "meaning": "Digunakan saat memberi izin atau menyuruh seseorang melakukan suatu tindakan. Tidak digunakan terhadap teman atau orang yang lebih tinggi kedudukannya. Biasanya digunakan untuk orang yang lebih rendah kedudukannya. Selain itu, juga menyatakan sebab dan akibat.",
+    "examples": [
+     "Menyuruh pergi membeli",
+     "Senior Yamada menyuruh Tanaka-san pergi membeli bir.",
+     "Orang yang tidak bisa minum alkohol tidak boleh dipaksa minum alkohol.",
+     "Saya tiba-tiba pulang ke negara asal dan membuat ibu saya terkejut.",
+     "Memburuknya ekonomi Amerika membuat ekonomi dunia kacau.",
+     "Direktur menyuruh Tanaka-san mengerjakan pekerjaan itu."
+    ],
+    "explain": "◎ 「～（さ）せる」 adalah pola kalimat yang menyatakan tindakan yang memengaruhi pihak lain untuk memaksanya atau membawanya pada suatu keadaan atau hasil tertentu.",
+    "notes": "meaning_vi: Membuat / menyuruh… melakukan…\nexplain: \"Memaksa\" atau \"memberi izin\" bergantung pada konteks, kata yang menyertainya (許可・命令), dan nuansa kata kerjanya.\nDalam bahasa sopan/kenjougo (bahasa merendah), pembicara menggunakan \"Vさせていただく/もらう\" untuk meminta/menerima izin melakukan sesuatu.\nDengan kata kerja gerak (行く/帰る), orang yang disuruh biasanya diikuti に:子どもに行かせる.\nUngkapan yang menimbulkan perasaan: Aを驚かせる／喜ばせる (membuat A terkejut/senang).\nexamples: 1. 先生は学生にスピーチをさせた。\nGuru menyuruh/membiarkan murid berpidato.\n2. 部長は私を先に帰らせてくれた。\nManajer mengizinkan saya pulang lebih dulu.\n3. 親は子どもに自分で決めさせるべきだ。\nOrang tua seharusnya membiarkan anak memutuskan sendiri.\n4. その映画は多くの人を泣かせた。\nFilm itu membuat banyak orang menangis.\n5. 少し考えさせてください。\nIzinkan saya berpikir sebentar.",
+    "mistakes": [
+     "Salah partikel untuk \"orang yang disuruh\": menggunakan を sebagai ganti に. Benar: 先生は学生に発表させた.",
+     "Keliru nuansa: \"させる=izin\" atau \"memaksa\" harus ditentukan berdasarkan konteks; soal ujian menguji penalaran ini.",
+     "Salah bentuk 来る: \"来させる(こさせる)\", bukan \"来らせる\".",
+     "Kacau dengan objek ganda: 私は息子に宿題をさせる (benar); jika urutannya diubah, mudah tertukar."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vさせる",
+       "Menyuruh/memberi izin",
+       "Pelaku yang memberi pengaruh",
+       "<ruby>親<rt>おや</rt></ruby>が<ruby>子<rt>こ</rt></ruby>に<ruby>決<rt>き</rt></ruby>めさせる"
+      ],
+      [
+       "Vさせられる",
+       "Dipaksa melakukan",
+       "Nuansa terpaksa",
+       "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>残業<rt>ざんぎょう</rt></ruby>させられる"
+      ],
+      [
+       "Vてあげる",
+       "Melakukan untuk seseorang",
+       "Kebaikan/jasa, bukan menyuruh",
+       "<ruby>説明<rt>せつめい</rt></ruby>してあげる"
+      ],
+      [
+       "Vてもらう",
+       "Mendapat bantuan dari orang lain",
+       "Sudut pandang penerima",
+       "<ruby>説明<rt>せつめい</rt></ruby>してもらう"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 234,
+   "src_hash": "b48ac8174e11de64",
+   "fields": {
+    "meaning": "Sedang, sudah (keadaan) | menyatakan kebiasaan | Sedang…, pengulangan, keadaan",
+    "examples": [
+     "Van Gogh juga melukis pemandangan Paris.",
+     "Kuil ini dibangun pada akhir abad ke-14, tetapi terbakar pada tahun 1952, lalu dibangun kembali setelah itu.",
+     "Dia sedang membaca dokumen sekarang.",
+     "Saya kenal Tanaka-san.",
+     "Dia tinggal di Osaka.",
+     "Jendelanya terbuka."
+    ],
+    "explain": "Perhatikan perbedaan antara \"sedang melakukan\" dan \"sedang dalam keadaan\": 開けている (sedang membuka) vs 開いている (sudah terbuka).\nDengan kata kerja seketika (tahu, mengerti), 〜ている = keadaan: 知っている＝tahu; 分かっている＝sudah paham.\nSingkatan bahasa lisan: 〜てる／〜てます banyak digunakan dalam percakapan santai/sopan.\nUntuk menyatakan pekerjaan dan kebiasaan saat ini, 〜ている lebih alami daripada kala sekarang sederhana.\n\n• Sedang berlangsung: Tindakan yang sedang berlangsung. 例：今、昼ご飯を食べている。\n• Keadaan hasil (kata kerja seketika): 結婚している（sudah menikah, sedang dalam keadaan menikah）, 知っている（tahu）.\n• Kebiasaan/pengulangan: 毎朝走っている（saya biasa berlari setiap pagi）.\n• Keadaan keberadaan/posisi: 東京に住んでいる, 電車に乗っている.\n• Dengan kata kerja intransitif yang menyatakan perubahan: ドアが開いている（pintu terbuka) → keadaan setelah terbuka.",
+    "notes": "• \"行っている/来ている\" memiliki dua arti: keadaan berada di sana (sudah pergi dan sedang berada di sana) atau kebiasaan. Contoh: その店によく行っている（kebiasaan）／田中さんは今、出張に行っている（saat ini sedang dalam perjalanan dinas）.\n• Singkatan bahasa lisan: している → してる, していない → してない. Dalam bahasa formal, hindari singkatan.\n• Gabungan perkembangan: ～てきている（semakin lama semakin …）, ～ていく／～てくる dengan nuansa arah waktu/sudut pandang.",
+    "mistakes": [
+     "Tertukar 〜ている dengan 〜てある: 花が飾ってある（seseorang sudah menghiasnya）≠ 花が飾っている（jarang digunakan, mudah salah).",
+     "Terjemahan mesin \"sedang tahu\": 知っている bukan \"sedang tahu\", melainkan \"tahu\".",
+     "Menggunakan 〜ている dengan kata kerja seketika seperti 死ぬ, 着く… biasanya tidak bermakna sedang berlangsung (着いている = sudah tiba dan sedang berada di sana)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Fungsi",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～てある",
+       "Keadaan hasil yang sengaja dibuat seseorang",
+       "Digunakan dengan kata kerja transitif",
+       "ドアが<ruby>開<rt>あ</rt></ruby>けてある。"
+      ],
+      [
+       "～ておく",
+       "Melakukan sebelumnya/persiapan",
+       "Tindakan persiapan, bukan keadaan",
+       "<ruby>予約<rt>よやく</rt></ruby>しておく。"
+      ],
+      [
+       "～ところだ",
+       "Titik waktu tindakan",
+       "<ruby>直前<rt>ちょくぜん</rt></ruby>/<ruby>最中<rt>さいちゅう</rt></ruby>/<ruby>直後<rt>ちょくご</rt></ruby>: Vる/ている/たところだ",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>食<rt>た</rt></ruby>べているところだ。"
+      ],
+      [
+       "～<ruby>中<rt>ちゅう</rt></ruby>だ",
+       "Sedang dalam proses",
+       "Nominalisasi kegiatan",
+       "<ruby>会議<rt>かいぎ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>だ。"
+      ],
+      [
+       "～た",
+       "Kala lampau selesai/sederhana",
+       "Tidak menekankan keadaan yang berlanjut",
+       "<ruby>窓<rt>まど</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>いた。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 235,
+   "src_hash": "8641efcb7c2e83f5",
+   "fields": {
+    "meaning": "Telanjur…, selesai melakukan semuanya…",
+    "examples": [
+     "Karena hujan turun, perjalanannya jadi dibatalkan.",
+     "Kalau tidak cepat dibeli, nanti habis, lho.",
+     "Karena buku ini menarik, saya membacanya sampai habis dalam satu hari.",
+     "\"Karanganmu sudah ditulis?\" \"Ya, sudah selesai kutulis.\"",
+     "\"Apakah bus jam 8 sudah berangkat?\" \"Ya, sudah berangkat.\"",
+     "Hari ini saya berjalan lebih dari 10 km, jadi saya kelelahan."
+    ],
+    "explain": "Untuk nuansa yang lebih \"ringan\" dalam percakapan, gunakan ちゃう／じゃう; dalam bahasa formal gunakan しまう.\nMenambahkan kata keterangan untuk menciptakan nuansa: うっかり／つい／いつの間にか + ～てしまう.\nDalam penuturan akibat: ～てしまって… lalu sebutkan hasil yang buruk/menyulitkan.\n\nMemiliki 3 arti:\n1.Menyatakan suatu hal yang sedang dikerjakan dan berniat untuk diselesaikan.\nA:昼(ひる)ごはんを食(た)べに行(い)きませんか。\nA: Mau pergi makan siang bersama?\nB: すみません。今(いま)これを　コピーしてしまいますから。\nB: Maaf, sekarang saya mau menyelesaikan fotokopi ini dulu.\n2.Menyatakan suatu hal yang akhirnya telah dilakukan, telah selesai.\nA：先週(せんしゅう)貸(か)した本(ほん)は　もう読(よ)みましたか。\nA: Buku yang saya pinjamkan minggu lalu sudah selesai Anda baca?\nB: はい、全部(ぜんぶ)読(よ)んで　しまいました。\nB: Sudah, saya sudah membaca semuanya sampai selesai.\n3.Menyatakan kebingungan dan penyesalan pembicara tentang hal yang telah terjadi.\nA: どう　したんですか。\nA: Ada apa?\nB:指(ゆび)を切(き)って　しまったんです。\nB: Jari saya telanjur teriris.\nA: どう　したんですか。\nA: Ada apa?\nB: どこかで　さいふを　なくして　しまいました。\nB: Saya telanjur menghilangkan dompet entah di mana.",
+    "notes": "• しまった dapat berdiri sendiri sebagai seruan; tidak memerlukan kata kerja sebelumnya.\n• Dalam menggambarkan kebiasaan yang tidak diinginkan, dapat digunakan ～てしまいがち (kecenderungan).\n• Dengan もう, nuansa penyelesaian menjadi kuat: もう食べてしまった（sudah telanjur habis dimakan).",
+    "mistakes": [
+     "Menganggapnya selalu bernuansa negatif: salah; bisa saja hanya berarti \"menyelesaikan semuanya\".",
+     "Salah penyingkatan: ～で→じゃう, bukan ちゃう (例: 閉めて→閉めちゃう; 出して→出しちゃう; 読んで→読んじゃう).",
+     "Tertukar dengan ～終わる dan ～きる dalam soal pilihan nuansa penyelesaian."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～てしまう",
+       "Penyelesaian / telanjur",
+       "Bisa bernuansa positif/negatif",
+       "<ruby>終<rt>お</rt></ruby>わってしまった。"
+      ],
+      [
+       "～<ruby>終<rt>お</rt></ruby>わる",
+       "Berakhir",
+       "Tidak mengandung penyesalan",
+       "<ruby>宿題<rt>しゅくだい</rt></ruby>が<ruby>終<rt>お</rt></ruby>わる。"
+      ],
+      [
+       "～きる",
+       "Melakukan sampai habis",
+       "Lebih kuat daripada penyelesaian",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>切<rt>き</rt></ruby>る。"
+      ],
+      [
+       "～ちゃう／～じゃう",
+       "Bentuk bahasa lisan dari てしまう",
+       "Santai",
+       "<ruby>忘<rt>わす</rt></ruby>れちゃう。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

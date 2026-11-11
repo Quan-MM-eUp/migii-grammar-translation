@@ -1,0 +1,594 @@
+{
+ "batch": "b073",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-10",
+ "items": [
+  {
+   "id": 1103,
+   "src_hash": "98466c15543c4398",
+   "fields": {
+    "meaning": "～も・・・だし、～もまた・・・だ\nJuga... juga",
+    "examples": [
+     "Di tempat acara ada orang yang masih lajang, ada juga yang sudah menikah.",
+     "Restoran itu rasanya enak, suasananya juga bagus, dan lagi harganya terjangkau.",
+     "Dia jago olahraga, dan main pianonya pun setara pemain profesional.",
+     "Saya tidak suka belajar dan juga payah dalam olahraga, jadi tentu saja nilai saya juga jelek.",
+     "Di rumah saya tidak ada AC, microwave pun tidak ada.",
+     "*Orang tua itu tidak mau menegur anaknya walaupun anaknya mengganggu orang lain. Benar-benar, orang tuanya begitu, anaknya pun begitu."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1104,
+   "src_hash": "e991f512e91a793f",
+   "fields": {
+    "meaning": "Sama sekali tidak…, sama sekali bukan…",
+    "examples": [
+     "Jangan khawatir. Ini sama sekali bukan penyakit atau apa pun kok.",
+     "Toko ini sama sekali tidak murah, tetapi selalu ramai.",
+     "Itu sama sekali bukan cinta. Hanya obsesi belaka.",
+     "Dia sama sekali bukan pahlawan. Dia orang biasa.",
+     "Hasilnya sama sekali tidak istimewa."
+    ],
+    "explain": "Bahasa lisan, lugas; dapat memberi kesan negasi kuat/cukup kasar. Dalam gaya formal sebaiknya dipertimbangkan.\n\"でも\" bermakna \"atau semacamnya\", memperluas cakupan pernyataan negatif; \"も\" menekankan \"bahkan … pun tidak\".\nSering digunakan untuk menenangkan, meluruskan kesalahpahaman, atau membantah pendapat.\n\n• Frasa negatif dengan penekanan: \"sama sekali bukan … atau apa pun\", \"sama sekali tidak … sedikit pun\".\n• Bentuk \"Nでもなんでもない\" sangat sering digunakan; \"Nもなんでもない\" juga ada tetapi kurang umum, nuansanya lugas/blak-blakan.\n• Dengan kata sifat, struktur ini menekankan tingkat \"sama sekali tidak\": 高くもなんでもない（sama sekali tidak mahal）, 怖くもなんでもない（sama sekali tidak menakutkan）.",
+    "notes": "• Bentuk penekanan ganda \"XでもYでもなんでもない\" untuk menyangkal semua pilihan: 若さでも実力でもなんでもない.\n• Dengan kata sifat-i, di beberapa daerah ada varian yang lebih alami: ～くもなんともない (～なんともない berarti \"tidak apa-apa\").\n• Dalam percakapan, intonasi yang turun tajam di akhir memperkuat nuansa bantahan.",
+    "mistakes": [
+     "Menggunakan \"Nもなんでもない\" dalam situasi formal memberi kesan kasar; sebaiknya diganti dengan \"Nではない／Nとは言えない\".",
+     "Tertukar dengan \"なんでもない\" yang berdiri sendiri dengan arti \"tidak ada apa-apa/tidak apa-apa\": 痛くもなんでもない（sama sekali tidak sakit） berbeda dengan なんでもない（tidak apa-apa）。",
+     "Ujian JLPT sering menguji pemahaman cakupan negasi yang luas karena \"でも\": dibandingkan dengan 全然～ない, tingkat negatifnya mencakup banyak pilihan sekaligus."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Nでもなんでもない",
+       "Sama sekali bukan N atau apa pun",
+       "Paling umum",
+       "<ruby>病気<rt>びょうき</rt></ruby>でもなんでもない"
+      ],
+      [
+       "Aくもなんでもない",
+       "Sama sekali tidak A",
+       "Dengan kata sifat-i",
+       "<ruby>高<rt>たか</rt></ruby>くもなんでもない"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない／まったく～ない",
+       "Sama sekali tidak",
+       "Lebih netral, tanpa \"でも\"",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>高<rt>たか</rt></ruby>くない"
+      ],
+      [
+       "<ruby>別<rt>べつ</rt></ruby>に～ない",
+       "Tidak terlalu/tidak ada yang istimewa",
+       "Lebih lunak, mengurangi konfrontasi",
+       "<ruby>別<rt>べつ</rt></ruby>に<ruby>困<rt>こま</rt></ruby>ってない"
+      ],
+      [
+       "～というものでもない",
+       "Belum tentu …",
+       "Memberi penjelasan, bukan negasi kuat",
+       "<ruby>努力<rt>どりょく</rt></ruby>すればいいというものでもない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1105,
+   "src_hash": "cde50e6b3da34ddf",
+   "fields": {
+    "meaning": "Baik… maupun…",
+    "examples": [
+     "Dalam hidup ada kegagalan, ada juga keberhasilan.",
+     "Pekerjaan ini ada kalanya menyenangkan, ada kalanya juga berat.",
+     "Di Jepang ada tradisi, ada juga inovasi.",
+     "Ada toko yang murah, ada juga toko yang mahal.",
+     "Orang tuanya begitu, anaknya pun sama saja."
+    ],
+    "explain": "Sering digunakan dengan ある/いる/起こる/見られる untuk menyatakan adanya dua sisi.\nJika ingin menekankan kritik yang kuat, gunakan kerangka \"NもNならNもNだ\".\nN dapat diganti dengan frasa nomina: ～こともあれば～こともある.\n\n• Penyebutan dua sisi secara paralel: ada A dan ada juga B; kadang bernuansa \"ada yang begini, ada juga yang begitu\".\n• Bentuk \"NもNならNもNだ\" biasanya mengandung penilaian (sering bernuansa negatif): \"A begitu, B pun begitu\".\n• Sering digunakan untuk menyatakan ciri umum atau memberi komentar yang seimbang (kelebihan/kekurangan) tentang suatu sasaran.",
+    "notes": "• Bentuk \"Vば\" dalam pola ini terutama muncul dalam bentuk \"ある/いる/起こる…\", sedangkan dengan kata kerja lain biasanya diubah melalui nominalisasi: ～こともあれば～こともある.\n• Frasa \"NもNならNもNだ\" kadang dipakai secara positif meskipun jarang, tetapi biasanya mengandung kritik.\n• Terjemahannya fleksibel: \"… juga, … juga\", \"kadang… kadang…\", \"baik… maupun…\". meaning_vi: tidak hanya ～tetapi juga～ ⏐ explain: Menyatakan penambahan hal yang searah dengan hal sebelumnya. (baik – baik, buruk – buruk) ⏐ examples: 1. 彼は勉強もできればスポーツもできる。\nDia pintar belajar, olahraga pun bisa.\n2. 私は歌も下手ならダンスも下手だ。\nSaya buruk dalam menyanyi, menari pun buruk.",
+    "mistakes": [
+     "Menggunakan い形容詞 dengan ければ dalam kerangka ini: × 安ければ高いも → sebaiknya 安い店もあれば高い店もある.",
+     "Tertukar dengan ～たり～たり: saat mengatakan \"kadang… kadang…\", keduanya benar, tetapi ～も～ば～も～ lebih condong ke keberadaan/ciri secara umum.",
+     "Lupa mengulang \"も\": × 山もあれば海ある → ○ 山もあれば海もある."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan/penekanan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～たり～たりする",
+       "Kadang… kadang…",
+       "Penyebutan tindakan/waktu; condong ke aktivitas",
+       "<ruby>泣<rt>な</rt></ruby>いたり<ruby>笑<rt>わら</rt></ruby>ったりする。"
+      ],
+      [
+       "～し～し",
+       "…dan juga… (beberapa alasan/poin)",
+       "Penyebutan sebab/ciri, tidak memakai syarat ば",
+       "<ruby>安<rt>やす</rt></ruby>いし<ruby>近<rt>ちか</rt></ruby>いし<ruby>便利<rt>べんり</rt></ruby>。"
+      ],
+      [
+       "～もあるし～もある",
+       "Ada A, ada juga B",
+       "Bahasa lisan, tidak memakai ば",
+       "<ruby>長所<rt>ちょうしょ</rt></ruby>もあるし<ruby>短所<rt>たんしょ</rt></ruby>もある。"
+      ],
+      [
+       "NもNならNもNだ",
+       "Baik A maupun B sama-sama (patut dikritik/patut dibicarakan)",
+       "Nuansa penilaian kuat, biasanya negatif",
+       "<ruby>店<rt>みせ</rt></ruby>も<ruby>店<rt>みせ</rt></ruby>なら<ruby>客<rt>きゃく</rt></ruby>も<ruby>客<rt>きゃく</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1106,
+   "src_hash": "864f20b72a1efe69",
+   "fields": {
+    "meaning": "Meskipun ingin…, tetap…",
+    "connection": "V bentuk maksud + にも + [tidak bisa] (行こうにも時間がない)",
+    "examples": [
+     "Meskipun ingin menghubunginya, saya tidak tahu nomor teleponnya.",
+     "Meskipun ingin pergi ke tempat acara, transportasi umum sedang berhenti beroperasi.",
+     "Meskipun ingin minta maaf, tidak ada kesempatan untuk bertemu dengannya.",
+     "Meskipun ingin melupakannya, tidak bisa dilupakan semudah itu.",
+     "Meskipun ingin mendaftar, batas waktunya sudah lewat."
+    ],
+    "explain": "Digunakan ketika kekurangan sarana/informasi: 連絡先がない／手段がない／時間がない.\nTingkat formalitasnya sedang; dapat digunakan dalam bahasa tulis maupun lisan.\nKlausa belakang biasanya: 〜ない／難しい／無理だ／困難だ.\n\n～ようにも menyatakan situasi \"meskipun ingin/berniat melakukan V, tetap tidak bisa atau sangat sulit\" karena kurangnya syarat, sarana, atau adanya hambatan objektif. \"にも\" menekankan usaha dalam pengandaian yang tidak mungkin terwujud.\n• Biasanya disertai klausa belakang yang bermakna negatif atau berisi hambatan.\n• Memberi kesan \"tidak berdaya\" menghadapi keadaan, bukan karena secara subjektif tidak mau.",
+    "notes": "• Penghilangan klausa belakang dimungkinkan jika konteksnya jelas: 金がなくて、行こうにも…。 (bahasa lisan)\n• Sering dipakai dengan kata kerja persepsi/perasaan: 忘れる／笑う／泣く.\n• Dalam gaya formal, klausa belakang memakai kata benda abstrak: 〜に障害がある／〜に支障を来す.",
+    "mistakes": [
+     "Menggunakan \"ようにも\" dengan klausa belakang positif → tidak logis (行こうにも時間がある → bertentangan).",
+     "Tertukar dengan \"ようと\": \"ようにも\" berarti \"meskipun ingin…\", sedangkan \"ようと〜まいと\" berarti \"entah… atau tidak\".",
+     "Menghilangkan \"にも\": 連絡しように… → salah; seharusnya 連絡しようにも…"
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "VようにもVれない",
+       "Ingin melakukan pun tidak bisa",
+       "Bentuk lengkap dengan kata kerja yang diulang; menekankan kemampuan",
+       "<ruby>会<rt>あ</rt></ruby>おうにも<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "Vます＋ようがない",
+       "Tidak ada cara untuk melakukannya",
+       "Sama sekali tidak ada cara",
+       "<ruby>連絡<rt>れんらく</rt></ruby>しようがない。"
+      ],
+      [
+       "VたくてもVない",
+       "Ingin tetapi tidak bisa",
+       "Menekankan keinginan (ingin melakukan)",
+       "<ruby>行<rt>い</rt></ruby>きたくても<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "VようとしてもVない",
+       "Mencoba melakukan tetapi tidak berhasil",
+       "Mengandung arti sudah mencoba melakukannya",
+       "<ruby>寝<rt>ね</rt></ruby>ようとしても<ruby>寝<rt>ね</rt></ruby>られない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1107,
+   "src_hash": "f6d158879cecde05",
+   "fields": {
+    "meaning": "Ingin… pun tidak bisa…",
+    "connection": "V bentuk maksud + にも + V bentuk potensial ない (読もうにも読めない)",
+    "examples": [
+     "Ada kenangan yang ingin dilupakan pun tidak bisa dilupakan.",
+     "Tempat acaranya penuh sesak, jadi meskipun ingin masuk, tidak bisa masuk.",
+     "Padahal mengantuk, tetapi meskipun ingin tidur, tidak bisa tidur.",
+     "Meskipun ingin menghubunginya, saya tidak bisa. Sebab saya sudah kehilangan nomornya.",
+     "Suasananya membuat orang tidak bisa tertawa meskipun ingin tertawa."
+    ],
+    "explain": "Digunakan untuk kesulitan yang lebih bersifat objektif daripada subjektif.\nLebih formal dibandingkan \"VたくてもVない\".\nCocok untuk bahasa tulis, berita, karya ilmiah ketika perlu menekankan ketidakmungkinan.\n\nMenyatakan \"meskipun ingin/berniat melakukan V, tetap tidak bisa melakukan V\". Alasannya adalah keterbatasan objektif (kurangnya syarat, dilarang, kesehatan, jarak, dll.). Menekankan ketidakberdayaan menghadapi keadaan.\n• Bentuk yang mengulang kata kerja yang sama: Vようにも V-可能形-ない.\n• Klausa belakang selalu berupa bentuk potensial negatif dari kata kerja itu sendiri.",
+    "notes": "• Hindari \"ら抜き言葉\" dalam bahasa baku: 見れない → sebaiknya gunakan 見られない.\n• Sering dipakai dengan kata kerja persepsi/perasaan: 忘れる／笑う／泣く／動く.\n• Klausa belakang juga dapat memakai struktur pasif-potensial: 〜られない.",
+    "mistakes": [
+     "Tidak mengulang kata kerja dengan benar: 忘れようにも考えられない → salah; seharusnya 忘れようにも忘れられない.",
+     "Menggunakan bentuk positif di klausa belakang → salah: 会おうにも会える.",
+     "Salah bentuk potensial する/来る: しようにもしれない → salah; seharusnya しようにもできない. 来ようにも来れない (bahasa lisan) → sebaiknya gunakan 来られない dalam bahasa baku."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "VたくてもVない",
+       "Ingin tetapi tidak bisa",
+       "Menekankan \"ingin\", lebih netral",
+       "<ruby>会<rt>あ</rt></ruby>いたくても<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "VようとしてもVない",
+       "Mencoba melakukan tetapi tidak berhasil",
+       "Menyiratkan sudah mencoba tindakan itu",
+       "<ruby>寝<rt>ね</rt></ruby>ようとしても<ruby>寝<rt>ね</rt></ruby>られない。"
+      ],
+      [
+       "Vます＋ようがない",
+       "Tidak ada cara untuk melakukannya",
+       "Sama sekali tidak ada cara/syarat",
+       "<ruby>連絡<rt>れんらく</rt></ruby>しようがない。"
+      ],
+      [
+       "Vようにも",
+       "Meskipun ingin… (sulit/tidak bisa)",
+       "Bentuk singkat; tidak harus mengulang V",
+       "<ruby>行<rt>い</rt></ruby>こうにも<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1108,
+   "src_hash": "150909a304b57eec",
+   "fields": {
+    "meaning": "Tidak ada cara untuk…, tidak bisa…",
+    "connection": "Vます(hilangkan ます) + ようもない (連絡しようもない)",
+    "examples": [
+     "Saya tidak tahu alamat maupun nomor teleponnya, jadi tidak ada cara untuk menghubunginya.",
+     "Karena tidak ada petunjuk, tidak ada cara untuk menyelidiki kasus itu.",
+     "Noda ini sudah terlalu lama, jadi tidak ada cara untuk menghilangkannya.",
+     "Penjelasannya tidak jelas, jadi tidak mungkin dipahami.",
+     "Datanya terenkripsi, jadi tidak ada cara untuk memulihkannya."
+    ],
+    "explain": "Digunakan ketika secara objektif tidak mungkin, bukan karena pembicara tidak mau.\nNuansanya tegas dan kuat; cocok untuk bahasa tulis dan laporan.\nDengan perasaan: 「言いようもない」= tidak tahu harus berkata apa (bernuansa sastra).\n\n～ようもない menyatakan \"tidak ada cara/sama sekali tidak mungkin melakukan V\" karena kurangnya informasi, sarana, atau syarat. Tingkat ketidakmungkinannya lebih kuat daripada \"〜にくい/づらい\".\n• Fokusnya pada \"tidak ada cara\".\n• Sering dipakai dengan kata benda yang menunjukkan alasan: 連絡先／手がかり／手段／方法／証拠.",
+    "notes": "• \"どうしようもない\" adalah ungkapan tetap yang umum: angkat tangan/tidak ada cara lagi.\n• Sering dipakai dalam laporan investigasi, QA, TI: 再現しようもない／検証しようもない.\n• Jangan tertukar dengan \"〜しかない\" (hanya ada satu cara) — artinya berlawanan.",
+    "mistakes": [
+     "Salah bentuk kata kerja: memakai V辞書形 + ようもない → salah; seharusnya V-ます tanpa ます.",
+     "Dipakai untuk situasi yang masih ada alternatif lain → maknanya bertentangan.",
+     "Tertukar dengan \"〜にくい\": \"ようもない\" berarti tidak mungkin karena tidak ada cara, bukan sekadar \"sulit\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vます＋ようがない",
+       "Tidak ada cara",
+       "Hampir sinonim dengan ようもない",
+       "<ruby>直<rt>なお</rt></ruby>しようがない。"
+      ],
+      [
+       "VようにもVれない",
+       "Ingin melakukan pun tidak bisa",
+       "Menekankan keinginan/usaha",
+       "<ruby>会<rt>あ</rt></ruby>おうにも<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "Vにくい／Vづらい",
+       "Sulit dilakukan",
+       "Hanya sulit, bukan mustahil",
+       "<ruby>読<rt>よ</rt></ruby>みにくい。"
+      ],
+      [
+       "V<ruby>不可能<rt>ふかのう</rt></ruby>（できない）",
+       "Tidak bisa",
+       "Netral, tidak menyiratkan \"tidak ada cara\"",
+       "<ruby>修理<rt>しゅうり</rt></ruby>できない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1109,
+   "src_hash": "deefe6921c53c45b",
+   "fields": {
+    "meaning": "Tanpa…, sama sekali tidak…",
+    "examples": [
+     "Dia berhenti dari perusahaan tanpa berkonsultasi dengan siapa pun.",
+     "Dia keluar dari ruangan tanpa mengucapkan sepatah kata pun.",
+     "Terus bekerja tanpa beristirahat.",
+     "Data tidak boleh dilihat tanpa mendapatkan izin.",
+     "Dia menyelesaikan proyek itu tanpa melakukan kesalahan.",
+     "Menghadapi presentasi tanpa persiapan apa pun adalah tindakan nekat."
+    ],
+    "explain": "Cocok untuk dokumen formal, laporan, tulisan akademis.\nMenekankan \"sama sekali tidak ada\" tindakan A; lebih kuat daripada ～ないで／～ずに.\nSering digunakan ketika A adalah hal yang biasanya seharusnya dilakukan, tetapi pembicara menekankan bahwa hal itu tidak dilakukan.\n\n• Menyatakan melakukan tindakan B sementara sama sekali tidak melakukan tindakan A (V-る).\n• Tingkat formalitasnya tinggi; sering digunakan dalam laporan, tulisan, narasi.\n• Sering disertai kata yang menekankan frekuensi \"一度も／少しも／まったく\".\n• V-る harus berupa tindakan yang biasanya diharapkan, tetapi di sini \"tidak terjadi\".",
+    "notes": "• Dalam teks kebijakan/peraturan, ことなしに memberi kesan serius: 許可を得ることなしに～は禁止する。\n• Dikombinasikan dengan ungkapan penilaian: ～ことなしに済む（tidak perlu melakukan A）.\n• Jika ingin lebih lunak, pertimbangkan ～ないで／～ずに; jika perlu formal/penekanan, gunakan ～ことなしに／～ことなく.",
+    "mistakes": [
+     "Dipakai untuk tindakan yang tidak jelas \"kebiasaannya\" → kalimat kurang alami (pola ini menekankan \"seharusnya melakukan A\").",
+     "Tertukar dengan ～ないで: soal ujian sering menguji nuansa formal; pilih ～ことなしに/ことなく untuk bahasa tulis.",
+     "Salah bentuk: V-ない + ことなしに（×）; yang benar V-る + ことなしに.",
+     "Terlalu sering dipakai dalam percakapan sehari-hari -> terdengar kaku; sebaiknya ganti dengan ～ないで／～ずに."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ないで",
+       "Tidak melakukan A lalu melakukan B",
+       "Bahasa lisan, lebih netral.",
+       "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べないで<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～ずに",
+       "Tanpa A, lalu B",
+       "Cukup formal; banyak dipakai dalam tulisan.",
+       "<ruby>挨拶<rt>あいさつ</rt></ruby>もせずに<ruby>帰<rt>かえ</rt></ruby>った。"
+      ],
+      [
+       "～ことなく",
+       "Tanpa A, lalu B",
+       "Hampir setara; lebih umum.",
+       "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>止<rt>と</rt></ruby>まることなく<ruby>走<rt>はし</rt></ruby>った。"
+      ],
+      [
+       "N + なしに",
+       "Tanpa N",
+       "Bentuk nominalisasi; cakupannya luas.",
+       "<ruby>断<rt>ことわ</rt></ruby>りなしに<ruby>欠席<rt>けっせき</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1110,
+   "src_hash": "b7ce77bfabeabb09",
+   "fields": {
+    "meaning": "Agar tidak…, untuk menghindari…",
+    "examples": [
+     "Agar tidak terjadi kesalahan, harap periksa kembali sebelum diserahkan.",
+     "Standar keselamatan diterapkan secara menyeluruh agar tidak terjadi kecelakaan.",
+     "Harap berhati-hati dalam memilih ungkapan agar tidak menimbulkan kesalahpahaman.",
+     "Agar anak tidak tersesat, saya membekalinya dengan kartu bertuliskan informasi kontak.",
+     "Sistemnya ditinjau ulang agar kesalahan yang sama tidak terulang lagi.",
+     "Pakailah syal sebelum keluar agar tidak masuk angin."
+    ],
+    "explain": "Formal, sering digunakan dalam teks petunjuk, pengumuman internal, papan peringatan.\nBerfokus pada tujuan pencegahan; klausa belakang menyatakan langkah/usulan yang jelas.\nDapat digunakan sebagai pewatas: ～ことのないよう注意書き（catatan agar tidak…）\n\n• \"Agar tidak …\", \"untuk menghindari …\": menyatakan tujuan/pencegahan agar hal buruk tidak terjadi.\n• Nuansanya santun dan formal, cocok untuk pengumuman/petunjuk/kebijakan.\n• Biasanya disertai permintaan, usulan, atau langkah konkret di klausa belakang.",
+    "notes": "• Frasa \"二度と～ことのないように\" sangat sering muncul dalam surat permintaan maaf dan laporan perbaikan.\n• Pada papan peringatan: 火事の起きることのないように → 火事を起こさないように (lebih ringkas) tergantung tingkat formalitas.\n• Dapat berada di awal kalimat sebagai klausa bawahan: ～ことのないように、関係各所に周知した。",
+    "mistakes": [
+     "Tertukar dengan ～ことがない (hampir tidak pernah) → artinya sama sekali berbeda.",
+     "Langsung memakai kata sifat/kata benda sebelum ことのないように → salah; harus kata kerja bentuk V-る.",
+     "Menghilangkan klausa langkah/usulan di belakang membuat kalimat kurang alami dalam teks petunjuk."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ないように",
+       "Agar tidak…",
+       "Umum, kurang formal; banyak dipakai dalam percakapan sehari-hari.",
+       "<ruby>忘<rt>わす</rt></ruby>れないようにメモする。"
+      ],
+      [
+       "～ぬように",
+       "Agar tidak… (bahasa tulis)",
+       "Lebih formal/kuno; setara dengan ～ないように.",
+       "<ruby>間違<rt>まちが</rt></ruby>えぬように<ruby>気<rt>き</rt></ruby>をつける。"
+      ],
+      [
+       "～ないために",
+       "Untuk menghindari…",
+       "Menekankan hubungan tujuan-alasan dengan jelas; nuansanya lebih rasional.",
+       "<ruby>事故<rt>じこ</rt></ruby>を<ruby>起<rt>お</rt></ruby>こさないために<ruby>速度<rt>そくど</rt></ruby>を<ruby>落<rt>お</rt></ruby>とす。"
+      ],
+      [
+       "～ことのないようにする",
+       "Berusaha agar tidak…",
+       "Menekankan usaha berkelanjutan dari pelaku.",
+       "<ruby>遅刻<rt>ちこく</rt></ruby>することのないようにする。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1111,
+   "src_hash": "d528be163af7ed67",
+   "fields": {
+    "meaning": "Semakin…, semakin tidak ada habisnya",
+    "examples": [
+     "Kalau menyebutkan kekurangannya, tidak akan ada habisnya.",
+     "Kalau menghitung barang-barang yang diinginkan, tidak ada habisnya.",
+     "Topik ini kalau mulai dibicarakan tidak akan ada habisnya, jadi mari kita sudahi sampai di sini.",
+     "Kalau menyebutkan kelebihan menunya, tidak akan ada habisnya, tetapi pertama-tama saya perkenalkan menu andalannya.",
+     "Kalau mulai mengeluhkan ketidakpuasan saat ini, tidak akan ada habisnya, jadi mari kita fokus pada solusi.",
+     "Kalau mulai mencari hal yang perlu diperbaiki, tidak akan ada habisnya, jadi mari kita tentukan prioritas."
+    ],
+    "explain": "Nuansa retoris untuk beralih topik, menyimpulkan masalah, dan menghindari pembicaraan yang bertele-tele.\nSering disertai から／ので untuk menyatakan alasan berhenti: ～ときりがないから／ので.\nCocok untuk bahasa lisan maupun tulis; dalam tulisan sering dipakai dengan 挙げる・数える.\n\n• Jika mulai melakukan/menyebut V, maka \"tidak ada habisnya/tidak ada titik henti\".\n• Digunakan untuk memotong, merangkum: \"kalau dibicarakan masih banyak, sudahlah sampai di sini saja\".\n• Sering digunakan saat menyebutkan contoh, keluhan, keinginan, kelebihan/kekurangan…",
+    "notes": "• \"きり\" dalam きりがない = 切り（batas/tepi）; arti harfiahnya: \"tidak ada garis akhir\".\n• Diawali dengan frasa penyebutan agar kalimat alami: 例を挙げるときりがない／数え上げればきりがない。\n• Sangat praktis untuk mengakhiri paragraf yang bertele-tele: ～ときりがないので、このあたりで切り上げます。",
+    "mistakes": [
+     "Tertukar antara \"きり\" dengan \"切り/限り\" dalam tulisan → perhatikan bahwa dalam pola ini ditulis dengan ひらがな きりがない.",
+     "Dipakai dengan kata kerja yang tidak sesuai (tidak bersifat penyebutan/memulai) sehingga kalimat kurang alami.",
+     "Lupa syarat と／ば/たら → harus ada klausa syarat sebelum きりがない."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～たら<ruby>最後<rt>さいご</rt></ruby>",
+       "Sekali sudah… maka (akibat buruk, sulit berhenti)",
+       "Menekankan akibat negatif/tidak dapat dibalik.",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>始<rt>はじ</rt></ruby>めたら<ruby>最後<rt>さいご</rt></ruby>、<ruby>止<rt>と</rt></ruby>まらない。"
+      ],
+      [
+       "～<ruby>出<rt>だ</rt></ruby>したら<ruby>止<rt>と</rt></ruby>まらない",
+       "Begitu mulai, tidak bisa berhenti",
+       "Bahasa lisan, emosinya kuat; artinya mirip.",
+       "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>いい</rt></ruby>い<ruby>出<rt>だ</rt></ruby>したら<ruby>止<rt>と</rt></ruby>まらない。"
+      ],
+      [
+       "<ruby>限<rt>かぎ</rt></ruby>りがない／<ruby>限<rt>かぎ</rt></ruby>りない",
+       "Tidak ada batas",
+       "Kata sifat/kata benda; berbeda dengan ungkapan tetap きりがない.",
+       "<ruby>人間<rt>にんげん</rt></ruby>の<ruby>欲望<rt>よくぼう</rt></ruby>は<ruby>限<rt>かぎ</rt></ruby>りない。"
+      ],
+      [
+       "～と<ruby>言<rt>い</rt></ruby>えばきりがない",
+       "Kalau dibicarakan, tidak ada habisnya",
+       "Varian tetap dari pola ini.",
+       "<ruby>欠点<rt>けってん</rt></ruby>と<ruby>言<rt>い</rt></ruby>えばきりがない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1112,
+   "src_hash": "356b711dfcad9e64",
+   "fields": {
+    "meaning": "Tidak perlu…",
+    "examples": [
+     "Kalau melihat hasil ini, penyebabnya tidak perlu dijelaskan lagi.",
+     "Hujannya cuma gerimis, jadi tidak perlu naik taksi. Ayo jalan kaki.",
+     "Tidak perlu dikatakan lagi bahwa dialah orang yang paling cocok.",
+     "Ini hal yang bisa dimengerti hanya dengan melihat sekilas. Tidak perlu diperiksa.",
+     "Rapatnya cukup lewat email, jadi tidak perlu repot-repot datang ke kantor."
+    ],
+    "explain": "Saat menekankan sifat \"sudah jelas\": sering disertai 当然・明らか・見れば分かる.\nSaat menekankan \"tidak sepadan dengan usahanya\": disertai わざわざ・わずか・この程度なら.\nDalam bahasa tulis formal, ～までもなく terasa lebih luwes di tengah kalimat.\nSetelah ～るまでもない tidak digunakan perintah yang keras; cocok untuk saran ringan/komentar.\n\n• Menilai bahwa suatu tindakan tidak perlu: karena terlalu jelas, terlalu sederhana, atau biaya/usahanya tidak sepadan.\n• Nuansanya objektif dan sopan; digunakan dalam bahasa lisan maupun bahasa tulis. 言うまでもない sering dipakai di awal kalimat untuk menyatakan hal yang sudah jelas.\n• Berbeda dengan なくてもいい: ～るまでもない biasanya menyiratkan \"berlebihan/tidak perlu karena sudah terlalu jelas\".",
+    "notes": "• \"までも\" pada dasarnya berarti \"sampai tingkat…\", digabung dengan negatif \"ない\" menghasilkan arti \"belum sampai tingkat harus…\".\n• Dalam laporan, gunakan \"検討するまでもなく\" ketika kesimpulannya jelas dari data.\n• Hindari penggunaan berlebihan agar tidak terkesan merendahkan dalam komunikasi.",
+    "mistakes": [
+     "Tertukar dengan ～なくてもいい: soal ujian sering meminta memilih nuansa \"sudah jelas/berlebihan\" → pilih ～るまでもない.",
+     "Salah bentuk: harus V-る + までもない; tidak memakai V-ない.",
+     "\"来なくてもいい\" vs \"来るまでもない\": kalimat pertama memberi izin untuk tidak datang; kalimat kedua menyiratkan \"tidak perlu datang karena tidak sepadan\".",
+     "Meletakkan setelah kata benda adalah salah: ×予約までもない → 予約するまでもない."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola tata bahasa",
+      "Arti",
+      "Persamaan/Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～なくてもいい",
+       "Tidak perlu",
+       "Netral, memberi izin; tidak menyiratkan \"sudah jelas\".",
+       "<ruby>今日<rt>きょう</rt></ruby>、<ruby>宿題<rt>しゅくだい</rt></ruby>はやらなくてもいい。"
+      ],
+      [
+       "～には<ruby>及<rt>およ</rt></ruby>ばない",
+       "Tidak perlu/tidak sebanding",
+       "Sopan/formal; bermakna \"tidak perlu sampai merepotkan\".",
+       "ご<ruby>心配<rt>しんぱい</rt></ruby>には<ruby>及<rt>およ</rt></ruby>びません。"
+      ],
+      [
+       "～まで(して)",
+       "Sampai (berlebihan)",
+       "Artinya berbeda: menekankan tingkat yang berlebihan.",
+       "<ruby>借金<rt>しゃっきん</rt></ruby>までして<ruby>買<rt>か</rt></ruby>う<ruby>必要<rt>ひつよう</rt></ruby>はない。"
+      ],
+      [
+       "<ruby>言<rt>い</rt></ruby>うまでもない",
+       "Sudah jelas",
+       "Ungkapan tetap, digunakan fleksibel di awal kalimat.",
+       "<ruby>言<rt>い</rt></ruby>うまでもないが、<ruby>安全<rt>あんぜん</rt></ruby><ruby>第<rt>だい</rt></ruby><ruby>一<rt>いち</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

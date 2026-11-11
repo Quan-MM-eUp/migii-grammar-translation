@@ -1,0 +1,598 @@
+{
+ "batch": "b015",
+ "lang": "en",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-04",
+ "items": [
+  {
+   "id": 1620,
+   "src_hash": "0a1e3d578c8340ec",
+   "fields": {
+    "name": "まだ（elapsed time）",
+    "meaning": "Expresses time",
+    "connection": "まだ + [amount of time]（しか…ない）",
+    "examples": [
+     "Only an hour has passed.",
+     "It's only been half a year since I came to Japan.",
+     "I've only studied for about 10 minutes, but I'm already getting sleepy.",
+     "It has been only a year since the earthquake, yet the city's recovery is remarkable.",
+     "I thought it was already evening, but it's still only 3 o'clock."
+    ],
+    "explain": "Used with expressions of time to emphasize that only a little time has passed since some event."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1621,
+   "src_hash": "7901ff0fb631a409",
+   "fields": {
+    "meaning": "Expresses: particle knowledge check | scope",
+    "explain": "まで(は) means まで(は) is a particle combination used to indicate a limit or extent in time or space, often translated as 'until' or 'up to'. The は adds a topic or contrastive nuance, emphasizing the limit as a point of reference.\n\nStructure: Noun/Time expression + まで(は)\n\nまで(は) marks the endpoint or limit of an action, state, or condition. When は is added after まで, it highlights or contrasts the limit, often setting the stage for a statement about what was true up to that point. For example, 30年前までは means 'until 30 years ago' with an emphasis on that time boundary, often contrasting past and present situations."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 215,
+   "src_hash": "97fa5d3c7c7f3249",
+   "fields": {
+    "meaning": "Tendency; a state of easily becoming A",
+    "connection": "Aい (drop い) + がる / Na + がる",
+    "examples": [
+     "She always wants expensive things.",
+     "When I touched the dog's front paws, it didn't like it.",
+     "She doted on her grandchildren."
+    ],
+    "explain": "◎ Used with adjectives of emotion and sensation such as「暑い、寒い、通い、うれしい、はすかし、残念」to express a change or a characteristic tendency.",
+    "notes": "Forms: ～がって・～がらないで"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 216,
+   "src_hash": "c7343ee9c572aa21",
+   "fields": {
+    "name": "Counter + で",
+    "meaning": "About, within ~",
+    "examples": [
+     "I studied Japanese over a period of 3 years.",
+     "I made this dish in 10 minutes."
+    ],
+    "explain": "When used as counter + で: indicates a time frame or limit, meaning “within, about …”"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 217,
+   "src_hash": "07495f1600532509",
+   "fields": {
+    "meaning": "Expresses the desire of a third party.",
+    "examples": [
+     "Everyone wants to go home early.",
+     "Your younger sister was eager to see you, you know.",
+     "Doesn't want to go shopping.",
+     "Children want to go outside even in winter.",
+     "He doesn't want to talk about that.",
+     "My father, who is in the hospital, wants to drink alcohol."
+    ],
+    "explain": "◎ Used with the masu-form of a verb; expresses the desire to do that action."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 218,
+   "src_hash": "5b1089c4c24b9725",
+   "fields": {
+    "meaning": "Nominalization from Vます: 休みます→休み",
+    "connection": "Vます (drop ます) → N (休みます → 休み)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 219,
+   "src_hash": "512e71f0456411fa",
+   "fields": {
+    "meaning": "There is ~",
+    "connection": "V (transitive) て + ある",
+    "examples": [
+     "A stamp has been put on the envelope.",
+     "あけます (open the door)\nあけてあります (the door has been opened)"
+    ],
+    "explain": "Describes a purposeful state, the result of an intentional action.",
+    "notes": "meaning_vi: Indicates that the resultant state of someone's action still remains.\nexamples: 1. ①　花が　飾ってありますね。\nFlowers have been put up as decoration, haven't they?\n2. ②　れいぞうこに　白ワインが　入れてありますよ。\nI've put white wine in the fridge.\n3. ➂　あなたの　分も　のこしてあります。\nI've saved your share too.\n──────\n1. ①　書いてあります。\nIt is written.\n2. ②　へやに　花が　かざってあります。\nFlowers have been arranged in the room.\n3. ③　ポスターが　はってありました。\nA poster had been put up.\nmeaning_vi: There is … already (resultant state)\nexplain: The subject is usually the thing or target affected, not the doer.\nTo talk about a process or a natural state, use ～ている (窓が開いている).\nWith a preparatory purpose: emphasizes that it has been completed and is being “left that way”.\nIn written language, ～てある gives an objective feel and does not directly assign responsibility to the doer.\nexamples: 1. 机の上にメモが置いてある。\nA memo has been left on the desk.\n2. 会場はすでに準備してある。\nThe venue has already been prepared.\n3. 明日の会議の資料は印刷してあります。\nThe materials for tomorrow's meeting have been printed.\n4. 壁に写真が飾ってある。\nThere are photos displayed on the wall (someone hung them and they are there).\n5. このドアは夜鍵をかけてある。\nThis door is kept locked at night.\n6. チケットはまだ取ってはない。\nThe tickets haven't been booked yet.\nBoth describe a situation or phenomenon, but V他てある  is the result of an intentional action.\nれい：\nドアを　あけます\nドアが　あけてあります。(V他)\nドアが　あいています。   (V自)\nOpen the door\nThe door has been opened  (someone opened the door in advance for some purpose)\nThe door is open  (the current state of the door is open)\n1. お皿に　魚が　きってありますから、これから　さしみを　作りましょう。\nThe fish on the plate has already been cut, so let's make sashimi now.\n2. A: ケーキは　どこですか。\nB: ケーキは　もう　テープルに　おいてありますよ。\nA: Where's the cake?\nB: The cake is on the table.",
+    "mistakes": [
+     "Using an intransitive verb with ～てある: ×窓が開けてある (correct) / ×窓が開いてある (incorrect for the meaning “someone opened it in advance”).",
+     "Confusing it with ～ている: ドアが閉まっている (state) vs ドアは閉めてある (result of someone's action).",
+     "Stating the agent directly with ～てある is unnatural: ×誰かが窓を開けてある → omit the agent, or use 受身 if needed.",
+     "Confusing it with ～ておく: 印刷しておいた (I printed it in advance) ≠ 印刷してある (it is now in a printed state)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Key difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～てある",
+       "Intentional result that remains",
+       "Transitive verb; emphasizes the existing state",
+       "ドアは<ruby>閉<rt>し</rt></ruby>めてある"
+      ],
+      [
+       "～ている",
+       "State/progressive",
+       "Intransitive verb or action in progress",
+       "ドアが<ruby>閉<rt>し</rt></ruby>まっている"
+      ],
+      [
+       "～ておく",
+       "Doing something in advance as preparation",
+       "Focuses on the preparatory action; does not necessarily describe a remaining state",
+       "<ruby>資料<rt>しりょう</rt></ruby>を<ruby>印刷<rt>いんさつ</rt></ruby>しておく"
+      ],
+      [
+       "<ruby>受身<rt>うけみ</rt></ruby> + ～ている",
+       "Passive result",
+       "The agent can be stated if needed",
+       "ドアは<ruby>彼<rt>かれ</rt></ruby>に<ruby>閉<rt>し</rt></ruby>められている"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 221,
+   "src_hash": "17e3f988171f30cd",
+   "fields": {
+    "name": "V (volitional form) と思っています",
+    "meaning": "intend to ~",
+    "connection": "V (volitional form) + と思っています",
+    "examples": [
+     "A: What are you doing this weekend?\nB: I'm thinking of playing tennis with a friend.",
+     "A: I'm thinking of going to the beach during summer vacation. Won't you come with me?\nB: I'm sorry, but I'm planning to go mountain climbing with my family."
+    ],
+    "explain": "Expresses the speaker's intention.\n• Note:\n~思(おも)います：intention at the present point in time.\n~思(おも)っています: I have been intending this all along."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 222,
+   "src_hash": "df8296745fe171db",
+   "fields": {
+    "meaning": "Intransitive verb | Expresses the resultant state after some change.",
+    "connection": "V (intransitive) て + いる",
+    "examples": [
+     "The window is broken.",
+     "The window in my room is broken."
+    ],
+    "explain": "Describes the state of a thing or a phenomenon.\nWhen describing a state, it is always conjugated in the Vている form.\nIf we want to emphasize the thing being referred to, we can replace が with は."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 223,
+   "src_hash": "58e4f86e54e393d4",
+   "fields": {
+    "name": "～ V (potential form)",
+    "meaning": "can ~ | Potential form of verbs | be able to do something…\nconsidering the situation..be able to do something…",
+    "connection": "Vる → V (potential form) (Group 1: う→える / Group 2: る→られる / する→できる / くる→こられる)",
+    "examples": [
+     "A: Can Karina read kanji?\nB: Yes, Karina can read kanji.",
+     "A: Excuse me, can I use a card here?\nB: Yes, you can."
+    ],
+    "explain": "• Presents the ability or capability of some target.\n• Talks about a condition, or something that one is permitted to do.\n\n~ V可能(かのう)形(けい): can ~",
+    "notes": "Note:\nWhen conjugated into the potential form, all verbs become Group 2 verbs.\nOnly the particle を is replaced by the particle が. Other particles stay the same.\n私は　ビールを　のみません。\nI don't drink beer.\n私は　ビールを　のむことが　できません。\n私は　ビールが　のめません。\nI can't drink beer.\n忙しいですから、いなかへ　帰れません。\nI'm busy, so I can't go back to my hometown.\nmeaning_vi: Can ~\n［可能動詞の作り方］\nexamples: 1. ①　教科書が買える\nCan buy a textbook.\n2. ②　あの人はフランス語が話せる。\nThat person can speak French.\n3. ③　私は生の魚が食べられない。\nI can't eat raw fish.\n4. ③　インタネットで予約できる店が増えている。\nThe number of stores where you can make reservations online is increasing."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 224,
+   "src_hash": "c6ca83a21d50f063",
+   "fields": {
+    "meaning": "do ~ while ~",
+    "examples": [
+     "I listen to music while cleaning my room.",
+     "Please don't read the newspaper while eating bread."
+    ],
+    "explain": "Tenses and grammar patterns are conjugated on verb V2.\nV1  is in the masu-form with ま す dropped\n\n~Vながら: do ~ while ~",
+    "notes": "Connects verbs expressing a preceding and a following action to express two actions that proceed simultaneously in parallel. In this case, the latter action is the main action, and the former expresses a secondary action that describes, for example, the manner in which the main action is performed. In example ①, 「勉強や仕事をする」 is the main action, and it is carried out accompanied by the action 「音楽を聞く」. In the following sentence, the action of getting on the train and the action of reading a book would be taking place at the same time, so it cannot be interpreted as meaning that the person read a book on the train.\n*（誤） 電車に乗りながら本を読んだ。\n*（正） 電車に乗って本を読んだ。\n!The subject of both clauses is the same, and the pattern usually expresses a person's intentional actions, but as in ⑤⑥, it can also be used with things that can move or change by their own power, such as airplanes or natural phenomena.\n*（誤） 私は本を読みながら、彼はウイスキーを飲んだ。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 225,
+   "src_hash": "f262af34a7f5a28a",
+   "fields": {
+    "meaning": "Therefore ~",
+    "connection": "それで + [sentence/clause]",
+    "examples": [
+     "I want to become a novelist in the future. That's why I'm now writing novels while working a part-time job.",
+     "I can no longer see small print. So I bought new glasses.",
+     "My office is far away. So I leave home early every morning.",
+     "A: The coffee here is good, and you can have a meal too…\nB: So that's why it's popular."
+    ],
+    "explain": "「それで」is a conjunction used to present a result that comes from a cause or reason stated before it.\n\nUsed to state the consequence of a matter mentioned in the preceding sentences (factual).",
+    "notes": "meaning_vi: And so…, therefore… ⏐ explain: Suitable for narrating in a logical sequence; polite and clear.\nUsed to introduce a suggestion/request based on the preceding reason:故障しました。 それで、修理をお願いしたいのですが。\nIn conversation, それでね can be used casually to move on to a conclusion/consequence. ⏐ examples: 1. 雨が降っていた。それで、試合は中止になった。\nIt was raining. So the match was canceled.\n2. 頭が痛かった。それで、早退した。\nI had a headache. So I left early.\n3. プリンターが壊れた。それで、新しいのを買った。\nThe printer broke. So I bought a new one.\n4. 会議が長引いた。それで、連絡が遅れました。\nThe meeting ran long. That's why I was late getting in touch.\n5. それで？彼は何て言ったの。\nAnd then? What did he say? ⏐ comparison: Pattern | Meaning | Key difference | Short example\nそれで | therefore (result) | Adverb at the start of S2 | 雨（あめ）だ。 それで 遅（おく）れた。\nだから/ですから | so | Conjunction, stronger/more direct nuance | だから 遅（おく）れた。\nmeaning_vi: （1）So, therefore\n（2）So, ～? ⏐ explain: (1) expresses a result.\n(2) a connective used to ask about the result. 「で」 is used in spoken language.\n⏐ examples: 1. 父は働きすぎた。それで病気になった。\nMy father overworked. As a result, he got sick.\n2. 「田中君、インフルエンザにかかったんだって。」\n「それで学校を休んだんだね。」\nI heard Tanaka caught the flu. So that's why he's absent from school today, huh.\n3. 「田中君にお金を貸してくれって言われたんだ。」\n「へえー。それで、貸してあげたの」\nTanaka asked me to lend him money. Huh. So, did you lend it to him?\n4. 「今日、面接を受けたんだ。」\n「で、どうなった。」\nI had an interview today. So, how did it go?"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 226,
+   "src_hash": "533254f90f6c57b7",
+   "fields": {
+    "meaning": "Used to add things of the same kind as the words or sentences that come before.",
+    "connection": "それに + [sentence/clause]",
+    "examples": [
+     "Bananas are delicious. Besides, they're cheap.",
+     "It's raining, and on top of that, it's windy too."
+    ],
+    "notes": "explain: Position: At the beginning of the sentence (second sentence), followed by a comma: それに、…\nFormality: Neutral; works well in everyday conversation and internal emails. In formal documents, そのうえ/さらに may be more appropriate.\nListing chain: Can be used after ～し～し to end the sentence with an extra plus point as a “soft conclusion”.\nInformation weight: S2 usually points in the same direction and has equal or slightly greater value than S1. ⏐ examples: 1. この店は安い。それに、品質もいい。\nThis store is cheap. Besides, the quality is good too.\n2. 今日は忙しい。それに、会議も三つある。\nI'm busy today. On top of that, I have three meetings.\n3. この本は読みやすい。それに、図が多くて理解しやすい。\nThis book is easy to read. What's more, it has a lot of diagrams, so it's easy to understand.\n4. 彼は経験が豊富だ。それに、人柄もいい。\nHe has a wealth of experience. Besides, he has a good personality too.\n5. 交通費は会社が出す。それに、昼食も支給される。\nThe company pays for transportation. In addition, lunch is provided.\n6. このパソコ ⏐ comparison: Pattern | Meaning | Key difference | Short example\nそれに | Adds information | Neutral, “equal-level” addition. | 安（やす）い。 それに 早（はや）い。\nそして | And, then | Neutral link in sequence; little emphasis on adding. | 説明（せつめい）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 227,
+   "src_hash": "9a5cc17633bf343a",
+   "fields": {
+    "meaning": "More (than)",
+    "examples": [
+     "The subway will get you there faster."
+    ],
+    "explain": "◎ Used when making a comparison and a judgment against something else. In some cases, the thing being compared is omitted."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 228,
+   "src_hash": "9d4ab4922968875b",
+   "fields": {
+    "meaning": "still ~",
+    "examples": [
+     "A: Has the rain stopped yet?\nB: No, it's still raining.",
+     "A: Shall I put these scissors away?\nB: No, I'm still using them, so please leave them as they are."
+    ],
+    "explain": "Describes a state or an action that is still in progress."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 230,
+   "src_hash": "f57f0239790c3a59",
+   "fields": {
+    "name": "Imperative form",
+    "meaning": "Expresses a command.",
+    "connection": "Vる → V (imperative form) (Group 1: う→え / Group 2: る→ろ / する→しろ / くる→こい)",
+    "examples": [
+     "Close it!",
+     "If you don't like it, then quit!",
+     "Please, I'm begging you. Don't come!",
+     "Don't hold back, drink more!"
+    ],
+    "explain": "◎ Expresses instructions and commands."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 231,
+   "src_hash": "13d0567ce2369090",
+   "fields": {
+    "name": "Question word＋でも",
+    "meaning": "Question word + でも: anyone/anything/anywhere… at all",
+    "connection": "Question word + でも",
+    "examples": [
+     "Please tell me anytime you're in trouble.",
+     "I'll buy you anything you want.",
+     "You can buy this anywhere.",
+     "Everything in this store is 100 yen.",
+     "He's famous, so everyone knows him.",
+     "「Around what time should I call?」「Any time is fine.」"
+    ],
+    "explain": "◎ 「Question word + ても」means that something applies in every case.\n\nQuestion word + ても",
+    "notes": "meaning_vi: Follows question words such as 「何」「いつ」「どこ」「だれ」 to express an unspecified meaning.\nexamples: 1. ①　何でも　言ってください。\nPlease say anything.\n2. ②　いつでも　電話してください。\nPlease call anytime.\n3. ③　旅行は　どこでも　だいじょうぶです。\nFor the trip, anywhere is fine.\n4. ④　だれでも　来てください。\nAnyone is welcome to come.\noriginal examples: 1. コンサートのチケットがとれるなら、どんな席でもかまわない。\nIf I can get concert tickets, any seat is fine.\n2. 「待ち合わせは何時にしますか」「何時でもいいですよ」。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 232,
+   "src_hash": "b48d85fcd94ebf4a",
+   "fields": {
+    "name": "Question word＋～ても",
+    "meaning": "Question word + ～ても",
+    "connection": "Question word + Vて + も",
+    "examples": [
+     "No matter how long it takes, I intend to find it.",
+     "Whatever happens, nothing will surprise me anymore."
+    ],
+    "explain": "◎ Even if the situation changes, the conclusion does not change."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 233,
+   "src_hash": "29c8d8caea4a9db5",
+   "fields": {
+    "meaning": "Used to give permission to someone or make someone do an action. Not used toward friends or superiors. Usually used toward subordinates. It also expresses cause and result.",
+    "examples": [
+     "make someone go and buy something",
+     "Yamada-senpai made Tanaka go and buy beer.",
+     "You must not force people who can't drink to drink alcohol.",
+     "I suddenly went back to my home country and surprised my mother.",
+     "The worsening of the American economy threw the world economy into turmoil.",
+     "The company president had Tanaka do that job."
+    ],
+    "explain": "◎ 「～（さ）せる」is a sentence pattern that expresses acting on another person to force them, or to bring about some state or result.",
+    "notes": "meaning_vi: Make / have … do …\nexplain: “Forcing” vs “permission” depends on the context, the accompanying words (許可・命令) and the nuance of the verb.\nIn polite/humble speech, the speaker uses “Vさせていただく/もらう” to ask for or receive permission to do something.\nWith verbs of motion (行く/帰る), the person made to act usually takes に:子どもに行かせる.\nExpressing causing an emotion: Aを驚かせる／喜ばせる (surprise A / make A happy).\nexamples: 1. 先生は学生にスピーチをさせた。\nThe teacher made/let the students give a speech.\n2. 部長は私を先に帰らせてくれた。\nThe department manager let me go home first.\n3. 親は子どもに自分で決めさせるべきだ。\nParents should let their children decide for themselves.\n4. その映画は多くの人を泣かせた。\nThat movie made many people cry.\n5. 少し考えさせてください。\nPlease let me think about it for a bit.",
+    "mistakes": [
+     "Wrong particle for the person made to act: using を instead of に. Correct: 先生は学生に発表させた.",
+     "Confusing the nuance: whether “させる=permission” or “forcing” must be judged from context; exams test this inference.",
+     "Wrong form of 来る: it is “来させる(こさせる)”, not “来らせる”.",
+     "Mixing up the double objects: 私は息子に宿題をさせる (correct); changing the order easily causes confusion."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "Vさせる",
+       "Make/let",
+       "The agent causes the action",
+       "<ruby>親<rt>おや</rt></ruby>が<ruby>子<rt>こ</rt></ruby>に<ruby>決<rt>き</rt></ruby>めさせる"
+      ],
+      [
+       "Vさせられる",
+       "Be made to do",
+       "Nuance of reluctance",
+       "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>残業<rt>ざんぎょう</rt></ruby>させられる"
+      ],
+      [
+       "Vてあげる",
+       "Do for someone",
+       "A favor, not causing",
+       "<ruby>説明<rt>せつめい</rt></ruby>してあげる"
+      ],
+      [
+       "Vてもらう",
+       "Have something done for you",
+       "The recipient's perspective",
+       "<ruby>説明<rt>せつめい</rt></ruby>してもらう"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 234,
+   "src_hash": "b48ac8174e11de64",
+   "fields": {
+    "meaning": "Is doing, has done (state) | expresses habit | Doing…, repetition, state",
+    "examples": [
+     "Van Gogh, too, painted scenes of Paris.",
+     "This temple was built at the end of the 14th century, but it burned down in a fire in 1952 and was later rebuilt.",
+     "He is reading documents now.",
+     "I know Mr. Tanaka.",
+     "She lives in Osaka.",
+     "The window is open."
+    ],
+    "explain": "Be careful to distinguish “doing” from “being in a state”:開けている (is opening it) vs開いている (is already open).\nWith punctual verbs (know, understand), 〜ている = state:知っている＝know;分かっている＝already understand.\nShortened spoken forms: 〜てる／〜てます are used a lot in casual/polite conversation.\nTo express one's occupation or current habits, 〜ている is more natural than the simple present tense.\n\n• Progressive: an action in progress. 例：今、昼ご飯を食べている。\n• Resultant state (punctual verbs): 結婚している（is married, in the state of being married）, 知っている（know）.\n• Habit/repetition: 毎朝走っている（I run every morning）.\n• State of existence/location: 東京に住んでいる, 電車に乗っている.\n• With intransitive verbs of change: ドアが開いている（the door is open) → the state after opening.",
+    "notes": "• “行っている/来ている” has two meanings: the state of being there (went and is there now) or a habit. Example: その店によく行っている（habit）／田中さんは今、出張に行っている（is currently away on a business trip）.\n• Shortened spoken forms: している → してる, していない → してない. In formal language, avoid contractions.\n• Combined with progression: ～てきている（gradually …）, ～ていく／～てくる with a nuance of time direction/viewpoint.",
+    "mistakes": [
+     "Confusing 〜ている with 〜てある: 花が飾ってある（someone has decorated with them in advance）≠ 花が飾っている（rarely used, easy to get wrong).",
+     "Machine translation “am knowing”: 知っている does not mean “am knowing” but “know”.",
+     "Using 〜ている with punctual verbs such as 死ぬ, 着く… usually does not give the progressive meaning (着いている = has arrived and is there)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Usage",
+      "Difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～てある",
+       "Resultant state intentionally brought about by someone",
+       "Used with transitive verbs",
+       "ドアが<ruby>開<rt>あ</rt></ruby>けてある。"
+      ],
+      [
+       "～ておく",
+       "Do in advance/prepare beforehand",
+       "A preparatory action, not a state",
+       "<ruby>予約<rt>よやく</rt></ruby>しておく。"
+      ],
+      [
+       "～ところだ",
+       "Point in time of an action",
+       "<ruby>直前<rt>ちょくぜん</rt></ruby>/<ruby>最中<rt>さいちゅう</rt></ruby>/<ruby>直後<rt>ちょくご</rt></ruby>: Vる/ている/たところだ",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>食<rt>た</rt></ruby>べているところだ。"
+      ],
+      [
+       "～<ruby>中<rt>ちゅう</rt></ruby>だ",
+       "In the middle of",
+       "Nominalization of an activity",
+       "<ruby>会議<rt>かいぎ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>だ。"
+      ],
+      [
+       "～た",
+       "Past completion/simple past",
+       "Does not emphasize a continuing state",
+       "<ruby>窓<rt>まど</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>いた。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 235,
+   "src_hash": "8641efcb7c2e83f5",
+   "fields": {
+    "meaning": "Accidentally do…, finish doing… completely",
+    "examples": [
+     "Because it rained, our trip ended up being canceled.",
+     "If you don't buy it soon, it'll be gone.",
+     "This book was so interesting that I read it all in one day.",
+     "「Have you written your essay yet?」「Yeah, I've finished it.」",
+     "「Has the 8 o'clock bus already left?」「Yes, it's already gone.」",
+     "I walked more than 10 km today, so I'm worn out."
+    ],
+    "explain": "To sound “lighter” in conversation, use ちゃう／じゃう; in formal speech, use しまう.\nAdding adverbs creates nuance: うっかり／つい／いつの間にか + ～てしまう.\nWhen narrating consequences: ～てしまって… and then state the bad or awkward result.\n\nThere are 3 meanings:\n1.Expresses that you are doing something and intend to finish it.\nA:昼(ひる)ごはんを食(た)べに行(い)きませんか。\nA: Shall we go get lunch?\nB: すみません。今(いま)これを　コピーしてしまいますから。\nB: Sorry, I'm going to finish copying this now.\n2.Expresses that something has finally been done and completed.\nA：先週(せんしゅう)貸(か)した本(ほん)は　もう読(よ)みましたか。\nA: Have you finished reading the book I lent you last week?\nB: はい、全部(ぜんぶ)読(よ)んで　しまいました。\nB: Yes, I've read the whole thing.\n3.Expresses the speaker's embarrassment or regret about something that happened.\nA: どう　したんですか。\nA: What happened?\nB:指(ゆび)を切(き)って　しまったんです。\nB: I accidentally cut my finger.\nA: どう　したんですか。\nA: What happened?\nB: どこかで　さいふを　なくして　しまいました。\nB: I lost my wallet somewhere.",
+    "notes": "• しまった can stand alone as an exclamation; no preceding verb is needed.\n• When describing an undesirable habit, ～てしまいがち (tendency) can be used.\n• With もう, the nuance of completion is strong: もう食べてしまった（have already eaten it all).",
+    "mistakes": [
+     "Assuming it is negative by default: incorrect; it can simply mean “finish doing completely”.",
+     "Wrong contraction: ～で→じゃう, not ちゃう (例: 閉めて→閉めちゃう; 出して→出しちゃう; 読んで→読んじゃう).",
+     "Confusing it with ～終わる and ～きる in questions that ask you to choose the nuance of completion."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～てしまう",
+       "Completion / accidentally",
+       "Can be positive/negative",
+       "<ruby>終<rt>お</rt></ruby>わってしまった。"
+      ],
+      [
+       "～<ruby>終<rt>お</rt></ruby>わる",
+       "Finish",
+       "No implication of regret",
+       "<ruby>宿題<rt>しゅくだい</rt></ruby>が<ruby>終<rt>お</rt></ruby>わる。"
+      ],
+      [
+       "～きる",
+       "Do completely, all the way",
+       "Stronger than completion",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>切<rt>き</rt></ruby>る。"
+      ],
+      [
+       "～ちゃう／～じゃう",
+       "Colloquial form of てしまう",
+       "Casual",
+       "<ruby>忘<rt>わす</rt></ruby>れちゃう。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,683 @@
+{
+ "batch": "b010",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 142,
+   "src_hash": "abc31b43a1799371",
+   "fields": {
+    "meaning": "Bagaimana kalau saya …? | saya V ~ ya? | Vましょうか mari kita V ~",
+    "connection": "Vます (hilangkan ます) + ましょうか",
+    "examples": [
+     "Bagaimana kalau kita istirahat sebentar di sini?",
+     "Boleh saya bawakan barangnya?",
+     "Mari saya antar sampai stasiun.",
+     "Hujan, ya. Bagaimana kalau kita naik taksi?",
+     "Bagaimana kalau minumannya air putih saja?",
+     "Ada yang bisa saya bantu?"
+    ],
+    "explain": "Digunakan dengan kata kerja bentuk ます (hilangkan ます) untuk menyampaikan usulan secara halus.\nJika ingin menyatakan \"saya lakukan untuk Anda\", tambahkan subjek:私が・こちらが + Vます-hilangkan ます + ましょうか.\nFormal, sopan; cocok dalam pelayanan/menerima tamu: ご案内し ましょうか。\nJika hanya ingin mengajak biasa, dapat menggunakan ～ませんか; jika ingin langsung memutuskan bersama, gunakan ～ましょう.\n\nArti: \"Bagaimana kalau kita sama-sama …?\" / \"Bagaimana kalau saya …?\" Digunakan untuk menyampaikan usulan atau saran secara sopan.\nDua nuansa yang umum:\nUsulan untuk melakukan bersama:一緒に行きましょうか(Bagaimana kalau kita pergi bersama?).\nUsulan untuk membantu:窓を開けましょうか(Boleh saya buka jendelanya?).\nUsulan untuk melakukan bersama:一緒に行きましょうか(Bagaimana kalau kita pergi bersama?).\nUsulan untuk membantu:窓を開けましょうか(Boleh saya buka jendelanya?).\nTingkat kesopanan: lebih sopan daripada \"～しようか\", lebih ramah daripada \"～ませんか\" ketika ingin menawarkan bantuan secara aktif.\nIntonasi naik di akhir kalimat menunjukkan sifat saran yang lembut.",
+    "notes": "Dalam pelayanan,何かお手伝いしましょうかadalah ungkapan baku yang sangat alami.\nAgar tidak terkesan memaksa, dapat ditambahkan もしよろしければ sebelum ～ましょうか.\nTidak digunakan langsung dengan kata sifat/kata benda; hanya digunakan dengan kata kerja ます-hilangkan ます.",
+    "mistakes": [
+     "Salah konjugasi kata kerja: ×行くましょうか → ✓行きましょうか.",
+     "Salah nuansa: untuk menawarkan bantuan gunakan ～ましょうか (saya lakukan, ya), untuk mengajak orang lain melakukan sesuatu lebih baik gunakan ～ませんか.",
+     "Lupa subjek saat menawarkan bantuan dalam konteks yang ambigu: sebaiknya gunakan私が…ましょうか agar jelas artinya \"saya yang akan melakukan\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ましょう",
+       "Mari lakukan bersama",
+       "Positif, lebih tegas",
+       "<ruby>行<rt>い</rt></ruby>きましょう。"
+      ],
+      [
+       "～ませんか",
+       "Mengajak seseorang melakukan bersama",
+       "Menanyakan pendapat lawan bicara, sopan, kurang bersifat menawarkan bantuan",
+       "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんか。"
+      ],
+      [
+       "～てください",
+       "Tolong lakukan (permintaan)",
+       "Bersifat permintaan, bukan usulan untuk melakukan bersama",
+       "<ruby>座<rt>すわ</rt></ruby>ってください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 143,
+   "src_hash": "a4078b127c3fd7af",
+   "fields": {
+    "meaning": "Namun…",
+    "connection": "しかし + [kalimat/klausa]",
+    "examples": [
+     "Rencananya berjalan lancar. Namun, kita tidak boleh lengah.",
+     "Harganya mahal. Namun, kualitasnya luar biasa.",
+     "Datanya bertambah. Namun, akurasinya belum membaik.",
+     "Saya sudah berusaha. Namun, hasilnya tidak keluar.",
+     "Usulan itu menarik. Namun, risikonya besar.",
+     "Ada banyak penelitian. Namun, kesimpulannya belum seragam."
+    ],
+    "explain": "Formal, rasional; cocok untuk peralihan gagasan, menyampaikan keterbatasan/pengecualian setelah memaparkan poin utama.\nBiasanya berada di awal kalimat dengan koma: しかし、…\nDalam percakapan santai, ganti dengan でも/けど agar lebih alami.\n\nMenyatakan kontras/pertentangan yang kuat antara S1 dan S2, biasanya digunakan untuk membantah, menambahkan keterbatasan, atau mengemukakan pengecualian.\nGaya formal, objektif; cocok untuk bahasa tulis, presentasi, berita.\nTidak digunakan untuk \"kejutan di luar dugaan\" yang kuat (lebih cocok: ところが); tidak santai seperti でも/けど.",
+    "notes": "\"しかしながら\" adalah variasi yang lebih formal lagi, biasanya digunakan dalam tulisan akademis.\nDalam jurnalistik, しかし dapat membuka paragraf baru untuk menciptakan titik balik argumen.\nHindari penggunaan kata sambung di awal kalimat secara berturut-turut; dapat diganti dengan が/一方で agar alur tulisan lebih bervariasi.",
+    "mistakes": [
+     "Menggunakan しかし dalam percakapan santai terdengar kaku; sebaiknya gunakan でも/けど.",
+     "Keliru antara しかし dan ところが ketika ada unsur \"di luar dugaan\"; JLPT sering menjebak di sini.",
+     "Menghilangkan koma setelah しかし membuat sulit dibaca: \"しかし、…\".",
+     "Menggunakan しかし untuk menyambung perintah/permintaan dalam percakapan sehari-hari dapat terasa terlalu formal/tidak enak secara nuansa."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Nuansa",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "しかし",
+       "Formal",
+       "Kontras jelas, bahasa tulis.",
+       "<ruby>賛成<rt>さんせい</rt></ruby>。しかし<ruby>課題<rt>かだい</rt></ruby>。"
+      ],
+      [
+       "けれども／けど",
+       "Lembut, bahasa lisan",
+       "Kontras ringan, percakapan.",
+       "<ruby>高<rt>たか</rt></ruby>いけど<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "でも",
+       "Bahasa lisan yang kental",
+       "Memutus alur, di awal kalimat; kurang formal.",
+       "でも<ruby>危<rt>あぶ</rt></ruby>ない。"
+      ],
+      [
+       "ところが",
+       "Keterkejutan",
+       "Hasil sangat bertentangan dengan dugaan.",
+       "<ruby>行<rt>い</rt></ruby>った。ところが<ruby>閉店<rt>へいてん</rt></ruby>。"
+      ],
+      [
+       "が（penghubung)",
+       "Bahasa tulis",
+       "Menyambung dalam satu kalimat: ～が、…",
+       "<ruby>必要<rt>ひつよう</rt></ruby>だが<ruby>十分<rt>じゅっぷん</rt></ruby>でない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 144,
+   "src_hash": "8273444fb79905e1",
+   "fields": {
+    "meaning": "Kalau begitu…",
+    "connection": "[kalimat/klausa]。 + じゃ(あ)、 + [kalimat/klausa]",
+    "examples": [
+     "Sudah larut. Kalau begitu, hari ini sampai di sini saja.",
+     "Hujan mulai turun. Kalau begitu, ayo pulang naik taksi.",
+     "Itu sulit. Kalau begitu, ayo coba cara lain.",
+     "Rapatnya mulai jam tiga? Kalau begitu, ayo makan siang lebih awal.",
+     "Aku nggak bawa uang tunai. Kalau begitu, nanti aku transfer, ya.",
+     "Kamu lulus ujian? Kalau begitu, ayo kita rayakan!"
+    ],
+    "explain": "Digunakan saat menyimpulkan/mengambil keputusan setelah informasi pada S1.\nBerpadu secara alami dengan kehendak/usulan: ～しよう／～しませんか／～しましょう。\nBahasa lisan santai; dalam lingkungan kerja yang formal, lebih baik gunakan それでは／では .\nじゃあ memberi kesan lembut dan memanjang; じゃ singkat dan tegas.\nBiasanya berada di awal ujaran baru; hindari menyisipkannya di tengah kalimat panjang.\n\nMengubah arah/mengambil keputusan berdasarkan informasi yang baru disebutkan: \"kalau begitu\".\nMenandai langkah berikutnya dalam proses/tindakan: membuka bagian baru setelah menyimpulkan sesuatu.\nMengandung makna \"jika demikian\" tetapi bersifat percakapan, bukan syarat gramatikal yang ketat.\nNuansa santai, ringkas, sering digunakan saat mengakhiri/menutup topik atau mulai melakukan sesuatu.\nIntonasi biasanya sedikit turun setelahじゃ、, diikuti klausa perintah, usulan, kehendak, atau pernyataan rencana.\nTidak digunakan untuk menyampaikan bantahan yang kuat; jika ingin menyatakan kontras/konsesi dengan jelas, gunakanでも/しかし.",
+    "notes": "じゃdapat membuka kalimat untuk menarik perhatian:じゃ、次は…\nJangan keliru dengan～じゃdi akhir kalimat dalam dialek (kesan tua/kuno). Di sini adalah kata sambung di awal kalimat.\nDalam chat, ada bentuk pengulangan untuk penekanan:じゃ、じゃ、… untuk menarik kembali perhatian; hindari dalam tulisan formal.",
+    "mistakes": [
+     "Menggunakanじゃdalam tulisan formal → tidak alami; pilihそれでは／では.",
+     "Menggunakanじゃuntuk kontras yang kuat → salah nuansa; sebaiknya gunakanでも／しかし.",
+     "Menghilangkan titik sebelumじゃ、→ salah aturan penyambungan kalimat: harus S1。じゃ、S2。",
+     "Keliru antaraじゃdengan～じゃない(negatif) → fungsinya berbeda.",
+     "JLPT: kenali tingkat kesopanan dalam memilih じゃ vs それでは/では sesuai konteks percakapan vs formal."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "じゃ、",
+       "Kalau begitu (santai)",
+       "Bahasa lisan, akrab",
+       "<ruby>遅<rt>おそ</rt></ruby>い。じゃ、<ruby>帰<rt>かえ</rt></ruby>ろう。"
+      ],
+      [
+       "じゃあ、",
+       "Kalau begitu (lembut, alami)",
+       "Pelafalan \"あ\" dipanjangkan, sangat bernuansa percakapan",
+       "<ruby>終<rt>お</rt></ruby>わり？ じゃあ、またね。"
+      ],
+      [
+       "それじゃ、",
+       "Kalau begitu (sedikit lebih sopan daripada じゃ)",
+       "Merujuk dengan jelas pada \"hal itu\" (それ)",
+       "<ruby>締切<rt>しめきり</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby>？ それじゃ、<ruby>急<rt>いそ</rt></ruby>ごう。"
+      ],
+      [
+       "それでは、",
+       "Kalau begitu (sopan)",
+       "Formal, digunakan dalam rapat/presentasi",
+       "それでは、<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "では、",
+       "Baiklah/Kalau begitu (formal, ringkas)",
+       "Bahasa tulis/memandu acara",
+       "では、<ruby>次<rt>つぎ</rt></ruby>に<ruby>進<rt>すす</rt></ruby>みます。"
+      ],
+      [
+       "でも、",
+       "Tetapi/namun",
+       "Kontras, bukan \"mengambil keputusan\"",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>無理<rt>むり</rt></ruby>。"
+      ],
+      [
+       "それなら、",
+       "Jika demikian",
+       "Syarat logis lebih jelas",
+       "それなら、<ruby>別<rt>べつ</rt></ruby><ruby>日<rt>び</rt></ruby>にしよう。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 145,
+   "src_hash": "5a4685a0389f8799",
+   "fields": {
+    "meaning": "Kalau begitu…",
+    "connection": "[kalimat/klausa]。 + それじゃ(あ)、 + [kalimat/klausa]",
+    "examples": [
+     "Katanya besok hujan. Kalau begitu, piknik batal, ya.",
+     "Pendaftarannya sampai hari ini? Kalau begitu, saya kirim sekarang juga.",
+     "Penjelasan saya sampai di sini. Kalau begitu, mohon dicek.",
+     "Sudah siap? Kalau begitu, ayo berangkat.",
+     "Kalau begitu, sampai besok.",
+     "Kamu lupa kunci? Kalau begitu, aku yang buka."
+    ],
+    "explain": "Alami dalam lingkungan kerja yang akrab, email internal yang ramah, rapat kelompok kecil.\nDigunakan di awal kalimat, setelah lawan bicara memahami \"hal itu (それ)\".\nBerpadu baik dengan perintah, kehendak, ajakan, kalimat penutup.\nJika perlu lebih sopan (kepada klien, presentasi resmi), ganti dengan それでは .\n\n\"Kalau begitu\" berdasarkan informasi yang baru disebutkan (dirujuk dengan それ).\nBeralih langkah, mulai bertindak, menyimpulkan secara ringan dalam percakapan.\nKesopanannya sedang, lebih sopan daripada じゃ, kurang formal daripada それでは.\nSering digunakan untuk mengakhiri topik, berpamitan, atau beralih ke bagian baru.",
+    "notes": "それじゃcocok untuk mengakhiri telepon/pesan:それじゃ、また連絡します。\nDalam banyak situasi yang agak sopan,それじゃmasih dapat diterima, tetapi jangan digunakan dalam pidato formal.\nBunyi \"じゃあ\" membuat kalimat tidak terlalu mendadak dan lebih ramah.",
+    "mistakes": [
+     "Menggunakanそれじゃdalam teks dengan keigo tingkat tinggi → kurang formal; ganti denganそれでは.",
+     "Lupa rujukan \"それ\" (isi sebelumnya tidak jelas) → kalimat menjadi ambigu.",
+     "Keliru fungsinya denganそれで(oleh karena itu → sebab-akibat) → logikanya berbeda.",
+     "JLPT: kenali nuansa kesopanan antara じゃ／それじゃ／それでは／では sesuai konteks."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "それじゃ、",
+       "Kalau begitu (alami)",
+       "Rujukan jelas, agak sopan",
+       "<ruby>終<rt>お</rt></ruby>わり？ それじゃ、<ruby>解散<rt>かいさん</rt></ruby>。"
+      ],
+      [
+       "それでは、",
+       "Kalau begitu (formal)",
+       "Lebih formal, digunakan kepada tamu/hadirin",
+       "それでは、<ruby>質疑<rt>しつぎ</rt></ruby><ruby>応答<rt>おうとう</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>ります。"
+      ],
+      [
+       "じゃ／じゃあ、",
+       "Kalau begitu (santai)",
+       "Paling santai, untuk teman/kenalan",
+       "<ruby>遅<rt>おそ</rt></ruby>い。じゃあ、<ruby>帰<rt>かえ</rt></ruby>ろう。"
+      ],
+      [
+       "では、",
+       "Baiklah/Kalau begitu (bahasa tulis)",
+       "Ringkas, agak kaku, untuk memandu acara",
+       "では、<ruby>次<rt>つぎ</rt></ruby>へ。"
+      ],
+      [
+       "それなら、",
+       "Jika demikian",
+       "Syarat logis jelas, bukan sekadar peralihan",
+       "それなら、<ruby>後日<rt>ごじつ</rt></ruby>に。"
+      ],
+      [
+       "でも、",
+       "Tetapi/namun",
+       "Kontras, bukan mengambil keputusan",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>雨<rt>あめ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 146,
+   "src_hash": "0a5c9ce3288ff4f1",
+   "fields": {
+    "meaning": "Kalau begitu…",
+    "connection": "[kalimat/klausa]。 + それでは、 + [kalimat/klausa]",
+    "examples": [
+     "Waktunya sudah tiba. Baiklah, kita mulai.",
+     "Terima kasih atas perhatian Anda. Kalau begitu, saya mohon diri.",
+     "Dengan ini penjelasan saya selesai. Selanjutnya, kita beralih ke sesi tanya jawab.",
+     "Jika tidak ada masalah khusus, kalau begitu, kami akan menandatangani kontraknya.",
+     "Pokok pembahasan sampai di sini. Kalau begitu, kita masuk ke rangkuman.",
+     "Terima kasih untuk hari ini. Kalau begitu, sampai jumpa lain kali."
+    ],
+    "explain": "Sopan, standar dunia usaha/akademis; cocok untuk email, presentasi, pembawa acara.\nBerada di awal kalimat baru; setelahnya biasanya berupa judul bagian, instruksi, langkah berikutnya.\nBerpadu baik dengan keigo: ～いたします／～でございます。\nJika perlu ringkas dengan tingkat formal sedang: pertimbangkan では、 .\n\n\"Kalau begitu\" dengan nuansa sopan, untuk mengatur peralihan ke bagian berikutnya.\nDigunakan untuk membuka tindakan/topik baru setelah bagian sebelumnya selesai.\nMenutup percakapan, email, rapat dengan cara yang serius.\nIntonasi baku, cocok untuk lingkungan bisnis dan akademis.",
+    "notes": "それではsering digunakan bersama ungkapan baku saat membuka/menutup rapat.\nDalam tulisan, setelahそれでは、dapat diberi baris baru untuk menekankan peralihan paragraf.\nTidak perlu berlebihan; terlalu sering digunakan mudah menimbulkan kesan \"klise\".",
+    "mistakes": [
+     "Menggunakanそれじゃsebagai gantiそれではdalam pidato formal → kurang sopan.",
+     "Keliru antaraそれではdenganそれで(sebab-akibat) → salah hubungan logis.",
+     "Menghilangkan koma setelahそれではmengurangi ritme alami; sebaiknya ada \"、\".",
+     "JLPT: pilih tingkat kesopanan yang tepat sesuai konteks presentasi/email bisnis."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "それでは、",
+       "Kalau begitu (sopan)",
+       "Lembut, formal standar",
+       "それでは、<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "では、",
+       "Baiklah/Kalau begitu",
+       "Ringkas, agak kaku, banyak digunakan dalam bahasa tulis",
+       "では、<ruby>次<rt>つぎ</rt></ruby>へ。"
+      ],
+      [
+       "それじゃ、",
+       "Kalau begitu (alami)",
+       "Kurang formal dibandingkan それでは",
+       "それじゃ、また<ruby>明日<rt>あした</rt></ruby>。"
+      ],
+      [
+       "じゃ／じゃあ、",
+       "Kalau begitu (santai)",
+       "Bahasa lisan, untuk teman",
+       "じゃあ、<ruby>行<rt>い</rt></ruby>こう。"
+      ],
+      [
+       "それで、",
+       "Oleh karena itu/Karena itu",
+       "Sebab → akibat, logikanya berbeda dengan \"mengambil keputusan\"",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。それで、<ruby>中止<rt>ちゅうし</rt></ruby>した。"
+      ],
+      [
+       "でも、",
+       "Namun",
+       "Kontras/konsesi",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>行<rt>い</rt></ruby>けない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 147,
+   "src_hash": "6eded39511644e88",
+   "fields": {
+    "meaning": "Kalau begitu…",
+    "connection": "[kalimat/klausa]。 + では、 + [kalimat/klausa]",
+    "examples": [
+     "Rapat kita mulai. Baiklah, ini agenda pertama.",
+     "Persiapan sudah selesai sampai di sini. Kalau begitu, kita mulai eksperimennya.",
+     "Hal itu sudah dikonfirmasi. Kalau begitu, mari beralih ke poin berikutnya.",
+     "Sekian. Kalau begitu, kita bubar.",
+     "Sudah siap? Baiklah, kita berangkat.",
+     "Inilah masalahnya. Kalau begitu, apa yang sebaiknya kita lakukan?"
+    ],
+    "explain": "Diletakkan di awal kalimat baru; setelahnya berupa bagian/tindakan berikutnya.\nCocok untuk notulen, slide, buku pelajaran, pengumuman.\nJika ingin lebih lembut/baku untuk pidato, gunakan それでは ; jika santai, gunakan じゃ／それじゃ .\n\n\"Baiklah/Kalau begitu\" digunakan untuk beralih langkah, membuka/menutup bagian secara ringkas.\nKesan mengatur, bersifat kedinasan; kurang akrab.\nBiasanya disertai judul, instruksi, langkah berikutnya dalam suatu proses.",
+    "notes": "ではjuga muncul dalam struktur syarat:ではない／ではありません; jangan keliru dengan kata sambung di awal kalimat.\nDalam naskah pembawa acara/slide,では、+ kata benda judul bagian sangat umum:では、まとめ。",
+    "mistakes": [
+     "Menggunakanではdalam percakapan santai → terasa kaku; sebaiknya gunakanじゃ／それじゃ.",
+     "Keliru antaraでは(kata sambung) denganそれで(sebab) → logika kalimat salah.",
+     "Menghilangkan koma setelahではmembuat ritme kurang alami.",
+     "JLPT: pilihではjika konteksnya adalah tulisan, presentasi, pengumuman resmi."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "では、",
+       "Baiklah/Kalau begitu",
+       "Ringkas, formal-bahasa tulis",
+       "では、<ruby>次<rt>つぎ</rt></ruby>へ。"
+      ],
+      [
+       "それでは、",
+       "Kalau begitu (sopan)",
+       "Panjang, lembut, untuk berbicara di depan hadirin",
+       "それでは、<ruby>発表<rt>はっぴょう</rt></ruby>を<ruby>終<rt>お</rt></ruby>わります。"
+      ],
+      [
+       "それじゃ／じゃ、",
+       "Kalau begitu (santai)",
+       "Bahasa lisan, santai",
+       "じゃ、また<ruby>明日<rt>あした</rt></ruby>。"
+      ],
+      [
+       "それで、",
+       "Oleh karena itu/Karena itu",
+       "Hubungan sebab → akibat",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。それで、<ruby>中止<rt>ちゅうし</rt></ruby>。"
+      ],
+      [
+       "さて、",
+       "Nah/Baiklah",
+       "Perubahan topik ringan, bahasa tulis/lisan",
+       "さて、<ruby>本題<rt>ほんだい</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 148,
+   "src_hash": "9d0bd158e2e70818",
+   "fields": {
+    "meaning": "Tetapi…",
+    "connection": "[kalimat/klausa]。でも、[kalimat/klausa]",
+    "examples": [
+     "Bahasa Jepang itu sulit. Tapi, menarik.",
+     "Aku ingin pergi. Tapi, nggak ada waktu.",
+     "Dia baik hati. Tapi, kadang-kadang tegas.",
+     "Reservasinya sudah penuh. Tetapi, kalau menunggu pembatalan, masih bisa.",
+     "Itu berbahaya. Tapi, perlu.",
+     "Hujan. Tapi, latihan tetap jalan."
+    ],
+    "explain": "Membuka kalimat berikutnya untuk menyampaikan gagasan yang berlawanan atau keterbatasan/pengecualian.\nNetral → santai; dalam tulisan yang lebih formal, pertimbangkan しかし／だが／とはいえ .\nBiasanya diikuti penegasan sikap, solusi alternatif, pengecualian.\nPertahankan koma setelah でも agar ritme membaca alami.\n\nMengemukakan poin yang berlawanan/pengecualian terhadap kalimat sebelumnya: \"tetapi/namun\".\nNuansa percakapan, lebih lembut daripadaしかし／だが, lebih kuat daripadaけど(も)jika diletakkan di awal kalimat.\nRitme \"S1。でも、S2。\" membuat alur tulisan jelas dan mudah diucapkan.\nSering digunakan ketika S2 menyatakan kehendak/penilaian yang berlawanan dengan S1.",
+    "notes": "でもdi awal kalimat bersifat memutus alur dengan jelas, mudah digunakan dalam percakapan.\nJangan keliru denganN + でも(saran \"atau…saja\"/\"bahkan\"). Konteks yang menentukan artinya.\nDalam tulisan formal, ganti denganしかし／とはいえ／一方sesuai maksud.",
+    "mistakes": [
+     "Menulis satu kalimat panjang \"…,でも、…\" → gaya lisan; dalam bahasa tulis sebaiknya dipisah menjadi dua kalimat.",
+     "Keliru antara \"でも\" (kata sambung) dengan \"N + でも\" (saran/bahkan) → salah arti.",
+     "Menggunakanでもdalam teks formal sebagai gantiしかし→ kurang formal.",
+     "JLPT: bedakanでも／しかし／それでも／ところがberdasarkan tingkat kontras dan nuansanya."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "でも、",
+       "Tetapi/namun",
+       "Percakapan, lembut",
+       "<ruby>高<rt>たか</rt></ruby>い。でも、<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "しかし、",
+       "Namun",
+       "Formal, bahasa tulis",
+       "しかし、<ruby>問題<rt>もんだい</rt></ruby>がある。"
+      ],
+      [
+       "だが、",
+       "Akan tetapi",
+       "Bahasa tulis, kaku",
+       "だが、<ruby>例外<rt>れいがい</rt></ruby>もある。"
+      ],
+      [
+       "けど(も)、",
+       "Tetapi",
+       "Lembut, biasanya melekat di akhir/tengah kalimat",
+       "<ruby>行<rt>い</rt></ruby>きたいけど、<ruby>無理<rt>むり</rt></ruby>。"
+      ],
+      [
+       "それでも、",
+       "Meskipun begitu",
+       "Konsesif lebih kuat daripada \"でも\"",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。それでも、<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "ところが、",
+       "Ternyata",
+       "Pembalikan yang mengejutkan",
+       "<ruby>行<rt>い</rt></ruby>くつもりだった。ところが、<ruby>雨<rt>あめ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 149,
+   "src_hash": "70dcb6245d13bff7",
+   "fields": {
+    "meaning": "Menekankan bahwa suatu tindakan atau peristiwa pada klausa belakang terjadi setelah tindakan atau peristiwa pada klausa depan.",
+    "examples": [
+     "Setelah dipanggang",
+     "Setelah Hachi mati, patung Hachiko dibuat di Shibuya.",
+     "Setelah Hana-san pulang, Shun-kun datang.",
+     "Bagaimana kalau kita minum sake setelah kerja?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 150,
+   "src_hash": "b3217f67eef7cee6",
+   "fields": {
+    "meaning": "Bagaimana menurut Anda?",
+    "examples": [
+     "Bagaimana kalau secangkir kopi?",
+     "Bagaimana rencana perjalanan Anda?",
+     "Bagaimana sup ini?",
+     "Apakah Anda sehat-sehat saja? / Bagaimana kabar Anda?",
+     "Apakah Anda berminat dengan oleh-oleh ini?"
+    ],
+    "explain": "\"いかが\" digunakan dalam percakapan formal, terutama saat berbicara kepada tamu, atasan, atau dalam lingkungan pelayanan.\nDiletakkan setelah kata benda atau klausa, dikombinasikan dengan \"は\", \"で\", \"でしょうか\", dan lain-lain.\nNuansa sopan, lembut, menunjukkan rasa hormat kepada lawan bicara.\nBiasanya digunakan dalam situasi: menawarkan makanan/minuman, menanyakan pendapat, menanyakan kesan, memperkenalkan produk.\n\n① Digunakan untuk menawari seseorang makan, minum, atau melakukan sesuatu secara sopan dan anggun.\n② Merupakan cara bicara yang lebih sopan dari 「どうですか」– biasanya digunakan dalam komunikasi formal, pelayanan pelanggan, atau kepada orang yang lebih tinggi kedudukannya.\n③ Dapat digunakan untuk menanyakan pendapat, kesan, atau menyarankan pilihan suatu barang.\n\"いかが\" adalah bentuk keigo (丁寧語) dari \"どう\".",
+    "notes": "\"いかが\" = \"どう\" dari segi arti tetapi menunjukkan tingkat kesopanan yang jauh lebih tinggi.\nJika digunakan dengan \"でしょうか\", tingkat kesopanan bertambah:お味はいかがでしょうか。→ Apakah rasanya sesuai dengan selera Anda?\nSangat sering ditemui di toko, restoran, hotel, atau saat memperkenalkan produk/layanan.\nBentuk ini tidak digunakan kepada orang yang lebih rendah kedudukannya atau teman (akan terdengar berjarak, tidak alami).",
+    "mistakes": [
+     "Keliru antara \"どうですか\" dan \"いかがですか\":",
+     "✕ コーヒーはいかが？ (terlalu santai → sebaiknya gunakan どう).",
+     "○ コーヒーはいかがですか。 (sopan sesuai standar).",
+     "Salah konteks: \"いかが\" hanya digunakan saat berbicara kepada orang yang lebih tinggi kedudukannya atau dalam situasi sopan.",
+     "Menghilangkan \"は\": ✕ コーヒーいかがですか → ○ コーヒーはいかがですか。",
+     "JLPT N5 sering menanyakan: pilih dengan benar antara \"どうですか\" (santai) dan \"いかがですか\" (sopan)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Tingkat kesopanan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "どうですか",
+       "Bagaimana / Mau?",
+       "Biasa, digunakan kepada teman, orang yang setara",
+       "コーヒーはどうですか。"
+      ],
+      [
+       "いかがですか",
+       "Bagaimana / Mau?",
+       "Sopan, keigo",
+       "コーヒーはいかがですか。"
+      ],
+      [
+       "いかがでしょうか",
+       "Bagaimana / Bagaimana menurut Anda?",
+       "Sangat sopan, digunakan dalam konteks bisnis / pelayanan pelanggan",
+       "こちらのプランはいかがでしょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 151,
+   "src_hash": "dd7484872025489a",
+   "fields": {
+    "meaning": "Hanya, satu-satunya | hanya",
+    "examples": [
+     "Saya tidak tahu apakah akan berhasil atau tidak, tetapi saya akan mencobanya sebisa mungkin.",
+     "Makanannya banyak, jadi silakan makan sepuasnya.",
+     "Setelah ujian selesai, saya ingin bermain sepuas hati.",
+     "\"Kamu boleh makan sebanyak yang kamu mau, lho.\"",
+     "\"Besok saya akan datang sepagi mungkin.\"",
+     "Saya rasa saya sudah melakukan segala yang saya bisa."
+    ],
+    "explain": "\"Hanya\" yang netral, tidak bermakna negatif seperti しか～ない; dapat digunakan dengan kalimat positif atau negatif tergantung isinya.\nPosisi partikel: だけ melekat setelah kata/frasa yang ingin dibatasi; dapat dikombinasikan dengan は/も/に/を/が untuk penekanan (それ だけは、それ だけを …).\nVるだけV dan できるだけ bernuansa \"semaksimal mungkin/sepuasnya\".\n～だけのN berarti \"hanya milik/cukup untuk ~\", terkadang \"layak… sampai taraf\" tergantung konteks.\n\nPembatasan/Hanya: hanya N/hanya sebanyak itu/hanya melakukan V (membatasi cakupan, jumlah, sasaran).\nSemaksimal mungkin: できるだけ／VるだけV menyatakan \"sebisa mungkin/sepuasnya\".\nMenekankan batas minimum/pengecualian: ～だけは (setidaknya/khusus ~), ～だけでも (hanya ~ saja pun…).\nNuansa netral; jika dibandingkan dengan しか～ない, だけ dapat digunakan dalam kalimat positif, sedangkan しか digunakan dengan negatif.",
+    "notes": "1) Mudah keliru menganggap ～だけ sebagai \"hanya\" dalam arti membatasi.\n→ Di N3, ～だけ sangat sering bermakna tingkat/cakupan: できるだけ, 好きなだけ.\n2) Bedakan dengan ～しか.\n→ ～しか selalu digunakan dengan negatif dan bernuansa membatasi; ～だけ netral, bisa positif.\n3) Bedakan それだけ dengan ～だけ.\n→ それだけ biasanya berarti \"sebanding dengan tingkat itu\" (kata ganti), bukan pola tata bahasa \"hanya\".",
+    "mistakes": [
+     "Menggunakan だけ dengan negatif untuk memberi nuansa \"kekurangan\" seperti しか: \"三人だけしか来ない\" salah karena tumpang tindih; pilih だけ atau しか～ない.",
+     "Melewatkan partikel penekanan: jika ingin menekankan batas minimum/pengecualian, perlu は/も: それだけは言いたい。",
+     "Keliru antara \"Vるだけ\" (hanya melakukan) dengan \"VたいだけV\" (melakukan sepuasnya): artinya berbeda.",
+     "Salah memahami \"～だけのN\": bisa berarti \"cukup untuk ~\" (この成績は合格するだけのレベルだ), bukan hanya \"hanya milik\".",
+     "Keliru dengan \"～だけに/～だけあって\": ini pola lain, periksa konteks JLPT."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だけ",
+       "hanya; sebanyak itu",
+       "Dapat digunakan dalam kalimat positif",
+       "<ruby>一人<rt>ひとり</rt></ruby>だけ<ruby>来<rt>き</rt></ruby>た"
+      ],
+      [
+       "しか～ない",
+       "hanya … (bermakna negatif)",
+       "Wajib digunakan dengan ～ない; nuansa kekurangan/sayang",
+       "<ruby>一人<rt>ひとり</rt></ruby>しか<ruby>来<rt>こ</rt></ruby>なかった"
+      ],
+      [
+       "ばかり",
+       "hanya/melulu; sekitar",
+       "Dapat bernuansa terlalu banyak/berat sebelah; juga berarti \"sekitar\"",
+       "お<ruby>菓<rt>かし</rt></ruby><ruby>子<rt></rt></ruby>ばかり<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "のみ",
+       "hanya (formal)",
+       "Bahasa tulis, pengumuman, hukum",
+       "<ruby>会員<rt>かいいん</rt></ruby>のみ"
+      ],
+      [
+       "くらい/ぐらい",
+       "sekitar; sampai taraf",
+       "Perkiraan, bukan batasan mutlak",
+       "<ruby>三人<rt>さんにん</rt></ruby>くらい"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 153,
+   "src_hash": "b130cb927dff9f18",
+   "fields": {
+    "meaning": "Ingin melakukan ~",
+    "examples": [
+     "A: Sekarang kamu ingin melakukan apa?\nB: Saya ingin minum air.",
+     "A: Bagaimana?\nB: Saya tidak ingin belajar, lho."
+    ],
+    "explain": "Vたい memiliki sifat seperti kata sifat い.\nDalam bentuk たい, partikel が dapat digunakan untuk menggantikan を.\nBentuk たい tidak digunakan untuk kata kerja ある."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

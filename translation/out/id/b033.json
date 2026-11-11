@@ -1,0 +1,479 @@
+{
+ "batch": "b033",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 522,
+   "src_hash": "90a330e78dc2294e",
+   "fields": {
+    "meaning": "Melakukan … sepenuhnya\nMelakukan … dengan tegas, mantap",
+    "examples": [
+     "Meskipun kaki saya mulai sakit, saya berlari sampai akhir.",
+     "Sebanyak ini, saya tidak sanggup menghabiskannya.",
+     "Suami saya pulang dengan wajah yang benar-benar kelelahan.",
+     "Semua orang bertanding dengan mengerahkan seluruh tenaga, tetapi tetap kalah dalam pertandingan.",
+     "Saya ditipu oleh orang yang sangat saya percayai.",
+     "Di atas meja terhidang hidangan yang begitu banyak sampai tidak habis dimakan."
+    ],
+    "explain": "Menyatakan penyelesaian tindakan sampai batas maksimal, menyelesaikannya sepenuhnya.\nMenekankan keputusan atau tindakan yang tegas, dilakukan sampai tuntas tanpa ragu.",
+    "notes": "1) Mudah tertukar antara ～きる (melakukan sampai tuntas) dan ～終わる.\n→ ～きる menekankan \"sepenuhnya/sampai batas maksimal\", sering memberi kesan \"menghabiskan sampai tak bersisa\".\n2) Tidak semua kata kerja bisa dipakai.\n→ Biasanya dipakai dengan kata kerja yang bisa \"dihabiskan\": 読み切る, 使い切る など.\n3) Hati-hati dengan arti \"tegas\" dalam data Anda (ghichu=2).\n→ Jika ingin membuat jebakan khusus untuk arti ghichu=2, perlu menambahkan pembaruan untuk ct ghichu=2.\nmeaning_vi: Menghabiskan…, sepenuhnya…\nexplain: Melekat langsung pada bentuk renyoukei (Vます). Tidak digunakan dengan kata benda/kata sifat.\nMenekankan ketekunan/usaha atau hasil yang tuntas; memberi kesan \"tidak ada yang tersisa\".\nDalam bahasa lisan, ～切れない sering dipakai secara sopan untuk menolak dengan halus:申し訳ないですが、食べ切れません。\nexamples: 1. この小説は一晩で読み切った。\nSaya membaca habis novel ini dalam satu malam.\n2. こんな量、私一人じゃ食べ切れないよ。\nSebanyak ini, saya sendirian tidak akan bisa menghabiskannya.\n3. 彼は42kmを最後まで走り切った。\nDia berlari 42 km sampai akhir.\n4. 電池を使い切ってしまった。\nBaterainya sudah saya pakai sampai habis.\n5. 彼女は疲れ切って、その場に座り込んだ。\nDia benar-benar kelelahan dan langsung terduduk di tempat itu.",
+    "mistakes": [
+     "Dipakai dengan kata kerja yang tidak cocok dengan sifat \"selesai tuntas\": X 愛し切る (sangat jarang/tidak alami); sebaiknya gunakan 愛し続ける.",
+     "Tertukar antara ～切れる (kemampuan) dan ～切りれる (salah tulis). Bentuk yang benar: 切れる/切れない.",
+     "Tertukar dengan ～終える dalam konteks yang perlu menekankan \"habis sama sekali\": \"在庫を終えた\" → salah; seharusnya \"在庫を売り切った/使い切った\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Nuansa",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～<ruby>終<rt>お</rt></ruby>える",
+       "Berakhir/selesai",
+       "Netral, tidak menekankan \"tuntas/habis tenaga\".",
+       "<ruby>作業<rt>さぎょう</rt></ruby>をやり<ruby>終<rt>お</rt></ruby>えた。"
+      ],
+      [
+       "～<ruby>尽<rt>つ</rt></ruby>くす",
+       "Mengerahkan semua/menghabiskan",
+       "Menekankan usaha atau penggunaan sumber daya sampai habis.",
+       "<ruby>全力<rt>ぜんりょく</rt></ruby>を<ruby>尽<rt>つ</rt></ruby>くす／<ruby>資源<rt>しげん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>い<ruby>尽<rt>つ</rt></ruby>くす。"
+      ],
+      [
+       "～<ruby>抜<rt>ぬ</rt></ruby>く",
+       "Bertahan sampai akhir",
+       "Lebih menekankan proses yang gigih daripada hasil \"habis sama sekali\".",
+       "<ruby>最後<rt>さいご</rt></ruby>までやり<ruby>抜<rt>ぬ</rt></ruby>く。"
+      ],
+      [
+       "～<ruby>切<rt>き</rt></ruby>る",
+       "Tuntas/sampai habis",
+       "Hasil yang tuntas; kuat dan konkret.",
+       "<ruby>在庫<rt>ざいこ</rt></ruby>を<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>る。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 524,
+   "src_hash": "a5b12e047ce3f011",
+   "fields": {
+    "meaning": "Meskipun, padahal",
+    "examples": [
+     "Ishida-san padahal tahu bahwa besoknya ada ujian, tetapi tidak memberi tahu saya.",
+     "Ibu saya padahal tidak pandai menyanyi, tetapi begitu memegang mikrofon tidak mau melepaskannya.",
+     "Anak muda zaman sekarang badannya besar, tetapi tampaknya stamina mereka lemah.",
+     "\"Masih anak-anak (/tidak tahu apa-apa), jangan bicara sok hebat!\"",
+     "*Matsui-san sendiri tidak mengerjakan apa pun. Padahal begitu, dia malah mengomel tentang apa yang dikerjakan orang lain.",
+     "Padahal tahu, tetapi tidak mau memberi tahu."
+    ],
+    "explain": "Nada celaan yang jelas; perlu mempertimbangkan kesopanan di lingkungan kerja.\nSering dipakai bersama ungkapan yang menyiratkan pertentangan: のに・くせに・わりに; くせに adalah yang paling kuat dalam hal kritik.\nCocok untuk bahasa lisan; dalam bahasa tulis formal, ganti dengan 〜にもかかわらず (netral) atau 〜のに (lebih lembut).\nJika dikaitkan dengan kelompok yang mengandung prasangka (〜のくせに tentang gender/usia) dapat menyinggung; sebaiknya dihindari.\n\n～くせに: \"Meskipun/Padahal … (malah) …\" dengan nuansa celaan, merendahkan, menyindir. Biasanya menunjukkan pertentangan antara kenyataan A dan perilaku/ucapan B, disertai sikap negatif pembicara.\n• Subjek kedua klausa biasanya orang/sasaran yang sama (terutama saat mencela lawan bicara/orang ketiga).\n• Nuansanya lebih kuat daripada 〜のに; hindari dipakai terhadap orang yang lebih tinggi kedudukannya atau dalam bahasa formal.\n• Dapat dipakai untuk mencela diri sendiri: 分かっているくせに、また同じ失敗をした。",
+    "notes": "1) Mudah tertukar dengan ～のに／～くせして.\n→ ～くせに memiliki nuansa kritik/meremehkan yang jelas, cenderung bahasa lisan.\n2) Tidak dipakai jika hanya menyatakan kontras yang netral.\n→ Untuk kontras netral, gunakan ～のに／～一方で／～反面… sesuai kalimatnya.\n3) Sering dipakai ketika pembicara tidak puas dengan perilaku pihak lain.\n→ Mudah menjadi jebakan karena artinya lebih kuat daripada \"meskipun\". explain: Digunakan ketika ingin mengeluh atau merasa kesal terhadap hal buruk yang telah terjadi padahal seharusnya tidak demikian.\nPemakai merasa tidak senang, kesal terhadap masalah tersebut ⏐ examples: 1. 知っているくせに、教えてくれない。\nPadahal tahu, tetapi tidak mau memberi tahu\n2. 元気なくせに、病気のふりをしている。\nPadahal sehat, malah pura-pura sakit | Variasi bahasa lisan: ～くせして",
+    "mistakes": [
+     "Subjek yang berbeda terasa dipaksakan: \"雨が降っているくせに、出かける\" → tidak alami. くせに cocok jika sasaran yang dikritik sama.",
+     "Dipakai terhadap atasan/orang yang tidak dikenal → kasar. Pilih 〜のに/〜にもかかわらず.",
+     "Tertukar dengan 〜わりに(は): くせに mengandung celaan; わりに(は) adalah perbandingan relatif.",
+     "JLPT: kenali nuansa perasaan negatif untuk memilih くせに, bukan のに/にもかかわらず."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Nuansa",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "〜くせに",
+       "Meskipun… (mencela)",
+       "Kuat, negatif",
+       "<ruby>知<rt>し</rt></ruby>ってるくせに、<ruby>言<rt>い</rt></ruby>わない。"
+      ],
+      [
+       "〜のに",
+       "Meskipun…",
+       "Netral/lebih ringan",
+       "<ruby>知<rt>し</rt></ruby>ってるのに、<ruby>言<rt>い</rt></ruby>わない。"
+      ],
+      [
+       "〜にもかかわらず",
+       "Terlepas dari…",
+       "Formal, objektif",
+       "<ruby>雨<rt>あめ</rt></ruby>にもかかわらず、<ruby>開催<rt>かいさい</rt></ruby>。"
+      ],
+      [
+       "〜わりに(は)",
+       "Dibandingkan… ternyata…",
+       "Penilaian selisih, tidak sepenuhnya mencela",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>のわりに、<ruby>若<rt>わか</rt></ruby>い。"
+      ],
+      [
+       "〜だけあって",
+       "Pantas saja… (memuji)",
+       "Arti sebaliknya (pujian)",
+       "<ruby>高<rt>たか</rt></ruby>いだけあって、<ruby>美味<rt>おい</rt></ruby>しい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 525,
+   "src_hash": "99501cee001f9fdc",
+   "fields": {
+    "meaning": "Kira-kira…",
+    "examples": [
+     "Saya malu sekali sampai rasanya ingin kabur.",
+     "Ketika mendengar kabar itu, saya senang sampai rasanya ingin melompat.",
+     "Dari sini ke stasiun kira-kira 20 menit jalan kaki.",
+     "Kalau sekitar 1.000 yen, aku bisa membelinya.",
+     "Saya mengantuk sampai tidak kuat berdiri.",
+     "Apakah ukuran kira-kira segini sudah cukup?"
+    ],
+    "explain": "Posisi: くらい diletakkan setelah jumlah/unsur yang diperkirakan, atau setelah klausa yang menyatakan tingkat.\nPenekanan batas minimum: \"～くらいは/くらいなら\" dipakai untuk mengharapkan tingkat minimum (\"setidaknya…\").\nDengan bentuk negatif: \"～くらいしか～ない\" berarti \"hanya sebatas ~ saja\".\nAlami dalam percakapan; dalam bahasa tulis formal dapat dipertimbangkan ほど ketika membicarakan tingkat.\n\nPerkiraan, kira-kira: menyatakan jumlah/waktu yang mendekati (3時間くらい = kira-kira 3 jam).\nTingkat, intensitas: menyatakan ambang \"sampai-sampai…\" (泣きたいくらい嬉しい = senang sampai ingin menangis).\nBatas minimum/tingkat yang diharapkan: bersama せめて/少なくとも, menyatakan \"setidaknya…\".\nNuansa: くらい bernuansa standar; ぐらい lebih condong ke bahasa lisan (lihat bagian perbandingan).",
+    "notes": "\"これくらい/それくらい/あれくらい/どれくらい\" adalah ungkapan yang sangat sering muncul dalam tanya-jawab tentang tingkat/jumlah.\nDalam ungkapan perbandingan minimum: \"これくらいはできるでしょ\" menekankan tingkat terendah yang diharapkan.\n\"Vるくらいなら～\" adalah pola syarat yang berarti \"daripada sampai harus V, lebih baik ~\" (pola tersendiri, tingkat lanjut).\nmeaning_vi: Kira-kira…; sekitar… (perkiraan)\nSampai-sampai… (tingkat)\nHanya sebatas… saja; bukan hal yang hebat (meremehkan)\nexplain: Menyatakan perkiraan kasar tentang jumlah/waktu/jarak… (tidak tepat sepenuhnya).\nMenyatakan tingkat yang kuat: \"sampai-sampai…\". Diletakkan setelah klausa/kata kerja/kata sifat untuk menekankan tingkat.\nDipakai untuk meremehkan: \"hanya sebatas… saja\". Biasanya bernuansa merendahkan atau menganggap tidak penting.\nexamples: 1. ここから駅まで１０分ぐらいだ。\nDari sini ke stasiun kira-kira 10 menit.\n2. もう動けないくらい疲れた。\nSaya lelah sampai tidak bisa bergerak lagi.\n3. ライバルに負けた。悔しくて泣きたいぐらいだ。\nSaya kalah dari saingan, kesalnya sampai ingin menangis.\n4. 彼くらいの背の高さなら、棚に手が届くだろう。\nKalau tingginya seperti dia, tangannya pasti bisa menjangkau rak.\n5. かぜくらいで仕事を休めない。\nHanya karena flu ringan begitu, tidak bisa libur kerja.\n6. これぐらいの傷なら医者に行かなくてもいいだろう。\nLuka sebesar ini tidak perlu ke dokter pun tidak apa-apa.\n7. 半年勉強したので、簡単な会話くらいならできる。\nKarena sudah belajar setengah tahun, kalau sekadar percakapan sederhana saya bisa.\n8. 忙しくても、電話をするくらいの時間はあるはずだ。\nMeskipun sibuk, seharusnya ada waktu setidaknya untuk menelepon.\n9. 「こんなことを知らないのは君くらいだよ」\nYang tidak tahu hal seperti ini cuma kamu.\nmeaning_vi: 「～と同じ程度だ・～と同じ程度に…。」 程度の強さを表すために、ある状況に例えて言うときに使う。⑥のように、「～かと思うくらい・かと思うほど」の形でもよく使う。\nTingkatnya sama seperti ~ / seperti ~.\nDigunakan ketika mengibaratkan suatu hal dengan suatu keadaan untuk menyatakan tingkatnya.\nUngkapan ～ かと思うくらい・～かと思うほど seperti pada contoh ⑥ juga sering digunakan.\nexamples: 1. この店のパンはおいしい。毎日食べたいくらいだ。\nRoti di toko ini enak. Enaknya sampai ingin makan setiap hari.\n2. よう子さんの腕は折れそうなくらい細い。\nLengan Yoko-san kurus sampai seperti mau patah.\n3. 天気予報によると、今日は台風ぐらいの風が吹くそうだ。\nMenurut prakiraan cuaca, hari ini akan bertiup angin sekencang angin topan.\n4. 傘をさすほどではないが、少し雨が降っている。\nTidak sampai perlu memakai payung, tetapi sedang turun hujan sedikit.\n5. 突然立っていられないほどの痛みを背中に感じた。\nTiba-tiba saya merasakan sakit di punggung sampai tidak bisa berdiri.\n6. さっき地震があった。本棚が倒れるかと思うほど激しく揺れた。\nTadi ada gempa. Guncangannya keras sampai saya kira rak bukunya akan roboh.\nexamples: 1. ①　３時間ぐらい\nKira-kira 3 jam\n2. ②　毎日、日本語を３時間ぐらい勉強しています。\nSetiap hari saya belajar bahasa Jepang kira-kira 3 jam.\n3. ②　〈駅で〉\nA：すみません、黒(くろ)いかばんを電車(でんしゃ)に忘(わす)れてしまったんですけど。\nB：どのくらいの大(おお)きさですか。\nA：雑誌(ざっし)ぐらいの大(おお)きさです。（手(て)で示(しめ)して）ええと、これぐらいの。\n(Di stasiun)\nA: Permisi, tas hitam saya tertinggal di kereta.\nB: Ukurannya kira-kira seberapa?\nA: Ukurannya kira-kira sebesar majalah. (Sambil menunjukkan dengan tangan) Hmm, kira-kira segini.\nmeaning_vi: Menyatakan tingkat sesuatu dengan menggunakan contoh\nexamples: 1. ①　死ぬほど\nSetengah mati\n2. ②　歯を抜いた時は、死ぬほど痛かったです。\nWaktu cabut gigi, sakitnya setengah mati.\n3. ③　夢に見るくらい彼のことが好きです。\nSaya menyukainya sampai terbawa mimpi.\nmeaning_vi: 軽い程度・最低限を示す\nMenyatakan tingkat ringan/tingkat minimum.\n同じ程度の例を示す\nMemberikan contoh dengan tingkat yang sama.\nexamples: 1. 簡単な挨拶ぐらいなら日本語で言える。\nKalau hanya salam sederhana, saya bisa mengucapkannya dalam bahasa Jepang.\n2. 今日は少しぐらいお酒を飲んでもいいね。\nHari ini minum sedikit sake juga boleh, ya.\n3. 日曜日ぐらい休ませてくださいよ。\nSetidaknya hari Minggu biarkan saya istirahat.\n4. 卵ぐらいの大きさのパンを作った\nSaya membuat roti yang ukurannya kira-kira sebesar telur.\n5. うちの娘ぐらいの女の子が泣いていた。\nSeorang anak perempuan kira-kira seusia putri saya sedang menangis.\n6. この車は私にも買えるくらいの値段だ。\nMobil ini harganya sampai saya pun bisa membelinya.\nmeaning_vi: Sampai, sebatas, seukuran\nexplain: Digunakan untuk menyatakan tingkat, skala dengan membandingkannya dengan suatu benda atau hal\nexamples: 1. それは米粒くらいの大きさです。\nBenda itu besarnya seukuran butir beras\n2. この洗剤は、おもしろいほど汚れが落ちる。\nDeterjen ini membuat noda hilang sampai menakjubkan\n3. あきるほど食べた\nSudah makan sampai bosan\n4. 宿題が多すぎて、泣きたいくらいだ。\nPR-nya terlalu banyak sampai rasanya ingin menangis",
+    "mistakes": [
+     "Perkiraan ganda yang berlebihan: \"3時ごろくらい\" salah; pilih salah satu: \"3時ごろ\" atau \"3時くらい\".",
+     "Memakai くらい untuk perbandingan negatif \"Aくらい～ない\" tidak alami; gunakan \"Aほど～ない\".",
+     "Tertukar antara \"hanya\" dan \"kira-kira\": \"三人だけ\" (hanya 3 orang) berbeda dengan \"三人くらい\" (kira-kira 3 orang).",
+     "Lupa partikel penekanan: ketika ingin menekankan batas minimum, perlu \"～くらいは\": これくらいは覚えよう。"
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "くらい",
+       "kira-kira; sampai-sampai",
+       "Standar; cocok untuk tingkat maupun jumlah",
+       "<ruby>3時間<rt>さんじかん</rt></ruby>くらい"
+      ],
+      [
+       "ぐらい",
+       "kira-kira; sampai-sampai",
+       "Lebih bernuansa bahasa lisan daripada くらい",
+       "<ruby>三回<rt>さんかい</rt></ruby>ぐらい"
+      ],
+      [
+       "ほど",
+       "sampai-sampai; sebanding",
+       "Lebih formal; dipakai dalam struktur negatif \"Aほど～ない\"",
+       "<ruby>想像<rt>そうぞう</rt></ruby>したほど<ruby>難<rt>むずか</rt></ruby>しくない"
+      ],
+      [
+       "だけ",
+       "hanya; sebanyak itu",
+       "Membatasi jumlah; tidak bermakna \"kira-kira\"",
+       "<ruby>一人<rt>ひとり</rt></ruby>だけ"
+      ],
+      [
+       "ごろ",
+       "kira-kira (titik waktu)",
+       "Hanya dipakai dengan titik waktu; tidak untuk jumlah",
+       "<ruby>3時<rt>さんじ</rt></ruby>ごろ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 526,
+   "src_hash": "ea8f385640134470",
+   "fields": {
+    "meaning": "Cenderung, memiliki kecenderungan ~",
+    "examples": [
+     "Pekerjaan ini cenderung sibuk pada akhir bulan.",
+     "Semakin bertambah usia, orang cenderung bangun lebih pagi."
+    ],
+    "explain": "◎ Bentuk yang menyatakan \"biasanya menjadi seperti itu\" atau \"sebagian besar memang begitu\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 527,
+   "src_hash": "2f65055140be8bc1",
+   "fields": {
+    "meaning": "Justru…, penekanan",
+    "examples": [
+     "Justru kali berikutnya saya benar-benar ingin lulus.",
+     "Justru buku inilah yang sudah lama saya inginkan.",
+     "\"Senang berkenalan dengan Anda.\" \"Justru saya yang senang.\"",
+     "Tahun inilah saya ingin lulus.",
+     "Justru saat kesulitan, mari kita saling membantu.",
+     "Bahasa justru baru bisa dikuasai dengan benar-benar menggunakannya."
+    ],
+    "explain": "Melekat langsung setelah kata benda/kata yang menunjukkan waktu untuk menekankan fokus.\nDalam ～から こそ , klausa belakang biasanya berupa hasil yang positif/diharapkan; nuansa penegasannya kuat.\nTidak melekat langsung setelah kata kerja/kata sifat (kecuali ungkapan tetap seperti から こそ ); perlu nominalisasi bila ingin memakainya.\nDipakai dalam jawaban sopan: こちら こそ ／いえいえ、こちら こそ …\n\n• Partikel penekanan \"justru/memang inilah\": menjadikan unsur di depannya sebagai fokus.\n• Menekankan alasan dengan ～からこそ: menegaskan kuat hubungan sebab-akibat (\"justru karena… maka…\").\n• Menekankan saat yang menentukan: 今日こそ／今度こそ menyatakan tekad/harapan yang tinggi.\n• Dipakai dalam balasan sopan: こちらこそ (membalas: justru saya yang seharusnya berterima kasih/minta maaf).",
+    "notes": "1) Mudah tertukar dengan ～だけ／～こそが.\n→ ～こそ dipakai untuk menekankan \"justru… (lah yang…)\".\n2) Sering muncul dalam pola tetap.\n→ Contoh: こちらこそ, 今こそ, だからこそ… (menekankan alasan/waktu).\n3) Bukan pola penyebutan.\n→ Fungsi utamanya adalah penekanan, tidak menambah informasi baru. meaning_vi: Justru,. justru karena (alasan) ⏐ explain: Dipakai untuk menekankan ketika subjeknya adalah pelaku utama, alasan utama, untuk melebih-lebihkan ⏐ examples: 1. 明日こそ勉強するぞ！\nBesok saya pasti akan belajar\n2. 愛情があるからこそ、しかるんです。\nJustru karena sayang, makanya saya memarahi",
+    "mistakes": [
+     "Memakai こそ langsung setelah kata kerja/kata sifat: salah; perlu ungkapan tetap (からこそ) atau nominalisasi.",
+     "Tertukar antara こそ dan は: soal ujian sering menguji nuansa penekanan fokus こそ dibandingkan は.",
+     "～からこそ biasanya diikuti hasil yang positif; pilih jawaban dengan nuansa yang sesuai."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "は",
+       "Topik/penekanan kontras",
+       "Penekanannya lebih lemah daripada こそ; こそ menyatakan fokus yang kuat",
+       "<ruby>君<rt>きみ</rt></ruby>はできる → <ruby>君<rt>きみ</rt></ruby>こそできる"
+      ],
+      [
+       "も",
+       "\"Juga\"",
+       "Tidak menciptakan fokus utama seperti こそ",
+       "<ruby>君<rt>きみ</rt></ruby>もできる"
+      ],
+      [
+       "さえ",
+       "Bahkan",
+       "Menekankan keterkejutan; こそ menegaskan \"justru\"",
+       "<ruby>子<rt>こ</rt></ruby>どもでさえ<ruby>分<rt>わ</rt></ruby>かる"
+      ],
+      [
+       "だからこそ",
+       "Justru karena itu",
+       "Ungkapan tetap (だから + こそ); lebih kuat daripada だから",
+       "だからこそ<ruby>挑戦<rt>ちょうせん</rt></ruby>する"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 528,
+   "src_hash": "97f5f5d3c70fdfd6",
+   "fields": {
+    "meaning": "Dari hal…, karena…",
+    "examples": [
+     "Dari suaranya yang gemetar, saya tahu bahwa dia sedang gugup.",
+     "Karena ditemukan surat wasiat, kematian Tuan A dipastikan sebagai bunuh diri.",
+     "～という理由で…と名付けられた (dinamai … dengan alasan ～)",
+     "Karena dari sana Gunung Fuji terlihat, tanjakan itu kemudian disebut Fujimizaka.",
+     "Karena lahir pada bulan Maret, adik perempuan saya diberi nama \"Yayoi\".",
+     "～がきっかけで→変化 (berawal dari ～ → perubahan)"
+    ],
+    "explain": "Biasanya diikuti kata kerja pengenalan/penilaian:分かる・見なされる・考えられる・推測される・判断される.\nGunakan であることから dalam bahasa formal jika sebelumnya berupa N/kata sifat na.\nHindari memakainya untuk menyatakan alasan tindakan pembicara (行く・買う・決める). Dalam hal itu ので/から lebih alami.\nCocok untuk penjelasan logis dalam laporan, tulisan ilmiah, berita.\n\n～ことから memiliki dua penggunaan utama:\n• Dasar penyimpulan/penilaian: \"Dari hal/fakta bahwa … maka (dapat) disimpulkan/dipahami bahwa …\". Menekankan dasar yang objektif.\n• Alasan penamaan/asal-usul: \"Karena … maka disebut/dinamai …\".\n• Nuansa formal, sering muncul dalam laporan, artikel, berita.\n• Tidak dipakai untuk hubungan sebab-akibat langsung yang mengandung kehendak (membeli, memutuskan…). Untuk menyatakan alasan tindakan, gunakan ので/から.",
+    "notes": "• Pola penamaan biasanya dipakai dengan 呼ばれる／名付けられる／通称〜とされる.\n• Dalam esai, berfungsi baik sebagai penghubung logis: データが示していることから、〜と結論づけられる.\n• Posisi dalam kalimat: di awal kalimat sebagai premis terasa sangat alami.",
+    "mistakes": [
+     "Dipakai untuk tindakan berkehendak: \"雨が降っていることから、傘を持っていく\" → dipaksakan. Ganti: 雨が降っているから／ので、傘を持っていく.",
+     "Menghilangkan である setelah N/na dalam bahasa formal: \"静かだことから\" → salah; benar: 静かなことから／静かであることから.",
+     "Tertukar dengan からすると: ことから menekankan \"klausa berupa fakta\", からすると menekankan \"sumber/dasar N\".",
+     "JLPT: kenali bahwa bagian belakang biasanya berupa 分かる・見なされる・呼ばれる untuk memilih ことから."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "〜ことから",
+       "Dari hal… maka disimpulkan/dinamai",
+       "Dasar objektif, formal",
+       "<ruby>足跡<rt>あしあと</rt></ruby>があることから、<ruby>熊<rt>くま</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "〜ので／〜から",
+       "Karena… (alasan langsung)",
+       "Alasan untuk tindakan/kehendak",
+       "<ruby>雨<rt>あめ</rt></ruby>だから、<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。"
+      ],
+      [
+       "N + からすると",
+       "Berdasarkan N, diduga",
+       "Tidak menekankan \"fakta berupa klausa\", melainkan sumber/dasar N",
+       "<ruby>症状<rt>しょうじょう</rt></ruby>からすると、<ruby>風邪<rt>かぜ</rt></ruby>だ。"
+      ],
+      [
+       "〜ということから",
+       "Dari \"hal bahwa …\"",
+       "Bentuk yang menekankan isi klausa",
+       "<ruby>不足<rt>ふそく</rt></ruby>しているということから、<ruby>増産<rt>ぞうさん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 530,
+   "src_hash": "e3fb1ca51384c163",
+   "fields": {
+    "meaning": "Sungguh…, sangat…",
+    "examples": [
+     "Saya senang sekali, saya terpilih sebagai wakil dalam lomba pidato.",
+     "Sayang sekali, Tim A kalah dengan selisih 1 poin.",
+     "Sayang sekali, perkemahan yang sudah saya nanti-nantikan dibatalkan karena hujan.",
+     "Mengejutkan sekali, katanya tiket konser itu terjual habis dalam 15 menit.",
+     "Senang sekali, saya lulus ujian masuk universitas pilihan pertama.",
+     "Sayang sekali, rapatnya ditunda."
+    ],
+    "explain": "Biasanya berada di awal kalimat/klausa, lalu diikuti fakta yang objektif.\nMenciptakan gaya bahasa yang formal, sopan; cocok untuk esai, presentasi.\nTidak dipakai untuk perintah/kehendak langsung. Dipakai untuk mengungkapkan perasaan sebelum menggambarkan suatu hal.\nDengan Aな perlu \"な\":残念なことに／幸いなことに.\n\n～ことに: \"Sungguh … / Betapa … bahwa\" — menyampaikan perasaan/penilaian subjektif pembicara di awal kalimat, sebagai bingkai seruan yang formal/tertulis.\n• Dipakai dengan kata sifat/kata kerja yang menyatakan perasaan/penilaian: うれしい・残念だ・残念ながら (berbeda)・困る・驚く・ありがたい・幸いだ・面白い・不思議だ.\n• Menekankan tingkat perasaan pembicara terhadap isi yang menyusul.\n• Gayanya lebih formal dibandingkan て嬉しい/てよかった.",
+    "notes": "• \"驚いたことに/困ったことに/面白いことに/皮肉なことに\" adalah ungkapan yang sering muncul dalam bahasa tulis.\n• Bisa juga diletakkan di tengah kalimat jika berupa klausa bawahan: 彼が来なかったのは、残念なことに、連絡が取れなかったからだ。\n• Dengan Vた + ことに: kata kerjanya sebaiknya jenis yang menyatakan perasaan yang dialami (驚く・困る), bukan kata kerja tindakan biasa.",
+    "mistakes": [
+     "Menghilangkan \"な\" pada Aな: \"残念ことに\" → salah; benar: 残念なことに.",
+     "Dipakai dengan kata sifat yang tidak bernuansa perasaan (例: 高いことに) → dipaksakan. Pilih kata sifat penilaian/perasaan.",
+     "Digabung dengan perintah/kehendak: \"うれしいことに、行きましょう\" → tidak alami. Sebaiknya pisahkan perasaan dan ajakan dengan struktur lain.",
+     "JLPT: kenali posisi di awal kalimat dan kata sifat perasaan untuk memilih 〜ことに, bukan 〜てうれしい/〜とは."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan nuansa",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Aい/na + ことに",
+       "Sungguh …",
+       "Formal, membuka dengan perasaan",
+       "<ruby>幸<rt>さ</rt></ruby>いなことに、<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>った。"
+      ],
+      [
+       "Vて + <ruby>嬉<rt>うれ</rt></ruby>しい/よかった",
+       "Karena … jadi senang/lega",
+       "Bahasa lisan, langsung",
+       "<ruby>合格<rt>ごうかく</rt></ruby>して<ruby>嬉<rt>うれ</rt></ruby>しい。"
+      ],
+      [
+       "〜とは",
+       "… ternyata (terkejut)",
+       "Seruan kuat, sering disertai <ruby>想定<rt>そうてい</rt></ruby><ruby>外<rt>がい</rt></ruby>",
+       "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来<rt>こ</rt></ruby>ないとは。"
+      ],
+      [
+       "なんと + kalimat",
+       "Mengungkapkan seruan",
+       "Bahasa lisan, melebih-lebihkan",
+       "なんと<ruby>美<rt>うつく</rt></ruby>しい<ruby>景色<rt>けしき</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 531,
+   "src_hash": "908b84c070c0e068",
+   "fields": {
+    "meaning": "Memutuskan untuk…, kebiasaan",
+    "examples": [
+     "Demi kesehatan, saya membiasakan diri minum susu setiap pagi.",
+     "Katanya Tanaka-san selalu mengirim email setiap kali akan pulang terlambat.",
+     "Waktu muda, impian saya adalah ikut Olimpiade, jadi saya menetapkan untuk berlatih 8 jam setiap hari.",
+     "Saya sudah membuat aturan untuk tidak bekerja di rumah pada hari libur, tetapi minggu ini pekerjaan saya benar-benar tidak bisa selesai pada hari Jumat sehingga saya membawanya pulang.",
+     "Demi kesehatan, saya membiasakan diri berjalan 10.000 langkah setiap hari.",
+     "Untuk berhemat, saya membatasi makan di luar hanya seminggu sekali."
+    ],
+    "explain": "Dipakai bersama kata keterangan frekuensi/waktu:毎日/いつも/基本的に/～から.\nBernuansa subjektif \"menetapkan aturan sendiri\"; bentuk sopan bila perlu: ～ことにしています.\nTidak dipakai untuk fenomena alam/hal yang tidak dapat dikendalikan: ×雨の日は降ることにしている。\nDapat dipakai dalam arti \"menganggap/pura-pura\" dalam konteks humor/tersirat:今日は休みってことにしている。\n\n• Menyatakan kebiasaan yang ditetapkan sendiri oleh pembicara dan dijalankan secara teratur.\n• Menekankan keputusan berdasarkan kehendak yang sudah dibuat sebelumnya dan masih berlanjut sampai sekarang. Nuansanya lebih stabil daripada ～ようにしている (yang menekankan \"berusaha\").\n• Untuk aturan organisasi/peraturan, gunakan ～ことになっている, bukan ～ことにしている.\n• Paling alami dipakai untuk orang pertama; untuk orang lain perlu konteks (kebiasaan yang sudah diketahui/diceritakan).",
+    "notes": "1) Mudah tertukar dengan ～ことになっている.\n→ ～ことにしている adalah kebiasaan atau aturan yang diputuskan sendiri oleh pembicara.\n2) Tertukar antara nuansa \"sudah memutuskan\" dan \"sedang mempertahankan\".\n→ Pola ini menekankan penetapan aturan sendiri dan pelaksanaannya sebagai kebiasaan.\n3) Hindari memakainya untuk aturan organisasi atau keadaan.\n→ Aturan dari luar biasanya memakai ～ことになっている.",
+    "mistakes": [
+     "Tertukar dengan ～ことになっている: jika yang ditanyakan adalah \"aturan\", harus memakai ～ことになっている.",
+     "Tertukar dengan ～ようにしている: jika yang ditekankan \"berusaha\" daripada \"sudah menjadi kebiasaan\", pilih ～ようにしている.",
+     "Memakainya untuk tindakan yang tidak dapat dikendalikan terasa salah/tidak alami (misalnya cuaca, kemampuan yang terjadi dengan sendirinya).",
+     "Memakainya untuk orang lain tanpa konteks pengantar → kurang alami; sebaiknya tambahkan \"彼は～としている/彼の習慣では～\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan kunci",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ことにしている",
+       "Kebiasaan yang ditetapkan sendiri",
+       "Diputuskan dan dipertahankan secara stabil",
+       "<ruby>夜<rt>よる</rt></ruby><ruby>更<rt>ふ</rt></ruby>かししないことにしている。"
+      ],
+      [
+       "～ことにした",
+       "Baru saja memutuskan",
+       "Peristiwa pengambilan keputusan (sekali)",
+       "<ruby>来年<rt>らいねん</rt></ruby><ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことにした。"
+      ],
+      [
+       "～ことになっている",
+       "Aturan umum",
+       "Aturan yang berasal dari luar",
+       "<ruby>社内<rt>しゃない</rt></ruby>は<ruby>禁煙<rt>きんえん</rt></ruby>ということになっている。"
+      ],
+      [
+       "～ようにしている",
+       "Berusaha mempertahankan",
+       "Menekankan usaha, mungkin belum stabil",
+       "<ruby>早起<rt>はやお</rt></ruby>きするようにしている。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,631 @@
+{
+ "batch": "b060",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-09",
+ "items": [
+  {
+   "id": 948,
+   "src_hash": "71aba646e61959cc",
+   "fields": {
+    "meaning": "Misalnya, seperti",
+    "connection": "[kalimat/klausa bentuk biasa] + とか / N + とか",
+    "examples": [
+     "\"Katanya membangun rumah itu menghabiskan lebih dari 100 juta yen.\" \"Wah, begitu ya.\"",
+     "Dia bilang katanya akan pergi ke pemandian air panas pada libur panjang nanti.",
+     "(Surat) Apa kabar? Kami semua di sini baik-baik saja. Saya dengar dari Hara-san, katanya Sachiko-san akan datang ke Kyoto bulan depan. Silakan mampir juga ke tempat kami.",
+     "\"Aku dengar katanya pelajaran bahasa Inggris besok libur, benar?\"",
+     "Saya dengar ibu Anda dirawat di rumah sakit. Bagaimana keadaan beliau? (surat)",
+     "Katanya ada kecelakaan yang menimpa orang di stasiun, sehingga kereta berhenti dan saya pun terlambat."
+    ],
+    "explain": "Penyebutan yang tidak tegas, menyiratkan \"masih ada hal lain lagi\".\nKabar dari orang lain dengan \"とか\" di akhir kalimat: mengurangi tanggung jawab atas ucapan, menunjukkan ketidakpastian.\nDalam percakapan, \"とかさ/とかって\" dapat muncul untuk menambah kesan bahasa lisan.\nSebaiknya tidak menggunakan \"とか\" berturut-turut terlalu banyak dalam bahasa tulis karena terkesan bertele-tele/kurang jelas.\n\n- Penyebutan: Memberikan beberapa contoh yang representatif, tidak mencakup seluruhnya; bersifat sugestif, bebas, akrab.\n- Kabar dari orang lain: \"とか\" di akhir kalimat mengungkapkan sumber informasi yang samar, pembicara tidak memastikan (katanya, sepertinya).\n- Bila digunakan dengan \"とかで\": menunjukkan sebab yang samar, pembicara tidak tahu pasti (semacam \"karena sesuatu seperti…\").\n- Tingkat kesopanan: cukup bernuansa bahasa lisan; hindari dalam dokumen formal yang menuntut ketepatan tinggi.",
+    "notes": "1) Mudah tertukar dengan ～という／～って.\n→ ～とか biasanya digunakan untuk menyampaikan informasi yang didengar tetapi tidak pasti, atau kutipan yang samar.\n2) Sering muncul dalam percakapan/surat.\n→ Nuansa \"katanya…\" yang ringan, tidak memastikan.\n3) Tidak digunakan bila sumber informasinya pasti.\n→ Jika ingin menyampaikan dengan lebih pasti, gunakan ～ということだ／～そうだ.",
+    "mistakes": [
+     "Menggunakan \"とか\" dalam bahasa formal/presentasi akademis → kurang serius. Ganti dengan や/など/によると～そうだ.",
+     "Tertukar antara \"とか\" (penyebutan) dan \"とかで\" (alasan). \"とかで\" perlu diikuti kata kerja yang menunjukkan hasil: 中止になった/遅れた.",
+     "Kabar dari orang lain dengan \"とか\" tetapi disertai penegasan kuat → nuansanya bertentangan. Jika yakin, gunakan ～と聞いた/～そうだ.",
+     "Menyalahgunakan \"とか\" berturut-turut membuat kalimat terpotong-potong; sebaiknya pilih 1–2 hal yang representatif."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Fungsi",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "NやN",
+       "Penyebutan contoh",
+       "Lebih netral, kurang bernuansa bahasa lisan",
+       "<ruby>寿司<rt>すし</rt></ruby>や<ruby>天ぷら<rt>てんぷら</rt></ruby>"
+      ],
+      [
+       "Nなど",
+       "\"dll.\", merendahkan/enggan tergantung konteks",
+       "Lebih formal daripada とか dalam bahasa tulis",
+       "<ruby>本<rt>ほん</rt></ruby>などを<ruby>読<rt>よ</rt></ruby>む"
+      ],
+      [
+       "～そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Katanya",
+       "Netral, lebih objektif daripada とか",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうだ"
+      ],
+      [
+       "～って（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Katanya (sangat bernuansa bahasa lisan)",
+       "Lebih santai daripada とか",
+       "<ruby>彼<rt>かれ</rt></ruby>、<ruby>来<rt>こ</rt></ruby>ないって"
+      ],
+      [
+       "～とかで",
+       "Alasan yang samar",
+       "Hanya dalam bahasa lisan, tidak formal",
+       "<ruby>事故<rt>じこ</rt></ruby>とかで<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 949,
+   "src_hash": "5ecb4f3a6ddd6322",
+   "fields": {
+    "meaning": "Hampir, nyaris saja",
+    "examples": [
+     "Saya terdorong di peron stasiun dan nyaris saja jatuh ke rel.",
+     "Karena terburu-buru saat berangkat, saya hampir saja lupa membawa dompet.",
+     "Kalau dia tidak memperingatkan saya, saya pasti sudah tertipu.",
+     "(Saat ujian) Padahal sedikit lagi saya selesai menulis, tetapi belnya keburu berbunyi.",
+     "Atlet Takahashi tinggal sedikit lagi bisa menjadi pemain inti, tetapi ia cedera karena kecelakaan dan akhirnya pensiun.",
+     "Hampir saja saya ketinggalan kereta."
+    ],
+    "explain": "Menyatakan tindakan yang hampir terjadi tetapi akhirnya dapat dihindari. Biasanya digunakan untuk situasi yang tidak diinginkan.\nMenyatakan hal yang hampir tercapai atau hampir terjadi tetapi akhirnya tidak berhasil, dengan rasa penyesalan.\n\n• Menyatakan suatu hal yang \"hampir terjadi\" tepat pada saat itu, tetapi pada akhirnya TIDAK terjadi.\n• Dua arah:\n\nVるところだった：hampir melakukan X (tetapi berhasil dihindari).\nVないところだった：hampir TIDAK melakukan X (tetapi akhirnya dilakukan).\n\n• Vるところだった：hampir melakukan X (tetapi berhasil dihindari).\n• Vないところだった：hampir TIDAK melakukan X (tetapi akhirnya dilakukan).\n• Sering digunakan bersama もう少しで, 危うく, 今にも untuk menekankan arti \"hampir\".\n• Berbeda dengan ～そうになった: ～ところだった menekankan titik waktu yang sangat dekat; ～そうになった menekankan keadaan yang \"nyaris\" berubah.",
+    "notes": "1) Mudah tertukar dengan ～そうになった／～かけた.\n→ ～ところだった berarti \"nyaris saja…\", biasanya untuk situasi yang tidak diinginkan.\n2) Sering disertai nuansa \"untung saja tidak terjadi\".\n→ Menekankan bahwa hal itu nyaris terjadi dan hampir menimbulkan akibat.\n3) Perhatikan arti lain dalam data Anda (ghichu=2).\n→ Jika ingin mencatat jebakan khusus untuk arti ghichu=2, sebaiknya tambahkan juga untuk ct ghichu=2.",
+    "mistakes": [
+     "Digunakan ketika peristiwanya sudah terjadi: salah arti \"hampir\".",
+     "Tertukar dengan Vるところだ (akan melakukan) dan Vたところだ (baru saja melakukan): kala dan maknanya berbeda.",
+     "Tertukar dengan ～そうになった: jika soal menanyakan \"hampir\" yang menekankan titik waktu yang sangat dekat → utamakan ～ところだった.",
+     "Lupa bentuk negatif dalam \"hampir tidak\": ×間に合うところだった（hampir tidak sempat）→ benar: 間に合わないところだった。"
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vるところだった",
+       "Hampir melakukan V",
+       "Tidak terjadi",
+       "<ruby>転<rt>ころ</rt></ruby>ぶところだった"
+      ],
+      [
+       "Vないところだった",
+       "Hampir tidak V",
+       "Akhirnya V",
+       "<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないところだった"
+      ],
+      [
+       "Vそうになった",
+       "Hampir/sudah nyaris V",
+       "Menekankan keadaan yang hampir berubah; tidak harus \"tepat pada saatnya\"",
+       "<ruby>泣<rt>な</rt></ruby>きそうになった"
+      ],
+      [
+       "Vるところだ",
+       "Akan melakukan V (sekarang)",
+       "Kala berbeda (sedang bersiap), tidak ada arti \"hampir\"",
+       "<ruby>今<rt>いま</rt></ruby><ruby>出<rt>で</rt></ruby>るところだ"
+      ],
+      [
+       "Vかける",
+       "Melakukan setengah jalan",
+       "Sedang di tengah-tengah tindakan",
+       "<ruby>死<rt>し</rt></ruby>にかけた"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 950,
+   "src_hash": "cf9522db11ed93fb",
+   "fields": {
+    "meaning": "Dilihat dari ~",
+    "connection": "V bentuk biasa + ところを見ると",
+    "examples": [
+     "Melihat dia sampai seminggu tidak masuk kerja, sepertinya kondisi badannya cukup buruk.",
+     "Melihat dia tidak berkata apa-apa, sepertinya direktur juga tidak menentang.",
+     "(Ibu kepada anaknya) PR-nya sudah selesai? ... Melihat kamu diam saja, berarti belum, ya. Cepat kerjakan.",
+     "Melihat selalu ada antrean, pasti itu restoran yang enak."
+    ],
+    "explain": "◎ Menyatakan dugaan, dengan makna \"menilai dari kenyataan ~\".",
+    "notes": "Digunakan ketika pembicara menyampaikan dugaan berdasarkan pengalaman langsung. Di akhir kalimat sering digunakan 「らしい／ようだ／にちがいない」 dan sebagainya. Kadang-kadang digunakan juga bentuk 「…ところからみて」.\n*(Contoh) 高級車に乗っているところからみて、相当の金持ちらしい。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 951,
+   "src_hash": "eeb7a0f81f533796",
+   "fields": {
+    "meaning": "Sekalipun…, seandainya…",
+    "examples": [
+     "Sekalipun hujan, pertandingan tetap diadakan sesuai jadwal.",
+     "Sekalipun akan gagal, saya tetap ingin mencobanya.",
+     "Sekalipun dia mengatakan yang sebenarnya, saya tidak bisa langsung percaya.",
+     "Sekalipun harganya mahal, saya memilih kualitas.",
+     "Sekalipun masih pelajar, tetap harus bertanggung jawab.",
+     "(Seandainya) pindah rumah sekalipun"
+    ],
+    "explain": "Menekankan bahwa \"hasil/pendirian tidak berubah\".\nCocok untuk argumentasi dan bantahan: \"Anggap saja… tetapi…\".\nDapat digunakan untuk pengandaian yang nyata maupun yang jauh dari kenyataan; nuansanya lebih formal daripada ～ても.\nSering dipadukan dengan たとえ untuk penekanan: たとえ～としても.\n\n• Konsesif: sekalipun pengandaian X benar, hasil/pandangan Y tetap tidak berubah.\n• Digunakan juga untuk pengandaian yang kecil kemungkinannya atau untuk mengakui suatu poin sementara demi argumentasi.\n• Sering disertai ungkapan tekad/pandangan yang kuat: ～買う／～変わらない／～構わない／～挑戦したい.",
+    "notes": "• Dengan N/na sebaiknya pertahankan だ dalam bahasa tulis: N/na + だとしても.\n• Sering muncul dalam argumen tandingan: たとえAとしても、B（Aを認めつつB）.\n• Dalam pidato, digunakan untuk \"konsesi strategis\" sebelum menegaskan pandangan.",
+    "mistakes": [
+     "Tertukar dengan ～としたら: kalimat yang membutuhkan nuansa \"sekalipun\" harus menggunakan ～としても.",
+     "Menghilangkan だ pada N/na dalam bahasa tulis: × 学生としても (ambigu) → 〇 学生だとしても.",
+     "Digunakan ketika hasilnya sebenarnya bergantung pada syarat: jika hasilnya berubah, jangan gunakan ～としても.",
+     "JLPT sering menjebak dengan pasangan たとえ/仮に + ～としても/～ても: pilih pasangan yang alami."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～としても",
+       "Sekalipun ~",
+       "Formal, argumentatif; hasil tidak berubah",
+       "<ruby>高<rt>たか</rt></ruby>いとしても<ruby>買<rt>か</rt></ruby>う"
+      ],
+      [
+       "～ても／～でも",
+       "Meskipun ~, …",
+       "Umum, lebih bernuansa bahasa lisan",
+       "<ruby>雨<rt>あめ</rt></ruby>でも<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "たとえ～ても",
+       "Seandainya… pun…",
+       "Menekankan pengandaian",
+       "たとえ<ruby>負<rt>ま</rt></ruby>けても<ruby>学<rt>まな</rt></ruby>ぶ"
+      ],
+      [
+       "～にしても",
+       "Sekalipun/walaupun",
+       "Sering disertai penilaian/standar",
+       "<ruby>冗談<rt>じょうだん</rt></ruby>にしても<ruby>言<rt>いい</rt></ruby>いすぎだ"
+      ],
+      [
+       "～としたら",
+       "Seandainya ~",
+       "Syarat hipotesis, bukan konsesif",
+       "<ruby>行<rt>い</rt></ruby>けないとしたら<ruby>連絡<rt>れんらく</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 952,
+   "src_hash": "fe707200e5188c94",
+   "fields": {
+    "meaning": "Tidak ada satu pun ~",
+    "connection": "jumlah minimum + として…ない",
+    "examples": [
+     "Karya-karyanya, tidak ada satu pun yang mudah dipahami.",
+     "Alasan sebenarnya saya berhenti bekerja, tidak ada seorang pun yang tahu.",
+     "Sudah 10 tahun sejak kecelakaan itu, tetapi tidak ada satu hari pun saya tidak teringat akan hal itu.",
+     "Banyak peneliti telah mencoba memecahkan misteri ini, tetapi tidak seorang pun yang berhasil."
+    ],
+    "explain": "◎ Menyatakan negasi total, \"tidak ada satu pun\".",
+    "notes": "Mengikuti kata yang mengandung 「一」 yang menyatakan jumlah minimum seperti 「一日」「一時（いっとき）」「（だれ）一人」「（何）一つ」, lalu diikuti bentuk negatif predikat untuk menyatakan arti 「全然…ない」. Jika disertai kata tanya seperti 「なに」「だれ」, 「として」 dapat dihilangkan.\n*(Contoh) だれ一人、私の発言を支持してくれる人はいなかった。Merupakan ungkapan yang agak bernuansa bahasa tulis; dalam bahasa lisan, cara pengungkapan seperti 「一人も…ない」 lebih umum."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 953,
+   "src_hash": "8d4bbc4b0c947521",
+   "fields": {
+    "meaning": "Kalau jadinya…, kalau begitu…",
+    "examples": [
+     "Kalau tenggatnya hari Senin minggu depan, kita harus bergegas.",
+     "Kalau dia tidak bisa pergi, lalu siapa yang akan pergi, ya?",
+     "Kalau sampai pindah rumah, pasti butuh biaya yang cukup besar, ya.",
+     "Kalau sampai bertugas di luar negeri, keluarga juga harus dipikirkan.",
+     "Begitu menyangkut ujian, dia langsung menjadi tegang.",
+     "Kalau besok harus dinas luar, hari ini saya harus pulang lebih awal."
+    ],
+    "explain": "Digunakan ketika: mengemukakan suatu syarat, lalu langsung membahas akibat/hal yang harus dipikirkan.\nKlausa belakang biasanya berisi:費用がかかる、時間が必要だ、手続きが増える、難しい、無理だ、見直しだ.\nNuansa perubahan topik: \"A となると、(話は)～\" sebagai kerangka argumentasi.\nTingkat objektivitasnya lebih tinggi daripada となったら; jarang mengandung kehendak pribadi, biasanya berupa penilaian/akibat umum.\n\n• Arti utama: \"Begitu menyangkut/sampai pada hal A, maka (akan) muncul B\". Menekankan pengenalan situasi dan pembahasan akibat serta masalah yang perlu dipertimbangkan.\n• Nuansa: lebih objektif daripada となったら; biasanya digunakan untuk menyebutkan kesulitan, biaya, batasan, persyaratan, dan sebagainya di klausa belakang.\n• Sering muncul dalam percakapan/negosiasi ketika beralih dari premis ke analisis akibat.\n• Klausa belakang jarang berupa keinginan pribadi secara langsung; biasanya berupa penilaian, dugaan, kewajiban, atau keniscayaan.",
+    "notes": "• Ungkapan penekanan: ～となると、話は別だ／大問題だ／厄介だ.\n• Menyatakan \"setiap kali ... maka ...\" untuk kebiasaan/sifat: N となると～ (試合となると燃えるタイプだ).\n• Cocok dalam pembicaraan pekerjaan ketika menyebutkan persyaratan yang muncul dari suatu premis.\n• Sebaiknya tidak disalahgunakan untuk perintah langsung kepada lawan bicara; bentuk kewajiban/anjuran akan lebih alami.",
+    "mistakes": [
+     "Tertukar dengan というと/といえば (asosiasi) – となると membicarakan akibat yang perlu ditangani, bukan sekadar memunculkan asosiasi.",
+     "Menggunakan となると untuk menyatakan keinginan pribadi yang kuat (～したい) terdengar dipaksakan; sebaiknya diubah menjadi kewajiban/usulan (～しないと/～すべきだ).",
+     "Jebakan konteks JLPT: jika klausa belakang berupa \"費用・手続き・見直し・困る\", jawabannya biasanya となると."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～となると",
+       "Kalau menyangkut/sampai pada hal A, maka...",
+       "Memunculkan masalah, akibat yang objektif",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>となると、<ruby>費用<rt>ひよう</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>だ。"
+      ],
+      [
+       "～となったら",
+       "Kalau/ketika sudah tiba saatnya A, maka...",
+       "Kehendak/persiapan pribadi, bahasa lisan",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>するとなったら、<ruby>準備<rt>じゅんび</rt></ruby><ruby>開始<rt>かいし</rt></ruby>だ。"
+      ],
+      [
+       "～となれば",
+       "Seandainya/sampai pada tingkat A, maka...",
+       "Pengandaian menyeluruh, bahasa tulis, keniscayaan",
+       "<ruby>雨<rt>あめ</rt></ruby>となれば、<ruby>中止<rt>ちゅうし</rt></ruby>は<ruby>避<rt>さ</rt></ruby>けられない。"
+      ],
+      [
+       "～とすると/～とすれば",
+       "Seandainya A, maka...",
+       "Netral, logika pengandaian",
+       "<ruby>行<rt>い</rt></ruby>くとすると、<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>？"
+      ],
+      [
+       "～というと/～といえば",
+       "Berbicara tentang A, maka (asosiasi)",
+       "Asosiasi topik, tidak menekankan akibat",
+       "<ruby>春<rt>はる</rt></ruby>というと、<ruby>桜<rt>さくら</rt></ruby>だね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 954,
+   "src_hash": "c87162742f02b375",
+   "fields": {
+    "meaning": "Meskipun ~",
+    "connection": "V/A bentuk biasa + とはいうものの / N・Na + (だ)",
+    "examples": [
+     "Meskipun tempat wawancaranya dekat dari rumah, pada hari itu saya berencana berangkat lebih awal.",
+     "Meskipun alasannya karena tidak ada waktu, laporan ini terlalu buruk.",
+     "Meskipun sudah bulan Maret, hari-hari yang dingin masih terus berlanjut, ya.",
+     "Meskipun kebakaran pabrik itu tidak menjadi kecelakaan besar, hal itu menimbulkan kecemasan yang luar biasa bagi warga sekitar.",
+     "Meskipun menang atau kalah tidak penting, kalau kalah tetap saja kesal."
+    ],
+    "explain": "◎ Mengungkapkan perasaan \"memang ~, tetapi meskipun begitu ~\" atau \"mengakui kenyataan itu, tetapi itu saja masih belum cukup\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 955,
+   "src_hash": "4c2b7c90dc33a9a0",
+   "fields": {
+    "meaning": "Bukannya…, malah…",
+    "examples": [
+     "Saya sangat sibuk, jangankan ke luar negeri, ke pemandian air panas yang dekat pun tidak bisa.",
+     "Katanya dia bukannya minta maaf, malah mengomel.",
+     "Saya sibuk belajar, jangankan bermain dengan teman, waktu untuk menonton TV di rumah pun tidak ada.",
+     "Tenggorokan saya sakit, jangankan makan, minum air pun tidak bisa.",
+     "Lukisan ini harganya 1 juta yen. Akan tetapi, menurut saya lukisan ini bukan hanya bernilai 1 juta yen, melainkan 2 juta yen.",
+     "Saya pergi menonton film yang sedang ramai dibicarakan, tetapi bukannya menarik, malah membosankan, sehingga saya pulang di tengah jalan."
+    ],
+    "explain": "Menekankan kesenjangan besar antara harapan (A) dan kenyataan (B).\nBiasanya bernuansa ketidakpuasan atau celaan; tetapi dapat juga digunakan dalam arah \"jauh lebih baik\".\nTidak digunakan dengan perintah/kehendak langsung. Biasanya berupa deskripsi/penilaian.\nSetelah N/Aな perlu mempertahankan bentuk yang tepat: Aな＋な＋どころか.\n\n- Menyatakan kenyataan yang sepenuhnya bertolak belakang dengan harapan/anggapan A: \"Mana mungkin A/jangankan A, (sebenarnya) B…\".\n- Dua penggunaan dasar:\n1) \"Jangankan A, B (tingkat yang lebih rendah/lebih dasar) pun tidak/sudah …\".\n2) \"Bukannya A, malah sebaliknya B (kontras).\"\n- Sering digunakan dengan pasangan kata yang berlawanan arti atau skala tingkat untuk menekankan kesenjangan.",
+    "notes": "- Jika A adalah harapan yang positif, gunakan どころか untuk membalik dengan kuat ke arah negatif (atau sebaliknya). Contoh: 安いどころか高い（membalik arah).\n- Sering dipadukan dengan まで/さえ/も untuk memperkuat kontras: AどころかBまで～.\n- Dalam pidato/bahasa tulis, dapat ditemukan bentuk Aどころか、むしろBだ untuk memperjelas pertentangan.",
+    "mistakes": [
+     "Tertukar dengan どころではない (bukan saatnya melakukan A) → artinya berbeda. Baca konteks dengan cermat: \"bukan saatnya\" vs \"justru sebaliknya/jangankan\".",
+     "Tidak menambahkan \"な\" sebelum どころか pada Aな: ×便利どころか → ◯便利などころか.",
+     "Logika tingkat yang salah: A harus merupakan tingkat yang diharapkan/lebih ringan daripada B. Contoh: ×難しいどころか簡単だ (bisa digunakan, tetapi pertimbangkan konteks pembalikan yang kuat).",
+     "Digunakan untuk perintah/usulan → tidak alami. Hindari: ×勉強するどころか早くしろ。"
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～どころか",
+       "Justru sebaliknya/jangankan",
+       "Menekankan kesenjangan besar, kontras",
+       "<ruby>静<rt>しず</rt></ruby>かどころかうるさい"
+      ],
+      [
+       "～どころではない",
+       "Bukan saatnya/bukan keadaan untuk…",
+       "Membicarakan situasi yang tidak memungkinkan melakukan A",
+       "<ruby>遊<rt>あそ</rt></ruby>ぶどころではない"
+      ],
+      [
+       "～はおろか",
+       "A saja… (klausa belakang adalah tingkat yang lebih jelas)",
+       "Formal, digunakan dengan kata benda",
+       "<ruby>敬語<rt>けいご</rt></ruby>はおろか<ruby>挨拶<rt>あいさつ</rt></ruby>も…"
+      ],
+      [
+       "～どころか…まで/さえ",
+       "Bukan hanya A, B pun",
+       "Dipadukan untuk menekankan cakupan",
+       "<ruby>雨<rt>あめ</rt></ruby>どころか<ruby>雪<rt>ゆき</rt></ruby>まで"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 956,
+   "src_hash": "fd01786811cf49d7",
+   "fields": {
+    "meaning": "Bukan saatnya…, tidak mungkin…",
+    "examples": [
+     "Karena ibu saya masuk rumah sakit, sekarang bukan saatnya pergi berlibur.",
+     "Saya sibuk, jadi bukan saatnya mengurus orang lain.",
+     "Hari ini saya terlalu sibuk sampai tidak sempat makan.",
+     "Ibu saya harus menjalani operasi, saya sangat khawatir sampai tidak bisa belajar.",
+     "\"Sabtu nanti mau pergi nonton film, nggak?\"",
+     "\"Maaf, aku lagi ujian, jadi nggak sempat mikirin itu.\""
+    ],
+    "explain": "Arti 1 biasanya digunakan dengan Vる/Vている dan kata benda yang menunjukkan kegiatan:遊ぶ、休む、旅行、花見…\nArti 2 menekankan keseriusan/jauh melampaui tingkat biasa:痛いどころではない, ミスどころではない…\nNuansa bahasa lisan yang kuat; tetap dapat digunakan dalam bahasa tulis formal.\nTidak diikuti kehendak/perintah kepada lawan bicara; terutama berupa penilaian objektif tentang keadaan.\n\n• Arti 1 (umum): Bukan saatnya/tidak ada kesempatan untuk melakukan ~ karena keadaan tidak memungkinkan. Bernuansa terdesak, sibuk, situasi yang serius.\n• Arti 2: \"Jauh dari ~ / sama sekali bukan ~\", menekankan tingkat yang jauh melampaui harapan atau justru sepenuhnya bertolak belakang.\n• Berbeda dengan bentuk negatif biasa, ～どころではない menitikberatkan pada \"latar/keadaan yang tidak memungkinkan\" atau \"tingkat yang sangat berbeda\".\n• Sering disertai kata benda yang bersifat situasional: 暇, 冗談, 笑い事, 花見, 旅行, ボーナス…",
+    "notes": "• Jika ingin menekankan titik waktu yang mendesak, gunakan bentuk lampau: ～どころではなかった.\n• Dengan kata benda abstrak: 笑い事どころではない, 人手不足どころではない… sangat alami dalam berita.\n• Dalam percakapan santai dapat menggunakan bentuk singkat: ～どころじゃない.",
+    "mistakes": [
+     "Tertukar dengan ～どころか: jika ada dua klausa yang jelas berlawanan, gunakan どころか; jika hanya menyatakan \"bukan saatnya/jauh dari ~\", gunakan どころではない.",
+     "Salah menempelkan bentuk kata kerja: Vる/Vている sama-sama bisa, tetapi untuk situasi \"sedang melakukan ~ sehingga bukan saatnya\" biasanya digunakan Vている.",
+     "Salah jika digunakan untuk kehendak lawan bicara: × 遊ぶどころではないから、遊びなさい.",
+     "Menyalahgunakan dengan kata sifat -na: lebih alami dengan kata benda/ungkapan situasi."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～どころではない",
+       "Bukan saatnya / jauh dari ~",
+       "Menekankan keadaan atau tingkat",
+       "<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>遊<rt>あそ</rt></ruby>ぶどころではない"
+      ],
+      [
+       "～どころか",
+       "Bukannya ~, malah sebaliknya…",
+       "Perbandingan kontras yang kuat; menyebutkan dua klausa yang berlawanan",
+       "<ruby>雨<rt>あめ</rt></ruby>がやむどころか、<ruby>強<rt>つよ</rt></ruby>くなった"
+      ],
+      [
+       "～ている<ruby>場合<rt>ばあい</rt></ruby>ではない",
+       "Bukan saatnya untuk ~",
+       "Mirip dengan Arti 1; bernuansa peringatan, blak-blakan",
+       "<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>ではない"
+      ],
+      [
+       "～わけではない",
+       "Tidak berarti ~",
+       "Negasi sebagian; tidak menekankan keadaan",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない"
+      ],
+      [
+       "～どころの<ruby>騒<rt>さわ</rt></ruby>ぎではない",
+       "Jauh melampaui ~ (bahasa lisan yang kuat)",
+       "Menekankan keseriusan",
+       "<ruby>忙<rt>いそが</rt></ruby>しいどころの<ruby>騒<rt>さわ</rt></ruby>ぎではない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 957,
+   "src_hash": "b2c9cbb5d0306b9f",
+   "fields": {
+    "meaning": "～なければ・・・ない\nKalau tidak... maka tidak",
+    "examples": [
+     "Kalau ketua belum datang, rapat tidak bisa dimulai.",
+     "Saya rasa kalau tidak benar-benar bertemu langsung, kita tidak akan tahu orang seperti apa dia.",
+     "\"Kalau Anda tidak mengikuti tes, kami tidak bisa mengetahui tingkat kemampuan Anda.\"",
+     "\"Seburuk apa pun kondisi badan saya, kalau saya tidak mengerjakan pekerjaan rumah, rumah akan jadi berantakan.\"",
+     "Kalau mereka berdua belum datang, pestanya tidak bisa dimulai.",
+     "A: Bagaimana? Kira-kira bisa diperbaiki?\nB: Hmm, kalau belum dicoba, ya belum tahu."
+    ],
+    "notes": "Dengan bentuk 「ＸないことにはＹない」, menyatakan arti bahwa jika Ｘ tidak terwujud maka Ｙ juga tidak terwujud. Ｘ menyatakan syarat yang diperlukan agar Ｙ terwujud. Dapat diganti dengan 「なければ」「なくては」.（１２２）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 958,
+   "src_hash": "e197397a5a51e3cb",
+   "fields": {
+    "meaning": "Bagaimana caranya agar; seandainya saja…, apakah tidak bisa… ya",
+    "examples": [
+     "Saya berkonsultasi dengan agen perjalanan, apakah bagaimanapun caranya saya bisa ikut tur itu.",
+     "Saya mencari-cari apakah ada cara yang lebih baik, dan ternyata memang ada.",
+     "A: Apa nggak ada cara bikin kare yang lebih gampang, ya?\nB: Kamu ini maunya serba gampang terus.",
+     "A: Tempat ini selalu ramai, ya.\nB: Iya. Apa nggak bisa diatasi sedikit, ya."
+    ],
+    "explain": "◎ Menyatakan perasaan mencari-cari cara untuk mewujudkan sesuatu yang sulit.",
+    "notes": "meaning_vi: apakah tidak bisa ～ ya, seandainya saja～ ⏐ explain: Menyatakan keinginan agar dapat mewujudkan sesuatu atau menemukan suatu solusi dalam situasi yang sulit.\nKalimat yang kaku. ⏐ examples: 1. 最近、変なメールがたくさん来る。どうにかならないものか。\nAkhir-akhir ini banyak email aneh yang masuk. Seandainya saja saya bisa melakukan sesuatu.\n2. デジカメが壊れた。（なんとか） 直らないものだろうか。\nKamera digital saya rusak. Seandainya saja bisa diperbaiki."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 959,
+   "src_hash": "d3f479c791e7c837",
+   "fields": {
+    "meaning": "Sambil… / Meskipun… | Sambil…",
+    "examples": [
+     "Meskipun saya pikir yang dia katakan itu benar, saya malah tanpa sadar menentangnya.",
+     "Meskipun adik laki-laki saya bilang akan belajar setelah makan, dia masih saja menonton TV.",
+     "Berjalan sambil mengutak-atik ponsel itu berbahaya.",
+     "Dia memasak sambil bernyanyi.",
+     "Meskipun tahu, (saya) tidak mengatakan apa-apa.",
+     "Sayang sekali, untuk kali ini izinkan saya menolak."
+    ],
+    "explain": "Tindakan di belakang adalah tindakan utama, inti kalimat. Contoh: \"音楽を聞きながら勉強する\" → tindakan utamanya adalah \"belajar\".\nSering digunakan dalam kehidupan sehari-hari, percakapan santai, atau bahasa tulis yang sederhana.\nHanya digunakan jika kedua tindakan dilakukan oleh orang/pelaku yang sama.\nTidak digunakan dengan tindakan yang bertentangan atau tidak mungkin terjadi bersamaan (✕泳ぎながら寝る).\n\n• Kejadian bersamaan: Menyatakan dua tindakan yang berlangsung bersamaan oleh pelaku yang sama. Tindakan dalam klausa utama adalah inti, klausa ～ながら adalah keadaan latar.\n• Konsesif: \"Meskipun … tetapi …\". Menekankan pertentangan antara dua klausa, biasanya tahu tetapi tidak melakukan/tidak bisa.\n• Batasan: Tidak digunakan untuk dua subjek yang berbeda; hindari penggunaan dengan tindakan sesaat (一回性) yang sulit berlangsung bersamaan seperti 立つ・着く dalam arti kejadian bersamaan.",
+    "notes": "• Urutan alami: latar di depan – utama di belakang. Contoh: \"走りながら考える\" lebih alami daripada \"考えながら走る\" tergantung intinya.\n• Dengan kata kerja persepsi (聞く・見る・考える) sangat alami sebagai latar: 考えながら運転する。\n• Kata benda + ながらに/ながらの: bentuk kuno/baku (生まれながらに, 昔ながらの味).",
+    "mistakes": [
+     "Salah subjek: menggunakan ながら ketika kedua tindakan dilakukan oleh dua orang yang berbeda adalah salah.",
+     "Tertukar dengan ～ながらも (pola yang menyatakan paradoks, bukan kejadian bersamaan).",
+     "Tidak menghilangkan ます: bentuk yang benar adalah Vます → V(hilangkan ます) + ながら (✕ 食べますながら → ○ 食べながら).",
+     "JLPT sering menguji: tindakan mana yang utama/sampingan dan apakah pelakunya sama."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Fungsi",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ながら",
+       "Sambil …; meskipun…",
+       "Cukup netral; digunakan dalam bahasa lisan maupun tulis.",
+       "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>きき</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>する"
+      ],
+      [
+       "～つつ",
+       "Sambil …; meskipun…",
+       "Lebih formal/tulis; jarang dalam bahasa lisan.",
+       "<ruby>反省<rt>はんせい</rt></ruby>しつつ<ruby>続<rt>つづ</rt></ruby>ける"
+      ],
+      [
+       "～ながらも",
+       "Konsesif yang kuat",
+       "Menekankan kontras; formal.",
+       "<ruby>不十分<rt>ふじゅうぶん</rt></ruby>ながらも<ruby>成功<rt>せいこう</rt></ruby>した"
+      ],
+      [
+       "～のに／～ものの",
+       "Meskipun…",
+       "Tidak menyiratkan kejadian bersamaan; murni paradoks.",
+       "<ruby>知<rt>し</rt></ruby>っているのに<ruby>言<rt>い</rt></ruby>わない"
+      ],
+      [
+       "～て",
+       "Menyambung tindakan",
+       "Tidak harus bersamaan; hanya berurutan.",
+       "<ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きて、<ruby>走<rt>はし</rt></ruby>る"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 960,
+   "src_hash": "1ed8599b21b5efe1",
+   "fields": {
+    "meaning": "Dalam rangka…, pada saat memulai… (hal penting, formal)",
+    "examples": [
+     "Dalam rangka mengajukan beasiswa, ada beberapa persyaratan, jadi untuk keterangan lebih lanjut silakan bertanya ke kantor administrasi.",
+     "Salah satu hal penting dalam menulis makalah adalah mematuhi aturan penulisan."
+    ],
+    "notes": "Variasi: ～にあたり・にあたっては"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 961,
+   "src_hash": "ed6d9f742a14e395",
+   "fields": {
+    "examples": [
+     "Selanjutnya, saya akan membahas peran perusahaan dalam masyarakat.",
+     "Bagi Anda, apa yang paling Anda hargai dalam hidup?"
+    ],
+    "explain": "◎ Penggunaan dalam bahasa tulis untuk menyatakan \"Y di dalam (lingkup, tempat) X\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

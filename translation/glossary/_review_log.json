@@ -1,0 +1,484 @@
+[
+ {
+  "group": [
+   "en",
+   "ko",
+   "cn",
+   "tw"
+  ],
+  "changes": [
+   {
+    "lang": "ko",
+    "kind": "term",
+    "id": "conj_particle",
+    "from": "접속 조사",
+    "to": "접속조사",
+    "reason": "Spacing consistent with 격조사/부조사/종조사; standard Korean term"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "formal",
+    "from": "郑重",
+    "to": "正式",
+    "reason": "改まった = 正式; consistent with formal_written 正式书面语 and avoids clash with 郑重语 (teineigo); 郑重 kept in accept"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "conjunction",
+    "from": "accept: 连词",
+    "to": "accept: 连词, 连接词",
+    "reason": "App UI (choice_connector) uses 连接词"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "invitation",
+    "from": "劝诱",
+    "to": "邀请",
+    "reason": "Match app UI (grammar_invite 邀请、劝告); 劝诱 kept in accept"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "sequence",
+    "from": "先后发生",
+    "to": "顺序发生",
+    "reason": "Match app UI (grammar_seq 顺序发生)"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "hypothetical",
+    "from": "假定",
+    "to": "假设",
+    "reason": "Match app UI 假设条件 and tw; pairs with hypothetical_condition"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "hypothetical_condition",
+    "from": "假定条件",
+    "to": "假设条件",
+    "reason": "Match app UI (grammar_cond_hyp 假设条件)"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "cause_reason",
+    "from": "原因·理由",
+    "to": "原因、理由",
+    "reason": "Style guide: use 、 for listing in Chinese prose"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "means",
+    "from": "手段·方法",
+    "to": "手段、方法",
+    "reason": "Same: 、 not middle dot"
+   },
+   {
+    "lang": "cn",
+    "kind": "term",
+    "id": "destination",
+    "from": "终点·方向",
+    "to": "终点、方向",
+    "reason": "Same: 、 not middle dot"
+   },
+   {
+    "lang": "tw",
+    "kind": "term",
+    "id": "cause_reason",
+    "from": "原因・理由",
+    "to": "原因、理由",
+    "reason": "Style guide: 、 for listing, not Japanese ・"
+   },
+   {
+    "lang": "tw",
+    "kind": "term",
+    "id": "means",
+    "from": "手段・方法",
+    "to": "手段、方法",
+    "reason": "Same: 、 not ・"
+   },
+   {
+    "lang": "tw",
+    "kind": "term",
+    "id": "destination",
+    "from": "終點・方向",
+    "to": "終點、方向",
+    "reason": "Same: 、 not ・"
+   },
+   {
+    "lang": "tw",
+    "kind": "term",
+    "id": "context",
+    "from": "上下文",
+    "to": "語境",
+    "reason": "Match app UI (語境填詞, 語境錯誤陷阱); 上下文 kept in accept"
+   },
+   {
+    "lang": "tw",
+    "kind": "term",
+    "id": "invitation",
+    "from": "邀約",
+    "to": "邀請",
+    "reason": "Match app UI (grammar_invite 邀請、勸告); 邀約/勸誘 accepted"
+   },
+   {
+    "lang": "tw",
+    "kind": "term",
+    "id": "polite_form",
+    "from": "禮貌形",
+    "to": "丁寧形",
+    "reason": "Pairs with 普通形 and 丁寧語 as in Taiwan textbooks; 禮貌形 kept in accept"
+   },
+   {
+    "lang": "ko",
+    "kind": "particle",
+    "id": "sfx_さ",
+    "from": "~함, ~기 (형용사의 명사화)",
+    "to": "~함, ~도 (형용사의 명사화)",
+    "reason": "~기 is the verbal nominalizer, not what さ does (高さ=높이)"
+   },
+   {
+    "lang": "ko",
+    "kind": "particle",
+    "id": "aux_reru",
+    "from": "~당하다 (수동); ~할 수 있다; (존경)",
+    "to": "~되다, ~받다 (수동); ~할 수 있다; (존경)",
+    "reason": "~당하다 implies adversity only; neutral passive gloss"
+   },
+   {
+    "lang": "ko",
+    "kind": "particle",
+    "id": "aux_rareru",
+    "from": "~당하다 (수동); ~할 수 있다; (존경)",
+    "to": "~되다, ~받다 (수동); ~할 수 있다; (존경)",
+    "reason": "~당하다 implies adversity only; neutral passive gloss"
+   },
+   {
+    "lang": "tw",
+    "kind": "style",
+    "id": "Taiwan vocabulary",
+    "from": "普通形, 丁寧語",
+    "to": "普通形 / 丁寧形, 丁寧語",
+    "reason": "Reflect polite_form change to 丁寧形"
+   }
+  ],
+  "verdicts": {
+   "en": "Accept: terms and particle glosses are standard and consistent (te-form with kana in accept, UI-aligned labels); style guide fine; no changes.",
+   "ko": "Accept with minor fixes: 접속조사 spacing, a better gloss for さ, and a neutral passive gloss for れる/られる; 해요체 register matches the UI.",
+   "cn": "Accept with fixes: aligned 邀请, 顺序发生, 假设(条件) with the app UI, 正式 for formal (no clash with 郑重语), and 、 instead of middle dots; particle table keeps ASCII punctuation per the source-structure rule.",
+   "tw": "Accept with fixes: 語境 and 邀請 per the app UI, 丁寧形 to pair with 普通形 / 丁寧語, and 、 instead of ・; Taiwan vocabulary otherwise sound, and no Simplified characters."
+  },
+  "draft_notes": "All 12 draft files for en, ko, cn and tw are written. Every JSON file parses as UTF-8 with real characters (no \\u escapes), and each glossary has all 217 term ids and each particle file all 196 keys, with no missing or extra ones. A script also confirmed that the Japanese text, ～ and the parenthesis count from the source survive in every particle gloss. cn has no Traditional characters outside Japanese text, and tw has no Simplified ones.\n\nFiles (`<lang>` = en, ko, cn, tw):\n- /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/translation/glossary/<lang>.draft.json\n- /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/translation/particles/<lang>.draft.json\n- /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/translation/style/<lang>.md (43–49 lines each)\n- The particle files are generated from a Vietnamese-to-target map per language in /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/work/ (pmap_<lang>.json), using gen.py in the same folder, which also runs the checks.\n\n**Applies to all four languages:**\n- **Particle-table punctuation:** I kept the source's half-width ( ) : ; / and \", \" exactly, including in cn and tw. The style guides call for full-width punctuation in cn/tw prose, so these two rules differ. Decide which one applies to the table.\n- **Added parentheses:** a few glosses originally added parentheses (for example the Korean ~(으)로). I reworded them so the structure matches the source exactly.\n\n**en – terms I was unsure about:**\n- **te_form, masu_form, nai_form, ta_form, tara_form, tai_form, te_iru, ba_form:** the main form uses the romanized textbook spelling (te-form, as in your example). This conflicts with the rule \"never romanize kana\", so the kana spellings (て-form) are listed in accept. In the particle table I used the kana spellings (て-form, な-adjective) to keep the Japanese text intact.\n- **connection (接続):** I chose \"formation\", with \"connection\" in accept. The app's own heading wording isn't known.\n- **keigo / sonkeigo / kenjougo:** keigo stays as \"keigo\" so it doesn't clash with sonkeigo = \"honorific language (sonkeigo)\", which follows your example.\n- **third_person (第三者):** \"third party\", with \"third person\" in accept. The Vietnamese is ambiguous.\n- **adversative:** \"contrary to expectation\", to match the UI label, rather than \"adversative\".\n- **topic_change:** \"topic shift\", to match the UI label.\n- **interrogative_mood:** changed to \"interrogative\" so it no longer duplicates question_sentence = \"question\".\n\n**ko – terms I was unsure about:**\n- **Register:** I chose 해요체 to match the app's UI tone. Many grammar books use 합니다체 or the plain ~다 style instead.\n- **verbal_noun:** する동사, with 동작성 명사 in accept.\n- **counter:** 조수사 (수량사 in accept).\n- **hearsay:** 전문, which is the standard textbook term but may be unfamiliar to learners.\n- **sequence:** 연속 동작, to match the UI label, with 계기 in accept.\n- **casual_spoken:** 허물없는 구어 is a coined phrase.\n- **formal:** 격식 – the Vietnamese mixes \"formal\" and \"stiff\".\n\n**cn – terms I was unsure about:**\n- **plain_form / polite_form:** 简体形 / 敬体形 (标日 style), with 普通形 and です・ます形 in accept.\n- **verb groups:** 一类/二类/三类动词 (标日 style), with 五段/一段 in accept.\n- **counter:** 量词 vs 助数词.\n- **first_clause / second_clause:** 前项 / 后项.\n- **clause:** 分句.\n- **superior / inferior:** 长辈 / 晚辈, with 上级 / 下级 in accept.\n- **formal vs polite:** 郑重 vs 礼貌 – these are easy to confuse.\n- **negative_nuance / positive_nuance:** 负面评价 / 正面评价, with 贬义 / 褒义 in accept.\n- **sequence:** 先后发生.\n- **teineigo:** 郑重语.\n\n**tw – terms I was unsure about:**\n- **Taiwan-specific choices to confirm with a Taiwan reviewer:** 主詞 / 受詞, 子句, 名詞片語, 意向形, 普通形, 丁寧語, 接尾語 / 接頭語, 邀約 and 言說動詞.\n- **polite_form:** 禮貌形, with 敬體 and 丁寧形 in accept.\n- **verb groups:** 第一類動詞, with 第Ⅰ類 in accept.\n- **context:** 上下文, although the app UI uses 語境 (語境 is in accept).\n- **sequence:** 接續發生, to match the UI label.\n- **counterfactual:** 與事實相反的假設 is long."
+ },
+ {
+  "group": [
+   "th",
+   "id",
+   "fr",
+   "de"
+  ],
+  "changes": [
+   {
+    "lang": "de",
+    "kind": "term",
+    "id": "clause",
+    "from": "Satzteil",
+    "to": "Teilsatz",
+    "reason": "Satzteil means a sentence constituent (Satzglied) in German grammar; 節 = Teilsatz"
+   },
+   {
+    "lang": "de",
+    "kind": "term",
+    "id": "first_clause",
+    "from": "vorderer Satzteil",
+    "to": "vorderer Teilsatz",
+    "reason": "follow clause term Teilsatz"
+   },
+   {
+    "lang": "de",
+    "kind": "term",
+    "id": "second_clause",
+    "from": "hinterer Satzteil",
+    "to": "hinterer Teilsatz",
+    "reason": "follow clause term Teilsatz"
+   },
+   {
+    "lang": "de",
+    "kind": "term",
+    "id": "relative_clause",
+    "from": "nominalbestimmender Satz",
+    "to": "Attributsatz",
+    "reason": "Attributsatz is the standard German term for a noun-modifying clause; nominalbestimmender Satz is not idiomatic"
+   },
+   {
+    "lang": "de",
+    "kind": "term",
+    "id": "numeral",
+    "from": "Zahlwort",
+    "to": "Numerale",
+    "reason": "Zahlwort was nearly identical to counter Zählwort; avoid confusion"
+   },
+   {
+    "lang": "de",
+    "kind": "term",
+    "id": "invitation",
+    "from": "Aufforderung",
+    "to": "Einladung",
+    "reason": "Aufforderung reads as request/command and clashes with request/command; 勧誘 = invitation"
+   },
+   {
+    "lang": "id",
+    "kind": "term",
+    "id": "nonpast_form",
+    "from": "bentuk nonlampau",
+    "to": "bentuk non-lampau",
+    "reason": "standard Indonesian spelling hyphenates non- before a base word"
+   },
+   {
+    "lang": "id",
+    "kind": "term",
+    "id": "double_negative",
+    "from": "negatif ganda",
+    "to": "negasi ganda",
+    "reason": "consistency with negasi sebagian / negasi total / negasi kuat"
+   },
+   {
+    "lang": "th",
+    "kind": "particle",
+    "id": "te_もらう",
+    "from": "(ได้รับให้ใครทำให้: ～てもらう)",
+    "to": "(ได้ให้ใครทำให้: ～てもらう)",
+    "reason": "ungrammatical phrase in draft"
+   },
+   {
+    "lang": "th",
+    "kind": "particle",
+    "id": "te_いただく",
+    "from": "(ได้รับให้ทำให้, ถ่อมตน: ～ていただく)",
+    "to": "(ได้ให้ใครทำให้, ถ่อมตน: ～ていただく)",
+    "reason": "ungrammatical phrase in draft"
+   },
+   {
+    "lang": "fr",
+    "kind": "particle",
+    "id": "sfx_っぽい",
+    "from": "-âtre, avoir tendance à",
+    "to": "qui a l'air…, avoir tendance à",
+    "reason": "-âtre is not a natural rendering of っぽい"
+   },
+   {
+    "lang": "de",
+    "kind": "particle",
+    "id": "core_こんな",
+    "from": "so wie dieses",
+    "to": "so ein hier",
+    "reason": "not idiomatic and did not distinguish こんな/そんな/あんな"
+   },
+   {
+    "lang": "de",
+    "kind": "particle",
+    "id": "core_そんな",
+    "from": "so ein, solch",
+    "to": "so ein da",
+    "reason": "distinguish from こんな/あんな"
+   },
+   {
+    "lang": "de",
+    "kind": "particle",
+    "id": "core_あんな",
+    "from": "so wie jenes",
+    "to": "so ein dort drüben",
+    "reason": "distinguish from こんな/そんな"
+   },
+   {
+    "lang": "id",
+    "kind": "particle",
+    "id": "core_あんな",
+    "from": "seperti itu",
+    "to": "seperti itu di sana",
+    "reason": "identical to そんな; distinguish distance"
+   },
+   {
+    "lang": "th",
+    "kind": "style",
+    "id": "before/after #3",
+    "from": "ที่ซองจดหมายมีแสตมป์ติดไว้อยู่",
+    "to": "ที่ซองจดหมายมีแสตมป์ติดไว้",
+    "reason": "ไว้อยู่ is unnatural in the example translation"
+   }
+  ],
+  "verdicts": {
+   "th": "Draft acceptable; terminology consistent. Only fixed two awkward particle glosses and one style example. Coined terms (formal_noun, adv_particle, keigo family) are kept, since the keigo family follows the app label and still needs a native Thai check.",
+   "id": "Draft acceptable; fixed the non-lampau spelling, made negation terms consistent (negasi ganda), and separated あんな from そんな. The keigo and sonkeigo overlap is kept with its note.",
+   "fr": "Draft acceptable and consistent. Only fixed the っぽい gloss (-âtre). Terms the drafter flagged as uncertain (forme neutre, proposition déterminative, classificateur, ouï-dire) are kept because they are within accepted usage.",
+   "de": "Draft mostly fine but had real term problems: Satzteil changed to Teilsatz (with first/second clause), relative clause changed to Attributsatz, numeral changed to Numerale to avoid clashing with Zählwort, and invitation changed to Einladung. The こんな/そんな/あんな glosses were rewritten."
+  },
+  "draft_notes": "All 12 draft files are written for th, id, fr and de, and they pass the checks. Each JSON file parses as UTF-8 with no \\u escapes. Each glossary has exactly the 217 term ids and each particle file has exactly the 196 keys, with nothing missing or extra. In the particle tables, the Japanese segments, ～ and the parentheses match the source for every key. Each style guide is 39–46 lines.\n\nTerms I was unsure about, by language:\n\n**th (Thai)**\n- formal_noun \"คำนามเชิงรูปแบบ\", adv_particle \"คำช่วยเชิงวิเศษณ์\", aux_verb_hojo \"คำกริยาเสริม\": I found no single standard Thai textbook term, so these are coined. aux_verb_hojo is kept separate from aux_verb \"คำกริยานุเคราะห์\".\n- keigo \"คำยกย่อง\": this follows the app label `label.choice_keigo`. Because of that, sonkeigo had to become \"คำยกย่องผู้อื่น\", kenjougo \"คำถ่อมตน\" and teineigo \"คำสุภาพ\". The other common Thai convention uses คำสุภาพ for keigo as a whole, so this needs a native reviewer's call.\n- renyo \"รูปเชื่อม (เร็นโยเค)\" and rentai \"รูปขยายคำนาม\": the transliterations are uncertain.\n- concession \"การยอมรับแบบขัดแย้ง\" and adversative \"ความขัดแย้งกับที่คาดไว้\": no established Thai linguistic term. contrast \"การเปรียบต่าง\" is kept separate from comparison \"การเปรียบเทียบ\".\n- sino_word \"คำที่มาจากภาษาจีน\": textbooks may use คันโกะ instead.\n\n**id (Indonesian)**\n- keigo: tr is \"keigo\", but the app label reads \"Keigo (bahasa hormat)\", and Indonesian textbooks usually use \"bahasa hormat\" for sonkeigo. I used \"sonkeigo (bahasa hormat)\" and noted the overlap.\n- volitional_form \"bentuk maksud\": \"bentuk ajakan\" is also common, so it is in accept.\n- renyo \"bentuk renyoukei\" and rentai \"bentuk penjelas kata benda\": no standard Indonesian term.\n- ending \"akhiran kata\": it could clash with suffix \"akhiran\", so a note says to always write \"akhiran kata\".\n- appearance \"kesan dari penampilan\" and hearsay \"kabar dari orang lain\" are a little long.\n- Particle table: こんな/そんな/あんな don't separate well in Indonesian, so そんな and あんな are both \"seperti itu\".\n\n**fr (French)**\n- aux_verb \"auxiliaire\" (助動詞) vs aux_verb_hojo \"verbe auxiliaire\" (補助動詞): the two are close, and a note explains which is which.\n- plain_form \"forme neutre\": French textbooks also use \"forme simple\" or \"forme courte\".\n- modifier \"détermination\" and relative_clause \"proposition déterminative\": these follow French Japanology usage but may be too technical. \"proposition relative\" is in accept.\n- counter \"classificateur\" and hearsay \"ouï-dire\" vary between textbooks.\n- The style guide asks for French spacing before : ; ! ? in prose, except inside the particle-table pattern, which copies the source structure \"(～…: …)\" exactly.\n\n**de (German)**\n- aux_verb_hojo \"Hilfsverb nach て\" vs aux_verb \"Hilfsverb\": a note explains when to add \"nach て\".\n- clause \"Satzteil\", first_clause \"vorderer Satzteil\" and second_clause \"hinterer Satzteil\": \"Satzteil\" usually means a sentence element in German, so \"Teilsatz\" may be the better tr.\n- plain_form \"einfache Form\": textbooks differ (\"neutrale Form\", \"Kurzform\"). \"Kurzform\" is already used for contracted_form.\n- target \"Bezugsobjekt\" and modifier \"Modifikation\": no standard textbook term.\n- complement \"Ergänzung\": to avoid a clash I moved addition to \"Hinzufügung\".\n\nFiles are in /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/translation/:\n- glossary/th.draft.json\n- glossary/id.draft.json\n- glossary/fr.draft.json\n- glossary/de.draft.json\n- particles/th.draft.json\n- particles/id.draft.json\n- particles/fr.draft.json\n- particles/de.draft.json\n- style/th.md\n- style/id.md\n- style/fr.md\n- style/de.md"
+ },
+ {
+  "group": [
+   "es",
+   "pt",
+   "ru",
+   "pl"
+  ],
+  "changes": [
+   {
+    "lang": "pl",
+    "kind": "term",
+    "id": "passive_form",
+    "from": "strona bierna",
+    "to": "forma bierna",
+    "reason": "All other form terms follow the 'forma X' pattern; 'strona bierna' (voice) kept in accept."
+   },
+   {
+    "lang": "pl",
+    "kind": "particle",
+    "id": "aux_reru",
+    "from": "być …nym (strona bierna); móc; (wywyższająco)",
+    "to": "strona bierna; móc; (wywyższająco)",
+    "reason": "The 'być …nym' placeholder is awkward and not a gloss."
+   },
+   {
+    "lang": "pl",
+    "kind": "particle",
+    "id": "aux_rareru",
+    "from": "być …nym (strona bierna); móc; (wywyższająco)",
+    "to": "strona bierna; móc; (wywyższająco)",
+    "reason": "Same as aux_reru."
+   },
+   {
+    "lang": "pl",
+    "kind": "particle",
+    "id": "prt_たり_副助詞",
+    "from": "m.in.… i… (wyliczanie czynności)",
+    "to": "to… to… (wyliczanie czynności)",
+    "reason": "'m.in.' means 'among others' and does not express the たり alternating-action sense."
+   },
+   {
+    "lang": "pl",
+    "kind": "particle",
+    "id": "prt_たり",
+    "from": "m.in.… i… (wyliczanie czynności)",
+    "to": "to… to… (wyliczanie czynności)",
+    "reason": "Same as prt_たり_副助詞."
+   },
+   {
+    "lang": "pl",
+    "kind": "particle",
+    "id": "sfx_たち",
+    "from": "(liczba mnoga: my, wy, oni…)",
+    "to": "(liczba mnoga)",
+    "reason": "Pronoun list wrongly restricts the plural suffix to pronouns."
+   },
+   {
+    "lang": "pl",
+    "kind": "particle",
+    "id": "sfx_達",
+    "from": "(liczba mnoga: my, wy, oni…)",
+    "to": "(liczba mnoga)",
+    "reason": "Same as sfx_たち."
+   },
+   {
+    "lang": "ru",
+    "kind": "particle",
+    "id": "sfx_たち",
+    "from": "(множественное число: мы, вы, они…)",
+    "to": "(множественное число)",
+    "reason": "Pronoun list wrongly restricts the plural suffix to pronouns."
+   },
+   {
+    "lang": "ru",
+    "kind": "particle",
+    "id": "sfx_達",
+    "from": "(множественное число: мы, вы, они…)",
+    "to": "(множественное число)",
+    "reason": "Same as sfx_たち."
+   },
+   {
+    "lang": "pt",
+    "kind": "particle",
+    "id": "te_みる",
+    "from": "(experimentar fazer: ～てみる)",
+    "to": "(tentar fazer: ～てみる)",
+    "reason": "'Tentar fazer' is the natural Brazilian gloss for ～てみる."
+   },
+   {
+    "lang": "pt",
+    "kind": "particle",
+    "id": "sfx_っぽい",
+    "from": "-ento, tender a",
+    "to": "com jeito de, tender a",
+    "reason": "'-ento' is a wrong/unproductive equivalent of ～っぽい (e.g. 子供っぽい)."
+   },
+   {
+    "lang": "es",
+    "kind": "particle",
+    "id": "sfx_っぽい",
+    "from": "-oso, tender a",
+    "to": "con aire de, tender a",
+    "reason": "'-oso' is a wrong equivalent of ～っぽい."
+   }
+  ],
+  "verdicts": {
+   "es": "Good draft; terminology and style guide acceptable, only the っぽい particle gloss fixed.",
+   "pt": "Good Brazilian draft; two minor particle gloss fixes (てみる, っぽい), glossary and style unchanged.",
+   "ru": "Solid draft (Polivanov transcription, consistent 'X-форма' pattern); only the たち/達 plural gloss simplified.",
+   "pl": "Mostly fine; passive_form aligned to the 'forma X' pattern and several particle glosses (passive, たり, plural suffix) corrected."
+  },
+  "draft_notes": "Yes, the C2 drafts for es, pt, ru and pl are finished. Each language has its three files: glossary, particle table and style guide. These are drafts only. The final `glossary/<lang>.json` files have not been written.\n\nI checked all eight JSON files with a script. Each one parses, has all 217 term ids or all 196 particle keys, and uses real characters with no `\\u` escapes. The Japanese text, `～` and parentheses in the particle glosses match the source. The four style guides are 40–41 lines each and each has 5 before/after examples taken from `style_samples.json`.\n\n**Choices that apply to all four languages**\n- Form names keep the kana: forma て / て-форма / forma て.\n- Japanese 助動詞 and 補助動詞 get different terms so they can't be confused: verbo auxiliar vs verbo subsidiario, вспомогательный vs служебный глагол, czasownik posiłkowy vs pomocniczy.\n- Portuguese is Brazilian, because the app's existing pt strings are Brazilian.\n- Russian writes Japanese words in Cyrillic using the standard Russian system for Japanese (Polivanov): кэйго, сонкэйго, кэндзёго, тэйнэйго.\n- Polish uses \"keigo (język honoryfikatywny)\", taken from the app's existing UI string.\n\n**Terms I was unsure about**\n\nes (Spanish)\n- `hearsay` \"información de oídas\": Spanish has no standard textbook term for 伝聞.\n- `aux_verb_hojo` \"verbo subsidiario\": many Spanish textbooks just say \"verbo auxiliar\", which collides with `aux_verb`.\n- `clause` \"cláusula\" vs `sentence` \"oración\": Spanish textbooks often use \"oración\" for both.\n- `relative_clause` \"cláusula que modifica al sustantivo\": long; \"oración de relativo\" is accepted as an alternative.\n- `target` \"destinatario\" and `adversative` \"contrario a lo esperado\": the second follows the app's UI wording rather than a standard grammar term.\n\npt (Portuguese)\n- `hearsay` \"informação de terceiros\": no settled term.\n- `aux_verb_hojo` \"verbo subsidiário\": same issue as Spanish.\n- `renyo` \"forma contínua\": the naming varies between textbooks.\n\nru (Russian)\n- `suggestion` \"предложение\" is the same word as `sentence`. I kept it because the app's UI already uses it, and added a note telling translators how to avoid the ambiguity.\n- `complement` \"комплемент\": chosen to avoid clashing with `object` \"дополнение\", but it is rare in textbooks.\n- `clause` \"часть предложения\": there is no neat Russian equivalent.\n- `adversative` \"противительное значение\", `appearance` \"внешнее впечатление\" and `hearsay` \"передача чужих слов\": all descriptive, not established terms.\n- `renyo` \"соединительная форма\": some sources say \"срединная форма\", which I accepted as an alternative.\n- `aux_verb` vs `aux_verb_hojo`: Russian sources are inconsistent here.\n\npl (Polish)\n- `sonkeigo` \"język wywyższający\" and `kenjougo` \"język uniżający\": usage varies in Polish japanology.\n- `complement` \"uzupełnienie\": chosen to avoid clashing with `object` \"dopełnienie\".\n- `renyo` \"forma łącząca\" and `rentai` \"forma przydawkowa\": not standardized.\n- `appearance` \"wrażenie z wyglądu\", `hearsay` \"informacja zasłyszana\" and `addition` \"dodawanie informacji\": all descriptive.\n- `case_particle` \"partykuła przypadkowa\": the alternative \"partykuła przypadka\" also exists.\n\n**Particle tables**\nThese were straightforward. Two glosses describe the function instead of giving a literal word, because Russian and Polish show possession with the genitive case rather than a word like \"of\":\n- `prt_の` is glossed as the genitive case: \"родительный падеж\" in Russian and \"dopełniacz\" in Polish.\n- `aux_reru` in Russian is \"страдательный залог (пассив)\" (\"passive voice\"), since there is no single word for it.\n\nFiles are in /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/translation/:\n- glossary/es.draft.json\n- glossary/pt.draft.json\n- glossary/ru.draft.json\n- glossary/pl.draft.json\n- particles/es.draft.json\n- particles/pt.draft.json\n- particles/ru.draft.json\n- particles/pl.draft.json\n- style/es.md\n- style/pt.md\n- style/ru.md\n- style/pl.md\n\nThe check script is /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/verify.py; run it with language codes as arguments."
+ },
+ {
+  "group": [
+   "hi",
+   "ne",
+   "my"
+  ],
+  "changes": [
+   {
+    "lang": "my",
+    "kind": "term",
+    "id": "abstract_noun",
+    "from": "စိတ္တဇနာမ်",
+    "to": "ဘာဝနာမ်",
+    "reason": "စိတ္တဇ means 'mind-born', not abstract noun. Burmese school grammar uses ဘာဝနာမ် for abstract nouns. The old form is kept in accept."
+   },
+   {
+    "lang": "my",
+    "kind": "term",
+    "id": "tendency",
+    "from": "အလားအလာ",
+    "to": "ဖြစ်တတ်သောသဘော",
+    "reason": "အလားအလာ means 'prospect/likelihood', not 傾向 (～がち tendency). The old form is kept in accept."
+   },
+   {
+    "lang": "ne",
+    "kind": "particle",
+    "id": "prt_と_接続助詞",
+    "from": "…ने बित्तिकै, जब…",
+    "to": "जब…तब, …हुँदा",
+    "reason": "…ने बित्तिकै means 'as soon as'. Source と is 'whenever/if' (hễ… thì)."
+   },
+   {
+    "lang": "ne",
+    "kind": "particle",
+    "id": "prt_の_準体助詞",
+    "from": "कुरा, चाहिँ (नामीकरण); (ので, のに मा)",
+    "to": "कुरा, चिज (नामीकरण); (ので, のに मा)",
+    "reason": "चाहिँ is a topic/contrast marker, not a nominalizer."
+   }
+  ],
+  "verdicts": {
+   "hi": "Acceptable. Terms are consistent and the Hindi traps are avoided (उत्तम पुरुष, संज्ञा/व्यक्तिवाचक). Particle glosses are correct and the Japanese/～/brackets are intact. The style guide is fine. No changes made. A native speaker should still check संकल्प रूप, गौण क्रिया and the विनम्र/शिष्ट split.",
+   "ne": "Acceptable after two particle fixes (と conjunctive, の nominalizer). Glossary and style guide are fine: नाम, प्रथम पुरुष, सर्त and Nepali spellings are correct and consistent.",
+   "my": "Acceptable after two term fixes (abstract_noun, tendency). The script is standard Unicode with no Zawgyi. Particle glosses are fine. The style guide is fine, with its two registers: written for explanations, spoken for examples. Items still needing a native check are စေတနာ… for volition, ဝါစက, condition and အခြေအနေ overlapping with state, and the အရှင် gloss under 様."
+  },
+  "draft_notes": "I've finished the drafts for Hindi, Nepali and Burmese. Each language has its glossary, particle table and style guide. All six JSON files parse as UTF-8 without `\\u` escapes. Each glossary has all 217 term ids and each particle file has all 196 keys. In the particle files, the Japanese text, ～, brackets, slashes and colons match the source. I also checked that no two terms share the same translation within a language, and that the Burmese is standard Unicode with nothing that looks like Zawgyi. The style guides are 39 to 49 lines each. These are first drafts; nobody who speaks these languages has reviewed them yet.\n\nFiles are in /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/translation/:\n- glossary/hi.draft.json, glossary/ne.draft.json, glossary/my.draft.json\n- particles/hi.draft.json, particles/ne.draft.json, particles/my.draft.json\n- style/hi.md, style/ne.md, style/my.md\n\nThe scripts that build the files are in /tmp/claude-0/-home-claude/0c337615-eac9-57f0-8505-27985c812aa2/scratchpad/c2build/. To change a translation, edit `<lang>_data.py` and run `python3 build.py <lang>`; it rebuilds and re-checks both JSON files.\n\n**Hindi (hi) – terms I was unsure about:**\n- `particle` = पार्टिकल: copied from the app's UI. The usual Hindi grammar words are कण or निपात (both accepted); परसर्ग (postposition) is avoided.\n- `aux_verb` = सहायक क्रिया and `aux_verb_hojo` = गौण क्रिया: these two Japanese terms needed different Hindi words, so the second one is my own choice. It is not an established textbook term.\n- `formal_noun` = व्याकरणिक संज्ञा: I avoided औपचारिक, because it reads as \"polite\".\n- `person_noun`: व्यक्तिवाचक संज्ञा is avoided because in Hindi grammar it means \"proper noun\".\n- `first_person` = उत्तम पुरुष: in Hindi grammar प्रथम पुरुष means third person, so it must not be used here.\n- `counter` (गिनती प्रत्यय), `concession` (रियायत), `contrast` (विरोध), `appearance` (बाहरी रूप), `progressive` (चल रही क्रिया), `volitional_form` (संकल्प रूप), `renyo` / `rentai`: I couldn't confirm a standard textbook term for any of these.\n- In the app's UI, \"keigo\" is written केइगो, so that is kept. The respectful/humble/polite split is आदरसूचक / नम्रतासूचक / शिष्ट, which is my own choice.\n\n**Nepali (ne) – terms I was unsure about:**\n- `noun` = नाम: this is the Nepali school-grammar term, with संज्ञा accepted. Learners may expect संज्ञा, as in Hindi.\n- `first_person` = प्रथम पुरुष: correct for Nepali, but the opposite of Hindi.\n- `particle`, `aux_verb_hojo`, `formal_noun`, `counter`, `concession` (छुट), `contrast`, `appearance`, `progressive` (चलिरहेको क्रिया), `potential_form` (सामर्थ्य रूप): same doubts as in Hindi.\n- Spelling of सङ्कल्प / संकल्प: both are in use, so both are accepted.\n\n**Burmese (my) – terms I was unsure about:**\n- `particle` = ပစ္စည်း and `case_particle` = ဝိဘတ်: these are Burmese grammar terms. The app's UI uses \"particle\" (accepted).\n- `aux_verb` = အကူကြိယာ and `aux_verb_hojo` = ဖြည့်ကြိယာ: my own split, not an established pair.\n- `volitional_form` / `volition` / `volitional_verb` = စေတနာ…: I couldn't confirm the textbook term; it needs a native check.\n- `predicate` = ဝါစက: not confident.\n- `rhetorical_question` (အဖြေမလိုသောအမေး), `concession` (အလျှော့ပေးခြင်း), `counter` (အရေအတွက်ပြစကားလုံး), `formal_noun` (ပုံစံနာမ်), `renyo` / `rentai`, `progressive` (ဖြစ်ဆဲ), `tendency` (အလားအလာ): I couldn't confirm a standard textbook term for these either.\n- `condition` = အခြေအနေ: matches the app's UI, but the same word also means \"situation\" in everyday Burmese.\n- Register: the style guide uses formal written Burmese for explanations and spoken Burmese for example sentences. This is a judgement call to confirm with a native reviewer.\n- In the particle table I kept the source's \",\" and \";\" separators rather than switching to the Burmese ၊."
+ }
+]

@@ -1,0 +1,693 @@
+{
+ "batch": "b055",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-09",
+ "items": [
+  {
+   "id": 885,
+   "src_hash": "20320a773a6efbcc",
+   "fields": {
+    "meaning": "Menyatakan arti tidak hanya ~ tetapi juga ~",
+    "examples": [
+     "Minggu ini, selain ujian seperti biasa, ada juga pengumpulan laporan, jadi saya sangat sibuk.",
+     "Karangan Kim-san selain sedikit kesalahan tata bahasanya, pendapatnya juga jelas sehingga mudah dibaca.",
+     "Perekonomian Jepang sedang lesu karena, selain kenaikan harga minyak mentah, yen juga menguat tajam.",
+     "Pada bulan Maret tarif kereta naik, dan selain itu, katanya mulai bulan April ongkos bus juga akan naik.",
+     "Selain kerja sambilan",
+     "Pada hari Sabtu, selain kerja sambilan, saya juga melakukan kegiatan sukarela."
+    ],
+    "explain": "Menyatakan \"selain A, ada juga B\". Biasanya digunakan untuk menambahkan satu unsur lagi, sering muncul dalam bahasa tulis.",
+    "notes": "1) Mudah tertukar dengan ～だけでなく／～ばかりでなく.\n→ ～に加えて berarti \"ditambah lagi\", bernuansa penambahan unsur, sering dipakai dalam bahasa tulis.\n2) Urutan makna.\n→ Sebutkan A terlebih dahulu, lalu \"ditambah B juga\" (B adalah bagian tambahan).\n3) Bukan \"bertambah seiring waktu\".\n→ Hanya menambahkan satu unsur, tidak menyatakan perubahan.\nmeaning_vi: Ditambah lagi, selain itu… (に加えて)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 886,
+   "src_hash": "732111fef94b3abf",
+   "fields": {
+    "meaning": "Menduga tindakan seseorang yang sudah dikenal baik.\n彼女　+　のことだから",
+    "examples": [
+     "\"Haruki-san belum datang.\" \"Yah, dia kan orangnya begitu, tidak perlu khawatir.\"",
+     "\"Bagaimana kalau ini minta diterjemahkan Hara-san?\" \"Iya, ya. Dia kan pandai bahasa Inggris, kalau ada satu jam saja pasti bisa selesai.\"",
+     "Namanya juga Kenta-kun, …",
+     "Tanaka-san kan orangnya rajin, pasti dia akan mengerjakan PR-nya dengan baik.",
+     "Kenta-kun kan begitu orangnya, jangan-jangan dia lupa janji lagi."
+    ],
+    "explain": "Posisi: hampir selalu berada di awal kalimat untuk menyebutkan dasar penilaian.\nSasaran: kata benda yang menunjukkan orang/kelompok orang/organisasi yang sudah dikenal pembicara.\nNuansa: dugaan berdasarkan sifat bawaan; dapat berupa pujian/celaan atau sikap memaklumi.\nTidak digunakan dengan klausa/kata kerja langsung sebelum のことだから; harus kata benda.\nDalam kalimat positif lampau yang sudah pasti diketahui, biasanya tidak dipakai; lebih cocok untuk dugaan/penilaian sifat.",
+    "notes": "meaning_vi: Karena (sifat/ciri khasnya)…\nexamples: 1. 田中さんのことだから、きっと間に合うだろう。\nMengenal sifat Tanaka-san, dia pasti akan tepat waktu.\n2. 子どものことだから、これくらいのけんかはすぐ忘れるよ。\nNamanya juga anak-anak, pertengkaran kecil seperti ini akan cepat dilupakan.\n3. 彼女のことだから、準備はもう終わっているに違いない。\nMengingat dia orangnya seperti itu, persiapannya pasti sudah selesai.\n4. あの会社のことだから、対応も迅速だと思う。\nMengingat perusahaan itu, saya rasa tanggapannya juga cepat.\n5. 彼のことだから、言い訳なんてしないさ。\nDia kan orangnya begitu, tidak akan mencari-cari alasan.\n6. 新入社員のことだから、最初は失敗して当然だ。\nNamanya juga karyawan baru, wajar kalau awalnya gagal.\n7. あの二人のことだから、また仲直りするはずだよ。\nMengingat kedua orang itu, pasti mereka akan berbaikan lagi.",
+    "mistakes": [
+     "Digunakan untuk peristiwa yang sudah pasti terjadi: × 彼のことだから、昨日来た。 → ◯ 彼のことだから、昨日も来たに違いない。",
+     "Dilekatkan pada kata kerja: × 来るのことだから → ◯ 彼が来る人柄を前提に言うなら別表現。",
+     "Diterapkan pada benda mati: × 天気のことだから → Tidak alami; gunakan 〜ので／〜から。",
+     "Tidak ada klausa dugaan sesudahnya: diperlukan klausa utama yang menyatakan penilaian/dugaan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "〜だけに",
+       "Justru karena ... maka makin",
+       "Menekankan hasil yang sepadan/kuat",
+       "<ruby>努力<rt>どりょく</rt></ruby><ruby>家<rt>か</rt></ruby>だけに、<ruby>期待<rt>きたい</rt></ruby>も<ruby>大<rt>おお</rt></ruby>きい。"
+      ],
+      [
+       "〜だけあって",
+       "Memang pantas ... sehingga",
+       "Memuji berdasarkan kenyataan yang sudah dilihat",
+       "プロだけあって、<ruby>上手<rt>じょうず</rt></ruby>だ。"
+      ],
+      [
+       "〜からには",
+       "Sekali sudah ... maka",
+       "Syarat + tekad/aturan",
+       "やるからには<ruby>最後<rt>さいご</rt></ruby>まで。"
+      ],
+      [
+       "〜に<ruby>違<rt>ちが</rt></ruby>いない",
+       "Pasti",
+       "Berupa kesimpulan; dapat muncul setelah のことだから",
+       "<ruby>彼<rt>かれ</rt></ruby>のことだから、<ruby>成功<rt>せいこう</rt></ruby>するに<ruby>違<rt>ちが</rt></ruby>いない。"
+      ],
+      [
+       "N + のことだ",
+       "Tentang hal N",
+       "Artinya berbeda; hanya \"tentang, berkaitan dengan\"",
+       "<ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>のことだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 887,
+   "src_hash": "d3f023d6662d2550",
+   "fields": {
+    "meaning": "Ada sesuatu yang…, terasa ada…",
+    "examples": [
+     "Pidatonya memiliki sesuatu yang memikat orang.",
+     "Film itu memiliki sesuatu yang menyentuh hati.",
+     "Ada sesuatu yang entah mengapa sulit diterima dalam keputusan itu.",
+     "Foto ini membangkitkan rasa nostalgia.",
+     "Kemajuan AI belakangan ini sungguh mengagumkan.",
+     "Cara bicaranya terasa dingin."
+    ],
+    "explain": "Menekankan kesan subjektif yang berdasar pada perasaan; cocok untuk komentar yang agak objektif.\nSering disertai frasa yang membangkitkan perasaan: 心に響く/胸を打つ/考えさせられる/印象深い/重みがある/迫力がある.\nJarang dipakai untuk niat/masa depan; terutama menggambarkan sifat/kesan yang ada saat ini.\n\n• Menyatakan kesan/penilaian yang sulit diungkapkan dengan jelas, seperti \"ada sesuatu yang …; sedikit banyak …; bersifat …\".\n• Sering dipakai dalam komentar, ulasan kritis, berita: 〜には目を見張るものがある, 〜には疑問を感じさせるものがある.\n• Terdengar netral hingga positif; tetapi juga dapat dipakai secara halus untuk kritik.",
+    "notes": "• Kolokasi yang umum: 説得力があるものがある, 奥深いものがある, 無理がある（catatan: \"無理がある\" adalah pola tetap yang lain, tidak memakai ものがある di sini).\n• Dalam judul/artikel: 「〜には〜ものがある」 menciptakan nuansa komentar ahli.",
+    "mistakes": [
+     "Tertukar dengan \"〜ところがある\": ものがある lebih abstrak; soal ujian menjebak dengan mengganti kata sifat abstrak.",
+     "Salah bentuk kata sifat な: × 静かなものがある → ✓ 静かなものがある.",
+     "Dipakai untuk kehendak/perintah → tidak cocok: × 早く行くものがある."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "〜ものがある",
+       "Ada sesuatu/Sedikit banyak",
+       "Penilaian samar, umum",
+       "<ruby>切<rt>せつ</rt></ruby>なさのある<ruby>映画<rt>えいが</rt></ruby>だ＝<ruby>切<rt>せつ</rt></ruby>なさを<ruby>感<rt>かん</rt></ruby>じさせるものがある"
+      ],
+      [
+       "〜ところがある",
+       "Ada sisi/aspek",
+       "Lebih konkret, cenderung pada ciri",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>頑固<rt>がんこ</rt></ruby>なところがある"
+      ],
+      [
+       "〜<ruby>気味<rt>きみ</rt></ruby>",
+       "Agak terkesan…",
+       "Tingkatnya ringan, cenderung keadaan sementara",
+       "<ruby>疲<rt>つか</rt></ruby>れ<ruby>気味<rt>ぎみ</rt></ruby>"
+      ],
+      [
+       "〜ような<ruby>気<rt>き</rt></ruby>がする",
+       "Rasanya seperti…",
+       "Jelas subjektif, kurang formal",
+       "<ruby>損<rt>そん</rt></ruby>したような<ruby>気<rt>き</rt></ruby>がする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 888,
+   "src_hash": "88ee2bb051481a25",
+   "fields": {
+    "meaning": "Berawal dari…, berkat… maka…",
+    "examples": [
+     "Saya berkenalan dengan dia berawal dari menghadiri pesta yang sama.",
+     "Berawal dari kebetulan membeli buku di toko buku bekas, saya jadi mulai membaca pandangan-pandangannya."
+    ],
+    "explain": "◎ Ungkapan tentang suatu hal yang dimulai oleh hal lain.\n\nSudah dijelaskan secara rinci di blok 411.",
+    "notes": "Sudah dijelaskan secara rinci di blok 411.\nmeaning_vi: Berkat … maka…, dari … maka…\nexplain: Menyatakan suatu hal atau peristiwa yang menjadi pemicu awal yang mengarah pada perubahan atau perkembangan berikutnya.\nexamples: 1. 大学入学をきっかけに、一人暮らしを始めた。\nBerawal dari masuk universitas, saya mulai hidup sendiri.\n2. 留学をきっかけに、自国の文化について考えるようになった。\nBerkat belajar di luar negeri, saya jadi memikirkan budaya negara sendiri.\n3. 大統領の来日をきっかけにして、日本人の米国に対する関心が深まった。\nBerkat kunjungan presiden ke Jepang, minat orang Jepang terhadap Amerika menjadi semakin dalam.\n4. ちょっとした事件をきっかけとして、やがて死者が出る暴動へと発展した。\nDari sebuah insiden kecil, hal itu segera berkembang menjadi kerusuhan yang menelan korban jiwa.\nmeaning_vi: Berawal dari…, menjadikan… sebagai titik awal (をきっかけに)\nmeaning_vi: Memanfaatkan kesempatan, bertepatan dengan suatu hal.\nexplain: Menyatakan bahwa dari suatu hal yang kebetulan, sesuatu dimulai atau berubah.\n＊「契機に、契機として、契機にして」　adalah cara mengatakan yang kaku dari 「をきっかけに」\nexamples: 1. 大学入学をきっかけに引っ越す。\nBertepatan dengan masuk universitas, sekalian pindah rumah.\n2. 病気をきっかけに酒をやめた。\nKarena jatuh sakit, sekalian berhenti minum alkohol.\n3. 卒業を契機に特立する。\nBertepatan dengan kelulusan, saya akan belajar hidup mandiri\n4. 昨年の事故を契機として、安全対策が強化された。\nBerawal dari kecelakaan tahun lalu, langkah-langkah keselamatan diperketat.",
+    "mistakes": [
+     "Sudah dijelaskan secara rinci di blok 411."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 889,
+   "src_hash": "4fcc0134149f798d",
+   "fields": {
+    "meaning": "Bermakna berdasarkan ~, berlandaskan ~",
+    "examples": [
+     "Film ini dibuat berdasarkan kejadian yang benar-benar terjadi.",
+     "Kelulusan ditentukan berdasarkan hasil ujian.",
+     "Ini adalah grafik berdasarkan data 10 tahun yang lalu, jadi berbeda dengan keadaan sekarang.",
+     "Para arkeolog menyimpulkan kehidupan manusia purba berdasarkan sekeping pecahan tembikar.",
+     "Saya memulai usaha dengan modal warisan ayah.",
+     "Berdasarkan cerita rakyat"
+    ],
+    "explain": "Menekankan tindakan menjadikan suatu hal, data, atau informasi sebagai dasar untuk mengembangkan sesuatu.",
+    "notes": "1) Mudah tertukar dengan ～にもとづいて.\n→ ～をもとに(して) berarti \"menjadikan … sebagai dasar/bahan\", menekankan sumber untuk menciptakan/mengembangkan sesuatu.\n2) Sering dipakai dengan kegiatan menciptakan sesuatu.\n→ Contoh: データをもとに分析する (menganalisis dengan data sebagai dasar).\n3) Tidak harus berarti \"sesuai aturan\".\n→ Jika berlandaskan aturan/standar, ～にもとづいて lebih cocok.\nmeaning_vi: Berdasarkan…, berlandaskan…\nexplain: Digunakan ketika ingin menekankan cara: \"menjadikan N sebagai dasar lalu melakukan…\".\nSedikit lebih formal daripada ～をもとに; sering ditemukan dalam bidang teknik, akademik, hukum.\nBentuk penjelas 「NをもとにしたN」 sangat umum dalam judul, deskripsi produk, metode.\nTidak dipakai untuk arti \"di bawah (naungan/kondisi)\" (bedakan dengan ～のもとで/～のもとに).\nexamples: 1. 衛星画像をもとにして被害範囲を推定した。\nCakupan kerusakan diperkirakan berdasarkan citra satelit.\n2. 顧客の声をもとにしてサービスを改善する。\nMemperbaiki layanan berdasarkan suara pelanggan.\n3. 過去の事例をもとにしてガイドラインを作成した。\nPedoman disusun berdasarkan kasus-kasus terdahulu.\n4. 地震記録をもとにして耐震基準が見直された。\nStandar tahan gempa ditinjau ulang berdasarkan catatan gempa.\n5. 古文書をもとにして当時の暮らしを再現した。\nKehidupan masa itu direka ulang berdasarkan naskah kuno.\n6. この映画は実在の事件をもとにして制作された。\nFilm ini diproduksi berdasarkan sebuah kasus nyata.",
+    "mistakes": [
+     "Tertukar dengan ～のもとで (under). Jika ada orang/organisasi yang menjadi \"payung/pengawas\" → harus memakai ～のもとで/～のもとに.",
+     "Pilih ～に基づいて jika soal memuat kata kunci: 規則/法律/基準/指針; jika berupa data/pendapat/素材 → utamakan ～をもとに(して).",
+     "Menghilangkan \"して\" dalam gaya bahasa yang menuntut prosedur yang jelas dapat dianggap kurang baku (tergantung konteks administratif)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Nをもとに",
+       "Berdasarkan (sumber bahan)",
+       "Ringkas, netral, umum",
+       "<ruby>統計<rt>とうけい</rt></ruby>をもとに<ruby>分析<rt>ぶんせき</rt></ruby>"
+      ],
+      [
+       "Nをもとにして",
+       "Berdasarkan (menekankan proses)",
+       "Lebih panjang, terkesan \"bekerja sesuai metode\"",
+       "<ruby>統計<rt>とうけい</rt></ruby>をもとにして<ruby>分析<rt>ぶんせき</rt></ruby>"
+      ],
+      [
+       "Nに<ruby>基<rt>もと</rt></ruby>づいて/<ruby>基<rt>もと</rt></ruby>づき",
+       "Berlandaskan (norma/hukum)",
+       "Resmi, sifat mengikatnya kuat",
+       "<ruby>法律<rt>ほうりつ</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づいて<ruby>判断<rt>はんだん</rt></ruby>"
+      ],
+      [
+       "Nに<ruby>沿<rt>そ</rt></ruby>って",
+       "Sesuai dengan, mengikuti",
+       "Menekankan \"mengikuti pedoman/alur\"",
+       "<ruby>方針<rt>ほうしん</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って<ruby>実施<rt>じっし</rt></ruby>"
+      ],
+      [
+       "Nのもとで/のもとに",
+       "Di bawah (naungan/kondisi)",
+       "Artinya berbeda, tidak dapat saling menggantikan",
+       "<ruby>保護<rt>ほご</rt></ruby>のもとで<ruby>研究<rt>けんきゅう</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 890,
+   "src_hash": "65a4d8f1549f8ab4",
+   "fields": {
+    "meaning": "Tanpa disadari…, entah sejak kapan…",
+    "examples": [
+     "Tanpa disadari, di luar sudah gelap.",
+     "Entah sejak kapan, bayi itu sudah tertidur.",
+     "Tanpa terasa sudah musim gugur, ya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 891,
+   "src_hash": "dc48cf6356713fc1",
+   "fields": {
+    "meaning": "Memikirkan…, merasa terganggu oleh…",
+    "examples": [
+     "Saya terus memikirkan hasil ujian sehingga tidak bisa tidur.",
+     "Suara dari kamar sebelah mengganggu saya.",
+     "Saya terus memikirkan apa yang dia katakan."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 892,
+   "src_hash": "554c31340c5823c7",
+   "fields": {
+    "meaning": "Hanya sekadar… (menekankan kesan sedikit)",
+    "connection": "たった(の) + [jumlah]",
+    "examples": [
+     "Di dompet hanya ada 100 yen.",
+     "Dia menyelesaikan menulis buku hanya dalam 3 hari.",
+     "Dia berkeliling dunia seorang diri."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 893,
+   "src_hash": "7c5e97f98463a231",
+   "fields": {
+    "meaning": "Tolong… ya (permintaan akrab)",
+    "examples": [
+     "Tolong bantu sebentar, ya.",
+     "Kalau sudah pulang, telepon ya.",
+     "Tolong ambilkan garam itu."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 894,
+   "src_hash": "22d0e8cd568595e2",
+   "fields": {
+    "meaning": "Bagaimanapun juga…, yang paling utama tetaplah…",
+    "connection": "何といっても + [kalimat/klausa]",
+    "examples": [
+     "Kalau bicara soal gunung di Jepang, bagaimanapun juga yang paling utama adalah Gunung Fuji.",
+     "Bagaimanapun juga, kesehatan adalah yang paling penting.",
+     "Daya tarik toko ini, bagaimanapun juga, adalah harganya yang murah."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 895,
+   "src_hash": "21cd183cf310cd02",
+   "fields": {
+    "meaning": "Lebih dari apa pun, yang paling berharga adalah…",
+    "examples": [
+     "Saya sangat senang, lebih dari apa pun, kamu pulang dengan selamat.",
+     "Syukurlah Anda tampak sehat.",
+     "Waktu bersama keluarga lebih berharga dari apa pun."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 896,
+   "src_hash": "6edd2408ab5d9eb1",
+   "fields": {
+    "meaning": "Sambil…, sekalian…",
+    "examples": [
+     "Bagaimana kalau kita pergi ke taman sekalian jalan-jalan?",
+     "Sekalian berbelanja, saya mampir ke rumah teman.",
+     "Sambil melihat bunga sakura, saya mengambil banyak foto.",
+     "Ayo mampir ke pemandian air panas sekalian berkendara.",
+     "Mampir ke kantor pos dalam perjalanan jalan-jalan →Mampir ke kantor pos sekalian jalan-jalan."
+    ],
+    "explain": "Akrab, alami; sering dipakai untuk ajakan, saran.\nCocok untuk kegiatan di luar ruangan/berpindah tempat. Jarang dipakai untuk kegiatan statis di dalam ruangan (seperti 勉強がてら: terdengar kurang alami).\nDapat digabung dengan kehendak/usulan: 〜ましょう/ませんか.\n\n• Arti: \"sekalian/memanfaatkan saat melakukan A, lalu melakukan B\". A adalah kegiatan utama atau alasan keluar rumah; B adalah hal yang menyertainya.\n• Umum dalam percakapan; nuansanya alami, lebih sehari-hari daripada 「かたがた」.\n• A biasanya kegiatan bepergian/keluar rumah: 散歩, 買い物, ドライブ, お茶, 花見, 見物; atau Vます yang menunjukkan kegiatan: 歩き, 出かけ.\n• Urutan tersirat: A diutamakan; B \"sekalian\". Jika ingin lebih netral, gunakan 「ついでに」.",
+    "notes": "• Sebaiknya pilih N/V yang menunjukkan kegiatan bersifat \"keluar/berpindah tempat\" agar kalimat terdengar alami.\n• Jika ingin sopan dalam konteks pekerjaan, ganti dengan 「〜かたがた」 atau tetap memakai 「〜ついでに」.\n• Jika B sama pentingnya dengan A, pertimbangkan 「ついでに」 agar B tidak terkesan diremehkan.",
+    "mistakes": [
+     "Dipakai dengan kegiatan statis (勉強がてら) → tidak alami. Gunakan ついでに.",
+     "Salah memahami fokus: dengan 「がてら」 A adalah yang utama, B adalah pelengkap; salah memilih A/B mudah menggeser makna.",
+     "Salah gaya bahasa dengan 「かたがた」: 「がてら」 tidak cocok untuk surat-menyurat yang formal.",
+     "Lupa memakai bentuk Vます saat menggunakan kata kerja: ます harus dihilangkan sebelum 「がてら」."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Gaya bahasa",
+      "Arti/Nuansa",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "N/ Vます がてら",
+       "Sehari-hari",
+       "A adalah yang utama, B sekalian",
+       "<ruby>散歩<rt>さんぽ</rt></ruby>がてら<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>"
+      ],
+      [
+       "Nかたがた",
+       "Formal",
+       "Tujuan bersosialisasi, keigo",
+       "ご<ruby>挨拶<rt>あいさつ</rt></ruby>かたがた<ruby>伺<rt>うかがう</rt></ruby>う"
+      ],
+      [
+       "〜ついでに",
+       "Netral",
+       "Tidak menekankan mana yang utama",
+       "<ruby>駅<rt>えき</rt></ruby>に<ruby>行<rt>い</rt></ruby>くついでに<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 897,
+   "src_hash": "638c9d08d456216e",
+   "fields": {
+    "meaning": "Seluruh…, segenap…",
+    "examples": [
+     "Latihan penanggulangan bencana dilaksanakan oleh seluruh warga wilayah.",
+     "Pertemanan antarkeluarga terus berlanjut.",
+     "Upaya menutup-nutupi yang dilakukan oleh seluruh perusahaan dikritik.",
+     "Seluruh sekolah ikut serta dalam kegiatan penggalangan dana.",
+     "Seluruh departemen bersama-sama berupaya melakukan perbaikan.",
+     "Melancarkan promosi yang melibatkan seluruh kawasan pertokoan."
+    ],
+    "explain": "Hanya digabung dengan kata benda yang menunjukkan kelompok orang/organisasi/wilayah.\n\"の\" saat menjadi penjelas kata benda; \"で\" saat menjadi keterangan bagi kata kerja.\nDalam penyelidikan: \"〜ぐるみの不正/隠蔽/改ざん\" bernuansa kritik yang kuat.\n\n• Menekankan keterlibatan menyeluruh seluruh kelompok (keluarga/perusahaan/wilayah…).\n• Wajar dipakai baik dalam konteks positif (kerja sama) maupun negatif (menutupi, bersekongkol).\n• Menciptakan kesan \"sehati/menyeluruh\" atau \"sistematis/meluas\".",
+    "notes": "• Frasa \"家族ぐるみの付き合い\" biasanya menunjukkan hubungan dekat yang berlangsung lama.\n• Selain orang, dapat dipakai untuk unit sosial: 企業／自治体／地域／商店街, tetapi tidak dipakai untuk benda.\n• Di luar lingkup sosial, gunakan まるごと/全部で jika bukan kelompok orang.",
+    "mistakes": [
+     "Dipakai dengan sasaran yang bukan kelompok orang: ×机ぐるみで運ぶ → 机ごと/全部で baru bisa.",
+     "Lupa の saat menjadi penjelas kata benda: ×組織ぐるみ不正 → ○組織ぐるみの不正.",
+     "JLPT: bedakan dengan 一丸となって (bersatu padu) dan 全体で (netral) sesuai nuansa soal."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Isi",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Nぐるみ",
+       "Seluruh N",
+       "Akhiran; nuansanya kuat",
+       "<ruby>地域<rt>ちいき</rt></ruby>ぐるみで<ruby>支援<rt>しえん</rt></ruby>"
+      ],
+      [
+       "N<ruby>全体<rt>ぜんたい</rt></ruby>で",
+       "Keseluruhan N",
+       "Netral, mudah dipakai",
+       "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>全体<rt>ぜんたい</rt></ruby>で<ruby>改革<rt>かいかく</rt></ruby>"
+      ],
+      [
+       "Nを<ruby>挙<rt>あ</rt></ruby>げて",
+       "Mengerahkan seluruh N",
+       "Menekankan tindakan pengerahan",
+       "<ruby>学校<rt>がっこう</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げて<ruby>歓迎<rt>かんげい</rt></ruby>"
+      ],
+      [
+       "N<ruby>一丸<rt>いちがん</rt></ruby>となって",
+       "Bersatu padu",
+       "Menekankan semangat persatuan",
+       "チーム<ruby>一丸<rt>いちがん</rt></ruby>となって<ruby>戦<rt>たたか</rt></ruby>う"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 898,
+   "src_hash": "fb628636ccd07efd",
+   "fields": {
+    "meaning": "Terlalu ~",
+    "examples": [
+     "Karena panasnya keterlaluan, saya memutuskan untuk tidak jadi keluar.",
+     "Semua orang marah atas tindakannya yang terlalu seenaknya.",
+     "Direktur itu sama sekali tidak menyesali kecelakaan itu. Saya sampai tercengang melihat betapa tidak bertanggung jawabnya dia.",
+     "Mobil listrik baru dari Fuji Jidosha tampaknya begitu populer sampai-sampai produksinya tidak bisa mengejar permintaan."
+    ],
+    "explain": "◎ Menyatakan keterkejutan terhadap ~ yang sampai pada tingkat tidak biasa, lalu menyebutkan hasil atau keputusan yang berkaitan."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 899,
+   "src_hash": "c7b8f7e2ac2c742b",
+   "fields": {
+    "meaning": "Terlihat kepribadian orang tersebut.",
+    "examples": [
+     "Lukisan ini mencerminkan kepribadiannya yang lembut.",
+     "Tulisan memang mencerminkan sifat penulisnya.",
+     "Masakan ini mencerminkan kasih sayang ibu."
+    ],
+    "explain": "◎ 「出る」 berarti \"muncul\" \"tampak\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 900,
+   "src_hash": "14e8351f357b4bbb",
+   "fields": {
+    "meaning": "Arti, penggunaan & contoh",
+    "connection": "[kalimat/klausa] + ということは",
+    "examples": [
+     "Mobilnya tidak ada, berarti dia sedang pergi ke suatu tempat.",
+     "Belum ada telepon maupun email, berarti mungkin saya tidak diterima.",
+     "Memelihara makhluk hidup berarti menanggung semuanya, bukan hanya hal-hal yang menyenangkan, tetapi juga yang berat dan merepotkan.",
+     "Katanya besok topan akan datang. Berarti, sekolah mungkin akan diliburkan.",
+     "Belum ada kabar darinya. Berarti, dia mungkin tidak akan sempat.",
+     "Kontraknya tidak ditandatangani. Berarti, belum ada kesepakatan."
+    ],
+    "explain": "Diletakkan di awal kalimat penyimpulan; sering diikuti akhiran: ～ということだ／わけだ／ことになる／のね／よね.\nDipakai secara sopan untuk memastikan: \"ということは、～という理解でよろしいでしょうか。\"\nTidak dipakai untuk menyebutkan sebab; ungkapan ini dipakai untuk menarik konsekuensi dari informasi yang sudah ada.\n\n• \"Kalau begitu/Berarti\": berdasarkan informasi tepat sebelumnya untuk menyimpulkan kesimpulan sementara.\n• Dua langkah: menyebutkan fakta (S1) → mencocokkan pola → menarik kesimpulan (S2).\n• Nuansanya logis; dapat dipakai untuk memastikan pemahaman pembicara dengan lawan bicara.",
+    "notes": "• Berguna dalam rapat untuk memastikan: \"Aということは、Bですね。\" agar tidak salah paham.\n• Dalam bahasa tulis, setelah ということは biasanya diikuti kesimpulan umum: ～ということだ／ことになる.\n• Tingkat kepastian S2 bergantung pada keandalan S1; dapat ditambahkan かもしれない／だろう untuk mengurangi kepastian. explain: Diletakkan di awal kalimat yang berisi penilaian berdasarkan dasar dari kalimat sebelumnya (a). ⏐ examples: 1. 「彼は、まだ来ませんね。ということは、欠席ということですね。」\nDia belum datang, ya. Berarti dia tidak hadir, ya.\n2. 「私はもうお酒を飲めます。」\n「ということは二十歳を過ぎてるんだね。」\nSaya sudah boleh minum alkohol. Berarti kamu sudah lewat 20 tahun, ya.",
+    "mistakes": [
+     "Dipakai sebagai kata sambung sebab → salah; ungkapan ini menyatakan penyimpulan/konsekuensi, bukan alasan langsung.",
+     "Tertukar dengan つまり: jika bacaan meminta \"meringkas\" pilih つまり; jika meminta \"menyimpulkan\" pilih ということは.",
+     "Mengabaikan tingkat kepastian: jika faktanya tidak pasti, perlu だろう／かもしれない setelah S2."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "ということは、",
+       "Kalau begitu/berarti",
+       "Menyimpulkan dari fakta tepat sebelumnya",
+       "<ruby>満席<rt>まんせき</rt></ruby>。ということは、<ruby>予約<rt>よやく</rt></ruby><ruby>必須<rt>ひっす</rt></ruby>だ。"
+      ],
+      [
+       "つまり、",
+       "Dengan kata lain (meringkas)",
+       "Mengungkapkan ulang isi yang sama, tidak harus penyimpulan baru",
+       "<ruby>要点<rt>ようてん</rt></ruby>はつまり、<ruby>三<rt>みっ</rt></ruby>つだ。"
+      ],
+      [
+       "というわけで、",
+       "Oleh karena itu (beralih ke tindakan)",
+       "Menekankan peralihan bagian/penutup bagian",
+       "<ruby>時間切<rt>じかんぎ</rt></ruby>れ。というわけで、<ruby>今日<rt>きょう</rt></ruby>はここまで。"
+      ],
+      [
+       "とすると／となると",
+       "Jika diandaikan/Dalam hal itu",
+       "Mengandaikan syarat untuk dipertimbangkan",
+       "<ruby>雨<rt>あめ</rt></ruby>とすると、<ruby>中止<rt>ちゅうし</rt></ruby>だ。"
+      ],
+      [
+       "ということなら",
+       "Kalau memang begitu (syarat yang disampaikan lawan bicara)",
+       "Menanggapi, mengajukan usulan/tindakan",
+       "<ruby>急<rt>いそ</rt></ruby>ぎということなら、<ruby>今<rt>いま</rt></ruby>やります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 901,
+   "src_hash": "2820c1a60091a1c5",
+   "fields": {
+    "meaning": "Terlihat, tampak",
+    "connection": "Nが + 見受けられる / V/A/N bentuk biasa + ように + 見受けられる",
+    "examples": [
+     "Dia tampaknya tidak tahu apa-apa.",
+     "Kemarin cukup panas, jadi banyak juga terlihat orang yang memakai baju lengan pendek."
+    ],
+    "explain": "◎ Ada ungkapan serupa seperti 「見比べる: melihat untuk membandingkan」「見まちがえる: salah lihat」「見逃す: terlewat」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 902,
+   "src_hash": "1acfcd8e8e91ae77",
+   "fields": {
+    "meaning": "Pada akhirnya…, ujung-ujungnya…",
+    "examples": [
+     "Setelah lama bingung mau membeli apa, akhirnya saya tidak membeli apa-apa.",
+     "Setelah tersesat ke sana kemari, akhirnya saya tiba juga.",
+     "Setelah berbagai pertimbangan, akhirnya saya memutuskan untuk berhenti dari perusahaan.",
+     "Karena terdesak masalah uang, ujung-ujungnya saya meminjam uang berbunga tinggi.",
+     "Setelah bertengkar mulut, ujung-ujungnya dia memukul orang.",
+     "*Sejak kecil dia berulang kali mengutil, dan ujung-ujungnya ditangkap polisi karena mencuri."
+    ],
+    "explain": "Kesan \"susah payah\" diperkuat dengan kata keterangan: 散々／さんざん, いろいろ, 長時間, 何度も.\nBisa juga dipakai dalam bahasa lisan, tetapi lebih cocok untuk gaya naratif/argumentatif.\n\n- Menekankan bahwa proses yang \"berlarut-larut, melelahkan\" ikut menimbulkan kesan sia-sia ketika hasil akhirnya tidak sesuai harapan.\n- Efek retoris: membangkitkan perasaan jenuh, lelah, dan menambah bobot kesimpulan.",
+    "notes": "• Jika ingin lebih netral, utamakan ～た末に／～た結果.\n• Subjek biasanya orang; jika berupa benda/organisasi, diperlukan konteks yang mempersonifikasi prosesnya.\nmeaning_vi: Setelah sekian banyak… ujung-ujungnya malah… (hasil yang tidak diharapkan)\nexamples: 1. ①　いろいろ悩んだあげく、大学院に進むことにしました。\n2. ②　2時間も待たされたあげく、結局、試合は延期になった。\n3. ③　彼は困ったあげく、会社の上司からもお金を借りたそうだよ。\nmeaning_vi: Setelah …, ujung-ujungnya …\nexplain: Menyatakan keadaan yang terjadi sebelumnya, berlangsung selama waktu tertentu dan akhirnya sampai pada keputusan untuk melaksanakan, menyelesaikan …\nexamples: 1. 彼は酔っ払って騒いだあげく、寝てしまった。\nDia mabuk dan membuat keributan, lalu ujung-ujungnya tertidur.\n2. 何度も手術したあげく、治らないと言われた。\nSetelah dioperasi entah berapa kali, ujung-ujungnya dikatakan tidak bisa sembuh.",
+    "mistakes": [
+     "Menghilangkan た: \"悩むあげく\" salah; harus \"悩んだあげく\".",
+     "Dipakai untuk peristiwa yang sekejap: \"行ったあげく\" untuk sekali pergi yang singkat biasanya tidak cocok (kecuali menyiratkan proses yang panjang)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Nuansa",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～あげく",
+       "Lelah + hasil akhir buruk",
+       "Jelas negatif",
+       "<ruby>悩<rt>なや</rt></ruby>んだあげく<ruby>断念<rt>だんねん</rt></ruby>"
+      ],
+      [
+       "～た<ruby>末<rt>すえ</rt></ruby>に",
+       "Hasil akhir pada ujungnya",
+       "Negatif/netral",
+       "<ruby>検討<rt>けんとう</rt></ruby>した<ruby>末<rt>すえ</rt></ruby>に<ruby>合意<rt>ごうい</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 903,
+   "src_hash": "5a3b16ed88df9a68",
+   "fields": {
+    "meaning": "Rata-rata, setiap ~",
+    "examples": [
+     "Grafik berikut menunjukkan jumlah dokter per 1.000 penduduk.",
+     "Rata-rata waktu belajar para siswa per hari adalah 250 menit."
+    ],
+    "explain": "◎ Berarti \"untuk setiap ~\", menunjukkan satuan atau standar."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 904,
+   "src_hash": "cb042f9ec7ba8c51",
+   "fields": {
+    "meaning": "Sepadan dengan usaha ~",
+    "examples": [
+     "Berkat belajar keras setiap hari, saya lulus ujian.",
+     "Bisa melihat pemandangan seindah ini, sepadan dengan jauh-jauh datang ke sini."
+    ],
+    "explain": "◎ Mengungkapkan maksud \"melelahkan tetapi membuahkan hasil dan mencapai hasil yang berarti\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 2
+}

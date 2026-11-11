@@ -1,0 +1,539 @@
+{
+ "batch": "b047",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-09",
+ "items": [
+  {
+   "id": 655,
+   "src_hash": "4bddae3eb0e6492a",
+   "fields": {
+    "meaning": "Lalu, seketika itu juga",
+    "connection": "[kalimat/klausa]。 + すると、 + [kalimat/klausa]",
+    "examples": [
+     "Saya membuka pintu. Lalu, seekor kucing melompat keluar.",
+     "Saya minum obat. Lalu, sakit kepala saya langsung sembuh.",
+     "Saya menelepon dia. Lalu, saya diberi tahu bahwa dia sudah berangkat.",
+     "Saya keluar. Ternyata, salju sedang turun.",
+     "Saya menyalakan komputer. Lalu, terdengar suara aneh."
+    ],
+    "explain": "Posisi : Selalu berada di awal klausa kedua setelah klausa pertama diakhiri dengan titik atau koma.\nKealamian : Digunakan ketika hasil terjadi dengan cepat, segera setelah tindakan sebelumnya.\nNuansa perasaan : Dapat mengandung rasa keterkejutan atau penemuan baru.\nTidak mengandung arti perintah atau kehendak : Tidak digunakan dalam kalimat perintah → hanya menceritakan kejadian.\nGaya : Cukup formal, sering digunakan dalam bahasa tulis – teks naratif, buku harian, soal ujian JLPT.\n\n•\nMenunjukkan hasil yang terjadi segera setelah tindakan sebelumnya: \"Lalu…\", \"Begitu… langsung…\".\n\n•\nMenyatakan hasil yang tak terduga, tidak diprediksi sebelumnya: Pembicara tidak menyangka B akan terjadi setelah A.\n\n•\nDigunakan untuk menciptakan alur yang alami dalam bercerita: cocok untuk teks deskriptif dan naratif.\n\n•\nNuansa netral → agak bahasa tulis: Tidak digunakan dalam bahasa lisan santai antarteman (biasanya memakai そしたら、するとさ...).",
+    "notes": "•\nSering muncul dalam soal membaca JLPT karena sifatnya yang naratif dan menggambarkan fenomena.\n• Sering digunakan untuk mengantar ke suatu penemuan penting dalam teks: \"すると、驚くべき事実が判明した。\"\n• Sama sekali tidak digunakan untuk menyatakan tindakan yang disengaja oleh pembicara di klausa belakang. meaning_vi: Seketika itu juga, lalu ～ ⏐ explain: (1) a adalah pemicu bagi kejadian b yang terjadi segera setelahnya.\n(2) dari a, menarik kesimpulan b. ⏐ examples: 1. 薬を塗った。すると痛みが治まった。\nSudah mengoleskan obat. Seketika itu juga rasa sakitnya hilang.\n2. 窓を開けた。すると、蛾が入ってきた。\nSudah di pintu. Seketika itu juga kupu-kupu masuk.\n3. 「私は外出していました。」\n「すると、家は誰もいなかったんですね。」\nSaya pergi ke luar. Kalau begitu, di rumah tidak ada siapa-siapa, ya.",
+    "mistakes": [
+     "Tertukar dengan そして: そして hanya menghubungkan informasi, tidak mengandung unsur kejutan.",
+     "Digunakan dengan kehendak/perintah: Salah jika menulis \"すると、行きましょう\" dalam pola tata bahasa ini.",
+     "Tertukar dengan penggunaan dalam percakapan \"Kalau begitu...\": Contoh \"すると、君はどうする？\" memiliki arti yang berbeda.",
+     "Menghilangkan koma setelah すると: Dalam tulisan formal sebaiknya ada \"、\".",
+     "Menggunakannya ketika dua kejadian tidak memiliki hubungan sebab-akibat atau kedekatan waktu adalah salah secara logika."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "すると",
+       "Lalu…, begitu… langsung…",
+       "Urutan tindakan yang alami, bisa tak terduga.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ってきた。 すると、<ruby>風<rt>かぜ</rt></ruby>も<ruby>強<rt>つよ</rt></ruby>くなった。"
+      ],
+      [
+       "そして",
+       "Dan, lalu",
+       "Penyebutan kejadian yang berurutan, tidak menekankan hasil.",
+       "ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた。 そして、<ruby>寝<rt>ね</rt></ruby>た。"
+      ],
+      [
+       "それから",
+       "Setelah itu",
+       "Menekankan urutan waktu – tindakan berikutnya.",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>した。 それから、<ruby>散歩<rt>さんぽ</rt></ruby>した。"
+      ],
+      [
+       "すると (kehendak)",
+       "Kalau begitu (menyatakan kesimpulan/tindakan berikutnya dari pembicara)",
+       "Digunakan dalam percakapan, berbeda dengan pola \"A。するとB。\"",
+       "「<ruby>時間<rt>じかん</rt></ruby>がないよ」「 すると、<ruby>急<rt>いそ</rt></ruby>ごう！」"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 656,
+   "src_hash": "25f738b519801f98",
+   "fields": {
+    "meaning": "Ngomong-ngomong, jadi teringat",
+    "connection": "[kalimat/klausa]。 + そういえば、 + [kalimat/klausa]",
+    "examples": [
+     "Besok ujian, ya. Ngomong-ngomong, aku harus beli pensil.",
+     "Akhir-akhir ini dia tidak kelihatan, ya. Oh iya, dia pergi belajar ke luar negeri, kan?",
+     "Musim panas di Jepang panas, ya. Ngomong-ngomong, tahun lalu suhunya sampai 40 derajat, lho.",
+     "PR-nya sudah selesai? Oh iya, guru bilang batasnya sampai besok, lho.",
+     "Di depan stasiun ada kafe baru, lho. Ngomong-ngomong, aku belum ke sana."
+    ],
+    "explain": "Digunakan di awal kalimat kedua untuk memunculkan gagasan baru yang berkaitan dengan kalimat sebelumnya.\nNuansanya akrab dan alami; sering digunakan dalam komunikasi sehari-hari dan bahasa lisan.\nBiasanya digunakan ketika pembicara baru saja teringat sesuatu, menunjukkan pikiran spontan yang diucapkan.\nTidak digunakan dalam teks formal atau laporan resmi (dapat diganti dengan ところで, それにしても yang lebih netral).\n\n•\nDigunakan untuk perubahan topik berdasarkan asosiasi: Ketika mendengar, mengatakan, atau memikirkan A, pembicara tiba-tiba teringat B yang berkaitan.\n\n•\nBermakna \"Ngomong-ngomong\", \"Oh iya\": B bukan topik utama, melainkan hal yang tiba-tiba teringat.\n\n•\nAlami, akrab: Sering digunakan dalam percakapan atau teks naratif; nuansanya ramah, tidak terlalu formal.\n\n•\nTidak menyatakan hubungan sebab-akibat langsung: A bukan sebab dari B, hanya pemicu ingatan.",
+    "notes": "• Sering muncul dalam percakapan pada soal mendengarkan JLPT, memberi kesan alami dari pembicara.\n• Dalam bahasa tulis naratif, berfungsi mengantar alur mengingat kembali masa lalu atau informasi terkait.\n• Cara menerjemahkan yang fleksibel: \"Ngomong-ngomong\", \"Oh iya\", \"Oh, benar juga\"…\n• Perlu dibedakan dengan \"そうすると\" (kalau begitu), karena pengucapannya mirip tetapi artinya sama sekali berbeda. meaning_vi: Kalau begitu; Oh, bukankah ～ ⏐ explain: Digunakan untuk memulai kalimat dengan topik yang berkaitan dengan hal yang baru teringat. ⏐ examples: 1. 「そういえば、田中君、元気かな？」\nKalau begitu, si kecil Tanaka sehat, ya.\n2. 「いい家ですね。そういえば、お父様は設計士さんでしたよね。」\nBenar-benar keluarga yang baik. Oh, ayah Anda seorang desainer, ya.",
+    "mistakes": [
+     "Digunakan dalam bahasa formal: Tidak cocok dalam laporan, skripsi → sebaiknya diganti dengan ちなみに, ところで.",
+     "Tertukar dengan そうすると (\"kalau begitu\") dalam kalimat logis.",
+     "Digunakan ketika dua kalimat tidak berkaitan: そういえば memerlukan asosiasi atau ingatan yang dipicu oleh kalimat sebelumnya.",
+     "Lupa memberi koma setelah そういえば: Dalam bahasa tulis sebaiknya ditulis \"そういえば、…\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "そういえば",
+       "Ngomong-ngomong",
+       "Muncul ketika tiba-tiba teringat hal yang berkaitan.",
+       "そういえば、<ruby>彼<rt>かれ</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby><ruby>休<rt>やす</rt></ruby>みだ。"
+      ],
+      [
+       "ところで",
+       "Omong-omong, sekalian",
+       "Perubahan topik, tetapi tidak harus ada asosiasi.",
+       "ところで、<ruby>明日<rt>あした</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は？"
+      ],
+      [
+       "それにしても",
+       "Meskipun begitu",
+       "Menyatakan perasaan yang kuat tentang hal sebelumnya.",
+       "<ruby>暑<rt>あつ</rt></ruby>いね。それにしても<ruby>今年<rt>ことし</rt></ruby>は<ruby>異常<rt>いじょう</rt></ruby>だ。"
+      ],
+      [
+       "そうすると",
+       "Kalau begitu",
+       "Menyatakan kesimpulan dari informasi sebelumnya (logis).",
+       "<ruby>雨<rt>あめ</rt></ruby>か。そうすると<ruby>試合<rt>しあい</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>だね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 657,
+   "src_hash": "118e1ba238c66125",
+   "fields": {
+    "meaning": "Tetapi, padahal",
+    "connection": "[kalimat/klausa]。 + それが、 + [kalimat/klausa]",
+    "examples": [
+     "Aku sudah menghubungi dia. Tapi, balasannya belum datang juga.",
+     "Tadinya aku kira besok bisa pergi. Tapi, tiba-tiba aku demam…",
+     "Ujiannya gampang, kan? Padahal, aku sama sekali tidak bisa mengerjakannya.",
+     "Aku berencana pergi berwisata, tapi ternyata dibatalkan karena topan.",
+     "PR-nya sudah selesai?\n―Itu dia, setengahnya pun belum…"
+    ],
+    "explain": "Posisi : Berada di awal klausa B, setelah kalimat A yang lengkap.\nNuansa : Lembut, agak mengandung rasa penyesalan, keterpaksaan, atau alasan yang sulit diungkapkan.\nTingkat keakraban : Banyak digunakan dalam percakapan sehari-hari; jarang digunakan dalam bahasa tulis formal.\nMenggantung : Dapat digunakan secara menggantung setelah それが untuk menimbulkan kesan ragu-ragu atau sulit berterus terang.\n\n•\nMenyatakan hal yang bertentangan dengan harapan: Kenyataan di klausa B berbeda atau berlawanan dengan apa yang diperkirakan dari klausa A.\n\n•\nDigunakan untuk beralih gagasan dengan perasaan yang halus: bernuansa \"katanya begitu, tetapi ternyata tidak\", \"tetapi kenyataannya…\".\n\n•\nDigunakan untuk menjelaskan alasan kesulitan / menolak secara halus: Ketika pembicara dengan ragu-ragu mengemukakan alasan tidak dapat melakukan sesuatu.\n\n• Umum dalam percakapan alami; bersifat membela diri, kontras yang lembut, berbeda dengan でも (yang nuansanya lebih langsung).",
+    "notes": "• Sering disertai ekspresi atau keraguan untuk mengurangi tingkat penyangkalan atau penolakan.\n• Dapat digunakan untuk menjawab ketika ditanya secara langsung tetapi sulit menjawab terus terang.\n• Dalam bahasa lisan, dapat dipanjangkan menjadi \"それがね…\" untuk membuka penjelasan. meaning_vi: (1)(Hal) itu ～, tetapi ～\n(2) Tetapi ～ ⏐ explain: (1)Digunakan ketika menyatakan hasil di luar perkiraan.\n(2) Menyatakan hasil yang berbeda dari rencana atau perkiraan pada kalimat sebelumnya. ⏐ examples: 1. 「お嬢さん、もう大学をご卒業されましたでしょう？」\n「それが、まだなんですよ。」\nSepertinya putri Anda sudah lulus kuliah, ya. Itu dia, belum.\n2. たばこをやめると誓った。それが、たった三日でまた吸ってしまった。\nSudah bersumpah akan berhenti merokok. Tetapi, baru 3 hari sudah merokok lagi.",
+    "mistakes": [
+     "Tertukar dengan それで: それで = \"karena itu…\", sedangkan それが = \"padahal…\", bertentangan dengan harapan.",
+     "Digunakan dalam bahasa yang terlalu formal: Tidak cocok; sebaiknya diganti dengan しかし, ただし jika berupa teks argumentatif.",
+     "Digunakan ketika B tidak bertentangan dengan A: それが menuntut klausa B berbeda dari harapan berdasarkan A.",
+     "Menghilangkan klausa A: Selalu diperlukan konteks sebelumnya agar それが bermakna."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "それが",
+       "Padahal…, sebenarnya…",
+       "Lembut, sering digunakan untuk menolak atau menjelaskan.",
+       "<ruby>行<rt>い</rt></ruby>くつもりだった。 それが、<ruby>行<rt>い</rt></ruby>けなくて。"
+      ],
+      [
+       "でも／しかし",
+       "Tetapi, namun",
+       "Bersifat argumentatif kuat, lebih langsung.",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "ところが",
+       "Tetapi ternyata (sepenuhnya berlawanan dengan harapan)",
+       "Kenyataan sepenuhnya bertentangan dengan perkiraan, biasanya sangat mengejutkan.",
+       "<ruby>勝<rt>か</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>った。ところが<ruby>負<rt>ま</rt></ruby>けた。"
+      ],
+      [
+       "それで",
+       "Karena itu…",
+       "Menyatakan hasil lanjutan, tidak bermakna pertentangan.",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。 それで<ruby>中止<rt>ちゅうし</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 658,
+   "src_hash": "2d541983d78c77a9",
+   "fields": {
+    "meaning": "Meskipun begitu, walaupun demikian",
+    "connection": "[kalimat/klausa] 1 + それでも + [kalimat/klausa] 2",
+    "examples": [
+     "Dia gagal berkali-kali. Meskipun begitu, dia tidak menyerah.",
+     "Hujan turun dengan deras. Meskipun begitu, penonton tidak pulang.",
+     "Saya sudah memperingatkannya. Meskipun begitu, dia melakukan kesalahan yang sama.",
+     "Pekerjaan ini berat, lho. Kamu tetap mau mengerjakannya?",
+     "Saya sudah mengerahkan seluruh kemampuan. Meskipun begitu, saya tidak bisa menang."
+    ],
+    "explain": "Posisi : Berada di awal klausa B setelah klausa A diakhiri dengan titik atau koma.\nKedua klausa wajib memiliki hubungan yang berlawanan : A membuat kita berpikir B tidak akan terjadi, tetapi kenyataannya B tetap terjadi.\nNuansa : Bersifat emosional – keterkejutan, kekecewaan, kekaguman, kegigihan.\nGaya : Digunakan dalam percakapan maupun bahasa tulis; tingkat keformalannya netral.\n\n•\nMenyatakan konsesif + kontras: Meskipun A merupakan rintangan, kesulitan, atau hal yang membuat B sulit terjadi, hasil B tetap terjadi.\n\n•\nImplikasi perasaan: Sering mengandung nuansa kegigihan, keterkejutan, kekecewaan, atau pujian (karena tetap melakukan B meskipun ada A).\n\n•\nTerjemahan alami: \"Meskipun begitu…\", \"Tetapi…\", \"Walaupun demikian…\", \"Sekalipun begitu…\".\n\n•\nBerbeda dengan それが・それで・そこで: それでも menekankan kontras yang kuat antara harapan (dari A) dan kenyataan (B).",
+    "notes": "• Sering digunakan dalam teks naratif, ungkapan perasaan, dan untuk menyatakan kehendak.\n• Sering disertai kata-kata penekanan seperti それでもなお (tetapi tetap saja…), それでもやっぱり.\n• Dapat diterjemahkan secara fleksibel: \"Tetapi\", \"Walaupun demikian\", \"Sekalipun begitu…\", \"Padahal…\".\n• Banyak muncul dalam bagian membaca dan mendengarkan JLPT N3–N2. meaning_vi: Namun, meskipun begitu ～ ⏐ explain: Menyatakan pendapat atau hasil yang berlawanan dengan situasi a pada klausa depan. ⏐ examples: 1. 外は大雨だ。それでも出かけないといけない。\nDi luar hujan. Meskipun begitu, mau tidak mau harus keluar.\n2. みんなに反対されている。それでも私は彼と結婚したい。\nDitentang oleh semua orang. Meskipun begitu, saya ingin menikah dengannya.",
+    "mistakes": [
+     "Tertukar dengan それで: それで = \"karena itu…\", sedangkan それでも = \"meskipun begitu…\".",
+     "Tidak ada unsur kontras: Salah jika klausa A dan B tidak berlawanan, atau A tidak menghalangi B.",
+     "Digunakan dalam bahasa yang terlalu formal: Tidak cocok dalam penelitian, laporan → sebaiknya gunakan しかしながら.",
+     "Menghilangkan koma setelah それでも dalam bahasa tulis: sebaiknya ditulis \"それでも、…\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "それでも",
+       "Meskipun begitu… tetap…",
+       "Menekankan B terjadi meskipun ada A.",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "それにしても",
+       "Meskipun begitu… (seruan kuat)",
+       "Menekankan perasaan terkejut atau keluhan.",
+       "<ruby>暑<rt>あつ</rt></ruby>いね。 それにしても<ruby>今年<rt>ことし</rt></ruby>は<ruby>異常<rt>いじょう</rt></ruby>だ。"
+      ],
+      [
+       "けれど／でも",
+       "Tetapi…",
+       "Bahasa lisan, sederhana, tidak menekankan upaya mengatasi rintangan.",
+       "<ruby>行<rt>い</rt></ruby>きたい。 でも<ruby>忙<rt>いそが</rt></ruby>しい。"
+      ],
+      [
+       "それが",
+       "Tetapi sebenarnya…",
+       "Digunakan ketika kenyataan bertentangan dengan harapan, agak ragu-ragu.",
+       "<ruby>行<rt>い</rt></ruby>くと<ruby>言<rt>い</rt></ruby>った。 それが<ruby>行<rt>い</rt></ruby>けなくなった。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 659,
+   "src_hash": "3113f1fba2928d88",
+   "fields": {
+    "meaning": "Kalau begitu…",
+    "connection": "それなら + [kalimat/klausa]",
+    "examples": [
+     "Besok libur, lho. —Kalau begitu, ayo pergi bersama.",
+     "Sudah terjual habis. —Kalau begitu, seharusnya kita memesan dulu, ya.",
+     "Kamu tidak punya mobil? Kalau begitu, ayo naik bus.",
+     "Rencana ini berisiko tinggi. Kalau begitu, mari kita pertimbangkan rencana lain.",
+     "Kamu tidak enak badan? Kalau begitu, jangan memaksakan diri."
+    ],
+    "explain": "Biasanya berada di awal kalimat tanggapan, disertai usulan/solusi/konsesi.\nTidak digunakan hanya untuk kontras semata; harus ada hubungan syarat \"jika A benar maka B...\".\nSantai: だったら／じゃ(あ); sopan: それならば／それでは.\n\n• Arti: \"Kalau begitu/kalau sudah begitu...\", digunakan ketika menerima informasi A lalu memutuskan/mengusulkan B.\n• Fungsi dalam percakapan: menanggapi, beralih ke solusi, memberikan nasihat/syarat baru.\n• Tingkat keformalan: netral dalam percakapan; それならば lebih sopan; だったら/じゃ(あ) lebih santai.",
+    "notes": "• Cocok dalam negosiasi/penyelesaian masalah karena menunjukkan reaksi yang fleksibel.\n• Dapat digunakan dengan perintah/nasihat: それなら、やめたほうがいい。\n• Dalam email yang sopan, utamakan それでは／それならば.",
+    "mistakes": [
+     "Menggunakan それなら untuk kontras murni (sebaiknya gunakan しかし/だが) → salah fungsi.",
+     "Salah memilih antara それなら dan それでは: dalam percakapan alami, それなら netral; それでは formal/untuk memandu prosedur.",
+     "B kurang bersifat \"tanggapan terhadap A\" → kalimat menjadi tidak koheren."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だったら",
+       "Kalau begitu (sangat bersifat bahasa lisan)",
+       "Lebih santai daripada それなら",
+       "<ruby>暇<rt>ひま</rt></ruby>？だったら<ruby>来<rt>き</rt></ruby>て。"
+      ],
+      [
+       "じゃ(あ)",
+       "Kalau begitu",
+       "Sangat ringkas, sehari-hari",
+       "<ruby>雨<rt>あめ</rt></ruby>？じゃ<ruby>中止<rt>ちゅうし</rt></ruby>。"
+      ],
+      [
+       "それでは",
+       "Kalau begitu; baiklah (membuka/menutup bagian)",
+       "Lebih sopan; juga digunakan untuk beralih tahap dalam presentasi",
+       "それでは<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "なら",
+       "Kalau/jika memang",
+       "Morfem tata bahasa yang langsung melekat pada kata benda/kata kerja/kata sifat",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>行<rt>い</rt></ruby>かない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 660,
+   "src_hash": "2b6be708668bf4be",
+   "fields": {
+    "meaning": "Soalnya…, karena",
+    "examples": [
+     "Aku nggak mau pergi. Soalnya, aku capek.",
+     "Hari ini nggak bisa. Soalnya, aku ada janji.",
+     "Mana aku tahu soal itu. Soalnya, nggak ada yang memberitahuku.",
+     "Jangan marah. Soalnya, aku cuma bermaksud bercanda.",
+     "Dia baik, lho. Soalnya, dia selalu membantuku."
+    ],
+    "explain": "Bahasa lisan santai, biasanya dalam percakapan antarteman/keluarga.\nDisertai んだもん／もの menambah nuansa membela diri/menggemaskan; から lebih netral.\nHindari menggunakannya untuk membuka teks formal; jika perlu alasan yang baku, gunakan ので／ため／だから.\n\n• Menjelaskan alasan berdasarkan perasaan/sedikit berdalih: \"Soalnya…\".\n• Bukan untuk berargumen secara logis dan ketat, melainkan untuk menunjukkan suasana hati pribadi, membela diri.\n• Biasanya berada di awal kalimat, diikuti koma; S2 adalah klausa alasan.",
+    "notes": "• Bentuk \"だってさ\" digunakan ketika mengutip rumor/perkataan orang lain, bukan alasan.\n• Dalam percakapan sopan, dapat diganti dengan: 申し訳ありません。忙しいので…。 (hindari だって).\n• Anak-anak dan wanita sering menggunakan ～んだもん／もの; pria dewasa biasanya mengurangi penggunaannya untuk menghindari kesan kekanak-kanakan. explain: Ungkapan bahasa lisan dari 「なぜなら」 「なぜかというと」 「どうしてかというと」 ⏐ examples: 1. 「何を怒ってるの？」「だって、約束を破ったじゃないか。」\nKamu marah kenapa? Bukankah karena kamu ingkar janji.\n2. 「テストの点、よかったんだって？」\n「うん。だってやさしかったんだもん。」\nKatanya nilai ujianmu bagus, ya. Iya, itu karena ujiannya mudah saja.",
+    "mistakes": [
+     "Menggunakan だって dalam esai/surat bisnis → tidak cocok; ganti dengan ので／ため／理由は～です.",
+     "Tertukar antara だって sebagai kata penghubung dengan だって sebagai partikel \"bahkan\": perhatikan posisinya (awal kalimat vs setelah kata benda).",
+     "Menggabungkan だって dengan です／ます menimbulkan ketidakselarasan gaya: hindari \"だって、忙しいですから。\" dalam situasi formal.",
+     "Dalam soal mendengarkan, だって + んだもん menandakan perasaan, bukan alasan objektif."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Nuansa",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だって、",
+       "Membela diri/perasaan",
+       "Sangat kasual, kadang kekanak-kanakan",
+       "だって、<ruby>眠<rt>ねむ</rt></ruby>いんだもん。"
+      ],
+      [
+       "だから、",
+       "Penalaran kesimpulan",
+       "Lebih netral, dapat digunakan dalam tulisan",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。だから、<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "ので／ため",
+       "Alasan objektif",
+       "Formal/objektif, tanpa perasaan",
+       "<ruby>忙<rt>いそが</rt></ruby>しいので<ruby>参加<rt>さんか</rt></ruby>できません。"
+      ],
+      [
+       "なぜなら、",
+       "Menjelaskan alasan",
+       "Bahasa tulis, formal",
+       "なぜなら、～からだ。"
+      ],
+      [
+       "Nだって (partikel)",
+       "\"Bahkan/juga\"",
+       "Bukan kata penghubung; posisinya setelah kata benda",
+       "<ruby>子<rt>こ</rt></ruby>どもだってできる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 661,
+   "src_hash": "c0e6c048c68f0f2f",
+   "fields": {
+    "meaning": "Karena, alasannya adalah",
+    "connection": "[kalimat/klausa]。というのは + [kalimat/klausa]（menyebutkan alasan）",
+    "examples": [
+     "Sistem ini akan ditinjau ulang mulai tahun depan. Sebabnya, sistem ini sudah tidak sesuai dengan kondisi saat ini.",
+     "SDGs adalah Tujuan Pembangunan Berkelanjutan.",
+     "Sepertinya dia tidak akan hadir. Sebabnya, tadi ada kabar bahwa dia sedang tidak enak badan.",
+     "Obat ini tidak ditanggung asuransi. Sebabnya, obat ini belum mendapat persetujuan.",
+     "\"Perusahaan hitam\" adalah perusahaan yang memaksakan beban berlebihan kepada para pekerjanya."
+    ],
+    "explain": "Setelah というのは biasanya ada koma untuk memisahkan bagian penjelasan.\nKetika menjelaskan alasan, sebaiknya diakhiri dengan からだ／ためだ agar hubungan sebab-akibat jelas.\nDigunakan untuk mendefinisikan: XというのはYのことだ → ringkas, formal, sering terlihat dalam buku pelajaran dan artikel.\nBahasa lisan: っていうのは → ringan, cocok untuk percakapan dan blog.\nTidak menggunakan というのは di akhir kalimat; selalu diikuti klausa penjelasan.\n\n• Penjelasan/definisi: Cara untuk \"memperjelas\" isi yang baru disebutkan pada kalimat sebelumnya. Biasanya digunakan dengan のことだ／ということだ.\n• Memberi alasan: Menyebutkan sebab yang bersifat kesimpulan untuk klausa depan. Sering disertai からだ／ためだ untuk menegaskan alasan.\n• Cakupan rujukan: というのは biasanya merujuk langsung ke seluruh kalimat sebelumnya (A)。Dapat menggunakan この/その＋話/件 untuk memperjelas.\n• Nuansa: Bersifat logis, objektif, banyak digunakan dalam pers, diskusi, laporan, dan presentasi.",
+    "notes": "• Selain からだ, dapat menggunakan わけだ/ためだ/にほかならない untuk memperkuat nuansa kesimpulan.\n• Jika bagian penjelasannya panjang, sebaiknya kalimat dipisah dan diberi koma setelah というのは agar mudah dibaca.\n• Dalam bahasa lisan, というのは dapat diubah menjadi bentuk singkat つーのは/てのは (sangat lisan), hindari dalam ujian JLPT.",
+    "mistakes": [
+     "Tertukar dengan ということは: というのは menjelaskan A; ということは menyimpulkan B dari A.",
+     "Lupa menambahkan からだ/ためだ ketika menyebutkan alasan sehingga kalimat kurang kuat sebagai kesimpulan.",
+     "Meletakkan というのは di akhir kalimat (salah); harus diikuti klausa penjelasan.",
+     "Menulis tanpa koma: \"というのはB…\" masih dapat diterima, tetapi sebaiknya diberi koma agar maknanya jelas dalam soal membaca."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "というのは",
+       "Penjelasan/definisi/alasan",
+       "Merujuk ke kalimat sebelumnya; biasanya disertai からだ/ということだ",
+       "A。というのは、Bからだ。"
+      ],
+      [
+       "なぜなら／なぜかというと",
+       "Menyebutkan alasan",
+       "Memperkenalkan alasan secara langsung; biasanya diakhiri dengan からだ",
+       "A。なぜなら、Bからだ。"
+      ],
+      [
+       "つまり",
+       "Singkatnya, dengan kata lain",
+       "Mengungkapkan ulang isi yang sama; tidak selalu menyebutkan alasan",
+       "A。つまり、B。"
+      ],
+      [
+       "ということは",
+       "Menyimpulkan, dugaan",
+       "B tidak menjelaskan A, melainkan disimpulkan dari A",
+       "A。ということは、B（だ）。"
+      ],
+      [
+       "とは",
+       "Definisi formal",
+       "Biasanya digunakan langsung setelah istilah, tidak memerlukan kalimat sebelumnya",
+       "XとはYのことだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 662,
+   "src_hash": "ef89a3cf204d366a",
+   "fields": {
+    "meaning": "Yang disebut, yang bernama",
+    "examples": [
+     "「デジカメ」 adalah sebutan singkat untuk kamera digital.",
+     "Dalam istilah kereta, 「カクテイ」 itu maksudnya apa?\nItu kereta yang berhenti di setiap stasiun."
+    ],
+    "explain": "Digunakan ketika ingin mendefinisikan atau menjelaskan suatu hal atau peristiwa (dengan frasa yang ingin didefinisikan sebagai subjek)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 664,
+   "src_hash": "5ab000d43b934d48",
+   "fields": {
+    "meaning": "Tidak perlu….",
+    "examples": [
+     "Kamu tidak perlu minta maaf, kok.",
+     "Anda tidak perlu datang. Dikirim lewat pos saja tidak apa-apa."
+    ],
+    "explain": "Digunakan ketika ingin mengatakan kepada lawan bicara bahwa ia tidak harus melakukan suatu tindakan. Meskipun tindakan tersebut tidak dilakukan, hal itu tetap dapat diterima."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 665,
+   "src_hash": "b5251695029abeb6",
+   "fields": {
+    "meaning": "Menyatakan arti menjadikan ~ sebagai standar penilaian. Dilihat dari ~, ditinjau dari ~",
+    "examples": [
+     "Dilihat dari sifat Kenta, ...",
+     "Dilihat dari sifat Kenta, sepertinya dia tidak bisa mengatakan dengan jelas \"Aku suka kamu\" kepada orang yang dia sukai.",
+     "Dilihat dari sikap orang itu, dia pasti membenciku."
+    ],
+    "notes": "Menyatakan petunjuk untuk membuat penilaian. Dapat juga dikatakan 「からして」「からみて」 dan sebagainya.（９０）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 667,
+   "src_hash": "8b91b804873e5a29",
+   "fields": {
+    "meaning": "「～がいちばん…。」客観的な事実ではなくて、話者が主観的に言うときに使う。\nDigunakan ketika pembicara ingin menyampaikan perasaan subjektifnya, bukan fakta objektif.",
+    "connection": "N + くらい/ぐらい/ほど + ～はない（～ adalah yang paling, subjektif）",
+    "examples": [
+     "Tidak ada orang yang sesuka Lee-san pada binatang.",
+     "Menurut saya, tidak ada hal yang semenyenangkan memasak.",
+     "Aduh, besok ada ujian kanji lagi. Tidak ada yang lebih menyebalkan daripada ujian.",
+     "Saya belum pernah merasa secemas saat mengetahui bahwa saya sakit dua tahun yang lalu."
+    ],
+    "explain": "Digunakan untuk menonjolkan tingkat suatu hal, peristiwa, atau orang.\nMengandung penegasan bahwa selain hal, peristiwa, atau orang tersebut, tidak ada yang setara untuk menggantikannya",
+    "notes": "meaning_vi: 「ほど．．．はない」menyatakan arti dari struktur「～が一番．．．だ」. Tidak ada ~ yang menyamai ~\nexamples: 1. ①　ニューヨークほど（は）寒くない\nTidak sedingin New York\n2. ②　A大学の入学試験は、B大学の試験ほど難しくない。\nUjian masuk universitas A tidak sesulit ujian universitas B.\n3. ③　ロンドンはニューヨークほどは寒くない。\nLondon tidak sedingin New York.\n4. ④　今日は思ったほど暑くない。\nHari ini tidak sedingin yang saya kira.\n──────\n1. ①　サッカーほどおもしろいスポーツはない\nTidak ada olahraga yang lebih menarik daripada sepak bola.\n2. ②　健太ほど忘れっぽい人はいない。\nTidak ada orang yang lebih pelupa daripada Kenta\n3. ③　人の自慢話を聞くことほど退屈なことはない。\nTidak ada yang lebih membosankan daripada mendengarkan cerita orang yang menyombongkan diri.\nmeaning_vi: Yang seperti…. tidak ada….\nexamples: 1. 彼女くらい親切な人はいない。\nTidak ada orang yang sebaik dia\n2. 今年ほど雪の降った年はなかった。\nBelum pernah ada tahun dengan salju sebanyak tahun ini"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,753 @@
+{
+ "batch": "b053",
+ "lang": "en",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-04",
+ "items": [
+  {
+   "id": 823,
+   "src_hash": "3e6caaefce41b8f9",
+   "fields": {
+    "meaning": "Try to…, as much as possible (なるべく早く)",
+    "examples": [
+     "Please reply as soon as possible.",
+     "I try to exercise every day if I can.",
+     "Please avoid eating sweets as much as possible."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 824,
+   "src_hash": "b02862ebb1f5597f",
+   "fields": {
+    "meaning": "Get used to…, be used to…",
+    "examples": [
+     "Have you gotten used to life in Japan yet?",
+     "I've gradually gotten used to my new job.",
+     "I'm not used to getting up early in the morning."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 825,
+   "src_hash": "e761d60f93389eac",
+   "fields": {
+    "meaning": "…, I wonder? (polite question, softens the question)",
+    "connection": "V plain form + のでしょうか んでしょうか / N + な / Na / Aい",
+    "examples": [
+     "Does this train stop at Tokyo Station?",
+     "I wonder why he didn't come.",
+     "Would it be all right to use this seat?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 826,
+   "src_hash": "e39375e4d798d72b",
+   "fields": {
+    "meaning": "Furthermore, in addition, even more…",
+    "connection": "さらに + [sentence/clause]",
+    "examples": [
+     "Because of the typhoon, the rain got even heavier.",
+     "This shop is cheap. Furthermore, the service is good too.",
+     "I hear the fees will go up even more next year."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 827,
+   "src_hash": "53e3c686e32eb1e9",
+   "fields": {
+    "meaning": "At most…, at the very most…",
+    "connection": "せいぜい + Quantity・N / V",
+    "examples": [
+     "Even on foot, it's 10 minutes at most from here to the station.",
+     "Probably 20 people at most will come to the party.",
+     "The most I can spend on lunch is 1,000 yen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 828,
+   "src_hash": "a39afb6b318a24c6",
+   "fields": {
+    "meaning": "A moment, for a while…",
+    "connection": "しばらく + [sentence/clause]",
+    "examples": [
+     "Please wait a moment.",
+     "I had taken a break from studying Japanese for a while.",
+     "I haven't seen him for a while."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 829,
+   "src_hash": "27c889328e769b76",
+   "fields": {
+    "meaning": "Already… (the action was completed beforehand)",
+    "examples": [
+     "The meeting has already started.",
+     "When I arrived at the station, the train had already left.",
+     "I already know about that news."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 830,
+   "src_hash": "9dad080293fd2682",
+   "fields": {
+    "name": "Quantity＋は",
+    "meaning": "At least… (quantity+は)",
+    "connection": "Quantity + は",
+    "examples": [
+     "It takes at least 30 minutes to get to the station.",
+     "This bag probably costs at least 20,000 yen.",
+     "At least 100 people had gathered at the venue."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 831,
+   "src_hash": "8ce46c308bc23cd3",
+   "fields": {
+    "name": "～たものだ（reminiscing）",
+    "meaning": "Used to often…, would often… (reminiscing)",
+    "examples": [
+     "When I was a child, I often used to swim in this river.",
+     "In my student days, I used to talk with my friends until morning.",
+     "My father says he often used to climb mountains when he was young."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 832,
+   "src_hash": "632e9f2c961d8b2a",
+   "fields": {
+    "meaning": "Certainly…, indeed…",
+    "connection": "確かに + [sentence/clause]",
+    "examples": [
+     "This dish is certainly delicious, but it's too expensive.",
+     "What he says is certainly correct.",
+     "I'm sure I locked it, but it's open."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 833,
+   "src_hash": "b328605abcada272",
+   "fields": {
+    "meaning": "Only need… and that's enough, can be settled with…",
+    "examples": [
+     "The repair only cost 5,000 yen.",
+     "If it's something that can be handled by phone, you don't have to go.",
+     "Luckily, the injury was only minor."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 834,
+   "src_hash": "74ece88be21b8dfe",
+   "fields": {
+    "meaning": "So as not to…, in case… (guarding against a bad situation)",
+    "examples": [
+     "I'll make a note in case I forget.",
+     "Take a jacket with you so you don't catch a cold.",
+     "Let's leave early in case we're late."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 835,
+   "src_hash": "a7b4cf5a7ae90437",
+   "fields": {
+    "meaning": "This is no time to… (～ている場合じゃない)",
+    "examples": [
+     "Now is no time to be laughing.",
+     "This is no time to be playing games. You have an exam tomorrow!",
+     "This is no time to be taking it easy. Let's hurry."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 836,
+   "src_hash": "484e0e65fe728537",
+   "fields": {
+    "meaning": "Suffix 的: turns a noun into a Na-adjective/adverb (経済的)",
+    "examples": [
+     "That way of thinking is not realistic.",
+     "Please explain more concretely.",
+     "He gave up studying abroad for financial reasons."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 837,
+   "src_hash": "0578ac728d7ae574",
+   "fields": {
+    "meaning": "Even if you…, it's no use; …won't do any good",
+    "examples": [
+     "It's no use regretting it now.",
+     "Complaining won't get us anywhere, so let's start over.",
+     "Worrying won't help. All we can do is wait for the results."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 839,
+   "src_hash": "0dccc4e6a0434717",
+   "fields": {
+    "meaning": "Apparently…, it seems… (とみえる/とみえて)",
+    "connection": "V plain form + と見える とみえる とみえて / N + だ / Na + だ / Aい",
+    "examples": [
+     "He seemed to be tired, as he fell asleep right away.",
+     "This shop must be popular, because it's always crowded.",
+     "It must have rained, because the road is wet."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 840,
+   "src_hash": "73f86235cfa222ea",
+   "fields": {
+    "meaning": "In the middle of…, on the way… (途中で/途中に)",
+    "examples": [
+     "On my way to school, I ran into my teacher.",
+     "A phone call came in the middle of the meeting.",
+     "On the way home, I stopped by the supermarket."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 842,
+   "src_hash": "313168a5bb48b887",
+   "fields": {
+    "meaning": "Cannot possibly…, can hardly… (とても～ない)",
+    "examples": [
+     "There's no way I can solve such a difficult problem.",
+     "I can hardly believe that he's the culprit.",
+     "I'm so busy that I can't possibly make time to go on a trip."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 843,
+   "src_hash": "ea412225d779079d",
+   "fields": {
+    "meaning": "Setting… aside, apart from…",
+    "connection": "N + は別として はべつとして / V plain form + かどうか / Na + かどうか / Aい + かどうか",
+    "examples": [
+     "Joking aside, what are you really planning to do?",
+     "Whether or not we go aside, let's at least hear what they have to say.",
+     "Design aside, its functions are very good."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 844,
+   "src_hash": "777286a0330fb91a",
+   "fields": {
+    "meaning": "Famous for… (～で有名)",
+    "examples": [
+     "Kyoto is famous for its old temples.",
+     "This town is famous for its hot springs.",
+     "That teacher is famous for giving a lot of homework."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 845,
+   "src_hash": "a9b139775907da36",
+   "fields": {
+    "meaning": "On purpose, deliberately…",
+    "examples": [
+     "I think he lost on purpose.",
+     "I didn't do it on purpose. I'm sorry.",
+     "My younger brother deliberately pretended not to hear."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 846,
+   "src_hash": "5003da8b04619409",
+   "fields": {
+    "meaning": "Rather than…, compared with… (よりも)",
+    "connection": "V plain form + よりも / N",
+    "examples": [
+     "This winter is colder than last year.",
+     "The process is more important than the result.",
+     "The exam was easier than I had expected."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 847,
+   "src_hash": "03ee2a883153ecb2",
+   "fields": {
+    "meaning": "Looks like…, seems… (ように見える)",
+    "connection": "V plain form + ように見える / N + の / Na / Aい",
+    "examples": [
+     "He looks like he's angry.",
+     "This plan looks simple, but it's actually difficult.",
+     "From a distance, it looks like an island."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 848,
+   "src_hash": "6a023b9f43c74c18",
+   "fields": {
+    "meaning": "No matter what…, at all costs…",
+    "connection": "どうしても + [sentence/clause]",
+    "examples": [
+     "I want to get into this university no matter what.",
+     "No matter how hard I try, I can't remember his name.",
+     "I have something I absolutely have to go to."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 849,
+   "src_hash": "be28dbfbbf27940c",
+   "fields": {
+    "meaning": "Suddenly…, all of a sudden, without thinking…",
+    "examples": [
+     "When I happened to look out the window, it was snowing.",
+     "I suddenly remembered my childhood.",
+     "I suddenly woke up in the middle of the night."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 850,
+   "src_hash": "e337a29f3cc4796d",
+   "fields": {
+    "meaning": "At the same time, at once…",
+    "connection": "一度に + [sentence/clause]",
+    "examples": [
+     "If you eat a lot at once, you'll upset your stomach.",
+     "It's impossible to carry all the luggage at once.",
+     "Please ask your questions one at a time."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 851,
+   "src_hash": "49c35350494ea93b",
+   "fields": {
+    "meaning": "What on earth…, …in the world (emphasizes a question)",
+    "connection": "一体 + [interrogative sentence]",
+    "examples": [
+     "Who on earth did this?",
+     "What on earth is this?",
+     "Where on earth did he go?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 852,
+   "src_hash": "b6b241bcbd1e125a",
+   "fields": {
+    "meaning": "Surely not…, no way…",
+    "connection": "まさか + [negative sentence/clause] (～ないだろう)",
+    "examples": [
+     "I never imagined he would lie.",
+     "Who would have thought I'd run into my teacher in a place like this!",
+     "Surely it won't rain."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 853,
+   "src_hash": "b3fa8852c15f807d",
+   "fields": {
+    "meaning": "Rather…, more accurately…",
+    "connection": "むしろ + [sentence/clause]",
+    "examples": [
+     "Walking is actually faster than taking a taxi.",
+     "He's more like a friend than a teacher.",
+     "Getting help actually makes it take longer."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 854,
+   "src_hash": "c67a7eea52734953",
+   "fields": {
+    "meaning": "Accidentally…, couldn't help… (unintentionally)",
+    "connection": "つい + V (usually Vてしまう)",
+    "examples": [
+     "Even though I'm on a diet, I couldn't help eating some cake.",
+     "It was so interesting that I ended up reading until midnight.",
+     "I carelessly let the secret slip."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 855,
+   "src_hash": "ca2b20ea8492e8c6",
+   "fields": {
+    "meaning": "Finally…, in the end… (ついに)",
+    "connection": "ついに + [sentence/clause]",
+    "examples": [
+     "The long construction work ended, and the new station was finally completed.",
+     "After 10 years, he finally made his dream come true.",
+     "I called many times, but in the end he never answered."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 856,
+   "src_hash": "0ed99e67bdaab980",
+   "fields": {
+    "meaning": "Go to the trouble of…, take the trouble to… (わざわざ)",
+    "examples": [
+     "Thanks for going to the trouble of coming to pick me up at the station.",
+     "You don't have to go all the way to buy it. You can order it online.",
+     "Thank you very much for coming all this way."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 857,
+   "src_hash": "982fc23422d43859",
+   "fields": {
+    "meaning": "Quite, fairly…",
+    "examples": [
+     "It's quite cold today, isn't it?",
+     "His Japanese has gotten quite good.",
+     "It will take quite a lot of time to complete."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 858,
+   "src_hash": "317289e128b0aa68",
+   "fields": {
+    "meaning": "Whether… differs depending on…",
+    "connection": "[question] + かは + N + によって違う",
+    "examples": [
+     "What people find delicious differs from person to person.",
+     "What students do after graduation differs from student to student.",
+     "How much it costs depends on the season."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 859,
+   "src_hash": "4cd24a3a854a823e",
+   "fields": {
+    "meaning": "Each, each one…",
+    "examples": [
+     "Everyone has their own way of thinking.",
+     "Each participant presented their own opinion.",
+     "Culture differs from country to country."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 860,
+   "src_hash": "abb897aac873c861",
+   "fields": {
+    "meaning": "If possible… (modest request)",
+    "connection": "できれば/できたら + [request・suggestion]",
+    "examples": [
+     "If possible, I'd like to receive a reply by tomorrow.",
+     "If possible, I'd like a window seat, please.",
+     "If possible, I'd like you to change the meeting time."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 861,
+   "src_hash": "be8e8740c7e2ac69",
+   "fields": {
+    "meaning": "If… is fine (humble: 私でよければ)",
+    "examples": [
+     "If I'm good enough, I'll help you.",
+     "If a used one is fine, you can buy it cheaply.",
+     "If tomorrow is fine, I have time."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 862,
+   "src_hash": "71e01fa81b60069e",
+   "fields": {
+    "meaning": "In terms of…, speaking of…",
+    "examples": [
+     "Vietnamese \"pho\" is something like ramen in Japan.",
+     "In terms of price, this one is a better deal.",
+     "In terms of size, this room is about as big as a classroom."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 863,
+   "src_hash": "50460525fb0ee67b",
+   "fields": {
+    "meaning": "It can be said that…",
+    "connection": "V/A plain form + と言える / N/Naだ + と言える",
+    "examples": [
+     "This result can probably be called a success.",
+     "He can be said to be one of the most famous athletes in the world.",
+     "An investigation is needed until it can be said to be safe."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 864,
+   "src_hash": "258af08daaceb6ce",
+   "fields": {
+    "name": "代（fee・cost）",
+    "meaning": "Suffix 代: fee, cost (電気代, バス代)",
+    "examples": [
+     "The electricity bill was high this month.",
+     "The company pays for the bus fare.",
+     "Meals cost about 3,000 yen per person."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

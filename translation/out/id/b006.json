@@ -1,0 +1,816 @@
+{
+ "batch": "b006",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 91,
+   "src_hash": "6660bc7ea2d15ee0",
+   "fields": {
+    "meaning": "Sebelah sini / saya / di sini",
+    "examples": [
+     "Ini Tanaka-san.",
+     "Silakan lewat sini.",
+     "Toiletnya di sebelah sini.",
+     "Bagaimana dengan produk ini?",
+     "Justru saya yang harus berterima kasih.",
+     "Kami bertiga."
+    ],
+    "explain": "Lebih sopan daripada これ/ここ/この; cocok untuk layanan, petunjuk, dan komunikasi yang santun.\nMenunjukkan arah dengan halus: 受付は こちら です。\nMemperkenalkan orang: こちら は山田課長です。\n\nこちら adalah kata tunjuk sopan yang setara dengan \"この/ここ/これ\" (tetapi lebih sopan), berarti \"sebelah sini/yang ini/orang ini/pihak kami\".\nUntuk orang: \"beliau ini\" (sopan, santun).\nUntuk tempat/arah: \"lewat sini/sebelah sini\".\nUntuk organisasi/kelompok: \"pihak/kami\".\nDigunakan dalam petunjuk, layanan, telepon, dan perkenalan.",
+    "notes": "Frasa こちらこそ digunakan untuk membalas ucapan terima kasih/permintaan maaf: \"justru saya juga\".\nDalam telepon/layanan: こちらはABC会社でございます。 (Di sini perusahaan ABC.)\n\"こちらになります\" adalah ungkapan yang menyopankan \"ini adalah ~\" (bernuansa layanan).",
+    "mistakes": [
+     "Tertukar dengan これ/ここ: untuk \"ini toiletnya\" yang sopan, katakan こちらがお手洗いです (bukan これが…).",
+     "Menggunakan こちら untuk benda yang jauh dari pembicara → sebaiknya gunakan あちら/そちら sesuai jarak/konteks.",
+     "Menghilangkan の saat menjelaskan kata benda: × こちら部屋→ benar: こちらの部屋。"
+    ],
+    "comparison": {
+     "headers": [
+      "Kata",
+      "Arti",
+      "Nuansa",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "こちら",
+       "yang/sebelah/orang \"ini\"",
+       "Sopan",
+       "こちらへどうぞ。"
+      ],
+      [
+       "これ",
+       "\"ini\" (benda)",
+       "Netral",
+       "これはペンです。"
+      ],
+      [
+       "ここ",
+       "\"di sini\" (tempat)",
+       "Netral",
+       "ここは<ruby>東京<rt>とうきょう</rt></ruby>です。"
+      ],
+      [
+       "この",
+       "\"(yang) ini\" + N",
+       "Netral",
+       "この<ruby>本<rt>ほん</rt></ruby>"
+      ],
+      [
+       "そちら／あちら",
+       "sebelah situ/sebelah sana (sopan)",
+       "Satu kelompok sopan",
+       "そちらはどうですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 92,
+   "src_hash": "b9a486015e66bd53",
+   "fields": {
+    "meaning": "Tadi",
+    "connection": "さっき + [kalimat/klausa] / さっきの + N",
+    "examples": [
+     "Tadi saya bertemu Tanaka-san.",
+     "Apakah Anda sudah membaca email yang tadi?",
+     "Sejak tadi kepala saya sakit.",
+     "Sampai tadi hujan.",
+     "Tadi saya sudah menelepon.",
+     "Tolong kirimkan foto yang tadi."
+    ],
+    "explain": "さっき biasanya dipakai dengan kala lampau: さっき行きました／来ました。\nさっきから + Vている menyatakan keadaan yang berlanjut sampai sekarang.\nさっきまで menekankan bahwa sesuatu baru saja berakhir.\nSantai, dipakai dalam percakapan; dalam situasi formal dapat memakai 先ほど (lebih sopan).\n\nさっき menyatakan titik waktu lampau yang sangat dekat, \"tadi, barusan\". Biasanya dipakai dengan kala lampau, atau bentuk sedang berlangsung saat memakai さっきから.\nさっき: satu titik waktu singkat sebelum sekarang, samar (beberapa menit hingga rentang singkat).\nさっきから: sejak tadi sampai sekarang (berlanjut).\nさっきまで: sampai tadi (baru saja berhenti).",
+    "notes": "Seberapa \"dekat\" さっき bergantung pada konteks (biasanya dalam beberapa puluh menit terakhir).\nさっき tidak dipakai untuk masa depan; untuk keadaan yang sedang berlangsung sekarang, gunakan さっきから + Vている.\nDalam email kerja, utamakan 先ほど agar sopan.",
+    "mistakes": [
+     "Salah kala: × さっき行きます → benar: さっき行きました。",
+     "Tertukar さっき dengan もうすぐ (masa depan): × さっき始まります → benar: もうすぐ始まります。",
+     "Menghilangkan の saat menjadi penjelas: × さっき店→ benar: さっきの店。"
+    ],
+    "comparison": {
+     "headers": [
+      "Kata",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "さっき",
+       "Tadi",
+       "Lampau dekat, samar",
+       "さっき<ruby>会<rt>あ</rt></ruby>いました。"
+      ],
+      [
+       "たった<ruby>今<rt>いま</rt></ruby>",
+       "Baru saja (seketika)",
+       "Lebih dekat daripada さっき",
+       "たった<ruby>今<rt>いま</rt></ruby><ruby>着<rt>つ</rt></ruby>きました。"
+      ],
+      [
+       "<ruby>先<rt>さき</rt></ruby>ほど",
+       "Tadi (sopan)",
+       "Formal",
+       "<ruby>先<rt>さき</rt></ruby>ほどお<ruby>電話<rt>でんわ</rt></ruby>しました。"
+      ],
+      [
+       "もうすぐ",
+       "Sebentar lagi",
+       "Masa depan dekat",
+       "もうすぐ<ruby>始<rt>はじ</rt></ruby>まります。"
+      ],
+      [
+       "さっきから／さっきまで",
+       "Sejak tadi / Sampai tadi",
+       "Berlanjut / baru berakhir",
+       "さっきから<ruby>待<rt>ま</rt></ruby>っています。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 93,
+   "src_hash": "1761a87de00a313c",
+   "fields": {
+    "meaning": "Segera",
+    "examples": [
+     "Tolong segera datang sekarang juga.",
+     "Begitu pulang ke rumah, saya langsung mandi.",
+     "Begitu kelas selesai, saya langsung pulang.",
+     "Ada minimarket tepat di dekat stasiun.",
+     "Begitu mendengar cerita itu, air mata saya langsung keluar."
+    ],
+    "explain": "\"すぐに\" digunakan untuk menunjukkan waktu atau posisi yang sangat dekat dengan titik acuan sekarang.\nDapat diletakkan sebelum kata kerja atau kata benda yang menunjukkan waktu: すぐに行く／すぐに電話する／帰ってすぐに寝る。\nDalam bentuk santai, \"に\" sering dihilangkan: すぐ行くね！ → \"Aku segera ke sana, ya!\"\n\"すぐ\" menekankan kesan cepat, tanpa jeda; cocok untuk menunjukkan desakan atau kesegeraan.\n\n① \"すぐに\" menyatakan tindakan yang terjadi segera setelah hal lain, menekankan sifat seketika.\n② Arti dalam bahasa Indonesia: \"segera\", \"langsung setelah itu\", \"langsung\".\n③ Dapat dipakai untuk menyatakan kedekatan waktu maupun ruang: ・Waktu → tindakan terjadi segera setelahnya.\n・Ruang → \"dekat sekali\", \"tepat di sebelah\".\n\"すぐに\" dapat dipakai sendiri atau digabung dengan \"あとで／前に／近くに\" untuk menekankan tingkat kedekatan.",
+    "notes": "\"すぐに\" adalah kata keterangan waktu, diletakkan sebelum kata kerja utama dalam kalimat.\nDapat dipakai dalam petunjuk atau instruksi tindakan darurat: 火事です！すぐに逃げてください！→ Kebakaran! Segera lari!\nPada tingkat JLPT N5, pembelajar cukup memahami penggunaan dasarnya, yaitu \"segera melakukan sesuatu\".\nPada tingkat yang lebih tinggi, \"すぐに\" dapat menyatakan \"reaksi perasaan yang cepat\", misalnya: 彼はすぐに怒ります。→ Dia mudah marah.",
+    "mistakes": [
+     "Lupa \"に\" dalam bahasa tulis atau saat ujian JLPT:",
+     "✕ すぐ行きます → (benar dalam percakapan, tetapi di JLPT sebaiknya ditulis) ○ すぐに行きます。",
+     "Tertukar \"すぐに\" dengan \"もうすぐ\":",
+     "すぐに → segera.",
+     "もうすぐ → sebentar lagi.",
+     "Jangan memakai \"すぐに\" dengan tindakan yang berlangsung lama (seperti 勉強しています) — hanya dengan tindakan yang baru dimulai atau singkat.",
+     "JLPT N5 sering menanyakan: memilih dengan benar \"すぐに\", \"もうすぐ\", \"あとで\" untuk menyatakan waktu yang tepat."
+    ],
+    "comparison": {
+     "headers": [
+      "Kata / Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "すぐに",
+       "Segera",
+       "Menyatakan peristiwa yang terjadi segera setelah suatu tindakan",
+       "すぐに<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "すぐ",
+       "Segera (santai, singkat)",
+       "Bentuk pendek dari \"すぐに\", dipakai dalam percakapan santai",
+       "すぐ<ruby>行<rt>い</rt></ruby>くね。"
+      ],
+      [
+       "もうすぐ",
+       "Sebentar lagi… / Hampir tiba",
+       "Belum terjadi, tetapi akan terjadi dalam waktu dekat",
+       "もうすぐ<ruby>春<rt>はる</rt></ruby>です。"
+      ],
+      [
+       "たった<ruby>今<rt>いま</rt></ruby>",
+       "Baru saja…",
+       "Menekankan tindakan yang baru saja terjadi",
+       "たった<ruby>今<rt>いま</rt></ruby><ruby>帰<rt>かえ</rt></ruby>りました。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 94,
+   "src_hash": "7245773dc8a4eaf0",
+   "fields": {
+    "meaning": "Sama sekali tidak",
+    "connection": "ぜんぜん + [predikat negatif] (Vません / Aくない / Naではない)",
+    "examples": [
+     "Saya sama sekali tidak punya uang.",
+     "Kemarin saya sama sekali tidak belajar.",
+     "Film ini sama sekali tidak menarik.",
+     "Saya sama sekali tidak mengerti penjelasan guru.",
+     "Musim dingin di Jepang memang dingin, tetapi musim dingin di Vietnam sama sekali tidak dingin."
+    ],
+    "explain": "Biasanya diletakkan sebelum kata kerja negatif atau kata sifat negatif.\nMenekankan perasaan \"sama sekali tidak ada\" atau \"tingkatnya nol\".\nDalam percakapan, \"ぜんぜん + positif\" dapat dipakai seperti \"ぜんぜん大丈夫！\" (Sama sekali tidak apa-apa!) – namun ini adalah cara bicara alami yang tidak dipakai dalam ujian JLPT.\nCocok dengan intonasi kuat atau perasaan yang jelas (kesal, terkejut, menekankan).\n\n① \"ぜんぜん\" adalah kata keterangan yang menekankan tingkat negasi kuat: \"sama sekali tidak\", \"sedikit pun tidak\".\n② Dipakai bersama kata kerja negatif atau kata sifat negatif untuk menyatakan bahwa tindakan atau keadaan sama sekali tidak terjadi.\n③ Dalam percakapan modern, kadang \"ぜんぜん\" dipakai dengan arti positif (\"sangat\", \"sepenuhnya\") untuk penekanan — tetapi untuk JLPT N5, cukup ingat arti negatifnya.",
+    "notes": "「ぜんぜん」 = \"completely / totally / not at all\" tergantung konteks.\nDalam kanji ditulis 「全然」, tetapi dalam komunikasi sehari-hari biasanya ditulis dengan hiragana: 「ぜんぜん」.\nDalam bahasa Jepang modern, dapat terdengar: 「ぜんぜんOK！」, 「ぜんぜん大丈夫！」 → bermakna positif \"sama sekali tidak masalah\". Namun, ini adalah ungkapan percakapan sehari-hari, tidak dipakai dalam bahasa tulis atau ujian JLPT.",
+    "mistakes": [
+     "Salah memakai dengan kalimat positif dalam ujian JLPT:",
+     "✕ ぜんぜんわかります → ○ ぜんぜんわかりません。",
+     "Tertukar dengan あまり: \"ぜんぜん\" = sama sekali tidak, lebih kuat daripada \"あまり\".",
+     "Lupa kata kerja negatif: ✕ ぜんぜん勉強→ ○ ぜんぜん勉強しません。",
+     "JLPT N5 sering menanyakan: memilih kata keterangan negatif yang tepat di antara \"あまり\", \"ぜんぜん\", \"ちょっと\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "ぜんぜん + Vない／Adjない",
+       "Sama sekali tidak…",
+       "Negasi kuat, tegas",
+       "ぜんぜんわかりません。"
+      ],
+      [
+       "あまり + Vない／Adjない",
+       "Tidak terlalu…",
+       "Negasi ringan, relatif",
+       "あまりわかりません。"
+      ],
+      [
+       "<ruby>全<rt>まった</rt></ruby>く（まったく） + Vない",
+       "Sama sekali tidak… (sangat formal)",
+       "Mirip \"ぜんぜん\" tetapi dipakai dalam bahasa tulis atau situasi yang lebih formal",
+       "<ruby>全<rt>まった</rt></ruby>く<ruby>知<rt>し</rt></ruby>りません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 95,
+   "src_hash": "0b0aebd5137f0034",
+   "fields": {
+    "meaning": "Sebelah situ / Anda / di situ",
+    "examples": [
+     "Halo. Di tempat Anda sekarang jam berapa?",
+     "Saya akan berkunjung ke tempat Anda sekitar pukul 3 sore.",
+     "Besok mari kita bertemu di tempat Anda.",
+     "Di negara Anda, musim semi itu kapan?",
+     "Di sini cerah. Bagaimana di tempat Anda?",
+     "Terima kasih atas teleponnya. Apakah benar ini perusahaan ABC?"
+    ],
+    "explain": "Sopan: gunakan そちら sebagai pengganti そっち/そこ untuk menghormati lawan bicara.\nHindari memakainya langsung untuk menyebut orang: daripada \"そちらは田中さんですか\", gunakan \"田中様でいらっしゃいますか\". Namun dalam konteks organisasi, \"そちらはABC会社ですか\" terdengar alami.\nPasangan simetris: こちら（pihak saya）– そちら（pihak Anda）– あちら（pihak ketiga/jauh dari keduanya）.\nGunakan partikel yang sesuai: そちらへ（menuju）, そちらに（ke/di）, そちらで（melakukan tindakan di tempat itu）.\n\n\"そちら\" adalah kata ganti sopan yang menunjuk pihak lawan bicara (lokasi, organisasi, kelompok, keadaan di sana).\nDipakai dalam telepon, email, dan komunikasi layanan agar lebih sopan daripada そこ/そっち.\nDapat menunjukkan arah/tujuan (そちらへ), tempat (そちらで), atau kepemilikan (そちらのN).\nDalam percakapan, \"そちらは？\" dipakai untuk balik menanyakan informasi di pihak lawan bicara (cuaca, keadaan).",
+    "notes": "Dalam telepon, dapat dibuka dengan: そちらはABC会社でいらっしゃいますか。\nMenanyakan cuaca/keadaan: そちらはどうですか／そちらの状況はいかがですか。\nDalam layanan, petugas sering menyebut dirinya こちら dan menyebut pelanggan そちら（のご希望） sebagai cara sopan yang tidak langsung.",
+    "mistakes": [
+     "Memakai そこ/そっち dalam konteks formal alih-alih そちら → kurang sopan.",
+     "Salah partikel: \"そちらで行きます\" (salah) → seharusnya \"そちらへ行きます\".",
+     "Menyebut lawan bicara langsung dengan そちら dalam segala situasi → bisa terdengar kasar. Gunakan nama + 様 atau ungkapan keigo yang sesuai.",
+     "Tertukar sumbu penunjuk: こちら (pihak saya) ≠ そちら (pihak Anda) ≠ あちら (pihak sana)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Tingkat kesopanan/Cakupan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "こちら",
+       "Pihak saya/sini",
+       "Sopan",
+       "こちらは<ruby>山田<rt>やまだ</rt></ruby>です。"
+      ],
+      [
+       "そちら",
+       "Pihak Anda/di tempat Anda",
+       "Sopan",
+       "そちらは<ruby>雨<rt>あめ</rt></ruby>ですか。"
+      ],
+      [
+       "あちら",
+       "Pihak sana/di sana",
+       "Sopan",
+       "あちらへお<ruby>願<rt>ねが</rt></ruby>いします。"
+      ],
+      [
+       "そこ／そっち",
+       "Di situ/pihak kamu",
+       "Santai",
+       "そこは<ruby>暑<rt>あつ</rt></ruby>い？／そっちどう？"
+      ],
+      [
+       "<ruby>御社<rt>おんしゃ</rt></ruby>／<ruby>貴社<rt>きしゃ</rt></ruby>",
+       "Perusahaan Anda (hormat)",
+       "Sangat formal (bahasa tulis)",
+       "<ruby>貴社<rt>きしゃ</rt></ruby>のご<ruby>担当<rt>たんとう</rt></ruby><ruby>者<rt>しゃ</rt></ruby><ruby>様<rt>さま</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 96,
+   "src_hash": "378339a5fa39887f",
+   "fields": {
+    "meaning": "Setelah itu…",
+    "connection": "それから + [kalimat/klausa]",
+    "examples": [
+     "Saya sarapan. Setelah itu, saya pergi ke sekolah.",
+     "Saya mengerjakan PR, lalu setelah itu menonton TV.",
+     "Saya mengambil paspor, lalu pergi ke bandara.",
+     "Tolong beli susu, lalu beli roti juga.",
+     "Eh… lalu, saya ada pertanyaan."
+    ],
+    "explain": "Urutan waktu yang jelas: dipakai untuk menceritakan langkah/kegiatan dalam sehari.\nMenambahkan hal yang baru teringat: seperti kata pengisi saat menyebutkan barang yang perlu dibeli/permintaan.\nDalam bahasa tulis sederhana dan percakapan sehari-hari, それから sangat umum dan alami.\nTidak menyatakan hubungan sebab-akibat; jika perlu, gunakan それで／だから.\n\nArti: \"setelah itu; lalu; berikutnya\". Dipakai untuk menghubungkan tindakan/gagasan menurut urutan waktu yang jelas.\nNuansa: lebih kuat dalam hal urutan daripada そして (netral). Cocok untuk menyebutkan kegiatan yang dilakukan satu per satu.\nJuga dipakai seperti \"oh ya, satu lagi/sekalian\" saat menambahkan hal yang baru saja teringat dalam percakapan.",
+    "notes": "Saat menyebutkan banyak hal dalam petunjuk, まず／次に／それから／最後に membuat alur sangat jelas.\nDalam percakapan, それから dapat menjadi jeda agar pembicara bisa berpikir, sehingga ritmenya alami.\nHindari menyambung terlalu banyak kalimat dengan それから berturut-turut; ganti dengan それに, そして, そのあと agar tidak monoton.",
+    "mistakes": [
+     "Memakai それから untuk hubungan hasil: salah. Gunakan それで/だから.",
+     "Tertukar dengan そして: jika ingin menekankan \"urutan waktu\", pilih それから; そして hanya menyambung gagasan secara netral.",
+     "Mengulang それから terlalu sering dalam tulisan membuat tulisan monoton; sebaiknya selingi dengan kata sambung lain."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "それから",
+       "Setelah itu; berikutnya",
+       "Menekankan urutan waktu",
+       "<ruby>掃除<rt>そうじ</rt></ruby>した。それから<ruby>勉強<rt>べんきょう</rt></ruby>。"
+      ],
+      [
+       "そして",
+       "Dan; lalu",
+       "Netral, kurang menekankan waktu",
+       "<ruby>安<rt>やす</rt></ruby>い。そしておいしい。"
+      ],
+      [
+       "それに",
+       "Lagi pula",
+       "Menambahkan alasan/ciri",
+       "<ruby>安<rt>やす</rt></ruby>い。それに<ruby>近<rt>ちか</rt></ruby>い。"
+      ],
+      [
+       "それで",
+       "Karena itu, jadi",
+       "Sebab → hasil",
+       "<ruby>雨<rt>あめ</rt></ruby>。それで<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "そのあと（に）",
+       "Setelah itu (kata benda/frasa)",
+       "Maknanya setara, tetapi bukan kata sambung",
+       "そのあと、<ruby>帰<rt>かえ</rt></ruby>った。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 97,
+   "src_hash": "be750d5be730ed96",
+   "fields": {
+    "meaning": "Biasanya, sebagian besar",
+    "connection": "たいてい + V / たいてい + [kalimat/klausa]",
+    "examples": [
+     "Saya biasanya bangun pukul 6.",
+     "Akhir pekan saya biasanya menonton film di rumah.",
+     "Sebagian besar mahasiswa bekerja paruh waktu.",
+     "Toko ini biasanya sepi.",
+     "Musim panas di Jepang biasanya panas."
+    ],
+    "explain": "Diletakkan di awal kalimat atau sebelum predikat.\nNuansanya umum, tidak menegaskan 100%.\nCocok untuk menggambarkan kebiasaan dan kecenderungan.\n\nHampir selalu, sebagian besar waktu; membicarakan kebiasaan dan kecenderungan umum.\nLebih kuat daripada \"よく\", lebih lemah daripada \"いつも\".\nTidak dipakai untuk menyatakan \"kira-kira suatu angka\".",
+    "notes": "Dalam iklan/berita kadang memakai kanji \"大抵\".\n\"たいていのN\" membantu membatasi cakupan subjek: たいていの子ども, たいていの場合.\nJika ingin lebih pasti, \"ほぼ/ほとんど\" mungkin lebih cocok, tetapi nuansanya berbeda.",
+    "mistakes": [
+     "Memakai \"たいてい\" untuk memperkirakan angka → salah fungsi.",
+     "Tertukar dengan \"いつも\": tingkatnya lebih kuat daripada \"たいてい\".",
+     "Menghilangkan \"の\" saat menjadi penjelas: harus \"たいていの人\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "たいてい",
+       "Hampir selalu",
+       "Frekuensi tinggi",
+       "たいてい<ruby>行<rt>い</rt></ruby>きます"
+      ],
+      [
+       "いつも",
+       "Selalu",
+       "Hampir 100%",
+       "いつも<ruby>遅<rt>おく</rt></ruby>れます"
+      ],
+      [
+       "よく",
+       "Sering",
+       "Sedang hingga cukup tinggi",
+       "よく<ruby>勉強<rt>べんきょう</rt></ruby>します"
+      ],
+      [
+       "たまに",
+       "Kadang-kadang",
+       "Frekuensi rendah",
+       "たまに<ruby>行<rt>い</rt></ruby>きます"
+      ],
+      [
+       "だいたい",
+       "Kira-kira/secara garis besar",
+       "Bukan frekuensi",
+       "だいたい1000<ruby>円<rt>えん</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 98,
+   "src_hash": "e644a8b09b798fd4",
+   "fields": {
+    "meaning": "Kira-kira, sebagian besar",
+    "connection": "だいたい + [jumlah/N] / だいたい + V",
+    "examples": [
+     "Ke sekolah kira-kira 20 menit.",
+     "Saya sudah memahami garis besar isi buku ini.",
+     "Makan siang kira-kira sekitar 500 yen.",
+     "Persiapannya sebagian besar sudah selesai.",
+     "Kira-kira saja tidak apa-apa, jadi tolong beri tahu jumlahnya."
+    ],
+    "explain": "Diletakkan tepat sebelum hal yang diperkirakan atau di awal kalimat.\nNetral, dapat dipakai di hampir semua situasi.\nCocok saat tidak diperlukan ketepatan mutlak.\n\nPerkiraan jumlah/waktu (about/approximately).\nPenilaian umum, tidak rinci (generally/broadly).\nTidak dipakai untuk \"frekuensi\" (berbeda dengan \"たいてい\").",
+    "notes": "Kanji: 大体; di N5 utamakan kana \"だいたい\".\n\"だいたい合っている\" = kurang lebih benar.\nDalam percakapan: \"だいたいね…\" membuka gagasan \"pada umumnya…\".",
+    "mistakes": [
+     "Tertukar dengan \"たいてい\" (frekuensi) → salah konteks.",
+     "Menggabungkan dengan angka pasti dan kata \"ちょうど\" menimbulkan pertentangan.",
+     "Menghilangkan \"ぐらい/くらい\" saat perlu menekankan perkiraan: dalam banyak konteks, adanya \"ぐらい\" lebih alami."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だいたい",
+       "Kira-kira/secara garis besar",
+       "Bukan frekuensi",
+       "だいたい<ruby>100人<rt>ひゃくにん</rt></ruby>"
+      ],
+      [
+       "たいてい",
+       "Hampir selalu/biasanya",
+       "Membicarakan kebiasaan",
+       "たいてい<ruby>家<rt>いえ</rt></ruby>にいる"
+      ],
+      [
+       "およそ",
+       "Kira-kira (formal)",
+       "Bahasa tulis, berita",
+       "およそ3<ruby>割<rt>わり</rt></ruby>"
+      ],
+      [
+       "ほとんど",
+       "Hampir",
+       "Cakupan tinggi",
+       "ほとんど<ruby>終<rt>お</rt></ruby>わった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 99,
+   "src_hash": "e4cd7f5ba97cd4c6",
+   "fields": {
+    "meaning": "Oleh karena itu…",
+    "connection": "[kalimat/klausa]。だから/ですから、[kalimat/klausa]",
+    "examples": [
+     "Saya tidak punya waktu. Karena itu, hari ini tidak bisa.",
+     "Berbahaya. Oleh karena itu, mohon jangan mendekat.",
+     "Saya suka belajar. Karena itu, saya sering pergi ke perpustakaan.",
+     "Hujan. Karena itu, saya membawa payung.",
+     "Murah. Karena itu, saya membelinya."
+    ],
+    "explain": "Diletakkan setelah kalimat yang menyatakan alasan untuk mengantar ke kesimpulan.\nSesuaikan kesopanan dengan lawan bicara: だから → ですから.\nSangat alami dipakai untuk menjawab \"どうして？\".\n\nMenghubungkan alasan yang sudah disebutkan (S1) dengan hasil/niat (S2) dengan arti \"oleh karena itu/jadi\".\nSantai, langsung; ganti dengan \"ですから\" saat perlu sopan.\nBerbeda dengan \"ので/から\" (penghubung di dalam kalimat) dan \"それで\" (kelanjutan peristiwa).",
+    "notes": "Jika ingin lebih halus lagi: \"ですので\" (tingkat lanjut) sebagai pengganti \"ですから\".\n\"だからこそ\" menekankan keniscayaan hasil yang bernuansa positif.\nHindari mengulang \"だから\" terlalu sering dalam satu bagian pembicaraan.",
+    "mistakes": [
+     "Menghilangkan kalimat alasan (S1) → \"だから\" menjadi terasa tiba-tiba.",
+     "Tertukar dengan \"それで\" dalam bahasa tulis naratif.",
+     "Memakai \"だから\" kepada atasan/pelanggan: kurang sopan → ganti dengan \"ですから\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Penggunaan",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だから",
+       "Kata sambung",
+       "Bahasa lisan",
+       "<ruby>雨<rt>あめ</rt></ruby>。だから<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "ですから",
+       "Formal",
+       "Sopan",
+       "<ruby>忙<rt>いそが</rt></ruby>しいです。ですから<ruby>無理<rt>むり</rt></ruby>です。"
+      ],
+      [
+       "ので",
+       "Di dalam kalimat",
+       "Halus, sopan",
+       "<ruby>雨<rt>あめ</rt></ruby>なので<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "から",
+       "Di dalam kalimat",
+       "Langsung",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>行<rt>い</rt></ruby>かない。（Nだから）"
+      ],
+      [
+       "それで",
+       "Kelanjutan",
+       "Kurang menekankan alasan",
+       "<ruby>雨<rt>あめ</rt></ruby>でした。それで<ruby>中止<rt>ちゅうし</rt></ruby>に。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 100,
+   "src_hash": "3db326efec7e5c55",
+   "fields": {
+    "meaning": "Seseorang",
+    "examples": [
+     "Ada seseorang yang sedang mengetuk pintu.",
+     "Apakah ada orang?",
+     "Saya sedang mencari seseorang.",
+     "Bisakah saya minta tolong seseorang membantu?",
+     "Ini tas milik seseorang.",
+     "Akhir pekan saya akan pergi menonton film dengan seseorang."
+    ],
+    "explain": "Dipakai saat pembicara tidak tahu secara pasti siapa orangnya atau tidak ingin menyebutkannya dengan jelas.\nDalam kalimat tanya, だれか～? mengisyaratkan mungkin ada orang seperti itu (mengharapkan jawaban \"ada/tidak\").\nDalam permintaan/minta tolong, だれか～! bernuansa mendesak: だれか助けて！\nBahasa sopan: dapat memakai どなたか (bentuk sopan dari だれか).\nTidak dipakai dengan bentuk negatif untuk berarti \"tidak ada seorang pun\"; ganti dengan だれも～ない.\n\nだれか berarti \"seseorang, orang tertentu\" (tidak pasti).\nBiasanya dipakai dalam kalimat positif atau kalimat tanya untuk membicarakan seseorang yang tidak jelas siapa.\nMenekankan \"seseorang di antara orang-orang yang mungkin\", tetapi bukan \"siapa pun\" (berbeda dengan だれでも).\nDisertai partikel seperti が, を, に, と, へ, の sesuai perannya dalam kalimat.\nだれか + ません/ない tidak dipakai untuk arti \"tidak ada seorang pun\"; untuk mengatakan \"tidak ada seorang pun\" gunakan だれも～ません/ない.",
+    "notes": "Saat menjadi penjelas: だれかのN (contoh: だれかの手紙).\nDalam percakapan, dapat terjadi penghilangan partikel jika mudah dipahami: だれか来た？\nDigabung dengan もし: もし だれか困っていたら、助けましょう。 menambah nuansa pengandaian.",
+    "mistakes": [
+     "Salah: だれか来ません。→ Benar: だれも来ません。 (tidak ada seorang pun yang datang)",
+     "Tertukar だれか dengan だれでも: だれか入れます (seseorang) ≠ だれでも入れます (siapa pun bisa masuk).",
+     "Lupa partikel yang sesuai: だれかに聞きます, だれかを探します, だれかと行きます."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だれか",
+       "Seseorang (tidak pasti)",
+       "Positif/pertanyaan; satu orang yang tidak diketahui siapa",
+       "だれかが <ruby>来<rt>き</rt></ruby>た。"
+      ],
+      [
+       "だれでも",
+       "Siapa saja / siapa pun",
+       "Meniadakan sifat perorangan; berlaku untuk semua orang",
+       "だれでも <ruby>参加<rt>さんか</rt></ruby>できます。"
+      ],
+      [
+       "だれも～ない",
+       "Tidak ada seorang pun",
+       "Wajib dipakai dengan bentuk negatif",
+       "だれも <ruby>来<rt>き</rt></ruby>ません。"
+      ],
+      [
+       "なにか / どこか / いつか",
+       "Sesuatu / suatu tempat / suatu saat",
+       "Mirip だれか tetapi untuk benda, tempat, waktu",
+       "なにか <ruby>食<rt>た</rt></ruby>べます。/ どこか <ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どなたか",
+       "Seseorang (sopan)",
+       "Lebih sopan daripada だれか",
+       "どなたか いらっしゃいますか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 101,
+   "src_hash": "4ba723e858f4b738",
+   "fields": {
+    "meaning": "Siapa pun",
+    "connection": "だれでも + V (positif)",
+    "examples": [
+     "Siapa pun boleh masuk ke perpustakaan ini.",
+     "Soal ini bisa dipahami siapa pun.",
+     "Siapa pun bisa ikut acara ini.",
+     "Ini adalah aplikasi yang bisa dipakai siapa pun.",
+     "Siapa pun pernah gagal.",
+     "Ada papan besar supaya siapa pun bisa mengenali pintu masuknya."
+    ],
+    "explain": "Dipakai dalam konteks netral/objektif (iklan, petunjuk, peraturan, perkenalan).\nSaat menekankan \"sasaran tidak dibatasi\": だれでもOK, だれでも歓迎.\nHindari pemakaian dengan makna yang terlalu pribadi sehingga sulit berlaku umum (misalnya: \"semua orang suka makanan ini\" bisa terdengar berlebihan).\nBentuk sopan: どなたでも untuk orang asing/pelanggan.\n\nMenyatakan sifat menyeluruh: \"siapa pun…/semua orang…\".\nBiasanya dipakai dalam aturan, pengumuman, serta untuk menggambarkan kemudahan atau sifat umum.\nCocok dengan kata kerja yang menyatakan kemampuan, hak pakai, tingkat mudah/sulit, paham/tahu.\nTidak dipakai untuk mengatakan \"tidak ada seorang pun\" (dengan bentuk negatif mudah disalahpahami sebagai \"tidak semua orang…\").\nDalam ajakan/usulan yang halus, dapat dipakai: だれでも来てください (siapa pun silakan datang).",
+    "notes": "Saat ditambah は: だれでもは～ menekankan topik yang dikontraskan, bernuansa penekanan.\nBentuk penjelas yang umum dalam iklan: だれでも簡単に～できる.\nHati-hati dengan bentuk negatif: だれでも～ない biasanya dipahami sebagai \"tidak semua orang…\", bukan \"tidak ada seorang pun…\".",
+    "mistakes": [
+     "Tertukar dengan だれも: \"siapa pun\" harus だれでも, bukan だれも.",
+     "Memakai だれでも + ません untuk mengatakan \"tidak ada seorang pun\" adalah salah; harus memakai だれも～ません.",
+     "Tertukar dengan みんな: みんな adalah \"semua orang\" (kelompok tertentu), だれでも adalah \"siapa pun\" (terbuka, bersifat syarat)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だれでも",
+       "Siapa saja / siapa pun",
+       "Menyeluruh, positif",
+       "だれでも <ruby>入<rt>い</rt></ruby>れます。"
+      ],
+      [
+       "だれか",
+       "Seseorang",
+       "Satu orang yang tidak pasti, tidak menyeluruh",
+       "だれかが <ruby>呼<rt>よ</rt></ruby>んでいます。"
+      ],
+      [
+       "だれも～ない",
+       "Tidak ada seorang pun",
+       "Wajib dipakai dengan bentuk negatif",
+       "だれも <ruby>来<rt>き</rt></ruby>ません。"
+      ],
+      [
+       "みんな",
+       "Semua orang",
+       "Kelompok tertentu, tidak bermakna \"siapa pun\"",
+       "みんな <ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "どなたでも",
+       "Siapa pun (sopan)",
+       "Lebih sopan daripada だれでも",
+       "どなたでも <ruby>参加<rt>さんか</rt></ruby>できます。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 102,
+   "src_hash": "d2615f34dcc10409",
+   "fields": {
+    "meaning": "Tidak ada seorang pun",
+    "examples": [
+     "Hari ini tidak ada seorang pun yang datang.",
+     "Tidak ada seorang pun yang tahu hal ini.",
+     "Saya tidak berbicara dengan siapa pun di pesta.",
+     "Karena sibuk, saya tidak bertemu siapa pun.",
+     "Tidak ada seorang pun yang bisa menjawab pertanyaan itu.",
+     "Karena malam hari berbahaya, tidak ada seorang pun yang keluar."
+    ],
+    "explain": "Dipakai untuk meniadakan seluruh kelompok orang yang mungkin terkait.\nPenambahan も memberi nuansa \"bahkan satu orang pun tidak…\".\nDalam bahasa lisan, penekanan dapat diperkuat dengan ぜんぜん/まったく (tetapi hati-hati dengan tingkatnya): ぜんぜん だれも来ない。\nKala lampau: だれも来ませんでした tetap bermakna \"tidak ada seorang pun yang…\".\n\nだれも～ません/ない menyatakan \"tidak ada seorang pun …\".\nBentuk negasi total terhadap subjek berupa \"orang\".\nPartikel digabung sesuai hubungannya: に → だれにも, と → だれとも.\nTidak dipakai dengan bentuk positif (だれも～ます/だれも～だ) dalam bahasa Jepang standar modern.\nPenekanan saat diletakkan di awal kalimat: だれも～ない → negasi kuat \"sama sekali tidak ada seorang pun\".",
+    "notes": "Jika perlu \"tidak sekali pun\": 一度も～ません (tidak sekali pun), berbeda dengan だれも (sasarannya orang).\nJangan menyisipkan が setelah だれも saat menjadi subjek kalimat negatif: biasanya だれも来ません (bukan だれもが来ません).\nSaat perlu sopan dalam layanan: どなたも～ません/いらっしゃいません.",
+    "mistakes": [
+     "Memakai bentuk positif dengan だれも: Salah \"だれも来ます\" → Benar \"だれも来ません\"。",
+     "Lupa mengubah に/と menjadi だれにも/だれとも dalam kalimat negatif.",
+     "Tertukar dengan だれでも～ない: \"tidak semua orang…\" ≠ \"tidak ada seorang pun…\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だれも～ない",
+       "Tidak ada seorang pun",
+       "Wajib negatif",
+       "だれも <ruby>来<rt>こ</rt></ruby>ない。"
+      ],
+      [
+       "だれでも",
+       "Siapa pun",
+       "Positif, menyeluruh",
+       "だれでも <ruby>入<rt>い</rt></ruby>れる。"
+      ],
+      [
+       "だれか",
+       "Seseorang",
+       "Tidak pasti, tidak meniadakan seluruhnya",
+       "だれかが いる。"
+      ],
+      [
+       "なにも～ない",
+       "Tidak ada apa pun",
+       "Sasarannya benda",
+       "なにも いらない。"
+      ],
+      [
+       "どこも～ない",
+       "Tidak ada tempat mana pun",
+       "Sasarannya tempat",
+       "どこも <ruby>開<rt>ひら</rt></ruby>いていない。"
+      ],
+      [
+       "どなたも～ません",
+       "Tidak ada seorang pun (sopan)",
+       "Sopan, dipakai kepada pelanggan/mitra",
+       "どなたも いません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

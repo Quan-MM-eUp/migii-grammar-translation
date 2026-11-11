@@ -1,0 +1,657 @@
+{
+ "batch": "b001",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 1,
+   "src_hash": "dc37b6611f0eeefa",
+   "fields": {
+    "meaning": "N + A\nseperti apa?",
+    "examples": [
+     "A: Kamera Tanaka-san kamera yang seperti apa?\nB: Kamera yang mahal.",
+     "A: Gunung Fuji itu gunung yang seperti apa?\nB: Gunung yang terkenal."
+    ],
+    "explain": "Ketika menjadi penjelas bagi kata benda, kata sifat diletakkan di depan kata benda dengan tetap mempertahankan い/な.\nどんな diletakkan di depan kata benda untuk menanyakan sifat atau keadaan kata benda tersebut.\n\nFrasa A + N akan memiliki sifat seperti kata benda."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 2,
+   "src_hash": "3a75ec83fe2457b3",
+   "fields": {
+    "meaning": "benda ini, ini\nbenda itu, itu\nbenda yang di sana, itu (di sana)",
+    "connection": "これ・それ・あれ + (です/partikel)",
+    "examples": [
+     "Ini payung.",
+     "Itu (di sana) mobil Tanaka-san.",
+     "Itu buku saya."
+    ],
+    "explain": "これ、それ、あれ：Hanya digunakan untuk benda.\nこのN、そのN、あのN：Dapat digunakan untuk orang maupun benda. Selalu disertai kata benda.\n►Penggunaan:\nこれ、このN：Digunakan ketika benda berada dekat dengan pembicara.\nそれ、そのN：Digunakan ketika benda berada jauh dari pembicara, dekat dengan lawan bicara.\nあれ、あのN：Digunakan ketika benda berada jauh dari pembicara maupun lawan bicara.\n\nこれ：benda ini, ini\nそれ：benda itu, itu\nあれ：benda yang di sana, itu (di sana)\nこのN：N ini\nそのN：N itu\nあのN：N (di sana) itu"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 3,
+   "src_hash": "12447aca54540a1f",
+   "fields": {
+    "meaning": "N ini\nN itu\nN (di sana) itu",
+    "examples": [
+     "Beliau (di sana) itu Yamada-sensei.",
+     "Buku ini bukan buku bahasa Jepang.",
+     "Orang itu siapa?"
+    ],
+    "explain": "これ、それ、あれ：Hanya digunakan untuk benda.\nこのN、そのN、あのN：Dapat digunakan untuk orang maupun benda. Selalu disertai kata benda.\n►Penggunaan:\nこれ、このN：Digunakan ketika benda berada dekat dengan pembicara.\nそれ、そのN：Digunakan ketika benda berada jauh dari pembicara, dekat dengan lawan bicara.\nあれ、あのN：Digunakan ketika benda berada jauh dari pembicara maupun lawan bicara.\n\nこれ：benda ini, ini\nそれ：benda itu, itu\nあれ：benda yang di sana, itu (di sana)\nこのN：N ini\nそのN：N itu\nあのN：N (di sana) itu"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 4,
+   "src_hash": "d5bc846f4e043a07",
+   "fields": {
+    "name": "Kalimat tanya dengan kata tanya",
+    "meaning": "Kalimat tanya dengan kata tanya: …apa/siapa/di mana?",
+    "connection": "～は + [kata tanya] + ですか（jawaban: ～は + Nです）",
+    "examples": [
+     "A: Beliau (di sana) itu siapa?\nB: Yamada-san.",
+     "A: Anda berumur berapa tahun?\nB: Saya berumur 20 tahun."
+    ],
+    "explain": "Ganti bagian yang ingin ditanyakan dengan kata tanya. Kata tanya adalah kata-kata yang digunakan untuk bertanya, misalnya: siapa? apa? di mana? berapa umurnya? berapa harganya? …\nUntuk jenis kalimat tanya ini, jawaban diberikan secara langsung tanpa はい atau いいえ."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 5,
+   "src_hash": "794ea5ffb3a7d41d",
+   "fields": {
+    "name": "Kalimat tanya konfirmasi",
+    "meaning": "Apakah ~?",
+    "connection": "～は + N + ですか（jawaban: はい、Nです / いいえ、Nじゃありません）",
+    "examples": [
+     "A: Apakah Schmidt-san orang Jerman?\nB: Ya, orang Jerman.",
+     "A: Apakah Anda berumur 18 tahun?\nB: Bukan, saya berumur 20 tahun."
+    ],
+    "explain": "Ini adalah bentuk kalimat tanya konfirmasi, untuk memastikan apakah suatu informasi benar atau salah.\nSaat menjawab harus menggunakan はい(ya) atau いいえ(bukan)."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 6,
+   "src_hash": "c032669a0c470f80",
+   "fields": {
+    "name": "Belajar menyebut jam dan menit",
+    "meaning": "jam berapa?\nmenit berapa?",
+    "examples": [
+     "A: Sekarang jam berapa lewat berapa menit?\nB: Jam tujuh lewat tiga puluh menit.\nJam setengah delapan.",
+     "A: Di Jepang sekarang jam berapa?\nB: Jam sembilan."
+    ],
+    "explain": "～じはん：jam ~ lewat setengah (lewat 30 menit)\nContoh: jam dua lewat setengah (setengah tiga): にじはん\nはん setara dengan 30 menit, tetapi はん tidak digunakan sendirian; selalu harus disertai jam."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 7,
+   "src_hash": "4b31e13400f45e80",
+   "fields": {
+    "name": "Menanyakan harga",
+    "meaning": "berapa harganya?",
+    "examples": [
+     "A: Sepatu ini harganya berapa?\nB: 800 yen.",
+     "A: Buku agenda itu harganya berapa?\nB: 50.000 dong."
+    ],
+    "explain": "Saat menjawab tentang harga, digunakan bilangan bersama satuan mata uang.\nContoh: 80.000 dong : はちまん　ドン"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 8,
+   "src_hash": "ad8162773df3701d",
+   "fields": {
+    "name": "Menanyakan nomor telepon",
+    "meaning": "nomor berapa?",
+    "examples": [
+     "A: Nomor telepon perpustakaan berapa?\nB: 08 678 789.",
+     "A: Nomor ponsel Yamada-sensei berapa?\nB: 0909 707 708."
+    ],
+    "explain": "Nomor telepon dibaca angka per angka.\nJika nomor teleponnya panjang, nomor dibaca per kelompok dengan memisahkannya menggunakan の.\nContoh: 0650-222-123 : ゼロろくごゼロの　にににの　いちにさん"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 9,
+   "src_hash": "9396856e3292a9f9",
+   "fields": {
+    "name": "Menanyakan umur",
+    "meaning": "~ berumur berapa?",
+    "examples": [
+     "A: Yamada-sensei berumur berapa?\nB: Yamada-sensei berumur 40 tahun.",
+     "A: Anda berumur berapa tahun?\nB: 21 tahun."
+    ],
+    "explain": "Gunakan なんさい atau おいくつ untuk menanyakan umur. おいくつ adalah cara sopan untuk menanyakan umur."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 10,
+   "src_hash": "7a508f7b5c207924",
+   "fields": {
+    "name": "Menanyakan dan menghitung lantai gedung",
+    "meaning": "Lantai berapa?",
+    "connection": "～は + なんがい + ですか（jawaban: ～かいです）",
+    "examples": [
+     "A: Bagian penjualan jam ada di lantai berapa?\nB: Di lantai tiga.",
+     "A: Toko buku ada di lantai berapa?\nB: Di lantai bawah tanah kedua."
+    ],
+    "explain": "Lantai dasar dihitung sebagai lantai 1\nUntuk menghitung lantai bawah tanah, digunakan ちか di depannya.\nContoh: Lantai bawah tanah pertama　→　ちかいっかい"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 11,
+   "src_hash": "9d1fdd14fb097f75",
+   "fields": {
+    "name": "Pola kalimat untuk menunjukkan tempat",
+    "meaning": "Menunjukkan tempat: ini adalah…, …ada di sini (memperkenalkan vs menekankan posisi)",
+    "connection": "ここ/そこ/あそこ + は + Nです（memperkenalkan） / Nは + ここ/そこ/あそこ + です（menekankan posisi）",
+    "examples": [
+     "Ini rumah saya.",
+     "Rumah saya di sini."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 12,
+   "src_hash": "2fff81d4b380552d",
+   "fields": {
+    "name": "N を V(kata kerja transitif)",
+    "meaning": "Melakukan sesuatu terhadap N (kerangka objek langsung: NをV)",
+    "examples": [
+     "Saya makan roti.",
+     "Minum air."
+    ],
+    "explain": "Partikel を：digunakan untuk menunjukkan sasaran yang dikenai tindakan kata kerja.\nKata benda yang berada di depan を adalah sasaran yang dikenai tindakan kata kerja dan disebut objek, yang secara langsung menjadi penjelas bagi kata kerja tersebut."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 13,
+   "src_hash": "0f9b332869b1d4b8",
+   "fields": {
+    "meaning": "Melakukan/bermain N (Nをします: テニスをします)",
+    "examples": [
+     "Bekerja.",
+     "Bermain sepak bola.",
+     "Mengadakan pesta.",
+     "Menelepon."
+    ],
+    "explain": "Nをします　Melakukan, bermain, mengadakan … N.\nKata kerja します memiliki cakupan yang luas dalam hal kata benda yang menjadi objeknya. Menyatakan tindakan yang dilakukan sesuai dengan arti yang diungkapkan oleh objek tersebut."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 14,
+   "src_hash": "5d67df1f41928450",
+   "fields": {
+    "name": "N1とN2N1 dan N2",
+    "meaning": "N1 dan N2",
+    "examples": [
+     "Hari libur bank adalah hari Sabtu dan Minggu.",
+     "A: Perpustakaan ada di lantai berapa?\nB: Lantai 3 dan lantai 4."
+    ],
+    "explain": "Partikel と menghubungkan 2 kata benda yang setara dan berarti \"dan\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 15,
+   "src_hash": "4237926b3a3ccbb4",
+   "fields": {
+    "meaning": "Kata tanya なん | Kata tanya だれ | Penghilangan N1 | Kata tanya　どこ",
+    "connection": "N + の + N / Kata tanya (なん/だれ) + の + N",
+    "examples": [
+     "Yamada-san adalah guru laki-laki.",
+     "Itu (di sana) kamus Tanaka-san.",
+     "Itu (di sana) mobil Jerman.",
+     "A: Ini buku apa?\nB: Buku bahasa Jepang.",
+     "A: Ini buku siapa?\nB: Buku saya.",
+     "A: Itu (di sana) buku siapa?\nB: Punya Miller-san."
+    ],
+    "explain": "N 2 の N 1 です　N 1 dapat dihilangkan (penghilangan) jika N 1 sudah muncul sebelumnya dan merupakan kata benda yang menunjukkan benda.\n\n\"の\" hanya digunakan untuk menggantikan kata benda yang menunjukkan benda, tidak digunakan untuk kata benda orang.\n\nN1 tentang apa?\nN1 tentang N2"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 16,
+   "src_hash": "98564f149825fd68",
+   "fields": {
+    "name": "Kata tanya untuk menanyakan waktu いつ",
+    "meaning": "Kapan?",
+    "examples": [
+     "A: Ulang tahun Anda kapan?\nB: Tanggal 20 Juli.",
+     "A: Kapan Anda pergi ke Jepang?\nB: Saya akan pergi ke Jepang pada bulan April tahun ini."
+    ],
+    "explain": "いつ：Digunakan untuk menanyakan waktu. Tidak disertai に"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 17,
+   "src_hash": "6f20653944eab135",
+   "fields": {
+    "name": "Partikel が",
+    "meaning": "Subjek, sasaran yang ditekankan",
+    "examples": [
+     "Ada anjing.",
+     "Di sini ada buku.",
+     "Saya mengerti bahasa Jepang.",
+     "Saya suka apel.",
+     "Gunungnya terlihat.",
+     "Adik laki-laki saya sudah datang."
+    ],
+    "explain": "が digunakan untuk memperkenalkan informasi baru dalam kalimat (informasi yang belum diketahui lawan bicara).\nは digunakan untuk membicarakan informasi yang sudah diketahui atau topik umum percakapan.\nDalam kalimat yang mengandung \"が\", bagian sebelum \"が\" adalah inti informasi – bagian yang ingin ditekankan oleh pembicara.\nSering muncul dalam jawaban untuk kalimat tanya \"Siapa?\", \"Apa?\", \"Di mana?\", \"Yang mana?\" (～が～です／～がいます／～があります).\n\n① Menentukan subjek (orang/benda yang melakukan tindakan, yang ada…):\nKetika ingin mengatakan \"siapa/apa yang ada, berada, muncul, mengetahui, menyukai…\", kita menggunakan が.\n② Digunakan untuk menekankan sasaran yang dibicarakan:\n\"が\" sering digunakan ketika ingin menekankan siapa/apa yang sedang melakukan sesuatu atau sedang berada.\n③ Digunakan dengan kata kerja keadaan, serta kata kerja yang menyatakan perasaan, kemampuan, keberadaan:\nあります・います・わかります・好きです・嫌いです・上手です・下手です・見えます・聞こえます…",
+    "notes": "\"が\" muncul dalam banyak struktur JLPT N5 lainnya seperti:～がいます／～があります／～がわかります／～が好きです／～が見えます／～が聞こえます。\nDalam percakapan alami, \"が\" dapat dihilangkan (penghilangan) jika lawan bicara sudah memahami konteksnya:（だれが来た？）→山田。\n\"が\" juga digunakan dalam struktur penghubung kalimat yang menyatakan kontras ringan:雨が降っていますが、行きます。→ Sedang hujan, tetapi saya tetap pergi.",
+    "mistakes": [
+     "Tertukar antara が dan は:",
+     "✕私は犬が好きです → (benar, tetapi jika dibandingkan) \"は\" menekankan topik; \"が\" menekankan sasaran yang disukai.",
+     "→ \"が\" barulah yang alami:私は犬が好きです。",
+     "Lupa menggunakan が dalam kalimat dengan います／あります:",
+     "✕ ここにねこいます → ○ ここにねこがいます。",
+     "Menggunakan \"を\" sebagai pengganti \"が\" sehingga salah tata bahasa:",
+     "✕日本語をわかります → ○日本語がわかります。",
+     "JLPT N5 sering menguji: memilih dengan benar antara \"が\" dan \"は\", terutama dalam kalimat tentang \"kesukaan\", \"pemahaman\", \"keberadaan\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Partikel",
+      "Arti / fungsi",
+      "Kapan digunakan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "が",
+       "Menunjukkan subjek / menekankan informasi baru",
+       "Saat menjawab \"Siapa?\", \"Apa?\", \"Di mana?\"",
+       "だれが<ruby>来<rt>き</rt></ruby>ましたか。 → <ruby>山田<rt>やまだ</rt></ruby>さんが<ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "は",
+       "Menunjukkan topik / perbandingan / informasi yang sudah diketahui",
+       "Saat membicarakan topik umum",
+       "<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>学生<rt>がくせい</rt></ruby>です。"
+      ],
+      [
+       "→ \"が\" berfokus pada \"siapa yang datang\", \"は\" berfokus pada \"membicarakan orang tersebut\"."
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 18,
+   "src_hash": "398a887eb61bd34b",
+   "fields": {
+    "name": "Partikel で",
+    "meaning": "Dengan…, di…, karena… | Tempat berlangsungnya tindakan, sarana",
+    "examples": [
+     "Anak-anak sedang bermain di taman.",
+     "Saya pergi ke bandara naik bus.",
+     "Kereta terlambat karena kecelakaan.",
+     "Ayo pergi makan berempat.",
+     "Ini saya beli seharga 1.500 yen.",
+     "Kali ini sudah yang ketiga kalinya."
+    ],
+    "explain": "Tempat: tindakan aktif menggunakan で; keberadaan/tempat berhenti menggunakan に (学校 で 勉強する vs 学校 に いる).\nSebab: で menekankan sebab yang objektif; から/ので cenderung ke alasan yang subjektif/penjelasan.\nDurasi で: 一時間 で 終わる = selesai dalam rentang waktu tersebut; berbeda dengan 一時間 に (frekuensi).\nで sebagai penghubung pada Adj-na/N memiliki nuansa penyebutan yang setara, alami, digunakan baik dalam bahasa tulis maupun lisan.\n\"Jumlah orang で\": 二人 で = \"berdua bersama-sama…\", menunjukkan cakupan peserta.\n\nMenunjukkan tempat berlangsungnya tindakan: Tempat dilakukannya tindakan aktif (学校で勉強する).\nSarana/cara/alat: Alat transportasi, bahasa, perkakas (車で、箸で、日本語で).\nSebab objektif: Bencana alam, insiden, penyakit, kemacetan (地震で、事故で、風邪で).\nBahan/material; harga: 木で作る; 500円で買える.\nCakupan/kelompok/satuan: 三人で (bertiga), 一時間で (dalam 1 jam).\nKedudukan/keadaan; penghubung bentuk て dari だ: 学生で、静かで (setara dengan Adj-naのて形).\nPenyebutan setara/kontras sifat: AでBだ (setara), AではなくB (kontras negatif).\nNuansa \"dengan/berkat/karena\": tergantung konteks dapat terasa positif (～で助かる) atau negatif (～で困る).",
+    "notes": "で dapat bergabung membentuk frasa tetap: これで以上, それでは (では) = \"kalau begitu\".\n\"手段で\" dan \"材料で\" mudah tertukar: ペンで書く (dengan pena) vs 木で作る (dari kayu).\n\"期間で\" tidak digunakan untuk rentang waktu yang berlangsung terus tanpa mengakhiri tindakan: 3年間で仕上げた (selesai dalam 3 tahun) OK; 3年間で勉強している biasanya tidak alami.\nmeaning_vi: A\nMenyatakan tempat berlangsungnya tindakan atau hal seperti pada contoh ① dan tempat terjadinya peristiwa seperti pada contoh ②.\nB\nMenyatakan cara seperti pada contoh ①, bahan seperti pada contoh ②.\nC\nMenyatakan cakupan.\nD\nMenyatakan sebab dan alasan.\nexamples: 1. ①廊下で絵をかきました。\nSaya menggambar lukisan di lorong.\n2. ②近所で火事がありました。\nTelah terjadi kebakaran di dekat sini.\n3. ①毎日自転車で会社に行きます。\nSetiap hari saya pergi ke kantor naik sepeda.\n4. ②紙で人形を作りました。\nSaya membuat boneka dari kertas.\n5. ①日本で一番高い山は富士山です。\nGunung tertinggi di Jepang adalah Gunung Fuji.\n6. ①父は今仕事で忙しいです。\nAyah saya sekarang sedang sibuk karena pekerjaan.\n7. ②かぜで学校へ行けませんでした。\nKarena masuk angin, saya tidak bisa pergi ke sekolah.\n──────\n1. ①　日本で\nDi Jepang.\n2. ②　タイの　大学で　日本を　べんきょうしました。\nSaya belajar bahasa Jepang di universitas di Thailand.\n3. ③　わたしは　毎日　おふろで　うたいます。\nSetiap hari saya bernyanyi di kamar mandi.\n4. ④　へやで　DVDを　見ます。\nMenonton DVD di kamar.\n──────\n1. ①　ひとりで\nSendirian.\n2. ②　いつも　ひとりで　えいがを　見ます。\nSelalu menonton film sendirian.\n3. ③　みなんで　あそびに　行きました。\nSemua orang pergi bermain bersama-sama.\n4. ④　かぞくで　バーべーキューを　しました。\nMengadakan BBQ bersama keluarga.\n──────\n1. ①　車で　行きますか。\nApakah pergi naik mobil?\n2. ②　北海道へ　行きたいです。何で　行きますか。\nSaya ingin pergi ke Hokkaido. Pergi naik apa, ya?\n3. ③　フェリーで　行きます。17時間くらいです。\nPergi naik kapal feri. Sekitar 17 jam.\n4. ④　ホールペンで　書きます。\nMenulis dengan pulpen.",
+    "mistakes": [
+     "Tertukar に dan で: 会議であります (salah) → 会議があります; 会議は会議室であります (diadakan di… menggunakan で).",
+     "Menggunakan から/ので sebagai pengganti で untuk sebab objektif: 事故で遅れた (benar) ≠ 事故だから遅れた (cenderung menjelaskan).",
+     "Adj-i + で (salah): 高いで便利(salah) → 高くて便利.",
+     "Salah \"durasi で\": 一時間に終わる (salah) → 一時間で終わる.",
+     "Penyebutan kata benda menggunakan と, bukan で: りんごとバナナを買う (benar), りんごでバナナ… (salah)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pasangan perbandingan",
+      "Perbedaan",
+      "Pola kalimat",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "で vs に (tempat)",
+       "で: tempat tindakan; に: tempat keberadaan/tujuan",
+       "<ruby>場所<rt>ばしょ</rt></ruby>でV／<ruby>場所<rt>ばしょ</rt></ruby>にいる",
+       "<ruby>駅<rt>えき</rt></ruby>で<ruby>待<rt>ま</rt></ruby>つ／<ruby>駅<rt>えき</rt></ruby>にいる"
+      ],
+      [
+       "で (sebab) vs から/ので",
+       "で: sebab objektif; から/ので: alasan penjelasan",
+       "Nで ～／～から",
+       "<ruby>雪<rt>ゆき</rt></ruby>で<ruby>休校<rt>きゅうこう</rt></ruby>／<ruby>眠<rt>ねむ</rt></ruby>いので<ruby>帰<rt>かえ</rt></ruby>る"
+      ],
+      [
+       "で (sarana) vs を (sasaran)",
+       "で: alat; を: objek langsung",
+       "<ruby>道具<rt>どうぐ</rt></ruby>でV／NをV",
+       "<ruby>箸<rt>はし</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる／ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "で (penghubung) vs くて",
+       "で digunakan untuk な/N; くて untuk kata sifat い",
+       "Aな/Nで、Aいくて",
+       "<ruby>便利<rt>べんり</rt></ruby>で<ruby>安<rt>やす</rt></ruby>くていい"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 19,
+   "src_hash": "aa9d4651282fb521",
+   "fields": {
+    "name": "Partikel と",
+    "meaning": "Bersama dengan | Dan, bersama dengan, kutipan | Partikel penghubung kata benda dengan kata benda",
+    "connection": "N + と / [kalimat/klausa] + と",
+    "examples": [
+     "Mencampur air dan gula.",
+     "Saya menonton film bersama dia.",
+     "Dia berkata, \"Tidak apa-apa.\"",
+     "Saya berpikir untuk pergi besok.",
+     "Begitu musim semi tiba, cuaca menjadi hangat.",
+     "Tokyo dan Osaka berbeda suasananya."
+    ],
+    "explain": "Penyebutan yang ketat: gunakan と ketika daftarnya lengkap; jika tidak lengkap gunakan や/とか.\nSyarat と: klausa belakang tidak menggunakan kehendak/perintah seperti ～てください/～ましょう; digunakan ketika hasilnya pasti, bersifat deskriptif.\nKutipan tanpa tanda petik: 彼は来ない と 思う (kutipan tidak langsung).\nと yang menyatakan kebersamaan diutamakan untuk mitra berupa orang/benda yang berkehendak; untuk alat gunakan で.\n\nPenyebutan yang bersifat menyeluruh: AとB = hanya A dan B, tanpa makna tersirat \"dan lain-lain\".\nKebersamaan/mitra: melakukan sesuatu \"bersama\" seseorang (彼と行く).\nKutipan: melekatkan ucapan, pikiran, tulisan pada papan, aturan pada kata kerja ujaran (言う,思う,書く…).\nSyarat と: hubungan yang pasti dan alami; tidak digunakan untuk kehendak/perintah di klausa belakang.\nPerbandingan: AとBは同じ/違う/比べる.\nPenamaan: AというB = B yang \"disebut\" A.",
+    "notes": "と言えば／と言うと／とすると bernuansa peralihan topik atau pengandaian; perhatikan bahwa artinya berbeda sesuai konteks.\n名詞＋と＋して (sebagai) adalah frasa tetap tingkat lanjut, berbeda dengan \"dan\".\n\"Aと違ってB\": struktur perbandingan kontras yang berguna dalam menulis esai.",
+    "mistakes": [
+     "Menggunakan と syarat dengan perintah/kehendak di klausa belakang: ボタンを押すと、開けてください (tidak alami) → ボタンを押したら、開けてください.",
+     "Tertukar と dan で: 友達と行く (benar, \"dengan teman\") ≠ 友達で行く (salah).",
+     "Penyebutan tidak lengkap tetapi menggunakan と: りんごとなど (salah) → りんごやなど.",
+     "Kutipan tanpa と: 「行かない」思う (salah) → 「行かない」と思う."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "と (penyebutan)",
+       "dan (lengkap)",
+       "Daftar tertutup",
+       "AとB"
+      ],
+      [
+       "や／とか",
+       "dan (dll.)",
+       "Daftar terbuka",
+       "AやBとか"
+      ],
+      [
+       "と (kebersamaan)",
+       "dengan (bersama)",
+       "Mitra yang melakukan bersama",
+       "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "で (alat)",
+       "dengan (alat)",
+       "Bukan kebersamaan",
+       "<ruby>箸<rt>はし</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "と (syarat)",
+       "begitu… maka…",
+       "Pasti/alami",
+       "<ruby>春<rt>はる</rt></ruby>と<ruby>咲<rt>さ</rt></ruby>く"
+      ],
+      [
+       "なら／たら",
+       "jika…",
+       "Pengandaian/syarat umum",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 20,
+   "src_hash": "9427bb57a1e2d165",
+   "fields": {
+    "name": "Partikel に",
+    "meaning": "Di…, ke…, untuk… | Tempat, titik waktu, tujuan",
+    "examples": [
+     "Rapat dimulai pukul 3 sore.",
+     "Kalau sudah sampai di stasiun, telepon ya.",
+     "Ada komputer di meja.",
+     "Saya pergi ke Jepang untuk belajar bahasa Jepang.",
+     "Bertanya kepada guru.",
+     "Saya dikirimi foto oleh teman."
+    ],
+    "explain": "Waktu: digunakan dengan titik waktu yang spesifik (３時, ４月１日). Dengan kata seperti 今日/明日/来週 biasanya に dihilangkan: 明日会う.\nTempat: に untuk tujuan/keberadaan; で untuk tempat berlangsungnya tindakan: 学校 に 行く vs 学校 で 勉強する.\nTujuan: Vます + に + 行く/来る/帰る. Menekankan tujuan perjalanan.\nPerubahan/membuat menjadi: Aい menggunakan く, Aな/N menggunakan に: 部屋をきれいにする／値段を高くする.\n\nTujuan arah/tempat tujuan yang spesifik: menekankan titik akhir, berbeda dengan へ (hanya menunjukkan arah).\nTempat keberadaan: digunakan dengan ある/いる untuk mengatakan \"berada di, ada\".\nTitik waktu tertentu: jam, tanggal, bulan; kata yang menunjukkan waktu umum (今日、明日) biasanya tidak menggunakan に.\nTujuan dengan Vます-stem: \"pergi/datang untuk …\".\nMenyatakan perubahan hasil: N/Adj-na + になる; dengan kata sifat い menggunakan くなる.\nSasaran tidak langsung: penerima dalam kata kerja memberi-menerima.\nSatuan/frekuensi: 一日に, 一時間に, 一人に…\nPelaku dalam kalimat pasif: NにVられる.",
+    "notes": "• Pelaku dalam kalimat pasif adalah orang/benda yang secara aktif menyebabkan: 先生に褒められた. Ketika menyatakan \"oleh\" dalam arti sebab/berkat, gunakan ～によって.\n• Tempat tujuan abstrak: 質問に答える（menjawab \"terhadap\" pertanyaan）, 相談に乗る.\n• Takaran: 100グラムに塩を5グラム（setiap 100 g, 5 g garam）.\n• Menyatakan sasaran perasaan: 彼女に夢中だ（tergila-gila padanya）.",
+    "mistakes": [
+     "Tertukar に dengan で: ×学校に勉強する → 〇学校で勉強する.",
+     "Salah dalam tujuan: ×本を買うに行く → 〇本を買いに行く（gunakan Vます tanpa ます）.",
+     "Menambahkan に pada waktu yang tidak spesifik: ×今日に行く → 〇今日行く. Hanya titik waktu yang spesifik yang menggunakan に: ３時に行く.",
+     "Aい menggunakan に dalam なる/する: ×高になる → 〇高くなる. Hanya Aな/N yang menggunakan に.",
+     "Tempat tujuan vs arah: ×東京へ着く (masih dapat diterima) tetapi yang baku adalah 東京に着く（tempat tujuan yang spesifik）."
+    ],
+    "comparison": {
+     "headers": [
+      "Partikel",
+      "Arti",
+      "Pembedaan cepat",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "に",
+       "Tujuan, titik waktu, keberadaan, hasil",
+       "Titik/tujuan",
+       "<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く／<ruby>机<rt>つくえ</rt></ruby>にある"
+      ],
+      [
+       "へ",
+       "Arah",
+       "Samar, tidak menekankan tujuan",
+       "<ruby>東京<rt>とうきょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "で",
+       "Tempat berlangsungnya tindakan/sarana",
+       "Tempat melakukan sesuatu",
+       "<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>する"
+      ],
+      [
+       "を",
+       "Objek langsung/rute",
+       "Benda yang dikenai tindakan/yang dilalui",
+       "<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>る"
+      ],
+      [
+       "と",
+       "Dengan/bersama",
+       "Kebersamaan/kutipan",
+       "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>行<rt>い</rt></ruby>く"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 21,
+   "src_hash": "2e166b88650fbb41",
+   "fields": {
+    "name": "Partikel の",
+    "meaning": "Kepemilikan, penjelas",
+    "examples": [
+     "(Saya) mahasiswa Universitas Fuji.",
+     "(Saya) dosen Universitas Sakura.",
+     "Saya suka musik Jepang.",
+     "Bangun pagi itu baik untuk kesehatan.",
+     "Saya khawatir dia tidak datang.",
+     "Tolong beri saya yang murah."
+    ],
+    "explain": "のだ／んだ menambahkan nuansa penjelasan, berbagi latar belakang; saat bertanya: ～の？／～んですか？ membuat pertanyaan menjadi ungkapan halus.\nNominalisasi dengan の sering digunakan ketika pelakunya adalah pembicara dan isinya akrab, memberi kesan konkret.\nMengganti kata benda dengan の memerlukan konteks yang jelas; dapat ditambahkan もの untuk memperkuat nuansa benda berwujud.\n\n「の」 adalah partikel serbaguna: menghubungkan kata benda (kepemilikan/atribut), nominalisasi klausa, menggantikan kata benda, dan menyatakan nuansa penjelasan dengan 「のだ／んだ」.\nNominalisasi dengan 「の」 cenderung ke hal yang konkret dan emosional; 「こと」 cenderung ke konsep/hal abstrak.\n「のだ／んだ」 menambahkan alasan, penekanan, membuat kalimat terasa alami dalam percakapan; bentuk sopan: 「のです／んです」.",
+    "notes": "Dalam kalimat santai, mengakhiri kalimat dengan 「の」 memberikan nuansa lembut, terkadang terdengar feminin/halus: ～の？ ～なの。\nの sebelum に/へ/から membentuk frasa: 学校の前の店（rangkaian の berturut-turut tetap alami jika hubungannya jelas).\nのだ dalam bahasa tulis dapat diubah dari のだ→のである agar lebih formal.",
+    "mistakes": [
+     "Tertukar の dan こと: ×日本語を勉強するのは大切だ（boleh, santai) tetapi dalam dokumen resmi lebih diutamakan こと.",
+     "Menghilangkan kata benda yang digantikan sehingga menjadi ambigu: ×赤いの→ sebaiknya konteksnya jelas atau tambahkan 名詞: 赤いのシャツ × → 赤いシャツ.",
+     "Penggunaan のだ yang berlebihan membuat kalimat terdengar seperti membela diri; JLPT sering menanyakan nuansa penjelasan vs penegasan biasa."
+    ],
+    "comparison": {
+     "headers": [
+      "Pasangan perbandingan",
+      "Perbedaan",
+      "Saran penggunaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "の vs こと（nominalisasi）",
+       "の: konkret/emosional; こと: umum/formal",
+       "Laporan/peraturan menggunakan こと; perasaan/perilaku konkret menggunakan の",
+       "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>するのが<ruby>好<rt>す</rt></ruby>き／<ruby>勉強<rt>べんきょう</rt></ruby>することが<ruby>重要<rt>じゅうよう</rt></ruby>"
+      ],
+      [
+       "のだ vs だ",
+       "のだ mengandung penjelasan/alasan; だ netral",
+       "Ketika membela diri atau menekankan latar belakang, gunakan のだ",
+       "<ruby>遅<rt>おく</rt></ruby>れたのだ（karena…）"
+      ],
+      [
+       "の vs もの（penggantian dengan kata ganti）",
+       "もの konkret/benda, bernuansa material atau perasaan",
+       "Anak-anak/ungkapan yang kaya perasaan sering menggunakan もの",
+       "<ruby>甘<rt>あま</rt></ruby>いの／<ruby>甘<rt>あま</rt></ruby>いものが<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "の（kepemilikan）vs と（penyebutan)",
+       "の: atribut; と: penghubung/setara",
+       "Gunakan の untuk menyatakan hubungan \"milik\"",
+       "<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>／<ruby>日本<rt>にほん</rt></ruby>と<ruby>文化<rt>ぶんか</rt></ruby> ×"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

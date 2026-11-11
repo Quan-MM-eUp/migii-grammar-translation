@@ -1,0 +1,671 @@
+{
+ "batch": "b008",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 116,
+   "src_hash": "5b9498eeda54c06b",
+   "fields": {
+    "meaning": "Yang mana (kata benda)",
+    "examples": [
+     "Buku mana yang paling menarik?",
+     "Kamar yang mana?",
+     "Kemeja yang mana milik Tanaka-san?",
+     "Sensei yang mana orangnya?",
+     "Stasiunnya di sekitar mana?",
+     "Dari sini kira-kira butuh waktu berapa lama?"
+    ],
+    "explain": "Ingat, selalu ada kata benda setelah どの; jika tidak, ganti dengan どれ.\nUntuk menanyakan orang dengan sopan: gunakan どの方 alih-alih どの人.\nUntuk menanyakan tingkat: どのくらい/どのぐらい dipakai dengan V/A/名詞+です.\nUntuk asal/kepemilikan, どこのN sangat alami dalam percakapan: どこの会社ですか.\n\n\"どの + N\" menanyakan untuk menentukan satu kata benda tertentu di antara banyak pilihan: \"… yang mana?\".\n\"どのくらい/どのぐらい\" menanyakan tingkat, waktu, jumlah: \"berapa banyak/berapa lama\".\nTidak berdiri sendiri; jika tidak ada kata benda, gunakan どれ (yang mana).\nUntuk asal/kepemilikan, どこのN biasanya lebih alami: どこの国／どこの会社.",
+    "notes": "\"どのくらい\" ≈ \"どれくらい\" (keduanya umum, どれくらい sedikit lebih bernuansa bahasa lisan).\nUntuk titik waktu tertentu, sebaiknya gunakan \"何時／何分／何日\" alih-alih どの.\n\"どの辺\" bernuansa santai; yang lebih sopan adalah \"どのあたりですか\".",
+    "mistakes": [
+     "Menggunakan どの sendirian: ×どのが好き？ → ✓ どれが好き？ atau ✓ どの映画が好き？",
+     "Tertukar antara どの dan どこの saat menanyakan asal: ✓ どこの国／会社.",
+     "Lupa kata benda setelah どの sehingga informasi dalam jawaban JLPT tidak lengkap.",
+     "Tertukar antara どのくらい (tingkat) dengan いくつ/いくら (jumlah/harga). Pilih yang benar sesuai makna kalimat tanya."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どの + N",
+       "Mana (penjelas kata benda)",
+       "Harus ada N",
+       "どの<ruby>映画<rt>えいが</rt></ruby>が<ruby>好<rt>す</rt></ruby>き？"
+      ],
+      [
+       "どれ",
+       "Yang mana",
+       "Berdiri sendiri",
+       "どれがあなたのですか。"
+      ],
+      [
+       "どちら",
+       "Yang mana (sopan)/di mana",
+       "Biasanya 2 pilihan; sopan",
+       "AとB、どちら？"
+      ],
+      [
+       "どこの + N",
+       "N dari mana",
+       "Menanyakan asal/kepemilikan",
+       "どこの<ruby>会社<rt>かいしゃ</rt></ruby>ですか。"
+      ],
+      [
+       "どのくらい",
+       "Kira-kira berapa",
+       "Tingkat/durasi",
+       "どのくらい<ruby>時間<rt>じかん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 117,
+   "src_hash": "e6ce75488b1b28bf",
+   "fields": {
+    "meaning": "Yang mana（kata ganti; bedakan dengan どの + N — lihat baris どの～）",
+    "connection": "どれ + (です/partikel)（berdiri sendiri, tidak disertai N）",
+    "examples": [
+     "Sepatu Anda yang mana?",
+     "Apel, jeruk, dan pisang, mana yang akan Anda beli?",
+     "A: Payung Anda yang mana?\nB: Payung yang merah."
+    ],
+    "explain": "Menentukan satu hal tertentu dalam kelompok yang terdiri dari 3 hal atau lebih.\n\nどれ : yang mana\nどのN : N yang mana"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 118,
+   "src_hash": "55a8ff63eb35c696",
+   "fields": {
+    "meaning": "Yang mana pun",
+    "connection": "どれでも + V (positif)",
+    "examples": [
+     "Silakan pilih yang mana pun dari antara ini.",
+     "Warna yang mana pun harganya sama.",
+     "Hadiah yang mana pun membuat saya senang.",
+     "Silakan ambil yang mana pun yang Anda suka.",
+     "Minuman yang mana pun harganya 100 yen.",
+     "Kursinya yang mana pun boleh."
+    ],
+    "explain": "Bernuansa ramah, biasanya digunakan saat menyerahkan hak memilih: \"どれでもいいです\".\nDigunakan secara alami dalam petunjuk/daftar harga: \"どれでも同じ価格\".\nTidak menggunakan \"どれでも\" untuk menjelaskan kata benda secara langsung; ubah menjadi \"どのNでも\".\nJika tidak ada daftar yang jelas, pertimbangkan untuk menggunakan なんでも (apa pun) alih-alih どれでも.\n\n\"どれでも\" mengungkapkan tidak adanya pembedaan di antara pilihan yang sudah ada: \"yang mana pun boleh\".\nBiasanya disertai いい／大丈夫／構いません untuk menyatakan setuju/tidak meminta sesuatu yang spesifik.\nJika perlu menjelaskan kata benda, gunakan \"どのNでも\" alih-alih \"どれでもN\".\nCakupan \"どれでも\" harus berupa sekumpulan pilihan yang terbatas, terlihat, atau disebutkan.",
+    "notes": "Dalam layanan, \"どれでもどうぞ\" menunjukkan kesopanan mempersilakan memilih dengan bebas.\n\"どれでも +同じ\" sering ditemukan dalam promosi, paket kombo.\nDengan kata kerja yang meminta memilih satu, どれでも menekankan \"tidak pilih-pilih\"; dengan どれも (positif) menekankan \"semuanya ...\" (nuansa berbeda).",
+    "mistakes": [
+     "×どれでも席→ ✓どの席でも（penjelas kata benda harus menggunakan どのNでも）",
+     "Salah cakupan: untuk mengatakan secara umum \"apa pun\" sebaiknya gunakan なんでも, bukan どれでも.",
+     "Tertukar dengan どれも negatif: \"どれも〜ません\" = \"tidak satu pun\", sangat berbeda dengan \"どれでも\".",
+     "Menggunakan どれでも untuk tempat/waktu: harus menggunakan どこでも／いつでも sesuai konteksnya."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どれでも",
+       "Yang mana pun di antaranya boleh",
+       "Kumpulan pilihan tertentu",
+       "どれでもいいです。"
+      ],
+      [
+       "どのNでも",
+       "N mana pun",
+       "Penjelas kata benda",
+       "どの<ruby>席<rt>せき</rt></ruby>でもOK。"
+      ],
+      [
+       "どれも",
+       "Semua (secara keseluruhan)",
+       "+ Positif: \"semuanya\"; + Negatif: \"tidak satu pun\"",
+       "どれも<ruby>好<rt>す</rt></ruby>きです／どれも<ruby>好<rt>す</rt></ruby>きではありません。"
+      ],
+      [
+       "どれか",
+       "Salah satu",
+       "Hanya satu, tidak tertentu",
+       "どれか<ruby>選<rt>えら</rt></ruby>んで。"
+      ],
+      [
+       "なんでも",
+       "Apa pun",
+       "Tidak terbatas pada daftar tertentu",
+       "なんでもいいです。"
+      ],
+      [
+       "どこでも／いつでも",
+       "Di mana pun/kapan pun",
+       "Untuk tempat/waktu",
+       "どこでもいい／いつでも<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 119,
+   "src_hash": "e68d4b77c469960d",
+   "fields": {
+    "meaning": "Sesuatu",
+    "examples": [
+     "Saya ingin makan sesuatu.",
+     "Apakah ada minuman?",
+     "Apakah ada pertanyaan?",
+     "Ada yang bisa saya bantu?",
+     "Bagaimana kalau kita minum sesuatu bersama?",
+     "Apakah kemarin terjadi sesuatu?"
+    ],
+    "explain": "Menyatakan ketidaktentuan, menjaga kesopanan dan jarak: menghindari menyebut langsung \"X yang spesifik\".\nDalam kalimat tanya, 何か menyiratkan harapan bahwa jawabannya \"ada\": 何か問題がありますか。\nDalam percakapan, を setelah 何か sering dihilangkan: 何か食べる？ (santai).\nDigunakan dengan 〜ませんか untuk mengajak/mengusulkan dengan lembut.\nUntuk negasi total gunakan 何も～ません, bukan 何か～ません.\n\n何か mengungkapkan \"sesuatu/suatu hal\" yang tidak ditentukan secara spesifik.\nBiasanya digunakan dalam kalimat positif, pertanyaan untuk menjajaki, ajakan/usulan untuk menjaga kesamaran dan kesopanan.\nBersama あります/います mengungkapkan \"ada sesuatu\" (benda/orang/hewan) tanpa menyebutkannya dengan jelas.\nTidak menggunakan 何か dengan bentuk negatif untuk mengatakan \"tidak … apa pun\" (dalam hal itu gunakan 何も～ません).\nDalam pertanyaan negatif 〜ませんか, 何か membuat kalimat lebih lembut: \"Bagaimana kalau kita …?\"",
+    "notes": "\"何かありますか\" bisa berarti \"Ada apa?\" tergantung konteks (tidak hanya \"ada sesuatu?\").\n\"何か＋Nを＋ください\" lebih sopan daripada \"何かください\" ketika ada jenis yang diinginkan: 何か飲み物をください。\nPertanyaan negatif 〜ませんか dengan 何か biasanya bernuansa ajakan: 何か食べませんか（＝mari makan bersama）.\nDalam bahasa lisan, 何か kadang disingkat menjadi \"なんか\" (bahasa lisan), tetapi dalam ujian sebaiknya tetap 何か.",
+    "mistakes": [
+     "Menggunakan 何か dengan negatif untuk mengatakan \"tidak … apa pun\": ×何か食べません → benar: 何も食べません。",
+     "Menghilangkan を dalam bahasa lisan tidak salah, tetapi dalam bahasa tulis JLPT sebaiknya baku: 何かを食べます（boleh), 何か食べます（lebih alami).",
+     "Tertukar antara 何か dan 何:",
+     "何を飲みますか（Anda minum apa? pertanyaan spesifik）",
+     "何か飲みますか（Apakah Anda mau minum sesuatu? tawaran).",
+     "Salah mengartikan 何かありますか sebagai \"apakah ada X tertentu?\"; sebenarnya menanyakan secara umum \"apakah ada sesuatu (hal apa pun)?\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "<ruby>何<rt>なに</rt></ruby>",
+       "Apa (bertanya langsung)",
+       "Kalimat tanya dengan kata tanya, meminta jawaban spesifik",
+       "<ruby>何<rt>なに</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みますか。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>か",
+       "Sesuatu",
+       "Samar; cocok untuk positif/ pertanyaan",
+       "<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>みたい。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>も～ない",
+       "Tidak … apa pun",
+       "Hanya digunakan dengan negatif",
+       "<ruby>何<rt>なに</rt></ruby>も<ruby>飲<rt>の</rt></ruby>みません。"
+      ],
+      [
+       "だれか",
+       "Seseorang",
+       "Mirip <ruby>何<rt>なに</rt></ruby>か tetapi untuk \"siapa\"",
+       "だれか<ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "どれか",
+       "Salah satu",
+       "Memilih satu di antara yang sudah diketahui",
+       "どれか<ruby>選<rt>えら</rt></ruby>んでください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 120,
+   "src_hash": "f3e0d627c49bc7f8",
+   "fields": {
+    "meaning": "Tidak … apa pun",
+    "examples": [
+     "Hari ini saya tidak makan apa-apa.",
+     "Di sini tidak ada apa-apa.",
+     "Saya tidak mengerti apa-apa.",
+     "Pada hari libur saya tidak melakukan apa-apa.",
+     "Saya sudah tidak memerlukan apa-apa lagi.",
+     "Saya tidak tahu apa-apa tentang kejadian kemarin."
+    ],
+    "explain": "Menekankan \"tidak satu hal pun/tidak melakukan apa pun sama sekali\" → nuansa tegas, menyeluruh.\nを setelah 何も biasanya dihilangkan: 何も食べません（lebih alami daripada 何もを食べません）.\nDalam bahasa lisan santai gunakan ない: 何もない／何もしない。\nUntuk menyangkal keberadaan secara umum: 何もありません（tidak ada apa-apa） sangat sering digunakan dalam pengumuman/jawaban sopan.\n\n何も～ません/ない adalah pola negasi total: \"tidak … apa pun\", \"tidak … apa-apa\".\nSelalu disertai kata kerja/kata sifat dalam bentuk negatif; tidak digunakan dengan positif.\nDigunakan dengan あります/います untuk mengatakan \"tidak ada apa-apa (sama sekali)\".\nPenekanan tingkat dengan kata pendukung (level N4 ke atas) seperti 全然/全く; di N5 cukup dengan 何も + Vません.",
+    "notes": "\"何もない\" dapat berdiri sendiri sebagai kalimat lengkap: 何もない（Tidak ada apa-apa）.\n\"何も問題はありません\" benar secara tata bahasa: 何も＋N＋は＋ありません → \"Tidak ada masalah apa pun\".\nDalam jawaban sopan, dapat digunakan: いいえ、何もありません。\nDengan kata kerja kognitif: 何も覚えていません／何も聞いていません keduanya alami.",
+    "mistakes": [
+     "Menggunakan dengan positif: ×何もあります → salah. Harus menggunakan negatif: 何もありません。",
+     "Menambahkan を setelah 何も: ×何もを食べません → biasanya を dihilangkan: 何も食べません。",
+     "Tertukar dengan 何か:",
+     "何か食べます（makan sesuatu, positif)",
+     "何も食べません（tidak makan apa-apa, negatif).",
+     "Menggunakan いません untuk benda mati (×何もいません di ruangan berisi barang) → yang benar adalah 何もありません."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "<ruby>何<rt>なに</rt></ruby>か",
+       "Sesuatu",
+       "Digunakan dengan positif/ pertanyaan",
+       "<ruby>何<rt>なに</rt></ruby>かありますか。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>も～ない/ません",
+       "Tidak … apa pun",
+       "Wajib disertai negatif",
+       "<ruby>何<rt>なに</rt></ruby>もありません。"
+      ],
+      [
+       "<ruby>誰<rt>だれ</rt></ruby>も～ない",
+       "Tidak ada seorang pun",
+       "Kata tanya \"siapa\" + も + negatif",
+       "<ruby>誰<rt>だれ</rt></ruby>もいません。"
+      ],
+      [
+       "どれも～ない",
+       "Tidak satu pun",
+       "\"Yang mana pun … tidak\"",
+       "どれも<ruby>好<rt>す</rt></ruby>きじゃない。"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない",
+       "Sama sekali tidak (perluasan)",
+       "Kata keterangan yang menekankan tingkat",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>分<rt>わ</rt></ruby>かりません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 121,
+   "src_hash": "d33195d1d1ed63b8",
+   "fields": {
+    "meaning": "Apa pun",
+    "connection": "なんでも + V (positif)",
+    "examples": [
+     "Saya makan apa saja.",
+     "Minumannya apa saja boleh.",
+     "Di toko ini apa saja ada.",
+     "Dia tahu apa saja.",
+     "Jika ada pertanyaan, silakan tanyakan apa saja.",
+     "Itu bukan apa-apa."
+    ],
+    "explain": "Gunakan なんでも untuk berbicara secara umum, tanpa membatasi pilihan. Cocok baik dalam situasi sopan maupun santai.\nなんでもいい menunjukkan \"tidak pilih-pilih\", tambahkan です agar sopan: なんでもいいです。\nなんでもない digunakan untuk menenangkan atau menyangkal pentingnya sesuatu: \"tidak ada apa-apa/tidak apa-apa\".\nHindari menggunakan なんでも dengan negatif ない untuk mengatakan \"tidak … apa pun\"; gunakan 何も…ない untuk arti tersebut.\n\nなんでも mengungkapkan cakupan yang menyeluruh: \"apa pun…\", \"apa saja…\". Biasanya disertai kata kerja/ kata sifat positif.\nなんでもいい: \"apa saja boleh\", menunjukkan tidak ada permintaan khusus.\nなんでもない: frasa tetap yang berarti \"tidak ada apa-apa/tidak apa-apa\", tidak diartikan sebagai \"apa pun tidak\" (berbeda dari rumus negatif baku 何も…ない).\nDalam percakapan sehari-hari, なんでも kadang bernuansa melebih-lebihkan (\"apa pun…\" dalam arti relatif).",
+    "notes": "Dalam bahasa lisan, なんでも dapat bersifat melebih-lebihkan: \"apa pun…\" tetapi dipahami sebagai \"hampir apa pun…\".\nPada level yang lebih tinggi, なんでも juga berarti \"katanya…\" (desas-desus), tetapi tidak termasuk N5; jangan dikacaukan dengan arti \"apa pun\".\nなんでもかんでも adalah bentuk penekanan, hindari penggunaan berlebihan dalam bahasa tulis formal.",
+    "mistakes": [
+     "Salah digunakan dengan negatif: untuk mengatakan \"tidak makan apa-apa\" harus 何も食べない, bukan \"なんでも食べない\".",
+     "Tertukar antara なんでもない (tidak ada apa-apa) dengan \"何でもない= tidak semuanya…\" → pemahaman yang benar adalah frasa tetap \"tidak ada apa-apa\".",
+     "Menggunakan なんでも terlalu luas sehingga melebih-lebihkan: pertimbangkan konteksnya (misalnya: \"なんでも知っている\" adalah cara bicara yang melebih-lebihkan).",
+     "Dalam kalimat tanya pilihan tertentu, gunakan どれでも/どのNでも alih-alih なんでも."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "なんでも",
+       "Apa pun… (positif)",
+       "Digunakan dengan positif",
+       "なんでも<ruby>食<rt>た</rt></ruby>べます"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>も…ない",
+       "Tidak… apa pun",
+       "Negasi total",
+       "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べない"
+      ],
+      [
+       "なんでもない",
+       "Tidak ada apa-apa/tidak apa-apa",
+       "Frasa tetap, bukan struktur \"なんでも + ない\" biasa",
+       "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>、なんでもないよ"
+      ],
+      [
+       "どれでも／どこでも／いつでも／だれでも",
+       "Yang mana pun/di mana pun/kapan pun/siapa pun",
+       "\"-でも\" dengan kata tanya lain",
+       "どれでもいいです"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 122,
+   "src_hash": "c0b78ceb29ad30a9",
+   "fields": {
+    "meaning": "Mengapa",
+    "connection": "なんで + [kalimat tanya] (alasan; 何で juga digunakan untuk menanyakan sarana: バスで…)",
+    "examples": [
+     "Mengapa Anda terlambat?",
+     "Anda pergi ke sekolah naik apa? — Saya naik bus.",
+     "Mengapa Anda belajar bahasa Jepang?",
+     "Hari ini Anda datang naik apa? — Saya datang naik sepeda.",
+     "Kenapa ketawa?",
+     "Anda pergi ke Tokyo naik apa? — Saya naik kereta."
+    ],
+    "explain": "Untuk menanyakan alasan dalam percakapan santai: gunakan なんで +普通形(bentuk biasa).\nAgar lebih sopan: なんで～んですか atau beralih ke どうして/なぜ.\nUntuk menanyakan sarana: なんで + V , jawabannya biasanya N + で .\nIntonasi naik di akhir kalimat tanya untuk menunjukkan pertanyaan.\n\nなんで(何で) memiliki 2 arti utama di N5:\nMengapa(santai, percakapan sehari-hari). Tambahkan ～んですか agar sopan: なんで～んですか。\nDengan apa(sarana/cara): menanyakan sarana transportasi, alat, dll.\nMengapa(santai, percakapan sehari-hari). Tambahkan ～んですか agar sopan: なんで～んですか。\nDengan apa(sarana/cara): menanyakan sarana transportasi, alat, dll.\nBedakan dengan melihat jawabannya:\nJika dijawab dengan N + で(バスで, はしで, てで, パソコンで) → menanyakan sarana.\nJika dijawab dengan ～から／～ので(雨だから,忙しいので) → menanyakan alasan.\nJika dijawab dengan N + で(バスで, はしで, てで, パソコンで) → menanyakan sarana.\nJika dijawab dengan ～から／～ので(雨だから,忙しいので) → menanyakan alasan.\nDalam konteks formal atau ujian, untuk menanyakan alasan sebaiknya utamakan どうして/なぜ; なんで cenderung santai.",
+    "notes": "Kanji: 何で. Pelafalan umum: なんで. Dalam arti \"dengan apa\", juga dapat dipahami sebagai \"dengan sarana apa\".\nDalam beberapa situasi, なんで yang menanyakan \"alasan\" dapat terdengar kasar; hindari menggunakannya kepada orang yang lebih tinggi kedudukannya jika tidak akrab.\nJika ingin menanyakan \"dengan cara bagaimana\" (proses, langkah demi langkah) → utamakan どうやって untuk menghindari kerancuan.",
+    "mistakes": [
+     "Salah arti: なんで = \"dengan apa\" atau \"mengapa\". Bedakan berdasarkan jawabannya (N+で vs ～から/～ので).",
+     "Menggunakan なんで dalam konteks yang terlalu formal → terdengar kurang sopan. Sebaiknya gunakan どうして/なぜ.",
+     "Salah menulis pelafalan: \"なにで\" saat ingin menanyakan alasan. Bentuk bahasa lisan baku yang umum adalah なんで; \"なにで\" terutama berarti \"dengan apa\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "なんで",
+       "Mengapa/dengan apa",
+       "Santai; bisa ambigu jika kurang konteks",
+       "なんで<ruby>行<rt>い</rt></ruby>く？"
+      ],
+      [
+       "どうして",
+       "Mengapa",
+       "Netral, lebih sopan daripada なんで",
+       "どうして<ruby>来<rt>こ</rt></ruby>ないんですか"
+      ],
+      [
+       "なぜ",
+       "Mengapa",
+       "Formal, bahasa tulis",
+       "なぜ<ruby>遅<rt>おく</rt></ruby>れましたか"
+      ],
+      [
+       "どうやって",
+       "Dengan cara bagaimana",
+       "Hanya untuk \"cara/metode\", tidak berarti \"mengapa\"",
+       "どうやって<ruby>行<rt>い</rt></ruby>きますか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 123,
+   "src_hash": "6bbc8cddf396448c",
+   "fields": {
+    "name": "～に行く／来る（tujuan perpindahan）",
+    "meaning": "tujuan dari tindakan",
+    "connection": "Vます(hilangkan ます)・N(tindakan) + に + 行く・来る・帰る",
+    "examples": [
+     "Saya pergi untuk belajar bahasa Jepang.\nSaya pergi untuk pelajaran bahasa Jepang."
+    ],
+    "explain": "に：Menunjukkan tujuan dari tindakan.\n\nV2 untuk melakukan V1.\nV2 biasanya adalah kata kerja yang menunjukkan perpindahan seperti いきます pergi きます datang かえります pulang もどります kembali…",
+    "notes": "Untuk kata benda + する （Nする）：ada 2 cara penggunaan:\nKalimat lengkap: N(tempat)へ Nを Vに 行きます・来ます・帰ります"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 124,
+   "src_hash": "45652f02b1628ca5",
+   "fields": {
+    "meaning": "Hampir, nyaris",
+    "examples": [
+     "Saya tahu hampir seluruh isi film ini.",
+     "Saya hampir tidak bisa berbicara bahasa Jepang.",
+     "Hampir semua siswa lulus ujian.",
+     "Hari ini hampir tidak turun hujan.",
+     "Pada hari libur, saya pergi ke taman hampir setiap hari.",
+     "Kemarin saya berada di rumah hampir seharian."
+    ],
+    "explain": "Tidak disertai ない jika digunakan di posisi sebelum kata benda: ほとんどのN (bukan ほとんどのNない).\nJika ingin menekankan \"hampir tidak\", selalu gunakan dengan bentuk negatif: ほとんど～ない／ありません.\nDengan jumlah tertentu, ほとんど menekankan \"hampir seluruhnya\", sedangkan だいたい menekankan \"kurang lebih, sekitar\".\nDalam bahasa lisan dapat digunakan \"ほとんどは〜\" untuk menyebutkan sebagian besar subjek: ほとんどは学生です (sebagian besar adalah pelajar).\n\nDengan positif: \"hampir semua/sebagian besar\". Contoh: ほとんど分かる = hampir mengerti semuanya.\nDengan negatif: \"hampir tidak\" (tingkat sangat rendah, mendekati 0). Contoh: ほとんど分からない.\nほとんどの + N digunakan untuk mengatakan \"sebagian besar …\". Hindari menggunakan \"ほとんどN\" langsung sebelum kata benda dalam bahasa tulis baku (kecuali beberapa kasus khusus).\nDengan waktu/frekuensi: ほとんど毎日(hampir setiap hari), ほとんど一日中(hampir seharian).\nNuansa kuantitatifnya cukup lebih kuat daripada だいたい (perkiraan), mendekati ほぼ (hampir sepenuhnya).",
+    "notes": "ほとんど + ありません/ないです adalah pasangan yang sangat sering muncul di N5, sebaiknya diingat sebagai frasa tetap.\nDalam menggambarkan durasi: \"ほとんど一日中\" lebih alami daripada \"ほとんど一日\" jika ingin mengatakan \"seharian\".\n\"ほとんどNだ\" dapat ditemui dalam bahasa lisan: ここはほとんど外国人だ (di sini hampir semuanya orang asing), tetapi bahasa tulis baku mengutamakan ほとんどのN.",
+    "mistakes": [
+     "Salah penggunaan dengan kata benda: × ほとんど学生→ ○ ほとんどの学生(bahasa tulis). Dalam kasus khusus bahasa lisan dapat diterima, tetapi tidak dianjurkan dalam ujian.",
+     "Lupa negatif saat ingin mengatakan \"hampir tidak\": × ほとんど分かります → ○ ほとんど分かりません.",
+     "Tertukar dengan だいたい: だいたい berarti \"sekitar, kurang lebih\", tidak sekuat ほとんど.",
+     "Negatif berlebihan: × ほとんどの人が来ませんない → ○ ほとんどの人が来ません."
+    ],
+    "comparison": {
+     "headers": [
+      "Kata/Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "ほとんど",
+       "Hampir (sangat tinggi/sangat rendah)",
+       "Kuat dalam proporsi mendekati 100%/0%",
+       "ほとんどできる／ほとんどできない"
+      ],
+      [
+       "ほぼ",
+       "Hampir, nyaris",
+       "Formal, netral, mendekati ほとんど positif",
+       "ほぼ<ruby>完成<rt>かんせい</rt></ruby>した。"
+      ],
+      [
+       "だいたい",
+       "Kurang lebih, sekitar",
+       "Menekankan perkiraan, tidak sekuat ほとんど",
+       "だいたい<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "たいてい",
+       "Biasanya, kebanyakan (kebiasaan)",
+       "Menyatakan frekuensi, bukan proporsi yang tepat",
+       "たいてい<ruby>家<rt>いえ</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる。"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない",
+       "Sama sekali tidak",
+       "Lebih kuat daripada \"ほとんど～ない\"",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>分<rt>わ</rt></ruby>からない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 125,
+   "src_hash": "5daac1d8bf5d9d85",
+   "fields": {
+    "meaning": "Lumayan, biasa saja",
+    "examples": [
+     "Film ini lumayan menarik.",
+     "Saya lumayan bisa berbicara bahasa Jepang.",
+     "Ujiannya lumayan.",
+     "Harga di toko ini lumayan.",
+     "Dia lumayan pandai bermain tenis.",
+     "Sudah, sudah, tenanglah."
+    ],
+    "explain": "Diletakkan di depan kata sifat/kata kerja untuk menunjukkan tingkat sedang.\nDalam percakapan, \"まあまあです／まあまあかな\" adalah jawaban aman ketika tidak ingin memuji/mencela secara berlebihan.\nBentuk kata seru \"まあまあ、…\" digunakan di awal kalimat untuk meredakan suasana.\nSebaiknya tidak dikombinasikan dengan kata penekanan yang kuat seperti \"とても\", \"すごく\".\nTingkat kesopanan: netral; tambahkan です/ます agar sopan.\n\nMengungkapkan tingkat sedang: \"lumayan\", \"cukup baik\", \"cukup\". Tidak terlalu baik juga tidak terlalu buruk.\nDigunakan untuk merendah atau memperhalus penilaian, menghindari pernyataan yang tegas.\nSebagai kata seru \"まあまあ\", digunakan untuk menenangkan orang lain: \"tenanglah\".\nNuansanya bergantung pada konteks: pujian ringan (\"cukup baik\") atau celaan ringan (\"hanya sekadar lumayan\").",
+    "notes": "Frasa bahasa lisan: \"まあまあかな…\", \"まあまあいける\" (makan/ minum/ melakukan sesuatu lumayan bisa).\n\"まあまあの + N\": まあまあの成績(nilai yang lumayan).\nTidak menggunakan \"とても\" + まあまあ (bertentangan secara tingkat).\nKata seru berulang \"まあ、まあ\" memiliki peran berbeda; biasanya ditulis lengkap \"まあまあ\".",
+    "mistakes": [
+     "Menggunakan bersama kata penekanan yang kuat: ×とてもまあまあ → sebaiknya pilih salah satu.",
+     "Posisi salah: ×静かなまあまあ店→ 〇まあまあな静かな店(tetapi yang biasa diucapkan secara alami: まあまあ静かな店).",
+     "Tertukar antara まだまだ (masih jauh) dan まあまあ (lumayan) → artinya berbeda.",
+     "Penggunaan berlebihan dalam bahasa tulis formal: sebaiknya dihindari dalam tulisan akademis; ganti dengan \"平均的/可もなく不可もない\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "まあまあ",
+       "Lumayan, cukup",
+       "Tingkat sedang, memperhalus",
+       "<ruby>味<rt>あじ</rt></ruby>はまあまあだ。"
+      ],
+      [
+       "けっこう",
+       "Cukup, relatif",
+       "Lebih positif daripada まあまあ",
+       "この<ruby>本<rt>ほん</rt></ruby>はけっこういい。"
+      ],
+      [
+       "なかなか + Aい/Aな",
+       "Cukup … juga",
+       "Biasanya bernuansa pujian positif",
+       "なかなか<ruby>面白<rt>おもしろ</rt></ruby>い。"
+      ],
+      [
+       "ちょっと/<ruby>少<rt>すこ</rt></ruby>し",
+       "Sedikit",
+       "Menekankan tingkat kecil, bukan \"sedang\"",
+       "ちょっと<ruby>高<rt>たか</rt></ruby>い。"
+      ],
+      [
+       "<ruby>普通<rt>ふつう</rt></ruby>(に)",
+       "Biasa",
+       "Netral, tidak menyiratkan pujian/celaan",
+       "<ruby>味<rt>あじ</rt></ruby>は<ruby>普通<rt>ふつう</rt></ruby>です。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 126,
+   "src_hash": "603f6aed7a4057d5",
+   "fields": {
+    "meaning": "Masih",
+    "examples": [
+     "Filmnya masih diputar.",
+     "Sudah malam, tetapi dia masih terjaga.",
+     "Saya masih pelajar.",
+     "Di kulkas masih ada susu.",
+     "PR-nya belum? — Ya, belum.",
+     "Bahasa Jepang masih sangat sulit."
+    ],
+    "explain": "Diletakkan tepat sebelum unsur yang ditekankan (kata kerja, kata benda, kata sifat).\nBerpadu secara alami dengan もう untuk kontras: もう…／まだ…\n\"まだです\" adalah bentuk singkat yang sopan; bentuk lengkapnya biasanya \"まだVていません\".\n\"まだまだ\" menunjukkan kerendahan hati/harapan bahwa jalannya masih panjang.\n\nMenunjukkan keadaan/kegiatan yang sedang berlangsung hingga sekarang: \"masih\", \"tetap\".\nDalam kalimat tanya: menunjukkan harapan apakah perubahan sudah terjadi atau belum (\"sudah… belum?\").\nJawaban singkat \"まだです\" setara dengan \"belum (dilakukan)\".\n\"まだまだ\" meningkatkan tingkat: masih lama, masih banyak.",
+    "notes": "まだ +可能形: まだ行けます (masih bisa pergi/masih kuat).\nまだ +数量: まだ二人来ます (masih ada dua orang lagi yang akan datang).\nHindari menggunakan まだ dengan bentuk lampau sederhana yang tidak sesuai: ×まだ行った → 〇まだ行っていない/まだ行く。",
+    "mistakes": [
+     "Tertukar dengan もう: \"もう起きています\" = sudah bangun; \"まだ起きています\" = masih terjaga.",
+     "Menggunakan \"まだ\" tetapi lupa kala yang benar: 〇まだしています／×まだします (arti berbeda: belum akan melakukan).",
+     "Pertanyaan: \"もう食べましたか。\" Jawaban \"まだです。\" (benar); ×\"まだ。\" dalam situasi formal.",
+     "\"まだに\" tidak digunakan di N5 (pola いまだに berada di level yang lebih tinggi)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "まだ〜",
+       "Masih",
+       "Keadaan yang sedang berlangsung",
+       "<ruby>雨<rt>あめ</rt></ruby>はまだ<ruby>降<rt>ふ</rt></ruby>っている。"
+      ],
+      [
+       "まだ〜ない",
+       "Belum",
+       "Menyangkal harapan",
+       "まだ<ruby>降<rt>ふ</rt></ruby>っていない。"
+      ],
+      [
+       "もう〜",
+       "Sudah",
+       "Keadaan baru",
+       "もう<ruby>終<rt>お</rt></ruby>わった。"
+      ],
+      [
+       "もう〜ない",
+       "Tidak lagi",
+       "Berakhir sepenuhnya",
+       "もう<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ],
+      [
+       "<ruby>今<rt>いま</rt></ruby>でも",
+       "Sampai sekarang pun masih",
+       "Menekankan titik \"sekarang\"",
+       "<ruby>今<rt>いま</rt></ruby>でも<ruby>覚<rt>おぼ</rt></ruby>えている。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

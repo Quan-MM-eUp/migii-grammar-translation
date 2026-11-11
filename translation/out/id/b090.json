@@ -1,0 +1,515 @@
+{
+ "batch": "b090",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-10",
+ "items": [
+  {
+   "id": 1325,
+   "src_hash": "ce02d348e5a89e4c",
+   "fields": {
+    "meaning": "Tanpa… tidak…",
+    "examples": [
+     "Tanpa internet, masyarakat modern tidak bisa berjalan.",
+     "Tanpa bantuannya, proyek ini mungkin tidak akan berhasil.",
+     "Tanpa bukti, kita tidak bisa menyatakan dia bersalah.",
+     "Tanpa latihan, kemajuan tidak mungkin terjadi.",
+     "Tanpa dana, penelitian tidak bisa dilanjutkan.",
+     "Tanpa reservasi, Anda tidak dapat masuk."
+    ],
+    "explain": "Digunakan ketika ingin menegaskan sifat \"tidak tergantikan\" dari N terhadap suatu tindakan/hasil.\nCocok dalam presentasi, laporan, deskripsi sistem, prosedur (menunjukkan hubungan syarat-akibat).\nKlausa belakang biasanya berupa kata kerja kemampuan/kemungkinan keberadaan: できない・ありえない・成り立たない・難しい.\nTidak digunakan untuk menyatakan tindakan yang disengaja \"tetap melakukan tanpa N\" (dalam hal itu gunakan \"N なしで V\").\nSubjeknya bisa umum/subjektif; namun nuansanya cenderung ke penilaian objektif.\n\n• Pola \"～なしでは～ない\" menyatakan syarat mutlak: jika tidak ada N, tindakan/hasil di belakangnya tidak mungkin terjadi, sangat sulit terjadi, atau tidak ada.\n• Nuansa objektif, bersifat penilaian umum tentang pentingnya N (dasar, syarat, sarana, sumber daya).\n• Klausa belakang biasanya berupa penyangkalan kemampuan/kemungkinan: できない・ありえない・成り立たない・進まない・語れない・理解できない.\n• Tingkat formalitas: dapat digunakan dalam bahasa tulis maupun bahasa lisan; dalam bahasa tulis/penjelasan ilmiah dan pers banyak digunakan untuk menyatakan keharusan mutlak.\n• Berbeda dengan \"N なしで\" yang hanya berarti \"tanpa/tidak menggunakan N\", \"N なしでは\" menyiratkan \"karena tidak ada N maka tidak bisa\".",
+    "notes": "• N biasanya merupakan unsur dasar: 資金・計画・説明・理解・協力・技術・データ・証拠・準備・許可.\n• Dalam kalimat kebijakan/peraturan, pola ini menambah ketegasan, mudah dijumpai dalam pengumuman: 許可なしでは入れません.\n• Variasi penekanan: ～なしではやっていけない (tidak bisa bertahan), ～なしでは語れない (tidak bisa dibicarakan/disebut tanpa itu).",
+    "mistakes": [
+     "Tertukar dengan \"N なしで\": \"なしで\" hanya berarti \"tanpa N\", tidak menyiratkan \"tidak bisa\". JLPT sering menjebak dengan kedua pola ini.",
+     "Menggunakan klausa belakang yang tidak negatif: diperlukan ない／できない／難しい… Jika klausa belakang positif, nuansanya salah.",
+     "Memilih kata benda yang tidak sesuai: untuk hal yang bukan syarat mutlak, \"なしでは\" terdengar dipaksakan.",
+     "Tertukar dengan \"なしには\": artinya mirip, tetapi \"なしには\" sedikit lebih formal/kaku, sering dipakai dengan N yang berupa tindakan abstrak (努力・説明)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola tata bahasa",
+      "Arti",
+      "Persamaan/Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "N なしでは ～ない",
+       "Jika tidak ada N, tidak bisa/tidak terjadi",
+       "Netral, objektif; dipakai secara luas",
+       "<ruby>証拠<rt>しょうこ</rt></ruby>なしでは<ruby>判断<rt>はんだん</rt></ruby>できない"
+      ],
+      [
+       "N なしには ～ない",
+       "Mirip, menekankan \"kecuali ada N\"",
+       "Nuansa lebih kaku; sering dengan N abstrak berupa tindakan (<ruby>努力<rt>どりょく</rt></ruby>・<ruby>説明<rt>せつめい</rt></ruby>)",
+       "<ruby>努力<rt>どりょく</rt></ruby>なしには<ruby>成功<rt>せいこう</rt></ruby>しない"
+      ],
+      [
+       "N なくして(は) ～ない",
+       "Bahasa tulis, menekankan tanpa N maka tidak",
+       "Lebih formal, bergaya sastra/pidato",
+       "<ruby>信頼<rt>しんらい</rt></ruby>なくしてはチームは<ruby>成<rt>な</rt></ruby>り<ruby>立<rt>たた</rt></ruby>たない"
+      ],
+      [
+       "N なしで V",
+       "Melakukan V tanpa ada/tanpa menggunakan N",
+       "Tidak selalu menyiratkan \"tidak bisa\"",
+       "<ruby>朝食<rt>ちょうしょく</rt></ruby>なしで<ruby>出<rt>で</rt></ruby>かけた"
+      ],
+      [
+       "～ないことには ～ない",
+       "Jika tidak A maka tidak B",
+       "Pola syarat umum, tidak hanya kata benda",
+       "<ruby>見<rt>み</rt></ruby>てみないことには<ruby>分<rt>わ</rt></ruby>からない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1326,
+   "src_hash": "1bfb2184eacb37b7",
+   "fields": {
+    "meaning": "Tidak bisa… jika tanpa…",
+    "examples": [
+     "Tanpa usaha, mimpi tidak akan terwujud.",
+     "Tanpa izin, Anda tidak boleh masuk ruangan.",
+     "Tanpa penjelasan yang memadai, pelanggan tidak akan menerima.",
+     "Tanpa kesepakatan, rencana tidak akan bergerak maju.",
+     "Tanpa data, diskusi tidak bisa dimulai.",
+     "Tanpa belajar terlebih dahulu, kita tidak bisa mengikuti pelajaran."
+    ],
+    "explain": "Pilih N yang merupakan syarat/prosedur yang wajib ada, bersifat \"prosedural\" atau \"mendasar\" (許可・同意・説明・検証・準備).\nNuansanya normatif, tegas; cocok untuk pengumuman, prosedur, urusan pekerjaan.\nDapat digunakan dengan \"～ことなしには\" untuk menambah kesan formal dalam bahasa tulis.\nTidak digunakan jika hanya ingin mengatakan \"sudah melakukan tanpa N\" (gunakan \"N なしで\").\n\n• \"～なしには～ない\" = \"kecuali ada N / jika tidak ada N maka tidak bisa/tidak terjadi\".\n• Nuansanya lebih kuat dan lebih formal daripada \"～なしでは\", biasanya digunakan ketika N adalah tindakan/prosedur yang diperlukan (努力・説明・合意・準備・許可).\n• Klausa belakang berupa bentuk negatif kemampuan/kemajuan: できない・ありえない・進まない・始まらない・成立しない.\n• Sering muncul dalam teks peraturan, skripsi, panduan kerja untuk menekankan syarat wajib.",
+    "notes": "• Bentuk \"Vることなしには\" menekankan sifat prosedural: 確認することなしには出荷しない.\n• Dalam iklan/PR, dapat dijumpai untuk menekankan standar: 身分証なしには購入できません.\n• Jika ingin lebih lembut dalam percakapan, dapat diganti dengan \"N がないと～ない\".",
+    "mistakes": [
+     "Tertukar dengan \"なしで\": JLPT sering menjebak dengan pasangan 許可なしで/許可なしには. Pilih \"なしには\" ketika klausa belakang berarti \"tidak bisa/tidak boleh\".",
+     "Menggunakan klausa belakang positif: diperlukan bentuk negatif (ない・できない・進まない…).",
+     "Memilih N yang tidak sesuai (bukan syarat/prosedur), kalimat terdengar dipaksakan. Contoh: \"花なしには勉強できない\" biasanya tidak alami.",
+     "Tertukar nuansanya dengan \"なしでは\": keduanya benar secara arti, tetapi soal ujian yang menanyakan nuansa formal/normatif mengutamakan \"なしには\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "N なしには ～ない",
+       "Kecuali ada N, maka tidak",
+       "Formal/kaku; sering dipakai dengan N berupa tindakan/prosedur",
+       "<ruby>合意<rt>ごうい</rt></ruby>なしには<ruby>進<rt>すす</rt></ruby>めない"
+      ],
+      [
+       "N なしでは ～ない",
+       "Jika kurang N, maka tidak",
+       "Lebih netral; dipakai luas untuk syarat/sumber daya",
+       "<ruby>資金<rt>しきん</rt></ruby>なしでは<ruby>始<rt>はじ</rt></ruby>められない"
+      ],
+      [
+       "N なくして(は) ～ない",
+       "Tanpa N maka tidak (bahasa tulis)",
+       "Nuansa retoris, pidato",
+       "<ruby>努力<rt>どりょく</rt></ruby>なくしては<ruby>成功<rt>せいこう</rt></ruby>なし"
+      ],
+      [
+       "N なしで V",
+       "Melakukan V tanpa N",
+       "Tidak menyiratkan \"tidak bisa\"",
+       "<ruby>説明<rt>せつめい</rt></ruby>なしで<ruby>始<rt>はじ</rt></ruby>めた"
+      ],
+      [
+       "～ないことには ～ない",
+       "Jika tidak A maka tidak B",
+       "Diperluas untuk klausa, tidak hanya kata benda",
+       "<ruby>試<rt>ため</rt></ruby>してみないことには<ruby>分<rt>わ</rt></ruby>からない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1327,
+   "src_hash": "8fe0f9cd3b9b82ab",
+   "fields": {
+    "meaning": "Kalau… masih bisa dimaklumi, tetapi…",
+    "connection": "N + ならいざ知らず / V/A bentuk biasa + (の)なら",
+    "examples": [
+     "Kalau anak-anak masih bisa dimaklumi, tetapi memalukan jika orang dewasa melakukan hal seperti itu.",
+     "Kalau bercanda masih bisa dimaklumi, tetapi jika serius, permintaan seperti itu tidak bisa diterima.",
+     "Kalau zaman dulu mungkin lain cerita, tetapi sekarang cara seperti itu sudah tidak berlaku.",
+     "Kalau ahli mungkin lain, tetapi orang awam mungkin tidak bisa menilainya.",
+     "Kalau jumlah orangnya sedikit masih bisa, tetapi untuk skala seratus orang cara ini tidak mungkin.",
+     "Kalau berwisata lain cerita, tetapi saat perjalanan dinas tidak ada waktu untuk bertamasya."
+    ],
+    "explain": "Digunakan untuk mengemukakan \"pengecualian andaian yang bisa diterima\" lalu menolak situasi yang sebenarnya.\nTetap sopan tetapi bernuansa kritik; sebaiknya hindari menggunakannya secara langsung kepada atasan/pelanggan jika memungkinkan.\nSering dipadukan dengan kata penilaian: 恥ずかしい・受け入れられない・無理だ・通用しない・難しい・すべきではない.\nKlausa depan biasanya berupa kata benda: 冗談・子ども・昔・専門家・少人数・試作品など.\n\n• \"～ならいざ知らず\" = \"kalau ~ masih bisa diterima/dimaklumi, tetapi … (tidak sesuai/sulit diterima/tidak mungkin)\".\n• Menyatakan kontras andaian: mengajukan satu kasus yang dapat dipahami, untuk menekankan bahwa kenyataan saat ini tidak dapat diterima.\n• Nuansa kritik/argumentasi yang sopan, agak kuno/bahasa tulis; digunakan ketika ingin menjaga jarak, objektif.\n• Klausa belakang biasanya berupa penilaian negatif, larangan, kritik, atau \"tidak berlaku/tidak lazim\".",
+    "notes": "• \"いざ知らず\" semula berarti \"tidak berani berbicara tentang ~\", berkembang menjadi konsesif andaian untuk menekankan penyangkalan di klausa belakang.\n• Sering dijumpai dalam esai/opini pakar untuk menghindari kritik langsung namun tetap mempertahankan pendirian.\n• Pembalikan urutan (inversi) makna serupa dapat dilakukan dengan menggunakan \"～ならともかく\": nuansanya lebih ringan daripada \"ならいざ知らず\".",
+    "mistakes": [
+     "Menggunakan klausa belakang yang positif: nuansanya salah. Klausa belakang sebaiknya negatif/sulit diterima.",
+     "Menggunakan subjek \"saya/kami\" untuk berbicara tentang diri sendiri terdengar tidak alami, karena nuansanya mengkritik orang lain/hal umum.",
+     "Tertukar dengan \"ならまだしも\": soal ujian menjebak dengan kedua pola ini, \"ならいざ知らず\" lebih formal dan bermakna \"tidak berani berbicara tentang ~\".",
+     "Diletakkan setelah kata kerja yang panjang dan rumit: utamakan kata benda yang singkat di klausa depan agar kalimat lebih alami."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ならいざ<ruby>知<rt>し</rt></ruby>らず",
+       "Kalau ~ masih mending, tetapi…",
+       "Formal, agak bahasa tulis; mengemukakan pengecualian andaian",
+       "<ruby>学生<rt>がくせい</rt></ruby>ならいざ<ruby>知<rt>し</rt></ruby>らず、<ruby>社会<rt>しゃかい</rt></ruby><ruby>人<rt>じん</rt></ruby>は…"
+      ],
+      [
+       "～ならまだしも",
+       "Kalau ~ masih bisa diterima, tetapi…",
+       "Lebih santai, bahasa lisan",
+       "<ruby>遅刻<rt>ちこく</rt></ruby>はまだしも、<ruby>無断<rt>むだん</rt></ruby><ruby>欠勤<rt>けっきん</rt></ruby>はだめだ"
+      ],
+      [
+       "～はともかく",
+       "Mengesampingkan ~ untuk sementara",
+       "Klausa belakang tidak harus negatif",
+       "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>はともかく、<ruby>味<rt>あじ</rt></ruby>はいい"
+      ],
+      [
+       "～にしては",
+       "Untuk ukuran ~, …",
+       "Membandingkan dengan harapan, tanpa pengecualian andaian",
+       "<ruby>子<rt>こ</rt></ruby>どもにしては<ruby>上手<rt>じょうず</rt></ruby>だ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1328,
+   "src_hash": "1eac2931621082a6",
+   "fields": {
+    "meaning": "Sesuai dengan cara…",
+    "examples": [
+     "Anak-anak pun berpikir dengan cara anak-anak.",
+     "Kalau memang mau pergi, bersiaplah dengan sepantasnya.",
+     "Kalau murah, ada kegunaan yang sesuai dengan murahnya itu.",
+     "Kalau memang tidak bisa, berusahalah semaksimal mungkin sesuai batas kemampuan itu.",
+     "Kalau sibuk, dia melakukan siasat yang sesuai dengan kesibukannya."
+    ],
+    "explain": "Menekankan kesepadanan, tidak membanding-bandingkan secara berlebihan; menghindari keluhan yang berlebihan.\nDapat digunakan dalam kritik yang sopan: ～なら～なりにしなさい/考えなさい.\n\"～なりの N\" digunakan untuk memperjelas: 自分なりの答え,会社なりの方針.\nNada bicaranya dapat bersifat mengingatkan, terkadang agak tegas.\n\n• Sepadan/sepantasnya: \"Kalau sudah … maka (lakukanlah/boleh) … sesuai cara/tingkat …\".\n• Menyesuaikan dengan kondisi: Menyesuaikan harapan/tindakan dengan situasi, tingkatan.\n• Menyiratkan batasan: Mengakui keterbatasan tetapi tetap memiliki nilai/cara tersendiri (sesuai kemampuan, jumlah uang, usia, tingkat kemahiran...).\n• Penggunaan untuk menasihati: Digunakan untuk memberi nasihat lembut atau kritik secara tidak langsung.",
+    "notes": "• Struktur yang mengulang unsur yang sama sebelum dan sesudah \"なら/なりに\" adalah ciri bentuknya.\n• Sering dipadukan dengan kontras terhadap harapan: 安いなら安いなりに（それ相応の）品質だ.\n• Dalam teks formal, \"～なりの + N\" lebih sering muncul untuk menominalisasi kriteria kesepadanan.",
+    "mistakes": [
+     "Menghilangkan pengulangan: salah \"子どもなら自分なりに\" padahal yang diperlukan adalah padanan \"子どもなら子どもなりに\".",
+     "Menggunakannya untuk memuji atau mencela secara ekstrem: pola ini bersifat menerima keterbatasan, bukan memutlakkan.",
+     "Tertukar dengan ～に応じて: JLPT sering menanyakan perbedaan nuansa \"sepadan/sepantasnya\".",
+     "Salah bentuk \"Adj-ななら Adj-ななりに\" (yang benar adalah mempertahankan \"な\" satu kali: 静かなら静かなりに)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～に<ruby>応<rt>おう</rt></ruby>じて",
+       "Sesuai/menurut",
+       "Netral, objektif; tidak menyiratkan \"kalau sudah … maka … dengan sepantasnya\".",
+       "<ruby>予算<rt>よさん</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じて<ruby>選<rt>えら</rt></ruby>ぶ。"
+      ],
+      [
+       "～だけ（の）",
+       "Sebanyak/sampai batas",
+       "Berfokus pada jumlah/batasan; kurang nuansa \"sepadan\".",
+       "できるだけ<ruby>頑張<rt>がんば</rt></ruby>る。"
+      ],
+      [
+       "<ruby>自分<rt>じぶん</rt></ruby>なりに",
+       "Dengan cara sendiri",
+       "Merupakan cabang umum dari pola ini; menekankan pelaku \"diri sendiri\".",
+       "<ruby>自分<rt>じぶん</rt></ruby>なりに<ruby>工夫<rt>くふう</rt></ruby>する。"
+      ],
+      [
+       "～らしい",
+       "Khas/sepantasnya",
+       "Mengandung penilaian; tidak membentuk pasangan berulang seperti ～なら～なりに.",
+       "<ruby>男<rt>おとこ</rt></ruby>らしい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1329,
+   "src_hash": "f4a4465692ea313f",
+   "fields": {
+    "meaning": "Entah… atau… (saran)",
+    "examples": [
+     "Bagaimana kalau minum sesuatu, kopi atau teh misalnya?",
+     "Kalau ada kesulitan, tanyalah kepada guru atau carilah di perpustakaan.",
+     "Pada hari libur, mari menyegarkan pikiran dengan menonton film atau berjalan-jalan.",
+     "Kalau sedang senggang, main gim atau baca buku saja.",
+     "Tolong kirimkan dokumennya lewat email atau faks.",
+     "Kalau ada apa-apa, silakan menelepon atau mengirim pesan."
+    ],
+    "explain": "Kedua butir yang disebutkan sebaiknya sejenis (sama-sama kata benda atau sama-sama kata kerja bentuk kamus).\nMenekankan \"tindakan konkret\" daripada sekadar menyebutkan informasi.\nNuansanya bisa agak mendesak; digunakan kepada orang yang setara/sudah dikenal. Kepada pelanggan/atasan sebaiknya pilih cara yang lebih lembut.\nBiasanya disertai akhir kalimat yang bersifat usulan/perintah ringan.\n\n• Mengajukan dua (atau lebih) pilihan \"misalnya A atau B\", dengan maksud \"cara mana pun boleh, pilihlah satu untuk dilakukan\".\n• Nuansa saran/permintaan dari ringan hingga sedang; terkadang terasa mendesak \"lakukan sesuatu\".\n• Digunakan dalam petunjuk, nasihat, atau usulan yang sopan; tidak netral seperti とか/や, lebih kuat dalam hal \"tindakan\".\n• Biasanya diakhiri dengan してください／したらどうですか／しなさい／しよう／すればいい.",
+    "notes": "• Dalam bahasa sopan, akhir kalimat dapat diganti: ～してはいかがでしょうか／～されてはどうでしょうか untuk mengurangi kesan memaksa.\n• \"A なり B なりして\" adalah kerangka yang sangat alami ketika menasihati lawan bicara \"lakukanlah sesuatu\".\n• Jika menyebutkan lebih dari dua, dapat menggunakan tiga butir tetapi sebaiknya tetap ringkas, hindari bertele-tele.",
+    "mistakes": [
+     "Mencampur jenis kata: \"N なり Vる なり\" tidak alami; harus sejenis (N-N, V-V).",
+     "Menggunakannya untuk menggambarkan peristiwa lampau yang terjadi sekali tanpa maksud memberi saran → lebih baik pilih とか/や.",
+     "Tertukar dengan \"Vるなり\" yang berarti \"begitu… langsung…\"; soal ujian sering menjebak dengan pasangan ini.",
+     "Menggunakan bentuk perintah apa adanya kepada atasan/pelanggan terdengar kasar; sebaiknya ubah ke bentuk sopan berupa usulan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～なり～なり",
+       "Misalnya A atau B, lakukan yang mana saja boleh",
+       "Menyarankan tindakan, nuansa sedikit mendesak",
+       "<ruby>医者<rt>いしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くなり<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>むなりしなさい"
+      ],
+      [
+       "～とか／～や",
+       "Menyebutkan contoh",
+       "Netral, tidak mendesak untuk bertindak",
+       "<ruby>本<rt>ほん</rt></ruby>とか<ruby>雑誌<rt>ざっし</rt></ruby>とかを<ruby>読<rt>よ</rt></ruby>む"
+      ],
+      [
+       "N でも",
+       "\"juga boleh/sekadar\"",
+       "Menyarankan satu pilihan minimal",
+       "コーヒーでもどう？"
+      ],
+      [
+       "Vるなり（arti berbeda）",
+       "Begitu selesai V, langsung…",
+       "Pola tata bahasa lain, bukan penyebutan",
+       "<ruby>席<rt>せき</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>るなり<ruby>寝<rt>ね</rt></ruby>てしまった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1330,
+   "src_hash": "a1c6fdb670af999c",
+   "fields": {
+    "meaning": "Dalam situasi…",
+    "examples": [
+     "Dalam keadaan darurat, jangan terpengaruh oleh kabar bohong.",
+     "Di tengah resesi, menjaga arus kas adalah prioritas utama.",
+     "Pada akhir zaman Edo, perdagangan berkembang.",
+     "Dalam posisinya, ia dituntut untuk sangat berhati-hati dalam berbicara.",
+     "Meskipun dalam situasi yang sulit, ia tidak berhenti mencoba."
+    ],
+    "explain": "Diletakkan di awal kalimat untuk membentuk kerangka latar bagi argumen/imbauan.\nDipadukan dengan kata benda seperti: 非常時／緊急時／不況下／戦時／現場／立場／制度下.\nHindari penggunaan dalam percakapan santai karena terdengar terlalu formal.\n\n• Menunjukkan zaman, situasi, posisi; digunakan untuk menyatakan hal yang sebaiknya dilakukan/ciri khas dalam kerangka tersebut.\n• Nuansanya serius, cocok untuk teks peraturan, laporan, karya ilmiah.\n• Bentuk ～にあっても menambahkan klausa yang berlawanan untuk menekankan kehendak/keteguhan.",
+    "notes": "• Dalam teks hukum/administrasi, ～にあっては biasanya disertai perintah/syarat: ～しなければならない／～こと.\n• \"不況下にあっては\" adalah frasa baku dalam ulasan ekonomi.\n• Bentuk lampau jarang digunakan; umumnya bentuk kini untuk menggambarkan norma umum.",
+    "mistakes": [
+     "Diterapkan pada kata benda yang bukan latar situasi: × 公園にあっては → gunakan 公園では.",
+     "Salah memilih partikel: にあっては ≠ においては; soal ujian sering menguji pemilihan nuansa yang tepat.",
+     "Menggunakannya dalam percakapan biasa membuat kalimat terasa berat dan tidak alami."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～では",
+       "Di/dalam",
+       "Bahasa lisan; tidak menekankan norma.",
+       "<ruby>緊急<rt>きんきゅう</rt></ruby><ruby>時<rt>とき</rt></ruby>では<ruby>冷静<rt>れいせい</rt></ruby>に。"
+      ],
+      [
+       "～において（は）",
+       "Di, dalam",
+       "Formal tetapi netral; kurang menekankan \"kondisi khusus\".",
+       "<ruby>会議<rt>かいぎ</rt></ruby>において<ruby>報告<rt>ほうこく</rt></ruby>する。"
+      ],
+      [
+       "～<ruby>上<rt>じょう</rt></ruby>（じょう）",
+       "Dari segi…",
+       "Sudut pandang teori/peraturan; berbeda dengan latar kenyataan.",
+       "<ruby>制度<rt>せいど</rt></ruby><ruby>上<rt>うえ</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>はない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1331,
+   "src_hash": "64d0929ef6af630e",
+   "fields": {
+    "meaning": "Tidak pantas bagi…",
+    "examples": [
+     "Itu ucapan yang tidak pantas bagi seorang guru.",
+     "Terjadi kesalahan yang tidak pantas dilakukan seorang dokter.",
+     "Ia dihukum berat karena kecurangan yang tidak pantas dilakukan seorang pegawai negeri.",
+     "Itu sikap yang tidak pantas sebagai orang tua.",
+     "Kata-kata kasarnya tidak pantas bagi seorang pemimpin."
+    ],
+    "explain": "Sangat formal dan bernada kritik; hindari dalam komunikasi santai kecuali untuk menekankan moral.\nSering dipadukan dengan kata benda yang menunjukkan \"perbuatan\": 行為・発言・態度・振る舞い・不祥事・ミス.\nBiasanya langsung diletakkan sebelum kata benda yang dinilai: N1にあるまじきN2.\nRasa bahasa klasik (あるまじき) menimbulkan kesan normatif yang kuat, terkadang terdengar \"keras\".\n\n• Menyatakan perbuatan/sikap yang \"tidak dapat diterima, tidak pantas\" bagi kedudukan, profesi, standar moral.\n• Kritik keras, sering dijumpai dalam berita, kode etik, pernyataan resmi.\n• N1 adalah peran: 教師・医者・公務員・親・学生・政治家・社会人… N2 adalah 発言・行為・態度・ミス・不祥事 dan sebagainya.",
+    "notes": "• Berasal dari bahasa kuno \"あるまじき\" = あるべからざる; satu medan makna dengan pantangan moral.\n• Disukai dalam judul berita untuk menekankan tingkat keseriusan.\n• Dapat digunakan untuk mengkritik diri sendiri tetapi mudah menimbulkan kesan dramatis: 私も教師にあるまじき言動をしてしまった。",
+    "mistakes": [
+     "Salah urutan: × あるまじき教師の発言 → ○ 教師にあるまじき発言.",
+     "Digunakan dengan sasaran yang bukan \"peran/kedudukan\": × 天気にあるまじき → tidak sesuai.",
+     "Keliru tingkatnya dengan ～にふさわしくない: あるまじき lebih kuat, bersifat mengecam secara moral.",
+     "Tidak ada kata benda setelah あるまじき sehingga kalimat terputus: diperlukan N2 seperti 行為・発言 agar lengkap."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～にふさわしくない",
+       "Tidak sesuai, tidak layak",
+       "Lebih ringan, lebih netral daripada あるまじき.",
+       "<ruby>教師<rt>きょうし</rt></ruby>にふさわしくない<ruby>態度<rt>たいど</rt></ruby>。"
+      ],
+      [
+       "～とは<ruby>思<rt>おも</rt></ruby>えない",
+       "Sulit dianggap sebagai",
+       "Mengungkapkan pendapat pribadi, kurang normatif.",
+       "<ruby>医者<rt>いしゃ</rt></ruby>とは<ruby>思<rt>おも</rt></ruby>えない<ruby>振<rt>ふ</rt></ruby>る<ruby>舞<rt>ま</rt></ruby>い。"
+      ],
+      [
+       "～べきではない",
+       "Sebaiknya tidak",
+       "Nasihat umum; あるまじき kuat dan mengkritik secara moral.",
+       "そんな<ruby>発言<rt>はつげん</rt></ruby>をすべきではない。"
+      ],
+      [
+       "～として<ruby>恥<rt>は</rt></ruby>ずべき",
+       "Memalukan sebagai…",
+       "Menekankan perasaan \"malu\"; tingkatnya kuat, tetapi tidak klasik seperti あるまじき.",
+       "<ruby>学生<rt>がくせい</rt></ruby>として<ruby>恥<rt>は</rt></ruby>ずべき<ruby>行為<rt>こうい</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1332,
+   "src_hash": "d0c32030b57b553a",
+   "fields": {
+    "meaning": "Baru… setelah…",
+    "examples": [
+     "Setelah menjadi guru, barulah saya memahami rumitnya perasaan murid.",
+     "Baru setelah menjadi penanggung jawab lapangan, seseorang benar-benar merasakan beratnya mengambil keputusan.",
+     "Baru di usia 30 tahun saya melihat jalan yang akan saya tempuh.",
+     "Setelah bekerja, barulah saya benar-benar merasakan pentingnya manajemen waktu.",
+     "Baru setelah menjadi orang tua, seseorang memahami betapa berharganya orang tua."
+    ],
+    "explain": "Formal, mengandung kedalaman pengalaman; cocok untuk tulisan reflektif, inspiratif.\nHindari penggunaan dengan tonggak yang remeh/tidak berarti; sebaiknya berupa tonggak \"titik balik\".\nSering dipadukan dengan ungkapan tetap yang menyatakan perasaan kuat: 身に染みる・痛感する・骨身にこたえる.\n\nArti: \"Baru setelah (mencapai) N, untuk pertama kalinya …\". Menekankan tonggak yang penting/patut dicatat, memberi kesan terlambat, sulit dicapai, atau memerlukan pengalaman/syarat yang berat untuk memperoleh hasil/kesadaran.\n• N: titik waktu (40歳, 入社三年目), kedudukan (親, 社会人, プロ), latar (現場, 海外).\n• Klausa belakang: untuk pertama kalinya mencapai/menyadari (～ようになる／分かる／悟る／実感する／達成する).\n• Banyak digunakan dalam bahasa tulis, esai, memoar, wawancara tentang pengalaman.",
+    "notes": "• Struktur pengulangan bunyi untuk menambah penekanan: ～にして初めて、～と分かった／～ことに気づいた.\n• Dapat dipadukan dengan bilangan untuk menekankan keterlambatan: 三度目にして初めて合格した。\n• Dalam judul/wawancara: \"現場にして初めて見えた真実\".",
+    "mistakes": [
+     "Digunakan dengan N yang bukan \"titik tolak\" → arti kalimat menjadi kabur.",
+     "Tertukar dengan Vて初めて ketika titik tolaknya berupa tindakan konkret → memilih Vて初めて lebih alami.",
+     "Digunakan untuk peristiwa kebetulan, hanya sekali, tanpa \"akumulasi\" → tidak sesuai."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vて<ruby>初<rt>はじ</rt></ruby>めて",
+       "Setelah melakukan V, baru pertama kali…",
+       "Umum, percakapan; menekankan tindakan V",
+       "<ruby>働<rt>はたら</rt></ruby>いて<ruby>初<rt>はじ</rt></ruby>めて<ruby>税金<rt>ぜいきん</rt></ruby>の<ruby>重<rt>おも</rt></ruby>さを<ruby>知<rt>し</rt></ruby>った。"
+      ],
+      [
+       "Nになって<ruby>初<rt>はじ</rt></ruby>めて",
+       "Setelah menjadi N baru…",
+       "Lebih ringan daripada \"にして\"; nuansa sehari-hari",
+       "<ruby>親<rt>おや</rt></ruby>になって<ruby>初<rt>はじ</rt></ruby>めて<ruby>分<rt>わ</rt></ruby>かった。"
+      ],
+      [
+       "Vてこそ",
+       "Justru karena V maka bernilai",
+       "Biasanya menyatakan kebenaran/nilai umum, tidak hanya \"pertama kali\"",
+       "<ruby>失敗<rt>しっぱい</rt></ruby>してこそ<ruby>成長<rt>せいちょう</rt></ruby>できる。"
+      ],
+      [
+       "～てからでないと/では",
+       "Jika belum V maka tidak…",
+       "Syarat negatif, bukan \"titik balik pertama kali\"",
+       "<ruby>登録<rt>とうろく</rt></ruby>してからでないと<ruby>利用<rt>りよう</rt></ruby>できない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 1
+}

@@ -1,0 +1,500 @@
+{
+ "batch": "b013",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 190,
+   "src_hash": "dc11ba7469c2b183",
+   "fields": {
+    "meaning": "Sebelum",
+    "examples": [
+     "Sebelum tidur, saya menggosok gigi.",
+     "Sebelum makan, saya mencuci tangan.",
+     "Yamada-san pergi keluar satu jam yang lalu.\nSebelum pergi keluar, ia membaca koran."
+    ],
+    "explain": "Menekankan urutan tindakan.\nKonjugasi kala masa depan, sekarang, lampau … dilakukan pada kata kerja di belakang. (V2)\nSubjek klausa utama menggunakan は, subjek klausa bawahan menggunakan partikel が.\n\n～まえに： Sebelum\nDurasi waktu yang langsung diikuti まえに biasanya bermakna: ~ yang lalu.",
+    "notes": "meaning_vi: Menekankan bahwa suatu tindakan atau peristiwa pada klausa belakang terjadi sebelum tindakan atau peristiwa pada klausa depan.\nexamples: 1. ①　つらくなる　前に\nSebelum merasa menderita.\n2. ②　テストを　はじめる　前に　名前を　書いてください。\nTolong tulis nama Anda sebelum memulai ujian.\n3. ③　ねる　前に　何をし　ましたか。\nApa yang Anda lakukan saat tidur?\n4. ④　食事の　前に　手を　あらいます。\nMencuci tangan sebelum makan."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 191,
+   "src_hash": "7152d6fd48d30c24",
+   "fields": {
+    "meaning": "Yang ini lebih … daripada yang itu",
+    "examples": [
+     "Tahun ini lebih sibuk daripada tahun lalu.",
+     "Kereta lebih cepat daripada bus.",
+     "Kucing lebih tenang daripada anjing.",
+     "Bahasa Inggris lebih mudah diucapkan daripada bahasa Jepang.",
+     "Antara A dan B, mana yang lebih sulit? — B lebih sulit.",
+     "Hasilnya lebih buruk daripada perkiraan."
+    ],
+    "explain": "Jika konteksnya jelas, dapat dikatakan: B のほうが ～ (Aより dihilangkan).\nTambahkan ずっと/はるかに untuk menekankan perbedaan yang besar.\nのほうが sering digunakan dalam percakapan; dalam bahasa tulis formal dapat digunakan 比較的構文 lain, tetapi pola ini tetap baku.\nPerhatikan agar kriteria perbandingan A dan B seragam.\n\nMenyatakan kelebihan/kekurangan: \"B lebih … daripada A dalam hal ~\".\nFokusnya ada pada B（のほう）. Bagian Aより dapat dihilangkan pada perbandingan tersirat.\nDapat digunakan dengan kata sifat, kata kerja, jumlah, frekuensi…\nのほう (pihak …) mengandung nuansa pilihan/perbandingan, alami dalam percakapan.",
+    "notes": "のほう adalah nominalisasi \"pihak/sisi\", yang membuat B menjadi topik perbandingan secara alami.\nより dapat menjadi よりも untuk penekanan atau ketika diperlukan irama yang lebih jelas.\nPosisi が/は setelah のほうが: gunakan が saat menyampaikan informasi baru, gunakan は untuk kontras/generalisasi.",
+    "mistakes": [
+     "Urutan salah: \"BよりAのほうが\" biasanya tidak alami; yang baku adalah \"AよりBのほうが\".",
+     "Mencampur kriteria: A dan B harus memiliki kriteria perbandingan yang sama.",
+     "Tertukar antara ～のほうがいい (nasihat) dan ～より～のほうが～ (perbandingan tingkat).",
+     "Menghilangkan より saat konteksnya belum jelas membuat kalimat ambigu dalam pemahaman bacaan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "A は B ほど ～ない",
+       "A tidak se… B",
+       "Fokus pada negatif bahwa A kalah dari B; nuansanya lebih lembut daripada positif \"B lebih … daripada A\".",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>兄<rt>あに</rt></ruby>ほど <ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くない。"
+      ],
+      [
+       "～のほうがいい",
+       "Sebaiknya/memilih ~",
+       "Nasihat/pilihan, bukan sekadar perbandingan tingkat.",
+       "<ruby>今日<rt>きょう</rt></ruby>はタクシーのほうがいい。"
+      ],
+      [
+       "<ruby>一番<rt>いちばん</rt></ruby>～",
+       "Perbandingan superlatif",
+       "Bukan perbandingan dua pihak; memilih tingkat tertinggi di antara banyak hal.",
+       "この<ruby>店<rt>みせ</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>安<rt>やす</rt></ruby>い。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 192,
+   "src_hash": "547be9747e812749",
+   "fields": {
+    "meaning": "Partikel akhir kalimat「よ」 digunakan saat menyampaikan informasi baru kepada lawan bicara. Partikel akhir kalimat「ね」digunakan saat ingin lawan bicara mengonfirmasi informasi yang sudah diketahui lawan bicara.",
+    "connection": "[kalimat/klausa] + よ (informasi baru bagi lawan bicara) / [kalimat/klausa] + ね (konfirmasi/empati)",
+    "examples": [
+     "Nara lebih bagus, lho.",
+     "Ah, ada kucing, lho!",
+     "Kencan hari ini menyenangkan, ya.",
+     "Dingin, ya. Saya ingin cepat-cepat pulang ke rumah, ya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 193,
+   "src_hash": "ab786b4138ecf2a4",
+   "fields": {
+    "connection": "N（tempat） + を + V gerak",
+    "examples": [
+     "Silakan belok di situ.",
+     "Silakan seberangi jembatan itu.",
+     "Tidak boleh berlari di lorong.",
+     "Kemarin saya berjalan-jalan di taman.",
+     "Saya membaca manga.",
+     "Saya membeli komputer."
+    ],
+    "explain": "V adalah kata kerja yang menyatakan gerakan atau arah, seperti pergi, berlari, terbang…\n\nA\nMenyatakan sasaran tindakan.\nB\nMenyatakan tempat yang dilalui atau dilewati seseorang saat bergerak.\nC\nMenyatakan tempat seseorang turun dari kendaraan atau titik awal.\nD\nMenyatakan keadaan orang atau benda dalam pola kalimat."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 194,
+   "src_hash": "1034b7552ea5802e",
+   "fields": {
+    "name": "～を＋kata kerja transitif＊",
+    "meaning": "Kata kerja transitif: kata kerja yang memerlukan pelengkap (「～を」).",
+    "connection": "Nを + V kata kerja transitif",
+    "examples": [
+     "Saya mematikan lampu.",
+     "Saya menyalakan televisi.",
+     "Saya membuka pintu.",
+     "Saya menutup pintu.",
+     "Saya memasukkan kucing.",
+     "Saya mengeluarkan kucing."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 195,
+   "src_hash": "f32d1e87bc331689",
+   "fields": {
+    "name": "kata tanya＋も（＋partikel）＋～ない",
+    "meaning": "Menyatakan bahwa tidak ada apa pun atau tidak melakukan apa pun (mengenai benda, orang, tempat, dsb.). Digunakan bersama kata tanya.",
+    "connection": "kata tanya + も( + partikel) + Vません/～ない",
+    "examples": [
+     "Karena tidak ada apa-apa",
+     "Saya tidak ingin makan apa pun.",
+     "Kemarin saya tidak pergi ke mana-mana.",
+     "Saya tidak akan memberi tahu siapa pun."
+    ],
+    "notes": "meaning_vi: ~ pun tidak ~ ⏐ explain: Digunakan untuk menekankan negatif. ⏐ 接続: Nも"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 196,
+   "src_hash": "df227bed8b486cbd",
+   "fields": {
+    "name": "Klausa penjelas kata benda",
+    "meaning": "Cara menjelaskan kata benda dengan klausa relatif.",
+    "connection": "V bentuk biasa + N / Aい + N / Naな + N / Nの + N",
+    "examples": [
+     "Buku yang saya beli kemarin",
+     "Tolong jangan percaya apa yang dikatakan adik laki-laki Anda.",
+     "Ini adalah cincin yang saya terima dari ibu saya.",
+     "Ada banyak hal yang harus dikerjakan."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 197,
+   "src_hash": "6ec88fb4046ebd50",
+   "fields": {
+    "name": "お・ご（awalan sopan）",
+    "meaning": "お/ご: awalan sopan, menjadikan kata benda sebagai keigo (おちゃ, ご家族)",
+    "examples": [
+     "Bagaimana kalau minum teh?",
+     "Keluarga Anda ada berapa orang?",
+     "Tolong beri tahu nama Anda."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 198,
+   "src_hash": "d2792e9eec33da21",
+   "fields": {
+    "meaning": "Tidak boleh melakukan… (larangan; bahasa lisan dari ～てはいけない)",
+    "examples": [
+     "Di sini nggak boleh merokok, lho.",
+     "Selama pelajaran tidak boleh menggunakan ponsel.",
+     "Jangan minum sake banyak-banyak, ya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 199,
+   "src_hash": "e69aa875f4d77624",
+   "fields": {
+    "meaning": "だ/です: adalah… (kata kerja bantu positif; だ biasa, です sopan)",
+    "connection": "Positif sekarang: N・Na + だ（biasa）・です（sopan） / Positif lampau: だった・でした / Negatif sekarang: じゃない・ではない（biasa）・じゃありません・ではありません（sopan） / Negatif lampau: じゃなかった・ではなかった・じゃありませんでした・ではありませんでした",
+    "examples": [
+     "Aku mahasiswa.",
+     "Tanaka-san adalah guru bahasa Jepang.",
+     "Kemarin hujan."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 200,
+   "src_hash": "feb6fcceadb4eed1",
+   "fields": {
+    "meaning": "…paling, nomor satu (tingkat tertinggi)",
+    "examples": [
+     "Di kelas, Lin-san adalah yang paling tinggi.",
+     "Di antara buah-buahan, saya paling suka apel.",
+     "Ini adalah kamera yang paling murah."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 201,
+   "src_hash": "6c79f1d693397590",
+   "fields": {
+    "meaning": "Bersama-sama, bersama dengan…",
+    "examples": [
+     "Saya menonton film bersama teman.",
+     "Bagaimana kalau kita makan siang bersama?",
+     "Saya ingin pergi ke Jepang bersama keluarga."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 202,
+   "src_hash": "9c2cdf208abe97c0",
+   "fields": {
+    "meaning": "Bukan… (bentuk negatif kata benda/Na; じゃない bahasa lisan)",
+    "connection": "Negatif sekarang: N・Na + じゃない・ではない（biasa）・じゃありません・ではありません（sopan） / Negatif lampau: じゃなかった・ではなかった・じゃありませんでした・ではありませんでした",
+    "examples": [
+     "Aku bukan orang Jepang.",
+     "Ini bukan tas saya.",
+     "Kemarin bukan hari libur."
+    ],
+    "notes": "※じゃありません biasanya digunakan dalam percakapan; ではありません biasanya digunakan dalam pidato/bahasa tulis"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 204,
+   "src_hash": "f7fbe6c1250fadd4",
+   "fields": {
+    "meaning": "Tidak pandai/canggung dalam hal… (Vるのが下手)",
+    "examples": [
+     "Saya tidak pandai bernyanyi.",
+     "Adik laki-laki saya tidak pandai menulis huruf.",
+     "Saya tidak pandai memasak."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 205,
+   "src_hash": "04f62384c7f5d9c1",
+   "fields": {
+    "meaning": "Pandai/terampil dalam hal… (Vるのが上手)",
+    "examples": [
+     "Lin-san pandai berbicara bahasa Jepang.",
+     "Ibu saya pandai memasak.",
+     "Kakak laki-laki saya pandai menggambar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 207,
+   "src_hash": "ef42d0f9bef3fedf",
+   "fields": {
+    "meaning": "…ya, …nih (partikel akhir kalimat: seruan, konfirmasi)",
+    "connection": "[kalimat/klausa] + な(あ)（akhir kalimat, seruan）",
+    "examples": [
+     "Pemandangan ini indah, ya.",
+     "Hari ini panas, ya.",
+     "Ingin sekali pergi ke Jepang."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 208,
+   "src_hash": "f3513811ef972c9b",
+   "fields": {
+    "meaning": "~ selesai/jadi | Dapat melakukan sesuatu",
+    "examples": [
+     "Makan malamnya sudah jadi.",
+     "Di depan stasiun sudah dibangun supermarket besar.",
+     "Saya bisa berbahasa Jepang.",
+     "Di sini tidak bisa mengambil foto.",
+     "Di depan stasiun sudah berdiri gedung baru.",
+     "Kalau naik kereta ekspres, Anda bisa tiba dalam 1 jam."
+    ],
+    "explain": "Sopan: できます／できません. Santai: できる／できない.\nKemampuan umum menggunakan Nができます; tindakan spesifik menggunakan Vることができます atau 可能形 V-られる.\nDengan arti \"dibangun/muncul/terbentuk\", subjeknya adalah benda + が: 公園ができる, 予約ができる (bisa memesan tempat).\nMenekankan tingkat: よくできます (bisa dengan baik), だいたいできます (kurang lebih bisa), 少しできます (bisa sedikit).\n\nKemampuan/kondisi yang memungkinkan: \"dapat melakukan ~\", \"bisa ~\" (kemampuan, keterampilan, kondisi yang mengizinkan).\nTerbentuk/selesai/timbul: \"selesai dibangun/lahir/terbentuk\" (berbeda arti dengan \"dapat\").\nMenyatakan cakupan kemampuan dengan kata benda: ピアノができます (bisa main piano), 料理ができます (bisa memasak).\nSaat menyatakan kemampuan dengan kata kerja tertentu, gunakan Vることができます yang formal; bentuk yang biasa dipakai dalam percakapan adalah V-可能形: 読めます, 行けます.",
+    "notes": "Bedakan dua arti \"dapat melakukan\" dan \"dibangun/dibuat\": berdasarkan konteks dan subjek.\nDengan orang: 友だちができる = mendapat teman baru; 子どもができる = hamil/punya anak (perhatikan nuansanya).\nTempat/perangkat: ここで充電ができます (di sini bisa mengisi daya) = ada kondisi yang mengizinkan.\nNegatif sopan di tempat umum: 〜ことはできません/ご遠慮ください berbeda nuansanya (larangan/meminta untuk menghindari).\nexplain: Menyatakan kemampuan atau kesanggupan terhadap sesuatu.\nexamples: 1. A:　カリナちゃんは　漢字が　できますか。\nB:　はい、漢字をよむことが　できます。書くことも　できますよ。\nA: Apakah Karina-chan bisa kanji?\nB: Bisa, Karina bisa membaca kanji. Menulis kanji juga bisa.\n2. A:　カードで　はらうことが　できますか。\nB:　はい、できますよ。\nA: Apakah saya bisa membayar dengan kartu?\nB: Ya, tentu bisa.\nexplain: ◎ Digunakan dengan kata kerja bentuk kamus, berarti kemampuan untuk melakukan hal tersebut adalah mungkin.\nexamples: 1. 屋上から 富士山を 見る ことが できます。\nGunung Fuji dapat terlihat dari atap gedung.\n2. ここから 先は、車で、通る ことが できません。\nDari sini ke depan tidak dapat dilalui dengan mobil.\nexplain: Vる + こと + が + できます: lebih sopan dibandingkan bentuk potensial V-られる.\nGunakan に/で untuk menunjukkan tempat/kondisi: 学校で勉強することができます。\nDapat digunakan untuk kemampuan bawaan maupun kemungkinan karena keadaan/izin.\nexamples: 1. 私は泳ぐことができます。\nSaya bisa berenang.\n2. この図書館で日本語の本を読むことができます。\nDi perpustakaan ini kita bisa membaca buku berbahasa Jepang.\n3. ここでは写真を撮ることができません。\nDi sini tidak bisa mengambil foto.\n4. 昨日、早く帰ることができました。\nKemarin saya bisa pulang lebih awal.\n5. このカードで払うことができますか。\nApakah bisa membayar dengan kartu ini?\ncomparison: Pola | Arti | Perbedaan | Contoh singkat\nVる + ことができます | Dapat melakukan (sopan) | Formal, mudah digunakan di N5 | 日本語（にほんご）を話（はな）す ことができます\nV可能（かのう）形（けい） (～られる) | Dapat melakukan | Ringkas, percakapan; tingkat lebih tinggi | 日本語（にほんご）が話（はな）せる\nN + ができます | Punya/bisa N | Digunakan dengan kata benda kemampuan | 料理（りょうり） ができます\ncommon_mistakes: Partikel salah: ×日本語を話すができます → ✓日本語を話すことができます.\nMenghilangkan こと: ×車を運転ができます → ✓車を運転することができます atau 車の運転ができます.\nTertukar arti izin dan kemampuan: perlu berdasarkan konteks/tempat untuk memahami dengan benar.\nexplain: Dibandingkan V-可能形: ことができる formal/objektif; V-可能形 alami, lebih bersifat bahasa lisan: 日本語が話せる。\nDalam klausa yang dinominalisasi, pertahankan urutan partikel di dalamnya: 日本語 を 話すことができる (benar); pola 日本語 が 話せる saat menggunakan bentuk potensial.\nMenyatakan \"layanan yang tersedia\": こちらで両替 できます (lebih alami dalam petunjuk).\nKombinasi penekanan: 少しなら/十分に/自由に + できる.\nexamples: 1. 私は日本語を話すことができます。\nSaya bisa berbicara bahasa Jepang.\n2. ここではWi‑Fiを無料で利用することができます。\nDi sini Wi‑Fi dapat digunakan secara gratis.\n3. 事故のため、今日は運転することができません。\nKarena kecelakaan, hari ini saya tidak bisa menyetir.\n4. このアプリで予約することができる。\nBisa memesan dengan aplikasi ini.\n5. 手術のおかげで、また走ることができるようになった。\nBerkat operasi, saya sudah bisa berlari lagi.\ncomparison: Pola | Arti | Perbedaan | Contoh singkat\nV-ことができる | Dapat (objektif) | Formal; cocok untuk bahasa tulis, pengumuman | 入場（にゅうじょう）する ことができません\nV-可能（かのう）形（けい）（読（よ）める等（ひとし）） | Dapat (alami) | Bahasa lisan; objek berubah を→が | 日本語（にほんご） が 話（はな）せる\n～てもいい | Boleh | Sumbu arti berbeda (permission) | ここで写真（しゃしん）を撮（と）っ てもいい\nNができる | Bisa/pandai/dibuat | Bentuk kata benda: 英語（えいご）ができる/ケーキができる | 彼（かれ）は数学（すうがく） ができる\ncommon_mistakes: • Mencampuradukkan permission dan ability: \"入ってもいい\" (boleh) ≠ \"入ることができる\" (dapat masuk).\n• Partikel salah di dalam klausa: 日本語が話すことができる → sebaiknya 日本語を話すことができる.\n• Pengulangan bertele-tele dengan サ変: \"予約をすることができる\" panjang; yang alami: 予約できる / 予約することができる (saat perlu formal).\n• Terlalu formal dalam percakapan santai: ことができる → sebaiknya gunakan 可能形 agar alami.\nmeaning_vi: Menyatakan suatu keadaan di mana tindakan tertentu selalu dapat dilakukan (①②) atau kemampuan untuk melakukan sesuatu (③). Pola kalimat ini biasanya digunakan dengan kata kerja yang menyatakan tindakan berkehendak dari manusia. Merupakan ungkapan yang lebih kaku dibandingkan ungkapan ～（され）ます。\nexamples: 1. ①このコンビニでは24時間買い物ができます。\nAnda bisa berbelanja 24 jam sehari di minimarket ini.\n2. ②今、この建物の中には入ることができません。\nSekarang Anda tidak bisa masuk ke dalam gedung ini.\n3. ③私は日本の県の名前を全部いうことができます。\nSaya bisa menyebutkan nama semua prefektur di Jepang.\nmeaning_vi: mampu melakukan sesuatu…\ndilihat dari keadaan..mampu melakukan sesuatu…\nexamples: 1. わたしは車の運転ができます。\nSaya bisa menyetir mobil.\n2. リンさんは日本語を話すことができます。\nRin-san bisa berbicara bahasa Jepang.\n3. 「場所がどこかわかりますから、一人で行くことができます」\n\"Karena saya tahu tempatnya di mana, saya bisa pergi sendiri.\"\n4. この図書館は9時まで利用することができます。\nPerpustakaan ini dapat digunakan sampai jam 9.\n5. 「禁煙です。ここではたばこを吸うことはできません」\n\"Dilarang merokok. Di sini tidak boleh merokok.\"\n6. 「このいすは壊れていますから、座ることはできません。注意してくださいね。」\n\"Kursi ini rusak, jadi tidak bisa diduduki. Harap berhati-hati, ya.\"\nmeaning_vi: Menyatakan arti dapat melakukan.\nexamples: 1. ①　何でも　食べられるよ。\nAku bisa makan apa saja, lho.\n2. ②　わたしは　何でも　食べる　ことが　できます。\nSaya bisa makan apa saja.\n3. ➂　いつか　また　会えますよ。\nSuatu saat kita pasti bisa bertemu lagi.",
+    "mistakes": [
+     "Partikel salah: menggunakan を alih-alih が untuk kemampuan. Yang benar: Nができます.",
+     "Tertukar dengan arti penyelesaian: \"駅ができました\" bukan berarti \"bisa stasiun\", melainkan \"stasiun baru sudah selesai dibangun\".",
+     "Keliru menggunakan Nをすることができる (bertele-tele). Biasanya digunakan Vることができる atau Nができる.",
+     "Keliru tingkat: \"少しできます/全然できません\" adalah ungkapan tingkat yang alami dalam JLPT."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Fungsi",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Nができる",
+       "Kemampuan terkait kata benda/keterampilan",
+       "Umum, ringkas",
+       "<ruby>英語<rt>えいご</rt></ruby>ができる"
+      ],
+      [
+       "Vることができる",
+       "Kemampuan melakukan tindakan spesifik",
+       "Formal, jelas",
+       "<ruby>予約<rt>よやく</rt></ruby>することができる"
+      ],
+      [
+       "V-<ruby>可能<rt>かのう</rt></ruby><ruby>形<rt>けい</rt></ruby> (<ruby>読<rt>よ</rt></ruby>める)",
+       "Kemampuan dari kata kerja",
+       "Alami dalam percakapan",
+       "ここで<ruby>読<rt>よ</rt></ruby>める"
+      ],
+      [
+       "〜ようになる",
+       "Menjadi dapat (perubahan seiring waktu)",
+       "Menekankan perubahan, bukan sekadar kemampuan saat ini",
+       "<ruby>泳<rt>およ</rt></ruby>げるようになる"
+      ],
+      [
+       "〜ことが<ruby>可能<rt>かのう</rt></ruby>だ",
+       "Memungkinkan (bahasa tulis)",
+       "Formal/teknis",
+       "<ruby>登録<rt>とうろく</rt></ruby>が<ruby>可能<rt>かのう</rt></ruby>だ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 209,
+   "src_hash": "b4815a35e6f66555",
+   "fields": {
+    "meaning": "(Seseorang) melakukan sesuatu untuk saya",
+    "examples": [
+     "Dia mengajari saya banyak hal tentang kehidupan di Jepang.",
+     "Dia memberi tahu saya bahwa kelas Mori-sensei diliburkan.",
+     "Teman membantuku mengerjakan PR.",
+     "Guru memperbaiki pelafalan saya.",
+     "Terima kasih sudah meminjamkan buku ini, benar-benar sangat membantu.",
+     "Bisa tunggu sebentar?"
+    ],
+    "explain": "Subjeknya adalah pelaku (ga/wa) + V-て + くれる; penerimanya adalah saya/kami (biasanya dihilangkan).\nMenunjukkan rasa terima kasih, keakraban; beralih ke くださる jika pelaku perlu dihormati.\nDalam bentuk permintaan, tambahkan frasa pelembut yang sopan: すみませんが、～て くれますか ／～て くれませんか .\nTidak digunakan untuk mengatakan \"saya melakukan untuk orang lain\"; untuk itu gunakan ～てあげる／～てさしあげる.\n\n• Menyatakan tindakan \"seseorang melakukan (demi kepentingan) pembicara atau orang dalam kelompok pembicara\". Menekankan kebaikan yang diterima dan rasa terima kasih/penilaian positif.\n• Dapat digunakan untuk permintaan dalam bentuk pertanyaan: ～てくれる？／～てくれますか (permintaan).\n• Dalam konteks perasaan: ～てくれてありがとう／～てくれてよかった (ekspresif).\n• Jika pelakunya atasan/tamu, ganti dengan ～てくださる sebagai sonkeigo (bahasa hormat); jika menekankan penerimanya adalah saya, gunakan ～ていただく (kenjougo).",
+    "notes": "• ～てくれるな adalah larangan kasar (jangan lakukan), biasanya dalam gaya pidato/klasik/sangat maskulin; gunakan dengan hati-hati.\n• ～てくれてよかった／～てくれてうれしい: nuansa perasaan positif atas kebaikan yang diterima.\n• Mengubah sudut pandang: dengan もらう, penerima menjadi subjek; dengan くれる, pemberi menjadi subjek. Keduanya dapat menyatakan peristiwa yang sama dengan nuansa berbeda.\nmeaning_vi: ~smiley1V untuk saya.\nexplain: Hanya digunakan untuk diri sendiri dan keluarga seperti ayah, ibu, kakak…（ちち、はは、あね、あに、おとうと、いもうと…)\n私に dapat dihilangkan, dan subjeknya akan diikuti partikel が.\nexamples: 1. A:　犬が　かわいいですね。\nB:　ええ、姉が　この犬 を　買ってくれましたよ。\nA: Anjingnya lucu, ya.\nB: Iya, kakak perempuanku yang membelikannya untukku, lho.\n2. A:　すてきな　セーターですね。\nB:　ありがとう　ございます。ママが　送ってくれましたよ。\nA: Sweternya bagus, ya.\nB: Terima kasih. Mama yang mengirimkannya untuk saya.\nmeaning_vi: Subjek kalimat bukan pembicara. Penerima benda atau tindakan adalah pembicara atau orang yang secara psikologis dekat dengan pembicara. Jika menerima dari orang yang lebih tinggi kedudukannya yang bukan anggota keluarga, digunakan pola くださいます。\nexamples: 1. ①山田さんは私に時計をくれました。\nYamada-san memberi saya jam tangan.\n2. ②先生が妹に本をくださいました。\nGuru memberikan buku kepada adik perempuan saya.\n3. ③友達が店の場所を教えてくれました。\nTeman saya memberi tahu saya lokasi toko itu.\n4. ④サラさんは一緒に病院へ行ってくれた。\nSarah-san menemani saya pergi ke rumah sakit.",
+    "mistakes": [
+     "Menggunakan くれる saat penerimanya tidak berhubungan dengan pembicara → sebaiknya gunakan あげる/もらう sesuai arah kebaikan.",
+     "Lupa beralih ke keigo terhadap orang yang lebih tinggi kedudukannya: × 先生が教えてくれた → ✓ 教えてくださいました／教えてくださった。",
+     "Tertukar くれる dan もらう dalam kalimat yang mengubah subjek: soal JLPT sering meminta mengubah struktur dengan arti tetap.",
+     "Menggunakan くれ bentuk perintah terdengar kasar; hindari dalam lingkungan yang sopan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "V-てくれる",
+       "Orang lain melakukan untuk saya",
+       "Netral/akrab",
+       "<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>つく</rt></ruby>ってくれた"
+      ],
+      [
+       "V-てくださる",
+       "Keigo dari くれる",
+       "Sonkeigo terhadap pelaku",
+       "<ruby>先生<rt>せんせい</rt></ruby>が<ruby>教<rt>おし</rt></ruby>えてくださった"
+      ],
+      [
+       "V-てもらう",
+       "Saya menerima bantuan",
+       "Berfokus pada penerima (saya)",
+       "<ruby>友<rt>とも</rt></ruby>だちに<ruby>手伝<rt>てつだ</rt></ruby>ってもらった"
+      ],
+      [
+       "V-てあげる",
+       "Saya melakukan untuk orang lain",
+       "Arah manfaat dari saya ke luar",
+       "<ruby>説明<rt>せつめい</rt></ruby>してあげる"
+      ],
+      [
+       "V-てさしあげる",
+       "Kenjougo (saya melakukan untuk orang yang lebih tinggi kedudukannya)",
+       "Formal",
+       "<ruby>案内<rt>あんない</rt></ruby>してさしあげます"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

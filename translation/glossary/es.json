@@ -1,0 +1,3308 @@
+{
+ "lang": "es",
+ "version": "1",
+ "terms": [
+  {
+   "id": "noun",
+   "cat": "pos",
+   "vi": [
+    "danh từ"
+   ],
+   "ja": "名詞",
+   "tr": "sustantivo",
+   "accept": [
+    "sustantivos",
+    "nombre"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "verb",
+   "cat": "pos",
+   "vi": [
+    "động từ"
+   ],
+   "ja": "動詞",
+   "tr": "verbo",
+   "accept": [
+    "verbos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "adjective",
+   "cat": "pos",
+   "vi": [
+    "tính từ"
+   ],
+   "ja": "形容詞",
+   "tr": "adjetivo",
+   "accept": [
+    "adjetivos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "i_adj",
+   "cat": "pos",
+   "vi": [
+    "tính từ đuôi い",
+    "tính từ い"
+   ],
+   "ja": "い形容詞",
+   "tr": "adjetivo い",
+   "accept": [
+    "adjetivos い",
+    "adjetivo -i"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "na_adj",
+   "cat": "pos",
+   "vi": [
+    "tính từ đuôi な",
+    "tính từ な"
+   ],
+   "ja": "な形容詞",
+   "tr": "adjetivo な",
+   "accept": [
+    "adjetivos な",
+    "adjetivo -na"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "adverb",
+   "cat": "pos",
+   "vi": [
+    "phó từ",
+    "trạng từ"
+   ],
+   "ja": "副詞",
+   "tr": "adverbio",
+   "accept": [
+    "adverbios"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "particle",
+   "cat": "pos",
+   "vi": [
+    "trợ từ"
+   ],
+   "ja": "助詞",
+   "tr": "partícula",
+   "accept": [
+    "partículas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "aux_verb",
+   "cat": "pos",
+   "vi": [
+    "trợ động từ"
+   ],
+   "ja": "助動詞",
+   "tr": "verbo auxiliar",
+   "accept": [
+    "verbos auxiliares",
+    "auxiliar"
+   ],
+   "note": "For 助動詞 (～ます, ～たい, ～られる...). Do not confuse with aux_verb_hojo (補助動詞).",
+   "check": true
+  },
+  {
+   "id": "conjunction",
+   "cat": "pos",
+   "vi": [
+    "liên từ",
+    "từ nối"
+   ],
+   "ja": "接続詞",
+   "tr": "conjunción",
+   "accept": [
+    "conjunciones",
+    "conector",
+    "conectores"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "interrogative",
+   "cat": "pos",
+   "vi": [
+    "từ để hỏi",
+    "nghi vấn từ"
+   ],
+   "ja": "疑問詞",
+   "tr": "palabra interrogativa",
+   "accept": [
+    "palabras interrogativas",
+    "interrogativo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "pronoun",
+   "cat": "pos",
+   "vi": [
+    "đại từ"
+   ],
+   "ja": "代名詞",
+   "tr": "pronombre",
+   "accept": [
+    "pronombres"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "demonstrative",
+   "cat": "pos",
+   "vi": [
+    "từ chỉ thị",
+    "đại từ chỉ thị"
+   ],
+   "ja": "指示詞",
+   "tr": "demostrativo",
+   "accept": [
+    "demostrativos",
+    "palabra demostrativa"
+   ],
+   "note": "The こ・そ・あ・ど series.",
+   "check": true
+  },
+  {
+   "id": "counter",
+   "cat": "pos",
+   "vi": [
+    "trợ số từ",
+    "lượng từ"
+   ],
+   "ja": "助数詞",
+   "tr": "contador",
+   "accept": [
+    "contadores",
+    "clasificador numeral"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "numeral",
+   "cat": "pos",
+   "vi": [
+    "số từ"
+   ],
+   "ja": "数詞",
+   "tr": "numeral",
+   "accept": [
+    "numerales"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "onomatopoeia",
+   "cat": "pos",
+   "vi": [
+    "từ tượng thanh",
+    "từ tượng hình",
+    "từ láy"
+   ],
+   "ja": "オノマトペ",
+   "tr": "onomatopeya",
+   "accept": [
+    "onomatopeyas",
+    "palabra onomatopéyica"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "interjection",
+   "cat": "pos",
+   "vi": [
+    "thán từ"
+   ],
+   "ja": "感動詞",
+   "tr": "interjección",
+   "accept": [
+    "interjecciones"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "suffix",
+   "cat": "pos",
+   "vi": [
+    "hậu tố"
+   ],
+   "ja": "接尾辞",
+   "tr": "sufijo",
+   "accept": [
+    "sufijos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "prefix",
+   "cat": "pos",
+   "vi": [
+    "tiền tố"
+   ],
+   "ja": "接頭辞",
+   "tr": "prefijo",
+   "accept": [
+    "prefijos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "compound",
+   "cat": "pos",
+   "vi": [
+    "từ ghép"
+   ],
+   "ja": "複合語",
+   "tr": "palabra compuesta",
+   "accept": [
+    "palabras compuestas",
+    "compuesto"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "compound_verb",
+   "cat": "pos",
+   "vi": [
+    "động từ ghép"
+   ],
+   "ja": "複合動詞",
+   "tr": "verbo compuesto",
+   "accept": [
+    "verbos compuestos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "noun_phrase",
+   "cat": "pos",
+   "vi": [
+    "cụm danh từ"
+   ],
+   "ja": "名詞句",
+   "tr": "sintagma nominal",
+   "accept": [
+    "frase nominal",
+    "sintagmas nominales"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "nominalization",
+   "cat": "pos",
+   "vi": [
+    "danh từ hóa",
+    "danh từ hoá"
+   ],
+   "ja": "名詞化",
+   "tr": "nominalización",
+   "accept": [
+    "nominalizar"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "abstract_noun",
+   "cat": "pos",
+   "vi": [
+    "danh từ trừu tượng"
+   ],
+   "ja": "抽象名詞",
+   "tr": "sustantivo abstracto",
+   "accept": [
+    "sustantivos abstractos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "formal_noun",
+   "cat": "pos",
+   "vi": [
+    "danh từ hình thức"
+   ],
+   "ja": "形式名詞",
+   "tr": "sustantivo formal",
+   "accept": [
+    "sustantivos formales"
+   ],
+   "note": "こと, もの, ところ, わけ... used as grammatical nouns.",
+   "check": true
+  },
+  {
+   "id": "time_noun",
+   "cat": "pos",
+   "vi": [
+    "danh từ chỉ thời gian"
+   ],
+   "ja": "時間名詞",
+   "tr": "sustantivo de tiempo",
+   "accept": [
+    "sustantivos de tiempo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "place_noun",
+   "cat": "pos",
+   "vi": [
+    "danh từ chỉ địa điểm",
+    "danh từ chỉ nơi chốn"
+   ],
+   "ja": "場所名詞",
+   "tr": "sustantivo de lugar",
+   "accept": [
+    "sustantivos de lugar"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "person_noun",
+   "cat": "pos",
+   "vi": [
+    "danh từ chỉ người"
+   ],
+   "ja": "人を表す名詞",
+   "tr": "sustantivo de persona",
+   "accept": [
+    "sustantivos de persona",
+    "sustantivo que designa a una persona"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "verbal_noun",
+   "cat": "pos",
+   "vi": [
+    "danh động từ",
+    "danh từ する"
+   ],
+   "ja": "サ変名詞",
+   "tr": "sustantivo verbal",
+   "accept": [
+    "sustantivos verbales",
+    "sustantivo + する"
+   ],
+   "note": "Nouns that become verbs with する (勉強する).",
+   "check": true
+  },
+  {
+   "id": "sino_word",
+   "cat": "pos",
+   "vi": [
+    "từ hán",
+    "hán ngữ"
+   ],
+   "ja": "漢語",
+   "tr": "palabra sinojaponesa",
+   "accept": [
+    "palabras sinojaponesas",
+    "kango"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "case_particle",
+   "cat": "particle",
+   "vi": [
+    "trợ từ cách"
+   ],
+   "ja": "格助詞",
+   "tr": "partícula de caso",
+   "accept": [
+    "partículas de caso"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "conj_particle",
+   "cat": "particle",
+   "vi": [
+    "trợ từ liên kết",
+    "trợ từ nối"
+   ],
+   "ja": "接続助詞",
+   "tr": "partícula conjuntiva",
+   "accept": [
+    "partículas conjuntivas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "adv_particle",
+   "cat": "particle",
+   "vi": [
+    "trợ từ phó",
+    "phó trợ từ"
+   ],
+   "ja": "副助詞",
+   "tr": "partícula adverbial",
+   "accept": [
+    "partículas adverbiales"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "final_particle",
+   "cat": "particle",
+   "vi": [
+    "trợ từ cuối câu",
+    "trợ từ kết thúc câu"
+   ],
+   "ja": "終助詞",
+   "tr": "partícula final",
+   "accept": [
+    "partículas finales",
+    "partícula de final de oración"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "topic_particle",
+   "cat": "particle",
+   "vi": [
+    "trợ từ chủ đề"
+   ],
+   "ja": "係助詞「は」",
+   "tr": "partícula de tema",
+   "accept": [
+    "partícula temática"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "verb_g1",
+   "cat": "verb",
+   "vi": [
+    "động từ nhóm 1",
+    "động từ nhóm i",
+    "nhóm 1"
+   ],
+   "ja": "五段動詞（Iグループ）",
+   "tr": "verbo del grupo 1",
+   "accept": [
+    "verbos del grupo 1",
+    "verbo godan",
+    "grupo 1"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "verb_g2",
+   "cat": "verb",
+   "vi": [
+    "động từ nhóm 2",
+    "động từ nhóm ii",
+    "nhóm 2"
+   ],
+   "ja": "一段動詞（IIグループ）",
+   "tr": "verbo del grupo 2",
+   "accept": [
+    "verbos del grupo 2",
+    "verbo ichidan",
+    "grupo 2"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "verb_g3",
+   "cat": "verb",
+   "vi": [
+    "động từ nhóm 3",
+    "động từ nhóm iii",
+    "nhóm 3"
+   ],
+   "ja": "不規則動詞（IIIグループ）",
+   "tr": "verbo del grupo 3",
+   "accept": [
+    "verbos del grupo 3",
+    "verbo irregular",
+    "grupo 3"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "intransitive",
+   "cat": "verb",
+   "vi": [
+    "tự động từ"
+   ],
+   "ja": "自動詞",
+   "tr": "verbo intransitivo",
+   "accept": [
+    "verbos intransitivos",
+    "intransitivo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "transitive",
+   "cat": "verb",
+   "vi": [
+    "tha động từ"
+   ],
+   "ja": "他動詞",
+   "tr": "verbo transitivo",
+   "accept": [
+    "verbos transitivos",
+    "transitivo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "motion_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ chuyển động",
+    "động từ di chuyển"
+   ],
+   "ja": "移動動詞",
+   "tr": "verbo de movimiento",
+   "accept": [
+    "verbos de movimiento"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "state_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ trạng thái",
+    "động từ chỉ trạng thái"
+   ],
+   "ja": "状態動詞",
+   "tr": "verbo de estado",
+   "accept": [
+    "verbos de estado"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "action_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ hành động",
+    "động từ chỉ hành động"
+   ],
+   "ja": "動作動詞",
+   "tr": "verbo de acción",
+   "accept": [
+    "verbos de acción"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "change_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ biến đổi",
+    "động từ chỉ sự thay đổi"
+   ],
+   "ja": "変化動詞",
+   "tr": "verbo de cambio",
+   "accept": [
+    "verbos de cambio"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "perception_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ tri giác"
+   ],
+   "ja": "知覚動詞",
+   "tr": "verbo de percepción",
+   "accept": [
+    "verbos de percepción"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "volitional_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ ý chí",
+    "động từ có ý chí"
+   ],
+   "ja": "意志動詞",
+   "tr": "verbo volitivo",
+   "accept": [
+    "verbos volitivos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "nonvolitional_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ vô ý chí",
+    "động từ không ý chí"
+   ],
+   "ja": "無意志動詞",
+   "tr": "verbo no volitivo",
+   "accept": [
+    "verbos no volitivos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "speech_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ phát ngôn",
+    "động từ nói năng"
+   ],
+   "ja": "発話動詞",
+   "tr": "verbo de habla",
+   "accept": [
+    "verbos de habla",
+    "verbo de lengua"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "giving_receiving",
+   "cat": "verb",
+   "vi": [
+    "động từ cho nhận",
+    "cho nhận"
+   ],
+   "ja": "授受動詞",
+   "tr": "verbos de dar y recibir",
+   "accept": [
+    "verbo de dar y recibir"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "aux_verb_hojo",
+   "cat": "verb",
+   "vi": [
+    "động từ bổ trợ"
+   ],
+   "ja": "補助動詞",
+   "tr": "verbo subsidiario",
+   "accept": [
+    "verbos subsidiarios"
+   ],
+   "note": "For 補助動詞 after the て-form (～ている, ～てみる, ～てしまう); keep distinct from 'verbo auxiliar' (助動詞).",
+   "check": true
+  },
+  {
+   "id": "continuative_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ kéo dài",
+    "động từ liên tục"
+   ],
+   "ja": "継続動詞",
+   "tr": "verbo durativo",
+   "accept": [
+    "verbos durativos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "instant_verb",
+   "cat": "verb",
+   "vi": [
+    "động từ tức thời",
+    "động từ khoảnh khắc"
+   ],
+   "ja": "瞬間動詞",
+   "tr": "verbo puntual",
+   "accept": [
+    "verbos puntuales",
+    "verbo instantáneo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "form",
+   "cat": "form",
+   "vi": [
+    "thể",
+    "dạng"
+   ],
+   "ja": "形",
+   "tr": "forma",
+   "accept": [
+    "formas"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "conjugation",
+   "cat": "form",
+   "vi": [
+    "chia động từ",
+    "cách chia",
+    "biến đổi"
+   ],
+   "ja": "活用",
+   "tr": "conjugación",
+   "accept": [
+    "conjugaciones",
+    "conjugar"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "dict_form",
+   "cat": "form",
+   "vi": [
+    "thể từ điển",
+    "nguyên dạng",
+    "thể nguyên dạng"
+   ],
+   "ja": "辞書形",
+   "tr": "forma de diccionario",
+   "accept": [
+    "forma diccionario"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "masu_form",
+   "cat": "form",
+   "vi": [
+    "thể ます",
+    "dạng ます"
+   ],
+   "ja": "ます形",
+   "tr": "forma ます",
+   "accept": [
+    "forma -masu"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "masu_stem",
+   "cat": "form",
+   "vi": [
+    "thể ます bỏ ます",
+    "gốc động từ",
+    "thân động từ"
+   ],
+   "ja": "ます形の語幹",
+   "tr": "raíz de la forma ます",
+   "accept": [
+    "raíz ます",
+    "raíz del verbo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "nai_form",
+   "cat": "form",
+   "vi": [
+    "thể ない",
+    "dạng ない"
+   ],
+   "ja": "ない形",
+   "tr": "forma ない",
+   "accept": [
+    "forma -nai"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "te_form",
+   "cat": "form",
+   "vi": [
+    "thể て",
+    "dạng て"
+   ],
+   "ja": "て形",
+   "tr": "forma て",
+   "accept": [
+    "forma -te"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "ta_form",
+   "cat": "form",
+   "vi": [
+    "thể た",
+    "dạng た"
+   ],
+   "ja": "た形",
+   "tr": "forma た",
+   "accept": [
+    "forma -ta"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "plain_form",
+   "cat": "form",
+   "vi": [
+    "thể thường",
+    "thể thông thường",
+    "thể ngắn"
+   ],
+   "ja": "普通形",
+   "tr": "forma simple",
+   "accept": [
+    "formas simples",
+    "forma llana",
+    "forma neutra"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "polite_form",
+   "cat": "form",
+   "vi": [
+    "thể lịch sự",
+    "dạng lịch sự",
+    "thể です・ます"
+   ],
+   "ja": "丁寧形",
+   "tr": "forma cortés",
+   "accept": [
+    "formas corteses",
+    "forma educada"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "volitional_form",
+   "cat": "form",
+   "vi": [
+    "thể ý chí",
+    "thể ý hướng"
+   ],
+   "ja": "意向形",
+   "tr": "forma volitiva",
+   "accept": [
+    "formas volitivas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "potential_form",
+   "cat": "form",
+   "vi": [
+    "thể khả năng"
+   ],
+   "ja": "可能形",
+   "tr": "forma potencial",
+   "accept": [
+    "formas potenciales"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "passive_form",
+   "cat": "form",
+   "vi": [
+    "thể bị động",
+    "bị động"
+   ],
+   "ja": "受身形",
+   "tr": "forma pasiva",
+   "accept": [
+    "voz pasiva",
+    "pasiva"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "causative_form",
+   "cat": "form",
+   "vi": [
+    "thể sai khiến",
+    "sai khiến"
+   ],
+   "ja": "使役形",
+   "tr": "forma causativa",
+   "accept": [
+    "causativa",
+    "causativo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "causative_passive",
+   "cat": "form",
+   "vi": [
+    "thể bị động sai khiến",
+    "thể sai khiến bị động",
+    "bị động sai khiến"
+   ],
+   "ja": "使役受身形",
+   "tr": "forma causativa-pasiva",
+   "accept": [
+    "causativa-pasiva",
+    "forma causativa pasiva"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "imperative_form",
+   "cat": "form",
+   "vi": [
+    "thể mệnh lệnh"
+   ],
+   "ja": "命令形",
+   "tr": "forma imperativa",
+   "accept": [
+    "imperativo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "prohibitive_form",
+   "cat": "form",
+   "vi": [
+    "thể cấm chỉ",
+    "thể cấm đoán"
+   ],
+   "ja": "禁止形",
+   "tr": "forma prohibitiva",
+   "accept": [],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "ba_form",
+   "cat": "form",
+   "vi": [
+    "thể điều kiện",
+    "thể ば",
+    "thể giả định"
+   ],
+   "ja": "仮定形（ば形）",
+   "tr": "forma ば",
+   "accept": [
+    "forma condicional ば",
+    "forma -ba"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "tara_form",
+   "cat": "form",
+   "vi": [
+    "thể たら",
+    "dạng たら"
+   ],
+   "ja": "たら形",
+   "tr": "forma たら",
+   "accept": [
+    "forma -tara"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "tai_form",
+   "cat": "form",
+   "vi": [
+    "thể たい",
+    "dạng たい"
+   ],
+   "ja": "たい形",
+   "tr": "forma たい",
+   "accept": [
+    "forma -tai"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "te_iru",
+   "cat": "form",
+   "vi": [
+    "thể ている",
+    "dạng ている"
+   ],
+   "ja": "ている形",
+   "tr": "forma ている",
+   "accept": [
+    "forma -te iru"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "renyo",
+   "cat": "form",
+   "vi": [
+    "thể liên dụng",
+    "liên dụng"
+   ],
+   "ja": "連用形",
+   "tr": "forma continuativa (ren'yōkei)",
+   "accept": [
+    "forma continuativa",
+    "ren'yōkei",
+    "renyōkei"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "rentai",
+   "cat": "form",
+   "vi": [
+    "thể liên thể",
+    "liên thể",
+    "dạng bổ nghĩa danh từ"
+   ],
+   "ja": "連体形",
+   "tr": "forma atributiva (rentaikei)",
+   "accept": [
+    "forma atributiva",
+    "rentaikei"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "contracted_form",
+   "cat": "form",
+   "vi": [
+    "dạng rút gọn",
+    "thể rút gọn",
+    "cách nói rút gọn"
+   ],
+   "ja": "縮約形",
+   "tr": "forma contraída",
+   "accept": [
+    "formas contraídas",
+    "contracción"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "affirmative_form",
+   "cat": "form",
+   "vi": [
+    "thể khẳng định",
+    "dạng khẳng định"
+   ],
+   "ja": "肯定形",
+   "tr": "forma afirmativa",
+   "accept": [
+    "formas afirmativas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "negative_form",
+   "cat": "form",
+   "vi": [
+    "thể phủ định",
+    "dạng phủ định"
+   ],
+   "ja": "否定形",
+   "tr": "forma negativa",
+   "accept": [
+    "formas negativas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "past_form",
+   "cat": "form",
+   "vi": [
+    "thể quá khứ",
+    "dạng quá khứ"
+   ],
+   "ja": "過去形",
+   "tr": "forma pasada",
+   "accept": [
+    "forma de pasado"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "nonpast_form",
+   "cat": "form",
+   "vi": [
+    "thể phi quá khứ",
+    "phi quá khứ"
+   ],
+   "ja": "非過去形",
+   "tr": "forma no pasada",
+   "accept": [
+    "forma de no pasado"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "stem",
+   "cat": "form",
+   "vi": [
+    "gốc",
+    "phần gốc",
+    "thân từ"
+   ],
+   "ja": "語幹",
+   "tr": "raíz",
+   "accept": [
+    "raíces",
+    "radical"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "ending",
+   "cat": "form",
+   "vi": [
+    "đuôi",
+    "phần đuôi"
+   ],
+   "ja": "語尾",
+   "tr": "terminación",
+   "accept": [
+    "terminaciones",
+    "desinencia"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "tense",
+   "cat": "tam",
+   "vi": [
+    "thì"
+   ],
+   "ja": "時制",
+   "tr": "tiempo verbal",
+   "accept": [
+    "tiempos verbales",
+    "tiempo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "present",
+   "cat": "tam",
+   "vi": [
+    "hiện tại",
+    "thì hiện tại"
+   ],
+   "ja": "現在",
+   "tr": "presente",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "past",
+   "cat": "tam",
+   "vi": [
+    "quá khứ",
+    "thì quá khứ"
+   ],
+   "ja": "過去",
+   "tr": "pasado",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "future",
+   "cat": "tam",
+   "vi": [
+    "tương lai",
+    "thì tương lai"
+   ],
+   "ja": "未来",
+   "tr": "futuro",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "progressive",
+   "cat": "tam",
+   "vi": [
+    "tiếp diễn",
+    "đang diễn ra"
+   ],
+   "ja": "進行",
+   "tr": "acción en curso",
+   "accept": [
+    "progresivo",
+    "aspecto progresivo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "perfective",
+   "cat": "tam",
+   "vi": [
+    "hoàn thành",
+    "hoàn tất"
+   ],
+   "ja": "完了",
+   "tr": "acción completada",
+   "accept": [
+    "finalización",
+    "aspecto perfectivo",
+    "perfectivo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "resultant_state",
+   "cat": "tam",
+   "vi": [
+    "trạng thái kết quả",
+    "kết quả còn lưu lại"
+   ],
+   "ja": "結果の状態",
+   "tr": "estado resultante",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "habit",
+   "cat": "tam",
+   "vi": [
+    "thói quen",
+    "hành động lặp lại"
+   ],
+   "ja": "習慣",
+   "tr": "hábito",
+   "accept": [
+    "hábitos",
+    "costumbre",
+    "acción habitual"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "experience",
+   "cat": "tam",
+   "vi": [
+    "kinh nghiệm",
+    "trải nghiệm"
+   ],
+   "ja": "経験",
+   "tr": "experiencia",
+   "accept": [
+    "experiencias"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "affirmative",
+   "cat": "tam",
+   "vi": [
+    "khẳng định"
+   ],
+   "ja": "肯定",
+   "tr": "afirmación",
+   "accept": [
+    "afirmativo",
+    "afirmativa"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "negative",
+   "cat": "tam",
+   "vi": [
+    "phủ định"
+   ],
+   "ja": "否定",
+   "tr": "negación",
+   "accept": [
+    "negativo",
+    "negativa"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "double_negative",
+   "cat": "tam",
+   "vi": [
+    "phủ định kép"
+   ],
+   "ja": "二重否定",
+   "tr": "doble negación",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "partial_negation",
+   "cat": "tam",
+   "vi": [
+    "phủ định một phần",
+    "phủ định bộ phận"
+   ],
+   "ja": "部分否定",
+   "tr": "negación parcial",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "total_negation",
+   "cat": "tam",
+   "vi": [
+    "phủ định toàn phần",
+    "phủ định hoàn toàn"
+   ],
+   "ja": "全部否定",
+   "tr": "negación total",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "strong_negation",
+   "cat": "tam",
+   "vi": [
+    "phủ định mạnh",
+    "phủ định tuyệt đối"
+   ],
+   "ja": "強い否定",
+   "tr": "negación enfática",
+   "accept": [
+    "negación fuerte",
+    "negación rotunda"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "interrogative_mood",
+   "cat": "tam",
+   "vi": [
+    "nghi vấn"
+   ],
+   "ja": "疑問",
+   "tr": "interrogación",
+   "accept": [
+    "interrogativo",
+    "interrogativa"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "rhetorical_question",
+   "cat": "tam",
+   "vi": [
+    "câu hỏi tu từ",
+    "phản vấn"
+   ],
+   "ja": "反語",
+   "tr": "pregunta retórica",
+   "accept": [
+    "preguntas retóricas"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "condition",
+   "cat": "func",
+   "vi": [
+    "điều kiện"
+   ],
+   "ja": "条件",
+   "tr": "condición",
+   "accept": [
+    "condiciones",
+    "condicional"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "hypothetical",
+   "cat": "func",
+   "vi": [
+    "giả định",
+    "giả thiết"
+   ],
+   "ja": "仮定",
+   "tr": "suposición",
+   "accept": [
+    "hipótesis",
+    "supuesto"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "hypothetical_condition",
+   "cat": "func",
+   "vi": [
+    "điều kiện giả định"
+   ],
+   "ja": "仮定条件",
+   "tr": "condición hipotética",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "counterfactual",
+   "cat": "func",
+   "vi": [
+    "trái với thực tế",
+    "phản thực tế",
+    "giả định ngược"
+   ],
+   "ja": "反実仮想",
+   "tr": "condición contrafactual",
+   "accept": [
+    "contrafactual",
+    "irreal"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "adversative",
+   "cat": "func",
+   "vi": [
+    "nghịch tiếp",
+    "ngược lại với dự đoán",
+    "trái ngược"
+   ],
+   "ja": "逆接",
+   "tr": "contrario a lo esperado",
+   "accept": [
+    "adversativo",
+    "adversativa",
+    "oposición"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "concession",
+   "cat": "func",
+   "vi": [
+    "nhượng bộ"
+   ],
+   "ja": "譲歩",
+   "tr": "concesión",
+   "accept": [
+    "concesivo",
+    "concesiva"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "cause_reason",
+   "cat": "func",
+   "vi": [
+    "nguyên nhân",
+    "lý do",
+    "nguyên nhân lý do"
+   ],
+   "ja": "原因・理由",
+   "tr": "causa o razón",
+   "accept": [
+    "causa",
+    "razón",
+    "motivo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "purpose",
+   "cat": "func",
+   "vi": [
+    "mục đích"
+   ],
+   "ja": "目的",
+   "tr": "finalidad",
+   "accept": [
+    "propósito",
+    "objetivo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "result",
+   "cat": "func",
+   "vi": [
+    "kết quả"
+   ],
+   "ja": "結果",
+   "tr": "resultado",
+   "accept": [
+    "resultados",
+    "consecuencia"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "comparison",
+   "cat": "func",
+   "vi": [
+    "so sánh"
+   ],
+   "ja": "比較",
+   "tr": "comparación",
+   "accept": [
+    "comparaciones"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "contrast",
+   "cat": "func",
+   "vi": [
+    "đối lập",
+    "đối chiếu",
+    "tương phản"
+   ],
+   "ja": "対比",
+   "tr": "contraste",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "listing",
+   "cat": "func",
+   "vi": [
+    "liệt kê"
+   ],
+   "ja": "列挙",
+   "tr": "enumeración",
+   "accept": [
+    "enumerar"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "example_giving",
+   "cat": "func",
+   "vi": [
+    "nêu ví dụ",
+    "đưa ví dụ",
+    "lấy ví dụ"
+   ],
+   "ja": "例示",
+   "tr": "ejemplificación",
+   "accept": [
+    "dar ejemplos"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "conjecture",
+   "cat": "func",
+   "vi": [
+    "phỏng đoán",
+    "suy đoán",
+    "suy luận"
+   ],
+   "ja": "推量",
+   "tr": "conjetura",
+   "accept": [
+    "inferencia",
+    "suposición"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "hearsay",
+   "cat": "func",
+   "vi": [
+    "truyền đạt",
+    "nghe nói",
+    "truyền văn"
+   ],
+   "ja": "伝聞",
+   "tr": "información de oídas",
+   "accept": [
+    "de oídas",
+    "información transmitida",
+    "rumor"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "appearance",
+   "cat": "func",
+   "vi": [
+    "dáng vẻ",
+    "trông có vẻ",
+    "có vẻ"
+   ],
+   "ja": "様態",
+   "tr": "apariencia",
+   "accept": [
+    "aspecto"
+   ],
+   "note": "'Looks like' judgment from what one sees (～そうだ).",
+   "check": false
+  },
+  {
+   "id": "obligation",
+   "cat": "func",
+   "vi": [
+    "nghĩa vụ",
+    "bắt buộc"
+   ],
+   "ja": "義務",
+   "tr": "obligación",
+   "accept": [
+    "necesidad"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "permission",
+   "cat": "func",
+   "vi": [
+    "cho phép",
+    "sự cho phép"
+   ],
+   "ja": "許可",
+   "tr": "permiso",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "prohibition",
+   "cat": "func",
+   "vi": [
+    "cấm đoán",
+    "cấm chỉ",
+    "sự cấm đoán"
+   ],
+   "ja": "禁止",
+   "tr": "prohibición",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "advice",
+   "cat": "func",
+   "vi": [
+    "khuyên bảo",
+    "lời khuyên"
+   ],
+   "ja": "助言",
+   "tr": "consejo",
+   "accept": [
+    "consejos"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "suggestion",
+   "cat": "func",
+   "vi": [
+    "đề nghị",
+    "đề xuất"
+   ],
+   "ja": "提案",
+   "tr": "sugerencia",
+   "accept": [
+    "propuesta"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "invitation",
+   "cat": "func",
+   "vi": [
+    "mời rủ",
+    "lời mời",
+    "rủ rê"
+   ],
+   "ja": "勧誘",
+   "tr": "invitación",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "request",
+   "cat": "func",
+   "vi": [
+    "nhờ vả",
+    "yêu cầu",
+    "lời nhờ"
+   ],
+   "ja": "依頼",
+   "tr": "petición",
+   "accept": [
+    "solicitud",
+    "ruego"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "command",
+   "cat": "func",
+   "vi": [
+    "mệnh lệnh"
+   ],
+   "ja": "命令",
+   "tr": "orden",
+   "accept": [
+    "mandato",
+    "órdenes"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "desire",
+   "cat": "func",
+   "vi": [
+    "mong muốn",
+    "nguyện vọng",
+    "ước muốn"
+   ],
+   "ja": "希望・願望",
+   "tr": "deseo",
+   "accept": [
+    "deseos"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "intention",
+   "cat": "func",
+   "vi": [
+    "ý định",
+    "dự định"
+   ],
+   "ja": "意図・予定",
+   "tr": "intención",
+   "accept": [
+    "plan"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "volition",
+   "cat": "func",
+   "vi": [
+    "ý chí"
+   ],
+   "ja": "意志",
+   "tr": "voluntad",
+   "accept": [
+    "volición"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "ability",
+   "cat": "func",
+   "vi": [
+    "khả năng",
+    "năng lực"
+   ],
+   "ja": "可能",
+   "tr": "capacidad",
+   "accept": [
+    "posibilidad",
+    "habilidad"
+   ],
+   "note": "可能 covers both ability and possibility; pick by context.",
+   "check": false
+  },
+  {
+   "id": "exclamation",
+   "cat": "func",
+   "vi": [
+    "cảm thán"
+   ],
+   "ja": "感嘆",
+   "tr": "exclamación",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "emphasis",
+   "cat": "func",
+   "vi": [
+    "nhấn mạnh"
+   ],
+   "ja": "強調",
+   "tr": "énfasis",
+   "accept": [
+    "enfatizar"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "limitation",
+   "cat": "func",
+   "vi": [
+    "giới hạn",
+    "hạn định"
+   ],
+   "ja": "限定",
+   "tr": "limitación",
+   "accept": [
+    "restricción"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "degree",
+   "cat": "func",
+   "vi": [
+    "mức độ"
+   ],
+   "ja": "程度",
+   "tr": "grado",
+   "accept": [
+    "nivel"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "scope",
+   "cat": "func",
+   "vi": [
+    "phạm vi"
+   ],
+   "ja": "範囲",
+   "tr": "alcance",
+   "accept": [
+    "ámbito",
+    "rango"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "target",
+   "cat": "func",
+   "vi": [
+    "đối tượng"
+   ],
+   "ja": "対象",
+   "tr": "destinatario",
+   "accept": [
+    "objeto de la acción"
+   ],
+   "note": "The person/thing an action or feeling is directed at; not the grammatical object (see 'object').",
+   "check": false
+  },
+  {
+   "id": "means",
+   "cat": "func",
+   "vi": [
+    "phương tiện",
+    "cách thức",
+    "phương pháp"
+   ],
+   "ja": "手段・方法",
+   "tr": "medio",
+   "accept": [
+    "método",
+    "medios"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "agent",
+   "cat": "func",
+   "vi": [
+    "tác nhân",
+    "chủ thể hành động",
+    "chủ thể"
+   ],
+   "ja": "動作主",
+   "tr": "agente",
+   "accept": [
+    "quien realiza la acción"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "starting_point",
+   "cat": "func",
+   "vi": [
+    "điểm xuất phát",
+    "khởi điểm"
+   ],
+   "ja": "起点",
+   "tr": "punto de partida",
+   "accept": [
+    "origen"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "destination",
+   "cat": "func",
+   "vi": [
+    "đích đến",
+    "điểm đến",
+    "hướng đến"
+   ],
+   "ja": "着点・方向",
+   "tr": "destino",
+   "accept": [
+    "dirección"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "time_point",
+   "cat": "func",
+   "vi": [
+    "thời điểm"
+   ],
+   "ja": "時点",
+   "tr": "momento",
+   "accept": [
+    "punto en el tiempo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "simultaneity",
+   "cat": "func",
+   "vi": [
+    "đồng thời",
+    "cùng lúc"
+   ],
+   "ja": "同時",
+   "tr": "simultaneidad",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "sequence",
+   "cat": "func",
+   "vi": [
+    "trình tự",
+    "thứ tự hành động",
+    "nối tiếp"
+   ],
+   "ja": "継起",
+   "tr": "secuencia de acciones",
+   "accept": [
+    "acción consecutiva",
+    "secuencia"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "addition",
+   "cat": "func",
+   "vi": [
+    "bổ sung",
+    "thêm vào"
+   ],
+   "ja": "添加",
+   "tr": "adición",
+   "accept": [
+    "añadir información"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "topic_change",
+   "cat": "func",
+   "vi": [
+    "chuyển chủ đề",
+    "đổi chủ đề"
+   ],
+   "ja": "話題転換",
+   "tr": "cambio de tema",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "evaluation",
+   "cat": "func",
+   "vi": [
+    "đánh giá",
+    "nhận xét"
+   ],
+   "ja": "評価",
+   "tr": "evaluación",
+   "accept": [
+    "valoración",
+    "juicio"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "criticism",
+   "cat": "func",
+   "vi": [
+    "phê phán",
+    "chê trách",
+    "trách móc"
+   ],
+   "ja": "非難",
+   "tr": "crítica",
+   "accept": [
+    "reproche"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "regret",
+   "cat": "func",
+   "vi": [
+    "hối hận",
+    "tiếc nuối"
+   ],
+   "ja": "後悔・残念",
+   "tr": "arrepentimiento",
+   "accept": [
+    "pesar",
+    "lamento"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "surprise",
+   "cat": "func",
+   "vi": [
+    "ngạc nhiên",
+    "bất ngờ"
+   ],
+   "ja": "驚き",
+   "tr": "sorpresa",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "certainty",
+   "cat": "func",
+   "vi": [
+    "chắc chắn",
+    "khẳng định chắc chắn"
+   ],
+   "ja": "確信",
+   "tr": "certeza",
+   "accept": [
+    "convicción",
+    "seguridad"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "tendency",
+   "cat": "func",
+   "vi": [
+    "khuynh hướng",
+    "xu hướng"
+   ],
+   "ja": "傾向",
+   "tr": "tendencia",
+   "accept": [
+    "tendencias"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "change_state",
+   "cat": "func",
+   "vi": [
+    "sự thay đổi",
+    "biến đổi trạng thái"
+   ],
+   "ja": "変化",
+   "tr": "cambio",
+   "accept": [
+    "cambios"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "subject",
+   "cat": "syntax",
+   "vi": [
+    "chủ ngữ"
+   ],
+   "ja": "主語",
+   "tr": "sujeto",
+   "accept": [],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "predicate",
+   "cat": "syntax",
+   "vi": [
+    "vị ngữ"
+   ],
+   "ja": "述語",
+   "tr": "predicado",
+   "accept": [],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "object",
+   "cat": "syntax",
+   "vi": [
+    "tân ngữ"
+   ],
+   "ja": "目的語",
+   "tr": "objeto directo",
+   "accept": [
+    "objeto",
+    "complemento directo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "complement",
+   "cat": "syntax",
+   "vi": [
+    "bổ ngữ"
+   ],
+   "ja": "補語",
+   "tr": "complemento",
+   "accept": [
+    "complementos"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "topic",
+   "cat": "syntax",
+   "vi": [
+    "chủ đề"
+   ],
+   "ja": "主題",
+   "tr": "tema",
+   "accept": [
+    "temas"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "modifier",
+   "cat": "syntax",
+   "vi": [
+    "bổ nghĩa",
+    "từ bổ nghĩa"
+   ],
+   "ja": "修飾",
+   "tr": "modificador",
+   "accept": [
+    "modificación",
+    "modificar"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "clause",
+   "cat": "syntax",
+   "vi": [
+    "mệnh đề",
+    "vế câu",
+    "vế"
+   ],
+   "ja": "節",
+   "tr": "cláusula",
+   "accept": [
+    "cláusulas",
+    "proposición"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "main_clause",
+   "cat": "syntax",
+   "vi": [
+    "mệnh đề chính",
+    "vế chính"
+   ],
+   "ja": "主節",
+   "tr": "cláusula principal",
+   "accept": [
+    "oración principal"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "sub_clause",
+   "cat": "syntax",
+   "vi": [
+    "mệnh đề phụ",
+    "vế phụ"
+   ],
+   "ja": "従属節",
+   "tr": "cláusula subordinada",
+   "accept": [
+    "oración subordinada"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "first_clause",
+   "cat": "syntax",
+   "vi": [
+    "mệnh đề trước",
+    "vế trước",
+    "vế đầu"
+   ],
+   "ja": "前件",
+   "tr": "primera cláusula",
+   "accept": [
+    "primera parte"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "second_clause",
+   "cat": "syntax",
+   "vi": [
+    "mệnh đề sau",
+    "vế sau"
+   ],
+   "ja": "後件",
+   "tr": "segunda cláusula",
+   "accept": [
+    "segunda parte"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "relative_clause",
+   "cat": "syntax",
+   "vi": [
+    "mệnh đề quan hệ",
+    "mệnh đề bổ nghĩa danh từ"
+   ],
+   "ja": "連体修飾節",
+   "tr": "cláusula que modifica al sustantivo",
+   "accept": [
+    "cláusula de relativo",
+    "oración de relativo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "sentence",
+   "cat": "syntax",
+   "vi": [
+    "câu",
+    "câu văn"
+   ],
+   "ja": "文",
+   "tr": "oración",
+   "accept": [
+    "oraciones",
+    "frase",
+    "frases"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "sentence_end",
+   "cat": "syntax",
+   "vi": [
+    "cuối câu"
+   ],
+   "ja": "文末",
+   "tr": "final de la oración",
+   "accept": [
+    "final de oración",
+    "final de frase"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "sentence_start",
+   "cat": "syntax",
+   "vi": [
+    "đầu câu"
+   ],
+   "ja": "文頭",
+   "tr": "principio de la oración",
+   "accept": [
+    "inicio de la oración",
+    "comienzo de la frase"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "question_sentence",
+   "cat": "syntax",
+   "vi": [
+    "câu hỏi",
+    "câu nghi vấn"
+   ],
+   "ja": "疑問文",
+   "tr": "oración interrogativa",
+   "accept": [
+    "pregunta",
+    "preguntas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "answer",
+   "cat": "syntax",
+   "vi": [
+    "câu trả lời"
+   ],
+   "ja": "答え",
+   "tr": "respuesta",
+   "accept": [
+    "respuestas"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "affirmative_sentence",
+   "cat": "syntax",
+   "vi": [
+    "câu khẳng định"
+   ],
+   "ja": "肯定文",
+   "tr": "oración afirmativa",
+   "accept": [],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "negative_sentence",
+   "cat": "syntax",
+   "vi": [
+    "câu phủ định"
+   ],
+   "ja": "否定文",
+   "tr": "oración negativa",
+   "accept": [],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "quotation",
+   "cat": "syntax",
+   "vi": [
+    "trích dẫn",
+    "dẫn lời"
+   ],
+   "ja": "引用",
+   "tr": "cita",
+   "accept": [
+    "citas",
+    "estilo indirecto"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "inversion",
+   "cat": "syntax",
+   "vi": [
+    "đảo ngữ",
+    "đảo trật tự"
+   ],
+   "ja": "倒置",
+   "tr": "inversión",
+   "accept": [],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "omission",
+   "cat": "syntax",
+   "vi": [
+    "lược bỏ",
+    "tỉnh lược"
+   ],
+   "ja": "省略",
+   "tr": "omisión",
+   "accept": [
+    "elipsis",
+    "omitir"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "context",
+   "cat": "syntax",
+   "vi": [
+    "ngữ cảnh",
+    "văn cảnh"
+   ],
+   "ja": "文脈",
+   "tr": "contexto",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "structure",
+   "cat": "meta",
+   "vi": [
+    "cấu trúc"
+   ],
+   "ja": "構文",
+   "tr": "estructura",
+   "accept": [
+    "construcción"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "sentence_pattern",
+   "cat": "meta",
+   "vi": [
+    "mẫu câu"
+   ],
+   "ja": "文型",
+   "tr": "patrón de oración",
+   "accept": [
+    "patrones de oración",
+    "estructura de oración"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "grammar_pattern",
+   "cat": "meta",
+   "vi": [
+    "mẫu ngữ pháp",
+    "ngữ pháp",
+    "mẫu"
+   ],
+   "ja": "文法項目",
+   "tr": "punto gramatical",
+   "accept": [
+    "puntos gramaticales",
+    "estructura gramatical",
+    "patrón gramatical"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "connection",
+   "cat": "meta",
+   "vi": [
+    "cách nối",
+    "cách kết hợp",
+    "kết hợp với"
+   ],
+   "ja": "接続",
+   "tr": "formación",
+   "accept": [
+    "conexión",
+    "cómo se forma"
+   ],
+   "note": "Section heading for how the pattern attaches (接続).",
+   "check": false
+  },
+  {
+   "id": "usage",
+   "cat": "meta",
+   "vi": [
+    "cách dùng",
+    "cách sử dụng",
+    "dùng khi"
+   ],
+   "ja": "用法",
+   "tr": "uso",
+   "accept": [
+    "usos"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "meaning",
+   "cat": "meta",
+   "vi": [
+    "ý nghĩa",
+    "nghĩa"
+   ],
+   "ja": "意味",
+   "tr": "significado",
+   "accept": [
+    "significados",
+    "sentido"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "nuance",
+   "cat": "meta",
+   "vi": [
+    "sắc thái"
+   ],
+   "ja": "ニュアンス",
+   "tr": "matiz",
+   "accept": [
+    "matices"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "difference",
+   "cat": "meta",
+   "vi": [
+    "khác biệt",
+    "điểm khác",
+    "điểm khác biệt",
+    "khác biệt chính"
+   ],
+   "ja": "違い",
+   "tr": "diferencia",
+   "accept": [
+    "diferencias"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "similarity",
+   "cat": "meta",
+   "vi": [
+    "điểm giống",
+    "điểm tương đồng",
+    "tương quan"
+   ],
+   "ja": "共通点",
+   "tr": "similitud",
+   "accept": [
+    "semejanza",
+    "punto en común"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "short_example",
+   "cat": "meta",
+   "vi": [
+    "ví dụ ngắn"
+   ],
+   "ja": "短い例文",
+   "tr": "ejemplo breve",
+   "accept": [
+    "ejemplo corto",
+    "ejemplos breves"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "example",
+   "cat": "meta",
+   "vi": [
+    "ví dụ",
+    "câu ví dụ"
+   ],
+   "ja": "例文",
+   "tr": "ejemplo",
+   "accept": [
+    "ejemplos",
+    "oración de ejemplo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "common_mistake",
+   "cat": "meta",
+   "vi": [
+    "lỗi sai thường gặp",
+    "lỗi thường gặp",
+    "lỗi sai"
+   ],
+   "ja": "よくある間違い",
+   "tr": "error frecuente",
+   "accept": [
+    "errores frecuentes",
+    "error común"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "note",
+   "cat": "meta",
+   "vi": [
+    "lưu ý",
+    "chú ý",
+    "ghi chú"
+   ],
+   "ja": "注意",
+   "tr": "nota",
+   "accept": [
+    "observación",
+    "atención"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "correct",
+   "cat": "meta",
+   "vi": [
+    "đúng"
+   ],
+   "ja": "正しい",
+   "tr": "correcto",
+   "accept": [
+    "correcta"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "incorrect",
+   "cat": "meta",
+   "vi": [
+    "sai"
+   ],
+   "ja": "誤り",
+   "tr": "incorrecto",
+   "accept": [
+    "incorrecta",
+    "erróneo"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "unnatural",
+   "cat": "meta",
+   "vi": [
+    "không tự nhiên",
+    "thiếu tự nhiên"
+   ],
+   "ja": "不自然",
+   "tr": "poco natural",
+   "accept": [
+    "antinatural"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "natural",
+   "cat": "meta",
+   "vi": [
+    "tự nhiên"
+   ],
+   "ja": "自然",
+   "tr": "natural",
+   "accept": [
+    "naturales"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "fixed_expression",
+   "cat": "meta",
+   "vi": [
+    "cách nói cố định",
+    "thành ngữ",
+    "quán dụng ngữ"
+   ],
+   "ja": "慣用表現",
+   "tr": "expresión hecha",
+   "accept": [
+    "frase hecha",
+    "modismo",
+    "expresión fija"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "expression",
+   "cat": "meta",
+   "vi": [
+    "cách diễn đạt",
+    "cách nói",
+    "biểu hiện"
+   ],
+   "ja": "表現",
+   "tr": "expresión",
+   "accept": [
+    "expresiones"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "spoken",
+   "cat": "register",
+   "vi": [
+    "văn nói",
+    "khẩu ngữ"
+   ],
+   "ja": "話し言葉",
+   "tr": "lengua hablada",
+   "accept": [
+    "lenguaje hablado",
+    "oral"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "written",
+   "cat": "register",
+   "vi": [
+    "văn viết"
+   ],
+   "ja": "書き言葉",
+   "tr": "lengua escrita",
+   "accept": [
+    "lenguaje escrito",
+    "escrito"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "formal_written",
+   "cat": "register",
+   "vi": [
+    "văn viết trang trọng",
+    "văn viết cứng"
+   ],
+   "ja": "硬い書き言葉",
+   "tr": "lengua escrita formal",
+   "accept": [
+    "estilo escrito formal"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "casual_spoken",
+   "cat": "register",
+   "vi": [
+    "văn nói thân mật",
+    "thân mật"
+   ],
+   "ja": "くだけた話し言葉",
+   "tr": "lenguaje coloquial",
+   "accept": [
+    "habla informal",
+    "coloquial"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "formal",
+   "cat": "register",
+   "vi": [
+    "trang trọng",
+    "cứng nhắc",
+    "văn cứng"
+   ],
+   "ja": "改まった・硬い",
+   "tr": "formal",
+   "accept": [
+    "formales"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "polite",
+   "cat": "register",
+   "vi": [
+    "lịch sự"
+   ],
+   "ja": "丁寧",
+   "tr": "cortés",
+   "accept": [
+    "corteses",
+    "educado"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "very_polite",
+   "cat": "register",
+   "vi": [
+    "lịch sự cao",
+    "rất lịch sự"
+   ],
+   "ja": "非常に丁寧",
+   "tr": "muy cortés",
+   "accept": [
+    "muy educado"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "keigo",
+   "cat": "register",
+   "vi": [
+    "kính ngữ"
+   ],
+   "ja": "敬語",
+   "tr": "keigo (lenguaje honorífico)",
+   "accept": [
+    "keigo",
+    "lenguaje honorífico"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "sonkeigo",
+   "cat": "register",
+   "vi": [
+    "tôn kính ngữ",
+    "tôn kính"
+   ],
+   "ja": "尊敬語",
+   "tr": "lenguaje respetuoso (sonkeigo)",
+   "accept": [
+    "sonkeigo",
+    "lenguaje respetuoso"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "kenjougo",
+   "cat": "register",
+   "vi": [
+    "khiêm nhường ngữ",
+    "khiêm nhường"
+   ],
+   "ja": "謙譲語",
+   "tr": "lenguaje humilde (kenjōgo)",
+   "accept": [
+    "kenjōgo",
+    "kenjougo",
+    "lenguaje humilde"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "teineigo",
+   "cat": "register",
+   "vi": [
+    "từ lịch sự",
+    "thể lịch sự teineigo"
+   ],
+   "ja": "丁寧語",
+   "tr": "lenguaje cortés (teineigo)",
+   "accept": [
+    "teineigo"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "euphemism",
+   "cat": "register",
+   "vi": [
+    "uyển ngữ",
+    "nói giảm nói tránh",
+    "mềm mỏng",
+    "uyển chuyển"
+   ],
+   "ja": "婉曲",
+   "tr": "expresión indirecta",
+   "accept": [
+    "eufemismo",
+    "atenuación"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "archaic",
+   "cat": "register",
+   "vi": [
+    "cổ ngữ",
+    "văn cổ",
+    "cách nói cổ"
+   ],
+   "ja": "古語・文語",
+   "tr": "arcaico",
+   "accept": [
+    "arcaica",
+    "lengua clásica",
+    "literario"
+   ],
+   "note": "",
+   "check": true
+  },
+  {
+   "id": "business",
+   "cat": "register",
+   "vi": [
+    "văn công việc",
+    "kinh doanh",
+    "văn thư"
+   ],
+   "ja": "ビジネス",
+   "tr": "ámbito empresarial",
+   "accept": [
+    "negocios",
+    "contexto laboral"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "male_speech",
+   "cat": "register",
+   "vi": [
+    "nam giới",
+    "giọng nam"
+   ],
+   "ja": "男性語",
+   "tr": "habla masculina",
+   "accept": [
+    "lenguaje masculino"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "female_speech",
+   "cat": "register",
+   "vi": [
+    "nữ giới",
+    "giọng nữ"
+   ],
+   "ja": "女性語",
+   "tr": "habla femenina",
+   "accept": [
+    "lenguaje femenino"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "speaker",
+   "cat": "register",
+   "vi": [
+    "người nói"
+   ],
+   "ja": "話し手",
+   "tr": "hablante",
+   "accept": [
+    "hablantes"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "listener",
+   "cat": "register",
+   "vi": [
+    "người nghe"
+   ],
+   "ja": "聞き手",
+   "tr": "oyente",
+   "accept": [
+    "oyentes",
+    "interlocutor"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "superior",
+   "cat": "register",
+   "vi": [
+    "người trên",
+    "cấp trên"
+   ],
+   "ja": "目上の人",
+   "tr": "superior",
+   "accept": [
+    "superiores",
+    "persona de mayor rango"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "inferior",
+   "cat": "register",
+   "vi": [
+    "người dưới",
+    "cấp dưới"
+   ],
+   "ja": "目下の人",
+   "tr": "inferior",
+   "accept": [
+    "inferiores",
+    "subordinado",
+    "persona de menor rango"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "third_person",
+   "cat": "register",
+   "vi": [
+    "ngôi thứ ba",
+    "người thứ ba"
+   ],
+   "ja": "第三者",
+   "tr": "tercera persona",
+   "accept": [
+    "terceros"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "first_person",
+   "cat": "register",
+   "vi": [
+    "ngôi thứ nhất"
+   ],
+   "ja": "一人称",
+   "tr": "primera persona",
+   "accept": [],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "negative_nuance",
+   "cat": "register",
+   "vi": [
+    "sắc thái tiêu cực",
+    "nghĩa tiêu cực",
+    "tiêu cực"
+   ],
+   "ja": "マイナス評価",
+   "tr": "matiz negativo",
+   "accept": [
+    "connotación negativa"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "positive_nuance",
+   "cat": "register",
+   "vi": [
+    "sắc thái tích cực",
+    "nghĩa tích cực",
+    "tích cực"
+   ],
+   "ja": "プラス評価",
+   "tr": "matiz positivo",
+   "accept": [
+    "connotación positiva"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "subjective",
+   "cat": "register",
+   "vi": [
+    "chủ quan"
+   ],
+   "ja": "主観的",
+   "tr": "subjetivo",
+   "accept": [
+    "subjetiva"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "objective",
+   "cat": "register",
+   "vi": [
+    "khách quan"
+   ],
+   "ja": "客観的",
+   "tr": "objetivo",
+   "accept": [
+    "objetiva"
+   ],
+   "note": "",
+   "check": false
+  },
+  {
+   "id": "feeling",
+   "cat": "register",
+   "vi": [
+    "cảm xúc",
+    "tình cảm"
+   ],
+   "ja": "感情",
+   "tr": "sentimiento",
+   "accept": [
+    "sentimientos",
+    "emoción",
+    "emociones"
+   ],
+   "note": "",
+   "check": false
+  }
+ ]
+}

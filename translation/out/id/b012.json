@@ -1,0 +1,723 @@
+{
+ "batch": "b012",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 174,
+   "src_hash": "12a824ab116ae25f",
+   "fields": {
+    "meaning": "Ketika, saat  ~ | Ketika, saat",
+    "connection": "V bentuk biasa + とき / N + の / Na + な / Aい",
+    "examples": [
+     "Saya memasukkan gula ketika minum kopi.",
+     "Ketika sakit, kita harus minum obat.",
+     "Ketika pergi ke Jepang, saya membawa paspor.",
+     "Ketika pergi ke Jepang, saya berwisata ke Kyoto.",
+     "Ketika senggang, saya menonton film.",
+     "Waktu kecil, saya sering bermain di taman."
+    ],
+    "explain": "Menekankan titik waktu terjadinya suatu peristiwa atau dilakukannya suatu tindakan.\nKhusus untuk kata kerja:\nSaat menggunakan とき, kita perlu memperhatikan urutan tindakan untuk mengubah V 1 ke bentuk yang sesuai.\n\nV 1 た  : Setelah V1, lalu V2 （V 1 terjadi lebih dulu）\nV 1 る  : Sebelum V1, V2 （V 1 terjadi kemudian）\nれ い１ ：\n部屋を　出たとき、ドアを　閉めます。\nKetika (setelah) keluar dari kamar, pintu ditutup.\nKata kerja yang menyertai とき berbentuk た (出た), sehingga dipahami bahwa 部屋を　出た terjadi lebih dulu dan ドアを　閉めます terjadi kemudian.\nれい２：\nきのう、家へ帰るとき、パンを　買いました。\nKemarin, ketika (sebelum) pulang ke rumah, saya membeli roti.\nKata kerja yang menyertai とき berbentuk る (帰る), sehingga dipahami bahwa パンを　買いました terjadi lebih dulu dan 家へ帰る terjadi kemudian.\n\n～とき menyatakan \"ketika, saat\" suatu situasi/titik waktu terjadi.\nPerbedaan penting (kata kerja):\nV-辞書形+ とき: tindakan utama terjadi sebelum/saat V (V belum selesai).\nV-た形+ とき: tindakan utama terjadi setelah V selesai.\nV-辞書形+ とき: tindakan utama terjadi sebelum/saat V (V belum selesai).\nV-た形+ とき: tindakan utama terjadi setelah V selesai.\nUntuk kata sifat/kata benda: tidak ada pembedaan \"sebelum/sesudah\", hanya menyatakan latar titik waktu.",
+    "notes": "Dengan kata kerja perpindahan (行く、来る、帰る), pilih 辞書形/た形 untuk membedakan \"sebelum pergi\" dan \"setelah tiba\".\n「このとき／そのとき／あのとき」 adalah frasa yang berarti \"saat ini/saat itu/saat itu (yang jauh)\".\nJangan menggunakan 「Nとき」 secara langsung; harus Nのとき (例：朝のとき× →朝は/朝に atau 朝起きたとき).",
+    "mistakes": [
+     "Salah titik waktu: ×日本へ行くとき、写真をたくさん撮りました（maksudnya setelah tiba）→ ✓日本へ行ったとき…。",
+     "Lupa の dengan kata benda: ×学生とき→ ✓学生のとき。",
+     "Kala yang salah pada klausa utama membuat kalimat sulit dipahami; gunakan secara konsisten (lampau/sekarang)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～とき",
+       "Ketika, saat",
+       "Menunjukkan titik waktu, netral",
+       "<ruby>忙<rt>いそが</rt></ruby>しいとき…"
+      ],
+      [
+       "～<ruby>間<rt>ま</rt></ruby>（あいだ）",
+       "Selama (rentang waktu)",
+       "Menekankan durasi, ada rentang waktu",
+       "<ruby>雨<rt>あめ</rt></ruby>の<ruby>間<rt>ま</rt></ruby>、<ruby>家<rt>いえ</rt></ruby>にいました。"
+      ],
+      [
+       "～と",
+       "Setiap kali… maka…",
+       "Hubungan syarat yang pasti, bukan sekadar \"ketika\"",
+       "<ruby>春<rt>はる</rt></ruby>になると、<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>く。"
+      ],
+      [
+       "～ときに",
+       "Ketika (menekankan titik waktu)",
+       "Ditambah に untuk penekanan",
+       "<ruby>出発<rt>しゅっぱつ</rt></ruby>のときに<ruby>連絡<rt>れんらく</rt></ruby>してください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 176,
+   "src_hash": "bb2b19ccb34c2abe",
+   "fields": {
+    "meaning": "Mengatakan bahwa ~.",
+    "connection": "[kalimat/klausa] + と言います",
+    "examples": [
+     "Tanaka-san: Malam ini saya akan pergi keluar.",
+     "Tanaka-san mengatakan bahwa malam ini dia akan pergi keluar.",
+     "Tanaka-san berkata, \"Malam ini saya akan pergi keluar.\"",
+     "Miller: Hari ini saya harus pulang lebih awal.",
+     "Miller-san mengatakan bahwa hari ini dia harus pulang ke rumah lebih awal.",
+     "Miller-san berkata, \"Hari ini saya harus pulang ke rumah lebih awal.\""
+    ],
+    "explain": "Digunakan untuk melaporkan suatu isi tertentu.\nKarena biasanya dipakai untuk melaporkan kembali, pola ini sering digunakan dalam kala lampau: 言いました。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 177,
+   "src_hash": "2bdcf636d05a0ee8",
+   "fields": {
+    "meaning": "Mau bagaimana",
+    "examples": [
+     "Makan malamnya mau bagaimana?",
+     "Kotak ini mau diapakan?",
+     "Besok hujan. Pikniknya mau bagaimana?",
+     "Struknya mau bagaimana?",
+     "Pembayarannya mau tunai atau kartu?",
+     "Soal ini mau dikerjakan sekali lagi nanti? — Ya, begitu saja."
+    ],
+    "explain": "Digunakan untuk meminta lawan bicara mengambil keputusan; penanya bersikap netral.\nDalam percakapan santai: どうする？/ どうするの？\nSopan: どうしますか; formal dalam layanan: どういたしますか。\nJawaban yang umum: そうします/やめます/あとでにします/こちらにします.\n\nMenanyakan keputusan/tindakan selanjutnya: \"(Anda/kita) akan melakukan apa/bagaimana?\".\nBiasanya mengikuti konteks/sasaran yang sudah disebutkan (benda, rencana, situasi).\nDalam layanan, digunakan untuk mengonfirmasi pilihan pelanggan (pembayaran, pembungkusan, pengiriman/pengambilan…).\nBerbeda dengan どうですか (menanyakan penilaian), どうしますか berfokus pada tindakan/keputusan.",
+    "notes": "Contoh jawaban dalam layanan: \"袋は いりますか。— いりません。/ お願いします。/有料ですが どうしますか。— お願いします。\"\nDalam kelompok, どうする？ menciptakan suasana berdiskusi bersama; menambahkan ね agar lebih lembut: どうするね dipakai dalam dialek, standar: どうするね tidak baku; sebaiknya gunakan どうする？/どうしようか。\nDalam situasi darurat: どうする？！ bernuansa tegang \"Bagaimana sekarang?!\"",
+    "mistakes": [
+     "Tertukar dengan どうですか: どうしますか menanyakan tindakan, どうですか menanyakan penilaian/usulan.",
+     "Kurang konteks yang menunjukkan sasaran: mengucapkan \"どうしますか\" begitu saja akan sulit dipahami; sebaiknya sebutkan dengan jelas \"N は どうしますか\"。",
+     "Gunakan どうしましょうか saat ingin mengusulkan, hindari どうしますか agar tidak terkesan memaksa mengambil keputusan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Penggunaan",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どうしますか",
+       "Menanyakan keputusan/tindakan",
+       "Berfokus pada \"melakukan apa/bagaimana\"",
+       "<ruby>席<rt>せき</rt></ruby>は どうしますか。"
+      ],
+      [
+       "どうですか",
+       "Menanyakan penilaian/usulan",
+       "Berfokus pada \"bagaimana/baik atau tidak\"",
+       "この<ruby>席<rt>せき</rt></ruby>は どうですか。"
+      ],
+      [
+       "なにを しますか",
+       "Menanyakan \"melakukan apa\" secara spesifik",
+       "Mengharapkan nama tindakan yang spesifik",
+       "<ruby>休<rt>やす</rt></ruby>みに なにを しますか。"
+      ],
+      [
+       "どれに しますか",
+       "Memilih di antara beberapa pilihan",
+       "Berfokus pada \"memilih yang mana\"",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は どれに しますか。"
+      ],
+      [
+       "どうしましょうか",
+       "Usulan untuk memutuskan bersama",
+       "Sopan, pembicara ikut mengambil keputusan",
+       "<ruby>次<rt>つぎ</rt></ruby>は どうしましょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 178,
+   "src_hash": "d2551ec1d3713cdd",
+   "fields": {
+    "meaning": "Bagaimana",
+    "examples": [
+     "Bagaimana baju ini?",
+     "Bagaimana kehidupan di Jepang?",
+     "Bagaimana kalau kopi?",
+     "Bagaimana dengan kursi ini?",
+     "Bagaimana perjalanannya?",
+     "Bagaimana kemajuan PR-nya?"
+    ],
+    "explain": "Menanyakan secara umum tentang kualitas/kesan: どうですか bernuansa netral dan lembut.\nGunakan は untuk menyebutkan topik (N は どうですか), lebih alami daripada を dalam pola ini.\nDalam ajakan: dengan intonasi naik dan konteks yang mendukung keputusan, lawan bicara memahaminya sebagai \"ajakan/usulan\".\nJawaban yang umum: いいです／だめです／大丈夫です／ちょっと… (menolak secara halus).\n\nMenanyakan pendapat/penilaian tentang orang/benda/situasi: \"bagaimana?\".\nDigunakan sebagai usulan ringan: \"Bagaimana dengan N?\" → mendorong untuk memilih/mencoba.\nKonteks menentukan arti: kalimat yang sama bisa berarti \"penilaian\" atau \"ajakan/usulan\".\nBentuk yang lebih sopan adalah いかがですか (layanan, menjamu tamu).\nBerbeda dengan どうしますか: どうですか tidak menuntut keputusan tindakan saat itu juga.",
+    "notes": "Gunakan どうでしたか untuk menanyakan pengalaman yang sudah lewat (lampau).\nDalam layanan: \"試飲はいかがですか\" (Silakan mencicipi), jawaban sopan: \"結構です/お願いします\"。\nHindari mengulang どう berkali-kali; ganti dengan いかが atau kata sifat yang spesifik (おいしいですか,便利ですか…).",
+    "mistakes": [
+     "Tertukar dengan どうしますか saat dibutuhkan tindakan spesifik; どうですか tidak menuntut keputusan.",
+     "Menggunakan を dengan どうですか dalam ajakan/usulan: sebaiknya gunakan は agar lebih alami (コーヒーは どうですか).",
+     "Menggunakan どうですか terlalu langsung dalam situasi formal; sebaiknya ganti dengan いかがですか."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Fungsi",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どうですか",
+       "Menanyakan penilaian/usulan",
+       "Tidak menuntut keputusan",
+       "この<ruby>本<rt>ほん</rt></ruby>は どうですか。"
+      ],
+      [
+       "どうしますか",
+       "Menanyakan keputusan/tindakan",
+       "Meminta memilih/melakukan sesuatu",
+       "<ruby>本<rt>ほん</rt></ruby>は どうしますか。"
+      ],
+      [
+       "いかがですか",
+       "Bentuk sopan dari どうですか",
+       "Lebih formal",
+       "お<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は いかがですか。"
+      ],
+      [
+       "～ませんか",
+       "Ajakan langsung",
+       "Jelas bersifat mengajak",
+       "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ませんか。"
+      ],
+      [
+       "～は どうでしょうか",
+       "Usulan yang lembut",
+       "Lebih lembut daripada どうですか, sering dipakai saat menimbang",
+       "この<ruby>案<rt>あん</rt></ruby>は どうでしょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 179,
+   "src_hash": "c703fd86ab3664c1",
+   "fields": {
+    "name": "～は［bahasa］で何と／どう言いますか",
+    "meaning": "Bagaimana mengatakannya",
+    "connection": "Nは + [bahasa]で + どう/なんと言いますか",
+    "examples": [
+     "Apa bahasa Inggrisnya 「猫」?",
+     "Bagaimana mengungkapkan perasaan ini dalam bahasa Jepang?",
+     "Bagaimana mengatakan kalimat ini dalam bahasa Jepang?",
+     "Apa bahasa Jepangnya Wi-Fi?"
+    ],
+    "explain": "Formal: X は日本語で何と言いますか／どう言いますか。\nSantai: X って日本語で何て言う？／どう言う？\nPola \"X は日本語で何ですか\" cocok untuk menanyakan kosakata tunggal.\nSaat menjawab, gunakan: 「X」は日本語で「Y」と言います。/ Y と言います。\n\nMenanyakan ungkapan untuk suatu kata/kalimat dalam suatu bahasa: \"bagaimana mengatakannya\", \"disebut apa\".\n何と言いますか menekankan \"mengatakan apa\". どう言いますか menekankan \"mengatakan bagaimana\" (ungkapannya).\nUntuk kata/frasa tunggal, 何と言いますか／何ですか sama-sama alami. Untuk parafrase/kalimat panjang, どう言いますか lebih alami.",
+    "notes": "\"何と言いますか\" sering diucapkan secara singkat menjadi \"なんと言いますか/何て言いますか\".\nJangan tertukar antara どう言う (mengatakan bagaimana) dan どういうN (N yang seperti apa/jenis apa).\nSaat ingin menekankan bahasanya: X は英語では何と言いますか（kontras dengan bahasa lain）.\nnotes asli: Ejaan: 何と言いますか／なんと言いますか sama-sama benar; なんて言いますか cenderung dipakai dalam percakapan santai.\nKata pengisi \"ええと/あの/その\" sering mendahului なんと言いますか untuk menunjukkan keraguan.\nSaat menunjuk benda tertentu, bahasanya bisa dihilangkan jika konteksnya jelas: これ、なんと言いますか。\nUntuk memastikan kata yang baru saja terlupa: 何て言うんでしたっけ (saya lupa, disebut apa ya?)",
+    "mistakes": [
+     "Partikel salah: ×日本語に何と言いますか → ✓日本語で何と言いますか。",
+     "Menggunakan どう言いますか untuk kanji: perlu どう読みますか saat menanyakan cara baca.",
+     "Mencampuradukkan 何ですか (apa) dengan 何と言いますか (disebut apa); keduanya benar untuk kata tunggal tetapi nuansanya berbeda."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "X は <ruby>日本語<rt>にほんご</rt></ruby>で <ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>いい</rt></ruby>いますか",
+       "Disebut apa",
+       "Umum, netral",
+       "「apple」は<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>いい</rt></ruby>いますか。"
+      ],
+      [
+       "X は <ruby>日本語<rt>にほんご</rt></ruby>で どう<ruby>言<rt>いい</rt></ruby>いますか",
+       "Mengatakan bagaimana",
+       "Menekankan ungkapan; cocok untuk kalimat/frasa",
+       "この<ruby>表現<rt>ひょうげん</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>でどう<ruby>言<rt>いい</rt></ruby>いますか。"
+      ],
+      [
+       "X は <ruby>日本語<rt>にほんご</rt></ruby>で <ruby>何<rt>なに</rt></ruby>ですか",
+       "Apa",
+       "Sederhana, kata tunggal",
+       "これは<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>何<rt>なに</rt></ruby>ですか。"
+      ],
+      [
+       "どう<ruby>読<rt>よ</rt></ruby>みますか",
+       "Dibaca bagaimana",
+       "Menanyakan cara baca, bukan arti",
+       "この<ruby>漢字<rt>かんじ</rt></ruby>はどう<ruby>読<rt>よ</rt></ruby>みますか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 180,
+   "src_hash": "c091e8da267c3ca9",
+   "fields": {
+    "meaning": "~ tidak kunjung ~",
+    "examples": [
+     "Setiap hari saya berlatih, tetapi tidak kunjung mahir.",
+     "Karena tidak bisa cukup beristirahat, flu saya tidak kunjung sembuh.",
+     "PR-nya tidak kunjung selesai.",
+     "Taksi tidak kunjung didapat.",
+     "Flunya tidak kunjung sembuh.",
+     "Diet saya tidak kunjung berhasil."
+    ],
+    "explain": "◎ Situasi tidak berkembang seperti yang diharapkan pembicara.\n\nMenyatakan perasaan menyesal karena tidak dapat melakukan sesuatu sesuai keinginan, tidak dapat berhasil dengan mudah."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 182,
+   "src_hash": "10a0a5e56a35619f",
+   "fields": {
+    "meaning": "Pulang ke…",
+    "connection": "[tempat]に/へ + 帰ります",
+    "examples": [
+     "Setiap hari saya pulang ke rumah pukul 8.",
+     "Akhir pekan ini saya akan pulang ke negara asal.",
+     "Saat Tahun Baru, saya pulang ke rumah orang tua.",
+     "Kalau pelajaran sudah selesai, saya pulang ke kamar.",
+     "Hari ini saya pulang ke rumah larut.",
+     "Saya pulang ke asrama naik bus."
+    ],
+    "explain": "に帰る menekankan tujuan sebagai tempat \"asal\"; へ帰る juga boleh tetapi netral menunjukkan arah, lebih jarang digunakan.\n帰る vs 戻る: 戻る berarti \"kembali (ke posisi/keadaan sebelumnya)\", tidak harus rumah.\n帰ってくる/帰っていく: nuansa mendekati pembicara/menjauhi pembicara.\nSering digunakan secara sopan dalam percakapan kerja: 先に失礼して家に帰ります。\n\nPerpindahan ke arah kembali ke tempat asal (rumah, kampung halaman, kamar, asrama…).\nに menandai tujuan yang spesifik; 帰る menunjukkan \"pulang/kembali\" (berbeda dengan 行く/来る).\nBernuansa akrab saat digunakan dengan 家/実家/故郷.\nBisa dikombinasikan dengan waktu, sarana: ９時に/電車で家に帰ります.",
+    "notes": "\"国に帰ります\" adalah frasa yang akrab bagi pelajar internasional; sering dipakai bersama 休み/連休/旧正月.\nTambahkan alasan dengan ので/から/ために: 急用のために国に帰ります。\nNuansanya berbeda dengan 戻る: 会社から家に戻る biasanya tidak alami; gunakan 帰る.",
+    "mistakes": [
+     "Menggunakan で sebagai ganti に: 家で帰ります (salah) → 家に帰ります.",
+     "Menghilangkan に dengan 帰る: 家帰る (umumnya bahasa lisan, tetapi dalam bahasa baku sebaiknya gunakan 家に帰る).",
+     "Tertukar 戻る dan 帰る: 家に戻る (tidak alami kecuali dalam konteks tertentu), utamakan 家に帰る.",
+     "へ帰ります jarang menjadi jawaban terbaik dalam ujian JLPT; utamakan に帰ります."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～に<ruby>帰<rt>かえ</rt></ruby>ります",
+       "pulang (ke rumah/kampung…)",
+       "Tujuan adalah tempat asal",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>る"
+      ],
+      [
+       "～へ<ruby>帰<rt>かえ</rt></ruby>ります",
+       "pulang ke arah",
+       "Menekankan arah, jarang dipakai",
+       "<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>る"
+      ],
+      [
+       "～に<ruby>行<rt>い</rt></ruby>きます",
+       "pergi ke",
+       "Tidak mengandung arti \"pulang/kembali\"",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "<ruby>戻<rt>もど</rt></ruby>ります",
+       "kembali",
+       "Posisi/keadaan sebelumnya",
+       "<ruby>席<rt>せき</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>る"
+      ],
+      [
+       "<ruby>帰宅<rt>きたく</rt></ruby>します",
+       "pulang ke rumah (formal)",
+       "Bahasa tulis/sopan",
+       "<ruby>９時<rt>きゅうじ</rt></ruby>に<ruby>帰宅<rt>きたく</rt></ruby>する"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 183,
+   "src_hash": "e3df4c22d418e293",
+   "fields": {
+    "meaning": "Kembali ke…",
+    "connection": "[tempat]に + 戻ります",
+    "examples": [
+     "Saya kembali ke rumah.",
+     "Saya kembali ke kantor.",
+     "Liburan selesai, dan saya kembali bekerja lagi.",
+     "Cuaca sudah kembali cerah.",
+     "Saya ingin kembali ke kehidupan masa lalu."
+    ],
+    "explain": "\"N + に戻ります\" digunakan untuk tempat maupun keadaan (fisik atau abstrak).\nMerupakan ungkapan yang netral dan sopan, dapat digunakan dalam percakapan sehari-hari maupun bahasa tulis.\nSaat membicarakan orang, \"戻る\" bernuansa \"kembali sendiri\"; saat membicarakan benda atau situasi, dapat berarti \"kembali seperti semula\".\n\n① Kembali ke tempat asal: Menyatakan kembali ke lokasi semula.\n→ \"kembali\", \"balik lagi\".\n② Kembali ke keadaan semula: Digunakan ketika suatu benda, situasi, atau suasana hati kembali seperti awalnya.\n→ \"kembali ke keadaan awal\", \"kembali ke situasi sebelumnya\".\n\"戻ります\" adalah bentuk kata kerja intransitif dari \"戻す\" (mengembalikan). Pembicara sendiri kembali atau kembali ke suatu keadaan.",
+    "notes": "\"戻る\" dapat digunakan dalam arti fisik (ke suatu tempat) maupun arti abstrak (ke suatu keadaan, psikologis).\nBedakan dengan jelas antara \"戻る\" (kembali sendiri) dan \"戻す\" (membuat kembali / mengembalikan kepada seseorang).\nDalam komunikasi, \"戻ります\" sering digunakan di kantor: 例：「すぐ戻ります。」→ \"Saya akan segera kembali.\" (saat meninggalkan tempat sebentar).",
+    "mistakes": [
+     "Tertukar antara 戻る（kembali sendiri）dan 戻す（mengembalikan）.",
+     "Salah partikel: seharusnya に戻る, bukan へ戻る (meskipun kadang dapat diterima, \"に\" lebih alami).",
+     "Tertukar dengan 帰る: \"戻る\" digunakan untuk tempat yang ditinggalkan sementara lalu didatangi lagi; \"帰る\" digunakan untuk tempat asal (rumah, kampung halaman…).",
+     "JLPT N5–N4 sering menguji perbedaan \"戻る\", \"帰る\", dan \"戻す\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "～に<ruby>戻<rt>もど</rt></ruby>る",
+       "Kembali, balik (ke tempat / keadaan semula)",
+       "Kembali sendiri",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>る。"
+      ],
+      [
+       "～へ<ruby>帰<rt>かえ</rt></ruby>る",
+       "Pulang ke rumah / kampung / tempat asal",
+       "Biasanya dipakai untuk orang yang kembali ke \"tempat asal\"",
+       "<ruby>国<rt>くに</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>る。"
+      ],
+      [
+       "～を<ruby>戻<rt>もど</rt></ruby>す",
+       "Mengembalikan (kata kerja transitif)",
+       "Seseorang \"mengembalikan\" benda, keadaan",
+       "<ruby>本<rt>ほん</rt></ruby>を<ruby>棚<rt>たな</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>す。（Mengembalikan buku ke rak）"
+      ],
+      [
+       "～に<ruby>帰<rt>かえ</rt></ruby>る",
+       "Sama dengan \"～へ<ruby>帰<rt>かえ</rt></ruby>る\"",
+       "Menekankan tujuan adalah \"tempat tinggal\" atau \"kampung halaman\"",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>る。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 184,
+   "src_hash": "0c049f760a0c578f",
+   "fields": {
+    "meaning": "Ada (benda, tempat)",
+    "connection": "[tempat]に + Nが + あります/います",
+    "examples": [
+     "Di kelas ada siswa.",
+     "Di kulkas ada air.",
+     "Apakah di taman ada anjing? — Ya, ada.",
+     "Di atas meja ada komputer.",
+     "Ini kota yang tenang. Stasiunnya ada di dekat sini.",
+     "Hari ini ada rapat."
+    ],
+    "explain": "Urutan yang umum: [Tempat] に [Subjek baru] が あります／います.\nが menandai informasi baru; は menempatkan topik di depan untuk menekankan lokasi: 図書館は駅の西にあります.\nMenanyakan tempat secara sopan: 〜はどこにありますか。 Untuk orang: 〜はどこにいますか。\nSangat sopan: 〜がございます（barang/benda dalam layanan, penjualan).\n\nMenyatakan keberadaan benda/orang di suatu tempat tertentu.\nあります: benda, peristiwa, konsep tak bernyawa (会議があります＝ada rapat).\nいます: manusia, hewan, makhluk hidup. Berada di posisi itu pada saat ini/sementara.\nVariasi kepemilikan: \"Nがあります\" kadang menyatakan \"punya N\" (私には時間があります＝saya punya waktu), tetapi untuk barang pribadi biasanya 持っています lebih alami.",
+    "notes": "Untuk robot/tokoh fiksi yang \"hidup\": biasanya digunakan います (ロボットがいます) — tergantung konteks.\nUnsur posisi yang rinci: 上／下／中／隣／前／後ろ＋に untuk menunjukkan hubungan ruang: 机の下に箱があります。\n\"Ada waktu/acara\": 時間があります／試験があります — tetap menggunakan あります karena merupakan konsep tak bernyawa.",
+    "mistakes": [
+     "Tertukar が/に: ✕公園が犬にいます → 〇公園に犬がいます.",
+     "Menggunakan を: ✕部屋を机があります → 〇部屋に机があります.",
+     "Tertukar あります/います: ✕店に店員があります → 〇店に店員がいます.",
+     "Ungkapan kepemilikan: ✕私は車があります → 〇車があります／車を持っています.",
+     "Tertukar です dengan あります: ✕机の上は本です（artinya berbeda） → 〇机の上に本があります.",
+     "Urutan kata bilangan: ✕三本の木があります（boleh, tetapi menekankan N）; untuk keberadaan lebih alami: 木が三本あります."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Pembeda",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "〜に〜があります",
+       "Ada (benda) di (tempat)",
+       "Tak bernyawa, peristiwa",
+       "<ruby>机<rt>つくえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>があります"
+      ],
+      [
+       "〜に〜がいます",
+       "Ada (orang/hewan) di (tempat)",
+       "Makhluk hidup",
+       "<ruby>庭<rt>にわ</rt></ruby>に<ruby>猫<rt>ねこ</rt></ruby>がいます"
+      ],
+      [
+       "〜は〜にあります",
+       "N berada di posisi ~",
+       "Topiknya N; menekankan lokasi",
+       "<ruby>銀行<rt>ぎんこう</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にあります"
+      ],
+      [
+       "〜を<ruby>持<rt>も</rt></ruby>っています",
+       "Punya/memiliki ~",
+       "Lebih alami untuk barang pribadi",
+       "<ruby>車<rt>くるま</rt></ruby>を<ruby>持<rt>も</rt></ruby>っています"
+      ],
+      [
+       "〜にいます vs 〜に<ruby>住<rt>す</rt></ruby>んでいます",
+       "Sedang berada vs tinggal",
+       "にいます: sementara; <ruby>住<rt>す</rt></ruby>んでいます: tempat tinggal",
+       "<ruby>東京<rt>とうきょう</rt></ruby>にいます／<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいます"
+      ],
+      [
+       "〜です（identifikasi）",
+       "Adalah ~ (kesamaan)",
+       "Tidak menyatakan keberadaan",
+       "ここは<ruby>図書館<rt>としょかん</rt></ruby>です"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 185,
+   "src_hash": "a29cfcde7d16fac0",
+   "fields": {
+    "meaning": "Menyatakan perasaan atau penilaian （すき・きらい・下手・上手）terhadap suatu tindakan; kata kerja yang menunjukkan tindakan tersebut perlu dinominalisasi. Mirip dengan 「～こと」.",
+    "examples": [
+     "Saya suka bepergian.",
+     "Saya suka lari pagi.",
+     "Dia tidak pandai menyetir.",
+     "Saya tidak suka berendam di bak mandi."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 186,
+   "src_hash": "fd6292a2f7fb8996",
+   "fields": {
+    "meaning": "Menunjukkan subjek dari frasa penjelas",
+    "connection": "N1の/が + V/A + N2 (subjek dari klausa penjelas)",
+    "examples": [
+     "Kedai kopi yang saya sukai.",
+     "Apakah orang yang saya sukai itu dia?",
+     "Kelas A adalah kelas yang gurunya menarik."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 187,
+   "src_hash": "14890696fd2cff57",
+   "fields": {
+    "meaning": "Sebelum…",
+    "examples": [
+     "Sebelum tidur, saya menggosok gigi.",
+     "Sebelum keluar, silakan periksa prakiraan cuaca.",
+     "Sebelum pelajaran, saya membersihkan kelas.",
+     "Saya akan kembali sebelum pukul 3.",
+     "Sebelum pergi ke Jepang, saya membuat paspor.",
+     "Sebelum makan, mari mencuci tangan."
+    ],
+    "explain": "Menekankan persiapan/syarat yang perlu dilakukan sebelum kegiatan lain.\nUntuk kebiasaan/aturan: ～前に～する bernuansa anjuran/petunjuk.\nBahasa sopan: ～前に～してください／お願いいたします。\nSaat ingin mengatakan \"jangan melakukan A sebelum B\", dapat digunakan ～までVない atau Vないで untuk menyatakan menghindari suatu tindakan.\n\nMenyatakan tindakan B terjadi sebelum A berlangsung: A の/辞書形前に、B。\nBerfokus pada persiapan/syarat sebelum melakukan tindakan utama.\nDengan waktu yang spesifik, \"X時前に\" lebih alami daripada \"X時の前に\".\nV辞書形+前に: A belum terjadi pada saat B (menekankan bahwa A berada di masa depan relatif terhadap B).",
+    "notes": "Vた +前に salah; harus menggunakan V辞書形+前に karena tindakan A belum terjadi pada saat B.\nWaktu berupa angka: \"X時前に\" alami; \"X時の前に\" jarang dipakai, terdengar janggal.\n\"以前（いぜん）\" = \"dulu\" (masa lampau yang jauh), tidak digunakan seperti \"前に\" untuk menunjukkan urutan langsung.",
+    "mistakes": [
+     "Salah kala kata kerja: ×食べた前に → ✓食べる前に.",
+     "Menggunakan \"の\" dengan jam: ×3時の前に → ✓3時前に／3時までに.",
+     "Tertukar dengan うちに: \"memanfaatkan selagi masih senggang\" → ひまなうちに, tidak menggunakan \"ひまの前に\".",
+     "Tertukar dengan までに: saat menekankan tenggat pengumpulan tugas, gunakan までに, bukan 前に."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "V<ruby>辞書<rt>じしょ</rt></ruby><ruby>形<rt>けい</rt></ruby><ruby>前<rt>まえ</rt></ruby>に",
+       "Sebelum melakukan V",
+       "Menekankan A belum terjadi pada saat B",
+       "<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に"
+      ],
+      [
+       "Nの<ruby>前<rt>まえ</rt></ruby>に",
+       "Sebelum N (peristiwa)",
+       "Digunakan dengan kata benda peristiwa",
+       "<ruby>試験<rt>しけん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に"
+      ],
+      [
+       "～までに",
+       "Sebelum tenggat",
+       "Menekankan tenggat waktu, bukan urutan",
+       "<ruby>5時<rt>ごじ</rt></ruby>までに<ruby>提出<rt>ていしゅつ</rt></ruby>"
+      ],
+      [
+       "～うちに",
+       "Selagi/sebelum keadaan berubah",
+       "Menekankan \"memanfaatkan selagi masih …\"",
+       "<ruby>若<rt>わか</rt></ruby>いうちに"
+      ],
+      [
+       "Vてから",
+       "Setelah melakukan V, lalu …",
+       "Menyatakan urutan kebalikan dari \"<ruby>前<rt>まえ</rt></ruby>に\"",
+       "<ruby>食<rt>た</rt></ruby>べてから"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 188,
+   "src_hash": "1ea176a2776db663",
+   "fields": {
+    "meaning": "Sangat berat, sulit",
+    "examples": [
+     "Bahasa Jepang itu berat.",
+     "Lembur setiap hari itu berat.",
+     "Pindahan rumah itu sangat merepotkan.",
+     "Bangun pagi-pagi itu berat.",
+     "Wah, itu berat, ya. Mau saya bantu?",
+     "Pekerjaan ini tidak berat."
+    ],
+    "explain": "Gunakan は untuk menyebutkan topik yang dinilai: N は たいへんです. Saat ingin menekankan subjek dalam kalimat yang menyajikan informasi baru, dapat digunakan が (dengan nuansa berbeda), tetapi pola di sini adalah は.\nGunakan たいへんですね saat mendengar kesulitan orang lain, untuk menunjukkan kesopanan dan simpati.\nDalam bahasa lisan santai: たいへんだ／たいへんだった.\nHindari menggunakan たいへん sebagai pengganti むずかしい saat membicarakan \"tingkat kesulitan pengetahuan\" semata. たいへん lebih condong ke \"berat, makan tenaga, melelahkan\".\n\n\"たいへん\" menyatakan tingkat kesulitan, beratnya usaha, atau keseriusan. Digunakan untuk mengatakan sesuatu \"sulit/susah/merepotkan\".\nDengan \"N は たいへんです\": penilaian umum tentang mata pelajaran, pekerjaan, atau situasi.\nDengan \"V の は たいへんです\": menekankan bahwa tindakan tertentu berat saat dilakukan.\nDalam konteks luar biasa/kecelakaan, たいへん dapat dipahami sebagai \"serius/mengerikan\".\nBentuk seruan \"たいへんですね\" menunjukkan simpati/kesopanan dalam percakapan.",
+    "notes": "たいへん dapat digunakan sebagai kata keterangan sopan yang berarti \"sangat\": たいへんおいしい、たいへん失礼しました.\nUngkapan basa-basi: お仕事はたいへんですか (Apakah pekerjaannya berat?).\nSaat menekankan kejadian serius: たいへんなことになった (Terjadi masalah besar).",
+    "mistakes": [
+     "Tertukar dengan むずかしい: \"Soal matematika yang sulit\" seharusnya 問題はむずかしい, bukan たいへん.",
+     "Menghilangkan \"の\" saat menominalisasi kata kerja: ×勉強するはたいへんです → ○勉強するのはたいへんです.",
+     "Menggunakan が sebagai ganti は membuat fokus kalimat berubah; dengan pola ini sebaiknya tetap gunakan N は たいへんです untuk menyebutkan topik.",
+     "Lupa mengubah ke bentuk sopan/lampau: たいへんでした (benar) alih-alih たいへんです (saat membicarakan masa lampau)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola/kata",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "たいへん",
+       "Berat, serius",
+       "Menekankan beban/kerja keras",
+       "<ruby>仕事<rt>しごと</rt></ruby>はたいへんです。"
+      ],
+      [
+       "むずかしい",
+       "Sulit (dalam hal isi/tingkat)",
+       "Berfokus pada tingkat kesulitan intelektual/teknis",
+       "この<ruby>問題<rt>もんだい</rt></ruby>はむずかしい。"
+      ],
+      [
+       "つらい",
+       "Menyakitkan, menderita",
+       "Menekankan perasaan/penderitaan mental/fisik",
+       "<ruby>別<rt>わか</rt></ruby>れるのはつらい。"
+      ],
+      [
+       "きつい",
+       "Keras, berat",
+       "Bahasa lisan, lebih kuat daripada たいへん",
+       "このバイトはきつい。"
+      ],
+      [
+       "たいへんに + A/Adv",
+       "Sangat (tingkat tinggi)",
+       "Digunakan sebagai kata keterangan formal",
+       "たいへんに<ruby>忙<rt>いそが</rt></ruby>しいです。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 189,
+   "src_hash": "54f6c2fbf739b5fd",
+   "fields": {
+    "meaning": "Partikel yang menunjukkan arah perpindahan. Biasanya digunakan dengan kata kerja perpindahan seperti 「行く」「帰る」「来る」",
+    "connection": "[tempat/arah]へ/に + V perpindahan",
+    "examples": [
+     "Saya pergi ke Akihabara dan Harajuku.",
+     "Saya ingin pulang ke rumah.",
+     "Saya datang ke sini setiap hari.",
+     "Anda mau pergi ke mana?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

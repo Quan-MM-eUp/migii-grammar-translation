@@ -1,0 +1,1334 @@
+{
+ "batch": "b006",
+ "items": [
+  {
+   "id": 91,
+   "level": "N5",
+   "src_hash": "6660bc7ea2d15ee0",
+   "context": {
+    "name": "こちら～",
+    "pattern": "こちら～",
+    "connection": "こちらは + Nです / こちらへ/に + V",
+    "examples_jp": [
+     "こちらは田中さんです。",
+     "こちらへどうぞ。",
+     "こちらがお手洗いです。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Phía này / tôi / ở đây"
+    },
+    "examples": [
+     {
+      "jp": "こちらは田中さんです。",
+      "vi": "Đây là anh Tanaka."
+     },
+     {
+      "jp": "こちらへどうぞ。",
+      "vi": "Mời đi lối này."
+     },
+     {
+      "jp": "こちらがお手洗いです。",
+      "vi": "Đây là nhà vệ sinh."
+     },
+     {
+      "jp": "こちらの商品はいかがですか。",
+      "vi": "Quý khách thấy sản phẩm này thế nào ạ?"
+     },
+     {
+      "jp": "こちらこそ、ありがとうございます。",
+      "vi": "Chính tôi mới là người phải cảm ơn."
+     },
+     {
+      "jp": "こちらは三名です。",
+      "vi": "Bên chúng tôi có 3 người."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Lịch sự hơn これ/ここ/この; phù hợp dịch vụ, hướng dẫn, giao tiếp trang nhã.\nNhẹ nhàng chỉ đường:受付は こちら です。\nGiới thiệu người: こちら は山田課長です。\n\nこちらlà đại từ chỉ thị lịch sự tương đương “この/ここ/これ” (nhưng lịch sự hơn), nghĩa là “phía này/cái này/người này/bên chúng tôi”.\nDùng cho người: “vị này” (lịch sự, lịch thiệp).\nDùng cho nơi/hướng: “lối này/phía này”.\nDùng cho tổ chức/nhóm: “bên/chúng tôi”.\nDùng trong chỉ dẫn, dịch vụ, điện thoại, giới thiệu."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Cụmこちらこそdùng để đáp lại lời cảm ơn/xin lỗi: “chính tôi cũng vậy”.\nTrong điện thoại/dịch vụ:こちらはABC会社でございます。 (Bên chúng tôi là công ty ABC.)\n“こちらになります” là cách nói lịch sự hóa “đây là ~” (mang sắc thái dịch vụ)."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Nhầm với これ/ここ: “đây là nhà vệ sinh” lịch sự nên nói こちらがお手洗いです (không phải これが…)."
+     },
+     {
+      "src": "vi",
+      "text": "Dùng こちら cho vật xa người nói → nên dùng あちら/そちら tùy khoảng cách/ngữ cảnh."
+     },
+     {
+      "src": "vi",
+      "text": "Bỏ の khi bổ nghĩa danh từ: × こちら部屋→ đúng: こちらの部屋。"
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Từ",
+      "Ý nghĩa",
+      "Sắc thái",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "こちら",
+       "cái/phía/người “này”",
+       "Lịch sự",
+       "こちらへどうぞ。"
+      ],
+      [
+       "これ",
+       "cái “này” (vật)",
+       "Trung tính",
+       "これはペンです。"
+      ],
+      [
+       "ここ",
+       "“ở đây” (nơi)",
+       "Trung tính",
+       "ここは<ruby>東京<rt>とうきょう</rt></ruby>です。"
+      ],
+      [
+       "この",
+       "“(cái) này” + N",
+       "Trung tính",
+       "この<ruby>本<rt>ほん</rt></ruby>"
+      ],
+      [
+       "そちら／あちら",
+       "phía đó/phía kia (lịch sự)",
+       "Cùng hệ lịch sự",
+       "そちらはどうですか。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 92,
+   "level": "N5",
+   "src_hash": "b9a486015e66bd53",
+   "context": {
+    "name": "さっき～",
+    "pattern": "さっき～",
+    "connection": "さっき + [câu/mệnh đề] / さっきの + N",
+    "examples_jp": [
+     "さっき、田中さんに会いました。",
+     "さっきのメールを見ましたか。",
+     "さっきから頭が痛いです。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Lúc nãy"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "さっき + [câu/mệnh đề] / さっきの + N",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "さっき、田中さんに会いました。",
+      "vi": "Vừa nãy tôi gặp anh Tanaka."
+     },
+     {
+      "jp": "さっきのメールを見ましたか。",
+      "vi": "Bạn đã xem email lúc nãy chưa?"
+     },
+     {
+      "jp": "さっきから頭が痛いです。",
+      "vi": "Từ nãy đến giờ tôi đau đầu."
+     },
+     {
+      "jp": "さっきまで雨でした。",
+      "vi": "Đến lúc nãy trời còn mưa."
+     },
+     {
+      "jp": "さっき電話しました。",
+      "vi": "Vừa nãy tôi đã gọi điện."
+     },
+     {
+      "jp": "さっきの写真を送ってください。",
+      "vi": "Hãy gửi bức ảnh lúc nãy."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "さっき thường đi với quá khứ: さっき行きました／来ました。\nさっきから + Vている diễn tả trạng thái liên tục đến hiện tại.\nさっきまで nhấn mạnh vừa mới chấm dứt.\nThân mật, dùng trong hội thoại; trang trọng có thể dùng先ほど (lịch sự hơn).\n\nさっきdiễn tả thời điểm quá khứ rất gần “lúc nãy, vừa nãy”. Thường đi với thì quá khứ hoặc tiếp diễn khi dùngさっきから.\nさっき: một thời điểm ngắn trước hiện tại, mơ hồ (vài phút đến khoảng ngắn).\nさっきから: từ lúc nãy đến hiện tại (kéo dài).\nさっきまで: cho đến tận lúc nãy (vừa dừng xong)."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Khoảng “gần” của さっき phụ thuộc ngữ cảnh (thường trong vòng vài chục phút trở lại).\nKhông dùng さっき cho tương lai; với hiện tại tiếp diễn, dùng さっきから + Vている.\nTrong email công việc, ưu tiên先ほど để lịch sự."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Dùng sai thì: × さっき行きます → đúng: さっき行きました。"
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm さっき với もうすぐ (tương lai): × さっき始まります → đúng: もうすぐ始まります。"
+     },
+     {
+      "src": "vi",
+      "text": "Bỏ の khi làm định ngữ: × さっき店→ đúng: さっきの店。"
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Từ",
+      "Ý nghĩa",
+      "Khác biệt",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "さっき",
+       "Lúc nãy",
+       "Quá khứ gần, mơ hồ",
+       "さっき<ruby>会<rt>あ</rt></ruby>いました。"
+      ],
+      [
+       "たった<ruby>今<rt>いま</rt></ruby>",
+       "Vừa mới (ngay tức thì)",
+       "Gần hơn さっき",
+       "たった<ruby>今<rt>いま</rt></ruby><ruby>着<rt>つ</rt></ruby>きました。"
+      ],
+      [
+       "<ruby>先<rt>さき</rt></ruby>ほど",
+       "Lúc nãy (lịch sự)",
+       "Trang trọng",
+       "<ruby>先<rt>さき</rt></ruby>ほどお<ruby>電話<rt>でんわ</rt></ruby>しました。"
+      ],
+      [
+       "もうすぐ",
+       "Sắp",
+       "Tương lai gần",
+       "もうすぐ<ruby>始<rt>はじ</rt></ruby>まります。"
+      ],
+      [
+       "さっきから／さっきまで",
+       "Từ nãy đến giờ / Đến tận lúc nãy",
+       "Kéo dài / kết thúc gần đây",
+       "さっきから<ruby>待<rt>ま</rt></ruby>っています。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 93,
+   "level": "N5",
+   "src_hash": "1761a87de00a313c",
+   "context": {
+    "name": "すぐに～",
+    "pattern": "すぐに～",
+    "connection": "すぐに + V",
+    "examples_jp": [
+     "今すぐに来てください。",
+     "家に帰ったらすぐにシャワーを浴びます。",
+     "授業が終わってすぐに帰りました。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Ngay lập tức"
+    },
+    "examples": [
+     {
+      "jp": "今すぐに来てください。",
+      "vi": "Hãy đến ngay bây giờ."
+     },
+     {
+      "jp": "家に帰ったらすぐにシャワーを浴びます。",
+      "vi": "Vừa về nhà là tôi tắm liền."
+     },
+     {
+      "jp": "授業が終わってすぐに帰りました。",
+      "vi": "Tan học xong là tôi về ngay."
+     },
+     {
+      "jp": "駅のすぐに近くにコンビニがあります。",
+      "vi": "Có cửa hàng tiện lợi ngay gần nhà ga."
+     },
+     {
+      "jp": "その話を聞いてすぐに涙が出ました。",
+      "vi": "Nghe chuyện đó xong tôi bật khóc ngay."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "“すぐに” dùng để chỉ thời điểm hoặc vị trí rất gần so với mốc hiện tại.\nCó thể đặt trước động từ hoặc danh từ chỉ thời điểm: すぐに行く／すぐに電話する／帰ってすぐに寝る。\nDạng thân mật thường bỏ “に”: すぐ行くね！ → “Tớ đi ngay đây nhé!”\n“すぐ” nhấn mạnh cảm giác nhanh, không có độ trễ; phù hợp khi muốn thể hiện sự khẩn trương hoặc tức thì.\n\n① “すぐに” diễn tả hành động xảy ra ngay sau một việc khác, nhấn mạnh tínhngay tức thì.\n② Nghĩa tiếng Việt:“ngay lập tức”, “ngay sau đó”, “liền”.\n③ Có thể dùng để diễn tả cả thời gian lẫn không gian gần gũi:・Về thời gian → hành động diễn ra ngay sau đó.\n・Về không gian → “gần ngay”, “ngay cạnh”.\n“すぐに” có thể dùng một mình hoặc kết hợp với “あとで／前に／近くに” để nhấn mạnh mức độ gần gũi."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "“すぐに” là trạng từ chỉ thời gian, đứng trước động từ chính trong câu.\nCó thể dùng trong chỉ dẫn, hướng dẫn hành động khẩn cấp:火事です！すぐに逃げてください！→ Cháy rồi! Hãy chạy ngay đi!\nỞ trình độ JLPT N5, người học chỉ cần nắm cách dùng cơ bản là “ngay lập tức làm gì đó”.\nỞ cấp cao hơn, “すぐに” có thể dùng để diễn tả “phản ứng cảm xúc nhanh”, ví dụ:彼はすぐに怒ります。→ Anh ấy dễ nổi giận."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Bỏ quên “に” trong văn viết hoặc khi thi JLPT:"
+     },
+     {
+      "src": "vi",
+      "text": "✕ すぐ行きます → (đúng trong hội thoại, nhưng JLPT nên viết) ○ すぐに行きます。"
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm “すぐに” với “もうすぐ”:"
+     },
+     {
+      "src": "vi",
+      "text": "すぐに → ngay lập tức."
+     },
+     {
+      "src": "vi",
+      "text": "もうすぐ → sắp sửa."
+     },
+     {
+      "src": "vi",
+      "text": "Không dùng “すぐに” với hành động kéo dài (như勉強しています) — chỉ dùng với hành động khởi phát hoặc ngắn gọn."
+     },
+     {
+      "src": "vi",
+      "text": "JLPT N5 thường hỏi: chọn đúng “すぐに”, “もうすぐ”, “あとで” để diễn tả thời điểm chính xác."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Từ / Mẫu",
+      "Ý nghĩa",
+      "Khác biệt chính",
+      "Ví dụ"
+     ],
+     "rows": [
+      [
+       "すぐに",
+       "Ngay lập tức",
+       "Diễn tả sự việc xảy ra ngay sau một hành động",
+       "すぐに<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "すぐ",
+       "Ngay (thân mật, rút gọn)",
+       "Dạng ngắn của “すぐに”, dùng trong hội thoại thân mật",
+       "すぐ<ruby>行<rt>い</rt></ruby>くね。"
+      ],
+      [
+       "もうすぐ",
+       "Sắp… / Sắp đến",
+       "Chưa xảy ra, nhưng sắp xảy ra trong tương lai gần",
+       "もうすぐ<ruby>春<rt>はる</rt></ruby>です。"
+      ],
+      [
+       "たった<ruby>今<rt>いま</rt></ruby>",
+       "Vừa mới…",
+       "Nhấn mạnh hành động vừa xảy ra",
+       "たった<ruby>今<rt>いま</rt></ruby><ruby>帰<rt>かえ</rt></ruby>りました。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 94,
+   "level": "N5",
+   "src_hash": "7245773dc8a4eaf0",
+   "context": {
+    "name": "ぜんぜん～",
+    "pattern": "ぜんぜん～",
+    "connection": "ぜんぜん + [vị ngữ phủ định] (Vません / Aくない / Naではない)",
+    "examples_jp": [
+     "お金がぜんぜんありません。",
+     "きのうはぜんぜん勉強しませんでした。",
+     "この映画はぜんぜんおもしろくないです。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Hoàn toàn không"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "ぜんぜん + [vị ngữ phủ định] (Vません / Aくない / Naではない)",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "お金がぜんぜんありません。",
+      "vi": "Tôi hoàn toàn không có tiền."
+     },
+     {
+      "jp": "きのうはぜんぜん勉強しませんでした。",
+      "vi": "Hôm qua tôi chẳng học gì cả."
+     },
+     {
+      "jp": "この映画はぜんぜんおもしろくないです。",
+      "vi": "Bộ phim này chẳng hay chút nào."
+     },
+     {
+      "jp": "先生の話がぜんぜんわかりませんでした。",
+      "vi": "Tôi hoàn toàn không hiểu bài giảng của thầy."
+     },
+     {
+      "jp": "日本の冬は寒いけど、ベトナムの冬はぜんぜん寒くないです。",
+      "vi": "Mùa đông ở Nhật thì lạnh, nhưng ở Việt Nam thì không lạnh chút nào."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Thường đứng trước động từ phủ định hoặc tính từ phủ định .\nNhấn mạnh cảm xúc “hoàn toàn không có” hoặc “mức độ bằng 0”.\nTrong hội thoại, có thể dùng “ぜんぜん + tích cực” như “ぜんぜん大丈夫！” (Ổn hoàn toàn!) – tuy nhiên, đây là cách nói tự nhiên, không dùng trong bài thi JLPT .\nPhù hợp với ngữ điệu mạnh hoặc cảm xúc rõ ràng (bực bội, ngạc nhiên, nhấn mạnh).\n\n① “ぜんぜん”là phó từ nhấn mạnh mức độ phủ định tuyệt đối: “hoàn toàn không”, “chẳng hề”.\n②Dùng chung vớiđộng từ phủ địnhhoặctính từ phủ địnhđể diễn tả rằng hành động hoặc trạng thái hoàn toàn không xảy ra.\n③Trong hội thoại hiện đại, đôi khi “ぜんぜん” được dùng với nghĩa tích cực (“rất”, “hoàn toàn”) để nhấn mạnh — nhưng trong JLPT N5, chỉ cần nhớnghĩa phủ định."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "「ぜんぜん」 = “completely / totally / not at all” tùy theo ngữ cảnh.\nViết bằng kanji là 「全然」, nhưng trong giao tiếp hàng ngày thường viết hiragana: 「ぜんぜん」.\nTrong tiếng Nhật hiện đại, có thể nghe thấy: 「ぜんぜんOK！」, 「ぜんぜん大丈夫！」 → mang nghĩa tích cực “hoàn toàn ổn”. Tuy nhiên, đây là cách nói thông tục, không dùng trong văn viết hoặc kỳ thi JLPT."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Dùng sai với câu khẳng định trong bài thi JLPT:"
+     },
+     {
+      "src": "ja",
+      "text": "✕ ぜんぜんわかります → ○ ぜんぜんわかりません。"
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm với あまり:“ぜんぜん” = hoàn toàn không, mạnh hơn “あまり”."
+     },
+     {
+      "src": "vi",
+      "text": "Bỏ quên động từ phủ định: ✕ ぜんぜん勉強→ ○ ぜんぜん勉強しません。"
+     },
+     {
+      "src": "vi",
+      "text": "JLPT N5 thường hỏi: chọn đúng trạng từ phủ định giữa “あまり”, “ぜんぜん”, “ちょっと”."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Khác biệt",
+      "Ví dụ"
+     ],
+     "rows": [
+      [
+       "ぜんぜん + Vない／Adjない",
+       "Hoàn toàn không…",
+       "Phủ định tuyệt đối, mạnh mẽ",
+       "ぜんぜんわかりません。"
+      ],
+      [
+       "あまり + Vない／Adjない",
+       "Không … lắm",
+       "Phủ định nhẹ, mang tính tương đối",
+       "あまりわかりません。"
+      ],
+      [
+       "<ruby>全<rt>まった</rt></ruby>く（まったく） + Vない",
+       "Hoàn toàn không… (rất trang trọng)",
+       "Giống “ぜんぜん” nhưng dùng trong văn viết hoặc trang trọng hơn",
+       "<ruby>全<rt>まった</rt></ruby>く<ruby>知<rt>し</rt></ruby>りません。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 95,
+   "level": "N5",
+   "src_hash": "0b0aebd5137f0034",
+   "context": {
+    "name": "そちら～",
+    "pattern": "そちら～",
+    "connection": "そちらは + N(ですか) / そちらへ/に + V",
+    "examples_jp": [
+     "こんにちは。そちらは今、何時ですか。",
+     "午後3時ごろそちらへ伺います。",
+     "明日はそちらで会いましょう。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Phía đó / bạn / ở đó"
+    },
+    "examples": [
+     {
+      "jp": "こんにちは。そちらは今、何時ですか。",
+      "vi": "Xin chào. Ở bên bạn bây giờ là mấy giờ?"
+     },
+     {
+      "jp": "午後3時ごろそちらへ伺います。",
+      "vi": "Tầm 3 giờ chiều tôi sẽ ghé bên bạn."
+     },
+     {
+      "jp": "明日はそちらで会いましょう。",
+      "vi": "Ngày mai hãy gặp ở phía bạn nhé."
+     },
+     {
+      "jp": "そちらの国では春はいつですか。",
+      "vi": "Ở nước của bạn thì mùa xuân là khi nào?"
+     },
+     {
+      "jp": "こちらは晴れです。そちらはどうですか。",
+      "vi": "Bên tôi trời nắng. Bên bạn thì sao?"
+     },
+     {
+      "jp": "電話ありがとうございます。ABC会社そちらでしょうか。",
+      "vi": "Xin cảm ơn đã nghe máy. Có phải bên bạn là công ty ABC không ạ?"
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Lịch sự: dùng そちら thay cho そっち/そこ để tôn trọng người nghe.\nTránh dùng trực tiếp để gọi người: thay vì “そちらは田中さんですか”, dùng “田中様でいらっしゃいますか”. Tuy nhiên trong ngữ cảnh tổ chức, “そちらはABC会社ですか” là tự nhiên.\nCặp đối xứng: こちら（bên tôi）– そちら（bên bạn）– あちら（bên thứ ba/xa cả hai）.\nĐi với trợ từ phù hợp: そちらへ（hướng đến）, そちらに（tới/ở）, そちらで（tại nơi đó thực hiện hành động）.\n\n“そちら” là đại từ lịch sự chỉ phía người nghe (vị trí, tổ chức, nhóm, tình hình bên ấy).\nDùng trong điện thoại, email, giao tiếp dịch vụ để lịch sự hơn so với そこ/そっち.\nCó thể chỉ hướng/đích đến (そちらへ), nơi chốn (そちらで), hoặc thuộc tính sở hữu (そちらのN).\nTrong hội thoại, “そちらは？” dùng hỏi ngược thông tin phía người nghe (thời tiết, tình hình)."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Trong điện thoại, có thể mở đầu: そちらはABC会社でいらっしゃいますか。\nHỏi thời tiết/tình hình: そちらはどうですか／そちらの状況はいかがですか。\nTrong dịch vụ, nhân viên hay tự xưng こちら, gọi khách là そちら（のご希望） như một cách lịch sự gián tiếp."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Dùng そこ/そっち trong ngữ cảnh trang trọng thay vì そちら → kém lịch sự."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm trợ từ: “そちらで行きます” (sai) → nên “そちらへ行きます”."
+     },
+     {
+      "src": "vi",
+      "text": "Gọi thẳng người nghe là そちら trong mọi tình huống → có thể thô. Hãy dùng tên +様hoặc cách nói kính ngữ phù hợp."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm trục chỉ thị: こちら (bên tôi) ≠ そちら (bên bạn) ≠ あちら (bên kia)."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Mức độ lịch sự/Phạm vi",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "こちら",
+       "Bên tôi/đây",
+       "Lịch sự",
+       "こちらは<ruby>山田<rt>やまだ</rt></ruby>です。"
+      ],
+      [
+       "そちら",
+       "Bên bạn/ở chỗ bạn",
+       "Lịch sự",
+       "そちらは<ruby>雨<rt>あめ</rt></ruby>ですか。"
+      ],
+      [
+       "あちら",
+       "Bên kia/đằng kia",
+       "Lịch sự",
+       "あちらへお<ruby>願<rt>ねが</rt></ruby>いします。"
+      ],
+      [
+       "そこ／そっち",
+       "Ở đó/bên bạn",
+       "Thân mật",
+       "そこは<ruby>暑<rt>あつ</rt></ruby>い？／そっちどう？"
+      ],
+      [
+       "<ruby>御社<rt>おんしゃ</rt></ruby>／<ruby>貴社<rt>きしゃ</rt></ruby>",
+       "Quý công ty",
+       "Rất trang trọng (văn viết)",
+       "<ruby>貴社<rt>きしゃ</rt></ruby>のご<ruby>担当<rt>たんとう</rt></ruby><ruby>者<rt>しゃ</rt></ruby><ruby>様<rt>さま</rt></ruby>"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 96,
+   "level": "N5",
+   "src_hash": "378339a5fa39887f",
+   "context": {
+    "name": "それから、～",
+    "pattern": "それから、～",
+    "connection": "それから + [câu/mệnh đề]",
+    "examples_jp": [
+     "朝ごはんを食べました。それから、学校へ行きました。",
+     "宿題をして、それから、テレビを見ます。",
+     "パスポートを取って、それから空港へ行きます。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Sau đó…"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "それから + [câu/mệnh đề]",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "朝ごはんを食べました。それから、学校へ行きました。",
+      "vi": "Tôi ăn sáng. Sau đó, đến trường."
+     },
+     {
+      "jp": "宿題をして、それから、テレビを見ます。",
+      "vi": "Làm bài tập rồi sau đó xem TV."
+     },
+     {
+      "jp": "パスポートを取って、それから空港へ行きます。",
+      "vi": "Lấy hộ chiếu, rồi đi ra sân bay."
+     },
+     {
+      "jp": "牛乳を買って、それからパンも買ってください。",
+      "vi": "Mua sữa, rồi mua cả bánh mì nữa nhé."
+     },
+     {
+      "jp": "えっと…それから、質問があります。",
+      "vi": "Ờ… à còn nữa, tôi có câu hỏi."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Trình tự thời gian rõ: dùng để kể lại các bước/hoạt động một ngày.\nThêm ý nhớ ra: như từ đệm khi liệt kê đồ cần mua/yêu cầu.\nTrong văn viết giản dị và hội thoại hằng ngày, それから rất phổ biến và tự nhiên.\nKhông diễn đạt quan hệ nguyên nhân-kết quả; nếu cần, dùng それで／だから.\n\nÝ nghĩa: “sau đó; rồi thì; tiếp theo”. Dùng nối các hành động/ý theo trật tự thời gian rõ ràng.\nSắc thái: mạnh về tính trình tự hơn そして (trung tính). Phù hợp liệt kê việc làm lần lượt.\nCũng dùng như “à còn nữa/tiện thể” khi thêm ý mình vừa nhớ ra trong hội thoại."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Khi liệt kê nhiều mục trong hướng dẫn, まず／次に／それから／最後に tạo mạch rất rõ.\nTrong hội thoại, それから có thể làm câu ngắt để người nói nghĩ tiếp, giúp nhịp tự nhiên.\nTránh nối quá nhiều câu bằng それから liên tục; thay thế bằng それに, そして, そのあと để tránh đơn điệu."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Dùng それから cho quan hệ kết quả: sai. Hãy dùng それで/だから."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm với そして: nếu muốn nhấn “thứ tự thời gian”, chọn それから; そして chỉ trung tính nối ý."
+     },
+     {
+      "src": "vi",
+      "text": "Lặp lại それから quá dày trong bài viết khiến văn đơn điệu; nên xen kẽ cách nối khác."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Khác biệt chính",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "それから",
+       "Sau đó; tiếp theo",
+       "Nhấn thứ tự thời gian",
+       "<ruby>掃除<rt>そうじ</rt></ruby>した。それから<ruby>勉強<rt>べんきょう</rt></ruby>。"
+      ],
+      [
+       "そして",
+       "Và; và rồi",
+       "Trung tính, ít nhấn thời gian",
+       "<ruby>安<rt>やす</rt></ruby>い。そしておいしい。"
+      ],
+      [
+       "それに",
+       "Hơn nữa",
+       "Bổ sung lý do/đặc điểm",
+       "<ruby>安<rt>やす</rt></ruby>い。それに<ruby>近<rt>ちか</rt></ruby>い。"
+      ],
+      [
+       "それで",
+       "Vì thế, nên",
+       "Nguyên nhân → kết quả",
+       "<ruby>雨<rt>あめ</rt></ruby>。それで<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "そのあと（に）",
+       "Sau đó (danh từ/phrases)",
+       "Tương đương ý, không phải liên từ",
+       "そのあと、<ruby>帰<rt>かえ</rt></ruby>った。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 97,
+   "level": "N5",
+   "src_hash": "be750d5be730ed96",
+   "context": {
+    "name": "たいてい～",
+    "pattern": "たいてい～",
+    "connection": "たいてい + V / たいてい + [câu/mệnh đề]",
+    "examples_jp": [
+     "私はたいてい6時に起きます。",
+     "週末はたいてい家で映画を見ます。",
+     "たいていの学生はアルバイトをします。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Thường, đa số"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "たいてい + V / たいてい + [câu/mệnh đề]",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "私はたいてい6時に起きます。",
+      "vi": "Tôi thường dậy lúc 6 giờ."
+     },
+     {
+      "jp": "週末はたいてい家で映画を見ます。",
+      "vi": "Cuối tuần thường xem phim ở nhà."
+     },
+     {
+      "jp": "たいていの学生はアルバイトをします。",
+      "vi": "Phần lớn sinh viên làm thêm."
+     },
+     {
+      "jp": "この店はたいてい空いています。",
+      "vi": "Quán này thường vắng."
+     },
+     {
+      "jp": "日本の夏はたいてい暑いです。",
+      "vi": "Mùa hè ở Nhật thường nóng."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Đặt đầu câu hoặc trước vị ngữ.\nSắc thái tổng quát, không khẳng định 100%.\nPhù hợp mô tả thói quen, khuynh hướng.\n\nHầu hết, phần lớn thời gian; nói về thói quen, xu hướng chung.\nMạnh hơn “よく”, yếu hơn “いつも”.\nKhông dùng để chỉ “xấp xỉ con số”."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Trong quảng cáo/tin tức đôi khi dùng kanji “大抵”.\n“たいていのN” giúp giới hạn phạm vi chủ thể: たいていの子ども, たいていの場合.\nKhi muốn chắc chắn hơn “ほぼ/ほとんど” có thể phù hợp, nhưng khác sắc thái."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Dùng “たいてい” để ước lượng số → sai chức năng."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm với “いつも”: mức độ mạnh hơn “たいてい”."
+     },
+     {
+      "src": "vi",
+      "text": "Bỏ “の” khi định ngữ: phải là “たいていの人”."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Khác biệt",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "たいてい",
+       "Hầu hết",
+       "Tần suất cao",
+       "たいてい<ruby>行<rt>い</rt></ruby>きます"
+      ],
+      [
+       "いつも",
+       "Luôn luôn",
+       "Gần như 100%",
+       "いつも<ruby>遅<rt>おく</rt></ruby>れます"
+      ],
+      [
+       "よく",
+       "Thường",
+       "Trung bình-khá",
+       "よく<ruby>勉強<rt>べんきょう</rt></ruby>します"
+      ],
+      [
+       "たまに",
+       "Thỉnh thoảng",
+       "Tần suất thấp",
+       "たまに<ruby>行<rt>い</rt></ruby>きます"
+      ],
+      [
+       "だいたい",
+       "Khoảng/đại khái",
+       "Không phải tần suất",
+       "だいたい1000<ruby>円<rt>えん</rt></ruby>"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 98,
+   "level": "N5",
+   "src_hash": "e644a8b09b798fd4",
+   "context": {
+    "name": "だいたい～",
+    "pattern": "だいたい～",
+    "connection": "だいたい + [số lượng/N] / だいたい + V",
+    "examples_jp": [
+     "学校までだいたい20分です。",
+     "この本の内容はだいたい分かりました。",
+     "昼ごはんはだいたい500円ぐらいです。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Đại khái, phần lớn"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "だいたい + [số lượng/N] / だいたい + V",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "学校までだいたい20分です。",
+      "vi": "Đến trường mất khoảng 20 phút."
+     },
+     {
+      "jp": "この本の内容はだいたい分かりました。",
+      "vi": "Tôi hiểu đại khái nội dung cuốn sách."
+     },
+     {
+      "jp": "昼ごはんはだいたい500円ぐらいです。",
+      "vi": "Bữa trưa khoảng 500 yên."
+     },
+     {
+      "jp": "準備はだいたい終わりました。",
+      "vi": "Chuẩn bị cơ bản đã xong."
+     },
+     {
+      "jp": "だいたいでいいので、数を教えてください。",
+      "vi": "Ước chừng cũng được, cho tôi biết số lượng nhé."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Đặt ngay trước mục cần ước lượng hoặc đầu câu.\nTrung tính, dùng được trong hầu hết tình huống.\nPhù hợp khi không cần độ chính xác tuyệt đối.\n\nXấp xỉ số lượng/thời gian (about/approximately).\nĐánh giá tổng quát, không chi tiết (generally/broadly).\nKhông dùng cho “tần suất” (khác “たいてい”)."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Kanji:大体; ở N5 ưu tiên kana “だいたい”.\n“だいたい合っている” = đúng đại khái.\nTrong hội thoại: “だいたいね…” mở đầu ý “nói chung thì…”."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Nhầm với “たいてい” (tần suất) → dùng sai ngữ cảnh."
+     },
+     {
+      "src": "vi",
+      "text": "Kết hợp với số chính xác và từ “ちょうど” gây mâu thuẫn."
+     },
+     {
+      "src": "vi",
+      "text": "Bỏ “ぐらい/くらい” khi cần nhấn xấp xỉ: nhiều ngữ cảnh có “ぐらい” tự nhiên hơn."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Khác biệt",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "だいたい",
+       "Khoảng/đại khái",
+       "Không phải tần suất",
+       "だいたい<ruby>100人<rt>ひゃくにん</rt></ruby>"
+      ],
+      [
+       "たいてい",
+       "Hầu hết/thường",
+       "Nói thói quen",
+       "たいてい<ruby>家<rt>いえ</rt></ruby>にいる"
+      ],
+      [
+       "およそ",
+       "Khoảng (trang trọng)",
+       "Văn viết, tin tức",
+       "およそ3<ruby>割<rt>わり</rt></ruby>"
+      ],
+      [
+       "ほとんど",
+       "Hầu như",
+       "Mức bao phủ cao",
+       "ほとんど<ruby>終<rt>お</rt></ruby>わった"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 99,
+   "level": "N5",
+   "src_hash": "e4cd7f5ba97cd4c6",
+   "context": {
+    "name": "だから、～",
+    "pattern": "だから、～",
+    "connection": "[câu/mệnh đề]。だから/ですから、[câu/mệnh đề]",
+    "examples_jp": [
+     "時間がありません。だから、今日は無理です。",
+     "危ないです。ですから、近づかないでください。",
+     "勉強が好きです。だから、よく図書館に行きます。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Vì vậy…"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "[câu/mệnh đề]。だから/ですから、[câu/mệnh đề]",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "時間がありません。だから、今日は無理です。",
+      "vi": "Không có thời gian. Vì vậy hôm nay không được."
+     },
+     {
+      "jp": "危ないです。ですから、近づかないでください。",
+      "vi": "Nguy hiểm. Cho nên xin đừng lại gần."
+     },
+     {
+      "jp": "勉強が好きです。だから、よく図書館に行きます。",
+      "vi": "Thích học. Vì vậy hay đến thư viện."
+     },
+     {
+      "jp": "雨です。だから、傘を持って行きます。",
+      "vi": "Trời mưa. Vì thế mang ô đi."
+     },
+     {
+      "jp": "安いです。だから、買います。",
+      "vi": "Rẻ. Cho nên tôi mua."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Đặt sau câu nêu lý do để dẫn tới kết luận.\nGiữ lịch sự phù hợp người nghe: だから → ですから.\nDùng để trả lời “どうして？” rất tự nhiên.\n\nNối lý do đã nêu (S1) với kết quả/ý định (S2) theo nghĩa “vì vậy/cho nên”.\nThân mật, trực tiếp; thay bằng “ですから” khi cần lịch sự.\nKhác “ので/から” (liên kết nội câu) và “それで” (tiếp diễn sự việc)."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Khi muốn mềm hơn nữa: “ですので” (nâng cao) thay cho “ですから”.\n“だからこそ” nhấn mạnh tính tất yếu tích cực của kết quả.\nTránh lặp “だから” quá dày trong một đoạn nói."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Bỏ câu lý do (S1) → “だから” trở nên đột ngột."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm với “それで” trong văn viết tường thuật."
+     },
+     {
+      "src": "vi",
+      "text": "Dùng “だから” với cấp trên/khách hàng: thiếu lịch sự → đổi “ですから”."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Dùng khi",
+      "Khác biệt",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "だから",
+       "Liên từ",
+       "Khẩu ngữ",
+       "<ruby>雨<rt>あめ</rt></ruby>。だから<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "ですから",
+       "Trang trọng",
+       "Lịch sự",
+       "<ruby>忙<rt>いそが</rt></ruby>しいです。ですから<ruby>無理<rt>むり</rt></ruby>です。"
+      ],
+      [
+       "ので",
+       "Nội câu",
+       "Mềm, lịch sự",
+       "<ruby>雨<rt>あめ</rt></ruby>なので<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "から",
+       "Nội câu",
+       "Trực tiếp",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>行<rt>い</rt></ruby>かない。（Nだから）"
+      ],
+      [
+       "それで",
+       "Tiếp diễn",
+       "Ít nhấn mạnh lý do",
+       "<ruby>雨<rt>あめ</rt></ruby>でした。それで<ruby>中止<rt>ちゅうし</rt></ruby>に。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 100,
+   "level": "N5",
+   "src_hash": "3db326efec7e5c55",
+   "context": {
+    "name": "だれか～",
+    "pattern": "だれか～",
+    "connection": "だれか + (が/を/に) + V / だれか + いますか",
+    "examples_jp": [
+     "だれかがドアをノックしています。",
+     "だれかいますか。",
+     "だれかを探しています。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Ai đó"
+    },
+    "examples": [
+     {
+      "jp": "だれかがドアをノックしています。",
+      "vi": "Có ai đó đang gõ cửa."
+     },
+     {
+      "jp": "だれかいますか。",
+      "vi": "Có ai đó ở đây không?"
+     },
+     {
+      "jp": "だれかを探しています。",
+      "vi": "Tôi đang tìm ai đó."
+     },
+     {
+      "jp": "だれかに手伝ってもらえますか。",
+      "vi": "Tôi có thể nhờ ai đó giúp không?"
+     },
+     {
+      "jp": "これはだれかのかばんです。",
+      "vi": "Đây là cặp của ai đó."
+     },
+     {
+      "jp": "週末、だれかと映画を見に行きます。",
+      "vi": "Cuối tuần tôi đi xem phim với ai đó."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Dùng khi người nói không biết cụ thể là ai hoặc không muốn chỉ rõ.\nTrong câu hỏi, だれか～? gợi ý có thể có người như thế (kỳ vọng câu trả lời “có/không”).\nTrong lời nhờ vả/cầu cứu, だれか～! mang sắc thái khẩn thiết: だれか助けて！\nVăn lịch sự: có thể dùng どなたか (lịch sự của だれか).\nKhông đi với phủ định để mang nghĩa “không ai”; chuyển sang だれも～ない.\n\nだれか nghĩa là “ai đó, người nào đó” (không xác định).\nThường dùng trong câu khẳng định hoặc nghi vấn để nói về một người không rõ là ai.\nNhấn mạnh tính “bất kỳ người nào đó trong số những người có thể”, nhưng không phải “ai cũng” (khác với だれでも).\nĐi kèm các trợ từ như が, を, に, と, へ, の tùy vai trò trong câu.\nKhông dùng だれか + ません/ない để nghĩa “không ai”; khi muốn nói “không ai” dùng だれも～ません/ない."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Khi làm định ngữ: だれかのN (ví dụ: だれかの手紙).\nTrong hội thoại, có thể lược bỏ trợ từ nếu dễ hiểu: だれか来た？\nKết hợp với もし: もし だれか困っていたら、助けましょう。 làm tăng tính giả định."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Sai: だれか来ません。→ Đúng: だれも来ません。 (không ai đến)"
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm だれか với だれでも: だれか入れます (chỉ ai đó) ≠ だれでも入れます (ai cũng vào được)."
+     },
+     {
+      "src": "vi",
+      "text": "Bỏ sót trợ từ phù hợp: だれかに聞きます, だれかを探します, だれかと行きます."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Khác biệt chính",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "だれか",
+       "Ai đó (không xác định)",
+       "Khẳng định/nghi vấn; một người không biết là ai",
+       "だれかが <ruby>来<rt>き</rt></ruby>た。"
+      ],
+      [
+       "だれでも",
+       "Ai cũng / bất kỳ ai",
+       "Phủ định tính riêng lẻ; mở rộng cho mọi người",
+       "だれでも <ruby>参加<rt>さんか</rt></ruby>できます。"
+      ],
+      [
+       "だれも～ない",
+       "Không ai",
+       "Bắt buộc đi với phủ định",
+       "だれも <ruby>来<rt>き</rt></ruby>ません。"
+      ],
+      [
+       "なにか / どこか / いつか",
+       "Cái gì đó / đâu đó / lúc nào đó",
+       "Tương tự だれか nhưng cho vật, nơi, thời gian",
+       "なにか <ruby>食<rt>た</rt></ruby>べます。/ どこか <ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どなたか",
+       "Ai đó (lịch sự)",
+       "Lịch sự hơn だれか",
+       "どなたか いらっしゃいますか。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 101,
+   "level": "N5",
+   "src_hash": "4ba723e858f4b738",
+   "context": {
+    "name": "だれでも～",
+    "pattern": "だれでも～",
+    "connection": "だれでも + V (khẳng định)",
+    "examples_jp": [
+     "この図書館はだれでも入れます。",
+     "この問題はだれでもわかります。",
+     "イベントはだれでも参加できます。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Ai cũng"
+    },
+    "connection": {
+     "src": "vi",
+     "text": "だれでも + V (khẳng định)",
+     "mode": "vi_parts"
+    },
+    "examples": [
+     {
+      "jp": "この図書館はだれでも入れます。",
+      "vi": "Thư viện này ai cũng có thể vào."
+     },
+     {
+      "jp": "この問題はだれでもわかります。",
+      "vi": "Bài này ai cũng hiểu."
+     },
+     {
+      "jp": "イベントはだれでも参加できます。",
+      "vi": "Sự kiện ai cũng có thể tham gia."
+     },
+     {
+      "jp": "これはだれでも使えるアプリです。",
+      "vi": "Đây là ứng dụng ai cũng dùng được."
+     },
+     {
+      "jp": "失敗はだれでもあります。",
+      "vi": "Ai cũng có lúc thất bại."
+     },
+     {
+      "jp": "入口はだれでも分かるように大きい看板があります。",
+      "vi": "Có biển hiệu lớn để ai cũng nhận ra lối vào."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Dùng trong bối cảnh trung lập/khách quan (quảng cáo, hướng dẫn, quy định, lời giới thiệu).\nKhi nhấn mạnh “không giới hạn đối tượng”: だれでもOK, だれでも歓迎.\nTránh dùng với ý nghĩa quá cá nhân/riêng tư khó phổ quát (ví dụ: “ai cũng yêu món này” có thể nghe cường điệu).\nLịch sự hóa: どなたでも cho người lạ/khách hàng.\n\nBiểu thị tính bao quát: “bất kỳ ai cũng…/ai cũng…”.\nThường dùng trong quy tắc, thông báo, mô tả tính dễ, tính phổ quát.\nPhù hợp với các động từ chỉ khả năng, quyền sử dụng, mức độ dễ/khó, hiểu/biết.\nKhông dùng để nói “không ai” (khi phủ định dễ gây hiểu lầm “không phải ai cũng…”).\nTrong câu mời/đề nghị nhẹ nhàng, có thể dùng: だれでも来てください (ai cũng hãy đến)."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Khi thêm は: だれでもは～ nhấn mạnh chủ đề đối lập, mang sắc thái nhấn mạnh.\nDạng định ngữ phổ biến trong quảng cáo: だれでも簡単に～できる.\nCẩn thận với phủ định: だれでも～ない thường hiểu là “không phải ai cũng…”, không phải “không ai…”."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Nhầm với だれも: “ai cũng” phải là だれでも, không phải だれも."
+     },
+     {
+      "src": "vi",
+      "text": "Dùng だれでも + ません để nói “không ai” là sai; phải dùng だれも～ません."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm với みんな: みんな là “mọi người” (nhóm cụ thể), だれでも là “bất kỳ ai” (mở, mang tính điều kiện)."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Điểm khác",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "だれでも",
+       "Ai cũng / bất kỳ ai",
+       "Tính bao quát, khẳng định",
+       "だれでも <ruby>入<rt>い</rt></ruby>れます。"
+      ],
+      [
+       "だれか",
+       "Ai đó",
+       "Một người không xác định, không bao quát",
+       "だれかが <ruby>呼<rt>よ</rt></ruby>んでいます。"
+      ],
+      [
+       "だれも～ない",
+       "Không ai",
+       "Bắt buộc đi với phủ định",
+       "だれも <ruby>来<rt>き</rt></ruby>ません。"
+      ],
+      [
+       "みんな",
+       "Mọi người",
+       "Nhóm cụ thể, không mang nghĩa “bất kỳ ai”",
+       "みんな <ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "どなたでも",
+       "Ai cũng (lịch sự)",
+       "Lịch sự hơn だれでも",
+       "どなたでも <ruby>参加<rt>さんか</rt></ruby>できます。"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": 102,
+   "level": "N5",
+   "src_hash": "d2615f34dcc10409",
+   "context": {
+    "name": "だれも～ません",
+    "pattern": "だれも～ません",
+    "connection": "だれも + Vません",
+    "examples_jp": [
+     "きょうはだれも来ませんでした。",
+     "このことをだれも知りません。",
+     "パーティーでだれとも話しませんでした。"
+    ]
+   },
+   "fields": {
+    "meaning": {
+     "src": "vi",
+     "text": "Không ai cả"
+    },
+    "examples": [
+     {
+      "jp": "きょうはだれも来ませんでした。",
+      "vi": "Hôm nay không ai đến cả."
+     },
+     {
+      "jp": "このことをだれも知りません。",
+      "vi": "Không ai biết chuyện này."
+     },
+     {
+      "jp": "パーティーでだれとも話しませんでした。",
+      "vi": "Tôi đã không nói chuyện với ai tại bữa tiệc."
+     },
+     {
+      "jp": "忙しくて、だれにも会いません。",
+      "vi": "Bận quá nên tôi không gặp ai cả."
+     },
+     {
+      "jp": "その質問にだれも答えられませんでした。",
+      "vi": "Không ai trả lời được câu hỏi đó."
+     },
+     {
+      "jp": "夜は危ないので、だれも外に出ません。",
+      "vi": "Buổi tối nguy hiểm nên không ai ra ngoài."
+     }
+    ],
+    "explain": {
+     "src": "vi",
+     "text": "Dùng để phủ định toàn bộ nhóm người khả dĩ liên quan.\nThêm も tạo sắc thái “ngay cả một người cũng không…”.\nTrong văn nói, có thể tăng nhấn mạnh bằng ぜんぜん/まったく (nhưng cẩn thận mức độ): ぜんぜん だれも来ない。\nThì quá khứ: だれも来ませんでした cũng giữ nghĩa “đã không ai…”.\n\nだれも～ません/ない diễn tả “không ai …”.\nDạng phủ định toàn phần đối với chủ thể là “người”.\nKết hợp trợ từ phụ thuộc quan hệ: に → だれにも, と → だれとも.\nKhông dùng với khẳng định (だれも～ます/だれも～だ) trong tiếng Nhật chuẩn hiện đại.\nNhấn mạnh khi đứng đầu câu: だれも～ない → phủ định mạnh “chẳng ai cả”."
+    },
+    "notes": {
+     "src": "vi",
+     "text": "Nếu cần “không một lần nào”:一度も～ません (không một lần), khác với だれも (đối tượng là người).\nĐừng chèn が sau だれも khi làm chủ ngữ phủ định: thường dùng だれも来ません (không phải だれもが来ません).\nKhi cần lịch sự trong dịch vụ: どなたも～ません/いらっしゃいません."
+    },
+    "mistakes": [
+     {
+      "src": "vi",
+      "text": "Dùng khẳng định với だれも: Sai “だれも来ます” → Đúng “だれも来ません”。"
+     },
+     {
+      "src": "vi",
+      "text": "Quên chuyển に/と thành だれにも/だれとも trong phủ định."
+     },
+     {
+      "src": "vi",
+      "text": "Nhầm với だれでも～ない: “không phải ai cũng…” ≠ “không ai…”."
+     }
+    ],
+    "comparison": {
+     "headers": [
+      "Mẫu",
+      "Ý nghĩa",
+      "Khác biệt",
+      "Ví dụ ngắn"
+     ],
+     "rows": [
+      [
+       "だれも～ない",
+       "Không ai",
+       "Bắt buộc phủ định",
+       "だれも <ruby>来<rt>こ</rt></ruby>ない。"
+      ],
+      [
+       "だれでも",
+       "Ai cũng",
+       "Khẳng định tính bao quát",
+       "だれでも <ruby>入<rt>い</rt></ruby>れる。"
+      ],
+      [
+       "だれか",
+       "Ai đó",
+       "Không xác định, không phủ định toàn bộ",
+       "だれかが いる。"
+      ],
+      [
+       "なにも～ない",
+       "Không có gì",
+       "Đối tượng là vật",
+       "なにも いらない。"
+      ],
+      [
+       "どこも～ない",
+       "Không nơi nào",
+       "Đối tượng là nơi chốn",
+       "どこも <ruby>開<rt>ひら</rt></ruby>いていない。"
+      ],
+      [
+       "どなたも～ません",
+       "Không ai (lịch sự)",
+       "Lịch sự, dùng với khách/đối tác",
+       "どなたも いません。"
+      ]
+     ]
+    }
+   }
+  }
+ ]
+}

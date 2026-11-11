@@ -1,0 +1,753 @@
+{
+ "batch": "b053",
+ "lang": "ko",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 823,
+   "src_hash": "3e6caaefce41b8f9",
+   "fields": {
+    "meaning": "되도록…, 가능한 한 (なるべく早く)",
+    "examples": [
+     "되도록 빨리 답장 주세요.",
+     "가능한 한 매일 운동하려고 하고 있어요.",
+     "단 것은 되도록 먹지 마세요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 824,
+   "src_hash": "b02862ebb1f5597f",
+   "fields": {
+    "meaning": "…에 익숙해지다, 익숙해졌다…",
+    "examples": [
+     "일본 생활에는 이제 익숙해졌어요?",
+     "새 일에 점점 익숙해졌어요.",
+     "아침 일찍 일어나는 것에 익숙하지 않아요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 825,
+   "src_hash": "e761d60f93389eac",
+   "fields": {
+    "meaning": "…일까요? (정중한 질문, 질문을 부드럽게 함)",
+    "connection": "V 보통형 + のでしょうか んでしょうか / N + な / Na / Aい",
+    "examples": [
+     "이 전철은 도쿄역에 서나요?",
+     "그는 왜 오지 않았을까요?",
+     "이 자리를 써도 될까요?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 826,
+   "src_hash": "e39375e4d798d72b",
+   "fields": {
+    "meaning": "게다가, 더욱이, 더욱…",
+    "connection": "さらに + [문장/절]",
+    "examples": [
+     "태풍 때문에 비가 더욱 거세졌다.",
+     "이 가게는 싸다. 게다가 서비스도 좋다.",
+     "내년에 요금이 더 오른다고 해요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 827,
+   "src_hash": "53e3c686e32eb1e9",
+   "fields": {
+    "meaning": "많아야…, 기껏해야…",
+    "connection": "せいぜい + 수량・N / V",
+    "examples": [
+     "여기서 역까지 걸어가도 기껏해야 10분이에요.",
+     "파티에 오는 사람은 많아야 20명일 것이다.",
+     "점심값으로 낼 수 있는 건 기껏해야 1000엔이에요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 828,
+   "src_hash": "a39afb6b318a24c6",
+   "fields": {
+    "meaning": "잠시, 한동안…",
+    "connection": "しばらく + [문장/절]",
+    "examples": [
+     "잠시 기다려 주세요.",
+     "한동안 일본어 공부를 쉬고 있었어요.",
+     "그와는 한동안 만나지 않았어요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 829,
+   "src_hash": "27c889328e769b76",
+   "fields": {
+    "meaning": "이미… 했다 (일이 이전에 이미 완료됨)",
+    "examples": [
+     "회의는 이미 시작됐어요.",
+     "역에 도착했을 때 전철은 이미 떠나 있었다.",
+     "그 뉴스는 이미 알고 있어요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 830,
+   "src_hash": "9dad080293fd2682",
+   "fields": {
+    "name": "수량＋は",
+    "meaning": "적어도… (수량+は)",
+    "connection": "수량 + は",
+    "examples": [
+     "역까지 적어도 30분은 걸려요.",
+     "이 가방은 적어도 2만 엔은 하겠지요.",
+     "회장에는 적어도 100명은 모여 있었다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 831,
+   "src_hash": "8ce46c308bc23cd3",
+   "fields": {
+    "name": "～たものだ（회상）",
+    "meaning": "예전에 자주… 했었다, …하곤 했다 (회상)",
+    "examples": [
+     "어렸을 때 이 강에서 자주 수영하곤 했지.",
+     "학창 시절에는 아침까지 친구와 이야기하곤 했어요.",
+     "아버지는 젊었을 때 자주 산에 오르곤 했다고 말씀하세요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 832,
+   "src_hash": "632e9f2c961d8b2a",
+   "fields": {
+    "meaning": "확실히…, 정말로…",
+    "connection": "確かに + [문장/절]",
+    "examples": [
+     "확실히 이 요리는 맛있지만, 가격이 너무 비싸다.",
+     "그가 하는 말은 확실히 맞다.",
+     "분명히 문을 잠갔을 텐데 열려 있다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 833,
+   "src_hash": "b328605abcada272",
+   "fields": {
+    "meaning": "…만으로 충분하다, …로 해결되다",
+    "examples": [
+     "수리는 5000엔으로 끝났어요.",
+     "전화로 해결되는 일이라면 가지 않아도 된다.",
+     "부상은 가벼운 정도로 끝났다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 834,
+   "src_hash": "74ece88be21b8dfe",
+   "fields": {
+    "meaning": "…하지 않도록, …하면 안 되니까 (나쁜 상황에 대비함)",
+    "examples": [
+     "잊어버리면 안 되니까 메모해 둘게요.",
+     "감기 걸리면 안 되니까 겉옷을 가져가렴.",
+     "늦으면 안 되니까 일찍 출발합시다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 835,
+   "src_hash": "a7b4cf5a7ae90437",
+   "fields": {
+    "meaning": "…하고 있을 때가 아니다 (～ている場合じゃない)",
+    "examples": [
+     "지금은 웃고 있을 때가 아니야.",
+     "게임하고 있을 때가 아니야. 내일 시험이야.",
+     "느긋하게 있을 때가 아니에요. 서두릅시다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 836,
+   "src_hash": "484e0e65fe728537",
+   "fields": {
+    "meaning": "접미사 的: 명사를 Na/부사로 만듦 (経済的)",
+    "examples": [
+     "그 사고방식은 현실적이지 않다.",
+     "좀 더 구체적으로 설명해 주세요.",
+     "그는 경제적인 이유로 유학을 포기했다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 837,
+   "src_hash": "0578ac728d7ae574",
+   "fields": {
+    "meaning": "…해 봤자 소용없다, …해도 아무 의미 없다",
+    "examples": [
+     "이제 와서 후회해 봤자 소용없다.",
+     "불평해 봤자 소용없으니까 다시 하자.",
+     "걱정해 봤자 소용없다. 결과를 기다릴 수밖에 없다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 839,
+   "src_hash": "0dccc4e6a0434717",
+   "fields": {
+    "meaning": "…인 것 같다, …인 모양이다 (とみえる/とみえて)",
+    "connection": "V 보통형 + と見える とみえる とみえて / N + だ / Na + だ / Aい",
+    "examples": [
+     "그는 피곤한 모양인지 바로 잠들어 버렸다.",
+     "이 가게는 인기가 있는지 항상 붐빈다.",
+     "비가 왔는지 길이 젖어 있다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 840,
+   "src_hash": "73f86235cfa222ea",
+   "fields": {
+    "meaning": "…하는 도중에, …하는 길에 (途中で/途中に)",
+    "examples": [
+     "학교에 가는 길에 선생님을 만났어요.",
+     "회의 도중에 전화가 걸려 왔다.",
+     "돌아가는 길에 슈퍼에 들렀어요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 842,
+   "src_hash": "313168a5bb48b887",
+   "fields": {
+    "meaning": "도저히… 할 수 없다, …하기 어렵다 (とても～ない)",
+    "examples": [
+     "이렇게 어려운 문제는 나로서는 도저히 풀 수 없다.",
+     "그가 범인이라니 도저히 믿을 수 없다.",
+     "바빠서 여행 갈 시간 같은 건 도저히 낼 수 없어요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 843,
+   "src_hash": "ea412225d779079d",
+   "fields": {
+    "meaning": "…은 일단 제쳐 두고, …은 별개로 하고",
+    "connection": "N + は別として はべつとして / V 보통형 + かどうか / Na + かどうか / Aい + かどうか",
+    "examples": [
+     "농담은 제쳐 두고, 정말 어떻게 할 생각이에요?",
+     "갈지 말지는 별개로 하고, 이야기만은 들어 보자.",
+     "디자인은 제쳐 두고, 기능은 아주 좋다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 844,
+   "src_hash": "777286a0330fb91a",
+   "fields": {
+    "meaning": "…로 유명함 (～で有名)",
+    "examples": [
+     "교토는 오래된 절로 유명해요.",
+     "이 마을은 온천으로 유명하다.",
+     "저 선생님은 숙제가 많은 것으로 유명해요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 845,
+   "src_hash": "a9b139775907da36",
+   "fields": {
+    "meaning": "일부러, 고의로…",
+    "examples": [
+     "그는 일부러 진 거라고 생각한다.",
+     "일부러 그런 게 아니에요. 죄송해요.",
+     "남동생은 일부러 안 들리는 척했다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 846,
+   "src_hash": "5003da8b04619409",
+   "fields": {
+    "meaning": "…보다, …에 비하면 (よりも)",
+    "connection": "V 보통형 + よりも / N",
+    "examples": [
+     "올겨울은 작년보다 춥다.",
+     "결과보다 과정이 중요하다.",
+     "생각했던 것보다 시험은 쉬웠다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 847,
+   "src_hash": "03ee2a883153ecb2",
+   "fields": {
+    "meaning": "…처럼 보이다, …인 것 같다 (ように見える)",
+    "connection": "V 보통형 + ように見える / N + の / Na / Aい",
+    "examples": [
+     "그는 화가 난 것처럼 보인다.",
+     "이 계획은 간단해 보이지만, 사실은 어렵다.",
+     "멀리서 보면 섬처럼 보인다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 848,
+   "src_hash": "6a023b9f43c74c18",
+   "fields": {
+    "meaning": "어떻게 해서든…, 무슨 일이 있어도…",
+    "connection": "どうしても + [문장/절]",
+    "examples": [
+     "어떻게 해서든 이 대학에 들어가고 싶다.",
+     "아무리 해도 그의 이름이 생각나지 않는다.",
+     "무슨 일이 있어도 가야 하는 볼일이 있다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 849,
+   "src_hash": "be28dbfbbf27940c",
+   "fields": {
+    "meaning": "문득…, 갑자기, 무심코…",
+    "examples": [
+     "문득 창밖을 보니 눈이 내리고 있었다.",
+     "문득 어린 시절의 일이 떠올랐다.",
+     "한밤중에 문득 잠이 깼다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 850,
+   "src_hash": "e337a29f3cc4796d",
+   "fields": {
+    "meaning": "한꺼번에, 한 번에…",
+    "connection": "一度に + [문장/절]",
+    "examples": [
+     "한꺼번에 많이 먹으면 배탈 나요.",
+     "짐을 한 번에 옮기는 건 무리예요.",
+     "질문은 한 번에 하나씩 부탁드려요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 851,
+   "src_hash": "49c35350494ea93b",
+   "fields": {
+    "meaning": "도대체…, …이란 말인가 (의문 강조)",
+    "connection": "一体 + [의문문]",
+    "examples": [
+     "도대체 누가 이런 짓을 한 거예요?",
+     "이건 도대체 뭐예요?",
+     "그는 도대체 어디로 간 걸까."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 852,
+   "src_hash": "b6b241bcbd1e125a",
+   "fields": {
+    "meaning": "설마…, 절대 …일 리 없다…",
+    "connection": "まさか + [부정 문장/절] (～ないだろう)",
+    "examples": [
+     "설마 그가 거짓말을 할 줄은 몰랐다.",
+     "설마 이런 곳에서 선생님을 만나다니.",
+     "설마 비는 안 오겠지."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 853,
+   "src_hash": "b3fa8852c15f807d",
+   "fields": {
+    "meaning": "차라리…, 오히려…",
+    "connection": "むしろ + [문장/절]",
+    "examples": [
+     "택시보다 차라리 걷는 편이 빠르다.",
+     "그는 선생님이라기보다 오히려 친구 같다.",
+     "도움을 받으면 오히려 시간이 걸린다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 854,
+   "src_hash": "c67a7eea52734953",
+   "fields": {
+    "meaning": "그만…, 나도 모르게… (의도하지 않음)",
+    "connection": "つい + V (주로 Vてしまう)",
+    "examples": [
+     "다이어트 중인데 그만 케이크를 먹어 버렸다.",
+     "재미있어서 나도 모르게 한밤중까지 읽어 버렸어요.",
+     "무심코 그만 비밀을 말해 버렸다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 855,
+   "src_hash": "ca2b20ea8492e8c6",
+   "fields": {
+    "meaning": "마침내…, 결국… (ついに)",
+    "connection": "ついに + [문장/절]",
+    "examples": [
+     "오랜 공사가 끝나고 마침내 새 역이 생겼다.",
+     "10년에 걸쳐 그는 마침내 꿈을 이루었다.",
+     "몇 번이나 전화했지만, 결국 그는 받지 않았다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 856,
+   "src_hash": "0ed99e67bdaab980",
+   "fields": {
+    "meaning": "일부러…, 수고스럽게… (わざわざ)",
+    "examples": [
+     "일부러 역까지 마중 나와 줘서 고마워.",
+     "일부러 사러 가지 않아도 인터넷으로 주문할 수 있어요.",
+     "먼 곳에서 일부러 와 주셔서 감사합니다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 857,
+   "src_hash": "982fc23422d43859",
+   "fields": {
+    "meaning": "꽤, 상당히…",
+    "examples": [
+     "오늘은 꽤 춥네요.",
+     "그는 일본어를 상당히 잘하게 되었다.",
+     "완성까지는 상당한 시간이 걸린다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 858,
+   "src_hash": "317289e128b0aa68",
+   "fields": {
+    "meaning": "…인지는 …에 따라 다름",
+    "connection": "[의문문] + かは + N + によって違う",
+    "examples": [
+     "무엇을 맛있다고 느끼는지는 사람에 따라 다르다.",
+     "졸업 후에 무엇을 할지는 학생에 따라 달라요.",
+     "얼마나 드는지는 계절에 따라 다르다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 859,
+   "src_hash": "4cd24a3a854a823e",
+   "fields": {
+    "meaning": "각각, 저마다…",
+    "examples": [
+     "사람에게는 저마다 사고방식이 있다.",
+     "참가자는 각자의 의견을 발표했다.",
+     "나라에 따라 문화는 저마다 다르다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 860,
+   "src_hash": "abb897aac873c861",
+   "fields": {
+    "meaning": "가능하면… (겸손한 제안)",
+    "connection": "できれば/できたら + [요청・제안]",
+    "examples": [
+     "가능하면 내일까지 답장을 받고 싶어요.",
+     "가능하면 창가 자리로 부탁드려요.",
+     "가능하면 회의 시간을 바꿔 주셨으면 하는데요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 861,
+   "src_hash": "be8e8740c7e2ac69",
+   "fields": {
+    "meaning": "…라도 괜찮다면 (겸손: 私でよければ)",
+    "examples": [
+     "저라도 괜찮다면 도와드릴게요.",
+     "중고라도 괜찮다면 싸게 살 수 있어요.",
+     "내일이라도 괜찮다면 시간이 있어요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 862,
+   "src_hash": "71e01fa81b60069e",
+   "fields": {
+    "meaning": "…로 말하자면, …의 측면에서 보면",
+    "examples": [
+     "베트남의 「フォー」는 일본으로 말하자면 라멘 같은 거예요.",
+     "가격으로 말하자면 이쪽이 더 이득이에요.",
+     "크기로 말하자면 이 방은 교실 정도예요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 863,
+   "src_hash": "50460525fb0ee67b",
+   "fields": {
+    "meaning": "…라고 할 수 있다",
+    "connection": "V/A 보통형 + と言える / N/Naだ + と言える",
+    "examples": [
+     "이 결과는 성공이라고 할 수 있을 것이다.",
+     "그는 세계에서 가장 유명한 선수 중 한 명이라고 할 수 있다.",
+     "안전하다고 할 수 있을 때까지 조사가 필요하다."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 864,
+   "src_hash": "258af08daaceb6ce",
+   "fields": {
+    "name": "代（요금・비용）",
+    "meaning": "접미사 代: 요금, 비용 (電気代, バス代)",
+    "examples": [
+     "이번 달은 전기 요금이 많이 나왔다.",
+     "버스비는 회사에서 내 줘요.",
+     "식사비는 한 사람당 3000엔 정도예요."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

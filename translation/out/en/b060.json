@@ -1,0 +1,631 @@
+{
+ "batch": "b060",
+ "lang": "en",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-04",
+ "items": [
+  {
+   "id": 948,
+   "src_hash": "71aba646e61959cc",
+   "fields": {
+    "meaning": "For example, such as",
+    "connection": "[sentence/clause in plain form] + とか / N + とか",
+    "examples": [
+     "\"I hear it cost over 100 million yen to build that house.\" \"Wow, really?\"",
+     "She said something about going to a hot spring over the upcoming long weekend.",
+     "<Letter> How are you? Everyone here is well. I heard from Mr. Hara that you, Sachiko, are coming to Kyoto next month. Please be sure to stop by and see us too.",
+     "\"I heard tomorrow's English class is canceled or something. Is that true?\"",
+     "I heard your mother was hospitalized. How is she doing? (letter)",
+     "The train stopped because of some accident involving a person at the station, apparently, and I ended up being late."
+    ],
+    "explain": "Non-exhaustive listing, implying \"there are many other things too\".\nHearsay with sentence-final \"とか\": reduces the speaker's responsibility for the statement and shows a lack of certainty.\nIn conversation, \"とかさ/とかって\" may also appear to emphasize the colloquial tone.\nDo not use too many \"とか\" in a row in written language, as it feels wordy/unclear.\n\n- Listing: Gives a few typical examples without covering everything; suggestive, loose, and casual.\n- Hearsay: \"とか\" at the end of a sentence expresses a vague source of information; the speaker does not assert it with certainty (I hear, apparently).\n- With \"とかで\": indicates a vague cause; the speaker does not know exactly (something like \"because of something like…\").\n- Politeness level: fairly colloquial; avoid it in formal documents where high precision is needed.",
+    "notes": "1) Easily confused with ～という／～って.\n→ ～とか is usually used to pass on information you heard but are not sure of, or for vague quotation.\n2) Common in conversation/letters.\n→ A light \"I heard that…\" nuance, not an assertion.\n3) Not used when the source of information is certain.\n→ To convey something more certainly, use ～ということだ／～そうだ.",
+    "mistakes": [
+     "Using \"とか\" in formal writing/academic presentations → sounds unserious. Replace with や/など/によると～そうだ.",
+     "Confusing \"とか\" (listing) with \"とかで\" (reason). \"とかで\" needs to be followed by a verb showing a result: 中止になった/遅れた.",
+     "Using \"とか\" for hearsay but then asserting strongly → a contradiction in nuance. If you are certain, use ～と聞いた/～そうだ.",
+     "Overusing \"とか\" in a row makes the sentence choppy; pick 1–2 typical items."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Function",
+      "Key difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "NやN",
+       "Listing examples",
+       "More neutral, less colloquial",
+       "<ruby>寿司<rt>すし</rt></ruby>や<ruby>天ぷら<rt>てんぷら</rt></ruby>"
+      ],
+      [
+       "Nなど",
+       "\"etc.\"; belittling/reluctant depending on context",
+       "More formal than とか in written language",
+       "<ruby>本<rt>ほん</rt></ruby>などを<ruby>読<rt>よ</rt></ruby>む"
+      ],
+      [
+       "～そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "I hear",
+       "Neutral, more objective than とか",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうだ"
+      ],
+      [
+       "～って（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "I hear (very colloquial)",
+       "Even more casual than とか",
+       "<ruby>彼<rt>かれ</rt></ruby>、<ruby>来<rt>こ</rt></ruby>ないって"
+      ],
+      [
+       "～とかで",
+       "Vague reason",
+       "Spoken language only, not formal",
+       "<ruby>事故<rt>じこ</rt></ruby>とかで<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 949,
+   "src_hash": "5ecb4f3a6ddd6322",
+   "fields": {
+    "meaning": "Almost, nearly",
+    "examples": [
+     "I was pushed on the station platform and almost fell onto the tracks.",
+     "I was in a hurry when I went out, so I nearly forgot my wallet.",
+     "If she hadn't warned me, I would have been tricked.",
+     "(During an exam) I was just about to finish writing, but the bell rang.",
+     "Takahashi was very close to becoming a regular player, but he was injured in an accident and ended up retiring.",
+     "I almost missed the train."
+    ],
+    "explain": "Expresses an action that almost happened but was avoided in the end. Usually used for undesirable situations.\nExpresses something that was almost achieved or almost happened but did not succeed in the end, with a feeling of regret.\n\n• Expresses something that \"almost happened\" right at that moment but in the end did NOT happen.\n• Two directions:\n\nVるところだった：almost did X (but avoided it).\nVないところだった：almost did NOT do X (but did it in the end).\n\n• Vるところだった：almost did X (but avoided it).\n• Vないところだった：almost did NOT do X (but did it in the end).\n• Often used with もう少しで, 危うく, 今にも to emphasize the \"almost\".\n• Different from ～そうになった: ～ところだった emphasizes the critical moment; ～そうになった emphasizes \"nearly\" changing into a state.",
+    "notes": "1) Easily confused with ～そうになった／～かけた.\n→ ～ところだった means \"nearly…\" and is usually used for undesirable situations.\n2) Often carries the nuance \"luckily it didn't happen\".\n→ Emphasizes a close call that nearly had consequences.\n3) Note the other meaning in your data (ghichu=2).\n→ If you want to record a separate trap for the ghichu=2 meaning, you should add an update for ct ghichu=2.",
+    "mistakes": [
+     "Using it when the event actually happened: wrong for the meaning \"almost\".",
+     "Confusing it with Vるところだ (about to do) and Vたところだ (just did): different tense and meaning.",
+     "Confusing it with ～そうになった: if the question asks for \"almost\" emphasizing the critical moment → prefer ～ところだった.",
+     "Forgetting the negative in \"almost not\": ×間に合うところだった（almost not in time）→ correct: 間に合わないところだった。"
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "Vるところだった",
+       "Almost did V",
+       "Did not happen",
+       "<ruby>転<rt>ころ</rt></ruby>ぶところだった"
+      ],
+      [
+       "Vないところだった",
+       "Almost did not V",
+       "Did V in the end",
+       "<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないところだった"
+      ],
+      [
+       "Vそうになった",
+       "Almost/nearly V",
+       "Emphasizes nearly changing state; not necessarily \"at the last minute\"",
+       "<ruby>泣<rt>な</rt></ruby>きそうになった"
+      ],
+      [
+       "Vるところだ",
+       "About to do V (present)",
+       "Different tense (getting ready), no \"almost\"",
+       "<ruby>今<rt>いま</rt></ruby><ruby>出<rt>で</rt></ruby>るところだ"
+      ],
+      [
+       "Vかける",
+       "Half-done",
+       "In the middle of an action",
+       "<ruby>死<rt>し</rt></ruby>にかけた"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 950,
+   "src_hash": "cf9522db11ed93fb",
+   "fields": {
+    "meaning": "Judging from ~",
+    "connection": "V (plain form) + ところを見ると",
+    "examples": [
+     "Judging from the fact that he's been off work for a whole week, he must be in pretty bad health.",
+     "Judging from the fact that he isn't saying anything, the company president doesn't seem to be against it either.",
+     "<Mother to child> Have you finished your homework yet? ... Judging from your silence, you haven't. Hurry up and do it.",
+     "Judging from the fact that there's always a line, it must be a good restaurant."
+    ],
+    "explain": "◎ Expresses conjecture, with the sense of \"judging from the actual situation ~\".",
+    "notes": "Used when the speaker states a conjecture based on direct experience. 「らしい／ようだ／にちがいない」 and the like are often used at the end of the sentence. The form 「…ところからみて」 is also sometimes used.\n* (Example) 高級車に乗っているところからみて、相当の金持ちらしい。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 951,
+   "src_hash": "eeb7a0f81f533796",
+   "fields": {
+    "meaning": "Even if…, supposing…",
+    "examples": [
+     "Even if it rains, the game will be held as scheduled.",
+     "Even if I fail, I want to give it a try.",
+     "Even if he did tell the truth, I can't believe him right away.",
+     "Even if the price is high, I'll choose quality.",
+     "Even if you're a student, you should take responsibility.",
+     "(Supposing) even if I do move"
+    ],
+    "explain": "Emphasizes that \"the result/position does not change\".\nSuitable for argument and rebuttal: \"Granted that…, but…\".\nCan be used with both realistic and far-fetched suppositions; more formal nuance than ～ても.\nOften combined with たとえ for emphasis: たとえ～としても.\n\n• Concession: even if supposition X is true, result/opinion Y still does not change.\n• Used both for unlikely suppositions and for temporarily granting a point for the sake of argument.\n• Often used with expressions of strong determination/opinion: ～買う／～変わらない／～構わない／～挑戦したい.",
+    "notes": "• With N/na, keep だ in written language: N/na + だとしても.\n• Often used in counterarguments: たとえAとしても、B（Aを認めつつB）.\n• In speeches, used for a \"strategic concession\" before asserting an opinion.",
+    "mistakes": [
+     "Confusing it with ～としたら: a sentence that needs the nuance \"even if\" must use ～としても.",
+     "Dropping だ with N/na in written language: × 学生としても (ambiguous) → 〇 学生だとしても.",
+     "Using it when the result actually depends on the condition: if the result changes, do not use ～としても.",
+     "The JLPT often sets traps with the pairs たとえ/仮に + ～としても/～ても: choose the natural pair."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～としても",
+       "Even if ~",
+       "Formal, argumentative; result does not change",
+       "<ruby>高<rt>たか</rt></ruby>いとしても<ruby>買<rt>か</rt></ruby>う"
+      ],
+      [
+       "～ても／～でも",
+       "Even if ~, …",
+       "Common, more colloquial",
+       "<ruby>雨<rt>あめ</rt></ruby>でも<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "たとえ～ても",
+       "Supposing… even if…",
+       "Emphasizes the supposition",
+       "たとえ<ruby>負<rt>ま</rt></ruby>けても<ruby>学<rt>まな</rt></ruby>ぶ"
+      ],
+      [
+       "～にしても",
+       "Even if/even though",
+       "Often comes with an evaluation/standard",
+       "<ruby>冗談<rt>じょうだん</rt></ruby>にしても<ruby>言<rt>いい</rt></ruby>いすぎだ"
+      ],
+      [
+       "～としたら",
+       "Supposing ~",
+       "Hypothetical condition, not concession",
+       "<ruby>行<rt>い</rt></ruby>けないとしたら<ruby>連絡<rt>れんらく</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 952,
+   "src_hash": "fe707200e5188c94",
+   "fields": {
+    "meaning": "Not a single ~",
+    "connection": "minimal quantity + として…ない",
+    "examples": [
+     "Not a single one of his works is easy to understand.",
+     "Not a single person knows the real reason I quit my job.",
+     "It's been ten years since the accident, but not a single day goes by that I don't think of it.",
+     "Many researchers have tried to solve this mystery, but not one of them has succeeded."
+    ],
+    "explain": "◎ Expresses total negation: \"not any one at all\".",
+    "notes": "Follows words with 「一」 that express a minimal quantity, such as 「一日」「一時（いっとき）」「（だれ）一人」「（何）一つ」, and is followed by the negative form of the predicate, meaning 「全然…ない」 (not … at all). When it is used with interrogatives such as 「なに」「だれ」, 「として」 can be omitted.\n* (Example) だれ一人、私の発言を支持してくれる人はいなかった。It is a somewhat written-language expression; in spoken language, phrasing like 「一人も…ない」 is usual."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 953,
+   "src_hash": "8d4bbc4b0c947521",
+   "fields": {
+    "meaning": "If it comes to…, if that's the case…",
+    "examples": [
+     "If the deadline is next Monday, we have to hurry.",
+     "If he can't go, then who's going to end up going?",
+     "If you're going to move, it'll cost quite a lot of money.",
+     "If it means working overseas, I have to think about my family too.",
+     "When it comes to exams, he suddenly gets nervous.",
+     "If I'm going on a business trip tomorrow, I need to go home early today."
+    ],
+    "explain": "Used when: stating a condition and then immediately discussing the consequences/what needs to be dealt with.\nThe second clause often contains:費用がかかる、時間が必要だ、手続きが増える、難しい、無理だ、見直しだ.\nTopic-shift nuance: \"A となると、(話は)～\" as a framework for reasoning.\nMore objective than となったら; carries little personal volition, usually a general judgment/consequence.\n\n• Main meaning: \"When it comes to A, B will arise\". Focuses on recognizing the situation and discussing the consequences and issues to consider.\n• Nuance: more objective than となったら; often used to state difficulties, costs, constraints, requirements, etc. in the second clause.\n• Often appears in conversation/negotiations when moving from a premise to analyzing the consequences.\n• The second clause is rarely a direct personal desire; usually an evaluation, conjecture, obligation, or inevitability.",
+    "notes": "• Emphatic expressions: ～となると、話は別だ／大問題だ／厄介だ.\n• Expresses \"whenever ..., ...\" for habits/traits: N となると～ (試合となると燃えるタイプだ).\n• Suitable in work discussions when listing requirements arising from a premise.\n• Do not overuse it for direct commands to the listener; an obligation/recommendation form sounds more natural.",
+    "mistakes": [
+     "Confusing it with というと/といえば (association) – となると talks about consequences to be dealt with, not just calling up an association.",
+     "Using となると to express a strong personal desire (～したい) sounds forced; turn it into an obligation/suggestion (～しないと/～すべきだ).",
+     "JLPT context trap: when the second clause is \"費用・手続き・見直し・困る\", the answer is usually となると."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Key difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～となると",
+       "When it comes to A, ...",
+       "Raises issues, objective consequences",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>となると、<ruby>費用<rt>ひよう</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>だ。"
+      ],
+      [
+       "～となったら",
+       "If/once it comes to A, ...",
+       "Personal volition/preparation, colloquial",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>するとなったら、<ruby>準備<rt>じゅんび</rt></ruby><ruby>開始<rt>かいし</rt></ruby>だ。"
+      ],
+      [
+       "～となれば",
+       "If it were the case/came to A, ...",
+       "Broad supposition, written language, inevitability",
+       "<ruby>雨<rt>あめ</rt></ruby>となれば、<ruby>中止<rt>ちゅうし</rt></ruby>は<ruby>避<rt>さ</rt></ruby>けられない。"
+      ],
+      [
+       "～とすると/～とすれば",
+       "Supposing A, ...",
+       "Neutral, logical supposition",
+       "<ruby>行<rt>い</rt></ruby>くとすると、<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>？"
+      ],
+      [
+       "～というと/～といえば",
+       "Speaking of A (association)",
+       "Topic association, no emphasis on consequences",
+       "<ruby>春<rt>はる</rt></ruby>というと、<ruby>桜<rt>さくら</rt></ruby>だね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 954,
+   "src_hash": "c87162742f02b375",
+   "fields": {
+    "meaning": "Although ~",
+    "connection": "V/A (plain form) + とはいうものの / N・Na + (だ)",
+    "examples": [
+     "Although the interview venue is close to my house, I plan to leave home early on the day.",
+     "Granted you didn't have time, but this report is just too awful.",
+     "Although it's March, the cold days are still continuing, aren't they?",
+     "Although the factory fire did not turn into a major accident, it caused great anxiety among nearby residents.",
+     "Although winning or losing doesn't matter, it's still frustrating when you lose."
+    ],
+    "explain": "◎ Expresses the feeling \"it is ~, but even so ~\" or \"I acknowledge that fact, but that alone is not enough\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 955,
+   "src_hash": "4c2b7c90dc33a9a0",
+   "fields": {
+    "meaning": "Far from…, on the contrary…",
+    "examples": [
+     "I'm so busy I can't even go to a nearby hot spring, let alone abroad.",
+     "I heard that, far from apologizing, he was complaining.",
+     "I'm so busy studying that I don't even have time to watch TV at home, let alone hang out with friends.",
+     "My throat hurts so much that I can't even drink water, let alone eat.",
+     "This painting cost 1,000,000 yen. But I think it's worth not just 1,000,000 yen but 2,000,000 yen.",
+     "I went to see a popular movie, but far from being interesting, it was boring, and I left partway through."
+    ],
+    "explain": "Emphasizes the big gap between expectation (A) and reality (B).\nOften has a nuance of dissatisfaction or criticism, but can also be used in the direction of \"much better\".\nNot used with direct commands/volition. Usually description/evaluation.\nAfter N/Aな, keep the correct form: Aな＋な＋どころか.\n\n- Expresses a fact completely contrary to the expectation/assumption A: \"Far from A / let alone A, (actually) B…\".\n- Two basic uses:\n1) \"Let alone A, even B (a lower/more basic level) is not/was …\".\n2) \"Not only not A, but on the contrary B (opposite).\"\n- Often used with pairs of antonyms or degree scales to emphasize the gap.",
+    "notes": "- When A is a positive expectation, use どころか to flip it strongly to negative (or the reverse). Example: 安いどころか高い（flip）.\n- Often combined with まで/さえ/も to increase the contrast: AどころかBまで～.\n- In written speeches, the form Aどころか、むしろBだ may be seen to make the contrast clear.",
+    "mistakes": [
+     "Confusing it with どころではない (not the time to do A) → different meaning. Read the context carefully: \"not the time\" vs \"quite the opposite/let alone\".",
+     "Missing \"な\" before どころか with Aな: ×便利どころか → ◯便利などころか.",
+     "Wrong degree logic: A must be the expected/lighter level compared with B. Example: ×難しいどころか簡単だ (possible, but consider whether the context is a strong flip).",
+     "Using it for commands/suggestions → unnatural. Avoid: ×勉強するどころか早くしろ。"
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Distinction",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～どころか",
+       "Quite the opposite/let alone",
+       "Emphasizes a big gap, contrast",
+       "<ruby>静<rt>しず</rt></ruby>かどころかうるさい"
+      ],
+      [
+       "～どころではない",
+       "Not the time/situation to…",
+       "About a situation where A is impossible",
+       "<ruby>遊<rt>あそ</rt></ruby>ぶどころではない"
+      ],
+      [
+       "～はおろか",
+       "Even A… (the second clause is a more obvious level)",
+       "Formal, used with nouns",
+       "<ruby>敬語<rt>けいご</rt></ruby>はおろか<ruby>挨拶<rt>あいさつ</rt></ruby>も…"
+      ],
+      [
+       "～どころか…まで/さえ",
+       "Not only A, even B",
+       "Combined to emphasize scope",
+       "<ruby>雨<rt>あめ</rt></ruby>どころか<ruby>雪<rt>ゆき</rt></ruby>まで"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 956,
+   "src_hash": "fd01786811cf49d7",
+   "fields": {
+    "meaning": "Not the time for…, cannot…",
+    "examples": [
+     "My mother was hospitalized, so going on a trip was out of the question.",
+     "I'm so busy that I'm in no position to look after other people.",
+     "I was so busy today that I had no time to even think about eating.",
+     "My mother has to have surgery, and I'm too worried to study.",
+     "\"Do you want to go see a movie or something this Saturday?\"",
+     "\"Sorry, I have exams, so I can't even think about that right now.\""
+    ],
+    "explain": "Meaning 1 usually goes with Vる/Vている and nouns for activities:遊ぶ、休む、旅行、花見…\nMeaning 2 emphasizes seriousness/going far beyond the normal level:痛いどころではない, ミスどころではない…\nStrongly colloquial nuance; still usable in formal written language.\nNot followed by volition/commands to the listener; mainly an objective judgment about the situation.\n\n• Meaning 1 (common): It is not the time/there are no conditions to do ~ because the situation does not allow it. Carries a nuance of urgency, busyness, or a serious situation.\n• Meaning 2: \"Far from ~ / not ~ at all\", emphasizing a degree far beyond expectations or complete opposition.\n• Unlike simple negation, ～どころではない focuses on \"the context/situation does not allow it\" or \"a very different degree\".\n• Often used with situational nouns: 暇, 冗談, 笑い事, 花見, 旅行, ボーナス…",
+    "notes": "• To emphasize an urgent point in time, use the past: ～どころではなかった.\n• With abstract nouns: 笑い事どころではない, 人手不足どころではない… very natural in the news.\n• In casual conversation the contracted form can be used: ～どころじゃない.",
+    "mistakes": [
+     "Confusing it with ～どころか: if there are two clearly contrasting clauses, use どころか; if you only mean \"not the time/far from ~\", use どころではない.",
+     "Attaching the wrong verb form: both Vる/Vている are possible, but for the situation \"in the middle of doing ~, it's not the time\" Vている is usually used.",
+     "Using it for the listener's volition is incorrect: × 遊ぶどころではないから、遊びなさい.",
+     "Overusing it with na-adjectives: it is more natural with nouns/situational expressions."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Meaning",
+      "Key difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～どころではない",
+       "Not the time / far from ~",
+       "Emphasizes the situation or degree",
+       "<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>遊<rt>あそ</rt></ruby>ぶどころではない"
+      ],
+      [
+       "～どころか",
+       "Not only not ~, but on the contrary…",
+       "Strong contrastive comparison; presents two opposite clauses",
+       "<ruby>雨<rt>あめ</rt></ruby>がやむどころか、<ruby>強<rt>つよ</rt></ruby>くなった"
+      ],
+      [
+       "～ている<ruby>場合<rt>ばあい</rt></ruby>ではない",
+       "Not the time to ~",
+       "Close to Meaning 1; a warning, blunt nuance",
+       "<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>ではない"
+      ],
+      [
+       "～わけではない",
+       "Not exactly ~",
+       "Partial negation; no focus on the situation",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない"
+      ],
+      [
+       "～どころの<ruby>騒<rt>さわ</rt></ruby>ぎではない",
+       "Far beyond ~ (strongly colloquial)",
+       "Emphasizes seriousness",
+       "<ruby>忙<rt>いそが</rt></ruby>しいどころの<ruby>騒<rt>さわ</rt></ruby>ぎではない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 957,
+   "src_hash": "b2c9cbb5d0306b9f",
+   "fields": {
+    "meaning": "～なければ・・・ない\nUnless... cannot",
+    "examples": [
+     "Unless the chairperson comes, the meeting can't begin.",
+     "I don't think you can tell what kind of person someone is unless you actually meet them.",
+     "\"Unless you take the test, we can't tell your level.\"",
+     "\"No matter how sick I am, if I don't do the housework, the house becomes a complete mess.\"",
+     "Unless those two come, we can't start the party.",
+     "A: How is it? Can you fix it?\nB: Hmm, I can't tell unless I try."
+    ],
+    "notes": "In the form 「ＸないことにはＹない」, it means that Y will not happen unless X happens. X expresses a necessary condition for Y. It can be paraphrased as 「なければ」「なくては」.（１２２）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 958,
+   "src_hash": "e197397a5a51e3cb",
+   "fields": {
+    "meaning": "Somehow manage to; I wish…, isn't there any way to…",
+    "examples": [
+     "I consulted a travel agency to see if there was any way I could join that tour.",
+     "I was looking into various things, wondering if there wasn't a better way, and I found one.",
+     "A: I wish there were an easier way to make curry rice.\nB: You always want to take the easy way out.",
+     "A: It's always crowded here, isn't it?\nB: Yeah. I wish something could be done about it."
+    ],
+    "explain": "◎ Expresses the feeling of searching for some way to accomplish something difficult.",
+    "notes": "meaning_vi: isn't there any way to ～, I wish ～ ⏐ explain: Expresses the desire to accomplish something or find some solution in a difficult situation.\nFormal sentence. ⏐ examples: 1. 最近、変なメールがたくさん来る。どうにかならないものか。\nLately I've been getting a lot of strange emails. I wish I could do something about it.\n2. デジカメが壊れた。（なんとか） 直らないものだろうか。\nMy digital camera broke. I wish I could fix it."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 959,
+   "src_hash": "d3f479c791e7c837",
+   "fields": {
+    "meaning": "While… / Although… | While…",
+    "examples": [
+     "Even though I thought what he said was right, I ended up opposing it.",
+     "My younger brother said he would study after dinner, but he's still watching TV.",
+     "Walking while fiddling with your smartphone is dangerous.",
+     "He cooks while singing.",
+     "Although I knew, I didn't say anything.",
+     "Unfortunately, please allow me to decline this time."
+    ],
+    "explain": "The following action is the main action, the focus of the sentence. Example: \"音楽を聞きながら勉強する\" → the main action is \"studying\".\nOften used in daily life, casual conversation, or simple written language.\nUsed only when the two actions are performed by the same person/same agent.\nNot used with opposing actions or actions that cannot happen at the same time (✕泳ぎながら寝る).\n\n• Simultaneity: Expresses two actions happening at the same time by the same agent. The action in the main clause is the focus; the ～ながら clause is the background.\n• Concession: \"Although …, …\". Emphasizes the contradiction between the two clauses, usually knowing but not doing/being unable to.\n• Restriction: Not used for two different subjects; avoid using it in the sense of simultaneity with momentary actions (一回性) that are hard to do in parallel, such as 立つ・着く.",
+    "notes": "• Natural order: background first – main after. Example: \"走りながら考える\" is more natural than \"考えながら走る\" depending on the focus.\n• With verbs of perception (聞く・見る・考える) it is very natural for the background: 考えながら運転する。\n• Noun + ながらに/ながらの: old/fixed forms (生まれながらに, 昔ながらの味).",
+    "mistakes": [
+     "Wrong subject: using ながら when the two actions are done by two different people is incorrect.",
+     "Confusing it with ～ながらも (a pattern expressing contradiction, not simultaneity).",
+     "Not dropping ます: the correct form is Vます → V(drop ます) + ながら (✕ 食べますながら → ○ 食べながら).",
+     "The JLPT often tests: which action is main/secondary and whether they have the same agent."
+    ],
+    "comparison": {
+     "headers": [
+      "Pattern",
+      "Function",
+      "Difference",
+      "Short example"
+     ],
+     "rows": [
+      [
+       "～ながら",
+       "While …; although…",
+       "Fairly neutral; used in both spoken and written language.",
+       "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>きき</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>する"
+      ],
+      [
+       "～つつ",
+       "While …; although…",
+       "More formal/written; rarely used in spoken language.",
+       "<ruby>反省<rt>はんせい</rt></ruby>しつつ<ruby>続<rt>つづ</rt></ruby>ける"
+      ],
+      [
+       "～ながらも",
+       "Strong concession",
+       "Emphasizes contrast; formal.",
+       "<ruby>不十分<rt>ふじゅうぶん</rt></ruby>ながらも<ruby>成功<rt>せいこう</rt></ruby>した"
+      ],
+      [
+       "～のに／～ものの",
+       "Although…",
+       "No implication of simultaneity; purely contradiction.",
+       "<ruby>知<rt>し</rt></ruby>っているのに<ruby>言<rt>い</rt></ruby>わない"
+      ],
+      [
+       "～て",
+       "Connecting actions",
+       "Not necessarily simultaneous; just sequential.",
+       "<ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きて、<ruby>走<rt>はし</rt></ruby>る"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 960,
+   "src_hash": "1ed8599b21b5efe1",
+   "fields": {
+    "meaning": "On the occasion of…, when starting… (an important, formal matter)",
+    "examples": [
+     "There are several conditions for applying for the scholarship, so please contact the office for details.",
+     "One of the important things when writing a thesis is to follow the rules of writing."
+    ],
+    "notes": "Variants: ～にあたり・にあたっては"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 961,
+   "src_hash": "ed6d9f742a14e395",
+   "fields": {
+    "examples": [
+     "Next, I will discuss the role of companies in society.",
+     "What is the most important thing to you in life?"
+    ],
+    "explain": "◎ A usage in written language expressing \"Y in (the scope or place of) X\"."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

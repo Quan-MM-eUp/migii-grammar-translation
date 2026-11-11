@@ -1,0 +1,460 @@
+{
+ "batch": "b020",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 278,
+   "src_hash": "f46b6f9027430cdd",
+   "fields": {
+    "meaning": "Sebaiknya/Sebaiknya tidak ~",
+    "examples": [
+     "Karena dingin, sebaiknya Anda memakai jaket.",
+     "Masuk angin? Kalau begitu, sebaiknya Anda cepat pulang.",
+     "Nanti Anda bisa merasa mual, jadi sebaiknya jangan dilihat.",
+     "「Batuknya parah, ya. Sebaiknya Anda pergi ke rumah sakit sekali.」",
+     "「Ketika lelah, sebaiknya jangan memaksakan diri.」",
+     "(Pegawai toko) 「Biaya perbaikannya mahal, jadi sebaiknya Anda membeli yang baru.」"
+    ],
+    "explain": "Memberikan nasihat sebaiknya atau sebaiknya tidak melakukan sesuatu.\nKarena pola kalimat ini dapat mengandung kesan memaksakan, sebaiknya penggunaannya dibatasi terhadap orang yang lebih tinggi kedudukannya. Jika ingin memberikan nasihat yang bersifat merekomendasikan atau mendorong, biasanya digunakan pola：~Vたら、いいです。\n\nMenyatakan anjuran. Sering digunakan untuk mengatakan bahwa jika tidak melakukan ~ maka dapat berakibat tidak baik. Biasanya disertai partikel akhir kalimat (よ、ね, dll.)."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 279,
+   "src_hash": "9f7534edb5fca718",
+   "fields": {
+    "meaning": "Semoga…, mudah-mudahan…",
+    "connection": "Vます + ように / Vませんように（berdoa, memohon）",
+    "examples": [
+     "Semoga lulus ujian",
+     "Semoga lulus ujian masuk sekolah.",
+     "Semoga tidak gagal dalam pekerjaan.",
+     "Semoga besok hasilnya baik.",
+     "Semoga operasinya selesai dengan selamat.",
+     "Semoga tidak hujan."
+    ],
+    "explain": "Bernuansa merendah dan formal, sering disertai どうか, どうぞ untuk menekankan harapan.\nTidak digunakan dalam bentuk lampau 「～ましたように」 untuk menyatakan harapan (tidak alami).\nDapat berdiri sendiri di akhir kalimat sebagai ucapan doa, tanpa perlu subjek.\n\n• Pola ucapan doa/harapan yang sopan, biasanya digunakan ketika hasilnya tidak dapat dikendalikan secara langsung.\n• Bentuk negatif 「～ませんように」 untuk berharap agar hal buruk tidak terjadi.\n• Sering digunakan dalam konteks spiritual (berkunjung ke kuil/jinja), ujian, penyakit, ucapan selamat, email formal.",
+    "notes": "• Dalam kartu/ucapan selamat: 幸せでありますように／ご多幸をお祈り申し上げます。\n• Disertai kata keterangan permohonan: どうか／心から／何卒.\n• Dengan \"menjadi\": ～になりますように sangat alami: 成功者になりますように。",
+    "mistakes": [
+     "Tertukar dengan ように \"tujuan\": 合格するように勉強する (agar lulus) ≠ 合格しますように (semoga lulus).",
+     "Menggunakan bentuk lampau ました sebelum ように tidak alami ketika mengucapkan doa.",
+     "Salah dengan kata sifat/kata benda: harus 「でありますように」, bukan 「だように」.",
+     "Tertukar dengan permintaan dalam konteks bisnis: ～ますようにお願いいたします adalah permintaan, bukan harapan/doa."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Digunakan ketika",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～ますように",
+       "Doa/harapan",
+       "Formal, di luar kendali",
+       "<ruby>成功<rt>せいこう</rt></ruby>しますように"
+      ],
+      [
+       "～といい(ですね／な)",
+       "Harapan ringan/nasihat",
+       "Lebih santai, sering dipakai dalam percakapan",
+       "<ruby>明日<rt>あした</rt></ruby><ruby>晴<rt>は</rt></ruby>れるといいですね"
+      ],
+      [
+       "V-<ruby>辞書<rt>じしょ</rt></ruby><ruby>形<rt>けい</rt></ruby>/ない<ruby>形<rt>かたち</rt></ruby> + ように",
+       "\"Agar/supaya\" (tujuan/syarat)",
+       "Berbeda arti dengan doa",
+       "<ruby>忘<rt>わす</rt></ruby>れないようにメモする"
+      ],
+      [
+       "～ますように + お<ruby>願<rt>ねが</rt></ruby>いします",
+       "Permintaan sopan",
+       "Bukan harapan, melainkan permintaan",
+       "ご<ruby>対応<rt>たいおう</rt></ruby>しますようにお<ruby>願<rt>ねが</rt></ruby>いします"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 280,
+   "src_hash": "04b09399e11696b4",
+   "fields": {
+    "meaning": "Tetap…, begitu saja…",
+    "examples": [
+     "Sambil tetap duduk",
+     "Saya tertidur dengan TV masih menyala.",
+     "Di depan stasiun sama sekali tidak ada toko baru yang dibuka, jadi tetap tidak praktis.",
+     "Aku ingin terus bersamamu seperti ini.",
+     "Silakan naik dengan tetap memakai sepatu.",
+     "Para perempuan itu mengobrol sambil berdiri sekitar 1 jam."
+    ],
+    "explain": "Bersifat netral: hanya menunjukkan keadaan yang dipertahankan; pada dasarnya tidak mengandung arti kritik.\nVないまま biasanya disertai rasa penyesalan/kekurangan.\nDalam instruksi: そのままにしておいてください (biarkan seperti itu).\nDibandingkan dengan っぱなし: まま bersifat netral; っぱなし menyiratkan dibiarkan begitu saja/nuansa negatif (開けっぱなし: terbuka lebar dan dibiarkan).\n\n～まま menyatakan \"tetap mempertahankan keadaan seperti semula\" tanpa berubah. Karena merupakan kata benda gramatikal (名詞), digunakan dengan の/な/だ. Kala dan aspek klausa utama menentukan waktu secara keseluruhan; まま hanya menandai keadaan latar.\n• Vたまま: menekankan \"setelah selesai V, keadaan itu dibiarkan tetap\".\n• Vないまま: \"dalam keadaan belum V, dibiarkan begitu saja...\", biasanya menyiratkan penyesalan/kekurangan.\n• Nのまま / Aなまま: mempertahankan sifat/ciri yang ada sekarang.",
+    "notes": "• Kala klausa utama menentukan waktu: 開けたままにしていた (sudah dibiarkan terbuka), 開けたままだ (masih terbuka).\n• Vる + まま hampir tidak digunakan, kecuali dalam frasa tetap seperti 思うまま（に） (sesuai yang dipikirkan), 言うまま (seperti yang dikatakan), tetapi sebenarnya itu adalah nominalisasi.\n• Dalam bahasa tulis, そのまま/このまま dapat menghilangkan subjek yang sudah diketahui, dan ini sangat alami.\nmeaning_vi: Pola kalimat ini digunakan untuk menyatakan suatu keadaan yang terus berlanjut tanpa berubah. Pola kalimat ini sering digunakan ketika membicarakan keadaan yang tidak berubah sehingga menimbulkan situasi yang tidak sesuai harapan.\nexamples: 1. ①昨日、窓を開けたまま寝ました。\nKemarin saya tidur dengan jendela tetap terbuka.\n2. ②手が汚いままではいけないよ。早く洗って。\nTanganmu tidak boleh dibiarkan kotor begitu. Cepat cuci.\n3. ③今日は4月1日ですが、カレンダーが先月のままですよ。\nHari ini tanggal 1 April, tetapi kalendernya masih bulan lalu, lho.",
+    "mistakes": [
+     "Menggunakan Vる + まま sembarangan: ×食べるまま → 〇食べたまま / 食べないまま.",
+     "Tertukar dengan っぱなし: dalam soal ujian, っぱなし biasanya menuntut perasaan \"dibiarkan begitu saja/merepotkan\".",
+     "Salah arti dengan とおり: ～まま bukan \"sesuai petunjuk\", melainkan \"mempertahankan keadaan\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～まま",
+       "Mempertahankan keadaan",
+       "Netral; kata benda gramatikal",
+       "<ruby>電気<rt>でんき</rt></ruby>をつけたまま"
+      ],
+      [
+       "～っぱなし",
+       "Dibiarkan begitu saja (tidak diurus)",
+       "Menyiratkan nuansa negatif, ceroboh",
+       "ドアを<ruby>開<rt>あ</rt></ruby>けっぱなし"
+      ],
+      [
+       "～とおり（に）",
+       "Sesuai dengan, persis seperti",
+       "Membicarakan \"cara/standar\", bukan keadaan yang dipertahankan",
+       "<ruby>説明<rt>せつめい</rt></ruby>したとおりに"
+      ],
+      [
+       "～ままに",
+       "Sesuai dengan yang (di)katakan/disuruh",
+       "Biasanya dalam frasa tetap: <ruby>言<rt>い</rt></ruby>われるがまま",
+       "<ruby>好<rt>す</rt></ruby>きなままに<ruby>生<rt>い</rt></ruby>きる"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 281,
+   "src_hash": "c4917cd318a22dcd",
+   "fields": {
+    "meaning": "Seperti…, tampaknya…",
+    "connection": "V bentuk biasa + みたい(だ) / N + (だった) / Na + (だった) / Aい",
+    "examples": [
+     "Sepertinya dia sudah sembuh dari masuk angin.",
+     "Sepertinya hari ini pun tokonya ramai.",
+     "Kadang-kadang dia mengatakan hal-hal seperti anak kecil.",
+     "Dia seperti anak kecil.",
+     "Langit mulai gelap. Sepertinya akan hujan.",
+     "Sepertinya dia sibuk hari ini."
+    ],
+    "explain": "Berdasarkan perasaan/bukti langsung (yang dilihat, didengar). Tidak digunakan untuk kabar angin semata (gunakan らしい) atau dugaan logis yang kuat (はずだ/に違いない).\nSantai, sehari-hari; dalam bahasa formal, diganti dengan ようだ/かのようだ agar lebih sopan.\nTidak memakai bentuk sopan sebelum みたい: katakan 雨が降るみたいです (benar), hindari 雨が降りますみたいです (salah).\nSebagai penjelas kata benda: N/Adj + みたいな + N. Untuk menunjukkan cara: ～みたいに + V/Adj.\nNegatif: ～ないみたいだ; lampau: ～だったみたいだ; dugaan tentang hal yang sudah terjadi: ～していたみたいだ.\n\n• Arti 1 (perbandingan/seperti): Menyatakan kemiripan dalam penampilan/sifat. Contoh: 子どもみたいだ (kelihatan seperti anak kecil).\n• Arti 2 (dugaan berdasarkan pengamatan): \"Sepertinya/Tampaknya\" berdasarkan tanda-tanda yang dilihat dan didengar (tidak 100% pasti). Contoh: 雨が降るみたいだ.\n• Bernuansa bahasa lisan, lebih santai daripada ようだ; tingkat kepastiannya lebih rendah daripada に違いない/はずだ.\n• Sebelum kata benda: gunakan みたいな + N; sebelum kata kerja/kata sifat: みたいに + V/A.\n• Dalam kalimat sopan dapat digunakan みたいです; bahasa tulis formal biasanya lebih memilih ようだ.",
+    "notes": "• Secara gramatikal, みたい berfungsi seperti \"kata sifat な\" ketika menjadi penjelas (みたいなN) dan seperti kata keterangan dengan みたいに.\n• Dalam percakapan, dapat disisipkan なんか/どうやら untuk memperkuat nuansa: なんか雨が降りそうな/みたいな感じ.\n• Membalik posisi untuk penekanan: 本当みたいだね, 嘘みたいだ.\n• Hindari dugaan yang saling bertentangan: きっと～みたいだ (tidak alami); lebih alami menggunakan たぶん/どうやら dengan みたいだ.\nmeaning_vi: Seperti ~, tampaknya ~\nexplain: Menyatakan penilaian berdasarkan tanda-tanda tetapi belum pasti. Biasanya berdasarkan apa yang dilihat, didengar, atau dirasakan; bernuansa percakapan.\nMenyatakan perasaan atau kesan kuat yang membuat pembicara mengira demikian, \"seolah-olah…\", meskipun kenyataannya tidak demikian. Bersifat subjektif.\nDigunakan untuk menyebutkan contoh yang khas dan representatif (\"seperti…, semacam…\"). Artinya mirip dengan ～ような, membantu lawan bicara agar mudah membayangkan.\nexamples: 1. 彼は小さい時はとてもわかいくて、女の子みたいだとよく言われたそうだ。\nKatanya, waktu kecil dia sangat imut dan sering dibilang seperti anak perempuan.\n2. 理由はわからないけど、彼女、怒っているみたい。\nAku tidak tahu alasannya, tapi sepertinya dia sedang marah.\n──────\n1. 「星がたくさん出ている。あしたも晴れみたい」\nBintangnya banyak. Sepertinya besok juga cerah.\n2. 「あの店、人気がないみたいだね。いつ行ってもすいている」\nToko itu sepertinya tidak populer, ya. Kapan pun ke sana selalu sepi.\n3. 「おとうさん、すごく怒っているみたいだから、近づかないほうがいいよ」\nAyah sepertinya sedang marah sekali, jadi sebaiknya jangan dekat-dekat.\n4. 「風邪をひいたみたいなんです。きのうから、のどが痛くて」\nSepertinya saya masuk angin. Sejak kemarin tenggorokan saya sakit.\n5. 「オウさん、このごろやせたみたい。どうかしたの」「ううん、なんでもない」\nOu-san, akhir-akhir ini sepertinya kamu kurusan. Ada apa? — Nggak, nggak apa-apa.\n6. 「今井君はもう帰ったのかな」「みたいだね。かばんがないから」\nImai-kun sudah pulang, ya? — Sepertinya begitu. Tasnya tidak ada.\n7. 宝くじで１０００万円当たった。夢（を見ている）みたいだ。\nSaya menang lotre 10 juta yen. Rasanya seperti (sedang) mimpi.\n8. 「あの雲、見て。ゾウみたいな形だよ」「ほんとだ」\nLihat awan itu. Bentuknya seperti gajah. — Benar juga.\n9. 兄はすぐに泣いたり怒ったり笑ったりする。まったく、子どもみたいだ。\nKakak laki-laki saya gampang menangis, marah, dan tertawa. Benar-benar seperti anak kecil.\n10. ホームステイ先の家族はみんなやさしくて、自分の家にいるみたいだった。\nKeluarga tempat saya homestay semuanya baik hati, rasanya seperti berada di rumah sendiri.\n11. 私は寒いのが嫌いなので、ハワイみたいな、１年中暖かいところで暮らしたい。\nSaya tidak suka dingin, jadi saya ingin tinggal di tempat yang hangat sepanjang tahun seperti Hawaii.\n12. 私も早くリンさんみたいに、日本語が上手になりたいなあ。\nSaya juga ingin cepat pandai berbahasa Jepang seperti Lin-san.\n13. 私の田舎にはコンビニみたいな便利な店はありません。\nDi kampung saya tidak ada toko praktis seperti minimarket (konbini).\n14. 「彼みたいに遊んでばかりいると、試験に落ちますよ」\nKalau terus bermain-main saja seperti dia, Anda akan gagal ujian.\nmeaning_vi: Perbandingan, kiasan (bukan kenyataan) yang mirip dengan ～\nexamples: 1. まだ2月なのに、今日は暖かくて春のようです。\nPadahal masih bulan Februari, hari ini hangat seperti musim semi.\n2. あの二人はまるで兄弟のように中がいいです。\nMereka berdua akrab sekali seperti saudara.\n3. 「このせっけん、いいにおいですね。バラの花のような香りがしますね」\n「Sabun ini harum, ya. Wanginya seperti bunga mawar, ya」\n4. 10年前もことだが、まるできのうのことのようにはっきりと覚えている。\nItu kejadian 10 tahun yang lalu, tetapi saya mengingatnya dengan jelas seolah-olah kejadian kemarin.\nmeaning_vi: Cara membandingkan dengan menggunakan hal lain yang serupa.\nexamples: 1. ①　鬼のように　おこっていました。\nDia marah seperti setan.\n2. ②　あつい！5月なのに、夏みたいですね。\nPanas! Padahal bulan Mei, rasanya seperti musim panas, ya.\n3. ➂　はなさんは、女優の　ように　きれいです。\nHana-san cantik seperti aktris.\n4. ➃　かわいい　手！　もみじみたいな　手ですね。\nTangan yang lucu! Tangannya seperti daun momiji, ya.\nmeaning_vi: Digunakan ketika pembicara membuat dugaan berdasarkan pengamatannya sendiri. Dalam situasi yang formal dan serius, sebaiknya tidak menggunakan ～みたいです。\nexamples: 1. ①この肉は少し古いようです。変なにおいがします。\nDaging ini sepertinya sudah agak lama. Baunya aneh.\n2. ②健君は本が好きなようですね。いつも何か読んでいます。\nKen-kun sepertinya suka buku, ya. Dia selalu membaca sesuatu.\n3. ③花ちゃんはこのお菓子がほしいみたいだね。こちらを見ているよ。\n4．お母さん、玄関に誰かきたみたいだよ。トントンと音がしたよ。\nSepertinya Hana-chan mau kue ini, ya. Dia melihat ke sini, lho.\nIbu, sepertinya ada orang datang di pintu depan. Ada suara tok-tok, lho.",
+    "mistakes": [
+     "Salah bentuk sopan: × 降りますみたいだ → ✓ 降るみたいです.",
+     "Tertukar dengan らしい (kabar angin): 彼は結婚したらしい (katanya) ≠ 彼は結婚したみたいだ (ada tanda-tanda yang menunjukkan).",
+     "Lupa mengubah menjadi みたいな/みたいに ketika berfungsi sebagai penjelas: × 子どもみたい声 → ✓ 子どもみたいな声.",
+     "Ujian JLPT: dituntut membedakan ～ようだ/～みたいだ/～らしい/～そうだ (様態/伝聞). Perhatikan konteks dan sumber informasi."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～みたいだ",
+       "Tampaknya/seperti (pengamatan, bahasa lisan)",
+       "Santai, kurang formal",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るみたいだ"
+      ],
+      [
+       "～ようだ",
+       "Tampaknya/seperti (lebih formal)",
+       "Digunakan dalam bahasa tulis, lebih objektif",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るようだ"
+      ],
+      [
+       "～らしい",
+       "Katanya/benar-benar khas",
+       "Berdasarkan informasi yang didengar/ciri khas",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るらしい"
+      ],
+      [
+       "～っぽい",
+       "Terlihat/cenderung (secara umum)",
+       "Bahasa lisan, bernuansa \"agak ke arah\"",
+       "<ruby>子<rt>こ</rt></ruby>どもっぽい"
+      ],
+      [
+       "～そうだ（<ruby>様態<rt>ようたい</rt></ruby>）",
+       "Kelihatannya akan/terlihat",
+       "Berdasarkan kesan langsung bahwa akan terjadi",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>お</rt></ruby>りそうだ"
+      ],
+      [
+       "～に<ruby>見<rt>み</rt></ruby>える",
+       "Kelihatannya",
+       "Berfokus pada kesan visual",
+       "<ruby>若<rt>わか</rt></ruby>く<ruby>見<rt>み</rt></ruby>える"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 282,
+   "src_hash": "7e879f56113fabd6",
+   "fields": {
+    "meaning": "Tidak hanya ~ tetapi juga ~",
+    "examples": [
+     "Saya demam dan juga sakit kepala, jadi hari ini saya tidak masuk kerja.",
+     "A: Bagaimana pendapat Anda tentang Watt-sensei?\nB: Menurut saya, Watt-sensei bersemangat, bersungguh-sungguh, dan selain itu juga berpengalaman."
+    ],
+    "explain": "•　Menghubungkan klausa-klausa yang artinya serupa.\n•　Partikel も digunakan sesuai aturan penekanan (lihat pelajaran 27).\n•　Digunakan untuk makna yang bertambah:それに (Selain itu)\n•　Penyebutan alasan, sebab yang menghasilkan akibat:それで ( Oleh karena itu)\n\n～も～し、～も～し～、それに～：Tidak hanya ~ tetapi juga ~ Selain itu ~\n～も～し、～も～し～それで、～：Tidak hanya ~ tetapi juga ~  oleh karena itu ~"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 283,
+   "src_hash": "7185dc45f283ed06",
+   "fields": {
+    "meaning": "Mudah…",
+    "examples": [
+     "Penjelasan Tanaka-sensei mudah dipahami.",
+     "Kertasnya tipis dan mudah sobek, jadi hati-hati.",
+     "Ketika lelah, kita jadi mudah masuk angin.",
+     "Cuaca di gunung mudah berubah, jadi sebaiknya berhati-hati.",
+     "Font ini mudah dibaca.",
+     "UI baru ini intuitif dan mudah digunakan."
+    ],
+    "explain": "Penilaian kualitas:読みやすい文章／使いやすいツール（nuansa positif, mengutamakan UX).\nDikombinasikan dengan kata keterangan tingkat:非常に／とても／かなり + ～やすい.\nNegatif: ～やすくない（tidak mudah）; Lampau: ～やすかった.\nKetika membicarakan kecenderungan manusia:忘れやすい／太りやすい／怒りやすい（cenderung mudah V).\n\n• Menyatakan \"mudah melakukan V\" atau \"memiliki kecenderungan/sifat mudah V\".\n• Digunakan baik untuk perilaku (読みやすい, 使いやすい) maupun sifat/fisik (壊れやすい, 乾きやすい).\n• Dibandingkan dengan 易しい（やさしい）: artinya berbeda. 易しい = \"mudah\" dari segi tingkat kesulitan; ～やすい = \"mudah V\" dari segi kecenderungan melakukan tindakan tertentu.\n• Biasanya bersifat objektif/berguna dalam mendeskripsikan produk, desain, UX.",
+    "notes": "• Dapat dikombinasikan dengan kata keterangan negatif: 必ずしも～やすいとは限らない（belum tentu mudah…).\n• Dalam pemasaran: \"持ちやすい/読みやすい/掃除しやすい\" adalah kata kunci UX yang umum.\n• Ketika mendeskripsikan risiko: 壊れやすい→ perlu ditambahkan peringatan agar tidak dipahami sebagai hal positif.",
+    "mistakes": [
+     "Salah bentuk: × 読むやすい → ○ 読みやすい（hilangkan ます）.",
+     "Tertukar dengan 易しい: \"soal yang mudah\" → 易しい; \"mudah dibaca\" → 読みやすい.",
+     "Salah bentuk negatif: × 使いやすいない → ○ 使いやすくない。",
+     "Memakainya dengan maksud positif padahal artinya negatif: \"壊れやすい\" adalah kelemahan, bukan kelebihan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～にくい",
+       "Sulit dilakukan",
+       "Lawan kata; mendeskripsikan kesulitan/keterbatasan",
+       "<ruby>読<rt>読</rt></ruby>みにくい<ruby>説明<rt>せつめい</rt></ruby>。"
+      ],
+      [
+       "～がち",
+       "Sering, cenderung (kecenderungan negatif)",
+       "Bukan \"mudah V\", melainkan \"cenderung sering V\"",
+       "ミスしがちな<ruby>人<rt>ひと</rt></ruby>。"
+      ],
+      [
+       "<ruby>易<rt>やさ</rt></ruby>しい（やさしい）",
+       "Mudah (tingkat)",
+       "Kata sifat mandiri, tidak melekat langsung pada tindakan V",
+       "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>易<rt>やさ</rt></ruby>しい。"
+      ],
+      [
+       "～やすさ",
+       "Tingkat kemudahan",
+       "Nominalisasi untuk membandingkan/menilai",
+       "<ruby>使<rt>つか</rt></ruby>いやすさの<ruby>比較<rt>ひかく</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 284,
+   "src_hash": "bed43e3238d20aa9",
+   "fields": {
+    "meaning": "Di-/ter-/dapat… (pasif, kemampuan)",
+    "connection": "Golongan II: Vる → られる / Golongan I: kolom う → え + る / する → される・できる / くる → こられる",
+    "examples": [
+     "Saya dipuji oleh guru.",
+     "Karena diguyur hujan lebat, pertandingannya dibatalkan.",
+     "Pedas seperti ini tidak bisa saya makan.",
+     "Kampung halaman teringat dengan sendirinya.",
+     "Kira-kira pukul berapa kepala bagian akan datang?",
+     "Dalam bahasa Jepang, ada kalanya objek menjadi subjek."
+    ],
+    "explain": "Pasif:Pelaku: N + に/によって + V-られる. によって digunakan ketika netral/objektif (発見される,建設される).Topik biasanya adalah sasaran yang terkena pengaruh, menggunakan は/が.\nPelaku: N + に/によって + V-られる. によって digunakan ketika netral/objektif (発見される,建設される).\nTopik biasanya adalah sasaran yang terkena pengaruh, menggunakan は/が.\nKemampuan:Dengan 一段:食べ られる (dapat makan). Bahasa lisan:食べ れる (hindari dalam bahasa tulis formal).Dengan 五段 gunakan V-える:読める,書ける (tidak menggunakan 読まれる untuk kemampuan).Dalam kalimat kemampuan, objek biasanya berubah を→が:日本語が話せる。\nDengan 一段:食べ られる (dapat makan). Bahasa lisan:食べ れる (hindari dalam bahasa tulis formal).\nDengan 五段 gunakan V-える:読める,書ける (tidak menggunakan 読まれる untuk kemampuan).\nDalam kalimat kemampuan, objek biasanya berubah を→が:日本語が話せる。\nSpontan: sering disertai 自然に/ふと/どうしても: ふと昔が思い出される。\nsonkeigo (bahasa hormat): Biasanya diganti dengan お/ご～になる agar lebih alami: お読みになります（＝読まれる）.\n\n• Pasif: Subjek menerima tindakan. Meliputi:\n\nPasif langsung: 私は先生に褒められた (saya dipuji).\nPasif tidak langsung/merugikan (迷惑の受身): 雨に降られて困った (kerepotan karena kehujanan).\nPasif kepemilikan: 私は子どもに泣かれた (anak menangis sehingga saya kerepotan).\n\n• Pasif langsung: 私は先生に褒められた (saya dipuji).\n• Pasif tidak langsung/merugikan (迷惑の受身): 雨に降られて困った (kerepotan karena kehujanan).\n• Pasif kepemilikan: 私は子どもに泣かれた (anak menangis sehingga saya kerepotan).\n• Kemampuan: Kemampuan, kondisi dapat/tidak dapat. Pada 一段 bentuknya sama, mudah ambigu dengan pasif; dibedakan melalui konteks, subjek (が) dan pelengkap.\n• Spontan: Secara alami terpikir/teringat/merasakan. Bernuansa \"tanpa disengaja\".\n• sonkeigo (bahasa hormat): Meninggikan subjek (orang yang lebih tinggi kedudukannya) dengan V-れる/られる. Hindari penggunaan berlebihan bentuk \"二重敬語\".",
+    "notes": "• Ambiguitas pasif/kemampuan pada 一段 diselesaikan dengan konteks dan partikel: 魚が食べられる（kemampuan）vs 魚は猫に食べられる（pasif).\n• 来れる (これる) adalah bentuk bahasa lisan dari 来られる (こられる) untuk kemampuan; hindari dalam bahasa formal.\n• Hindari \"二重敬語\": 召し上がられる biasanya dianggap berlebihan; gunakan 召し上がる.\n• Berita/tulisan ilmiah lebih menyukai pasif objektif dengan によって: この星は1950年に発見された。\nmeaning_vi: Ungkapan pasif\nexamples: 1. ①　母に怒られる\nDimarahi ibu\n2. ②　夜遅く家に帰ったら、母に怒られた。\nKarena pulang ke rumah larut malam, saya dimarahi ibu.\n3. ③　電車の中で、女の人に足を踏まれた。\nDi dalam kereta, kaki saya diinjak oleh seorang perempuan.\n4. ➃　毎晩、友達に遊びに来られて、勉強ができない。\nSetiap malam teman datang bermain, sehingga saya tidak bisa belajar.\n5. ⑤　この建物は３００年前に建てられました。\nBangunan ini dibangun 300 tahun yang lalu.\n6. ⑥　この絵はピカソによってかかれました。\nLukisan ini dilukis oleh Picasso.",
+    "mistakes": [
+     "Tertukar bentuk kemampuan 五段: 読まれる (pasif) ≠ 読める (kemampuan).",
+     "Menggunakan を dalam kalimat kemampuan: 日本語を話せる → sebaiknya gunakan 日本語が話せる (lebih alami).",
+     "Menggunakan ～られる secara berlebihan untuk sonkeigo (bahasa hormat) dalam segala situasi; dalam konteks bisnis sebaiknya gunakan お/ご～になる.",
+     "Tertukar に dan によって: orang tertentu biasanya menggunakan に; penemuan/karya menggunakan によって."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "V-られる (<ruby>可能<rt>かのう</rt></ruby>)",
+       "Dapat melakukan",
+       "Lebih formal/baku; pada <ruby>一段<rt>いちだん</rt></ruby> sama dengan pasif",
+       "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せる/<ruby>話<rt>ばなし</rt></ruby>せます"
+      ],
+      [
+       "V-ことができる",
+       "Dapat melakukan",
+       "Objektif/resmi; cocok untuk サ<ruby>変<rt>へん</rt></ruby>: <ruby>勉強<rt>べんきょう</rt></ruby>することができる",
+       "<ruby>予約<rt>よやく</rt></ruby>することができる"
+      ],
+      [
+       "お/ごV-になる",
+       "sonkeigo (bahasa hormat)",
+       "Lebih alami dalam konteks bisnis",
+       "<ruby>社長<rt>しゃちょう</rt></ruby>はお<ruby>読<rt>よ</rt></ruby>みになります"
+      ],
+      [
+       "～られてしまう",
+       "Pasif + penyesalan",
+       "Menekankan perasaan dirugikan",
+       "<ruby>雨<rt>あめ</rt></ruby>に<ruby>降<rt>ふ</rt></ruby>られてしまった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 285,
+   "src_hash": "a055f9c8367ee328",
+   "fields": {
+    "meaning": "Adalah…, itu karena… (penjelasan)",
+    "examples": [
+     "Saya ingin pergi, tetapi minggu depan ada ujian.",
+     "Saya bertanya dengan serius, jadi tolong jawab.",
+     "Ada apa?",
+     "Saya terlambat. Keretanya berhenti.",
+     "Sebenarnya, besok saya akan pindah rumah.",
+     "Saya ingin berkonsultasi sedikit, apakah Anda ada waktu sekarang?"
+    ],
+    "explain": "Ramah/sopan dalam percakapan. Kepada orang yang lebih tinggi kedudukannya, hindari ～んだ (kasar), gunakan ～んです/～のです.\nMenanyakan alasan dengan halus: どうして来なかった んですか。\nPengantar permintaan/pertanyaan: ～んですが/～んですけど +依頼/質問.\nMenekankan perasaan/keadaan: ～たい んです , ～ている んです .\nBahasa tulis formal lebih memilih ～のです/～のである (jarang digunakan dalam bahasa lisan).\n\n～んですか。\n1.Menduga, mengonfirmasi informasi berdasarkan apa yang didengar atau dilihat.\nA:　Bさんは時々(ときどき)大阪弁(おおさかべん)を使(つか)いますね。大阪(おおさか)に住(す)んでいたんですか。\nA: B-san kadang-kadang memakai dialek Osaka, ya. Dulu pernah tinggal di Osaka?\nB:　ええ、１５さいまで大阪(おおさか)に住(す)んでいました。\nB: Ya, saya tinggal di Osaka sampai umur 15 tahun.\n2.Ingin pembicara memberikan informasi tambahan tentang apa yang didengar atau dilihat\nおもしろい　デザインの靴(くつ)ですね。どこで買(か)ったんですか。\nDesain sepatunya menarik, ya. Anda membelinya di mana?\n3.Ingin lawan bicara menjelaskan alasan tentang apa yang didengar atau dilihat.\nGunakan どうして　～んですか。\nどうして遅(おく)れたんですか。\nKenapa terlambat?\n4.Ingin lawan bicara menjelaskan suatu keadaan\nA:　どう　したんですか。\nA: Anda kenapa?\nB:　おなかが　いたいんです。\nB: Perut saya sakit.",
+    "notes": "Catatan: Digunakan ketika ingin mengetahui lebih lanjut tentang informasi khusus; jika digunakan secara tidak tepat akan membuat lawan bicara merasa tidak nyaman.\n✖この問題(もんだい)、難(むずか)しいんですか。\nSoal ini sulit, ya? (Maksudnya soal ini mudah, kenapa kamu bodoh sekali)\n～んです。\nMenyampaikan alasan, menambahkan alasan tentang hal yang telah disampaikan sebelumnya (Karena ~).\nContoh 1:\nA:　どうして遅(おく)れたんですか。\nKenapa terlambat?\nB:　バスが来(こ)なかったんです。\nKenapa terlambat?\nContoh 2:\nA:　よく　カラオケに行(い)きますか。\nApakah Anda sering pergi karaoke?\nB:　いいえ、あまり行(い)きません。\nTidak, saya jarang pergi.\nカラオケが好(す)きじゃないんです。\nKarena saya tidak suka karaoke.\nCatatan: Tidak digunakan untuk kalimat yang mendeskripsikan fakta semata.\n✖わたしは　ミラーなんです。",
+    "mistakes": [
+     "Salah penyambungan setelah N/Adj-na: 学生んです × → 学生なんです 〇; 便利んです × → 便利なんです 〇.",
+     "Menggunakan ～んだ kepada orang yang lebih tinggi kedudukannya → kasar. Pilih ～んです/～のです.",
+     "Menggunakan ～んですが secara berlebihan dalam dokumen formal → ganti dengan ～のですが/～しかし.",
+     "Tertukar fungsinya dengan ～から: ～んです menekankan \"penjelasan\", bukan sekadar menghubungkan sebab dan akibat."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Nuansa",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～んです",
+       "penjelasan",
+       "Bahasa lisan, lembut",
+       "<ruby>雨<rt>あめ</rt></ruby>なんです。"
+      ],
+      [
+       "～のです",
+       "penjelasan",
+       "Formal/bahasa tulis",
+       "<ruby>雨<rt>あめ</rt></ruby>なのです。"
+      ],
+      [
+       "～から/ので",
+       "alasan",
+       "Penghubung di dalam klausa",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>休<rt>やす</rt></ruby>む。"
+      ],
+      [
+       "～でしょうか",
+       "pertanyaan sopan",
+       "Netral, tidak mengandung \"penjelasan\"",
+       "いつがいいでしょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 286,
+   "src_hash": "33d15ef70469ebff",
+   "fields": {
+    "meaning": "rencana, jadwal",
+    "examples": [
+     "A: Mulai besok saya akan dinas ke Jepang.\nB: Oh, begitu. Kapan pulang?\nA: Rencananya saya pulang hari Jumat minggu depan.",
+     "A: Setelah lulus SMA, apa yang akan Anda lakukan?\nB: Saya berencana masuk universitas."
+    ],
+    "explain": "Merupakan niat yang sudah dijadikan rencana, sehingga lebih pasti daripada V意向形と思っています, つもり."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

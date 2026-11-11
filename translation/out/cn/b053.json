@@ -1,0 +1,753 @@
+{
+ "batch": "b053",
+ "lang": "cn",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-10",
+ "items": [
+  {
+   "id": 823,
+   "src_hash": "3e6caaefce41b8f9",
+   "fields": {
+    "meaning": "尽量……，尽可能（なるべく早く）",
+    "examples": [
+     "请尽快答复。",
+     "我尽量每天运动。",
+     "请尽量不要吃甜食。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 824,
+   "src_hash": "b02862ebb1f5597f",
+   "fields": {
+    "meaning": "习惯于……，已经习惯……",
+    "examples": [
+     "你已经习惯日本的生活了吗？",
+     "我渐渐习惯了新工作。",
+     "我还不习惯早起。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 825,
+   "src_hash": "e761d60f93389eac",
+   "fields": {
+    "meaning": "……吗？（礼貌地询问，使疑问句语气委婉）",
+    "connection": "V简体形 + のでしょうか んでしょうか / N + な / Na / Aい",
+    "examples": [
+     "这趟电车在东京站停吗？",
+     "他为什么没来呢？",
+     "这个座位可以用吗？"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 826,
+   "src_hash": "e39375e4d798d72b",
+   "fields": {
+    "meaning": "而且，再加上，更加……",
+    "connection": "さらに + [句子/分句]",
+    "examples": [
+     "因为台风，雨下得更大了。",
+     "这家店很便宜。而且，服务也很好。",
+     "听说明年费用还会进一步上涨。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 827,
+   "src_hash": "53e3c686e32eb1e9",
+   "fields": {
+    "meaning": "最多……，充其量……",
+    "connection": "せいぜい + 数量・N / V",
+    "examples": [
+     "从这里到车站就算走路，最多也就10分钟。",
+     "来参加聚会的最多也就20人吧。",
+     "午饭最多能花1000日元。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 828,
+   "src_hash": "a39afb6b318a24c6",
+   "fields": {
+    "meaning": "一会儿，一段时间……",
+    "connection": "しばらく + [句子/分句]",
+    "examples": [
+     "请稍等一会儿。",
+     "我有一段时间没学日语了。",
+     "我和他有一段时间没见面了。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 829,
+   "src_hash": "27c889328e769b76",
+   "fields": {
+    "meaning": "已经……了（事情在此之前已经完成）",
+    "examples": [
+     "会议已经开始了。",
+     "到车站的时候，电车已经开走了。",
+     "那条新闻我已经知道了。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 830,
+   "src_hash": "9dad080293fd2682",
+   "fields": {
+    "name": "数量＋は",
+    "meaning": "至少……（数量+は）",
+    "connection": "数量 + は",
+    "examples": [
+     "到车站至少要30分钟。",
+     "这个包至少要2万日元吧。",
+     "会场里至少聚集了100人。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 831,
+   "src_hash": "8ce46c308bc23cd3",
+   "fields": {
+    "name": "～たものだ（回忆）",
+    "meaning": "以前常常……，过去经常……（回忆）",
+    "examples": [
+     "小时候，我常在这条河里游泳。",
+     "学生时代，我常和朋友聊到天亮。",
+     "父亲说他年轻的时候经常去爬山。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 832,
+   "src_hash": "632e9f2c961d8b2a",
+   "fields": {
+    "meaning": "的确……，确实……",
+    "connection": "確かに + [句子/分句]",
+    "examples": [
+     "这道菜确实好吃，但是价格太贵了。",
+     "他说的确实正确。",
+     "我明明锁了门，可门却是开着的。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 833,
+   "src_hash": "b328605abcada272",
+   "fields": {
+    "meaning": "只要……就够了，用……就能解决",
+    "examples": [
+     "修理只花了5000日元就解决了。",
+     "如果是打个电话就能解决的事，不去也可以。",
+     "伤势很轻，没什么大碍。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 834,
+   "src_hash": "74ece88be21b8dfe",
+   "fields": {
+    "meaning": "为了不……，以免……（防备不好的情况）",
+    "examples": [
+     "为了不忘记，我先记下来。",
+     "别感冒了，把外套带上。",
+     "以免迟到，我们早点出发吧。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 835,
+   "src_hash": "a7b4cf5a7ae90437",
+   "fields": {
+    "meaning": "不是……的时候（～ている場合じゃない）",
+    "examples": [
+     "现在可不是笑的时候。",
+     "现在不是玩游戏的时候。明天就考试了。",
+     "现在不是悠闲的时候。我们快点吧。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 836,
+   "src_hash": "484e0e65fe728537",
+   "fields": {
+    "meaning": "接尾词的：把名词变成Na/副词（経済的）",
+    "examples": [
+     "那种想法不现实。",
+     "请说明得更具体一些。",
+     "他因为经济上的原因放弃了留学。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 837,
+   "src_hash": "0578ac728d7ae574",
+   "fields": {
+    "meaning": "即使……也没用，……也无济于事",
+    "examples": [
+     "事到如今，后悔也没用。",
+     "抱怨也无济于事，重新做吧。",
+     "担心也没用。只能等结果了。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 839,
+   "src_hash": "0dccc4e6a0434717",
+   "fields": {
+    "meaning": "看样子……，似乎……（とみえる/とみえて）",
+    "connection": "V简体形 + と見える とみえる とみえて / N + だ / Na + だ / Aい",
+    "examples": [
+     "他好像很累，马上就睡着了。",
+     "这家店看样子很受欢迎，总是很拥挤。",
+     "看样子下过雨了，路面湿湿的。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 840,
+   "src_hash": "73f86235cfa222ea",
+   "fields": {
+    "meaning": "中途……，在……的路上（途中で/途中に）",
+    "examples": [
+     "在去学校的路上，我遇见了老师。",
+     "会议进行到一半时，来了一个电话。",
+     "在回家的路上，我顺便去了超市。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 842,
+   "src_hash": "313168a5bb48b887",
+   "fields": {
+    "meaning": "无论如何也不……，很难……（とても～ない）",
+    "examples": [
+     "这么难的题，我根本解不出来。",
+     "说他是犯人，我实在无法相信。",
+     "太忙了，根本抽不出时间去旅行。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 843,
+   "src_hash": "ea412225d779079d",
+   "fields": {
+    "meaning": "暂且不论……，……另当别论",
+    "connection": "N + は別として はべつとして / V简体形 + かどうか / Na + かどうか / Aい + かどうか",
+    "examples": [
+     "玩笑先放一边，你到底打算怎么办？",
+     "去不去另当别论，先听听再说吧。",
+     "设计暂且不论，功能非常好。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 844,
+   "src_hash": "777286a0330fb91a",
+   "fields": {
+    "meaning": "以……而闻名（～で有名）",
+    "examples": [
+     "京都以古老的寺庙而闻名。",
+     "这个小镇以温泉而闻名。",
+     "那位老师以布置作业多而出名。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 845,
+   "src_hash": "a9b139775907da36",
+   "fields": {
+    "meaning": "故意，有意……",
+    "examples": [
+     "我觉得他是故意输的。",
+     "我不是故意的。对不起。",
+     "弟弟故意装作没听见。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 846,
+   "src_hash": "5003da8b04619409",
+   "fields": {
+    "meaning": "比起……，与……相比（よりも）",
+    "connection": "V简体形 + よりも / N",
+    "examples": [
+     "今年冬天比去年还冷。",
+     "比起结果，过程更重要。",
+     "考试比想象的要简单。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 847,
+   "src_hash": "03ee2a883153ecb2",
+   "fields": {
+    "meaning": "看起来像……，似乎……（ように見える）",
+    "connection": "V简体形 + ように見える / N + の / Na / Aい",
+    "examples": [
+     "他看起来像是在生气。",
+     "这个计划看起来很简单，但其实很难。",
+     "从远处看，像一座岛。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 848,
+   "src_hash": "6a023b9f43c74c18",
+   "fields": {
+    "meaning": "无论如何也……，不惜一切……",
+    "connection": "どうしても + [句子/分句]",
+    "examples": [
+     "我无论如何都想进这所大学。",
+     "我怎么也想不起他的名字。",
+     "我有件无论如何都必须去办的事。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 849,
+   "src_hash": "be28dbfbbf27940c",
+   "fields": {
+    "meaning": "忽然……，偶然，不经意间……",
+    "examples": [
+     "不经意间往窗外一看，外面正在下雪。",
+     "我忽然想起了小时候的事。",
+     "半夜我忽然醒了。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 850,
+   "src_hash": "e337a29f3cc4796d",
+   "fields": {
+    "meaning": "同时，一次……",
+    "connection": "一度に + [句子/分句]",
+    "examples": [
+     "一次吃太多的话，会吃坏肚子的哦。",
+     "把行李一次运完是不可能的。",
+     "提问请每次一个。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 851,
+   "src_hash": "49c35350494ea93b",
+   "fields": {
+    "meaning": "到底……，……究竟是什么啊（强调疑问）",
+    "connection": "一体 + [疑问句]",
+    "examples": [
+     "到底是谁干了这种事？",
+     "这到底是什么？",
+     "他到底去哪儿了呢？"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 852,
+   "src_hash": "b6b241bcbd1e125a",
+   "fields": {
+    "meaning": "难道……，绝不会……",
+    "connection": "まさか + [否定句子/分句] (～ないだろう)",
+    "examples": [
+     "我万万没想到他会说谎。",
+     "真没想到会在这种地方遇见老师。",
+     "总不会下雨吧。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 853,
+   "src_hash": "b3fa8852c15f807d",
+   "fields": {
+    "meaning": "宁可……，与其说……不如说……",
+    "connection": "むしろ + [句子/分句]",
+    "examples": [
+     "与其坐出租车，还不如走路快。",
+     "与其说他是老师，不如说他更像朋友。",
+     "让别人帮忙的话，反而更费时间。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 854,
+   "src_hash": "c67a7eea52734953",
+   "fields": {
+    "meaning": "不由得……，不小心……（并非有意）",
+    "connection": "つい + V (常用Vてしまう)",
+    "examples": [
+     "明明在减肥，却忍不住吃了蛋糕。",
+     "太有意思了，不知不觉读到了半夜。",
+     "我一不留神把秘密说出去了。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 855,
+   "src_hash": "ca2b20ea8492e8c6",
+   "fields": {
+    "meaning": "终于……，最终……（ついに）",
+    "connection": "ついに + [句子/分句]",
+    "examples": [
+     "漫长的工程结束了，新车站终于建成了。",
+     "花了10年，他终于实现了梦想。",
+     "打了好几次电话，他最终还是没接。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 856,
+   "src_hash": "0ed99e67bdaab980",
+   "fields": {
+    "meaning": "特意……，专程……（わざわざ）",
+    "examples": [
+     "谢谢你特意到车站来接我。",
+     "不用特意去买，在网上就能订购哦。",
+     "感谢您远道专程光临。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 857,
+   "src_hash": "982fc23422d43859",
+   "fields": {
+    "meaning": "相当，比较……",
+    "examples": [
+     "今天相当冷啊。",
+     "他的日语变得相当好了。",
+     "到完成为止要花相当长的时间。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 858,
+   "src_hash": "317289e128b0aa68",
+   "fields": {
+    "meaning": "……与否因……而异",
+    "connection": "[疑问句] + かは + N + によって違う",
+    "examples": [
+     "觉得什么好吃，因人而异。",
+     "毕业后做什么，因学生而异。",
+     "要花多少钱，因季节而异。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 859,
+   "src_hash": "4cd24a3a854a823e",
+   "fields": {
+    "meaning": "各自，每一个……",
+    "examples": [
+     "每个人都有各自的想法。",
+     "参加者各自发表了自己的意见。",
+     "各国的文化各不相同。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 860,
+   "src_hash": "abb897aac873c861",
+   "fields": {
+    "meaning": "如果可以的话……（谦逊的请求）",
+    "connection": "できれば/できたら + [请求・建议]",
+    "examples": [
+     "如果可以的话，希望您明天之前给我答复。",
+     "可以的话，请给我靠窗的座位。",
+     "如果可以的话，我希望能改一下开会时间。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 861,
+   "src_hash": "be8e8740c7e2ac69",
+   "fields": {
+    "meaning": "如果……可以的话（谦逊：私でよければ）",
+    "examples": [
+     "如果我能帮上忙的话，我来帮您。",
+     "如果二手的也可以的话，能买得便宜些哦。",
+     "如果明天也可以的话，我有时间。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 862,
+   "src_hash": "71e01fa81b60069e",
+   "fields": {
+    "meaning": "按……来说，从……方面来说",
+    "examples": [
+     "越南的「フォー」，用日本的东西来说就像拉面一样。",
+     "从价格来说，这个更划算。",
+     "从大小来说，这个房间跟教室差不多。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 863,
+   "src_hash": "50460525fb0ee67b",
+   "fields": {
+    "meaning": "可以说……",
+    "connection": "V/A简体形 + と言える / N/Naだ + と言える",
+    "examples": [
+     "这个结果可以说是成功的吧。",
+     "可以说他是世界上最有名的选手之一。",
+     "在能够说是安全之前，有必要进行调查。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 864,
+   "src_hash": "258af08daaceb6ce",
+   "fields": {
+    "name": "代（费用・开支）",
+    "meaning": "接尾词代：费用，开支（電気代, バス代）",
+    "examples": [
+     "这个月电费很高。",
+     "公交车费由公司支付。",
+     "餐费每人3000日元左右。"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

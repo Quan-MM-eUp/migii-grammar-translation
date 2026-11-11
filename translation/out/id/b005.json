@@ -1,0 +1,838 @@
+{
+ "batch": "b005",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 63,
+   "src_hash": "8358793eb0e19416",
+   "fields": {
+    "meaning": "Perbandingan lebih",
+    "examples": [
+     "Tahun ini lebih panas daripada tahun lalu.",
+     "Smartphone ini lebih ringan daripada model sebelumnya.",
+     "Saya lebih tinggi daripada adik laki-laki saya.",
+     "Dia lebih pandai berbahasa Jepang daripada saya.",
+     "Naik bus memakan waktu lebih lama daripada naik kereta.",
+     "Di antara A dan B, A lebih populer."
+    ],
+    "explain": "より dapat diganti dengan よりも untuk menekankan kontras.\nDengan kata benda waktu/tempat, は sering dihilangkan:今年は去年より～.\nSaat menjawab kalimat tanya どちら, penggunaan のほうが terdengar alami: AのほうがBより～/Aのほうが～.\nPerbandingan negatif: AはBほど～ない (A tidak se-～ B).\n\nMenyatakan \"A lebih daripada B dalam hal ～\". より diletakkan setelah sasaran pembanding untuk membandingkan selisih.\nKlausa setelah より adalah dasar acuan; predikat dikenakan pada A.\nDapat disertai kata keterangan tingkat (ずっと,少し, かなり, やや) untuk mengukur selisih.\nBentuk dengan kata kerja: membandingkan frekuensi/tingkat tindakan (食べる/使う/勉強する...).",
+    "notes": "Perbandingan berantai: AはBよりCより～ dapat menimbulkan ambiguitas; sebaiknya pisahkan kalimat atau gunakan 数値 agar jelas.\nDengan data angka, letakkan langsung:去年より3%増えた。\nMembandingkan diri sendiri berdasarkan waktu:前より/以前より/昔より +形容詞/動詞.",
+    "mistakes": [
+     "Tertukar posisi A/B: × BはAより… (artinya malah menjadi B lebih daripada A) → perhatikan \"AはBより…\".",
+     "Menggunakan を setelah より: × Aよりを… → より tidak digunakan bersama を; setelahnya adalah predikat.",
+     "Keliru dengan ほど dalam kalimat positif: × AはBほど高い → ほど digunakan dengan bentuk negatif dalam perbandingan lebih-kurang.",
+     "Menghilangkan のほうが saat menjawab kalimat tanya perbandingan membuat kalimat kurang alami dalam percakapan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "AはBより～",
+       "A lebih daripada B",
+       "Perbandingan positif",
+       "この<ruby>本<rt>ほん</rt></ruby>はあれより<ruby>厚<rt>あつ</rt></ruby>い。"
+      ],
+      [
+       "AはBほど～ない",
+       "A tidak menyamai B",
+       "Perbandingan negatif",
+       "<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大阪<rt>おおさか</rt></ruby>ほど<ruby>暑<rt>あつ</rt></ruby>くない。"
+      ],
+      [
+       "AのほうがBより～",
+       "A lebih daripada B",
+       "Menekankan pilihan A",
+       "<ruby>犬<rt>いぬ</rt></ruby>のほうが<ruby>猫<rt>ねこ</rt></ruby>より<ruby>好<rt>す</rt></ruby>きだ。"
+      ],
+      [
+       "AよりB",
+       "Inversi untuk menekankan B",
+       "Penekanan dalam bahasa lisan",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>より<ruby>遊<rt>あそ</rt></ruby>び？ (kritik)"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 64,
+   "src_hash": "e46b734de120ca87",
+   "fields": {
+    "name": "～よ　～lho, kok, loh",
+    "meaning": "～よ。　~lho/kok/loh.",
+    "connection": "[kalimat/klausa] + よ",
+    "examples": [
+     "A: Apakah kereta ini pergi ke Koshien?\nB: Tidak, tidak pergi. Kereta \"biasa\" berikutnya, lho."
+    ],
+    "explain": "～よ　menekankan suatu informasi kepada lawan bicara."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 65,
+   "src_hash": "9b69902a3737a77f",
+   "fields": {
+    "meaning": "yang A",
+    "examples": [
+     "A: Tas Karina-san yang mana?\nB: Yang merah dan besar itu."
+    ],
+    "explain": "Menggantikan kata benda yang sudah muncul sebelumnya.\n\nの～：yang ~"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 66,
+   "src_hash": "db415a6062a36cdb",
+   "fields": {
+    "name": "Penggunaan jumlah dan kata bantu bilangan",
+    "meaning": "Posisi kata bantu bilangan dalam kalimat: setelah Nを/が, sebelum V",
+    "connection": "～は + Nを/が/に + [jumlah] + V",
+    "examples": [
+     "A: Ada berapa botol bir di atas meja?\nB: Ada enam botol.",
+     "A: Ada berapa orang di ruang rapat?\nB: Ada empat orang."
+    ],
+    "explain": "Jumlah dan kata bantu bilangan selalu diletakkan setelah partikel."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 67,
+   "src_hash": "30d03ac920edc260",
+   "fields": {
+    "name": "Cara menggunakan frekuensi (berapa kali)",
+    "meaning": "Digunakan untuk menyatakan berapa kali melakukan suatu hal.\nなんかい：Berapa kali?",
+    "connection": "Jumlah + 回(かい)",
+    "examples": [
+     "Saya menonton film dua kali seminggu.",
+     "Nam-san pulang ke kampung halaman sebulan sekali."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 68,
+   "src_hash": "6434d4b0c8ebc7a1",
+   "fields": {
+    "name": "Penggunaan partikel untuk alat transportasi",
+    "meaning": "Naik kendaraan (kereta) ~\nTurun dari kendaraan (kereta) ~\nGanti kendaraan (kereta) dari ~ ke ~\n～を meninggalkan, keluar dari ~\n～に masuk ke dalam, naik ke atas ~",
+    "connection": "N(alat transportasi) + に + 乗ります / N + を + 降ります / N1 + から + N2 + に + 乗り換えます",
+    "examples": [
+     "Naik kereta.\nTurun dari kereta.\nGanti dari kereta ke bus."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 69,
+   "src_hash": "9724248010a31dd8",
+   "fields": {
+    "name": "N が A perasaan, tingkat",
+    "meaning": "N itu A (kata sifat yang menyatakan perasaan/tingkat: 頭がいい)",
+    "examples": [
+     "Saya tidak pandai kanji.",
+     "A: Anda tidak suka apa?\nB: Saya tidak suka rokok."
+    ],
+    "explain": "が： digunakan dengan kata sifat yang menyatakan perasaan dan tingkat."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 70,
+   "src_hash": "f29af46231fd46fb",
+   "fields": {
+    "name": "N1(orang/benda/tempat) の N2posisi",
+    "meaning": "Atas　した：Bawah\nDepan　うしろ：Belakang\nKanan　ひだり：　Kiri\nDalam　そと：Luar\nSamping\nSamping ( sejajar)\nDekat\nDi tengah",
+    "examples": [
+     "Rumah saya ada di dekat taman.",
+     "Miller-san ada di ruang rapat."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 71,
+   "src_hash": "2e0db41dcaaa5d79",
+   "fields": {
+    "meaning": "Partikel に menunjukkan tempat N1 di mana N2 berada setelah tindakan V dilakukan.",
+    "connection": "N1 (tempat) + に + N2 + を + V",
+    "examples": [
+     "Silakan parkir mobil di sini.",
+     "Silakan tulis alamat di sini."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 72,
+   "src_hash": "02612090166a3765",
+   "fields": {
+    "meaning": "detail dari keseluruhan",
+    "examples": [
+     "Di Hokkaido saljunya banyak.",
+     "A: Maria-san orangnya seperti apa?\nB: Matanya besar dan kulitnya putih.",
+     "A: Yumiko-san yang mana orangnya?\nB: Orang yang rambutnya hitam dan panjang itu, lho."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 73,
+   "src_hash": "02fde66aec831b93",
+   "fields": {
+    "meaning": "Ada ~, ada juga ~ (dan sebagainya)",
+    "examples": [
+     "Di dalam kamar ada televisi, kulkas, dan lain-lain.",
+     "Di supermarket saya membeli daging, telur, dan lain-lain."
+    ],
+    "explain": "Digunakan untuk menyebutkan beberapa kata benda.\nUntuk N terakhir, tidak digunakan や melainkan など sebagai penutup. など diletakkan sebelum partikel yang sesuai dengan kata kerja di akhir kalimat.\nや + など memberi kesan \"hanya contoh\", cocok ketika tidak perlu/tidak dapat menyebutkan semuanya.\nDalam percakapan, dapat hanya menggunakan や tanpa など jika daftarnya sudah jelas secara tersirat.\nなど diletakkan setelah daftar terakhir atau setelah satu butir saja untuk berarti \"misalnya\".\nTentang orang: hindari Nなど jika tidak ingin terdengar tidak sopan; \"先生など\" dapat terdengar merendahkan.",
+    "notes": "notes asli: \"NやNなどのN\" sering digunakan dalam judul/laporan: \"AやBなどの影響\".\n\"などと +言う/思う\" bernuansa kutipan disertai sikap meremehkan:彼が天才だなどと言う。 (menyiratkan keraguan).\nJika daftarnya panjang, dapat menggunakan \"などを中心に/などについて\".\nmeaning_vi: Partikel penghubung yang menghubungkan kata benda dengan kata benda lain. Digunakan untuk menyebutkan beberapa hal di antara banyak hal.\nexamples: 1. ①　秋葉原や　原宿。\nAkihabara dan Harajuku."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 74,
+   "src_hash": "0c8d185e3b943f0a",
+   "fields": {
+    "name": "Menggabungkan kalimat tunggal menjadi kalimat majemuk",
+    "meaning": "Kalimat majemuk: Vて/Aくて/Naで/Nで menghubungkan klausa-klausa dengan topik yang sama",
+    "examples": [
+     "Setiap hari saya bangun jam 6, sarapan, lalu pergi ke sekolah.",
+     "Saya karyawan perusahaan, dan Tanaka-san dokter.",
+     "Saya Hung, seorang pelajar.",
+     "Pohon ini panjang dan berat.",
+     "Tempat ini indah dan tenang."
+    ],
+    "explain": "Digunakan untuk membuat kalimat majemuk.\nUntuk V: Vて digunakan untuk menyebutkan urutan tindakan.Untuk N: Tidak hanya digunakan untuk kalimat dengan topik yang sama, tetapi juga dapat menghubungkan kalimat dengan topik yang berbeda.Untuk A: Hanya digunakan untuk menghubungkan kata sifat yang bermakna serupa."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 75,
+   "src_hash": "eb5ff4d2b06635d8",
+   "fields": {
+    "name": "Menghubungkan beberapa jenis benda dengan jumlah yang berbeda",
+    "meaning": "Menyebutkan beberapa jenis benda dengan jumlah yang berbeda (N1を…とN2を…)",
+    "connection": "～は + N1を/が + [jumlah] + と + N2を/が + [jumlah] + V",
+    "examples": [
+     "Di atas meja ada dua butir telur, sepotong roti, dan secangkir kopi.",
+     "A: Tolong beri saya dua buah apel dan tiga buah pisang.\nB: Baik, mengerti."
+    ],
+    "explain": "Partikel bergantung pada kata kerja di akhir kalimat."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 76,
+   "src_hash": "89e10acf50866ce8",
+   "fields": {
+    "meaning": "menggambarkan fenomena alam",
+    "examples": [
+     "Hujan sedang turun.",
+     "Miller-san tidak ada, ya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 77,
+   "src_hash": "b4fd7949fed263ea",
+   "fields": {
+    "meaning": "Partikel に menunjukkan tempat subjek berada setelah tindakan V dilakukan.",
+    "examples": [
+     "Tidak boleh masuk ke sini.",
+     "Bolehkah saya duduk di kursi ini?"
+    ],
+    "explain": "Kata kerja yang digunakan:\nNに～\nはいります masuk ke dalam N\nすわります duduk di N\nのります naik N (kendaraan, kereta)\nのぼります mendaki N (gunung)\nつきます tiba di N",
+    "notes": "meaning_vi: Bergerak ke N (NにV gerakan: 日本に行く)\nexplain: Partikel に menunjukkan tempat tujuan, digunakan sebagai pengganti partikel arah へ.\nKata kerja seperti いきます/きます/かえります/しゅっちょうします dapat menggunakan Nへ maupun Nに.\nexamples: 1. A: どこかで　財布を　落として　しまったんです。\nB: それは　大変ですね。すぐ　交番に　行かないと。\nSaya kehilangan dompet entah di mana.\nWah, gawat, ya. Harus segera pergi ke pos polisi."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 78,
+   "src_hash": "184eb2f81935f440",
+   "fields": {
+    "name": "Nは～にいます/あります N ada di ～",
+    "meaning": "N berada/ada di… (います untuk orang dan makhluk hidup, あります untuk benda)",
+    "connection": "N + は + N (tempat) + に + います / あります",
+    "examples": [
+     "A: Buku bahasa Jepang ada di mana?\nB: Ada di atas meja.",
+     "A: Kucingnya ada di mana?\nB: Ada di dalam kotak."
+    ],
+    "explain": "Digunakan untuk menekankan letak benda yang sudah diketahui oleh pembicara maupun lawan bicara."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 79,
+   "src_hash": "7b54ccb5d2831ec9",
+   "fields": {
+    "name": "Perbandingan setara",
+    "meaning": "sama, setara.",
+    "examples": [
+     "A-san kira-kira sama tingginya dengan B-san.",
+     "A-san seumur dengan B-san."
+    ],
+    "explain": "N 1 dan N 2 sama (dalam hal sifat atau ciri tertentu)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 80,
+   "src_hash": "68a03d699201b561",
+   "fields": {
+    "name": "Perbandingan kurang",
+    "meaning": "~ tidak sebanding dengan ~",
+    "examples": [
+     "Pisang tidak semahal apel.",
+     "A: Kamar A-san seperti apa?\nB: Kamar A-san tidak seluas kamar B-san."
+    ],
+    "explain": "ほど digunakan dengan akhiran kata bentuk negatif, bermakna N 1 tidak memiliki sifat A sebesar N 2 ."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 81,
+   "src_hash": "017b49ddc5160523",
+   "fields": {
+    "name": "Menjadikan objek sebagai topik",
+    "meaning": "Jika ingin menjadikan objek langsung dalam kalimat \"NをV\" sebagai topik pembicaraan, partikel を diganti dengan は dan Nは diletakkan di awal kalimat.",
+    "connection": "N + を + V → N + は + V (menjadikan objek sebagai topik)",
+    "examples": [
+     "Tolong jangan taruh barang di sini.\nBarangnya, tolong jangan ditaruh di sini.",
+     "Saya makan siang di kantin kantor.\nMakan siang, saya makan di kantin kantor."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 82,
+   "src_hash": "3da8df5e28bdf48c",
+   "fields": {
+    "meaning": "Ingin melakukan sesuatu",
+    "examples": [
+     "Saya ingin pergi ke Jepang.",
+     "Anda ingin makan apa?",
+     "Hari ini saya tidak ingin pulang cepat.",
+     "Waktu kecil, saya ingin memelihara anjing.",
+     "Dia ingin sekali membeli smartphone baru.",
+     "Saya ingin minum air."
+    ],
+    "explain": "Bentuk sopan dasar dalam komunikasi sehari-hari; kepada atasan/pelanggan, gunakan ～たいと思っております／～させていただきたいです agar lebih halus.\nMenanyakan keinginan lawan bicara: ～たいですか／何が～たいですか; lebih formal: ～たいでしょうか／～たいですかね.\nMenekankan keinginan yang menetap: ～たいと思っています (niat yang sudah terbentuk); ringan dan spontan: ～たいです.\nDalam kalimat majemuk: dapat digunakan sebelum から・ので・けど untuk menyatakan alasan/usulan:早く帰りたい ので、先に失礼します。\n\nMenyatakan keinginan atau niat subjektif pembicara \"ingin melakukan V\"; sopan dengan です.\nBatasan subjek: biasanya untuk orang pertama; boleh untuk bertanya kepada orang kedua; untuk orang ketiga gunakan ～たがる／～たがっています agar objektif.\nSifat gramatikal: ～たい adalah kata sifat い, berkonjugasi seperti kata sifat い (たくない・たかった...).\nPartikel: objek sering berubah dari を → が saat menekankan keinginan terhadap sasaran tersebut.\nNuansa: langsung, alami; lebih formal gunakan ～たいと思っています／～たいと考えています.",
+    "notes": "Tidak alami jika menyatakan keinginan kuat secara langsung kepada atasan: \"休みたいです\" → pertimbangkan \"体調が優れないので、お休みをいただきたいです\"。\nHindari \"～たいですと思います\" (makna berulang); cukup gunakan \"～たいと思います\".\nKata benda + する: Nを/が＋したい (勉強をしたい／勉強がしたい) keduanya benar; が menekankan keinginan.\nSaat menanyakan kesukaan secara umum:何がしたい？ (santai) sebagai ganti 何をしたい？ agar terdengar alami.",
+    "mistakes": [
+     "Digunakan langsung untuk orang ketiga: ×彼は帰りたいです → ◯彼は帰りたがっています.",
+     "Keliru partikel: ×水を飲みたい (tidak salah) tetapi lebih alami saat bertanya/menjawab tentang kesukaan:水が飲みたい.",
+     "Konjugasi salah seperti kata benda/kata sifat な: ×行きたいですな → ◯行きたいです.",
+     "Tercampur dengan 欲しい: ×食べ物がたい → ◯食べ物がほしい／寿司を食べたい.",
+     "JLPT: sering menguji konjugasi たい seperti kata sifat い dan membedakan ～たい vs ～たがる."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vたい",
+       "Ingin melakukan",
+       "Orang pertama/kedua; subjektif",
+       "<ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたい。"
+      ],
+      [
+       "Vたがる／Vたがっている",
+       "Tampaknya ingin",
+       "Menggambarkan orang ketiga, berdasarkan pengamatan",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>帰<rt>かえ</rt></ruby>りたがっている。"
+      ],
+      [
+       "Vてみたい",
+       "Ingin mencoba melakukan",
+       "Menekankan \"mencoba\"",
+       "<ruby>食<rt>た</rt></ruby>べてみたい。"
+      ],
+      [
+       "Nがほしい",
+       "Ingin memiliki (kata benda)",
+       "Sasarannya kata benda, bukan tindakan",
+       "<ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>がほしい。"
+      ],
+      [
+       "Vたいと<ruby>思<rt>おも</rt></ruby>う／と<ruby>思<rt>おも</rt></ruby>っている",
+       "Niat, keinginan",
+       "Sopan, mengobjektifkan niat",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>したいと<ruby>思<rt>おも</rt></ruby>っています。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 84,
+   "src_hash": "fc146d3c5f0f9dcc",
+   "fields": {
+    "meaning": "harus ~",
+    "examples": [
+     "Besok ada ujian, jadi malam ini saya harus belajar.",
+     "Karena sakit, saya harus minum obat."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 86,
+   "src_hash": "59f1b36918c5bf0f",
+   "fields": {
+    "meaning": "Tidak begitu…",
+    "connection": "あまり + [predikat negatif] (Vません / Aくない / Naではない / Nがない)",
+    "examples": [
+     "Waktunya tidak banyak.",
+     "Film ini tidak begitu menarik.",
+     "Saya tidak begitu banyak makan daging.",
+     "Bahasa Jepang tidak begitu sulit.",
+     "Di sini tidak banyak orang.",
+     "Kemarin saya tidak banyak belajar."
+    ],
+    "explain": "Digunakan untuk memperlunak tingkat negatif, sopan dalam komunikasi.\nDengan kata sifat な: ではありません (sopan), じゃない (santai).\nDengan kata benda yang menyatakan jumlah: Nが/は あまり ありません untuk menyatakan \"tidak banyak …\".\nTidak digunakan untuk penekanan mutlak. Untuk menekankan \"hampir tidak\", gunakan ほとんど～ない.\n\nMenyatakan tingkat/durasi/frekuensi yang LEBIH RENDAH dari yang diharapkan: \"tidak begitu …/tidak banyak …\".\nWajib disertai bentuk negatif: ありません／ない. Penggunaan bentuk positif salah untuk arti ini.\nCakupan: berlaku untuk kata kerja (perilaku, frekuensi), kata sifat (tingkat), kata benda yang menyatakan jumlah/keberadaan.\nNuansa lembut, netral; bukan negasi total (berbeda dengan 全然～ない: \"sama sekali tidak\").\nVarian bunyi bahasa lisan: あんまり (santai). Sopan: ～ません／～ではありません.",
+    "notes": "Dalam bahasa lisan, bunyi あまり dapat sedikit hilang sebelum ない: \"あまり食べない → まり食べない\" (tidak dianjurkan dalam ujian).\nDengan kata sifat い, bentuk くない maupun くありません keduanya benar; pilih sesuai tingkat kesopanan.\nDengan kata bantu bilangan/counters:数はあまり多くない(jumlahnya tidak banyak) → lebih alami jika ditambahkan kata penilaian 多く/少なく.",
+    "mistakes": [
+     "Menggunakan bentuk positif setelah あまり: × あまり食べます → seharusnya ○ あまり食べません.",
+     "Lupa mengubah akhiran kata sifat い: × あまり高いない → ○ あまり高くない.",
+     "Tertukar dengan 全然/ほとんど dalam hal tingkat negatif; pilihan yang salah membuat nuansanya salah.",
+     "Salah partikel untuk keberadaan: ×人はあまりありません → orang adalah makhluk hidup → いません."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "あまり～ない／ありません",
+       "Tidak begitu/tidak banyak …",
+       "Negatif ringan",
+       "<ruby>今日<rt>きょう</rt></ruby>はあまり<ruby>寒<rt>さむ</rt></ruby>くない。"
+      ],
+      [
+       "そんなに～ない",
+       "Tidak … sampai sebegitu",
+       "Membandingkan dengan tingkat yang diharapkan/disebut sebelumnya",
+       "この<ruby>本<rt>ほん</rt></ruby>はそんなに<ruby>難<rt>むずか</rt></ruby>しくない。"
+      ],
+      [
+       "ほとんど～ない",
+       "Hampir tidak",
+       "Lebih kuat daripada あまり",
+       "<ruby>彼<rt>かれ</rt></ruby>はほとんどテレビを<ruby>見<rt>み</rt></ruby>ない。"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない",
+       "Sama sekali tidak",
+       "Negasi kuat, bahasa lisan yang tegas",
+       "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>全然<rt>ぜんぜん</rt></ruby>わからない。"
+      ],
+      [
+       "あんまり～ない",
+       "Bentuk bahasa lisan dari あまり",
+       "Santai",
+       "あんまり<ruby>忙<rt>いそが</rt></ruby>しくないよ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 87,
+   "src_hash": "18c46be64d0ca163",
+   "fields": {
+    "meaning": "Berapa (buah, umur)",
+    "examples": [
+     "Ada berapa buah apel?",
+     "Anda sudah makan berapa potong kue?",
+     "Anda membeli berapa buah jeruk?",
+     "Maaf, berapa umur Anda?",
+     "Di sini ada berapa kotak?",
+     "Saya punya beberapa pertanyaan."
+    ],
+    "explain": "Ramah, netral; dalam situasi sopan atau sensitif (menanyakan umur), gunakan おいくつですか dan tambahkan pembuka 失礼ですが.\nJika perlu satuan yang tepat, gunakan 何＋counter: ビンは何本ですか。\nDalam bahasa tulis, いくつか bernuansa \"beberapa\" yang lembut, tidak terlalu pasti jumlahnya.\n\nいくつ menanyakan jumlah yang tidak tentu, biasanya untuk benda kecil yang dapat dihitung langsung.\nDapat digunakan sebagai pengganti 何＋counter dalam komunikasi dasar; namun dengan satuan khusus (本、枚、冊…),何＋counter lebih alami.\nおいくつですか digunakan secara sopan untuk menanyakan umur (terutama kepada orang yang lebih tua).\nいくつか (kata benda) berarti \"beberapa, sejumlah\".",
+    "notes": "Jika jumlahnya besar/tidak dihitung langsung, ganti dengan どのくらい/どれくらい: どのくらい買いましたか。\nSebaiknya hindari menanyakan umur secara langsung dalam situasi yang tidak perlu; jika terpaksa, gunakan おいくつですか agar sopan.\nDalam jawaban, gunakan 数字＋counter atau angka saja: 3つ／三つ (baik angka kanji maupun bilangan asli Jepang sama-sama boleh di N5).",
+    "mistakes": [
+     "Tertukar dengan いくら (harga): × これはいくつですか → ○ これはいくらですか。",
+     "Lupa menggunakan counter saat diperlukan: × ペンはいくつですか (ambigu) → ○ ペンは何本ですか。",
+     "Menggunakan いくつ untuk menanyakan umur orang yang lebih tua sehingga kurang sopan; sebaiknya gunakan おいくつですか／何歳ですか."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Penggunaan",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "いくつ",
+       "Menanyakan jumlah secara umum",
+       "Tidak menyebut satuan",
+       "<ruby>卵<rt>たまご</rt></ruby>はいくつありますか。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>＋counter",
+       "Menanyakan berdasarkan satuan",
+       "Tepat dalam jenis satuan",
+       "<ruby>卵<rt>たまご</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>個<rt>こ</rt></ruby>ですか。"
+      ],
+      [
+       "<ruby>何<rt>なん</rt></ruby><ruby>歳<rt>さい</rt></ruby>",
+       "Menanyakan umur",
+       "Netral",
+       "あなたは<ruby>何<rt>なん</rt></ruby><ruby>歳<rt>さい</rt></ruby>ですか。"
+      ],
+      [
+       "おいくつ",
+       "Menanyakan umur dengan sopan",
+       "Hormat",
+       "<ruby>失礼<rt>しつれい</rt></ruby>ですが、おいくつですか。"
+      ],
+      [
+       "いくら",
+       "Menanyakan harga",
+       "Artinya sama sekali berbeda",
+       "これはいくらですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 88,
+   "src_hash": "1d8559ba791663db",
+   "fields": {
+    "meaning": "Suatu hari nanti",
+    "connection": "いつか + [kalimat/klausa]",
+    "examples": [
+     "Suatu hari nanti saya ingin pergi ke Jepang.",
+     "Suatu hari nanti saya akan memiliki toko sendiri.",
+     "Suatu saat nanti saya ingin membeli rumah.",
+     "Saya menemukan foto dari suatu hari (dulu).",
+     "Suatu hari nanti saya akan menepati janji itu.",
+     "Suatu hari nanti mari kita bertemu."
+    ],
+    "explain": "Memberi kesan samar tetapi positif; sering digunakan bersama きっと／必ず untuk memperkuat komitmen.\nいつかの digunakan untuk membicarakan suatu hari yang tidak pasti di masa lampau, yang secara tersirat sama-sama diketahui oleh pembicara dan lawan bicara.\nDalam pernyataan tujuan jangka panjang, いつかは diletakkan sebelum topik untuk menekankan \"cepat atau lambat …\".\n\nMenunjukkan titik waktu yang tidak pasti di masa depan (umumnya) atau masa lampau (jika menggunakan いつかの). Terjemahan: \"suatu hari nanti\".\nBernuansa harapan/impian/arah jangka panjang jika digunakan dengan ～たい, ～つもり, ～ます.\nいつかは berarti \"pada akhirnya juga …\", menekankan keniscayaan tetapi tidak jelas kapan.\nTidak digunakan untuk menanyakan \"kapan\"; untuk itu gunakan いつ (pertanyaan).",
+    "notes": "Jika ingin membuat tujuan lebih konkret, tambahkan penanda waktu yang samar:将来/いつの日か日本で働きたい。\nHindari penggunaan berlebihan dalam jadwal yang memerlukan komitmen waktu; いつか terlalu samar sehingga dapat dianggap menghindar.\nDalam bahasa lisan, いつかさ… dapat digunakan untuk membuka cerita lama/mengenang (kasual).",
+    "mistakes": [
+     "Tertukar dengan kata tanya いつ (kapan): × いつか来ますか (ambigu) ketika memerlukan jadwal yang pasti → ○ いつ来ますか。",
+     "Menggunakan いつか dalam konteks yang memerlukan janji waktu yang jelas (soal mendengarkan) → jebakan; pilihan \"tidak pasti\" lebih tepat.",
+     "Tertukar いつも/いつでも dengan いつか karena sama-sama mengandung いつ: perhatikan arti frekuensi vs titik waktu yang samar."
+    ],
+    "comparison": {
+     "headers": [
+      "Kata/Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "いつか",
+       "Suatu hari nanti",
+       "Samar tentang titik waktu",
+       "いつか<ruby>留学<rt>りゅうがく</rt></ruby>したい。"
+      ],
+      [
+       "そのうち",
+       "Sebentar lagi, tidak lama lagi",
+       "Lebih dekat daripada いつか",
+       "そのうち<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "いつも",
+       "Selalu",
+       "Menunjukkan frekuensi, bukan titik waktu yang samar",
+       "いつも<ruby>忙<rt>いそが</rt></ruby>しいです。"
+      ],
+      [
+       "いつでも",
+       "Kapan saja",
+       "Tersedia setiap saat",
+       "いつでも<ruby>連絡<rt>れんらく</rt></ruby>してください。"
+      ],
+      [
+       "いずれ",
+       "Nanti pasti, cepat atau lambat",
+       "Lebih formal daripada いつか",
+       "いずれ<ruby>分<rt>わ</rt></ruby>かります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 89,
+   "src_hash": "592c4566b7b719d6",
+   "fields": {
+    "meaning": "Kapan saja",
+    "connection": "いつでも + V (positif)",
+    "examples": [
+     "Kalau ada apa-apa, silakan hubungi saya kapan saja.",
+     "Saya bisa pergi kapan saja.",
+     "Toko ini selalu buka kapan saja.",
+     "Kalau Anda kesulitan, saya akan membantu kapan saja.",
+     "Pertanyaan boleh diajukan kapan saja."
+    ],
+    "explain": "Digunakan untuk menunjukkan fleksibilitas:予約は いつでも 変更できます (Reservasi dapat diubah kapan saja).\nSopan/mendorong: いつでもどうぞ／いつでもお越しください terdengar ramah dan hangat.\nDalam iklan/layanan: サポートは いつでも OK (layanan 24/7).\nJarang digunakan dengan negatif langsung; jika negatif, artinya biasanya bergeser agar lebih alami: いつでもは行けません (tidak selalu saya bisa pergi) alih-alih negasi total.\n\nArti utama: \"kapan saja\", menunjukkan kemampuan/kesediaan/izin pada setiap saat.\nNuansa sopan: sering digunakan saat menawarkan, mengundang, atau membicarakan fleksibilitas waktu.\nBerbeda dengan \"いつも\": いつでも = \"kapan pun boleh (pilihan)\"; いつも = \"selalu (kebiasaan/frekuensi)\".\nSering digunakan dengan kata kerja kemampuan/ketersediaan:行ける,会える,使える,開いている,連絡する,手伝う.\nSering digunakan dalam undangan/layanan: いつでもどうぞ／いつでもお越しください。",
+    "notes": "Kombinasi \"Xでも\" membentuk rangkaian universal: いつでも・どこでも・だれでも・なんでも.\nDalam bahasa lisan, \"いつでもOK\" adalah ungkapan lisan; yang lebih formal: \"いつでも結構です／差し支えありません\".\nSering digunakan dengan syarat ringan:困ったら、いつでも～ /必要なら、いつでも～.",
+    "mistakes": [
+     "Tertukar dengan いつも: いつでもは行きます (arti salah) → いつも行きます (saya selalu pergi).",
+     "Menggunakan negasi total sehingga tidak alami: × いつでも行けません → いつでもは行けません (tidak selalu bisa pergi).",
+     "Posisi: sebaiknya diletakkan tepat sebelum kata kerja/predikat; hindari menyisipkannya di tengah frasa nomina yang panjang karena menimbulkan ambiguitas.",
+     "Makna iklan \"24/7\" menggunakan いつでも; kebiasaan/frekuensi harus menggunakan いつも."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "いつでも",
+       "Kapan saja (tersedia)",
+       "Menekankan \"kapan pun boleh\"",
+       "いつでも <ruby>来<rt>き</rt></ruby>ていい"
+      ],
+      [
+       "いつも",
+       "Selalu, sering",
+       "Kebiasaan/frekuensi, bukan \"kapan pun\"",
+       "いつも <ruby>早起<rt>はやお</rt></ruby>きする"
+      ],
+      [
+       "いつか",
+       "Suatu saat (masa depan yang samar)",
+       "Bukan \"kapan saja\" melainkan \"suatu hari nanti\"",
+       "いつか <ruby>日本<rt>にほん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたい"
+      ],
+      [
+       "いつでもいい／<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>",
+       "Kapan pun boleh",
+       "Ungkapan penilaian/izin, sopan",
+       "<ruby>時間<rt>じかん</rt></ruby>は いつでもいいです"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 90,
+   "src_hash": "75a5fe26f55e3dbc",
+   "fields": {
+    "meaning": "Selalu",
+    "connection": "いつも + [kalimat/klausa]",
+    "examples": [
+     "Saya selalu bangun jam 7.",
+     "Dia selalu sehat dan bersemangat.",
+     "Biasanya saya tidak pergi naik bus, tetapi hari ini saya naik bus.",
+     "Dia selalu tidak minum kopi.",
+     "Toko ini selalu ramai."
+    ],
+    "explain": "Frekuensi sangat tinggi: hampir setiap kali. Jika hanya \"sering\", pertimbangkan よく／たいてい.\n\"いつもは\" + perbedaan saat ini: membuka kerangka perbandingan.\nSaat mengeluh, いつも dapat bernuansa mencela:彼は いつも 遅れる (selalu terlambat).\n\nArti: \"selalu/sering\", menunjukkan frekuensi tinggi (hampir setiap kali).\n\"いつもは\" digunakan untuk menyebutkan kebiasaan umum lalu mempertentangkannya dengan situasi saat ini.\nDapat digunakan dengan bentuk positif maupun negatif: いつも行く／いつも行かない.\nNuansa akrab/standar, cocok untuk bahasa tulis maupun lisan.",
+    "notes": "Kombinasi sopan: いつもありがとうございます (Terima kasih atas dukungan Anda selama ini).\nMenekankan perbedaan:今日はいつもより寒い (Hari ini lebih dingin daripada biasanya).\nDalam surat/bisnis:平素（へいそ）より＝ふだんより (maknanya dekat dengan \"いつも\").",
+    "mistakes": [
+     "Tertukar dengan いつでも (ketersediaan) → pilih sesuai arti: frekuensi vs waktu pilihan.",
+     "Posisi: letakkan いつも sebelum predikat; hindari menyisipkannya di antara subjek dan partikel penting karena menimbulkan ambiguitas.",
+     "Nuansa keluhan: いつも + hal negatif dapat terdengar mencela."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "いつも",
+       "Selalu, sering",
+       "Menekankan frekuensi tinggi",
+       "いつも <ruby>忙<rt>いそが</rt></ruby>しい"
+      ],
+      [
+       "よく",
+       "Sering",
+       "Frekuensi cukup tinggi tetapi tidak \"selalu\"",
+       "よく <ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "たいてい",
+       "Pada umumnya, biasanya",
+       "Netral, kurang kuat dibanding いつも",
+       "たいてい <ruby>家<rt>いえ</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "ふだん",
+       "Biasanya, sehari-hari",
+       "Kata benda/kata keterangan tentang kebiasaan sehari-hari",
+       "ふだんは <ruby>早寝<rt>はやね</rt></ruby>です"
+      ],
+      [
+       "いつでも",
+       "Kapan saja",
+       "Ketersediaan/izin, bukan frekuensi",
+       "いつでも <ruby>来<rt>き</rt></ruby>ていい"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

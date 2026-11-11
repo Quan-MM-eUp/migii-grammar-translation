@@ -1,0 +1,445 @@
+{
+ "batch": "b017",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 250,
+   "src_hash": "460e465fff95a17f",
+   "fields": {
+    "meaning": "Hanya… / Tidak ada selain… | hanya, hanya ada ~",
+    "examples": [
+     "Saya hanya bisa mengenal dia melalui karya-karyanya.",
+     "Tidak ada waktu juga, jadi tidak ada cara lain selain meminta tolong kepadanya.",
+     "Uangnya hanya tersisa 100 yen.",
+     "Ini adalah produk terbatas yang hanya bisa dibeli di sini.",
+     "Hari ini tidak ada waktu, jadi saya hanya bisa makan di minimarket.",
+     "Ini rahasia yang hanya dia yang tahu."
+    ],
+    "explain": "しか diletakkan setelah kata benda/kata bilangan/kata ganti penunjuk tempat, sebelum kata kerja bentuk negatif.\nPertahankan partikel relasi sebelum しか bila perlu:日本 でしか 見られ ない ,今日 までにしか でき ない .\nBerbeda dengan だけ: だけ netral, sedangkan しか memiliki nuansa \"selain itu tidak ada lagi\".\nV-辞書形+ しかない menyatakan keterpaksaan.\n\n• Pembatasan cakupan: \"hanya … dan tidak … (selain itu tidak ada)\".\n• Nuansanya lebih kuat daripada だけ: しか menekankan rasa kurang/tidak puas.\n• V-辞書形 + しかない memiliki arti idiomatis \"tidak ada cara lain selain …\".\n• Wajib digunakan dengan bentuk negatif (ない/ありません/できない…), tidak digunakan dengan bentuk positif.",
+    "notes": "• Subjek sering dihilangkan dalam percakapan: これしかない（hanya tinggal ini）.\n• Untuk orang/hewan: ～しかいない digunakan dengan sangat alami: 会場にはスタッフしかいない。\n• Tekankan pembatasan dengan \"たった/わずか + 数量 + しか + ない\".",
+    "mistakes": [
+     "Menggunakan bentuk positif dengan しか: 水しか飲む（salah）→ 水しか飲まない.",
+     "Salah posisi partikel: 水をしか飲まない（を berlebih）→ 水しか飲まない.",
+     "Tertukar dengan \"だれも～ない\": tidak digunakan \"だれしか～ない\"; yang benar adalah だれもいない／彼しかいない.",
+     "Lupa mempertahankan partikel relasi: ここしか買えない（ambigu）→ ここでしか買えない."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "N だけ V",
+       "Hanya ~ (netral)",
+       "Tidak wajib bentuk negatif; nuansanya lebih ringan.",
+       "<ruby>水<rt>みず</rt></ruby>だけ<ruby>飲<rt>の</rt></ruby>む。"
+      ],
+      [
+       "ほかに～ない",
+       "Tidak ada … lain",
+       "Ungkapan dengan arti setara, strukturnya berbeda.",
+       "ほかに<ruby>方法<rt>ほうほう</rt></ruby>がない。"
+      ],
+      [
+       "～ほか（は）～ない",
+       "Selain … tidak ada …",
+       "Lebih bersifat bahasa tulis formal.",
+       "<ruby>彼<rt>かれ</rt></ruby>ほかに<ruby>頼<rt>たよ</rt></ruby>れる<ruby>人<rt>ひと</rt></ruby>はない。"
+      ],
+      [
+       "～ざるを<ruby>得<rt>え</rt></ruby>ない",
+       "Terpaksa/mau tidak mau harus",
+       "Keterpaksaan tinggi, tidak bermakna \"hanya\".",
+       "<ruby>出発<rt>しゅっぱつ</rt></ruby>を<ruby>延期<rt>えんき</rt></ruby>せざるを<ruby>得<rt>え</rt></ruby>ない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 251,
+   "src_hash": "afbd445271fbc226",
+   "fields": {
+    "meaning": "Selain ~ juga ~",
+    "connection": "V/A bentuk biasa + し / N・Na + だし",
+    "examples": [
+     "Jaraknya jauh, barang bawaannya juga berat, jadi saya lelah.",
+     "Tadi malam udaranya panas, tetangga sebelah juga berisik, jadi saya tidak bisa tidur nyenyak."
+    ],
+    "explain": "◎ 「し」digunakan seperti dalam「忙しいですし」atau「お金もありません」ketika menyebutkan secara berurutan hal-hal yang memiliki sifat yang sama.",
+    "notes": "meaning_vi: Selain… juga…, lagi pula…\nexplain: Saat membujuk/memberi alasan, letakkan unsur yang paling kuat di akhir rangkaian untuk mengarah ke kesimpulan.\nDalam gaya formal, bagian akhir dapat diganti dengan ～上に／さらに agar lebih runtut.\nHindari menggunakan terlalu banyak klausa し dalam satu kalimat panjang.\nexamples: 1. このアプリは無料だし、使いやすいし、おすすめです。\nAplikasi ini gratis, mudah digunakan, saya merekomendasikannya.\n2. 駅に近いし、静かだし、ここに住みたい。\nSelain dekat stasiun, juga tenang, saya ingin tinggal di sini.\n3. 今日は雨だし、寒いし、家にいよう。\nHari ini hujan, dingin pula, di rumah saja.\n4. 時間もないし…また今度。\nWaktunya juga tidak ada… lain kali saja ya.",
+    "mistakes": [
+     "Menghilangkan だ pada な形容詞/N: ×便利し → 便利だし.",
+     "Tertukar dengan ～て untuk menyatakan alasan. JLPT sering meminta memilih し ketika diperlukan \"beberapa alasan\".",
+     "Mengakhiri kalimat dengan し dalam bahasa tulis formal bisa kurang runtut jika tidak ada kesimpulan yang jelas."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "～し",
+       "Penyebutan alasan",
+       "Lembut, percakapan",
+       "<ruby>安<rt>やす</rt></ruby>いし、<ruby>速<rt>はや</rt></ruby>いし"
+      ],
+      [
+       "～て、～て",
+       "Rangkaian tindakan",
+       "Tidak bermakna \"alasan\"",
+       "<ruby>食<rt>た</rt></ruby>べて、<ruby>寝<rt>ね</rt></ruby>て"
+      ],
+      [
+       "～<ruby>上<rt>じょう</rt></ruby>に",
+       "Lagi pula",
+       "Formal, bersifat menambah tingkat",
+       "<ruby>便利<rt>べんり</rt></ruby>な<ruby>上<rt>うえ</rt></ruby>に<ruby>安<rt>やす</rt></ruby>い"
+      ],
+      [
+       "～たり",
+       "Penyebutan contoh representatif",
+       "Bukan alasan",
+       "<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たりする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 252,
+   "src_hash": "af07c1965e8e790a",
+   "fields": {
+    "meaning": "Pernah…",
+    "examples": [
+     "Saya pernah mendengar lagu ini.",
+     "Apakah Anda pernah mendaki Gunung Fuji?",
+     "Waktu SMA, saya pernah belajar di Amerika selama 1 tahun.",
+     "\"Apakah Anda tahu lagu ini?\" \"Ya, saya pernah mendengarnya sekali sebelumnya.\"",
+     "Saya belum pernah melihat salju sekali pun.",
+     "Kamu pernah mendaki Gunung Fuji?"
+    ],
+    "explain": "Sering disertai kata yang menunjukkan jumlah kali:一度／何回も／数回／一回も…ない untuk memperjelas frekuensi pengalaman.\nBentuk sopan: 〜たことが あります ／〜たことが ありません .\nSaat menanyakan pengalaman: 〜たことが ありますか ？ adalah pola yang sopan dan netral.\n\n• Vたことがある menyatakan pengalaman di masa lampau tanpa titik waktu yang spesifik, menekankan \"pernah atau belum\".\n• Bentuk negatif: Vたことがない = sama sekali belum pernah mengalami hal tersebut.\n• Tidak digunakan untuk peristiwa yang terlalu spesifik/titik waktu yang jelas (昨日/先週…) karena bertentangan dengan sifat \"tanpa titik waktu\".\n• Berbeda dengan Vた biasa: Vた menceritakan satu kejadian yang telah terjadi (bisa disertai waktu); Vたことがある menekankan pengalaman pernah melakukan.",
+    "notes": "• Menambahkan rentang waktu yang luas tetap bisa: 子どものころに、海外へ行ったことがある (rentang masa kecil, bukan titik waktu spesifik).\n• Dengan もう/まだ: もう行ったことがあります (sudah pernah)／まだ行ったことがありません (masih belum pernah).\n• Dalam percakapan alami, ことが sering dihilangkan: 食べたことある？ (bahasa lisan).",
+    "mistakes": [
+     "Menyertakan titik waktu spesifik: \"昨日富士山に登ったことがある\" (tidak alami) → \"昨日登った\" atau \"富士山に登ったことがある\".",
+     "Tertukar dengan kebiasaan: \"よく行く\" ≠ \"行ったことがある\". Yang satu menyatakan sering, yang satu lagi pengalaman pernah.",
+     "Menghilangkan こと sehingga tidak sesuai dalam bahasa tulis yang formal: \"食べたことある\" adalah bahasa lisan, JLPT menuntut bentuk lengkap.",
+     "Negasi ganda yang salah: \"一度も行ったことありません\" (benar), bukan \"一度も行ったことないです\" dalam bahasa standar ujian (sebaiknya tingkat kesopanannya seragam)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vたことがある",
+       "Pernah (pengalaman)",
+       "Tanpa titik waktu spesifik",
+       "<ruby>寿司<rt>すし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたことがある"
+      ],
+      [
+       "Vた",
+       "Sudah melakukan (lampau)",
+       "Bisa disertai titik waktu spesifik",
+       "<ruby>昨日<rt>きのう</rt></ruby><ruby>寿司<rt>すし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた"
+      ],
+      [
+       "Vることがある",
+       "Kadang-kadang",
+       "Kebiasaan/frekuensi",
+       "<ruby>遅<rt>おく</rt></ruby>れることがある"
+      ],
+      [
+       "<ruby>経験<rt>けいけん</rt></ruby>がある",
+       "Punya pengalaman",
+       "Kata benda + がある",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>がある"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 253,
+   "src_hash": "9687c9915ab70062",
+   "fields": {
+    "meaning": "Sebaiknya…",
+    "examples": [
+     "Besok harus pagi-pagi, jadi sebaiknya kamu tidur sekarang.",
+     "Sebaiknya tidak makan terlalu banyak sebelum tidur.",
+     "Kalau sakit kepala, sebaiknya hari ini kamu tidur lebih awal.",
+     "Menurut saya, urusan itu sebaiknya dikonsultasikan dengan atasan.",
+     "Sebaiknya Anda tidak bekerja terlalu memaksakan diri.",
+     "Kalau antara bahasa Inggris dan bahasa Jepang, lebih baik menulis dalam bahasa Jepang."
+    ],
+    "explain": "Nasihat dengan tingkat sedang dan ramah; dalam konteks sopan dapat digunakan ～ほうがよい/よろしいです.\nHindari menggunakannya secara langsung kepada atasan/pelanggan jika tidak diminta; ganti dengan saran yang lembut: ～てはいかがでしょうか, ～たらいかがですか.\nTidak digunakan untuk aturan/norma yang tegas (gunakan ～べきだ/～ねばならない).\n\n• Memberikan nasihat atau rekomendasi yang bersifat pribadi/berdasarkan pengalaman.\n• Positif: V-たほうがいい; Negatif: V-ないほうがいい (lebih umum daripada V-なかったほうがいい).\n• V-るほうがいい digunakan saat membandingkan dua pilihan secara objektif, tidak selalu berupa nasihat langsung.\n• Tingkat kekuatan: ～たほうがいい < ～べきだ (kuat, normatif) / lebih lembut: ～たらどう/～たらいい.\n• Biasanya digunakan dalam kala sekarang; subjek tersiratnya adalah \"Anda/saya/kita\".",
+    "notes": "• Dalam percakapan, tambahkan よ/ね/よね untuk mengatur tingkat keakraban dan keyakinan.\n• Hindari V-なかったほうがいい (tidak alami); gunakan V-ないほうがいい.\n• Untuk kata benda/pilihan, gunakan ～にしたほうがいい untuk merekomendasikan pilihan: Aにしたほうがいい。",
+    "mistakes": [
+     "Menggunakan V-るほうがいい sebagai nasihat umum → untuk nasihat yang positif, utamakan V-たほうがいい.",
+     "Menggunakannya dengan subjek yang tidak sesuai dengan konteks sosial (berbicara langsung kepada atasan) → kurang sopan.",
+     "Tertukar dengan ～べきだ: jika soal meminta tingkat rekomendasi yang lembut, pilih ～たほうがいい."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Nuansa",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "V-たほうがいい",
+       "Nasihat",
+       "Pribadi, lembut",
+       "<ruby>早<rt>はや</rt></ruby>めに<ruby>行<rt>い</rt></ruby>ったほうがいい。"
+      ],
+      [
+       "V-ないほうがいい",
+       "Sebaiknya tidak",
+       "Negatif, nasihat untuk menghindari",
+       "<ruby>夜<rt>よる</rt></ruby><ruby>更<rt>ふ</rt></ruby>かししないほうがいい。"
+      ],
+      [
+       "V-たらいい/どう",
+       "Saran",
+       "Lebih lembut, terbuka",
+       "<ruby>医者<rt>いしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったらどう？"
+      ],
+      [
+       "V-るほうがいい",
+       "Perbandingan",
+       "Belum tentu nasihat",
+       "<ruby>車<rt>くるま</rt></ruby>より<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>くほうがいい。"
+      ],
+      [
+       "V-べきだ",
+       "Sebaiknya/Harus",
+       "Kuat, normatif",
+       "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まも</rt></ruby>るべきだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 254,
+   "src_hash": "308d842cc06bb739",
+   "fields": {
+    "meaning": "Menunjukkan alasan dari suatu hal.",
+    "examples": [
+     "Demi kesehatan, saya berlari setiap hari.",
+     "Saya sedang belajar dengan giat supaya kelak bisa menjadi dokter.",
+     "Saya sulit sekali menghafal kanji. Karena itu, untuk menghafalnya saya berlatih dengan menulisnya berkali-kali.",
+     "Ayah saya bekerja dengan giat demi keluarga.",
+     "Ini adalah kamus untuk orang yang belajar bahasa Jepang.",
+     "Saya tidak ingin bekerja demi perusahaan. Saya bekerja demi diri sendiri."
+    ],
+    "notes": "Catatan:\n「ために」の前に,可能形、ナイ形など使えない。\nSebelum 「ために」tidak dapat digunakan kata kerja bentuk potensial maupun kata kerja bentuk ない。\n1.  X日本語が話せるために、毎日練習します。　→日本語が話せるように～\nX Supaya dapat berbicara bahasa Jepang, setiap hari berlatih. → Supaya bisa berbicara bahasa Jepang…\n2.  X　かぜをひかないために、注意してください。　→　かぜをひかないように～(→　N3)\nX Supaya tidak masuk angin, berhati-hatilah. → Supaya tidak masuk angin…\n◎ Pola kalimat yang menyatakan sebab dan alasan. Digunakan dengan bentuk biasa kata kerja dan「N＋の」.\n1. かぜを 引いたため、昨日は 休みました。\nKarena masuk angin, kemarin saya tidak masuk.\n2. 大雪の ため、電車が 止まって います。\nKarena salju lebat, kereta berhenti beroperasi.\nLebih formal daripada ので/から saat menyatakan sebab; banyak digunakan dalam pengumuman, papan pemberitahuan, dan berita.\nUntuk tujuan, lebih formal daripada ～ように; cocok bila kata kerjanya mengandung kehendak dan tujuannya spesifik.\nTidak menggunakan ために (tujuan) dengan kata kerja tanpa kehendak/bentuk potensial seperti分かる、見える、起きる… (beralih ke ～ように).\n1. A:　なんの　ために　貯金していますか。\nB:　将来　自分の店を　持つために、貯金しています。\nA: Anda menabung untuk apa?\nB: Saya menabung supaya kelak bisa memiliki toko sendiri.\n2. A:　健康の　ために、　何か　していますか。\nB:　いいえ。でも、来週から　毎朝　走ろうと。\nA：Apakah Anda melakukan sesuatu demi kesehatan?\nB: Tidak. Tetapi, mulai minggu depan saya berencana berlari setiap pagi.\n3. 家族の　ために、うちを　建てます。\nSaya membangun rumah untuk keluarga.\n──────\n1. 日本に留学するために、日本語を勉強している。\nSaya sedang"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 255,
+   "src_hash": "dbdf619e1cac60be",
+   "fields": {
+    "meaning": "Sebaiknya V ~ | Kalau… alangkah baiknya",
+    "examples": [
+     "Kalau lelah, sebaiknya istirahat sebentar.",
+     "Alangkah baiknya kalau saya bisa bekerja di Jepang.",
+     "Masalah ini sebaiknya saya bagaimanakan?",
+     "Andai saja hujannya berhenti.",
+     "Alangkah baiknya kalau ada waktu, ya.",
+     "Seharusnya kita berkonsultasi lebih awal, ya."
+    ],
+    "explain": "Memberi nasihat dengan sopan dan ringan: Vたらいいですよ／と思います。\nKeinginan disertai な(あ)/のに untuk menambah perasaan:会えたらいいな／雨ならやんだらいいのに。\nMeminta pendapat: どうしたらいいですか／いつ行っ たらいいですか。\nSebaiknya tidak digunakan langsung kepada atasan bila berisiko terdengar seperti perintah; gunakan pola yang lebih lembut seperti ～ていただけますか atau ～たらいかがですか.\n\n• Nasihat/usulan: \"Kalau melakukan … akan baik\" → lebih lembut daripada 〜たほうがいい, cocok untuk komunikasi yang cukup sopan.\n• Keinginan pribadi: \"Andai saja/semoga …\" → disertai な(あ)/ね untuk mengungkapkan perasaan: 会えたらいいな。\n• Menanyakan cara menangani: \"どうしたらいいですか\" adalah pola tetap untuk meminta nasihat.\n• Syarat たら bermakna \"alangkah baiknya jika syarat itu terjadi\" (pengandaian/kemungkinan).",
+    "notes": "• \"〜たらいいのに\" biasanya mengungkapkan penyesalan atau keinginan yang sulit tercapai.\n• Saat meminta petunjuk, \"どうしたらいいですか\" lebih alami daripada \"どうすればいいですか\" dalam bahasa lisan; keduanya benar.\n• Jangan menggunakan \"〜たらいい！\" sebagai perintah; tambahkan ですよ/と思います untuk melunakkan.\nmeaning_vi: Kalau… alangkah baiknya / sebaiknya…\nexplain: Nasihat ringan, kurang memaksa dibandingkan ～べきだ atau ～ほうがいい.\nBentuk tanya \"～ばいいですか\" umum digunakan ketika ingin lawan bicara menunjukkan cara penyelesaian.\n～ばいいのに mengandung perasaan menyalahkan/menyesal; berhati-hatilah menggunakannya kepada orang yang lebih tua/atasan.\n～ばよい bersifat formal/sangat sopan, digunakan dalam bahasa tulis dan pekerjaan.\nexamples: 1. 疲れたら、休めばいい。\nKalau lelah, istirahat saja.\n2. 「駅はどう行けばいいですか」「この道をまっすぐいけばいいですよ」\n\"Bagaimana cara pergi ke stasiun?\" \"Anda tinggal lurus saja melewati jalan ini.\"\n──────\n1. どうすればいいですか。\nSebaiknya saya bagaimana?\n2. 迷ったら、先生に聞けばいい。\nKalau bingung, tanya saja kepada guru.\n3. そんなに心配しなければいい。\nTidak perlu khawatir sampai begitu.\n4. もっと勉強すればいいのに。\nSeharusnya kamu belajar lebih banyak (mestinya belajar).\n5. 雨なら、無理に行かなければいい。\nKalau hujan, tidak pergi pun tidak apa-apa.\n6. 今回は謝ればいいだけだ。\nKali ini cukup minta maaf saja.\ncomparison: Pola | Nuansa | Perbedaan | Contoh singkat\n～ばいい | Nasihat ringan/syarat cukup | Lembut, tidak memaksa | 早（はや）く寝（ね）れ ばいい。\n～たらいい | Setara, alami dalam bahasa lisan | Bersifat pengandaian setelah syarat terjadi | 早（はや）く寝（ね）たらいい。\n～ほうがいい | Nasihat lebih kuat | Membandingkan 2 pilihan, makna \"sebaiknya\" jelas | 早（はや）く寝（ね）たほうがいい。\n～べきだ | Kewajiban/norma | Kuat, bersifat prinsip | 守（まも）るべきだ。\n～てもいい | Boleh | Bukan nasihat; melainkan izin | 帰（かえ）ってもいい。\ncommon_mistakes: • Salah memahami sebagai perintah: ～ばいい bukan \"harus\", hanya saran ringan.\n• Tertukar dengan ～てもいい (boleh) → fungsinya berbeda.\n• Salah konjugasi ば形 kata kerja godan: 書く→書けば; 買う→買えば; 行く→行けば.\n• Salah nuansa: untuk usulan yang kuat sebaiknya pilih ～ほうがいい／～べきだ, bukan ～ばいい.\nexplain: ～Vば いいです： Sebaiknya V ~\nDigunakan untuk meminta atau memberi nasihat.\nCara penggunaannya sama dengan NVTたら　いいです。\nexamples: 1. A:　本を　借りたいんですが、どう　すれば　いいですか。\nB:　受付で　カードを　作って　もらって　ください。\nA: Saya ingin meminjam buku, sebaiknya bagaimana?\nB: Silakan buat kartu di meja resepsionis.\n2. A:　友達が　結婚します。どんな物を　あげれば　いいですか。\nB:　ワインを　あげれば　いいですよ。\nA: Teman saya akan menikah. Sebaiknya saya memberi hadiah apa?\nB: Berikan saja anggur.\nexplain: Untuk keinginan diri sendiri: ～といい んですが / のですが (sopan, ada sedikit rasa cemas).\nUntuk orang lain: ～といい ですね (sopan, bersifat mendoakan).\nMemberi nasihat: ～といい ですよ / よ (akrab). Dapat diganti dengan ～たらいい／～ばいい.\nIsinya sebaiknya hal di masa depan; untuk masa lampau gunakan ～とよかった (alangkah baiknya) untuk menyatakan penyesalan.\nexamples: 1. 試験、うまくいくといいですね。\nSemoga ujiannya lancar, ya.\n2. 忘れ物が見つかるといいんですが。\nSemoga barang yang tertinggal bisa ditemukan.\n3. 時間があるといいね、映画に行こう。\nSemoga ada waktu, ayo nonton film.\n4. 風邪なら、今日は早く休むといいですよ。\nKalau masuk angin, sebaiknya hari ini istirahat lebih awal.\n5. 英語は毎日少しずつ続けるといいよ。\nBahasa Inggris sebaiknya dilanjutkan sedikit demi sedikit setiap hari.\n6. 明日は晴れだといいなあ。\nSemoga besok cerah.\n──────\n1. ①いい仕事が見つかるといいですね。\nSemoga bisa menemukan pekerjaan yang bagus.\n2. ②運動会の日、雨が降らないといいですけど｡｡｡\nSemoga tidak turun hujan pada hari pesta olahraga.\n3. ③のどが痛いの？悪いかぜでないといいけど｡｡｡\nTenggorokanmu sakit? Semoga bukan masuk angin yang parah.\n4. ④部屋がもっと広いといいけどなあ。\nAndai saja kamarnya lebih luas.\n5. ⑤ホームステイの家族がみんな親切だといいなあ。\nSemoga semua anggota keluarga homestay baik hati.\ncomparison: Pola | Fungsi | Perbedaan | Contoh singkat\n～といい（ですね） | Mendoakan/berharap | Untuk orang lain; sopan. | 合格（ごうかく）だ といいですね。\n～といい（んですが） | Harapan (diri sendiri) | Disertai nuansa mendambakan, cemas. | 雨（あめ）がやむ といいんですが。\n～たらいい／～ばいい | Saran | Mirip nasihat; terkadang lebih langsung. | 休（やす）ん だらいい よ。\n～ますように | Doa/harapan | Lebih formal, cenderung berupa doa. | 合格（ごうかく）し ますように。\n～といい vs ～たい | Harapan vs keinginan | ～たい adalah kehendak pembicara; ～といい adalah mengharapkan hal di luar kendali. | 休（やす）み たい ／休（やす）み だといい。\ncommon_mistakes: • Menggunakan ～といいです untuk harapan diri sendiri terdengar kaku; lebih alami: ～といいんですが。\n• Menggunakan ～といい untuk menasihati terlalu langsung dalam konteks formal; pertimbangkan ～たらいかがでしょうか。\n• Menerapkan ～といい pada hal yang sepenuhnya dalam kendali sendiri → tidak alami (×「早く寝るといいんですが」). Sebaiknya gunakan ～ばいい／～たほうがいい。\n• Tertukar dengan ～ますように (doa). JLPT menguji nuansa kesopanan dan sasaran (diri sendiri vs orang lain).\nmeaning_vi: 「～ことを望んでいる。」 ～には話者自身の意志的行為を表す言葉は来ない。\nSemoga ~.\n~ bukan kata yang menyatakan tindakan berkehendak dari pembicara sendiri.\nexamples: 1. 疲れているようですね。あしたはゆっくり休むといいですよ。\nSepertinya Anda lelah, ya。Besok sebaiknya beristirahat dengan santai。\n2. その仕事、気が進まないのなら引き受けなければいいんじゃないですか。\nPekerjaan itu、kalau Anda tidak berminat, tidak usah diterima saja, bukan。\n3. 申込書の書き方がわからなければ、事務の人に聞いてみたらいいですよ。\nKalau tidak tahu cara mengisi formulir pendaftaran、coba tanyakan kepada petugas kantor。\n──────\n1. 先生「このクラスも今日でお別れです。いつかまたみんなで会えるといいですね。」\nGuru「Hari ini adalah hari perpisahan kelas ini。Semoga suatu hari nanti kita semua bisa bertemu lagi, ya。」\n2. 最近ずっと体の調子が悪い。悪い病気でなければいいが…。\nAkhir-akhir ini kondisi badan saya terus tidak baik。Semoga bukan penyakit yang parah…。\n3. あした入学試験だ。頑張ろう。合格できたらいいなあ。\nBesok ujian masuk sekolah。Ayo berjuang。Semoga saya bisa lulus。\nmeaning_vi: Menyatakan nasihat, usulan.\n（～ばいい）／（～たらいい）／（～と）+いい\nexamples: 1. ①　買えばいい／買ったらいい／買うといい\nSebaiknya beli.\n2. ②　「日本語がうまくなるには、どうしたらいいですか。」\n「日本人(にほんじん)と友達(ともだち)になるといいですよ。」\n\"Supaya bahasa Jepang lancar, sebaiknya bagaimana?\"\n\"Sebaiknya berteman dengan orang Jepang\"\n3. ③    勉強したくないなら、学校をやめればいい。\nKalau tidak mau belajar, sebaiknya berhenti sekolah saja.\n4. ➃　食べたくないなら、食べなければいい。\nKalau tidak mau makan, tidak perlu makan.\nmeaning_vi: Andai saja…, alangkah baiknya kalau… (といい/たらいい)",
+    "mistakes": [
+     "Tertukar antara fungsi \"nasihat\" dan \"keinginan\": perlu berdasarkan konteks dan akhiran kalimat (ですよ vs な/のに).",
+     "Menggunakannya terlalu langsung kepada orang yang lebih tinggi kedudukannya → kurang sopan; pertimbangkan ～たらいかがですか/～ていただけますか.",
+     "Tertukar dengan 〜たほうがいい (lebih kuat) dalam kalimat nasihat pada situasi yang sensitif."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Nuansa/Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "Vたらいい",
+       "Sebaiknya/berharap",
+       "Lembut, syarat spesifik",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>たらいい"
+      ],
+      [
+       "Vばいい",
+       "Sebaiknya/berharap",
+       "Sedikit lebih langsung; bahasa tulis",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ればいい"
+      ],
+      [
+       "Vといい",
+       "Semoga",
+       "Berharap terjadi dengan sendirinya, tanpa kehendak",
+       "<ruby>晴<rt>は</rt></ruby>れるといいね"
+      ],
+      [
+       "Vたほうがいい",
+       "Sebaiknya (kuat)",
+       "Nasihat kuat, berdasarkan pengalaman",
+       "<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったほうがいい"
+      ],
+      [
+       "Vたらどうですか",
+       "Bagaimana kalau…",
+       "Bahasa lisan, lebih langsung daripada たらいい",
+       "<ruby>休<rt>やす</rt></ruby>んだらどう？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 96,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 256,
+   "src_hash": "0706b290d3b3f4e4",
+   "fields": {
+    "meaning": "Mungkin…",
+    "examples": [
+     "Kalau ditanyakan kepadanya, dia pasti tahu.",
+     "Tanaka-san dan yang lainnya mungkin sudah tiba di Tokyo.",
+     "Besok mungkin akan turun salju.",
+     "Dia mungkin sudah sampai di rumah.",
+     "Rencana seperti itu mungkin tidak akan berjalan lancar.",
+     "Kamu juga berpikir begitu, kan?"
+    ],
+    "explain": "Bahasa lisan santai/bahasa pria: ～だろう／～だろ？; bahasa sopan: ～でしょう／～でしょうか.\nDikombinasikan dengan kata keterangan dugaan: おそらく／たぶん ～だろう (menaikkan/menurunkan tingkat keyakinan).\nHindari menggunakan ～だろうですか. Pertanyaan sopan harus ～でしょうか.\n\n• Dugaan dengan tingkat keyakinan sedang: \"mungkin/barangkali\".\n• Digunakan sebagai akhiran konfirmasi/akhiran untuk meminta persetujuan (terutama bahasa pria): ～だろう？ \"kan?\".\n• ～だろうか: bertanya pada diri sendiri, menimbang; bahasa tulis sering menggunakan ～であろう/～であろうか yang formal.\n• Nuansanya lugas, lebih kuat daripada でしょう. Dalam percakapan sopan sebaiknya gunakan でしょう.",
+    "notes": "• Bentuk formal bahasa tulis: ～であろう (artinya sama, gaya bahasa tinggi).\n• Pertanyaan negatif: ～ないだろうか sering bermakna \"bukankah …?\".\n• Dalam komunikasi sopan, beralihlah ke ～でしょう agar tidak terdengar kasar. | Variasi: （～だろう）と思う — dugaan pembicara",
+    "mistakes": [
+     "Salah bentuk: × 静かだだろう → 静かだろう.",
+     "Mencampur gaya: × でしょうだろう (campur aduk). Pilih satu gaya yang konsisten.",
+     "Bertanya dengan sopan tetapi menggunakan だろうか kepada atasan bisa terdengar agak kaku; utamakan でしょうか.",
+     "Tertukar tingkat keyakinan dengan ～かもしれない dalam soal jebakan tentang tingkat keyakinan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Tingkat keyakinan",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～だろう",
+       "Sedang",
+       "Akrab/lugas; pertanyaan konfirmasi: ～だろう？",
+       "<ruby>来<rt>く</rt></ruby>るだろう"
+      ],
+      [
+       "～でしょう",
+       "Sedang",
+       "Lebih sopan, lebih netral.",
+       "<ruby>来<rt>く</rt></ruby>るでしょう"
+      ],
+      [
+       "～かもしれない",
+       "Rendah",
+       "Lebih lemah daripada \"mungkin\".",
+       "<ruby>来<rt>く</rt></ruby>るかもしれない"
+      ],
+      [
+       "～に<ruby>違<rt>ちが</rt></ruby>いない",
+       "Tinggi",
+       "Hampir pasti.",
+       "<ruby>来<rt>く</rt></ruby>るに<ruby>違<rt>ちが</rt></ruby>いない"
+      ],
+      [
+       "～はずだ",
+       "Tinggi (logika)",
+       "Berdasarkan alasan, logika.",
+       "<ruby>来<rt>く</rt></ruby>るはずだ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 257,
+   "src_hash": "c396f7886c456f1f",
+   "fields": {
+    "meaning": "「～と言っている・～と聞いた。」「～と」のくだけた話し言葉で。②③④⑤のように、後の動詞（言っている・聞いたなど）をよく省略する。④のように、言った言葉に直接「って」をつけることもある。\nKatanya ~ / mendengar bahwa ~.\nIni adalah kata yang digunakan dalam bahasa lisan, merupakan pelafalan yang bergeser dari ～と.\nPada contoh ②③④, kata kerja yang mengikutinya, yaitu いっている／きいた…, sering dihilangkan.\nAda juga kasus ketika って langsung digabungkan dengan seluruh kata-kata yang diucapkan, seperti pada contoh ④.",
+    "examples": [
+     "\"Ma, Papa bilang hari ini pulangnya terlambat.\"",
+     "\"Tanaka-san bilang mau ikut?\" \"Nggak, katanya nggak ikut.\"",
+     "\"Aku belajar di sekolah, katanya daerah sini dulunya laut.\"",
+     "\"Ramalan cuaca bilang apa?\" \"Katanya bakal cerah. Terus, katanya panas.\"",
+     "Setelah sekian lama, aku dapat email dari Tei-san. Katanya dia baik-baik saja.",
+     "Ogawa-san bilang hari ini dia libur, lho."
+    ],
+    "explain": "Cara bicara akrab untuk menyampaikan kembali informasi yang didengar atau perkataan orang lain (\"katanya…/dia bilang…\"). Banyak digunakan dalam percakapan.",
+    "notes": "1) Mudah tertukar dengan partikel kutipan と.\n→ ～って adalah bentuk bahasa lisan dari と言って／という, digunakan untuk menceritakan kembali perkataan/informasi.\n2) Perhatikan konteks bahasa lisan.\n→ Sering muncul dalam percakapan; bahasa tulis formal tidak mengutamakannya.\n3) Mudah tertukar antara 2 penggunaan.\n→ Bisa berarti \"katanya…\" atau \"dia bilang…\" (mengutip perkataan), tergantung kalimatnya."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 1
+}

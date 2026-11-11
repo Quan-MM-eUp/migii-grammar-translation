@@ -1,0 +1,765 @@
+{
+ "batch": "b007",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 103,
+   "src_hash": "c80e15a4a8ee08f0",
+   "fields": {
+    "examples": [
+     "Orang itu siapa?",
+     "Ini pena siapa?",
+     "Siapa yang ada di pintu masuk?",
+     "Tidak ada seorang pun yang datang.",
+     "Apakah ada seseorang yang bisa berbahasa Jepang?",
+     "Hari ini Anda pergi dengan siapa?"
+    ],
+    "explain": "Netral, dapat digunakan di hampir semua konteks; yang lebih sopan adalah \"どなた\".\nDalam kalimat tanya ya/tidak, \"だれか\" biasanya digunakan untuk menanyakan keberadaan \"seseorang…\".\n\"だれも\" dipakai bersama bentuk negatif dengan arti \"tidak ada seorang pun\".\n\n\"だれ\" adalah kata ganti tanya untuk orang: siapa, orang yang mana.\nDipakai bersama partikel yang sesuai dengan fungsinya: が (subjek), を (objek), に (sasaran/tujuan), と (bersama), の (kepemilikan).\n\"だれも + Vません\" = \"tidak ada seorang pun …\"; \"だれか\" = \"seseorang\".",
+    "notes": "\"だれも +肯定\" dalam percakapan santai kadang dipahami sebagai \"semua orang …\", tetapi pada tingkat dasar sebaiknya gunakan \"みんな\" untuk menghindari ambiguitas.\nDalam pengumuman/acara resmi, utamakan \"どなた\".\nUntuk telepon/bel pintu: \"どなたですか？\" sangat sopan.",
+    "mistakes": [
+     "Menggunakan \"だれも\" dengan bentuk positif pada tingkat dasar adalah salah arti: \"だれも来ます\" mudah menimbulkan salah paham; gunakan \"みんな来ます\".",
+     "Lupa partikel: \"だれですか\" (benar), tetapi untuk kepemilikan harus menggunakan \"だれの\".",
+     "Tertukar antara \"だれ\" (siapa) dan \"どれ/どの\" (yang mana/yang mana + N): fungsinya berbeda."
+    ],
+    "comparison": {
+     "headers": [
+      "Kata",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だれ",
+       "Siapa",
+       "Umum",
+       "だれですか"
+      ],
+      [
+       "どなた",
+       "Siapa (sopan)",
+       "Digunakan kepada orang yang tidak dikenal, untuk menghormati",
+       "どなたですか"
+      ],
+      [
+       "だれか",
+       "Seseorang",
+       "Tidak tertentu",
+       "だれか<ruby>来<rt>き</rt></ruby>ました"
+      ],
+      [
+       "だれも + Vません",
+       "Tidak ada seorang pun",
+       "Harus dengan bentuk negatif",
+       "だれもいません"
+      ],
+      [
+       "なに／どれ",
+       "Apa/Yang mana",
+       "Menanyakan benda, bukan orang",
+       "これは<ruby>何<rt>なに</rt></ruby>ですか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 104,
+   "src_hash": "afde11c596cad7f7",
+   "fields": {
+    "meaning": "Kadang-kadang",
+    "examples": [
+     "Kadang-kadang saya jogging.",
+     "Saya kadang-kadang minum kopi.",
+     "Kadang-kadang hujan turun.",
+     "Waktu masih menjadi pelajar, saya kadang-kadang pergi ke perpustakaan.",
+     "Sesekali dia pulang cepat juga."
+    ],
+    "explain": "Diletakkan di awal kalimat untuk membuka konteks frekuensi: ときどき、～。\nDiletakkan setelah subjek untuk menekankan kebiasaan pelakunya: 私はときどき～。\nときどきは memiliki nuansa \"sesekali (hanya sedikit) …\", menciptakan kontras dengan keadaan sehari-hari.\nDipakai bersama kata kerja/kata sifat/kata benda: ときどき忙しいです／ときどき雨です。\n\nときどき menyatakan frekuensi yang lebih rendah daripada よく, lebih tinggi daripada たまに.\nBiasanya digunakan dengan kala sekarang untuk menyatakan kebiasaan; juga dapat digunakan dalam kala lampau untuk menggambarkan frekuensi dalam suatu periode.\nDapat diletakkan di awal kalimat, di tengah kalimat (sebelum kata kerja), atau setelah subjek.",
+    "notes": "Ejaan kanji: 時々 (pengulangan huruf 時). Hiragana: ときどき. Hindari salah tulis \"時時\".\nDipakai bersama ことがある untuk menyatakan pengalaman yang sesekali terjadi: ときどき～ことがあります。\nTidak memerlukan partikel khusus; merupakan kata keterangan yang berdiri sendiri.",
+    "mistakes": [
+     "Menambahkan partikel secara salah: ×ときどきを → ✓ときどき（tidak perlu を）.",
+     "Tertukar posisi dengan に/で: ときどき adalah kata keterangan frekuensi, bukan penunjuk tempat/titik waktu.",
+     "Salah menulis kanji: ×時時→ ✓時々."
+    ],
+    "comparison": {
+     "headers": [
+      "Kata",
+      "Tingkat frekuensi",
+      "Saran penggunaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "いつも",
+       "100% (selalu)",
+       "Kebiasaan tetap",
+       "いつも<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。"
+      ],
+      [
+       "よく",
+       "Banyak, sering",
+       "Cukup sering",
+       "よく<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。"
+      ],
+      [
+       "ときどき／<ruby>時々<rt>ときどき</rt></ruby>",
+       "Kadang-kadang",
+       "Sesekali terjadi",
+       "ときどき<ruby>運動<rt>うんどう</rt></ruby>します。"
+      ],
+      [
+       "たまに",
+       "Sangat jarang",
+       "Jarang, langka",
+       "たまに<ruby>外<rt>そと</rt></ruby>で<ruby>食<rt>た</rt></ruby>べます。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 105,
+   "src_hash": "40e06b60b4b92c40",
+   "fields": {
+    "meaning": "Mengapa ~?（jawabannya menggunakan ～から — lihat entri ～から（alasan））",
+    "connection": "どうして + [kalimat/klausa] + か（jawaban: ～から(です)）",
+    "examples": [
+     "A: Mengapa kemarin Anda pulang lebih awal?\nB: Karena ada keperluan.",
+     "A: Mengapa Anda tidak makan?\nB: Karena tadi pagi saya sudah sarapan.",
+     "A: Mengapa Anda belajar bahasa Jepang?\nB: Karena saya ingin bekerja di Jepang."
+    ],
+    "explain": "どうして　adalah kata tanya untuk menanyakan alasan. Daripada mengulang ucapan orang lain, dapat digunakan \"どうしてですか\" – \"Mengapa begitu?\"\nから digunakan untuk menjelaskan alasan \"karena ~ maka ~\". Atau untuk menjawab kalimat tanya yang memakai \"どうして\" – \"mengapa\".\n\nどうして：Mengapa ~\nから：Karena ~.\n～から、～：Karena ~, maka ~"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 106,
+   "src_hash": "cfbc78a39bf3a25d",
+   "fields": {
+    "meaning": "dengan cara apa? | Dengan cara apa",
+    "examples": [
+     "Bagaimana cara pergi ke stasiun?",
+     "Bagaimana cara menggunakan aplikasi ini?",
+     "Kamu pergi ke Tokyo bagaimana caranya?",
+     "Bagaimana cara Anda menyelesaikan masalah itu?",
+     "Bagaimana cara Anda belajar bahasa Jepang?",
+     "Sebaiknya bagaimana cara pergi dari bandara ke hotel?"
+    ],
+    "explain": "Sopan: どうやってVますか／どうやってVたらいいですか。\nSantai: どうやってVるの？／どうやってやる？\nMenekankan permintaan nasihat: どうやって…たらいいですか／どうすればいいですか。\nDikombinasikan dengan sarana: どうやって（電車で／バスで／歩いて）行きますか。\nAgar tidak panjang dan berulang: dapat ditambahkan tempat/tempat tujuan dengan まで／へ／に agar maknanya jelas.\n\nどうやって = dengan cara apa, bagaimana caranya: menanyakan proses, sarana, jalan untuk mencapai tujuan.\nDibandingkan dengan どう: どう bersifat umum \"bagaimana\", sedangkan どうやって menekankan cara yang konkret.\nBiasanya dipakai dengan kata kerja yang menyatakan perpindahan (行く、来る), penggunaan (使う), pembuatan (作る), penyelesaian (直す、解決する)…\nDapat menanyakan rute (lewat jalan mana), alat (dengan apa), urutan (mengikuti langkah apa).",
+    "notes": "Tidak menggunakan どうやってのN sebagai penjelas kata benda; ganti dengan どのような/どういう（例：どういう方法）.\n何で memiliki 2 cara baca: なにで = dengan apa; なんで = mengapa (bahasa lisan). Berhati-hatilah agar tidak salah paham.\nSaat menanyakan rute: どうやって行きますか dapat dijawab dengan jalur, sarana transportasi, atau petunjuk jalan.",
+    "mistakes": [
+     "Salah partikel: ×どうやって学校を行きますか → ✓どうやって学校に行きますか。",
+     "Tertukar dengan どう yang terlalu umum, sehingga jawabannya tidak menyebutkan cara yang konkret.",
+     "Menggunakan dengan あります/います: untuk menanyakan perpindahan gunakan 行きます/来ます, bukan ×どうやってありますか。",
+     "Tertukar dengan 何で（なにで）: yang ini hanya menanyakan alat, bukan urutan langkah-langkah."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どうやって",
+       "Dengan cara apa",
+       "Menanyakan cara yang konkret",
+       "どうやって<ruby>行<rt>い</rt></ruby>く？"
+      ],
+      [
+       "どう",
+       "Bagaimana",
+       "Umum, termasuk keadaan/perasaan",
+       "<ruby>旅行<rt>りょこう</rt></ruby>はどう？"
+      ],
+      [
+       "<ruby>何<rt>なん</rt></ruby>で（なにで）",
+       "Dengan apa/sarana apa",
+       "Terbatas pada alat/sarana transportasi",
+       "<ruby>何<rt>なん</rt></ruby>で<ruby>行<rt>い</rt></ruby>く？（<ruby>電車<rt>でんしゃ</rt></ruby>で）"
+      ],
+      [
+       "どのように",
+       "Dengan cara apa (formal)",
+       "Sopan, bahasa tulis",
+       "どのように<ruby>解決<rt>かいけつ</rt></ruby>しますか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 107,
+   "src_hash": "4af44a7c788a99a0",
+   "fields": {
+    "meaning": "Di suatu tempat",
+    "examples": [
+     "Apakah akhir pekan kemarin Anda pergi ke suatu tempat?",
+     "Dompet saya tertinggal di suatu tempat.",
+     "Panas, ya. Mari beristirahat di suatu tempat.",
+     "Apakah di dekat sini ada restoran murah?",
+     "Maukah pergi ke suatu tempat bersama-sama?",
+     "Kalimat ini ada yang aneh."
+    ],
+    "explain": "Ajakan: どこかへ行きませんか (sopan), どこか行かない？ (santai).\nMenghilangkan partikel へ dalam percakapan: どこか行く (alami); dalam situasi formal sebaiknya tetap memakai に／へ.\nMenekankan ketidakjelasan: menghindari penentuan tempat, sopan dalam komunikasi (\"makan di suatu tempat\", \"beristirahat di suatu tempat\").\nTidak digunakan dengan negasi total. Untuk menyatakan \"tidak di mana pun\" gunakan どこにも～ません.\n\nArti utama: \"di suatu tempat, tempat tertentu\" – pembicara tidak (atau tidak ingin) menyebutkan tempat secara spesifik.\nBernuansa samar, sopan/lembut saat memberi usulan: digunakan dalam ajakan, saran rencana bersama.\nDapat dikombinasikan secara fleksibel dengan partikel penunjuk tempat: に／へ (tujuan/tempat tujuan), で (tempat berlangsungnya tindakan), の (penjelas kata benda).\nBerbeda dengan \"どこでも\" (di mana saja – mencakup keseluruhan) dan \"どこにも～ません\" (tidak … di mana pun – negasi total).\nArti perluasan yang sering muncul (rasa bahasa): どこかおかしい／変だ = \"ada sesuatu yang aneh\".",
+    "notes": "Singkatan dalam bahasa lisan: どっか (contoh: どっか行く？). Hindari dalam bahasa tulis formal.\nどこかの +人/会社/国: \"seseorang/suatu perusahaan/suatu negara\".\nArti \"ada sesuatu yang …\": どこか + Adj（変/不自然/おかしい） sangat alami dalam percakapan.",
+    "mistakes": [
+     "Menggunakan どこか dengan negasi total: × どこか行きません → jika maksudnya \"tidak pergi ke mana pun\" harus どこにも行きません.",
+     "Tertukar dengan どこでも: どこか = suatu tempat; どこでも = tempat mana pun boleh.",
+     "Lupa partikel: × どこか行きます → sebaiknya gunakan どこかに/へ行きます (formal)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どこか",
+       "suatu tempat (tidak tertentu)",
+       "Salah satu dari banyak tempat",
+       "どこかで<ruby>会<rt>あ</rt></ruby>いましょう。"
+      ],
+      [
+       "どこでも",
+       "di mana saja",
+       "Keseluruhan/tidak terbatas; digunakan dengan bentuk positif",
+       "どこでも<ruby>入<rt>い</rt></ruby>れます。"
+      ],
+      [
+       "どこにも～ません",
+       "tidak … di mana pun",
+       "Hanya digunakan dengan bentuk negatif",
+       "どこにも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこも（＋<ruby>肯定<rt>こうてい</rt></ruby>/<ruby>否定<rt>ひてい</rt></ruby>）",
+       "di mana-mana / tidak ada tempat mana pun",
+       "Dengan bentuk positif = \"di mana-mana\"; dengan bentuk negatif = \"tidak ada tempat mana pun\"",
+       "どこも<ruby>高<rt>たか</rt></ruby>い。／どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 108,
+   "src_hash": "5c99c3ee1977da8c",
+   "fields": {
+    "meaning": "Di mana pun",
+    "connection": "どこでも + V (positif)",
+    "examples": [
+     "Kartu ini bisa digunakan di mana saja.",
+     "Kalau sedang libur, saya ingin pergi ke mana pun.",
+     "Tempat duduknya di mana saja boleh.",
+     "Anak-anak di mana pun cepat mendapat teman.",
+     "Di kota ini Wi‑Fi bisa digunakan di mana saja."
+    ],
+    "explain": "Bernuansa \"tidak terbatas, tidak pilih-pilih\".\nCocok dengan pola izin/kemampuan: ～てもいい／～られる／～ことができる.\nDengan kata kerja gerak, どこへでも／どこにでも terasa lebih alami saat menekankan tempat tujuan.\nHindari penggunaan dengan bentuk negatif; ganti dengan どこにも～ません untuk menyatakan \"tidak di mana pun\".\n\nMenyatakan cakupan yang tidak terbatas: \"di mana pun juga…\".\nBiasanya dipakai dengan bentuk positif, kemampuan, izin, perintah halus: 使える／行ける／入れる／座ってください.\nSaat menekankan arah, gunakan どこへでも／どこにでも; jika tidak perlu menekankan, どこでも tetap alami.\nTidak digunakan untuk negasi total (untuk menyatakan \"tidak di mana pun\" harus どこにも～ません).",
+    "notes": "Pola tetap: どこでもいい（です）= \"di mana saja boleh\", umum digunakan saat memilih.\nDalam iklan/produk: どこでも使える／ドア（lelucon Doraemon） – menonjolkan sifat \"bisa digunakan di mana saja\".\nDalam bahasa tulis biasanya dihindari pengulangan でも: pilih どこでも atau どこへでも sesuai makna, jangan gunakan keduanya sekaligus tanpa perlu.",
+    "mistakes": [
+     "Salah bentuk negatif: × どこでも行きません → ○ どこにも/どこへも行きません.",
+     "Lupa menekankan arah saat diperlukan: dengan kata kerja gerak sebaiknya gunakan どこへでも/どこにでも agar maknanya jelas.",
+     "Tertukar dengan どこか (suatu tempat) → hindari どこでも jika hanya ingin menyatakan secara samar, tidak mencakup keseluruhan."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Pembeda",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どこでも",
+       "di mana saja (positif)",
+       "Keseluruhan; biasanya dengan ～できる/～いい",
+       "どこでも<ruby>行<rt>い</rt></ruby>ける。"
+      ],
+      [
+       "どこへでも／どこにでも",
+       "ke mana pun (menekankan arah/tujuan)",
+       "Tambahkan へ/に agar arahnya jelas",
+       "どこへでも<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どこか",
+       "suatu tempat (sebuah tempat tertentu)",
+       "Tidak mencakup keseluruhan",
+       "どこかで<ruby>会<rt>あ</rt></ruby>おう。"
+      ],
+      [
+       "どこにも～ません",
+       "tidak … di mana pun",
+       "Negasi total",
+       "どこにも<ruby>売<rt>う</rt></ruby>っていません。"
+      ],
+      [
+       "どこも（＋<ruby>肯定<rt>こうてい</rt></ruby>）",
+       "di mana pun…",
+       "Dekat maknanya dengan どこでも",
+       "どこもきれいです。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 109,
+   "src_hash": "7a2dd41475ec5b26",
+   "fields": {
+    "meaning": "Tidak di mana pun",
+    "examples": [
+     "Hari ini saya tidak pergi ke mana pun.",
+     "Dompetnya tidak ada di mana-mana.",
+     "Buku ini tidak dijual di mana pun.",
+     "Dia tidak ada di mana-mana.",
+     "Karena lelah, pada hari libur pun saya tidak pergi ke mana-mana."
+    ],
+    "explain": "Menekankan ketiadaan/tidak terjadinya sesuatu di semua tempat: tambahkan も setelah どこに.\nSopan: どこにも～ません; santai: どこにも～ない／いない／ないです（bahasa lisan).\nUntuk pencarian: ～見つかりません／見つからない untuk menyatakan \"dicari terus tetapi tidak ketemu\".\n\nArti: \"tidak … di mana pun\", menegasikan seluruh cakupan tempat.\nDipakai dengan kata kerja gerak (行く/来る/出かける), kata kerja keberadaan/pencarian (ある/いる/見つかる/売る…).\nに menekankan \"di (tempat) mana\"/\"pada tempat mana\"; へ menekankan \"arah/tempat tujuan\".\nGaya: ません (sopan), ない (santai). JLPT menerima keduanya.",
+    "notes": "Bernuansa mutlak; tambahkan よ/ね untuk melunakkan: 今日はどこにも行かないよ。\nMembedakan あります/います: benda mati menggunakan ある（ない）, orang/hewan menggunakan いる（いない）.\nDalam kalimat tanya negatif yang bermakna ajakan: どこか行きませんか (mau pergi ke suatu tempat?) berbeda dengan どこにも～ません.",
+    "mistakes": [
+     "Menggunakan どこでも dengan bentuk negatif: × どこでも行きません → ○ どこにも/どこへも行きません.",
+     "Tertukar に dan へ: untuk keberadaan/pencarian gunakan に; untuk gerak yang menekankan arah dapat menggunakan へ.",
+     "Lupa memadukan dengan bentuk negatif: × どこにも行きます → harus どこにも行きません/行かない."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どこにも～ません",
+       "tidak … di mana pun",
+       "Digunakan dengan に (tempat); netral",
+       "どこにもありません。"
+      ],
+      [
+       "どこへも～ません",
+       "tidak pergi ke mana pun",
+       "Menekankan arah/tujuan (lihat 799)",
+       "どこへも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこでも",
+       "di mana saja (positif)",
+       "Berlawanan makna secara umum",
+       "どこでも<ruby>行<rt>い</rt></ruby>ける。"
+      ],
+      [
+       "どこも～ません",
+       "tidak ada tempat mana pun…",
+       "Bahasa lisan/umum; mudah dipakai dengan \"buka/tutup, ada/tidak ada\"",
+       "どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 110,
+   "src_hash": "c8e9ab9bc8c68449",
+   "fields": {
+    "meaning": "Tidak pergi ke mana pun",
+    "connection": "どこへも + Vません（V gerak）",
+    "examples": [
+     "Pada hari libur saya tidak pergi ke mana pun.",
+     "Karena ada topan, hari ini saya tidak keluar ke mana pun.",
+     "Tahun lalu saya tidak punya uang sehingga tidak bisa bepergian ke mana pun.",
+     "Karena berbahaya, saya tidak membiarkan anak-anak pergi ke mana pun sendirian.",
+     "Minggu ini saya sibuk sehingga belum pergi ke mana pun."
+    ],
+    "explain": "Biasanya digunakan dengan 行く／出かける／旅行する／来る dalam bentuk negatif.\nSopan: ～ません／～ませんでした; santai: ～ない／～なかった.\nJika tidak perlu menekankan \"arah\", どこにも行きません juga alami.\n\nDigunakan untuk menegasikan gerakan ke tempat mana pun: tidak pergi/tidak datang ke mana pun.\nPartikel へ menunjukkan arah/tempat tujuan dengan jelas; karena itu どこへも paling cocok dengan kata kerja gerak.\nArtinya mirip dengan どこにも（行きません）, berbeda pada penekanannya: に = \"di/ke\", へ = \"menuju ke arah\".",
+    "notes": "Dalam kalimat yang menekankan alasan: ～ので/から + どこへも行きません (karena … maka tidak pergi ke mana pun).\nUngkapan yang lebih sopan: 本日はどこへも伺いません（です） – konteks pekerjaan.\nPadanan sopan dalam bentuk positif: どこへでも参ります (kenjougo).",
+    "mistakes": [
+     "Menggunakan どこでも dengan bentuk negatif: × どこでも行きません → ○ どこへも/どこにも行きません.",
+     "Lupa へ: × どこも行きません (untuk gerak, dalam bahasa tulis sebaiknya gunakan どこへも/どこにも).",
+     "Salah nuansa: どこへも = gerak; jangan gunakan untuk \"tidak ada/tidak eksis\" (sebaiknya gunakan どこにもありません)."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どこへも～ません",
+       "tidak pergi ke mana pun",
+       "Menekankan arah/tujuan (へ)",
+       "どこへも<ruby>行<rt>い</rt></ruby>かなかった。"
+      ],
+      [
+       "どこにも～ません",
+       "tidak … di mana pun",
+       "Netral, penggunaannya lebih luas",
+       "どこにも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこへでも",
+       "pergi ke mana saja boleh",
+       "Padanan bentuk positif",
+       "どこへでも<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どこも～ません",
+       "tidak ada tempat mana pun…",
+       "Umum tentang keadaan (\"buka/tutup\")",
+       "どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 111,
+   "src_hash": "4250146642b80e31",
+   "fields": {
+    "meaning": "Tidak ada tempat mana pun",
+    "connection": "どこも + Vません / どこも + [predikat negatif]",
+    "examples": [
+     "Sudah larut malam, jadi tidak ada satu toko pun yang buka.",
+     "Di kota ini tidak ada satu pun tempat yang tenang.",
+     "Kunci yang hilang tidak ketemu di mana pun.",
+     "Hari ini saya tidak pergi ke mana pun. Saya belajar di rumah.",
+     "Padahal sedang Tahun Baru, minimarket pun tidak ada yang buka di mana pun."
+    ],
+    "explain": "Bernuansa umum, mencakup seluruh ruang: \"tempat mana pun tidak …\".\nCocok untuk menggambarkan keadaan: 開いていない／混んでいない／売っていない／ない.\nDengan gerak, pertimbangkan konteksnya: dalam bahasa tulis/ujian sebaiknya beralih ke どこへも/どこにも.\n\nArti dengan bentuk negatif: \"tidak ada tempat mana pun …\", mencakup seluruh cakupan tempat.\nBiasanya digunakan untuk menggambarkan keadaan umum: buka/tutup, ada/tidak ada, ramai/sepi, masih ada/habis…\nDengan bentuk positif, どこも = \"di mana pun …\". Namun entri ini berfokus pada pola negatif どこも～ません.\nDengan kata kerja gerak, どこも行きません terdengar alami dalam percakapan, tetapi ujian JLPT mengutamakan どこへも/どこにも行きません.",
+    "notes": "Sering dipakai bersama もう/全然/まったく untuk penekanan: もうどこも開いていない。\nDalam kalimat yang menyangkal harapan: 探したけど、どこも見つからなかった。\nDalam nasihat: 今日は危ないからどこも行かないほうがいい。",
+    "mistakes": [
+     "Menggunakan どこも untuk gerak dalam bahasa tulis akademis: utamakan どこへも/どこにも.",
+     "Tertukar どこも～ません dengan どこにも～ません: keduanya negasi total, tetapi どこにも netral, sedangkan どこも sering dipakai untuk \"keadaan umum\".",
+     "Lupa bentuk negatif: × どこもあります → ○ どこもありません."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どこも～ません",
+       "tidak ada tempat mana pun…",
+       "Menekankan keadaan umum",
+       "どこも<ruby>開<rt>ひら</rt></ruby>いていない。"
+      ],
+      [
+       "どこにも～ません",
+       "tidak … di mana pun",
+       "Netral, penggunaannya luas (keberadaan/gerak)",
+       "どこにもありません。"
+      ],
+      [
+       "どこへも～ません",
+       "tidak pergi ke mana pun",
+       "Khusus untuk kata kerja gerak",
+       "どこへも<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "どこでも（＋<ruby>肯定<rt>こうてい</rt></ruby>）",
+       "di mana pun…/di mana saja",
+       "Lawan makna dalam bentuk positif",
+       "どこでも<ruby>入<rt>い</rt></ruby>れる。"
+      ],
+      [
+       "どこも（＋<ruby>肯定<rt>こうてい</rt></ruby>）",
+       "di mana pun…",
+       "Dekat maknanya dengan どこでも",
+       "どこもきれいだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 112,
+   "src_hash": "2c885924d73d8a45",
+   "fields": {
+    "meaning": "Di mana",
+    "examples": [
+     "Stasiun ada di mana?",
+     "Guru ada di mana?",
+     "Anda makan siang di mana?",
+     "Pada hari libur Anda pergi ke mana?",
+     "Anda datang dari mana? — Saya datang dari Vietnam.",
+     "Ponsel ini merek apa?"
+    ],
+    "explain": "Menanyakan posisi statis: どこに あります／いますか。\nMenanyakan tempat berlangsungnya tindakan: どこで Vますか。\nMenanyakan arah tujuan: どこへ／どこに 行きますか（へ bernuansa arah, に menekankan tempat tujuan).\nCara sopan: ～はどこですか juga digunakan untuk menanyakan lokasi secara umum (トイレはどこですか).\n\nどこ adalah kata tanya \"di mana\", dikombinasikan dengan partikel untuk menanyakan posisi, tempat berlangsungnya, arah, asal, tempat tujuan.\nどこのN menanyakan asal/kepemilikan kata benda: \"N dari tempat mana/merek mana\".\nBedakan あります (benda mati) dan います (makhluk hidup) saat menanyakan posisi.",
+    "notes": "Menanyakan alamat spesifik: 住所はどこですか（lebih alami daripada どこにありますか）.\nUntuk orang/benda yang sedang bergerak, menanyakan \"di mana\" saat ini tetap menggunakan どこにいますか／どこにありますか tergantung makhluk hidup/benda mati.\nDalam percakapan santai: どこ？／どこにいる？",
+    "mistakes": [
+     "Salah partikel: ×どこでいますか → ✓どこにいますか（keberadaan menggunakan に）.",
+     "Tertukar に/で: tindakan harus menggunakan で, posisi statis menggunakan に.",
+     "Tertukar あります/います: benda mati menggunakan あります, orang/hewan menggunakan います.",
+     "Menggunakan へ untuk posisi statis tidak alami: ×どこへありますか → ✓どこにありますか。"
+    ],
+    "comparison": {
+     "headers": [
+      "Kata tanya",
+      "Arti",
+      "Perbedaan",
+      "Contoh"
+     ],
+     "rows": [
+      [
+       "どこ",
+       "Di mana",
+       "Menanyakan tempat",
+       "どこにありますか。"
+      ],
+      [
+       "どちら",
+       "Arah mana; yang mana (sopan)",
+       "Lebih sopan daripada どこ/どれ",
+       "お<ruby>手洗<rt>てあら</rt></ruby>いはどちらですか。"
+      ],
+      [
+       "どれ",
+       "Yang mana (di antara banyak)",
+       "Tidak menanyakan tempat",
+       "どれですか。"
+      ],
+      [
+       "どこのN",
+       "N dari tempat mana/merek mana",
+       "Menanyakan asal/kepemilikan",
+       "どこの<ruby>大学<rt>だいがく</rt></ruby>ですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 113,
+   "src_hash": "e257f86ed27a4294",
+   "fields": {
+    "meaning": "Yang mana | memiliki 3 arti utama:\nDigunakan untuk menanyakan tempat (cara sopan dari どこ)\nDigunakan untuk menanyakan arah.\nDigunakan untuk menanyakan nama negara, sekolah, perusahaan…",
+    "connection": "どちらが + A/V + か / Nは + どちらですか / どちらへ/に + V (menanyakan arah, sopan)",
+    "examples": [
+     "Kopi dan teh, Anda lebih suka yang mana?",
+     "Ruang rapatnya di sebelah mana?",
+     "Anda datang dari perusahaan mana?",
+     "Untuk ke stasiun, sebaiknya saya pergi ke arah mana?",
+     "Mohon maaf, Anda siapa?",
+     "Dari dua ukuran ini, mana yang lebih besar?"
+    ],
+    "explain": "Lebih sopan daripada どっち; dapat digunakan dalam pelayanan, pekerjaan, kepada orang yang tidak dikenal.\nSaat menjadi penjelas kata benda harus menggunakan \"の\": どちらのN (tidak langsung どちら N).\nUntuk menanyakan posisi/tempat sebaiknya gunakan は + どちらですか agar alami dan sopan.\nDigunakan untuk menanyakan arah dengan へ/に; menanyakan asal dengan から (どちらからいらっしゃいましたか).\n\nArti inti: \"yang mana/sebelah mana/di mana\" dengan nuansa sopan.\nUmum digunakan untuk memilih di antara dua opsi. Untuk lebih dari dua, standarnya menggunakan どれ/どの; namun dalam percakapan sopan どちら tetap dapat digunakan, tetapi pada JLPT N5 sebaiknya utamakan aturan \"2 pilihan\".\nMenanyakan posisi/tempat secara sopan: どこ → どちら (トイレはどちらですか).\nMenanyakan termasuk pihak/unit mana: どちらの + N (どちらの会社ですか).\nSaat menanyakan orang dengan sangat sopan: どちら様ですか (Dengan siapa ini?).",
+    "notes": "Dalam pelayanan, \"お国はどちらですか\" terdengar sangat sopan, menggantikan \"どこの国\".\n\"どちら様でいらっしゃいますか\" adalah keigo tingkat tinggi melalui telepon.\nUntuk lebih dari dua pilihan, JLPT lebih menyukai jawaban どれ/どの; jangan tertukar dengan どちら kecuali dalam konteks sopan secara umum.",
+    "mistakes": [
+     "Lupa \"の\": salah × どちら会社→ benar ✓ どちらの会社.",
+     "Menggunakan どちら saat ada 3+ pilihan dalam soal JLPT (jebakan): sebaiknya pilih どれ/どの jika tidak ada konteks \"2 pilihan\".",
+     "Tertukar どちら (\"di mana\" yang sopan) dengan どこ: dalam percakapan sopan sebaiknya gunakan どちら.",
+     "Menggunakan どちら kepada kenalan akrab terdengar terlalu formal; dengan teman, どっち/だれ lebih sesuai."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "どちら",
+       "Yang mana/sebelah mana (sopan)",
+       "Biasanya 2 pilihan; bisa berarti \"di mana\" secara sopan",
+       "AとBはどちら？／トイレはどちら？"
+      ],
+      [
+       "どっち",
+       "Yang mana (santai)",
+       "Bahasa lisan, bukan bentuk sopan",
+       "AとB、どっち？"
+      ],
+      [
+       "どれ",
+       "Yang mana (di antara 3+)",
+       "Tidak menjadi penjelas kata benda, berdiri sendiri",
+       "どれがあなたのですか。"
+      ],
+      [
+       "どの + N",
+       "Yang mana (penjelas kata benda)",
+       "Harus diikuti kata benda",
+       "どの<ruby>本<rt>ほん</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>ですか。"
+      ],
+      [
+       "どこ",
+       "Di mana",
+       "Penggunaan biasa; sopan → どちら",
+       "トイレはどこですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 114,
+   "src_hash": "c56a77aeaa94857e",
+   "fields": {
+    "meaning": "Siapa (sopan)",
+    "connection": "どなた + ですか / どなたが + V + か（bentuk sopan dari だれ）",
+    "examples": [
+     "Maaf, Anda siapa?",
+     "Beliau ini siapa?",
+     "Ini barang bawaan siapa?",
+     "Apakah ada seseorang yang mengerti bahasa Jepang?",
+     "Acara besok dapat diikuti oleh siapa saja.",
+     "Hari ini tidak ada seorang pun yang boleh masuk."
+    ],
+    "explain": "Lebih sopan daripada だれ; aman digunakan dalam konteks formal.\n\"どなた様（さま）でしょうか／でいらっしゃいますか\" adalah keigo tingkat tinggi.\nDipakai bersama partikel seperti が/に/の/を sesuai peran: どなたが来ますか, どなたに会いますか.\nDalam percakapan santai sebaiknya gunakan だれ agar lebih alami.\n\n\"どなた\" = \"siapa\" pada tingkat sopan/hormat; digunakan kepada orang yang tidak dikenal, tamu, atasan.\nVariasi arti: どなたか (seseorang), どなたでも (siapa saja), どなたも〜ません (tidak ada seorang pun).\nBerpadu secara alami dengan keigo: いらっしゃる／お〜になる saat membicarakan tamu sebagai pelaku.\nSering digunakan dalam percakapan telepon, resepsionis, toko, rumah sakit.",
+    "notes": "\"どなたでも\" sering terlihat dalam pengumuman terbuka: \"どなたでも大歓迎\".\nDengan bentuk negatif, \"どなたも〜ません\" = \"tidak ada seorang pun\"; jangan gunakan \"どなたでも〜ません\".\n\"どなたのご担当者様\" terdengar berlebihan; pilih salah satu: \"ご担当者様\" atau \"どなたがご担当ですか\".",
+    "mistakes": [
+     "Tertukar positif/negatif: × どなたでも来ません→ ✓ どなたも来ません.",
+     "Menggunakan どなた kepada teman/orang yang lebih muda terasa kaku; sebaiknya gunakan だれ.",
+     "Tidak memakai partikel yang tepat: × どなた会いますか → ✓ どなたに会いますか.",
+     "Keliru menanyakan ciri-ciri dengan どなた: untuk menanyakan \"orang yang seperti apa\" harus menggunakan どんな人/どの方."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "だれ",
+       "Siapa (biasa)",
+       "Netral, digunakan dengan teman",
+       "だれですか。"
+      ],
+      [
+       "どなた",
+       "Siapa (sopan)",
+       "Resepsionis, pelayanan, orang yang tidak dikenal",
+       "どなたですか。"
+      ],
+      [
+       "どなた<ruby>様<rt>さま</rt></ruby>",
+       "Siapa (paling sopan)",
+       "Melalui telepon, pekerjaan formal",
+       "どなた<ruby>様<rt>さま</rt></ruby>でしょうか。"
+      ],
+      [
+       "どの<ruby>方<rt>かた</rt></ruby>",
+       "Beliau yang mana",
+       "Sopan, melekat pada kata benda <ruby>方<rt>かた</rt></ruby>",
+       "どの<ruby>方<rt>かた</rt></ruby>が<ruby>先生<rt>せんせい</rt></ruby>ですか。"
+      ],
+      [
+       "どんな<ruby>人<rt>ひと</rt></ruby>",
+       "Orang yang seperti apa",
+       "Menanyakan ciri-ciri, bukan identitas",
+       "どんな<ruby>人<rt>ひと</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 115,
+   "src_hash": "30a187ef8c933bba",
+   "fields": {
+    "meaning": "Berapa lama?",
+    "connection": "どのくらい + [kalimat tanya]",
+    "examples": [
+     "A: Berapa lama Anda akan pergi ke Jepang?\nB: Saya pergi sekitar tiga bulan.",
+     "A: Dari Osaka ke Tokyo naik Shinkansen memakan waktu berapa lama?\nMemakan waktu dua setengah jam."
+    ],
+    "explain": "Digunakan untuk menanyakan durasi, jumlah.\nDapat menggunakan どのくらい atau どのぐらい untuk bertanya.\n\nどのくらい： berapa lama? berapa banyak?",
+    "notes": "meaning_vi: Kata tanya untuk menanyakan jumlah atau tingkat.\nexamples: 1. ①　どのぐらい　かかりますか。\nAkan memakan waktu berapa lama?\n2. ②　毎日　どのぐらい　ねますか。\nSetiap hari Anda tidur sekitar berapa jam?\n3. ③　うちに　どのぐらい　本が　ありますか。\nDi rumah ada sekitar berapa buku?\n4. ④　夏休みは　どのぐらい　ですか。\nLibur musim panas sekitar berapa lama?"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

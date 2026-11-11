@@ -1,0 +1,674 @@
+{
+ "batch": "b023",
+ "lang": "id",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-06",
+ "items": [
+  {
+   "id": 314,
+   "src_hash": "f22c951745a5adef",
+   "fields": {
+    "meaning": "Pola kalimat なかなか～ない　menyatakan sesuatu yang sulit. Sementara itu, pola kalimat やっと～た menyatakan hal-hal yang sulit atau memakan waktu yang akhirnya berhasil dilakukan. Pola kalimat とうとう～た／～なかった menyatakan suatu kejadian yang setelah waktu yang lama akhirnya terjadi atau tidak terjadi.",
+    "examples": [
+     "Busnya tidak kunjung datang.",
+     "Akhirnya pekerjaan selesai juga.",
+     "Televisinya akhirnya rusak."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 315,
+   "src_hash": "1466d06ce760bbda",
+   "fields": {
+    "meaning": "untuk, sebagai",
+    "examples": [
+     "Saya memotret sebagai kenang-kenangan.",
+     "Guru memberi saya pulpen sebagai hadiah kelulusan.",
+     "3 kali sehari.",
+     "Setahun sekali saya pergi berlibur ke Thailand.",
+     "Sebulan sekali saya pergi menemui pacar saya.",
+     "Saya bersih-bersih 2 kali seminggu."
+    ],
+    "explain": "A\nMenyatakan tempat keberadaan benda dan makhluk hidup seperti pada contoh ①, serta tempat berlangsungnya suatu keadaan seperti pada contoh ②.\nB\nMenyatakan titik tujuan dari sasaran tindakan seperti pada contoh ①, dan titik tujuan dari pelaku tindakan seperti pada contoh ②．\nC\nMenyatakan sasaran yang dikenai tindakan.\nD\nMenyatakan titik waktu.",
+    "notes": "meaning_vi: Menyatakan tujuan dari tindakan berpindah tempat. Kata kerja yang dipakai dengan pola ini cukup sedikit; sebelum に adalah kata kerja yang bersifat kehendak, dan setelah に　adalah kata kerja gerak seperti いきます、きます、かえります、もどります, dll. Biasanya dipakai untuk menyatakan tujuan ringan yang biasa sehari-hari.\nexamples: 1. ①父は公園へ散歩に行きました。\nAyah saya pergi jalan-jalan ke taman.\n2. ②うちに財布を忘れたので、とりに帰ります。\nKarena dompet saya ketinggalan di rumah, saya akan pulang untuk mengambilnya.\n3. ③明日、8時に友達がうちにむかえに来る。\nBesok, teman saya akan datang ke rumah untuk menjemput saya pukul 8."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 316,
+   "src_hash": "3bfd15a1efb002e2",
+   "fields": {
+    "meaning": "penekanan jumlah",
+    "connection": "Jumlah + は (paling sedikit) / Jumlah + も (menekankan banyak)",
+    "examples": [
+     "A: Untuk memperbaiki mobil ini, paling tidak butuh 2 minggu.\nB: Sampai 2 minggu?",
+     "A: Di Jepang, kira-kira berapa banyak uang yang diperlukan untuk mengadakan pesta pernikahan?\nB: Menurut saya, paling tidak perlu 2 juta yen.\nA: Hah, sampai 2 juta yen?"
+    ],
+    "explain": "•　は：Menyatakan tingkat minimal yang diperkirakan oleh pembicara.\n•　も：Digunakan ketika pembicara merasa angka tersebut terlalu banyak."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 317,
+   "src_hash": "0f1991d2a2fcfcd3",
+   "fields": {
+    "meaning": "もう menyatakan bahwa suatu keadaan sudah tercapai, まだ menyatakan bahwa keadaan itu belum tercapai. Ada juga kalanya もう dipakai bersama gabungan \"1 + kata bantu bilangan\" atau “すこし”, dll. untuk menyatakan penambahan suatu jumlah lagi （③④）。",
+    "examples": [
+     "Ini enak. Boleh aku makan satu lagi?",
+     "Tolong tambahkan sedikit garam lagi ke dalam supnya.",
+     "Tom: \"Sudah makan siang?\"\nSarah: \"Belum, aku belum makan.\"",
+     "Tom: \"Apakah banknya masih buka?\"\nYamada: \"Sudah jam 4, jadi sudah tutup.\""
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 318,
+   "src_hash": "298cce6ee4aa05a1",
+   "fields": {
+    "meaning": "Menyatakan hal-hal yang tertangkap oleh mata atau telinga secara alami.",
+    "examples": [
+     "Kamarnya bagus, ya. Dari jendela terlihat laut.",
+     "Karena tidak memakai kacamata, saya tidak bisa melihat dengan jelas.",
+     "Suara angin terdengar, ya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 319,
+   "src_hash": "41162961e901df55",
+   "fields": {
+    "name": "Bentuk kausatif-pasif",
+    "meaning": "terpaksa melakukan karena dipaksa, tidak ada pilihan lain selain melakukannya; bukan atas kehendak pembicara.\nKarena tindakan seseorang, orang lain mengalami/memiliki suatu perasaan atau keadaan tertentu.",
+    "connection": "N1は + N2に + V bentuk kausatif-pasif (食べさせられる)",
+    "examples": [
+     "Waktu kecil, saya disuruh ibu makan sayur yang tidak saya sukai.",
+     "Saya disuruh guru berlatih berkali-kali sampai bisa melafalkan dengan baik.",
+     "Semasa sekolah, saya suka membaca buku, tetapi tidak suka disuruh menulis esai kesan.",
+     "Padahal saya tidak terlalu kuat minum alkohol, tetapi saya dipaksa minum oleh senior.",
+     "Karena bus tidak datang pada waktu yang dijadwalkan, saya terpaksa menunggu sampai 20 menit di halte bus.",
+     "Waktu kecil, saya sering dibuat menangis oleh kakak perempuan saya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 321,
+   "src_hash": "c7b6215bace215e2",
+   "fields": {
+    "name": "Kata benda⇔Kata kerja",
+    "meaning": "Kata benda ます digunakan sebagai kata benda. Kata kerja juga digunakan sebagai kata benda, tetapi hanya untuk kata kerja tertentu; jika disertai partikel （を／で／い／dll.) maka partikel dapat dihilangkan seperti pada contoh ③（山におぼります➞山登り）",
+    "connection": "N(サ変) ⇔ Nします (料理⇔料理します) / Vます(hilangkan ます) → N (帰ります→帰り・山登り)",
+    "examples": [
+     "Saya suka memasak, tetapi tidak suka bersih-bersih. [⇔料理します、掃除します]",
+     "Saya sudah membeli tiket pulang. [⇔帰ります]",
+     "Mendaki gunung itu menyenangkan, lho. [⇔山にのぼります]"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 323,
+   "src_hash": "dffff2bbb59436c8",
+   "fields": {
+    "name": "Kata benda⇔Kalimat",
+    "meaning": "Bentuk biasa + の／こと　digunakan sebagai kata benda.",
+    "connection": "V/A bentuk biasa + の/こと（nominalisasi klausa）",
+    "examples": [
+     "Mengobrol dengan teman itu menyenangkan. [⇔友達と話す]",
+     "Saya lupa bahwa saya sudah berjanji bertemu dengan Tom-san. [⇔会う約束をした]"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 324,
+   "src_hash": "452ee5089e6ac373",
+   "fields": {
+    "name": "Ungkapan perintah",
+    "meaning": "digunakan ketika pria yang berkedudukan lebih tinggi memberi perintah kepada orang yang lebih rendah kedudukannya, ketika pria berbicara dengan teman akrab dan bawahan, dan ketika harus mengungkapkan sesuatu secara singkat.\nperintah kepada orang yang lebih rendah kedudukannya; karena lebih lembut daripada kata kerja bentuk perintah, wanita sering menggunakannya.\nlarangan (mengatakan dengan tegas kepada lawan bicara)",
+    "connection": "V bentuk perintah (しろ・行け) / Vるな（larangan）",
+    "examples": [
+     "（Senior → junior）「Hei, cepat. Nanti terlambat.」",
+     "（Ayah → anak）「Sudah jam 7. Bangun!」",
+     "（Darurat）「Bahaya! Cepat lari!」",
+     "（Menyemangati）「Sedikit lagi. Ayo semangat!」",
+     "Ayah (marah)「Taro, sini sebentar!」",
+     "Ibu (marah)「Taro, kemari sebentar.」"
+    ],
+    "notes": "Catatan:\n引用の「と」の前には命令形が使える\nSebelum 「と」 kutipan, dapat digunakan bentuk perintah.\n先生はいつも、わたしたちに「わからないことばがあるときは、辞書をひきなさい」と言います。\nGuru berkata:「Kalau ada kata yang tidak dimengerti, carilah di kamus.」\n→先生はいつもわたしたちに、わからないことばがあるときは辞書をひけと言います。\n→ Guru berkata bahwa kalau ada kata yang tidak dimengerti, carilah di kamus."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 326,
+   "src_hash": "1bc70719769621b7",
+   "fields": {
+    "name": "Kata tanya＋たら/ば＋いいですか dll.",
+    "meaning": "digunakan ketika menanyakan hal yang belum dipahami / ketika meminta nasihat.",
+    "connection": "Kata tanya + Vたら/Vば + いいですか",
+    "examples": [
+     "「Kalau kartu ATM hilang, sebaiknya menghubungi ke mana?」",
+     "「Besok pagi sebaiknya saya datang jam berapa?」",
+     "「Kemarin aku sudah merepotkan Rin-san.... Menurutmu aku harus bagaimana?」",
+     "「Kalau mau membeli tiket kupon, tombol mana yang harus ditekan?」",
+     "Tasnya kelihatannya mudah dipakai, ya. Kalau mau beli, harus pergi ke mana?",
+     "「Tolong ajari saya bagaimana cara belajar supaya nilai saya naik.」"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 327,
+   "src_hash": "2241573d2ba0d63c",
+   "fields": {
+    "name": "Ungkapan kenjougo (bahasa merendah)",
+    "meaning": "Digunakan ketika berbicara dengan merendah tentang tindakan diri sendiri",
+    "connection": "お + Vます(hilangkan ます) + する/します / ご + N(サ変) + する",
+    "examples": [
+     "「Bagaimana kalau saya buatkan kopi?」",
+     "「Bu Guru, bolehkah saya meminjam buku itu?」",
+     "「Saya akan menunggu di sini sampai Direktur kembali.」",
+     "「Perkenalkan. Nama saya Kobayashi. Mohon bantuannya.」",
+     "「Besok saya ada di rumah seharian.」",
+     "「Permisi, saya ingin bertanya sedikit. Stasiun Tokyo di sebelah mana, ya?」"
+    ],
+    "notes": "Catatan:\n「内」のひと（自分の家族や職場の人）のことを「外」の人に話すときには謙譲表現を使う。\nKetika berbicara kepada “orang luar” tentang “orang dalam” (keluarga/rekan kerja sendiri), digunakan ungkapan kenjougo (bahasa merendah).\n1.  「父が「よろしく」と申しておりました」\n「Ayah saya menyampaikan「salam」」\n2.  「部長は出張で大阪に行っております」\n「Kepala bagian sedang dinas ke Osaka」"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 328,
+   "src_hash": "73a3b069b72b173d",
+   "fields": {
+    "meaning": "Setelah menerima informasi dari kalimat sebelumnya, pembicara menyampaikan dugaan, keinginan, atau niatnya sendiri, atau mengajak dan mendesak lawan bicara untuk bertindak.",
+    "connection": "[kalimat/klausa]。では/じゃ、[kalimat/klausa]",
+    "examples": [
+     "Tom: \"Saya punya kakak laki-laki.\"　Guru: \"Kalau begitu, kalian dua bersaudara, ya.\"",
+     "Sudah siap? Kalau begitu, mari kita mulai.",
+     "Hah? Sarah tidak datang ke pesta? Kalau begitu, aku juga tidak usah ikut, ya."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 330,
+   "src_hash": "84803fdf12aa4ef4",
+   "fields": {
+    "name": "（～は）bentuk pasif",
+    "meaning": "Ungkapan pasif yang menjadikan kata benda yang menunjukkan benda mati, seperti peristiwa atau karya, sebagai sasaran yang dikenai tindakan. Ungkapan ini sering digunakan ketika pelaku tindakan tidak ditentukan.",
+    "connection": "N(benda mati)が/は + V bentuk pasif（peristiwa, benda）",
+    "examples": [
+     "Banyak dibaca orang, lho.",
+     "Olimpiade berikutnya diadakan di mana?",
+     "Amerika disebut sebagai 「polisi dunia」.",
+     "Mi instan Jepang dimakan di seluruh dunia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 333,
+   "src_hash": "7f81098a824631ec",
+   "fields": {
+    "meaning": "Tidak melakukan V1, melainkan melakukan V2",
+    "examples": [
+     "Hari Minggu saya tidak pergi ke mana-mana, tetapi beristirahat dengan santai di rumah.",
+     "Tadi malam saya belajar tanpa tidur."
+    ],
+    "explain": "Karena tidak dapat melakukan 2 hal secara bersamaan, harus memutuskan dengan sengaja untuk melakukan yang satu dan tidak melakukan yang lain."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 334,
+   "src_hash": "b6772b297871027c",
+   "fields": {
+    "examples": [
+     "Kemarin, setelah teman-teman pulang, saya beres-beres sampai jam 12.",
+     "A: Setelah makan, mau melakukan apa?\nB: Ayo pergi karaoke."
+    ],
+    "explain": "Menekankan urutan waktu dari V2. V 2 baru terjadi setelah V 1 terjadi.\nKala masa depan, sekarang, lampau … dikonjugasikan pada kata kerja yang di belakang. (V2)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 336,
+   "src_hash": "31f268cee73a6d4f",
+   "fields": {
+    "name": "～V bentuk potensial なくなりました",
+    "meaning": "sudah tidak bisa ~",
+    "connection": "V bentuk potensial + なくなりました (読める → 読めなくなりました)",
+    "examples": [
+     "A: Untuk pesta besok, kamu mau pakai baju ini?\nB: Tidak, karena saya jadi gemuk, baju itu sudah tidak bisa saya pakai lagi.",
+     "A: Bagaimana liburan musim panasnya?\nB: Karena anak saya sakit, kami jadi tidak bisa pergi ke laut."
+    ],
+    "explain": "Membicarakan hal-hal yang dulu bisa dilakukan, tetapi sekarang sudah tidak bisa dilakukan lagi.\n～V可能形ない　→　V可能形な い くなる\n\n～V可能(かのう)形(かたち)なくなりました： menjadi tidak bisa ~"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 338,
+   "src_hash": "9bb7aa2acd9ad116",
+   "fields": {
+    "name": "～う／よう（bentuk maksud）",
+    "meaning": "Menyatakan apa yang akan dilakukan diri sendiri mulai sekarang (masa depan )\nMengajak orang yang akrab , digunakan untuk mengajak banyak orang.",
+    "connection": "V bentuk maksud (寝よう・注意しよう)",
+    "examples": [
+     "Sudah jam 12. Tidur, ah.",
+     "Aku membuat kesalahan karena tidak hati-hati; lain kali aku akan berhati-hati.",
+     "「Hari ini, makan siang bareng, yuk.」",
+     "「Tahun ini kita pasti juara! Ayo semua berjuang!」",
+     "「Tahun depan kita jalan-jalan bareng, yuk.」"
+    ],
+    "notes": "Catatan:\nていねいな会話では「～ましょう」を使う。\nDalam percakapan sopan, digunakan 「～ましょう」.\n1.  「寒いですね。はやく帰りましょう」\n「Dingin, ya. Ayo cepat pulang.」\n2.  「道を渡るときは注意しましょう」\n“Ketika menyeberang jalan, mari berhati-hati.”\nmeaning_vi: Cara menyatakan niat atau harapan di masa depan. Kadang-kadang untuk mengajak lawan bicara. ⏐ examples: 1. ①    早く　行こう。\nAyo cepat pergi.\n2. ②　来週は　病院へ　行こう。\nMinggu depan ayo pergi ke rumah sakit.\n3. ➂　九州で　就職活動を　しようと　思います。\nSaya berencana mencari kerja di Kyushu"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 339,
+   "src_hash": "8d9a5729552ffac5",
+   "fields": {
+    "name": "～か（kalimat tanya tidak langsung）",
+    "meaning": "Bentuk yang menggabungkan 2 kalimat. Digunakan 「～か」 ketika ada kata tanya.",
+    "connection": "[kalimat/klausa tanya] + か",
+    "examples": [
+     "「Ayo kita menikah.」「Hah, kamu serius?」「Masa hal seperti ini bisa dibilang bercanda?」",
+     "「Biarpun diminta sampai bagaimanapun, mana bisa aku melakukan hal yang seperti penipuan begitu?」",
+     "「Kamu kan orang baru. Pantaskah bicara seperti itu kepada senior?」",
+     "「Siapa yang mau percaya omonganmu?」",
+     "Seratus tahun yang lalu, siapa yang akan menyangka bahwa akan datang zaman ketika manusia pergi ke bulan?",
+     "Ada berapa botol bir? Tolong dihitung."
+    ],
+    "explain": "Menyisipkan sebuah kalimat yang memakai kata tanya ke dalam kalimat lain."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 340,
+   "src_hash": "6ebc07f9cb5e1561",
+   "fields": {
+    "meaning": "… atau tidak",
+    "examples": [
+     "Tolong berikan pendapat Anda, apakah masakannya enak atau tidak.",
+     "Saya tidak tahu apakah tokonya buka atau tidak.",
+     "Ini masakan yang pertama kali saya buat. Saya tidak yakin apakah rasanya enak atau tidak.",
+     "Saya khawatir apakah besok cerah atau tidak.",
+     "Saya tidak ingat apakah kata ini sudah pernah saya pelajari sebelumnya atau belum.",
+     "Saya tidak tahu apakah ini berlian asli atau bukan."
+    ],
+    "explain": "◎ 「～か どうか」adalah pola kalimat yang menunjukkan pilihan「AまたはB」. Kata kerja dan kata sifat tepat sebelum「か」 berada dalam bentuk kamus. Bahkan dalam situasi sopan pun, 「うまく 書けたか どうか」 tidak diubah menjadi「うまく 書けましたか どうか」.\n\n• Mengungkapkan pertanyaan biner “ada atau tidak/benar atau salah”.\n• Digunakan dalam klausa yang dinominalisasi bersama kata kerja seperti わからない／決める／調べる／迷う／確かめる.\n• Dengan kata tanya (いつ・どこ・だれ・なに…), biasanya digunakan ～か (tidak perlu どうか). かどうか juga bisa dipakai dalam beberapa konteks, tetapi mudah dianggap kurang alami dalam soal ujian.",
+    "notes": "Catatan:\n●　「かどうか」ではなく、否定形や反対のことばを使うこともできる。\nSelain 「かどうか」, dapat juga digunakan kata yang berarti berlawanan atau bentuk negatif.\n1.会議に出席するかしないか、なるべく早く知らせてください。\nHadir dalam rapat atau tidak hadir, sebisa mungkin tolong beri tahu secepatnya.\n2.来年子どもが生まれます。まだ男の子か女の子かわかりません。\nTahun depan anak kami akan lahir. Belum tahu apakah laki-laki atau perempuan.",
+    "mistakes": [
+     "Salah dengan kata benda/kata sifat な kala sekarang: × 学生ですかどうか → ○ 学生かどうか.",
+     "Setelah kata tanya dalam soal ujian: utamakan ～か, hindari penggunaan ～かどうか secara berlebihan. × いつ行くかどうか → ○ いつ行くか.",
+     "Kala lampau: lupa だった dengan kata sifat な/N. × 便利だたかどうか → ○ 便利だったかどうか."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "～かどうか",
+       "Apakah … atau tidak",
+       "Dua kemungkinan Ya/Tidak",
+       "<ruby>合格<rt>ごうかく</rt></ruby>したかどうか"
+      ],
+      [
+       "<ruby>疑問<rt>ぎもん</rt></ruby><ruby>詞<rt>ことば</rt></ruby>＋か",
+       "Siapa/apa/kapan…",
+       "Digunakan dengan いつ・どこ…",
+       "いつ<ruby>来<rt>く</rt></ruby>るか"
+      ],
+      [
+       "～か<ruby>否<rt>いな</rt></ruby>か",
+       "Ada atau tidak",
+       "Formal, bahasa tulis",
+       "<ruby>合意<rt>ごうい</rt></ruby>か<ruby>否<rt>いな</rt></ruby>か"
+      ],
+      [
+       "VるかVないか",
+       "…atau tidak (menyebut jelas 2 bagian)",
+       "Bentuk paralel",
+       "<ruby>行<rt>い</rt></ruby>くか<ruby>行<rt>い</rt></ruby>かないか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 341,
+   "src_hash": "9e312a11b8166ba6",
+   "fields": {
+    "meaning": "dengan, dari  ~",
+    "connection": "N + から + 作る (bahan yang berubah sifat) / N + で + 作る (bahan yang tetap bentuknya)",
+    "examples": [
+     "Kertas dibuat dari kayu.",
+     "Meja ini dibuat dari kayu.",
+     "A: Bahan baku bir itu apa?\nB: Bir dibuat dari gandum."
+    ],
+    "explain": "から：produk yang dibuat telah mengubah sifat dan struktur bahan asalnya. Ketika melihat produknya, kita tidak dapat mengetahui bahan asalnya.\nで：ketika melihat produknya, kita langsung dapat mengetahui bahan asalnya."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 344,
+   "src_hash": "6c2bbb16d6e47f98",
+   "fields": {
+    "meaning": "mengubah kalimat menjadi kata benda.",
+    "connection": "V/A bentuk biasa + こと/ということ / N/Naだ + ということ",
+    "examples": [
+     "Saya belum memberi tahu siapa pun bahwa saya akan cuti bulan depan.",
+     "「Tolong sampaikan kepada guru bahwa saya tidak masuk hari ini.」",
+     "Ada telepon dari ibu. Saya lega mendengar bahwa nenek sudah sehat kembali.",
+     "Karena tidak tahu bahwa kamar ini dilarang merokok, saya terlanjur merokok.",
+     "Saya baru tahu setelah datang ke Jepang bahwa di Jepang mobil berjalan di sisi kiri jalan.",
+     "Di kertas ini tertulis apa saja yang diperlukan ketika memperpanjang visa."
+    ],
+    "notes": "Catatan:\n●　「という」は話などの内容を表すので、次のような使い方もある。\nMenyatakan isi dari sesuatu seperti cerita tentang …., juga ada cara penggunaan seperti berikut.\n1.  「立ち入り禁止」はここには入るなと言う意味です。\n「Tachiri kinshi」 berarti “dilarang masuk ke sini”.\n2.  これは、ウサギとカメが競争してカメが勝った、という話です。\nIni adalah cerita tentang kelinci dan kura-kura yang berlomba lari, lalu kura-kura menang."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 346,
+   "src_hash": "0721c6a84e7f3bb3",
+   "fields": {
+    "meaning": "N seperti ini/seperti itu/seperti itu (yang jauh) (こんな/そんな/あんな+N)",
+    "examples": [
+     "(Sambil menunjukkan majalah kepada petugas salon)「Saya ingin gaya rambut seperti ini.」",
+     "「Aku benci banget orang seperti itu. Pokoknya aku tidak mau ketemu lagi.」",
+     "「Katanya besok ada ujian, lho. Sudah tahu?」「Nggak, aku belum dengar soal itu.」"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 348,
+   "src_hash": "97f69fac6d5ef8cd",
+   "fields": {
+    "meaning": "Menyatakan suatu tindakan atau tingkat tertentu yang melewati cakupan yang sesuai.",
+    "connection": "Vます(hilangkan ます) + すぎる / A(hilangkan い) + すぎる / Na + すぎる",
+    "examples": [
+     "Terlambat banget, sih.",
+     "Kamu agak terlalu banyak bekerja. Nanti sakit, lho.",
+     "Perutku sakit karena terlalu banyak makan.",
+     "Ini agak terlalu besar. Apakah ada yang sedikit lebih kecil?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 349,
+   "src_hash": "a8ed24a382a808e7",
+   "fields": {
+    "name": "～そう［kelihatannya］",
+    "meaning": "~ Kelihatannya (dari penampilan luar)",
+    "connection": "Vます + そう / Aい (hilangkan い) + そう / Na + そう (いい→よさそう / ない→なさそう)",
+    "examples": [
+     "Karena sama sekali tidak bisa berlatih, kelihatannya kali ini saya akan kalah.",
+     "Kelihatannya akan hujan, jadi ayo bawa payung.",
+     "Kuenya kelihatannya enak, ya.",
+     "Akhir-akhir ini dia kelihatannya senggang."
+    ],
+    "explain": "◎ 「～そう」 dipakai setelah kata kerja bentuk MASU, menunjukkan bahwa kemungkinan hal itu tinggi.\n◎ Untuk kata sifat, diubah sebagai berikut:「OOい→OOそう」「OOな→OOそう」.",
+    "notes": "Negatif: ～そうもない・そうにない; bentuk penjelas: そうなN・そうにV"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 350,
+   "src_hash": "adc117613fe41b01",
+   "fields": {
+    "meaning": "~ Belum pernah",
+    "examples": [
+     "Saya belum pernah bertemu orang itu.",
+     "Saya belum pernah mendengar cerita seperti itu."
+    ],
+    "explain": "◎ Belum memiliki pengalaman melakukan hal itu."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 351,
+   "src_hash": "d35ad5c6d0775e39",
+   "fields": {
+    "meaning": "Bermakna melakukan sesuatu setelah tindakan pada klausa depan dilaksanakan.",
+    "examples": [
+     "Ketika sudah tiba",
+     "Ketika pulang ke rumah, kita mengucapkan 「ただいま」.",
+     "Minggu depan, ketika saya sudah pulang ke negara saya, mari kita bertemu.",
+     "Kemarin, ketika bertemu dengan guru, saya menyerahkan PR."
+    ],
+    "notes": "Menerima bentuk タ dari predikat yang menyatakan keadaan, dan menyatakan kejadian atau keadaan di masa lampau yang terjadi bersamaan dan sejajar dengannya. Dalam hal ini, pada bagian pertama dapat juga digunakan bentuk kamus, tetapi ada perbedaan arti yang halus.\n*（例） 子供がまだ小さい時は、いろいろ苦労が多かった。\n!Jika （例） dibandingkan dengan ③, ③ yang menggunakan bentuk タ mengandung arti bahwa pembicara sedang mengenang masa lampau, atau arti 「keadaan sekarang sudah berbeda dari keadaan masa lampau」, sedangkan （例） yang menggunakan bentuk kamus tidak mengandung nuansa seperti itu."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 352,
+   "src_hash": "14d9b20111c8be56",
+   "fields": {
+    "examples": [
+     "Ketika datang ke Jepang, saya mendapat banyak teman.",
+     "Ketika sampai di rumah, saya baru sadar bahwa kunci saya tidak ada.",
+     "Ketika rapat selesai, saya dipanggil oleh kepala bagian.",
+     "Waktu kecil, saya sering bermain di taman ini.",
+     "Ketika pergi dinas ke Osaka, saya makan okonomiyaki asli khas sana.",
+     "Kalau terjadi masalah, segera hubungi saya."
+    ],
+    "explain": "Digunakan untuk menambatkan titik waktu yang sudah selesai, lalu baru muncul peristiwa utama, sehingga menimbulkan kesan “setelah V selesai, maka…”.\nGaya netral; dapat digunakan dalam bahasa lisan maupun tulisan.\nJika ingin menekankan “tepat sesaat setelah”, pertimbangkan untuk menggunakan ～たとたん(に) atau ～た途端(に) alih-alih ～たとき(に).\nJika peristiwa utama berupa penemuan/kesadaran (気づく、分かる、見つける…), ～たとき(に) sangat alami.\n\n• Menyatakan titik waktu tepat setelah tindakan dalam klausa bawahan selesai, dan pada saat itu peristiwa utama terjadi.\n• Kala kata kerja sebelum とき menunjukkan hubungan waktu relatif:\n\nV-る とき: tindakan utama terjadi sebelum/selagi V terjadi.\nV-た とき: tindakan utama terjadi setelah V selesai.\n\n• V-る とき: tindakan utama terjadi sebelum/selagi V terjadi.\n• V-た とき: tindakan utama terjadi setelah V selesai.\n• に menandai sasaran titik waktu dengan lebih jelas, tetapi biasanya dapat dihilangkan.\n• Biasanya digunakan untuk peristiwa konkret yang terjadi sekali; jarang digunakan untuk kebiasaan yang berulang terus-menerus.\n• Jika subjek klausa bawahan dan klausa utama berbeda, harus menggunakan partikel subjek yang sesuai (ga/wa) agar tidak ambigu.",
+    "notes": "• Dalam klausa とき, kala lampau/sekarang tidak bergantung pada kala seluruh kalimat, tetapi menyatakan hubungan sebelum-sesudah yang relatif.\n• Untuk tindakan yang berulang sebagai kebiasaan, biasanya digunakan とき secara umum (tidak harus memakai V-た).\n• とき biasanya tidak dipakai dengan partikel topik は dalam klausa bawahan, tetapi “X ときは …” tetap alami ketika menyatakan syarat umum.\n• に setelah とき membantu memperjelas titik waktu ketika kalimat panjang/rumit, berguna dalam bahasa tulis.",
+    "mistakes": [
+     "Mencampuradukkan V-る とき dan V-た とき: memilih kala yang salah dalam klausa とき membuat hubungan waktunya salah.",
+     "Menggunakan ～たとき untuk tindakan yang belum selesai atau kebiasaan umum → sebaiknya gunakan ～るとき atau とき secara umum.",
+     "Tertukar dengan ～たあとで: ketika ingin menekankan hubungan sebab-akibat yang seketika/langsung menyadari, ～たところ lebih sesuai.",
+     "Lupa memakai に setelah とき dalam bahasa formal dapat mengurangi kejelasan ketika kalimatnya rumit."
+    ],
+    "comparison": {
+     "headers": [
+      "Pola",
+      "Arti",
+      "Perbedaan utama",
+      "Contoh singkat"
+     ],
+     "rows": [
+      [
+       "V-る とき(に)",
+       "Saat sebelum/sedang melakukan",
+       "Titik waktu sebelum/bersamaan dengan V",
+       "<ruby>帰<rt>かえ</rt></ruby>るとき、<ruby>電気<rt>でんき</rt></ruby>を<ruby>消<rt>け</rt></ruby>す。"
+      ],
+      [
+       "V-た とき(に)",
+       "Saat setelah melakukan",
+       "Titik waktu setelah V selesai",
+       "<ruby>帰<rt>かえ</rt></ruby>ったとき、<ruby>電気<rt>でんき</rt></ruby>が<ruby>消<rt>き</rt></ruby>えていた。"
+      ],
+      [
+       "V-た あとで",
+       "Setelah",
+       "Menekankan urutan sesudahnya, jarak waktunya bisa panjang",
+       "<ruby>食<rt>た</rt></ruby>べたあとで、<ruby>散歩<rt>さんぽ</rt></ruby>する。"
+      ],
+      [
+       "V-た ところ",
+       "Setelah melakukan, lalu menemukan/hasilnya",
+       "Menekankan hasil temuan yang langsung; peristiwa sekali",
+       "<ruby>聞<rt>き</rt></ruby>いたところ、<ruby>満席<rt>まんせき</rt></ruby>だった。"
+      ],
+      [
+       "V-た とたん(に)",
+       "Begitu",
+       "Sifat seketika, sangat tiba-tiba",
+       "<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がったとたん、めまいがした。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 353,
+   "src_hash": "54333d7a17de9b6f",
+   "fields": {
+    "name": "～ために［tujuan］",
+    "meaning": "Tujuan/ bersifat kehendak",
+    "examples": [
+     "Saya belajar dengan giat untuk menjadi dokter.",
+     "Saya membeli hadiah untuk ibu."
+    ],
+    "explain": "◎ Digunakan dengan kata kerja bentuk kamus atau kata benda (ditambah「の」) untuk menyatakan tujuan.",
+    "notes": "meaning_vi: Menyatakan tujuan dari tindakan. Dipakai bersama kata-kata yang menyatakan tindakan yang bersifat kehendak. Subjek kalimat sebelum dan sesudah ために sama.\nexamples: 1. ①結婚式のために、いろいろ準備をしています。\nKami sedang menyiapkan banyak hal untuk pernikahan.\n2. ②アニメの勉強のために、日本に留学します。\nSaya akan belajar ke Jepang untuk mempelajari anime.\n3. ③社長は会議に出席するため、アメリカへ行きました。\nDirektur pergi ke Amerika untuk menghadiri rapat.\n4. ④これは漢字を練習するための本です。\nIni adalah buku untuk berlatih kanji.\n◎ Pola kalimat yang menunjukkan sebab dan alasan. Digunakan dengan bentuk biasa kata kerja dan「N＋の」.\n1. かぜを 引いたため、昨日は 休みました。\nKarena masuk angin, kemarin saya tidak masuk.\n2. 大雪の ため、電車が 止まって います。\nKarena salju lebat, kereta berhenti beroperasi.\nLebih formal daripada ので/から ketika menyatakan sebab; banyak digunakan dalam pengumuman, papan pemberitahuan, dan berita.\nUntuk tujuan, lebih formal daripada ～ように; cocok ketika kata kerjanya disengaja dan tujuannya konkret.\nTidak menggunakan ために (tujuan) dengan kata kerja yang tidak disengaja/kemampuan seperti 分かる、見える、起きる… (beralih ke ～ように).\n1. A:　なんの　ために　貯金していますか。\nB:　将来　自分の店を　持つために、貯金しています。\nA: Anda menabung untuk apa?\nB: Saya menabung supaya di masa depan bisa memiliki toko sendiri.\n2. A:　健康の　ために、　何か　していますか。\nB:　いいえ。でも、来週から　毎朝　走ろうと。\nA：Apakah Anda melakukan sesuatu untuk kesehatan?\nB: Tidak. Tapi, mulai minggu depan saya berencana lari setiap pagi.\n3. 家族の　ために、うちを　建てます。\nSaya membangun rumah untuk keluarga.\n──────\n1. 日本に留学するために、日本語を勉強している。\nSaya sed\n「～ように」 mengandung arti perubahan keadaan. 「Vために」 menyatakan tujuan dari tindakan.\n1. ①　早く起きられるように／早く起きるために\nSupaya bisa bangun pagi, untuk bangun pagi.\n2. ②　早く起きられるように、今晩なるべく早く寝ます。\nMalam ini saya berusaha tidur cepat supaya besok bisa bangun pagi.\n3. ③　早く起きるために、今晩なるべく早く寝ます。\nUntuk bangun pagi, malam ini saya berusaha tidur secepat mungkin."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}
