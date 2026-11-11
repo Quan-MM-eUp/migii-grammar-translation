@@ -32,7 +32,7 @@ Không xoá file nào trong thư mục này (thư mục kết nối không cho x
 Chạy trên máy (Python 3.10+, chỉ thư viện chuẩn), từ thư mục `Model bunpo`:
 
 ```bash
-T=bunpo-analyzer/scripts/translation; W=translation
+T=tools; W=translation   # người quản lý: bản gốc ở bunpo-analyzer/scripts/translation
 python3 $T/tm.py --ws $W status                         # bảng tiến độ 15 ngôn ngữ
 python3 $T/tm.py --ws $W claim en --who <mã-cuộc>       # nhận / gia hạn khoá (thoát 2 nếu cuộc khác đang giữ)
 python3 $T/tm.py --ws $W claim --auto --who <mã-cuộc>   # tự chọn ngôn ngữ kế tiếp còn việc, in ra mã ngôn ngữ

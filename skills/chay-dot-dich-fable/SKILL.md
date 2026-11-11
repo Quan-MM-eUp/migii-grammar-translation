@@ -5,6 +5,8 @@ description: "Chạy một đợt dịch kho ngữ pháp Migii bằng chính Fab
 
 # Chạy một đợt dịch kho ngữ pháp bằng Fable (không tác tử con)
 
+> Bản dùng với repo `migii-grammar-translation` (một repo duy nhất): các script dịch nằm ở `tools/` trong thư mục `Model bunpo`, không cần repo `bunpo-analyzer`.
+
 Bản đơn của skill `chay-dot-dich`: chính cuộc trò chuyện này (model Fable) dịch, tự chấm và sửa 2 lô mỗi đợt, làm thẳng trên máy người dùng. **Không** gọi Agent / Workflow, không chuyển file lên mây.
 
 Kế hoạch đầy đủ: `Model bunpo/ke-hoach-dich-kho-ngu-phap.md`; cấu trúc thư mục: `Model bunpo/translation/HUONG_DAN.md`. Tiến độ, khoá, kiểm tra và chấm điểm dùng chung với `chay-dot-dich` (hai skill chạy song song được trên hai ngôn ngữ khác nhau, đổi qua lại được giữa các đợt).
@@ -19,7 +21,7 @@ Lời nhắn "chạy tiếp đợt dịch fable …" đã là yêu cầu chạy:
 
 ## Ký hiệu
 
-`L` mã ngôn ngữ; `WHO` mã cuộc trò chuyện; `T=bunpo-analyzer/scripts/translation`; mọi lệnh chạy trong `cd "$HOME/mnt/Model bunpo"`; `N` (nháp) `= $HOME/fable_<L>`. Tên tiếng Anh của ngôn ngữ (`LANG_NAME`): en English, ko Korean, cn Simplified Chinese, tw Traditional Chinese (Taiwan), th Thai, id Indonesian, fr French, de German, es Spanish, pt Portuguese, ru Russian, pl Polish, hi Hindi, ne Nepali, my Burmese (Unicode).
+`L` mã ngôn ngữ; `WHO` mã cuộc trò chuyện; `T=tools`; mọi lệnh chạy trong `cd "$HOME/mnt/Model bunpo"`; `N` (nháp) `= $HOME/fable_<L>`. Tên tiếng Anh của ngôn ngữ (`LANG_NAME`): en English, ko Korean, cn Simplified Chinese, tw Traditional Chinese (Taiwan), th Thai, id Indonesian, fr French, de German, es Spanish, pt Portuguese, ru Russian, pl Polish, hi Hindi, ne Nepali, my Burmese (Unicode).
 
 ## Các bước một đợt
 
@@ -27,7 +29,7 @@ Lời nhắn "chạy tiếp đợt dịch fable …" đã là yêu cầu chạy:
 
 2. **Nhận khoá, chọn 2 lô:**
    ```bash
-   cd "$HOME/mnt/Model bunpo" && T=bunpo-analyzer/scripts/translation
+   cd "$HOME/mnt/Model bunpo" && T=tools
    python3 $T/tm.py --ws translation claim <L> --who <WHO>     # không có mã: claim --auto --who <WHO> (in ra mã)
    python3 $T/tm.py --ws translation next <L> --n 2
    date -u +%F; date -u +%Y%m%d-%H%M                            # DATE, STAMP
@@ -37,7 +39,7 @@ Lời nhắn "chạy tiếp đợt dịch fable …" đã là yêu cầu chạy:
    - `next` rỗng: ngôn ngữ đã xong, sang bước 8.
    - Báo một câu: đang dịch lô nào.
 
-3. **Dịch từng lô** (làm xong lô 1 rồi mới sang lô 2). Làm đúng hướng dẫn `translation/prompts/translate.md` (đọc file này ở đợt đầu của cuộc trò chuyện), với `WS = translation`, `TOOLS = bunpo-analyzer/scripts/translation`, `LANG`, `LANG_NAME`, `BATCH`, `DATE`, `MODEL` = định danh model của phiên. Cụ thể:
+3. **Dịch từng lô** (làm xong lô 1 rồi mới sang lô 2). Làm đúng hướng dẫn `translation/prompts/translate.md` (đọc file này ở đợt đầu của cuộc trò chuyện), với `WS = translation`, `TOOLS = tools`, `LANG`, `LANG_NAME`, `BATCH`, `DATE`, `MODEL` = định danh model của phiên. Cụ thể:
    - Đọc `translation/style/<L>.md` (một lần mỗi cuộc trò chuyện), chạy `python3 $T/brief.py --ws translation <L> <B>` (thuật ngữ bắt buộc của lô), đọc nguồn `translation/source/<B>.json`. Nguồn dài thì in làm 2 lần (ví dụ bằng một đoạn Python in nửa đầu / nửa sau danh sách `items`).
    - Dịch từng mẫu; ghi từng phần 5–8 mẫu vào `$HOME/fable_<L>/<B>_partNN.json` bằng heredoc có dấu kết thúc riêng (`cat > … <<'FABLE_EOF'`), mỗi phần là danh sách `[{"id", "src_hash", "fields"}]` theo đúng khuôn trong `translate.md`. Chữ thật UTF-8, không `\u`.
    - Ghép bằng Python thành `translation/out/<L>/<B>.json`: `{"batch", "lang", "model", "prompt_ver": "2", "date", "items"}`, đúng thứ tự và đủ mẫu như nguồn.
@@ -53,7 +55,7 @@ Lời nhắn "chạy tiếp đợt dịch fable …" đã là yêu cầu chạy:
 
 6. **Ghi điểm** khi xong cả 2 lô:
    ```bash
-   cd "$HOME/mnt/Model bunpo" && T=bunpo-analyzer/scripts/translation
+   cd "$HOME/mnt/Model bunpo" && T=tools
    python3 - <<'EOF'
    import json, os
    N = os.path.expanduser("~/fable_<L>"); out = []
@@ -77,7 +79,7 @@ Lời nhắn "chạy tiếp đợt dịch fable …" đã là yêu cầu chạy:
    python3 $T/merge.py --ws translation <L>
    python3 $T/tm.py --ws translation release <L> --who <WHO>
    ```
-   Báo số mẫu đã gộp, số mục qa thấp, lô hỏng còn lại; gợi ý bước tiếp: chạy `python scripts/translation/publish_lang.py <L>` trong `bunpo-analyzer` (đưa vào kho; xử lý dịch bù `translation/patches/<L>.todo.json` và nhãn ngắn `translation/labels/<L>.todo.json` nếu có).
+   Báo số mẫu đã gộp, số mục qa thấp, lô hỏng còn lại; gợi ý bước tiếp: commit và push các file của ngôn ngữ này (`translation/out/<L>`, `translation/manifest/<L>.csv`, `translation/reports/<L>`), rồi báo người quản lý để đưa vào kho (`publish_lang.py`, gồm dịch bù và nhãn ngắn).
 
 ## Xử lý sự cố
 

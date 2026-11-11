@@ -5,6 +5,8 @@ description: "Chạy một đợt dịch kho ngữ pháp Migii sang một ngôn 
 
 # Chạy một đợt dịch kho ngữ pháp
 
+> Bản dùng với repo `migii-grammar-translation` (một repo duy nhất): các script dịch nằm ở `tools/` trong thư mục `Model bunpo`, không cần repo `bunpo-analyzer`.
+
 Kế hoạch đầy đủ: `Model bunpo/ke-hoach-dich-kho-ngu-phap.md`. Dữ liệu, tiến độ và hướng dẫn cho tác tử nằm trong thư mục `Model bunpo/translation/` trên máy người dùng (`HUONG_DAN.md` mô tả cấu trúc).
 
 Lời nhắn "chạy tiếp đợt dịch …" đã là yêu cầu chạy workflow nhiều tác tử: không hỏi lại, chạy luôn. Mọi câu báo cho người dùng viết bằng tiếng Việt, ngắn gọn.
@@ -18,13 +20,13 @@ Lời nhắn "chạy tiếp đợt dịch …" đã là yêu cầu chạy workfl
 
 ## Các bước
 
-Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=bunpo-analyzer/scripts/translation`, `W=<thư mục làm việc trên mây>/dich_<L>` (thư mục làm việc = kết quả `pwd` của Bash; phải nằm trong thư mục làm việc để Workflow đọc được script).
+Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=tools`, `W=<thư mục làm việc trên mây>/dich_<L>` (thư mục làm việc = kết quả `pwd` của Bash; phải nằm trong thư mục làm việc để Workflow đọc được script).
 
 1. **Mã cuộc trò chuyện.** Lần đầu trong cuộc trò chuyện: `WHO = <L>-<yyyymmddHHMM>` (giờ UTC từ `date -u`); các đợt sau dùng lại đúng mã đó.
 
 2. **Nhận khoá và chọn lô** (một lệnh `device_bash`, chạy trong `$HOME/mnt/Model bunpo`):
    ```bash
-   T=bunpo-analyzer/scripts/translation
+   T=tools
    python3 $T/tm.py --ws translation claim <L> --who <WHO>      # không có ngôn ngữ: claim --auto --who <WHO> (in ra mã ngôn ngữ)
    python3 $T/tm.py --ws translation next <L> --n 20
    date -u +%F; date -u +%Y%m%d-%H%M       # DATE và STAMP của đợt
@@ -35,7 +37,7 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=bunpo-an
 3. **Đóng gói đầu vào trên máy** (cùng thư mục):
    ```bash
    tar czf _tmp/dot_<L>_<STAMP>_in.tgz $(for b in <các lô>; do echo translation/source/$b.json; done) \
-     translation/glossary/<L>.json translation/style/<L>.md translation/prompts bunpo-analyzer/scripts/translation/*.py
+     translation/glossary/<L>.json translation/style/<L>.md translation/prompts tools/*.py
    ```
    Rồi `device_stage_files` với `DEV\_tmp\dot_<L>_<STAMP>_in.tgz` → file có ở `/mnt/user-data/uploads/Model bunpo/_tmp/dot_<L>_<STAMP>_in.tgz`.
 
@@ -49,7 +51,7 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=bunpo-an
 
 5. **Chạy workflow.** Chia danh sách lô thành **2 nửa** và gọi **2 Workflow trong cùng một lượt** (chạy song song; mỗi workflow chỉ chạy 2 tác tử cùng lúc):
    - `scriptPath`: `<W>/translation/prompts/round_workflow.js`
-   - `args` (đối tượng JSON, không phải chuỗi): `{"ws": "<W>/translation", "tools": "<W>/bunpo-analyzer/scripts/translation", "lang": "<L>", "lang_name": "<tên tiếng Anh>", "batches": [<nửa lô>], "date": "<yyyy-mm-dd>", "low": <true nếu L là hi, ne hoặc my>}`
+   - `args` (đối tượng JSON, không phải chuỗi): `{"ws": "<W>/translation", "tools": "<W>/tools", "lang": "<L>", "lang_name": "<tên tiếng Anh>", "batches": [<nửa lô>], "date": "<yyyy-mm-dd>", "low": <true nếu L là hi, ne hoặc my>}`
    - Tên tiếng Anh: en English, ko Korean, cn Simplified Chinese, tw Traditional Chinese (Taiwan), th Thai, id Indonesian, fr French, de German, es Spanish, pt Portuguese, ru Russian, pl Polish, hi Hindi, ne Nepali, my Burmese (Unicode).
    - Báo người dùng một câu: đang dịch những lô nào, ước tính 20–40 phút. Sau đó **chờ thông báo hoàn tất**, không thăm dò.
    - Workflow: Opus dịch → Sonnet chấm (hi/ne/my thêm Opus dịch ngược) → mục lỗi nặng sửa tối đa 2 vòng. Tác tử tự đọc hướng dẫn trong `translation/prompts/`.
@@ -62,7 +64,7 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=bunpo-an
        out += json.load(open(f))["result"]
    json.dump([r for r in out if r], open("<W>/results.json", "w"), ensure_ascii=False)
    EOF
-   python3 <W>/bunpo-analyzer/scripts/translation/qa.py --ws <W>/translation <L> --results <W>/results.json \
+   python3 <W>/tools/qa.py --ws <W>/translation <L> --results <W>/results.json \
      --report <W>/translation/reports/<L>/<STAMP>.json --note "<WHO>, <số token từ thông báo>"
    cd <W> && tar czf /mnt/user-data/outputs/dot_<L>_<STAMP>_out.tgz translation/out/<L> translation/reports/<L> && md5sum /mnt/user-data/outputs/dot_<L>_<STAMP>_out.tgz
    ```
@@ -70,7 +72,7 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=bunpo-an
 
 7. **Ghi về máy:** `device_commit_files` với `stagedPath=/mnt/user-data/outputs/dot_<L>_<STAMP>_out.tgz`, `devicePath=DEV\_tmp\dot_<L>_<STAMP>_out.tgz`. Sau khi lệnh đó trả về, mới gọi `device_bash`:
    ```bash
-   cd "$HOME/mnt/Model bunpo" && T=bunpo-analyzer/scripts/translation
+   cd "$HOME/mnt/Model bunpo" && T=tools
    md5sum _tmp/dot_<L>_<STAMP>_out.tgz                       # phải trùng md5 trên mây; khác thì commit lại
    tar xzf _tmp/dot_<L>_<STAMP>_out.tgz --overwrite
    python3 $T/check.py --ws translation <L> <các lô>            # xác nhận trên máy
@@ -90,6 +92,7 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=bunpo-an
    python3 $T/tm.py --ws translation release <L> --who <WHO>
    ```
    Báo: số mẫu đã gộp, số mục qa thấp, lô hỏng còn lại; gợi ý ngôn ngữ kế tiếp theo thứ tự en, ko, cn, tw, th, id → fr, de, es, pt, ru, pl → hi, ne, my.
+   Nhắc người dùng commit và push các file của ngôn ngữ này (`translation/out/<L>`, `translation/manifest/<L>.csv`, `translation/reports/<L>`) rồi báo người quản lý để đưa vào kho (`publish_lang.py`).
 
 ## Xử lý sự cố
 
