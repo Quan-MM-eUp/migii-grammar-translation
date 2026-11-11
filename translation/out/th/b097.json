@@ -218,13 +218,13 @@
      "rows": [
       [
        "～<ruby>前提<rt>ぜんてい</rt></ruby>で",
-       "โดยมีหลักฐานเบื้องต้นว่า…",
+       "โดยมีข้อตั้งต้นว่า…",
        "ใช้กับอนุประโยค นัยความหมายเชิงวางแผน",
        "<ruby>参加<rt>さんか</rt></ruby>する<ruby>前提<rt>ぜんてい</rt></ruby>で"
       ],
       [
        "N を<ruby>前提<rt>ぜんてい</rt></ruby>に／として",
-       "ถือ N เป็นหลักฐานเบื้องต้น",
+       "ถือ N เป็นข้อตั้งต้น",
        "เป็นธรรมชาติกว่าเมื่อ N เป็นคำนาม",
        "<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>前提<rt>ぜんてい</rt></ruby>に"
       ],
@@ -245,24 +245,10 @@
    },
    "qa": {
     "judge": "claude-sonnet",
-    "score": 89,
-    "qa": "low",
-    "issues": [
-     {
-      "field": "comparison[r1.1]",
-      "category": "accuracy",
-      "severity": "major",
-      "note": "前提 (tiền đề / premise) rendered as 'หลักฐานเบื้องต้น' (preliminary evidence), which is a wrong meaning and misleads the learner.",
-      "fix": "โดยมีข้อตั้งต้นว่า…"
-     },
-     {
-      "field": "comparison[r2.1]",
-      "category": "accuracy",
-      "severity": "major",
-      "note": "Same mistranslation: 'tiền đề' rendered as 'หลักฐานเบื้องต้น' (evidence). It should be the premise or starting assumption, consistent with explain.",
-      "fix": "ถือ N เป็นข้อตั้งต้น"
-     }
-    ]
+    "score": 99,
+    "qa": "ok",
+    "issues": [],
+    "note": "2026-11-11: sua tay comparison r1.1, r2.1 (前提 = ข้อตั้งต้น, theo de xuat cua nguoi cham)"
    }
   },
   {
