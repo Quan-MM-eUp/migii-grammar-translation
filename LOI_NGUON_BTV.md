@@ -670,10 +670,10 @@ Mẫu:
 - [ ] Commit tables/particle_table.<mã>.json ở repo module
 ```
 
-### de — tiếng Đức · dịch xong 13/11/2026 (commit: chưa commit)
+### de — tiếng Đức · dịch xong 13/11/2026 (commit 52a42cb)
 - Kết quả: 101/101 lô, 0 lô qa thấp, 0 lô lỗi, điểm TB ~99,8 (Fable tự chấm, không tác tử con; thấp nhất 99,4). Gộp 1491 mẫu (translation/merged/grammar_text.de.json).
 - Lỗi nguồn mới phát hiện: 599 dòng có "Báo bởi" = de, đã ghi ở mục 4 (trạng thái "chờ sửa"); nhiều nhất là ruby sai, dữ liệu thô lẫn trong `notes`, câu Nhật gõ sai, gợi ý Việt lệch câu Nhật.
-- Dịch bù / ghi chú: chưa có dịch bù. #1336 và #1373 thiếu trường `meaning` ở nguồn nên bản Đức cũng không có nghĩa ngắn. Các trường nguồn tiếng Nhật/Anh (b100, b101) được dịch thẳng từ tiếng Nhật/Anh. Điểm là tự chấm; chưa có lượt đọc lại độc lập từng cặp câu ví dụ Nhật–Đức.
-- [ ] Chạy publish_lang.py de → grammar/grammar_text.de.json + nhãn ngắn translation/labels/de.json
-- [ ] Dịch bù các mẫu nguồn đã sửa sau đóng gói (nếu publish_lang.py báo)
+- Dịch bù / ghi chú: publish_lang.py báo 1491/1491 mẫu có bản dịch, 0 mục cần dịch bù; đã dịch 6 nhãn ngắn (133, 880, 1015, 1594, 1610, 1611). #1336 và #1373 thiếu trường `meaning` ở nguồn nên bản Đức cũng không có nghĩa ngắn. Các trường nguồn tiếng Nhật/Anh (b100, b101) được dịch thẳng từ tiếng Nhật/Anh. Điểm là tự chấm; chưa có lượt đọc lại độc lập từng cặp câu ví dụ Nhật–Đức.
+- [x] Chạy publish_lang.py de → grammar/grammar_text.de.json + nhãn ngắn translation/labels/de.json (13/11/2026, chưa commit)
+- [x] Dịch bù các mẫu nguồn đã sửa sau đóng gói: không có mục nào cần dịch
 - [ ] Commit tables/particle_table.de.json ở repo module
