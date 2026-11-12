@@ -1,0 +1,523 @@
+{
+ "batch": "b067",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 1033,
+   "src_hash": "5137606de9ea20ec",
+   "fields": {
+    "meaning": "Um … (kreisend), im Zusammenhang mit …",
+    "examples": [
+     "Eine internationale Konferenz zu Umweltfragen wurde abgehalten.",
+     "Der Familienstreit um das Erbe zieht sich in die Länge.",
+     "Die Gerüchte in der Firma um Personalfragen reißen nicht ab.",
+     "Die öffentliche Meinung zur Bildungsreform ist gespalten.",
+     "Die Debatte zwischen Regierungs- und Oppositionsparteien um die Sicherheitspolitik ging weiter.",
+     "Die unterschiedlichen Deutungen der historischen Tatsachen traten zutage."
+    ],
+    "explain": "Steht direkt vor dem Kernnomen und fasst den Inhalt „rund um N“ zusammen.\nFörmlich, knapp, beliebt in Verwaltungstexten, Presse, Wissenschaft.\nGeeignet, wenn man Vielschichtigkeit, widerstreitende Interessen/Meinungen betonen will.\nNicht als Prädikat: ×「この問題をめぐる。」→ es muss heißen 「この問題をめぐって議論している。」\n\n• Bestimmt das folgende Nomen näher, mit der Bedeutung „im Zusammenhang mit/rund um (die Frage N)“ und der Nuance von Streit, Gegensatz, mehreren Seiten.\n• Bildet knappe Nominalphrasen, geeignet für Überschriften und Schlagzeilen: ～をめぐる論争／～をめぐる対立／～をめぐる疑惑.\n• Anwendungsbereich: Politik, Gesellschaft, Wirtschaft, Recht, Wissenschaft, Organisationen.",
+    "notes": "• Kurzform für Überschriften: 「Nをめぐる混乱」「Nをめぐる疑惑」 macht den Satz knapp und informationsreich.\n• Mehrere Ergänzungen hintereinander sind möglich: 「資源開発をめぐる国際的な政治的対立」, man sollte aber maßhalten, damit es lesbar bleibt.\n• Steht oft mit Adjektiven: 深刻な/複雑な/激しい + NをめぐるN.",
+    "mistakes": [
+     "～をめぐる als Prädikat verwendet: ×「問題をめぐる。」→ grammatisch falsch.",
+     "Verwechslung mit ～についてのN: JLPT-Aufgaben prüfen die Nuance „Streit/Gegensatz“. Bei Schlüsselwörtern wie 対立/論争/賛否 → ～をめぐる wählen.",
+     "Für kleine, persönliche Themen verwendet → klingt übertrieben, wenig natürlich.",
+     "Das Nomen nach ～をめぐる fehlt: Es muss immer unmittelbar ein N folgen (Modifikation zwingend)."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "NをめぐるN",
+       "Rund um (bestimmt ein Nomen näher)",
+       "Deutet Streit/mehrere Seiten an, knapp",
+       "<ruby>予算<rt>よさん</rt></ruby>をめぐる<ruby>対立<rt>たいりつ</rt></ruby>"
+      ],
+      [
+       "NについてのN",
+       "Über N (neutral)",
+       "Ohne Gegensatz",
+       "<ruby>計画<rt>けいかく</rt></ruby>についての<ruby>説明<rt>せつめい</rt></ruby>"
+      ],
+      [
+       "Nに<ruby>関<rt>かん</rt></ruby>するN",
+       "In Bezug auf N (förmlich)",
+       "Förmlich, neutral",
+       "<ruby>規則<rt>きそく</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>通知<rt>つうち</rt></ruby>"
+      ],
+      [
+       "Nを<ruby>中心<rt>ちゅうしん</rt></ruby>としたN",
+       "Mit N im Mittelpunkt",
+       "Konzentriert, ohne „Streit“",
+       "<ruby>若者<rt>わかもの</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>とした<ruby>活動<rt>かつどう</rt></ruby>"
+      ],
+      [
+       "Nをめぐって + <ruby>文<rt>ぶん</rt></ruby>",
+       "Satzverbindende Form",
+       "Gleiche Bedeutung, als Prädikat verwendbar",
+       "<ruby>憲法<rt>けんぽう</rt></ruby>をめぐって<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>く"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1034,
+   "src_hash": "3d2c20f64eedf48f",
+   "fields": {
+    "meaning": "Wer weiß, wie lange noch …",
+    "connection": "いつまで + V einfache Form + のやら",
+    "examples": [
+     "Wie lange diese Rezession wohl noch andauert?",
+     "Wie lange ich wohl noch warten soll – es kommt keine Nachricht.",
+     "Wie lange ich das wohl noch aushalten muss?",
+     "Wie lange die Preise wohl noch steigen – ein Ende ist nicht abzusehen.",
+     "Wie lange dieses Kind wohl noch in der Trotzphase ist?"
+    ],
+    "explain": "Wird verwendet, wenn der Sprecher sich selbst fragt, etwas schwer absehen kann und Gefühl mitschwingt.\nNicht, um das Gegenüber zur Rede zu stellen; für eine echte Frage いつまで～か／いつまで～のですか .\nSteht am Satzende; vor のやら steht die einfache Form. Bei na/N なのやら .\n\nいつまで～のやら drückt Ratlosigkeit, Sorge, Klage aus: „wer weiß, wie lange noch …“. Es ist eine rhetorische Frage, die keine Antwort verlangt.\n• Nuance: Gefühl (Sorge, Klage, Überdruss, Ohnmacht), eher Selbstgespräch.\n• Meist in leichter Schriftsprache, Tagebuch, Monolog; selten als direkte Frage an andere.\n• Der Satz kann je nach Stil mit Punkt oder Fragezeichen enden; grammatisch ist es eine rhetorische Frage.",
+    "notes": "• のやら ist literarischer als のかな; passt zur Schilderung der Stimmung einer Figur.\n• Vor のやら lassen sich Modalwörter einfügen: 一体／果たして／全く, um die Ratlosigkeit zu betonen.\n• Bei なのやら das な für な-Adjektiv/Nomen nicht vergessen.",
+    "mistakes": [
+     "です/ます direkt vor のやら ist falsch: Man sagt 高いのやら, nicht 高いですのやら.",
+     "Um andere zur Rede zu stellen, klingt es unhöflich; der JLPT prüft oft die Unterscheidung von ～か/～のですか.",
+     "Verwechslung mit der Aufzählung ～やら～やら (völlig andere Funktion)."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "いつまで～のやら",
+       "Rhetorisch, gefühlsbetont",
+       "Keine direkte Frage",
+       "いつまで<ruby>続<rt>つづ</rt></ruby>くのやら"
+      ],
+      [
+       "いつまで～か",
+       "Neutral",
+       "Fragt nach echter Information",
+       "いつまで<ruby>待<rt>ま</rt></ruby>つか<ruby>教<rt>おし</rt></ruby>えて"
+      ],
+      [
+       "いつまで～のだろうか",
+       "Förmlich, nachdenklich",
+       "Bedeutungsnah, weniger wehleidig",
+       "いつまで<ruby>続<rt>つづ</rt></ruby>くのだろうか"
+      ],
+      [
+       "～ことやら／ものやら",
+       "Ungewiss, starkes Gefühl",
+       "Steht meist mit mehreren Elementen",
+       "どうなることやら"
+      ],
+      [
+       "～やら～やら",
+       "Aufzählung",
+       "Völlig andere Funktion",
+       "<ruby>本<rt>ほん</rt></ruby>やら<ruby>服<rt>ふく</rt></ruby>やら"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1035,
+   "src_hash": "ce49771089792e14",
+   "fields": {
+    "meaning": "Lässt sich denn nicht …?",
+    "connection": "どうにか(して) + V Potentialform ない + ものか",
+    "examples": [
+     "Ob sich an diesem Stau nicht irgendetwas machen lässt?",
+     "Das Budget ist knapp, aber ob sich nicht irgendwie wenigstens die Qualität halten lässt?",
+     "Ob der Abteilungsleiter nicht irgendwie Zeit für uns finden könnte?",
+     "Ob sich dieses Problem nicht mit der Hilfe von Fachleuten irgendwie lösen lässt?",
+     "Es gibt zu viele Unfälle. Ob sich die Maßnahmen nicht irgendwie beschleunigen lassen?"
+    ],
+    "explain": "Wird verwendet, wenn der Sprecher bedrängt ist und einen schlechten Zustand ändern möchte; meist allgemeine/berufliche Probleme.\nFörmlicher mit ないものだろうか; direkt, etwas scharf mit ないものか.\nSteht oft mit den Gradwörtern „どうにか/なんとか/せめて“. „どうにか“ ist neutral, „なんとか“ umgangssprachlicher.\nDer Handelnde ist meist nicht allein der Sprecher; es schwingt mit, dass man „einen Weg finden“ muss.\nNicht für kleine direkte Bitten; für Schwieriges/bereits erfolglos Versuchtes.\n\n- Drückt einen starken Wunsch aus: „Lässt sich denn nicht (ein Weg finden) …?“, „Gibt es nicht irgendeine Möglichkeit …?“. Meist, wenn die Sache schwierig ist und außerhalb der Kontrolle des Sprechers liegt.\n- Die Nuance ist Klage/Bedauern + Hoffnung auf eine Lösung. Der Wunsch ist stärker als bei gewöhnlichen Fragen nach einer Meinung.\n- Steht mit: Verb in der Potentialform (できる/られる) oder てもらう (Wunsch, dass ein anderer es tut). Die feste Wendung どうにかならないものか betont „lässt sich da gar nichts machen?“.\n- „ものか“ ist hier eine Partikel, die die rhetorische Frage (rhetorical) betont; sie lässt sich durch „ものだろうか“ ersetzen, um das Bedrängte abzumildern.",
+    "notes": "- „どうにか“ und „なんとか“ sind meist austauschbar; „どうにか“ klingt neutral/schriftlich, „なんとか“ umgangssprachlich und gefühlsstark.\n- Höflich/schriftlich: ～ないものだろうか ＞ ～ないだろうか ＞ ～ないものか (stark). Nach Beziehung und Situation wählen.\n- Mit せめて lässt sich der Wunsch einschränken: せめて納期だけでも守れないものだろうか。",
+    "mistakes": [
+     "Für Leichtes/Kleinigkeiten verwendet → klingt zu ernst. Besser ～てくれない？ statt ～ないものか.",
+     "Handelnden verwechselt: Das Muster betont nicht „ich werde es tun“, sondern „es gibt einen Weg/jemanden/eine Bedingung, damit …“.",
+     "Die „Möglichkeit“ des Verbs weggelassen: V-られない/できない bevorzugen. Beispiel: ×増やさないものか → besser: 増やせないものか.",
+     "Verwechslung mit bloßer Verneinung: ～ないものか ist eine wünschende Frage, keine Aussage „nicht …“.",
+     "In der Prüfung ist bei förmlichem Kontext (amtliches Schreiben, Vorschlag) meist ～ないものだろうか die höfliche Lösung."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ないものか",
+       "Starker Wunsch „lässt sich denn nicht …?“",
+       "Bedrängte Nuance, schwieriges Problem",
+       "<ruby>増<rt>ふ</rt></ruby>やせないものか"
+      ],
+      [
+       "～ないだろうか",
+       "Sich fragen/milder Vorschlag",
+       "Weicher, höflicher",
+       "<ruby>解決<rt>かいけつ</rt></ruby>できないだろうか"
+      ],
+      [
+       "なんとか/どうにか",
+       "„Irgendwie“ (Adverb)",
+       "Kein fragendes Grammatikmuster; steht oft mit ないものか",
+       "なんとかならないものか"
+      ],
+      [
+       "～てくれないかな",
+       "Sanfte Bitte",
+       "An den Hörer gerichtet; Kleinigkeit, vertraut",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくれないかな"
+      ],
+      [
+       "どうにかならないものか",
+       "Feste Wendung",
+       "Allgemein „lässt sich da nichts machen?“",
+       "<ruby>渋滞<rt>じゅうたい</rt></ruby>、どうにかならないものか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1036,
+   "src_hash": "f622a337d3fc6180",
+   "fields": {
+    "meaning": "～だけ（書(か)き言葉(ことば)）\nNur",
+    "examples": [
+     "An der Landesmeisterschaft im Baseball kann pro Präfektur nur eine Schule teilnehmen.",
+     "Jetzt bete ich nur, dass mein Vater wohlauf ist.",
+     "Eine Führungskraft darf nicht nur streng sein. Dann werden ihr die jungen Leute wohl nicht folgen.",
+     "In letzter Zeit gibt es mehr Universitäten, die nicht nur schriftliche Prüfungen, sondern auch Auswahlgespräche durchführen.",
+     "Er hat nicht nur einen Menschen getötet, sondern auch versucht, die Schuld einem anderen zuzuschieben.",
+     "* Für die Aufnahme an der Universität T hilft nur eines: Anstrengung!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1037,
+   "src_hash": "b23f3e59e7601478",
+   "fields": {
+    "meaning": "Sollte man (etwa) …, dann … (eine schwerwiegende Folge tritt ein)",
+    "examples": [
+     "Unser Hund bellt mit aller Macht, sobald draußen auch nur das leiseste Geräusch zu hören ist.",
+     "A: Der Bericht ist mühsam, nicht? Man möchte unwillkürlich jemandes Aufsatz aus dem Netz ausleihen.\nB: Das verstehe ich. Aber solltest du so etwas tun, bekommst du die Leistungspunkte ganz sicher nicht."
+    ],
+    "notes": "Eine etwas übertreibende Art, eine Bedingung zu nennen, mit der Bedeutung „sollte so etwas doch einmal geschehen“. Gewöhnlich folgt der Inhalt, dass „eine schlimme Lage entsteht“.（５９８）"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1038,
+   "src_hash": "86d5fac61242d8d1",
+   "fields": {
+    "meaning": "Lasst uns gemeinsam …! (Aufruf, Appell; förmlich) | 一緒(いっしょ)に～しよう（他社(たしゃ)への呼(よ)びかけ）\nGemeinsam … tun",
+    "examples": [
+     "Wo wir nun schon einmal hier sind, lasst uns es doch nach Herzenslust genießen.",
+     "(Text) Jeder Mensch hat seine Sorgen. Doch durch bloßes Nachdenken lösen sie sich nicht. Auch wenn es schwerfällt, lasst uns Schritt für Schritt vorangehen."
+    ],
+    "notes": "explain: Drückt einen nachdrücklichen Aufruf oder einen starken Willen aus; meist von Männern verwendet.\nSteifer Stil.\n⏐ examples: 1. 今日はお祝いだ。みんなで飲もうではないか。\nHeute wird gefeiert. Lasst uns alle zusammen trinken.\n2. だれもやらないなら、ぼくがやってみようじゃないか。\nWenn es keiner macht, dann versuche eben ich es."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1039,
+   "src_hash": "95ee41def4217a4a",
+   "fields": {
+    "meaning": "Obendrein, außerdem",
+    "connection": "[Satz/Teilsatz] + おまけに",
+    "examples": [
+     "Er spricht schlecht Japanisch. Obendrein kann er auch kein Englisch.",
+     "Dieses Lokal ist teuer. Obendrein ist auch der Service schlecht.",
+     "Heute regnet es seit dem Morgen. Obendrein habe ich den Schirm vergessen.",
+     "Er arbeitet langsam. Obendrein macht er viele Fehler.",
+     "Ich bin erkältet. Obendrein habe ich auch noch Fieber bekommen."
+    ],
+    "explain": "Stellung : am Anfang von Teilsatz B, im Anschluss an einen vollständigen Satz oder Teil A.\nNuance : starkes Gefühl, meist Unmut oder Klage; aber auch in positiver Bedeutung möglich.\nStil : vertraut, Umgangssprache; selten in gehobener Schriftsprache oder wissenschaftlichen Arbeiten.\nIn positiver Bedeutung mit fröhlicher, launiger Nuance:彼は優しい。 おまけに、ハンサムだ。\n\n•\nDrückt Hinzufügung, Ergänzung aus: B ist eine Zusatzinformation zu A, die die Lage besser oder (meist) schlechter macht.\n\n•\nGefühlsnuance: meist, wenn der Sprecher klagen, tadeln oder das „Pech, Lästige, Zusätzliche“ betonen will.\n\n•\nEntsprechungen: „Obendrein …“, „Dazu noch …“, „Und damit nicht genug …“.\n\n• Selten in förmlichen Texten; vor allem im Gespräch, in gesprochener Sprache, Erzählungen, vertrauten Texten.",
+    "notes": "• Meist, wenn man ungünstige Umstände nacheinander aufzählt und die Wirkung „Pech über Pech“ erzeugt.\n• Im vertrauten Gespräch je nach Gefühlslage durch „しかもさ“, „それにしてもさ“ ersetzbar.\n• Positive Fälle kommen vor, sind aber seltener und haben eine scherzhafte Nuance. explain: In der gesprochenen Sprache verwendet. Im Gespräch gebräuchlicher als 「しかも」 ⏐ examples: 1. 日本の夏は暑いし、おまけに湿気も多いです。\nDer Sommer in Japan ist heiß, und obendrein ist es auch sehr feucht.\n2. あのそば屋は高いしまずい。おまけにサービスも悪い。\nDas Soba-Lokal ist teuer und schmeckt nicht. Obendrein ist auch der Service schlecht.",
+    "mistakes": [
+     "Mit それに verwechselt: それに ist neutral, おまけに hat eine starke Gefühlsnuance.",
+     "In förmlichen Texten verwendet → unpassend, besser その上 oder さらに.",
+     "Verwendet, wenn A und B nicht in dieselbe Richtung weisen → logisch falsch (おまけに steht, wenn B eine Information in derselben Richtung wie A ergänzt).",
+     "Das Komma in der Schriftsprache weggelassen: besser „おまけに、～“ schreiben。"
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "おまけに",
+       "Obendrein (meist negativ)",
+       "Stark gefühlsbetont, klagend.",
+       "<ruby>寒<rt>さむ</rt></ruby>い。 おまけに<ruby>風<rt>かぜ</rt></ruby>もある。"
+      ],
+      [
+       "その<ruby>上<rt>うえ</rt></ruby>（に）",
+       "Außerdem, zudem",
+       "Förmlicher, neutral.",
+       "<ruby>寒<rt>さむ</rt></ruby>い。 その<ruby>上<rt>うえ</rt></ruby><ruby>雨<rt>あめ</rt></ruby>まで<ruby>降<rt>ふ</rt></ruby>ってきた。"
+      ],
+      [
+       "しかも",
+       "Zudem (betonend, logisch)",
+       "Argumentierend, weniger Gefühl als おまけに.",
+       "<ruby>安<rt>やす</rt></ruby>い。 しかも<ruby>品質<rt>ひんしつ</rt></ruby>が<ruby>良<rt>よ</rt></ruby>い。"
+      ],
+      [
+       "それに",
+       "Dazu, und außerdem",
+       "Umgangssprache, schwächer als おまけに.",
+       "<ruby>忙<rt>いそが</rt></ruby>しい。 それに<ruby>眠<rt>ねむ</rt></ruby>い。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1040,
+   "src_hash": "1b18311b52be6992",
+   "fields": {
+    "meaning": "Außerdem, noch dazu",
+    "examples": [
+     "Dieser Computer ist leicht. Außerdem hält der Akku lange.",
+     "Er ist jung. Und dazu reich an Erfahrung.",
+     "Es staut sich. Und dazu ist auch noch ein Unfall passiert.",
+     "Dieses Lokal schmeckt gut. Und dazu sind die Preise angemessen.",
+     "Der Regen ist stark. Und dazu nimmt die Windgeschwindigkeit immer weiter zu."
+    ],
+    "explain": "Wird verwendet, wenn man das „Beachtliche/Überraschende“ der Zusatzinformation betonen will.\nPasst zu argumentierender Schriftsprache, Vorträgen, Werbung.\nSteht am Satzanfang von S2; mitten im Satz kann es zwei Eigenschaften desselben Handelnden verbinden.\nNicht zur Einleitung einer Bitte/eines Befehls; klingt gezwungen.\nSteht oft mit まで・さえ, um die Reichweite zu verstärken.\n\nしかも: „außerdem, überdies, noch dazu“; betont, dass S2 ein überraschendes/bemerkenswertes Zusatzelement ist, das die Bewertung in dieselbe Richtung wie S1 verstärkt.\n• Verstärkende Wirkung: S2 macht den Eindruck stärker (besser oder schlechter).\n• Stil: neutral bis förmlich; in Berichten/Texten verwendbar.\n• Drückt keine Ursache aus; nur eine betonende Ergänzung.",
+    "notes": "• In der Rhetorik erzeugt die Folge „まず… 次に… しかも…“ den Eindruck einer sich steigernden Argumentation.\n• „しかも“ kann in der Literatur nach Semikolon oder Komma stehen, was den Rhythmus kräftigt.\n• Tipp: Soll es „überzeugender“ klingen als それに, しかも wählen. explain: Wird verwendet, wenn man einer Sache eine weitere hinzufügt. ⏐ examples: 1. 彼女は美人で頭がいい。しかも性格もいい。\nSie ist schön und klug. Und dazu hat sie auch noch einen guten Charakter.\n2. 先日泊まったホテルは、古くて高かった。しかもサービスが悪かったので、もう二度と行かない。\nDas Hotel, in dem ich neulich übernachtet habe, war alt und teuer. Dazu war auch noch der Service schlecht, ich gehe nie wieder hin.",
+    "mistakes": [
+     "Für eine Ursache verwendet: ×「雨だ。しかも、試合を中止した」→ besser それで/したがって.",
+     "Verwechslung mit そのうえ/それに: Verlangt die Aufgabe zur Wahl der Konjunktion einen Grad der Betonung ⇒ しかも ist die Lösung, wenn S2 „eindrucksvoller“ ist.",
+     "Mit Befehl/Vorschlag klingt es gezwungen: ×「しかも、来てください」.",
+     "Die Bewertungsrichtung muss einheitlich sein (positiv + positiv oder negativ + negativ), damit es natürlich wirkt."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "おまけに",
+       "Obendrein",
+       "Umgangssprache, ausrufender, weniger förmlich.",
+       "<ruby>寒<rt>さむ</rt></ruby>い。おまけに<ruby>雨<rt>あめ</rt></ruby>まで。"
+      ],
+      [
+       "そのうえ",
+       "Außerdem",
+       "Neutral, weniger „überraschend“ als しかも.",
+       "<ruby>便利<rt>べんり</rt></ruby>だ。そのうえ<ruby>安全<rt>あんぜん</rt></ruby>だ。"
+      ],
+      [
+       "それに",
+       "Und außerdem, dazu",
+       "Leicht, Umgangssprache, nur aufzählend.",
+       "<ruby>忙<rt>いそが</rt></ruby>しい。それに<ruby>眠<rt>ねむ</rt></ruby>い。"
+      ],
+      [
+       "さらに",
+       "Darüber hinaus (Steigerung)",
+       "Objektiv, für Zahlen/Grade.",
+       "<ruby>売上<rt>うりあげ</rt></ruby>がさらに10%<ruby>伸<rt>の</rt></ruby>びた。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1041,
+   "src_hash": "fbdffb2fd9e38f3e",
+   "fields": {
+    "meaning": "Daher, folglich",
+    "examples": [
+     "Ein Taifun nähert sich. Daher wird die heutige Veranstaltung abgesagt.",
+     "Die Kosten sind gestiegen. Folglich ist eine Preisanpassung nötig.",
+     "Die Beweise reichen nicht aus. Folglich kann man nicht von Schuld sprechen.",
+     "Die Nachfrage ist sprunghaft gestiegen. Daher wird eine Produktionssteigerung geprüft.",
+     "Diese Anlage ist veraltet. Daher wird eine Erneuerung empfohlen."
+    ],
+    "explain": "Förmlicher Stil; passt zu Berichten, Bekanntmachungen, wissenschaftlichen Darstellungen.\nStellung: am Satzanfang des schlussfolgernden Satzes; meist mit Komma.\nNicht vor einem direkten persönlichen Befehl/einer direkten persönlichen Bitte.\nSteht oft in Argumentationsfolgen: まず/第一に →次に → したがって /結論.\n\nしたがって: „daher/also/folglich“. Nennt einen Schluss oder eine zwangsläufige Folge aus der eben genannten Prämisse. Meist in wissenschaftlichen Texten, Berichten, offiziellen Bekanntmachungen.\n• Stark logisch, wenig Gefühlsnuance.\n• S2 ist meist ein Urteil, ein Schluss, eine Richtlinie oder ein objektiver Ergebniszustand.\n• Unnatürlich, wenn eine persönliche Bitte oder ein direkter Befehl folgt.",
+    "notes": "• „従って“ (Konjunktion: daher) und „規則に従って“ (Bedeutung „gemäß“) unterscheiden. Die Form ist gleich, die Funktion verschieden.\n• In feierlichen Reden gibt es die Keigo-Variante „したがいまして“ (in der Standardschrift selten, aber in zeremonieller Rede zu hören).\n• Tipp: Hat der Satz den Charakter eines Schlusses über Richtlinien/Vorschriften, ist したがって meist eine gute Wahl. explain: Drückt aus, dass das Folgende als selbstverständliches Ergebnis aus den Bedingungen des vorangehenden Satzes eintritt.\nIn Sätzen steifen Stils verwendet. ⏐ examples: 1. 彼はまじめて誠実な人だ。したがってみんなから信頼されている。\nEr ist ein gewissenhafter, aufrichtiger Mensch. Daher vertrauen ihm alle.\n2. 教授は急用で来られません。したがって講義は中止です。\nDer Professor kann wegen einer dringenden Angelegenheit nicht kommen. Daher fällt die Vorlesung aus.",
+    "mistakes": [
+     "Vor einer persönlichen Bitte verwendet: ×「したがって、来てください」→ besser ですので/それで.",
+     "Verwechslung mit そのため/それで: Satz mit akademisch-logischer Folgerung → したがって; Alltagssatz mit natürlichem Ergebnis → それで.",
+     "Verwechslung mit der Bedeutung „gemäß“: darauf achten, ob davor ein Objekt + に steht (規則に従って = anderes Muster als die Konjunktion)."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "だから",
+       "Deshalb",
+       "Umgangssprache, gefühlsbetonter, weniger förmlich.",
+       "<ruby>雨<rt>あめ</rt></ruby>。だから、<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "それで",
+       "Deshalb (natürliches Ergebnis)",
+       "Neutral, breit verwendbar; wenig akademisch.",
+       "<ruby>熱<rt>ねつ</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。それで、<ruby>休<rt>やす</rt></ruby>んだ。"
+      ],
+      [
+       "そのため",
+       "Aus diesem Grund",
+       "Schriftsprache, betont eher den Grund als den logischen Schluss.",
+       "<ruby>渋滞<rt>じゅうたい</rt></ruby>。そのため、<ruby>遅刻<rt>ちこく</rt></ruby>した。"
+      ],
+      [
+       "ゆえに",
+       "Folglich (altertümlich/äußerst förmlich)",
+       "Sehr akademisch/klassisch; stärker als したがって.",
+       "<ruby>証拠<rt>しょうこ</rt></ruby><ruby>不十分<rt>ふじゅうぶん</rt></ruby>、ゆえに<ruby>無罪<rt>むざい</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1042,
+   "src_hash": "1673de37823f6d68",
+   "fields": {
+    "meaning": "Deshalb, also",
+    "connection": "[Problem/Umstände]。 + そこで、 + [Lösung/Handlung]",
+    "examples": [
+     "Im Zimmer war es kalt. Also habe ich die Heizung angemacht.",
+     "Der Bus kam nicht. Also beschloss ich, mit dem Taxi zu fahren.",
+     "Die Abgabefrist des Berichts rückt näher. Deshalb will ich heute Nacht durcharbeiten.",
+     "Der Computer ist kaputtgegangen. Also habe ich beschlossen, einen neuen zu kaufen.",
+     "Diese Aufgabe ist schwer. Fragen wir also den Lehrer um Rat."
+    ],
+    "explain": "Stellung : immer am Anfang des zweiten Teilsatzes, nach Punkt oder Komma.\nPassender Kontext : wenn B eine absichtliche Handlung ist, um die Situation in A zu lösen.\nStil : argumentativ, folgerichtig – meist in Texten, Erzählungen, Berichten.\nNuance : höflich-neutral; nicht so umgangssprachlich wie それでさ und nicht so förmlich wie従って.\n\n•\nDrückt eine Handlung/einen Lösungsweg auf Grundlage der vorangehenden Situation aus: A ist Umstand, Problem → B ist die Handlung, um damit umzugehen.\n\n•\nNatürliche Wiedergabe: „Also …“, „Deshalb …“, „Daraufhin …“.\n\n•\nBetont das Folgerichtige, den gewollten Schluss des Sprechers: Anders als „そして“, das nur verbindet, zeigt „そこで“ den Übergang zur Handlung.\n\n•\nMeist beim Erzählen, Berichten, Beschreiben eines Lösungswegs.",
+    "notes": "• Erscheint häufig in JLPT-Leseaufgaben, wenn eine Lösung oder die Reihenfolge der Problembehandlung erklärt wird.\n• Meist in logischer Darstellung, wissenschaftlichen Berichten, Vorträgen: Problem → Lösung.\n• Nicht, wenn B ein Gefühl oder ein überraschendes Ergebnis ist (dann すると). explain: Wird beim Entfalten einer Erzählung verwendet. Ein Bindewort, das im folgenden Satz Lösungsweg, Vorschlag, Bitte anzeigt. ⏐ examples: 1. 明日は車が混むらしい。そこで我々は朝早く出発するつもりだ。\nMorgen soll viel Verkehr sein. Deshalb wollen wir früh am Morgen aufbrechen.\n2. 「今度アメリカに旅行します。そこでお願いがあるのですが．．．。」\n„Ich reise demnächst nach Amerika. Deshalb hätte ich eine Bitte ...“",
+    "mistakes": [
+     "Verwechslung mit それで: それで nennt nur ein natürliches Ergebnis; そこで betont die absichtliche Handlung.",
+     "Für ein überraschendes Ergebnis verwendet: falsch. Dann steht すると.",
+     "Logisch falsch, wenn A kein Problem/Umstand ist: そこで verlangt, dass A den Grund für die Ausführung von B liefert.",
+     "Das Komma nach そこで in gehobener Schriftsprache weggelassen → besser: „そこで、…“。"
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "そこで",
+       "Also (Wahl einer Handlung)",
+       "Betont die lösende Handlung.",
+       "<ruby>寒<rt>さむ</rt></ruby>い。 そこでコートを<ruby>着<rt>き</rt></ruby>た。"
+      ],
+      [
+       "それで",
+       "Deshalb (natürliches Ergebnis)",
+       "Nicht zwingend eine absichtliche Handlung.",
+       "<ruby>寒<rt>さむ</rt></ruby>い。 それで<ruby>風邪<rt>かぜ</rt></ruby>をひいた。"
+      ],
+      [
+       "だから",
+       "Deshalb",
+       "Umgangssprache, stärkeres Gefühl.",
+       "<ruby>寒<rt>さむ</rt></ruby>い。 だから<ruby>嫌<rt>いや</rt></ruby>なんだ。"
+      ],
+      [
+       "すると",
+       "Da …",
+       "Das Ergebnis tritt sofort ein, meist überraschend.",
+       "ドアを<ruby>開<rt>あ</rt></ruby>けた。 すると<ruby>猫<rt>ねこ</rt></ruby>がいた。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

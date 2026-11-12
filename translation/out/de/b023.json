@@ -1,0 +1,674 @@
+{
+ "batch": "b023",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 314,
+   "src_hash": "f22c951745a5adef",
+   "fields": {
+    "meaning": "Das Satzmuster なかなか～ない　drückt aus, dass etwas schwierig ist. Das Satzmuster やっと～たdrückt dagegen aus, dass etwas Schwieriges oder Zeitaufwendiges vollbracht wurde. Das Satzmuster とうとう～た／～なかった drückt aus, dass etwas nach langer Zeit schließlich eingetreten oder nicht eingetreten ist.",
+    "examples": [
+     "Der Bus kommt und kommt nicht.",
+     "Endlich ist die Arbeit fertig.",
+     "Der Fernseher ist nun schließlich kaputtgegangen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 315,
+   "src_hash": "1466d06ce760bbda",
+   "fields": {
+    "meaning": "als, zum (Zweck)",
+    "examples": [
+     "Ich habe zur Erinnerung ein Foto gemacht.",
+     "Zum Abschluss hat mir der Lehrer als Glückwunsch einen Stift geschenkt.",
+     "3-mal am Tag.",
+     "Mindestens einmal im Jahr fahre ich zum Vergnügen nach Thailand.",
+     "Einmal im Monat fahre ich meine Freundin besuchen.",
+     "Ich putze 2-mal pro Woche."
+    ],
+    "explain": "A\nBezeichnet den Ort, an dem sich Dinge und Lebewesen befinden, wie in Beispiel ①, oder den Ort, an dem ein Zustand besteht, wie in Beispiel ②.\nB\nBezeichnet den Zielpunkt des Bezugsobjekts der Handlung wie in Beispiel ① oder den Zielpunkt des Handelnden wie in Beispiel ②．\nC\nBezeichnet das Bezugsobjekt, auf das die Handlung einwirkt.\nD\nBezeichnet einen Zeitpunkt.",
+    "notes": "meaning_vi: Bezeichnet den Zweck einer Bewegung. Nur wenige Verben stehen in diesem Muster; vor に stehen willentliche Verben, hinter に　Bewegungsverben wie いきます、きます、かえります、もどります、usw. Meist für leichte, alltägliche Zwecke.\nexamples: 1. ①父は公園へ散歩に行きました。\nMein Vater ist im Park spazieren gegangen.\n2. ②うちに財布を忘れたので、とりに帰ります。\nIch habe mein Portemonnaie zu Hause vergessen, deshalb gehe ich es holen.\n3. ③明日、8時に友達がうちにむかえに来る。\nMorgen um 8 Uhr kommt ein Freund mich zu Hause abholen."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 316,
+   "src_hash": "3bfd15a1efb002e2",
+   "fields": {
+    "meaning": "Betonung einer Menge",
+    "connection": "Mengenangabe + は (mindestens) / Mengenangabe + も (betont die große Menge)",
+    "examples": [
+     "A: Die Reparatur dieses Autos dauert mindestens 2 Wochen.\nB: Ganze 2 Wochen dauert das?",
+     "A: Wie viel Geld braucht man in Japan für eine Hochzeitsfeier?\nB: Ich denke, man braucht mindestens 2 Millionen Yen.\nA: Was, ganze 2 Millionen Yen braucht man?"
+    ],
+    "explain": "•　は：Bezeichnet das Mindestmaß, das der Sprecher veranschlagt.\n•　も：Wird verwendet, wenn der Sprecher die Zahl als zu hoch empfindet."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 317,
+   "src_hash": "0f1991d2a2fcfcd3",
+   "fields": {
+    "meaning": "もう drückt aus, dass ein Zustand bereits erreicht ist, まだ, dass er noch nicht erreicht ist. Manchmal wird もう auch zusammen mit der Verbindung „1 + Zählwort“ oder „すこし“ usw. verwendet. Es drückt dann aus, dass noch eine bestimmte Menge hinzukommt （③④）。",
+    "examples": [
+     "Das ist lecker. Darf ich noch eins essen?",
+     "Geben Sie bitte noch etwas Salz in die Suppe.",
+     "Tom: „Hast du schon zu Mittag gegessen?“\nSarah: „Nein, ich habe noch nicht gegessen.“",
+     "Tom: „Hat die Bank noch geöffnet?“\nYamada: „Es ist 4 Uhr, sie hat also schon geschlossen.“"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 318,
+   "src_hash": "298cce6ee4aa05a1",
+   "fields": {
+    "meaning": "Bezeichnet Dinge, die von selbst ins Auge oder ans Ohr dringen.",
+    "examples": [
+     "Ein schönes Zimmer. Vom Fenster aus sieht man das Meer.",
+     "Da ich keine Brille habe, kann ich nicht gut sehen.",
+     "Man hört das Rauschen des Windes, nicht wahr?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 319,
+   "src_hash": "41162961e901df55",
+   "fields": {
+    "name": "Kausativ-Passiv-Form",
+    "meaning": "gezwungen werden und etwas tun müssen, weil es nicht anders geht; es ist nicht der Wille des Sprechers.\nDurch die Handlung eines anderen entsteht bei jemandem ein Gefühl oder Zustand.",
+    "connection": "N1は + N2に + V Kausativ-Passiv-Form (食べさせられる)",
+    "examples": [
+     "Als Kind wurde ich von meiner Mutter gezwungen, Gemüse zu essen, das ich nicht mochte.",
+     "Der Lehrer ließ mich so oft üben, bis ich es gut aussprechen konnte.",
+     "In meiner Schulzeit las ich gern Bücher, aber ich mochte es nicht, Aufsätze über meine Eindrücke schreiben zu müssen.",
+     "Obwohl ich nicht viel Alkohol vertrage, wurde ich von einem Senpai zum Trinken gebracht.",
+     "Weil der Bus nicht zur vorgesehenen Zeit kam, musste ich ganze 20 Minuten an der Haltestelle warten.",
+     "Als Kind hat mich meine ältere Schwester oft zum Weinen gebracht."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 321,
+   "src_hash": "c7b6215bace215e2",
+   "fields": {
+    "name": "Nomen⇔Verb",
+    "meaning": "Der ます-Stamm wird wie ein Nomen verwendet . Auch Verben werden wie Nomen verwendet; bei bestimmten Verben, die mit einer Partikel stehen （を／で／い／usw.), kann die Partikel jedoch wie in Beispiel ③ weggelassen werden（山におぼります➞山登り）",
+    "connection": "N(サ変) ⇔ Nします (料理⇔料理します) / Vます(ohne ます) → N (帰ります→帰り・山登り)",
+    "examples": [
+     "Kochen mag ich, aber Putzen mag ich nicht. [⇔料理します、掃除します]",
+     "Die Fahrkarte für die Rückfahrt habe ich schon gekauft. [⇔帰ります]",
+     "Bergsteigen macht Spaß. [⇔山にのぼります]"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 323,
+   "src_hash": "dffff2bbb59436c8",
+   "fields": {
+    "name": "Nomen⇔Satz",
+    "meaning": "Die einfache Form + の／こと　wird wie ein Nomen verwendet.",
+    "connection": "V/A einfache Form + の/こと（Nominalisierung des Teilsatzes）",
+    "examples": [
+     "Sich mit Freunden zu unterhalten macht Spaß. [⇔友達と話す]",
+     "Ich hatte vergessen, dass ich mich mit Tom verabredet hatte. [⇔会う約束をした]"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 324,
+   "src_hash": "452ee5089e6ac373",
+   "fields": {
+    "name": "Befehlsausdrücke",
+    "meaning": "wird verwendet, wenn ein Mann in höherer Stellung einem Untergebenen etwas befiehlt, wenn Männer mit engen Freunden und Untergebenen sprechen oder wenn man sich knapp ausdrücken muss.\nBefehl an Untergebene; da es weicher ist als die Imperativform des Verbs, wird es häufig von Frauen verwendet .\nVerbot (mit Nachdruck gegenüber dem Gegenüber geäußert )",
+    "connection": "V Imperativform (しろ・行け) / Vるな（Verbot）",
+    "examples": [
+     "(Senpai → Kōhai) „He, mach schnell. Wir kommen zu spät.“",
+     "(Vater → Kind) „Es ist schon 7 Uhr. Steh auf.“",
+     "(Notfall) „Gefahr! Lauf schnell weg!“",
+     "(Anfeuern) „Nur noch ein bisschen. Halt durch!“",
+     "Vater (wütend): „Tarō, komm her!“",
+     "Mutter (wütend): „Tarō, komm mal bitte her.“"
+    ],
+    "notes": "Hinweis:\n引用の「と」の前には命令形が使える\nVor dem zitierenden 「と」kann die Imperativform verwendet werden.\n先生はいつも、わたしたちに「わからないことばがあるときは、辞書をひきなさい」と言います。\nDer Lehrer sagt immer zu uns: „Wenn es ein Wort gibt, das ihr nicht versteht, schlagt im Wörterbuch nach.“\n→先生はいつもわたしたちに、わからないことばがあるときは辞書をひけと言います。\n→ Der Lehrer sagt uns immer, wir sollen im Wörterbuch nachschlagen, wenn es ein Wort gibt, das wir nicht verstehen."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 326,
+   "src_hash": "1bc70719769621b7",
+   "fields": {
+    "name": "Fragewort＋たら/ば＋いいですか usw.",
+    "meaning": "wird verwendet, wenn man nach etwas fragt, das man nicht versteht/wenn man um Rat bittet.",
+    "connection": "Fragewort + Vたら/Vば + いいですか",
+    "examples": [
+     "„An wen soll ich mich wenden, wenn ich meine Bankkarte verloren habe?“",
+     "„Um wie viel Uhr soll ich morgen früh kommen?“",
+     "„Gestern habe ich Lin Umstände gemacht … Was meinst du, was ich tun soll?“",
+     "„Welchen Knopf muss ich drücken, wenn ich eine Mehrfahrtenkarte kaufen möchte?“",
+     "Das ist eine praktisch aussehende Tasche. Wo kann man sie kaufen?",
+     "„Sagen Sie mir bitte, wie ich lernen muss, damit meine Noten besser werden.“"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 327,
+   "src_hash": "2241573d2ba0d63c",
+   "fields": {
+    "name": "Ausdrücke der bescheidenen Sprache",
+    "meaning": "Wird verwendet, wenn man bescheiden über die eigenen Handlungen spricht",
+    "connection": "お + Vます(ohne ます) + する/します / ご + N(サ変) + する",
+    "examples": [
+     "„Soll ich Ihnen vielleicht einen Kaffee machen?“",
+     "„Sensei, dürfte ich mir dieses Buch ausleihen?“",
+     "„Ich werde hier warten, bis der Firmenchef zurückkommt.“",
+     "„Guten Tag. Mein Name ist Kobayashi. Ich freue mich, Sie kennenzulernen.“",
+     "„Morgen bin ich den ganzen Tag zu Hause.“",
+     "„Entschuldigung, ich hätte eine Frage: In welcher Richtung liegt der Bahnhof Tokio?“"
+    ],
+    "notes": "Hinweis:\n「内」のひと（自分の家族や職場の人）のことを「外」の人に話すときには謙譲表現を使う。\nWenn man gegenüber „Außenstehenden“ über Personen der „eigenen Gruppe“ (eigene Familie/Kollegen) spricht, verwendet man die bescheidene Sprache.\n1.  「父が「よろしく」と申しておりました」\n„Mein Vater lässt Sie grüßen.“\n2.  「部長は出張で大阪に行っております」\n„Der Abteilungsleiter ist auf Dienstreise in Osaka.“"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 328,
+   "src_hash": "73a3b069b72b173d",
+   "fields": {
+    "meaning": "Nachdem der Sprecher die Information aus dem vorangehenden Satz aufgenommen hat, äußert er eine Schlussfolgerung, einen eigenen Wunsch oder eine Absicht oder fordert das Gegenüber zum Handeln auf.",
+    "connection": "[Satz/Teilsatz]。では/じゃ、[Satz/Teilsatz]",
+    "examples": [
+     "Tom: „Ich habe einen älteren Bruder.“ Lehrer: „Dann seid ihr also zwei Brüder.“",
+     "Sind Sie bereit? Dann fangen wir an.",
+     "Was? Sarah kommt nicht zur Party? Dann lasse ich es vielleicht auch."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 330,
+   "src_hash": "84803fdf12aa4ef4",
+   "fields": {
+    "name": "（～は）Passivform",
+    "meaning": "Passivausdruck, bei dem unbelebte Nomen wie Ereignisse oder Werke das Bezugsobjekt der Handlung sind. Dieser Ausdruck wird meist verwendet, wenn der Handelnde nicht bestimmt ist.",
+    "connection": "N(unbelebt)が/は + V Passivform（Ereignisse, Dinge）",
+    "examples": [
+     "Es wird nämlich viel gelesen.",
+     "Wo finden die nächsten Olympischen Spiele statt?",
+     "Amerika wird die „Weltpolizei“ genannt.",
+     "Japanische Instantnudeln werden auf der ganzen Welt gegessen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 333,
+   "src_hash": "7f81098a824631ec",
+   "fields": {
+    "meaning": "Nicht V1 tun, sondern V2",
+    "examples": [
+     "Am Sonntag gehe ich nirgendwohin, sondern ruhe mich zu Hause aus.",
+     "Gestern Nacht habe ich gelernt, ohne zu schlafen."
+    ],
+    "explain": "Da man nicht beides gleichzeitig tun kann, entscheidet man sich bewusst dafür, das eine zu tun und das andere nicht."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 334,
+   "src_hash": "b6772b297871027c",
+   "fields": {
+    "examples": [
+     "Gestern habe ich, nachdem meine Freunde gegangen waren, bis 12 Uhr aufgeräumt.",
+     "A: Was machen wir nach dem Essen?\nB: Gehen wir zum Karaoke."
+    ],
+    "explain": "Betont die zeitliche Abfolge von V2. V 2 geschieht erst, nachdem V 1 geschehen ist.\nZukunft, Gegenwart, Vergangenheit … werden am hinteren Verb ausgedrückt. (V2)"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 336,
+   "src_hash": "31f268cee73a6d4f",
+   "fields": {
+    "name": "～V Potentialform なくなりました",
+    "meaning": "nicht mehr ~ können",
+    "connection": "V Potentialform + なくなりました (読める → 読めなくなりました)",
+    "examples": [
+     "A: Ziehen Sie zur Party morgen dieses Kleidungsstück an?\nB: Nein, ich habe zugenommen und kann es nicht mehr tragen.",
+     "A: Wie waren die Sommerferien?\nB: Mein Kind ist krank geworden, deshalb konnten wir nicht mehr ans Meer fahren."
+    ],
+    "explain": "Bezieht sich auf Dinge, die man früher konnte, jetzt aber nicht mehr kann.\n～V可能形ない　→　V可能形な い くなる\n\n～V可能(かのう)形(かたち)なくなりました： ~ nicht mehr können"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 338,
+   "src_hash": "9bb7aa2acd9ad116",
+   "fields": {
+    "name": "～う／よう（Volitionalform）",
+    "meaning": "Man sagt, was man selbst von jetzt an tun wird (Zukunft )\nEinladung an Vertraute , auch als Aufruf an mehrere Personen.",
+    "connection": "V Volitionalform (寝よう・注意しよう)",
+    "examples": [
+     "Es ist 12 Uhr. Ich gehe jetzt schlafen.",
+     "Ich habe aus Unachtsamkeit einen Fehler gemacht, nächstes Mal passe ich auf.",
+     "„Lass uns heute zusammen zu Mittag essen.“",
+     "„Dieses Jahr gewinnen wir auf jeden Fall! Geben wir alle unser Bestes!“",
+     "„Lass uns nächstes Jahr zusammen verreisen, ja?“"
+    ],
+    "notes": "Hinweis:\nていねいな会話では「～ましょう」を使う。\nIm höflichen Gespräch verwendet man 「～ましょう」.\n1.  「寒いですね。はやく帰りましょう」\n„Es ist kalt, nicht wahr? Gehen wir schnell nach Hause.“\n2.  「道を渡るときは注意しましょう」\n„Passen wir beim Überqueren der Straße auf.“\nmeaning_vi: Ausdruck einer Absicht oder Hoffnung für die Zukunft.Manchmal eine Einladung an den Gesprächspartner. ⏐ examples: 1. ①    早く　行こう。\nGehen wir schnell.\n2. ②　来週は　病院へ　行こう。\nNächste Woche gehe ich ins Krankenhaus.\n3. ➂　九州で　就職活動を　しようと　思います。\nIch habe vor, in Kyūshū auf Arbeitssuche zu gehen"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 339,
+   "src_hash": "8d9a5729552ffac5",
+   "fields": {
+    "name": "～か（indirekte Frage）",
+    "meaning": "Form, die 2 Sätze verbindet. 「～か」 wird verwendet, wenn ein Fragewort steht.",
+    "connection": "[Fragesatz/-teilsatz] + か",
+    "examples": [
+     "„Lass uns heiraten.“ „Was, meinst du das ernst?“ „Als ob man so etwas im Scherz sagen könnte!“",
+     "„Und wenn man mich noch so sehr darum bittet – so etwas Betrügerisches kann ich doch nicht tun!“",
+     "„Sie sind doch neu hier. Redet man etwa so mit einem Senpai?“",
+     "„Wer glaubt denn schon, was Sie sagen?“",
+     "Wer hätte vor 100 Jahren wohl vorausgesehen, dass eine Zeit kommt, in der die Menschheit zum Mond fliegt?",
+     "Wie viele Flaschen Bier sind da? Zählen Sie bitte."
+    ],
+    "explain": "Bettet einen Satz mit Fragewort in einen anderen Satz ein."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 340,
+   "src_hash": "6ebc07f9cb5e1561",
+   "fields": {
+    "meaning": "ob … oder nicht",
+    "examples": [
+     "Sagen Sie bitte Ihre Meinung, ob das Essen schmeckt oder nicht.",
+     "Ich weiß nicht, ob das Geschäft geöffnet hat.",
+     "Dieses Gericht habe ich zum ersten Mal gekocht. Ich bin mir nicht sicher, ob es schmeckt.",
+     "Ich mache mir Sorgen, ob es morgen schön wird.",
+     "Ich erinnere mich nicht, ob ich dieses Wort schon einmal gelernt habe.",
+     "Ich weiß nicht, ob das ein echter Diamant ist."
+    ],
+    "explain": "◎ 「～か どうか」ist ein Satzmuster der Auswahl「AまたはB」. Verben und Adjektive direkt vor「か」stehen in der Wörterbuchform. Auch im höflichen Fall wird「うまく 書けたか どうか」nicht zu「うまく 書けましたか どうか」.\n\n• Drückt eine binäre Frage aus: „ja oder nein/richtig oder falsch“.\n• Wird in nominalisierten Teilsätzen mit Verben wie わからない／決める／調べる／迷う／確かめる verwendet.\n• Bei Fragewörtern (いつ・どこ・だれ・なに…) verwendet man meist ～か (ohne どうか). かどうか ist in manchen Kontexten ebenfalls möglich, gilt in Prüfungsaufgaben aber leicht als weniger natürlich.",
+    "notes": "Hinweis:\n●　「かどうか」ではなく、否定形や反対のことばを使うこともできる。\nStatt 「かどうか」kann man auch ein Wort mit gegenteiliger Bedeutung oder die verneinte Form verwenden.\n1.会議に出席するかしないか、なるべく早く知らせてください。\nTeilen Sie bitte möglichst bald mit, ob Sie an der Besprechung teilnehmen oder nicht.\n2.来年子どもが生まれます。まだ男の子か女の子かわかりません。\nNächstes Jahr kommt unser Kind zur Welt. Wir wissen noch nicht, ob es ein Junge oder ein Mädchen wird.",
+    "mistakes": [
+     "Fehler bei Nomen/な-adj in der Gegenwart: × 学生ですかどうか → ○ 学生かどうか.",
+     "Nach einem Fragewort in Prüfungsaufgaben: ～か bevorzugen, ～かどうか nicht übermäßig verwenden. × いつ行くかどうか → ○ いつ行くか.",
+     "Vergangenheit: だった bei な-adj/N vergessen. × 便利だたかどうか → ○ 便利だったかどうか."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～かどうか",
+       "Ob … oder nicht",
+       "Zwei Möglichkeiten Ja/Nein",
+       "<ruby>合格<rt>ごうかく</rt></ruby>したかどうか"
+      ],
+      [
+       "<ruby>疑問<rt>ぎもん</rt></ruby><ruby>詞<rt>ことば</rt></ruby>＋か",
+       "Wer/was/wann …",
+       "Mit いつ・どこ… verwendet",
+       "いつ<ruby>来<rt>く</rt></ruby>るか"
+      ],
+      [
+       "～か<ruby>否<rt>いな</rt></ruby>か",
+       "Ob oder nicht",
+       "Förmlich, Schriftsprache",
+       "<ruby>合意<rt>ごうい</rt></ruby>か<ruby>否<rt>いな</rt></ruby>か"
+      ],
+      [
+       "VるかVないか",
+       "… oder nicht (beide Teile ausdrücklich genannt)",
+       "Parallele Form",
+       "<ruby>行<rt>い</rt></ruby>くか<ruby>行<rt>い</rt></ruby>かないか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 341,
+   "src_hash": "9e312a11b8166ba6",
+   "fields": {
+    "meaning": "aus ~",
+    "connection": "N + から + 作る (Rohstoff verändert sich) / N + で + 作る (Material bleibt in seiner Form erhalten)",
+    "examples": [
+     "Papier wird aus Holz hergestellt.",
+     "Dieser Tisch ist aus Holz gemacht.",
+     "A: Was ist der Rohstoff von Bier?\nB: Bier wird aus Gerste hergestellt."
+    ],
+    "explain": "から：Beim fertigen Produkt haben sich Eigenschaft und Struktur des Ausgangsstoffs verändert. Am Produkt erkennt man den ursprünglichen Rohstoff nicht.\nで：Am Produkt erkennt man sofort das ursprüngliche Material."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 344,
+   "src_hash": "6c2bbb16d6e47f98",
+   "fields": {
+    "meaning": "Umwandlung eines Satzes in ein Nomen.",
+    "connection": "V/A einfache Form + こと/ということ / N/Naだ + ということ",
+    "examples": [
+     "Dass ich nächsten Monat freinehme, habe ich noch niemandem gesagt.",
+     "„Richten Sie dem Lehrer bitte aus, dass ich heute fehle.“",
+     "Meine Mutter hat angerufen. Ich war erleichtert zu hören, dass es meiner Großmutter wieder gut geht.",
+     "Da ich nicht wusste, dass dieses Zimmer ein Nichtraucherzimmer ist, habe ich geraucht.",
+     "Dass Autos in Japan auf der linken Straßenseite fahren, habe ich erst erfahren, als ich nach Japan kam.",
+     "Auf diesem Blatt steht, was bei der Verlängerung des Visums benötigt wird."
+    ],
+    "notes": "Hinweis:\n●　「という」は話などの内容を表すので、次のような使い方もある。\nDa es den Inhalt einer Erzählung o. Ä. bezeichnet, gibt es auch die folgende Verwendung.\n1.  「立ち入り禁止」はここには入るなと言う意味です。\n„Tachiiri kinshi“ bedeutet „Hier nicht eintreten“.\n2.  これは、ウサギとカメが競争してカメが勝った、という話です。\nDas ist die Geschichte, in der Hase und Schildkröte um die Wette laufen und die Schildkröte gewinnt."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 346,
+   "src_hash": "0721c6a84e7f3bb3",
+   "fields": {
+    "meaning": "So ein N wie dieses/wie das da/wie jenes (こんな/そんな/あんな+N)",
+    "examples": [
+     "(Man zeigt im Friseursalon eine Zeitschrift) „Ich hätte gern so eine Frisur.“",
+     "„So einen Menschen kann ich nicht ausstehen. Ich will dieser Person auf keinen Fall wieder begegnen.“",
+     "„Morgen soll es eine Prüfung geben. Wusstest du das?“ „Nein, davon habe ich nichts gehört.“"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 348,
+   "src_hash": "97f69fac6d5ef8cd",
+   "fields": {
+    "meaning": "Drückt aus, dass eine Handlung oder ein Grad das angemessene Maß überschreitet.",
+    "connection": "Vます(ohne ます) + すぎる / A(ohne い) + すぎる / Na + すぎる",
+    "examples": [
+     "Du bist zu spät dran.",
+     "Du arbeitest ein bisschen zu viel. Du wirst noch krank.",
+     "Ich habe zu viel gegessen und habe Bauchschmerzen.",
+     "Das ist ein bisschen zu groß. Haben Sie kein etwas kleineres?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 349,
+   "src_hash": "a8ed24a382a808e7",
+   "fields": {
+    "name": "～そう［Anschein］",
+    "meaning": "~ Sieht aus wie (dem Äußeren nach)",
+    "connection": "Vます + そう / Aい (ohne い) + そう / Na + そう (いい→よさそう / ない→なさそう)",
+    "examples": [
+     "Da ich überhaupt nicht üben konnte, werde ich diesmal wohl verlieren.",
+     "Es sieht nach Regen aus, nehmen wir also einen Schirm mit.",
+     "Das ist ein lecker aussehender Kuchen.",
+     "In letzter Zeit scheint er viel freie Zeit zu haben."
+    ],
+    "explain": "◎ 「～そう」steht hinter der MASU-Form des Verbs und zeigt an, dass die Wahrscheinlichkeit hoch ist.\n◎ Bei Adjektiven wandelt man wie folgt um:「OOい→OOそう」「OOな→OOそう」.",
+    "notes": "Verneinung: ～そうもない・そうにない; Form der Modifikation: そうなN・そうにV"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 350,
+   "src_hash": "adc117613fe41b01",
+   "fields": {
+    "meaning": "~ Noch nie",
+    "examples": [
+     "Ich habe diese Person noch nie getroffen.",
+     "So etwas habe ich noch nie gehört."
+    ],
+    "explain": "◎ Man hat noch keine Erfahrung damit, dies zu tun."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 351,
+   "src_hash": "d35ad5c6d0775e39",
+   "fields": {
+    "meaning": "Bedeutet, dass man etwas tut, nachdem die Handlung im vorderen Teilsatz ausgeführt wurde.",
+    "examples": [
+     "Als ich ankam",
+     "Wenn man nach Hause kommt, sagt man „Tadaima“.",
+     "Treffen wir uns, wenn ich nächste Woche in mein Land zurückgekehrt bin.",
+     "Als ich gestern den Lehrer traf, habe ich die Hausaufgaben abgegeben."
+    ],
+    "notes": "Schließt an die タ-Form eines Zustandsprädikats an und bezeichnet ein vergangenes Ereignis oder einen vergangenen Zustand, der gleichzeitig damit bestand. In diesem Fall kann im ersten Teil auch die Wörterbuchform verwendet werden, doch es gibt einen feinen Bedeutungsunterschied.\n*（例） 子供がまだ小さい時は、いろいろ苦労が多かった。\n!Vergleicht man （例） mit ③, so enthält ③ mit der タ-Form die Bedeutung, dass der Sprecher auf die Vergangenheit zurückblickt oder dass „es jetzt nicht mehr so ist wie im damaligen Zustand“, während （例） mit der Wörterbuchform diesen Beiklang nicht hat."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 352,
+   "src_hash": "14d9b20111c8be56",
+   "fields": {
+    "examples": [
+     "Als ich nach Japan kam, habe ich viele Freunde gefunden.",
+     "Als ich nach Hause kam, merkte ich, dass ich den Schlüssel nicht hatte.",
+     "Als die Besprechung zu Ende war, wurde ich vom Abteilungsleiter gerufen.",
+     "Als ich klein war, habe ich oft in diesem Park gespielt.",
+     "Als ich auf Dienstreise in Osaka war, habe ich echtes Okonomiyaki gegessen.",
+     "Melden Sie sich bitte sofort, wenn ein Problem aufgetreten ist."
+    ],
+    "explain": "Dient dazu, einen bereits abgeschlossenen Zeitpunkt zu verankern, nach dem das Hauptgeschehen eintritt; es entsteht der Eindruck „nachdem V abgeschlossen ist, …“.\nNeutraler Stil; in gesprochener Sprache und Schriftsprache verwendbar.\nWill man „unmittelbar nach dem Augenblick“ betonen, erwägt man ～たとたん(に) oder ～た途端(に) statt ～たとき(に).\nIst das Hauptgeschehen ein Entdecken/Erkennen (気づく、分かる、見つける…), ist ～たとき(に) sehr natürlich.\n\n• Nennt den Zeitpunkt unmittelbar nach Abschluss der Handlung im Nebensatz, zu dem das Hauptgeschehen eintritt.\n• Das Tempus des Verbs vor とき zeigt das relative Zeitverhältnis:\n\nV-る とき: Die Haupthandlung geschieht, bevor/während V geschieht.\nV-た とき: Die Haupthandlung geschieht, nachdem V abgeschlossen ist.\n\n• V-る とき: Die Haupthandlung geschieht, bevor/während V geschieht.\n• V-た とき: Die Haupthandlung geschieht, nachdem V abgeschlossen ist.\n• に markiert den Zeitpunkt deutlicher als Ziel, kann aber meist weggelassen werden.\n• Wird meist für einmalige, konkrete Ereignisse verwendet; selten für ständig wiederholte Gewohnheiten.\n• Wenn sich das Subjekt von Nebensatz und Hauptsatz unterscheidet, muss die passende Subjektpartikel (ga/wa) verwendet werden, um Unklarheit zu vermeiden.",
+    "notes": "• Im とき-Teilsatz hängt Vergangenheit/Gegenwart nicht vom Tempus des Gesamtsatzes ab, sondern zeigt das relative Vorher-Nachher-Verhältnis.\n• Bei gewohnheitsmäßig wiederholten Handlungen verwendet man meist allgemein とき (nicht unbedingt V-た).\n• とき steht im Nebensatz meist nicht mit der Themapartikel は, aber „X ときは …“ ist natürlich, wenn eine allgemeine Bedingung genannt wird.\n• に nach とき macht den Zeitpunkt in langen/komplexen Sätzen deutlicher, nützlich in der Schriftsprache.",
+    "mistakes": [
+     "Verwechslung von V-る とき und V-た とき: Ein falsches Tempus im とき-Teilsatz verfälscht das Zeitverhältnis.",
+     "～たとき für nicht abgeschlossene Handlungen oder allgemeine Gewohnheiten verwendet → besser ～るとき oder allgemein とき.",
+     "Verwechslung mit ～たあとで: Soll ein unmittelbares Ursache-Ergebnis-Verhältnis/sofortiges Bemerken betont werden, passt ～たところ besser.",
+     "に nach とき in förmlichem Stil zu vergessen kann bei komplexen Sätzen die Klarheit mindern."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "V-る とき(に)",
+       "Bevor/während man es tut",
+       "Zeitpunkt vor/gleichzeitig mit V",
+       "<ruby>帰<rt>かえ</rt></ruby>るとき、<ruby>電気<rt>でんき</rt></ruby>を<ruby>消<rt>け</rt></ruby>す。"
+      ],
+      [
+       "V-た とき(に)",
+       "Nachdem man es getan hat",
+       "Zeitpunkt nach Abschluss von V",
+       "<ruby>帰<rt>かえ</rt></ruby>ったとき、<ruby>電気<rt>でんき</rt></ruby>が<ruby>消<rt>き</rt></ruby>えていた。"
+      ],
+      [
+       "V-た あとで",
+       "Nachdem",
+       "Betont die Abfolge danach, der zeitliche Abstand kann lang sein",
+       "<ruby>食<rt>た</rt></ruby>べたあとで、<ruby>散歩<rt>さんぽ</rt></ruby>する。"
+      ],
+      [
+       "V-た ところ",
+       "Nach dem Tun zeigt sich/Ergebnis",
+       "Betont das sofort festgestellte Ergebnis; einmaliges Ereignis",
+       "<ruby>聞<rt>き</rt></ruby>いたところ、<ruby>満席<rt>まんせき</rt></ruby>だった。"
+      ],
+      [
+       "V-た とたん(に)",
+       "Sobald",
+       "Unmittelbar, stark überraschend",
+       "<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がったとたん、めまいがした。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 353,
+   "src_hash": "54333d7a17de9b6f",
+   "fields": {
+    "name": "～ために［Zweck］",
+    "meaning": "Zweck/willentlich",
+    "examples": [
+     "Ich lerne mit aller Kraft, um Arzt zu werden.",
+     "Ich habe ein Geschenk für meine Mutter gekauft."
+    ],
+    "explain": "◎ Wird mit der Wörterbuchform des Verbs oder einem Nomen (mit「の」) verwendet, um einen Zweck auszudrücken.",
+    "notes": "meaning_vi: Drückt den Zweck einer Handlung aus. Steht mit Ausdrücken für willentliche Handlungen. Das Subjekt des Satzes vor und nach ために ist dasselbe.\nexamples: 1. ①結婚式のために、いろいろ準備をしています。\nWir bereiten vieles für die Hochzeitsfeier vor.\n2. ②アニメの勉強のために、日本に留学します。\nIch gehe zum Studium nach Japan, um Anime zu studieren.\n3. ③社長は会議に出席するため、アメリカへ行きました。\nDer Firmenchef ist nach Amerika gereist, um an einer Besprechung teilzunehmen.\n4. ④これは漢字を練習するための本です。\nDas ist ein Buch zum Üben von Kanji.\n◎ Satzmuster, das Ursache und Grund angibt. Wird mit der einfachen Form des Verbs und「N＋の」verwendet.\n1. かぜを 引いたため、昨日は 休みました。\nWeil ich erkältet war, habe ich gestern gefehlt.\n2. 大雪の ため、電車が 止まって います。\nWegen des starken Schneefalls stehen die Züge still.\nFörmlicher als ので/から bei der Angabe eines Grundes; viel in Durchsagen, auf Schildern und in Nachrichten verwendet.\nBeim Zweck förmlicher als ～ように; passend, wenn das Verb willentlich ist und ein konkretes Ziel hat.\nために (Zweck) wird nicht mit nicht willentlichen Verben/Potentialverben wie分かる、見える、起きる… verwendet (stattdessen ～ように).\n1. A:　なんの　ために　貯金していますか。\nB:　将来　自分の店を　持つために、貯金しています。\nA: Wofür sparen Sie?\nB: Ich spare, um in Zukunft ein eigenes Geschäft zu haben.\n2. A:　健康の　ために、　何か　していますか。\nB:　いいえ。でも、来週から　毎朝　走ろうと。\nA：Tun Sie etwas für Ihre Gesundheit?\nB: Nein. Aber ich habe vor, ab nächster Woche jeden Morgen zu laufen.\n3. 家族の　ために、うちを　建てます。\nIch baue ein Haus für meine Familie.\n──────\n1. 日本に留学するために、日本語を勉強している。\nIch lerne\n「～ように」bezeichnet die Veränderung eines Zustands. 「Vために」 bezeichnet den Zweck einer Handlung.\n1. ①　早く起きられるように／早く起きるために\nDamit man früh aufstehen kann, um früh aufzustehen.\n2. ②　早く起きられるように、今晩なるべく早く寝ます。\nDamit ich früh aufstehen kann, gehe ich heute Abend möglichst früh schlafen.\n3. ③　早く起きるために、今晩なるべく早く寝ます。\nUm früh aufzustehen, gehe ich heute Abend möglichst früh schlafen."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

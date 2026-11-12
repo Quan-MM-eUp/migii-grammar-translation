@@ -1,0 +1,598 @@
+{
+ "batch": "b045",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 627,
+   "src_hash": "11059d47de1cea8d",
+   "fields": {
+    "meaning": "Bestimmt für …, ausgerichtet auf …",
+    "examples": [
+     "Das ist eine Sendung für Kinder.",
+     "Für Anfänger habe ich die Fachbegriffe leicht verständlich erklärt.",
+     "Dieses Produkt ist für Firmenkunden bestimmt.",
+     "Wir ändern die Spezifikation auf die Auslandsversion.",
+     "Wir haben eine Anzeige in einer Frauenzeitschrift geschaltet.",
+     "In dieser Fabrik werden hauptsächlich Autos für den amerikanischen Markt gebaut."
+    ],
+    "explain": "Häufig in Marketing, Gebrauchsanleitungen, bei Nutzersegmenten.\nNeutral/förmlich; kann eigenständig als Attribut stehen:学生向け割引.\nDie Zielgruppe kann weit (海外向け) oder eng (上級者向け) sein.\n\n• Bezeichnet das Ziel, auf das etwas „ausgerichtet“ oder für das es „konzipiert“ ist: eine bestimmte Gruppe/Zielgruppe.\n• Nuance der Absicht des Herstellers/Urhebers: „Produkt/Inhalt auf … ausrichten“.\n• Anders als ～向き (geeignet): ～向け heißt „ausgerichtet, eigens bestimmt“; ～向き heißt „allgemein passend“.",
+    "notes": "1) ～向け und ～向き werden leicht verwechselt.\n→ ～向け heißt „bestimmt für/ausgerichtet auf eine Zielgruppe“, meist Produkte, Informationen, Dienstleistungen für N.\n2) In den Daten gibt es 2 Verwendungen (ghichu=1 und ghichu=2).\n→ Die Bedeutung „bestimmt für“ ist etwas anderes als „auf ein Ziel hin“ (～に向けて).\n3) Darauf achten, was auf die Wendung folgt.\n→ Bei „Produkt/Unterlagen für jemanden“: ～向け.\n→ Bei „Handlung auf ein Ziel hin“: ～に向けて.\nexplain: ◎ Eine Ausdrucksweise dafür, für was für Menschen eine Sache geeignet ist.\nexamples: 1. これは女性向けの雑誌です。\nDas ist eine Zeitschrift für Frauen.\n2. このホテルは、旅行者向けのサイトで見つけました。\nDieses Hotel habe ich auf einer Website für Reisende gefunden.",
+    "mistakes": [
+     "Verwechslung mit ～向き: 子供向き und 子供向け sind beide möglich, doch 向け betont „ausgerichtet auf/konzipiert für“.",
+     "Verwechslung mit ～行き: X 東京向けの電車 → es muss 東京行きの電車 heißen.",
+     "向け für eine spontane persönliche Handlung verwendet: X 私向けに席を取って → klingt seltsam; besser: 私のために席を取って."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～<ruby>向<rt>む</rt></ruby>き",
+       "Geeignet für",
+       "Natürlich passende Eigenschaft/Stärke, nicht unbedingt dafür konzipiert.",
+       "この<ruby>靴<rt>くつ</rt></ruby>は<ruby>登山<rt>とざん</rt></ruby><ruby>向<rt>む</rt></ruby>きだ。"
+      ],
+      [
+       "～<ruby>用<rt>よう</rt></ruby>",
+       "Zum Gebrauch für",
+       "Nennt den konkreten Verwendungszweck eines Gegenstands; gegenständlicher.",
+       "<ruby>業務<rt>ぎょうむ</rt></ruby><ruby>用<rt>よう</rt></ruby><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>。"
+      ],
+      [
+       "～<ruby>向<rt>む</rt></ruby>け",
+       "Bestimmt für/ ausgerichtet auf",
+       "Bewusste Ausrichtung auf eine Personengruppe/ einen Markt.",
+       "<ruby>子供<rt>こども</rt></ruby><ruby>向<rt>む</rt></ruby>けの<ruby>映画<rt>えいが</rt></ruby>。"
+      ],
+      [
+       "～<ruby>向<rt>む</rt></ruby>かう（<ruby>動詞<rt>どうし</rt></ruby>）",
+       "Sich richten auf/ hingehen",
+       "Verb der Bewegungsrichtung, völlig andere Funktion als die Nominalisierung ～<ruby>向<rt>む</rt></ruby>け.",
+       "<ruby>駅<rt>えき</rt></ruby>に<ruby>向<rt>む</rt></ruby>かう。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 628,
+   "src_hash": "a8278c8e6229e135",
+   "fields": {
+    "meaning": "Mitten in, gerade während",
+    "examples": [
+     "Mitten in der Besprechung klingelte das Telefon.",
+     "Mitten in der Prüfung fiel der Strom aus.",
+     "Stehen Sie bitte nicht mitten im Essen auf.",
+     "Mitten in der Präsentation waren die Unterlagen nicht mehr zu finden.",
+     "Mitten in den Bauarbeiten begann es zu regnen."
+    ],
+    "explain": "In gesprochener wie geschriebener Sprache; etwas förmlicher als ～間に.\nDer vordere Teilsatz legt den Zeitpunkt „gerade im Gange“ fest, der hintere Teilsatz ist meist etwas, das dazwischenkommt.\nUnnatürlich mit Zustandsverben wie知っている・分かっている; bevorzugt Handlungen/Tätigkeiten.\nSteht häufig mit Tätigkeitsnomen:会議・授業・試合・手術・面接・作業.\n\n• „Gerade als man dabei war …, da … (meist etwas Dazwischenkommendes/Unerwünschtes)“\n• Betont den Höhepunkt der Handlung/Tätigkeit, stärker als ～間に.\n• Meist mit kurzen/begrenzten Handlungen (会議・試験・食事), selten für ruhende Dauerzustände.\n• Der hintere Teilsatz ist oft ein Zwischenfall, ein Hindernis, eine unerwartete Mitteilung; kann aber auch ein neutrales Ereignis sein.",
+    "notes": "• Die Form „最中だ/です“ dient oft dazu, den Hintergrund zu setzen: 会議の最中です。\n• In höflicher Rede: ～最中にございます ist wenig gebräuchlich, besser bei ～最中に/～最中です bleiben.\n• Um zu betonen, dass man etwas nicht tun soll: ～最中に…しないでください／～最中はご遠慮ください。\nmeaning_vi: Während man gerade dabei ist, genau in dem Moment ... (wenn etwas Unerwartetes geschieht.)\nexamples: 1. ①　シャワーを浴びている最中に\nGerade als ich duschte ...\n2. ②　シャワーを浴びている最中に、客が来た。\nGerade als ich duschte, kam Besuch.\n3. ③　引っ越しの最中に雨が降り出した。\nMitten im Umzug begann es zu regnen. | Satzschlussform: ～最中だ",
+    "mistakes": [
+     "„の“ beim Nomen vergessen: falsch „会議最中に“ → richtig „会議の最中に“.",
+     "Mit der Wörterbuchform von V verwendet: falsch „食事する最中に“ → richtig „食事している最中に“.",
+     "Auf einen ruhenden Zustand angewandt (知っている最中に) ist unnatürlich.",
+     "Verwechslung mit ～間に: Die Prüfung fragt oft nach dem Unterschied der Nuancen „genau in dem Moment“ vs. „innerhalb der Spanne“."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～<ruby>最中<rt>さいちゅう</rt></ruby>に",
+       "Gerade mitten in …",
+       "Mittelpunkt, Höhepunkt; stark dazwischenkommend",
+       "<ruby>試験<rt>しけん</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>雨<rt>あめ</rt></ruby>"
+      ],
+      [
+       "～<ruby>間<rt>かん</rt></ruby>に",
+       "Innerhalb (einer Zeitspanne)",
+       "Betont nicht genau den Mittelpunkt",
+       "<ruby>休<rt>やす</rt></ruby>みの<ruby>間<rt>ま</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>"
+      ],
+      [
+       "Vるところに/で/を",
+       "Gerade als man im Begriff ist/dabei ist/eben fertig ist",
+       "Feinabstimmung des Zeitpunkts; neutrale Nuance",
+       "<ruby>出<rt>で</rt></ruby>かけるところに<ruby>電話<rt>でんわ</rt></ruby>"
+      ],
+      [
+       "～<ruby>途中<rt>とちゅう</rt></ruby>で",
+       "Unterwegs/mittendrin",
+       "Schwerpunkt auf dem Verlauf, nicht unbedingt der Höhepunkt",
+       "<ruby>帰<rt>かえ</rt></ruby>る<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>雨<rt>あめ</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 629,
+   "src_hash": "22ca7bea20039acc",
+   "fields": {
+    "meaning": "Ein wenig …, leicht …",
+    "examples": [
+     "In letzter Zeit habe ich bei der Arbeit ziemlich viel zu tun und bekomme zu wenig Schlaf.",
+     "Wegen des Regens verzögert sich der Spielbeginn etwas.",
+     "In Besprechungen ist er immer etwas angespannt.",
+     "Ich bin leicht erkältet, deshalb gehe ich heute früher nach Hause.",
+     "Weil ich zu viel esse, nehme ich allmählich etwas zu.",
+     "Ich bin etwas erschöpft"
+    ],
+    "explain": "Verbindung: N/ Vます-stem direkt +気味, nicht mit い-Adjektiv/な-Adjektiv.\nGrad: „ein wenig/ziemlich“, nicht stark; bei hohem Grad verwendet man ～気がする, ～っぽい, ～過ぎ, ～ぎみでもない.\nKontext: neutral bis höflich; im Beruf verwendbar, um einen Zustand zu beschreiben.\nSteht meist mit eher negativem Wortschatz:疲れ,太り,不足,下降,遅れ; Positives ist seltener (上向き気味gibt es, aber selten).\n\n• „Ein wenig, mit dem Gefühl von“: drückt einen geringen, noch nicht deutlichen Grad aus, bei dem sich aber eine Tendenz zeigt.\n• Bedeutungsbereich: meist für körperliche Zustände (疲れ気味, 太り気味), seelische (緊張気味, 焦り気味), Situationen (遅れ気味, 下降気味).\n• Hohe Objektivität: wie eine Beobachtung an sich selbst/anderen, ohne starkes Urteil.\n• Anders als っぽい: 気味 betont die „leichte gegenwärtige Tendenz“, っぽい betont „ähnliche/neigende Eigenschaft, manchmal subjektiv, umgangssprachlich“.",
+    "notes": "• Schreibung zusammen/getrennt: 忙し気味／忙しぎみ kommen beide vor; die Hiragana-Form ぎみ ist in Lernmaterial verbreitet.\n• Bei festen sinojapanischen Wörtern: 目つきが悪い vs 目つき気味(selten) → vertraute Zustandsnomen bevorzugen.\n• In der Umgangssprache leicht übertreibend mit adverb verwendbar: ちょっと疲れ気味, 少し太り気味. meaning_vi: Scheint, ein wenig, mit dem Gefühl von ⏐ explain: Drückt die Bedeutung „einen solchen Zustand haben, eine solche Tendenz haben“ aus.Meist in Fällen mit negativer Bedeutung. ⏐ examples: 1. 残業続きで、疲れ気味だ。\nWegen der ständigen Überstunden bin ich etwas erschöpft.\n2. 新入社員は緊張気味の顔をしていた。\nDer neue Mitarbeiter machte ein etwas angespanntes Gesicht.",
+    "mistakes": [
+     "Falsche Wortart verbunden: × 寒い気味 → Richtig: 寒気味 ist unnatürlich; 寒気がする／寒がりだ verwenden.",
+     "Grad verwechselt: 気味 heißt nur „ein wenig“; für starkes „sehr müde“ すごく疲れている, 疲れすぎだ, ぐったりだ.",
+     "Verwechslung mit ～がち: 遅れ気味 (etwas verspätet) ≠ 遅れがち (häufig verspätet).",
+     "JLPT: Fallenfrage mit der Wahl zwischen 気味/っぽい/がち nach der Nuance „leicht – häufig – ähnlich“."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～<ruby>気味<rt>ぎみ</rt></ruby>",
+       "Ein wenig/Tendenz (leicht)",
+       "Objektiv, mit N/Vます",
+       "<ruby>疲<rt>つか</rt></ruby>れ<ruby>気味<rt>ぎみ</rt></ruby>"
+      ],
+      [
+       "～っぽい",
+       "Ähnlich/neigend zu",
+       "Umgangssprache, subjektiv, breit kombinierbar",
+       "<ruby>子供<rt>こども</rt></ruby>っぽい／ミスしがちっぽい(×)"
+      ],
+      [
+       "～がち",
+       "Häufig (wiederkehrende Tendenz)",
+       "Stärker als <ruby>気味<rt>きみ</rt></ruby>, mit negativer Nuance",
+       "<ruby>遅<rt>おく</rt></ruby>れがち／<ruby>病気<rt>びょうき</rt></ruby>がち"
+      ],
+      [
+       "～<ruby>気<rt>き</rt></ruby>がする",
+       "Das Gefühl haben",
+       "Betont das subjektive Empfinden, vollständiger Teilsatz",
+       "<ruby>疲<rt>つか</rt></ruby>れている<ruby>気<rt>き</rt></ruby>がする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 630,
+   "src_hash": "c48f99200e922ab1",
+   "fields": {
+    "meaning": "Es ist vorgesehen, beschlossen, dass ～",
+    "examples": [
+     "Morgen soll hier die Abschlussfeier stattfinden.",
+     "Es gilt die Regel, dass man mit 60 Punkten oder mehr besteht.",
+     "Morgen soll eine Besprechung über das neue Projekt stattfinden.",
+     "Ich werde demnächst nach Osaka versetzt."
+    ],
+    "explain": "Wird verwendet, wenn man betonen will, dass etwas nicht vom Subjekt selbst entschieden wurde, sondern durch andere Personen oder andere Faktoren bewirkt, festgelegt, angeordnet ist"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 631,
+   "src_hash": "18e5c5eff8e2e0a5",
+   "fields": {
+    "meaning": "Kaum (hat man etwas getan), da ….",
+    "examples": [
+     "Kaum hatte ich das Fenster geöffnet, kam ein starker Wind herein.",
+     "Kaum hatte ich Alkohol getrunken, wurde mein Gesicht rot."
+    ],
+    "explain": "Wird verwendet, wenn etwas geschieht, sobald eine Handlung eben ausgeführt wurde.\nIm hinteren Teilsatz stehen keine Satzmuster mit aktiver Bedeutung (transitives Verb) und keine Kausativ- oder Zwangsformen"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 632,
+   "src_hash": "ae32abbcd7591622",
+   "fields": {
+    "meaning": "Bei …, wenn …",
+    "examples": [
+     "Bitte legen Sie bei der Registrierung einen Ausweis vor.",
+     "Wenn Sie in unser Haus kommen, nennen Sie bitte am Empfang Ihren Namen.",
+     "Bei der Einreise nach Japan ist dieses Dokument erforderlich.",
+     "Ändern Sie bei der Nutzung bitte unbedingt das Passwort.",
+     "Im Katastrophenfall benutzen Sie bitte nicht den Aufzug."
+    ],
+    "explain": "„際（に）“ steht mit „は/には“, um das Thema hervorzuheben: ～際には (nachdrücklicher als ～際に).\nSteht meist im vorderen Teilsatz, der hintere Teilsatz ist eine Anleitung, Vorschrift, höfliche Aufforderung.\nHäufige Nomen: ご利用／ご来場／ご来店／ご乗車／入学／登録／申請／購入／訪問。\nNicht für ganz alltägliche spontane Gefühle; in schlichten Situationen とき verwenden.\n\n• Bezeichnet den Zeitpunkt, zu dem eine Handlung/ein Ereignis stattfindet, entspricht „wenn/bei“, ist aber förmlich und häufig in Anleitungen, auf Schildern, in Firmen-E-Mails.\n• Steht meist mit Ausdrücken der Bitte, des Hinweises, des Verbots: ご注意ください／ご連絡ください／持参してください／ご遠慮ください。\n• Nicht für alltägliche Gewohnheiten oder vertraute Gespräche; stattdessen とき.",
+    "notes": "• „際“ wird さい gelesen; nicht mit きわ (Bedeutung „Rand“) verwechseln. In dieser Grammatik nur さい.\n• „際は/際には“ erscheint oft in Formularen/auf Schildern; には hinzufügen, um stärker hervorzuheben und förmlicher zu wirken.\n• Häufige 敬語-Paare: ごV-ます＋の際（に）／V-辞＋際（に）＋お/ご～ください。\n• Variante: ～際（に）は",
+    "mistakes": [
+     "Im vertrauten Gespräch klingt es steif: × 映画を見る際にポップコーン買う？ → とき ist natürlicher.",
+     "„には“ vergessen, wo Hervorhebung nötig ist: ご利用の際には statt ご利用の際, wenn man höflich sein/hervorheben will.",
+     "Verwechslung mit 場合: Bei „Fall einer Störung“ sollte man 場合 verwenden, nicht 際.",
+     "JLPT: ～折に (sehr höflich) und ～際に werden leicht verwechselt; auf den Kontext Brief/Karte achten."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～<ruby>際<rt>ぎわ</rt></ruby>に",
+       "Bei/wenn (förmlich)",
+       "Texte, Mitteilungen, höfliche Aufforderungen",
+       "ご<ruby>利用<rt>りよう</rt></ruby>の<ruby>際<rt>さい</rt></ruby>に～"
+      ],
+      [
+       "～とき",
+       "Wenn (neutral)",
+       "Allgemein, in jedem Kontext verwendbar",
+       "<ruby>暇<rt>ひま</rt></ruby>なとき～"
+      ],
+      [
+       "～<ruby>折<rt>おり</rt></ruby>（に）",
+       "Bei Gelegenheit (sehr höflich, gewählt)",
+       "Förmlicher, elegant (Briefe)",
+       "<ruby>上京<rt>じょうきょう</rt></ruby>の<ruby>折<rt>おり</rt></ruby>に～"
+      ],
+      [
+       "～<ruby>場合<rt>ばあい</rt></ruby>（は）",
+       "Im Fall",
+       "Setzt eine allgemeine Bedingung/Ausnahme",
+       "<ruby>紛失<rt>ふんしつ</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>は～"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 633,
+   "src_hash": "1ebac67e0106d8ec",
+   "fields": {
+    "meaning": "～の可能性もある\nEs besteht auch die Möglichkeit, es ist nicht unmöglich …",
+    "examples": [
+     "Es ist nicht so, dass ich es nicht esse, aber ich mag es nicht besonders.",
+     "Mit Alkohol und Tabak aufzuhören ist schwer, aber nicht unmöglich.",
+     "Hühnerfleisch esse ich schon, aber ich mag es nicht besonders.",
+     "„Wenn wir rennen, schaffen wir es schon noch. Beeilen wir uns!“"
+    ],
+    "explain": "Wird verwendet, wenn man sagen will, dass man die Sache nicht verneint, sondern einen Grund/einen geringeren Grad als die Verneinung ausdrücken möchte"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 634,
+   "src_hash": "2a6229c0060f4a5d",
+   "fields": {
+    "meaning": "Kein bisschen …",
+    "examples": [
+     "Es tut kein bisschen weh, mach dir also keine Sorgen.",
+     "Seine Erklärung ist kein bisschen schwierig.",
+     "Dieser Film war kein bisschen interessant.",
+     "Obwohl er müde ist, macht er nicht die geringsten Anstalten, sich auszuruhen.",
+     "Sie scheint mich nicht im Geringsten zu verdächtigen."
+    ],
+    "explain": "少しも/すこしも vor das verneinte Wort setzen, um „auch nicht ein bisschen“ zu betonen.\nPasst zu geschriebener wie gesprochener Sprache; ちっとも〜ない ist eher umgangssprachlich, vertraut.\nMit Vergangenheit/Möglichkeit/Willen möglich:少しもできなかった／少しも行く気がしない.\n\n• „Kein bisschen …/überhaupt nicht …“. Betont den Grad null.\n• Dient der völligen Verneinung einer Empfindung/eines Zustands/einer Handlung.\n• Im Vergleich zu 全然〜ない/まったく〜ない: schwächer als まったく, je nach Kontext gleich stark oder schwächer als 全然.\n• Schreibung: 少しも und すこしも sind beide richtig; 少しも ist in der Schriftsprache üblich.",
+    "notes": "• Ein verstärkendes Wort lässt sich einschieben: 少しも全く覚えていない（Schriftsprache, doppelte Verstärkung）.\n• Im höflichen Umgang gegenüber dem Gesprächspartner nicht übermäßig verwenden, um nicht extrem zu wirken.\n• Form der rhetorischen Frage: 少しも悪くない？（Gar nicht schlecht, oder?）",
+    "mistakes": [
+     "Mit Bejahung verwendet: 少しも braucht eine Verneinung. 誤）少しも大丈夫 → 正）少しも大丈夫ではない。",
+     "Grad verwechselt: まったく＞全然≧少しも＞ちっとも（ungefähr; je nach Kontext).",
+     "Falsch geschrieben: すくしも× → すこしも／少しも〇.",
+     "Falsche Stellung: Es muss vor dem verneinten Element stehen, um voll zu wirken."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "<ruby>少<rt>すこ</rt></ruby>しも〜ない",
+       "Kein bisschen",
+       "Allgemein, neutral",
+       "<ruby>少<rt>すこ</rt></ruby>しも<ruby>寒<rt>さむ</rt></ruby>くない"
+      ],
+      [
+       "ちっとも〜ない",
+       "Kein bisschen (Umgangssprache)",
+       "Vertraut, manchmal mit klagender Nuance",
+       "ちっとも<ruby>良<rt>よ</rt></ruby>くならない"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>〜ない",
+       "Überhaupt nicht",
+       "Stark, verbreitet; heute umgangssprachlich auch mit Bejahung",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>分<rt>わ</rt></ruby>からない"
+      ],
+      [
+       "まったく〜ない",
+       "Ganz und gar nicht",
+       "Förmlicher, nachdrücklich",
+       "まったく<ruby>興味<rt>きょうみ</rt></ruby>がない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 635,
+   "src_hash": "38a72b8d7f43d724",
+   "fields": {
+    "meaning": "Deshalb, daher",
+    "connection": "[Satz/Teilsatz]。ですから、[Satz/Teilsatz]",
+    "examples": [
+     "Das Wetter ist schlecht. Deshalb gehe ich heute nicht aus.",
+     "Da ich neu bin, gibt es noch vieles, was ich nicht weiß.",
+     "Da die Prüfung morgen ist, gehen Sie bitte früh schlafen.",
+     "Dies ist ein Gefahrenbereich. Betreten Sie ihn daher bitte nicht.",
+     "Da er der Zuständige ist, sollten Sie sich besser direkt an ihn wenden.",
+     "Die Nachfrage steigt. Deshalb erhöhen wir die Produktion."
+    ],
+    "explain": "Bei logischer Darlegung, in Präsentationen, geschäftlichen E-Mails: „A (Information). ですから、B (Schluss/Empfehlung)“.\nIm Gespräch kann ですから eine Erwiderung einleiten: „ ですから、先ほど申し上げたとおり…“.\nIm Vergleich zu だから: höflicher, weniger direkt; passt zu förmlichen Situationen.\nNicht beim Ausdruck starker Gefühle; für eine strenge Begründung verwendet man したがって.\nInnerhalb des Satzes steht „Aですから、B“ meist, wenn A ein Nomen/Na-Adjektiv ist; bei Verb/い-Adjektiv verwendet man ～から/～ので: 「雨が降る から、…」.\n\n• Hauptbedeutung: nennt Schluss/Ergebnis auf Grundlage der eben genannten Information/Bedingung: „deshalb/also/daher“.\n• Höflichkeit: höflicher als だから; häufig in Präsentationen, Nachrichten, gepflegter Schriftsprache.\n• Stellung: meist am Anfang des Ergebnisteilsatzes, getrennt vom Begründungsteil (dem vorangehenden Satz).\n• 2 Verwendungen unterscheiden:\n\nSelbstständige Konjunktion: 「A。ですから、B。」\nVerknüpfung innerhalb des Satzes: 「Aですから、B。」 (A ist Nomen/Na-Adjektiv + です)\n\n• Selbstständige Konjunktion: 「A。ですから、B。」\n• Verknüpfung innerhalb des Satzes: 「Aですから、B。」 (A ist Nomen/Na-Adjektiv + です)\n• Nuance: objektive, höfliche Begründung; starke/allzu persönliche Gefühle vermeiden.",
+    "notes": "• Um eine Aufforderung abzumildern: 「危険ですから、こちらへお願いします。」 klingt höflicher als 「危ないから…」.\n• In der Diskussion hilft ein Satzbeginn mit ですから, den Schluss klar einzuleiten und einen abrupten „Schwenk“ zu vermeiden.\n• Statt ですから mehrfach zu wiederholen, mit それで/したがって abwechseln, damit der Text natürlich wirkt. explain: Für den Satz, der Ergebnis oder Folge des vorangehenden Satzes ist. Der unmittelbar vorangehende Satz nennt meist Grund, Urteil oder ein selbstverständliches Ergebnis ⏐ examples: 1. 「天気予報では午後から雨だそうです。ですから、傘を持っていったほうがいいですよ。」\nLaut Wetterbericht soll es ab dem Nachmittag regnen. Deshalb sollten Sie besser einen Schirm mitnehmen.\n2. 明日から旅行に行きます。ですから、申し訳ありませんが、来週のパーテイーには出席できません。\nAb morgen bin ich auf Reisen. Deshalb kann ich an der Party nächste Woche leider nicht teilnehmen",
+    "mistakes": [
+     "ですから im vertrauten Umgang unter Freunden → klingt distanziert; besser だから/それで.",
+     "Verwechslung von „Aです。ですから、B。“ mit „Aだから、B。“ Ist A ein Nomen/Na-Adjektiv, geht beides, aber die Nuance ist anders.",
+     "ですから für eine stark subjektive Begründung (Ärger) → unpassend; besser だって/だもん mit Gefühl.",
+     "JLPT: Falle bei der Unterscheidung それで vs ですから (beides „deshalb“): それで betont die Abfolge der Ereignisse; ですから betont den logischen Schluss."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "ですから",
+       "Deshalb, daher",
+       "Höflich; als Konjunktion oder als „Aですから、B“.",
+       "<ruby>雨<rt>あめ</rt></ruby>です。ですから、<ruby>中止<rt>ちゅうし</rt></ruby>です。"
+      ],
+      [
+       "だから",
+       "Deshalb",
+       "Vertraut, Umgangssprache; manchmal unverblümt.",
+       "<ruby>遅<rt>おく</rt></ruby>れる。だから<ruby>先<rt>さき</rt></ruby>に<ruby>行<rt>い</rt></ruby>って。"
+      ],
+      [
+       "それで",
+       "Deshalb/und dann",
+       "Fortführende Verknüpfung; eher Zusammenhang der Ereignisse als logischer Grund.",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。それで、<ruby>家<rt>いえ</rt></ruby>にいた。"
+      ],
+      [
+       "したがって",
+       "Folglich (sehr förmlich)",
+       "Schriftsprache, wissenschaftlich/juristisch; strenge Argumentation.",
+       "<ruby>需要<rt>じゅよう</rt></ruby><ruby>増<rt>ぞう</rt></ruby>。したがって、<ruby>価格<rt>かかく</rt></ruby><ruby>上昇<rt>じょうしょう</rt></ruby>。"
+      ],
+      [
+       "～ので／～から",
+       "Weil … deshalb …",
+       "Verknüpfung innerhalb des Satzes, nennt den Grund direkt.",
+       "<ruby>雨<rt>あめ</rt></ruby>なので<ruby>中止<rt>ちゅうし</rt></ruby>します。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 636,
+   "src_hash": "3c6f2028a6b04644",
+   "fields": {
+    "meaning": "Wie auch immer, egal wie",
+    "examples": [
+     "So müde ich auch bin, ich halte mein Versprechen.",
+     "So viel ich auch übe, ich mache kaum Fortschritte.",
+     "So viel man auch zu tun hat, die Zeit mit der Familie ist wichtig.",
+     "Egal wie teuer es ist, ich habe vor, es zu kaufen.",
+     "Manchmal kommt etwas nicht an, so sehr man es auch erklärt.",
+     "So unsicher ich auch bin, ich möchte es versuchen."
+    ],
+    "explain": "Zur Verstärkung kann いくら／どれほど statt どんなに stehen (ähnliche Nuance).\nDer hintere Teilsatz ist meist eine Bekräftigung von Standpunkt/Willen oder ein allgemeines Urteil.\nPasst zu gesprochener wie geschriebener Sprache; mit der Nuance „ungeachtet jedes Grades“.\n\n• Äußerste Einräumung: „wie sehr auch immer …, (das Ergebnis/die Ansicht bleibt gleich)“.\n• Verstärkung durch どんなに: umfasst jeden Grad, jede Art.\n• Der hintere Teilsatz drückt meist ein unverändertes Ergebnis/einen unveränderten Willen/eine unveränderte Bewertung aus, oft mit der Nuance des Unveränderlichen.",
+    "notes": "• Wiederholung ist möglich: どんなにどんなに…, wird aber meist vermieden, um nicht schwerfällig zu wirken.\n• Eine Verneinung im hinteren Teilsatz ist nicht zwingend; Bejahung wie Verneinung sind je nach Inhalt üblich.\n• Mit Potentialverben betont man „ungeachtet aller Mühe“: どんなに頑張ってもできない。",
+    "mistakes": [
+     "Verwechslung mit ～ことか: das eine ist eine Bedingung, das andere ein Ausruf.",
+     "Falsche Wortform: Aい→Aくても; Aな→Aでも; N→Nでも; V→Vてでも? (anderes Muster, nicht verwechseln).",
+     "も weggelassen: „ても/でも“ ist nötig; ohne „も“ ist die Struktur falsch."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "どんなに～ても",
+       "Wie auch immer …",
+       "Umfasst jeden Grad",
+       "どんなに<ruby>遅<rt>おそ</rt></ruby>くても<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "いくら～ても",
+       "Wie viel auch immer …",
+       "Betont Menge/Wert (Geld, Anzahl …)",
+       "いくら<ruby>待<rt>ま</rt></ruby>っても<ruby>来<rt>こ</rt></ruby>ない"
+      ],
+      [
+       "たとえ～ても",
+       "Selbst angenommen, dass …",
+       "Starkes Signalwort der Annahme, förmlicher",
+       "たとえ<ruby>失敗<rt>しっぱい</rt></ruby>しても<ruby>諦<rt>あきら</rt></ruby>めない"
+      ],
+      [
+       "～のに",
+       "Obwohl (tatsächlich)",
+       "Keine Annahme, nennt einen Widerspruch",
+       "<ruby>説明<rt>せつめい</rt></ruby>したのに<ruby>伝<rt>つた</rt></ruby>わらない"
+      ],
+      [
+       "～ことか",
+       "Ausruf „wie sehr“",
+       "Andere Funktion: Ausruf, keine Bedingung",
+       "どんなに<ruby>嬉<rt>うれ</rt></ruby>しかったことか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 637,
+   "src_hash": "ceffb5ce4229f44b",
+   "fields": {
+    "meaning": "Gesprochene Form der Struktur 「なければならない／なくてはいけない」",
+    "connection": "Vなければならない → Vなきゃ・Vなく(っ)ちゃ / Vないと（gesprochene Sprache）",
+    "examples": [
+     "Ich muss es kaufen.",
+     "Ich muss bis morgen den Bericht schreiben.",
+     "Oh, schon 8 Uhr. Ich muss langsam los.",
+     "Ab morgen benutzen wir das neue Lehrbuch, also muss ich es heute kaufen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 638,
+   "src_hash": "3728f6fbd2896a56",
+   "fields": {
+    "meaning": "Überhaupt nicht",
+    "examples": [
+     "Ich verstehe überhaupt nicht, was er sagt.",
+     "Diese Aufgabe ist überhaupt nicht schwierig.",
+     "Sie hält ihre Versprechen überhaupt nicht.",
+     "An gestern erinnere ich mich überhaupt nicht.",
+     "So etwas interessiert mich überhaupt nicht."
+    ],
+    "explain": "まったく steht meist vor dem verneinten Teil, um „auch nicht ein bisschen“ zu betonen.\nAuf vielen Sprachebenen verwendbar, von vertrauter gesprochener Sprache bis zur Schriftsprache.\nSteht es nicht mit ～ない, sondern mit einem positiven Adjektiv (まったく素晴らしい), wechselt die Bedeutung zu „wirklich …“, „in der Tat …“.\nIm Gespräch, allein stehend „まったく！“ → drückt Klage aus: „Nicht auszuhalten!“, „Also wirklich!“.\n\n•\nまったく～ない dient dazu, den Grad einer absoluten Verneinung zu betonen: „überhaupt nicht …“, „keineswegs …“, „kein bisschen …“.\n\n• Steht meist mit verneintem Verb, Adjektiv oder Nomen: ～ない・～くない・～ではない.\n• Mit starker Nuance, manchmal als Ausdruck von Erstaunen, Klage oder Enttäuschung.",
+    "notes": "• In der Schriftsprache kann das Kanji 全く statt まったく verwendet werden.\n• Bei der positiven Bedeutung (まったく～だ) muss man beim Übersetzen genau unterscheiden, um Missverständnisse zu vermeiden.\n• Beispiel: まったく君は… → „Also wirklich, du … (leicht vorwurfsvoll)“. explain: Wird verwendet, wenn man bekräftigt, dass eine Sache oder ein Sachverhalt überhaupt nicht vorhanden ist, nicht eintreten kann. ⏐ examples: 1. 私はまったく泳げない。\nIch kann überhaupt nicht schwimmen\n2. 彼が怒っている理由は、私にはまったくわからない。\nWarum er wütend ist, verstehe ich überhaupt nicht\n3. 前とは違うまったく新しい計画を立てた。\nIch habe einen völlig neuen Plan aufgestellt, der anders ist als der frühere",
+    "mistakes": [
+     "Verwechslung mit ぜんぜん → まったく wirkt stärker, auch nicht ein bisschen.",
+     "まったく mit einem nicht verneinten Wort verwendet → die Bedeutung wechselt zu „wirklich …“, es ist keine Verneinung mehr.",
+     "Der JLPT prüft häufig die Nuance: まったく～ない vs 全然～ない."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "まったく～ない",
+       "Überhaupt nicht …",
+       "Starker Grad, absolut nicht.",
+       "まったく<ruby>分<rt>わ</rt></ruby>からない。"
+      ],
+      [
+       "ぜんぜん～ない",
+       "Gar nicht …",
+       "Umgangssprachlicher, im Alltag häufig.",
+       "ぜんぜん<ruby>分<rt>わ</rt></ruby>からない。"
+      ],
+      [
+       "<ruby>少<rt>すこ</rt></ruby>しも／ちっとも～ない",
+       "Kein bisschen …",
+       "Zur Betonung von „auch nicht ein bisschen“.",
+       "<ruby>少<rt>すこ</rt></ruby>しも<ruby>変<rt>か</rt></ruby>わっていない。"
+      ],
+      [
+       "<ruby>全<rt>まった</rt></ruby>く～ない（<ruby>漢字<rt>かんじ</rt></ruby>）",
+       "Kanji-Schreibung von まったく",
+       "In Schriftsprache und Presse.",
+       "<ruby>全<rt>まった</rt></ruby>く<ruby>興味<rt>きょうみ</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

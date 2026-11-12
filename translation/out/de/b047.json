@@ -1,0 +1,539 @@
+{
+ "batch": "b047",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 655,
+   "src_hash": "4bddae3eb0e6492a",
+   "fields": {
+    "meaning": "Da, gleich darauf",
+    "connection": "[Satz/Teilsatz]。 + すると、 + [Satz/Teilsatz]",
+    "examples": [
+     "Ich öffnete die Tür. Da sprang eine Katze heraus.",
+     "Ich nahm das Medikament. Da waren die Kopfschmerzen sofort weg.",
+     "Ich rief ihn an. Da sagte man mir, er sei schon aufgebrochen.",
+     "Ich ging hinaus. Da schneite es.",
+     "Ich schaltete den Computer ein. Da gab es ein seltsames Geräusch."
+    ],
+    "explain": "Stellung : immer am Anfang des zweiten Teilsatzes, nachdem der erste mit Punkt oder Komma endet.\nNatürlichkeit : wenn das Ergebnis schnell, unmittelbar nach der vorangehenden Handlung eintritt.\nGefühlsnuance : kann Überraschung, eine neue Entdeckung einschließen.\nKeine Befehls- oder Willensbedeutung : nicht in Befehlssätzen → berichtet nur ein Geschehen.\nStil : mäßig förmlich, meist in der Schriftsprache – Erzähltexte, Tagebuch, JLPT-Prüfungstexte.\n\n•\nBezeichnet ein Ergebnis, das unmittelbar nach der vorangehenden Handlung eintritt: „Da …“, „Kaum … da …“.\n\n•\nBezeichnet ein überraschendes, nicht vorhergesehenes Ergebnis: Der Sprecher hat nicht erwartet, dass nach A B geschieht.\n\n•\nSchafft im Erzählen einen natürlichen Anschluss: passend für beschreibende, erzählende Texte.\n\n•\nNeutrale → leicht schriftsprachliche Nuance: nicht in vertrauter gesprochener Sprache unter Freunden (dort meist そしたら、するとさ...).",
+    "notes": "•\nErscheint häufig im JLPT-Leseverstehen, da es erzählend ist und Vorgänge beschreibt.\n• Dient oft dazu, im Text zu einer wichtigen Entdeckung zu führen: „すると、驚くべき事実が判明した。“\n• Niemals verwenden, um im folgenden Teilsatz eine absichtliche Handlung des Sprechers anzuschließen. meaning_vi: Sofort, da ～ ⏐ explain: (1) a ist der Anlass dafür, dass b gleich danach geschieht.\n(2) aus a wird das Urteil b abgeleitet. ⏐ examples: 1. 薬を塗った。すると痛みが治まった。\nIch trug die Salbe auf. Da ließ der Schmerz nach.\n2. 窓を開けた。すると、蛾が入ってきた。\nIch öffnete das Fenster. Da kam ein Nachtfalter herein.\n3. 「私は外出していました。」\n「すると、家は誰もいなかったんですね。」\n„Ich war außer Haus.“ „Dann war also niemand zu Hause, nicht wahr?“",
+    "mistakes": [
+     "Verwechslung mit そして: そして reiht nur Informationen aneinander und enthält kein Überraschungsmoment.",
+     "Mit Wille/Befehl verwendet: In dieser Grammatik ist „すると、行きましょう“ falsch.",
+     "Verwechslung mit der Gesprächsverwendung „Dann also ...“: Zum Beispiel „すると、君はどうする？“ ist eine andere Bedeutung.",
+     "Komma nach すると weggelassen: In formalen Texten sollte „、“ stehen.",
+     "Die Verwendung ist logisch falsch, wenn zwei Sachverhalte weder in Ursache-Wirkung-Beziehung noch in zeitlicher Nähe stehen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "すると",
+       "Da …, kaum … da …",
+       "Natürliche Abfolge, eventuell überraschend.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ってきた。 すると、<ruby>風<rt>かぜ</rt></ruby>も<ruby>強<rt>つよ</rt></ruby>くなった。"
+      ],
+      [
+       "そして",
+       "Und, dann",
+       "Reiht aufeinanderfolgende Sachverhalte, betont kein Ergebnis.",
+       "ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた。 そして、<ruby>寝<rt>ね</rt></ruby>た。"
+      ],
+      [
+       "それから",
+       "Danach",
+       "Betont die zeitliche Abfolge – die nächste Handlung.",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>した。 それから、<ruby>散歩<rt>さんぽ</rt></ruby>した。"
+      ],
+      [
+       "すると (Wille)",
+       "Dann also (drückt Schluss/nächste Handlung des Sprechers aus)",
+       "Im Gespräch, andere Grammatik als „A。するとB。“",
+       "「<ruby>時間<rt>じかん</rt></ruby>がないよ」「 すると、<ruby>急<rt>いそ</rt></ruby>ごう！」"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 656,
+   "src_hash": "25f738b519801f98",
+   "fields": {
+    "meaning": "Da fällt mir ein, apropos",
+    "connection": "[Satz/Teilsatz]。 + そういえば、 + [Satz/Teilsatz]",
+    "examples": [
+     "Morgen ist die Prüfung, nicht? Da fällt mir ein, ich muss noch Bleistifte kaufen.",
+     "Ihn sieht man in letzter Zeit gar nicht. Ach ja, er ist doch zum Studium ins Ausland gegangen, oder?",
+     "Der Sommer in Japan ist heiß, nicht? Apropos, letztes Jahr wurden es 40 Grad.",
+     "Bist du mit den Hausaufgaben fertig? Da fällt mir ein, der Lehrer hat gesagt, bis morgen.",
+     "Vor dem Bahnhof hat ein neues Café aufgemacht. Da fällt mir ein, ich war noch gar nicht dort."
+    ],
+    "explain": "Steht am Satzanfang des zweiten Satzes, um einen neuen Gedanken anzustoßen, der mit dem vorangehenden Satz zusammenhängt.\nVertraute, natürliche Nuance; häufig im Alltagsgespräch, in der gesprochenen Sprache.\nMeist, wenn dem Sprecher gerade etwas eingefallen ist; zeigt einen spontan ausgesprochenen Gedanken.\nNicht in förmlichen Texten, offiziellen Berichten (neutraler ersetzbar durch ところで, それにしても).\n\n•\nDient dem assoziativen Themenwechsel: Beim Hören, Sagen oder Denken an A fällt dem Sprecher plötzlich B ein, das damit zusammenhängt.\n\n•\nBedeutet „da fällt mir ein“, „ach ja“: B ist nicht das Hauptthema, sondern etwas, das einem eben in den Sinn gekommen ist.\n\n•\nNatürlich, vertraut: meist im Gespräch oder in Erzähltexten; freundliche, nicht sehr förmliche Nuance.\n\n•\nDrückt keine direkte Ursache-Wirkung-Beziehung aus: A ist nicht die Ursache von B, nur der Auslöser der Erinnerung.",
+    "notes": "• Kommt häufig in JLPT-Hörverstehensdialogen vor und lässt den Sprecher natürlich wirken.\n• In der erzählenden Schriftsprache leitet es zur Erinnerung an Vergangenes oder zu verwandten Informationen über.\n• Flexible Übersetzung: „Da fällt mir ein“, „Ach ja“, „Ach richtig“ …\n• Von „そうすると“ (wenn dem so ist, dann) zu unterscheiden, da es ähnlich klingt, aber eine völlig andere Bedeutung hat. meaning_vi: Wo du es sagst; ach, ist nicht ～ ⏐ explain: Leitet einen Satz ein, dessen Thema mit etwas zusammenhängt, das einem eingefallen ist. ⏐ examples: 1. 「そういえば、田中君、元気かな？」\n„Da fällt mir ein, ob es Tanaka wohl gut geht?“\n2. 「いい家ですね。そういえば、お父様は設計士さんでしたよね。」\n„Ein schönes Haus. Ach ja, Ihr Vater war doch Architekt, nicht wahr?“",
+    "mistakes": [
+     "In förmlichen Texten verwendet: unpassend in Berichten, Abhandlungen → besser durch ちなみに, ところで ersetzen.",
+     "Verwechslung mit そうすると („wenn dem so ist, dann“) in logischen Sätzen.",
+     "Verwendet, wenn die zwei Sätze nichts miteinander zu tun haben: そういえば braucht eine Assoziation oder Erinnerung, die der vorangehende Satz auslöst.",
+     "Komma nach そういえば vergessen: In der Schriftsprache sollte „そういえば、…“ stehen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "そういえば",
+       "Da fällt mir ein",
+       "Wenn einem plötzlich etwas Zusammenhängendes einfällt.",
+       "そういえば、<ruby>彼<rt>かれ</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby><ruby>休<rt>やす</rt></ruby>みだ。"
+      ],
+      [
+       "ところで",
+       "Übrigens, nebenbei",
+       "Themenwechsel, aber nicht unbedingt mit Assoziation.",
+       "ところで、<ruby>明日<rt>あした</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は？"
+      ],
+      [
+       "それにしても",
+       "Trotzdem, aber wirklich",
+       "Drückt ein starkes Gefühl über das Vorangehende aus.",
+       "<ruby>暑<rt>あつ</rt></ruby>いね。それにしても<ruby>今年<rt>ことし</rt></ruby>は<ruby>異常<rt>いじょう</rt></ruby>だ。"
+      ],
+      [
+       "そうすると",
+       "Wenn dem so ist, dann",
+       "Drückt einen Schluss aus der vorherigen Information aus (Logik).",
+       "<ruby>雨<rt>あめ</rt></ruby>か。そうすると<ruby>試合<rt>しあい</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>だね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 657,
+   "src_hash": "118e1ba238c66125",
+   "fields": {
+    "meaning": "Aber, und doch",
+    "connection": "[Satz/Teilsatz]。 + それが、 + [Satz/Teilsatz]",
+    "examples": [
+     "Ich habe mich bei ihm gemeldet. Nur ist noch keine Antwort gekommen.",
+     "Ich dachte, morgen könnte ich hingehen. Aber dann habe ich plötzlich Fieber bekommen …",
+     "Der Test war doch einfach, oder? Von wegen, ich habe überhaupt nichts hinbekommen.",
+     "Ich hatte vor zu verreisen, aber wegen des Taifuns wurde es abgesagt.",
+     "Bist du mit den Hausaufgaben schon fertig?\n―Na ja … noch nicht einmal die Hälfte …"
+    ],
+    "explain": "Stellung : am Anfang von Teilsatz B, nach einem vollständigen Satz A.\nNuance : weich, mit einem leichten Gefühl von Bedauern, Notgedrungenem oder einem schwer auszusprechenden Grund.\nVertrautheit : häufig im Alltagsgespräch; selten in gehobener Schriftsprache.\nAbbrechen : Man kann nach それが abbrechen, um Zögern oder Schwierigkeit beim offenen Aussprechen zu zeigen.\n\n•\nBezeichnet einen Gegensatz zur Erwartung: Die Tatsache in Teilsatz B ist anders als oder entgegengesetzt zu dem, was man aus Teilsatz A erwartet.\n\n•\nDient der Überleitung mit sanftem Gefühl: mit der Nuance „man sollte meinen, aber so ist es nicht“, „aber in Wirklichkeit …“.\n\n•\nDient dazu, einen Hinderungsgrund zu erklären / taktvoll abzulehnen: wenn der Sprecher zögernd einen Grund nennt, warum etwas nicht geht.\n\n• Im natürlichen Gespräch gebräuchlich; rechtfertigend, weicher Gegensatz, anders als でも (das direkter wirkt).",
+    "notes": "• Meist mit Mimik und Zögern verbunden, um die Verneinung oder Ablehnung abzuschwächen.\n• Kann als Antwort dienen, wenn man direkt gefragt wird, aber schwer offen antworten kann.\n• In der gesprochenen Sprache kann man „それがね…“ dehnen, um eine Erklärung einzuleiten. meaning_vi: (1)Das (ist so eine Sache) ～, aber ～\n(2) Doch ～ ⏐ explain: (1)Wird verwendet, wenn von einem unerwarteten Ergebnis die Rede ist.\n(2) Bezeichnet ein Ergebnis, das von der Absicht oder Erwartung des vorangehenden Satzes abweicht. ⏐ examples: 1. 「お嬢さん、もう大学をご卒業されましたでしょう？」\n「それが、まだなんですよ。」\n„Ihre Tochter hat doch sicher schon die Universität abgeschlossen?“ „Tja, eben noch nicht.“\n2. たばこをやめると誓った。それが、たった三日でまた吸ってしまった。\nIch hatte geschworen, mit dem Rauchen aufzuhören. Doch schon nach drei Tagen habe ich wieder geraucht.",
+    "mistakes": [
+     "Verwechslung mit それで: それで = „deshalb …“, それが dagegen = „und doch …“, entgegen der Erwartung.",
+     "In sehr förmlichen Texten verwendet: unpassend; in erörternden Texten besser しかし, ただし.",
+     "Verwendet, wenn B nicht im Gegensatz zu A steht: それが verlangt, dass Teilsatz B von der Erwartung aus A abweicht.",
+     "Teilsatz A weggelassen: Es braucht immer den vorangehenden Kontext, damit それが einen Sinn hat."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "それが",
+       "Und doch …, eigentlich …",
+       "Weich, häufig zum Ablehnen oder Erklären.",
+       "<ruby>行<rt>い</rt></ruby>くつもりだった。 それが、<ruby>行<rt>い</rt></ruby>けなくて。"
+      ],
+      [
+       "でも／しかし",
+       "Aber, jedoch",
+       "Stärker argumentierend, direkter.",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "ところが",
+       "Doch (völlig entgegen der Erwartung)",
+       "Die Tatsache widerspricht der Erwartung völlig, meist sehr überraschend.",
+       "<ruby>勝<rt>か</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>った。ところが<ruby>負<rt>ま</rt></ruby>けた。"
+      ],
+      [
+       "それで",
+       "Deshalb …",
+       "Spricht von einer Folge, ohne gegensätzliche Bedeutung.",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。 それで<ruby>中止<rt>ちゅうし</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 658,
+   "src_hash": "2d541983d78c77a9",
+   "fields": {
+    "meaning": "Trotzdem, dennoch",
+    "connection": "[Satz/Teilsatz] 1 + それでも + [Satz/Teilsatz] 2",
+    "examples": [
+     "Er ist viele Male gescheitert. Trotzdem hat er nicht aufgegeben.",
+     "Es regnete stark. Trotzdem gingen die Zuschauer nicht nach Hause.",
+     "Ich habe ihn ermahnt. Trotzdem hat er denselben Fehler gemacht.",
+     "Diese Arbeit ist hart. Willst du sie trotzdem machen?",
+     "Ich habe alles gegeben. Trotzdem konnte ich nicht gewinnen."
+    ],
+    "explain": "Stellung : am Anfang von Teilsatz B, nachdem Teilsatz A mit Punkt oder Komma endet.\nDie beiden Teilsätze müssen zwingend in einem gegenläufigen Verhältnis stehen : A lässt erwarten, dass B nicht eintritt, tatsächlich tritt B aber doch ein.\nNuance : emotional – Erstaunen, Enttäuschung, Bewunderung, Beharrlichkeit.\nStil : im Gespräch wie in der Schriftsprache; neutrale Förmlichkeit.\n\n•\nDrückt Einräumung + Gegensatz aus: Obwohl A ein Hindernis, eine Schwierigkeit oder etwas ist, das B erschwert, tritt das Ergebnis B dennoch ein.\n\n•\nEmotionaler Gehalt: meist mit der Nuance von Beharrlichkeit, Erstaunen, Enttäuschung oder Lob (weil man B trotz A tut).\n\n•\nNatürliche Übersetzung: „Trotzdem …“, „Dennoch …“, „Gleichwohl …“, „Selbst dann …“.\n\n•\nAnders als それが・それで・そこで: それでも betont den starken Gegensatz zwischen Erwartung (aus A) und Wirklichkeit (B).",
+    "notes": "• Häufig in Erzähltexten, beim Ausdruck von Gefühlen, von Willen.\n• Steht oft mit verstärkenden Wörtern wie それでもなお (und dennoch immer noch …), それでもやっぱり.\n• Flexibel übersetzbar: „Trotzdem“, „Dennoch“, „Selbst dann …“, „Und doch …“.\n• Kommt im JLPT N3–N2 häufig im Lese- und Hörverstehen vor. meaning_vi: Jedoch, trotzdem ～ ⏐ explain: Bezeichnet eine Meinung oder ein Ergebnis, das der Situation a im vorderen Teilsatz entgegensteht. ⏐ examples: 1. 外は大雨だ。それでも出かけないといけない。\nDraußen regnet es in Strömen. Trotzdem muss ich hinaus.\n2. みんなに反対されている。それでも私は彼と結婚したい。\nAlle sind dagegen. Trotzdem möchte ich ihn heiraten.",
+    "mistakes": [
+     "Verwechslung mit それで: それで = „deshalb …“, それでも dagegen = „trotzdem …“.",
+     "Kein gegensätzliches Element: falsch, wenn Teilsatz A und B nicht im Gegensatz stehen oder A kein Hindernis für B ist.",
+     "In allzu förmlichen Texten verwendet: unpassend in Forschung, Berichten → besser しかしながら.",
+     "Komma nach それでも im Schreiben weggelassen: besser „それでも、…“."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "それでも",
+       "Trotzdem … dennoch …",
+       "Betont, dass B ungeachtet von A geschieht.",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "それにしても",
+       "Trotzdem, aber wirklich … (starker Ausruf)",
+       "Betont ein Gefühl der Überraschung oder Klage.",
+       "<ruby>暑<rt>あつ</rt></ruby>いね。 それにしても<ruby>今年<rt>ことし</rt></ruby>は<ruby>異常<rt>いじょう</rt></ruby>だ。"
+      ],
+      [
+       "けれど／でも",
+       "Aber …",
+       "Umgangssprache, schlicht, betont nicht das Überwinden eines Hindernisses.",
+       "<ruby>行<rt>い</rt></ruby>きたい。 でも<ruby>忙<rt>いそが</rt></ruby>しい。"
+      ],
+      [
+       "それが",
+       "Doch eigentlich …",
+       "Wenn die Wirklichkeit der Erwartung widerspricht, etwas zögernd.",
+       "<ruby>行<rt>い</rt></ruby>くと<ruby>言<rt>い</rt></ruby>った。 それが<ruby>行<rt>い</rt></ruby>けなくなった。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 659,
+   "src_hash": "3113f1fba2928d88",
+   "fields": {
+    "meaning": "Wenn das so ist, dann …",
+    "connection": "それなら + [Satz/Teilsatz]",
+    "examples": [
+     "Morgen ist frei. — Dann lass uns doch zusammen ausgehen.",
+     "Es ist schon ausverkauft. — Dann hätten wir besser reservieren sollen.",
+     "Du hast kein Auto? Dann fahren wir mit dem Bus.",
+     "Dieser Vorschlag ist sehr riskant. Dann prüfen wir eben eine Alternative.",
+     "Dir geht es nicht gut? Dann übernimm dich nicht."
+    ],
+    "explain": "Steht meist am Anfang einer Erwiderung, verbunden mit Vorschlag/Lösung/Zugeständnis.\nNicht bloß zur Gegenüberstellung; es muss ein Bedingungsverhältnis bestehen: „wenn A stimmt, dann B ...“.\nVertraut: だったら／じゃ(あ); höflich: それならば／それでは.\n\n• Bedeutung: „Wenn das so ist, dann/dann eben ...“; man nimmt die Information A auf und entscheidet/schlägt B vor.\n• Funktion im Gespräch: Erwiderung, Übergang zur Lösung, Rat/neue Bedingung.\n• Förmlichkeit: neutral im Gespräch; それならば ist höflicher; だったら/じゃ(あ) vertrauter.",
+    "notes": "• Passend beim Verhandeln/Lösen von Problemen, da es eine flexible Reaktion zeigt.\n• Kann mit Befehl/Rat stehen: それなら、やめたほうがいい。\n• In höflichen E-Mails それでは／それならば bevorzugen.",
+    "mistakes": [
+     "それなら für einen bloßen Gegensatz verwendet (besser しかし/だが) → falsche Funktion.",
+     "Verwechslung mit それでは: Im natürlichen Gespräch ist それなら neutral; それでは ist förmlich/leitet durch einen Ablauf.",
+     "B fehlt der Charakter einer „Reaktion auf A“ → der Satz wirkt unzusammenhängend."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "だったら",
+       "Wenn das so ist, dann (sehr umgangssprachlich)",
+       "Vertrauter als それなら",
+       "<ruby>暇<rt>ひま</rt></ruby>？だったら<ruby>来<rt>き</rt></ruby>て。"
+      ],
+      [
+       "じゃ(あ)",
+       "Na dann",
+       "Sehr knapp, alltäglich",
+       "<ruby>雨<rt>あめ</rt></ruby>？じゃ<ruby>中止<rt>ちゅうし</rt></ruby>。"
+      ],
+      [
+       "それでは",
+       "Wenn das so ist, dann; also dann (Einleitung/Abschluss)",
+       "Höflicher; auch zum Übergang in Präsentationen",
+       "それでは<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "なら",
+       "Wenn es … ist/falls",
+       "Grammatisches Morphem, direkt an Nomen/Verb/Adjektiv",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>行<rt>い</rt></ruby>かない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 660,
+   "src_hash": "2b6be708668bf4be",
+   "fields": {
+    "meaning": "Weil … doch, na weil",
+    "examples": [
+     "Ich will nicht hingehen. Ich bin doch müde.",
+     "Heute geht es nicht. Ich habe doch eine Verabredung.",
+     "So etwas weiß ich doch nicht. Es hat mir ja niemand gesagt.",
+     "Sei nicht böse. Ich habe es doch nur als Scherz gemeint.",
+     "Er ist nett. Er hilft mir doch immer."
+    ],
+    "explain": "Vertraute Umgangssprache, meist im Gespräch unter Freunden/in der Familie.\nMit んだもん／もの wirkt es stärker rechtfertigend/niedlich; から ist neutraler.\nNicht am Anfang förmlicher Texte; für eine sachliche Begründung ので／ため／だから.\n\n• Erklärt einen Grund gefühlsmäßig/mit leichter Ausrede: „Na weil … doch“.\n• Zielt nicht auf strenge logische Argumentation, sondern zeigt die persönliche Stimmung, eine Rechtfertigung.\n• Steht meist am Satzanfang, danach ein Komma; S2 ist der Begründungsteilsatz.",
+    "notes": "• Die Form „だってさ“ steht beim Wiedergeben von Gerüchten/fremden Worten, nicht für einen Grund.\n• Im höflichen Gespräch kann man wechseln zu: 申し訳ありません。忙しいので…。 (だって vermeiden).\n• Kinder und Frauen verwenden häufig ～んだもん／もの; erwachsene Männer verwenden es seltener, um nicht kindlich zu wirken. explain: Ausdrucksweise der gesprochenen Sprache für 「なぜなら」 「なぜかというと」 「どうしてかというと」 ⏐ examples: 1. 「何を怒ってるの？」「だって、約束を破ったじゃないか。」\n„Worüber bist du denn wütend?“ „Na, du hast doch dein Versprechen gebrochen.“\n2. 「テストの点、よかったんだって？」\n「うん。だってやさしかったんだもん。」\n„Du hattest eine gute Note im Test, habe ich gehört?“ „Ja. Er war ja auch leicht.“",
+    "mistakes": [
+     "だって in Aufsätzen/Geschäftsbriefen → unpassend; durch ので／ため／理由は～です ersetzen.",
+     "Verwechslung des verbindenden だって mit der Partikel だって „sogar“: auf die Stellung achten (Satzanfang vs. nach einem Nomen).",
+     "だって mit です／ます zu verbinden erzeugt einen Stilbruch: „だって、忙しいですから。“ in förmlichen Situationen vermeiden.",
+     "Im Hörverstehen signalisiert だって + んだもん ein Gefühl, keinen objektiven Grund."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "だって、",
+       "Rechtfertigung/Gefühl",
+       "Sehr casual, manchmal kindlich",
+       "だって、<ruby>眠<rt>ねむ</rt></ruby>いんだもん。"
+      ],
+      [
+       "だから、",
+       "Folgerung, Schluss",
+       "Neutraler, auch im Schreiben verwendbar",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。だから、<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "ので／ため",
+       "Objektiver Grund",
+       "Förmlich/objektiv, ohne Gefühl",
+       "<ruby>忙<rt>いそが</rt></ruby>しいので<ruby>参加<rt>さんか</rt></ruby>できません。"
+      ],
+      [
+       "なぜなら、",
+       "Erklärt den Grund",
+       "Schriftsprache, förmlich",
+       "なぜなら、～からだ。"
+      ],
+      [
+       "Nだって (Partikel)",
+       "„Sogar/auch“",
+       "Keine Verknüpfung; steht nach einem Nomen",
+       "<ruby>子<rt>こ</rt></ruby>どもだってできる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 661,
+   "src_hash": "c0e6c048c68f0f2f",
+   "fields": {
+    "meaning": "Denn, der Grund ist",
+    "connection": "[Satz/Teilsatz]。というのは + [Satz/Teilsatz]（nennt den Grund）",
+    "examples": [
+     "Dieses System wird ab nächstem Jahr überarbeitet. Denn es entspricht nicht mehr der gegenwärtigen Lage.",
+     "SDGs – das sind die Ziele für nachhaltige Entwicklung.",
+     "Er nimmt anscheinend nicht teil. Denn vorhin kam die Nachricht, dass es ihm nicht gut geht.",
+     "Dieses Medikament wird von der Versicherung nicht übernommen. Denn es ist noch nicht zugelassen.",
+     "Ein „Black-Unternehmen“ ist ein Unternehmen, das seinen Beschäftigten übermäßige Lasten aufzwingt."
+    ],
+    "explain": "Nach というのは steht meist ein Komma, um den erklärenden Teil abzutrennen.\nBei der Angabe eines Grundes sollte man mit からだ／ためだ schließen, um die Kausalbeziehung deutlich zu machen.\nZum Definieren: XというのはYのことだ → knapp, förmlich, häufig in Lehrbüchern und Zeitungsartikeln.\nUmgangssprache: っていうのは → locker, passend für Gespräche, Blogs.\nというのは nicht ans Satzende stellen; es folgt immer ein erklärender Teilsatz.\n\n• Erklärung/Definition: eine Art, den Inhalt des vorangehenden Satzes „deutlich zu machen“. Steht meist mit のことだ／ということだ.\n• Grund nennen: nennt abschließend die Ursache für den vorangehenden Teilsatz. Steht oft mit からだ／ためだ, um den Grund festzumachen.\n• Bezugsbereich: というのは verweist meist direkt auf den gesamten vorangehenden Satz (A)。Mit この/その＋話/件 lässt sich das verdeutlichen.\n• Nuance: logisch, objektiv, häufig in Presse, Diskussionen, Berichten, Präsentationen.",
+    "notes": "• Statt からだ kann わけだ/ためだ/にほかならない stehen, um die schließende Nuance zu verstärken.\n• Ist die Erklärung lang, sollte man den Satz teilen und nach というのは ein Komma setzen, damit er lesbar bleibt.\n• In der gesprochenen Sprache hat というのは die Kurzform つーのは/てのは (sehr umgangssprachlich); im JLPT vermeiden.",
+    "mistakes": [
+     "Verwechslung mit ということは: というのは erklärt A; ということは folgert B aus A.",
+     "からだ/ためだ bei der Angabe eines Grundes vergessen, sodass dem Satz die schließende Kraft fehlt.",
+     "というのは ans Satzende gestellt (falsch); es muss ein erklärender Teilsatz folgen.",
+     "Ohne Komma zusammengeschrieben: „というのはB…“ ist noch akzeptabel, doch im Leseverstehen sollte zur Klarheit ein Komma stehen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "というのは",
+       "Erklärung/Definition/Grund",
+       "Verweist auf den vorangehenden Satz; meist mit からだ/ということだ",
+       "A。というのは、Bからだ。"
+      ],
+      [
+       "なぜなら／なぜかというと",
+       "Nennt den Grund",
+       "Führt den Grund direkt ein; endet meist auf からだ",
+       "A。なぜなら、Bからだ。"
+      ],
+      [
+       "つまり",
+       "Kurz gesagt, mit anderen Worten",
+       "Formuliert denselben Inhalt um; nennt nicht unbedingt einen Grund",
+       "A。つまり、B。"
+      ],
+      [
+       "ということは",
+       "Daraus folgt, Folgerung",
+       "B erklärt A nicht, sondern wird aus A gefolgert",
+       "A。ということは、B（だ）。"
+      ],
+      [
+       "とは",
+       "Förmliche Definition",
+       "Meist unmittelbar nach dem Begriff, ohne vorangehenden Satz",
+       "XとはYのことだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 662,
+   "src_hash": "ef89a3cf204d366a",
+   "fields": {
+    "meaning": "Das sogenannte, das, was … heißt",
+    "examples": [
+     "„Dejikame“ ist die verkürzte Bezeichnung für Digitalkamera.",
+     "„Was bedeutet bei der Bahn ‚Kakutei‘?“\n„Das ist ein Zug, der an jedem Bahnhof hält.“"
+    ],
+    "explain": "Wird verwendet, wenn man eine Sache oder einen Sachverhalt definieren, erklären will (wobei der zu definierende Ausdruck das Subjekt ist)"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 664,
+   "src_hash": "5ab000d43b934d48",
+   "fields": {
+    "meaning": "Es ist nicht nötig, zu ….",
+    "examples": [
+     "Du brauchst dich nicht zu entschuldigen.",
+     "Sie brauchen nicht zu kommen. Es genügt, es per Post zu schicken."
+    ],
+    "explain": "Wird verwendet, wenn man dem Gegenüber sagen will, dass es eine Handlung nicht unbedingt ausführen muss. Auch ohne diese Handlung ist es in Ordnung."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 665,
+   "src_hash": "b5251695029abeb6",
+   "fields": {
+    "meaning": "Drückt aus, dass ~ als Maßstab der Beurteilung genommen wird. Von ~ aus gesehen, im Hinblick auf ~",
+    "examples": [
+     "Nach Kentas Charakter zu urteilen, ...",
+     "Nach Kentas Charakter zu urteilen, kann er der Person, die er mag, wohl nicht klar „Ich mag dich“ sagen.",
+     "Nach dem Verhalten dieser Person zu urteilen, mag sie mich ganz sicher nicht."
+    ],
+    "notes": "Bezeichnet den Anhaltspunkt für ein Urteil. Man sagt auch「からして」「からみて」usw.（９０）"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 667,
+   "src_hash": "8b91b804873e5a29",
+   "fields": {
+    "meaning": "「～がいちばん…。」客観的な事実ではなくて、話者が主観的に言うときに使う。\nWird verwendet, wenn der Sprecher sein subjektives Empfinden äußern will und keine objektive Tatsache.",
+    "connection": "N + くらい/ぐらい/ほど + ～はない（～ ist das Höchste, subjektiv）",
+    "examples": [
+     "Niemand ist so tierlieb wie Lee.",
+     "Ich finde, nichts macht so viel Freude wie Kochen.",
+     "Ach, morgen ist schon wieder ein Kanji-Test. Nichts ist so unangenehm wie Tests.",
+     "Nie war ich so beunruhigt wie damals vor 2 Jahren, als ich erfuhr, dass ich krank bin."
+    ],
+    "explain": "Wird verwendet, um den Grad einer Sache, eines Sachverhalts, einer Person hervorzuheben.\nBekräftigt, dass es außer dieser Sache, diesem Sachverhalt, dieser Person nichts Gleichwertiges gibt, das sie ersetzen könnte",
+    "notes": "meaning_vi: 「ほど．．．はない」drückt die Bedeutung der Struktur「～が一番．．．だ」aus. Nichts ist so ~ wie ~\nexamples: 1. ①　ニューヨークほど（は）寒くない\nNicht so kalt wie New York\n2. ②　A大学の入学試験は、B大学の試験ほど難しくない。\nDie Aufnahmeprüfung der Universität A ist nicht so schwer wie die Prüfung der Universität B.\n3. ③　ロンドンはニューヨークほどは寒くない。\nIn London ist es nicht so kalt wie in New York.\n4. ④　今日は思ったほど暑くない。\nHeute ist es nicht so heiß, wie ich dachte.\n──────\n1. ①　サッカーほどおもしろいスポーツはない\nKeine Sportart ist so interessant wie Fußball.\n2. ②　健太ほど忘れっぽい人はいない。\nNiemand ist so vergesslich wie Kenta\n3. ③　人の自慢話を聞くことほど退屈なことはない。\nNichts ist so langweilig, wie sich die Prahlereien anderer anzuhören.\nmeaning_vi: So … wie … gibt es nicht ….\nexamples: 1. 彼女くらい親切な人はいない。\nEinen so freundlichen Menschen wie sie gibt es nicht\n2. 今年ほど雪の降った年はなかった。\nEin Jahr, in dem es so viel geschneit hat wie dieses, gab es noch nie"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

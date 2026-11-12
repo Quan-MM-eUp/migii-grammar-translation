@@ -1,0 +1,753 @@
+{
+ "batch": "b053",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 823,
+   "src_hash": "3e6caaefce41b8f9",
+   "fields": {
+    "meaning": "Möglichst …, soweit es geht (なるべく早く)",
+    "examples": [
+     "Antworten Sie bitte möglichst bald.",
+     "Ich bemühe mich, mich möglichst jeden Tag zu bewegen.",
+     "Essen Sie bitte möglichst nichts Süßes."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 824,
+   "src_hash": "b02862ebb1f5597f",
+   "fields": {
+    "meaning": "Sich an … gewöhnen, an … gewöhnt sein",
+    "examples": [
+     "Haben Sie sich schon an das Leben in Japan gewöhnt?",
+     "Ich habe mich allmählich an die neue Arbeit gewöhnt.",
+     "Ich bin es nicht gewohnt, früh am Morgen aufzustehen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 825,
+   "src_hash": "e761d60f93389eac",
+   "fields": {
+    "meaning": "… wohl? (höfliche, abgemilderte Frage)",
+    "connection": "V einfache Form + のでしょうか んでしょうか / N + な / Na / Aい",
+    "examples": [
+     "Hält dieser Zug wohl am Bahnhof Tokio?",
+     "Warum ist er wohl nicht gekommen?",
+     "Dürfte ich wohl diesen Platz benutzen?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 826,
+   "src_hash": "e39375e4d798d72b",
+   "fields": {
+    "meaning": "Außerdem, darüber hinaus, noch mehr …",
+    "connection": "さらに + [Satz/Teilsatz]",
+    "examples": [
+     "Durch den Taifun wurde der Regen noch stärker.",
+     "Dieser Laden ist günstig. Außerdem ist der Service gut.",
+     "Nächstes Jahr sollen die Gebühren noch weiter steigen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 827,
+   "src_hash": "53e3c686e32eb1e9",
+   "fields": {
+    "meaning": "Höchstens …, allenfalls …",
+    "connection": "せいぜい + Mengenangabe・N / V",
+    "examples": [
+     "Von hier bis zum Bahnhof sind es zu Fuß höchstens 10 Minuten.",
+     "Zur Party kommen wohl höchstens 20 Leute.",
+     "Für das Mittagessen kann ich höchstens 1000 Yen ausgeben."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 828,
+   "src_hash": "a39afb6b318a24c6",
+   "fields": {
+    "meaning": "Einen Moment, eine Weile …",
+    "connection": "しばらく + [Satz/Teilsatz]",
+    "examples": [
+     "Bitte warten Sie einen Moment.",
+     "Ich habe eine Weile mit dem Japanischlernen pausiert.",
+     "Ich habe ihn schon eine Weile nicht gesehen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 829,
+   "src_hash": "27c889328e769b76",
+   "fields": {
+    "meaning": "Bereits … (etwas ist schon vorher abgeschlossen)",
+    "examples": [
+     "Die Besprechung hat bereits begonnen.",
+     "Als ich am Bahnhof ankam, war der Zug bereits abgefahren.",
+     "Diese Nachricht kenne ich bereits."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 830,
+   "src_hash": "9dad080293fd2682",
+   "fields": {
+    "name": "Mengenangabe＋は",
+    "meaning": "Mindestens … (Mengenangabe+は)",
+    "connection": "Mengenangabe + は",
+    "examples": [
+     "Bis zum Bahnhof braucht man mindestens 30 Minuten.",
+     "Diese Tasche kostet wohl mindestens 20.000 Yen.",
+     "Im Saal hatten sich mindestens 100 Leute versammelt."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 831,
+   "src_hash": "8ce46c308bc23cd3",
+   "fields": {
+    "name": "～たものだ（Rückblick）",
+    "meaning": "Früher habe ich oft …, pflegte zu … (Rückblick)",
+    "examples": [
+     "Als Kind bin ich oft in diesem Fluss geschwommen.",
+     "In meiner Studienzeit habe ich oft bis zum Morgen mit Freunden geredet.",
+     "Mein Vater sagt, in jungen Jahren sei er oft in die Berge gestiegen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 832,
+   "src_hash": "632e9f2c961d8b2a",
+   "fields": {
+    "meaning": "Tatsächlich …, in der Tat …",
+    "connection": "確かに + [Satz/Teilsatz]",
+    "examples": [
+     "Dieses Gericht ist zwar wirklich lecker, aber der Preis ist zu hoch.",
+     "Was er sagt, ist in der Tat richtig.",
+     "Ich habe doch ganz sicher abgeschlossen, und trotzdem ist es offen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 833,
+   "src_hash": "b328605abcada272",
+   "fields": {
+    "meaning": "Es genügt, … zu …; sich mit … erledigen lassen",
+    "examples": [
+     "Die Reparatur war mit 5000 Yen erledigt.",
+     "Wenn sich die Sache am Telefon erledigen lässt, muss man nicht hingehen.",
+     "Zum Glück blieb es bei einer leichten Verletzung."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 834,
+   "src_hash": "74ece88be21b8dfe",
+   "fields": {
+    "meaning": "Damit nicht …, sonst … (einer schlechten Lage vorbeugen)",
+    "examples": [
+     "Damit ich es nicht vergesse, notiere ich es mir.",
+     "Damit du dich nicht erkältest, nimm eine Jacke mit.",
+     "Damit wir nicht zu spät kommen, brechen wir lieber früh auf."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 835,
+   "src_hash": "a7b4cf5a7ae90437",
+   "fields": {
+    "meaning": "Es ist nicht die Zeit, zu … (～ている場合じゃない)",
+    "examples": [
+     "Jetzt ist nicht die Zeit zu lachen.",
+     "Jetzt ist nicht die Zeit für Videospiele. Morgen ist die Prüfung.",
+     "Es ist nicht die Zeit zu trödeln. Beeilen wir uns."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 836,
+   "src_hash": "484e0e65fe728537",
+   "fields": {
+    "meaning": "Suffix 的: macht ein Nomen zu einem Na-Adjektiv/Adverb (経済的)",
+    "examples": [
+     "Diese Denkweise ist nicht realistisch.",
+     "Erklären Sie es bitte konkreter.",
+     "Er hat das Auslandsstudium aus finanziellen Gründen aufgegeben."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 837,
+   "src_hash": "0578ac728d7ae574",
+   "fields": {
+    "meaning": "Auch wenn man …, nützt es nichts; … bringt nichts",
+    "examples": [
+     "Es jetzt noch zu bereuen bringt nichts.",
+     "Sich zu beschweren nützt nichts, fangen wir noch einmal an.",
+     "Sich Sorgen zu machen bringt nichts. Es bleibt nur, das Ergebnis abzuwarten."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 839,
+   "src_hash": "0dccc4e6a0434717",
+   "fields": {
+    "meaning": "Anscheinend …, offenbar … (とみえる/とみえて)",
+    "connection": "V einfache Form + と見える とみえる とみえて / N + だ / Na + だ / Aい",
+    "examples": [
+     "Er war offenbar müde und ist gleich eingeschlafen.",
+     "Dieser Laden ist anscheinend beliebt, er ist immer voll.",
+     "Es hat offenbar geregnet, die Straße ist nass."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 840,
+   "src_hash": "73f86235cfa222ea",
+   "fields": {
+    "meaning": "Mittendrin …, unterwegs … (途中で/途中に)",
+    "examples": [
+     "Auf dem Weg zur Schule habe ich den Lehrer getroffen.",
+     "Mitten in der Besprechung kam ein Anruf.",
+     "Auf dem Heimweg bin ich beim Supermarkt vorbeigegangen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 842,
+   "src_hash": "313168a5bb48b887",
+   "fields": {
+    "meaning": "Unmöglich …, kaum … (とても～ない)",
+    "examples": [
+     "So eine schwierige Aufgabe kann ich unmöglich lösen.",
+     "Dass er der Täter sein soll, kann ich beim besten Willen nicht glauben.",
+     "Ich habe so viel zu tun, dass ich unmöglich Zeit für eine Reise finde."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 843,
+   "src_hash": "ea412225d779079d",
+   "fields": {
+    "meaning": "… einmal beiseitegelassen, abgesehen von …",
+    "connection": "N + は別として はべつとして / V einfache Form + かどうか / Na + かどうか / Aい + かどうか",
+    "examples": [
+     "Scherz beiseite, was haben Sie wirklich vor?",
+     "Ob ich hingehe oder nicht, sei dahingestellt – anhören will ich es mir jedenfalls.",
+     "Vom Design einmal abgesehen, sind die Funktionen sehr gut."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 844,
+   "src_hash": "777286a0330fb91a",
+   "fields": {
+    "meaning": "Berühmt für … (～で有名)",
+    "examples": [
+     "Kyoto ist für seine alten Tempel berühmt.",
+     "Diese Stadt ist für ihre heißen Quellen berühmt.",
+     "Der Lehrer dort ist dafür bekannt, dass er viele Hausaufgaben aufgibt."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 845,
+   "src_hash": "a9b139775907da36",
+   "fields": {
+    "meaning": "Absichtlich, mit Absicht …",
+    "examples": [
+     "Ich glaube, er hat absichtlich verloren.",
+     "Das war keine Absicht. Entschuldigung.",
+     "Mein jüngerer Bruder tat absichtlich so, als hörte er nichts."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 846,
+   "src_hash": "5003da8b04619409",
+   "fields": {
+    "meaning": "Mehr als …, im Vergleich zu … (よりも)",
+    "connection": "V einfache Form + よりも / N",
+    "examples": [
+     "Der Winter ist dieses Jahr kälter als letztes Jahr.",
+     "Der Weg ist wichtiger als das Ergebnis.",
+     "Die Prüfung war leichter, als ich gedacht hatte."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 847,
+   "src_hash": "03ee2a883153ecb2",
+   "fields": {
+    "meaning": "Sieht aus wie …, wirkt … (ように見える)",
+    "connection": "V einfache Form + ように見える / N + の / Na / Aい",
+    "examples": [
+     "Er sieht aus, als wäre er wütend.",
+     "Dieser Plan wirkt einfach, ist aber in Wirklichkeit schwierig.",
+     "Aus der Ferne sieht es aus wie eine Insel."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 848,
+   "src_hash": "6a023b9f43c74c18",
+   "fields": {
+    "meaning": "Auf jeden Fall …, um jeden Preis …",
+    "connection": "どうしても + [Satz/Teilsatz]",
+    "examples": [
+     "Ich möchte um jeden Preis an diese Universität.",
+     "Ich kann mich beim besten Willen nicht an seinen Namen erinnern.",
+     "Ich habe etwas zu erledigen, zu dem ich unbedingt hinmuss."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 849,
+   "src_hash": "be28dbfbbf27940c",
+   "fields": {
+    "meaning": "Plötzlich …, unvermittelt, zufällig …",
+    "examples": [
+     "Als ich zufällig aus dem Fenster sah, schneite es.",
+     "Plötzlich fiel mir meine Kindheit ein.",
+     "Mitten in der Nacht bin ich unvermittelt aufgewacht."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 850,
+   "src_hash": "e337a29f3cc4796d",
+   "fields": {
+    "meaning": "Auf einmal, in einem Zug …",
+    "connection": "一度に + [Satz/Teilsatz]",
+    "examples": [
+     "Wenn man auf einmal viel isst, verdirbt man sich den Magen.",
+     "Das Gepäck auf einmal zu tragen ist unmöglich.",
+     "Bitte stellen Sie jeweils nur eine Frage auf einmal."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 851,
+   "src_hash": "49c35350494ea93b",
+   "fields": {
+    "meaning": "Wer/was/wo … denn nur (verstärkt die Frage)",
+    "connection": "一体 + [Fragesatz]",
+    "examples": [
+     "Wer in aller Welt hat so etwas getan?",
+     "Was ist das denn nur?",
+     "Wohin ist er denn nur gegangen?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 852,
+   "src_hash": "b6b241bcbd1e125a",
+   "fields": {
+    "meaning": "Doch wohl nicht …, niemals …",
+    "connection": "まさか + [verneinter Satz/Teilsatz] (～ないだろう)",
+    "examples": [
+     "Ich hätte nie gedacht, dass er lügt.",
+     "Dass ich ausgerechnet hier dem Lehrer begegne!",
+     "Es wird doch wohl nicht regnen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 853,
+   "src_hash": "b3fa8852c15f807d",
+   "fields": {
+    "meaning": "Lieber …, eher …",
+    "connection": "むしろ + [Satz/Teilsatz]",
+    "examples": [
+     "Statt mit dem Taxi ist man zu Fuß eher schneller.",
+     "Er ist weniger ein Lehrer als vielmehr wie ein Freund.",
+     "Wenn man mir hilft, dauert es eher länger."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 854,
+   "src_hash": "c67a7eea52734953",
+   "fields": {
+    "meaning": "Versehentlich …, unwillkürlich … (unabsichtlich)",
+    "connection": "つい + V (meist Vてしまう)",
+    "examples": [
+     "Obwohl ich Diät halte, habe ich doch wieder Kuchen gegessen.",
+     "Es war so spannend, dass ich unwillkürlich bis in die Nacht gelesen habe.",
+     "Ich habe das Geheimnis versehentlich ausgeplaudert."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 855,
+   "src_hash": "ca2b20ea8492e8c6",
+   "fields": {
+    "meaning": "Endlich …, schließlich … (ついに)",
+    "connection": "ついに + [Satz/Teilsatz]",
+    "examples": [
+     "Die langen Bauarbeiten sind beendet, und endlich ist der neue Bahnhof fertig.",
+     "Nach 10 Jahren hat er sich endlich seinen Traum erfüllt.",
+     "Ich habe viele Male angerufen, aber er ist schließlich nicht ans Telefon gegangen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 856,
+   "src_hash": "0ed99e67bdaab980",
+   "fields": {
+    "meaning": "Eigens …, sich die Mühe machen … (わざわざ)",
+    "examples": [
+     "Danke, dass du mich eigens am Bahnhof abgeholt hast.",
+     "Du musst nicht eigens hingehen, um es zu kaufen, man kann es im Internet bestellen.",
+     "Vielen Dank, dass Sie eigens den weiten Weg auf sich genommen haben."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 857,
+   "src_hash": "982fc23422d43859",
+   "fields": {
+    "meaning": "Ziemlich, recht …",
+    "examples": [
+     "Heute ist es ziemlich kalt, nicht?",
+     "Sein Japanisch ist ziemlich gut geworden.",
+     "Bis zur Fertigstellung dauert es noch ziemlich lange."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 858,
+   "src_hash": "317289e128b0aa68",
+   "fields": {
+    "meaning": "Ob/was … ist je nach … verschieden",
+    "connection": "[Fragesatz] + かは + N + によって違う",
+    "examples": [
+     "Was man als lecker empfindet, ist von Mensch zu Mensch verschieden.",
+     "Was man nach dem Abschluss macht, ist je nach Studierendem verschieden.",
+     "Wie viel es kostet, ist je nach Jahreszeit verschieden."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 859,
+   "src_hash": "4cd24a3a854a823e",
+   "fields": {
+    "meaning": "Jeder, jeweils …",
+    "examples": [
+     "Jeder Mensch hat seine eigene Denkweise.",
+     "Die Teilnehmer haben jeweils ihre Meinung vorgetragen.",
+     "Die Kultur ist von Land zu Land jeweils verschieden."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 860,
+   "src_hash": "abb897aac873c861",
+   "fields": {
+    "meaning": "Wenn möglich … (bescheidene Bitte)",
+    "connection": "できれば/できたら + [Bitte・Vorschlag]",
+    "examples": [
+     "Wenn möglich, hätte ich gern bis morgen eine Antwort.",
+     "Wenn möglich, bitte einen Fensterplatz.",
+     "Wenn möglich, würde ich die Uhrzeit der Besprechung gern ändern lassen."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 861,
+   "src_hash": "be8e8740c7e2ac69",
+   "fields": {
+    "meaning": "Wenn … recht ist (bescheiden: 私でよければ)",
+    "examples": [
+     "Wenn ich Ihnen recht bin, helfe ich gern.",
+     "Wenn Ihnen Gebrauchtes recht ist, können Sie es günstig kaufen.",
+     "Wenn es morgen recht ist, habe ich Zeit."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 862,
+   "src_hash": "71e01fa81b60069e",
+   "fields": {
+    "meaning": "In … ausgedrückt, was … betrifft",
+    "examples": [
+     "Das vietnamesische „Pho“ ist, auf Japan übertragen, so etwas wie Ramen.",
+     "Was den Preis betrifft, ist dieses hier günstiger.",
+     "Was die Größe betrifft, ist dieses Zimmer etwa so groß wie ein Klassenzimmer."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 863,
+   "src_hash": "50460525fb0ee67b",
+   "fields": {
+    "meaning": "Man kann sagen, dass …",
+    "connection": "V/A einfache Form + と言える / N/Naだ + と言える",
+    "examples": [
+     "Man kann dieses Ergebnis wohl als Erfolg bezeichnen.",
+     "Man kann sagen, dass er einer der berühmtesten Sportler der Welt ist.",
+     "Bis man sagen kann, dass es sicher ist, sind Untersuchungen nötig."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 864,
+   "src_hash": "258af08daaceb6ce",
+   "fields": {
+    "name": "代（Gebühr・Kosten）",
+    "meaning": "Suffix 代: Gebühr, Kosten (電気代, バス代)",
+    "examples": [
+     "Diesen Monat waren die Stromkosten hoch.",
+     "Das Busgeld zahlt die Firma.",
+     "Das Essen kostet etwa 3000 Yen pro Person."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

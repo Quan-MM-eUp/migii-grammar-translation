@@ -1,0 +1,449 @@
+{
+ "batch": "b039",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 574,
+   "src_hash": "ed066f44f925178f",
+   "fields": {
+    "meaning": "Angenommen, dass …; im Fall, dass …\nSelbst wenn …, auch angenommen, dass …",
+    "examples": [
+     "Nehmen wir an, die Sonne sei eine Kugel mit 1 Meter Durchmesser. Dann ist die Erde etwa 9 Millimeter groß.",
+     "„Wenn ich einen Krankenbesuch machen wollte, um welche Uhrzeit wäre es wohl am besten?“",
+     "Angenommen, A=B und B=C, dann gilt A=C.",
+     "Wenn das Abwasser jener Fabrik die Ursache der Krankheit ist, wird sich natürlich die Frage der Entschädigung stellen.",
+     "Wenn er nicht der Täter ist, wer hat es dann wohl gestohlen?",
+     "Wenn es selbst für Satō mit seinen hervorragenden Noten schwierig ist, kann jemand wie ich es unmöglich verstehen."
+    ],
+    "explain": "Dient dazu, eine noch nicht eingetretene Situation oder Bedingung anzunehmen und daraus zu folgern oder eine Ansicht zu äußern.\nDient dazu, eine noch nicht eingetretene Situation oder Bedingung anzunehmen und daraus zu folgern oder eine Ansicht zu äußern.\nDient dazu, eine noch nicht eingetretene Situation oder Bedingung anzunehmen und daraus zu folgern oder eine Ansicht zu äußern.",
+    "notes": "1) Die Formen der Annahme werden leicht verwechselt.\n→ ～とする heißt „angenommen, dass …“ und wird häufig verwendet, wenn man eine gedachte Bedingung aufstellt.\n2) In Ihren Daten gibt es mehrere ct (ghichu=2/3).\n→ Wenn eigene Fallen für jede Form (としたら／としても) gewünscht sind, muss entsprechend dem jeweiligen ghichu zusätzlich aktualisiert werden.\n3) Nicht mit ～とすると (natürliche Folge) verwechseln.\n→ ～とする heißt „als … betrachten/annehmen“; ～とすると kann in der Folgerung „wenn dem so ist, dann“ bedeuten."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 575,
+   "src_hash": "6188acc9b0ff41a2",
+   "fields": {
+    "meaning": "Angenommen, …; wenn man davon ausgeht, dass …",
+    "connection": "V einfache Form + とすれば としたら とすると / N + だ / Na + だ / Aい",
+    "examples": [
+     "Wenn A fehlt, sind es 9 Personen.",
+     "Wenn sich die Abfahrt um 1 Stunde verzögert, kommen wir gegen 19 Uhr an.",
+     "Wenn das echt ist, liegt der Wert bei mehreren Millionen Yen.",
+     "Angenommen, er hat diese E-Mail geschrieben – was wäre wohl sein Motiv?",
+     "Wenn diese Annahme gilt, lässt sich die folgende Formel herleiten.",
+     "Wenn es morgen regnet, fällt das Spiel aus."
+    ],
+    "explain": "Leitet eine Analyse ein: Man stellt eine Annahme auf und nennt sofort Schluss/Folge.\nIm hinteren Teilsatz keinen Befehl/starken Willen verwenden; passender für Urteil, Planung, Berechnung.\nIm Gespräch klingt die Kurzform だとすると/とすると am Satzanfang natürlich, um eine Folgerung fortzuführen.\n\n• Setzt eine Annahme als Voraussetzung, um zu folgern, zu rechnen oder zu entscheiden: „wenn/angenommen …, dann …“.\n• Meist, wenn die Information noch nicht sicher ist; der Sprecher nimmt sie vorläufig als richtig an, um die logische Folge abzuleiten.\n• Geeignet für schnelle Berechnungen, „what-if“-Szenarien, das Prüfen von Bedingungen.\n• Neutrale Nuance, in gesprochener und geschriebener Sprache verwendbar; leicht argumentativ.",
+    "notes": "• In Logik/Lehrbüchern steht 〜とすると häufig mit 証明・仮定・結論. Beispiel: 「仮にAとすると、Bが導かれる。」\n• Bei schnellen Schätzungen: 「一人500円とすると、合計は…」\n• Am Absatzanfang, um die Argumentation weiterzuführen: 「だとすると、次に問題となるのは…」",
+    "mistakes": [
+     "Verwechslung mit 〜としたところで (Einräumung). 〜とすると ist eine Bedingung der Folgerung und enthält kein „selbst wenn … doch …“.",
+     "Befehl/starker Wille im hinteren Teilsatz → unnatürlich. Besser Urteil/Planung, nicht „〜しろ“.",
+     "Falle bei der Auswahl: とすると vs なら. Stammt die Information vom Gesprächspartner/aus dem Kontext → なら; stellt man selbst eine Annahme auf, um zu folgern → とすると."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "〜とすると",
+       "Annahme → Folgerung",
+       "Neutral, häufig für Berechnungen",
+       "<ruby>増税<rt>ぞうぜい</rt></ruby>とすると<ruby>影響<rt>えいきょう</rt></ruby>は…"
+      ],
+      [
+       "〜とすれば",
+       "Ernsthafte Annahme",
+       "Etwas förmlich, festere Voraussetzung",
+       "<ruby>事実<rt>じじつ</rt></ruby>とすれば<ruby>由々<rt>ゆゆ</rt></ruby>しき<ruby>問題<rt>もんだい</rt></ruby>"
+      ],
+      [
+       "〜としたら",
+       "Persönliche Annahme/Vorstellung",
+       "Umgangssprachlicher, näher am Sprecher",
+       "<ruby>私<rt>わたし</rt></ruby>が<ruby>君<rt>きみ</rt></ruby>だとしたら…"
+      ],
+      [
+       "〜なら",
+       "Bekannte Bedingung",
+       "Nimmt eine vorherige Information als Bedingung auf",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ],
+      [
+       "〜たら",
+       "Bedingung/Zeitpunkt",
+       "Meist nur „nachdem“, wenig folgernd",
+       "<ruby>着<rt>ちゃく</rt></ruby>いたら<ruby>連絡<rt>れんらく</rt></ruby>して"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 576,
+   "src_hash": "f7149faeecc5bca3",
+   "fields": {
+    "meaning": "Zusammen mit …, zugleich …",
+    "examples": [
+     "Mit zunehmendem Alter lässt das Gedächtnis nach.",
+     "Mit dem Einzug des Frühlings begannen die Blumen zu blühen.",
+     "Diese Stadt ist ein Touristenort und hat zugleich hohen historischen Wert.",
+     "Mit der Verbreitung des Smartphones hat sich auch der Lebensstil verändert.",
+     "Er ist Arzt und zugleich Universitätsprofessor.",
+     "In dieser Region nimmt mit der Entwicklung der Industrie auch die Bevölkerung weiter zu."
+    ],
+    "explain": "In Schriftsprache, Reden, Berichten, Abhandlungen → förmlich.\nIm vertrauten Gespräch wenig gebräuchlich (stattdessen いっしょに, ～につれて, ～ながら).\nIn der Bedeutung „mitlaufende Veränderung“ ähnlich wie ～につれて/～にしたがって, aber förmlicher.\nIn der Bedeutung „zugleich“ ähnlich wie ～だけでなく / ～そして, aber stilistisch strenger.\n\n•\n① Zusammen mit, gleichzeitig mit: Zwei Handlungen/Sachverhalte geschehen gleichzeitig.\n\n•\n② Mit der Veränderung von A verändert sich auch B: bezeichnet eine parallel verlaufende Veränderung.\n\n•\n③ Mehrere Rollen/Eigenschaften zugleich: „Ist …, und zugleich auch …“.\n\n• Der Kontext ist meist förmlich, schriftsprachlich oder argumentativ.",
+    "notes": "1) Die 3 Bedeutungen von ～とともに werden leicht verwechselt.\n→ Es bedeutet „zusammen mit“ (Begleitung), „zugleich“ (gleichzeitig) und „ändert sich A, ändert sich auch B“.\n2) Auf die Wortart vor dem Muster achten.\n→ Bei Person/Gruppe: meist „zusammen mit“.\n→ Bei gleichzeitigen Ereignissen: „zugleich“.\n→ Bei Veränderung: „sich gemeinsam verändern“.\n3) Leicht zu verwechseln mit ～につれて／～にしたがって.\n→ Wird eine objektive Veränderung im Verlauf betont, ist ～につれて／～にしたがって meist deutlicher. explain: Wird verwendet, wenn man sagen will, dass Sachverhalte oder Dinge gleichzeitig miteinander ablaufen.\nMit einer Veränderung geht eine andere Veränderung einher. ⏐ examples: 1. 家族とともに来日した。\nIch bin zusammen mit meiner Familie nach Japan gekommen.\n2. 自動車が普及するとともに、事故も増加した。\nMit der Verbreitung des Autos nahmen auch die Unfälle zu.",
+    "mistakes": [
+     "Verwechslung mit につれて → につれて bezieht sich nur auf Veränderung und dient nicht dazu, „zusammen mit jemandem“ zu sagen.",
+     "„である“ bei Nomen/な-Adjektiv weggelassen → in der Schriftsprache grammatisch falsch.",
+     "In sehr vertrautem Gespräch verwendet, wirkt der Satz steif und unnatürlich.",
+     "In der Schriftsprache kein Komma „、“ nach とともに gesetzt → besser setzen, damit der Zusammenhang klar ist."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "～とともに",
+       "Zusammen mit / Zugleich / Sowohl … als auch …",
+       "Förmlich, in Schriftsprache oder Reden.",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>とともに<ruby>経験<rt>けいけん</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>える。"
+      ],
+      [
+       "～につれて",
+       "Je … desto … / Im Gefolge",
+       "Bezieht sich nur auf Veränderung im Lauf der Zeit, ohne die Bedeutung „Begleitung“.",
+       "<ruby>時間<rt>じかん</rt></ruby>が<ruby>経<rt>た</rt></ruby>つにつれて<ruby>慣<rt>な</rt></ruby>れてきた。"
+      ],
+      [
+       "～ながら",
+       "Während … (gleichzeitig)",
+       "Zwei parallele Handlungen desselben Handelnden.",
+       "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>きき</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>する。"
+      ],
+      [
+       "～だけでなく",
+       "Nicht nur …, sondern auch …",
+       "Fügt eine weitere Information hinzu; enthält nicht die Bedeutung „geschieht zugleich“.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく<ruby>英語<rt>えいご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>せる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 577,
+   "src_hash": "60feaa43647ae1b6",
+   "fields": {
+    "meaning": "Wie sehr, wie … doch",
+    "examples": [
+     "Wie sehr habe ich mich gefreut, als ich die Nachricht vom Bestehen hörte!",
+     "Wie verloren habe ich mich gefühlt, allein im Ausland!",
+     "Wie sehr habe ich auf den Tag gewartet, an dem ich dich sehen kann!",
+     "Erst als ich selbst Vater oder Mutter wurde, verstand ich, wie groß die Mühen meiner Eltern sind.",
+     "Wie erleichtert war ich, dass kein Unfall passiert ist!",
+     "Wie dankbar bin ich Ihnen allen, die mich unterstützt haben!"
+    ],
+    "explain": "Der Satz endet meist bei ～ことか。, um die Nuance des Ausrufs zu bewahren (kein Folgesatz nötig).\nMit gleichwertigen Fragewörtern: どれほど／どれだけ／なんと, um den Grad der Förmlichkeit zu ändern.\nPassend für Reden, bewegende Texte, Tagebuch, Erzählungen.\nIm vertrauten Sprechen kürzen viele zu どんなに嬉しかったか (ohne こと), doch nach JLPT-Standard bleibt ことか .\n\n• Ausruf eines hohen Grades: „wie sehr … doch!“, drückt starke Gefühle aus (Freude, Trauer, Mühsal, Dankbarkeit …).\n• Meist rückblickend: häufig mit der Vergangenheit (～たことか), wenn man auf Erlebtes zurückschaut.\n• Pragmatik: eher Schriftsprache, Reden, Erzählungen; selten in ganz alltäglichen Dialogsätzen.\n• Nennt keine konkrete Zahl: Gerade die Unbestimmtheit von „Menge/Größe“ ist gemeint.",
+    "notes": "• Verben des Wünschens: V-たい/てほしい + ことか drückt aus „wie sehr hat man sich gewünscht“.\n• Auch die Verneinung ist möglich: どんなに大変でなかったことか, natürlicher ist jedoch die bejahte Form.\n• Mit 副詞 lässt sich das Gefühl verstärken: 本当に／実に／心から＋どんなに～ことか。 meaning_vi: Sehr, wie viele Male, wie lange … ⏐ explain: Drückt einen hohen Grad oder eine große Häufigkeit eines Sachverhalts oder Merkmals aus\nMit der Bedeutung eines Ausrufs ⏐ examples: 1. 合格できたら、どんなにうれしいことか。\nWie sehr würde ich mich freuen, wenn ich bestehen könnte\n2. 何度注意したことか。\nWie oft habe ich schon ermahnt",
+    "mistakes": [
+     "Verwechslung mit どんなに～ても: Das ist eine Bedingung, kein Ausruf.",
+     "こと im Prüfungsstil weggelassen: Der JLPT verlangt das korrekte Muster ～ことか.",
+     "Ein erklärender Teilsatz nach ～ことか bringt die Struktur durcheinander; der Satz endet meist dort."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "どんなに～ことか",
+       "Ausruf des Grades",
+       "Betont das Gefühl, meist Vergangenheit",
+       "どんなに<ruby>大変<rt>たいへん</rt></ruby>だったことか"
+      ],
+      [
+       "どんなに～ても",
+       "Wie auch immer",
+       "Bedingung der Einräumung, mit hinterem Teilsatz",
+       "どんなに<ruby>高<rt>たか</rt></ruby>くても<ruby>買<rt>か</rt></ruby>う"
+      ],
+      [
+       "なんて～だ",
+       "Ausruf im Gespräch",
+       "Umgangssprache, vielfältig",
+       "なんて<ruby>美<rt>うつく</rt></ruby>しいんだ"
+      ],
+      [
+       "いかに～か",
+       "In welchem Maße",
+       "Sehr förmlich, Schriftsprache",
+       "いかに<ruby>重要<rt>じゅうよう</rt></ruby>であるか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 578,
+   "src_hash": "85024916fb10582b",
+   "fields": {
+    "meaning": "Es ist nicht so, dass nicht …; durchaus möglich",
+    "examples": [
+     "Es ist nicht so, dass es nicht schwierig wäre, eine Abhandlung auf Japanisch zu schreiben, aber es kostet Zeit.",
+     "Es ist nicht so, dass ich kein Geld hätte, aber im Moment möchte ich sparen.",
+     "Man kann nicht sagen, dass dieser Laden nicht günstig wäre, aber die Qualität ist durchschnittlich.",
+     "Ich denke, man kann nicht sagen, dass sein Vorschlag nicht schlecht wäre.",
+     "Am Wochenende könnte ich schon helfen, aber nur für kurze Zeit.",
+     "Scharfes esse ich durchaus, aber es ist nicht gerade meine Stärke."
+    ],
+    "explain": "Verwendung:Man räumt eine Möglichkeit ein, will aber Abstand wahren/eine Bedingung einbauen.Höfliche Reaktion auf eine Bitte/Einladung:検討しないことはありませんが…\nMan räumt eine Möglichkeit ein, will aber Abstand wahren/eine Bedingung einbauen.\nHöfliche Reaktion auf eine Bitte/Einladung:検討しないことはありませんが…\nNicht verwenden:Wenn eine sichere Bejahung nötig ist; dann ～できる/～だ.Wenn eine entschiedene Verneinung nötig ist; dann ～ない。\nWenn eine sichere Bejahung nötig ist; dann ～できる/～だ.\nWenn eine entschiedene Verneinung nötig ist; dann ～ない。\nTonfall: ないことはない betonen, um den Eindruck „geht schon, aber …“ zu erzeugen.\nFörmlich: ではないことはありません, ないことはありません。\n\n• Kernbedeutung: doppelte Verneinung → „es ist nicht so, dass nicht …“ = räumt eine Möglichkeit/einen Grad ein, aber schwach, zurückhaltend, an Bedingungen geknüpft.\n• Nuance: vage, weicht einer direkten Bejahung aus; meist, um sich nicht zu 100 % festzulegen (Zurückhaltung, Bescheidenheit).\n• Grad der Bejahung: niedrig bis mittel. Nicht gleichbedeutend mit „sicher“, sondern „durchaus möglich/nicht völlig ausgeschlossen“.\n• Steht oft mit Gradwörtern: まあ/別に/そんなに/少し/多少… zur Abschwächung: 別に難しくないことはない。\n• Steht meist vor が/けど/しかし; der hintere Teilsatz nennt Bedingung, Hindernis, andere Wahl.",
+    "notes": "• In der Übersetzung kann man „durchaus möglich“, „nicht unbedingt nicht …“, „es ist nicht so, dass nicht …, aber …“ wählen.\n• Häufig mit einer hypothetischen Bedingung: 条件次第では、参加できないことはない。\n• In der Vergangenheit: 行けないことはなかった (damals wäre es nicht unmöglich gewesen hinzugehen) → rückblickende, leicht bedauernde Nuance. | Erweiterung: N/Na じゃなくはない・Aくなくはない",
+    "mistakes": [
+     "Bejahende Bedeutung verkannt: Man hält es für eine starke Verneinung. Tatsächlich ist es eine schwache Bejahung.",
+     "Verwendet, wenn eine Festlegung nötig ist: Auf eine klare „Ja/Nein“-Frage mit diesem Muster zu antworten → wirkt unklar.",
+     "Verwechslung mit ～ないこともない: Schwierige JLPT-Aufgaben prüfen die Nuance „öffnet eine Bedingung“ von も.",
+     "が/けど im hinteren Teilsatz fehlt → der Satz wirkt abgehackt, die Erklärung fehlt."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ないことはない",
+       "Es ist nicht so, dass nicht … (schwache Möglichkeit)",
+       "Neutral; oft mit „が/けど“.",
+       "<ruby>行<rt>い</rt></ruby>けないことはないが…"
+      ],
+      [
+       "～ないこともない",
+       "Es ist nicht so, dass nicht …",
+       "Sanfter, deutet an „wenn die Bedingung passt“.",
+       "<ruby>手伝<rt>てつだ</rt></ruby>わないこともないよ。"
+      ],
+      [
+       "～なくはない",
+       "Es ist nicht so, dass nicht …",
+       "Kurzform, Umgangssprache mit Gewicht auf der Verneinung.",
+       "<ruby>高<rt>たか</rt></ruby>くなくはない。"
+      ],
+      [
+       "～ないわけではない",
+       "Es ist nicht so, dass nicht …",
+       "Eher Begründung/Rechtfertigung (わけ).",
+       "<ruby>行<rt>い</rt></ruby>きたくないわけではない。"
+      ],
+      [
+       "～ないでもない",
+       "Es ist nicht so, dass nicht …",
+       "Gesprochene Sprache; etwas altertümlich/weich.",
+       "<ruby>理解<rt>りかい</rt></ruby>できないでもない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 579,
+   "src_hash": "9a1821062a85e645",
+   "fields": {
+    "meaning": "Es ist nicht so, dass nicht …; durchaus möglich",
+    "examples": [
+     "In der Pfanne geht es zur Not auch, aber wenn du einen Topf hast, ist der Topf besser.",
+     "Wenn es morgen ist, könnte ich durchaus teilnehmen.",
+     "Teuer ist es schon ein wenig, aber weil die Qualität gut ist, kaufe ich es.",
+     "Scharfe Gerichte esse ich durchaus auch.",
+     "Wenn man sich anstrengt, ist es nicht unmöglich zu bestehen.",
+     "Unter dieser Bedingung wäre ich, denke ich, nicht abgeneigt, den Vertrag zu verlängern."
+    ],
+    "explain": "Verwendung:Eine „offene“ Antwort mit Entgegenkommen geben.Eine begleitende Bedingung vorbereiten, leichter Übergang zum Verhandeln.\nEine „offene“ Antwort mit Entgegenkommen geben.\nEine begleitende Bedingung vorbereiten, leichter Übergang zum Verhandeln.\nHöflichkeit: mit ありません/です klingt es im Berufsleben weicher.\nPragmatik: meist folgt が/けど + Bedingung/Bedenken.\n\n• Bedeutung: „Es ist nicht so, dass nicht …“ wie ～ないことはない, deutet aber meist an „wenn die Bedingung passt, ist es möglich/habe ich nichts dagegen“.\n• Nuance: etwas positiver als ～ないことはない; lässt die Möglichkeit „offen“, kompromissbereit.\n• Häufig beim Verhandeln/als Antwort auf eine Einladung: 価格次第では、購入しないこともない。\n• Mit Bedingungen und Adverbien: 条件次第で/場合によっては/まあ/別に/そんなに… + ～ないこともない。",
+    "notes": "• Natürliche Übersetzung: „durchaus möglich …“, „es ist nicht so, dass nicht …, wenn …“.\n• Mit なら/さえ/ば, um die Bedingung zu betonen: これさえあれば、できないこともない。\n• Vergangenheit: 行かなかったこともない（es war nicht so, dass man nicht hinging … → vielleicht ein wenig/in einem bestimmten Fall hingegangen). meaning_vi: ～の可能性もある\nEs besteht auch die Möglichkeit, es ist nicht unmöglich … ⏐ examples: 1. 毎日、漢字を４つか５つなら、覚えられないこともない。\nWenn es 4 oder 5 Kanji am Tag sind, kann ich sie mir durchaus merken.\n2. この会社を辞める人の気持ちがわからないこともない。\nEs ist nicht so, dass ich die Gefühle derer, die diese Firma verlassen, nicht verstehen könnte.",
+    "mistakes": [
+     "Verwechslung der Stufe mit ～ないことはない: Der JLPT fragt oft nach der Nuance „öffnet eine Bedingung“ von も.",
+     "Zu positiv mit „geht sicher“ übersetzt → falscher Sinn (es ist nur eine Möglichkeit).",
+     "Der Bedingungsteil wird vergessen, sodass der Satz im beruflichen Gespräch in der Schwebe bleibt und schwer verständlich ist."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ないこともない",
+       "Es ist nicht so, dass nicht … (öffnet eine Bedingung)",
+       "Etwas positiver; passt zum Verhandeln.",
+       "<ruby>買<rt>か</rt></ruby>わないこともない。"
+      ],
+      [
+       "～ないことはない",
+       "Es ist nicht so, dass nicht …",
+       "Neutral, räumt ein, aber zurückhaltend.",
+       "<ruby>買<rt>か</rt></ruby>えないことはない。"
+      ],
+      [
+       "～なくはない",
+       "Es ist nicht so, dass nicht …",
+       "Umgangssprachliche Kurzform, betont die Verneinung.",
+       "<ruby>高<rt>たか</rt></ruby>くなくはない。"
+      ],
+      [
+       "～ないわけではない",
+       "Es ist nicht so, dass nicht …",
+       "Mit erklärender Nuance (わけ).",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 580,
+   "src_hash": "c31ab91183ce5f9e",
+   "fields": {
+    "meaning": "Wenn nicht …, dann",
+    "examples": [
+     "Ich muss langsam ins Bett.",
+     "Ich muss die Abgabefrist einhalten.",
+     "Wenn du nicht schnell gehst, verpasst du den Zug.",
+     "Wenn du das Medikament nicht nimmst, wirst du nicht gesund.",
+     "Ich muss die Unterlagen bis morgen vorbereiten.",
+     "Es ist kalt, ich muss das Fenster schließen."
+    ],
+    "explain": "In der Kurzform (Satzende auf ～ないと。 ) ergibt sich „いけない/だめ“ aus dem Kontext.\nIn der Bedeutung der Bedingung enthält der hintere Teilsatz meist eine Verneinung/Folge:間に合わない／困る／怒られる…\nFörmlich: in Berichten und geschäftlichen E-Mails ～ないといけない／～なければならない bevorzugen.\n\n• Bedeutung des Müssens (Umgangssprache): V-ないと ist meist die Kurzform von V-ないといけない; der hintere Teil entfällt, weil er selbstverständlich ist.\n• Bedeutung der Bedingung: „wenn nicht …, dann …“, der hintere Teilsatz nennt eine schlechte/unerwünschte Folge.\n• Nuance: natürlich, alltäglich; in gehobener Schriftsprache sollte man die volle Form verwenden.",
+    "notes": "• ～ないと kann ein Gefühl von Eile ausdrücken: Der kurz abgebrochene Satz zeigt, dass man „sich selbst ermahnt“.\n• Das verneinte Verb muss in der richtigen ない-Form stehen: 行く→行かない、とる→とらない、する→しない、来る→こない。\n• Im vertrauten Gespräch ersetzen die Varianten 〜なきゃ/〜なくちゃ das 〜ないと mit weicherer Nuance.\nmeaning_vi: Drückt die Bedeutung „Wenn nicht ~, dann ･･･“ aus; ･･･ ist ein unguter Zustand oder Sachverhalt. Manchmal wird ･･･ ausgelassen.\nexamples: 1. ①　気をつけないと\nIch muss aufpassen\n2. ②　よく見ないと、間違えるよ。\nWenn du nicht genau hinsiehst, machst du einen Fehler.\n3. ➂　あの字は小さいから、目がよくないと読めないだろう。\nDie Schrift dort ist klein; wer keine guten Augen hat, kann sie wohl nicht lesen.\n4. ➃　時間がないから、急がないと。\nWir haben keine Zeit, also müssen wir uns beeilen.",
+    "mistakes": [
+     "Jedes ～ないと als „müssen“ verstanden: Manche Sätze sind die Bedingung „wenn nicht …, dann …“; man muss auf den hinteren Teilsatz achten.",
+     "Den hinteren Teilsatz weggelassen, obwohl es keine Kurzform ist: In der Bedeutung der Bedingung sollte ein Ergebnisteilsatz stehen.",
+     "In förmlichen Texten verwendet: besser zu ～ないといけない/～なければならない wechseln."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance/Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "V-ないと",
+       "Umgangssprachliches „müssen“; oder Bedingung „wenn nicht“",
+       "Knapp, alltäglich",
+       "<ruby>行<rt>い</rt></ruby>かないと。"
+      ],
+      [
+       "V-ないといけない/だめ",
+       "Müssen (Standard)",
+       "Neutral, breit verwendbar",
+       "<ruby>行<rt>い</rt></ruby>かないといけない。"
+      ],
+      [
+       "V-なければならない",
+       "Müssen (förmlich)",
+       "Steif, Schriftsprache/Vorschriften",
+       "<ruby>報告<rt>ほうこく</rt></ruby>しなければならない。"
+      ],
+      [
+       "V-なくてはならない／V-なくちゃ",
+       "Müssen; なくちゃ ist Umgangssprache",
+       "なくちゃ＝sehr vertraut",
+       "<ruby>行<rt>い</rt></ruby>かなくちゃ。"
+      ],
+      [
+       "V-ないと～ (Bedingung)",
+       "Wenn nicht, dann …",
+       "Immer mit folgendem Ergebnisteilsatz",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>しないと<ruby>落<rt>お</rt></ruby>ちる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 581,
+   "src_hash": "8cef083783e45783",
+   "fields": {
+    "meaning": "「心理的事情があるので、～しなければならない。」規則などで決まっていて～なければならないのではなくて、あまり～したくないが、社会的常識・心理的義務感があってそうする必要があるという意味で使う。主語は普通一人称。\nAus psychologischen Gründen muss man ~ tun.\nWird verwendet, wenn gemeint ist: Man muss ~ nicht deshalb tun, weil es durch eine Vorschrift oder Ähnliches festgelegt ist, sondern obwohl man es nicht recht tun möchte, ist es aufgrund gesellschaftlicher Gepflogenheit, eines inneren Pflichtgefühls usw. nötig, so zu handeln.\nDas Subjekt ist in der Regel die erste Person.",
+    "examples": [
+     "Da ich versprochen habe hinzugehen, kann ich wohl nicht umhin hinzugehen.",
+     "Die Fremdsprache ist Pflichtfach, also komme ich nicht darum herum, sie zu belegen.",
+     "Es war das erste Gericht, das sie für mich gekocht hatte, also musste ich es essen, obwohl ich satt war.",
+     "In dieser Stadt hat man es ohne Fahrrad eben doch schwer. Ich komme nicht darum herum, eines zu kaufen.",
+     "Es ist wirklich heiß, aber gar nichts anzuziehen geht ja auch nicht, nicht wahr?",
+     "Diese CD würde ich gern für immer behalten, aber sie gehört der Bibliothek, also muss ich sie zurückgeben."
+    ],
+    "explain": "Drückt aus, dass man etwas tun muss, nicht umhinkann, es zu tun, auch wenn man innerlich nicht will.",
+    "notes": "1) Leicht zu verwechseln mit ～わけにはいかない.\n→ ～ないわけにはいかない heißt „nicht umhinkönnen, zu …“, das heißt, man muss es am Ende doch tun.\n2) Hat eine widerwillige Nuance.\n→ Man will es nicht unbedingt tun, aber die Umstände zwingen dazu.\n3) Nicht verwenden, wenn der Sprecher es freiwillig tut.\n→ Bei „sehr gern tun wollen“ verwendet man ein anderes Muster des Willens."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

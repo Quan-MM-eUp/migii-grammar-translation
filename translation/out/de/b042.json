@@ -1,0 +1,627 @@
+{
+ "batch": "b042",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 597,
+   "src_hash": "90601e74a7a5be94",
+   "fields": {
+    "meaning": "Nur für …, beschränkt auf …",
+    "examples": [
+     "Diesen Durchgang dürfen nur Befugte benutzen.",
+     "Nur heute: 20 % Rabatt auf alle Artikel.",
+     "Nur für Studierende ist der Eintritt frei.",
+     "Nur beim ersten Mal ist die Beratung kostenlos.",
+     "Bewerbungen werden nur von Personen mit Wohnsitz im Inland angenommen.",
+     "Nur an Werktagen"
+    ],
+    "explain": "Öffentlicher Stil: Schilder, Flugblätter, Vorschriften, Veranstaltungshinweise.\nNicht mit Verben/zur Beschreibung freier Handlungen; vor allem an Nomen für Zielgruppe/Zeitrahmen.\nSteht meist nahe am Satzanfang, um die Bedingung der Vergünstigung/Beschränkung festzulegen.\n\n• Legt einen besonderen Geltungsbereich fest: „nur … darf/kann …“.\n• Ton von Mitteilung, Vorschrift, zeitweiliger oder dauerhafter Vergünstigung.\n• Steht meist mit Wörtern für Zeit/Zielgruppe: 本日／女性／会員／学生／初回 など.\n• Drückt nicht „am besten“ aus wie ～に限る und unterscheidet sich von ～に限って.",
+    "notes": "• In Regelwerken: „Aに限り、Bとする“ ist die Standardformel einer Vorschrift.\n• Auf Schildern ist die Auslassung des Prädikats möglich: „関係者に限り“。\n• Mit „一部店舗に限り“ nennt man eine Ausnahme beim Geltungsgebiet.",
+    "mistakes": [
+     "Mit einem Verb verwendet: „行くに限り“ ist falsch; es muss an ein Nomen treten.",
+     "Verwechslung mit ～に限る (Bewertung „am besten“): anderer Ausdruckszweck.",
+     "は nach に限り zu „に限りは“ hinzugefügt (unnatürlich); zur Hervorhebung „Nに限っては“ verwenden.",
+     "Im JLPT wird oft das Gegensatzpaar に限り／に限らず eingebaut; auf die gegensätzliche Bedeutung achten."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～に<ruby>限<rt>かぎ</rt></ruby>り",
+       "Nur für",
+       "Förmlich/Mitteilung, an N",
+       "<ruby>会員<rt>かいいん</rt></ruby>に<ruby>限<rt>かぎ</rt></ruby>り<ruby>利用<rt>りよう</rt></ruby><ruby>可<rt>か</rt></ruby>。"
+      ],
+      [
+       "～のみ",
+       "Nur",
+       "Vokabel „nur“, in Mitteilungen austauschbar",
+       "<ruby>会員<rt>かいいん</rt></ruby>のみ。"
+      ],
+      [
+       "～だけ",
+       "Nur",
+       "Umgangssprache, wenig normativ",
+       "<ruby>会員<rt>かいいん</rt></ruby>だけ<ruby>入<rt>い</rt></ruby>れる。"
+      ],
+      [
+       "～に<ruby>限<rt>かぎ</rt></ruby>る",
+       "Am besten ist/nichts geht über",
+       "Andere Bedeutung (subjektive Bewertung)",
+       "<ruby>夏<rt>なつ</rt></ruby>はビールに<ruby>限<rt>かぎ</rt></ruby>る。"
+      ],
+      [
+       "～に<ruby>限<rt>かぎ</rt></ruby>って",
+       "Ausgerechnet/gerade dann",
+       "Anderes Muster, nennt Ausnahme/Ironie des Schicksals",
+       "<ruby>今日<rt>きょう</rt></ruby>に<ruby>限<rt>かぎ</rt></ruby>って<ruby>雨<rt>あめ</rt></ruby>だ。"
+      ],
+      [
+       "～に<ruby>限<rt>かぎ</rt></ruby>らず",
+       "Nicht nur",
+       "Verneint den Bereich, Gegenteil",
+       "<ruby>学生<rt>がくせい</rt></ruby>に<ruby>限<rt>かぎ</rt></ruby>らず。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 599,
+   "src_hash": "029c08063ffb879e",
+   "fields": {
+    "meaning": "Nicht nur …, sondern auch …",
+    "connection": "V einfache Form + ばかりでなく… (も) / N / Na + な / Aい + い",
+    "examples": [
+     "Ich kann nicht nur nicht Ski fahren, es wirkt sich auch auf meinen Alltag aus.",
+     "Bei dieser Hitze rühren sich nicht nur die Menschen, sondern auch die Tiere nicht mehr vom Fleck.",
+     "Sie spricht nicht nur Englisch, sondern auch Französisch und Deutsch.",
+     "Dieses Buch ist nicht bloß unterhaltsam, sondern auch für die Arbeit nützlich.",
+     "„Denk nicht nur an dich selbst, sondern auch an die Gefühle anderer.“",
+     "Der Supermarkt dort hat nicht nur ein reiches Sortiment, sondern auch günstige Preise."
+    ],
+    "explain": "◎ Eine Ausdrucksweise, die einen Sachverhalt hervorhebt, indem nicht nur eines, sondern mehrere Dinge genannt werden.",
+    "notes": "1) Leicht zu verwechseln mit ～だけでなく／～はもちろん.\n→ ～ばかりでなく heißt „nicht nur …, sondern auch …“, häufig in der Schriftsprache, mit etwas förmlicher Nuance.\n2) Der hintere Teilsatz ist meist der Punkt, den man stärker betonen will.\n→ Häufige Struktur: AばかりでなくBも／まで.\n3) Nicht verwenden, wenn nur Beispiele aufgezählt werden.\n→ Für Beispiele verwendet man ～など…\nmeaning_vi: 「～だけでなくて、その他にも…。」\nNicht nur ~, sondern darüber hinaus auch …\nexamples: 1. 日本人ばかりでなく、世界中の人がエネルギー問題に関心を持っている。\n日本人ばかりでなく、世界中の人がエネルギー問題に関心を持っている。=> Nicht nur die Japaner, sondern Menschen auf der ganzen Welt interessieren sich für die Energiefrage.\n2. この番組は、面白いばかりでなく、さまざまなことが学べる。\nこの番組は、面白いばかりでなく、さまざまなことが学べる。=> Diese Sendung ist nicht nur unterhaltsam, man kann auch vieles daraus lernen.\n3. 彼は町を案内してくれたばかりでなく、この地方の料理もご馳走しててくれた。\n彼は町を案内してくれたばかりでなく、この地方の料理もご馳走しててくれた。=> Er hat mir nicht nur die Stadt gezeigt, sondern mich auch zu Gerichten dieser Gegend eingeladen.\nmeaning_vi: Wird verwendet, wenn man sagen will „nicht nur ~, sondern auch ~“\n［ふつう］　+　だけでなく／だけじゃなく（て）／ばかりでなく／ばかりじゃなく（て）\n［Na：元気な　N：学生だ］\nexamples: 1. ➀　部屋だけでなく\nNicht nur das Zimmer\n2. ②　飛行機だけでなく船にも乗った。\nIch bin nicht nur mit dem Flugzeug, sondern auch mit dem Schiff gefahren.\n3. ③　この製品は、日本ばかりでなく、海外でも使われている。\nDieses Produkt wird nicht nur in Japan, sondern auch im Ausland verwendet.\n4. ➃　今日は、風が強いばかりでなく、雨も降るらしい。\nHeute soll es nicht nur stark winden, sondern auch regnen.\n5. ⑤　考えるだけじゃなくて、実際にやってみなくちゃ。\nMan darf nicht nur nachdenken, man muss es auch wirklich ausprobieren."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 600,
+   "src_hash": "eb240f72c4633b21",
+   "fields": {
+    "meaning": "Hätte ich doch … (Bedauern)",
+    "examples": [
+     "Hätte ich mich damals doch entschuldigt.",
+     "Wäre ich doch früher zum Arzt gegangen.",
+     "Hätte ich die teure Kamera doch nicht gekauft.",
+     "Hätte ich gewusst, dass es regnen würde, hätte ich einen Schirm mitbringen sollen.",
+     "Hätte ich ihm doch die Wahrheit gesagt.",
+     "Ich hätte fragen sollen"
+    ],
+    "explain": "Starke Nuance des Bedauerns oder des Selbstvorwurfs.\nAuch in sanftem Ton möglich, manchmal mit einem Gefühl von Selbstvorwurf oder Wehmut.\nAls weichere Form kann man anfügen: ～ばよかったのに → „Hätte doch …, und dabei …“ (mit etwas Klage, Vorwurf).\n\n•\nDrückt Bedauern oder Reue über etwas in der Vergangenheit aus, das man nicht getan (oder getan) hat.\n\n•\nNatürliche Übersetzung: „Hätte ich doch …“, „Wäre ich doch …“, „Wenn ich nur … hätte“.\n\n• Meist über eine Handlung, die nicht ausgeführt wurde, aber hätte ausgeführt werden sollen, oder über eine ausgeführte Handlung, die man lieber unterlassen hätte.\n• Eine gefühlsbetonte Ausdrucksweise, häufig im Gespräch, im Film, im Tagebuch.",
+    "notes": "• Ein Muster der Stufe N3–N2, häufig im Gespräch und in Hör- und Leseaufgaben der Prüfung.\n• In vertrauter Rede ist die Auslassung von だ möglich: ～ばよかったなぁ, ～ばよかったのに….\n• Kann mit って stehen → ～ばよかったって, zur Betonung beim Nacherzählen.\nmeaning_vi: Hätte ich doch …, dann wäre es gut gewesen\nexplain: Drückt Reue über etwas Geschehenes aus, das nicht den eigenen Wünschen entsprach\nexamples: 1. 遅刻してしまった。もっと早く家を出ればよかった。\nIch bin zu spät gekommen. Wäre ich doch früher von zu Hause losgegangen\n2. 田中さんにあんなことを言わなければよかった。\nHätte ich so etwas doch nicht zu Tanaka gesagt\nmeaning_vi: Und dabei …/ Hätte doch …\nexplain: Drückt Bedauern über etwas Geschehenes aus, das nicht den eigenen Wünschen entsprach\nexamples: 1. パーテイー、楽しかったよ。君も行けばよかったのに。\nDie Party war schön. Wärst du doch auch gekommen\n2. 安かったら買うのに。\nWenn es billig wäre, würde ich es ja kaufen …",
+    "mistakes": [
+     "Falsche Verbform: Es muss Vば oder Vたら stehen.",
+     "Verwechslung mit ～といい／～ばいい (Wunsch für die Zukunft).",
+     "よかった weggelassen und nur Vば verwendet → falscher Sinn.",
+     "Bei Verneinung muss なければよかった oder なかったらよかった stehen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "Vばよかった",
+       "Hätte ich doch …",
+       "Bedauern über eine nicht ausgeführte Handlung.",
+       "<ruby>行<rt>い</rt></ruby>け ばよかった。"
+      ],
+      [
+       "Vたらよかった",
+       "Wenn ich doch …",
+       "Sehr ähnliche Bedeutung, sanftere oder neutrale Nuance.",
+       "<ruby>行<rt>い</rt></ruby>ったら よかった。"
+      ],
+      [
+       "Vばよかったのに",
+       "Hättest du doch … (leichter Vorwurf)",
+       "Zusätzliche Nuance von Klage, deutlicheres Bedauern.",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくれれ ばよかったのに。"
+      ],
+      [
+       "～とよかった",
+       "Wenn …, wäre es schön (Wunsch für die Zukunft)",
+       "Für Zukunftswünsche, nicht für Bedauern über Vergangenes.",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>会<rt>あ</rt></ruby>える といいね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 601,
+   "src_hash": "b53f955b613edde0",
+   "fields": {
+    "meaning": "Je … desto …",
+    "examples": [
+     "Eine Rede wird umso besser, je mehr man sie übt.",
+     "Je höher das Gehalt, desto mehr freue ich mich.",
+     "Eine Fremdsprache beherrscht jeder umso besser, je mehr er übt.",
+     "Je mehr ich über die Zukunft nachdenke, desto unruhiger werde ich.",
+     "Je länger man es betrachtet, desto großartiger ist das Bild.",
+     "Je größer der Traum, desto besser."
+    ],
+    "explain": "Betont ein proportionales Verhältnis: mehr–mehr oder weniger–weniger (少なければ少ないほど…).\nDer hintere Teilsatz kann die Absolutheit mit ～とは限らない／～わけではない verneinen.\nBei Aな/N ist die Form であればあるほど in der Schriftsprache förmlich/genau.\nIm Gespräch kann der vordere Teilsatz bei klarem Kontext verkürzt werden:若ければ若いほど…\n\n- Bedeutung: „Je A, desto B“. Bezeichnet eine gleichläufige Beziehung oder ein Steigen/Sinken in eine Richtung.\n- Form: Dasselbe Wort wird in den beiden Hälften vor und nach ～ば und ～ほど wiederholt, um einen Vergleich nach dem Grad zu bilden.\n- Bereich: für Tendenzen/allgemeine Zusammenhänge; selten für ein einzelnes, einmaliges Ereignis.",
+    "notes": "1) Leicht zu verwechseln mit ～ばいい (einfache Bedingung).\n→ ～ば～ほど drückt ein paralleles Steigen/Sinken aus: „je … desto …“.\n2) Beide Teile verändern sich in dieselbe Richtung.\n→ Fehlt die Bedeutung „der Grad nimmt entsprechend zu“, passt dieses Muster nicht.\n3) Auf die Flexion achten.\n→ V/A im vorderen Teilsatz in der ば-Form; im hinteren Teilsatz steht meist ほど (in manchen Sätzen weglassbar). explain: Drückt aus, dass der Grad des Ergebnisses zunimmt, je mehr die Eigenschaft einer Sache zunimmt ⏐ examples: 1. 彼のことを知れば知るほど好きになる。\nJe besser ich ihn kennenlerne, desto mehr mag ich ihn\n2. 荷物は少なければ少ないほどいい。\nJe weniger Gepäck, desto besser | Na-Form: Naなら Naなほど",
+    "mistakes": [
+     "Falsche Form der Wiederholung: in den beiden Teilen verschiedene Formen verwendet (× 行けば行ったほど) → es muss Vば・Vる heißen.",
+     "Für ein einzelnes Ereignis verwendet, das keine Tendenz ist → unnatürlich.",
+     "Fehler bei Aな/N: な/である vor ほど vergessen (× 静かほど) → 静かなほど／静かであるほど.",
+     "Verwechslung mit „～ほど～はない“ (Superlativ) → völlig andere Bedeutung."
+    ],
+    "comparison": {
+     "headers": [
+      "Grammatikmuster",
+      "Bedeutung",
+      "Zusammenhang/Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～につれて／～にしたがって",
+       "Mit A verändert sich B",
+       "Betont die Veränderung im Lauf der Zeit/des Vorgangs, ohne Wortwiederholung",
+       "<ruby>温度<rt>おんど</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がるにつれて<ruby>氷<rt>こおり</rt></ruby>が<ruby>溶<rt>と</rt></ruby>ける。"
+      ],
+      [
+       "～ほど（Grad）",
+       "In dem Maße/so sehr",
+       "Anders als das proportionale Modell „je … desto …“; bezeichnet nur den Grad",
+       "<ruby>驚<rt>おどろ</rt></ruby>くほど<ruby>美<rt>うつく</rt></ruby>しい。"
+      ],
+      [
+       "～ば～ほど vs ～と～（と）",
+       "Proportionales Verhältnis",
+       "～と drückt ebenfalls eine regelmäßige Beziehung aus, doch ～ば～ほど betont den Grad",
+       "<ruby>食<rt>た</rt></ruby>べると<ruby>元気<rt>げんき</rt></ruby>になる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 602,
+   "src_hash": "22633e8dc5bc1e7b",
+   "fields": {
+    "meaning": "So tun, als ob",
+    "connection": "V einfache Form + ふりをする / N + の / Na + な / Aい",
+    "examples": [
+     "Er tat so, als hätte er die Frage nicht bemerkt.",
+     "Das Kind stellte sich schlafend und wartete auf die Süßigkeiten.",
+     "Sie tut so, als ginge es ihr gut, aber in Wirklichkeit hat sie es schwer.",
+     "Er gibt sich als Erwachsener und will mehr scheinen, als er ist.",
+     "Ich tat so, als täte es nicht weh, aber es tat ziemlich weh."
+    ],
+    "explain": "Beschreibt ein Verhalten, das die Wahrheit verbirgt; enthält meist eine Wertung (unaufrichtig/ausweichend).\nVerbindet sich leicht mit して/している, um einen Zweck oder einen andauernden Zustand zu nennen.\nNicht für Naturerscheinungen/unbelebte Dinge (×雨が降らないふりをする).\n\n• Drückt aus, dass man einen Zustand/ein Verhalten vortäuscht, während es in Wirklichkeit anders ist.\n• Der Handelnde ist meist ein Mensch/Tier mit Bewusstsein; mit unaufrichtiger Nuance, manchmal kritisch gemeint.\n• In Vergangenheit wie Gegenwart verwendbar: 知らないふりをした (hat so getan), している (tut gerade so).",
+    "notes": "• Verneinung: ～ふりをしない (nicht so tun). Vergangenheit: ～ふりをした.\n• Ein wertendes Adjektiv lässt sich einfügen: わざと～、いかにも～のふり。\n• Im Gespräch fügt man 「なんて」 hinzu, um zu kritisieren: 知らないふりなんてやめて。",
+    "mistakes": [
+     "Falsche Partikel beim Nomen: Es muss Nのふりをする heißen, nicht Nなふりをする.",
+     "Die Verwendung für ein unbelebtes Subjekt ist falsch: × ドアが壊れたふりをする.",
+     "Verwechslung mit ～かのようだ: Dieses Muster beschreibt den äußeren Anschein, nicht ein „Vortäuschen“.",
+     "「な」 beim な-Adjektiv vergessen: × 元気ふりをする → ◯ 元気なふりをする."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ふりをする",
+       "So tun, als ob (absichtlich)",
+       "Betont das Schauspielern",
+       "<ruby>知<rt>し</rt></ruby>らないふりをする"
+      ],
+      [
+       "～かのように",
+       "Als ob (Vergleich/Vorstellung)",
+       "Nicht unbedingt ein Vortäuschen",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>王様<rt>おうさま</rt></ruby>であるかのように<ruby>振<rt>ふ</rt></ruby>る<ruby>舞<rt>ま</rt></ruby>う"
+      ],
+      [
+       "～まねをする",
+       "Nachahmen",
+       "Neutral, ohne die Andeutung einer Täuschung",
+       "<ruby>大人<rt>おとな</rt></ruby>のまねをする"
+      ],
+      [
+       "～<ruby>体<rt>たい</rt></ruby>（てい）/～げ",
+       "Anschein/Gehabe",
+       "Beschreibt das Äußere, Nuance der Schriftsprache",
+       "<ruby>知<rt>し</rt></ruby>らぬ<ruby>体<rt>からだ</rt></ruby>／<ruby>悲<rt>かな</rt></ruby>しげ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 603,
+   "src_hash": "c31a2da764b828af",
+   "fields": {
+    "meaning": "Sollen, müssen",
+    "examples": [
+     "Wer ein Einkommen hat, sollte als Staatsbürger Steuern zahlen.",
+     "Der Professor hat mir ganze 30 Bücher genannt, die ich lesen soll.",
+     "In meiner Studienzeit hätte ich mehr lernen sollen.",
+     "Man sollte nichts sagen, was andere verletzt.（=～してはならない）",
+     "*Beim Betreten des Zimmers ist anzuklopfen.",
+     "Sie hat ein liebenswertes Wesen und ist bei allen beliebt."
+    ],
+    "explain": "Förmlicher als ～たほうがいい , mit dem Charakter von Verantwortung oder moralischem Grundsatz.\nKann bei falschem Kontext etwas aufdrängend klingen, da es eine entschiedene Ansicht ausdrückt.\nIn Schriftsprache, Reden, gesellschaftlichen Urteilen sehr passend.\nÜber das eigene Handeln gesagt → milder, drückt Selbstvorwurf aus.\n\n•\nBezeichnet, was man tun sollte, tun muss, gestützt auf Moral, gesunden Menschenverstand, Verantwortung.\n\n• Mit der Nuance eines subjektiven Urteils des Sprechers, das aber allgemeingültig ist: „jeder sollte es so halten“.\n• Kann der Kritik, dem Rat oder der Betonung einer moralischen Pflicht dienen.\n• Natürliche Übersetzung: „sollte …“, „muss …“, „hätte … sollen“.",
+    "notes": "• Höfliche verneinte Form → ～べきではありません.\n• In vertrauter gesprochener Sprache ist eine mildere Form möglich: ～べきだったなぁ (hätte ich doch … sollen).\n• Altertümliche/in Gesetzen und Amtstexten häufige Form: ～すべし (hat zu …).",
+    "mistakes": [
+     "～べきだ gegenüber Älteren/Höhergestellten kann als unhöflich gelten.",
+     "Verwechslung mit ～たほうがいい – べきだ steht, wenn die Meinung „richtig/falsch, sollen/müssen“ betrifft, nicht bei einem ungefähren Rat.",
+     "だ am Ende wegzulassen ist in der förmlichen Standardform falsch (es muss だ oder です stehen).",
+     "Der JLPT prüft häufig die Unterscheidung von ～はずだ und ～なければならない."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "～べきだ",
+       "Sollen (moralisch/aus Verantwortung)",
+       "Entschiedene Meinung mit normativem Charakter",
+       "<ruby>守<rt>まも</rt></ruby>る べきだ。"
+      ],
+      [
+       "～たほうがいい",
+       "Sollen (sanfter Rat)",
+       "Im Gespräch, weicher",
+       "<ruby>行<rt>い</rt></ruby>ったほうがいい。"
+      ],
+      [
+       "～はずだ",
+       "Ganz sicher …, müsste …",
+       "Drückt eine Vermutung aus, keine Pflicht",
+       "<ruby>来<rt>く</rt></ruby>る はずだ。"
+      ],
+      [
+       "～なければならない",
+       "Müssen … (Zwang, Vorschrift)",
+       "Starke, objektive Pflicht",
+       "<ruby>守<rt>まも</rt></ruby>らなければならない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 604,
+   "src_hash": "fa034327c837e329",
+   "fields": {
+    "meaning": "Sollte nicht …",
+    "examples": [
+     "Versprechen sollte man nicht brechen.",
+     "Man sollte persönliche Daten anderer nicht weitergeben.",
+     "Man sollte nicht aus dem Gefühl heraus entscheiden.",
+     "Auf so einer nächtlichen Straße sollte man nicht allein gehen.",
+     "Ich hätte keine unbedachte Äußerung machen sollen."
+    ],
+    "explain": "Für allgemeine Normen: Moral, Berufsregeln, Sicherheit, Höflichkeit.\nIm vertrauten Umgang kann man es abschwächen: ～ないほうがいい／やめたほうがいい.\nNicht für bloße Möglichkeit/Erlaubnis; das ist der Bereich von ～てはいけない／～てもいい.\n\n• Bezeichnet „sollte nicht/gehört sich nicht“ auf Grundlage gesellschaftlicher Regeln, der Moral, des gesunden Menschenverstands, beruflicher Normen.\n• Stärker als „ないほうがいい“ (Rat), schwächer als „てはいけない“ (rechtliches/vorgeschriebenes Verbot).\n• Meist ein objektives Urteil; je nach Kontext verwenden, um nicht zu aufdrängend zu wirken.",
+    "notes": "• „するべきではない“ wird tatsächlich verwendet, in gepflegtem Stil aber: „すべきではない“.\n• Passiv/ein unbestimmtes Thema hilft zu objektivieren: 個人を特定する発言はすべきではない。\n• Bei Äußerungen in einer Organisation eine Begründung hinzufügen, um weniger aufdrängend zu wirken: 安全面から見て、～すべきではない。",
+    "mistakes": [
+     "Auf Schildern/in festen Vorschriften statt „てはいけない“ verwendet → unpassende Nuance.",
+     "Verwechslung mit „ことはない“: Letzteres heißt „nicht nötig“, nicht „sollte nicht“.",
+     "Im JLPT wird oft die Umformung gefragt: するべきではない ⇄ すべきではない.",
+     "Unnatürlich: × 行くべきではないと思いますか → besser: 行かないほうがいいと思います (wenn es nur ein leichter persönlicher Rat ist)."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～べきではない",
+       "Sollte nicht (Norm)",
+       "Nuance von Moral/Regel",
+       "<ruby>嘘<rt>うそ</rt></ruby>をつくべきではない。"
+      ],
+      [
+       "～ないほうがいい",
+       "Besser vermeiden (Rat)",
+       "Schwach, subjektiv",
+       "<ruby>夜<rt>よる</rt></ruby><ruby>更<rt>ふ</rt></ruby>かしはないほうがいい。"
+      ],
+      [
+       "～てはいけない",
+       "Verboten",
+       "Stark, klar geregelt",
+       "ここで<ruby>喫煙<rt>きつえん</rt></ruby>してはいけない。"
+      ],
+      [
+       "～ことはない",
+       "Nicht nötig",
+       "Bezeichnet fehlende Notwendigkeit, kein Verbot/kein „sollte nicht“",
+       "<ruby>心配<rt>しんぱい</rt></ruby>することはない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 605,
+   "src_hash": "6ba443d32913762e",
+   "fields": {
+    "meaning": "So sehr, dass; je … desto …",
+    "connection": "V einfache Form・Aい・N + ほど / Vば Vる + ほど",
+    "examples": [
+     "Diese Abhandlung ist so schwierig, dass man mittendrin am liebsten aufhören möchte zu lesen.",
+     "Ich habe den ganzen Tag gearbeitet und bin so erschöpft, dass ich kaum noch gehen kann.",
+     "In der Hose war ein Loch, etwa so groß wie eine 100-Yen-Münze.",
+     "Entschuldigung, bitte warten Sie etwa 10 Minuten.",
+     "Von zu Hause bis zur Schule brauche ich etwa 30 Minuten.",
+     "Ich habe mich so gequält, dass ich nachts nicht schlafen konnte."
+    ],
+    "explain": "Dient dazu, den Grad oder einen starken Vergleich zu betonen .\nFür positive wie negative Gefühle verwendbar.\nIn der vertrauten gesprochenen Sprache verwendet man 「～くらい」 statt 「～ほど」.\nFörmliche Nuance, verbreitet in Schriftsprache, Aufsätzen, JLPT-Prüfungen.\n\n•\n① Grad „so sehr, dass …“: drückt den hohen Grad eines Zustands/einer Handlung aus.\n\n•\n② Vergleich: „Nichts ist so … wie …, niemand ist so … wie …“: meist in der Struktur「Aほど～はない」＝ „Nichts ist so … wie A“.\n\n•\n③ Je … desto …: zeigt ein proportionales Verhältnis zwischen zwei Teilen.\n\n•\nHinweis: eher Schriftsprache / JLPT, in der gesprochenen Sprache möglich, aber seltener.",
+    "notes": "1) ～ほど und ～くらい werden leicht verwechselt.\n→ Die Bedeutung „ungefähr/etwa“ ist ähnlich, doch ～ほど ist meist förmlicher und häufig in der Schriftsprache.\n2) Vorsicht, da ～ほど viele Verwendungen hat (Grad, Äußerstes …).\n→ Im selben Text kann ～ほど in anderer Bedeutung auftreten (so sehr, dass; ~ ist das Höchste), eine leichte Falle bei der Antwortwahl.\n3) Die begleitende Struktur ansehen, um die Bedeutung zu bestimmen.\n→ Bei bloßer Menge/Schätzung: Bedeutung „ungefähr“.\n→ Mit Vergleich/Äußerstem: wahrscheinlich eine andere Bedeutung.",
+    "mistakes": [
+     "Falsch verwendet, wenn kein Zusammenhang besteht → es braucht die Logik: A ändert sich um so viel → B ändert sich um ebenso viel.",
+     "Verwechslung mit くらい: くらい ist vertrauter und wird in förmlichen Texten nicht verwendet.",
+     "In der Form „VればVるほど“ muss das Verb zwingend wiederholt werden.",
+     "Erscheint im JLPT N3-N2 häufig in den Formen „AほどBはない“, „Vるほど“."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "～ほど",
+       "So sehr, dass …; je …; nichts ist so … wie …",
+       "Förmlicher, für starke Vergleiche oder den Grad.",
+       "<ruby>泣<rt>な</rt></ruby>く ほど<ruby>嬉<rt>うれ</rt></ruby>しかった。"
+      ],
+      [
+       "～くらい／ぐらい",
+       "Ungefähr …, so sehr, dass …",
+       "Umgangssprache, schwächer als ほど.",
+       "<ruby>死<rt>し</rt></ruby>ぬ くらい<ruby>疲<rt>つか</rt></ruby>れた。"
+      ],
+      [
+       "～ば～ほど",
+       "Je …, desto …",
+       "Drückt den Zusammenhang zweier Handlungen/Zustände aus.",
+       "<ruby>見<rt>み</rt></ruby>れば<ruby>見<rt>み</rt></ruby>る ほど<ruby>好<rt>す</rt></ruby>きになる。"
+      ],
+      [
+       "～ほど～ない",
+       "Nicht so … wie …",
+       "Formel des verneinten Vergleichs.",
+       "<ruby>彼女<rt>かのじょ</rt></ruby>ほど<ruby>優<rt>やさ</rt></ruby>しい<ruby>人<rt>ひと</rt></ruby>はいない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 606,
+   "src_hash": "f96a80d25ae2b586",
+   "fields": {
+    "meaning": "Einen Zustand unverändert beibehalten.",
+    "examples": [
+     "Weil die Luft schlecht war, habe ich das Fenster eine Weile offen gelassen.",
+     "Ich räume später auf, lassen Sie es bitte so.",
+     "Den Strom ausgeschaltet lassen",
+     "Diese Topfpflanze lasse ich den ganzen Sommer über draußen stehen.",
+     "Lassen Sie es bitte so."
+    ],
+    "explain": "◎ Den gegenwärtigen Zustand unverändert fortsetzen."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 607,
+   "src_hash": "dd78574d8220755a",
+   "fields": {
+    "meaning": "Selten vorhanden, selten | Selten, fast nie",
+    "examples": [
+     "Es ist eine seltene Gelegenheit, nehmen Sie also bitte unbedingt teil.",
+     "Es kommt selten vor, dass er scheitert.",
+     "So gute Bedingungen gibt es selten.",
+     "In dieser Stadt kommt es selten zu einem Verbrechen.",
+     "Das ist ein seltener Name.",
+     "Eine Gluthitze wie in diesem Jahr kommt selten vor."
+    ],
+    "explain": "Nennt die Seltenheit als Eigenschaft von N, ohne sich auf eine wiederholte Handlung zu richten.\nIn förmlichen Texten ersetzbar durch まれな／きわめてまれな (sehr selten).\nHöflich: ～はめったにありません. Vergangenheit: ～はめったになかった.\n\n• Drückt aus, dass eine „Sache/ein Sachverhalt“ selten ist, fast nicht existiert/vorkommt. Bewertet die Seltenheit des Gegenstands.\n• Anders als めったに～ない (540), das die „Häufigkeit der Handlung“ betont, betont dieses Muster die „Seltenheit der Gelegenheit/des Sachverhalts selbst“.\n• Steht meist mit Nomen wie 機会, チャンス, 例, こと, ケース, 出来事, 名前, 品物.",
+    "notes": "• Eine verstärkende Struktur ist möglich: こんなことは本当にめったにない.\n• Von der Nuance her bedeutet めったにない oft „kostbare Gelegenheit“: 今回はめったにないチャンスだ.\n• „めったにある“ vermeiden: unnatürlich; die Verneinung „めったにない“ verwenden.",
+    "mistakes": [
+     "Verwechslung mit めったに～ない: めったにない muss mit einem Nomen oder einem nominalisierten Teilsatz stehen.",
+     "„ない“ als Verneinung des ganzen Satzes missverstanden: めったにない hat die bejahende Bedeutung „selten vorhanden“, nicht „nicht“.",
+     "JLPT: je nach geforderter Struktur richtig zwischen „めったにない機会“ und „めったに行かない“ wählen.",
+     "Falsches Tempus: × めったにないでした → ✓ めったにありませんでした / めったになかった."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "めったにない",
+       "Selten vorhanden (Eigenschaft von N)",
+       "Modifiziert N oder bewertet einen Sachverhalt",
+       "めったにない<ruby>機会<rt>きかい</rt></ruby>"
+      ],
+      [
+       "めったに～ない",
+       "Selten (Häufigkeit von V)",
+       "Steht mit einem verneinten Verb",
+       "めったに<ruby>行<rt>い</rt></ruby>かない"
+      ],
+      [
+       "まれな／<ruby>希少<rt>きしょう</rt></ruby>な",
+       "Selten (Adjektiv)",
+       "Förmlich, Vokabel",
+       "まれなケース"
+      ],
+      [
+       "ほとんどない",
+       "Fast nicht vorhanden",
+       "Stärker, die Menge geht gegen 0",
+       "ほとんど<ruby>例<rt>れい</rt></ruby>がない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 608,
+   "src_hash": "21387fc32f530f25",
+   "fields": {
+    "meaning": "Von wegen …, auf keinen Fall …",
+    "examples": [
+     "In so einen Laden gehe ich nie wieder!",
+     "Der und zu spät kommen? Von wegen. Er ist ein sehr gewissenhafter Mensch.",
+     "Von wegen einfach. Das dauert mindestens eine Woche.",
+     "Noch einmal lasse ich mich nicht hereinlegen!",
+     "Sie und lügen? Niemals.",
+     "So ein Gerücht glaube ich doch nicht!"
+    ],
+    "explain": "Meist in der gesprochenen Sprache, stark expressiv; gegenüber Höhergestellten auf Höflichkeit achten.\nEine bejahte Form betont umgekehrt die Verneinung (rhetorische Frage): „〜ものか“ entspricht „Von wegen ~“.\nIm Gespräch können Subjekt und vorderer Teil entfallen, sodass nur „〜ものか“ herausplatzt.\n\n• Starke, emotionale Verneinung: „Von wegen/Niemals/Auf gar keinen Fall …“.\n• Dient dazu, eine Einladung, Bewertung oder Behauptung des Gegenübers zurückzuweisen; kann auch für sich allein ausgerufen werden.\n• Direkt gesagt wirkt es schroff; 〜もんですか/〜ものですか mildert es ein wenig, bleibt aber stark.",
+    "notes": "1) Leicht zu verwechseln mit ～わけがない.\n→ ～ものか ist eine starke Verneinung, die Willen/emotionalen Widerspruch ausdrückt (niemals, ganz bestimmt nicht).\n2) Meist in der gesprochenen Sprache.\n→ Häufig mit der Nuance von Ärger, Entschlossenheit, Widerspruch.\n3) Nicht für eine nur schwache Verneinung.\n→ Bei „nicht unbedingt“ oder weicher Verneinung verwendet man ein anderes Muster.",
+    "mistakes": [
+     "Falsche Verbindung beim な-Adjektiv: × 静かなものか → ✓ 静かなものか.",
+     "In gehobener Schriftsprache verwendet → unpassender Stil; わけがない/はずがない wählen.",
+     "Bedeutung mit einer echten Frage verwechselt: „〜ものか“ ist eine starke Verneinung, keine Informationsfrage."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "〜ものか／もんか",
+       "Niemals",
+       "Emotional, Umgangssprache, starke Nuance",
+       "<ruby>行<rt>い</rt></ruby>くものか！"
+      ],
+      [
+       "〜わけがない",
+       "Wie sollte denn …; unmöglich",
+       "Rationaler, objektiver",
+       "<ruby>彼<rt>かれ</rt></ruby>が<ruby>負<rt>ま</rt></ruby>けるわけがない"
+      ],
+      [
+       "〜はずがない",
+       "Kann doch nicht sein",
+       "Stützt sich auf Anhaltspunkte/Erwartung",
+       "<ruby>雨<rt>あめ</rt></ruby>のはずがない"
+      ],
+      [
+       "〜やしない",
+       "Überhaupt nicht (betonte Verneinung)",
+       "Gesprochene Sprache, mit V-ます ohne ます",
+       "<ruby>言<rt>いい</rt></ruby>いやしない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

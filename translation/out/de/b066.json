@@ -1,0 +1,566 @@
+{
+ "batch": "b066",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 1022,
+   "src_hash": "4903d00738b545c1",
+   "fields": {
+    "meaning": "So verhält es sich …, aus diesem Grund … | Sobald …, je nach …",
+    "examples": [
+     "Mein Vater geht nächstes Jahr in Rente, und bei uns gibt es noch einen jüngeren Bruder und eine jüngere Schwester. Auch ich möchte weniger jobben und mehr lernen. Aus diesen Gründen beantrage ich das Stipendium.",
+     "Ich dachte, ich sollte Sie über diese Angelegenheit jedenfalls in Kenntnis setzen, und schreibe Ihnen deshalb diesen Brief.",
+     "Nach Abwägung der Umsatzprognose und der Kosten haben wir die Entwicklung dieses Produkts aufgegeben.",
+     "Da der Zuständige abwesend war, hat sich unsere Antwort verzögert, wofür wir hiermit um Entschuldigung bitten.",
+     "Aus verschiedenen Gründen hat es sich ergeben, dass wir den Plan ändern.",
+     "Aus den oben genannten Gründen sehe ich dieses Mal von einer Teilnahme ab."
+    ],
+    "explain": "Syntax: Vます +次第、～\nDer hintere Teilsatz drückt meist Absicht/Handeln des Sprechers aus (benachrichtigen, mitteilen, beginnen …).\nKontext: Schriftsprache/Geschäftliches, höfliche Mitteilungen; im vertrauten Gespräch selten (dafür ～たらすぐ/～たらすぐに).\nNicht, wenn der hintere Teilsatz eine allgemeine Gewohnheit oder eine selbstverständliche Tatsache ohne „Unmittelbarkeit“ ist.\n\n•\nBedeutung: „Sobald …, dann …“, „gleich nachdem … erledigt ist, …“. Betont die zeitliche Unmittelbarkeit zweier Handlungen.\n\n•\nAnwendungsbereich: Situationen, in denen man einen Plan/eine Handlung ankündigt, die erfolgt, sobald die Bedingung des vorderen Teilsatzes erfüllt ist.\n\n•\nNuance: förmlich, häufig in geschäftlichen E-Mails, Servicemitteilungen, Handlungszusagen.\n\n•\nBedeutungsrahmen: [A abgeschlossen] → (sofort) [B ausführen]. Der hintere Teilsatz drückt selten einen vagen, andauernden Zustand aus.",
+    "notes": "• Steht oft mit Verben, die einen Abschluss anzeigen: 分かる・判明する・届く・到着する・準備ができる・確認する・決まり次第…\n• In E-Mails: „～が分かり次第、ご連絡申し上げます。“ ist eine sehr häufige Formel.\n• Zum Satzrhythmus: nach 次第 ein Komma setzen, um beide Teile klar zu trennen.\nmeaning_vi: ～したらすぐに過去形(かこけい)の文(ぶん)にはならない\nSobald ..., sofort\nexamples: 1. 「向こうに着きしだい、電話してください」\n„Rufen Sie bitte an, sobald Sie dort angekommen sind.“\n2. 「皆さんがそろいしだい出発しましょう」\n„Brechen wir auf, sobald alle da sind.“\n3. 次の会合は来月１日です。場所は決まり次第お知らせします。\nDas nächste Treffen ist am 1. des nächsten Monats. Den Ort teilen wir mit, sobald er feststeht.",
+    "mistakes": [
+     "Nuance verfehlt: im vertrauten Gespräch verwendet → klingt geziert, distanziert.",
+     "JLPT: Täuschung über die Rolle als Schlusssatz gegenüber ～というわけです; verlangt wird das zur geschäftlichen Situation passende Muster.",
+     "Falsche Stellung: mitten im Abschnitt statt am Ende des zusammenfassenden Inhalts."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～たら、すぐ",
+       "Wenn …, dann gleich …",
+       "Umgangssprache, neutraler; ohne die Nuance einer förmlichen Mitteilung",
+       "<ruby>着<rt>つ</rt></ruby>いたらすぐ<ruby>電話<rt>でんわ</rt></ruby>して。"
+      ],
+      [
+       "～<ruby>次第<rt>しだい</rt></ruby>で",
+       "Je nach …",
+       "Andere Bedeutung: vom Nomen abhängige Bedingung, nicht „sobald“",
+       "<ruby>結果<rt>けっか</rt></ruby>は<ruby>努力<rt>どりょく</rt></ruby><ruby>次第<rt>しだい</rt></ruby>で<ruby>変<rt>か</rt></ruby>わる。"
+      ],
+      [
+       "～<ruby>次第<rt>しだい</rt></ruby>です",
+       "Schlusssatz/Rechtfertigung",
+       "Andere Funktion: erklärender/abschließender Satz",
+       "<ruby>以上<rt>いじょう</rt></ruby>、ご<ruby>連絡<rt>れんらく</rt></ruby>した<ruby>次第<rt>しだい</rt></ruby>です。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1023,
+   "src_hash": "5726436ec1f4d876",
+   "fields": {
+    "meaning": "Abhängig von …, je nach …",
+    "examples": [
+     "Je nach Vorgehensweise lässt es sich, denke ich, etwas schneller schaffen.",
+     "Mir wurde gesagt, das Gehalt steige je nach Leistung.",
+     "Je nach Anstrengung verändert sich das Leben stark.",
+     "Je nach Art der Erklärung fällt auch die Reaktion des Gegenübers besser aus.",
+     "Je nach Finanzmitteln passen wir den Umfang des Plans an.",
+     "Je nach Wetter verlegen wir die Veranstaltung nach drinnen."
+    ],
+    "explain": "Syntax: N +次第で／次第では／次第に\n„次第で“ nennt das Abhängigkeitsverhältnis; „次第では“ nennt eine Möglichkeit in einem bestimmten Fall.\nDer hintere Teilsatz ist meist ein Verb der Veränderung (変わる・左右される・決まる・調整する…).\nMeist mit allgemeinen N:努力・考え方・状況・予算・天気・使い方・対応・方針…\n\n•\nBedeutung: Ergebnis/Verlauf hängt vom Faktor N ab (Bedingung, Umstände, Vorgehen, Sichtweise usw.).\n\n•\nSchwerpunkt: bedingte Kausalbeziehung; ändert sich mit N.\n\n•\nNuance: neutral–logisch, in gesprochener Sprache wie in der Schriftsprache verwendbar.",
+    "notes": "• N + 次第で betont den entscheidenden „Hebel“: Der Faktor N ist die Variable, die das Ergebnis bestimmt.\n• 次第では steht meist mit einem Teilsatz, der eine mögliche Option nennt: 中止する／延期する／見送る…\n• Natürliches Gegensatzpaar: 「能力・努力・工夫」⇄「結果・成果・評価」. | Form am Satzende: ～次第だ (hängt ab von)",
+    "mistakes": [
+     "Bedeutung verwechselt: ～次第で als „sobald“ aufgefasst → Verwechslung mit ～次第 (Vます+次第).",
+     "Falsche Wortart: ein Verb vor 次第で gesetzt → es muss Nomen + 次第で sein.",
+     "JLPT: prüft oft die Unterscheidung von ～によって／～いかんで（は）／～次第で nach dem Grad der Förmlichkeit."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～によって",
+       "Je nach/durch",
+       "Weitere Bedeutung; eher „auf die Weise/dank/durch“",
+       "<ruby>国<rt>くに</rt></ruby>によって<ruby>文化<rt>ぶんか</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>う。"
+      ],
+      [
+       "～いかんで（は）",
+       "Je nach Grad/Bedingung",
+       "Förmlicher; häufig in steifen Texten",
+       "<ruby>成績<rt>せいせき</rt></ruby>いかんでは<ruby>進学<rt>しんがく</rt></ruby><ruby>不可<rt>ふか</rt></ruby>。"
+      ],
+      [
+       "～<ruby>次第<rt>しだい</rt></ruby>",
+       "Sobald …",
+       "Andere Bedeutung: zeitliches Verhältnis, keine Abhängigkeit von einer Bedingung",
+       "<ruby>準備<rt>じゅんび</rt></ruby>ができ <ruby>次第<rt>しだい</rt></ruby><ruby>出発<rt>しゅっぱつ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1024,
+   "src_hash": "c478659be23bb385",
+   "fields": {
+    "meaning": "①～であるば（仮定(かてい)、条件(じょうけん)）\nAnnahme, Bedingung, solange | Im Rahmen von …, solange …",
+    "examples": [
+     "Solange wir schweigen, wird niemand dieses Geheimnis erfahren.",
+     "Solange man Schüler ist, muss man die Schulordnung einhalten.",
+     "Sofern ihm kein großer Fehler unterläuft, ist dem Spieler Murayama der Sieg wohl sicher.",
+     "„Sofern nichts Außergewöhnliches dazwischenkommt, nehme ich teil.“",
+     "Solange du nicht mit dem Rauchen aufhörst, hört dieser Husten nicht auf. Bemüh dich bitte, bei dieser Gelegenheit aufzuhören.",
+     "Soweit ich weiß, ist das der schnellste Weg."
+    ],
+    "explain": "◎ Eine Ausdrucksweise mit einschränkendem Sinn: „sofern die Bedingung erfüllt ist“, „in diesem Rahmen“."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1025,
+   "src_hash": "c23e9aa5a95b89e2",
+   "fields": {
+    "meaning": "Solange ~, ~",
+    "examples": [
+     "Solange man weiter gewissenhaft arbeitet, wird man nicht entlassen.",
+     "Solange man in der Stadt wohnt, lässt sich ein gewisser Lärm nicht vermeiden.",
+     "Sofern es nicht gerade regnet, gehen wir wie geplant wandern.",
+     "(Interview: Der älteste Spieler erzählt)\nSolange die Kräfte reichen, möchte ich weitermachen."
+    ],
+    "explain": "◎ Drückt aus: „sofern eine bestimmte Bedingung erfüllt ist“."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1026,
+   "src_hash": "c37cdf9d71e141c5",
+   "fields": {
+    "meaning": "Ob ~ oder nicht",
+    "connection": "V Volitionalform + か + Vる・Vます + まいか",
+    "examples": [
+     "Ich bin noch unschlüssig, ob ich zur Party gehen soll oder nicht.",
+     "Ich bin in letzter Zeit zu dick, deshalb schwanke ich, ob ich Kuchen essen soll oder nicht."
+    ],
+    "explain": "◎ Drückt die Unschlüssigkeit aus, ob man eine Handlung ausführt oder nicht.",
+    "notes": "Übernommen (Speed Master); 接続 vollständiger aufgenommen (まいか schließt je nach Verbgruppe an Vる oder Vます an). meaning_vi: ob man ～ soll oder nicht ⏐ explain: In der Schriftsprache verwendet.\nSteifer Stil. ⏐ examples: 1. 本当のことを話そうか話すまいか迷った、結局全部話した。\nIch schwankte, ob ich die Wahrheit sagen sollte oder nicht, und habe am Ende alles erzählt.\n2. 食べたいけど、太りたくないし、食べようか食べまいか考えているところです。\nIch möchte es essen, will aber nicht zunehmen und überlege gerade, ob ich es essen soll oder nicht."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1027,
+   "src_hash": "10843de2e1cc50bb",
+   "fields": {
+    "meaning": "Lauter …, nichts als …",
+    "examples": [
+     "Heute gibt es seit dem Morgen nichts als Besprechungen.",
+     "Er ist von Kopf bis Fuß schwarz gekleidet.",
+     "Dieses Investitionsangebot klingt nach lauter Vorteilen, aber Vorsicht ist geboten.",
+     "Das neue System besteht aus lauter Vorschriften, man bekommt keine Luft.",
+     "Diese Woche gibt es nichts als Arbeit, ich habe keine Zeit zum Ausruhen.",
+     "Seine Rede bestand aus lauter Prahlereien, es war zum Überdruss."
+    ],
+    "explain": "Tritt direkt an ein Nomen; bei der Modifikation eines anderen Nomens meist mit の:黒ずくめの男.\nEher für den Eindruck „einfarbig“, „dicht gedrängt“ als für eine bloße Mengenangabe.\nIn Werbung/Presse häufig, um das „Umfassende“ zu betonen.\n\n• „Lauter/voll von/ganz bedeckt von …“: betont das Einheitliche, Einfarbige.\n• Meist mit Farben, sich wiederholenden Ereignissen, Vorschriften, lauter Gutem/Schlechtem.\n• Nuance: kann positiv (いいことずくめ) oder negativ (苦情ずくめ／規則ずくめ) sein.\n• Anders als づくし: ずくめ = eine einzige Art überall; づくし = „alle Arten innerhalb eines Themas“.",
+    "notes": "• Feste Farbwendungen: 黒ずくめ／白ずくめ（ganz in Schwarz/ganz in Weiß）.\n• Bei andauernden Ereignissen: ～三日間ずくめで（3 Tage lang nichts als …）.\n• Nicht für Gegenstände, die mit Schmutz bedeckt sind → まみれ passt besser.",
+    "mistakes": [
+     "Mit einem Verb verwendet: ×勉強ずくめする → richtig: 勉強ずくめの日々.",
+     "Verwechslung mit づくし: ずくめ = einfarbig; づくし = alle Arten innerhalb eines Themas.",
+     "ずくめ für Schmutz/stoffliche Bedeckung verwendet ist die falsche Nuance → まみれ verwenden."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～だらけ",
+       "Voll von (Schmutz/Fehlern), negative Nuance",
+       "Richtet sich auf „viel und schlecht“",
+       "<ruby>間違<rt>まちが</rt></ruby>いだらけのレポート。"
+      ],
+      [
+       "～まみれ",
+       "Über und über bedeckt (stofflich), negativ",
+       "Physisch/greifbar",
+       "<ruby>泥<rt>どろ</rt></ruby>まみれの<ruby>靴<rt>くつ</rt></ruby>。"
+      ],
+      [
+       "～づくし（<ruby>尽<rt>つ</rt></ruby>くし）",
+       "Lauter Gerichte/alle Arten innerhalb eines Themas",
+       "Vielfalt innerhalb desselben Themas",
+       "<ruby>野菜<rt>やさい</rt></ruby>づくしのコース。"
+      ],
+      [
+       "～ずくめ",
+       "Lauter von einer Art",
+       "Einheitlich/einfarbig",
+       "<ruby>黒<rt>くろ</rt></ruby>ずくめの<ruby>服<rt>ふく</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1028,
+   "src_hash": "b14754f602f318cf",
+   "fields": {
+    "meaning": "In …, bei … (förmlich)",
+    "examples": [
+     "Die Besprechung findet in Osaka statt.",
+     "Bewerbungen nehmen wir über das Webformular entgegen.",
+     "Der heutige Geschäftsbetrieb endet um 17 Uhr.",
+     "Einzelheiten teilen wir Ihnen per E-Mail mit.",
+     "Hiermit schließe ich die Feier.",
+     "Für einen Umtausch in unserem Geschäft ist der Kassenbon erforderlich."
+    ],
+    "explain": "Grad der Förmlichkeit: hoch; in Bekanntmachungen, Einladungen, Veranstaltungsplakaten, internen Schriftstücken.\nErsetzt umgangssprachliches で/に (Ort/Zeitpunkt) und で/により (Mittel).\nSteht oft mit:開催・実施・受け付ける・行う・終了・販売・配布・連絡・案内.\nStellung: mitten im Satz (NにてV), am Satzanfang in festen Wendungen (これにて、以上にて...).\nIm Alltagsgespräch vermeiden; で/に ist natürlicher.\n\n• Nennt den Ort eines Geschehens: entspricht で in der Umgangssprache. Beispiel: 東京にて開催する。\n• Nennt den Zeitpunkt von Ende/Beginn (Bekanntmachung): 10時にて終了。\n• Nennt Mittel/Weg: 電話にてお問い合わせください。 (entspricht で/により)\n• Förmliche Nuance, häufig in Bekanntmachungen, Briefen, Schriftstücken von Firmen/Behörden.\n• Nicht für das Ziel einer Bewegung (× 東京にて行く), sondern für den Ort eines Ereignisses/Handelns.\n• Verglichen mit において: において ist wissenschaftlicher/allgemeiner; にて eher für praktische Mitteilungen (Veranstaltung, Verkauf, Annahme ...)",
+    "notes": "• Sehr häufig in Unterlagen: Veranstaltungsplakate, Firmen-E-Mails, Ladenaushänge.\n• „NにてのN“ findet sich vor allem in Schriftstücken; gesprochen sagt man meist „NでのN“.\n• Nicht mit Bewegungsverben, die ein Ziel angeben (行く・来る), im Sinn des Ziels.\n• Häufige höfliche Begleitausdrücke: 〜いたします、〜しております、〜させていただきます。 explain: Meist auf Hinweistafeln oder in Briefen verwendet …\nSteifer Stil. ⏐ examples: 1. 現地にて解散となります。\nDie Gruppe löst sich vor Ort auf.\n2. 電話カメールにてご連絡ください。\nBitte melden Sie sich per Telefon oder E-Mail.\n3. 京都にて　洋子より（*旅先からのハガキの最後などでよく使う）\nAus Kyoto, Yōko.",
+    "mistakes": [
+     "Fälschlich für das Ziel verwendet: × 東京にて行く → ◯ 東京にて開催する／東京へ行く。",
+     "Übermäßiger Gebrauch im Alltagsgespräch macht den Satz steif; besser で/に.",
+     "Verwechslung mit において im abstrakten Bereich: 教育にて × → 教育において。",
+     "Zeitpunkt: 10時にて終了 (Bekanntmachung) ist natürlich; gesprochen meist 10時で終了。"
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "で",
+       "Ort/Mittel (Umgangssprache)",
+       "Natürlich, weniger förmlich als にて",
+       "<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>大阪<rt>おおさか</rt></ruby>で<ruby>行<rt>おこな</rt></ruby>う。"
+      ],
+      [
+       "において",
+       "In, bei (allgemeiner Bereich)",
+       "Wissenschaftlich/argumentierend; nicht für „endet um“",
+       "<ruby>教育<rt>きょういく</rt></ruby>において<ruby>重要<rt>じゅうよう</rt></ruby>だ。"
+      ],
+      [
+       "により／によって",
+       "Durch, mittels, wegen",
+       "Betont Urheber/Ursache; にて eher das formale Mittel",
+       "<ruby>電話<rt>でんわ</rt></ruby>により<ruby>受<rt>う</rt></ruby>け<ruby>付<rt>つ</rt></ruby>ける。"
+      ],
+      [
+       "をもって",
+       "Mit Ablauf von, mittels",
+       "Förmlicher für „mit Ablauf von ... endet“",
+       "<ruby>本日<rt>ほんじつ</rt></ruby>をもって<ruby>終了<rt>しゅうりょう</rt></ruby>。"
+      ],
+      [
+       "これにて",
+       "Hiermit ...",
+       "Feste Wendung zum Abschluss einer Rede",
+       "これにて<ruby>閉会<rt>へいかい</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1029,
+   "src_hash": "1da6e8ded7b66c21",
+   "fields": {
+    "meaning": "Abhängig von …, je nach …",
+    "examples": [
+     "Erfolg oder Misserfolg dieses Projekts hängt von der Mittelbeschaffung ab.",
+     "Ob man weiterstudieren kann, hängt vom Ergebnis der Abschlussprüfung ab.",
+     "Die Einstellung hängt von Persönlichkeit und Eignung ab.",
+     "Ob die Verhandlungen fortgesetzt werden, hängt von der Antwort der Gegenseite ab."
+    ],
+    "explain": "Meist in bejahten Sätzen mit regelhaftem Charakter, als Gesamtbewertung.\nNicht im vertrauten Alltagsgespräch; dafür „〜による/〜次第だ“.\nGeeignet, wenn man den „entscheidenden Faktor“ sachlich herausstellen will.\n\n• „~のいかんだ“ = „hängt von ~ ab / wird von ~ bestimmt“.\n• Betont, dass N der Faktor ist, der das Ergebnis X bestimmt. Sehr förmlich, meist in offiziellen Schriftstücken.\n• „いかん“ ist ein sinojapanisches Nomen (如何) mit der Bedeutung „Grad/Bedingung/Zustand (wie gut oder schlecht)“.\n• Verbindet sich nur mit Nomen (努力・資金・成否・態度・結果・審査 等). Nicht direkt mit Adjektiv/Verb.",
+    "notes": "• „いかん“ steht meist mit einem Abstraktum: 成否・可否・結果・状況・態度・出来（でき）など.\n• Wegen der hohen Förmlichkeit passend für Bekanntmachungen, Satzungen, Verträge.\n• In Rechts-/Verwaltungstexten tritt „〜のいかんにかかわらず／問わず“ sehr häufig auf.",
+    "mistakes": [
+     "Direkt mit Adjektiv/Verb verwendet: ×速いのいかんだ → 速さのいかんだ (in ein Nomen umformen).",
+     "Im saloppen Gespräch klingt es steif und unnatürlich; besser による/次第だ.",
+     "Funktion mit „では/によっては“ (Bedingungsvariante) verwechselt → „のいかんだ“ nennt nur das allgemeine Abhängigkeitsverhältnis."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "N のいかんだ",
+       "X hängt von N ab",
+       "Sehr förmlich; nennt das bestimmende Verhältnis",
+       "<ruby>成功<rt>せいこう</rt></ruby>は<ruby>努力<rt>どりょく</rt></ruby>のいかんだ"
+      ],
+      [
+       "N による",
+       "Durch, wegen, je nach",
+       "Neutral, gebräuchlicher",
+       "<ruby>結果<rt>けっか</rt></ruby>は<ruby>努力<rt>どりょく</rt></ruby>による"
+      ],
+      [
+       "N <ruby>次第<rt>しだい</rt></ruby>だ",
+       "Je nach N",
+       "Vertrauter, Gespräch",
+       "<ruby>合格<rt>ごうかく</rt></ruby>は<ruby>君<rt>きみ</rt></ruby><ruby>次第<rt>しだい</rt></ruby>だ"
+      ],
+      [
+       "N のいかんでは",
+       "Je nach N ...",
+       "Setzt eine Bedingung, um die Folge zu nennen",
+       "<ruby>結果<rt>けっか</rt></ruby>のいかんでは<ruby>処分<rt>しょぶん</rt></ruby>も"
+      ],
+      [
+       "N のいかんにかかわらず",
+       "Unabhängig von",
+       "Richtlinie/Leitspruch",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>のいかんにかかわらず"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1030,
+   "src_hash": "63099f5f22599a38",
+   "fields": {
+    "meaning": "Ohne …, fehlend …",
+    "examples": [
+     "Einen schwarzen Tee ohne Zucker, bitte.",
+     "Ich habe in einem menschenleeren Park ein Buch gelesen.",
+     "Lass dich nicht von haltloser Kritik beirren.",
+     "Es ist eine beispiellose Herausforderung.",
+     "Bitte sehen Sie von unangekündigten Besuchen ab."
+    ],
+    "explain": "N1 steht vor のない und betont, „was fehlt“.\nErnster als „N1抜きのN2“ (N1 absichtlich weggelassen) und „N1なしのN2“ (allgemein ohne N1).\nHäufig in Rechtstexten, Bekanntmachungen, wissenschaftlichen Texten.\n\n• Form als Ergänzung: „N2, das kein N1 hat“, „N2 ohne begleitendes N1“, entspricht „N2 ohne N1“.\n• Drückt ein Fehlen aus (stofflich oder abstrakt: 根拠, 前例, 予告, 音, 人影…).\n• In manchen Kontexten förmlicher/schriftlicher als ～なしの/～抜きの.",
+    "notes": "• N1 ist ein Nomen; ist es eine Eigenschaft als な-Adjektiv/い-Adjektiv, erfolgt meist eine Nominalisierung: 可能性のない, 安全性のない.\n• Häufige Wendungen: 前置きのない, 合意のない, 許可のない, 音のない（無音の）.\n• In förmlichen Überschriften ist „前例のない“ sehr häufig, um das Beispiellose zu betonen.",
+    "mistakes": [
+     "Reihenfolge verwechselt: ×ないのN → richtig: NのないN.",
+     "Verwechslung mit なしの/抜きの: なしの ist neutral, 抜きの betont „absichtlich weggelassen“.",
+     "のない mit einem Verb verwendet → falsch: Der Begriff muss nominalisiert werden (例: 許可のない撮影).",
+     "JLPT: richtig wählen bei „ohne Grundlage/Präzedenzfall“: 根拠のない／前例のない sind häufige Lösungen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Nuance/Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "N1のないN2",
+       "N2 ohne N1",
+       "Neutral/schriftlich",
+       "<ruby>根拠<rt>こんきょ</rt></ruby>のない<ruby>噂<rt>うわさ</rt></ruby>"
+      ],
+      [
+       "N1なしのN2",
+       "N2 ohne N1",
+       "Umgangssprachlicher, Schilder/Etiketten",
+       "<ruby>砂糖<rt>さとう</rt></ruby>なしのコーヒー"
+      ],
+      [
+       "N1<ruby>抜<rt>ぬ</rt></ruby>きのN2",
+       "N2 unter Weglassen von N1 (absichtlich)",
+       "Betont das Weglassen",
+       "アルコール<ruby>抜<rt>ぬ</rt></ruby>きのパーティー"
+      ],
+      [
+       "Nがない",
+       "Es gibt kein N (Prädikat)",
+       "Aussagesatz über das Fehlen",
+       "<ruby>前例<rt>ぜんれい</rt></ruby>がない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1031,
+   "src_hash": "687ff8f211588f77",
+   "fields": {
+    "meaning": "Allen voran …, angefangen mit …",
+    "examples": [
+     "Angefangen mit Tokio stehen die Kirschblüten vielerorts in voller Pracht.",
+     "Viele Beteiligte, allen voran der Firmenchef, waren anwesend.",
+     "Es wird in den Ländern Asiens, allen voran in Japan, hoch geschätzt.",
+     "Es ist in vielen Altersgruppen beliebt, angefangen bei Grundschülern.",
+     "Beim Umweltproblem gibt es vieles, was man tun kann, angefangen beim Stromsparen im Alltag."
+    ],
+    "explain": "Steht am Satzanfang und leitet zu einem allgemeineren Bereich über.\nFörmlicher als „〜をはじめ,“, die Grundbedeutung ist aber gleich; je nach Kontext wählen.\nN muss ein typisches/repräsentatives Element einer größeren Gesamtheit sein.\nSteht oft mit Nomen für Ortsnamen, Amtsbezeichnungen, Personengruppen, Posten.\n\n• „Angefangen mit N, einschließlich anderer Dinge derselben Art.“\n• Betont den Ausgangspunkt/das Typische (N) und erweitert dann den Bereich.\n• Stil offizieller Information: Reden, Berichte, Zeitungsartikel.",
+    "notes": "• In Lokalnachrichten: 地名 + をはじめとして/に, sehr häufig.\n• Ist N eine höhergestellte Person (社長・校長), entsteht eine respektvoll-höfliche Nuance.\n• Nicht für vollständige Aufzählungen; deutet an, dass es noch viele weitere gibt. meaning_vi: Allen voran ist　～ zu nennen ⏐ explain: Nennt ein Hauptbeispiel und zählt dann ähnliche Beispiele auf. ⏐ examples: 1. 会議には中国をはじめ、アジアの国々が参加した。\nAn der Konferenz nahmen China und weitere Länder Asiens teil.\n2. わが国では、野球をはじめとして、サッカーやテニスなど、様々なスポーツがさかんである。\nIn unserem Land sind viele Sportarten beliebt, allen voran Baseball, dazu Fußball, Tennis und andere.",
+    "mistakes": [
+     "Verwechslung mit „〜をはじめに(して)“: Das bezeichnet die Reihenfolge „mit ... beginnen“.",
+     "Verwendet, wo kein erweiterter Bereich vorliegt: × 社長をはじめとして、社長が来た。",
+     "Kein typisches Element gewählt: Ein zu kleines/vereinzeltes N wirkt unnatürlich."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "〜をはじめ",
+       "Nennt ein typisches Beispiel",
+       "Etwas weniger förmlich; gleiche Funktion",
+       "<ruby>日本<rt>にほん</rt></ruby>をはじめ、〜"
+      ],
+      [
+       "〜をはじめとするN",
+       "Attribut „mit N an der Spitze ...“",
+       "Bestimmt ein Nomen direkt näher",
+       "<ruby>日本<rt>にほん</rt></ruby>をはじめとする<ruby>国々<rt>くにぐに</rt></ruby>"
+      ],
+      [
+       "〜など／〜とか",
+       "usw.",
+       "Umgangssprache, nicht förmlich",
+       "<ruby>日本<rt>にほん</rt></ruby>などで<ruby>人気<rt>にんき</rt></ruby>"
+      ],
+      [
+       "〜を<ruby>筆頭<rt>ひっとう</rt></ruby>に",
+       "an der Spitze",
+       "Schriftsprache, betont die „Spitze“; starke Nuance",
+       "<ruby>社長<rt>しゃちょう</rt></ruby>を<ruby>筆頭<rt>ひっとう</rt></ruby>に〜"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1032,
+   "src_hash": "fa21e857e7072eb2",
+   "fields": {
+    "meaning": "Mit … als Vertreter, allen voran …",
+    "examples": [
+     "Die Länder Asiens, allen voran Japan, nahmen teil.",
+     "Die Teilnahme der Vorstandsmitglieder, allen voran des Firmenchefs, steht fest.",
+     "Die Nachfrage nach mobilen Endgeräten, allen voran Smartphones, steigt.",
+     "Die Touristenorte in Kansai, allen voran Kyoto, sind im Frühling belebt.",
+     "Ich bin gut in naturwissenschaftlichen Fächern, allen voran Mathematik.",
+     "Internationale Organisationen, allen voran die WHO, gaben eine Erklärung ab."
+    ],
+    "explain": "Steht direkt vor dem Kernnomen N2 und bestimmt es näher.\nFörmlicher Ton; passt zu Informationstexten, Wissenschaft, Presse.\nDas Mengenverhältnis muss stimmen: N1 ist ein Element der Menge N2.\nNicht, wenn N2 nur ein Element hat; es muss eine Gruppe/Menge sein.\n\n• Wird wie ein Attribut verwendet, um die Menge N2 zu beschreiben, in der N1 Vertreter/Spitze ist.\n• Förmliche Nuance; häufig in Texten, Vorträgen, Berichten.\n• N1 und N2 müssen zum selben Wortfeld gehören (gleiche Art): Land–Länder, Person–Personengruppe, Produkt–Produkte ...",
+    "notes": "• Muster in Zeitungsüberschriften: 「N1をはじめとするN2、〜」 ist sehr verbreitet.\n• Verbindet sich oft mit Wörtern für Mengen: 国々／関係者／製品群／都市／機関／科目.\n• Nach N2 lässt sich eine lange Ergänzung einfügen, und der Satz bleibt förmlich und klar.",
+    "mistakes": [
+     "Falsches Artverhältnis: × 日本をはじめとするヨーロッパ → Japan gehört nicht zu Europa.",
+     "N2 ist keine Menge: × 日本をはじめとする文化 → N2 sollte eine zählbare Menge sein: 文化圏／文化行事.",
+     "Verwechslung mit „〜をはじめに(して)“: ein Muster für die Reihenfolge von Handlungen, völlig andere Bedeutung."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "Nをはじめ",
+       "Nennt ein typisches Beispiel (Adverbiale)",
+       "Bestimmt kein Nomen direkt näher",
+       "<ruby>日本<rt>にほん</rt></ruby>をはじめ、〜"
+      ],
+      [
+       "Nをはじめとして",
+       "Angefangen mit N (Adverbiale)",
+       "Verbindet Teilsätze; kein Attribut",
+       "<ruby>日本<rt>にほん</rt></ruby>をはじめとして、〜"
+      ],
+      [
+       "NといったN",
+       "N wie etwa N ...",
+       "Attribut, das Beispiele aufzählt, neutral",
+       "<ruby>日本<rt>にほん</rt></ruby>といった<ruby>国々<rt>くにぐに</rt></ruby>"
+      ],
+      [
+       "Nを<ruby>中心<rt>ちゅうしん</rt></ruby>とするN",
+       "N2 mit N1 im Mittelpunkt",
+       "Betont den „Mittelpunkt“, nicht zwingend ein typisches Beispiel",
+       "<ruby>日本<rt>にほん</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>とするプロジェクト"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

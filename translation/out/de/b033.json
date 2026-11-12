@@ -1,0 +1,479 @@
+{
+ "batch": "b033",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 522,
+   "src_hash": "90a330e78dc2294e",
+   "fields": {
+    "meaning": "Etwas vollständig tun\nEtwas entschieden, entschlossen tun",
+    "examples": [
+     "Mir taten die Beine weh, aber ich bin bis zum Schluss durchgelaufen.",
+     "So viel kann ich nicht aufessen.",
+     "Mein Mann kam mit völlig erschöpftem Gesicht nach Hause.",
+     "Alle haben ihre ganze Kraft aufgeboten und gekämpft, aber das Spiel haben wir verloren.",
+     "Ich wurde von jemandem betrogen, dem ich voll und ganz vertraut hatte.",
+     "Auf dem Tisch standen so viele Köstlichkeiten, dass man sie gar nicht aufessen konnte."
+    ],
+    "explain": "Drückt aus, dass eine Handlung bis zum Äußersten ausgeführt, vollständig zu Ende gebracht wird.\nBetont eine entschiedene Entscheidung oder Handlung, die man ohne Zögern bis zum Ende durchführt.",
+    "notes": "1) Leicht zu verwechseln: ～きる (bis zum Ende tun) und ～終わる.\n→ ～きる betont „vollständig/bis zum Äußersten“, meist mit dem Gefühl „restlos erledigen“.\n2) Nicht jedes Verb lässt sich damit verbinden.\n→ Steht meist mit Verben, die man „restlos tun“ kann: 読み切る, 使い切る など.\n3) Vorsicht bei der Bedeutung „entschieden“ in Ihren Daten (ghichu=2).\n→ Wenn eine eigene Falle für die Bedeutung ghichu=2 gewünscht ist, muss ct ghichu=2 zusätzlich aktualisiert werden.\nmeaning_vi: Restlos tun …, vollständig …\nexplain: Wird direkt an die Verbindungsform (Ren'yōkei, Vます) angeschlossen. Nicht mit Nomen/Adjektiven verwendbar.\nBetont Ausdauer/Anstrengung oder ein gründliches Ergebnis; mit dem Gefühl „es bleibt nichts übrig“.\nIn der gesprochenen Sprache dient ～切れない oft dazu, höflich und taktvoll abzulehnen:申し訳ないですが、食べ切れません。\nexamples: 1. この小説は一晩で読み切った。\nIch habe diesen Roman in einer Nacht durchgelesen.\n2. こんな量、私一人じゃ食べ切れないよ。\nSo eine Menge kann ich allein nicht aufessen.\n3. 彼は42kmを最後まで走り切った。\nEr ist die 42 km bis zum Schluss durchgelaufen.\n4. 電池を使い切ってしまった。\nIch habe die Batterie leider ganz aufgebraucht.\n5. 彼女は疲れ切って、その場に座り込んだ。\nSie war völlig erschöpft und sank auf der Stelle zu Boden.",
+    "mistakes": [
+     "Mit einem Verb verwendet, das nicht zum Merkmal „Abschluss“ passt: X 愛し切る（sehr selten/unnatürlich); besser 愛し続ける.",
+     "Verwechslung von ～切れる (Möglichkeit) mit ～切りれる (falsche Schreibung). Richtige Form: 切れる/切れない.",
+     "Verwechslung mit ～終える in einem Kontext, in dem „restlos“ betont werden muss: „在庫を終えた“ → falsch; richtig ist „在庫を売り切った/使い切った“."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～<ruby>終<rt>お</rt></ruby>える",
+       "Beenden/abschließen",
+       "Neutral, betont nicht „gründlich/bis zur Erschöpfung“.",
+       "<ruby>作業<rt>さぎょう</rt></ruby>をやり<ruby>終<rt>お</rt></ruby>えた。"
+      ],
+      [
+       "～<ruby>尽<rt>つ</rt></ruby>くす",
+       "Alles aufbieten/aufbrauchen",
+       "Betont die Anstrengung oder das Aufbrauchen von Ressourcen.",
+       "<ruby>全力<rt>ぜんりょく</rt></ruby>を<ruby>尽<rt>つ</rt></ruby>くす／<ruby>資源<rt>しげん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>い<ruby>尽<rt>つ</rt></ruby>くす。"
+      ],
+      [
+       "～<ruby>抜<rt>ぬ</rt></ruby>く",
+       "Bis zum Ende durchhalten",
+       "Betont eher den ausdauernden Verlauf als das Ergebnis „restlos“.",
+       "<ruby>最後<rt>さいご</rt></ruby>までやり<ruby>抜<rt>ぬ</rt></ruby>く。"
+      ],
+      [
+       "～<ruby>切<rt>き</rt></ruby>る",
+       "Gründlich/bis zum Letzten",
+       "Endgültiges Ergebnis; stark und konkret.",
+       "<ruby>在庫<rt>ざいこ</rt></ruby>を<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>る。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 524,
+   "src_hash": "a5b12e047ce3f011",
+   "fields": {
+    "meaning": "Obwohl, und dabei",
+    "examples": [
+     "Ishida wusste, dass am nächsten Tag ein Test war, und hat es mir trotzdem nicht gesagt.",
+     "Meine Mutter singt schlecht, und trotzdem gibt sie das Mikrofon nicht mehr her, sobald sie es in der Hand hat.",
+     "Die jungen Leute von heute sind zwar groß gewachsen, scheinen aber keine körperliche Ausdauer zu haben.",
+     "„Du bist doch noch ein Kind (/Du hast doch keine Ahnung), also rede nicht so großspurig!“",
+     "＊Matsui tut selbst gar nichts. Und trotzdem meckert er über das, was andere tun.",
+     "Obwohl er es wusste, hat er es mir nicht gesagt."
+    ],
+    "explain": "Deutlich vorwurfsvoller Ton; im beruflichen Umfeld auf Höflichkeit achten.\nSteht häufig neben Wörtern, die einen Widerspruch andeuten: のに・くせに・わりに; くせに ist im Tadel am stärksten.\nPasst zur gesprochenen Sprache; in gehobener Schriftsprache durch 〜にもかかわらず (neutral) oder 〜のに (weicher) ersetzen.\nIn Verbindung mit vorurteilsbehafteten Wörtern (〜のくせに über Geschlecht/Alter) kann es beleidigend wirken; besser vermeiden.\n\n～くせに: „Obwohl/und dabei … (doch) …“ mit der Nuance von Vorwurf, Geringschätzung, Ironie. Bezeichnet meist den Widerspruch zwischen der Tatsache A und dem Verhalten/der Äußerung B, verbunden mit einer negativen Haltung des Sprechers.\n• Das Subjekt beider Teilsätze ist meist dieselbe Person/dasselbe Bezugsobjekt (besonders, wenn man dem Gesprächspartner/einer dritten Person Vorwürfe macht).\n• Stärkere Nuance als 〜のに; gegenüber Höhergestellten oder in förmlichen Texten vermeiden.\n• Auch als Selbstvorwurf möglich: 分かっているくせに、また同じ失敗をした。",
+    "notes": "1) Leicht zu verwechseln mit ～のに／～くせして.\n→ ～くせに hat eine deutliche Nuance von Tadel/Verachtung und gehört eher zur Umgangssprache.\n2) Nicht verwenden, wenn nur ein neutraler Gegensatz ausgedrückt wird.\n→ Bei neutralem Gegensatz je nach Satz ～のに／～一方で／～反面… verwenden.\n3) Wird oft verwendet, wenn der Sprecher mit dem Verhalten des Gegenübers unzufrieden ist.\n→ Eine häufige Falle, weil die Bedeutung stärker ist als „obwohl“. explain: Wird verwendet, wenn man sich über etwas Unerfreuliches beklagt oder ärgert, das eingetreten ist, obwohl es eigentlich nicht so sein sollte.\nDer Sprecher empfindet Unmut und Ärger über die Sache ⏐ examples: 1. 知っているくせに、教えてくれない。\nEr weiß es und sagt es mir trotzdem nicht\n2. 元気なくせに、病気のふりをしている。\nEr ist gesund und tut trotzdem so, als wäre er krank | Variante der gesprochenen Sprache: ～くせして",
+    "mistakes": [
+     "Unterschiedliche Subjekte wirken gezwungen: „雨が降っているくせに、出かける“ → unnatürlich. くせに passt, wenn ein und dasselbe Bezugsobjekt kritisiert wird.",
+     "Gegenüber Vorgesetzten/Fremden verwendet → grob. 〜のに/〜にもかかわらず wählen.",
+     "Verwechslung mit 〜わりに(は): くせに enthält einen Vorwurf; わりに(は) ist ein relativer Vergleich.",
+     "JLPT: die negative emotionale Nuance erkennen, um くせに statt のに/にもかかわらず zu wählen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Nuance",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "〜くせに",
+       "Obwohl … (tadelnd)",
+       "Stark, negativ",
+       "<ruby>知<rt>し</rt></ruby>ってるくせに、<ruby>言<rt>い</rt></ruby>わない。"
+      ],
+      [
+       "〜のに",
+       "Obwohl …",
+       "Neutral/schwächer",
+       "<ruby>知<rt>し</rt></ruby>ってるのに、<ruby>言<rt>い</rt></ruby>わない。"
+      ],
+      [
+       "〜にもかかわらず",
+       "Ungeachtet …",
+       "Förmlich, objektiv",
+       "<ruby>雨<rt>あめ</rt></ruby>にもかかわらず、<ruby>開催<rt>かいさい</rt></ruby>。"
+      ],
+      [
+       "〜わりに(は)",
+       "Dafür, dass … / gemessen an …",
+       "Bewertet eine Abweichung, nicht unbedingt ein Vorwurf",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>のわりに、<ruby>若<rt>わか</rt></ruby>い。"
+      ],
+      [
+       "〜だけあって",
+       "Wie zu erwarten … (Lob)",
+       "Entgegengesetzte Bedeutung (lobend)",
+       "<ruby>高<rt>たか</rt></ruby>いだけあって、<ruby>美味<rt>おい</rt></ruby>しい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 525,
+   "src_hash": "99501cee001f9fdc",
+   "fields": {
+    "meaning": "Ungefähr, etwa …",
+    "examples": [
+     "Es war mir so peinlich, dass ich am liebsten weggelaufen wäre.",
+     "Als ich die Nachricht hörte, hätte ich vor Freude in die Luft springen können.",
+     "Von hier bis zum Bahnhof sind es zu Fuß etwa 20 Minuten.",
+     "Wenn es etwa tausend Yen kostet, kann ich es kaufen.",
+     "Ich bin so müde, dass ich kaum stehen kann.",
+     "Ist eine Größe wie diese in Ordnung?"
+    ],
+    "explain": "Stellung: くらい steht hinter der geschätzten Menge/dem geschätzten Element oder hinter einem Teilsatz, der den Grad angibt.\nBetonung des Minimums: „～くらいは/くらいなら“ drückt die Erwartung eines Mindestmaßes aus („wenigstens …“).\nVerbindung mit Verneinung: „～くらいしか～ない“ bedeutet „nur etwa ~, mehr nicht“.\nNatürlich im Gespräch; in gehobener Schriftsprache kann man bei Gradangaben ほど erwägen.\n\nAnnäherung, ungefähr: bezeichnet eine ungefähre Menge/Zeit (3時間くらい = etwa 3 Stunden).\nGrad, Intensität: nennt die Schwelle „so sehr, dass …“ (泣きたいくらい嬉しい = so froh, dass man weinen möchte).\nMinimum/erwartetes Maß: mit せめて/少なくとも drückt es „wenigstens/zumindest …“ aus.\nNuance: くらい ist die Standardform; ぐらい gehört eher zur Umgangssprache (siehe Vergleich).",
+    "notes": "„これくらい/それくらい/あれくらい/どれくらい“ sind sehr häufige Wendungen in Fragen und Antworten zu Grad/Menge.\nBeim Ausdruck eines Mindestmaßes: „これくらいはできるでしょ“ betont das niedrigste erwartete Niveau.\n„Vるくらいなら～“ ist ein Konditionalmuster mit der Bedeutung „wenn man schon V tun muss, dann lieber ~“ (eigenes, fortgeschrittenes Muster).\nmeaning_vi: Ungefähr …; etwa … (Schätzung)\nSo sehr, dass … (Grad)\nNur so etwas wie …; nichts Besonderes (Geringschätzung)\nexplain: Drückt eine grobe Schätzung von Menge/Zeit/Entfernung … aus (nicht absolut genau).\nDrückt einen hohen Grad aus: „so sehr, dass …“. Steht hinter Teilsatz/Verb/Adjektiv, um den Grad zu betonen.\nDient zum Herunterspielen: „nur so etwas wie …“. Meist mit der Nuance, etwas gering zu schätzen oder für unbedeutend zu halten.\nexamples: 1. ここから駅まで１０分ぐらいだ。\nVon hier bis zum Bahnhof sind es etwa 10 Minuten.\n2. もう動けないくらい疲れた。\nIch bin so erschöpft, dass ich mich nicht mehr bewegen kann.\n3. ライバルに負けた。悔しくて泣きたいぐらいだ。\nIch habe gegen meinen Rivalen verloren. Es ärgert mich so, dass ich weinen möchte.\n4. 彼くらいの背の高さなら、棚に手が届くだろう。\nWer etwa so groß ist wie er, kommt wohl mit der Hand ans Regal.\n5. かぜくらいで仕事を休めない。\nWegen einer bloßen Erkältung kann ich nicht bei der Arbeit fehlen.\n6. これぐらいの傷なら医者に行かなくてもいいだろう。\nMit so einer kleinen Wunde muss man wohl nicht zum Arzt.\n7. 半年勉強したので、簡単な会話くらいならできる。\nIch habe ein halbes Jahr gelernt, also schaffe ich zumindest einfache Gespräche.\n8. 忙しくても、電話をするくらいの時間はあるはずだ。\nAuch wenn man viel zu tun hat, müsste man wenigstens Zeit für einen Anruf haben.\n9. 「こんなことを知らないのは君くらいだよ」\n„Dass jemand so etwas nicht weiß – das gibt es nur bei dir.“\nmeaning_vi: 「～と同じ程度だ・～と同じ程度に…。」 程度の強さを表すために、ある状況に例えて言うときに使う。⑥のように、「～かと思うくらい・かと思うほど」の形でもよく使う。\nIm gleichen Grad wie ~ / so, als ob ~.\nWird verwendet, wenn man etwas mit einem bestimmten Zustand vergleicht, um den Grad auszudrücken.\nAuch die Ausdrucksweise ～ かと思うくらい・～かと思うほど wie in Beispiel ⑥ wird häufig verwendet.\nexamples: 1. この店のパンはおいしい。毎日食べたいくらいだ。\nDas Brot in diesem Laden schmeckt gut. So gut, dass ich es jeden Tag essen möchte.\n2. よう子さんの腕は折れそうなくらい細い。\nYokos Arme sind so dünn, dass sie aussehen, als würden sie gleich brechen.\n3. 天気予報によると、今日は台風ぐらいの風が吹くそうだ。\nLaut Wetterbericht soll heute ein Wind wehen, der so stark ist wie bei einem Taifun.\n4. 傘をさすほどではないが、少し雨が降っている。\nEs ist nicht so, dass man einen Schirm aufspannen müsste, aber es regnet ein wenig.\n5. 突然立っていられないほどの痛みを背中に感じた。\nPlötzlich spürte ich im Rücken einen Schmerz, der so stark war, dass ich nicht mehr stehen konnte.\n6. さっき地震があった。本棚が倒れるかと思うほど激しく揺れた。\nVorhin gab es ein Erdbeben. Es bebte so heftig, dass ich dachte, das Bücherregal würde umfallen.\nexamples: 1. ①　３時間ぐらい\nEtwa 3 Stunden\n2. ②　毎日、日本語を３時間ぐらい勉強しています。\nIch lerne jeden Tag etwa 3 Stunden Japanisch.\n3. ②　〈駅で〉\nA：すみません、黒(くろ)いかばんを電車(でんしゃ)に忘(わす)れてしまったんですけど。\nB：どのくらいの大(おお)きさですか。\nA：雑誌(ざっし)ぐらいの大(おお)きさです。（手(て)で示(しめ)して）ええと、これぐらいの。\n(Am Bahnhof)\nA: Entschuldigung, ich habe eine schwarze Tasche im Zug vergessen.\nB: Wie groß ist sie ungefähr?\nA: Etwa so groß wie eine Zeitschrift. (Zeigt es mit den Händen) Ähm, ungefähr so.\nmeaning_vi: Drückt den Grad von etwas anhand eines Beispiels aus\nexamples: 1. ①　死ぬほど\nZum Sterben\n2. ②　歯を抜いた時は、死ぬほど痛かったです。\nAls mir der Zahn gezogen wurde, tat es zum Sterben weh.\n3. ③　夢に見るくらい彼のことが好きです。\nIch mag ihn so sehr, dass ich von ihm träume.\nmeaning_vi: 軽い程度・最低限を示す\nBezeichnet einen geringen Grad/das Mindestmaß.\n同じ程度の例を示す\nNennt ein Beispiel gleichen Grades.\nexamples: 1. 簡単な挨拶ぐらいなら日本語で言える。\nWenn es nur um einfache Begrüßungen geht, kann ich sie auf Japanisch sagen.\n2. 今日は少しぐらいお酒を飲んでもいいね。\nHeute darf man ruhig ein bisschen Alkohol trinken, nicht wahr?\n3. 日曜日ぐらい休ませてくださいよ。\nLassen Sie mich doch wenigstens am Sonntag freihaben.\n4. 卵ぐらいの大きさのパンを作った\nIch habe ein Brot gebacken, das etwa so groß ist wie ein Ei.\n5. うちの娘ぐらいの女の子が泣いていた。\nEin Mädchen, etwa so alt wie meine Tochter, weinte.\n6. この車は私にも買えるくらいの値段だ。\nDieses Auto hat einen Preis, den sogar ich mir leisten kann.\nmeaning_vi: So groß wie, so sehr, dass, etwa\nexplain: Wird verwendet, um Grad oder Ausmaß im Vergleich mit Dingen und Sachverhalten anzugeben\nexamples: 1. それは米粒くらいの大きさです。\nDas ist etwa so groß wie ein Reiskorn\n2. この洗剤は、おもしろいほど汚れが落ちる。\nMit diesem Reinigungsmittel geht der Schmutz erstaunlich gut ab\n3. あきるほど食べた\nIch habe gegessen, bis ich es satthatte\n4. 宿題が多すぎて、泣きたいくらいだ。\nEs sind so viele Hausaufgaben, dass ich weinen möchte",
+    "mistakes": [
+     "Doppelte Schätzangabe: „3時ごろくらい“ ist falsch; eines wählen: „3時ごろ“ oder „3時くらい“.",
+     "くらい im verneinten Vergleich „Aくらい～ない“ ist unnatürlich; „Aほど～ない“ verwenden.",
+     "Verwechslung von „nur“ und „ungefähr“: „三人だけ“ (nur 3 Personen) ist etwas anderes als „三人くらい“ (etwa 3 Personen).",
+     "Hervorhebende Partikel vergessen: Will man das Minimum betonen, braucht man „～くらいは“: これくらいは覚えよう。"
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "くらい",
+       "ungefähr; so sehr, dass",
+       "Standard; für Grad und Menge gleichermaßen geeignet",
+       "<ruby>3時間<rt>さんじかん</rt></ruby>くらい"
+      ],
+      [
+       "ぐらい",
+       "ungefähr; so sehr, dass",
+       "Umgangssprachlicher als くらい",
+       "<ruby>三回<rt>さんかい</rt></ruby>ぐらい"
+      ],
+      [
+       "ほど",
+       "so sehr, dass; so … wie",
+       "Förmlicher; steht in der verneinten Struktur „Aほど～ない“",
+       "<ruby>想像<rt>そうぞう</rt></ruby>したほど<ruby>難<rt>むずか</rt></ruby>しくない"
+      ],
+      [
+       "だけ",
+       "nur; so viel",
+       "Begrenzt die Menge; ohne die Bedeutung „ungefähr“",
+       "<ruby>一人<rt>ひとり</rt></ruby>だけ"
+      ],
+      [
+       "ごろ",
+       "gegen, ungefähr (Zeitpunkt)",
+       "Nur mit Zeitpunkten; nicht für Mengen",
+       "<ruby>3時<rt>さんじ</rt></ruby>ごろ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 526,
+   "src_hash": "ea8f385640134470",
+   "fields": {
+    "meaning": "Häufig die Neigung, Tendenz zu ~ haben",
+    "examples": [
+     "Bei dieser Arbeit hat man zum Monatsende hin tendenziell mehr zu tun.",
+     "Mit zunehmendem Alter neigt man dazu, früh aufzustehen."
+    ],
+    "explain": "◎ Drückt aus: „es wird gewöhnlich so“ oder „meistens ist es so“."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 527,
+   "src_hash": "2f65055140be8bc1",
+   "fields": {
+    "meaning": "Gerade …, Hervorhebung",
+    "examples": [
+     "Nächstes Mal will ich aber unbedingt bestehen.",
+     "Genau dieses Buch ist es, das ich mir schon lange gewünscht habe.",
+     "„Auf gute Zusammenarbeit.“ „Ganz meinerseits.“",
+     "Dieses Jahr will ich endlich bestehen.",
+     "Gerade in schwierigen Zeiten sollten wir einander helfen.",
+     "Eine Sprache eignet man sich erst an, wenn man sie tatsächlich benutzt."
+    ],
+    "explain": "Wird direkt hinter ein Nomen/eine Zeitangabe gesetzt, um den Fokus hervorzuheben.\nBei ～から こそ ist der hintere Teilsatz meist ein positives/erwünschtes Ergebnis; Nuance starker Bekräftigung.\nNicht direkt hinter Verben/Adjektive setzen (außer in festen Verbindungen wie から こそ ); bei Bedarf ist eine Nominalisierung nötig.\nIn höflichen Erwiderungen: こちら こそ ／いえいえ、こちら こそ …\n\n• Hervorhebungspartikel „gerade/genau“: macht das vorangehende Element zum Fokus.\n• Betonung des Grundes mit ～からこそ: bekräftigt nachdrücklich die Kausalbeziehung („gerade weil … deshalb …“).\n• Betonung des entscheidenden Zeitpunkts: 今日こそ／今度こそ drückt Entschlossenheit/hohe Erwartung aus.\n• In der höflichen Erwiderung: こちらこそ（als Antwort: Ich bin es, der zu danken/sich zu entschuldigen hat）.",
+    "notes": "1) Leicht zu verwechseln mit ～だけ／～こそが.\n→ ～こそ dient der Hervorhebung „gerade … (ist es, der/das …)“.\n2) Kommt häufig in festen Mustern vor.\n→ Beispiele: こちらこそ, 今こそ, だからこそ… (betont Grund/Zeitpunkt).\n3) Kein Aufzählungsmuster.\n→ Die Hauptfunktion ist die Hervorhebung, es fügt keine neue Information hinzu. meaning_vi: Gerade,. gerade weil (Grund) ⏐ explain: Dient der Hervorhebung, wenn das Subjekt der Hauptverursacher oder der Hauptgrund ist; wirkt verstärkend ⏐ examples: 1. 明日こそ勉強するぞ！\nMorgen lerne ich aber ganz bestimmt\n2. 愛情があるからこそ、しかるんです。\nGerade weil ich dich liebe, schimpfe ich",
+    "mistakes": [
+     "こそ direkt hinter Verb/Adjektiv verwendet: falsch; nötig ist eine feste Verbindung (からこそ) oder eine Nominalisierung.",
+     "Verwechslung von こそ mit は: In Prüfungen wird oft die fokussierende Nuance von こそ im Vergleich zu は abgefragt.",
+     "～からこそ steht meist mit einem positiven Ergebnis; die Antwort mit der passenden Nuance wählen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "は",
+       "Thema/kontrastive Hervorhebung",
+       "Schwächere Hervorhebung als こそ; こそ setzt einen starken Fokus",
+       "<ruby>君<rt>きみ</rt></ruby>はできる → <ruby>君<rt>きみ</rt></ruby>こそできる"
+      ],
+      [
+       "も",
+       "„Auch“",
+       "Bildet keinen zentralen Fokus wie こそ",
+       "<ruby>君<rt>きみ</rt></ruby>もできる"
+      ],
+      [
+       "さえ",
+       "Sogar",
+       "Betont das Überraschende; こそ ist die Bekräftigung „gerade“",
+       "<ruby>子<rt>こ</rt></ruby>どもでさえ<ruby>分<rt>わ</rt></ruby>かる"
+      ],
+      [
+       "だからこそ",
+       "Gerade deshalb",
+       "Feste Verbindung (だから + こそ); stärker als だから",
+       "だからこそ<ruby>挑戦<rt>ちょうせん</rt></ruby>する"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 528,
+   "src_hash": "97f5f5d3c70fdfd6",
+   "fields": {
+    "meaning": "Aus der Tatsache, dass …; weil …",
+    "examples": [
+     "Daran, dass ihre Stimme zitterte, erkannte ich, dass sie nervös war.",
+     "Da es einen Abschiedsbrief gab, wurde der Tod von A als Suizid eingestuft.",
+     "Aus dem Grund ～ wurde es … genannt",
+     "Weil man von diesem Hang aus den Fuji sehen kann, wird er inzwischen Fujimizaka genannt.",
+     "Weil meine jüngere Schwester im März geboren wurde, erhielt sie den Namen „Yayoi“.",
+     "Durch ～ als Auslöser → Veränderung"
+    ],
+    "explain": "Darauf folgen meist Verben des Erkennens/Urteilens:分かる・見なされる・考えられる・推測される・判断される.\nIn förmlichen Texten であることから verwenden, wenn N/Na-Adjektiv vorangeht.\nNicht verwenden, um den Grund für eine Handlung des Sprechers zu nennen (行く・買う・決める). Dann ist ので/から natürlicher.\nGeeignet für logische Erläuterungen in Berichten, Wissenschaft, Nachrichten.\n\n～ことから hat zwei Hauptverwendungen:\n• Grundlage einer Schlussfolgerung/Beurteilung: „Aus der Tatsache, dass …, lässt sich schließen/erkennen, dass …“. Betont die objektive Grundlage.\n• Grund einer Benennung/Herkunft: „Weil …, wird es … genannt/erhielt es den Namen …“.\n• Förmliche Nuance, häufig in Berichten, Aufsätzen, Nachrichtenmeldungen.\n• Nicht für direkte, willentliche Ursache-Wirkung-Beziehungen (kaufen, entscheiden …). Will man den Grund einer Handlung nennen, verwendet man ので/から.",
+    "notes": "• Das Benennungsmuster steht meist mit 呼ばれる／名付けられる／通称〜とされる.\n• Im Aufsatz eine gute logische Verknüpfung: データが示していることから、〜と結論づけられる.\n• Satzstellung: am Satzanfang als Prämisse sehr natürlich.",
+    "mistakes": [
+     "Für willentliche Handlungen verwendet: „雨が降っていることから、傘を持っていく“ → gezwungen. Ändern in: 雨が降っているから／ので、傘を持っていく.",
+     "である vor N/Na in förmlichen Texten weggelassen: „静かだことから“ → falsch; richtig: 静かなことから／静かであることから.",
+     "Verwechslung mit からすると: ことから betont den „Teilsatz als Tatsache“, からすると betont „Quelle/Grundlage N“.",
+     "JLPT: erkennen, dass der hintere Teil meist 分かる・見なされる・呼ばれる ist, um ことから zu wählen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "〜ことから",
+       "Aus der Tatsache … schließen/benennen",
+       "Objektive Grundlage, förmlich",
+       "<ruby>足跡<rt>あしあと</rt></ruby>があることから、<ruby>熊<rt>くま</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "〜ので／〜から",
+       "Weil … (direkter Grund)",
+       "Grund für eine Handlung/Absicht",
+       "<ruby>雨<rt>あめ</rt></ruby>だから、<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。"
+      ],
+      [
+       "N + からすると",
+       "Auf Grundlage von N vermuten",
+       "Betont nicht die „Tatsache im Teilsatz“, sondern Quelle/Grundlage N",
+       "<ruby>症状<rt>しょうじょう</rt></ruby>からすると、<ruby>風邪<rt>かぜ</rt></ruby>だ。"
+      ],
+      [
+       "〜ということから",
+       "Aus der „Tatsache, dass …“",
+       "Form, die den Inhalt des Teilsatzes hervorhebt",
+       "<ruby>不足<rt>ふそく</rt></ruby>しているということから、<ruby>増産<rt>ぞうさん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 530,
+   "src_hash": "e3fb1ca51384c163",
+   "fields": {
+    "meaning": "Wirklich …, überaus …",
+    "examples": [
+     "Zu meiner Freude wurde ich als Vertreter für den Redewettbewerb ausgewählt.",
+     "Bedauerlicherweise hat Team A mit einem Punkt Unterschied verloren.",
+     "Leider wurde das Zeltlager, auf das ich mich gefreut hatte, wegen Regens abgesagt.",
+     "Erstaunlicherweise sollen die Karten für das Konzert in 15 Minuten ausverkauft gewesen sein.",
+     "Zu meiner Freude habe ich die Aufnahmeprüfung an meiner Wunschuniversität bestanden.",
+     "Leider wurde die Besprechung verschoben."
+    ],
+    "explain": "Steht meist am Anfang des Satzes/Teilsatzes, danach folgt der objektive Sachverhalt.\nErzeugt einen förmlichen, höflichen Stil; geeignet für Aufsätze und Vorträge.\nNicht für direkte Befehle/Absichten. Dient dazu, ein Gefühl auszudrücken, bevor der Sachverhalt beschrieben wird.\nBei Aな ist „な“ nötig:残念なことに／幸いなことに.\n\n～ことに: „Wie … doch/Es ist wirklich …, dass“ — stellt das Gefühl/die subjektive Bewertung des Sprechers an den Satzanfang, als förmlicher/schriftsprachlicher Ausrufrahmen.\n• Steht mit Adjektiven/Verben, die Gefühl/Bewertung ausdrücken: うれしい・残念だ・残念ながら（anders)・困る・驚く・ありがたい・幸いだ・面白い・不思議だ.\n• Betont die Stärke des Gefühls des Sprechers gegenüber dem folgenden Inhalt.\n• Förmlicherer Stil als て嬉しい/てよかった.",
+    "notes": "• „驚いたことに/困ったことに/面白いことに/皮肉なことに“ sind häufige Wendungen der Schriftsprache.\n• Kann als Nebensatz auch in der Satzmitte stehen: 彼が来なかったのは、残念なことに、連絡が取れなかったからだ。\n• Bei Vた + ことに: Das Verb sollte ein erlebtes Gefühl ausdrücken (驚く・困る), kein gewöhnliches Handlungsverb sein.",
+    "mistakes": [
+     "„な“ bei Aな weggelassen: „残念ことに“ → falsch; richtig: 残念なことに.",
+     "Mit einem Adjektiv ohne emotionale Nuance verwendet (例: 高いことに) → gezwungen. Ein bewertendes/emotionales Adjektiv wählen.",
+     "Verbindung mit Befehl/Absicht: „うれしいことに、行きましょう“ → unnatürlich. Gefühl und Vorschlag besser mit einer anderen Struktur trennen.",
+     "JLPT: die Stellung am Satzanfang und das Gefühlsadjektiv erkennen, um 〜ことに statt 〜てうれしい/〜とは zu wählen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied in der Nuance",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "Aい/na + ことに",
+       "Wie … doch",
+       "Förmlich, leitet mit dem Gefühl ein",
+       "<ruby>幸<rt>さ</rt></ruby>いなことに、<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>った。"
+      ],
+      [
+       "Vて + <ruby>嬉<rt>うれ</rt></ruby>しい/よかった",
+       "Froh/erleichtert, weil …",
+       "Umgangssprachlich, direkt",
+       "<ruby>合格<rt>ごうかく</rt></ruby>して<ruby>嬉<rt>うれ</rt></ruby>しい。"
+      ],
+      [
+       "〜とは",
+       "… etwa wirklich? (Erstaunen)",
+       "Starker Ausruf, oft bei <ruby>想定<rt>そうてい</rt></ruby><ruby>外<rt>がい</rt></ruby>",
+       "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来<rt>こ</rt></ruby>ないとは。"
+      ],
+      [
+       "なんと + Satz",
+       "Drückt einen Ausruf aus",
+       "Umgangssprachlich, übersteigernd",
+       "なんと<ruby>美<rt>うつく</rt></ruby>しい<ruby>景色<rt>けしき</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 531,
+   "src_hash": "908b84c070c0e068",
+   "fields": {
+    "meaning": "Sich entschieden haben zu …, Gewohnheit",
+    "examples": [
+     "Der Gesundheit zuliebe trinke ich grundsätzlich jeden Morgen Milch.",
+     "Tanaka soll es sich zur Regel gemacht haben, immer eine E-Mail zu schreiben, wenn es bei der Heimkehr spät wird.",
+     "In jungen Jahren träumte ich davon, an den Olympischen Spielen teilzunehmen, und hatte es mir zur Regel gemacht, täglich 8 Stunden zu trainieren.",
+     "Eigentlich habe ich es mir zur Regel gemacht, an freien Tagen nicht zu Hause zu arbeiten, aber diese Woche bin ich am Freitag beim besten Willen nicht fertig geworden und habe die Arbeit mit nach Hause genommen.",
+     "Der Gesundheit zuliebe habe ich es mir zur Gewohnheit gemacht, jeden Tag 10.000 Schritte zu gehen.",
+     "Um zu sparen, esse ich grundsätzlich nur einmal pro Woche auswärts."
+    ],
+    "explain": "Steht mit Adverbien der Häufigkeit/des Zeitpunkts:毎日/いつも/基本的に/～から.\nHat die subjektive Nuance „sich selbst eine Regel setzen“; bei Bedarf höflich: ～ことにしています.\nNicht für Naturerscheinungen/Unkontrollierbares: ×雨の日は降ることにしている。\nKann in humorvollem/andeutendem Kontext auch „so tun, als ob/als … gelten lassen“ bedeuten:今日は休みってことにしている。\n\n• Bezeichnet eine Gewohnheit, die sich der Sprecher selbst auferlegt hat und regelmäßig beibehält.\n• Betont einen zuvor gefassten, noch immer geltenden Entschluss. Stabilere Nuance als ～ようにしている (das eher das „Bemühen“ betont).\n• Geht es um Regeln einer Organisation/Vorschriften, verwendet man ～ことになっている, nicht ～ことにしている.\n• Am natürlichsten in der ersten Person; bei anderen Personen ist Kontext nötig (bekannte/berichtete Gewohnheit).",
+    "notes": "1) Leicht zu verwechseln mit ～ことになっている.\n→ ～ことにしている ist eine Gewohnheit oder Regel, die der Sprecher selbst festgelegt hat.\n2) Verwechslung der Nuancen „bereits entschieden“ und „wird beibehalten“.\n→ Dieses Muster betont, dass man sich selbst eine Regel gesetzt hat und sie als Gewohnheit befolgt.\n3) Nicht für Vorschriften einer Organisation oder für Umstände verwenden.\n→ Für äußere Vorschriften verwendet man meist ～ことになっている.",
+    "mistakes": [
+     "Verwechslung mit ～ことになっている: Wird nach einer „Vorschrift“ gefragt, muss ～ことになっている stehen.",
+     "Verwechslung mit ～ようにしている: Betont man eher das „Bemühen“ als das „zur Gewohnheit Gewordene“, wählt man ～ようにしている.",
+     "Die Verwendung für unkontrollierbare Vorgänge ist unnatürlich und falsch (z. B. Wetter, selbsttätige Abläufe).",
+     "Für andere Personen ohne einleitenden Kontext verwendet → unnatürlich; besser „彼は～としている/彼の習慣では～“ hinzufügen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Entscheidender Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ことにしている",
+       "Selbst gesetzte Gewohnheit",
+       "Entschlossen und stabil beibehalten",
+       "<ruby>夜<rt>よる</rt></ruby><ruby>更<rt>ふ</rt></ruby>かししないことにしている。"
+      ],
+      [
+       "～ことにした",
+       "Gerade entschieden",
+       "Ereignis des Entschlusses (einmalig)",
+       "<ruby>来年<rt>らいねん</rt></ruby><ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すことにした。"
+      ],
+      [
+       "～ことになっている",
+       "Allgemeine Regelung",
+       "Von außen gesetzte Regel",
+       "<ruby>社内<rt>しゃない</rt></ruby>は<ruby>禁煙<rt>きんえん</rt></ruby>ということになっている。"
+      ],
+      [
+       "～ようにしている",
+       "Sich bemühen beizubehalten",
+       "Betont das Bemühen, eventuell noch nicht stabil",
+       "<ruby>早起<rt>はやお</rt></ruby>きするようにしている。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

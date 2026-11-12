@@ -1,0 +1,556 @@
+{
+ "batch": "b087",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 1299,
+   "src_hash": "6c61a9f3f0698a37",
+   "fields": {
+    "meaning": "Sei es … oder …",
+    "examples": [
+     "Ob der Bildungsgrad hoch oder niedrig ist, ohne Anstrengung geht es nicht.",
+     "Ob Regen oder Schnee, das Turnier findet wie geplant statt.",
+     "Ob reich oder arm, vor dem Gesetz sind alle gleich.",
+     "Worum es auch geht, besprechen Sie es bitte zuerst mit uns.",
+     "Wo sie auch ist, sie findet gleich Freunde.",
+     "Wie das Ergebnis auch ausfällt, ich bin bereit, es anzunehmen."
+    ],
+    "explain": "Steht nach einem Nomen; nicht direkt nach Adjektiv/Verb (nötigenfalls Nominalisierung).\nFörmlicher Stil, in Abhandlungen, Ansprachen, Vorschriften, offiziellen Mitteilungen.\nMeist wird であれ zweimal mit dem Paar N1・N2 wiederholt; mit Fragewort genügt ein であれ.\nDer hintere Teilsatz ist meist ein umfassendes Urteil, eine Richtlinie, ein Grundsatz oder starker Wille.\nMit たとえ lässt sich die Nuance „selbst wenn“ verstärken.\n\n• Drückt aus: „ob A oder B, Schluss/Ansicht bleiben unverändert“. Betont die Unveränderlichkeit des Standpunkts.\n• Mit 疑問詞 + であれ bedeutet es „gleich …“, mit weitem Geltungsbereich (schließt alle Möglichkeiten ein).\n• Meist werden zwei gegensätzliche/extreme Nomen gepaart, um starken Kontrast zu erzeugen: 高い⇔低い, 雨⇔雪, 金持ち⇔貧乏…\n• Steife Nuance, regel- und grundsatzhaft; der hintere Teilsatz ist oft ein allgemeines Urteil/eine Ausrichtung, selten vertraut Privates.\n• Der Form nach stammt であれ aus der Befehlsform von である, hat in diesem Muster aber keine Befehlsbedeutung, sondern die Annahme „selbst wenn es … ist“.",
+    "notes": "• Soll ein Adjektiv/Verb angeschlossen werden, ein Nomen für Art/Sachverhalt verwenden: 忙しい人であれ (ein beschäftigter Mensch), 必要であれ ist falsch; besser: 必要な場合であれ.\n• In der Umgangssprache meist でも/にせよ, damit es natürlicher klingt.\n• Im Ton hat であれ etwas „Ausnahmsloses“, passend für Richtlinien, Regeln.",
+    "mistakes": [
+     "Falsche Wortart: direkt an i-adj/na-adj/Verb angeschlossen. Nominalisierung nötig: 忙しいときであれ / 重要な案件であれ.",
+     "Fehlende Parallelität beim Paar: N1 und N2 müssen derselben Kategorie angehören und ausgewogen sein: 正しいであれ間違いであれ (richtig), 正しいであれ急ぐであれ (falsch).",
+     "In zu vertrautem Kontext klingt der Satz gezwungen. Der JLPT N1 prüft oft die förmliche Nuance von であれ gegenüber でも.",
+     "Verwechslung mit にせよ: In vielen Sätzen ist beides richtig, doch Prüfungen verlangen gern das zum Stil passende Muster; in normativen Texten ist であれ vorzuziehen.",
+     "Falle mit Fragewort: 何であれ (richtig), 何でもであれ (falsch wegen doppelter Funktion)."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1300,
+   "src_hash": "d00eeeded2916f1a",
+   "fields": {
+    "meaning": "Sogar …",
+    "examples": [
+     "Diese Erklärung versteht sogar ein Kind.",
+     "Er ist so beschäftigt, dass er nicht einmal Zeit zum Mittagessen hat.",
+     "Das ist ein Problem, an dem sich selbst Fachleute die Zähne ausbeißen.",
+     "Ihre Singstimme haben sogar die Kritiker gelobt.",
+     "Ich war so erschöpft, dass ich letzte Nacht nicht einmal geträumt habe.",
+     "Nicht einmal so etwas Grundlegendes zu wissen – kann er etwa nicht einmal seinen eigenen Namen richtig schreiben?"
+    ],
+    "explain": "Verstärkt das Überraschende/Unerwartete; in bejahten wie verneinten Sätzen möglich.\nIn Schriftsprache/Reden ist „ですら“ förmlicher als „さえ/でさえ“.\nSoll die Kasuspartikel bleiben: „N＋助詞＋すら“ verwenden (夢にすら,彼とすら…).\n\n• Betont den Grad der Überraschung: selbst das am unteren Rand/außerhalb der Erwartung Liegende (nicht) …\n• „ですら“ hat eine förmliche Nuance; „すら/でさえ/さえ“ sind gebräuchlicher.\n• Ist eine Kasuspartikel nötig (に/と/から…), lässt sich „ですら“ nicht einschieben; dafür „N＋助詞＋すら“.",
+    "notes": "• In starker Verneinung auch mit まったく／全然: 彼は挨拶すらしない.\n• Partikeln nicht doppeln: × 子どもにですら → entweder 子どもですら (ohne に) oder 子どもにすら.",
+    "mistakes": [
+     "Stellung der Partikel verwechselt: × 彼ですらに → richtig: 彼にすら.",
+     "„ですら“ direkt nach einer Kasuspartikel: × 学校にですら → 学校にすら oder 学校ですら (je nach Bedeutung).",
+     "Nuance mit „まで“ verwechselt: „まで“ heißt „bis hin zu/sogar“, hat aber nicht immer das Überraschende von „すら“."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "Nですら",
+       "Sogar N (förmlich)",
+       "Schriftsprache/Reden",
+       "<ruby>子<rt>こ</rt></ruby>どもですら<ruby>分<rt>わ</rt></ruby>かる"
+      ],
+      [
+       "Nでさえ",
+       "Sogar N",
+       "Neutral, auch im Gespräch",
+       "<ruby>子<rt>こ</rt></ruby>どもでさえ<ruby>分<rt>わ</rt></ruby>かる"
+      ],
+      [
+       "Nさえ",
+       "Sogar N",
+       "Am gebräuchlichsten; viele Strukturvarianten",
+       "<ruby>水<rt>みず</rt></ruby>さえあれば<ruby>生<rt>い</rt></ruby>きられる"
+      ],
+      [
+       "N＋<ruby>助詞<rt>じょし</rt></ruby>＋すら",
+       "Kasuspartikel bleibt erhalten",
+       "Wenn „に/と/から…“ nötig ist",
+       "<ruby>夢<rt>ゆめ</rt></ruby>にすら<ruby>見<rt>み</rt></ruby>ない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1301,
+   "src_hash": "5138e35de6cb692d",
+   "fields": {
+    "meaning": "Weil …, da … (besonders)",
+    "examples": [
+     "Da es der erste Tag der Feiertagsreihe ist, sind die Flughäfen überall überfüllt.",
+     "Weil ein berühmtes Geschäft schließt, bildete sich schon am Morgen eine lange Schlange.",
+     "Da endlich wieder einmal die Sonne schien, war der Park voller Familien.",
+     "Da es der letzte Tag des Ausverkaufs ist, herrscht im Laden Hochbetrieb.",
+     "Wegen des Japanbesuchs des beliebten Schauspielers wurden die Sicherheitsvorkehrungen rund um den Veranstaltungsort verstärkt."
+    ],
+    "explain": "Der hintere Teilsatz ist ein objektives Ergebnis/eine objektive Erscheinung; nicht mit Befehl/Willen des Sprechers.\nNennt das „Besondere/Seltene“ der Ursache:連休、初雪、有名人来訪…\nMeist mit Gegenwart oder Verlaufsform der Vergangenheit (～ている/～ていた).\n\n• Ein „besonderer/bemerkenswerter“ Grund führt zu einem beobachteten, natürlichen Ergebnis.\n• Berichtender/sachlicher Ton; unpassend, um Willen/Bitte des Sprechers zu nennen.\n• Meist in Nachrichten, Artikeln, Kommentaren zu gesellschaftlichen Erscheinungen.",
+    "notes": "• N2. Sehr häufig in Zeitungstexten; zu erkennen am „besonderen“ Nomen + とあって.\n• Steht am Satzanfang; selten nach einem anderen Nebensatz.\n• Nicht mit direkter Bitte/direktem Wunsch des Sprechers: × とあって、手伝ってください。",
+    "mistakes": [
+     "Für den Willen des Sprechers verwendet: × とあって、早く帰ろうと思う → besser ので/ため.",
+     "Verwechslung mit ～だけあって (Bewertung) oder ～とあれば (Bedingung). Auf den hinteren Teilsatz achten.",
+     "Eine Ursache, die nicht „besonders“ ist, lässt den Satz gezwungen wirken; eine auffällige Ursache wählen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～とあって",
+       "Weil (besondere Situation)",
+       "Sachlicher Bericht",
+       "<ruby>休日<rt>きゅうじつ</rt></ruby>とあって<ruby>混<rt>こ</rt></ruby>む"
+      ],
+      [
+       "～とあれば",
+       "Wenn (besondere Bedingung)",
+       "Hinterer Teilsatz mit Willen/Entschluss",
+       "<ruby>必要<rt>ひつよう</rt></ruby>とあれば<ruby>協力<rt>きょうりょく</rt></ruby>する"
+      ],
+      [
+       "～だけあって",
+       "Wie zu erwarten (angemessen)",
+       "Lob/Bewertung, kein Ergebnis aus den Umständen",
+       "<ruby>一流<rt>いちりゅう</rt></ruby><ruby>店<rt>てん</rt></ruby>だけあって<ruby>高<rt>たか</rt></ruby>い"
+      ],
+      [
+       "～ので／～ため",
+       "Weil",
+       "Neutral; „besonders“ nicht erforderlich",
+       "<ruby>雨<rt>あめ</rt></ruby>のため<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1302,
+   "src_hash": "c37f4cbcf35ae9e8",
+   "fields": {
+    "meaning": "Sowohl … als auch …",
+    "examples": [
+     "Ob Landschaft oder Luft, hier ist es wirklich herrlich.",
+     "Dieses Lokal lässt bei Geschmack wie Preis nichts zu wünschen übrig.",
+     "An ihm ist, ob Aussehen oder Charakter, nichts auszusetzen.",
+     "Jener Spieler ist bei Tempo wie Ausdauer erstklassig.",
+     "Dieser Computer bietet bei Leistung wie Design ein gutes Preis-Leistungs-Verhältnis.",
+     "Ob Haltung oder Ausdrucksweise, er ist ein wenig unhöflich."
+    ],
+    "explain": "Dient dazu, anhand zweier typischer Punkte ein „Gesamturteil“ abzugeben.\nNicht mit Befehl, Einladung, Absicht. Vor allem mit beschreibenden/wertenden Aussagesätzen.\nMeist mit Nomen; selten direkt mit Adjektiv/Verb. Nicht mit „Vるといい“ (Wunsch „wenn doch“) verwechseln.\nPassend für Schriftsprache, Kommentare, Rezensionen, knappes Lob/knappen Tadel.\n\n- Bedeutung: „Ob N1 oder N2 (in jeder Hinsicht) …“. Fasst Wert/Eindruck von etwas anhand zweier typischer Merkmale zusammen.\n- Nuance: subjektiv wertende Beschreibung, meist positiv (Lob), manchmal negativ (Tadel). Nicht für Bitte/Willen des Sprechers.\n- Subjekt ist meist das Bewertete; N1, N2 sind dessen „typische Seiten“.",
+    "notes": "• Bei mehr als 2 Seiten wird der Satz schwer; meist wählt man nur 2 typische.\n• Geeignet als Eröffnungssatz eines bewertenden Absatzes: „立地といい設備といい、…“\n• Auch zum Tadeln: „雨といい風といい、最悪の天気だ“。",
+    "mistakes": [
+     "Verwechslung mit „Vるといい(ね)“: völlig andere Bedeutung.",
+     "Für eine Bitte/einen Vorschlag verwendet: unpassend.",
+     "Direkt an Verb/Adjektiv ohne Nominalisierung: unnatürlich.",
+     "JLPT: Falle, „AやB“ (bloße Aufzählung) statt „AといいBといい“ (Gesamturteil) zu wählen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "AといいBといい",
+       "Ob man A oder B betrachtet …",
+       "Betont das Gesamturteil",
+       "<ruby>味<rt>あじ</rt></ruby>といい<ruby>値段<rt>ねだん</rt></ruby>といい、<ruby>最高<rt>さいこう</rt></ruby>"
+      ],
+      [
+       "AにしてもBにしても",
+       "Ob A oder B, jedenfalls …",
+       "Umfassender Bereich, neutraler",
+       "<ruby>大人<rt>おとな</rt></ruby>にしても<ruby>子供<rt>こども</rt></ruby>にしても<ruby>楽<rt>たの</rt></ruby>しめる"
+      ],
+      [
+       "AとかBとか",
+       "Zum Beispiel A, B …",
+       "Zählt Beispiele auf, ohne festes Urteil",
+       "<ruby>和食<rt>わしょく</rt></ruby>とか<ruby>洋食<rt>ようしょく</rt></ruby>とか、<ruby>何<rt>なに</rt></ruby>でも<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "AやB",
+       "A und B (Aufzählung)",
+       "Ohne „Bewertung nach Seiten“",
+       "<ruby>味<rt>あじ</rt></ruby>や<ruby>値段<rt>ねだん</rt></ruby>が<ruby>大事<rt>だいじ</rt></ruby>"
+      ],
+      [
+       "Vるといい",
+       "Wunsch „wenn doch/hoffentlich“",
+       "Ganz andere Bedeutung und Verwendung",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>良<rt>よ</rt></ruby>くなるといいね"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1303,
+   "src_hash": "bf749c1e0575f6b9",
+   "fields": {
+    "meaning": "Ungefähr …",
+    "connection": "Vる / N / Mengenangabe + というところだ",
+    "examples": [
+     "Die Vorbereitung ist zu etwa 80 Prozent erledigt.",
+     "Die Ankunft dürfte gegen 15 Uhr sein.",
+     "Die Wachstumsrate liegt dieses Jahr bei etwa plus 5 %.",
+     "Mein Japanisch liegt etwa auf Mittelstufenniveau.",
+     "Bislang sind die Schäden wohl als gering einzustufen.",
+     "Selbst wenn es heute fertig wird, ist es etwa die Hälfte."
+    ],
+    "explain": "Für eine Zusammenfassung/Schätzung nach Abwägen der Daten; im Sinn von „kurz gesagt“.\nMeist mit だろう／でしょう, um das Urteil abzumildern.\nNicht für Befehl/Vorschlag; es ist ein wertender Aussagesatz.\n\n- Bedeutung: „Etwa …, ungefähr …, höchstens um …“. Drückt eine zusammenfassende Schätzung/Bewertung zum Sprechzeitpunkt aus.\n- Nuance: sachlich, etwas förmlich; oft in Berichten, Nachrichten, Fachurteilen. Kann je nach Kontext „höchstens/noch nicht sehr hoch“ andeuten.\n- Meist mit Mengenausdrücken (割, パーセント, 時間, 人, 点…) oder Niveaustufen (初級/中級/平均的…).",
+    "notes": "• Passend, wenn man eine repräsentative Zahl/Einstufung „verankern“ will, ohne dass sie als exakter Wert gilt.\n• Soll es weniger bestimmt klingen, mit でしょう/だろう schließen oder おそらく/たぶん hinzufügen.\n• Bei der Einschätzung von Können/Niveau wirkt es in der Selbstvorstellung höflich-bescheiden.",
+    "mistakes": [
+     "Als absolut exakte Zahl verwendet: falsch; es ist eine Schätzung.",
+     "Verwechslung mit ところ (gerade dabei, im Begriff, soeben): というところだ ist etwas ganz anderes.",
+     "In Befehls-/Vorschlagssätzen: passt nicht zur Funktion.",
+     "JLPT: Falle, せいぜい zu wählen, wenn der Kontext neutral ist (せいぜい hat die Nuance „höchstens“)."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～というところだ",
+       "Etwa/ungefähr, zusammenfassend",
+       "Förmlich, schließend",
+       "８<ruby>割<rt>わり</rt></ruby>というところだ"
+      ],
+      [
+       "～くらい／ぐらい",
+       "Etwa, ungefähr",
+       "Umgangssprache, neutral",
+       "<ruby>３時間<rt>さんじかん</rt></ruby>くらい"
+      ],
+      [
+       "～ほど",
+       "So sehr, ungefähr",
+       "Betont den Grad; mehrdeutig",
+       "<ruby>１０人<rt>じゅうにん</rt></ruby>ほど"
+      ],
+      [
+       "～せいぜい",
+       "Höchstens",
+       "Deutet eine Obergrenze an",
+       "せいぜい<ruby>半分<rt>はんぶん</rt></ruby>"
+      ],
+      [
+       "～といったところだ",
+       "Etwa wie …, so ungefähr …",
+       "Stärkere Abschwächung, zählt Beispiele auf",
+       "３０～４０％といったところだ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1304,
+   "src_hash": "41fddbdf94fdd884",
+   "fields": {
+    "meaning": "Etwa so viel wie …",
+    "examples": [
+     "Der Umsatz hat sich erholt, liegt aber erst bei etwa siebzig Prozent des Niveaus vor Corona.",
+     "Freie Tage gibt es höchstens etwa zwei im Monat.",
+     "Die Vorbereitungszeit beträgt nur etwa eine Woche, was man kaum ausreichend nennen kann.",
+     "Die Bestehensgrenze liegt bei etwa 60 Punkten.",
+     "Meine Bergerfahrung beschränkt sich darauf, einmal an einer Schnuppertour teilgenommen zu haben."
+    ],
+    "explain": "Passend für vorsichtige Aussagen, die Absolutes vermeiden; geeignet für Schriftsprache/Vortrag.\nNicht zum Prahlen/zur Betonung von Überlegenheit; die Nuance „bescheiden, begrenzt“ herrscht vor.\nMeist am Schluss eines Urteils über Zahlen, Grad, Umfang.\n\n• Drückt einen ungefähren Grad oder die Obergrenze „höchstens so viel“ aus, mit bescheidener/einschränkender Nuance.\n• Meist mit begrenzenden Wörtern wie せいぜい、多くても、せめて zur Betonung der Obergrenze.\n• Pragmatik: förmlicher als くらい/ぐらい; oft in Berichten, sachlichen Urteilen.",
+    "notes": "• Gut in wissenschaftlichen Texten/Berichten: offener Schluss, der eine Fehlerspanne lässt.\n• Bei eigenen Erfahrungen/Abschlüssen vermeidet es Prahlerei: „勉強したといったところだ“。\n• Am Satzende hält es den Ton weich, höflich und dennoch genau.",
+    "mistakes": [
+     "Zum Übertreiben verwendet, falsche Nuance: ×最高で100人も来るといったところだ.",
+     "Verwechslung mit くらい: Der JLPT fragt gern nach dem „bescheidenen“ Muster → といったところだ bevorzugen.",
+     "Der Kontext der „Obergrenze“ fehlt: Im Sinn von „mindestens“ steht といったところだ nicht."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～くらい／～ぐらい",
+       "Etwa, ungefähr",
+       "Neutral, umgangssprachlicher; ohne „höchstens“.",
+       "<ruby>30人<rt>さんじゅうにん</rt></ruby>ぐらい<ruby>来<rt>く</rt></ruby>る。"
+      ],
+      [
+       "～ほど",
+       "Grad/Vergleich",
+       "Stark im Grad, auch zum Übertreiben.",
+       "<ruby>息<rt>いき</rt></ruby>ができないほど<ruby>暑<rt>あつ</rt></ruby>い。"
+      ],
+      [
+       "せいぜい～",
+       "Höchstens",
+       "Umgangssprache; kombinierbar: せいぜい<ruby>三回<rt>さんかい</rt></ruby>といったところだ。",
+       "せいぜい<ruby>二<rt>に</rt></ruby><ruby>千<rt>せん</rt></ruby><ruby>円<rt>えん</rt></ruby>。"
+      ],
+      [
+       "～にすぎない",
+       "Nur, nicht mehr als",
+       "Verneint den Wert; stärker im „Herabsetzen“.",
+       "<ruby>誤差<rt>ごさ</rt></ruby>にすぎない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1305,
+   "src_hash": "8a1328a93f135c75",
+   "fields": {
+    "meaning": "… über alle Maßen (tadelnd)",
+    "examples": [
+     "Diese Kälte ist nicht zu beschreiben. Ohne Heizung geht es nicht.",
+     "Wie schmutzig sein Zimmer ist, spottet jeder Beschreibung.",
+     "Das Gedränge im Berufsverkehr ist unbeschreiblich.",
+     "Die Launenhaftigkeit des Chefs ist kaum zu fassen.",
+     "Wie hoch die Gebühren sind, ist nicht zu beschreiben."
+    ],
+    "explain": "Eher Klage/Ärger als Lob.\nUmgangssprache; klingt recht stark und kann gegenüber Fremden/in höflichem Rahmen grob wirken.\nSteht vor einem schließenden/rechtfertigenden Teilsatz: …ので/から/も無理はない…\nLeicht mit Zustandsnomen:混みよう・暑さ・痛み・迷惑・恥ずかしさ…\n\n- Drückt einen äußerst starken Grad aus, „sehr/unbeschreiblich“, meist mit negativem Gefühl (Ärger, Überdruss). „ありはしない“ ist die betonte Verneinung von ある → umgangssprachliche, etwas harte/starke, gefühlsbetonte Nuance.\n• Richtet sich auf den subjektiven Eindruck des Sprechers.\n• Passend für Klage, Kritik, Jammern; selten in förmlicher, sachlicher Schrift.\n• Übertreibend: nicht „gibt es nicht“, sondern „über jedes Sagen hinaus“.",
+    "notes": "• „ありはしない“ = „ありはしない(=全くないわけではない, betonte Verneinung)“ dient der Übertreibung des Grades.\n• Steht meist als selbstständiger Ausrufesatz, danach folgt ein erklärender Satz.\n• Zum Loben selten, aber möglich: ありがたさといったらありはしない (klingt dennoch übertrieben/ungewöhnlich).",
+    "mistakes": [
+     "Direkt mit der Grundform des Verbs: unnatürlich. Besser Nominalisierung der Erscheinung. Falsch) 驚くといったらありはしない → Richtig) 驚きといったらありはしない.",
+     "Nuance verwechselt: Prüfungen fragen gern den Unterschied といったらない (neutral) vs ありはしない (negativ/umgangssprachlich) ab.",
+     "In förmlicher Schrift: unpassend; といったらない/極めて/非常に wählen.",
+     "Sinnlose doppelte Verneinung: „〜ないといったらありはしない“ verwirrt leicht → vermeiden."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "といったらありはしない",
+       "Sehr/unbeschreiblich (umgangssprachlich, stark)",
+       "Meist negativ; klagende Nuance",
+       "<ruby>暑<rt>あつ</rt></ruby>さといったらありはしない。"
+      ],
+      [
+       "といったらありゃしない",
+       "Saloppere Variante",
+       "Gröber, sehr umgangssprachlich",
+       "<ruby>腹<rt>はら</rt></ruby>が<ruby>立<rt>た</rt></ruby>つといったらありゃしない。"
+      ],
+      [
+       "といったらない",
+       "Sehr/unsagbar (neutraler)",
+       "Für Lob wie Tadel",
+       "<ruby>嬉<rt>うれ</rt></ruby>しさといったらない。"
+      ],
+      [
+       "〜のなんのって／〜ことこの<ruby>上<rt>うえ</rt></ruby>ない",
+       "Sehr (umgangssprachlich/schriftlich)",
+       "のなんのって sehr umgangssprachlich; ことこの<ruby>上<rt>うえ</rt></ruby>ない Schriftsprache",
+       "<ruby>迷惑<rt>めいわく</rt></ruby>のなんのって。"
+      ],
+      [
+       "〜てしょうがない／たまらない",
+       "Sehr (körperliches/seelisches Empfinden)",
+       "Richtet sich auf das Empfinden des Subjekts",
+       "<ruby>暑<rt>あつ</rt></ruby>くてたまらない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1306,
+   "src_hash": "a300a340bd8e5201",
+   "fields": {
+    "meaning": "Gleich ob … oder …",
+    "examples": [
+     "Bei Tag wie bei Nacht hören die Sirenen der Rettungswagen nicht auf.",
+     "Im Klassenzimmer ist alles voller Staub, der Boden wie die Tische.",
+     "Kinder wie Erwachsene sind von diesem Anime begeistert.",
+     "Gesicht wie Hände, alles war voller Schlamm.",
+     "Ob werktags oder am Wochenende, die Bibliothek ist voll."
+    ],
+    "explain": "Wenn man das „Ausnahmslose“ in weitem Bereich, das Wiederholte oder Gleichzeitige betonen will.\nDer hintere Teilsatz ist kein direkter Wille/keine direkte Aufforderung. Vermeiden: ×子どもといわず大人といわず、集まりなさい。\nAm natürlichsten mit konkreten Nomen/Gegensatzpaaren; bei Abstrakta abwägen.\n\n• Betont den weiten Bereich: „ohne Ausnahme/ohne Unterschied … oder …, alles …“.\n• Meist mit natürlichen Paaren: 昼／夜, 老人／子供, 左／右, 内／外, 表／裏…\n• Starke, etwas schriftsprachliche Nuance; der hintere Teilsatz ist meist ein andauernder Zustand, etwas Allgemeingültiges oder überall Verbreitetes (～だらけ、～まみれ、～が続く…).",
+    "notes": "• Rhetorisch wirkungsvoll bei „überall/alle zugleich“: schafft leicht Rhythmus, Nachdruck.\n• Gut mit Ausdrücken des Maßes „だらけ／まみれ／いっぱい／あふれる／鳴りやまない／絶えない“.\n• Zur Verstärkung auch drei Glieder (selten): 昼といわず夜といわず朝といわず… doch Weitschweifigkeit vermeiden.",
+    "mistakes": [
+     "Mit Befehl/Willen → unnatürlich.",
+     "Verwechslung mit ～を問わず im Kontext von Schildern/Vorschriften: Der JLPT verlangt meist das förmliche Muster → ～を問わず.",
+     "Nomen, die nicht symmetrisch/nicht aus demselben Bedeutungsfeld sind, machen den Satz gezwungen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～を<ruby>問<rt>と</rt></ruby>わず",
+       "Ungeachtet (neutral)",
+       "Förmlich, betont das Überall-Verbreitete nicht so wie といわず～といわず.",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>を<ruby>問<rt>と</rt></ruby>わず<ruby>参加<rt>さんか</rt></ruby><ruby>可<rt>か</rt></ruby>。"
+      ],
+      [
+       "～にかかわらず",
+       "Ohne Rücksicht auf",
+       "In Vorschriften/Mitteilungen; steife Nuance.",
+       "<ruby>天候<rt>てんこう</rt></ruby>にかかわらず<ruby>開催<rt>かいさい</rt></ruby>。"
+      ],
+      [
+       "～とか～とか",
+       "Aufzählung von Beispielen",
+       "Nur veranschaulichende Aufzählung, umfasst nicht das Ganze.",
+       "<ruby>昼<rt>ひる</rt></ruby>とか<ruby>夜<rt>よる</rt></ruby>とか<ruby>関係<rt>かんけい</rt></ruby>ない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1307,
+   "src_hash": "4d251cbace2ba8f0",
+   "fields": {
+    "meaning": "Gilt als …, wird angesehen als …",
+    "connection": "[Satz/Teilsatz] + とされる とされている / N",
+    "examples": [
+     "Dieses Gebiet gilt als stark erdbebengefährdet.",
+     "Er gilt als führende Autorität auf dem Gebiet der KI.",
+     "Dieser Tempel gilt als der älteste Japans.",
+     "Vitamin D gilt als wichtig für die Knochengesundheit.",
+     "Berichten zufolge wurde der Mann festgenommen, der als Täter gilt.",
+     "Von diesem Brauch hieß es bislang, er bestehe seit der Edo-Zeit."
+    ],
+    "explain": "Wenn man eine neutrale Haltung wahren und nichts absolut behaupten will; passend für Berichte, Abhandlungen, Nachrichten.\nQuelle/Kriterium hinzufügen, um die Grundlage zu klären:一般には／法律上は／統計的には／専門家の間では + 〜とされる.\nNicht für ganz persönliche Meinungen; bei Subjektivem passt と思う／と考える besser.\n\n• Drückt eine Bewertung/Norm/Ansicht aus, die von vielen oder von Fachkreisen anerkannt ist: „gilt als/wird angesehen als“.\n• Sachliche Nuance ohne klaren Urheber; der Sprecher übernimmt keine persönliche Verantwortung für die Bewertung.\n• Unterschied im Grad:\n\n- とされる: verbreiteter Schluss/verbreitete Einstufung (meist in Schriftsprache, Wissenschaft, Recht, Presse).\n\n- とされている: bestehender Zustand einer allgemeinen Einschätzung, etwas weicher.\n\n• Mit Quellenangabe möglich: 専門家によって／法律上／一般には + 〜とされる.",
+    "notes": "• Schlagzeilen lassen das Subjekt oft weg: 「世界最古とされる洞窟を発見」 → „Höhle entdeckt, die als älteste der Welt gilt“.\n• In der Wissenschaft mit 出典/調査名 für mehr Verlässlichkeit: 「〜とされる（Smith, 2021）」.\n• Seltene verneinte Form: 〜とはされない（„gilt nicht als“） beim Ausschluss in Recht/Vorschriften.",
+    "mistakes": [
+     "Nuance verwechselt: とされる ≠ と言われている. JLPT-Fragen zielen oft auf die Sachlichkeit; とされる bei förmlichem/wissenschaftlichem Stil wählen.",
+     "ている vergessen: Soll der andauernde allgemeine Zustand betont werden → とされている bevorzugen.",
+     "Für persönliche Meinungen → falscher Stil. Persönlich besser と思う／と考える.",
+     "Modifikation: N + とされる + N ist eine Pressestruktur; in der Modifikation kein だ vor とされる einschieben."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "〜とされる",
+       "Gilt als (sachlich)",
+       "Schriftsprache, neutral, Urheber unbestimmt",
+       "<ruby>安全<rt>あんぜん</rt></ruby>とされる<ruby>基準<rt>きじゅん</rt></ruby>"
+      ],
+      [
+       "〜と<ruby>見<rt>み</rt></ruby>なされる",
+       "Wird angesehen als (nach Vorschrift/Kriterium)",
+       "Stärker, rechtlich/normativ",
+       "<ruby>不在<rt>ふざい</rt></ruby>と<ruby>見<rt>み</rt></ruby>なされる"
+      ],
+      [
+       "〜と<ruby>考<rt>かんが</rt></ruby>えられている",
+       "Es wird angenommen (auf Argumente gestützt)",
+       "Deutet eine Grundlage in Schluss/Wissenschaft an",
+       "<ruby>起源<rt>きげん</rt></ruby>は<ruby>古代<rt>こだい</rt></ruby>と<ruby>考<rt>かんが</rt></ruby>えられている"
+      ],
+      [
+       "〜と<ruby>言<rt>い</rt></ruby>われている",
+       "Man sagt, dass",
+       "Stützt sich eher auf Gerücht/Hörensagen",
+       "おいしいと<ruby>言<rt>い</rt></ruby>われている"
+      ],
+      [
+       "〜としている",
+       "Festlegen/als Ziel setzen",
+       "Klarer Urheber (Behörde/Organisation), aktiv",
+       "<ruby>政府<rt>せいふ</rt></ruby>は<ruby>目標<rt>もくひょう</rt></ruby>を2％としている"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

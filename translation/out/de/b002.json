@@ -1,0 +1,649 @@
+{
+ "batch": "b002",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 22,
+   "src_hash": "0240b5be69114000",
+   "fields": {
+    "name": "Partikel は",
+    "meaning": "Thema des Satzes | A\nZeigt das Thema eines Satzes an, der über unveränderliche Sachverhalte oder Dinge spricht.\nB\nZeigt das Thema des Satzes an, um es von anderen Bezugsobjekten im Satz abzuheben.\nC\nZeigt das Thema des Satzes zum Zweck des Vergleichs an.\nD\nZeigt die unterste Grenze an.",
+    "examples": [
+     "Ich bin zwanzig Jahre alt.",
+     "Ich bin kein Student.",
+     "Ich komme aus Vietnam.",
+     "Japan hat viele Berge.",
+     "Heute gibt es keine Besprechung.",
+     "Sushi esse ich, aber Ramen esse ich nicht so oft."
+    ],
+    "explain": "Bei der Einführung neuer Informationen verwenden Japaner häufig が; ist bereits ein gemeinsamer Hintergrund vorhanden, wechselt man zu は.\nZwei oder mehr は im selben Satz drücken auf natürliche Weise Vergleich/Gegenüberstellung aus.\nは nach anderen Partikeln (には/では/とは) verstärkt die Nuance „was … betrifft, so …“.\nIn Fragesätzen fragt は meist nach dem allgemeinen Thema; が wird verwendet, um konkret nach „wer/was“ zu fragen.\nIm Gespräch ist ein Themenwechsel mit „ところで、〜は…？“ sehr natürlich.\n\nThema nennen: は markiert „das, worüber gesprochen wird“, nicht unbedingt das grammatische Subjekt.\nKontrast: Stehen mehrere は im selben Satz/Abschnitt, bildet jedes は ein implizites Gegensatzpaar.\nVerallgemeinerung: Wird für allgemeine Aussagen verwendet (日本は…,犬は…が好きだ usw.).\nRahmensetzung (frame-setting): Bei Zeit/Ort legt は den Bereich der Äußerung fest (今日は…,日本では…).\nUnterschied zu が: が markiert einen neuen Handelnden/eine Betonung, während は etwas als bekanntes Thema voranstellt oder den Kontrast betont.",
+    "notes": "Aussprache: は wird als Partikel わ gelesen.\nIm Attributsatz wird は möglichst vermieden, außer bei bewusster Gegenüberstellung; meist sind が/を/に natürlicher.\nDas Bezugsobjekt zum Thema machen: この本を読みました → この本は読みました。\nIn der Schriftsprache wird は verwendet, um den Argumentationsgang aufzubauen:前提は…,問題は…,結論は…",
+    "mistakes": [
+     "Falsch:誰は来ましたか → Richtig:誰が来ましたか (Fragewort + が).",
+     "Verwechslung von は und が bei der Einführung neuer Informationen: „新しい先生が来ました“ ist natürlicher als „は“.",
+     "Verwendung von は in einem Nebensatz ohne Gegenüberstellung → klingt gezwungen:私は[昨日は買った本]を読む → は im Nebensatz sollte weggelassen werden.",
+     "Zu viele は hintereinander machen den Satz schwerfällig; eine Auslassung oder der Wechsel zu が/を ist zu erwägen.",
+     "Im JLPT wird oft nach dem Unterschied der Nuance gefragt: AはBが… (was A betrifft, so … B …) vs AがBは… mit anderem Schwerpunkt."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "は",
+       "Markiert Thema/Gegenüberstellung",
+       "Bekannte Information/Äußerungsrahmen",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>。"
+      ],
+      [
+       "が",
+       "Subjekt/Betonung, Einführung von Neuem",
+       "Betont „wer/was“ bei der ersten Erwähnung",
+       "<ruby>誰<rt>だれ</rt></ruby>が<ruby>来<rt>き</rt></ruby>た？ <ruby>太郎<rt>たろう</rt></ruby>が<ruby>来<rt>き</rt></ruby>た。"
+      ],
+      [
+       "も",
+       "Auch/alle",
+       "Hinzufügung zur Menge der Handelnden/Bezugsobjekte",
+       "<ruby>私<rt>わたし</rt></ruby>も<ruby>学生<rt>がくせい</rt></ruby>。"
+      ],
+      [
+       "こそ",
+       "Gerade/eben",
+       "Starke Betonung, gesprochene Sprache/Schriftsprache",
+       "<ruby>君<rt>きみ</rt></ruby>こそ<ruby>英雄<rt>えいゆう</rt></ruby>だ。"
+      ],
+      [
+       "とは",
+       "Definition/Betonung von",
+       "Förmlicher als は, Nuance „ist …“",
+       "<ruby>幸福<rt>こうふく</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>か。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 23,
+   "src_hash": "d9980800dd969f83",
+   "fields": {
+    "name": "Partikel へ",
+    "meaning": "wird verwendet, um die Richtung anzugeben. Steht meist mit Bewegungsverben.",
+    "connection": "N (Richtung/Ort) + へ + V der Bewegung",
+    "examples": [
+     "A: Wohin sind Sie gestern gegangen?\nB: Ich bin in die Bibliothek gegangen.",
+     "A: Wohin gehen Sie morgen?\nB: Ich gehe zu meinem Schatz nach Hause."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 24,
+   "src_hash": "904eda812260e135",
+   "fields": {
+    "name": "Partikel も",
+    "meaning": "Auch …, ganze …, sowohl … | Auch, ebenso wie | A\nFügt gleichartige Bezugsobjekte hinzu.\nB\nSteht häufig mit Mengenwörtern oder der Verbindung　„なん　＋ Zählwort“　, um eine große Anzahl zu betonen.\nC\nSteht häufig mit der Verbindung „1 + Zählwort“ in verneinten Sätzen, um zu betonen, dass überhaupt nichts vorhanden ist.\nD\nSteht häufig mit einem Fragewort ( + Partikel), um den verneinten Satz zu betonen.\nE\nNennt ein extremes Beispiel, um anzudeuten, dass Geringeres oder noch Höheres selbstverständlich ist.",
+    "examples": [
+     "Ich gehe auch.",
+     "Er kann sowohl Englisch als auch Japanisch sprechen.",
+     "Niemand ist gekommen.",
+     "Ich habe kein einziges Mal einen Fehler gemacht.",
+     "Man hat mich ganze drei Stunden warten lassen.",
+     "In dieser Stadt ist es überall ruhig."
+    ],
+    "explain": "Betonung von „auch/zugleich“: も tritt an die Stelle der ursprünglichen Partikel (は/が/を) oder steht nach anderen Partikeln (にも/からも).\n„Sogar“ impliziert meist Überraschung/Unerwartetes und ist bedeutungsnah zu さえ/まで (さえ ist jedoch stärker).\nMit Fragewort + も: Bejahung → Bedeutung „alle/überall“, Verneinung → „kein …“.\n数量+ も: betont den Grad des Vielen/Wenigen (少しも～ない = nicht einmal ein bisschen).\nIn langen Aufzählungen wirkt も umfassender als や (unvollständige Aufzählung).\n\n• Bedeutung „auch“: Fügt eine Information hinzu, die in dieselbe Richtung geht wie das bereits Genannte. Beispiel: 田中さんも来ます (Tanaka kommt auch).\n• Bedeutung „sogar/selbst“: Betont das Überraschende, Extreme. Beispiel: 子どもも分かる (selbst Kinder verstehen es).\n• Parallele Aufzählung: AもBも～ (sowohl A als auch B). Erweiterbar: AもBもCも～.\n• Totalverneinung mit Fragewort: 誰も～ない, 何も～ない, どこも～ない → „kein …“.\n• Betonung von Menge/Häufigkeit: 数量 + も (ganze …), 何度 + も (viele Male).\n• In der Bejahung bedeuten manche Fragewörter + も „alle/jeder/überall“: 誰もが, どこも, いつも.",
+    "notes": "• „誰もが/皆もが“ wird in der Schriftsprache verwendet, um ein allgemeingültiges Subjekt zu betonen: 誰もが知っている事実だ。\n• „少しも～ない/ちっとも～ない“ hat die Nuance „nicht einmal ein bisschen“.\n• Doppelte Kombination: ここにもあそこにも雪が残っている (sowohl hier als auch dort).\n• In Sätzen der Bedingung oder Einräumung übernimmt も nicht die Rolle von „auch wenn“ (das ist ても). Verwechslung vermeiden: いくら勉強しても vs いくら～ても (richtig ist ても).\n[Fragewort]も～ない oder hier zusammenfassen.",
+    "mistakes": [
+     "Falsch: 何もあります。→ Richtig: 何もありません (疑問語+も erfordert Verneinung).",
+     "Verwechslung von も und でも: だれでも (jeder) ≠ だれも (jeder … in der Bejahung sehr eingeschränkt; meist wird 誰もが verwendet).",
+     "Vergessen, die Partikel zu ersetzen: を/が/は → も, wenn „auch“ betont werden soll.",
+     "Übermäßiger Gebrauch von 数量+も in unnatürlichem Maß: 三分も待った (ganze 3 Minuten) passt nur, wenn man wirklich betonen will, dass es viel ist.",
+     "Doppelte Verneinung mit AもBも～ない: darauf achten, dass das Verb in der verneinten Form für beide gemeinsam steht."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "も",
+       "auch/sogar",
+       "Neutral, breiter Bereich",
+       "<ruby>私<rt>わたし</rt></ruby>も<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "まで",
+       "sogar/bis hin zu",
+       "Betont das Ausmaß der Ausdehnung, meist neutral",
+       "<ruby>夜中<rt>よなか</rt></ruby>まで<ruby>勉強<rt>べんきょう</rt></ruby>した。"
+      ],
+      [
+       "さえ",
+       "sogar (stark)",
+       "Stark, überraschendere Nuance als も",
+       "<ruby>子<rt>こ</rt></ruby>どもでさえ<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "AもBも",
+       "sowohl A als auch B",
+       "Parallel, gleichgerichtet",
+       "<ruby>水<rt>みず</rt></ruby>もお<ruby>茶<rt>ちゃ</rt></ruby>もある。"
+      ],
+      [
+       "AやB",
+       "A und B (usw.)",
+       "Unvollständige Aufzählung",
+       "<ruby>水<rt>みず</rt></ruby>やお<ruby>茶<rt>ちゃ</rt></ruby>がある。"
+      ],
+      [
+       "<ruby>疑問<rt>ぎもん</rt></ruby><ruby>語<rt>ご</rt></ruby> + も + ない",
+       "kein …",
+       "Verneinung obligatorisch",
+       "<ruby>何<rt>なに</rt></ruby>もない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 25,
+   "src_hash": "616f3b1ebd8a24b6",
+   "fields": {
+    "name": "Partikel を",
+    "meaning": "Objekt, Bezugsobjekt der Handlung",
+    "examples": [
+     "Ich schließe das Fenster.",
+     "Ich gehe die Straße entlang.",
+     "Ich verlasse den Bahnhof.",
+     "Ich bringe mein Kind zur Schule.",
+     "Ich setze den Preis auf 100 Yen fest.",
+     "Man nennt ihn einen Helden."
+    ],
+    "explain": "Unterscheidung transitives Verb/intransitive: Transitive Verben stehen mit を, intransitive Verben meist mit が.\nPunkt des Verlassens:駅 を 出る ~駅 から 出る sind beide richtig; を betont „diesen Punkt verlassen“, から bezeichnet neutral die Herkunft.\nIn der gesprochenen Sprache wird を wie お ausgesprochen.\nSoll der Handelnde betont werden, kann Nを zu Nは umgewandelt und so zum Thema gemacht werden.\n\nを markiert das Bezugsobjekt, auf das die Handlung direkt einwirkt (transitives Verb).\nBei bestimmten Bewegungsverben bezeichnet を die Strecke/den durchquerten Punkt; bei出る/離れる bezeichnet を den Punkt des Verlassens.\nDie Muster „NをNに/とする・呼ぶ“ drücken Veränderung/Festlegung als/Benennung aus.\nZeitspanne + を zeigt, dass diese Zeitspanne „verbraucht/genutzt“ wird.",
+    "notes": "Viele feste Wendungen verwenden を:息をする,音楽をやる,夢を見る (wobei夢を見る ein implizites を ist).\n„を通じて／を通して“ kann „hindurch/über“ bedeuten, sowohl im zeitlichen Sinn als auch im Sinn des Mittels.\nIn förmlichem Stil: „これをもちまして終了といたします。“ (をもって = mit/ab).",
+    "mistakes": [
+     "を einem intransitiven Verb zugeordnet: ×ドアを開く → ◯ドアが開く (öffnet sich von selbst); ◯ドアを開ける (öffnen).",
+     "Fehler in Verbindung mit行く/来る: ×日本を行く → ◯日本へ/に行く (außer bei einer Strecke:道を行く).",
+     "Verwechslung von を und で: ×学校を勉強する → ◯学校で勉強する.",
+     "Auslassung von を in einer Aufzählung: ×本、雑誌読む → ◯本や雑誌を読む."
+    ],
+    "comparison": {
+     "headers": [
+      "Partikel",
+      "Funktion",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "を",
+       "Objekt; Strecke; Punkt des Verlassens",
+       "Direkte Einwirkung/Durchqueren",
+       "<ruby>道<rt>みち</rt></ruby>を<ruby>走<rt>はし</rt></ruby>る。"
+      ],
+      [
+       "に",
+       "Ziel/Zielpunkt; Zeitpunkt",
+       "Konkretes Ziel, keine Strecke",
+       "<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "へ",
+       "Richtung",
+       "Vager als に",
+       "<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "で",
+       "Ort der Handlung; Mittel",
+       "Markiert kein Objekt",
+       "<ruby>学校<rt>がっこう</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>する。/ バスで<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "から",
+       "Ausgangspunkt",
+       "Herkunft, kein Objekt",
+       "<ruby>駅<rt>えき</rt></ruby>から<ruby>出<rt>で</rt></ruby>る。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 26,
+   "src_hash": "2cf97440aee89a96",
+   "fields": {
+    "name": "い-Adjektiv (Aイ)",
+    "meaning": "い-Adjektiv: steht als Prädikat (in höflicher Rede mit です) oder vor einem Nomen, um dieses zu modifizieren.",
+    "connection": "Aい + (です)（Vergangenheit: Aかった / Verneinung: Aくない）",
+    "examples": [
+     "Diese Tasche ist teuer.",
+     "Gestern war es sehr kalt.",
+     "Dieses Buch ist nicht interessant."
+    ],
+    "explain": "Bsp.: きのうは　とても　いそがしかったです。 Gestern war ich sehr beschäftigt."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 27,
+   "src_hash": "be524f915ee89270",
+   "fields": {
+    "name": "な-Adjektiv (Aナ)",
+    "meaning": "な-Adjektiv: steht als Prädikat mit です; modifiziert es ein Nomen, wird な hinzugefügt (Na + な + N).",
+    "connection": "Na + です（Vergangenheit: Naでした / Verneinung: Naじゃありません）",
+    "examples": [
+     "Diese Stadt ist sehr ruhig.",
+     "Tanaka ist ein freundlicher Mensch.",
+     "Diese Aufgabe ist nicht einfach."
+    ],
+    "explain": "Bsp.: しんかんせんは　とても　べんりです。 Der Shinkansen ist sehr praktisch."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 28,
+   "src_hash": "75da03153b4b5148",
+   "fields": {
+    "meaning": "Nominalisierung des Verbs",
+    "connection": "Vる + こと + [Partikel は/が/を]",
+    "examples": [
+     "Japanisch zu lernen macht Spaß.",
+     "Ich höre gern Musik.",
+     "Mein Hobby ist Bücherlesen.",
+     "Jeden Tag zu Fuß zu gehen ist gut für die Gesundheit.",
+     "Kann man hier Fotos machen?"
+    ],
+    "explain": "Vる + こと wird verwendet, wenn in der Schriftsprache/in förmlichem Ton nominalisiert werden muss.\nSteht wie ein Nomen mit は/が/を:食べること は …,読むこと が 好き…,作ること を 学ぶ…\nHäufig bei Ausdrücken für Vorlieben, Gewohnheiten und Grundsätze.\n\n～ること nominalisiert einen verbalen Teilsatz: „das …“, „die Tatsache, dass …“.\nVerwendung:\nAls Subjekt/Thema:食べることは大切です。\nIn Verbindung mit Adjektiven/Verben der Bewertung: ピアノを弾くことが好きです。\nDefinition, Beschreibung von Regeln/Gewohnheiten:朝早く起きること。\nAls Subjekt/Thema:食べることは大切です。\nIn Verbindung mit Adjektiven/Verben der Bewertung: ピアノを弾くことが好きです。\nDefinition, Beschreibung von Regeln/Gewohnheiten:朝早く起きること。\nNuance: förmlich, allgemeiner/abstrakter als の.",
+    "notes": "Auf Tafeln mit Hausordnungen kann こと als Befehl/Regel verwendet werden: ～すること (bitte …), ～しないこと (… ist nicht erlaubt).\nSoll ein Gefühl/etwas Konkretes betont werden, ist im Gespräch der Wechsel zu の natürlicher.",
+    "mistakes": [
+     "Verwechslung mit の: In der Schriftsprache sollte こと verwendet werden; in lockerer Umgangssprache の. Eine falsche Mischung macht den Satz unnatürlich.",
+     "Fehlende Partikel: ×読むこと好き → ✓読むことが好き.",
+     "こと direkt an ein Nomen/Adjektiv anhängen (falsch): こと nominalisiert nur Verben/Teilsätze."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "Vる + こと",
+       "Nominalisierung (förmlich/allgemein)",
+       "Verbreitet im Schriftlichen, bei Definitionen",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>することは<ruby>大切<rt>たいせつ</rt></ruby>"
+      ],
+      [
+       "Vる + の",
+       "Nominalisierung (informell/konkret)",
+       "Gesprochene Sprache, vertraut",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>するのは<ruby>大変<rt>たいへん</rt></ruby>"
+      ],
+      [
+       "Vる + ことができます",
+       "Etwas tun können",
+       "Bedeutung von Fähigkeit/Möglichkeit",
+       "<ruby>泳<rt>およ</rt></ruby>ぐことができます"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 29,
+   "src_hash": "64c04e621198adf4",
+   "fields": {
+    "meaning": "Informelle Nominalisierung",
+    "connection": "Vる + の + [Partikel は/が/を]",
+    "examples": [
+     "Ich spreche gern Japanisch.",
+     "Kochen macht Spaß.",
+     "Früh aufzustehen fällt mir etwas schwer.",
+     "Ich spiele gern mit Hunden.",
+     "Bitte helfen Sie mir beim Schreiben der Schriftzeichen."
+    ],
+    "explain": "Wird im alltäglichen, lockeren Gespräch verwendet; ist mit です/ます auch in höflicher Rede akzeptabel.\nNach の stehen Partikeln wie nach einem Nomen: のは／のが／のを.\nSoll es förmlich/allgemein klingen, wechselt man zu こと.\n\n～るの nominalisiert eine Handlung in der gesprochenen Sprache; die Nuance ist natürlich und vertraut.\nWird häufig mit Ausdrücken für Vorlieben/Fähigkeiten/Empfindungen verwendet: ～のが好き／上手／苦手／楽しい.\nIm Vergleich zu こと betont の eher die konkrete Situation und die persönliche Erfahrung als das Allgemeine.",
+    "notes": "Bei unmittelbaren Gefühlen/Empfindungen klingt の natürlicher:怖い映画を見るのは苦手。\nIn Überschriften/Hausordnungen wird の vermieden und こと bevorzugt, um förmlich zu klingen.",
+    "mistakes": [
+     "Verwechslung der Partikel: ×読むのは好き → das Prädikat fehlt; richtig:読むのが好きです.",
+     "Verwendung von の in förmlichen Texten: sollte durch こと ersetzt werden.",
+     "の direkt nach einem Nomen/Adjektiv zu verwenden ist falsch; の nominalisiert hier einen verbalen Teilsatz."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "Vる + の",
+       "Nominalisierung (informell/konkret)",
+       "Natürlich im Gespräch",
+       "<ruby>読<rt>よ</rt></ruby>むのが<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "Vる + こと",
+       "Nominalisierung (förmlich/allgemein)",
+       "Häufig im Schriftlichen/bei Vorstellungen",
+       "<ruby>読<rt>よ</rt></ruby>むことが<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "～のです／んです",
+       "Erklärung eines Grundes",
+       "Andere Funktion; nicht nur Nominalisierung",
+       "<ruby>雨<rt>あめ</rt></ruby>なんです"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 30,
+   "src_hash": "5ab89999560b13db",
+   "fields": {
+    "name": "～から（Ausgangspunkt）",
+    "meaning": "Partikel, die den Ausgangspunkt angibt",
+    "examples": [
+     "Ich komme aus Bangkok.",
+     "Ich komme aus Vietnam.",
+     "Ich habe es aus Hokkaidō hergebracht.",
+     "Ich ziehe aus Yokohama weg."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 31,
+   "src_hash": "ef91e135bbb3894d",
+   "fields": {
+    "meaning": "Ausdruck dafür, dass man jemanden mag / nicht mag",
+    "examples": [
+     "Ich liebe Manga und Anime.",
+     "Ich mag Rot und Gelb.",
+     "Ich bade nicht gern.",
+     "Können Sie mich nicht leiden?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 32,
+   "src_hash": "cd186ef04f78e5b4",
+   "fields": {
+    "meaning": "Drückt aus, was oder wer eine Sache oder Person ist",
+    "connection": "Nです / Naです / Aいです（Verneinung: N/Naではありません・じゃありません）",
+    "examples": [
+     "Ich bin Tasu.",
+     "Ich bin Student.",
+     "Er ist kein Japaner.",
+     "Ist die Person nebenan eine Frau?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 33,
+   "src_hash": "2ba395da335f9af8",
+   "fields": {
+    "name": "Datum zählen (Monat und Tag)",
+    "meaning": "Welcher Monat?\nWelcher Tag\nDas Datum wird in folgender Reihenfolge genannt: Jahr / Monat / Tag / Wochentag",
+    "examples": [
+     "Mein Geburtstag ist am 20. Juli.",
+     "Die Prüfung ist am Montag, dem 9. Oktober.",
+     "A: Welches Datum haben wir heute?\nB: Den 1. April."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 34,
+   "src_hash": "9a30398f8af33ee8",
+   "fields": {
+    "name": "Verben in Vergangenheit, Gegenwart und Zukunft",
+    "meaning": "4 Formen der Konjugation mit ます: Bejahung/Verneinung × Vergangenheit/Nicht-Vergangenheitsform",
+    "examples": [
+     "arbeite\narbeite nicht\nhabe gearbeitet\nhabe nicht gearbeitet",
+     "lerne\nlerne nicht\nhabe gelernt\nhabe nicht gelernt"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 35,
+   "src_hash": "5ce5979ef70a9364",
+   "fields": {
+    "name": "„Wort/Satz“ は　～語で何ですか",
+    "meaning": "Wie heißt … auf ~? (Frage nach dem Ausdruck in einer anderen Sprache)",
+    "examples": [
+     "A: Wie heißt das hier auf Japanisch?\nB: Es heißt 「パソコン」.",
+     "A: Wie heißt 「ありがとう」 auf Englisch?"
+    ],
+    "explain": "Wird verwendet, um zu fragen, wie die Bedeutung eines Wortes oder Satzes in einer anderen Sprache ausgedrückt wird."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 36,
+   "src_hash": "29f0ee333608ab5d",
+   "fields": {
+    "meaning": "Schenken.",
+    "examples": [
+     "Ich habe einem Freund einen Bleistift geschenkt.",
+     "Matsumoto hat Lehrer Harada einen französischen Wein geschenkt."
+    ],
+    "explain": "Jemand schenkt jemand anderem etwas.\nWird nicht verwendet, wenn ein anderer einem selbst etwas schenkt.",
+    "notes": "explain: Perspektive: あげます stellt den Gebenden auf die Seite des Sprechers/der Gruppe des Sprechers oder eines Dritten (nicht auf „mich“ gerichtet).\nHöflichkeit: Gegenüber Höhergestellten sollte さしあげます verwendet werden; bei kleinen Kindern/Tieren kann やります verwendet werden (salopp).\nFür den Empfänger wird nicht へ verwendet; に ist obligatorisch: N2 に N3 を あげます。\nAlltägliche Fragen und Antworten:誰に～をあげますか／何をあげますか。\nexamples: 1. 私は友だちにプレゼントをあげます。\nIch mache einem Freund ein Geschenk.\n2. 母は近所の子どもにお菓子をあげました。\nMeine Mutter hat den Kindern aus der Nachbarschaft Süßigkeiten gegeben.\n3. 兄は妹にお金をあげません。\nMein älterer Bruder gibt meiner jüngeren Schwester kein Geld.\n4. 私は先生に花をさしあげます。\nIch überreiche dem Lehrer Blumen.\n5. 田中さんは彼女に本をあげました。\nTanaka hat ihr ein Buch geschenkt.\n6. 週末、子どもにおもちゃをあげますか。— はい、あげます。\nSchenken Sie Ihrem Kind am Wochenende Spielzeug? — Ja.\n7. 私は友だちに宿題を手伝ってあげます。\nIch helfe einem Freund bei den Hausaufgaben (ich tue es „für“ ihn).\nexplain: Neutrale Nuance, mäßig höflich; nicht verwenden, wenn der Empfänger im beruflichen Kontext ein Höhergestellter ist.\nWird häufig in objektiven Beschreibungen verwendet: A が B に何々 を あげる (Buch, Blumen, Geschenk …).\nBei „abstrakten“ Dingen wie時間/機会/情報: あげる ist möglich, in gehobener Schriftsprache verwendet man jedoch meist与える/提供する.\nIm Vergleich zu ～てあげる (etwas für jemanden tun) geht es bei diesem Muster um das konkrete „Geben einer Sache“.\nexamples: 1. 私は友だちに花をあげた。\nIch habe einem Freund Blumen geschenkt.\n2. 父が近所の子に本をあげることにした。\nMein Vater hat beschlossen, dem Nachbarskind ein Buch zu schenken.\n3. 彼女は後輩にアドバイスをあげた。\nSie hat ihrem Kōhai einen Ratschlag gegeben.\n4. 姉が子どもにおもちゃをやった。\nMeine ältere Schwester hat dem Kind Spielzeug gegeben. (informell, mit やる)\n5. 私は先生にプレゼントをさしあげた。\nIch habe dem Lehrer ein Geschenk überreicht. (wird verwendet, wenn der Empfänger ein Höhergestellter ist)\n6. （×）彼が私にチケットをあげた→彼が私にチケットをくれた。\n(Korrektur) Er hat mir ein Ticket geschenkt → くれる verwenden.\ncomparison: Grammatikmuster | Bedeutung | Gemeinsamkeit/Unterschied | Kurzbeispiel\nN をあげる | Geben/schenken (neutral) | Perspektive des Gebenden | 私（わたし）は彼（かれ）に本（ほん）をあげた\nN をやる | Geben (informell, an Niedrigergestellte) | Weniger höflich als あげる | 犬（いぬ）に水（みず）をやる\nN をくれる | Jemand schenkt mir/meiner Gruppe etwas | Perspektive des Empfängers (ich) | 友（とも）だちが私（わたし）に花（はな）をくれた\nN をくださる | Ein Höhergestellter schenkt mir etwas | Keigo-Form von くれる | 部長（ぶちょう）が資料（しりょう）をくださった\nN をもらう | Von jemandem bekommen | Perspektive des Empfängers (neutral) | 私（わたし）は友（とも）だちから花（はな）をもらった\nN をいただく | Bekommen (bescheidene Sprache) | Sehr höflich | 先生（せんせい）から本（ほん）をいただいた\nN をください | Bitte (geben Sie mir bitte …) | Satz der Bitte, keine Beschreibung | 水（みず）をください\nVてあげる | V für jemanden tun | Kein „Geben einer Sache“ | 手伝（てつだ）ってあげる\ncommon_mistakes: • Verwendung von あげる, wenn der Empfänger „ich/wir“ ist: falsche Perspektive. Korrektur: くれる/くださる.\n• Verwendung von あげる, wenn der Empfänger im höflichen Kontext ein Höhergestellter ist: klingt wenig höflich. Korrektur: ～をさしあげる.\n• Verwechslung der Partikeln: „B に N を あげる“ (nicht „B を N に“).\n• Verwechslung mit anderen Bedeutungen von 上げる („heben“, „erhöhen“): Der Kontext „überreichen/geben“ ist nötig.\n• Verwendung von あげる mit einem Abstraktum ist unnatürlich: in förmlichem Stil werden 与える/提供する bevorzugt (例: 情報を与える).\nmeaning_vi: Drückt die Übertragung des Eigentumsrechts auf das Gegenüber aus.\nexamples: 1. ①　えさを　あげてはいきません。\nTiere dürfen nicht gefüttert werden.\n2. ②　わたしは　かのじょに　ゆびわを　あげます。\nIch schenke ihr einen Ring.\n3. ③　母に　花を　あげました。\nIch habe meiner Mutter Blumen geschenkt.\n4. ④　この　ゆびわは　あなたに　あげます。\nDiesen Ring schenke ich dir.",
+    "mistakes": [
+     "Verwechslung der Richtung des Gebens: Verwendung von あげます, wenn der Empfänger „ich“ ist → falsch. Es muss くれます oder もらいます verwendet werden.",
+     "Falsche Partikel für den Empfänger: を statt に. Richtig: N2にN3をあげます。",
+     "Vertauschte Rollen: „本は友だちにあげます“ ist möglich, aber wenn klar sein muss, wer gibt, ist ein Subjekt nötig:私は友だちに本をあげます。",
+     "あげます gegenüber Höhergestellten klingt nicht bescheiden genug; besser さしあげます wählen.",
+     "Verwendung mit unbelebtem Handelndem: ×雨は木に水をあげます → Natürlicher:雨が木に水を与えます／雨は木に水をやります（nur in besonderem Kontext verwendbar)."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "N1 は N2 に N3 を あげます",
+       "N1 gibt N2 N3",
+       "Nach außen gerichtet",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちに<ruby>本<rt>ほん</rt></ruby>をあげます。"
+      ],
+      [
+       "N1 は <ruby>私<rt>わたし</rt></ruby>(たち) に N3 を くれます",
+       "N1 gibt mir/uns N3",
+       "Auf den Sprecher gerichtet",
+       "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>私<rt>わたし</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>をくれました。"
+      ],
+      [
+       "<ruby>私<rt>わたし</rt></ruby>は N1 に N3 を もらいます",
+       "Ich bekomme N3 von N1",
+       "Perspektive des „Bekommens“",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>田中<rt>たなか</rt></ruby>さんに<ruby>本<rt>ほん</rt></ruby>をもらいました。"
+      ],
+      [
+       "N2 に V-て あげます",
+       "V für N2 tun",
+       "Eine „Handlung“ geben",
+       "<ruby>妹<rt>いもうと</rt></ruby>に<ruby>教<rt>おし</rt></ruby>えてあげます。"
+      ],
+      [
+       "N2 に N3 を やります",
+       "Geben (informell/niedriger)",
+       "Bei kleinen Kindern/Tieren/Pflanzen verwendet",
+       "<ruby>犬<rt>いぬ</rt></ruby>に<ruby>水<rt>みず</rt></ruby>をやります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 37,
+   "src_hash": "b5663a7f135190a0",
+   "fields": {
+    "meaning": "Von … bis",
+    "examples": [
+     "Die Bank hat ab 9 Uhr geöffnet.",
+     "A: Von welchem Wochentag bis zu welchem Wochentag lernen Sie jede Woche?\nB: Ich lerne von Montag bis Freitag.",
+     "A: Von welchem Wochentag bis zu welchem Wochentag ist Schule?\nB: Von Montag bis Freitag."
+    ],
+    "explain": "から bezeichnet den Anfangspunkt, まで den Endpunkt einer Zeit oder eines Ortes.\nから、 まで können getrennt verwendet werden und müssen nicht unbedingt mit einem Verb stehen.\nWiederholung der Zählweisen für Wochentage, Tage und Uhrzeiten: Siehe\n\nから：von, ab\nまで：bis",
+    "notes": "explain: Neutral, mäßig förmlich; in gesprochener Sprache und Schriftsprache verwendbar.\nBei klarem Kontext kann ein Satzteil verkürzt werden: ここ から （～） oder （～） まで ですが…, das Standardmuster ist jedoch das vollständige Paar.\nKann vor einem Nomen stehen: AからBまでのN (Fahrkarte, Strecke, Bereich).\nNicht zu verwechseln mit ～までに (Frist) oder ～までで (bis dahin und dann Schluss).\nKombination mit Mittel/Ziel: AからBまでNで行く／AからBまでNに送る…\nexamples: 1. 東京から大阪まで新幹線で行きます。\nIch fahre mit dem Shinkansen von Tokio nach Osaka.\n2. 会議は9時から11時までです。\nDie Besprechung dauert von 9 bis 11 Uhr.\n3. ここから駅までは歩いて10分くらいです。\nVon hier bis zum Bahnhof sind es zu Fuß etwa 10 Minuten.\n4. 子どもから大人まで楽しめる映画だ。\nEs ist ein Film, an dem von Kindern bis zu Erwachsenen alle Freude haben können.\n5. この店は月曜から金曜まで営業しています。\nDieses Geschäft hat von Montag bis Freitag geöffnet.\n6. 5ページから10ページまでを読んでください。\nBitte lesen Sie von Seite 5 bis Seite 10.\n7. 1万円から3万円までの予算で探しています。\nIch suche mit einem Budget von 10.000 bis 30.000 Yen.\n8. 北から南まで全国的に雨でしょう。\nVon Norden bis Süden wird es wohl landesweit regnen.",
+    "mistakes": [
+     "Verwechslung mit ～までに: „5時から7時までに“ gibt den Sinn falsch wieder; es muss „5時から7時まで“ heißen.",
+     "Weglassen eines Satzteils führt zu Unklarheit: Nur „5時からです“ sagen, wenn der Endpunkt aus dem Kontext klar ist; andernfalls fehlt Information.",
+     "Verwendung von ～から～まで für die Dauer (duration), obwohl ～まで allein genügt: „9時まで働く“ reicht aus, wenn kein Anfangspunkt nötig ist.",
+     "Falsche Reihenfolge: „大阪まで東京から行く“ ist unnatürlich; es sollte „東京から大阪まで行く“ heißen.",
+     "Verwechslung der Bedeutung von ～から (Grund) mit ～から (Anfangspunkt): Man muss sich nach der Position und der Struktur des Satzes richten."
+    ],
+    "comparison": {
+     "headers": [
+      "Grammatikmuster",
+      "Bedeutung",
+      "Gemeinsamkeit/Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～から～まで",
+       "Von A bis B (klarer Bereich)",
+       "Anfangs- und Endpunkt klar, meist beide eingeschlossen",
+       "<ruby>9時<rt>きゅうじ</rt></ruby>から<ruby>11時<rt>じゅういちじ</rt></ruby>まで"
+      ],
+      [
+       "～から～にかけて",
+       "Von A bis B (ungefähr)",
+       "Punkte unscharf, ungefährer Bereich",
+       "<ruby>週末<rt>しゅうまつ</rt></ruby>から<ruby>来週<rt>らいしゅう</rt></ruby>にかけて"
+      ],
+      [
+       "～までに",
+       "Vor/bis zur Frist B",
+       "Frist, kein Anfangspunkt genannt",
+       "<ruby>5時<rt>ごじ</rt></ruby>までに<ruby>終<rt>お</rt></ruby>える"
+      ],
+      [
+       "～から (Grund)",
+       "Weil …",
+       "Völlig andere Bedeutung (Grund)",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ],
+      [
+       "～<ruby>間<rt>かん</rt></ruby>",
+       "Während des gesamten Zeitraums A–B",
+       "Betont die ununterbrochene Dauer",
+       "<ruby>夏<rt>なつ</rt></ruby>の<ruby>間<rt>ま</rt></ruby><ruby>休<rt>やす</rt></ruby>む"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

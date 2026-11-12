@@ -1,0 +1,618 @@
+{
+ "batch": "b069",
+ "lang": "de",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 1052,
+   "src_hash": "39dd28835c628f84",
+   "fields": {
+    "meaning": "Oder",
+    "examples": [
+     "Sie können bar oder mit Kreditkarte bezahlen.",
+     "Die Teilnahme ist morgen oder auch nächste Woche möglich.",
+     "Persönlich oder online – wofür entscheiden Sie sich?",
+     "Möglicherweise liegt die Ursache in einem Einstellungsfehler.",
+     "Bitte reichen Sie die Unterlagen auf Japanisch oder Englisch ein."
+    ],
+    "explain": "Die Form „N、あるいは N“ ist in förmlichen Bekanntmachungen/Anleitungen verbreitet.\nAm Satzanfang hat „あるいは、...“ die Nuance einer höflichen Vermutung.\nIn Auswahlfragen besser それとも; „Xか、あるいはYか“ ist betonend/schriftlich.\n\n- Konjunktion/Adverb mit der Bedeutung „oder; oder aber; vielleicht“.\n- Förmliche Nuance, geeignet für offizielle Texte, Vorschriften, technische Beschreibungen.\n- Mit „か“: der Rahmen „Xか、あるいはYか“ betont zwei einander ausschließende Möglichkeiten.",
+    "notes": "• Bei mehr als 2 Gliedern möglich: A、B、あるいはC のいずれか.\n• „あるいは“ kann mitten im Satz stehen, mit Komma davor und danach, um den Gedanken klar abzutrennen.\n• In technischen Spezifikationen haben „または“ und „もしくは/あるいは“ manchmal einen unterschiedlichen Umfang; das richtet sich nach der Konvention des Dokuments. explain: Wahl zwischen zwei Dingen, zwei Seiten.\nSteife Ausdrucksweise für　「または」 ⏐ examples: 1. ファックス、あるいはメールでお知らせください。\nBitte teilen Sie es per Fax oder E-Mail mit.\n2. 来週の火曜日の午後はどうですか。あるいは水曜日の午前でもかまいませんが・・・。\nWie wäre es am Dienstagnachmittag nächster Woche? Oder auch am Mittwochvormittag, das wäre ebenfalls in Ordnung …",
+    "mistakes": [
+     "Falsche Partikelverbindung: (x) A あるいは B か → (o) A か、あるいは B か.",
+     "あるいは in einer Frage an sich selbst klingt steif; それとも bevorzugen.",
+     "Nuance mit または/もしくは verwechselt: あるいは kann am Satzanfang eine Vermutung ausdrücken."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Nuance",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "あるいは",
+       "Oder; vielleicht",
+       "Förmlich/schriftlich",
+       "A、あるいはB"
+      ],
+      [
+       "または",
+       "Oder",
+       "Neutral, Standard",
+       "A または B"
+      ],
+      [
+       "もしくは",
+       "Oder",
+       "Förmlich; nahe an あるいは",
+       "A もしくは B"
+      ],
+      [
+       "それとも",
+       "Oder aber",
+       "In Fragen",
+       "<ruby>行<rt>い</rt></ruby>く？それともやめる？"
+      ],
+      [
+       "ないし",
+       "Oder/bis",
+       "Recht/Technik",
+       "2ないし<ruby>3名<rt>さんめい</rt></ruby>"
+      ],
+      [
+       "とか",
+       "Oder",
+       "Umgangssprache, vertraut",
+       "AとかBとか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1053,
+   "src_hash": "5d5ce79172aaec31",
+   "fields": {
+    "meaning": "immerhin ～, das ist noch gut",
+    "connection": "V einfache Form + だけましだ / N + である / Na / Aい",
+    "examples": [
+     "Du hast immerhin Arbeit. Ich bin gefeuert worden.",
+     "Das Gehalt wurde gekürzt, aber immerhin werde ich nicht entlassen.",
+     "Meine Wohnung ist eng und teuer, aber immerhin praktisch."
+    ],
+    "explain": "Drückt aus: Der Zustand ist zwar nicht besonders gut, aber dass es bei diesem Maß bleibt und nicht schlimmer ist, ist schon viel wert."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1054,
+   "src_hash": "627148e7437ceb3e",
+   "fields": {
+    "meaning": "Kaum … da schon …; man denkt, … und dann doch …",
+    "examples": [
+     "In dieser Jahreszeit kann es, kaum dass es schön war, plötzlich zu regnen anfangen – nimm doch einen Schirm mit.",
+     "Obwohl Sonntag ist, scheint Papa viel zu tun zu haben. Kaum war er vorhin zurück, ist er schon wieder losgegangen."
+    ],
+    "notes": "Variante: ～かと思えば"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1055,
+   "src_hash": "4baf765ab1b05f8d",
+   "fields": {
+    "meaning": "Von … bis hin zu …",
+    "examples": [
+     "Es ist eine Veranstaltung, an der von Kindern bis hin zu Senioren alle Freude haben.",
+     "Von der Planung bis hin zum Verkauf erfolgt alles durchgängig im eigenen Haus.",
+     "Vom Frühling bis in den Winter reißt der Strom der Touristen nicht ab.",
+     "Wir führen ein breites Sortiment von Artikeln des täglichen Bedarfs bis hin zu Luxusgütern.",
+     "Das Netz wurde von den Städten bis hin zu abgelegenen Inseln ausgebaut."
+    ],
+    "explain": "In Schriftsprache, Vorträgen, Beschreibungen von Dienstleistungen/Produkten/Zielgruppen.\nN2 ist meist ein Extrempunkt oder ein repräsentatives Beispiel für das andere Ende der Spanne.\nSteht vor dem Hauptsatz, der die umfassende Handlung beschreibt: 〜に至るまで + V.\nNicht für eine konkrete räumliche Entfernung Schritt für Schritt; für einen allgemeinen Bereich.\nBetont das Umfassende: mit Wörtern wie幅広く,一貫して, あらゆる.\n\n～から～に至るまで bedeutet „von ... bis hin zu ...“ und betont einen umfassenden Bereich vom Anfangs- bis zum Endpunkt; meist förmlich, in Erläuterungen, Berichten, Werbung.\n• Erzeugt den Eindruck „allumfassend“, „bis zum Äußersten/zum Rand“.\n• Meist, wenn N2 ein überraschender, ferner Extrempunkt ist oder das Umfassende betont wird.\n• Verglichen mit ～から～まで: förmlicher, mit starker Nuance „bis hin zu“.\n• „至る“ ist das Verb „gelangen (zu einem Grad/Punkt)“, hier in der verbindenden Form „に至るまで“.",
+    "notes": "• Am besten ein Paar N1 und N2 wählen, das zwei entgegengesetzte/weit entfernte Enden bildet, damit der Rhythmus stimmt.\n• Bei mehr als zwei Gliedern: „N1からN2、N3に至るまで“.\n• Im Marketing: „企画から運用に至るまでワンストップで提供“.\n• In der Wissenschaft: „古代から近代に至るまでの変遷“.",
+    "mistakes": [
+     "Verwechslung mit ～まで: Ohne „に至る“ geht die förmliche/umfassende Nuance verloren.",
+     "Ein unlogisches Paar A–B gewählt (keine zwei Extreme), der Satz verliert seinen Nachdruck.",
+     "JLPT: Falle mit dem Ersatz durch ～から～にかけて; will die Aufgabe „bis zum Extrempunkt“ → ～に至るまで wählen.",
+     "Mit Verb/Attribut verwendet: Es muss N + に至るまで sein, kein direkter Anschluss V + に至るまで."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～から～まで",
+       "Von ... bis ... (neutral)",
+       "Weniger förmlich, betont kein „bis hin zu“",
+       "<ruby>子<rt>こ</rt></ruby>どもから<ruby>大人<rt>おとな</rt></ruby>まで"
+      ],
+      [
+       "～から～にかけて",
+       "Im Zeitraum, sich erstreckend",
+       "Betont einen vagen Bereich, nicht nur 2 Extreme",
+       "<ruby>朝<rt>あさ</rt></ruby>から<ruby>昼<rt>ひる</rt></ruby>にかけて"
+      ],
+      [
+       "～に<ruby>至<rt>いた</rt></ruby>る",
+       "Führen zu, gelangen zu (Ergebnis/Punkt)",
+       "Abschließendes Verb, keine Bereichskonstruktion",
+       "<ruby>交渉<rt>こうしょう</rt></ruby>は<ruby>決裂<rt>けつれつ</rt></ruby>に<ruby>至<rt>いた</rt></ruby>る"
+      ],
+      [
+       "～から～に<ruby>至<rt>いた</rt></ruby>るまで",
+       "Deckt alles von A bis hin zu B ab",
+       "Förmlich, allumfassend",
+       "<ruby>商品<rt>しょうひん</rt></ruby>からサービスに<ruby>至<rt>いた</rt></ruby>るまで"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1056,
+   "src_hash": "1588970de96c720d",
+   "fields": {
+    "meaning": "Tun oder nicht tun",
+    "connection": "V Volitionalform + か + Vる + まいか",
+    "examples": [
+     "Ich grüble die ganze Zeit, ob ich ihm die Wahrheit sagen soll oder nicht.",
+     "Ob ich arbeiten gehe oder nicht weiterstudiere, will ich nach Beratung mit meinen Eltern entscheiden.",
+     "Während ich noch schwankte, ob ich es jetzt kaufen soll oder nicht, war es ausverkauft.",
+     "Ob ich in meine Heimat zurückkehren soll oder nicht, konnte ich bis zuletzt nicht entscheiden.",
+     "Ich überlege, ob ich zur Besprechung gehen soll oder nicht."
+    ],
+    "explain": "Wird verwendet, wenn man den Vorgang des Zögerns betont; passt zu Aufsätzen und Berichten.\nVerbindet sich gut mit Verben des Entscheidens:決める,迷う,悩む,考える.\nNach der Wendung folgt meist Ergebnis/Verlauf: ～か～まいか、結局～／～と考えた。\nBei する: するまいか/すまいか kommen beide vor; heute するまいか bevorzugen.\n\n• Drückt Unschlüssigkeit zwischen den zwei Möglichkeiten „tun oder nicht tun“ aus.\n• Förmlicher als VるかVないか; mit dem Klang von Schriftsprache/Rede.\n• Subjekt ist meist der Sprecher oder der Entscheidende; beschreibt den Abwägungsvorgang.\n• Manchmal nennt es den Hintergrund des Zögerns vor der Entscheidung: ～か～まいか、結局…",
+    "notes": "• „まい“ ist eine alte Form des verneinten Willens; heute vor allem noch in dieser Formel und in ～まいと思う.\n• Die gesprochene Sprache ersetzt es meist durch VるかVないか, das ist natürlicher.\n• In Überschriften/Literatur erzeugt das Muster einen symmetrischen Rhythmus und mehr Nachdruck.",
+    "mistakes": [
+     "Falsche Form: Der zweite Teil muss „Vる＋まいか“ sein (oder Vまいか bei Gruppe-2-Verben), nicht „ないか“.",
+     "Verwechslung mit ～ようが～まいが (ungeachtet), was zu falscher Bedeutung führt.",
+     "In vertrauter gesprochener Sprache klingt es steif; der JLPT prüft gern die förmliche Nuance dieses Musters.",
+     "Verschiedene Verben in beiden Teilen: Es muss dasselbe Verb stehen, damit die Entsprechung stimmt."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "Vようか Vるまいか",
+       "Unschlüssig „tun oder nicht“",
+       "Förmlich, Schriftsprache",
+       "<ruby>行<rt>い</rt></ruby>こうか<ruby>行<rt>い</rt></ruby>くまいか<ruby>迷<rt>まよ</rt></ruby>う"
+      ],
+      [
+       "Vるか Vないか",
+       "Tun oder nicht (neutral)",
+       "Umgangssprache, leichter zu verwenden",
+       "<ruby>行<rt>い</rt></ruby>くか<ruby>行<rt>い</rt></ruby>かないか<ruby>決<rt>き</rt></ruby>める"
+      ],
+      [
+       "Vようが Vるまいが",
+       "Ob man es tut oder nicht, …",
+       "Kein Zögern; betont „ungeachtet“",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>くだ</rt></ruby>ろうが<ruby>降<rt>ふ</rt></ruby>るまいが<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "～かどうか",
+       "Ob … oder nicht",
+       "Nominalisierter Teilsatz, betont kein Zögern",
+       "<ruby>行<rt>い</rt></ruby>くかどうか<ruby>分<rt>わ</rt></ruby>からない"
+      ],
+      [
+       "～べきか～べきでないか",
+       "Sollte man oder sollte man nicht",
+       "Betont Norm/Moral",
+       "<ruby>言<rt>い</rt></ruby>うべきか<ruby>言<rt>い</rt></ruby>うべきでないか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1057,
+   "src_hash": "939a2ad848e5efb5",
+   "fields": {
+    "meaning": "Lohnend …, es lohnt sich zu …",
+    "connection": "Vます(ohne ます) + がい (やりがい・生きがい)",
+    "examples": [
+     "Bei diesem Projekt lohnt sich das Lernen.",
+     "Wenn das Kind heranwächst, spürt man, dass sich das Aufziehen gelohnt hat.",
+     "Dafür, dass wir angestanden haben, war der Geschmack gewöhnlich; das Warten hat sich nicht gelohnt.",
+     "Für Geschichtsliebhaber sind es lesenswerte Unterlagen."
+    ],
+    "explain": "Kann eine Ergänzung für das Bezugsobjekt haben: ～をV-ます + がいがある（実習生を教えがいがある）.\nNicht mit reinen Zustandsverben/Verben ohne klares Ergebnis.\n\n- Schwerpunkt auf dem Gefühl: Der Sprecher „empfindet, dass sich die Mühe lohnt“.\n- Passt zu gesprochener Sprache, Stellenanzeigen, Erfahrungsberichten.",
+    "notes": "• Viele natürliche Verbindungen: 教えがい／鍛えがい／挑みがい／撮りがい／見がい／味わいがい.\n• „見がい“ gibt es, aber „見ごたえ“ ist für „sehenswert“ verbreiteter. examples: 1. やりがいのある仕事\nEine lohnende Arbeit\n2. 教えがいのある生徒\nEin Schüler, den zu unterrichten sich lohnt",
+    "mistakes": [
+     "„が“ nach がい weggelassen: „やりがいある“ → wenig natürlich; besser „やりがいがある“.",
+     "Mit einem Verb verwendet, das kein Ergebnis hervorbringt: Zum Beispiel ist „あるがい“ falsch.",
+     "Verwechslung mit 甲斐があって: Das ist ein Teilsatz der Folge, nachdem man etwas getan hat; ～がいがある ist eine allgemeine Bewertung."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Nuance",
+      "Unterschied",
+      "Beispiel"
+     ],
+     "rows": [
+      [
+       "～がいがある",
+       "Gefühl „die Mühe lohnt sich“",
+       "Subjektiv",
+       "<ruby>作<rt>つく</rt></ruby>りがいがある"
+      ],
+      [
+       "～<ruby>甲斐<rt>かい</rt></ruby>がある（kanji）",
+       "Förmlich/Schriftsprache",
+       "Gleichwertige Bedeutung",
+       "<ruby>努力<rt>どりょく</rt></ruby>の<ruby>甲斐<rt>かい</rt></ruby>があった"
+      ],
+      [
+       "～する<ruby>価値<rt>かち</rt></ruby>がある",
+       "Objektiv",
+       "Wenn logisch argumentiert werden soll",
+       "<ruby>投資<rt>とうし</rt></ruby>する<ruby>価値<rt>かち</rt></ruby>がある"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1058,
+   "src_hash": "227705fd69656e54",
+   "fields": {
+    "meaning": "Lässt sich … / Wird … (ein Gefühl, dem man sich kaum entziehen kann)",
+    "connection": "Nが + Vられる（spontan・Möglichkeit: 感じられる・思い出される）",
+    "examples": [
+     "In seinen Äußerungen ist Aufrichtigkeit zu spüren.",
+     "Aus diesem Werk lässt sich der innere Konflikt des Autors erahnen.",
+     "Wenn es Frühling wird, kommt mir die Landschaft meiner Heimat in den Sinn.",
+     "Vor Ort sind einige Sicherheitsprobleme festzustellen.",
+     "Eine Verzerrung der Daten ist zu befürchten.",
+     "Das jetzige Ergebnis lässt sich auch als Zufall auffassen."
+    ],
+    "explain": "Der Sprecher als Handelnder entfällt meist; betont das „Natürliche/Objektive“.\nDas wahrnehmende Subjekt lässt sich mit に/には hinzufügen:彼には誠意が感じられた (seltener als die unpersönliche Form).\nPasst zum Berichtsstil: ～が観察される／～が指摘される／～が確認される .\n\n• Spontanes Passiv: Gefühl/Gedanke steigt von selbst auf, ohne Nennung eines Urhebers. Beispielverben: 思われる・感じられる・思い出される・偲ばれる・うかがわれる・懸念される.\n• Beobachtung/Feststellung: beschreibt eine Erscheinung, die objektiv gesehen/bemerkt wird: 見られる・見受けられる・観察される・確認される.\n• Nuance: objektiv, neutral, Schriftsprache, Berichte, Wissenschaft, Nachrichten.",
+    "notes": "• Typische Verben des Spontanen: 思われる・考えられる・感じられる・思い出される・偲ばれる・うかがわれる・期待される・懸念される.\n• 見られる hat zwei Bedeutungen: „sehen können“ (Möglichkeit) und „beobachtet werden“ (objektives Passiv); nach dem Kontext zu unterscheiden.\n• In Prüfung/Schrift „ら抜き言葉“ vermeiden: richtig 考えられる, nicht 考えれる.",
+    "mistakes": [
+     "Verwechslung mit der Potentialform: 見られる heißt nicht immer „sehen können“; es kann „beobachtet werden“ sein.",
+     "Einen Urheber mit に zum Spontanen hinzuzufügen verfehlt den Sinn: 誠意が彼に感じられる ist unnatürlich; besser 彼の発言には誠意が感じられる.",
+     "Verwechslung mit dem subjektiven ～ように感じる/思う; Prüfungen verlangen oft die objektivere statt der subjektiven Form."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Vergleichsbeispiel"
+     ],
+     "rows": [
+      [
+       "Nが<ruby>感<rt>かん</rt></ruby>じられる",
+       "Ist zu spüren",
+       "Objektiv, spontan",
+       "<ruby>温<rt>あたた</rt></ruby>かみが<ruby>感<rt>かん</rt></ruby>じられる"
+      ],
+      [
+       "<ruby>私<rt>わたし</rt></ruby>はNを<ruby>感<rt>かん</rt></ruby>じる",
+       "Ich spüre N",
+       "Subjektiv, der Sprecher ist der Handelnde",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>温<rt>あたた</rt></ruby>かみを<ruby>感<rt>かん</rt></ruby>じる"
+      ],
+      [
+       "Nが<ruby>見<rt>み</rt></ruby>られる",
+       "Ist zu beobachten",
+       "Neutral, berichtend",
+       "<ruby>増加<rt>ぞうか</rt></ruby><ruby>傾向<rt>けいこう</rt></ruby>が<ruby>見<rt>み</rt></ruby>られる"
+      ],
+      [
+       "～ように<ruby>見<rt>み</rt></ruby>える/<ruby>聞<rt>き</rt></ruby>こえる",
+       "Sieht aus/klingt wie",
+       "Subjektive Vermutung",
+       "<ruby>元気<rt>げんき</rt></ruby>に<ruby>見<rt>み</rt></ruby>える"
+      ],
+      [
+       "<ruby>受身<rt>うけみ</rt></ruby> (gewöhnlich): NはXにVられる",
+       "Echtes Passiv",
+       "Mit Urheber X (に)",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>彼<rt>かれ</rt></ruby>に<ruby>笑<rt>わらわ</rt></ruby>われた"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1059,
+   "src_hash": "2a1f6a02c6961bec",
+   "fields": {
+    "meaning": "… ganz schaffen, … vollständig (Verneinung きれない: nicht ganz … können)",
+    "connection": "Vます(ohne ます) + きれる（Verneinung: きれない）",
+    "examples": [
+     "Es gibt so viel zu schreiben, dass ein Blatt dafür nicht reicht.",
+     "B: Tut mir leid, es ist ausverkauft. Morgen kommt wieder Ware."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1061,
+   "src_hash": "831892f84a1a8198",
+   "fields": {
+    "meaning": "Da … (einer von mehreren Gründen), auch weil …",
+    "examples": [
+     "(Vater zum Sohn) Heute sind Mama und Maki nicht da, wollen wir also zu zweit auswärts zu Abend essen?",
+     "A: Was mache ich nur, ich werde mit dem Bericht nicht fertig. Mir geht es auch nicht gut, vielleicht nehme ich mir morgen beim Job frei.\nB: Mach das doch."
+    ],
+    "notes": "Schließt an einen Teilsatz an. In der Struktur「ことだ＋し」nennt es Umstände oder eine Lage, die Grund oder Grundlage für ein Urteil, eine Entscheidung, einen Wunsch sind. 「ことですし」wie in ② ist die höflichere Form. Es gibt Fälle mit zwei Gründen wie in ③, mit nur einem wie in ② oder solche, in denen es wie in ① am Ende nachgeschoben wird. Gesprochene Sprache, aber förmlicher als bloßes「し」.（１１７）"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1062,
+   "src_hash": "4321ac83fd79b431",
+   "fields": {
+    "meaning": "Sobald es um … geht, … (Haltung/Zustand ändert sich völlig)",
+    "examples": [
+     "Er ist sonst wortkarg, aber sobald es ums Bergsteigen geht, wird er plötzlich gesprächig.",
+     "Ein Lunchpaket selbst zu machen ist sparsamer und auch gesünder, aber wenn es um jeden Tag geht, ist es vielleicht anstrengend."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1064,
+   "src_hash": "9592280b4d212485",
+   "fields": {
+    "meaning": "Das heißt, mit anderen Worten",
+    "connection": "[Satz/Teilsatz]、 + すなわち、 + [gleichwertiger Satz/Teilsatz]",
+    "examples": [
+     "Der Hauptbestandteil dieses Medikaments, nämlich Vitamin C, fehlt.",
+     "Er spricht drei Sprachen, das heißt, er ist trilingual.",
+     "Firma A und Firma B sind dieselbe juristische Person, das heißt rechtlich dieselbe Organisation.",
+     "Diese Zahl ist der Umsatz, das heißt keine reinen Einnahmen."
+    ],
+    "explain": "In Definitionen, Begriffserklärungen, bei der Angabe einer Gleichsetzung.\nFörmlicher/wissenschaftlicher Stil; つまり ist eher allgemein zusammenfassend.\nMeist mit Komma davor/danach, um den erläuternden Teil abzutrennen.\nNicht für Folgen, Befehle oder Ausrufe.\n\nすなわち: „das heißt/also/mit anderen Worten (im Sinn der Gleichsetzung)“. Dient dazu, eine Definition zu nennen, genau zu erläutern oder mit einem gleichwertigen Ausdruck neu zu fassen.\n• Betont Gleichsetzung/Gleichung: S2 ≒ andere Formulierung von S1.\n• Förmlicher als つまり; auf Genauigkeit, Objektivität gerichtet.\n• Nicht für das Erschließen eines Ergebnisses oder eine gefühlsmäßige Zusammenfassung.",
+    "notes": "• Tipp: Lässt sich zwischen S1 und S2 ein „= (gleich)“ setzen, ist すなわち die richtige Wahl.\n• In wissenschaftlichen Texten häufig in Definitionen: Xとは、すなわちYである。\n• Das Kanji 即ち ist heute selten; die Kana-Schreibung すなわち ist leichter lesbar. meaning_vi: Mit anderen Worten, das heißt ⏐ explain: Wird verwendet, wenn man etwas anders ausdrückt.\nWie　「つまり」, kann aber nicht verwendet werden, wenn von einem Ergebnis die Rede ist.\n財布をなくした。すなわちお金がない。（X)\n→財布をなくした。つまりお金がない。（O)\nSteifer Stil. ⏐ examples: 1. 「母の兄、すなわち僕のおじですが・・・・・・」\n„Der ältere Bruder meiner Mutter, das heißt mein Onkel …“\n2. このペットボトルには１０００ミリリットル、すなわち１リットルの水が入っています。\nIn dieser Plastikflasche sind 1000 Milliliter, das heißt 1 Liter Wasser.",
+    "mistakes": [
+     "Verwechslung mit つまり: Verlangt die Aufgabe eine „gleichsetzende Definition“ → すなわち; verlangt sie „Zusammenfassung/Folgerung“ → つまり.",
+     "Für Ergebnis/Ursache und Wirkung verwendet ist falsch: ×「雨だ。すなわち、行かない」→ besser それで/だから.",
+     "Ist S2 nicht gleichwertig mit S1, wird der Satz ungenau; die Gleichsetzung muss stimmen."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "つまり",
+       "Das heißt, mit anderen Worten",
+       "Fasst zusammen/deutet einen allgemeinen Schluss an; weniger förmlich.",
+       "<ruby>遅<rt>おく</rt></ruby>れる。つまり、<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わない。"
+      ],
+      [
+       "<ruby>要<rt>よう</rt></ruby>するに",
+       "Kurz gesagt",
+       "Fasst den Hauptgedanken zusammen, subjektive Nuance.",
+       "<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い。<ruby>要<rt>よう</rt></ruby>するに、<ruby>賛成<rt>さんせい</rt></ruby>だ。"
+      ],
+      [
+       "ということは",
+       "Das heißt (Folgerung)",
+       "Deutet eine Folgerung an, keine definierende Gleichsetzung.",
+       "<ruby>雨<rt>あめ</rt></ruby>？ ということは、<ruby>中止<rt>ちゅうし</rt></ruby>だね。"
+      ],
+      [
+       "すなわち",
+       "Das heißt (Gleichsetzung/Definition)",
+       "Genau, objektiv, für Fachbegriffe.",
+       "A、すなわちB。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1065,
+   "src_hash": "e8262c3cc32246ce",
+   "fields": {
+    "meaning": "Wird bestimmt …, ganz gewiss …",
+    "examples": [
+     "Dieser Roman lässt keinen Leser ungerührt.",
+     "Das Unrecht werde ich unbedingt aufdecken.",
+     "Seine aufrichtigen Worte finden unweigerlich Widerhall im Herzen der Zuhörer.",
+     "Dieses Problem werde ich unbedingt noch heute lösen.",
+     "Diese Aufnahmen werden die öffentliche Meinung wohl unweigerlich erschüttern."
+    ],
+    "explain": "Nennt eine starke Kausalbeziehung oder Entschiedenheit: „tritt sicher ein/wird unbedingt getan“.\nFörmlich; passt zu Kommentaren, Reden, Nachrichten; im Alltagsgespräch selten.\nBedeutung A steht meist mit dem Paar N/人を + V-使役: „… in den Zustand X versetzen/treiben“.\nBedeutung B passt zu Kontexten, die Willen, Verantwortung, Entschlossenheit des Sprechers/der Stelle zeigen.\nMeist nicht für gewöhnliches Verhalten ohne Zwangsläufigkeit/Entschiedenheit.\n\n• Bedeutung A (zwangsläufige Folge): „Wird unweigerlich … auslösen“ — ein starker Auslöser führt zwangsläufig zu einer Reaktion/Folge. Beispiel: その演説は聴衆を魅了せずにはおかない。\n• Bedeutung B (starker Wille/Entschlossenheit): „Werde unbedingt … tun; lasse es keinesfalls durchgehen“ — der Sprecher zeigt den Willen, es um jeden Preis zu tun. Beispiel: この件は必ず突き止めずにはおかない。\n• Nuance: steif, Schriftsprache, Presse/Kommentar/Rede; entschieden, fast eine sichere Vorhersage oder unerschütterliche Entschlossenheit.\n• Subjekt ist meist die einwirkende Sache (Bedeutung A) oder „ich/wir“ mit Entschlossenheit (Bedeutung B).",
+    "notes": "• Im Kommentar „hebt“ das Muster die Gewissheit einer Vorhersage, fast bis zur Behauptung der Folge.\n• Bei Bedeutung A „ich“ als Subjekt vermeiden, außer in strategischen Äußerungen (PR, Erklärung, Beschluss).\n• Eine doppelte Verneinung gibt es bei diesem Muster nicht; will man verneinen, den ganzen Satz anders formulieren.",
+    "mistakes": [
+     "Verwechslung mit ～ずにはすまない: Dieses heißt „löst unweigerlich aus/wird unbedingt getan“, jenes „ohne es zu tun, geht es nicht (Pflicht)“.",
+     "Im saloppen Gespräch verwendet → klingt gezwungen; im Alltagsgespräch ～ずにはいられない wählen.",
+     "Unpassendes Subjekt: Bei Bedeutung A eine Sache/ein Werk/eine Erklärung als Subjekt verwenden, das ist natürlicher."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Wichtigster Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ずにはおかない",
+       "Löst unweigerlich aus/wird unbedingt getan",
+       "Förmlich, entschieden; betont Zwangsläufigkeit oder festen Willen",
+       "<ruby>映画<rt>えいが</rt></ruby>は<ruby>観客<rt>かんきゃく</rt></ruby>を<ruby>泣<rt>な</rt></ruby>かせずにはおかない。"
+      ],
+      [
+       "～ずにはすまない",
+       "Ohne es zu tun, geht es nicht",
+       "Pflicht/Moral; man muss es tun, damit es sich gehört",
+       "<ruby>迷惑<rt>めいわく</rt></ruby>をかけたから<ruby>謝<rt>あやま</rt></ruby>らずにはすまない。"
+      ],
+      [
+       "～ずにはいられない",
+       "Sich nicht zurückhalten können",
+       "Spontanes Gefühl; umgangssprachlicher; ohne Entschiedenheit oder Zwangsläufigkeit",
+       "<ruby>彼<rt>かれ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>くと<ruby>踊<rt>おど</rt></ruby>らずにはいられない。"
+      ],
+      [
+       "～ないではおかない",
+       "Gleichwertig",
+       "Etwas umgangssprachlichere Variante; gleiche Bedeutung",
+       "<ruby>人<rt>ひと</rt></ruby>を<ruby>感心<rt>かんしん</rt></ruby>させないではおかない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1066,
+   "src_hash": "97a28fb36351ec2f",
+   "fields": {
+    "meaning": "Nicht umhinkönnen …, müssen …",
+    "examples": [
+     "Da ich das Versprechen gebrochen habe, komme ich um eine Entschuldigung nicht herum.",
+     "Da wir den Kunden Unannehmlichkeiten bereitet haben, wird die Firma wohl um eine Erklärung nicht herumkommen.",
+     "Da ich wichtige Unterlagen verloren habe, muss ich es dem Vorgesetzten melden.",
+     "Liegt ein Gesetzesverstoß vor, kommt man um eine Sanktion nicht herum.",
+     "Nachdem mir so sehr geholfen wurde, habe ich das Gefühl, mich irgendwie erkenntlich zeigen zu müssen."
+    ],
+    "explain": "Betont das „gesellschaftlich/moralisch Gebotene“, kein spontanes Gefühl.\nZur Abmilderung oft mit ～だろう／と思う; im Beruf, um die Verantwortung zum Handeln zu bekräftigen.\nNicht für Vergnügen, Hobbys; passt zu Situationen, die Entschuldigung, Erklärung, Entschädigung, Bearbeitung verlangen.\n\n• Bedeutung: „Ohne es zu tun, geht es nicht/ist es nicht in Ordnung“, wegen Moral, Anstand, Regeln, Verantwortung.\n• Kein starker Wille, sondern der Druck von Normen/Umständen, etwas tun zu müssen, damit es sich gehört.\n• Steht oft mit Verben wie 謝る, 連絡する, 説明する, 報告する, 対応する, 補償する usw.\n• Förmliche Nuance, Schriftsprache, Beruf, offizielle Mitteilungen.",
+    "notes": "• Außer für Entschuldigung/Erklärung passt das Muster zu Erklärungen der Führungsverantwortung: 対応せずにはすまない, 再発防止策を講じずにはすまない.\n• In geschäftlichen E-Mails höflich mit ものと存じます/と考えております verbunden.\n• Im vertrauten Gespräch nicht übermäßig verwenden, es klingt „schwer nach Verantwortung“.",
+    "mistakes": [
+     "Verwechslung mit ～ずにはいられない: Der JLPT stellt gern die Falle Gefühl (いられない) vs. Pflicht (すまない).",
+     "Falsches Subjekt/Verhalten gewählt: mit „bearbeitendem“ Verhalten aus Verantwortung verwenden (謝る, 説明する, 対応する...).",
+     "Fehlende Abmilderung in höflichem Stil: だろう／と思う hinzufügen, damit es natürlich wirkt."
+    ],
+    "comparison": {
+     "headers": [
+      "Muster",
+      "Bedeutung",
+      "Unterschied",
+      "Kurzbeispiel"
+     ],
+     "rows": [
+      [
+       "～ずにはすまない",
+       "Ohne es zu tun, geht es nicht",
+       "Druck von Norm/Moral; förmlich",
+       "<ruby>遅刻<rt>ちこく</rt></ruby>したら<ruby>一言<rt>ひとこと</rt></ruby><ruby>連絡<rt>れんらく</rt></ruby>せずにはすまない。"
+      ],
+      [
+       "～ざるを<ruby>得<rt>え</rt></ruby>ない",
+       "Notgedrungen müssen",
+       "Wegen objektiver Umstände; moralisch neutraler",
+       "<ruby>雨<rt>あめ</rt></ruby>で<ruby>中止<rt>ちゅうし</rt></ruby>せざるを<ruby>得<rt>え</rt></ruby>ない。"
+      ],
+      [
+       "～ないわけにはいかない",
+       "Nicht umhinkönnen",
+       "Gesellschaftliche Regel/allgemeine Logik; umgangssprachlicher",
+       "<ruby>招待<rt>しょうたい</rt></ruby>されたから<ruby>行<rt>い</rt></ruby>かないわけにはいかない。"
+      ],
+      [
+       "～ずにはいられない",
+       "Sich nicht zurückhalten können",
+       "Spontanes Gefühl, ohne die Bedeutung „damit es sich gehört“",
+       "<ruby>彼<rt>かれ</rt></ruby>の<ruby>冗談<rt>じょうだん</rt></ruby>には<ruby>笑<rt>わらわ</rt></ruby>わずにはいられない。"
+      ],
+      [
+       "～ずにはおかない",
+       "Löst unweigerlich aus/wird unbedingt getan",
+       "Entschieden/zwangsläufig, anders als „Pflicht“",
+       "その<ruby>発言<rt>はつげん</rt></ruby>は<ruby>波紋<rt>はもん</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げずにはおかない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}
