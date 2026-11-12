@@ -1,0 +1,669 @@
+{
+ "batch": "b004",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 51,
+   "src_hash": "04d643e48bebbcba",
+   "fields": {
+    "meaning": "Le plus",
+    "connection": "([portée]の中で) + Nが + いちばん + A/Na/V",
+    "examples": [
+     "Ce film est le plus intéressant.",
+     "Parmi le printemps, l'été, l'automne et l'hiver, c'est l'automne que je préfère.",
+     "Dans la classe, c'est Tanaka le plus grand.",
+     "Ce problème est le plus difficile.",
+     "Dans la cuisine japonaise, ce sont les sushis les plus célèbres.",
+     "C'est ici le magasin le plus proche de la gare."
+    ],
+    "explain": "Marquer la portée : on utilise ～の中で／～で pour éviter toute ambiguïté.\nThème vs sujet : Nは/がいちばん～ sont tous deux possibles ; は présente le thème, が insiste sur l'identification « c'est N qui est le plus ».\nEn langue écrite soutenue, il vaut mieux envisager 最も pour éviter un ton oral.\nPosition : いちばん se place devant l'adjectif ou le verbe exprimant une qualité : いちばん大きい、いちばん好きだ.\n\nExprime le degré le plus élevé au sein d'un ensemble ou d'une portée : « N est le plus … ».\n« いちばん » est un adverbe de degré qui détermine un adjectif ou un verbe d'état : いちばん新しい、いちばん好きだ.\nS'accompagne souvent d'une portée avec ～の中で／～で pour préciser la cible de la comparaison.\nComparé à 最も, いちばん a une nuance familière et s'emploie souvent dans la conversation.",
+    "notes": "« いちばん～ない » peut être ambigu ; pour exprimer « le moins / pas le plus … », envisager « 最も～ではない/最も～とは言えない ».\n« 一番上/一番前/一番後ろ » indiquent une position ; c'est toujours un emploi de いちばん comme adverbe de degré / de position.\nQuestion type : « AとBとCで、どれがいちばん～ですか »。",
+    "mistakes": [
+     "Omettre la portée rend la phrase inutilement absolue : « 富士山がいちばん高い » → il vaut mieux écrire « 日本で、富士山が… ».",
+     "Confondre もっと (comparatif) et いちばん (superlatif).",
+     "Mauvais choix de は/が : « Aは/がいちばん～ » change le point focal ; le JLPT interroge souvent sur la nuance は vs が.",
+     "Employer 最も dans un contexte de langue parlée, ou l'inverse, est un piège fréquent."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "いちばん",
+       "Le plus (langue parlée)",
+       "Quotidien, naturel.",
+       "いちばん<ruby>安<rt>やす</rt></ruby>い。"
+      ],
+      [
+       "<ruby>最<rt>もっとも</rt></ruby>も",
+       "Le plus, suprême (soutenu)",
+       "Langue écrite / académique.",
+       "<ruby>最<rt>もっとも</rt></ruby>も<ruby>重要<rt>じゅうよう</rt></ruby>だ。"
+      ],
+      [
+       "<ruby>一番<rt>いちばん</rt></ruby>",
+       "Forme en kanji de いちばん",
+       "Sens identique ; courant à l'écrit.",
+       "<ruby>一番<rt>いちばん</rt></ruby><ruby>古<rt>ふる</rt></ruby>い。"
+      ],
+      [
+       "もっと",
+       "Davantage (comparatif)",
+       "Pas le degré le plus élevé.",
+       "もっと<ruby>安<rt>やす</rt></ruby>く。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 52,
+   "src_hash": "516e55a2e966bae2",
+   "fields": {
+    "meaning": "Vouloir (avoir) quelque chose",
+    "examples": [
+     "Je veux un nouveau sac.",
+     "En ce moment, ce que je veux, c'est du temps libre plutôt que de l'argent.",
+     "Qu'est-ce que vous voulez pour votre anniversaire ?",
+     "Tanaka a envie d'avoir une voiture.",
+     "Je ne veux pas d'une montre aussi chère.",
+     "Quand j'étais enfant, je voulais un chien."
+    ],
+    "explain": "S'emploie le plus naturellement pour le désir du locuteur ; pour autrui, on ajoute そうだ／らしい pour ne pas présumer : 彼は新しいPCがほしいらしい。\nDans une demande polie : 〜がほしいのですが、ありますか (je voudrais ~, en avez-vous ?).\nNe s'emploie pas avec un verbe (action). Pour vouloir faire V, on utilise Vたい.\nComparé à ください : ください demande à autrui de donner / de faire ; ほしいです exprime son propre désir.\n\nExprime le désir de posséder un objet, une chose matérielle ou une condition : « je veux N ». S'emploie surtout pour le souhait du locuteur.\nPour demander le désir de l'interlocuteur, on peut l'employer directement : 何がほしいですか。\nPour le désir d'une tierce personne, on utilise ほしがる/ほしがっている afin de rester objectif et d'éviter une attribution subjective.\nÀ distinguer de ください (demande / suggestion) et de 欲しいのですが… (introduction d'une demande polie).",
+    "notes": "Particule : on utilise normalement が pour mettre en relief la chose désirée ; を se rencontre aussi à l'oral quand N est un objet concret qu'on prend / reçoit : それをほしい (familier).\nフォーマル:欲しております (langage humble (kenjōgo) / contexte professionnel) est rare et a une nuance raide ; on le remplace souvent par ご希望です/ご入用です.\nÉviter de l'employer directement avec un supérieur / un client : le remplacer par いただけますでしょうか, 〜をお願いできますか.\nexplain: ほしい est un adjectif en い.\nexamples: 1. A:　今　なにが　ほしいですか。\nB:　カメラが　ほしいです。\nA: Que voulez-vous en ce moment ?\nB: Je veux un appareil photo.\n2. 今　お金や車などがほしいですが、恋人がほしくないです。\nEn ce moment, je veux de l'argent, une voiture, etc., mais je ne veux pas de partenaire amoureux.",
+    "mistakes": [
+     "Employer ほしい avec un verbe : incorrect. Correct : Vたい ou 〜てほしい.",
+     "Exprimer le désir d'une tierce personne avec ほしいです : peu naturel. Utiliser ほしがる/ほしがっている/〜らしい.",
+     "Mauvaise particule : il faut Nがほしいです (en langue standard). À l'oral, on peut entendre Nをほしい, mais ce n'est pas recommandé à l'examen.",
+     "Confusion de nuance dans une demande : « 水がほしいです » exprime seulement un souhait ; pour demander poliment, il faut dire « 水をいただけますか »."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Nがほしい",
+       "Vouloir N",
+       "Pour le locuteur ; possible pour interroger l'interlocuteur",
+       "<ruby>時間<rt>じかん</rt></ruby>がほしい"
+      ],
+      [
+       "Vたい",
+       "Vouloir faire V",
+       "S'applique aux actions",
+       "<ruby>休<rt>やす</rt></ruby>みたい"
+      ],
+      [
+       "〜てほしい",
+       "Vouloir que quelqu'un fasse V",
+       "Souhait que la personne visée accomplisse l'action",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってほしい"
+      ],
+      [
+       "〜がほしがる",
+       "Autrui semble vouloir N",
+       "Décrit une tierce personne, souvent à la forme ている",
+       "<ruby>子<rt>こ</rt></ruby>どもはお<ruby>菓<rt>かし</rt></ruby><ruby>子<rt></rt></ruby>をほしがっている"
+      ],
+      [
+       "Nをください",
+       "Demander N",
+       "Demande directe",
+       "<ruby>水<rt>みず</rt></ruby>をください"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 53,
+   "src_hash": "48e6e3a04d83c054",
+   "fields": {
+    "meaning": "Vers (un moment)",
+    "connection": "N (moment: 3時・7月…) + ごろ",
+    "examples": [
+     "Je passerai vous voir demain vers 3 heures.",
+     "Je prévois d'aller au Japon vers juillet.",
+     "Je suis né(e) vers 1990.",
+     "Il pleuvra sans doute à partir de la fin d'après-midi.",
+     "J'arriverai d'ici 8 h 30 environ.",
+     "Ces derniers temps, j'ai beaucoup à faire et je ne fais pas de sport."
+    ],
+    "explain": "Neutre, s'emploie à l'oral comme à l'écrit.\nS'associe à un repère « ponctuel » : heure, jour, mois, année, fête ; éviter de l'attacher à une « durée » comme 3時間 (3 heures en tant que durée), sauf si l'on entend « vers 3 heures (moment) », auquel cas on utilise 3時.\n« このごろ/そのごろ/あのごろ » = « ces temps-ci / à ce moment-là / à cette époque ».\nPour une nuance de « période » plus large, ou après une proposition au passé, on préfère ころ à ごろ.\n\nIndique un moment approximatif : « vers … » (3時ごろ = vers 3 heures).\nSouplesse : on peut ajouter に (à), から (à partir de), まで (jusqu'à) pour préciser la relation.\nDifférence avec ころ : ごろ s'attache généralement directement à un repère temporel précis ; ころ renvoie plutôt à une « période / époque » large, ou se place après une proposition au passé.",
+    "notes": "« このごろ » s'emploie souvent avec le présent / l'action en cours ; « その/あのころ » s'emploie souvent avec le passé.\n« Nごろには » insiste sur « vers ce moment-là, … » (état attendu à un repère approximatif).\nNorme : « 3時ごろに来てください » est plus naturel que « 3時ころに… », mais les deux sont acceptés.",
+    "mistakes": [
+     "Emploi avec une durée : « 3時間ごろ » (incorrect) ; il faut « 3時ごろ ».",
+     "Double approximation superflue : « 3時ごろくらい／3時ごろぐらい » est incorrect ; n'en choisir qu'un.",
+     "Confusion sur l'échéance : « 5時ごろまでに提出 » signifie « remettre avant 5 heures environ » (repère approximatif), contrairement à « 5時までに » (repère précis).",
+     "Confondre ころ et ごろ : on utilise ころ avec une proposition au passé / « l'époque où ~ » : 学生のころ (on n'emploie pas ごろ)."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "ごろ",
+       "vers (repère temporel)",
+       "S'attache directement à un moment précis",
+       "<ruby>3時<rt>さんじ</rt></ruby>ごろ"
+      ],
+      [
+       "ころ",
+       "vers / à l'époque (période)",
+       "S'emploie avec Nの/ Vた + ころ ; portée plus floue",
+       "<ruby>子<rt>こ</rt></ruby>どものころ／<ruby>帰<rt>かえ</rt></ruby>ったころ"
+      ],
+      [
+       "くらい/ぐらい",
+       "environ (quantité / temps)",
+       "Possible avec un moment : <ruby>3時<rt>さんじ</rt></ruby>くらい ; plus oral que ごろ",
+       "<ruby>七時<rt>ななじ</rt></ruby>ぐらい"
+      ],
+      [
+       "までに",
+       "avant / d'ici (échéance)",
+       "Ne signifie pas « environ » ; sens d'échéance",
+       "<ruby>5時<rt>ごじ</rt></ruby>までに<ruby>提出<rt>ていしゅつ</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 54,
+   "src_hash": "c621882639f4c6f6",
+   "fields": {
+    "meaning": "Suffixes d'adresse : ～さん (poli), ～ちゃん (familier)",
+    "connection": "N (nom de personne) + さん / ちゃん",
+    "examples": [
+     "Cette personne là-bas, c'est M. Watt.",
+     "A: Thawaphon est-il étudiant ?\nB: Oui, il est étudiant."
+    ],
+    "explain": "さん s'emploie après le nom ou le prénom de l'interlocuteur ou d'une tierce personne. On ne l'emploie pas après son propre nom ou prénom.\nPour les enfants, on emploie ちゃん, de nuance plus familière, à la place de さん. ちゃん peut s'employer aussi bien pour les garçons que pour les filles ; il n'y a pas de distinction du type ちゃん pour les filles, くん pour les garçons, comme on l'a appris auparavant."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 55,
+   "src_hash": "032b2fd88d33c499",
+   "fields": {
+    "meaning": "Ne pas avoir le droit de…",
+    "examples": [
+     "Il est interdit de jeter des déchets ici.",
+     "Au Japon, lors d'un discours de mariage, il ne faut pas employer des mots comme 「終わる」 ou 「別れる」.",
+     "Il ne faut pas demander son âge ou ses revenus à une personne que l'on rencontre pour la première fois.",
+     "Il est interdit de prendre des photos ici.",
+     "Il ne faut pas se moquer des autres.",
+     "On ne doit pas rompre une promesse."
+    ],
+    "explain": "S'emploie dans les règlements / sur les panneaux : ～てはいけません/～てはならない.\nDans la conversation courante : ～ちゃだめ／～ちゃいけない (doux ou ferme selon le contexte et l'interlocuteur).\nPour rester poli sans être trop sévère, on peut utiliser ～ないでください à la place.\nInsistance absolue : ～てはならない (soutenu, autorité / règle).\n\n• Exprime l'interdiction : il n'est pas permis de faire l'action V.\n• Nuance allant de neutre à forte selon la variante ; s'emploie dans les règlements, les règles, les rappels à l'ordre.\n• Différent de la demande polie « Veuillez ne pas … » (～ないでください) : ～てはいけない exprime l'interdiction / l'absence de permission.",
+    "notes": "• Peu naturel pour « demander la permission » (×「入っちゃいけませんか？」). Pour demander la permission, on utilise ～てもいいですか。\n• La négation de ～てはいけない est l'affirmatif « être permis » (→ ～てもいい), et non « devoir faire ».\n• Forme négative de l'action avant て : 飲まないではいけない signifie « devoir ne pas boire », ce qui est complètement différent.",
+    "mistakes": [
+     "Confusion avec ～ないといけない (devoir). La forme ressemble à « いけない », mais le sens est opposé.",
+     "Employer ～てはならない dans une conversation ordinaire → trop soutenu.",
+     "Oubli de は : ×「していけない」 → correct : してはいけない.",
+     "Mauvais niveau de politesse : avec un inconnu, il faut employer ～てはいけません/～ないでください."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～てはいけない",
+       "Interdiction / ne pas avoir le droit",
+       "Standard, courant.",
+       "<ruby>入<rt>はい</rt></ruby>ってはいけない。"
+      ],
+      [
+       "～てはならない",
+       "Interdiction absolue",
+       "Soutenu, normatif.",
+       "<ruby>守<rt>まも</rt></ruby>らねばならない<ruby>規則<rt>きそく</rt></ruby>。"
+      ],
+      [
+       "～ちゃだめ",
+       "Ne… pas / interdit",
+       "Langue parlée, familier.",
+       "<ruby>触<rt>ふ</rt></ruby>れちゃだめ。"
+      ],
+      [
+       "～ないでください",
+       "Veuillez ne pas",
+       "Demande polie, plus douce qu'une interdiction.",
+       "ここで<ruby>話<rt>はな</rt></ruby>さないでください。"
+      ],
+      [
+       "～ないといけない",
+       "Devoir",
+       "Sens différent (obligation), facile à confondre à cause de la forme.",
+       "<ruby>急<rt>いそ</rt></ruby>がないといけない。"
+      ],
+      [
+       "～べきではない",
+       "Il ne faudrait pas",
+       "Jugement moral / général, pas une interdiction absolue.",
+       "<ruby>人<rt>ひと</rt></ruby>を<ruby>責<rt>せ</rt></ruby>めるべきではない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 56,
+   "src_hash": "c5964265ef5f11cc",
+   "fields": {
+    "meaning": "Lequel est plus… ?",
+    "examples": [
+     "Entre le café et le thé, qu'est-ce que vous préférez ?",
+     "Entre Tokyo et Osaka, où le coût de la vie est-il le plus élevé ?",
+     "Lequel étudiez-vous, l'anglais ou le chinois ?",
+     "Entre le bus et le train, lequel est le plus rapide ?",
+     "Entre la mer et la montagne, laquelle préférez-vous ? — Je préfère la montagne.",
+     "Que choisissez-vous, le papier ou le plastique ?"
+    ],
+    "explain": "Plus soutenu et plus poli que どっち. Convient à la langue écrite et à la conversation polie.\nAjouter のほうが rend la réponse naturelle : N1のほうが～です。\nOn souligne le contraste avec ～とでは/～では juste avant どちら.\nPour demander une préférence ou un sentiment : 好き/嫌い/得意/苦手 s'emploient généralement avec が.\n\nStructure servant à demander « entre A et B, lequel / laquelle… ? » pour comparer deux options.\nと relie deux noms en parallèle ; どちら est un mot interrogatif signifiant « quel côté / lequel » (poli).\nLa particule après どちら dépend du prédicat :\nAdjectif : どちらが高いですか。\nVerbe transitif : どちらを選びますか。\nPosition / destination : どちらにしますか。\nAdjectif : どちらが高いですか。\nVerbe transitif : どちらを選びますか。\nPosition / destination : どちらにしますか。\nFormes étendues : どちらのN (de quel côté), どちらのほう (quel côté plutôt) pour plus de naturel quand on compare un degré.",
+    "notes": "Avec des noms de personne / d'entreprise : en guise de 敬称, on peut ajouter さん側/社 : A社とB社とどちらが～。\nOn ajoute ずっと/少し/やや devant l'adjectif pour quantifier : どちらがずっと便利ですか。\nどちら peut s'employer pour 2 directions / 2 portes / 2 lieux lorsqu'on demande le chemin : 右と左とどちらへ行きますか。\nOn peut répondre avec 両方（les deux）",
+    "mistakes": [
+     "Oubli du second と : × AとBどちらが… → ○ AとBとどちらが…",
+     "Mauvaise particule après どちら : × どちらは好きですか → ○ どちらが好きですか。",
+     "Réponse peu naturelle : × Aが好きです → ○ Aのほうが好きです (en cas de comparaison).",
+     "Employer どれ pour deux options précises : il faut utiliser どちら/どっち.",
+     "Piège du JLPT : confondre どちらのN (de quel côté) avec どちらが (sujet de la comparaison)."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence principale",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～と～とどちら～",
+       "Question comparant 2 éléments",
+       "Poli",
+       "AとBとどちらがいいですか。"
+      ],
+      [
+       "～と～とどっち～",
+       "Identique",
+       "Familier, langue parlée",
+       "AとBとどっちがいい？"
+      ],
+      [
+       "どれが～",
+       "Demander « lequel » (3 éléments ou plus)",
+       "Pas d'énumération précise avec と",
+       "この<ruby>中<rt>なか</rt></ruby>でどれが<ruby>一番<rt>いちばん</rt></ruby><ruby>高<rt>たか</rt></ruby>い？"
+      ],
+      [
+       "AはBより～",
+       "Comparaison affirmative",
+       "Ce n'est pas une question",
+       "AはBより<ruby>高<rt>たか</rt></ruby>い。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 57,
+   "src_hash": "1eeb72fa43123def",
+   "fields": {
+    "meaning": "Comment, quel genre de",
+    "connection": "どんなN + particule + も",
+    "examples": [
+     "Quel genre de films aimez-vous ?",
+     "Quel genre de personne est M. Tanaka ?",
+     "Quel goût a ce plat ?",
+     "Comment est votre ville ?",
+     "Que faites-vous le week-end ?",
+     "Quel temps fait-il en hiver au Japon ?"
+    ],
+    "explain": "Poli, neutre ; largement employé dans la conversation courante.\nSouvent associé à un nom général pour ouvrir la question : どんな人／ところ／こと／食べ物／服.\nPour préciser une identité, on n'emploie pas どんな mais どの/どれ/だれ.\n« どんなの？ » est une tournure orale naturelle entre amis, signifiant « quel genre ? ».\n\nDemande le « type / les caractéristiques / la nature » d'un nom : personne, objet, lieu, événement.\nMet l'accent sur le type plutôt que sur l'identité précise (différent de どの/どれ/だれ).\n« どんなNでも » a un sens englobant : « n'importe quel type … ».\nS'emploie souvent avec des noms abstraits : 人、ところ、こと、味、色、音楽、天気、料理.",
+    "notes": "« どんなに + A/V » = « aussi … que » / « quel que soit le degré » (N3), à ne pas confondre avec どんな + N.\nPour demander une quantité (combien / combien de temps), on utilise どのくらい/どれくらい, et non どんな.\nPour une sensation / impression, « どんな感じ（かんじ）ですか » est très naturel.",
+    "mistakes": [
+     "Employer どんな seul : ×どんなが好き？ → ✓ どんな映画が好き？ ou ✓何が好き？",
+     "Confondre どんな avec どの/どれ lorsqu'il faut choisir un élément précis dans une liste.",
+     "Confondre どんなに (niveau supérieur) avec どんな + N au N5.",
+     "Employer どんな pour demander une quantité / une durée est incorrect ; utiliser いくつ／いくら／どのくらい selon le cas."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "どんな + N",
+       "N de quel genre",
+       "Demande la nature / le type",
+       "どんな<ruby>人<rt>ひと</rt></ruby>？"
+      ],
+      [
+       "どの + N",
+       "Quel (désignation)",
+       "Choisir 1 N précis parmi plusieurs",
+       "どの<ruby>本<rt>ほん</rt></ruby>？"
+      ],
+      [
+       "どれ",
+       "Lequel",
+       "Autonome, choix parmi plusieurs éléments",
+       "どれがいい？"
+      ],
+      [
+       "なに／なん",
+       "Quoi",
+       "Demande la chose elle-même, pas le type",
+       "なにが<ruby>欲<rt>ほ</rt></ruby>しい？"
+      ],
+      [
+       "どのような + N",
+       "N de quel genre (soutenu)",
+       "Plus soutenu que どんな",
+       "どのような<ruby>理由<rt>りゆう</rt></ruby>ですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 58,
+   "src_hash": "055ca597d7596bd1",
+   "fields": {
+    "meaning": "Sans faire…",
+    "examples": [
+     "Je suis allé(e) à l'école sans prendre de petit-déjeuner.",
+     "Comme je suis sorti(e) sans parapluie, je me suis fait tremper.",
+     "Veuillez ne pas laisser vos bagages ici.",
+     "N'écrivez pas en kanji, écrivez en hiragana, s'il vous plaît.",
+     "Il/Elle est reparti(e) sans rien dire.",
+     "Il étudie sans allumer la télévision."
+    ],
+    "explain": "V-ないで + V2 : exprime « omettre A, faire B », avec une nuance nette de choix alternatif.\nV-ないでください : demande / rappel poli dans les lieux publics, les notices.\nForme orale abrégée : ～ないで (seul) s'emploie pour dissuader : 泣か ないで。\nPlus soutenu : ～ずに (écrit) a un sens équivalent dans de nombreux cas.\n\n• Sens 1 (état / enchaînement) : on effectue l'action suivante en omettant l'action précédente (sans faire V1).\n• Sens 2 (demande / ordre poli) : ～ないでください « veuillez ne pas … ».\n• Insiste sur l'alternative / l'opposition : « ne pas faire A mais faire B ».\n• Comparé à ～なくて : ～ないで insiste sur « ne pas accomplir l'action », tandis que ～なくて exprime généralement une cause / une conséquence émotionnelle.",
+    "notes": "• Dans une proposition de cause, avec une conséquence émotionnelle / d'attitude (困る、残念だ、うれしい), on préfère ～なくて.\n• V-ないで + いる exprime le maintien d'un état où l'on ne fait pas quelque chose (連絡しないでいる).\n• V-ないで + 済む : « ne pas avoir besoin de … » (予約したので、並ばないで済んだ).",
+    "mistakes": [
+     "Confusion avec ～なくて : ×朝ご飯を食べなくて学校へ行った → 〇食べないで学校へ行った (sens « aller à l'école sans manger »).",
+     "Employer ないで avec un adjectif / un nom : ×静かないで → utiliser ～ではなくて／～じゃなくて.",
+     "Superposition de négations source de confusion : ×来ないではだめ → 〇来なければだめ／来なければならない.",
+     "Oublier de retirer le い de ない : ×行かないです → 〇行かないでください (dans le cas d'une demande).",
+     "JLPT : on demande souvent de choisir entre ないで et なくて selon le sens « alternative » ou « cause »."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "V-ないで",
+       "Ne pas faire A puis faire B ; ne pas faire",
+       "Insiste sur l'omission de l'action",
+       "<ruby>朝食<rt>ちょうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べないで<ruby>出<rt>で</rt></ruby>る。"
+      ],
+      [
+       "V-なくて",
+       "Parce que… ne… pas (cause / conséquence émotionnelle)",
+       "Cause, pas une alternative",
+       "<ruby>時間<rt>じかん</rt></ruby>がなくて<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "V-ずに",
+       "Sans faire (soutenu)",
+       "Équivalent de ないで, langue écrite",
+       "<ruby>朝食<rt>ちょうしょく</rt></ruby>を<ruby>取<rt>と</rt></ruby>らずに<ruby>出<rt>で</rt></ruby>る。"
+      ],
+      [
+       "V-ないように",
+       "Pour ne pas… (but)",
+       "Exprime le but, pas l'« omission »",
+       "<ruby>遅<rt>おく</rt></ruby>れないように<ruby>急<rt>いそ</rt></ruby>ぐ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 59,
+   "src_hash": "165164fbf1ac5e97",
+   "fields": {
+    "meaning": "Devoir…",
+    "examples": [
+     "Je dois remettre le rapport d'ici demain.",
+     "Il faut faire de l'exercice pour rester en bonne santé.",
+     "Comme il n'y a plus de train, je dois rentrer tôt.",
+     "Au Japon, il faut trier ses déchets.",
+     "Comme je devais assister à une réunion, je suis arrivé(e) en retard.",
+     "Est-ce qu'il faut s'inscrire ?"
+    ],
+    "explain": "S'emploie pour les exigences générales, les règles, les conseils appuyés. Forme polie avec いけません.\nDans une conversation rapide, peut prendre la forme contractée ないと (la suite est sous-entendue). Exemple : もう行かないと。\nC'est le contexte qui détermine le sens « devoir … ».\nS'emploie avec des verbes volitifs / d'action. Ne s'emploie pas avec いけない au sens d'« interdiction » (cela, c'est ～てはいけない).\n\n• Exprime « devoir / être obligé de » en fonction d'une règle, d'une situation, d'un besoin objectif.\n• Structure de négation hypothétique « si l'on ne fait pas X, ça ne va pas » → on en déduit l'obligation de faire X.\n• Nuance neutre, courante dans la conversation et l'écrit ordinaire ; forme polie : ～ないといけません.\n• Comparé à ～なければならない : plus léger, moins contraignant.",
+    "notes": "• Abréviation orale : ～ないと (suite omise) s'accompagne souvent d'une intonation pressante.\n• Pour nier l'obligation, on utilise une double négation : 行かなくてもいい (pas besoin d'y aller), et non directement 行かないといけないの否定.\n• Obligation au passé : ～ないといけなかった présente une raison / un fait objectif ; forme polie : ～ないといけませんでした.",
+    "mistakes": [
+     "Confusion avec ～てはいけない (interdiction) : « 入ってはいけない » = il est interdit d'entrer ; « 入らないといけない » = il faut entrer (sens opposé).",
+     "Mauvaise négation : « 行かないといけない » ≠ « 行ってはいけない ». Attention au piège de l'examen qui remplace と par て.",
+     "Absence de いけない : « 早く帰らないと » peut être considéré comme incomplet dans la langue écrite du JLPT, sauf si le contexte de conversation permet l'ellipse."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Nuance/Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Vないといけない",
+       "Devoir",
+       "Courant, neutre",
+       "<ruby>帰<rt>かえ</rt></ruby>らないといけない"
+      ],
+      [
+       "Vなくてはいけない",
+       "Devoir",
+       "Un peu plus soutenu",
+       "<ruby>提出<rt>ていしゅつ</rt></ruby>しなくてはいけない"
+      ],
+      [
+       "Vなければならない",
+       "Obligation",
+       "Fort, rigide ; langue écrite / règlements",
+       "<ruby>守<rt>まも</rt></ruby>らなければならない"
+      ],
+      [
+       "Vないとだめだ",
+       "Devoir",
+       "Langue parlée, quotidien",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>しないとだめだ"
+      ],
+      [
+       "Vべきだ",
+       "Il faudrait (norme)",
+       "Morale / opinion ; pas totalement synonyme",
+       "<ruby>守<rt>まも</rt></ruby>るべきだ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 60,
+   "src_hash": "7b4202fa43d7562e",
+   "fields": {
+    "meaning": "Devoir… (poli)",
+    "examples": [
+     "Ce document doit être remis d'ici la fin de la semaine.",
+     "Pour entrer, il faut être membre.",
+     "Les produits doivent être sûrs.",
+     "Pour rester en bonne santé, il faut faire de l'exercice régulièrement.",
+     "Je dois faire un régime.",
+     "Faut-il choisir parmi ceux-ci ?"
+    ],
+    "explain": "Forme polie : on transforme いけない → いけません pour convenir au contexte professionnel / public.\nLe contenu obligatoire repose généralement sur une règle / une politique ; peu de sentiment personnel.\nPour nier l'obligation, on utilise : ～ なくてもいい ／～ 必要はない, et non いけない à la forme négative (double négation).\nDans les textes réglementaires officiels, on tend à passer à ～なければならない.\n\n• Obligation de nature réglementaire, procédurale ou exigence générale : « devoir … ».\n• Neutre ; utilisable avec des inconnus / des clients à la forme polie : ～なくてはいけません.\n• Exprime une condition nécessaire : si l'on ne le fait pas, « ça ne va pas / ce n'est pas permis ».\n• Centré sur l'action : s'emploie surtout avec les verbes ; avec A/N, on l'emploie pour parler de conditions à remplir / de critères.",
+    "notes": "• Forme prononcée rapidement : ～なくてはいけない → ～なくちゃいけない dans la conversation.\n• Passé, obligation accomplie : ～なくてはいけなかった（j'ai dû ...）.\n• Combinaison avec d'autres particules : どうしても行かなくてはいけない（il faut y aller à tout prix）.",
+    "mistakes": [
+     "Oubli de « で » avec N/na : ×会員なくてはいけない → 〇会員でなくてはいけない.",
+     "L'employer pour une demande personnelle sonne rigide : entre amis, on utilise ～なくちゃいけない.",
+     "Mauvaise négation : ×行かなくてはいけないくない → 〇行かなくてもいい／行く必要はない.",
+     "Confusion avec べきだ à l'examen : べきだ signifie « il faudrait », et non « devoir »."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～なければならない",
+       "Devoir (très fort, normatif)",
+       "Rigide, langue écrite / politique",
+       "<ruby>提出<rt>ていしゅつ</rt></ruby>しなければならない。"
+      ],
+      [
+       "～なくちゃいけない",
+       "Devoir (familier)",
+       "Langue parlée, souple",
+       "もう<ruby>行<rt>い</rt></ruby>かなくちゃいけない。"
+      ],
+      [
+       "～べきだ",
+       "Il faudrait (norme / opinion)",
+       "Pas absolument obligatoire",
+       "<ruby>守<rt>まも</rt></ruby>るべきだ。"
+      ],
+      [
+       "～ことだ",
+       "Conseil",
+       "Léger, consigne de médecin / d'entraîneur",
+       "<ruby>毎日<rt>まいにち</rt></ruby><ruby>歩<rt>ある</rt></ruby>くことだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 61,
+   "src_hash": "72689d29121974a9",
+   "fields": {
+    "name": "～ね　n'est-ce pas",
+    "meaning": "～ね　　~n'est-ce pas",
+    "connection": "[phrase/proposition] + ね",
+    "examples": [
+     "A: Je travaille jusqu'à 10 heures tous les jours.\nA: C'est dur, n'est-ce pas ?",
+     "A: Le numéro de téléphone de M. Yamada est le 871-6813.\nB: Le 871-6813, c'est bien ça ?"
+    ],
+    "explain": "ね s'emploie en fin de phrase pour exprimer l'attente de l'accord de l'interlocuteur, ou pour confirmer, rappeler quelque chose."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 62,
+   "src_hash": "4c40b6b101a36be4",
+   "fields": {
+    "meaning": "Comment est… ?",
+    "examples": [
+     "A: Comment est ce devoir ?\nB: Il est très difficile.",
+     "A: Comment est cette ville ?\nB: Elle est calme."
+    ],
+    "explain": "どう： s'emploie pour demander une impression, un avis, un ressenti, ou la nature d'une chose ou d'un événement.",
+    "notes": "Xはどうですか (structure interrogative utilisant どう pour demander un état / une évaluation) signifie : cette structure grammaticale sert à demander l'état, la condition ou l'évaluation de quelque chose. Elle se traduit par « Comment est X ? » ou « Que pensez-vous de X ? »\nStructure : Xはどうですか\nL'expression combine la particule de thème は avec どう, qui signifie « comment » ou « de quelle manière », suivie de ですか pour former une question polie. On l'emploie couramment pour s'enquérir de l'avis de quelqu'un, d'un état ou de la situation de quelque chose, de manière neutre et polie."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

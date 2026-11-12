@@ -1,0 +1,500 @@
+{
+ "batch": "b013",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-11",
+ "items": [
+  {
+   "id": 190,
+   "src_hash": "dc11ba7469c2b183",
+   "fields": {
+    "meaning": "Avant de",
+    "examples": [
+     "Je me suis brossé les dents avant de me coucher.",
+     "Je me suis lavé les mains avant le repas.",
+     "Yamada a quitté la maison il y a une heure.\nAvant de sortir, Yamada a lu le journal."
+    ],
+    "explain": "Met l'accent sur l'ordre des actions.\nOn conjugue au futur, au présent, au passé… le verbe qui suit. (V2)\nLe sujet de la proposition principale prend は, le sujet de la proposition subordonnée prend la particule が.\n\n～まえに： Avant de\nUne durée placée directement devant まえに signifie généralement : il y a ~.",
+    "notes": "meaning_vi: Souligne qu'une action ou un événement de la seconde proposition se produit avant l'action ou l'événement de la première proposition.\nexamples: 1. ①　つらくなる　前に\nAvant que cela ne devienne pénible.\n2. ②　テストを　はじめる　前に　名前を　書いてください。\nÉcrivez votre nom avant de commencer le test.\n3. ③　ねる　前に　何をし　ましたか。\nQu'avez-vous fait avant de dormir ?\n4. ④　食事の　前に　手を　あらいます。\nOn se lave les mains avant le repas."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 191,
+   "src_hash": "7152d6fd48d30c24",
+   "fields": {
+    "meaning": "Ceci est plus… que cela",
+    "examples": [
+     "Cette année est plus chargée que l'année dernière.",
+     "Le train est plus rapide que le bus.",
+     "Le chat est plus calme que le chien.",
+     "L'anglais est plus facile à parler que le japonais.",
+     "Entre A et B, lequel est le plus difficile ? — C'est B qui est plus difficile.",
+     "Le résultat a été pire que prévu."
+    ],
+    "explain": "Quand le contexte est clair, on peut dire : B のほうが ～ (ellipse de Aより).\nOn ajoute ずっと/はるかに pour insister sur un grand écart.\nのほうが s'emploie souvent dans la conversation ; en langue écrite soutenue, on peut employer d'autres 比較的構文, mais ce modèle reste correct.\nAttention : le critère de comparaison doit être le même pour A et B.\n\nExprime une différence de degré : « B est plus ~ que A selon le critère ~ ».\nL'accent porte sur B（のほう）. On peut faire l'ellipse de Aより dans une comparaison implicite.\nS'emploie avec des adjectifs, des verbes, des quantités, des fréquences…\nのほう (le côté de …) apporte une nuance de choix/comparaison, naturelle dans la conversation.",
+    "notes": "のほう est une nominalisation signifiant « côté », qui permet de poser naturellement B comme thème de la comparaison.\nより peut devenir よりも pour insister ou pour marquer davantage le rythme.\nPlace de が/は après のほうが : が pour une information nouvelle, は pour un contraste/une généralisation.",
+    "mistakes": [
+     "Ordre incorrect : « BよりAのほうが » est généralement peu naturel ; la forme correcte est « AよりBのほうが ».",
+     "Critères mélangés : A et B doivent avoir le même critère de comparaison.",
+     "Confusion entre ～のほうがいい (conseil) et ～より～のほうが～ (comparaison de degré).",
+     "Omettre より alors que le contexte n'est pas clair rend la phrase ambiguë en compréhension écrite."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence principale",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "A は B ほど ～ない",
+       "A n'est pas aussi … que B",
+       "Met l'accent sur la négation (A est inférieur à B) ; nuance plus douce que l'affirmation « B est plus … que A ».",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>兄<rt>あに</rt></ruby>ほど <ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くない。"
+      ],
+      [
+       "～のほうがいい",
+       "Il vaut mieux / choisir ~",
+       "Conseil/choix, pas une simple comparaison de degré.",
+       "<ruby>今日<rt>きょう</rt></ruby>はタクシーのほうがいい。"
+      ],
+      [
+       "<ruby>一番<rt>いちばん</rt></ruby>～",
+       "Comparaison au superlatif",
+       "Pas une comparaison entre deux éléments ; on choisit le degré le plus élevé parmi plusieurs.",
+       "この<ruby>店<rt>みせ</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>安<rt>やす</rt></ruby>い。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 192,
+   "src_hash": "547be9747e812749",
+   "fields": {
+    "meaning": "La particule finale「よ」, placée en fin de phrase, s'emploie pour apporter une information nouvelle à l'interlocuteur. La particule finale「ね」s'emploie lorsqu'on veut que l'interlocuteur confirme une information qu'il connaît déjà.",
+    "connection": "[phrase/proposition] + よ (information nouvelle pour l'interlocuteur) / [phrase/proposition] + ね (confirmation/empathie)",
+    "examples": [
+     "Nara, c'est mieux, vous savez.",
+     "Ah, il y a un chat !",
+     "Le rendez-vous d'aujourd'hui était vraiment agréable, n'est-ce pas ?",
+     "Il fait froid, n'est-ce pas ? J'aimerais vite rentrer à la maison, pas vous ?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 193,
+   "src_hash": "ab786b4138ecf2a4",
+   "fields": {
+    "connection": "N（lieu） + を + V de déplacement",
+    "examples": [
+     "Tournez là, s'il vous plaît.",
+     "Traversez ce pont-là, s'il vous plaît.",
+     "Il est interdit de courir dans le couloir.",
+     "Hier, j'ai fait une promenade dans le parc.",
+     "Je lis des mangas.",
+     "J'achète un ordinateur."
+    ],
+    "explain": "V désigne des verbes de mouvement ou de direction, comme aller, courir, voler…\n\nA\nIndique l'objet visé par l'action.\nB\nIndique le lieu où l'on se déplace ou que l'on traverse.\nC\nIndique le lieu où l'on descend d'un véhicule ou le point de départ.\nD\nIndique l'état d'une personne ou d'une chose dans le modèle de phrase."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 194,
+   "src_hash": "1034b7552ea5802e",
+   "fields": {
+    "name": "～を＋verbe transitif＊",
+    "meaning": "Verbe transitif : verbe qui exige un complément (「～を」).",
+    "connection": "Nを + V transitif",
+    "examples": [
+     "J'éteins la lumière.",
+     "J'allume la télévision.",
+     "J'ouvre la porte.",
+     "Je ferme la porte.",
+     "Je fais entrer le chat.",
+     "Je fais sortir le chat."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 195,
+   "src_hash": "f32d1e87bc331689",
+   "fields": {
+    "name": "Mot interrogatif＋も（＋particule）＋～ない",
+    "meaning": "Indique qu'il n'y a rien ou qu'on ne fait rien (à propos de choses, de personnes, de lieux, etc.). S'emploie avec les mots interrogatifs.",
+    "connection": "Mot interrogatif + も( + particule) + Vません/～ない",
+    "examples": [
+     "Parce qu'il n'y a rien.",
+     "Je n'ai envie de rien manger.",
+     "Hier, je ne suis allé(e) nulle part.",
+     "Je ne le dirai à personne."
+    ],
+    "notes": "meaning_vi: ~ ne … pas non plus ~ ⏐ explain: S'emploie pour insister sur la négation. ⏐ 接続: Nも"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 196,
+   "src_hash": "df227bed8b486cbd",
+   "fields": {
+    "name": "Proposition déterminative",
+    "meaning": "Manière de déterminer un nom au moyen d'une proposition relative.",
+    "connection": "V forme neutre + N / Aい + N / Naな + N / Nの + N",
+    "examples": [
+     "Le livre que j'ai acheté hier",
+     "Ne croyez pas ce que dit votre petit frère.",
+     "C'est une bague que ma mère m'a offerte.",
+     "J'ai beaucoup de choses à faire."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 197,
+   "src_hash": "6ec88fb4046ebd50",
+   "fields": {
+    "name": "お・ご（préfixe de politesse）",
+    "meaning": "お/ご : préfixe de politesse qui met un nom au keigo (langage honorifique) (おちゃ, ご家族)",
+    "examples": [
+     "Voulez-vous boire du thé ?",
+     "Combien de personnes y a-t-il dans votre famille ?",
+     "Pourriez-vous me dire votre nom, s'il vous plaît ?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 198,
+   "src_hash": "d2792e9eec33da21",
+   "fields": {
+    "meaning": "Il ne faut pas… (interdiction ; équivalent en langue parlée de ～てはいけない)",
+    "examples": [
+     "Tu n'as pas le droit de fumer ici, tu sais.",
+     "Il est interdit d'utiliser son smartphone pendant les cours.",
+     "Il ne faut pas boire trop d'alcool, hein !"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 199,
+   "src_hash": "e69aa875f4d77624",
+   "fields": {
+    "meaning": "だ/です : être… (auxiliaire d'affirmation ; だ neutre, です poli)",
+    "connection": "Affirmatif présent : N・Na + だ（neutre）・です（poli） / Affirmatif passé : だった・でした / Négatif présent : じゃない・ではない（neutre）・じゃありません・ではありません（poli） / Négatif passé : じゃなかった・ではなかった・じゃありませんでした・ではありませんでした",
+    "examples": [
+     "Je suis étudiant(e).",
+     "Tanaka est professeur de japonais.",
+     "Hier, il a plu."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 200,
+   "src_hash": "feb6fcceadb4eed1",
+   "fields": {
+    "meaning": "Le plus…, numéro un (degré le plus élevé)",
+    "examples": [
+     "Dans la classe, c'est Linh qui a la plus grande taille.",
+     "Parmi les fruits, ce sont les pommes que je préfère.",
+     "Voici l'appareil photo le moins cher."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 201,
+   "src_hash": "6c79f1d693397590",
+   "fields": {
+    "meaning": "Ensemble, avec…",
+    "examples": [
+     "J'ai regardé un film avec des amis.",
+     "Voulez-vous déjeuner ensemble ?",
+     "Je voudrais aller au Japon avec ma famille."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 202,
+   "src_hash": "9c2cdf208abe97c0",
+   "fields": {
+    "meaning": "Ne pas être… (négation d'un nom/Na ; じゃない : langue parlée)",
+    "connection": "Négatif présent : N・Na + じゃない・ではない（neutre）・じゃありません・ではありません（poli） / Négatif passé : じゃなかった・ではなかった・じゃありませんでした・ではありませんでした",
+    "examples": [
+     "Je ne suis pas japonais(e).",
+     "Ce n'est pas mon sac.",
+     "Hier, ce n'était pas un jour de congé."
+    ],
+    "notes": "※じゃありません s'emploie surtout dans la conversation ; ではありません s'emploie plutôt dans les discours/en langue écrite"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 204,
+   "src_hash": "f7fbe6c1250fadd4",
+   "fields": {
+    "meaning": "Être mauvais/maladroit pour… (Vるのが下手)",
+    "examples": [
+     "Je chante mal.",
+     "Mon petit frère a une mauvaise écriture.",
+     "Je cuisine mal."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 205,
+   "src_hash": "04f62384c7f5d9c1",
+   "fields": {
+    "meaning": "Être bon/habile pour… (Vるのが上手)",
+    "examples": [
+     "Linh parle bien japonais.",
+     "Ma mère cuisine bien.",
+     "Mon grand frère dessine bien."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 207,
+   "src_hash": "ef42d0f9bef3fedf",
+   "fields": {
+    "meaning": "…hein, …n'est-ce pas (particule finale : exclamation, confirmation)",
+    "connection": "[phrase/proposition] + な(あ)（fin de phrase, exclamation）",
+    "examples": [
+     "Comme ce paysage est beau !",
+     "Qu'est-ce qu'il fait chaud aujourd'hui !",
+     "J'aimerais tellement aller au Japon !"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 208,
+   "src_hash": "f3513811ef972c9b",
+   "fields": {
+    "meaning": "~ s'achever (achèvement) | Pouvoir faire quelque chose",
+    "examples": [
+     "Le dîner est déjà prêt.",
+     "Un grand supermarché a ouvert devant la gare.",
+     "Je sais parler japonais.",
+     "On ne peut pas prendre de photos ici.",
+     "Un nouvel immeuble a été construit devant la gare.",
+     "En express, on peut arriver en une heure."
+    ],
+    "explain": "Poli : できます／できません. Familier : できる／できない.\nPour une capacité générale, on utilise Nができます ; pour une action précise, Vることができます ou可能形V-られる.\nAu sens « être construit/apparaître/se former », le sujet est une chose + が:公園ができる,予約ができる (pouvoir réserver).\nPour insister sur le degré : よくできます (bien faire), だいたいできます (faire à peu près),少しできます (savoir faire un peu).\n\nCapacité/possibilité selon les conditions : « pouvoir faire ~ », « savoir ~ » (aptitude, compétence, conditions qui le permettent).\nFormation/achèvement/apparition : « être construit/naître/se former » (sens différent de « pouvoir »).\nIndiquer la portée de la capacité par un nom : ピアノができます (savoir jouer du piano),料理ができます (savoir cuisiner).\nPour exprimer la capacité avec un verbe précis, on emploie Vることができます (soutenu) ; la forme courante dans la conversation est V-可能形:読めます,行けます.",
+    "notes": "Distinguer les deux sens « pouvoir faire » et « être construit/être créé » : se fier au contexte et au sujet.\nAvec des personnes :友だちができる = se faire un nouvel ami ;子どもができる = être enceinte/avoir un enfant (attention à la nuance).\nLieux/équipements : ここで充電ができます (on peut recharger ici) = les conditions le permettent.\nNégation polie dans les lieux publics : 〜ことはできません/ご遠慮ください diffèrent par la nuance (interdiction/demande de s'abstenir).\nexplain: Exprime une aptitude, une capacité concernant quelque chose.\nexamples: 1. A:　カリナちゃんは　漢字が　できますか。\nB:　はい、漢字をよむことが　できます。書くことも　できますよ。\nA: La petite Karina connaît-elle les kanji ?\nB: Oui, Karina sait lire les kanji. Elle sait aussi les écrire.\n2. A:　カードで　はらうことが　できますか。\nB:　はい、できますよ。\nA: Puis-je payer par carte ?\nB: Oui, bien sûr.\nexplain: ◎ S'emploie avec la forme du dictionnaire du verbe et signifie qu'il est possible de faire cette action.\nexamples: 1. 屋上から 富士山を 見る ことが できます。\nOn peut voir le mont Fuji depuis le toit.\n2. ここから 先は、車で、通る ことが できません。\nAu-delà d'ici, on ne peut pas passer en voiture.\nexplain: Vる + こと + が + できます : plus poli que le potentiel V-られる.\nOn utilise に/で pour indiquer le lieu/la condition :学校で勉強することができます。\nS'emploie aussi bien pour une capacité innée que pour une possibilité due aux circonstances/à une permission.\nexamples: 1. 私は泳ぐことができます。\nJe sais nager.\n2. この図書館で日本語の本を読むことができます。\nOn peut lire des livres en japonais dans cette bibliothèque.\n3. ここでは写真を撮ることができません。\nOn ne peut pas prendre de photos ici.\n4. 昨日、早く帰ることができました。\nHier, j'ai pu rentrer tôt.\n5. このカードで払うことができますか。\nPeut-on payer avec cette carte ?\ncomparison: Structure | Sens | Différence | Exemple court\nVる + ことができます | Pouvoir faire (poli) | Soutenu, facile à employer au niveau N5 | 日本語（にほんご）を話（はな）す ことができます\nV可能（かのう）形（けい） (～られる) | Pouvoir faire | Concis, conversationnel ; niveau plus avancé | 日本語（にほんご）が話（はな）せる\nN + ができます | Avoir/savoir N | S'emploie avec un nom de compétence | 料理（りょうり） ができます\ncommon_mistakes: Particule incorrecte : ×日本語を話すができます → ✓日本語を話すことができます.\nOubli de こと : ×車を運転ができます → ✓車を運転することができます ou車の運転ができます.\nConfusion entre permission et capacité : il faut s'appuyer sur le contexte/le lieu pour bien comprendre.\nexplain: Par rapport à V-可能形 : ことができる est soutenu/objectif ; V-可能形est plus naturel, plus proche de la langue parlée :日本語が話せる。\nDans une nominalisation, on garde l'ordre des particules à l'intérieur de la proposition :日本語 を 話すことができる (correct) ; le type日本語 が 話せる s'emploie avec la forme potentielle.\nPour exprimer « un service disponible » : こちらで両替 できます (plus naturel dans les indications).\nCombinaisons d'insistance :少しなら/十分に/自由に + できる.\nexamples: 1. 私は日本語を話すことができます。\nJe sais parler japonais.\n2. ここではWi‑Fiを無料で利用することができます。\nIci, on peut utiliser le Wi‑Fi gratuitement.\n3. 事故のため、今日は運転することができません。\nÀ cause d'un accident, je ne peux pas conduire aujourd'hui.\n4. このアプリで予約することができる。\nOn peut réserver avec cette application.\n5. 手術のおかげで、また走ることができるようになった。\nGrâce à l'opération, j'ai pu de nouveau courir.\ncomparison: Structure | Sens | Différence | Exemple court\nV-ことができる | Pouvoir (objectif) | Soutenu ; adapté à l'écrit, aux annonces | 入場（にゅうじょう）する ことができません\nV-可能（かのう）形（けい）（読（よ）める等（ひとし）） | Pouvoir (naturel) | Langue parlée ; le complément d'objet passe de を→が | 日本語（にほんご） が 話（はな）せる\n～てもいい | Être autorisé | Autre axe de sens (permission) | ここで写真（しゃしん）を撮（と）っ てもいい\nNができる | Savoir/être doué/être créé | Forme nominale : 英語（えいご）ができる/ケーキができる | 彼（かれ）は数学（すうがく） ができる\ncommon_mistakes: • Confusion entre permission et capacité : « 入ってもいい » (être autorisé) ≠ « 入ることができる » (pouvoir entrer).\n• Particule incorrecte à l'intérieur de la proposition : 日本語が話すことができる → il faut 日本語を話すことができる.\n• Lourdeur avec les verbes サ変 : « 予約をすることができる » est long ; plus naturel : 予約できる / 予約することができる (quand il faut être soutenu).\n• Trop soutenu dans une conversation familière : ことができる → préférer 可能形 pour plus de naturel.\nmeaning_vi: Exprime une situation où il est toujours possible de réaliser une action (①②) ou une capacité à faire quelque chose (③). Dans ce modèle de phrase, on emploie généralement des verbes exprimant une action relevant de la volonté humaine. C'est une tournure plus soutenue que ～（され）ます。\nexamples: 1. ①このコンビニでは24時間買い物ができます。\nOn peut faire ses courses 24 heures sur 24 dans cette supérette.\n2. ②今、この建物の中には入ることができません。\nPour le moment, on ne peut pas entrer dans ce bâtiment.\n3. ③私は日本の県の名前を全部いうことができます。\nJe peux citer le nom de toutes les préfectures du Japon.\nmeaning_vi: avoir la capacité de faire…\nd'après la situation, avoir la capacité de faire…\nexamples: 1. わたしは車の運転ができます。\nJe sais conduire.\n2. リンさんは日本語を話すことができます。\nRin sait parler japonais.\n3. 「場所がどこかわかりますから、一人で行くことができます」\n« Comme je sais où se trouve l'endroit, je peux y aller par mes propres moyens. »\n4. この図書館は9時まで利用することができます。\nCette bibliothèque est accessible jusqu'à 9 heures.\n5. 「禁煙です。ここではたばこを吸うことはできません」\n« Espace non-fumeur. Il est interdit de fumer ici. »\n6. 「このいすは壊れていますから、座ることはできません。注意してくださいね。」\n« Cette chaise est cassée, on ne peut donc pas s'asseoir dessus. Faites attention. »\nmeaning_vi: Exprime le sens de pouvoir faire.\nexamples: 1. ①　何でも　食べられるよ。\nOn peut manger de tout.\n2. ②　わたしは　何でも　食べる　ことが　できます。\nJe peux manger de tout.\n3. ➂　いつか　また　会えますよ。\nOn se reverra un jour.",
+    "mistakes": [
+     "Particule incorrecte : を au lieu de が pour la capacité. Correct : Nができます.",
+     "Confusion avec le sens d'achèvement : « 駅ができました » ne signifie pas « pouvoir la gare », mais « une nouvelle gare a été construite ».",
+     "Emploi erroné de Nをすることができる (lourd). On utilise généralement Vることができる ou Nができる.",
+     "Confusion sur le degré : « 少しできます/全然できません » sont des expressions naturelles du degré au JLPT."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Emploi",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Nができる",
+       "Capacité relative à un nom/une compétence",
+       "Général, concis",
+       "<ruby>英語<rt>えいご</rt></ruby>ができる"
+      ],
+      [
+       "Vることができる",
+       "Capacité à accomplir une action précise",
+       "Soutenu, clair",
+       "<ruby>予約<rt>よやく</rt></ruby>することができる"
+      ],
+      [
+       "V-<ruby>可能<rt>かのう</rt></ruby><ruby>形<rt>けい</rt></ruby> (<ruby>読<rt>よ</rt></ruby>める)",
+       "Capacité exprimée par le verbe",
+       "Naturel dans la conversation",
+       "ここで<ruby>読<rt>よ</rt></ruby>める"
+      ],
+      [
+       "〜ようになる",
+       "Devenir capable (évolution dans le temps)",
+       "Insiste sur le changement, pas simplement sur la capacité actuelle",
+       "<ruby>泳<rt>およ</rt></ruby>げるようになる"
+      ],
+      [
+       "〜ことが<ruby>可能<rt>かのう</rt></ruby>だ",
+       "Faisabilité (langue écrite)",
+       "Soutenu/technique",
+       "<ruby>登録<rt>とうろく</rt></ruby>が<ruby>可能<rt>かのう</rt></ruby>だ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 209,
+   "src_hash": "b4815a35e6f66555",
+   "fields": {
+    "meaning": "(Quelqu'un) fait quelque chose pour moi",
+    "examples": [
+     "Elle m'a appris beaucoup de choses sur la vie au Japon.",
+     "C'est lui qui m'a fait savoir que le cours du professeur Mori serait annulé.",
+     "Un ami m'a donné un coup de main pour mes devoirs.",
+     "Le professeur a corrigé ma prononciation.",
+     "Tu m'as prêté ce livre, ça m'a vraiment rendu service.",
+     "Tu peux m'attendre un instant ?"
+    ],
+    "explain": "Le sujet est la personne qui agit (ga/wa) + V-て + くれる ; le bénéficiaire est moi/nous (souvent omis par ellipse).\nExprime la reconnaissance, la familiarité ; on passe à くださる lorsque l'auteur de l'action doit être traité avec le langage respectueux (sonkeigo).\nPour une demande, on ajoute une formule de politesse : すみませんが、～て くれますか ／～て くれませんか .\nNe s'emploie pas pour dire « je fais quelque chose pour quelqu'un d'autre » ; on utilise alors ～てあげる／～てさしあげる.\n\n• Exprime une action « que quelqu'un fait (dans l'intérêt) du locuteur ou d'une personne de son groupe ». Insiste sur la faveur et sur le sentiment de reconnaissance/l'évaluation positive.\n• Peut servir à formuler une demande à la forme interrogative : ～てくれる？／～てくれますか (demande).\n• Dans un contexte affectif : ～てくれてありがとう／～てくれてよかった (expression des sentiments).\n• Lorsque l'auteur de l'action est un supérieur/un client, on passe à ～てくださる (langage respectueux) ; pour insister sur le fait que c'est moi qui reçois, on utilise ～ていただく (langage humble (kenjōgo)).",
+    "notes": "• ～てくれるな est une interdiction brutale (ne fais pas ça), surtout dans les discours oratoires/la langue classique/un style très masculin ; à employer avec prudence.\n• ～てくれてよかった／～てくれてうれしい : nuance de sentiment positif à propos de la faveur reçue.\n• Changement de point de vue : avec もらう, le bénéficiaire est le sujet ; avec くれる, c'est celui qui donne qui est le sujet. Les deux peuvent exprimer le même fait avec une nuance différente.\nmeaning_vi: ~smiley1V pour moi.\nexplain: S'emploie uniquement pour soi-même et pour ses proches comme le père, la mère, le grand frère, la grande sœur…（ちち、はは、あね、あに、おとうと、いもうと…)\nOn peut faire l'ellipse de 私に ; le sujet est alors suivi de la particule が.\nexamples: 1. A:　犬が　かわいいですね。\nB:　ええ、姉が　この犬 を　買ってくれましたよ。\nA: Il est mignon, ce chien.\nB: Oui, c'est ma grande sœur qui me l'a acheté.\n2. A:　すてきな　セーターですね。\nB:　ありがとう　ございます。ママが　送ってくれましたよ。\nA: Quel joli pull !\nB: Merci. C'est maman qui me l'a envoyé.\nmeaning_vi: Le sujet de la phrase n'est pas le locuteur. La cible qui reçoit la chose ou l'action est le locuteur ou une personne psychologiquement proche de lui. Lorsqu'on reçoit quelque chose d'un supérieur qui n'est pas de la famille, on utilise la structure くださいます。\nexamples: 1. ①山田さんは私に時計をくれました。\nM. Yamada m'a offert une montre.\n2. ②先生が妹に本をくださいました。\nLe professeur a donné un livre à ma petite sœur.\n3. ③友達が店の場所を教えてくれました。\nUn ami m'a indiqué l'adresse du magasin.\n4. ④サラさんは一緒に病院へ行ってくれた。\nSarah est allée à l'hôpital avec moi.",
+    "mistakes": [
+     "Emploi de くれる alors que le bénéficiaire n'a pas de lien avec le locuteur → il faut utiliser あげる/もらう selon le sens de la faveur.",
+     "Oubli du keigo (langage honorifique) avec un supérieur : × 先生が教えてくれた → ✓ 教えてくださいました／教えてくださった。",
+     "Confusion entre くれる et もらう dans les phrases où le sujet change : les épreuves du JLPT demandent souvent de transformer la structure en gardant le sens.",
+     "くれ à la forme d'ordre sonne brutal ; à éviter dans un contexte poli."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "V-てくれる",
+       "Quelqu'un d'autre fait quelque chose pour moi",
+       "Neutre/familier",
+       "<ruby>母<rt>はは</rt></ruby>が<ruby>作<rt>つく</rt></ruby>ってくれた"
+      ],
+      [
+       "V-てくださる",
+       "Keigo de くれる",
+       "Langage respectueux envers l'auteur de l'action",
+       "<ruby>先生<rt>せんせい</rt></ruby>が<ruby>教<rt>おし</rt></ruby>えてくださった"
+      ],
+      [
+       "V-てもらう",
+       "Je reçois l'aide de quelqu'un",
+       "Centré sur le bénéficiaire (moi)",
+       "<ruby>友<rt>とも</rt></ruby>だちに<ruby>手伝<rt>てつだ</rt></ruby>ってもらった"
+      ],
+      [
+       "V-てあげる",
+       "Je fais quelque chose pour quelqu'un d'autre",
+       "Le bienfait va de moi vers l'extérieur",
+       "<ruby>説明<rt>せつめい</rt></ruby>してあげる"
+      ],
+      [
+       "V-てさしあげる",
+       "Langage humble (je fais quelque chose pour un supérieur)",
+       "Soutenu",
+       "<ruby>案内<rt>あんない</rt></ruby>してさしあげます"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,449 @@
+{
+ "batch": "b039",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 574,
+   "src_hash": "ed066f44f925178f",
+   "fields": {
+    "meaning": "Si l'on suppose que…, dans le cas où…\nMême si…, à supposer même que…",
+    "examples": [
+     "Supposons que le soleil soit une boule de 1 mètre de diamètre. La Terre mesure alors environ 9 millimètres.",
+     "« Si l'on va rendre visite à un malade, vers quelle heure vaudrait-il mieux y aller ? »",
+     "Si l'on pose A=B et B=C, alors A=C.",
+     "Si les eaux usées de cette usine sont la cause de la maladie, la question de l'indemnisation va naturellement se poser.",
+     "Si ce n'est pas lui le coupable, qui a bien pu le voler ?",
+     "Si même Sato, qui a d'excellents résultats, trouve cela difficile, il est impossible que quelqu'un comme moi comprenne."
+    ],
+    "explain": "S'emploie pour poser l'hypothèse d'une situation ou d'une condition qui ne s'est pas encore réalisée, afin d'en tirer une inférence ou d'exprimer un point de vue.\nS'emploie pour poser l'hypothèse d'une situation ou d'une condition qui ne s'est pas encore réalisée, afin d'en tirer une inférence ou d'exprimer un point de vue.\nS'emploie pour poser l'hypothèse d'une situation ou d'une condition qui ne s'est pas encore réalisée, afin d'en tirer une inférence ou d'exprimer un point de vue.",
+    "notes": "1) On confond facilement les formes d'hypothèse.\n→ ～とする signifie « supposer que… », souvent employé pour poser une condition imaginaire.\n2) Vos données contiennent de nombreux ct (ghichu=2/3).\n→ Pour créer un piège propre à chaque forme (としたら／としても), il faut faire une mise à jour supplémentaire selon le ghichu correspondant.\n3) Ne pas confondre avec ～とすると (résultat naturel).\n→ ～とする signifie « considérer comme / supposer » ; ～とすると peut signifier « si c'est le cas, alors » par inférence."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 575,
+   "src_hash": "6188acc9b0ff41a2",
+   "fields": {
+    "meaning": "Si l'on suppose que…, si l'on admet que…",
+    "connection": "V forme neutre + とすれば としたら とすると / N + だ / Na + だ / Aい",
+    "examples": [
+     "Si A est absent, nous serons 9.",
+     "Si le départ est retardé d'une heure, l'arrivée se fera vers 19 h.",
+     "Si c'est un original, il vaut plusieurs millions de yens.",
+     "Si c'est lui qui a écrit ce mail, quel pourrait bien être son mobile ?",
+     "Si cette hypothèse est vérifiée, on peut en déduire l'équation suivante.",
+     "S'il pleut demain, le match sera annulé."
+    ],
+    "explain": "Sert à conduire un raisonnement : on pose une hypothèse puis on en tire immédiatement une conclusion ou une conséquence.\nÉviter l'ordre ou une volonté forte dans la seconde proposition ; convient mieux au jugement, à la planification, au calcul.\nÀ l'oral, la forme contractée だとすると/とすると placée en début de phrase permet d'enchaîner naturellement le raisonnement.\n\n• Pose une hypothèse comme prémisse pour raisonner, calculer ou décider : « si…, alors… / supposons que…, alors… ».\n• S'emploie souvent quand l'information n'est pas certaine ; le locuteur la tient provisoirement pour vraie afin d'en tirer une conséquence logique.\n• Convient aux calculs rapides, aux scénarios « what-if », à la vérification de conditions.\n• Nuance neutre, utilisable à l'oral comme à l'écrit ; un peu argumentative.",
+    "notes": "• En logique ou dans les manuels, 〜とすると s'emploie souvent avec 証明・仮定・結論. Exemple : 「仮にAとすると、Bが導かれる。」\n• S'emploie dans les estimations rapides : 「一人500円とすると、合計は…」\n• Placé en début de paragraphe pour réorienter l'argumentation : 「だとすると、次に問題となるのは…」",
+    "mistakes": [
+     "Confusion avec 〜としたところで (concession). 〜とすると est une condition d'inférence ; il n'implique pas « même si…, … quand même ».",
+     "Ordre ou volonté forte dans la seconde proposition → peu naturel. Préférer un jugement ou un projet, pas « 〜しろ ».",
+     "Piège de QCM : とすると ou なら. Quand l'information vient de l'interlocuteur ou de l'extérieur du contexte → なら ; quand on pose soi-même une hypothèse pour en déduire quelque chose → とすると."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Nuance",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "〜とすると",
+       "Hypothèse → inférence",
+       "Neutre, très employé pour les calculs",
+       "<ruby>増税<rt>ぞうぜい</rt></ruby>とすると<ruby>影響<rt>えいきょう</rt></ruby>は…"
+      ],
+      [
+       "〜とすれば",
+       "Hypothèse sérieuse",
+       "Un peu soutenu, prémisse plus solide",
+       "<ruby>事実<rt>じじつ</rt></ruby>とすれば<ruby>由々<rt>ゆゆ</rt></ruby>しき<ruby>問題<rt>もんだい</rt></ruby>"
+      ],
+      [
+       "〜としたら",
+       "Hypothèse personnelle / imaginée",
+       "Plus oral, proche du locuteur",
+       "<ruby>私<rt>わたし</rt></ruby>が<ruby>君<rt>きみ</rt></ruby>だとしたら…"
+      ],
+      [
+       "〜なら",
+       "Condition connue",
+       "Reprend une information antérieure comme condition",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ],
+      [
+       "〜たら",
+       "Condition / moment",
+       "Indique souvent « après que », peu d'inférence",
+       "<ruby>着<rt>ちゃく</rt></ruby>いたら<ruby>連絡<rt>れんらく</rt></ruby>して"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 576,
+   "src_hash": "f7149faeecc5bca3",
+   "fields": {
+    "meaning": "Avec…, en même temps que…",
+    "examples": [
+     "Avec l'âge, la mémoire s'affaiblit.",
+     "Avec l'arrivée du printemps, les fleurs ont commencé à s'ouvrir.",
+     "Cette ville est un site touristique et possède en même temps une grande valeur historique.",
+     "Avec la généralisation des smartphones, les modes de vie ont eux aussi changé.",
+     "Il est médecin et, en même temps, professeur d'université.",
+     "Dans cette région, la population continue d'augmenter avec le développement de l'industrie."
+    ],
+    "explain": "S'emploie à l'écrit, dans les discours, rapports et mémoires → registre soutenu.\nPeu employé dans la conversation familière (on le remplace par いっしょに, ～につれて, ～ながら).\nAu sens de « changement entraîné », proche de ～につれて/～にしたがって, mais plus soutenu.\nAu sens de « en même temps », proche de ～だけでなく / ～そして, mais avec un style plus rigoureux.\n\n•\n① Avec, en même temps que : deux actions ou faits se produisent simultanément.\n\n•\n② Quand A change, B change aussi : exprime une évolution parallèle selon une tendance.\n\n•\n③ Cumul de plusieurs rôles ou qualités : « être à la fois…, et en même temps… ».\n\n• Le contexte est généralement soutenu, écrit ou argumentatif.",
+    "notes": "1) On confond facilement les 3 sens de ～とともに.\n→ Il signifie « avec » (accompagnement), « en même temps » (simultanéité) et « quand A change, B change aussi ».\n2) Regarder la nature du mot qui précède.\n→ Si c'est une personne ou un groupe : généralement « avec ».\n→ Si c'est un événement simultané : « en même temps ».\n→ Si c'est un changement : « changer ensemble ».\n3) Confusion facile avec ～につれて／～にしたがって.\n→ Pour insister sur un changement objectif au fil d'un processus, ～につれて／～にしたがって sont souvent plus clairs. explain: S'emploie pour dire que des faits ou des choses évoluent simultanément.\nAvec un changement, un autre changement se produit aussi. ⏐ examples: 1. 家族とともに来日した。\nJe suis venu(e) au Japon avec ma famille.\n2. 自動車が普及するとともに、事故も増加した。\nAvec la généralisation de l'automobile, les accidents ont eux aussi augmenté.",
+    "mistakes": [
+     "Confusion avec につれて → につれて porte uniquement sur le changement et ne s'emploie pas pour dire « avec quelqu'un ».",
+     "Omettre « である » après un nom ou un adjectif en な → incorrect grammaticalement à l'écrit.",
+     "L'employer dans une conversation trop familière rend la phrase raide et peu naturelle.",
+     "Ne pas mettre de virgule « 、 » après とともに à l'écrit → il vaut mieux la mettre pour clarifier l'enchaînement."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "～とともに",
+       "Avec / En même temps / À la fois… et…",
+       "Soutenu, employé à l'écrit ou dans les discours.",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>とともに<ruby>経験<rt>けいけん</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>える。"
+      ],
+      [
+       "～につれて",
+       "Plus…, plus… / Entraîner",
+       "Porte uniquement sur un changement dans le temps, sans le sens d'« accompagnement ».",
+       "<ruby>時間<rt>じかん</rt></ruby>が<ruby>経<rt>た</rt></ruby>つにつれて<ruby>慣<rt>な</rt></ruby>れてきた。"
+      ],
+      [
+       "～ながら",
+       "Tout en… (simultanéité)",
+       "Exprime deux actions parallèles réalisées par le même agent.",
+       "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>きき</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>する。"
+      ],
+      [
+       "～だけでなく",
+       "Non seulement…, mais aussi…",
+       "Ajoute une autre information ; ne contient pas le sens « se produire en même temps ».",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく<ruby>英語<rt>えいご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>せる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 577,
+   "src_hash": "60feaa43647ae1b6",
+   "fields": {
+    "meaning": "Combien, à quel point",
+    "examples": [
+     "En apprenant la nouvelle de ma réussite, quelle joie j'ai ressentie !",
+     "À l'étranger, sans personne, quelle angoisse j'ai ressentie !",
+     "Comme j'ai attendu le jour où je pourrais vous voir !",
+     "C'est seulement en devenant parent que j'ai compris à quel point la peine de mes parents était grande.",
+     "Il n'y a pas eu d'accident : quel soulagement j'ai ressenti !",
+     "Comme je vous remercie, vous tous qui m'avez soutenu !"
+    ],
+    "explain": "La phrase s'arrête généralement sur ～ことか。 pour garder la nuance d'exclamation (pas besoin de seconde proposition).\nOn peut employer des mots interrogatifs équivalents : どれほど／どれだけ／なんと pour varier le degré de formalité.\nConvient aux discours, aux écrits émouvants, aux journaux intimes, aux récits.\nÀ l'oral familier, beaucoup l'abrègent en どんなに嬉しかったか (sans こと), mais selon la norme du JLPT on garde ことか .\n\n• Exclamation d'un degré élevé : « (on ne saurait dire) à quel point… ! », exprime un sentiment fort (joie, tristesse, souffrance, gratitude…).\n• Souvent rétrospectif : s'emploie fréquemment avec le passé (～たことか) pour revenir sur une expérience.\n• Pragmatique : plutôt langue écrite, discours, récit ; rare dans les répliques très quotidiennes.\n• Ne donne pas de chiffre précis : il reste justement vague sur « la quantité / l'ampleur ».",
+    "notes": "• Verbes de désir : V-たい/てほしい + ことか exprime « combien on a souhaité / on a tant désiré ».\n• La forme négative est possible aussi : どんなに大変でなかったことか, mais la forme affirmative est plus naturelle.\n• Ajouter un 副詞 pour renforcer le sentiment : 本当に／実に／心から＋どんなに～ことか。 meaning_vi: Très, tant de fois, tant de temps… ⏐ explain: S'emploie pour exprimer un degré élevé, une grande fréquence d'un fait ou d'une caractéristique\nNuance d'exclamation ⏐ examples: 1. 合格できたら、どんなにうれしいことか。\nSi je réussis l'examen, quelle joie ce sera !\n2. 何度注意したことか。\nCombien de fois l'ai-je averti !",
+    "mistakes": [
+     "Confusion avec どんなに～ても : celui-ci exprime une condition, pas une exclamation.",
+     "Omettre こと dans le style des examens : le JLPT exige la structure exacte ～ことか.",
+     "Ajouter une proposition explicative après ～ことか embrouille la structure ; la phrase s'arrête généralement là."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "どんなに～ことか",
+       "Exclamation de degré",
+       "Met l'accent sur le sentiment, souvent au passé",
+       "どんなに<ruby>大変<rt>たいへん</rt></ruby>だったことか"
+      ],
+      [
+       "どんなに～ても",
+       "Quel que soit le degré",
+       "Condition concessive, seconde proposition",
+       "どんなに<ruby>高<rt>たか</rt></ruby>くても<ruby>買<rt>か</rt></ruby>う"
+      ],
+      [
+       "なんて～だ",
+       "Exclamation orale",
+       "Langue parlée, variée",
+       "なんて<ruby>美<rt>うつく</rt></ruby>しいんだ"
+      ],
+      [
+       "いかに～か",
+       "À quel point",
+       "Très soutenu, langue écrite",
+       "いかに<ruby>重要<rt>じゅうよう</rt></ruby>であるか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 578,
+   "src_hash": "85024916fb10582b",
+   "fields": {
+    "meaning": "Ce n'est pas que… ne… pas, il se peut aussi",
+    "examples": [
+     "Ce n'est pas que rédiger un mémoire en japonais ne soit pas difficile, mais cela prend du temps.",
+     "Ce n'est pas que je n'aie pas d'argent, mais pour l'instant je veux économiser.",
+     "Ce n'est pas que ce magasin ne soit pas bon marché, mais la qualité est moyenne.",
+     "Je pense qu'on ne peut pas dire que sa proposition soit sans défaut.",
+     "Ce n'est pas que je ne puisse pas vous aider ce week-end, mais seulement pour peu de temps.",
+     "Ce n'est pas que je ne mange pas épicé, mais je n'aime pas trop ça."
+    ],
+    "explain": "S'emploie quand : on reconnaît une possibilité tout en voulant garder ses distances / poser une condition.On répond poliment à une demande ou à une invitation : 検討しないことはありませんが…\nOn reconnaît une possibilité tout en voulant garder ses distances / poser une condition.\nOn répond poliment à une demande ou à une invitation : 検討しないことはありませんが…\nNe s'emploie pas quand : il faut affirmer avec certitude ; remplacer par ～できる/～だ.Il faut nier catégoriquement ; employer ～ない。\nIl faut affirmer avec certitude ; remplacer par ～できる/～だ.\nIl faut nier catégoriquement ; employer ～ない。\nIntonation : accentuer ないことはない pour donner l'impression de « ça peut aller, mais… ».\nSoutenu : employer ではないことはありません, ないことはありません。\n\n• Sens fondamental : double négation → « ce n'est pas que… ne… pas » = reconnaît une possibilité ou un certain degré, mais faible, réservé, conditionnel.\n• Nuance : floue, évite l'affirmation directe ; souvent employé pour ne pas s'engager à 100 % (réserve, modestie).\n• Degré d'affirmation : faible à moyen. Ne signifie pas « certainement » mais « il se peut aussi / pas au point d'être totalement exclu ».\n• S'accompagne souvent de mots de degré : まあ/別に/そんなに/少し/多少… pour atténuer : 別に難しくないことはない。\n• Se place souvent devant が/けど/しかし, la seconde proposition présentant une condition, un obstacle ou une autre option.",
+    "notes": "• En traduction, on peut rendre par « il se peut aussi », « pas forcément que… ne… pas », « ce n'est pas que… ne… pas, mais… ».\n• Se combine souvent avec une condition hypothétique : 条件次第では、参加できないことはない。\n• Au passé : 行けないことはなかった (à l'époque, ce n'était pas qu'on ne pouvait pas y aller) → nuance de souvenir, de léger regret. | Extension : N/Na じゃなくはない・Aくなくはない",
+    "mistakes": [
+     "Contresens sur l'affirmation : on croit à une négation forte. En réalité, c'est une affirmation faible.",
+     "L'employer quand il faut s'engager : répondre à une question appelant un « oui / non » catégorique avec cette structure → crée une ambiguïté.",
+     "Confusion avec ～ないこともない : les questions difficiles du JLPT testent la nuance d'« ouverture conditionnelle » de も.",
+     "Absence de が/けど dans la seconde proposition → phrase tronquée, sans explication."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～ないことはない",
+       "Ce n'est pas que… ne… pas (possibilité faible)",
+       "Neutre ; souvent avec « が/けど ».",
+       "<ruby>行<rt>い</rt></ruby>けないことはないが…"
+      ],
+      [
+       "～ないこともない",
+       "Ce n'est pas que… ne… pas",
+       "Plus doux, suggère « si les conditions s'y prêtent ».",
+       "<ruby>手伝<rt>てつだ</rt></ruby>わないこともないよ。"
+      ],
+      [
+       "～なくはない",
+       "Ce n'est pas que… ne… pas",
+       "Forme contractée, très orale, appuyée sur la négation.",
+       "<ruby>高<rt>たか</rt></ruby>くなくはない。"
+      ],
+      [
+       "～ないわけではない",
+       "Ce n'est pas que… ne… pas",
+       "Davantage explicatif / justificatif (わけ).",
+       "<ruby>行<rt>い</rt></ruby>きたくないわけではない。"
+      ],
+      [
+       "～ないでもない",
+       "Ce n'est pas que… ne… pas",
+       "Langue parlée ; un peu vieilli / doux.",
+       "<ruby>理解<rt>りかい</rt></ruby>できないでもない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 579,
+   "src_hash": "9a1821062a85e645",
+   "fields": {
+    "meaning": "Ce n'est pas que… ne… pas, il se peut aussi",
+    "examples": [
+     "Ce n'est pas qu'on ne puisse pas le faire à la poêle, mais si tu as une casserole, c'est mieux avec la casserole.",
+     "Si c'est demain, il n'est pas exclu que je participe.",
+     "Ce n'est pas que ce ne soit pas cher, mais je l'achète parce que la qualité est bonne.",
+     "La cuisine épicée, ce n'est pas que je n'en mange pas, tu sais.",
+     "En faisant des efforts, il n'est pas impossible de réussir l'examen.",
+     "À ces conditions, je pense qu'il n'est pas exclu que nous prolongions le contrat."
+    ],
+    "explain": "S'emploie pour : donner une réponse « ouverte » à valeur de concession.Préparer une condition associée, ce qui facilite le passage à la négociation.\nDonner une réponse « ouverte » à valeur de concession.\nPréparer une condition associée, ce qui facilite le passage à la négociation.\nPolitesse : employer ありません/です pour adoucir dans un cadre professionnel.\nPragmatique : souvent suivi de が/けど + condition/réserve.\n\n• Sens : « ce n'est pas que… ne… pas », comme ～ないことはない, mais implique souvent « si les conditions s'y prêtent, c'est possible / je ne m'y oppose pas ».\n• Nuance : un peu plus positive que ～ないことはない ; laisse la possibilité « ouverte », dans un esprit de compromis.\n• Souvent employé dans une négociation ou en réponse à une invitation : 価格次第では、購入しないこともない。\n• S'accompagne de conditions et d'adverbes : 条件次第で/場合によっては/まあ/別に/そんなに… + ～ないこともない。",
+    "notes": "• Traduction naturelle : « il se peut aussi… », « ce n'est pas que… ne… pas si… ».\n• Se combine avec なら/さえ/ば pour insister sur la condition : これさえあれば、できないこともない。\n• Passé : 行かなかったこともない（ce n'est pas qu'on n'y soit pas allé… → on y est peut-être allé un peu / dans certains cas). meaning_vi: ～の可能性もある\nIl est aussi possible que…, ce n'est pas impossible de… ⏐ examples: 1. 毎日、漢字を４つか５つなら、覚えられないこともない。\nS'il s'agit de 4 ou 5 kanjis par jour, ce n'est pas impossible à retenir.\n2. この会社を辞める人の気持ちがわからないこともない。\nCe n'est pas que je ne comprenne pas ce que ressentent les gens qui quittent cette entreprise.",
+    "mistakes": [
+     "Confusion de degré avec ～ないことはない : le JLPT interroge souvent sur la nuance d'« ouverture conditionnelle » de も.",
+     "Traduire de façon trop positive par « c'est sûr que oui » → contresens (ce n'est qu'une possibilité).",
+     "Oublier la proposition de condition rend la phrase vague et difficile à comprendre dans une conversation professionnelle."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～ないこともない",
+       "Ce n'est pas que… ne… pas (ouverture conditionnelle)",
+       "Un peu plus positif ; adapté à la négociation.",
+       "<ruby>買<rt>か</rt></ruby>わないこともない。"
+      ],
+      [
+       "～ないことはない",
+       "Ce n'est pas que… ne… pas",
+       "Neutre, reconnaît mais avec réserve.",
+       "<ruby>買<rt>か</rt></ruby>えないことはない。"
+      ],
+      [
+       "～なくはない",
+       "Ce n'est pas que… ne… pas",
+       "Forme contractée orale, insiste sur la négation.",
+       "<ruby>高<rt>たか</rt></ruby>くなくはない。"
+      ],
+      [
+       "～ないわけではない",
+       "Ce n'est pas que… ne… pas",
+       "Nuance explicative (わけ).",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 580,
+   "src_hash": "c31ab91183ce5f9e",
+   "fields": {
+    "meaning": "Si… ne… pas, alors…",
+    "examples": [
+     "Bon, il faut que j'aille me coucher.",
+     "Il faut que je respecte la date limite de remise.",
+     "Si tu ne te dépêches pas, tu vas rater le train !",
+     "Si tu ne prends pas tes médicaments, tu ne guériras pas.",
+     "Je dois préparer les documents d'ici demain.",
+     "Il fait froid, il faut fermer la fenêtre."
+    ],
+    "explain": "En forme contractée (phrase terminée par ～ないと。 ), le contexte laisse sous-entendre « いけない/だめ ».\nAu sens conditionnel, la seconde proposition exprime souvent une négation ou une conséquence : 間に合わない／困る／怒られる…\nSoutenu : privilégier ～ないといけない／～なければならない dans les rapports et les e-mails professionnels.\n\n• Sens d'obligation (oral) : V-ないと est souvent la forme contractée de V-ないといけない ; la seconde proposition est omise car évidente.\n• Sens conditionnel : « si… ne… pas, alors… », la seconde proposition indique une conséquence mauvaise ou indésirable.\n• Nuance : naturel, quotidien ; en langue écrite soutenue, il vaut mieux employer la forme complète.",
+    "notes": "• ～ないと peut exprimer un sentiment d'urgence : une phrase courte et coupée traduit l'idée de « se le rappeler à soi-même ».\n• Le verbe négatif doit être à la forme ない correcte : 行く→行かない、とる→とらない、する→しない、来る→こない。\n• Dans la conversation familière, les variantes 〜なきゃ/〜なくちゃ remplacent 〜ないと avec une nuance plus douce.\nmeaning_vi: Exprime le sens « Si ~ ne… pas, alors ･･･ », où ･･･ est une situation ou un fait défavorable. Parfois, ･･･ fait l'objet d'une ellipse.\nexamples: 1. ①　気をつけないと\nIl faut faire attention\n2. ②　よく見ないと、間違えるよ。\nSi tu ne regardes pas bien, tu vas te tromper.\n3. ➂　あの字は小さいから、目がよくないと読めないだろう。\nCes caractères sont petits ; sans une bonne vue, on ne pourra sans doute pas les lire.\n4. ➃　時間がないから、急がないと。\nOn n'a pas le temps, il faut se dépêcher.",
+    "mistakes": [
+     "Comprendre tout ～ないと comme « devoir » : certaines phrases sont des conditions « si… ne… pas, alors… », il faut regarder la seconde proposition.",
+     "Omettre la seconde proposition alors que ce n'est pas la forme contractée : au sens conditionnel, il faut une proposition de résultat.",
+     "L'employer dans un texte soutenu : il vaut mieux passer à ～ないといけない/～なければならない."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Nuance/Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "V-ないと",
+       "« Devoir » oral ; ou condition « si… ne… pas »",
+       "Concis, quotidien",
+       "<ruby>行<rt>い</rt></ruby>かないと。"
+      ],
+      [
+       "V-ないといけない/だめ",
+       "Devoir (standard)",
+       "Neutre, d'usage large",
+       "<ruby>行<rt>い</rt></ruby>かないといけない。"
+      ],
+      [
+       "V-なければならない",
+       "Devoir (soutenu)",
+       "Raide, écrit / règlements",
+       "<ruby>報告<rt>ほうこく</rt></ruby>しなければならない。"
+      ],
+      [
+       "V-なくてはならない／V-なくちゃ",
+       "Devoir ; なくちゃ est oral",
+       "なくちゃ＝très familier",
+       "<ruby>行<rt>い</rt></ruby>かなくちゃ。"
+      ],
+      [
+       "V-ないと～ (condition)",
+       "Si… ne… pas, alors…",
+       "Toujours suivi d'une proposition de résultat",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>しないと<ruby>落<rt>お</rt></ruby>ちる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 581,
+   "src_hash": "8cef083783e45783",
+   "fields": {
+    "meaning": "「心理的事情があるので、～しなければならない。」規則などで決まっていて～なければならないのではなくて、あまり～したくないが、社会的常識・心理的義務感があってそうする必要があるという意味で使う。主語は普通一人称。\nDevoir faire ~ pour des raisons psychologiques.\nS'emploie pour dire que l'on doit faire ~ non pas parce qu'une règle ou autre chose l'impose, mais parce que, même sans en avoir vraiment envie, le bon sens social, un sentiment d'obligation morale, etc. rendent nécessaire de le faire.\nLe sujet est généralement à la première personne.",
+    "examples": [
+     "Puisque j'ai promis d'y aller, je ne peux sans doute pas faire autrement que d'y aller.",
+     "Les langues étrangères sont obligatoires, je ne peux donc pas me dispenser de les prendre.",
+     "C'était le premier plat qu'elle me préparait, alors même si j'avais le ventre plein, je ne pouvais pas faire autrement que de le manger.",
+     "Dans cette ville, sans vélo, on est vraiment embêté. Je ne peux pas faire autrement que d'en acheter un.",
+     "Il fait vraiment chaud, mais on ne peut quand même pas ne rien porter du tout, n'est-ce pas ?",
+     "Ce CD, j'aimerais le garder pour toujours, mais comme il appartient à la bibliothèque, il faut bien que je le rende."
+    ],
+    "explain": "Exprime qu'on est obligé de faire quelque chose, qu'on ne peut pas ne pas le faire, même si au fond on n'en a pas envie.",
+    "notes": "1) Confusion facile avec ～わけにはいかない.\n→ ～ないわけにはいかない signifie « ne pas pouvoir ne pas… », c'est-à-dire qu'on finit quand même par le faire.\n2) Nuance de contrainte.\n→ On n'a pas vraiment envie de le faire, mais les circonstances y obligent.\n3) Ne s'emploie pas quand le locuteur agit de son plein gré.\n→ Si l'on « veut vraiment le faire », employer une autre structure de volonté."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

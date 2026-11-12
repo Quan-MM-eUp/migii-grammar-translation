@@ -1,0 +1,693 @@
+{
+ "batch": "b055",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 885,
+   "src_hash": "20320a773a6efbcc",
+   "fields": {
+    "meaning": "Exprime le sens « non seulement ~ mais aussi ~ »",
+    "examples": [
+     "Cette semaine, en plus du contrôle habituel, il y a aussi un rapport à rendre : c'est très chargé.",
+     "La rédaction de Kim, en plus de contenir peu de fautes de grammaire, défend une position claire et se lit facilement.",
+     "L'économie japonaise stagne en raison de la hausse du prix du pétrole, à laquelle s'ajoute une brusque appréciation du yen.",
+     "Le prix des billets de train a augmenté en mars, et en plus, il paraît que les tarifs de bus vont augmenter à partir d'avril.",
+     "En plus du petit boulot",
+     "Le samedi, en plus de mon petit boulot, je fais aussi du bénévolat."
+    ],
+    "explain": "Exprime « en plus de A, il y a aussi B ». S'emploie souvent pour ajouter un élément supplémentaire ; fréquent en langue écrite.",
+    "notes": "1) Se confond facilement avec ～だけでなく／～ばかりでなく.\n→ ～に加えて signifie « en plus de cela », avec une nuance d'ajout d'un élément ; fréquent en langue écrite.\n2) Ordre du sens.\n→ On présente d'abord A, puis « on y ajoute aussi B » (B est l'élément ajouté).\n3) Ne signifie pas « augmenter avec le temps ».\n→ Il s'agit seulement d'ajouter un élément, pas d'exprimer un changement.\nmeaning_vi: En plus de cela, s'ajoutant à… (に加えて)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 886,
+   "src_hash": "732111fef94b3abf",
+   "fields": {
+    "meaning": "Supposition sur le comportement d'une personne que l'on connaît bien.\n彼女　+　のことだから",
+    "examples": [
+     "« Haruki n'est pas encore arrivée. » « Bah, la connaissant, il n'y a pas de quoi s'inquiéter. »",
+     "« Et si tu demandais à Mme Hara de traduire ça ? » « Bonne idée. Elle est douée en anglais : la connaissant, une heure lui suffira sans doute. »",
+     "Connaissant Kenta…",
+     "Connaissant le sérieux de Tanaka, ses devoirs seront sûrement faits consciencieusement.",
+     "Connaissant Kenta, il a encore dû oublier sa promesse, non ?"
+    ],
+    "explain": "Position : se place presque toujours en début de phrase pour poser le fondement.\nCible : nom de personne, de groupe de personnes ou d'organisation que le locuteur connaît bien.\nNuance : supposition fondée sur le caractère ; peut exprimer l'éloge, le reproche ou l'indulgence.\nNe s'emploie pas avec une proposition ou un verbe juste avant のことだから ; il faut un nom.\nNe s'emploie généralement pas dans une phrase affirmative au passé portant sur un fait déjà connu avec certitude ; convient mieux à la supposition ou à la caractérisation.",
+    "notes": "meaning_vi: Parce que (caractère/particularité)…\nexamples: 1. 田中さんのことだから、きっと間に合うだろう。\nConnaissant Tanaka, il sera sûrement à l'heure.\n2. 子どものことだから、これくらいのけんかはすぐ忘れるよ。\nCe sont des enfants : une petite dispute comme ça, ils l'oublieront vite.\n3. 彼女のことだから、準備はもう終わっているに違いない。\nLa connaissant, elle a sûrement déjà fini ses préparatifs.\n4. あの会社のことだから、対応も迅速だと思う。\nConnaissant cette entreprise, je pense qu'elle réagira rapidement.\n5. 彼のことだから、言い訳なんてしないさ。\nLe connaissant, il ne cherchera pas d'excuses.\n6. 新入社員のことだから、最初は失敗して当然だ。\nCe sont de nouveaux employés : il est normal qu'ils échouent au début.\n7. あの二人のことだから、また仲直りするはずだよ。\nConnaissant ces deux-là, ils vont sûrement se réconcilier.",
+    "mistakes": [
+     "Emploi pour un fait déjà avéré : × 彼のことだから、昨日来た。 → ◯ 彼のことだから、昨日も来たに違いない。",
+     "Rattaché à un verbe : × 来るのことだから → ◯ 彼が来る人柄を前提に言うなら別表現。",
+     "Appliqué à une chose inanimée : × 天気のことだから → peu naturel ; utiliser 〜ので／〜から。",
+     "Absence de proposition de supposition après : il faut une proposition principale exprimant une évaluation ou une supposition."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "〜だけに",
+       "Justement parce que… d'autant plus",
+       "Insiste sur un résultat à la hauteur / fort",
+       "<ruby>努力<rt>どりょく</rt></ruby><ruby>家<rt>か</rt></ruby>だけに、<ruby>期待<rt>きたい</rt></ruby>も<ruby>大<rt>おお</rt></ruby>きい。"
+      ],
+      [
+       "〜だけあって",
+       "Comme on peut s'y attendre de…",
+       "Éloge fondé sur des faits constatés",
+       "プロだけあって、<ruby>上手<rt>じょうず</rt></ruby>だ。"
+      ],
+      [
+       "〜からには",
+       "Dès lors que…",
+       "Condition + détermination/règle",
+       "やるからには<ruby>最後<rt>さいご</rt></ruby>まで。"
+      ],
+      [
+       "〜に<ruby>違<rt>ちが</rt></ruby>いない",
+       "Certainement",
+       "Conclusion ; peut suivre のことだから",
+       "<ruby>彼<rt>かれ</rt></ruby>のことだから、<ruby>成功<rt>せいこう</rt></ruby>するに<ruby>違<rt>ちが</rt></ruby>いない。"
+      ],
+      [
+       "N + のことだ",
+       "Au sujet de N",
+       "Sens différent ; signifie seulement « au sujet de, concernant »",
+       "<ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>のことだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 887,
+   "src_hash": "d3f023d6662d2550",
+   "fields": {
+    "meaning": "Avoir quelque chose de…, il y a un je-ne-sais-quoi de…",
+    "examples": [
+     "Ses discours ont quelque chose qui captive les gens.",
+     "Ce film a quelque chose qui touche le cœur.",
+     "Cette décision a quelque chose de difficile à accepter.",
+     "Cette photo a quelque chose de nostalgique.",
+     "Les progrès récents de l'IA ont quelque chose de stupéfiant.",
+     "Sa façon de parler a quelque chose de froid."
+    ],
+    "explain": "Met en avant une impression subjective mais fondée sur un ressenti ; convient à un commentaire légèrement objectif.\nS'accompagne souvent d'expressions qui suscitent un sentiment :心に響く/胸を打つ/考えさせられる/印象深い/重みがある/迫力がある.\nS'emploie peu pour l'intention ou le futur ; sert surtout à décrire des propriétés ou des impressions présentes.\n\n• Exprime une impression ou une évaluation difficile à formuler clairement, du type « il y a quelque chose de… ; dans une certaine mesure… ; à caractère… ».\n• S'emploie souvent dans les commentaires, les critiques, les informations : 〜には目を見張るものがある, 〜には疑問を感じさせるものがある.\n• Sonne neutre à positif ; mais peut aussi servir à une critique en douceur.",
+    "notes": "• Collocations fréquentes : 説得力があるものがある, 奥深いものがある, 無理がある（remarque : « 無理がある » est une autre expression figée, ものがある ne s'emploie pas ici）.\n• Dans les titres et les articles : 「〜には〜ものがある」 donne une nuance de commentaire spécialisé.",
+    "mistakes": [
+     "Confusion avec « 〜ところがある » : ものがある est plus abstrait ; les questions piègent en remplaçant l'adjectif abstrait.",
+     "Mauvaise forme de l'adjectif en な : × 静かなものがある → ✓ 静かなものがある.",
+     "Emploi pour la volonté ou l'ordre → inapproprié : × 早く行くものがある."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "〜ものがある",
+       "Il y a quelque chose / dans une certaine mesure",
+       "Évaluation vague, générale",
+       "<ruby>切<rt>せつ</rt></ruby>なさのある<ruby>映画<rt>えいが</rt></ruby>だ＝<ruby>切<rt>せつ</rt></ruby>なさを<ruby>感<rt>かん</rt></ruby>じさせるものがある"
+      ],
+      [
+       "〜ところがある",
+       "Avoir un point / un aspect",
+       "Plus concret, porte sur une caractéristique",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>頑固<rt>がんこ</rt></ruby>なところがある"
+      ],
+      [
+       "〜<ruby>気味<rt>きみ</rt></ruby>",
+       "Avoir l'air un peu…",
+       "Degré léger, plutôt un état temporaire",
+       "<ruby>疲<rt>つか</rt></ruby>れ<ruby>気味<rt>ぎみ</rt></ruby>"
+      ],
+      [
+       "〜ような<ruby>気<rt>き</rt></ruby>がする",
+       "Avoir l'impression que…",
+       "Nettement subjectif, peu soutenu",
+       "<ruby>損<rt>そん</rt></ruby>したような<ruby>気<rt>き</rt></ruby>がする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 888,
+   "src_hash": "88ee2bb051481a25",
+   "fields": {
+    "meaning": "À l'occasion de…, grâce à…",
+    "examples": [
+     "J'ai fait sa connaissance à l'occasion d'une fête à laquelle nous assistions tous les deux.",
+     "C'est après avoir acheté par hasard un livre chez un bouquiniste que j'ai commencé à lire ses thèses."
+    ],
+    "explain": "◎ Expression indiquant qu'un fait a été déclenché par un autre fait.\n\nVoir le détail au bloc 411.",
+    "notes": "Voir le détail au bloc 411.\nmeaning_vi: Grâce à…, à partir de…\nexplain: Exprime un fait ou un événement qui sert de déclencheur et entraîne un changement ou un développement ultérieur.\nexamples: 1. 大学入学をきっかけに、一人暮らしを始めた。\nÀ l'occasion de mon entrée à l'université, j'ai commencé à vivre de mon côté.\n2. 留学をきっかけに、自国の文化について考えるようになった。\nMes études à l'étranger ont été l'occasion pour moi de réfléchir à la culture de mon pays.\n3. 大統領の来日をきっかけにして、日本人の米国に対する関心が深まった。\nÀ la suite de la visite du président au Japon, l'intérêt des Japonais pour les États-Unis s'est approfondi.\n4. ちょっとした事件をきっかけとして、やがて死者が出る暴動へと発展した。\nUn incident mineur a dégénéré peu à peu en une émeute qui a fait des morts.\nmeaning_vi: À l'occasion de…, en prenant… comme point de départ (をきっかけに)\nmeaning_vi: En profitant d'une occasion, à l'occasion d'un fait.\nexplain: Indique qu'à partir d'un fait fortuit, quelque chose commence ou change.\n＊「契機に、契機として、契機にして」　est l'expression soutenue de 「をきっかけに」\nexamples: 1. 大学入学をきっかけに引っ越す。\nÀ l'occasion de mon entrée à l'université, je déménage.\n2. 病気をきっかけに酒をやめた。\nJ'ai arrêté l'alcool à la suite d'une maladie.\n3. 卒業を契機に特立する。\nÀ l'occasion de mon diplôme, je vais prendre mon indépendance.\n4. 昨年の事故を契機として、安全対策が強化された。\nÀ la suite de l'accident de l'an dernier, les mesures de sécurité ont été renforcées.",
+    "mistakes": [
+     "Voir le détail au bloc 411."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 889,
+   "src_hash": "4fcc0134149f798d",
+   "fields": {
+    "meaning": "Avec le sens de « en se fondant sur ~, sur la base de ~ »",
+    "examples": [
+     "Ce film a été réalisé à partir d'une affaire réelle.",
+     "On décide de l'admission ou de l'échec sur la base des résultats de l'examen.",
+     "Ce graphique étant fondé sur des données d'il y a 10 ans, il diffère de la situation actuelle.",
+     "Les archéologues reconstituent la vie des hommes de l'Antiquité à partir d'un simple fragment de poterie.",
+     "J'ai lancé mon commerce grâce à l'héritage de mon père.",
+     "D'après un conte ancien"
+    ],
+    "explain": "Insiste sur le fait de prendre un fait, des données ou une information comme base pour développer quelque chose.",
+    "notes": "1) Se confond facilement avec ～にもとづいて.\n→ ～をもとに(して) signifie « prendre … comme base / matériau » et insiste sur la source à partir de laquelle on crée ou développe.\n2) S'emploie souvent avec des activités de création.\n→ Exemple : データをもとに分析する (analyser en se fondant sur les données).\n3) Pas forcément « conformément au règlement ».\n→ S'il s'agit de se fonder sur un règlement ou une norme, ～にもとづいて convient mieux.\nmeaning_vi: En se fondant sur…, sur la base de…\nexplain: S'emploie pour insister sur la méthode : « prendre N comme base puis procéder à… ».\nUn peu plus soutenu que ～をもとに ; fréquent dans les domaines techniques, académiques et juridiques.\nLa forme de détermination 「NをもとにしたN」 est très courante dans les titres, les descriptions de produits et de méthodes.\nNe s'emploie pas au sens de « sous (l'égide / la condition de) » (à distinguer de ～のもとで/～のもとに).\nexamples: 1. 衛星画像をもとにして被害範囲を推定した。\nOn a estimé l'étendue des dégâts à partir d'images satellite.\n2. 顧客の声をもとにしてサービスを改善する。\nOn améliore le service en se fondant sur les avis des clients.\n3. 過去の事例をもとにしてガイドラインを作成した。\nOn a élaboré des directives à partir de cas antérieurs.\n4. 地震記録をもとにして耐震基準が見直された。\nLes normes parasismiques ont été révisées sur la base des relevés sismiques.\n5. 古文書をもとにして当時の暮らしを再現した。\nOn a reconstitué la vie de l'époque à partir de documents anciens.\n6. この映画は実在の事件をもとにして制作された。\nCe film a été produit à partir d'une affaire réelle.",
+    "mistakes": [
+     "Confusion avec ～のもとで (under). Lorsqu'une personne ou une organisation joue le rôle de « parapluie / supervision » → il faut ～のもとで/～のもとに.",
+     "Choisir ～に基づいて quand l'énoncé contient les mots-clés : 規則/法律/基準/指針 ; s'il s'agit de données/opinions/素材 → privilégier ～をもとに(して).",
+     "Omettre « して » dans un style exigeant une procédure claire peut être jugé peu conforme aux normes (selon le contexte administratif)."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Nをもとに",
+       "Sur la base de (source)",
+       "Concis, neutre, courant",
+       "<ruby>統計<rt>とうけい</rt></ruby>をもとに<ruby>分析<rt>ぶんせき</rt></ruby>"
+      ],
+      [
+       "Nをもとにして",
+       "Sur la base de (insiste sur le processus)",
+       "Plus long, impression de « suivre une méthode »",
+       "<ruby>統計<rt>とうけい</rt></ruby>をもとにして<ruby>分析<rt>ぶんせき</rt></ruby>"
+      ],
+      [
+       "Nに<ruby>基<rt>もと</rt></ruby>づいて/<ruby>基<rt>もと</rt></ruby>づき",
+       "Conformément à (norme/loi)",
+       "Officiel, forte contrainte",
+       "<ruby>法律<rt>ほうりつ</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づいて<ruby>判断<rt>はんだん</rt></ruby>"
+      ],
+      [
+       "Nに<ruby>沿<rt>そ</rt></ruby>って",
+       "Selon, en suivant",
+       "Insiste sur « suivre une ligne directrice / une trajectoire »",
+       "<ruby>方針<rt>ほうしん</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って<ruby>実施<rt>じっし</rt></ruby>"
+      ],
+      [
+       "Nのもとで/のもとに",
+       "Sous (l'égide / la condition de)",
+       "Sens différent, non interchangeable",
+       "<ruby>保護<rt>ほご</rt></ruby>のもとで<ruby>研究<rt>けんきゅう</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 890,
+   "src_hash": "65a4d8f1549f8ab4",
+   "fields": {
+    "meaning": "Sans qu'on s'en aperçoive…",
+    "examples": [
+     "Sans qu'on s'en rende compte, il faisait déjà nuit dehors.",
+     "Le bébé s'était endormi sans qu'on s'en aperçoive.",
+     "L'automne est arrivé sans qu'on s'en rende compte, n'est-ce pas ?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 891,
+   "src_hash": "dc48cf6356713fc1",
+   "fields": {
+    "meaning": "Se préoccuper de…, prêter attention à…",
+    "examples": [
+     "Les résultats de l'examen me préoccupent, je n'arrive pas à dormir.",
+     "Le bruit de la chambre voisine me dérange.",
+     "Ce qu'il a dit me préoccupe depuis tout ce temps."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 892,
+   "src_hash": "554c31340c5823c7",
+   "fields": {
+    "meaning": "Seulement, à peine… (met l'accent sur la petite quantité)",
+    "connection": "たった(の) + [quantité]",
+    "examples": [
+     "Il n'y avait que 100 yens dans mon portefeuille.",
+     "J'ai écrit un livre entier en à peine 3 jours.",
+     "J'ai fait le tour du monde en solitaire."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 893,
+   "src_hash": "7c5e97f98463a231",
+   "fields": {
+    "meaning": "Fais… / donne-moi… (demande familière)",
+    "examples": [
+     "Aide-moi un peu, s'il te plaît.",
+     "Une fois à la maison, appelle-moi, d'accord ?",
+     "Passe-moi ce sel, s'il te plaît."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 894,
+   "src_hash": "22d0e8cd568595e2",
+   "fields": {
+    "meaning": "Quoi qu'on en dise…, avant tout, c'est…",
+    "connection": "何といっても + [phrase/proposition]",
+    "examples": [
+     "S'il faut citer une montagne du Japon, c'est avant tout le mont Fuji.",
+     "Quoi qu'on en dise, la santé est ce qu'il y a de plus important.",
+     "L'attrait de ce restaurant, c'est avant tout ses prix bas."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 895,
+   "src_hash": "21cd183cf310cd02",
+   "fields": {
+    "meaning": "Plus que tout, le plus précieux, c'est…",
+    "examples": [
+     "Ton retour sans encombre me réjouit plus que tout.",
+     "Vous avez l'air en pleine forme, c'est le principal.",
+     "Le temps passé en famille est plus précieux que tout."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 896,
+   "src_hash": "6edd2408ab5d9eb1",
+   "fields": {
+    "meaning": "En profitant de…, au passage…",
+    "examples": [
+     "Pourquoi ne pas aller jusqu'au parc, histoire de faire une promenade ?",
+     "J'ai profité de mes courses pour passer chez un ami.",
+     "Tout en admirant les cerisiers en fleurs, j'ai pris beaucoup de photos.",
+     "Profitons de la balade en voiture pour faire un détour par une source chaude.",
+     "Passer à la poste en allant se promener → profiter de la promenade pour passer à la poste."
+    ],
+    "explain": "Familier, naturel ; s'emploie souvent pour une invitation ou une suggestion.\nConvient aux activités de plein air ou de déplacement. S'emploie peu pour les activités statiques à l'intérieur (comme勉強がてら : peu naturel).\nPeut se combiner avec la volonté ou la suggestion : 〜ましょう/ませんか.\n\n• Sens : « en profitant de A, faire B ». A est l'activité principale ou la raison de sortir ; B est l'action faite au passage.\n• Courant à l'oral ; nuance naturelle, plus quotidienne que 「かたがた」.\n• A est souvent une activité de déplacement ou de sortie : 散歩, 買い物, ドライブ, お茶, 花見, 見物 ; ou une forme Vます désignant une activité : 歩き, 出かけ.\n• Ordre implicite : A est prioritaire ; B se fait « au passage ». Pour être plus neutre, utiliser 「ついでに」.",
+    "notes": "• Choisir un N/V désignant une activité de « sortie / déplacement » pour que la phrase soit naturelle.\n• Pour rester poli dans un cadre professionnel, passer à 「〜かたがた」 ou garder 「〜ついでに」.\n• Si B est aussi important que A, envisager 「ついでに」 pour éviter de donner l'impression de négliger B.",
+    "mistakes": [
+     "Emploi avec une activité statique (勉強がてら) → peu naturel. Utilisez ついでに.",
+     "Mauvaise compréhension de l'élément central : avec 「がてら」, A est principal, B secondaire ; inverser A et B fausse facilement le sens.",
+     "Confusion de registre avec 「かたがた」 : 「がてら」 ne convient pas à la correspondance soutenue.",
+     "Oublier la forme Vます avec un verbe : il faut supprimer ます devant 「がてら」."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Registre",
+      "Sens/Nuance",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "N/ Vます がてら",
+       "Quotidien",
+       "A principal, B au passage",
+       "<ruby>散歩<rt>さんぽ</rt></ruby>がてら<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>"
+      ],
+      [
+       "Nかたがた",
+       "Soutenu",
+       "But de politesse sociale, keigo (langage honorifique)",
+       "ご<ruby>挨拶<rt>あいさつ</rt></ruby>かたがた<ruby>伺<rt>うかがう</rt></ruby>う"
+      ],
+      [
+       "〜ついでに",
+       "Neutre",
+       "N'insiste pas sur l'élément principal",
+       "<ruby>駅<rt>えき</rt></ruby>に<ruby>行<rt>い</rt></ruby>くついでに<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 897,
+   "src_hash": "638c9d08d456216e",
+   "fields": {
+    "meaning": "Tout…, l'ensemble de…",
+    "examples": [
+     "Tout le quartier organise ensemble un exercice de prévention des catastrophes.",
+     "Notre amitié, qui implique nos familles entières, se poursuit.",
+     "La dissimulation orchestrée par l'entreprise tout entière a été critiquée.",
+     "Toute l'école a participé à une collecte de dons.",
+     "Tout le service s'attelle aux améliorations.",
+     "On lance une campagne promotionnelle à l'échelle de toute la rue commerçante."
+    ],
+    "explain": "Ne se combine qu'avec des noms désignant un groupe de personnes, une organisation ou une zone.\n« の » pour déterminer un nom ; « で » comme complément circonstanciel du verbe.\nDans les enquêtes : « 〜ぐるみの不正/隠蔽/改ざん » a une forte nuance de reproche.\n\n• Insiste sur la participation globale de tout le groupe (famille/entreprise/région…).\n• S'emploie naturellement dans des contextes positifs (coopération) comme négatifs (dissimulation, complicité).\n• Donne une impression d'« unanimité / totalité » ou de « système / propagation ».",
+    "notes": "• L'expression « 家族ぐるみの付き合い » désigne généralement une relation proche et durable.\n• En dehors des personnes, peut s'employer avec des unités sociales : 企業／自治体／地域／商店街, mais pas avec des objets.\n• Hors du cadre social, utiliser まるごと/全部で lorsqu'il ne s'agit pas d'un groupe de personnes.",
+    "mistakes": [
+     "Emploi avec autre chose qu'un groupe de personnes : ×机ぐるみで運ぶ → 机ごと/全部で conviennent.",
+     "Oubli de の pour déterminer un nom : ×組織ぐるみ不正 → ○組織ぐるみの不正.",
+     "JLPT : distinguer de 一丸となって (solidarité) et 全体で (neutre) selon la nuance de l'énoncé."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Contenu",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Nぐるみ",
+       "La totalité de N",
+       "Suffixe ; nuance forte",
+       "<ruby>地域<rt>ちいき</rt></ruby>ぐるみで<ruby>支援<rt>しえん</rt></ruby>"
+      ],
+      [
+       "N<ruby>全体<rt>ぜんたい</rt></ruby>で",
+       "L'ensemble de N",
+       "Neutre, facile à employer",
+       "<ruby>会社<rt>かいしゃ</rt></ruby><ruby>全体<rt>ぜんたい</rt></ruby>で<ruby>改革<rt>かいかく</rt></ruby>"
+      ],
+      [
+       "Nを<ruby>挙<rt>あ</rt></ruby>げて",
+       "Mobiliser tout N",
+       "Insiste sur l'action de mobiliser",
+       "<ruby>学校<rt>がっこう</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げて<ruby>歓迎<rt>かんげい</rt></ruby>"
+      ],
+      [
+       "N<ruby>一丸<rt>いちがん</rt></ruby>となって",
+       "Unis comme un seul homme",
+       "Insiste sur l'esprit de solidarité",
+       "チーム<ruby>一丸<rt>いちがん</rt></ruby>となって<ruby>戦<rt>たたか</rt></ruby>う"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 898,
+   "src_hash": "fb628636ccd07efd",
+   "fields": {
+    "meaning": "Trop ~",
+    "examples": [
+     "Il faisait tellement chaud que j'ai décidé de ne pas sortir.",
+     "Tout le monde était furieux devant son comportement si égoïste.",
+     "Ce patron, il ne regrette rien du tout pour l'accident. Un tel manque de sens des responsabilités, c'est consternant.",
+     "La nouvelle voiture électrique de Fuji Automobile a tellement de succès que la production ne semble pas suivre."
+    ],
+    "explain": "◎ Exprime l'étonnement face à ~ à un degré anormal, et évoque le résultat ou la décision qui en découle."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 899,
+   "src_hash": "c7b8f7e2ac2c742b",
+   "fields": {
+    "meaning": "On y voit la personnalité de quelqu'un.",
+    "examples": [
+     "Ce tableau reflète sa nature bienveillante.",
+     "L'écriture révèle toujours le caractère de son auteur.",
+     "Ce plat exprime l'amour de ma mère."
+    ],
+    "explain": "◎ 「出る」signifie « apparaître », « se manifester »."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 900,
+   "src_hash": "14e8351f357b4bbb",
+   "fields": {
+    "meaning": "Sens, emploi et exemples",
+    "connection": "[phrase/proposition] + ということは",
+    "examples": [
+     "La voiture n'est pas là, ce qui veut dire qu'ils sont partis quelque part.",
+     "Toujours ni appel ni e-mail : cela veut sans doute dire que la candidature n'a pas été retenue.",
+     "Avoir un animal, cela veut dire tout assumer : pas seulement les bons moments, mais aussi ce qui est pénible ou contraignant.",
+     "Il paraît qu'un typhon arrive demain. Cela veut dire qu'il n'y aura peut-être pas école.",
+     "Toujours pas de nouvelles de lui. Cela veut dire qu'il n'arrivera sans doute pas à temps.",
+     "Le contrat n'est pas signé. Cela veut dire qu'il n'y a pas d'accord."
+    ],
+    "explain": "Se place en début de phrase d'inférence ; s'accompagne souvent des terminaisons : ～ということだ／わけだ／ことになる／のね／よね.\nS'emploie poliment pour confirmer : « ということは、～という理解でよろしいでしょうか。 »\nNe sert pas à exprimer la cause ; sert à tirer une conséquence d'informations déjà disponibles.\n\n• « Dans ce cas / c'est-à-dire » : déduire une conclusion provisoire à partir de l'information qui précède immédiatement.\n• Deux étapes : énoncer les données (S1) → appliquer un modèle → tirer la conclusion (S2).\n• Nuance logique ; peut servir au locuteur à vérifier sa compréhension auprès de l'interlocuteur.",
+    "notes": "• Utile en réunion pour confirmer : « Aということは、Bですね。 » afin d'éviter les malentendus.\n• En langue écrite, après ということは on place souvent une conclusion générale : ～ということだ／ことになる.\n• Le degré de certitude de S2 dépend de la fiabilité de S1 ; on peut ajouter かもしれない／だろう pour l'atténuer. explain: Commence une phrase dont le contenu est un jugement fondé sur la phrase précédente (a). ⏐ examples: 1. 「彼は、まだ来ませんね。ということは、欠席ということですね。」\nIl n'est toujours pas arrivé. Cela veut dire qu'il est absent, n'est-ce pas ?\n2. 「私はもうお酒を飲めます。」\n「ということは二十歳を過ぎてるんだね。」\nJe peux déjà boire de l'alcool. — Cela veut dire que tu as plus de vingt ans, hein.",
+    "mistakes": [
+     "Emploi comme connecteur de cause → incorrect ; il exprime une inférence / conséquence, pas une raison directe.",
+     "Confusion avec つまり : si le texte demande de « résumer », choisir つまり ; s'il demande de « déduire », choisir ということは.",
+     "Négliger le degré de certitude : quand les données sont incertaines, il faut だろう／かもしれない après S2."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "ということは、",
+       "Dans ce cas / c'est-à-dire",
+       "Inférence à partir des données qui précèdent immédiatement",
+       "<ruby>満席<rt>まんせき</rt></ruby>。ということは、<ruby>予約<rt>よやく</rt></ruby><ruby>必須<rt>ひっす</rt></ruby>だ。"
+      ],
+      [
+       "つまり、",
+       "Autrement dit (résumé)",
+       "Reformule le même contenu, sans nécessairement une nouvelle inférence",
+       "<ruby>要点<rt>ようてん</rt></ruby>はつまり、<ruby>三<rt>みっ</rt></ruby>つだ。"
+      ],
+      [
+       "というわけで、",
+       "C'est pourquoi (passage à l'action)",
+       "Insiste sur la transition / la clôture d'une partie",
+       "<ruby>時間切<rt>じかんぎ</rt></ruby>れ。というわけで、<ruby>今日<rt>きょう</rt></ruby>はここまで。"
+      ],
+      [
+       "とすると／となると",
+       "À supposer que / dans ce cas",
+       "Pose une hypothèse pour raisonner",
+       "<ruby>雨<rt>あめ</rt></ruby>とすると、<ruby>中止<rt>ちゅうし</rt></ruby>だ。"
+      ],
+      [
+       "ということなら",
+       "Si c'est ainsi (condition posée par l'interlocuteur)",
+       "Réaction, suggestion / action",
+       "<ruby>急<rt>いそ</rt></ruby>ぎということなら、<ruby>今<rt>いま</rt></ruby>やります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 901,
+   "src_hash": "2820c1a60091a1c5",
+   "fields": {
+    "meaning": "Remarquer, constater",
+    "connection": "Nが + 見受けられる / V/A/N forme neutre + ように + 見受けられる",
+    "examples": [
+     "Il semblait ne rien savoir.",
+     "Il faisait assez chaud hier, aussi voyait-on beaucoup de gens en manches courtes."
+    ],
+    "explain": "◎ Il existe des expressions similaires comme 「見比べる:comparer du regard」「見まちがえる: confondre en regardant」「見逃す:laisser échapper」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 902,
+   "src_hash": "1acfcd8e8e91ae77",
+   "fields": {
+    "meaning": "Finalement…, au bout du compte…",
+    "examples": [
+     "Après avoir longtemps hésité sur ce que j'allais acheter, je n'ai finalement rien acheté.",
+     "Après avoir longuement erré, j'ai enfin fini par arriver.",
+     "Après bien des hésitations, j'ai décidé de quitter l'entreprise.",
+     "À court d'argent, j'ai fini par emprunter à un taux usuraire.",
+     "Au terme d'une dispute, il a fini par frapper quelqu'un.",
+     "*Depuis l'enfance, elle multipliait les vols à l'étalage, et pour finir, elle s'est fait arrêter par la police pour vol."
+    ],
+    "explain": "Renforce l'idée de « peine » avec des adverbes :散々／さんざん, いろいろ,長時間,何度も.\nS'emploie aussi à l'oral, mais convient surtout au récit et à l'argumentation.\n\n- Insiste sur le fait que le caractère « long et pénible » contribue au sentiment d'efforts vains quand l'issue n'est pas celle espérée.\n- Effet rhétorique : évoque la lassitude, la fatigue, et donne plus de poids à la conclusion.",
+    "notes": "• Pour être plus neutre, privilégier ～た末に／～た結果.\n• Le sujet est généralement une personne ; s'il s'agit d'une chose ou d'une organisation, il faut un contexte qui personnifie le processus.\nmeaning_vi: Après tant de…, finalement… (résultat non souhaité)\nexamples: 1. ①　いろいろ悩んだあげく、大学院に進むことにしました。\n2. ②　2時間も待たされたあげく、結局、試合は延期になった。\n3. ③　彼は困ったあげく、会社の上司からもお金を借りたそうだよ。\nmeaning_vi: Après…, finalement…\nexplain: Exprime une situation antérieure qui dure un certain temps et aboutit finalement à une décision de mise en œuvre, de résolution…\nexamples: 1. 彼は酔っ払って騒いだあげく、寝てしまった。\nIl était ivre et, après avoir fait du tapage, il a fini par s'endormir.\n2. 何度も手術したあげく、治らないと言われた。\nAprès d'innombrables opérations, on m'a annoncé que la guérison était impossible.",
+    "mistakes": [
+     "Omettre た : « 悩むあげく » est incorrect ; il faut « 悩んだあげく ».",
+     "Emploi pour un événement bref : « 行ったあげく » pour un seul trajet court ne convient généralement pas (sauf s'il implique un long processus)."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Nuance",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～あげく",
+       "Fatigue + issue défavorable",
+       "Nuance négative nette",
+       "<ruby>悩<rt>なや</rt></ruby>んだあげく<ruby>断念<rt>だんねん</rt></ruby>"
+      ],
+      [
+       "～た<ruby>末<rt>すえ</rt></ruby>に",
+       "Issue finale",
+       "Nuance négative/neutre",
+       "<ruby>検討<rt>けんとう</rt></ruby>した<ruby>末<rt>すえ</rt></ruby>に<ruby>合意<rt>ごうい</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 903,
+   "src_hash": "5a3b16ed88df9a68",
+   "fields": {
+    "meaning": "En moyenne, par ~",
+    "examples": [
+     "Le graphique suivant montre le nombre de médecins pour 1 000 habitants.",
+     "Le temps d'étude moyen des élèves était de 250 minutes par jour."
+    ],
+    "explain": "◎ Signifie « pour ~ », indique une unité ou une référence."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 904,
+   "src_hash": "cb042f9ec7ba8c51",
+   "fields": {
+    "meaning": "Valoir la peine ~",
+    "examples": [
+     "Mes nombreuses heures d'étude quotidiennes ont porté leurs fruits : j'ai réussi l'examen.",
+     "Pouvoir admirer un paysage aussi beau, ça valait vraiment la peine de faire le déplacement."
+    ],
+    "explain": "◎ Exprime l'idée « c'est pénible, mais efficace, et l'on obtient un résultat notable »."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

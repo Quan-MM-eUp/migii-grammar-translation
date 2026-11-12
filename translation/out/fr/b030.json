@@ -1,0 +1,564 @@
+{
+ "batch": "b030",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 485,
+   "src_hash": "a2713e6c3843a441",
+   "fields": {
+    "name": "代（tranche d'âge・décennie）",
+    "meaning": "Suffixe 代 : tranche d'âge, décennie (20代, 1980年代)",
+    "connection": "[nombre] + 代 (20代・1980年代)",
+    "examples": [
+     "Ma mère a la quarantaine.",
+     "Cette chanson était à la mode dans les années 1980.",
+     "Je voudrais visiter de nombreux pays tant que j'ai la vingtaine."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 486,
+   "src_hash": "3cd1ee78c72a2cdf",
+   "fields": {
+    "meaning": "Préfixe 真っ : complètement, entièrement (真っ赤, 真っ白)",
+    "connection": "真っ + [radical d'adjectif] (真っ赤・真っ白・真っ暗)",
+    "examples": [
+     "Elle avait tellement honte que son visage est devenu tout rouge.",
+     "Dehors, il fait nuit noire et on ne voit rien.",
+     "Une neige d'un blanc immaculé est en train de tomber."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 487,
+   "src_hash": "00c68e8a784613eb",
+   "fields": {
+    "meaning": "On peut voir…, on observe… (style de rapport)",
+    "examples": [
+     "On observe de nouveaux usages des mots chez les jeunes.",
+     "Dans cette région, on peut voir de nombreux bâtiments anciens.",
+     "Ces derniers temps, on observe d'importantes variations de température."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 488,
+   "src_hash": "c5f8dc5eebfda27e",
+   "fields": {
+    "meaning": "Pas rare…, assez nombreux (double négation)",
+    "examples": [
+     "Les étudiants qui ne prennent pas de petit-déjeuner ne sont pas rares.",
+     "Les gens qui voyagent seuls ne sont pas rares.",
+     "Ceux qui s'opposent à cet avis ne sont pas rares non plus."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 490,
+   "src_hash": "f98a58ee7cfd7f04",
+   "fields": {
+    "meaning": "Suffixe 化 : -isation, -ification (悪化する, 少子化)",
+    "examples": [
+     "Au Japon, la baisse de la natalité s'accentue.",
+     "Ma maladie s'est aggravée et j'ai dû aller à l'hôpital.",
+     "Les démarches ont été numérisées."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 491,
+   "src_hash": "e0273f3429a93b4c",
+   "fields": {
+    "meaning": "Préfixe 各 : chaque, les différents… (各国, 各自)",
+    "examples": [
+     "Les représentants de chaque pays se sont réunis pour la conférence.",
+     "Veuillez remporter chacun vos déchets.",
+     "Veuillez choisir deux personnes dans chaque classe."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 492,
+   "src_hash": "aaa7fe8b0e908848",
+   "fields": {
+    "meaning": "Suffixe 風 : style, à la manière de… (和風)",
+    "examples": [
+     "Ce restaurant est réputé pour sa cuisine de style japonais.",
+     "On se sent plus détendu dans une pièce de style japonais que dans une pièce de style occidental.",
+     "Il a une façon de penser à l'ancienne."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1548,
+   "src_hash": "586f343842992613",
+   "fields": {
+    "meaning": "Exprime un degré de quantité (plus ou moins)",
+    "connection": "classificateur＋いか",
+    "examples": [
+     "Dans la mesure du possible, formez des groupes de quatre personnes au maximum.",
+     "Les paquets de 500 grammes ou moins sont à 50 yens de moins.",
+     "Si l'on devait acheter un souvenir pour 3 000 yens ou moins, que pourrait-on trouver ?"
+    ],
+    "explain": "Désigne les nombres inférieurs à ce nombre, celui-ci compris."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1549,
+   "src_hash": "8696a6e2c9e10456",
+   "fields": {
+    "meaning": "Pouvoir (…), avoir la capacité de (…)",
+    "examples": [
+     "Savez-vous parler arabe ?",
+     "Il paraît que cette personne-là peut nager 20 km, voire 30 km, si elle y va lentement.",
+     "Nous sommes désolés, mais nous ne pouvons pas répondre à votre demande.",
+     "On pourrait aussi repenser ce qu'est « l'éducation » du point de vue de la « reproduction » des membres de cette société ou de cette classe."
+    ],
+    "explain": "Exprime la présence ou l'absence d'une « capacité » (1. 2.) ou d'une « possibilité » (3. 4.). On peut le remplacer par la forme potentielle 「Ｖ－れる」, comme 「話せる」「泳げる」, mais dans les situations formelles ou les textes soutenus (surtout lorsqu'il s'agit de possibilité), 「ことができる」 tend à être légèrement préféré."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1550,
+   "src_hash": "4df409596c4b4053",
+   "fields": {
+    "meaning": "Ce genre de…, … de ce type"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1551,
+   "src_hash": "aa73f53c63bdac89",
+   "fields": {
+    "meaning": "Exprime un ajout",
+    "connection": "N/forme neutre + だけでなく ～ も",
+    "examples": [
+     "Il ne faut pas manger seulement de la viande, mais aussi des légumes.",
+     "Pas seulement en anglais : en arabe aussi, son niveau est excellent.",
+     "Non seulement il chante bien, mais il compose aussi lui-même ses morceaux.",
+     "Avec ce dernier typhon, le village a subi de lourds dégâts, non seulement dans les champs, mais aussi dans les maisons.",
+     "À la cérémonie de remise des prix, il a non seulement été invité, mais on lui a aussi demandé de faire un discours."
+    ],
+    "explain": "Signifie « les deux », « l'un comme l'autre ». À l'oral, on dit aussi 「…だけじゃなく…も」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1553,
+   "src_hash": "9aa25ee4c38b8658",
+   "fields": {
+    "meaning": "Que ce soit … ou … ; … ou … , peu importe"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1554,
+   "src_hash": "9424cbd06b5cf191",
+   "fields": {
+    "meaning": "Exprime l'achèvement ; l'aboutissement",
+    "examples": [
+     "Les vacances d'été ont fini, elles aussi, par se terminer.",
+     "Mon grand-père, hospitalisé depuis longtemps, a fini lui aussi par nous quitter.",
+     "La cérémonie de remise des diplômes s'est bien passée, et le jour du retour au pays est finalement arrivé.",
+     "Après vingt années de travail, la recherche a enfin abouti.",
+     "Son interlocuteur était si insistant que lui, pourtant d'un naturel doux, a fini par se mettre en colère.",
+     "Le ciel était couvert depuis le matin, et le soir, la pluie a fini par tomber."
+    ],
+    "explain": "Exprime qu'une chose se réalise après beaucoup de temps, ou en fin de compte. En 1. ～3., on arrive, après une longue durée ou un long processus, à l'étape finale à laquelle on s'attendait ; en 4., on aboutit à ce résultat après de longs efforts. L'expression traduit l'émotion du locuteur envers les événements et les années qui ont mené jusque-là. Comme en 5. 6., on l'emploie aussi lorsqu'un état maintenu jusque-là dépasse sa limite. 5. signifie « lui qui ne se fâche jamais d'habitude n'a plus pu se retenir et s'est mis en colère », et 6. « depuis le matin, le temps menaçait de pluie ; il n'a tant bien que mal pas plu dans la journée, mais la pluie a commencé le soir ». Expressions similaires : 「やっと」「ついに」. Pour plus de détails, voir 【やっと】１."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1555,
+   "src_hash": "81764de5ef55517d",
+   "fields": {
+    "meaning": "Être considéré comme …, on pense que … (souvent quand cette idée est en réalité inexacte / à corriger)",
+    "examples": [
+     "On considère généralement que l'anglais est la langue commune du monde, mais en réalité, il existe bien des pays où l'anglais ne permet pas de se faire comprendre.",
+     "On pensait qu'il n'y avait pas d'êtres vivants sur Mars, mais cette exploration a permis de confirmer des traces de vie."
+    ],
+    "explain": "S'emploie pour énoncer une idée généralement admise. On l'utilise souvent pour dire que cette idée est en fait inexacte, ou qu'elle doit être corrigée."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1556,
+   "src_hash": "3a74b185ac066f16",
+   "fields": {
+    "meaning": "Il n'y a pas de … qui ne … pas / Aucun … ne manque de … (double négation : tout le monde, tout … sans exception)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1559,
+   "src_hash": "fbe0db6531b256de",
+   "fields": {
+    "meaning": "… est l'un des …"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1560,
+   "src_hash": "9325cd70c81841d1",
+   "fields": {
+    "meaning": "D'abord, en premier lieu (ce qu'il faut citer avant tout)",
+    "connection": "まず + [proposition]",
+    "examples": [
+     "Tout d'abord, je vais vous présenter le programme de la journée.",
+     "≪Propos du présentateur≫ J'aimerais maintenant recueillir l'avis de chacun. Alors, commençons par Kawaguchi, je vous prie.",
+     "Il paraît que l'été sera chaud cette année, alors quand je toucherai ma prime, je compte d'abord m'acheter un climatiseur.",
+     "Parmi les fêtes annuelles du Japon, on citera d'abord le Bon et le Nouvel An.",
+     "Pour connaître la culture d'un pays, il faut d'abord commencer par sa langue."
+    ],
+    "explain": "Exprime le sens de 「最初に」「第一に」 (« en premier », « premièrement »). En 4. 5., le sens est 「他のものはさておき」 (« avant toute autre chose »)."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1561,
+   "src_hash": "537870812b6ae90e",
+   "fields": {
+    "meaning": "Exprime la répétition ou l'habitude",
+    "connection": "また + [proposition]",
+    "examples": [
+     "Il semblerait qu'un avion se soit encore écrasé.",
+     "J'ai encore fait une erreur à la même question.",
+     "≪À la fin du cours≫ Bien, à la semaine prochaine.",
+     "A: Excusez-moi. Je souhaiterais prendre congé vendredi prochain.\nB: Encore ? Vous avez déjà pris congé la semaine dernière, non ?",
+     "A: Au revoir, revenez nous voir, hein.\nB: Merci beaucoup. Je reviendrai vous rendre visite.",
+     "A: Bon, à la prochaine.\nB: Salut !"
+    ],
+    "explain": "Exprime qu'une même chose se reproduit. Comme en 4. ～6., on l'emploie aussi comme salutation au moment de se quitter."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1562,
+   "src_hash": "b8420232cb8e0abf",
+   "fields": {
+    "meaning": "Vouloir que (quelqu'un) … (pour que / de sorte que …)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1603,
+   "src_hash": "a6ab934b5515bb5b",
+   "fields": {
+    "meaning": "Exprime le plus haut degré (comparaison)\nla limitation, l'extrême",
+    "examples": [
+     "Pour l'instant, il n'existe pas de manuel plus facile à comprendre que celui-ci.",
+     "On trouve rarement un film plus stupide que celui-là.",
+     "Même en cherchant dans tout le Japon, on ne trouverait sans doute personne de plus intelligent que cette personne."
+    ],
+    "explain": "S'attache principalement à 「これ／それ／あれ」 et signifie que ce qui est ainsi désigné atteint le plus haut degré. Équivaut à 「一番…だ」 (« le plus … »)."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1605,
+   "src_hash": "ab19e841ca590d1c",
+   "fields": {
+    "meaning": "Exprime la continuité\nl'invariabilité",
+    "examples": [
+     "Les tomates japonaises sont meilleures mangées crues, sans les faire cuire.",
+     "Vendeur : Je vous les mets dans un sac ? Client : Non, c'est très bien comme ça.",
+     "Même en prenant de l'âge, je veux garder ma beauté.",
+     "Beaucoup de gens boivent le saké chaud, mais moi, j'aime le boire froid, tel quel.",
+     "Veuillez ne pas entrer dans la pièce avec vos chaussures.",
+     "Si vous dormez avec le climatiseur allumé, vous allez attraper un rhume."
+    ],
+    "explain": "Signifie « dans le même état, sans changer ». Comme en 1. ～4., indique que l'on ne modifie pas l'état actuel ou qu'il ne change pas ; comme en 5. ～⑩, attaché à la forme en た ou à la forme négative d'un verbe, signifie « faire … dans cet état ». S'emploie avec un verbe d'action instantanée, lorsque l'action ou l'événement suivant a lieu pendant que le résultat de cette action se maintient. Les deux verbes doivent avoir le même sujet.\n*（誤） 電車はこんでいて、山田さんは立ったまま、私はすわっていた。\n*（正） 電車はこんでいて、山田さんは立ったままだったが、私はすわっていた。\n*（誤） 彼が待っているまま、私は他の人と話していた。\n*（正） 彼を待たせたまま、私は他の人と話していた。",
+    "notes": "À l'oral, on dit aussi 「まんま」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1606,
+   "src_hash": "f334f6bb9c411b25",
+   "fields": {
+    "meaning": "Exprime la limitation, l'extrême",
+    "connection": "やっと + [proposition]",
+    "examples": [
+     "Après avoir passé l'examen trois fois, je l'ai enfin réussi.",
+     "Le contrôle est enfin terminé, lui aussi.",
+     "Après des jours d'entraînement, j'y suis enfin arrivé.",
+     "Mon état s'est enfin suffisamment amélioré pour que je puisse quitter l'hôpital.",
+     "Le tunnel a enfin été achevé en 1995.",
+     "Après une sévère remontrance, mon petit-enfant a enfin arrêté de faire des bêtises."
+    ],
+    "explain": "Exprime la réalisation d'une chose que le locuteur attendait avec impatience, après des difficultés ou beaucoup de temps. S'emploie souvent sous la forme 「やっとＶ－た」. Traduit le « soulagement » ou la « joie » du locuteur, ou le sentiment que « cela a pris du temps », que « c'était difficile ». Expressions similaires : 「ようやく」「とうとう」「ついに」. 「とうとう」 et 「ついに」 peuvent s'employer pour une chose souhaitable comme pour une chose non souhaitable pour le locuteur, alors que 「やっと」 ne s'emploie que pour une chose que le locuteur attendait avec impatience.\n*（例） 長い間入院していた祖父が｛とうとう／ついに｝亡くなった。\n!Si l'on emploie 「やっと」 dans un exemple comme celui ci-dessus, cela signifie que le locuteur « attendait depuis longtemps la mort de son grand-père ». 「とうとう／ついに」 sont des expressions neutres qui indiquent, que le locuteur l'ait souhaité ou non, que l'on est arrivé à l'étape finale après une longue durée ou un long processus. Par ailleurs, comme 「やっと」「ようやく」 s'emploient lorsque se réalise une chose que le locuteur attendait, ils ne peuvent pas exprimer qu'une chose ne s'est finalement pas réalisée.\n*（誤） 彼は、｛やっと／ようやく｝来なかった。\n*（正） 彼は、｛とうとう／ついに｝来なかった。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1609,
+   "src_hash": "363e9ea6d88eb19c",
+   "fields": {
+    "name": "（particule）なら",
+    "connection": "N +（particule: で/と/に…）+ なら",
+    "examples": [
+     "Avec cette personne-là, je veux bien me marier.",
+     "Le français, ce n'est pas mon fort, mais en anglais, je peux tenir une conversation.",
+     "S'il ne s'agit que d'une personne de plus, elle peut entrer.",
+     "Après le travail, j'ai du temps.",
+     "A: Comment va votre jambe ?\nB: Si c'est lentement, j'arrive maintenant à marcher."
+    ],
+    "explain": "Se place après un nom, un adverbe, ou un nom + particule, et signifie « ce n'est pas le cas ailleurs, mais s'il s'agit de X / dans le cas de X, Y se réalise ». Y est généralement une chose souhaitable, et on l'emploie lorsqu'on choisit activement un X qui permet de réaliser Y. Proche du 「は」 de contraste, mais 「なら」 peut suivre un mot interrogatif, alors que c'est impossible avec 「は」.\n*（正） 何時なら都合がいいですか。誰となら結婚してもいいですか。\n*（誤） 何時は都合がいいですか。誰とは結婚してもいいですか。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 493,
+   "src_hash": "b6620bdc3ba0b425",
+   "fields": {
+    "meaning": "Exprime une action future déjà arrangée, ou une action future décidée par une tierce personne.",
+    "examples": [
+     "Pour se rendre sur le lieu de l'événement, il est prévu d'y aller en bus.",
+     "C'est sans doute moi qui me chargerai de réserver le restaurant.",
+     "Il a été décidé que je partirais en déplacement aux États-Unis le mois prochain.",
+     "Il a été décidé que la prochaine réunion d'anciens élèves aurait lieu à Tokyo.",
+     "C'est une joie pour moi : il a été décidé que je recevrais une bourse.",
+     "Comme un autre groupe utilise la salle de réunion, il a été décidé que nous ne pourrions pas nous en servir."
+    ],
+    "explain": "◎ Une chose est décidée ainsi en fonction d'une situation ou d'une condition donnée.",
+    "notes": "Remarque :\n●自分の意志で決めた場合でも、ほかの人に報告するときは「～ことになる」を使うことが多い。\nMême lorsque la décision vient de soi, on emploie souvent 「～ことになる」 pour l'annoncer à d'autres.\n「わたしたち、来月結婚することになりました」\n「Nous avons décidé de nous marier.」\nmeaning_vi: Exprime des choses comme des habitudes, des règles ou des projets que l'on n'a pas décidés soi-même.\n読む／読まない　+　ことになった／ことになっている\nexplain: ◎ Exprime qu'une action ou un état aboutit à un certain résultat.\nexamples: 1. 落ち着いてください。あわてると、ミスをすることになります。\nCalmez-vous. Si vous vous précipitez, vous ferez des erreurs.\n2. 今、部長に報告しておかないと、あとで面倒なことになる。\nSi vous ne faites pas votre rapport au chef de service maintenant, cela causera des ennuis plus tard.\n──────\n1. ①　待つことになった\nJ'ai dû attendre\n2. ②　来月から東京本社で働くことになった。\nJe vais travailler au siège de Tokyo à partir du mois prochain.\n3. ③　私の会社では、新入社員は朝、掃除することになっている。\nDans mon entreprise, les nouveaux employés font le ménage le matin.\n4. ➃　１０時からA社の田中さんと会うことになっている。\nJ'ai rendez-vous avec M. Tanaka de la société A à 10 heures."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 494,
+   "src_hash": "ae5aa3cca4985741",
+   "fields": {
+    "meaning": "Sur, concernant",
+    "examples": [
+     "Je vais vous présenter le nouveau système.",
+     "La police enquête sur la cause de l'affaire.",
+     "J'ai acheté un ouvrage d'introduction à l'histoire.",
+     "Cette question est actuellement à l'étude au sein de l'entreprise.",
+     "Nous sollicitons votre avis sur la modification des conditions d'utilisation.",
+     "J'ai une question sur la sécurité des produits."
+    ],
+    "explain": "S'emploie avec des 動詞/名詞 comme 説明・議論・報告・質問・情報・意見・調査.\n“については” sert à détacher un thème pour l'insistance ou le contraste ; “についても” sert à étendre la portée.\nDans les textes officiels, les titres utilisent souvent “Nについての研究/報告/方針”.\n\n• Établit le thème d'une discussion, d'une recherche ou d'une explication : « sur / au sujet de N ».\n• Convient à la langue parlée comme à l'écrit ; neutre, facile à employer.\n• La portée est généralement plus concrète qu'avec に関して (plus général, soutenu).",
+    "notes": "• Lorsque le thème est déjà clair, on peut le remplacer par それ/この件 pour éviter la répétition.\n• Ne pas employer “について” pour citer une source d'information (utiliser “によると/によれば”).\n• Dans un e-mail, “件名：Nについて” est une façon naturelle de formuler l'objet.\nmeaning_vi: 「～の内容・～に関係があることを…する。」～は話題を表す言葉。…は「思う・考える・話す・聞く・調べる・書く・説明する・知っている」などの動詞の文。\nFaire … sur le contenu de ~ / sur ce qui concerne ~.\n~ est le mot qui exprime le thème.\n… est une phrase contenant des verbes comme 思う／考える／話す／きく／調べる／書く／説明する／知っている…\nexamples: 1. すみません、入学手続きについて聞きたいのですが…。\nExcusez-moi, je voudrais me renseigner sur les formalités d'inscription...\n2. 今、私の国の教育についてレポートを書いています。\nEn ce moment, j'écris un rapport sur le système éducatif de mon pays.\n3. この作品についての感想を話していただけません。\nPourriez-vous me faire part de vos impressions sur cette œuvre ? | Variante soutenue : ～につき",
+    "mistakes": [
+     "Oubli de “の” en fonction de déterminant : la forme correcte est “NについてのN2”.",
+     "Confusion entre “に対して” (direction de l'action) et “について” (thème traité).",
+     "Employer “について” pour indiquer une source d'information est une erreur de fonction ; il faut utiliser “によれば/によると”.",
+     "La traduction automatique rend facilement « about » par “で” : la forme correcte est “について”."
+    ],
+    "comparison": {
+     "headers": [
+      "Point de grammaire",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～について",
+       "Sur (thème traité)",
+       "Neutre, direct",
+       "<ruby>計画<rt>けいかく</rt></ruby>について<ruby>話<rt>はな</rt></ruby>す。"
+      ],
+      [
+       "～に<ruby>関<rt>かん</rt></ruby>して",
+       "Concernant",
+       "Soutenu, portée plus large",
+       "<ruby>法律<rt>ほうりつ</rt></ruby>に<ruby>関<rt>かん</rt></ruby>して<ruby>発表<rt>はっぴょう</rt></ruby>する。"
+      ],
+      [
+       "～をめぐって",
+       "Autour de (souvent un litige)",
+       "Implique un conflit / plusieurs acteurs",
+       "<ruby>予算<rt>よさん</rt></ruby>をめぐって<ruby>議論<rt>ぎろん</rt></ruby>する。"
+      ],
+      [
+       "～に<ruby>対<rt>たい</rt></ruby>して",
+       "Envers (direction de l'action)",
+       "Ne désigne pas un thème",
+       "<ruby>子<rt>こ</rt></ruby>どもに<ruby>対<rt>たい</rt></ruby>して<ruby>優<rt>やさ</rt></ruby>しい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 495,
+   "src_hash": "732fd7d602e7b8cb",
+   "fields": {
+    "meaning": "~ ne faire que",
+    "examples": [
+     "Si vous ne faites que vous amuser, vous ne pourrez pas obtenir votre diplôme.",
+     "Même pendant le repas, elle ne faisait que regarder son smartphone."
+    ],
+    "explain": "◎ Faire toujours cette chose ; s'emploie sous la forme 「～て ばかりいる」.",
+    "notes": "meaning_vi: 「ほかのことはしないで、よく～する。」非難の気持ちで言う。\nNe rien faire d'autre que ~, faire souvent ~.\nS'emploie souvent avec une nuance de reproche.\nexamples: 1. 祖父は最近怒ってばかりいる\n祖父は最近怒ってばかりいる=> Ces derniers temps, mon grand-père ne fait que se mettre en colère.\n2. 二十歳のころは遊んでばかりいた。勉強しなかったことを今は残念に思っている。\n二十歳のころは遊んでばかりいた。勉強しなかったことを今は残念に思っている。=> À vingt ans, je ne faisais que m'amuser. Aujourd'hui, je regrette de ne pas avoir étudié.\n3. ただ見てばかりいないで、少しは手伝ってくださいよ。\nただ見てばかりいないで、少しは手伝ってくださいよ。=> Ne restez pas là à regarder, aidez un peu, voyons !\nmeaning_vi: ～ばかり Exprime une grande quantité, uniquement d'une seule chose. ～てばかりいる Désigne une action qui se produit fréquemment. Ce modèle de phrase s'emploie souvent pour exprimer un reproche.\nexamples: 1. ①　ゲームばかりして\nNe faire que jouer aux jeux vidéo\n2. ②　10円玉ばかり　あっても、うれしくない。\nN'avoir que des pièces de 10 yens, ça ne me fait pas plaisir.\n3. ③　チョコレートばかり　食べていると、太りますよ。\nSi vous ne mangez que du chocolat, vous allez grossir.\n4. ③　あそんでばかりいると、試験に　合格できないよ。\nSi tu ne fais que t'amuser, tu ne réussiras pas l'examen.\n5. ④　泣いてばかりいても　だめだよ。しっかり　説明して。\nÇa ne sert à rien de ne faire que pleurer. Explique-toi clairement.\nmeaning_vi: Continuer le même état ou la même action sans changement. Comporte une nuance de reproche.\nexamples: 1. ①　寝てばかりだ\nNe faire que dormir\n2. ②　弟は毎日寝てばかりだ。\nMon petit frère ne fait que dormir tous les jours.\n3. ➂　遊んでばかりいないで、勉強しなさい。\nArrête de ne faire que t'amuser comme ça, et travaille !"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 496,
+   "src_hash": "8e4435ec4e480540",
+   "fields": {
+    "name": "～V forme causative ていただけませんか",
+    "meaning": "Veuillez me permettre de ~",
+    "connection": "V forme causative て + いただけませんか",
+    "examples": [
+     "A: Chef, un ami se marie la semaine prochaine. Me permettriez-vous de prendre deux jours de congé ?\nB: Ah bon ? D'accord.",
+     "A: Excusez-moi. Me permettriez-vous de garer ma voiture ici un moment ? C'est pour décharger des bagages.\nB: Bien sûr."
+    ],
+    "explain": "◎ Combine la forme causative et \"～てくれる\" pour exprimer la gratitude.\n\nDemande poliment la permission de faire quelque chose.\nLes modèles de phrase de l'encadré sont classés par ordre croissant de politesse.",
+    "notes": "examples: 1. 「熱があるかもしれません」と言うと、店長は早めに帰らせてくれた。\nQuand j'ai dit \"Je crois que j'ai de la fièvre\", le gérant m'a laissé rentrer plus tôt.\n2. 留学させてくれたことを親に感謝しています。\nJ'éprouve une grande gratitude envers mes parents de m'avoir permis d'étudier à l'étranger.\nmeaning_vi: 「（自分が）～する/～しないことを望む。」 ほかの人が自分のために、ある状況を作ったり許可したりすることを望む言い方。 ②③のように、相手に直接希望を言うときにもよく使う。\n(Soi-même) souhaiter être autorisé à faire ~ / à ne pas faire ~.\nExpression traduisant le souhait que quelqu'un d'autre crée les conditions ou donne la permission de faire quelque chose pour soi.\nComme dans les exemples ②③, cette structure s'emploie souvent pour exprimer directement son désir à l'interlocuteur.\nexamples: 1. 店員A「昼休みが短いよね。昼ご飯をもっとゆっくり食べさせてもらいたいね。」\n店員B「そうだね。店長に行ってみよう。」\nmeaning_vi: Demander la permission d'accomplir sa propre action.\nexamples: 1. ①　使わせてもらえますか\nPourriez-vous me permettre de l'utiliser ?\n2. ②　すみません、この電話、使わせてもらえますか。\nExcusez-moi, pourriez-vous me permettre d'utiliser ce téléphone ?\n3. ➂　私も会議に出させてもらえませんか。\nPourriez-vous me permettre d'assister moi aussi à la réunion ?\n4. ➃　うちの商品をお店に置かせていただけませんでしょうか。\nPourriez-vous nous permettre de mettre nos produits en vente dans votre magasin ?"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

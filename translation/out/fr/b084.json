@@ -1,0 +1,544 @@
+{
+ "batch": "b084",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 1275,
+   "src_hash": "06a48101ca2c39ad",
+   "fields": {
+    "meaning": "Si l'on demande à…, alors…",
+    "examples": [
+     "Si vous voulez mon avis, cette explication est insuffisante.",
+     "Si l'on demande aux victimes, la peine est bien trop légère.",
+     "Si l'on demande aux enseignants, ce sont les bases qui comptent.",
+     "Si l'on demande aux parents, les sorties nocturnes sont inquiétantes.",
+     "Si l'on demande aux experts, le risque n'est pas faible.",
+     "Pour parler franchement, je ne peux pas approuver."
+    ],
+    "explain": "Se place en début de phrase, éventuellement suivi d'une virgule pour marquer une pause : 〜から言わせれば、…\nS'emploie pour annoncer un point de vue personnel, en préparant une déclaration contraire.\nEn langage familier : 〜から言わせりゃ (langue parlée, masculin).\n\n• Exprime le point de vue subjectif de l'agent N, souvent pour introduire une objection ou « parler franchement ».\n• Sous-entend « si l'on m'oblige à (le dire), alors… », ce qui renforce l'insistance.\n• S'emploie généralement avec un agent qui est une personne ou un groupe : 私／親／教師／専門家／被害者.",
+    "notes": "• Peut se combiner avec des adverbes d'insistance : 正直に／率直に／あくまで個人的には + から言わせれば.\n• À éviter dans la langue écrite universitaire en raison de sa forte nuance subjective.",
+    "mistakes": [
+     "Emploi avec un nom inanimé : ×結果から言わせれば → utiliser から言えば/から見ると.",
+     "Confusion de nuance avec から言えば : si l'énoncé demande un « reproche » → choisir から言わせれば.",
+     "Omettre l'agent N rend la phrase ambiguë : il faut préciser qui parle si le contexte ne l'indique pas."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Nuance",
+      "Emploi",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Nから<ruby>言<rt>い</rt></ruby>わせれば",
+       "Forte, subjective",
+       "Pour « parler franchement », objecter",
+       "<ruby>私<rt>わたし</rt></ruby>から<ruby>言<rt>い</rt></ruby>わせれば<ruby>高<rt>こう</rt></ruby>すぎ。"
+      ],
+      [
+       "Nから<ruby>言<rt>い</rt></ruby>えば／<ruby>言<rt>い</rt></ruby>うと",
+       "Neutre",
+       "Évaluation selon un critère / un point de vue",
+       "<ruby>法律<rt>ほうりつ</rt></ruby>から<ruby>言<rt>い</rt></ruby>えばOK。"
+      ],
+      [
+       "Nの<ruby>立場<rt>たちば</rt></ruby>からすると",
+       "Objective, selon la position",
+       "Vu depuis une position, un rôle",
+       "<ruby>学生<rt>がくせい</rt></ruby>の<ruby>立場<rt>たちば</rt></ruby>からすると<ruby>不安<rt>ふあん</rt></ruby>。"
+      ],
+      [
+       "Nとしては",
+       "En tant que (qualité)",
+       "Met en avant le rôle du locuteur",
+       "<ruby>親<rt>おや</rt></ruby>としては<ruby>反対<rt>はんたい</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1276,
+   "src_hash": "1b902213e44720ba",
+   "fields": {
+    "meaning": "Que ce soit peu ou beaucoup",
+    "examples": [
+     "Plus ou moins, tout le monde commet des erreurs.",
+     "Bonne ou mauvaise, cette décision aura un impact important sur l'entreprise.",
+     "Tôt ou tard, la vérité éclatera.",
+     "Cher ou bon marché, je veux privilégier la qualité.",
+     "De près ou de loin, sa responsabilité sera sans doute mise en cause.",
+     "Plus ou moins, tout le monde vit avec du stress."
+    ],
+    "explain": "Emploi : s'emploie comme complément circonstanciel posant une condition qui englobe les deux extrêmes : 多かれ少なかれ、～ Exprime un résultat ou un jugement de portée générale ou inévitable. S'emploie surtout avec les adjectifs en い ; certaines locutions utilisent un nom ou une forme substantivée : 若かれ老いかれ .\nS'emploie comme complément circonstanciel posant une condition qui englobe les deux extrêmes : 多かれ少なかれ、～\nExprime un résultat ou un jugement de portée générale ou inévitable.\nS'emploie surtout avec les adjectifs en い ; certaines locutions utilisent un nom ou une forme substantivée : 若かれ老いかれ .\nNuance : soutenue, expression figée ; fréquente dans les écrits, les discours et la presse. Sous-entend « quel que soit le degré sur l'échelle, la conclusion reste vraie ».\nSoutenue, expression figée ; fréquente dans les écrits, les discours et la presse.\nSous-entend « quel que soit le degré sur l'échelle, la conclusion reste vraie ».\nRemarque : ne pas créer librement de nouvelles paires si elles ne sont pas naturelles en japonais. Privilégier les locutions consacrées. Certaines ont un ordre quasi fixe : 多かれ少なかれ , 遅かれ早かれ , 良かれ悪しかれ .\nNe pas créer librement de nouvelles paires si elles ne sont pas naturelles en japonais. Privilégier les locutions consacrées.\nCertaines ont un ordre quasi fixe : 多かれ少なかれ , 遅かれ早かれ , 良かれ悪しかれ .\n\n• Sens 1 : « Que ce soit A ou B… / Quel que soit le degré, A ou B… »\n\n- Insiste sur le fait que la conclusion ne change pas, même aux deux extrêmes opposés d'une échelle.\n\n- Les adjectifs associés forment généralement une paire d'antonymes ou les deux bouts d'une échelle de degré, de moment ou de qualité.\n\n• Sens 2 : « plus ou moins / tôt ou tard / de près ou de loin / cher ou bon marché »\n\n- Exprime l'universalité ou le caractère inévitable : cela arrivera ou sera vrai dans une certaine portée.\n\n• Nuance : assez soutenue, langue écrite ; caractère d'expression figée. Quelques locutions très courantes : 多かれ少なかれ (plus ou moins), 遅かれ早かれ (tôt ou tard), 良かれ悪しかれ (que ce soit bon ou mauvais).",
+    "notes": "• Origine morphologique : « ～かれ » est un vestige d'une forme ancienne des adjectifs en い, conservé dans certaines expressions figées comme 良かれ悪しかれ, 遅かれ早かれ. Pour des raisons historiques, beaucoup de ces locutions sont figées et difficiles à créer soi-même.\n• « 悪しかれ » : cette forme est figée dans la locution 良かれ悪しかれ ; les apprenants se trompent souvent en écrivant « 悪かれ ». Apprenez-la par cœur sous sa forme standard.\n• Virgule : on place généralement une virgule après la locution en début de phrase : 多かれ少なかれ、～ pour isoler le complément circonstanciel.\n• Pragmatique : convient à la langue écrite soutenue, à la presse et aux présentations. Dans la conversation courante, on peut la remplacer par 多少, いずれ, どっちにしても selon le contexte.",
+    "mistakes": [
+     "Forme incorrecte :",
+     "Incorrect : 良いかれ悪いかれ → Correct : 良かれ悪しかれ",
+     "Incorrect : 悪かれ dans la locution ci-dessus → Correct : 悪しかれ",
+     "Création de paires peu naturelles :",
+     "Incorrect : 美しかれ綺麗かれ (peu naturel)",
+     "Privilégiez les locutions courantes comme 多かれ少なかれ, 遅かれ早かれ.",
+     "Confusion avec « AかBか » (phrase de choix / interrogative) :",
+     "行くか行かないか ≠ 遅かれ早かれ. La structure « ～かれ～かれ » n'est pas une structure d'interrogation ou de choix, mais une expression figée englobant les deux extrêmes.",
+     "Ordre des mots figé :",
+     "Généralement : 多かれ少なかれ, 遅かれ早かれ. Inverser l'ordre sonne étrange dans les sujets d'examen.",
+     "Pièges de choix au JLPT :",
+     "Choisir entre 多かれ少なかれ et 多少なりとも : les deux signifient « plus ou moins », mais si la nuance d'expression figée soutenue est requise → privilégier 多かれ少なかれ.",
+     "Choisir entre 遅かれ早かれ et いずれ : s'il faut une paire d'opposés / insister sur les deux extrêmes → 遅かれ早かれ."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens / Emploi",
+      "Différence de nuance",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～かれ～かれ",
+       "Paire d'adjectifs en い opposés ; expression figée",
+       "Figée, langue écrite ; insiste sur le fait d'englober les deux extrêmes",
+       "<ruby>多<rt>おお</rt></ruby>かれ<ruby>少<rt>すく</rt></ruby>なかれ、<ruby>問題<rt>もんだい</rt></ruby>はある。"
+      ],
+      [
+       "～にしろ～にしろ / ～にせよ～にせよ",
+       "Que ce soit A ou B (N/Adj/V possibles)",
+       "Formation libre, neutre",
+       "<ruby>高<rt>たか</rt></ruby>いにしろ<ruby>安<rt>やす</rt></ruby>いにしろ、<ruby>買<rt>か</rt></ruby>うつもりだ。"
+      ],
+      [
+       "～だろうが～だろうが / ～であろうが～であろうが",
+       "Que ce soit A ou B (fort, insistant)",
+       "Rhétorique, insiste sur la détermination / le point de vue",
+       "<ruby>雨<rt>あめ</rt></ruby>だろうが<ruby>雪<rt>ゆき</rt></ruby>だろうが、<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "<ruby>多少<rt>たしょう</rt></ruby>なりとも",
+       "Ne serait-ce qu'un peu",
+       "Plus doux que « <ruby>多<rt>おお</rt></ruby>かれ<ruby>少<rt>すく</rt></ruby>なかれ »",
+       "<ruby>多少<rt>たしょう</rt></ruby>なりとも<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>てば<ruby>幸<rt>さ</rt></ruby>いです。"
+      ],
+      [
+       "<ruby>少<rt>すく</rt></ruby>なからず",
+       "Non négligeable, assez important",
+       "Affirme un degré élevé",
+       "<ruby>少<rt>すく</rt></ruby>なからず<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けた。"
+      ],
+      [
+       "いずれ / いつか",
+       "Finir par, tôt ou tard",
+       "Neutre, sans opposition de deux extrêmes",
+       "いずれ<ruby>真実<rt>しんじつ</rt></ruby>は<ruby>明<rt>あき</rt></ruby>らかになる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1277,
+   "src_hash": "c6afcfce1b36fdc9",
+   "fields": {
+    "meaning": "Parce que…",
+    "connection": "V/A forme neutre + (が)ゆえに / N・Na + (である)",
+    "examples": [
+     "Poussé par sa jeunesse, il s'est lancé dans un défi téméraire.",
+     "Parce qu'elle est sérieuse, elle est parfois mal comprise par son entourage.",
+     "En raison de sa notoriété, la moindre de ses paroles fait grand bruit.",
+     "Les erreurs dues à l'ignorance peuvent être réduites grâce à l'éducation.",
+     "C'est parce que les démarches ont été négligées que le versement a pris du retard."
+    ],
+    "explain": "S'emploie pour donner un ton soutenu à une raison ou pour insister sur son caractère inévitable.\nPeut sous-entendre « on n'y peut rien / c'est inévitable » ou « c'est justement pour cela que c'est mérité ».\nÀ l'oral, on la remplace généralement par ～ため(に) ou ～せいで selon la nuance.\n\n～がゆえに = « justement parce que / du fait de (une raison liée à la nature même) », nuance soutenue, donnant parfois une impression de justification ou d'inévitabilité (positive ou négative).\n• Insiste sur un lien de cause à effet fondé sur une propriété ou une situation inhérente : 若さ・貧しさ・有名であること, etc.\n• S'emploie souvent dans les essais argumentatifs, la presse, les règlements et les déclarations soutenues.\n• La forme ～がゆえのN transforme la cause en caractéristique servant de déterminant au nom.",
+    "notes": "• Devant がゆえに, un adjectif en な ou un nom doit prendre である ; c'est un point souvent testé au JLPT N1.\n• ～がゆえのN est très utile pour condenser une cause en une caractéristique servant de déterminant au nom.\n• À éviter dans la conversation quotidienne, car cela sonne affecté.",
+    "mistakes": [
+     "Omettre である devant un adjectif en な / un nom : incorrect. Correct : 不便であるがゆえに, et non 不便だがゆえに.",
+     "Confusion de nuance avec ～せいで : がゆえに n'a pas forcément une nuance négative ; il a un caractère soutenu / académique.",
+     "Choix entre ～ために et ～がゆえに dans les réponses : quand le contexte est soutenu ou qu'il s'agit d'une propriété intrinsèque → choisir がゆえに."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Nuance",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～がゆえに",
+       "Soutenue, propriété intrinsèque",
+       "Insiste sur une raison liée à une propriété",
+       "<ruby>若<rt>わか</rt></ruby>さがゆえに"
+      ],
+      [
+       "～ため(に)",
+       "Neutre",
+       "Raison générale, large",
+       "<ruby>若<rt>わか</rt></ruby>いために"
+      ],
+      [
+       "～せいで",
+       "Nuance négative",
+       "Rejette la faute, blâme la cause",
+       "<ruby>若<rt>わか</rt></ruby>いせいで"
+      ],
+      [
+       "～だけに",
+       "Attente proportionnée",
+       "Exprime le degré « justement parce que… d'autant plus… »",
+       "<ruby>有名<rt>ゆうめい</rt></ruby>なだけに"
+      ],
+      [
+       "～ゆえ(に)",
+       "Style archaïque",
+       "Forme contractée, langue classique",
+       "<ruby>無知<rt>むち</rt></ruby>ゆえに"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1278,
+   "src_hash": "3859431c1dc1012a",
+   "fields": {
+    "meaning": "Dû à… (+ nom)",
+    "connection": "V/A forme neutre + (が)ゆえの + N / N・Na + (である)",
+    "examples": [
+     "Un échec dû au manque d'expérience.",
+     "Il serait cruel de reprocher une témérité due à la jeunesse.",
+     "Un malentendu est né du fait qu'il est étranger.",
+     "C'était un choix dicté par la pauvreté.",
+     "Supporter la pression qui découle du fait d'être responsable.",
+     "Une erreur de jugement due à la précipitation."
+    ],
+    "explain": "Nuance soutenue : langue écrite, mémoires, presse, déclarations officielles.\nInsiste sur le caractère « inévitable » dû à la nature ou à la situation : « justement parce que…, … ».\nS'emploie souvent avec des noms abstraits généraux :過ち,誤解,苦労,重圧,決断,行動.\nPosition : ～がゆえの + N (juste devant le nom déterminé).\nAvec ナ形/N : であるが望ましい. Éviter « だがゆえの » en langue soutenue ; employer « である ».\nNe s'emploie pas avec des expressions quotidiennes trop légères ; le remplacer par ～せいでの, ～ための en langage familier.\n\n～がゆえの signifie « justement parce que / du fait de…, … » ; sert de déterminant au nom qui suit, insiste sur une cause intrinsèque, avec une nuance soutenue, propre à la langue écrite.\n• Sous-entend « du fait de cette nature / situation, … survient inévitablement ».\n• S'emploie souvent avec des mots désignant une propriété comme 若さ, 未熟, 無知, 立場, 事情, 責任.\n• Par rapport à ～ための, ～がゆえの est plus soutenu et a la nuance de « pour cette raison même / à cause de cela précisément ».\n• Il existe une forme parallèle qui s'emploie dans la phrase : ～がゆえに (complément circonstanciel). La forme étudiée ici est un complément du nom : ～がゆえの + N.",
+    "notes": "• « ゆえ » est le mot sino-japonais « 故 », signifiant « cause / raison », d'où sa nuance classique et solennelle.\n• La forme longue « ～であるがゆえの » donne un rythme ferme et précis avec N/ナ形.\n• Dans les médias et les relations publiques, s'emploie pour atténuer la nuance de rejet de la faute : « 誤解がゆえの発言 ».\n• Prudence quand l'agent est une personne : cela peut sonner comme une justification. Tenez compte du contexte.",
+    "mistakes": [
+     "Employer « だがゆえの » avec N/ナ形 dans un style sérieux : il faut utiliser « であるがゆえの ».",
+     "Confusion avec ～せいでの : si l'on ne veut pas de forte nuance de rejet de la faute, choisir ～がゆえの.",
+     "Mauvaise position du déterminant : il faut « X がゆえの N », sans séparer le « の ».",
+     "Au JLPT : piège entre ～ための et ～がゆえの ; si la réponse exige une nuance soutenue → choisir ～がゆえの.",
+     "Confusion de fonction avec ～がゆえに : l'un détermine un nom, l'autre sert de complément circonstanciel de la proposition."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence principale",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～ための + N",
+       "Pour / à cause de ; but ou cause",
+       "Neutre, plus oral ; pas forcément soutenu",
+       "<ruby>経験<rt>けいけん</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>のための<ruby>失敗<rt>しっぱい</rt></ruby>"
+      ],
+      [
+       "～せいでの + N",
+       "Parce que… (résultat négatif)",
+       "Nuance nettement négative ; langage courant",
+       "<ruby>不<rt>ふ</rt></ruby><ruby>注意<rt>ちゅうい</rt></ruby>のせいでの<ruby>事故<rt>じこ</rt></ruby>"
+      ],
+      [
+       "～が<ruby>理由<rt>りゆう</rt></ruby>の + N",
+       "Énonce directement la raison",
+       "Direct, peu littéraire",
+       "<ruby>病気<rt>びょうき</rt></ruby>が<ruby>理由<rt>りゆう</rt></ruby>の<ruby>欠席<rt>けっせき</rt></ruby>"
+      ],
+      [
+       "～がゆえに",
+       "Parce que… (complément circonstanciel)",
+       "S'emploie devant une proposition, ne détermine pas de nom",
+       "<ruby>若<rt>わか</rt></ruby>いがゆえに<ruby>失敗<rt>しっぱい</rt></ruby>もある"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1279,
+   "src_hash": "9376cf5701c2ebfa",
+   "fields": {
+    "meaning": "Si… est ainsi, … l'est aussi",
+    "examples": [
+     "Tels parents, tels enfants.",
+     "Tel patron, tels employés.",
+     "Les clients sont ce qu'ils sont, et la boutique ne vaut pas mieux.",
+     "L'entraîneur est ce qu'il est, et les joueurs ne valent pas mieux.",
+     "Le professeur est ce qu'il est, et les élèves ne valent pas mieux.",
+     "Tels parents, tels enfants, franchement !"
+    ],
+    "explain": "S'emploie généralement pour formuler un reproche, une moquerie ou un agacement ; à éviter directement face à un supérieur pour ne pas être impoli.\nLes deux noms doivent former une paire liée (parent–enfant, maître–élève, patron–employé, client–boutique...).\nN'exprime pas une condition réelle (si A alors B). Le sens est « A étant le A qu'il est, B est lui aussi le B qu'il est ».\nLa phrase se termine généralement par だ ; on peut ajouter よ/ね/な pour ajuster la nuance à l'oral.\n\nLa structure ～が～なら、～も～だ (ainsi que sa variante ～も～なら、～も～だ) juge que A comme B sont « bien tels qu'ils sont » et ont tendance à se ressembler (généralement en mal). Autrement dit, si A est ainsi, B ne vaut guère mieux ; les deux se valent en bien ou en mal (le plus souvent pour formuler un reproche).\n• « なら » n'exprime pas ici une condition de réalisation, mais « du point de vue de la qualité / de la nature ».\n• Se combine presque exclusivement avec des noms (rôle, qualité, groupe de personnes ou de choses).\n• S'emploie comme commentaire ou exclamation, souvent avec une nuance ironique.",
+    "notes": "• Le sujet réel peut faire l'objet d'une ellipse ; très formulaïque, fréquent dans la presse et les commentaires.\n• On peut ajouter des adverbes exclamatifs : まったく／本当に／やれやれ, mais en tenant compte de la politesse.\n• Symétrie : il est plus naturel de garder le même type de nom (rôle / qualité) dans les deux propositions.\n• À l'oral, « だ » peut être remplacé par « だよ／だね／だな » selon l'attitude. | Distinction : ～が～なら、～も～だ (tel père, tel fils) vs ～も～なら、～も～だ (les deux parties sont fautives) — deux points distincts, à conserver tous les deux",
+    "mistakes": [
+     "Emploi avec un verbe / un adjectif : cette structure s'emploie presque uniquement avec des noms. Incorrect : 忙しいが忙しいなら… → À éviter.",
+     "Comprendre « なら » comme une condition ordinaire ; ici, il s'agit d'une évaluation de la qualité / de la nature, et non de « si… alors… ».",
+     "Erreur sur l'élément central : utiliser は au lieu de が/も fait perdre la nuance formulaïque. Privilégier « NがNなら、NもNだ／NもNなら、NもNだ ».",
+     "L'employer dans une situation soutenue face aux personnes directement concernées peut être impoli en raison de la nuance de reproche.",
+     "Au JLPT : choisir le bon ordre de la paire de noms liés (親–子, 師–弟…), et choisir la terminaison だ (ne pas la changer en ～ている...)."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure grammaticale",
+      "Sens",
+      "Points communs / Différences",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～が～なら、～も～だ",
+       "A comme B sont « bien tels qu'ils sont », souvent un reproche",
+       "Insiste sur leur équivalence (le plus souvent négative)",
+       "<ruby>親<rt>おや</rt></ruby>が<ruby>親<rt>おや</rt></ruby>なら、<ruby>子<rt>こ</rt></ruby>も<ruby>子<rt>こ</rt></ruby>だ"
+      ],
+      [
+       "～も～なら、～も～だ",
+       "Les deux parties se valent",
+       "Variante interchangeable ; nuance équivalente",
+       "<ruby>親<rt>おや</rt></ruby>も<ruby>親<rt>おや</rt></ruby>なら、<ruby>子<rt>こ</rt></ruby>も<ruby>子<rt>こ</rt></ruby>だ"
+      ],
+      [
+       "～だけあって／～だけに",
+       "Correspondance positive / conforme aux attentes",
+       "Généralement élogieux, nuance opposée",
+       "<ruby>親<rt>おや</rt></ruby>が<ruby>有名人<rt>ゆうめいじん</rt></ruby>だけあって、<ruby>子<rt>こ</rt></ruby>も<ruby>有名<rt>ゆうめい</rt></ruby>だ"
+      ],
+      [
+       "～にもほどがある",
+       "C'est excessif, il y a des limites",
+       "Ne critique qu'une seule partie, pas une « paire »",
+       "<ruby>失礼<rt>しつれい</rt></ruby>にもほどがある"
+      ],
+      [
+       "～は～で、～は～で",
+       "Chaque partie a ses raisons / ses difficultés",
+       "Neutre, moins critique",
+       "<ruby>親<rt>おや</rt></ruby>は<ruby>親<rt>おや</rt></ruby>で、<ruby>子<rt>こ</rt></ruby>は<ruby>子<rt>こ</rt></ruby>で<ruby>大変<rt>たいへん</rt></ruby>だ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1280,
+   "src_hash": "f3a4cec50cf591d7",
+   "fields": {
+    "meaning": "C'est justement… qui…",
+    "examples": [
+     "C'est l'amour qui est la vraie force, mais il est difficile de l'exprimer.",
+     "C'est l'effort qui est la clé du succès, mais persévérer est encore plus difficile.",
+     "C'est le dialogue qui mène à la solution, mais il faut du temps pour mettre de l'ordre dans ses émotions.",
+     "C'est maintenant qu'il faut changer, mais sans préparation, cela sèmera la confusion.",
+     "C'est la confiance qui est le fondement de la coopération, mais une fois perdue, elle est difficile à retrouver."
+    ],
+    "explain": "Position : こそ juste après le nom mis en relief ; puis affirmation avec Nだ, suivie de la conjonction が .\nNuance : forte insistance dans la première proposition ; la seconde proposition est réaliste, réservée ou sert d'avertissement.\nPragmatique : convient pour équilibrer idéal et réalité, ou pour faire un éloge assorti d'une condition.\nDegré de formalité : utilisable à l'oral comme à l'écrit ; ajouter です／ます pour être poli.\n\nLa structure NこそNだが、～ met l'accent absolu sur la première proposition (affirmation « c'est justement… »), puis が introduit dans la seconde proposition une réalité, une restriction ou une difficulté. Sens naturel : « C'est vrai que c'est bien N qui est N, mais… ».\n• こそ crée un « point d'insistance » fort, affirmant sans ambiguïté l'élément de la première proposition.\n• …だが、 signale un retournement : on reconnaît la valeur de A, mais on montre que B constitue un obstacle ou une exception.\n• S'emploie souvent dans les commentaires, les discours, les slogans argumentés : insistance → retour à la réalité.",
+    "notes": "• Cette structure apparaît souvent dans une argumentation qui « exalte une valeur fondamentale » tout en insistant sur « les conditions de sa réalisation ».\n• La première proposition peut contenir un nom abstrait : 愛・努力・信頼・自由・責任… pour plus de poids.\n• Si la seconde proposition n'exprime qu'un léger avertissement, on peut remplacer が par けれど(も) pour adoucir.",
+    "mistakes": [
+     "Confondre が avec la particule du sujet → ici, が est une conjonction adversative, placée après だ.",
+     "Placer こそ au mauvais endroit (après un verbe / un adjectif) → cette structure exige un nom comme élément mis en relief.",
+     "Une seconde proposition qui contredit trop fortement « annule entièrement » la première proposition → déséquilibre du sens ; elle doit exprimer une exception ou une difficulté raisonnable.",
+     "Omettre だ devant が dans un écrit standard → avec un nom, il vaut mieux employer Nだが、 pour plus de cohérence."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence principale",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "NこそNだ",
+       "C'est bien N qui est N (affirmation absolue)",
+       "Pas de proposition adversative ; se termine sur l'affirmation.",
+       "<ruby>努力<rt>どりょく</rt></ruby>こそ<ruby>成功<rt>せいこう</rt></ruby>だ。 C'est l'effort qui fait le succès."
+      ],
+      [
+       "NこそNだが、～",
+       "Affirmation puis « mais… »",
+       "Ajoute une seconde proposition pour exprimer une difficulté / une condition / une exception.",
+       "<ruby>愛<rt>あい</rt></ruby>こそ<ruby>力<rt>ちから</rt></ruby>だが、<ruby>難<rt>むずか</rt></ruby>しい。 C'est l'amour qui est la force, mais c'est difficile."
+      ],
+      [
+       "～とはいえ、～",
+       "Bien que l'on dise…, …",
+       "Concession argumentative, sans l'accent « projecteur » de こそ.",
+       "<ruby>重要<rt>じゅうよう</rt></ruby>だとはいえ、<ruby>費用<rt>ひよう</rt></ruby>が<ruby>問題<rt>もんだい</rt></ruby>だ。 C'est important, certes, mais le coût pose problème."
+      ],
+      [
+       "～ものの、～",
+       "Certes…, mais…",
+       "Langue écrite soutenue ; proche de が mais plus élégant.",
+       "<ruby>必要<rt>ひつよう</rt></ruby>だものの、<ruby>準備<rt>じゅんび</rt></ruby><ruby>不足<rt>ふそく</rt></ruby>だ。 C'est nécessaire, mais la préparation est insuffisante."
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1281,
+   "src_hash": "9c6e9bffbdf68c37",
+   "fields": {
+    "meaning": "Comme… / tel que…",
+    "examples": [
+     "Il est parti en courant comme le vent.",
+     "Une fragilité semblable à celle de la neige printanière.",
+     "J'ai eu la sensation d'être comme dans un rêve.",
+     "Une humble personne comme moi ne saurait assumer une si lourde responsabilité.",
+     "Ce n'est pas un travail à la portée de quelqu'un comme lui.",
+     "Comme un incendie qui se propage, la rumeur s'est répandue dans toute la ville."
+    ],
+    "explain": "Langue écrite, discours, littérature ; à l'oral, on emploie généralement ～ように／～みたいに.\nPour déterminer un nom : privilégier NのごときN. Avec un pronom / une personne, on peut l'employer directement :私ごとき.\n« Xごときが/に » peut sonner insultant à propos d'autrui ; tenez compte du contexte.\n\n• Comparaison / métaphore : « comme / semblable à / comme si ». Nuance littéraire, soutenue.\n• ごとき : détermine un nom ; ごとく : détermine un verbe / un adjectif / toute une proposition, comme complément circonstanciel.\n• Nuance sociale : « Xごときが/に » peut être méprisant à propos d'autrui ; « 私ごとき » relève du langage humble envers soi-même.\n• かのごとく insiste sur « comme si » (alors qu'en réalité ce n'est pas le cas).",
+    "notes": "• « がごとく » a une couleur classique, fréquente dans les titres / romans : ～するがごとく.\n• Enchaînement rhétorique figé : まるで／さながら＋V（か）のごとく.\n• Valeur grammaticale : ごとき（連体） ~ fonctionne comme un adjectif ; ごとく (連用) ~ fonctionne comme un adverbe.",
+    "mistakes": [
+     "Omettre « の » à tort et à travers : la plupart du temps, il faut NのごときN ; exception comme 私ごとき, qui ne prend pas の.",
+     "Emploi offensant à propos d'autrui : ×君ごときが口を出すな（fort, facilement impoli).",
+     "Confusion avec ように (langue parlée) dans les sujets d'examen : choisir ごとく／ごとき quand le contexte est soutenu / rhétorique."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～ように／ような",
+       "Comme / semblable",
+       "Neutre, conversation ; peu littéraire",
+       "<ruby>風<rt>かぜ</rt></ruby>のように<ruby>走<rt>はし</rt></ruby>る。"
+      ],
+      [
+       "～みたい（な／に）",
+       "Comme, genre",
+       "Très oral",
+       "<ruby>夢<rt>ゆめ</rt></ruby>みたいだ。"
+      ],
+      [
+       "～かのようだ",
+       "Comme si…",
+       "Proche de « かのごとく », plus employé",
+       "<ruby>氷<rt>こおり</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にいるかのようだ。"
+      ],
+      [
+       "～ごとき／ごとく",
+       "Comme / comme si (littéraire)",
+       "Soutenu, nuance rhétorique, méprisante ou d'humilité",
+       "<ruby>神<rt>かみ</rt></ruby>のごとき<ruby>強<rt>つよ</rt></ruby>さ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1283,
+   "src_hash": "f31f88daff024f8b",
+   "fields": {
+    "meaning": "Sans avoir besoin de…",
+    "examples": [
+     "Même s'il n'en dit pas beaucoup, sa détermination transparaît.",
+     "J'ai agrandi les figures pour qu'on comprenne même sans explication.",
+     "Même sans voir l'objet réel, on peut imaginer sa bonne qualité.",
+     "Ce n'est pas si facile au point de réussir sans faire d'efforts.",
+     "Pas besoin de se voir, un e-mail suffit."
+    ],
+    "explain": "S'emploie souvent pour insister sur une évidence ou sur le fait qu'une condition suffit déjà, ou pour nier l'attente « il faut V ».\nPlus soutenu que ～なくても ; convient à la langue écrite, aux titres et aux déclarations.\nPeut se combiner avec des adverbes d'insistance : わざわざ・いちいち + V-ずとも.\n\n• « Même sans V / même sans avoir besoin de V, … quand même » ; insiste sur le fait que la condition A n'est pas nécessaire pour que B se produise.\n• S'emploie dans l'argumentation, la langue écrite, les slogans ; nuance soutenue et raide, ou rhétorique.\n• S'emploie souvent avec des verbes de perception / de capacité : 分かる・伝わる・見える・言える・足りる.",
+    "notes": "• ～とも a ici un sens de concession « même si…, … ». Associé à « ず » (négation de la langue écrite), il donne une impression soutenue.\n• Fréquent dans les titres de presse / les publicités : « 登録せずとも使える ».\n• Avec les verbes de perception, on omet souvent le sujet : « 言わずとも伝わる ».",
+    "mistakes": [
+     "Confusion avec ～ずに : ～ずに exprime un enchaînement d'actions, sans le sens « même sans…, … quand même ».",
+     "Oublier de changer する → せずとも ; écrire « しずとも » est incorrect.",
+     "L'employer dans une conversation familière peut sembler affecté ; le JLPT teste souvent la nuance soutenue par rapport à ～なくても."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～ずとも",
+       "Même sans V, …",
+       "Langue écrite / soutenue, rhétorique",
+       "<ruby>言<rt>い</rt></ruby>わずとも<ruby>伝<rt>つた</rt></ruby>わる"
+      ],
+      [
+       "～なくても",
+       "Sans V, … quand même",
+       "Langue parlée, neutre",
+       "<ruby>言<rt>い</rt></ruby>わなくても<ruby>分<rt>わ</rt></ruby>かる"
+      ],
+      [
+       "～ずともよい",
+       "Il n'est pas nécessaire de V",
+       "Ordre / permission, poli",
+       "<ruby>提出<rt>ていしゅつ</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby>でなくてはならないわけではずともよい"
+      ],
+      [
+       "～ずに",
+       "Sans V (puis faire autre chose)",
+       "N'a pas le sens « même sans V, … quand même »",
+       "<ruby>昼食<rt>ちゅうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べずに<ruby>出<rt>で</rt></ruby>かけた"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 1
+}

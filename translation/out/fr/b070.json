@@ -1,0 +1,514 @@
+{
+ "batch": "b070",
+ "lang": "fr",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-12",
+ "items": [
+  {
+   "id": 1067,
+   "src_hash": "a9ebd5f5f5ed6b1a",
+   "fields": {
+    "meaning": "Au fait… (changement de sujet)",
+    "connection": "[thème A]。 + それはそうと、 + [thème B]",
+    "examples": [
+     "Le projet avance bien, hein. Au fait, qui part en déplacement la semaine prochaine ?",
+     "Arrêtons-nous là pour aujourd'hui. Au fait, tu as vu ce document ?",
+     "Merci. Au fait, explique-moi comment aller à la gare.",
+     "L'histoire du nouveau produit est intéressante. Au fait, le budget suffira ?",
+     "Ce film était bien, tu sais. Au fait, tu as fini tes devoirs ?"
+    ],
+    "explain": "S'emploie souvent dans la conversation courante pour bifurquer vers un autre sujet.\nÉvitez de l'employer trop brusquement avec un supérieur dans un contexte soutenu ; envisagez plutôt ところで/さて.\nSe place en début de phrase, au tout début de la nouvelle phrase, après le point de la phrase précédente.\n\n• Sens : expression de liaison servant à changer de sujet, de façon souvent assez inattendue mais douce.\n• Nuance : familière, plutôt courante ; donne l'impression de « se rappeler autre chose ».\n• Lien : peut avoir un rapport lâche avec A, ou aucun rapport.",
+    "notes": "• Souvent employé pour glisser un « rappel » qui vient à l'esprit au cours de la conversation.\n• Pour plus de cohérence dans une présentation formelle, utilisez さて/次に/では plutôt que それはそうと.\n• N'exprime ni cause-conséquence ni opposition ; c'est seulement un signal de changement de sujet. explain: S'emploie pour changer de sujet. ⏐ examples: 1. 「今日の授業、おもしろかったね。」\n「うん、すごくためになった。それはそうと、今度の試験いつだっけ？」\nLe cours d'aujourd'hui était intéressant, hein. Oui, j'ai beaucoup appris. Au fait, c'est quand déjà, le prochain examen ?\n2. 「春になりましたね。それはそうと、田中さんの息子さん、大学受かったでしょうか。」\nLe printemps est arrivé, n'est-ce pas. Au fait, il semble que le fils de M. Tanaka ait été reçu à l'université, non ?",
+    "mistakes": [
+     "Choisir それはそうと pour une phrase qui demande un rapport « cause-résultat » → incorrect (utiliser だから/そのため/それで).",
+     "L'employer au milieu d'une phrase ou après une virgule dans une même longue phrase → peu naturel ; la norme est après le point de la phrase précédente.",
+     "Confusion avec それでは (ouvre l'étape suivante d'une présentation) → fonction différente."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "それはそうと",
+       "Au fait / à propos (familier)",
+       "Changement de sujet soudain, pas forcément lié",
+       "<ruby>終<rt>お</rt></ruby>わり。それはそうと、<ruby>次<rt>つぎ</rt></ruby>は？"
+      ],
+      [
+       "ところで",
+       "À propos (neutre)",
+       "Le plus courant, moyennement poli",
+       "ところで、<ruby>明日<rt>あした</rt></ruby>の<ruby>件<rt>けん</rt></ruby>。"
+      ],
+      [
+       "それはさておき",
+       "Laissons cela de côté",
+       "Implique « laisser A de côté pour en venir à l'essentiel, B »",
+       "それはさておき、<ruby>本題<rt>ほんだい</rt></ruby>へ。"
+      ],
+      [
+       "<ruby>話<rt>はなし</rt></ruby>は<ruby>変<rt>か</rt></ruby>わるけど",
+       "Pour parler d'autre chose",
+       "Très oral, annonce un changement de sujet",
+       "<ruby>話<rt>はなし</rt></ruby>は<ruby>変<rt>か</rt></ruby>わるけど、さ..."
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1068,
+   "src_hash": "8776dd0fe6389bbd",
+   "fields": {
+    "meaning": "Vouloir vraiment…, si seulement… (désir ardent)",
+    "examples": [
+     "J'aimerais bien, au moins une fois, séjourner dans un hôtel de luxe comme celui-ci.",
+     "Je travaille tellement, j'aimerais bien qu'on m'augmente un peu mon salaire."
+    ],
+    "notes": "S'emploie avec des expressions de désir comme 「たい」 ou 「ほしい」 pour renforcer ce sentiment."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1069,
+   "src_hash": "e6f39cd3a34c152f",
+   "fields": {
+    "meaning": "À peine… que…",
+    "examples": [
+     "À peine s'est-il mis à pleuvoir que le ciel s'est déjà éclairci.",
+     "À peine le bébé avait-il pleuré qu'il s'est aussitôt mis à rire.",
+     "À peine le magasin avait-il ouvert qu'une file d'attente s'est formée en un clin d'œil.",
+     "À peine était-il revenu qu'il est de nouveau reparti quelque part.",
+     "En cette saison, à peine commence-t-il à faire froid qu'il se met soudain à faire chaud.",
+     "À peine la sonnerie avait-elle retenti que tout est redevenu silencieux à cause d'une coupure de courant."
+    ],
+    "explain": "Moment : s'emploie pour deux événements qui se succèdent de très près.\nPersonne : il s'agit généralement d'une observation objective ; on évite que la seconde proposition soit une action intentionnelle du locuteur.\nNuance : met l'accent sur la surprise / la rapidité ; peut servir à se plaindre d'un changement capricieux.\nStyle : fréquent en langue parlée, se rencontre aussi en langue écrite pour décrire des phénomènes.\n\n• Exprime qu'un fait B se produit presque immédiatement après A, ce qui donne au locuteur une impression d'« éclair » et de surprise.\n• S'emploie souvent pour une observation objective (le sujet est souvent une tierce personne / une chose), sans intervention intentionnelle du locuteur.\n• La seconde proposition est généralement un fait / un phénomène inattendu ; ne convient pas à un ordre, une intention ou une invitation directe.\n• Peut exprimer un changement contraire répété : A, puis aussitôt B, son contraire.\n• Nuance affective : surprise, agacement, légère plainte, ou description d'un rythme de changement rapide.",
+    "notes": "• La seconde proposition exprime un fait réel / objectif (～た／～ている／～たところだ...). Évitez ～ましょう、～てください.\n• S'emploie souvent avec des phénomènes naturels, des actions d'autrui, des changements d'état.\n• Pour exprimer des revirements répétés, la structure permet de décrire un temps « ensoleillé le matin, pluvieux l'après-midi ».",
+    "mistakes": [
+     "Employer un ordre / une volonté dans la seconde proposition : 読んだかと思ったら、勉強しよう× → Il faut un fait / une observation.",
+     "L'employer pour une action intentionnelle du locuteur lui-même : 私は家に着いたかと思ったら、寝ます× → Peu naturel.",
+     "Confusion avec ～と思いきや (contraire aux attentes) ou ～たとたん (incident imprévu). Lisez attentivement la nuance de la question.",
+     "Le temps entre les deux propositions doit être très court ; s'il est long, il vaut mieux utiliser ～てから ou ～その後."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence principale",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～たかと<ruby>思<rt>おも</rt></ruby>ったら/～たかと<ruby>思<rt>おも</rt></ruby>うと",
+       "À peine A que B (surprise)",
+       "Insiste sur la surprise ; la seconde proposition n'est ni un ordre ni une intention",
+       "<ruby>帰<rt>かえ</rt></ruby>ったかと<ruby>思<rt>おも</rt></ruby>うと、また<ruby>出<rt>で</rt></ruby>た。"
+      ],
+      [
+       "～たとたん(に)",
+       "Dès que A, B",
+       "B est souvent un incident imprévu ; le sujet des deux propositions est généralement le même",
+       "<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がったとたん、<ruby>倒<rt>たお</rt></ruby>れた。"
+      ],
+      [
+       "～か～ないかのうちに",
+       "À peine A terminé que B",
+       "Exprime une proximité encore plus grande ; nuance plus neutre",
+       "<ruby>終<rt>お</rt></ruby>わるか<ruby>終<rt>お</rt></ruby>わらないかのうちに<ruby>帰<rt>かえ</rt></ruby>る。"
+      ],
+      [
+       "～や<ruby>否<rt>いな</rt></ruby>や",
+       "Dès que A, aussitôt B",
+       "Soutenu / langue écrite ancienne ; pas d'ordre",
+       "<ruby>着<rt>つ</rt></ruby>くや<ruby>否<rt>いな</rt></ruby>や、<ruby>会議<rt>かいぎ</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まった。"
+      ],
+      [
+       "～と<ruby>思<rt>おも</rt></ruby>いきや",
+       "On croyait A, mais contre toute attente B",
+       "Pas forcément « immédiat » ; insiste sur le contraire des attentes",
+       "<ruby>簡単<rt>かんたん</rt></ruby>かと<ruby>思<rt>おも</rt></ruby>いきや、<ruby>難<rt>むずか</rt></ruby>しい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1070,
+   "src_hash": "6996edfd27b3084f",
+   "fields": {
+    "meaning": "Depuis que…, toujours (sans changement)",
+    "examples": [
+     "Depuis qu'il a quitté la maison l'an dernier, il n'est pas revenu une seule fois.",
+     "Je n'ai rencontré cette personne qu'une seule fois et, depuis, je n'ai plus de contact avec elle.",
+     "Ce livre, je l'ai acheté, puis il est resté sur l'étagère sans que je le lise.",
+     "Depuis que j'ai reçu cet appel, plus aucune nouvelle.",
+     "Depuis sa maladie, mon grand-père est presque toujours alité.",
+     "Depuis qu'elle a obtenu son diplôme, on ne la voit plus en ville."
+    ],
+    "explain": "S'emploie souvent avec un événement personnel servant de repère (contact, retour, rencontre, études...).\nNuance : légèrement négative / de regret, ou objective : « à partir de là, c'est fini ».\nTemps : se prolonge jusqu'au présent observé ; équivaut à « depuis A, toujours... ».\n\n• « Depuis A, (ce qu'on attendait) ne s'est plus produit » → met l'accent sur une interruption qui dure.\n• S'accompagne souvent d'un négatif (～ない／～ていない) dans la seconde proposition. Sans négation, la nuance reste « seulement cette fois-là » → moins naturel dans ce sens.\n• Insiste sur le caractère « unique, une seule fois » de l'action passée et sur sa conséquence qui dure jusqu'à aujourd'hui.\n• Fréquent en langue parlée pour décrire une situation de contact, de rencontre, de retour, d'évolution.",
+    "notes": "• En conversation, っきり est plus courant que きり après un verbe.\n• 寝たきり est une expression figée signifiant « alité », à caractère descriptif médico-social.\n• À l'écrit, on peut trouver ～たきりだ／～たきりで (sujet-prédicat abrégé) pour insister sur un état qui se prolonge.",
+    "mistakes": [
+     "Omettre ない dans la seconde proposition fausse le sens principal : 連絡したきり。× → 連絡したきり（連絡が）来ない。/ 連絡していない。",
+     "Confusion avec ～て以来 : s'il y a l'idée de « aurait dû... mais ne l'a pas fait », préférez ～たきり.",
+     "L'employer pour un événement qui se répète naturellement (lever / coucher du soleil) est peu naturel.",
+     "Confondre avec ～っきり au sens de « seulement » : 会ったっきり＝会って以来（ne plus s'être revus), différent de 一回だけ会った."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "～たきり（～ない）",
+       "Depuis A, ne plus (faire)",
+       "Insiste sur l'interruption et sur l'attente d'une autre fois qui aurait dû avoir lieu",
+       "<ruby>会<rt>あ</rt></ruby>ったきり、<ruby>連絡<rt>れんらく</rt></ruby>しない。"
+      ],
+      [
+       "～て<ruby>以来<rt>いらい</rt></ruby>",
+       "Depuis A jusqu'à maintenant",
+       "Plus neutre, indique seulement un repère temporel ; pas forcément d'attente",
+       "<ruby>卒業<rt>そつぎょう</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby>、<ruby>東京<rt>とうきょう</rt></ruby>にいる。"
+      ],
+      [
+       "～てからというもの",
+       "Depuis A, (un nouvel état) se prolonge",
+       "Insiste sur un grand changement, plus soutenu",
+       "<ruby>子<rt>こ</rt></ruby>が<ruby>生<rt>う</rt></ruby>まれてからというもの、<ruby>外食<rt>がいしょく</rt></ruby>しない。"
+      ],
+      [
+       "～っぱなし",
+       "Laisser en l'état",
+       "Sens différent ; indique qu'on laisse tel quel, à l'abandon",
+       "<ruby>電気<rt>でんき</rt></ruby>をつけっぱなし。"
+      ],
+      [
+       "～だけ",
+       "Seulement, uniquement",
+       "N'a pas le sens « depuis que » ; à ne pas confondre avec っきり (seulement)",
+       "<ruby>一度<rt>いちど</rt></ruby>だけ<ruby>会<rt>あ</rt></ruby>った。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1071,
+   "src_hash": "7709d107a0448f58",
+   "fields": {
+    "meaning": "Bien que…, quand même… ; tout en sachant que…, malgré tout…",
+    "connection": "Vます(sans ます) + つつも",
+    "examples": [
+     "J'avais à moitié renoncé, me disant que je n'arriverais plus à temps, mais j'ai quand même couru de toutes mes forces.",
+     "J'ai beau vouloir étudier, je pense sans arrêt à elle et je n'y arrive pas.",
+     "Même si l'état de ma jambe s'améliore peu à peu, il faudra encore au moins six mois avant que je puisse courir."
+    ],
+    "notes": "meaning_vi: (1) Bien que …\n(2) Tout en / en même temps que … ⏐ explain: (1) S'emploie souvent lorsque le locuteur avoue, regrette, se ravise… ⏐ examples: 1. 彼女は忙しいと言いつつ、長電話をしている。\nElle dit qu'elle est occupée, mais elle passe des heures au téléphone.\n2. 今日こそがんばろうと思いつつ、また勉強しなかった。\nJ'avais beau me dire qu'aujourd'hui, j'allais vraiment faire des efforts, je n'ai encore pas étudié.\n3. 先生と相談しつつ、進路を決めたいと思う。\nTout en discutant avec le professeur, décider de son orientation."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1072,
+   "src_hash": "fe6dc951ef8075d0",
+   "fields": {
+    "meaning": "Ne pas pouvoir continuer à…, ne pas pouvoir rester à…",
+    "examples": [
+     "Je ne peux pas rester à attendre les résultats, alors je vais me renseigner directement.",
+     "On ne peut pas rester abattu éternellement. Allons de l'avant.",
+     "Pas le temps de me la couler douce. La date limite approche.",
+     "On ne peut pas passer son temps à pleurer, tu sais.",
+     "On ne peut pas traîner ici. Évacuons vite."
+    ],
+    "explain": "S'emploie souvent avec des verbes d'état : 待つ／落ち込む／のんびりする／迷っている…\nNuance d'urgence, de détermination à se pousser soi-même ; surtout en langue parlée, mais s'emploie sans problème en langue écrite courante.\nForme négative polie : ～いられません. Les formes contractées donnent une impression plus forte : ～てられない／～ちゃいられない.\n\n• Exprime une situation où l'on ne peut plus continuer un état / une action, en raison de la pression du temps, de responsabilités ou des circonstances.\n• Implique que le locuteur se rend compte qu'il doit changer d'action tout de suite : « on ne peut pas continuer à … indéfiniment ».\n• Différent de « ne pas pouvoir faute de capacité » (できない) : cette structure exprime « ne pas pouvoir en raison de la situation / de l'urgence ».",
+    "notes": "• S'accompagne souvent d'une raison / d'une circonstance juste avant ou après : 締め切りがあるから、待っていられない。\n• Insiste sur le changement d'action : la phrase suivante est souvent une solution de rechange (直接問い合わせる／行動に移す…).\n• La forme てられない est courante en conversation et souligne l'urgence.\nmeaning_vi: Ne pas pouvoir continuer indéfiniment à…\nexplain: Nuance de détermination : on reconnaît la réalité, mais on insiste sur le fait qu'« il faut changer ».\nApparaît souvent avec une raison / une circonstance pressante : 時間がない／責任がある／状況が厳しい…\nConvient à l'oral comme à l'écrit ; dans un discours / une réunion, exprime une volonté de changement.\nexamples: 1. 締め切りが近いから、遊んでばかりはいられない。\nLa date limite approche, on ne peut pas passer son temps à s'amuser.\n2. 失敗したけど、いつまでも泣いてばかりはいられない。\nMême si j'ai échoué, je ne peux pas passer mon temps à pleurer.\n3. もう社会人だ。親に甘えてばかりはいられない。\nJe suis déjà dans la vie active, je ne peux pas continuer à dépendre de mes parents.\n4. いつまでも学生でばかりはいられない。自立しなければ。\nOn ne peut pas rester étudiant éternellement. Il faut devenir autonome.\n5. 危機の今、守りに回ってばかりはいられない。\nEn pleine crise, on ne peut pas se contenter de se défendre.\n6. わからないからといって、人に聞いてばかりはいられない。\nOn ne peut pas demander aux autres chaque fois qu'on ne sait pas.\ncomparison: Structure | Sens | Différence | Exemple court\nVてばかりはいられない | Ne pas pouvoir continuer à faire V | Insiste sur le changement d'action | 寝（ね）てばかりはいられない\nN/なでばかりはいられない | Ne pas pouvoir rester dans l'état N/な | Utilise « で » pour relier N/Aな | 学生（がくせい）でばかりはいられない\n～てばかりだ | Ne faire que V | Décrit la réalité, sans impliquer qu'il faut changer | 遊（あそ）んでばかりだ\n～てはいられない | Ne pas pouvoir continuer à V | Sans « ばかり » → insiste sur l'impossibilité de continuer le comportement | 悠長（ゆうちょう）にしてはいられない\n～ばかりではない | Pas seulement… | Nie le caractère « unique », sens différent | 彼（かれ）は遊（あそ）びばかりではない\ncommon_mistakes: • Mauvaise forme avec N/Aな : ×学生ばかりはいられない → 学生でばかりはいられない.\n• Emploi de la forme du dictionnaire : ×遊ぶばかりはいられない → 遊んでばかりはいられない.\n• Confusion avec ～てばかりだ (décrit une habitude) → pas de nuance « il faut changer ».\n• JLPT N2 : piège pour distinguer ～てはいられない et ～てばかりはいられない ; attention au noyau de sens « ne pas pouvoir se contenter de faire une seule chose ».\nmeaning_vi: Ne pas pouvoir continuer à…, ne pas avoir le loisir de… (てはいられない)\nmeaning_vi: Ne pas pouvoir continuer indéfiniment à… (てばかりはいられない)\nmeaning_vi: Ne pas pouvoir continuer à…, ne pas pouvoir rester à…\nexamples: 1. 田中君、遅いなあ。もう待ってられないから先に行こう。\nTanaka est vraiment en retard. On ne peut plus attendre, alors partons devant.\n2. 忙しくてテレビなんか見てらんない。\nJ'ai trop à faire, je ne peux pas continuer à regarder la télé.\nmeaning_vi: Ne pas pouvoir rester indéfiniment…\nexamples: 1. 連休だけれど、もうすぐ試験があるから、遊んでばかりはいられない。\nC'est un long week-end, mais comme il y a bientôt un examen, on ne peut pas se contenter de s'amuser.\n2. もう親に頼ってばかりはいられない。\nOn ne peut plus continuer à compter sur ses parents.",
+    "mistakes": [
+     "Confondre « ne pas pouvoir faute de capacité » et « ne pas pouvoir en raison de la situation » : ×疲れて走っていられない（peut être correct au sens de « ne pas pouvoir continuer à courir » à cause de la fatigue ; à ne pas confondre avec 走れない）.",
+     "Omettre la raison rend la phrase abrupte : il vaut mieux indiquer la circonstance / l'urgence pour plus de naturel.",
+     "Confusion de sujet : la structure exprime généralement le ressenti du locuteur ; évitez de l'attribuer à une tierce personne, sauf supposition claire."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple court"
+     ],
+     "rows": [
+      [
+       "Vてはいられない",
+       "Ne pas pouvoir continuer à V",
+       "Forme complète ; même sens que Vていられない",
+       "<ruby>待<rt>ま</rt></ruby>ってはいられない"
+      ],
+      [
+       "Vている<ruby>場合<rt>ばあい</rt></ruby>じゃない",
+       "Ce n'est pas le moment de V",
+       "Oral marqué, situation urgente",
+       "<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>じゃない"
+      ],
+      [
+       "Vわけにはいかない",
+       "Ne pas pouvoir (pour des raisons morales / de règles)",
+       "Raison morale / sociale, et non parce qu'on est occupé",
+       "<ruby>行<rt>い</rt></ruby>かないわけにはいかない"
+      ],
+      [
+       "～てたまらない",
+       "Extrêmement (sentiment)",
+       "Expression affective forte, sans le sens « ne pas pouvoir continuer »",
+       "<ruby>会<rt>あ</rt></ruby>いたくてたまらない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1074,
+   "src_hash": "068802fda8c7ca32",
+   "fields": {
+    "meaning": "…, c'est insupportable ; …, c'est pénible",
+    "connection": "Vて + はかなわない / V forme passive て + はかなわない (来られてはかなわない)",
+    "examples": [
+     "Le client s'est trompé tout seul, et on nous en rejette la faute : c'est insupportable !",
+     "Si on vient s'amuser chez moi à chaque congé, je ne vais pas tenir !"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1075,
+   "src_hash": "39493c5e76e24d7c",
+   "fields": {
+    "meaning": "C'est-à-dire…, peut-on appeler cela… ?",
+    "connection": "V/A forme neutre + というのか / N/Na(だ) + というのか",
+    "examples": [
+     "Je ne sais pas encore si c'est ce qu'on appelle l'amour ou une simple admiration.",
+     "Son attitude, faut-il la qualifier d'impolie ou d'insensible ? En tout cas, elle m'énerve.",
+     "Après tant d'efforts, le résultat, ce serait ça ?",
+     "Bonheur ou inquiétude, je ne sais comment l'appeler ; c'est un sentiment complexe.",
+     "Faut-il appeler cela un miracle ou un hasard ? En tout cas, c'est incroyable."
+    ],
+    "explain": "S'emploie souvent en fin de phrase ou en milieu de phrase pour exprimer une réflexion intérieure ou une hésitation, quelque chose de difficile à formuler.\nS'emploie à l'oral ou à l'écrit pour décrire des sentiments, mais pas dans la langue écrite soutenue, comme les rapports ou les mémoires.\nL'intonation est généralement celle d'une légère interrogation ou d'une exclamation, mais ce n'est pas une question qui appelle une réponse.\n\n• Exprime l'hésitation au moment de nommer, d'évaluer ou de formuler quelque chose : « Peut-on dire que… ? », « Comment faut-il appeler cela ? ».\n• Contient souvent des sentiments comme la surprise, l'ironie, l'incrédulité ou la difficulté à s'exprimer.\n• Peut servir à émettre un jugement atténué ou un doute : « Est-ce juste d'appeler cela… ? ».\n• S'emploie souvent en conversation ou pour décrire l'intériorité d'un personnage.",
+    "notes": "• Cette structure sert souvent à décrire un état d'hésitation dans la littérature, les anime, les films.\n• Peut être répétée deux fois pour proposer deux options : ～というのか、～というのか.\n• Contrairement à une question ordinaire, il s'agit d'une question rhétorique qui n'attend pas de réponse de l'interlocuteur.",
+    "mistakes": [
+     "Confusion avec というのに/ということだ → il faut examiner la nuance : interrogation exclamative ou paradoxe.",
+     "Emploi dans un contexte soutenu inadapté : cette structure est affective, elle ne s'emploie pas dans un texte académique.",
+     "Absence de la première proposition ou de la seconde proposition : il faut des informations à mettre en regard, sinon la phrase est ambiguë."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "～というのか",
+       "Faut-il appeler cela… ?",
+       "Hésitation, difficulté à formuler, sentiments complexes.",
+       "<ruby>才能<rt>さいのう</rt></ruby>というのか、<ruby>運<rt>うん</rt></ruby>というのか。"
+      ],
+      [
+       "～というのは",
+       "Cela signifie…, c'est-à-dire…",
+       "Explication, définition.",
+       "<ruby>民主<rt>みんしゅ</rt></ruby><ruby>主義<rt>しゅぎ</rt></ruby>というのは…"
+      ],
+      [
+       "～というのに",
+       "Bien que…",
+       "Reproche, paradoxe.",
+       "<ruby>雨<rt>あめ</rt></ruby>だというのに<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～のではないか",
+       "N'est-ce pas que… ?",
+       "Supposition, interrogation plus forte.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>怒<rt>おこ</rt></ruby>っているのではないか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1076,
+   "src_hash": "b0b79a6d5c0d0f02",
+   "fields": {
+    "meaning": "Et pourtant…, malgré cela…",
+    "examples": [
+     "Il fait si froid, et pourtant il ne porte même pas de manteau.",
+     "Je voudrais qu'il rentre vite, et pourtant il n'a même pas encore donné de nouvelles.",
+     "Il pleut à verse, et pourtant le match n'a pas été annulé.",
+     "Le salaire est bas, et pourtant on me fait faire sans arrêt des heures supplémentaires.",
+     "Elle est occupée, et pourtant elle m'a donné un coup de main."
+    ],
+    "explain": "Position : entre les deux propositions A et B. A est un fait, B un résultat contraire et indésirable.\nPorte souvent un sentiment négatif : reproche, déception, plainte.\nPeut s'employer à l'oral, mais avec une nuance forte → s'emploie quand on veut insister sur le caractère déraisonnable.\nNe convient pas aux écrits scientifiques ni aux situations trop soutenues comme un discours politique.\n\n• Structure exprimant une forte opposition entre la réalité et l'attente : bien que A soit un fait, le résultat est B, ce qui est surprenant, révoltant, critiquable.\n• Forte nuance affective : exprime la colère, la plainte, la déception, voire l'ironie.\n• Traduction naturelle : « Bien que… », « Et pourtant… », « Alors même que… ».\n• Diffère de 〜のに (ordinaire) en ce que というのに est plus fort sur le plan affectif, très employé à l'écrit et dans les dialogues expressifs.",
+    "notes": "• S'emploie souvent dans les romans et les dialogues très chargés en émotion, comme dans les films, les anime, les rédactions.\n• La forme polie 「というのです／というのにです」 est rare ; on utilise généralement la forme neutre.\n• Attention à distinguer la prononciation de 「というのに？」 (question de reprise : « vous voulez dire que… ? »).",
+    "mistakes": [
+     "Confusion avec ～というのに？ (interrogatif) → la forme interrogative repose sur l'intonation, alors que la structure grammaticale exprime l'opposition.",
+     "Confusion avec ～のに : retenez que というのに est plus fort et porte un sentiment.",
+     "Emploi dans un mauvais contexte, quand la phrase ne contient ni sentiment ni opposition claire.",
+     "Le JLPT N2 teste souvent la différence avec ～にもかかわらず et ～のに."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Particularités",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "～というのに",
+       "Bien que…, et pourtant…",
+       "Sentiment fort, indignation, contraire aux attentes.",
+       "<ruby>雨<rt>あめ</rt></ruby>というのに<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～のに",
+       "Bien que…, pourtant…",
+       "Neutre, moins affectif.",
+       "<ruby>雨<rt>あめ</rt></ruby>なのに<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～にもかかわらず",
+       "Malgré…, bien que…",
+       "Soutenu, plutôt écrit.",
+       "<ruby>雨<rt>あめ</rt></ruby>にもかかわらず<ruby>試合<rt>しあい</rt></ruby>が<ruby>行<rt>おこな</rt></ruby>われた。"
+      ],
+      [
+       "～くせに",
+       "Bien que…, et pourtant… (critique forte)",
+       "Oral, s'emploie pour faire des reproches à autrui.",
+       "<ruby>知<rt>し</rt></ruby>っているくせに<ruby>教<rt>おし</rt></ruby>えてくれない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1077,
+   "src_hash": "7d5624ffc95e9e66",
+   "fields": {
+    "meaning": "Parce que…, la raison en est que…",
+    "connection": "[phrase A]。というのも、[phrase B](からだ)",
+    "examples": [
+     "Je ne parle pas beaucoup avec lui. C'est que nos caractères ne s'accordent pas.",
+     "La semaine prochaine va être chargée. En effet, un nouveau projet va commencer.",
+     "Je ne peux pas sortir aujourd'hui. C'est qu'il pleut très fort.",
+     "Le match a été annulé. En effet, un typhon approche.",
+     "Il a quitté son entreprise. C'est qu'il compte ouvrir sa propre boutique."
+    ],
+    "explain": "Se place en tête de la proposition b pour expliquer la proposition a.\nPlus soutenu que だって ou なんでかというと.\nS'emploie souvent pour donner une explication dans une conversation polie, dans la presse, les dissertations, les textes argumentatifs.\nDiffère de というのは en ce que というのは introduit une raison, alors que というのも insiste sur « voici la raison de ce qui vient d'être dit ».\n\n• Sert à donner une raison ou une explication à la proposition précédente.\n• Équivaut à « Si…, c'est que… », « La raison en est que… ».\n• La proposition A est une conclusion ou un fait. La proposition B (après というのも) en est la cause, la raison.\n• S'emploie souvent à l'écrit et à l'oral soutenu, en particulier dans les textes argumentatifs, explicatifs ou persuasifs.",
+    "notes": "• S'emploie よく dans les dissertations, les écrits argumentatifs, lorsqu'on veut présenter les choses de façon cohérente.\n• Peut se combiner avec la forme polie : ～ということです・～というのです.\n• Si la raison est longue, on peut inverser : というのも、～からだ。",
+    "mistakes": [
+     "Confusion avec ということだ (ouï-dire / conclusion) – fonction complètement différente.",
+     "Ne s'emploie pas dans un registre familier simple – cela sonne raide ; utilisez plutôt だって/なんでかというと.",
+     "Après というのも, il faut une raison logique ; ne s'emploie pas pour une information sans rapport.",
+     "Le JLPT N2~N1 demande souvent de la distinguer de というのは/なぜかというと."
+    ],
+    "comparison": {
+     "headers": [
+      "Structure",
+      "Sens",
+      "Différence",
+      "Exemple"
+     ],
+     "rows": [
+      [
+       "というのも",
+       "Parce que…, la raison en est que…",
+       "Explique la cause de la phrase précédente ; écrit, soutenu.",
+       "<ruby>行<rt>い</rt></ruby>かない。というのも、<ruby>忙<rt>いそが</rt></ruby>しいからだ。"
+      ],
+      [
+       "というのは",
+       "Parce que…, c'est-à-dire…",
+       "Introduit une raison ou définit un mot / une notion.",
+       "<ruby>行<rt>い</rt></ruby>かない。というのは、<ruby>忙<rt>いそが</rt></ruby>しいからだ。"
+      ],
+      [
+       "なぜかというと",
+       "Parce que…, la raison en est que…",
+       "Insiste sur la raison, souvent avec ～からだ.",
+       "<ruby>行<rt>い</rt></ruby>かない。なぜかというと、<ruby>忙<rt>いそが</rt></ruby>しいからだ。"
+      ],
+      [
+       "だって",
+       "C'est que…",
+       "Oral, familier, affectif.",
+       "<ruby>行<rt>い</rt></ruby>かないよ。だって<ruby>忙<rt>いそが</rt></ruby>しいもん。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}
