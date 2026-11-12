@@ -6,7 +6,9 @@ Lỗi phát hiện trong lúc dịch kho sang các ngôn ngữ. Số là `id` tr
 
 Lưu ý: sửa câu ví dụ tiếng Nhật thì bản dịch câu đó (ở mọi ngôn ngữ) không còn khớp, phải dịch bù cả trường `examples` của mẫu.
 
-## 1. Lỗi phát hiện khi dịch (11/2026)
+## 1. Lỗi phát hiện khi dịch (11/2026) — **đã sửa 12/11/2026**
+
+Đã sửa trong `grammar/grammar_lib.json`, cập nhật nguồn dịch (`translation/source/`) và bản dịch của en, ko, id, cn, th, ru, es cùng các lô tw, my đã dịch; ngôn ngữ dịch sau dùng nguồn đã sửa. #632, #510, #1335: cắt bỏ khối chép lặp trong `notes` (lỗi nằm trong khối đó), giữ phần ghi chú thật.
 
 | # | ID | Mẫu | Trường | Đang ghi | Nên sửa | Báo bởi |
 |---|---|---|---|---|---|---|
@@ -22,13 +24,19 @@ Lưu ý: sửa câu ví dụ tiếng Nhật thì bản dịch câu đó (ở m�
 | 10 | 1086 | ～にしたところで (N2) | `examples` ② | …どのくらいの生徒が従うか**わらない**。 | …従うか**わからない**。 | es |
 | 11 | 1087 | ～にしたら・にすれば (N2) | `examples` 2 | 会社の**経験**が苦しいことが… | 会社の**経営**が苦しいことが… | es |
 | 12 | 1335 | ～につけ～につけ (N1) | `notes`, ví dụ 3 | 「3. 何かにつけ」 + dòng dịch "XXX" (chữ giữ chỗ) | Viết đủ câu ví dụ và bản dịch (何かにつけ: "hễ có dịp là…, việc gì cũng…") hoặc bỏ ví dụ 3 | es |
-| 13 | 1015 | ～上で（sau khi） (N2) | `meaning_vi` | "Sau khi…, khi…" (viết không dấu nên không được dịch) | "Sau khi…, khi…" có dấu | kiểm tra |
+| 13 | 1015 | ～上で（sau khi） (N2) | `meaning_vi` | "Sau khi…, khi…" (không có chữ có dấu nên công cụ đóng gói bỏ qua, không được dịch) | "Sau khi…, khi… (làm xong việc trước rồi mới làm việc sau)" | kiểm tra |
 
 Ghi chú:
 
-- #632, #510, #1335: lỗi nằm trong `notes`, trường này đang chứa nguyên khối thô "explain: … ⏐ examples: …" (chép lặp từ trường khác). Nên làm gọn `notes` luôn khi sửa.
+- #632, #510, #1335: lỗi nằm trong khối thô "meaning_vi: … ⏐ explain: … ⏐ examples: …" ở cuối `notes` (chép lại dữ liệu cũ của mẫu); đã cắt khối này ở 3 mẫu.
 - #26, #27 (Tính từ い / な): **đã sửa** ngày 10/11 (bỏ chỗ ảnh 【ảnh】 trong `meaning_vi`) và đã dịch bù cho mọi ngôn ngữ đã xong. Trường `explain` của 2 mẫu này hiện chỉ là một câu ví dụ "VD: …"; BTV có thể viết giải thích thật (không gấp).
 
-## 2. Lỗi đã biết từ trước
+## 2. Chờ BTV xác nhận: khối chép lặp trong `notes` (244 mẫu)
+
+Trường `notes` của 247 mẫu có đuôi là khối chép lại dữ liệu cũ của chính mẫu đó (`meaning_vi: … ⏐ explain: … ⏐ examples: …`), hiện trên app ở mục "Thông tin thêm" (lặp bộ ví dụ cũ, có câu sai, lộ chữ `meaning_vi:`). Đã cắt ở #632, #510, #1335; còn 244 mẫu (ví dụ #18, #36, #594…). Đề xuất: cắt khối này ở cả 244 mẫu (làm tự động được ở kho và mọi bản dịch, không phải dịch lại). Cần BTV xác nhận khối này không còn ý nào chưa có ở các trường chính.
+
+Ngoài ra: `explain` của #26, #27 hiện chỉ là một câu ví dụ "VD: …", nên viết giải thích thật.
+
+## 3. Lỗi đã biết từ trước
 
 Danh sách đầy đủ phát hiện khi viết luật và lúc đóng gói dịch (câu ví dụ gõ sai, nghĩa chứa câu ví dụ, trường viết tiếng Anh, mẫu trùng…): `bunpo-analyzer/docs/kho_loi_du_lieu.md` (repo `bunpo-analyzer-module`), mục 1–9. Một số mục trùng với bảng trên (#964, #981, #984, #1015, #1087).
