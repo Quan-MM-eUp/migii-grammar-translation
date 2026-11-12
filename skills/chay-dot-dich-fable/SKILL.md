@@ -72,14 +72,14 @@ Lời nhắn "chạy tiếp đợt dịch fable …" đã là yêu cầu chạy:
    python3 $T/tm.py --ws translation status <L>
    ```
 
-7. **Báo cáo** (ngắn): tiến độ (ví dụ `tw: 19/101 lô đạt, 0 lô lỗi`), điểm trung bình đợt (ghi rõ là tự chấm), các mẫu qa thấp (id + lý do chính), lô lỗi, thời gian đợt. Gợi ý "chạy tiếp đợt dịch fable <L>". Sau khoảng 3 đợt trong cùng cuộc trò chuyện, khuyên mở cuộc trò chuyện mới (chọn Fable; tiến độ không mất).
+7. **Báo cáo** (ngắn): tiến độ (ví dụ `tw: 19/101 lô đạt, 0 lô lỗi`), điểm trung bình đợt (ghi rõ là tự chấm), các mẫu qa thấp (id + lý do chính), lô lỗi, thời gian đợt. **Lỗi nguồn** thấy trong lúc dịch/chấm (chữ Nhật gõ sai, gợi ý tiếng Việt lệch câu Nhật, ruby hỏng…): thêm dòng vào bảng mục 4 của `LOI_NGUON_BTV.md` (gốc thư mục) theo đúng cột và quy tắc chống trùng ghi ở đó, "Báo bởi" = `<L>`, ngay trong đợt; báo cáo chỉ nêu "thêm N lỗi nguồn (#id…)". Gợi ý "chạy tiếp đợt dịch fable <L>". Sau khoảng 3 đợt trong cùng cuộc trò chuyện, khuyên mở cuộc trò chuyện mới (chọn Fable; tiến độ không mất).
 
 8. **Ngôn ngữ đã xong** (`next` rỗng; lô `failed` hết lượt thì liệt kê):
    ```bash
    python3 $T/merge.py --ws translation <L>
    python3 $T/tm.py --ws translation release <L> --who <WHO>
    ```
-   Báo số mẫu đã gộp, số mục qa thấp, lô hỏng còn lại; gợi ý bước tiếp: commit và push các file của ngôn ngữ này (`translation/out/<L>`, `translation/manifest/<L>.csv`, `translation/reports/<L>`), rồi báo người quản lý để đưa vào kho (`publish_lang.py`, gồm dịch bù và nhãn ngắn).
+   Báo số mẫu đã gộp, số mục qa thấp, lô hỏng còn lại; gợi ý bước tiếp: commit và push các file của ngôn ngữ này (`translation/out/<L>`, `translation/manifest/<L>.csv`, `translation/reports/<L>`) cùng `LOI_NGUON_BTV.md`. Trước đó thêm một khối vào mục 5 "Nhật ký hoàn thành ngôn ngữ" của `LOI_NGUON_BTV.md` theo mẫu ở đó (gồm checklist việc chờ người quản lý: `publish_lang.py`, dịch bù, nhãn ngắn). **Không** soạn hay gửi tin nhắn cho người quản lý: file này thay cho tin nhắn.
 
 ## Xử lý sự cố
 

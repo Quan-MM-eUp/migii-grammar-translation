@@ -84,6 +84,7 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=tools`, 
    - Tiến độ: `en: 22/101 lô đạt, 1 lô qa thấp, 0 lô lỗi` (đọc bảng `status`).
    - Điểm trung bình đợt, các mục `qa` thấp (id + lý do chính), lô lỗi.
    - Token đã dùng (cộng `subagent_tokens` của hai thông báo) và thời gian.
+   - **Lỗi nguồn:** đọc `note` và `summary` của từng lô trong hai `output-file` (tác tử dịch/chấm ghi chú chữ Nhật gõ sai, gợi ý tiếng Việt lệch câu Nhật, ruby hỏng…). Có lỗi mới thì thêm dòng vào bảng mục 4 của `LOI_NGUON_BTV.md` (gốc thư mục, cạnh `README.md`) theo đúng cột và quy tắc chống trùng ghi ở đó, "Báo bởi" = `<L>`. Ghi ngay trong đợt (ghi chú không được lưu vào `reports/`, mở cuộc trò chuyện mới là mất). Trong báo cáo chỉ nêu "thêm N lỗi nguồn vào LOI_NGUON_BTV.md (#id…)".
    - Gợi ý: "chạy tiếp đợt dịch <L>". Sau 3–5 đợt trong cùng cuộc trò chuyện, khuyên mở cuộc trò chuyện mới (tiến độ không mất).
 
 9. **Ngôn ngữ đã xong** (`next` rỗng; lô `failed` đã hết lượt thì liệt kê):
@@ -92,7 +93,8 @@ Ký hiệu: `L` = mã ngôn ngữ, `WHO` = mã cuộc trò chuyện, `T=tools`, 
    python3 $T/tm.py --ws translation release <L> --who <WHO>
    ```
    Báo: số mẫu đã gộp, số mục qa thấp, lô hỏng còn lại; gợi ý ngôn ngữ kế tiếp theo thứ tự en, ko, cn, tw, th, id → fr, de, es, pt, ru, pl → hi, ne, my.
-   Nhắc người dùng commit và push các file của ngôn ngữ này (`translation/out/<L>`, `translation/manifest/<L>.csv`, `translation/reports/<L>`) rồi báo người quản lý để đưa vào kho (`publish_lang.py`).
+   Thêm một khối vào mục 5 "Nhật ký hoàn thành ngôn ngữ" của `LOI_NGUON_BTV.md` theo mẫu ở đó (kết quả, số mẫu gộp, lỗi nguồn đã ghi ở mục 4, dịch bù nếu có, checklist việc chờ người quản lý). **Không** soạn hay gửi tin nhắn cho người quản lý: file này thay cho tin nhắn.
+   Nhắc người dùng commit và push các file của ngôn ngữ này (`translation/out/<L>`, `translation/manifest/<L>.csv`, `translation/reports/<L>`) cùng `LOI_NGUON_BTV.md`.
 
 ## Xử lý sự cố
 

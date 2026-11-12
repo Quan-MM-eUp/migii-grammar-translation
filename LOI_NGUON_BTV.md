@@ -1,8 +1,8 @@
 # Lỗi nguồn tiếng Việt trong kho ngữ pháp (cho BTV)
 
-Lỗi phát hiện trong lúc dịch kho sang các ngôn ngữ. Số là `id` trong `grammar/grammar_lib.json`. Người dịch thấy lỗi mới thì thêm dòng vào bảng 1 (ghi ngôn ngữ phát hiện).
+Lỗi phát hiện trong lúc dịch kho sang các ngôn ngữ. Số là `id` trong `grammar/grammar_lib.json`. Người dịch thấy lỗi mới thì thêm dòng vào **mục 4** (ghi ngôn ngữ phát hiện); dịch xong một ngôn ngữ thì ghi tóm tắt vào **mục 5**. Hai mục này thay cho tin nhắn báo người quản lý (áp dụng từ các ngôn ngữ dịch sau 12/11/2026).
 
-**Cách xử lý (người quản lý):** gom lỗi, BTV sửa một lần trong `grammar_lib.json` → chạy `publish_lang.py <mã>` cho từng ngôn ngữ đã dịch (en, ko, id, cn, th, ru, es) → mẫu đã sửa được liệt kê ở `translation/patches/<mã>.todo.json` → dịch bù. Trong lúc chưa dịch bù, mẫu đó hiện tiếng Việt. Ngôn ngữ chưa bắt đầu (fr, de, pt, pl, hi, ne) thì nên sửa trước khi dịch.
+**Cách xử lý (người quản lý):** gom lỗi, BTV sửa một lần trong `grammar_lib.json` → chạy `publish_lang.py <mã>` cho từng ngôn ngữ đã dịch → mẫu đã sửa được liệt kê ở `translation/patches/<mã>.todo.json` → dịch bù. Trong lúc chưa dịch bù, mẫu đó hiện tiếng Việt. Ngôn ngữ chưa bắt đầu (de, pt, pl, hi, ne) thì nên sửa trước khi dịch. Sửa xong lỗi ở mục 4 thì chuyển dòng đó sang bảng "đã sửa" (như mục 1) hoặc ghi "đã sửa <ngày>" ở cột cuối.
 
 Lưu ý: sửa câu ví dụ tiếng Nhật thì bản dịch câu đó (ở mọi ngôn ngữ) không còn khớp, phải dịch bù cả trường `examples` của mẫu.
 
@@ -40,3 +40,27 @@ Ngoài ra: `explain` của #26, #27 hiện chỉ là một câu ví dụ "VD: �
 ## 3. Lỗi đã biết từ trước
 
 Danh sách đầy đủ phát hiện khi viết luật và lúc đóng gói dịch (câu ví dụ gõ sai, nghĩa chứa câu ví dụ, trường viết tiếng Anh, mẫu trùng…): `bunpo-analyzer/docs/kho_loi_du_lieu.md` (repo `bunpo-analyzer-module`), mục 1–9. Một số mục trùng với bảng trên (#964, #981, #984, #1015, #1087).
+
+## 4. Lỗi mới chờ BTV sửa
+
+Người dịch (hoặc skill `chay-dot-dich`) thêm dòng cuối bảng sau **mỗi đợt dịch**. Trước khi thêm: kiểm tra id + trường đó chưa có ở mục 1–4; đã có thì chỉ thêm mã ngôn ngữ vào cột "Báo bởi". Không tự sửa kho.
+
+Loại: `gõ sai` (chữ Nhật gõ sai) · `gợi ý lệch` (gợi ý tiếng Việt không khớp câu Nhật) · `ruby` (ruby sai/hỏng) · `khác`.
+
+| ID | Mẫu | Trường | Loại | Đang ghi | Nên sửa (nếu rõ) | Báo bởi | Trạng thái |
+|---|---|---|---|---|---|---|---|
+
+## 5. Nhật ký hoàn thành ngôn ngữ
+
+Mỗi ngôn ngữ dịch xong thêm một khối (mới nhất ở cuối). Ô `[ ]` là việc chờ người quản lý; làm xong thì đánh `[x]`.
+
+Mẫu:
+
+```
+### <mã> — <tên> · dịch xong <dd/mm/yyyy> (commit <hash>)
+- Kết quả: <số lô>/101 lô, <qa thấp> lô qa thấp, <lỗi> lô lỗi, điểm TB ~<điểm>. Gộp <số mẫu> mẫu (translation/merged/grammar_text.<mã>.json).
+- Lỗi nguồn mới phát hiện: <n> (đã ghi ở mục 4: #id, #id…) / không có.
+- Dịch bù / ghi chú: <nếu có>.
+- [ ] Chạy publish_lang.py <mã> → grammar/grammar_text.<mã>.json + nhãn ngắn translation/labels/<mã>.json
+- [ ] Commit tables/particle_table.<mã>.json ở repo module
+```
