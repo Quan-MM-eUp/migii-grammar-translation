@@ -713,7 +713,7 @@ Mẫu:
 - Dịch bù / ghi chú: publish_lang.py báo 1491/1491 mẫu có bản dịch, 0 mục cần dịch bù; đã dịch 6 nhãn ngắn (133, 880, 1015, 1594, 1610, 1611). #1336 và #1373 thiếu trường `meaning` ở nguồn nên bản Đức cũng không có nghĩa ngắn. Các trường nguồn tiếng Nhật/Anh (b100, b101) được dịch thẳng từ tiếng Nhật/Anh. Điểm là tự chấm; chưa có lượt đọc lại độc lập từng cặp câu ví dụ Nhật–Đức.
 - [x] Chạy publish_lang.py de → grammar/grammar_text.de.json + nhãn ngắn translation/labels/de.json (13/11/2026, chưa commit)
 - [x] Dịch bù các mẫu nguồn đã sửa sau đóng gói: không có mục nào cần dịch
-- [ ] Commit tables/particle_table.de.json ở repo module — đã commit cục bộ `3262229` (bản 0.2.4, test qua), chưa push được: tài khoản `trungtk-star` không có quyền ghi repo `bunpo-analyzer-module` (403)
+- [x] Commit tables/particle_table.de.json ở repo module — Quân commit trong bản 0.2.4 (`0361ce7`, 13/11/2026); bỏ commit cục bộ `3262229`
 
 ### pt — tiếng Bồ Đào Nha (Brazil) · dịch xong 13/11/2026
 - Kết quả: 101/101 lô, 0 lô qa thấp, 0 lô lỗi, điểm TB ~99.7 (thấp nhất 98.8). Gộp 1491 mẫu (translation/merged/grammar_text.pt.json).
@@ -721,4 +721,4 @@ Mẫu:
 - Lỗi nguồn mới phát hiện: 37 dòng mới chỉ do pt báo, đã ghi ở mục 4 (#18 mistakes, #142, #148, #484, #558, #562, #568, #610, #622, #660, #712, #726, #742, #858, #904, #980, #1009, #1105, #1214, #1219, #1253, #1261, #1263, #1278, #1289, #1298, #1301, #1319, #1333, #1338, #1356, #1368, #1375, #1466, #1494, #1579, #1583); ngoài ra thêm pt vào cột "Báo bởi" của các dòng đã có (một số dòng ở 2 đợt đầu có thể ghi pt hơi rộng).
 - Dịch bù / ghi chú: publish_lang.py báo 1491/1491 mẫu có bản dịch, 0 mục cần dịch bù; đã dịch 6 nhãn ngắn (133, 880, 1015, 1594, 1610, 1611).
 - [x] Chạy publish_lang.py pt → grammar/grammar_text.pt.json + nhãn ngắn translation/labels/pt.json (13/11/2026)
-- [ ] Commit tables/particle_table.pt.json ở repo module (file đã tạo trong bunpo-analyzer, chưa commit)
+- [x] Commit tables/particle_table.pt.json ở repo module — bản 0.2.4 (`0361ce7`, 13/11/2026)
