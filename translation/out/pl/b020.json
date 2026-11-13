@@ -1,0 +1,460 @@
+{
+ "batch": "b020",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 278,
+   "src_hash": "f46b6f9027430cdd",
+   "fields": {
+    "meaning": "Lepiej ~ / lepiej nie ~",
+    "examples": [
+     "Jest zimno, więc lepiej założyć kurtkę.",
+     "Przeziębienie? W takim razie lepiej wcześnie wrócić do domu.",
+     "Można się poczuć niedobrze, więc lepiej na to nie patrzeć.",
+     "「Okropny kaszel. Lepiej choć raz pójść do szpitala.」",
+     "「Gdy jest się zmęczonym, lepiej się nie przemęczać.」",
+     "(Sprzedawca) 「Naprawa jest droga, więc lepiej kupić nowy.」"
+    ],
+    "explain": "Wyraża radę, że coś należy lub czego nie należy robić.\nPonieważ ten wzór zdania może brzmieć narzucająco, należy ograniczać jego użycie wobec osoby wyższej rangą. Gdy chce się udzielić rady o charakterze polecenia czy zachęty, zwykle stosuje się wzór gramatyczny：~Vたら、いいです。\n\nWyraża zalecenie. Często używa się go, gdy mówi się, że niezrobienie ~ może doprowadzić do złego rezultatu. Zwykle towarzyszy mu partykuła końcowa (よ、ね,itd.)."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 279,
+   "src_hash": "9f7534edb5fca718",
+   "fields": {
+    "meaning": "Oby…, mam nadzieję, że…",
+    "connection": "Vます + ように / Vませんように（modlitwa, błaganie）",
+    "examples": [
+     "Oby udało się zdać",
+     "Oby udało się zdać egzamin wstępny.",
+     "Oby w pracy nie spotkało mnie niepowodzenie.",
+     "Oby jutro wynik był dobry.",
+     "Oby tylko operacja zakończyła się pomyślnie.",
+     "Oby nie padało."
+    ],
+    "explain": "Niuans skromny, formalny; często towarzyszy mu どうか, どうぞ dla podkreślenia życzenia.\nNie stosuje się z czasem przeszłym 「～ましたように」 do wyrażenia życzenia (nienaturalnie).\nMoże stać samodzielnie na końcu zdania jako życzenie, bez podmiotu.\n\n• Uprzejmy wzór gramatyczny wyrażający życzenie/modlitwę, zwykle używany, gdy nie można bezpośrednio wpłynąć na rezultat.\n• Przeczenie 「～ませんように」 wyraża życzenie, by nie stało się nic złego.\n• Często stosowany w kontekście duchowym (wizyta w świątyni buddyjskiej/chramie), przy egzaminach, chorobie, gratulacjach, w formalnych e-mailach.",
+    "notes": "• Na kartkach/w życzeniach: 幸せでありますように／ご多幸をお祈り申し上げます。\n• Łączy się z przysłówkami błagalnymi: どうか／心から／何卒.\n• Z „stawać się”: ～になりますように brzmi bardzo naturalnie: 成功者になりますように。",
+    "mistakes": [
+     "Mylenie z ように wyrażającym „cel”: 合格するように勉強する (żeby zdać) ≠ 合格しますように (oby zdać).",
+     "Użycie czasu przeszłego ました przed ように jest nienaturalne w życzeniach.",
+     "Błędnie z przymiotnikiem/rzeczownikiem: potrzebne jest 「でありますように」 zamiast 「だように」.",
+     "Mylenie z prośbą w kontekście biznesowym: ～ますようにお願いいたします to prośba, a nie życzenie."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Użycie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ますように",
+       "Życzenie/modlitwa",
+       "Formalne, poza własną kontrolą",
+       "<ruby>成功<rt>せいこう</rt></ruby>しますように"
+      ],
+      [
+       "～といい(ですね／な)",
+       "Lekkie życzenie/rada",
+       "Bliższe mowie potocznej, częste w rozmowie",
+       "<ruby>明日<rt>あした</rt></ruby><ruby>晴<rt>は</rt></ruby>れるといいですね"
+      ],
+      [
+       "V-<ruby>辞書<rt>じしょ</rt></ruby><ruby>形<rt>けい</rt></ruby>/ない<ruby>形<rt>かたち</rt></ruby> + ように",
+       "„Żeby/aby” (cel/warunek)",
+       "Inne znaczenie niż życzenie",
+       "<ruby>忘<rt>わす</rt></ruby>れないようにメモする"
+      ],
+      [
+       "～ますように + お<ruby>願<rt>ねが</rt></ruby>いします",
+       "Uprzejma prośba",
+       "Nie życzenie, lecz prośba",
+       "ご<ruby>対応<rt>たいおう</rt></ruby>しますようにお<ruby>願<rt>ねが</rt></ruby>いします"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 280,
+   "src_hash": "04b09399e11696b4",
+   "fields": {
+    "meaning": "W niezmienionym stanie…, tak jak jest…",
+    "examples": [
+     "Na siedząco",
+     "Zasnąłem przy włączonym telewizorze.",
+     "Przed dworcem w ogóle nie powstają nowe sklepy i wciąż jest niewygodnie.",
+     "Chcę już zawsze być z tobą, tak jak teraz.",
+     "Proszę wejść w butach.",
+     "One rozmawiają na stojąco już od około godziny."
+    ],
+    "explain": "Neutralność: wskazuje tylko utrzymujący się stan; samo w sobie nie niesie znaczenia krytyki.\nVないまま często wiąże się z poczuciem żalu/niedosytu.\nW poleceniach: そのままにしておいてください (proszę zostawić tak, jak jest).\nW porównaniu z っぱなし: まま jest neutralne; っぱなし sugeruje zaniedbanie/zabarwienie negatywne (開けっぱなし: zostawione otwarte na oścież).\n\n～まま wyraża „zachowanie stanu takiego, jaki był na początku”, bez zmian. Jest rzeczownikiem gramatycznym (名詞), dlatego łączy się z の/な/だ. Czas i forma zdania nadrzędnego określają ogólny czas; まま zaznacza jedynie stan będący tłem.\n• Vたまま: podkreślenie, że „po wykonaniu V pozostawia się ten stan bez zmian”.\n• Vないまま: „nie zrobiwszy V, pozostawia się tak, jak jest, i...”, zwykle sugeruje żal/niedosyt.\n• Nのまま / Aなまま: zachowanie obecnej właściwości/cechy.",
+    "notes": "• Czas gramatyczny zdania nadrzędnego określa czas: 開けたままにしていた (zostawiono otwarte), 開けたままだ (wciąż jest otwarte).\n• Vる + まま prawie się nie stosuje, z wyjątkiem utartych zwrotów typu 思うまま（に） (tak, jak się samemu myśli), 言うまま (tak, jak powiedziano), ale w istocie jest to nominalizacja.\n• W języku pisanym そのまま/このまま pozwala pominąć znany już podmiot, co brzmi bardzo naturalnie.\nmeaning_vi: Ten wzór zdania służy do wyrażenia, że pewien stan trwa dalej bez zmian. Często stosuje się go, gdy mowa o niezmienionym stanie, który prowadzi do sytuacji niezgodnej z oczekiwaniami.\nexamples: 1. ①昨日、窓を開けたまま寝ました。\nWczoraj poszedłem spać przy otwartym oknie.\n2. ②手が汚いままではいけないよ。早く洗って。\nNie można zostawiać brudnych rąk. Szybko je umyj.\n3. ③今日は4月1日ですが、カレンダーが先月のままですよ。\nDziś jest 1 kwietnia, a kalendarz wciąż pokazuje poprzedni miesiąc.",
+    "mistakes": [
+     "Używanie Vる + まま bez zastanowienia: ×食べるまま → 〇食べたまま / 食べないまま.",
+     "Mylenie z っぱなし: w zadaniach egzaminacyjnych っぱなし zwykle wymaga poczucia „zaniedbania/uciążliwości”.",
+     "Mylenie znaczenia z とおり: ～まま to nie „zgodnie z instrukcją”, lecz „zachowanie stanu bez zmian”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～まま",
+       "Zachowanie stanu bez zmian",
+       "Neutralne; rzeczownik gramatyczny",
+       "<ruby>電気<rt>でんき</rt></ruby>をつけたまま"
+      ],
+      [
+       "～っぱなし",
+       "Pozostawienie bez zmian (zaniedbanie)",
+       "Zabarwienie negatywne, niedbałość",
+       "ドアを<ruby>開<rt>あ</rt></ruby>けっぱなし"
+      ],
+      [
+       "～とおり（に）",
+       "Zgodnie z, dokładnie tak jak",
+       "Mowa o „sposobie/normie”, a nie o zachowaniu stanu bez zmian",
+       "<ruby>説明<rt>せつめい</rt></ruby>したとおりに"
+      ],
+      [
+       "～ままに",
+       "Tak, jak (ktoś) mówi/każe",
+       "Zwykle w utartych zwrotach: <ruby>言<rt>い</rt></ruby>われるがまま",
+       "<ruby>好<rt>す</rt></ruby>きなままに<ruby>生<rt>い</rt></ruby>きる"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 281,
+   "src_hash": "c4917cd318a22dcd",
+   "fields": {
+    "meaning": "Jak…, wygląda na to, że…",
+    "connection": "V forma prosta + みたい(だ) / N + (だった) / Na + (だった) / Aい",
+    "examples": [
+     "Wygląda na to, że jego przeziębienie minęło.",
+     "Wygląda na to, że w sklepie dziś też jest tłoczno.",
+     "On czasami mówi rzeczy jak dziecko.",
+     "On jest jak dziecko.",
+     "Niebo pociemniało. Chyba będzie padać.",
+     "Wygląda na to, że ona jest dziś zajęta."
+    ],
+    "explain": "Opiera się na odczuciu/bezpośrednich przesłankach (to, co się widzi i słyszy). Nie stosuje się do samych pogłosek (używa się らしい) ani do mocnego wnioskowania logicznego (はずだ/に違いない).\nMowa potoczna, codzienna; w stylu formalnym zastępuje się je przez ようだ/かのようだ, aby brzmiało uprzejmiej.\nPrzed みたい nie stawia się formy grzecznościowej: mówi się雨が降るみたいです (poprawnie), należy unikać雨が降りますみたいです (niepoprawnie).\nGdy stanowi określenie rzeczownika: N/Adj + みたいな + N. Gdy wskazuje sposób: ～みたいに + V/Adj.\nPrzeczenie: ～ないみたいだ; czas przeszły: ～だったみたいだ; przypuszczenie o czymś, co już zaszło: ～していたみたいだ.\n\n• Znaczenie 1 (porównanie/podobieństwo): Wyraża podobieństwo wyglądu/cech. Przykład: 子どもみたいだ (wygląda jak dziecko).\n• Znaczenie 2 (przypuszczenie oparte na obserwacji): „Chyba/Wygląda na to, że” na podstawie oznak, które się widzi i słyszy (bez 100% pewności). Przykład: 雨が降るみたいだ.\n• Niuans języka mówionego, bliższe mowie potocznej niż ようだ; stopień pewności niższy niż に違いない/はずだ.\n• Przed rzeczownikiem: stosuje się みたいな + N; przed czasownikiem/przymiotnikiem: みたいに + V/A.\n• W zdaniu uprzejmym można użyć みたいです; w formalnym języku pisanym zwykle preferuje się ようだ.",
+    "notes": "• Pod względem gramatycznym みたい zachowuje się jak „przymiotnik な”, gdy jest określeniem (みたいなN), a z みたいに – jak przysłówek.\n• W rozmowie można wtrącić なんか/どうやら, by wzmocnić niuans: なんか雨が降りそうな/みたいな感じ.\n• Zmiana pozycji dla podkreślenia: 本当みたいだね, 嘘みたいだ.\n• Należy unikać sprzecznego nakładania przypuszczeń: きっと～みたいだ (nienaturalnie); naturalniej jest użyć たぶん/どうやら z みたいだ.\nmeaning_vi: Jakby ~, wygląda na to, że ~\nexplain: Wyraża osąd oparty na oznakach, lecz jeszcze niepewny. Zwykle opiera się na tym, co się widzi, słyszy lub odczuwa; niuans konwersacyjny.\nWyraża silne odczucie lub wrażenie, które sprawia, że mówiącemu wydaje się, iż tak jest – „zupełnie jakby…”, choć w rzeczywistości niekoniecznie tak jest. Ma charakter subiektywnego odczucia.\nSłuży do podania typowego, reprezentatywnego przykładu („jak…, w rodzaju…”). Bliskie znaczeniem ～ような, ułatwia słuchaczowi wyobrażenie sobie rzeczy.\nexamples: 1. 彼は小さい時はとてもわかいくて、女の子みたいだとよく言われたそうだ。\nPodobno w dzieciństwie był bardzo uroczy i często mówiono, że wygląda jak dziewczynka.\n2. 理由はわからないけど、彼女、怒っているみたい。\nNie wiem dlaczego, ale ona chyba jest zła.\n──────\n1. 「星がたくさん出ている。あしたも晴れみたい」\nWidać dużo gwiazd. Jutro chyba też będzie pogodnie.\n2. 「あの店、人気がないみたいだね。いつ行ってもすいている」\nTamten sklep chyba nie jest popularny. Kiedy by się nie poszło, jest pusto.\n3. 「おとうさん、すごく怒っているみたいだから、近づかないほうがいいよ」\nTata chyba jest bardzo zły, więc lepiej się do niego nie zbliżać.\n4. 「風邪をひいたみたいなんです。きのうから、のどが痛くて」\nChyba się przeziębiłem. Od wczoraj boli mnie gardło.\n5. 「オウさん、このごろやせたみたい。どうかしたの」「ううん、なんでもない」\nOu, ostatnio wyglądasz szczuplej. Coś się stało? – Nie, nic takiego.\n6. 「今井君はもう帰ったのかな」「みたいだね。かばんがないから」\nCzy Imai już poszedł do domu? – Na to wygląda, bo nie ma jego torby.\n7. 宝くじで１０００万円当たった。夢（を見ている）みたいだ。\nWygrałem 10 milionów jenów na loterii. Czuję się, jakbym śnił.\n8. 「あの雲、見て。ゾウみたいな形だよ」「ほんとだ」\nSpójrz na tamtą chmurę. Ma kształt jak słoń. – Rzeczywiście.\n9. 兄はすぐに泣いたり怒ったり笑ったりする。まったく、子どもみたいだ。\nMój starszy brat łatwo wybucha płaczem, złością albo śmiechem. Zupełnie jak dziecko.\n10. ホームステイ先の家族はみんなやさしくて、自分の家にいるみたいだった。\nWszyscy w rodzinie goszczącej byli życzliwi i czułem się jak u siebie w domu.\n11. 私は寒いのが嫌いなので、ハワイみたいな、１年中暖かいところで暮らしたい。\nNie lubię zimna, więc chcę mieszkać w miejscu ciepłym przez cały rok, takim jak Hawaje.\n12. 私も早くリンさんみたいに、日本語が上手になりたいなあ。\nJa też chcę jak najszybciej mówić po japońsku tak dobrze jak Lin.\n13. 私の田舎にはコンビニみたいな便利な店はありません。\nW moich rodzinnych stronach nie ma tak wygodnych sklepów jak konbini.\n14. 「彼みたいに遊んでばかりいると、試験に落ちますよ」\nJeśli będziesz się ciągle tylko bawić jak on, oblejesz egzamin.\nmeaning_vi: porównanie, przenośnia (nie stan faktyczny) – podobny do ～\nexamples: 1. まだ2月なのに、今日は暖かくて春のようです。\nJest dopiero luty, a dziś jest ciepło jak wiosną.\n2. あの二人はまるで兄弟のように中がいいです。\nTych dwoje jest ze sobą tak blisko, jakby byli rodzeństwem.\n3. 「このせっけん、いいにおいですね。バラの花のような香りがしますね」\n「To mydło ładnie pachnie. Ma zapach jak kwiaty róży」\n4. 10年前もことだが、まるできのうのことのようにはっきりと覚えている。\nTo było 10 lat temu, ale pamiętam to wyraźnie, jakby zdarzyło się wczoraj.\nmeaning_vi: Sposób porównywania przez odwołanie się do czegoś podobnego.\nexamples: 1. ①　鬼のように　おこっていました。\nZłościł się jak demon.\n2. ②　あつい！5月なのに、夏みたいですね。\nGorąco! Jest maj, a czuć się jak w lecie.\n3. ➂　はなさんは、女優の　ように　きれいです。\nHana jest piękna jak aktorka.\n4. ➃　かわいい　手！　もみじみたいな　手ですね。\nJaka urocza rączka! Jak listek klonu.\nmeaning_vi: Stosuje się, gdy mówiący na podstawie własnych obserwacji wysuwa przypuszczenia. W sytuacjach formalnych i poważnych nie należy używać ～みたいです。\nexamples: 1. ①この肉は少し古いようです。変なにおいがします。\nTo mięso jest chyba trochę nieświeże. Dziwnie pachnie.\n2. ②健君は本が好きなようですね。いつも何か読んでいます。\nKen chyba lubi książki. Zawsze coś czyta.\n3. ③花ちゃんはこのお菓子がほしいみたいだね。こちらを見ているよ。\n4．お母さん、玄関に誰かきたみたいだよ。トントンと音がしたよ。\nWygląda na to, że Hana chce te słodycze. Patrzy w tę stronę.\nMamo, chyba ktoś przyszedł do drzwi. Słychać było pukanie.",
+    "mistakes": [
+     "Błędna forma grzecznościowa: × 降りますみたいだ → ✓ 降るみたいです.",
+     "Mylenie z らしい (pogłoska): 彼は結婚したらしい (podobno) ≠ 彼は結婚したみたいだ (są na to oznaki).",
+     "Zapominanie o zmianie na みたいな/みたいに w funkcji określenia: × 子どもみたい声 → ✓ 子どもみたいな声.",
+     "Egzamin JLPT: wymaga rozróżniania ～ようだ/～みたいだ/～らしい/～そうだ (様態/伝聞). Należy zwrócić uwagę na kontekst i źródło informacji."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～みたいだ",
+       "Wygląda na to/jakby (obserwacja, język mówiony)",
+       "Mowa potoczna, mało formalne",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るみたいだ"
+      ],
+      [
+       "～ようだ",
+       "Wygląda na to/podobny do (bardziej formalne)",
+       "Stosowane w języku pisanym, bardziej obiektywne",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るようだ"
+      ],
+      [
+       "～らしい",
+       "Podobno/typowy dla",
+       "Opiera się na informacji zasłyszanej/cechach charakterystycznych",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るらしい"
+      ],
+      [
+       "～っぽい",
+       "Wygląda jak/skłania się ku (ogólnikowo)",
+       "Język mówiony, niuans „ma w sobie coś z”",
+       "<ruby>子<rt>こ</rt></ruby>どもっぽい"
+      ],
+      [
+       "～そうだ（<ruby>様態<rt>ようたい</rt></ruby>）",
+       "Wygląda, jakby zaraz/ na oko",
+       "Opiera się na bezpośrednim odczuciu, że coś zaraz nastąpi",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>お</rt></ruby>りそうだ"
+      ],
+      [
+       "～に<ruby>見<rt>み</rt></ruby>える",
+       "Wygląda na",
+       "Skupia się na wrażeniu wzrokowym",
+       "<ruby>若<rt>わか</rt></ruby>く<ruby>見<rt>み</rt></ruby>える"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 282,
+   "src_hash": "7e879f56113fabd6",
+   "fields": {
+    "meaning": "Nie tylko ~, ale i ~",
+    "examples": [
+     "Mam gorączkę i boli mnie głowa, więc dziś nie poszedłem do pracy.",
+     "A: Co sądzisz o nauczycielu Watcie?\nB: Myślę, że pan Watt jest pełen zapału, sumienny, a do tego ma doświadczenie."
+    ],
+    "explain": "•　Łączy zdania składowe o zbliżonym znaczeniu.\n•　Partykuły も używa się zgodnie z zasadą podkreślenia (zob. lekcja 27).\n•　Przy stopniowaniu treści:それに (Ponadto)\n•　Wyliczanie powodów, przyczyn prowadzących do rezultatu:それで ( Dlatego)\n\n～も～し、～も～し～、それに～：Nie tylko ~, ale i ~ Ponadto ~\n～も～し、～も～し～それで、～：Nie tylko ~, ale i ~  dlatego ~"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 283,
+   "src_hash": "7185dc45f283ed06",
+   "fields": {
+    "meaning": "Łatwo…",
+    "examples": [
+     "Nauczyciel Tanaka mówi w sposób łatwy do zrozumienia.",
+     "To cienki papier, który łatwo się drze, więc uważaj.",
+     "Gdy jest się zmęczonym, łatwiej się przeziębić.",
+     "Pogoda w górach łatwo się zmienia, więc lepiej uważać.",
+     "Tę czcionkę łatwo się czyta.",
+     "Nowy interfejs jest intuicyjny i łatwy w obsłudze."
+    ],
+    "explain": "Ocena jakości:読みやすい文章／使いやすいツール（zabarwienie pozytywne, docenienie UX).\nŁączenie z przysłówkami stopnia:非常に／とても／かなり + ～やすい.\nPrzeczenie: ～やすくない（niełatwe）; Czas przeszły: ～やすかった.\nGdy mowa o skłonnościach ludzi:忘れやすい／太りやすい／怒りやすい（mieć tendencję do łatwego V).\n\n• Wyraża, że „łatwo wykonać V” lub że coś „ma tendencję/właściwość łatwego V”.\n• Stosuje się zarówno do czynności (読みやすい, 使いやすい), jak i do właściwości/cech fizycznych (壊れやすい, 乾きやすい).\n• W porównaniu z 易しい（やさしい）: inne znaczenie. 易しい = „łatwy” pod względem stopnia trudności; ～やすい = „łatwo V” pod względem skłonności do wykonania konkretnej czynności.\n• Zwykle ma charakter obiektywny/użytkowy w opisach produktów, projektów, UX.",
+    "notes": "• Może łączyć się z przysłówkami o zabarwieniu negatywnym: 必ずしも～やすいとは限らない（niekoniecznie łatwe…).\n• W marketingu: „持ちやすい/読みやすい/掃除しやすい” to popularne słowa kluczowe UX.\n• Przy opisie ryzyka: 壊れやすい→ należy dodać towarzyszące ostrzeżenie, aby uniknąć pozytywnego odczytania.",
+    "mistakes": [
+     "Błędna forma: × 読むやすい → ○ 読みやすい（odrzuca się ます）.",
+     "Mylenie z 易しい: „łatwe zadanie” → 易しい; „łatwe do czytania” → 読みやすい.",
+     "Błędne przeczenie: × 使いやすいない → ○ 使いやすくない。",
+     "Nadużywanie w sensie pozytywnym, gdy znaczenie jest negatywne: „壊れやすい” to wada, a nie zaleta."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～にくい",
+       "Trudno coś zrobić",
+       "Antonim; opisuje trudność/ograniczenie",
+       "<ruby>読<rt>読</rt></ruby>みにくい<ruby>説明<rt>せつめい</rt></ruby>。"
+      ],
+      [
+       "～がち",
+       "Często, zwykle (tendencja o zabarwieniu negatywnym)",
+       "Nie „łatwo V”, lecz „mieć skłonność do częstego V”",
+       "ミスしがちな<ruby>人<rt>ひと</rt></ruby>。"
+      ],
+      [
+       "<ruby>易<rt>やさ</rt></ruby>しい（やさしい）",
+       "Łatwy (stopień)",
+       "Samodzielny przymiotnik, nie dołącza się bezpośrednio do czynności V",
+       "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>易<rt>やさ</rt></ruby>しい。"
+      ],
+      [
+       "～やすさ",
+       "Łatwość",
+       "Nominalizacja służąca porównaniu/ocenie",
+       "<ruby>使<rt>つか</rt></ruby>いやすさの<ruby>比較<rt>ひかく</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 284,
+   "src_hash": "bed43e3238d20aa9",
+   "fields": {
+    "meaning": "Być …-nym / móc… (strona bierna, możliwość)",
+    "connection": "Grupa II: Vる → られる / Grupa I: kolumna う → え + る / する → される・できる / くる → こられる",
+    "examples": [
+     "Zostałem pochwalony przez nauczyciela.",
+     "Złapała nas ulewa i mecz został odwołany.",
+     "Czegoś tak ostrego nie da się zjeść.",
+     "Rodzinne strony same przychodzą na myśl.",
+     "O której mniej więcej przyjdzie kierownik działu?",
+     "W języku japońskim dopełnienie czasami staje się podmiotem."
+    ],
+    "explain": "Strona bierna:Wykonawca czynności: N + に/によって + V-られる. によって stosuje się w ujęciu neutralnym/obiektywnym (発見される,建設される).Tematem jest zwykle obiekt podlegający oddziaływaniu, stosuje się は/が.\nWykonawca czynności: N + に/によって + V-られる. によって stosuje się w ujęciu neutralnym/obiektywnym (発見される,建設される).\nTematem jest zwykle obiekt podlegający oddziaływaniu, stosuje się は/が.\nMożliwość:Z一段:食べ られる (móc jeść). Język mówiony:食べ れる (unikać w formalnym języku pisanym).Z五段stosuje się V-える:読める,書ける (nie używa się読まれる dla możliwości).W zdaniu wyrażającym możliwość dopełnienie zwykle zmienia を→が:日本語が話せる。\nZ一段:食べ られる (móc jeść). Język mówiony:食べ れる (unikać w formalnym języku pisanym).\nZ五段stosuje się V-える:読める,書ける (nie używa się読まれる dla możliwości).\nW zdaniu wyrażającym możliwość dopełnienie zwykle zmienia を→が:日本語が話せる。\nSamorzutność: często z自然に/ふと/どうしても: ふと昔が思い出される。\nJęzyk wywyższający (sonkeigo): Zwykle zastępuje się przez お/ご～になる, co brzmi naturalnie: お読みになります（＝読まれる）.\n\n• Strona bierna: Podmiot doznaje oddziaływania. Obejmuje:\n\nStrona bierna bezpośrednia: 私は先生に褒められた (zostałem pochwalony).\nStrona bierna pośrednia/uciążliwości (迷惑の受身): 雨に降られて困った (deszcz przysporzył kłopotu).\nStrona bierna posiadacza: 私は子どもに泣かれた (dziecko płakało, co było dla mnie uciążliwe).\n\n• Strona bierna bezpośrednia: 私は先生に褒められた (zostałem pochwalony).\n• Strona bierna pośrednia/uciążliwości (迷惑の受身): 雨に降られて困った (deszcz przysporzył kłopotu).\n• Strona bierna posiadacza: 私は子どもに泣かれた (dziecko płakało, co było dla mnie uciążliwe).\n• Możliwość: Zdolność, warunki pozwalające/niepozwalające coś zrobić. Z 一段 forma jest identyczna, łatwo o dwuznaczność ze stroną bierną; rozstrzyga się ją kontekstem, podmiotem (が) i uzupełnieniem.\n• Samorzutność: Samoistne myślenie/przypominanie/odczuwanie. Niesie niuans „niezamierzenie”.\n• Język wywyższający (sonkeigo): Wywyższa wykonawcę czynności (osobę wyższą rangą) za pomocą V-れる/られる. Należy unikać nadużywania formy „二重敬語”.",
+    "notes": "• Dwuznaczność strona bierna/możliwość przy 一段 rozstrzyga się kontekstem i partykułą: 魚が食べられる（możliwość）vs 魚は猫に食べられる（strona bierna).\n• 来れる (これる) to forma języka mówionego od 来られる (こられる) dla możliwości; unikać w stylu formalnym.\n• Unikać „二重敬語”: 召し上がられる zwykle uchodzi za przesadne; stosuje się 召し上がる.\n• Wiadomości/nauka preferują obiektywną stronę bierną z によって: この星は1950年に発見された。\nmeaning_vi: Wyrażenie strony biernej\nexamples: 1. ①　母に怒られる\nDostać burę od mamy\n2. ②　夜遅く家に帰ったら、母に怒られた。\nWróciłem do domu późno w nocy i dostałem burę od mamy.\n3. ③　電車の中で、女の人に足を踏まれた。\nW pociągu jakaś kobieta nadepnęła mi na stopę.\n4. ➃　毎晩、友達に遊びに来られて、勉強ができない。\nCo wieczór przychodzą do mnie znajomi i nie mogę się uczyć.\n5. ⑤　この建物は３００年前に建てられました。\nTen budynek został zbudowany 300 lat temu.\n6. ⑥　この絵はピカソによってかかれました。\nTen obraz został namalowany przez Picassa.",
+    "mistakes": [
+     "Mylenie formy możliwości 五段: 読まれる (strona bierna) ≠ 読める (możliwość).",
+     "Użycie を w zdaniu wyrażającym możliwość: 日本語を話せる → lepiej użyć 日本語が話せる (naturalniej).",
+     "Nadużywanie ～られる jako języka wywyższającego w każdej sytuacji; w kontekście biznesowym lepiej stosować お/ご～になる.",
+     "Mylenie に i によって: przy konkretnej osobie zwykle stosuje się に; przy wynalazkach/dziełach – によって."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Kluczowa różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "V-られる (<ruby>可能<rt>かのう</rt></ruby>)",
+       "Móc coś zrobić",
+       "Bardziej formalne/standardowe; z <ruby>一段<rt>いちだん</rt></ruby> pokrywa się ze stroną bierną",
+       "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せる/<ruby>話<rt>ばなし</rt></ruby>せます"
+      ],
+      [
+       "V-ことができる",
+       "Móc coś zrobić",
+       "Obiektywne/oficjalne; pasuje do サ<ruby>変<rt>へん</rt></ruby>: <ruby>勉強<rt>べんきょう</rt></ruby>することができる",
+       "<ruby>予約<rt>よやく</rt></ruby>することができる"
+      ],
+      [
+       "お/ごV-になる",
+       "Język wywyższający (sonkeigo)",
+       "Naturalniejsze w kontekście biznesowym",
+       "<ruby>社長<rt>しゃちょう</rt></ruby>はお<ruby>読<rt>よ</rt></ruby>みになります"
+      ],
+      [
+       "～られてしまう",
+       "Strona bierna + żal",
+       "Podkreśla uczucie doznanej szkody",
+       "<ruby>雨<rt>あめ</rt></ruby>に<ruby>降<rt>ふ</rt></ruby>られてしまった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 285,
+   "src_hash": "a055f9c8367ee328",
+   "fields": {
+    "meaning": "To…, chodzi o to, że… (wyjaśnienie)",
+    "examples": [
+     "Chciałbym pójść, ale w przyszłym tygodniu mam egzamin.",
+     "Pytam poważnie, więc proszę odpowiedzieć.",
+     "Co się stało?",
+     "Spóźniłem się. Bo pociąg stał.",
+     "Prawdę mówiąc, jutro się przeprowadzam.",
+     "Chciałbym się poradzić w pewnej sprawie. Czy mogę teraz zająć chwilę?"
+    ],
+    "explain": "Przyjazne/uprzejme w rozmowie. Wobec osoby wyższej rangą należy unikać ～んだ (szorstkie), stosuje się ～んです/～のです.\nŁagodne pytanie o powód: どうして来なかった んですか。\nWprowadzenie do prośby/propozycji: ～んですが/～んですけど +依頼/質問.\nPodkreślenie uczucia/stanu: ～たい んです , ～ている んです .\nFormalny język pisany preferuje ～のです/～のである (rzadko używane w języku mówionym).\n\n～んですか。\n1.Przypuszczenie, potwierdzenie informacji na podstawie tego, co się usłyszało lub zobaczyło.\nA:　Bさんは時々(ときどき)大阪弁(おおさかべん)を使(つか)いますね。大阪(おおさか)に住(す)んでいたんですか。\nA: Czasami używasz dialektu z Osaki. Mieszkałeś w Osace?\nB:　ええ、１５さいまで大阪(おおさか)に住(す)んでいました。\nB:Tak, mieszkałem w Osace do 15. roku życia.\n2.Chęć, by mówiący podał więcej informacji o tym, co się usłyszało lub zobaczyło\nおもしろい　デザインの靴(くつ)ですね。どこで買(か)ったんですか。\nCiekawy fason butów. Gdzie je kupiłeś?\n3.Chęć, by słuchacz wyjaśnił powód tego, co się usłyszało lub zobaczyło.\nStosuje się どうして　～んですか。\nどうして遅(おく)れたんですか。\nDlaczego się spóźniłeś?\n4.Chęć, by słuchacz wyjaśnił pewien stan\nA:　どう　したんですか。\nA: Co ci jest?\nB:　おなかが　いたいんです。\nB: Boli mnie brzuch.",
+    "notes": "Uwaga: Stosuje się, gdy chce się dowiedzieć więcej o szczególnych informacjach; niewłaściwe użycie może być nieprzyjemne dla słuchacza.\n✖この問題(もんだい)、難(むずか)しいんですか。\nTo zadanie jest takie trudne? (W domyśle: zadanie jest łatwe, czemu jesteś taki głupi)\n～んです。\nPrzedstawia powód, podaje dodatkowy powód tego, co powiedziało się wcześniej (Bo ~).\nPrzykład 1:\nA:　どうして遅(おく)れたんですか。\nDlaczego się spóźniłeś?\nB:　バスが来(こ)なかったんです。\nDlaczego się spóźniłeś?\nPrzykład 2:\nA:　よく　カラオケに行(い)きますか。\nCzy często chodzisz na karaoke?\nB:　いいえ、あまり行(い)きません。\nNie, rzadko chodzę.\nカラオケが好(す)きじゃないんです。\nBo nie lubię karaoke.\nUwaga: Nie stosuje się w zdaniach opisujących zwykły fakt.\n✖わたしは　ミラーなんです。",
+    "mistakes": [
+     "Błędne łączenie po N/Adj-na: 学生んです × → 学生なんです 〇; 便利んです × → 便利なんです 〇.",
+     "Użycie ～んだ wobec osoby wyższej rangą → szorstkie. Należy wybrać ～んです/～のです.",
+     "Nadużywanie ～んですが w tekstach formalnych → zastąpić przez ～のですが/～しかし.",
+     "Mylenie funkcji z ～から: ～んです kładzie nacisk na „wyjaśnienie”, a nie tylko łączy przyczynę ze skutkiem."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～んです",
+       "wyjaśnienie",
+       "Język mówiony, łagodne",
+       "<ruby>雨<rt>あめ</rt></ruby>なんです。"
+      ],
+      [
+       "～のです",
+       "wyjaśnienie",
+       "Formalne/język pisany",
+       "<ruby>雨<rt>あめ</rt></ruby>なのです。"
+      ],
+      [
+       "～から/ので",
+       "powód",
+       "Powiązanie wewnątrz zdania składowego",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>休<rt>やす</rt></ruby>む。"
+      ],
+      [
+       "～でしょうか",
+       "uprzejme pytanie",
+       "Neutralne, nie niesie „wyjaśnienia”",
+       "いつがいいでしょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 286,
+   "src_hash": "33d15ef70469ebff",
+   "fields": {
+    "meaning": "plan, zamiar",
+    "examples": [
+     "A: Od jutra jadę w podróż służbową do Japonii.\nB: Rozumiem. A kiedy powrót?\nA: Planuję wrócić w piątek w przyszłym tygodniu.",
+     "A: Co będziesz robić po ukończeniu liceum?\nB: Planuję pójść na studia."
+    ],
+    "explain": "Jest to zamiar ujęty już w plan, dlatego jest pewniejszy niż V意向形と思っています, つもり."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

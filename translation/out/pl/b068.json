@@ -1,0 +1,558 @@
+{
+ "batch": "b068",
+ "lang": "pl",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 1043,
+   "src_hash": "262513a2bf941e39",
+   "fields": {
+    "meaning": "A jednak, a mimo to",
+    "connection": "それなのに + [zdanie/zdanie składowe]",
+    "examples": [
+     "Uczyłem się bardzo pilnie. A mimo to oblałem egzamin.",
+     "Padał deszcz. A on mimo to nie miał parasola.",
+     "Obiecała. A jednak nie przyszła.",
+     "Ten lokal jest popularny. A mimo to dziś jest mało klientów.",
+     "Mówiłem ci, że jeśli się postarasz, dasz radę. A ty mimo to się obijałeś, co?"
+    ],
+    "explain": "Pozycja: zawsze na początku drugiego zdania składowego, po kropce lub przecinku.\nUżywa się, gdy chce się podkreślić emocje – rozczarowanie, oburzenie, wyrzut, zaskoczenie.\nNie oznacza po prostu rezultatu jak それで ani samego „mimo to” jak それでも, lecz „powinno być inaczej, a tymczasem…”.\nCzęsto stosowane w języku mówionym, rozmowach lub w emocjonalnej narracji.\n\n•\nWyraża silny kontrast z oczekiwaniami: zdanie składowe B jest całkowicie sprzeczne z tym, co powinno wynikać ze zdania składowego A.\n\n•\nWyraźny niuans emocjonalny: zwykle niesie wyrzut, zaskoczenie, rozczarowanie lub oburzenie.\n\n•\nNaturalne tłumaczenie: „A jednak…”, „A mimo to…”, „Chociaż tak było…”.\n\n• Różnica względem それでも: それなのに mocniej podkreśla emocje i wyraźniej zaznacza przeciwstawienie.",
+    "notes": "• Popularne w codziennych rozmowach, anime i mandze, gdy postać okazuje emocje.\n• Dobrze sprawdza się w narracji, gdy chce się podkreślić sprzeczność między oczekiwaniami a rzeczywistością.\n• Zwykle tłumaczy się jako „A jednak…”, „Tymczasem…”, „A mimo to…”. meaning_vi: A jednak, a mimo to ～ ⏐ explain: Wyraża rezultat niezgodny z przewidywaniami. ⏐ examples: 1. この時計は高かった。それなのにすぐに壊れた。\nTen zegarek był drogi. A mimo to szybko się zepsuł.\n2. 一生懸命勉強している。それなのに成績はよくならない。\nUczę się bardzo pilnie. A mimo to wyniki się nie poprawiają.",
+    "mistakes": [
+     "Mylenie z それでも: それでも = „mimo to nadal…”, natomiast それなのに = „a jednak…” (podkreśla rozczarowanie).",
+     "Użycie, gdy między dwoma zdaniami nie ma relacji przeciwstawienia, jest niepoprawne.",
+     "Użycie w bardzo formalnym tekście jest niestosowne; należy zastąpić je przez しかしながら, とはいえ.",
+     "Pomijanie przecinka w języku pisanym → należy pisać „それなのに、…”。"
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "それなのに",
+       "A jednak…, mimo to…",
+       "Podkreśla przeciwstawienie + uczucie rozczarowania.",
+       "<ruby>努力<rt>どりょく</rt></ruby>した。 それなのに<ruby>負<rt>ま</rt></ruby>けた。"
+      ],
+      [
+       "それでも",
+       "Mimo to… nadal…",
+       "Przyjmuje A, a B i tak następuje (mniej emocji).",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "でも／けど",
+       "Ale…",
+       "Język mówiony, nie podkreśla emocji ani silnego przeciwstawienia.",
+       "<ruby>行<rt>い</rt></ruby>きたい。 でも<ruby>忙<rt>いそが</rt></ruby>しい。"
+      ],
+      [
+       "ところが",
+       "Tymczasem (silne zaskoczenie)",
+       "Rezultat całkowicie sprzeczny z przewidywaniami, z odcieniem „no nie!”.",
+       "<ruby>勝<rt>か</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>った。 ところが<ruby>負<rt>ま</rt></ruby>けた。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1044,
+   "src_hash": "ddce389243933b82",
+   "fields": {
+    "meaning": "Jednakże (ograniczenie warunku)",
+    "connection": "[zdanie/zdanie składowe]。 + ただし、 + [warunek/wyjątek/ograniczenie]",
+    "examples": [
+     "Udział jest bezpłatny. Jednakże wymagana jest wcześniejsza rejestracja.",
+     "Palenie dozwolone. Jednakże wyłącznie w wyznaczonych miejscach.",
+     "Umowa przedłuża się automatycznie. Jednakże może zostać zmieniona za zgodą obu stron.",
+     "Stosujemy zniżkę studencką. Warunkiem jest jednak okazanie legitymacji studenckiej.",
+     "Ten lek jest przeznaczony dla dorosłych. Jednakże kobiety w ciąży powinny skonsultować się z lekarzem."
+    ],
+    "explain": "Zawsze stoi na początku zdania następującego po nim, a po ただし przecinek: „ただし、…”.\nStosowne, gdy określa się zakres/warunki obowiązywania, a nie przy emocjonalnej polemice.\nW dokumentach firmowych なお dodaje informację, a ただし ustanawia warunek/wyjątek.\n\n• Ustanawia wyjątek/dodatkowy warunek ograniczający poprzednie zdanie.\n• Ma silny charakter normatywny; niuans sztywniejszy i bardziej oficjalny niż ただ, でも.\n• S2 często zawiera wyrażenia warunku: ～に限る／～を除く／～場合は／要～／原則として…など.",
+    "notes": "• „ただし書き” to „zastrzeżenie” w przepisach; zwykle następuje po zdaniu nadrzędnym o charakterze deklaracji.\n• W uprzejmym e-mailu można użyć: ただし、〜となります／〜が必要となります。\n• Gdy treść S2 jest ostrzeżeniem dotyczącym bezpieczeństwa, ただし pomaga czytelnikowi od razu dostrzec jej wagę.",
+    "mistakes": [
+     "Użycie ただし do przeciwstawienia osobistych opinii → nienaturalne; należy użyć しかし/でも/ただ.",
+     "Brak charakteru normatywnego w S2 (brak warunku/ograniczenia) → błędny wybór w zadaniach na czytanie.",
+     "Mylenie なお z ただし: なお jedynie dodaje informację, nie nakłada ograniczeń.",
+     "Testy JLPT często zastawiają pułapkę „無料。なお、事前登録が必要だ。” → niuans nie jest precyzyjny; właściwą odpowiedzią jest zwykle ただし."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "ただし、",
+       "Wyjątek/warunek",
+       "Formalne, normatywne",
+       "<ruby>無料<rt>むりょう</rt></ruby>。ただし、<ruby>会員<rt>かいいん</rt></ruby>のみ。"
+      ],
+      [
+       "ただ、",
+       "Uwaga/łagodne ograniczenie",
+       "Miękkie, neutralne",
+       "<ruby>便利<rt>べんり</rt></ruby>だ。ただ、<ruby>高<rt>たか</rt></ruby>い。"
+      ],
+      [
+       "しかし、",
+       "Jednakże (silny kontrast)",
+       "Kontrargument, niekoniecznie wyjątek",
+       "<ruby>賛成<rt>さんせい</rt></ruby><ruby>多数<rt>たすう</rt></ruby>。しかし、<ruby>不満<rt>ふまん</rt></ruby>もある。"
+      ],
+      [
+       "なお、",
+       "Dodanie informacji",
+       "Nie ustanawia warunku",
+       "<ruby>受付<rt>うけつけ</rt></ruby>は<ruby>9時<rt>きゅうじ</rt></ruby>。なお、<ruby>土日<rt>どにち</rt></ruby>は<ruby>休<rt>やす</rt></ruby>み。"
+      ],
+      [
+       "exceptive: ～を<ruby>除<rt>のぞ</rt></ruby>く",
+       "„Z wyjątkiem …”",
+       "Fraza rzeczownikowa, nie spójnik",
+       "<ruby>祝日<rt>しゅくじつ</rt></ruby>を<ruby>除<rt>のぞ</rt></ruby>く<ruby>平日<rt>へいじつ</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1045,
+   "src_hash": "eaaed737ef804084",
+   "fields": {
+    "meaning": "Tylko że, jednak",
+    "connection": "[zdanie/zdanie składowe]。 + ただ、 + [łagodny kontrast/uwaga]",
+    "examples": [
+     "Ten plan jest tani. Tylko że ma mały limit danych.",
+     "Jutro nie musisz przychodzić do pracy. Tylko złóż raport przed południem.",
+     "Ten lek dobrze działa. Tylko że może powodować senność.",
+     "Prognoza na dziś zapowiada słońce. Tylko że od popołudnia podobno wiatr się wzmoże.",
+     "Tę książkę łatwo się czyta. Tylko że jest w niej dużo terminów specjalistycznych."
+    ],
+    "explain": "Stoi na początku zdania następującego po nim, a po ただ jest przecinek: „ただ、…”.\nS2 to zwykle dodatkowy warunek, wyjątek, uwaga dotycząca bezpieczeństwa.\nNeutralne, umiarkowanie uprzejme; można go używać w codziennych e-mailach służbowych.\nNie należy używać ただ w sztywnych przepisach/klauzulach prawnych (wtedy używa się ただし).\n\n• Dodanie z ograniczeniem: S2 podaje warunek, wyjątek, wadę lub uwagę do informacji z S1.\n• Siła wyrazu: łagodniejsze niż しかし, bardziej neutralne niż でも; mniej formalne niż ただし.\n• Niuans: „owszem S1, tylko że/jednak S2”. Nie zaprzecza S1, lecz koryguje oczekiwania.\n• Kontekst: można używać zarówno w języku mówionym, jak i pisanym; pasuje do wyjaśnień, negocjacji, podawania dodatkowych warunków.",
+    "notes": "• W wystąpieniach i prezentacjach ただ pomaga „złagodzić szok” przy podaniu minusa po pochwale.\n• Wstawienie ただ między dwa krótkie zdania oszczędza słów w porównaniu z けれども/とはいえ, a nadal brzmi naturalnie.\n• Nie należy mylić z ただ = „tylko/jedyny”: ただ一つ (tylko jeden), ただの冗談 (tylko żart).",
+    "mistakes": [
+     "Mylenie ただ z ただし: w pytaniach o przepisy/klauzule wybiera się ただし, a nie ただ.",
+     "Brak przecinka po ただ: należy pisać „ただ、…”.",
+     "Mechaniczne tłumaczenie jako „however” w każdym kontekście: przy łagodnej prośbie lepiej „tylko że/ale”.",
+     "Wybór しかし, gdy potrzebna jest mocna kontrargumentacja; ただ jest słabsze."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "ただ、",
+       "Jednak (łagodnie), wyjątek/uwaga",
+       "Miękkie, dobre w języku mówionym i pisanym",
+       "<ruby>安<rt>やす</rt></ruby>い。ただ、<ruby>質<rt>しつ</rt></ruby>は<ruby>普通<rt>ふつう</rt></ruby>。"
+      ],
+      [
+       "しかし、",
+       "Jednakże (mocno)",
+       "Bardziej formalne, wyraźny kontrargument",
+       "<ruby>賛成<rt>さんせい</rt></ruby><ruby>多数<rt>たすう</rt></ruby>。しかし、<ruby>課題<rt>かだい</rt></ruby>は<ruby>残<rt>のこ</rt></ruby>る。"
+      ],
+      [
+       "でも、",
+       "Ale (casual)",
+       "Typowe dla języka mówionego, rzadkie w poważnym tekście pisanym",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも、<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ],
+      [
+       "ただし、",
+       "Ale/z wyjątkiem (klauzula)",
+       "Do przepisów, oficjalnych warunków",
+       "<ruby>無料<rt>むりょう</rt></ruby>。ただし、<ruby>学生<rt>がくせい</rt></ruby>に<ruby>限<rt>かぎ</rt></ruby>る。"
+      ],
+      [
+       "とはいえ、",
+       "Choć tak się mówi",
+       "Język pisany; ustępstwo, potem kontrargument",
+       "<ruby>簡単<rt>かんたん</rt></ruby>だ。とはいえ、<ruby>注意<rt>ちゅうい</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1046,
+   "src_hash": "7cb1bddb510381ad",
+   "fields": {
+    "meaning": "Ale, jednak",
+    "connection": "[zdanie/zdanie składowe]。 + だが、 + [przeciwstawne zdanie/zdanie składowe]",
+    "examples": [
+     "Ograniczono wydatki. Ale deficyt nadal nie został zlikwidowany.",
+     "On jest młody. Ale ma bogate doświadczenie.",
+     "Biegłem z całych sił. Ale nie zdołałem dogonić.",
+     "Propozycja jest nowatorska. Ale mało realna.",
+     "Deszcz ustał. Ale nawierzchnia wciąż jest śliska."
+    ],
+    "explain": "Służy do przejścia do wyraźnie przeciwstawnego zdania składowego, zachowując mocny, zwięzły styl.\nPasuje do narracji, argumentacji, objaśnień. W uprzejmej rozmowie zwykle używa się しかし/でも/けれども.\nMoże stać na początku akapitu lub na początku zdania, nadając zdecydowany rytm.\n\n• Znaczenie: „Ale/Jednak”. Logiczne przeciwstawienie, niuans języka pisanego, zdecydowany.\n• Niuans: męski, mocno narracyjny; często spotykany w artykułach, objaśnieniach, stylu prasowym/opowieściach.\n• Neutralność: mniej emocjonalne niż それなのに; brzmieniowo mocniejsze niż しかし (niekoniecznie logicznie).",
+    "notes": "• だが to samodzielny spójnik, różny od „〜だ + が” (kopula + przeciwstawna partykuła) wewnątrz zdania. Choć z wyglądu podobne, pełnią inną funkcję.\n• W stylu reklamowym/rozrywkowym „だがしかし” używa się dla przesady i rytmu.\n• Wiele だが z rzędu może usztywnić tekst; warto przeplatać je z しかし/一方/ところが zależnie od toku wywodu. explain: Sztywny sposób wyrażenia　「しかし」　「けれども」. ⏐ examples: 1. これは難しい挑戦だ。だが失敗を恐れてはいけない。\nTo trudne wyzwanie. Ale nie wolno bać się porażki.\n2. 生活は貧しい。だが幸せだ。\nŻycie jest ubogie. Ale szczęśliwe.",
+    "mistakes": [
+     "Mylenie spójnika „だが” z „〜だ + が” w jednym zdaniu: pytania mogą zastawiać pułapkę przy analizie składników. Kropka przed だが wskazuje, że to spójnik.",
+     "Użycie だが w uprzejmej rozmowie z klientem → brzmi szorstko; należy wybrać しかし/けれども.",
+     "Użycie だが w relacji przyzwolenia „i tak zrobię” → nietrafiony niuans (należy użyć それでも)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "しかし",
+       "Jednakże",
+       "Neutralne, bardziej uniwersalne; mniej „ostre” niż だが",
+       "<ruby>急<rt>いそい</rt></ruby>いだ。しかし<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わず。"
+      ],
+      [
+       "でも",
+       "Ale (język mówiony)",
+       "Potoczne, używane w rozmowie",
+       "<ruby>安<rt>やす</rt></ruby>い。でも<ruby>質<rt>しつ</rt></ruby>が…"
+      ],
+      [
+       "それなのに",
+       "A jednak",
+       "Wyraża oburzenie/zaskoczenie; だが jest bardziej neutralne",
+       "<ruby>約束<rt>やくそく</rt></ruby>。それなのに<ruby>来<rt>こ</rt></ruby>ない。"
+      ],
+      [
+       "けれども／が",
+       "Ale/chociaż",
+       "Łagodniejsze/uprzejmiejsze w języku mówionym",
+       "<ruby>高<rt>たか</rt></ruby>いけれども<ruby>必要<rt>ひつよう</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1047,
+   "src_hash": "297436b923c8297e",
+   "fields": {
+    "meaning": "Przy okazji…",
+    "connection": "ちなみに + [zdanie/zdanie składowe]",
+    "examples": [
+     "Zebranie zaczyna się o 10. Przy okazji: odbędzie się w sali konferencyjnej nr 3.",
+     "Ten lokal ma dobrą opinię. Nawiasem mówiąc, właściciel to były zawodowy sportowiec.",
+     "Ten program jest darmowy. Przy okazji: istnieje też wersja płatna.",
+     "On pochodzi z Osaki. Nawiasem mówiąc, rzadko słychać u niego dialekt.",
+     "W przyszłym tygodniu jadę w delegację. Przy okazji: w piątek będę pracować z domu."
+    ],
+    "explain": "Stawia się na początku zdania (nowego), po nim przecinek: „ちなみに、…”.\nInformacja dodatkowa, która nie jest „warunkiem/wyjątkiem” ani „wnioskiem”.\nW formalnym tekście pisanym zamiast ちなみに używa się なお, gdy styl ma być sztywniejszy.\n\n• „Przy okazji/nawiasem mówiąc”: podaje przydatną informację poboczną, która nie decyduje o głównym toku.\n• Zachowuje związek z tematem; nie należy gwałtownie zmieniać tematu jak przy ところで.\n• Często używane w prezentacjach, e-mailach, rozmowach, by wtrącić ciekawy/powiązany fakt.",
+    "notes": "• ちなみに służy do wtrącenia „ciekawostki”, która ożywia wypowiedź, ale nie należy go nadużywać, by nie rozmywać głównego wątku.\n• W uprzejmym e-mailu: „ちなみにですが、〜をご存じでしょうか。” łagodnie otwiera temat.\n• Jeśli informacja dodatkowa ma charakter warunku/wyjątku, należy przejść na ただし/なお, aby oddać właściwy niuans. explain: Używa się, aby dodać drobną informację do poprzedniego zdania (a). ⏐ examples: 1. 最近は、ペットを飼う家が増えているようです。ちなみに、うちにも犬が１ 匹とネコが２ 匹います。\nWygląda na to, że ostatnio przybywa domów, w których trzyma się zwierzęta. Nawiasem mówiąc, u nas też jest 1 pies i 2 koty.\n2. 燃えるゴミは月曜日と木曜日、燃えないゴミは金曜日に出してください。ちなみに資源ごみの収集日は第３水曜日です。\nŚmieci palne proszę wystawiać w poniedziałki i czwartki, a niepalne w piątki. Nawiasem mówiąc, surowce wtórne odbierane są w trzecią środę miesiąca.",
+    "mistakes": [
+     "Użycie ちなみに do wprowadzenia warunku ograniczającego → błędna funkcja; należy użyć ただし.",
+     "Mylenie z ところで: w pytaniach sprawdzających temat zwykle wymagane jest ところで, gdy następuje wyraźna zmiana wątku.",
+     "Zbyt częste wtrącanie ちなみに zaburza tok wypowiedzi; w tekstach pisanych właściwą odpowiedzią bywa なお (bardziej formalne)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "ちなみに、",
+       "Przy okazji (powiązane uzupełnienie)",
+       "Nie zmienia gwałtownie tematu",
+       "<ruby>締切<rt>しめきり</rt></ruby>は<ruby>金曜<rt>きんよう</rt></ruby>。ちなみに、<ruby>土曜<rt>どよう</rt></ruby>は<ruby>休<rt>やす</rt></ruby>み。"
+      ],
+      [
+       "ところで、",
+       "A propos (zmiana tematu)",
+       "Przejście do nowego tematu, zmiana wątku",
+       "ところで、<ruby>週末<rt>しゅうまつ</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は？"
+      ],
+      [
+       "ついでに",
+       "Przy okazji robienia A zrobić B",
+       "Przysłówek/przyimek, oznacza czynność towarzyszącą",
+       "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>ついでに<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>買<rt>か</rt></ruby>う。"
+      ],
+      [
+       "なお、",
+       "Pragnę dodać",
+       "Formalne, teksty ogłoszeń",
+       "<ruby>受付<rt>うけつけ</rt></ruby>は<ruby>9時<rt>きゅうじ</rt></ruby>。なお、<ruby>午後<rt>ごご</rt></ruby>は<ruby>休止<rt>きゅうし</rt></ruby>。"
+      ],
+      [
+       "ちなみに<ruby>言<rt>い</rt></ruby>うと",
+       "Nawiasem mówiąc",
+       "Dłuższe, ta sama funkcja",
+       "ちなみに<ruby>言<rt>い</rt></ruby>うと、～。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1048,
+   "src_hash": "cfb4804fe8f12f78",
+   "fields": {
+    "meaning": "Ponadto, dodatkowo",
+    "connection": "なお + [zdanie/zdanie składowe]",
+    "examples": [
+     "Dziś placówka jest wyjątkowo nieczynna. Jutro natomiast będzie otwarta jak zwykle.",
+     "Zgłoszenia przyjmujemy wyłącznie online. Uwaga: zgłoszenia pocztowe nie są możliwe.",
+     "Opłata za udział wynosi 1000 jenów. Dodajemy, że studenci uczestniczą bezpłatnie.",
+     "Załączam materiały. Ponadto szczegóły proszę sprawdzić na stronie 3.",
+     "Przyjmowanie do 17:00. Ponadto w soboty i niedziele nieczynne."
+    ],
+    "explain": "Stawia się na początku zdania B; zawsze z przecinkiem oddzielającym treść.\nTon neutralno-formalny; pasuje do oficjalnych dokumentów, rzadko używane w swobodnej rozmowie (zastępuje się je przez それで/それから/あと).\nGdy oznacza „łagodny wyjątek”, jest słabsze niż ただし i nie ma niuansu mocnej kontrargumentacji jak しかし.\nCzęsto łączy się z czasownikami instrukcji: ご確認ください／ご注意ください／お問い合わせください.\n\n• Dodawanie informacji: dodaje powiązane szczegóły, zwykle ważne dla czytelnika.\n• Uwaga/przypomnienie: przejście do tonu instrukcji, ostrzeżenia lub dodatkowego przepisu.\n• Sprostowanie/wyjątek: podaje szczególny przypadek, ale nie zaprzecza wcześniejszej treści.\n• Niuans: formalne, typowe dla ogłoszeń, dokumentów urzędowych, instrukcji, służbowych e-maili.",
+    "notes": "• W nagłówkach/na tablicach stosuje się pominięcie podmiotu i partykuły: なお、入場は一方通行.\n• Zapis kanji 尚 często pojawia się w formalnym tekście; w komputerach/formularzach można spotkać zapis wyłącznie w kanji.\n• W e-mailach „なお” zwykle stoi tuż przed zdaniem z czasownikiem keigo wyrażającym prośbę o działanie. explain: Używa się, gdy coś dodaje się do rozmowy. Nie musi mieć związku z poprzednim zdaniem.\n2\n「今日はこれで終わります。 なお 次回の日時は・・・」 Na dziś to wszystko. Ponadto termin następnego spotkania to…",
+    "mistakes": [
+     "Użycie なお w swobodnej rozmowie → brzmi sztywno; należy użyć それで/それから/あと.",
+     "Mylenie なお z ただし: なお nie jest dość mocne, by ustanowić warunek ograniczający.",
+     "Mylenie z なおさら (tym bardziej) → inna część mowy i inne znaczenie.",
+     "Pominięcie przecinka po なお utrudnia czytanie; w zadaniach na czytanie JLPT przecinek pomaga rozpoznać konstrukcję."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "なお",
+       "Formalne uzupełnienie/uwaga",
+       "Teksty pisane, ogłoszenia; łagodne",
+       "A。なお、B。"
+      ],
+      [
+       "ただし",
+       "Ustanowienie warunku/wyjątku",
+       "Mocne, wyraźnie normatywne",
+       "A。ただし、Bは<ruby>除<rt>のぞ</rt></ruby>く。"
+      ],
+      [
+       "ちなみに",
+       "Nawiasem mówiąc",
+       "Informacja poboczna, nieistotna",
+       "A。ちなみに、B。"
+      ],
+      [
+       "それに／また",
+       "Dodanie równorzędnej informacji",
+       "Neutralne, rozmowa",
+       "A。それに、B。"
+      ],
+      [
+       "なおさら",
+       "Tym bardziej…",
+       "To nie spójnik „なお”; inne znaczenie",
+       "<ruby>寒<rt>さむ</rt></ruby>いからなおさら<ruby>行<rt>い</rt></ruby>きたくない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1049,
+   "src_hash": "96a020807a756620",
+   "fields": {
+    "meaning": "Jednakże, choć",
+    "connection": "もっとも + [zdanie/zdanie składowe]",
+    "examples": [
+     "Popieram jego propozycję. Choć tylko pod warunkiem, że da się ją zrealizować w ramach budżetu.",
+     "Chcę studiować w Japonii. Choć to zależy od tego, czy rodzice się zgodzą.",
+     "Ten aparat ma dobre parametry. Choć jest też drogi.",
+     "Myślę, że egzamin był łatwy. Choć czy zdałem, to już inna sprawa.",
+     "Powiedziałem, że nie pójdę. Choć może jeszcze zmienię zdanie."
+    ],
+    "explain": "Stawia się na początku zdania składowego B, aby skorygować lub uzupełnić zdanie składowe A.\nNie zaprzecza całkowicie, lecz łagodzi wypowiedź lub dodaje warunek.\nNiuans: uprzejmy – rzeczowy, nieco książkowy, jakby „doprecyzowywało się” wypowiedź.\nBez silnych emocji jak それなのに czy それでも; raczej racjonalne, uzupełniające.\n\n•\nSłuży do dodania informacji uzupełniającej, wyjątku lub korekty wypowiedzi z pierwszej części zdania.\n\n• Znaczeniowo bliskie „Jednakże / Mimo to / Choć z drugiej strony…”.\n•\nZdanie składowe B nie zaprzecza całkowicie zdaniu składowemu A, lecz jedynie je ogranicza, precyzuje.\n\n• Często stosowane w języku pisanym, lekko formalnym języku mówionym, w logicznym wywodzie.",
+    "notes": "• Bardzo często pojawia się w tekstach do czytania na JLPT, gdy autor podaje główną myśl, a potem koryguje ją za pomocą もっとも, by ją doprecyzować lub dodać wyjątek.\n• Można tłumaczyć elastycznie: „Jednakże”, „Choć z drugiej strony…”, „Oczywiście…”, „Tyle że…”.\n• Zwykle stoi po kropce lub przecinku, można też zapisać: 「～。 もっとも～。」. explain: Używa się, gdy uzupełnia się poprzednie zdanie, dodając wyjątek lub warunek. ⏐ examples: 1. 検査の前夜から飲食禁止です。もっとも水は飲んでもかまいません。\nOd wieczora przed badaniem nie wolno jeść ani pić. Choć wodę można pić.\n2. 全員が参加しなければなりません。もっとも病気の場合の別です。\nWszyscy muszą wziąć udział. Choć w przypadku choroby jest inaczej.",
+    "mistakes": [
+     "Mylenie z それでも: それでも = mimo przeszkody A i tak robi się B; もっとも = jedynie dodaje wyjątek lub warunek.",
+     "Użycie w kontekście silnych emocji, np. narzekania → nienaturalne; należy użyć それなのに・でも.",
+     "Pominięcie zdania składowego A: もっとも zawsze opiera się na wcześniejszej informacji.",
+     "Pominięcie przecinka: w języku pisanym należy pisać „もっとも、～”。"
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "もっとも",
+       "Jednak, choć…",
+       "Dodaje wyjątek/warunek, nie zaprzecza całkowicie poprzedniej myśli.",
+       "<ruby>便利<rt>べんり</rt></ruby>だ。 もっとも、<ruby>高<rt>たか</rt></ruby>いが。"
+      ],
+      [
+       "それでも",
+       "Mimo to nadal…",
+       "B wyraża działanie/determinację pokonującą A.",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "それなのに",
+       "A jednak…",
+       "Uczucie rozczarowania, B silnie wbrew oczekiwaniom wynikającym z A.",
+       "<ruby>約束<rt>やくそく</rt></ruby>した。 それなのに<ruby>来<rt>こ</rt></ruby>なかった。"
+      ],
+      [
+       "しかし",
+       "Ale, jednakże",
+       "Publicystyczne, mocno przeczące, typowe dla formalnego języka pisanego.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>く</rt></ruby>ると<ruby>言<rt>い</rt></ruby>った。 しかし<ruby>来<rt>こ</rt></ruby>なかった。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1050,
+   "src_hash": "4906f2adafec20de",
+   "fields": {
+    "meaning": "Krótko mówiąc, ogólnie rzecz biorąc",
+    "connection": "[zdanie/zdanie składowe]。 + 要するに、 + [wniosek/sedno]",
+    "examples": [
+     "Zastanawiałem się nad wieloma rzeczami. Krótko mówiąc, nie pozostaje nic innego, jak spróbować.",
+     "On jest zajęty i chyba w ogóle go to nie interesuje. Krótko mówiąc, nie przyjdzie.",
+     "Wyjaśnienie trochę się przeciągnęło, ale krótko mówiąc, ta maszyna już się nie nadaje do użytku.",
+     "Podawałeś różne powody, ale krótko mówiąc, po prostu nie chcesz iść, prawda?",
+     "Ta praca jest trudna i czasochłonna. Krótko mówiąc, trzeba być na to przygotowanym."
+    ],
+    "explain": "Stawia się na początku zdania składowego B, aby wydobyć istotę/sedno zdania składowego A.\nNiuans: obiektywny/neutralny, a czasem nieco chłodny, jednoznaczny.\nCzęsto używane, gdy mówiący chce szybko podsumować lub gdy uważa, że słuchacz odbiega od tematu.\nCzęsto pojawia się w języku mówionym, prezentacjach, raportach i tekstach do czytania na JLPT.\n\n•\nStreszcza, podsumowuje wcześniejszą treść krótko i zwięźle.\n\n•\nWyraża sedno, istotę problemu po rozwlekłym lub szczegółowym przedstawieniu.\n\n•\nNaturalne tłumaczenie: „Krótko mówiąc…”, „Innymi słowy…”, „Ogólnie rzecz biorąc…”, „W końcu…”.\n\n• Często używane w wyjaśnieniach, prezentacjach, logicznych rozmowach lub przy podkreślaniu własnego zdania.",
+    "notes": "• Zwykle stoi po kropce lub przecinku: 「～。 要するに、～。」\n• Łatwo pojawia się w tekstach objaśniających, gdy autor chce podkreślić rezultat lub sedno.\n• W rozmowie może mieć lekko ironiczny niuans: „要するにさ、君はやりたくないんでしょ？” meaning_vi: Mówiąc krótko, podsumowując ～ ⏐ explain: Oznacza prostsze wyjaśnienie poprzedniego zdania. ⏐ examples: 1. 試合に大負けした。要するに、相手のチームと力の差があったということだ。\nPrzegraliśmy mecz z kretesem. Krótko mówiąc, była między nami a rywalami różnica umiejętności.\n2. 彼は一度も入賞しなかった。要するに、才能がなかったということだ。\nAni razu nie zdobył nagrody. Krótko mówiąc, nie miał talentu.",
+    "mistakes": [
+     "Mylenie z つまり: つまり = wyrażenie tej samej informacji inaczej; 要するに = wyciągnięcie wniosku.",
+     "Użycie, gdy nie ma jeszcze treści do podsumowania → nienaturalne.",
+     "Użycie w bardzo formalnym tekście, np. w rozprawie → lepiej użyć „結論としては…, 要するに…” lub innego wyrażenia akademickiego.",
+     "Pominięcie przecinka/、 po 要するに w języku pisanym jest niezgodne z normą."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "<ruby>要<rt>よう</rt></ruby>するに",
+       "Krótko mówiąc, podsumowując",
+       "Podaje zwięzły wniosek po szczegółowym wyjaśnieniu.",
+       "<ruby>要<rt>よう</rt></ruby>するに、<ruby>無理<rt>むり</rt></ruby>だ。"
+      ],
+      [
+       "つまり",
+       "To znaczy, innymi słowy",
+       "Wyjaśnia tę samą informację w inny sposób.",
+       "<ruby>日本語<rt>にほんご</rt></ruby>、 つまり、<ruby>日本<rt>にほん</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>。"
+      ],
+      [
+       "<ruby>結局<rt>けっきょく</rt></ruby>",
+       "Ostatecznie",
+       "Podkreśla ostateczny rezultat po pewnym procesie.",
+       "<ruby>結局<rt>けっきょく</rt></ruby>、<ruby>来<rt>こ</rt></ruby>なかった。"
+      ],
+      [
+       "<ruby>要<rt>よう</rt></ruby>は",
+       "Krótko mówiąc",
+       "Bardziej typowe dla języka mówionego, znaczeniowo bliskie <ruby>要<rt>よう</rt></ruby>するに.",
+       "<ruby>要<rt>よう</rt></ruby>は、<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1051,
+   "src_hash": "0b6efc13ade9a5f1",
+   "fields": {
+    "meaning": "～すぎた結果(けっか)→（-）の結果(けっか)\nZ powodu nadmiaru – skutek przesady",
+    "examples": [
+     "Z nadmiaru zdenerwowania poczułem się źle.",
+     "Mama z nadmiaru zmartwień zachorowała.",
+     "We współczesnej Japonii są kobiety, które tak bardzo przejmują się figurą, że stosują drastyczne diety.",
+     "W Japonii, w pośpiechu ku wzrostowi gospodarczemu, niszczenie środowiska postępowało gwałtownie.",
+     "Byłem tak pochłonięty grą, że nie zauważyłem, kiedy tata wrócił do domu.",
+     "*Było tak zimno (=z powodu ogromnego zimna), że nie mogłem oddychać."
+    ],
+    "notes": "Łączy się z rzeczownikami lub czasownikami wyrażającymi uczucia lub stany i oznacza, że ich stopień jest skrajny; w drugiej części opisuje się niepożądany rezultat, który z tego powodu nastąpił."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

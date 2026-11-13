@@ -1,0 +1,594 @@
+{
+ "batch": "b073",
+ "lang": "pl",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 1103,
+   "src_hash": "98466c15543c4398",
+   "fields": {
+    "meaning": "～も・・・だし、～もまた・・・だ\nZarówno..., jak i...",
+    "examples": [
+     "Na sali były zarówno osoby stanu wolnego, jak i osoby w związku małżeńskim.",
+     "W tamtej restauracji zarówno jedzenie jest smaczne, jak i atmosfera przyjemna, a do tego ceny są przystępne.",
+     "Jest świetny zarówno w sporcie, jak i w grze na pianinie, na której gra na poziomie zawodowca.",
+     "Ani nauka mnie nie pociągała, ani sport mi nie szedł, więc oczywiście i oceny były słabe.",
+     "W domu nie mamy ani klimatyzacji, ani mikrofalówki.",
+     "*Tamci rodzice nawet nie próbują upomnieć dziecka, gdy sprawia innym kłopot. Doprawdy, jacy rodzice, takie dziecko."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1104,
+   "src_hash": "e991f512e91a793f",
+   "fields": {
+    "meaning": "Wcale nie…, ani trochę nie…",
+    "examples": [
+     "Nie martw się. To żadna choroba ani nic takiego.",
+     "Ten lokal wcale nie jest tani, a mimo to zawsze jest pełny.",
+     "To nie żadna miłość. To zwykła obsesja.",
+     "On nie jest żadnym bohaterem. To zwykły człowiek.",
+     "To wynik, w którym nie ma niczego szczególnego."
+    ],
+    "explain": "Język mówiony, bezpośredni; może brzmieć jak mocne, dość szorstkie przeczenie. W tekstach formalnych należy używać go z rozwagą.\n„でも” oznacza „albo coś w tym rodzaju” i poszerza zakres przeczenia; „も” podkreśla „nawet … nie”.\nCzęsto używa się go, by kogoś uspokoić, sprostować nieporozumienie lub odeprzeć czyjąś opinię.\n\n• Przeczenie z emfazą: „wcale nie … ani nic takiego”, „ani trochę nie …”.\n• Forma „Nでもなんでもない” jest bardzo częsta; „Nもなんでもない” też się spotyka, ale rzadziej, ma bezpośredni, dosadny niuans.\n• Z przymiotnikami konstrukcja podkreśla stopień „zupełnie nie”: 高くもなんでもない（wcale nie drogie）, 怖くもなんでもない（ani trochę nie straszne）.",
+    "notes": "• Forma z podwójną emfazą „XでもYでもなんでもない” zaprzecza wszystkim możliwościom: 若さでも実力でもなんでもない.\n• Z przymiotnikami い w niektórych regionach występuje bardziej naturalny wariant: ～くもなんともない (～なんともない znaczy „nic się nie stało”).\n• W rozmowie mocny spadek intonacji na końcu wzmacnia odcień odrzucenia.",
+    "mistakes": [
+     "Użycie „Nもなんでもない” w sytuacjach formalnych brzmi szorstko; lepiej zamienić na „Nではない／Nとは言えない”.",
+     "Mylenie z samodzielnym „なんでもない” w znaczeniu „nic takiego/nic się nie stało”: 痛くもなんでもない（ani trochę nie boli） różni się od なんでもない（nic się nie stało）。",
+     "Na egzaminie JLPT często sprawdza się rozpoznanie szerokiego zakresu przeczenia wynikającego z „でも”: w porównaniu z 全然～ない jest to przeczenie obejmujące wyliczenie wielu możliwości."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Nでもなんでもない",
+       "Ani N, ani nic takiego",
+       "Najczęstsza forma",
+       "<ruby>病気<rt>びょうき</rt></ruby>でもなんでもない"
+      ],
+      [
+       "Aくもなんでもない",
+       "Wcale nie A",
+       "Z przymiotnikami い",
+       "<ruby>高<rt>たか</rt></ruby>くもなんでもない"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない／まったく～ない",
+       "Zupełnie nie",
+       "Bardziej neutralne, bez „でも”",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>高<rt>たか</rt></ruby>くない"
+      ],
+      [
+       "<ruby>別<rt>べつ</rt></ruby>に～ない",
+       "Niekoniecznie/nic szczególnego",
+       "Łagodniejsze, mniej konfrontacyjne",
+       "<ruby>別<rt>べつ</rt></ruby>に<ruby>困<rt>こま</rt></ruby>ってない"
+      ],
+      [
+       "～というものでもない",
+       "Niekoniecznie jest tak, że …",
+       "Wyjaśnia, nie jest stanowczym przeczeniem",
+       "<ruby>努力<rt>どりょく</rt></ruby>すればいいというものでもない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1105,
+   "src_hash": "cde50e6b3da34ddf",
+   "fields": {
+    "meaning": "Zarówno…, jak i…",
+    "examples": [
+     "W życiu zdarzają się zarówno porażki, jak i sukcesy.",
+     "W tej pracy bywają chwile przyjemne, ale bywają też ciężkie.",
+     "W Japonii jest zarówno tradycja, jak i innowacja.",
+     "Są sklepy tanie, są i drogie.",
+     "Jacy rodzice, takie dziecko."
+    ],
+    "explain": "Często używa się go z ある/いる/起こる/見られる, by wskazać istnienie dwóch stron.\nGdy chce się mocno podkreślić krytykę, stosuje się ramę „NもNならNもNだ”.\nW miejsce N może wystąpić fraza rzeczownikowa: ～こともあれば～こともある.\n\n• Równoległe wyliczanie dwóch stron: jest zarówno A, jak i B; czasem z niuansem „jest i to, i tamto”.\n• Typ „NもNならNもNだ” zwykle wyraża ocenę (często z zabarwieniem negatywnym): „jakie A, takie i B”.\n• Często używa się go do przedstawienia ogólnej charakterystyki lub wyważonego komentarza (zalety/wady) na temat danego obiektu.",
+    "notes": "• Forma „Vば” w tym wzorze występuje głównie jako „ある/いる/起こる…”, a przy innych czasownikach zwykle przechodzi się na nominalizację: ～こともあれば～こともある.\n• Wyrażenie „NもNならNもNだ” rzadko bywa użyte pozytywnie, zwykle wyraża wyrzut.\n• Tłumaczenie bywa elastyczne: „i… i…”, „raz… raz…”, „zarówno…, jak i…”. meaning_vi: nie tylko ～, ale też ～ ⏐ explain: Wyraża dodanie faktu o tym samym kierunku co poprzedni. (dobry – dobry, zły – zły) ⏐ examples: 1. 彼は勉強もできればスポーツもできる。\nDobrze radzi sobie zarówno z nauką, jak i ze sportem.\n2. 私は歌も下手ならダンスも下手だ。\nZarówno śpiewam, jak i tańczę kiepsko.",
+    "mistakes": [
+     "Użycie い形容詞 z ければ w tej ramie: × 安ければ高いも → należy powiedzieć 安い店もあれば高い店もある.",
+     "Mylenie z ～たり～たり: mówiąc „czasem… czasem…”, obie formy są poprawne, ale ～も～ば～も～ skłania się ku istnieniu/ogólnej charakterystyce.",
+     "Zapomnienie o powtórzeniu „も”: × 山もあれば海ある → ○ 山もあれば海もある."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica/akcent",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～たり～たりする",
+       "Raz…, raz…",
+       "Wyliczanie czynności/momentów; skupia się na działaniach",
+       "<ruby>泣<rt>な</rt></ruby>いたり<ruby>笑<rt>わら</rt></ruby>ったりする。"
+      ],
+      [
+       "～し～し",
+       "I…, i… (wiele powodów/cech)",
+       "Wyliczanie przyczyn/cech, bez warunkowego ば",
+       "<ruby>安<rt>やす</rt></ruby>いし<ruby>近<rt>ちか</rt></ruby>いし<ruby>便利<rt>べんり</rt></ruby>。"
+      ],
+      [
+       "～もあるし～もある",
+       "Jest i A, i B",
+       "Język mówiony, bez ば",
+       "<ruby>長所<rt>ちょうしょ</rt></ruby>もあるし<ruby>短所<rt>たんしょ</rt></ruby>もある。"
+      ],
+      [
+       "NもNならNもNだ",
+       "Zarówno A, jak i B (zasługują na krytykę/uwagę)",
+       "Silna ocena, zwykle z zabarwieniem negatywnym",
+       "<ruby>店<rt>みせ</rt></ruby>も<ruby>店<rt>みせ</rt></ruby>なら<ruby>客<rt>きゃく</rt></ruby>も<ruby>客<rt>きゃく</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1106,
+   "src_hash": "864f20b72a1efe69",
+   "fields": {
+    "meaning": "Nawet chcąc…, i tak nie…",
+    "connection": "V forma wolitywna + にも + [nie można] (行こうにも時間がない)",
+    "examples": [
+     "Nawet jeśli chcę się skontaktować, nie znam numeru telefonu.",
+     "Choćby się chciało dotrzeć na miejsce, komunikacja stoi.",
+     "Nawet jeśli chcę przeprosić, nie mam okazji się z nim spotkać.",
+     "Nawet jeśli chce się zapomnieć, nie da się tego zapomnieć tak łatwo.",
+     "Nawet jeśli chcę się zgłosić, termin już minął."
+    ],
+    "explain": "Używa się, gdy brakuje narzędzi/informacji: 連絡先がない／手段がない／時間がない.\nŚredni stopień formalności; można go używać w języku pisanym i mówionym.\nDruga część zdania to zwykle: 〜ない／難しい／無理だ／困難だ.\n\n～ようにも wyraża sytuację „nawet chcąc/zamierzając zrobić V, nie można tego zrobić lub jest to bardzo trudne” z powodu braku warunków, środków albo obiektywnych przeszkód. „にも” podkreśla hipotetyczny wysiłek, który jest jednak niewykonalny.\n• Zwykle towarzyszy mu druga część zdania z przeczeniem lub treścią wyrażającą przeszkodę.\n• Daje poczucie „bezsilności” wobec okoliczności, a nie subiektywnego braku chęci.",
+    "notes": "• Gdy kontekst jest jasny, możliwe jest pominięcie drugiej części zdania: 金がなくて、行こうにも…。 (język mówiony)\n• Często towarzyszą mu czasowniki percepcji/uczuć: 忘れる／笑う／泣く.\n• W formalnym języku pisanym w drugiej części zdania pojawia się rzeczownik abstrakcyjny: 〜に障害がある／〜に支障を来す.",
+    "mistakes": [
+     "Użycie „ようにも”, gdy druga część zdania jest twierdząca, → niepoprawnie, błąd logiczny (行こうにも時間がある → sprzeczność).",
+     "Mylenie z „ようと”: „ようにも” to „nawet chcąc…”, a „ようと〜まいと” to „bez względu na to, czy… czy nie”.",
+     "Pominięcie „にも”: 連絡しように… → niepoprawnie; powinno być 連絡しようにも…"
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "VようにもVれない",
+       "Chcieć coś zrobić, ale nie móc",
+       "Pełna forma z powtórzonym czasownikiem; podkreśla możliwość",
+       "<ruby>会<rt>あ</rt></ruby>おうにも<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "Vます＋ようがない",
+       "Nie ma sposobu, by to zrobić",
+       "Absolutny brak sposobu",
+       "<ruby>連絡<rt>れんらく</rt></ruby>しようがない。"
+      ],
+      [
+       "VたくてもVない",
+       "Chcieć, ale nie móc",
+       "Podkreśla chęć (chcieć coś zrobić)",
+       "<ruby>行<rt>い</rt></ruby>きたくても<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "VようとしてもVない",
+       "Próbować, ale bez skutku",
+       "Implikuje, że podjęto próbę",
+       "<ruby>寝<rt>ね</rt></ruby>ようとしても<ruby>寝<rt>ね</rt></ruby>られない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1107,
+   "src_hash": "f6d158879cecde05",
+   "fields": {
+    "meaning": "Choćby się chciało…, nie można…",
+    "connection": "V forma wolitywna + にも + V forma potencjalna ない (読もうにも読めない)",
+    "examples": [
+     "Są wspomnienia, których nie da się zapomnieć, choćby się chciało.",
+     "Sala jest pełna – choćby się chciało, nie da się wejść.",
+     "Choć chce mi się spać, nie mogę zasnąć, nawet gdy próbuję.",
+     "Nawet jeśli chcę się z nim skontaktować, nie mogę. Numer mi przepadł.",
+     "Panowała atmosfera, w której choćby się chciało, nie dało się śmiać."
+    ],
+    "explain": "Używa się przy trudnościach raczej obiektywnych niż subiektywnych.\nBardziej formalne niż „VたくてもVない”.\nPasuje do języka pisanego, prasy, prac naukowych, gdy trzeba podkreślić niemożność.\n\nWyraża „nawet chcąc/zamierzając zrobić V, nie można zrobić V”. Przyczyną są obiektywne ograniczenia (brak warunków, zakaz, zdrowie, odległość itp.). Podkreśla bezsilność wobec okoliczności.\n• Forma z powtórzeniem tego samego czasownika: Vようにも V-可能形-ない.\n• Druga część zdania to zawsze przeczenie formy potencjalnej tego samego czasownika.",
+    "notes": "• W standardowym języku należy unikać „ら抜き言葉”: 見れない → lepiej 見られない.\n• Często towarzyszą mu czasowniki percepcji/uczuć: 忘れる／笑う／泣く／動く.\n• W drugiej części zdania może też wystąpić konstrukcja w formie biernej/potencjalnej: 〜られない.",
+    "mistakes": [
+     "Niepowtórzenie właściwego czasownika: 忘れようにも考えられない → niepoprawnie; powinno być 忘れようにも忘れられない.",
+     "Użycie twierdzenia w drugiej części zdania → niepoprawnie: 会おうにも会える.",
+     "Błędna forma potencjalna する/来る: しようにもしれない → niepoprawnie; powinno być しようにもできない. 来ようにも来れない (język mówiony) → w standardowym języku należy użyć 来られない."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "VたくてもVない",
+       "Chcieć, ale nie móc",
+       "Podkreśla „chcieć”, bardziej neutralne",
+       "<ruby>会<rt>あ</rt></ruby>いたくても<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "VようとしてもVない",
+       "Próbować, ale bez skutku",
+       "Implikuje podjętą próbę",
+       "<ruby>寝<rt>ね</rt></ruby>ようとしても<ruby>寝<rt>ね</rt></ruby>られない。"
+      ],
+      [
+       "Vます＋ようがない",
+       "Nie ma sposobu, by to zrobić",
+       "Absolutny brak sposobu/warunków",
+       "<ruby>連絡<rt>れんらく</rt></ruby>しようがない。"
+      ],
+      [
+       "Vようにも",
+       "Nawet chcąc… (trudno/nie można)",
+       "Forma skrócona; nie musi powtarzać V",
+       "<ruby>行<rt>い</rt></ruby>こうにも<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1108,
+   "src_hash": "150909a304b57eec",
+   "fields": {
+    "meaning": "Nie ma sposobu…, nie można…",
+    "connection": "Vます(bez ます) + ようもない (連絡しようもない)",
+    "examples": [
+     "Nie znam ani jego adresu, ani numeru telefonu, więc nie mam jak się z nim skontaktować.",
+     "Nie ma żadnych tropów, więc nie da się zbadać tej sprawy.",
+     "Ta plama jest zbyt stara, nie da się jej usunąć.",
+     "Wyjaśnienie jest niejasne, nie sposób go zrozumieć.",
+     "Dane są zaszyfrowane, nie ma sposobu, by je odzyskać."
+    ],
+    "explain": "Używa się, gdy coś jest obiektywnie niemożliwe, a nie dlatego, że mówiący tego nie chce.\nNiuans stanowczy, mocny; pasuje do języka pisanego i raportów.\nW odniesieniu do uczuć: 「言いようもない」= nie wiadomo, jak to właściwie wyrazić (aura literacka).\n\n～ようもない wyraża „nie ma żadnego sposobu/zupełnie nie można zrobić V” z powodu braku informacji, narzędzi lub warunków. Stopień niemożności jest wyższy niż w „〜にくい/づらい”.\n• Nacisk pada na „brak sposobu”.\n• Często łączy się z rzeczownikami oznaczającymi przyczynę: 連絡先／手がかり／手段／方法／証拠.",
+    "notes": "• „どうしようもない” to popularny zwrot stały: być bezradnym/nie mieć już wyjścia.\n• Często używa się go w raportach z dochodzeń, QA, IT: 再現しようもない／検証しようもない.\n• Nie należy mylić z „〜しかない” (pozostaje tylko…) — znaczenie jest przeciwne.",
+    "mistakes": [
+     "Błędna forma czasownika: V辞書形 + ようもない → niepoprawnie; powinno być V-ます bez ます.",
+     "Użycie, gdy wciąż istnieje inne rozwiązanie → sprzeczność znaczeniowa.",
+     "Mylenie z „〜にくい”: „ようもない” to niemożliwość z powodu braku sposobu, a nie tylko „trudność”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vます＋ようがない",
+       "Nie ma sposobu",
+       "Niemal synonim ようもない",
+       "<ruby>直<rt>なお</rt></ruby>しようがない。"
+      ],
+      [
+       "VようにもVれない",
+       "Chcieć coś zrobić, ale nie móc",
+       "Podkreśla chęć/wysiłek",
+       "<ruby>会<rt>あ</rt></ruby>おうにも<ruby>会<rt>あ</rt></ruby>えない。"
+      ],
+      [
+       "Vにくい／Vづらい",
+       "Trudno coś zrobić",
+       "Tylko trudność, nie niemożliwość",
+       "<ruby>読<rt>よ</rt></ruby>みにくい。"
+      ],
+      [
+       "V<ruby>不可能<rt>ふかのう</rt></ruby>（できない）",
+       "Nie można",
+       "Neutralne, nie implikuje „braku sposobu”",
+       "<ruby>修理<rt>しゅうり</rt></ruby>できない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1109,
+   "src_hash": "deefe6921c53c45b",
+   "fields": {
+    "meaning": "Bez…, wcale nie…",
+    "examples": [
+     "Odszedł z firmy, nie radząc się nikogo.",
+     "Wyszła z pokoju, nie mówiąc ani słowa.",
+     "Pracowano dalej bez chwili odpoczynku.",
+     "Nie wolno przeglądać danych bez uzyskania pozwolenia.",
+     "Ukończył projekt, nie popełniając żadnego błędu.",
+     "Przystępowanie do prezentacji bez żadnego przygotowania to lekkomyślność."
+    ],
+    "explain": "Pasuje do tekstów formalnych, raportów, artykułów naukowych.\nPodkreśla „całkowity brak” czynności A; mocniejsze niż ～ないで／～ずに.\nCzęsto używa się go, gdy A jest czymś, co normalnie należy zrobić, ale mówiący podkreśla, że tego nie zrobiono.\n\n• Wyraża wykonanie czynności B przy całkowitym niewykonaniu czynności A (V-る).\n• Wysoki stopień formalności; często w raportach, artykułach, relacjach.\n• Często łączy się ze słowami podkreślającymi częstotliwość „一度も／少しも／まったく”.\n• V-る musi być zwykle oczekiwaną czynnością, która tutaj „nie nastąpiła”.",
+    "notes": "• W tekstach polityk/regulaminów ことなしに nadaje poważny ton: 許可を得ることなしに～は禁止する。\n• W połączeniu z wyrażeniami oceny: ～ことなしに済む（nie musieć robić A）.\n• Gdy potrzebny jest łagodny ton, warto rozważyć ～ないで／～ずに; gdy potrzebna jest formalność/emfaza, używa się ～ことなしに／～ことなく.",
+    "mistakes": [
+     "Użycie z czynnością, która nie jest wyraźnie „zwyczajowa” → zdanie brzmi nienaturalnie (wzór podkreśla „należało zrobić A”).",
+     "Mylenie z ～ないで: na egzaminach często sprawdza się niuans formalności; w języku pisanym należy wybrać ～ことなしに/ことなく.",
+     "Błędna forma: V-ない + ことなしに（×）; poprawnie: V-る + ことなしに.",
+     "Nadużywanie w codziennej rozmowie -> brzmi sztywno; lepiej zamienić na ～ないで／～ずに."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ないで",
+       "Nie zrobić A i zrobić B",
+       "Język mówiony, bardziej neutralne.",
+       "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べないで<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～ずに",
+       "B bez A",
+       "Średnio formalne; częste w piśmie.",
+       "<ruby>挨拶<rt>あいさつ</rt></ruby>もせずに<ruby>帰<rt>かえ</rt></ruby>った。"
+      ],
+      [
+       "～ことなく",
+       "B bez A",
+       "Niemal równoważne; bardziej rozpowszechnione.",
+       "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>止<rt>と</rt></ruby>まることなく<ruby>走<rt>はし</rt></ruby>った。"
+      ],
+      [
+       "N + なしに",
+       "Bez N",
+       "Nominalizacja; szeroki zakres.",
+       "<ruby>断<rt>ことわ</rt></ruby>りなしに<ruby>欠席<rt>けっせき</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1110,
+   "src_hash": "b7ce77bfabeabb09",
+   "fields": {
+    "meaning": "Aby nie…, by uniknąć…",
+    "examples": [
+     "Aby nie popełnić błędu, proszę sprawdzić wszystko ponownie przed złożeniem.",
+     "Aby nie doszło do wypadku, konsekwentnie egzekwujemy normy bezpieczeństwa.",
+     "Proszę uważać na sformułowania, aby nie wywołać nieporozumień.",
+     "Żeby dziecko się nie zgubiło, daliśmy mu plakietkę z danymi kontaktowymi.",
+     "Zrewidujemy system, aby nigdy więcej nie popełnić tego samego błędu.",
+     "Załóż szalik, zanim wyjdziesz, żeby się nie przeziębić."
+    ],
+    "explain": "Formalne; często w instrukcjach, komunikatach wewnętrznych, na tablicach informacyjnych.\nSkupia się na celu zapobiegawczym; druga część zdania wskazuje konkretny środek/propozycję.\nMoże być użyte jako określenie: ～ことのないよう注意書き（uwaga, by nie…）\n\n• „Aby nie …”, „w celu uniknięcia …”: wyraża cel/zapobieganie, by coś złego się nie wydarzyło.\n• Niuans ceremonialny, formalny; pasuje do komunikatów/instrukcji/polityk.\n• Zwykle w drugiej części zdania towarzyszy mu prośba, propozycja lub konkretny środek.",
+    "notes": "• Wyrażenie „二度と～ことのないように” jest bardzo częste w przeprosinach i raportach naprawczych.\n• Na tablicach: 火事の起きることのないように → 火事を起こさないように (zwięźlej) zależnie od stopnia formalności.\n• Może stać na początku zdania jako zdanie podrzędne: ～ことのないように、関係各所に周知した。",
+    "mistakes": [
+     "Mylenie z ～ことがない (prawie nigdy nie) → zupełnie inne znaczenie.",
+     "Użycie przymiotnika/rzeczownika bezpośrednio przed ことのないように → niepoprawnie; musi być czasownik w formie V-る.",
+     "Pominięcie drugiej części zdania ze środkiem/propozycją sprawia, że zdanie w instrukcji brzmi nienaturalnie."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ないように",
+       "Aby nie…",
+       "Powszechne, mało formalne; częste w codziennych rozmowach.",
+       "<ruby>忘<rt>わす</rt></ruby>れないようにメモする。"
+      ],
+      [
+       "～ぬように",
+       "Aby nie… (język pisany)",
+       "Bardziej formalne/archaiczne; odpowiednik ～ないように.",
+       "<ruby>間違<rt>まちが</rt></ruby>えぬように<ruby>気<rt>き</rt></ruby>をつける。"
+      ],
+      [
+       "～ないために",
+       "Aby uniknąć…",
+       "Podkreśla wyraźną relację cel–przyczyna; bardziej racjonalny niuans.",
+       "<ruby>事故<rt>じこ</rt></ruby>を<ruby>起<rt>お</rt></ruby>こさないために<ruby>速度<rt>そくど</rt></ruby>を<ruby>落<rt>お</rt></ruby>とす。"
+      ],
+      [
+       "～ことのないようにする",
+       "Starać się, aby nie…",
+       "Podkreśla ciągły wysiłek wykonawcy czynności.",
+       "<ruby>遅刻<rt>ちこく</rt></ruby>することのないようにする。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1111,
+   "src_hash": "d528be163af7ed67",
+   "fields": {
+    "meaning": "Gdy się zacznie…, nie ma końca",
+    "examples": [
+     "Gdyby zacząć wymieniać jego wady, nie byłoby końca.",
+     "Gdy zacznie się wyliczać rzeczy, których się pragnie, nie ma końca.",
+     "O tym temacie można by mówić bez końca, więc skończmy na tym.",
+     "Zalety tego menu można by wymieniać bez końca, ale najpierw przedstawię klasyczne pozycje.",
+     "Gdy zacznie się narzekać na obecną sytuację, nie ma końca, więc skupmy się na rozwiązaniach.",
+     "Gdy zacznie się szukać rzeczy do poprawy, nie ma końca, ale ustalmy priorytety."
+    ],
+    "explain": "Retoryczny niuans służący zmianie tematu, zamknięciu sprawy, uniknięciu dygresji.\nCzęsto towarzyszy mu から／ので wskazujące powód przerwania: ～ときりがないから／ので.\nPasuje zarówno do języka mówionego, jak i pisanego; w piśmie często z挙げる・数える.\n\n• Jeśli zacznie się robić/wspominać V, to „nie ma końca”.\n• Używa się go do skrócenia, podsumowania: „można by mówić długo, ale na tym poprzestańmy”.\n• Często przy wyliczaniu przykładów, narzekaniu, pragnieniach, zaletach/wadach…",
+    "notes": "• „きり” w きりがない = 切り（granica/kraniec）; dosłownie: „brak linii wyznaczającej koniec”.\n• Aby zdanie brzmiało naturalnie, poprzedza się je frazą wyliczającą: 例を挙げるときりがない／数え上げればきりがない。\n• Bardzo wygodne do zakończenia rozwlekłego akapitu: ～ときりがないので、このあたりで切り上げます。",
+    "mistakes": [
+     "Mylenie „きり” z „切り/限り” w zapisie → uwaga: w tym wzorze pisze się ひらがな: きりがない.",
+     "Użycie z nieodpowiednim czasownikiem (niewyrażającym wyliczania/rozpoczęcia) sprawia, że zdanie brzmi nienaturalnie.",
+     "Pominięcie warunkowego と／ば/たら → przed きりがない musi stać zdanie składowe wyrażające warunek."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～たら<ruby>最後<rt>さいご</rt></ruby>",
+       "Gdy raz się…, to (złe skutki, trudno przestać)",
+       "Podkreśla negatywne skutki/nieodwracalność.",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>始<rt>はじ</rt></ruby>めたら<ruby>最後<rt>さいご</rt></ruby>、<ruby>止<rt>と</rt></ruby>まらない。"
+      ],
+      [
+       "～<ruby>出<rt>だ</rt></ruby>したら<ruby>止<rt>と</rt></ruby>まらない",
+       "Gdy się zacznie, nie można przestać",
+       "Język mówiony, silnie emocjonalne; bliskie znaczeniowo.",
+       "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>いい</rt></ruby>い<ruby>出<rt>だ</rt></ruby>したら<ruby>止<rt>と</rt></ruby>まらない。"
+      ],
+      [
+       "<ruby>限<rt>かぎ</rt></ruby>りがない／<ruby>限<rt>かぎ</rt></ruby>りない",
+       "Nie mieć granic",
+       "Przymiotnik/rzeczownik; różni się od zwrotu stałego きりがない.",
+       "<ruby>人間<rt>にんげん</rt></ruby>の<ruby>欲望<rt>よくぼう</rt></ruby>は<ruby>限<rt>かぎ</rt></ruby>りない。"
+      ],
+      [
+       "～と<ruby>言<rt>い</rt></ruby>えばきりがない",
+       "Gdyby mówić, nie byłoby końca",
+       "Utrwalony wariant tego wzoru.",
+       "<ruby>欠点<rt>けってん</rt></ruby>と<ruby>言<rt>い</rt></ruby>えばきりがない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1112,
+   "src_hash": "356b711dfcad9e64",
+   "fields": {
+    "meaning": "Nie ma potrzeby…",
+    "examples": [
+     "Patrząc na ten wynik, nie ma potrzeby wyjaśniać przyczyny.",
+     "To tylko mżawka, nie ma potrzeby brać taksówki. Chodźmy pieszo.",
+     "Nie trzeba dodawać, że to on jest najodpowiedniejszą osobą.",
+     "Wystarczy rzucić okiem, żeby to zrozumieć. Nie ma potrzeby tego badać.",
+     "Spotkanie można załatwić mailowo, więc nie ma potrzeby specjalnie przyjeżdżać do firmy."
+    ],
+    "explain": "Przy podkreślaniu „oczywistości”: często z当然・明らか・見れば分かる.\nPrzy podkreślaniu, że „nie warto się trudzić”: z わざわざ・わずか・この程度なら.\nGdy chodzi o formalny język pisany, w środku zdania płynniej brzmi ～までもなく.\nPo ～るまでもない nie używa się mocnego polecenia; pasuje do łagodnej rekomendacji/oceny.\n\n• Ocenia, że czynność jest niepotrzebna: bo jest zbyt oczywista, zbyt prosta albo koszt/wysiłek się nie opłaca.\n• Niuans obiektywny, uprzejmy; używane zarówno w języku mówionym, jak i pisanym. 言うまでもない często stoi na początku zdania stwierdzającego rzecz oczywistą.\n• W odróżnieniu od なくてもいい, ～るまでもない zwykle implikuje „zbędne/nie trzeba, bo to zbyt oczywiste”.",
+    "notes": "• „までも” pierwotnie znaczy „aż do stopnia, że…”; w połączeniu z przeczeniem „ない” daje znaczenie „nie dochodzi do stopnia, w którym trzeba by…”.\n• W raportach używa się „検討するまでもなく”, gdy wniosek jasno wynika z danych.\n• Należy unikać nadużywania, aby w komunikacji nie brzmieć protekcjonalnie.",
+    "mistakes": [
+     "Mylenie z ～なくてもいい: na egzaminach często trzeba wybrać niuans „oczywiste/zbędne” → wybiera się ～るまでもない.",
+     "Błędna forma: musi być V-る + までもない; nie używa się V-ない.",
+     "„来なくてもいい” vs „来るまでもない”: pierwsze zdanie daje pozwolenie, by nie przychodzić; drugie implikuje „nie trzeba przychodzić, bo nie warto”.",
+     "Umieszczenie po rzeczowniku jest błędne: ×予約までもない → 予約するまでもない."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Podobieństwo/różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～なくてもいい",
+       "Nie trzeba",
+       "Neutralne, wyraża pozwolenie; nie implikuje „oczywistości”.",
+       "<ruby>今日<rt>きょう</rt></ruby>、<ruby>宿題<rt>しゅくだい</rt></ruby>はやらなくてもいい。"
+      ],
+      [
+       "～には<ruby>及<rt>およ</rt></ruby>ばない",
+       "Nie ma potrzeby/nie dorównywać",
+       "Uprzejme/oficjalne; znaczy „nie trzeba się fatygować”.",
+       "ご<ruby>心配<rt>しんぱい</rt></ruby>には<ruby>及<rt>およ</rt></ruby>びません。"
+      ],
+      [
+       "～まで(して)",
+       "Aż do (przesady)",
+       "Inne znaczenie: podkreśla nadmierny stopień.",
+       "<ruby>借金<rt>しゃっきん</rt></ruby>までして<ruby>買<rt>か</rt></ruby>う<ruby>必要<rt>ひつよう</rt></ruby>はない。"
+      ],
+      [
+       "<ruby>言<rt>い</rt></ruby>うまでもない",
+       "Oczywiste",
+       "Zwrot stały, elastycznie używany na początku zdania.",
+       "<ruby>言<rt>い</rt></ruby>うまでもないが、<ruby>安全<rt>あんぜん</rt></ruby><ruby>第<rt>だい</rt></ruby><ruby>一<rt>いち</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

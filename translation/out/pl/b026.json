@@ -1,0 +1,595 @@
+{
+ "batch": "b026",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 395,
+   "src_hash": "c1b2a67dfc0962eb",
+   "fields": {
+    "meaning": "Po tym, jak; dopiero co | Dopiero co ~ | Dopiero co…, zaraz po tym, jak…",
+    "examples": [
+     "Na moją prośbę nauczyciel chętnie się zgodził.",
+     "Gdy udałem się do domu nauczyciela, okazało się, że niestety go nie było.",
+     "Po spróbowaniu jednego kęsa okazało się, że to bardzo smaczne.",
+     "Po zbadaniu sprawy wyszedł na jaw nieoczekiwany fakt.",
+     "Kiedy po długiej przerwie sprawdziłem swoją wagę, okazało się, że – tak jak myślałem – wzrosła.",
+     "Po zapytaniu osoby odpowiedzialnej dowiedziałem się, że dziś go nie ma."
+    ],
+    "explain": "Podkreśla rezultat lub odkrycie następujące natychmiast po czynności.\nW drugiej części zdania zwykle używa się czasu przeszłego; zdanie ma charakter relacji, jest obiektywne.\nNie używa się do mówienia o nawyku/regularnym powtarzaniu.\nW języku pisanym, przy relacjonowaniu rezultatów sprawdzenia/wyszukiwania, bardziej formalne niż ～たら.\n\n• Wyraża rezultat/zjawisko, które nastąpiło, albo informację odkrytą zaraz po wykonaniu czynności V.\n• Często towarzyszą mu czasowniki oznaczające próbę/sprawdzanie/krótką czynność: 〜てみる、尋ねる、調べる、連絡する、申し込む…\n• Niuans „jednorazowo, konkretnie, nowe odkrycie”, w odróżnieniu od wyrażania nawyku.\n• Często towarzyszą mu czasowniki percepcji/stwierdzenia: 分かった、気づいた、見つかった、断られた、判明した…",
+    "notes": "• Czasowniki wyrażające zamiar spróbowania 〜てみる + たところ to naturalna kolokacja przy relacjonowaniu rezultatu.\n• V-たところに/へ wyraża „właśnie gdy dopiero co …, nadchodzi …”; V-たところを podkreśla moment, w którym zostaje się przyłapanym/staje się celem.\n• W sprawozdaniach służbowych ～たところ często występuje razem z następującym po nim wnioskiem/propozycją.",
+    "mistakes": [
+     "Mylenie z ～たら: gdy zadanie wymaga podkreślenia „odkrytego rezultatu”, bardziej odpowiednie jest ～たところ.",
+     "Użycie ～たところ do nawyku/powtarzającej się czynności → niepoprawny niuans.",
+     "Mylenie ～たところ ze spójnikiem ところで „przy okazji/à propos” w rozmowie.",
+     "Pominięcie właściwej partykuły po ところ (に/へ/を) zniekształca znaczenie tła sytuacyjnego, jakim jest dany moment."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "V-たところ、～",
+       "Po zrobieniu A poznaje się/otrzymuje rezultat B",
+       "Podkreśla jednorazową czynność + rezultat",
+       "<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせたところ、<ruby>満席<rt>まんせき</rt></ruby>だった。"
+      ],
+      [
+       "V-たら、～",
+       "Kiedy/po A – B",
+       "Szersze znaczenie; nie podkreśla „próby/sprawdzania”",
+       "<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>たら、<ruby>雨<rt>あめ</rt></ruby>だった。"
+      ],
+      [
+       "V-てみたら、～",
+       "Po spróbowaniu A – B",
+       "Podkreśla „próbę”; niuans bliższy mowie potocznej",
+       "<ruby>食<rt>た</rt></ruby>べてみたら、<ruby>美味<rt>おい</rt></ruby>しかった。"
+      ],
+      [
+       "V-たばかり（だ）",
+       "Dopiero co (skończone)",
+       "Wskazuje tylko moment, nie implikuje rezultatu",
+       "<ruby>着<rt>つ</rt></ruby>いたばかりだ。"
+      ],
+      [
+       "V-る/ている/た + ところ",
+       "Właśnie w chwili/akurat gdy",
+       "Inna oś czasu: るところ（zaraz）, ているところ（w trakcie）, たところ（dopiero co skończone）",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>食<rt>た</rt></ruby>べているところ。"
+      ],
+      [
+       "V-たところで、～",
+       "Choćby nawet zrobić A, to (i tak na nic)",
+       "Zupełnie inne znaczenie (założenie + negacja skuteczności)",
+       "<ruby>謝<rt>あやま</rt></ruby>ったところで、<ruby>許<rt>ゆる</rt></ruby>されない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 396,
+   "src_hash": "5fc8405c2516c8b3",
+   "fields": {
+    "meaning": "Proszę ~ | Czy można prosić o… (dla mnie)?",
+    "examples": [
+     "Przepraszam, czy można prosić o ustąpienie mi tego miejsca?",
+     "Czy można prosić o otwarcie okna? Jest trochę gorąco.",
+     "Czy można prosić o wyjaśnienie jeszcze raz, powoli?",
+     "Czy można prosić o przesłanie mi tych materiałów mailem?",
+     "Czy można prosić o zrobienie mi zdjęcia?",
+     "Zabłądziłem – czy można prosić o zaprowadzenie mnie na stację?"
+    ],
+    "explain": "Często dodaje się zwrot łagodzący: すみませんが／申し訳ないですが／恐れ入りますが + V-て くれませんか, aby zmniejszyć bezpośredniość.\nW porównaniu z くれますか: くれませんか jest łagodniejsze, ponieważ ma formę pytania przeczącego i wyraża oczekiwanie „jeśli to możliwe”.\nW mowie potocznej można skrócić do くれない？; istnieje też mocno męskie 〜てくれ (szorstkie polecenie), którego należy unikać.\n\n• Prośba, by słuchacz zrobił coś „dla mojej/naszej korzyści”. Bardziej bezpośrednie niż ～てもらえませんか (otrzymywanie), ale nadal uprzejme.\n• Skuteczne, gdy słuchacz ma możliwość/prawo decydowania o działaniu. Można dodać przepraszający prefiks, aby złagodzić wypowiedź.\n• Niuans jest nieco „bezpośrednio proszący”, dlatego należy zachować ostrożność wobec osoby wyższej rangą/klienta – lepiej użyć ～ていただけませんか／～てくださいませんか.",
+    "notes": "• Dodanie przyczyny po ので／から ułatwia przyjęcie prośby: ドアを閉めてくれませんか。寒いので。\n• W biznesie należy unikać użycia przy żądaniach o charakterze władczym; zamiast tego stosuje się 〜ていただけますでしょうか／〜てくださいませんか.\n• Na wewnętrznym czacie wśród dobrze znających się osób 〜てくれますか jest wyborem równoważącym uprzejmość i naturalność.\nmeaning_vi: Czy można prosić o pomoc?\nexplain: Łagodnie uprzejme, daje słuchaczowi poczucie wyboru (może odmówić).\nCel dotyczy bezpośrednio korzyści mówiącego (prosi się kogoś, by zrobił coś dla nas).\nW służbowych e-mailach/rozmowach telefonicznych łączy się z いただけますと幸いです, aby zwiększyć uprzejmość: ご対応いただけますと幸いです。\nGdy prośba sprawia duży kłopot, należy dodać przeprosiny/zadośćuczynienie: お忙しいところ恐れ入りますが…\nNie używa się do sztywnych poleceń wewnętrznych (w bliskiej relacji przełożony–podwładny zastępuje się je 〜てください).\nexamples: 1. すみませんが、この書類を確認してもらえませんか。\nPrzepraszam, czy można prosić o sprawdzenie tego dokumentu?\n2. 恐れ入りますが、明日までにご連絡してもらえませんか。\nPrzepraszam za kłopot, czy można prosić o kontakt do jutra?\n3. 田中さんに会議で説明してもらえませんか。\nCzy można poprosić pana Tanakę o przedstawienie tego na zebraniu?\n4. もう少しゆっくり話してもらえませんか。\nCzy można prosić o mówienie trochę wolniej?\n5. この写真、メールで送ってもらえませんか。\nCzy można prosić o przesłanie tego zdjęcia e-mailem?\n6. 駅まで案内してもらえませんか。\nCzy można prosić o zaprowadzenie mnie na stację?\ncomparison: Wzór | Znaczenie | Różnica | Krótki przykład\nV-て もらえませんか | Uprzejma prośba | Standardowe, łagodne | 手伝（てつだ）って もらえませんか\nV-て いただけませんか | Bardzo uprzejma prośba | Silnie uniżające (kenjōgo) | ご確認（かくにん）して いただけませんか\nV-て くれませんか | Bezpośrednia prośba | Mniej uniżające | 説明（せつめい）して くれませんか\nV-て くれない？ | Potocznie | Używane wobec przyjaciół | 貸（か）して くれない？\nV-させて もらえませんか | Prośba o pozwolenie, by samemu coś zrobić | Punkt widzenia osoby proszącej o możliwość działania | 少（すこ）し休（やす）ませて もらえませんか\ncommon_mistakes: • Błędne wskazanie wykonawcy czynności, o którą się prosi: gdy mówi się do A, dołączanie に do A w bezpośredniej prośbie jest zbędne. Wystarczy „説明してもらえませんか”; „あなたに説明してもらえませんか” brzmi z dystansem.\n• Użycie 〜てもらえませんか wobec osoby znacznie wyższej rangą może być za mało uniżające; należy zmienić na 〜ていただけませんか.\n• Mylenie z 〜てください (polecenie). Na JLPT często pyta się o niuans: ください to łagodne polecenie; もらえませんか to łagodna prośba.\n• Brak uprzejmego zwrotu wstępnego w kontekście formalnym (w ocenie odbiorcy to brak ogłady). Należy dodać すみませんが／恐れ入りますが.\nmeaning_vi: Wyraża poufały sposób proszenia (gdy prosi się rodzinę lub bliskich przyjaciół)\nexamples: 1. ①　手伝ってもらえない（かな）？\nMożesz mi pomóc?\n2. ②　宿題が分からないんだけど、ちょっと教えてもらえる？\nNie rozumiem zadania domowego, możesz mi trochę wytłumaczyć?\n3. ③　『日本語スピードマスター』って本、見せてもらえないかな？\nMożesz mi pokazać książkę pod tytułem „Nihongo Speed Master”?\nmeaning_vi: Czy możesz zrobić… dla mnie? (prośba w mowie potocznej) | Uprzejmiej: ～てくださいませんか",
+    "mistakes": [
+     "Użycie wobec osoby wyższej rangą/klienta: brzmi za mało formalnie → należy wybrać 〜ていただけませんか／〜てくださいませんか.",
+     "Mylenie z 〜てもらえませんか w pytaniach JLPT o niuans „otrzymać” vs „zrobić dla kogoś”.",
+     "Pominięcie uprzejmego zwrotu łagodzącego sprawia, że zdanie brzmi obcesowo: należy dodać すみませんが／恐れ入りますが.",
+     "Błędne określenie beneficjenta: 〜てくれませんか znaczy „zrobić dla mnie”; nie używa się, gdy korzyść nie dotyczy mówiącego."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "V-てくれませんか",
+       "Bezpośrednia prośba",
+       "Umiarkowanie uprzejme; z odcieniem mowy potocznej",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくれませんか"
+      ],
+      [
+       "V-てもらえませんか",
+       "Czy mogę otrzymać tę przysługę",
+       "Bardziej neutralne, mniej „roszczeniowe”",
+       "<ruby>説明<rt>せつめい</rt></ruby>してもらえませんか"
+      ],
+      [
+       "V-ていただけませんか",
+       "Język uniżający (kenjōgo), bardzo uprzejme",
+       "Używane wobec osoby wyższej rangą/klienta",
+       "ご<ruby>確認<rt>かくにん</rt></ruby>していただけませんか"
+      ],
+      [
+       "V-てくださいませんか",
+       "Język wywyższający (sonkeigo), bardzo uprzejme",
+       "Bezpośrednie, ale pełne szacunku",
+       "<ruby>見<rt>み</rt></ruby>せてくださいませんか"
+      ],
+      [
+       "V-てくれる？",
+       "Prośba w mowie potocznej",
+       "Potocznie, wobec przyjaciół/znajomych",
+       "ちょっと<ruby>来<rt>き</rt></ruby>てくれる？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 398,
+   "src_hash": "8dd48612a1265610",
+   "fields": {
+    "meaning": "Łatwo V・Trudno V",
+    "examples": [
+     "W śnieżne dni na drodze łatwo się poślizgnąć.",
+     "Ten ołówek jest krótki i trudno się nim pisze."
+    ],
+    "explain": "～Vやすいです： łatwo  ~\n～Vにくいです： Trudno  ~\nWyrażenia ～Vやすい, ～Vにくい traktuje się jak przymiotnik い."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 399,
+   "src_hash": "9cd45453c0f642fe",
+   "fields": {
+    "meaning": "Zaraz ~ | Właśnie szykować się do zrobienia…",
+    "examples": [
+     "Właśnie zabieram się do obcinania włosów.",
+     "Zaraz będę jeść.",
+     "Właśnie gdy miałem wyruszać, zadzwonił szef.",
+     "Dziecko zbudziło mnie tuż przed zaśnięciem.",
+     "Właśnie wchodzę do sali konferencyjnej. Oddzwonię później.",
+     "Właśnie miałem wracać do domu, ale wypadła mi pilna sprawa."
+    ],
+    "explain": "Używa się, gdy czynność ma niemal zaraz nastąpić; stopień „bliskości” jest wyższy niż w „V-るとき”.\n„ところだった” wyraża, że o mało co się czegoś nie zrobiło (ale ostatecznie się nie zrobiło).\nZ „ところに/を/で”: wybór partykuły precyzuje relację między dwoma zdarzeniami (nadejście/przerwanie/tło).\nW stylu konwersacyjnym często dodaje się ちょうど/今/これから dla podkreślenia.\n\n• V-るところ: „zaraz/właśnie w chwili rozpoczęcia” czynności; natychmiastowość i bliskość.\n• Towarzyszą mu różne partykuły wyrażające związek z innym zdarzeniem: に (właśnie wtedy coś się dzieje), を (podleganie oddziaływaniu), で (tło).\n• W porównaniu z „～とき”: „～るところ” mocniej podkreśla, że to „tuż przed”, bliżej danego momentu.\n• Często występuje ze słowami wskazującymi moment, takimi jak これから, 今, ちょうど, まさに.",
+    "notes": "• „ところ” pierwotnie znaczy „miejsce/punkt”, tutaj to „punkt w czasie”.\n• „ところを失礼します” to uprzejme wyrażenie używane, gdy komuś się przerywa, oparte na „V-るところを”.\n• Łatwo łączy się z formą bierną/formą możliwości, aby opisać sytuację, w której ktoś podlega oddziaływaniu właśnie wtedy, gdy szykuje się coś zrobić.",
+    "mistakes": [
+     "Mylenie „ところ” w znaczeniu „miejsce” z „punktem w czasie”. Należy rozróżniać je na podstawie poprzedzającego czasownika.",
+     "Użycie „V-るところ” do czynności, której początek jest jeszcze odległy → nienaturalnie. Należy użyć „V-るとき/前に”.",
+     "Mylenie partykuły: ×出るところを雨が降った → ○出るところに雨が降ってきた.",
+     "Na JLPT często sprawdza się trzy pary: V-る/V-ている/V-た + ところ poprzez towarzyszący kontekst (ちょうど/今/さっき)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "V-るところ",
+       "Zaraz się zacznie",
+       "Natychmiastowe, tuż przed danym momentem",
+       "<ruby>出<rt>で</rt></ruby>るところ"
+      ],
+      [
+       "V-ているところ",
+       "Właśnie w trakcie",
+       "Odcinek czasu, w którym czynność jest w toku",
+       "<ruby>読<rt>よ</rt></ruby>んでいるところ"
+      ],
+      [
+       "V-たところ",
+       "Dopiero co skończone",
+       "Chwila tuż po zakończeniu",
+       "<ruby>終<rt>お</rt></ruby>わったところ"
+      ],
+      [
+       "V-ようとする",
+       "Zamierzać/mieć właśnie (celowo)",
+       "Podkreśla wolę, niekoniecznie tak blisko w czasie jak „ところ”",
+       "<ruby>出<rt>で</rt></ruby>かけようとする"
+      ],
+      [
+       "V-るとき",
+       "Kiedy/gdy",
+       "Ogólny punkt w czasie, mało natychmiastowości",
+       "<ruby>出<rt>で</rt></ruby>るとき"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 400,
+   "src_hash": "03682cd34534c999",
+   "fields": {
+    "meaning": "sprawiać, że coś staje się ~",
+    "examples": [
+     "To krzesło jest trochę wysokie, więc je obniżę.",
+     "Zanim córka wróci, posprzątam ten pokój."
+    ],
+    "explain": "Wykonawca czynności bezpośrednio oddziałuje na pewien obiekt i powoduje jego zmianę."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 401,
+   "src_hash": "1491e19bfbf7fd2f",
+   "fields": {
+    "meaning": "Za bardzo… | zbyt ~",
+    "connection": "Vます + すぎだ / Aい (bez い)・Na + すぎだ",
+    "examples": [
+     "Wczoraj zjadłem trochę za dużo.",
+     "On je trochę za dużo.",
+     "Ta koszula jest na mnie trochę za duża.",
+     "Z przejedzenia rozbolał mnie brzuch.",
+     "W zeszłym miesiącu wydałem za dużo pieniędzy. W tym miesiącu zamierzam oszczędzać.",
+     "To zadanie jest dla mnie za trudne. W ogóle go nie rozumiem."
+    ],
+    "explain": "◎ Dodaje się 「すぎ」 do czasownika lub przymiotnika w formie MASU, aby wyrazić nadmierny stopień. Czasownik przyjmuje postać 働きすぎ」「食べすぎ」, a przymiotnik – 「高すぎ」「長すぎ」. Można używać zarówno w formie rzeczownika 「～すぎ」, jak i w formie czasownika 「～すぎる」.\n\n• Wskazuje stopień przekraczający normę: „zbyt…”, zwykle niepożądany.\n• Używa się z V/A; samo すぎる jest czasownikiem, może przyjmować przeczenie/formę możliwości/formę wolitywną – rzadko używaną.\n• Należy rozróżniać „za dużo” (多すぎる) i „za mało” (少なすぎる) – w obu używa się すぎる.",
+    "notes": "Uwaga:\n●　「～すぎ」という名詞の形でも使う。\nUżywa się także formy rzeczownika [すぎ」\n1.食べすぎ飲みすぎは体に良くありません。\nNadmierne jedzenie i picie nie jest dobre dla zdrowia.\n2.  テレビの見すぎに注意しましょう。\nUważajmy, żeby nie oglądać za dużo telewizji.",
+    "mistakes": [
+     "Pomylenie kolejności: ×高いすぎる → 高すぎる.",
+     "Dodanie だ do な形容詞: ×静かだすぎる → 静かすぎる.",
+     "Mylenie z ～にすぎない w czytaniu ze zrozumieniem z powodu podobnych znaków kanji 過ぎる/過ぎない."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "～すぎる",
+       "Nadmiernie",
+       "Powszechne, elastyczne",
+       "<ruby>甘<rt>あま</rt></ruby>すぎる"
+      ],
+      [
+       "<ruby>過度<rt>かど</rt></ruby>なN/<ruby>過剰<rt>かじょう</rt></ruby>なN",
+       "Nadmierny/przesadny (rzeczownik/przydawka)",
+       "Formalne, język pisany",
+       "<ruby>過剰<rt>かじょう</rt></ruby>な<ruby>反応<rt>はんのう</rt></ruby>"
+      ],
+      [
+       "～にすぎない",
+       "Tylko, zaledwie",
+       "Inne znaczenie",
+       "<ruby>推測<rt>すいそく</rt></ruby>にすぎない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 402,
+   "src_hash": "0445afd58cff29f7",
+   "fields": {
+    "name": "～そうだ（informacja zasłyszana）",
+    "meaning": "Podobno ~（przekazanie informacji zasłyszanej z innego źródła）",
+    "connection": "V/A forma prosta・Naだ・Nだ + そうだ・そうです",
+    "examples": [
+     "Według prognozy pogody jutro ma padać deszcz.",
+     "Podobno Tanaka w przyszłym miesiącu bierze ślub.",
+     "Podobno ramen w tamtej restauracji jest bardzo smaczny."
+    ],
+    "explain": "Przekazuje informację znaną mówiącemu bez dodawania własnej opinii.\n\nGdy chce się wyraźnie podać źródło informacji, na początku zdania dodaje się ～によると、.\nNによると： Według ~\n～そうです： Podobno ~\n\nJest to wyrażenie opisujące oznaki tego, że coś zaraz się wydarzy, jak w przykładzie ①, przewidywania co do cech lub stanu rzeczy i zjawisk po ich zaobserwowaniu, jak w przykładach ②③, albo osąd czy przeczucie oparte na obserwacji wyglądu zewnętrznego lub stanu rzeczy, jak w przykładach ④⑤．",
+    "notes": "wygląda na…, zaraz ~ | Podobno ~"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 403,
+   "src_hash": "209ef21774d69c38",
+   "fields": {
+    "meaning": "Dopiero co…",
+    "examples": [
+     "Dopiero co zjadłem, a już zgłodniałem.",
+     "Dopiero w zeszłym miesiącu wziąłem ślub, więc jeszcze nie przywykłem do nowego życia.",
+     "Dopiero co kupiona zabawka już się zepsuła.",
+     "Ukończono to dopiero w tym roku",
+     "Jestem świeżo po przeprowadzce, więc w pokoju nie ma jeszcze nic.",
+     "Zdążyłem już zapomnieć imię, które dopiero co usłyszałem."
+    ],
+    "explain": "Wyraża, że w odczuciu mówiącego od jakiejś czynności lub zdarzenia nie minęło wiele czasu.\nVたところ：Zdarzenie rzeczywiście dopiero co nastąpiło.\n\nVたばかり：Mówiący ma poczucie, że zdarzenie dopiero co nastąpiło, niezależnie od rzeczywistego czasu, w którym miało miejsce.\nCzęsto używa się w połączeniu z konstrukcjami:\n\nVたばかりなのに、～　Chociaż dopiero co V, to ~\n\nVたばかりなので、～　Ponieważ dopiero co V, to ~\n◎ 「ばかり」 wyraża, że nie było jeszcze czasu, by wydarzyło się coś innego; tutaj znaczy „zaraz po tym, jak coś się wydarzyło”.\n\n•\nOpisuje czynność, która nastąpiła niedawno; czas, jaki upłynął od niej do teraźniejszości, jest bardzo krótki.\n\n• Naturalne tłumaczenie: „dopiero co…”, „właśnie…”, „ledwie…”.\n• Nie podkreśla dokładnego czasu (nie precyzuje, ile minut czy godzin), lecz poczucie, że „stało się to niedawno”.\n• Często używa się do wyjaśnienia przyczyny, dla której ktoś jeszcze nie przywykł, nie jest w czymś dobry lub czegoś nie potrafi.",
+    "notes": "•\nSubiektywne: okres określany jako „dopiero co” może być dłuższy lub krótszy zależnie od odczucia (np. osoba, która przeprowadziła się do Japonii 3 miesiące temu, wciąż może powiedzieć 来たばかり).\n• Często używa się do usprawiedliwienia, wyjaśnienia przyczyny, że „jeszcze się nie umie, jeszcze się nie przywykło”.\n• Sygnalizuje stan jeszcze nieustabilizowany, świeży.",
+    "mistakes": [
+     "Mylenie z ～たところ (które oznacza określenie momentu tuż po czynności).",
+     "Użycie do czynności, która miała miejsce zbyt dawno (np. 2 lata temu) → nienaturalnie.",
+     "Mylenie z ～たばかりに (przyczyna – zły rezultat).",
+     "Na JLPT często sprawdza się rozróżnianie たばかり・たところ・たところに・たところで."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "Vたばかり",
+       "Dopiero co…",
+       "Subiektywne odczucie, bez określenia dokładnego czasu",
+       "<ruby>来<rt>き</rt></ruby>たばかりです。"
+      ],
+      [
+       "Vたところ",
+       "Dopiero co skończone / Właśnie w chwili ukończenia",
+       "Podkreśla moment „tuż po zakończeniu czynności”",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>来<rt>き</rt></ruby>たところです。"
+      ],
+      [
+       "Vたばかりに",
+       "Tylko dlatego, że… (zły rezultat)",
+       "Zupełnie inne znaczenie",
+       "<ruby>冗談<rt>じょうだん</rt></ruby>を<ruby>言<rt>い</rt></ruby>ったばかりに、<ruby>怒<rt>おこ</rt></ruby>られた。"
+      ],
+      [
+       "Vたばかりだ／です",
+       "Dopiero co…",
+       "Bardziej formalne niż Vたばかり",
+       "<ruby>試験<rt>しけん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わったばかりです。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 405,
+   "src_hash": "ae2d3dce313b8add",
+   "fields": {
+    "meaning": "Niechcący…, i już po sprawie (forma mowy potocznej od ～てしまった)",
+    "examples": [
+     "Zadanie domowe już zrobione.",
+     "Wybacz, zjadłem ci pudding.",
+     "Zaspałem i spóźniłem się na pociąg.",
+     "Chyba zgubiłem portfel.",
+     "Ta sprawa niechcący mi się wymsknęła.",
+     "Książkę przeczytałem już w pociągu, więc mogę ci ją oddać."
+    ],
+    "explain": "Zwykłe zakończenie czynności: niekoniecznie z żalem (もうやっ ちゃった よ).\nŻal/nieuwaga: często występuje z つい、うっかり、気づかずに…\nMowa potoczna, używane wobec przyjaciół/znajomych; w pracy należy użyć ～てしまいました, aby było uprzejmie.\n\n• Całkowite zakończenie/doprowadzenie czynności do końca (neutral completion).\n• Zrobienie czegoś niechcący, z żalem, przypadkiem (unintentional/mistake nuance) – zależnie od kontekstu i intonacji.\n• Język mówiony, mowa potoczna; nieodpowiednie w tekstach formalnych (wtedy używa się ～てしまった).",
+    "notes": "• Intonacja wznosząca/poprzedzające „あっ” wzmacnia niuans „stało się/o rany”.\n• Skrócone przeczenie jest w języku standardowym rzadkie: ～ちゃわない（＝てしまわない）; w tekstach akademickich zwykle się go unika.\n• W wewnętrznych e-mailach pisanych potocznie nadal można używać, ale należy wziąć pod uwagę odbiorcę i kulturę firmy.",
+    "mistakes": [
+     "Użycie w stylu formalnym: × 提出が遅れちゃった → należy: 遅れてしまいました。",
+     "Mylenie じゃった/ちゃった: 読む→読んじゃった (poprawnie), × 読んちゃった (niepoprawnie dla 読む, bo jest 読んで).",
+     "Domyślne rozumienie jako „żal”: w rzeczywistości zależy od kontekstu, może znaczyć po prostu „już zrobione”.",
+     "Na JLPT często sprawdza się rozpoznawanie form skróconych w szybkiej rozmowie; należy zwrócić uwagę na ściągnięcia て→ちゃ, で→じゃ."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vてしまった",
+       "Neutralne/uprzejme",
+       "Można używać w języku pisanym, w pracy",
+       "<ruby>忘<rt>わす</rt></ruby>れてしまいました。"
+      ],
+      [
+       "Vちゃった",
+       "Język mówiony, mowa potoczna",
+       "Skrócenie てしまった",
+       "<ruby>忘<rt>わす</rt></ruby>れちゃった。"
+      ],
+      [
+       "Vちゃう",
+       "Czas teraźniejszy/możliwość wystąpienia",
+       "Forma czasu teraźniejszego, nie czas przeszły",
+       "また<ruby>寝坊<rt>ねぼう</rt></ruby>しちゃうよ。"
+      ],
+      [
+       "Vじゃった",
+       "Skrócenie w przypadku ～で",
+       "<ruby>読<rt>よ</rt></ruby>んで→<ruby>読<rt>よ</rt></ruby>んじゃった",
+       "<ruby>飲<rt>の</rt></ruby>んじゃった。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 406,
+   "src_hash": "b6dff9aebbacdb1e",
+   "fields": {
+    "meaning": "Zwany…, mówić, że…",
+    "connection": "[zdanie/zdanie składowe] + っていう / N + っていう + N",
+    "examples": [
+     "Mówił: „Dzisiaj się nie da”.",
+     "Ta aplikacja ma opinię łatwej w obsłudze.",
+     "Znasz lekarza o nazwisku Tanaka?",
+     "SDGs to skrót od czego?",
+     "Podobno jutro jest wolne. Dokąd idziemy?",
+     "To niby co ma znaczyć?"
+    ],
+    "explain": "Język mówiony: って／っていう osłabia stanowczość twierdzenia, daje wrażenie łagodności/pośredniości.\nW mowie formalnej/zapisie normatywnym: zamiast っていう używa się と言う／という.\nSamo って na końcu zdania niesie w rozmowie znaczenie „podobno/powiedziano, że …”.\n\n• Oznacza cytat wypowiedzi/opinii: „że …”, „mówi, że …”.\n• Wprowadza definicję/temat: „tak zwany …”, „co do …”.\n• Nazywanie/identyfikacja: „osoba/rzecz/przedmiot o nazwie …”.\n• Charakter: bardzo typowe dla języka mówionego, łagodzi wypowiedź, czasem pozwala mówić ogródkami i unikać bezpośredniości.",
+    "notes": "• W zdaniu pisanym należy unikać wielokrotnego powtarzania っていう pod rząd; zastępuje się je という/と/の: × AっていうBっていうC → AというBのC.\n• Przy formalnym podawaniu nazwy (przedstawianiu się): ～と申します to poziom bardzo uprzejmy.\n• だって na końcu zdania może znaczyć „podobno …” albo „bo przecież …” (inny wzór gramatyczny).",
+    "mistakes": [
+     "Pomylenie stylu: użycie っていう w rozprawie/formalnej pracy egzaminacyjnej → należy zamienić na という.",
+     "Błędne użycie konstrukcji NっていうN: × っていう田中人 → 田中っていう人.",
+     "Błędne rozumienie だって: może znaczyć „podobno” albo „bo przecież”; poprawne znaczenie należy wybrać na podstawie kontekstu w JLPT."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Funkcja",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "っていう",
+       "Język mówiony: „mówi się, że/nazywa się”",
+       "Potocznie, łagodnie.",
+       "<ruby>田中<rt>たなか</rt></ruby>っていう<ruby>人<rt>ひと</rt></ruby>"
+      ],
+      [
+       "という",
+       "Język pisany/uprzejmie",
+       "Bardziej formalne.",
+       "<ruby>田中<rt>たなか</rt></ruby>という<ruby>人<rt>ひと</rt></ruby>"
+      ],
+      [
+       "ってこと",
+       "Nominalizacja treści",
+       "Potocznie; podkreśla „to, że…”.",
+       "<ruby>休<rt>やす</rt></ruby>みってこと？"
+      ],
+      [
+       "ってば／ってさ",
+       "Podkreślenie/zwrócenie uwagi",
+       "Silnie ekspresywne; inna funkcja niż cytowanie.",
+       "もう<ruby>聞<rt>き</rt></ruby>いてるってば！"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 407,
+   "src_hash": "9041285c9f88358b",
+   "fields": {
+    "meaning": "Być w trakcie ~ | Właśnie w trakcie…",
+    "examples": [
+     "Właśnie obcinam włosy.",
+     "Kiedy do niego zadzwoniłem, akurat był w trakcie posiłku.",
+     "Właśnie czekam na autobus, niedługo będę na miejscu.",
+     "Właśnie mam zebranie. Oddzwonię później.",
+     "Akurat gdy mnie nie było, przyszedł kierownik działu.",
+     "Proszę mi nie przeszkadzać, kiedy właśnie tłumaczę."
+    ],
+    "explain": "Dodaje się 今／ちょうど／まさに, aby podkreślić „właśnie w tej chwili”.\nW stylu uprzejmym dodaje się です/おります: ただいま対応し ているところでございます。\nW porównaniu z 〜ている, 〜ているところ podkreśla daną chwilę i nadaje się, gdy trzeba uprzejmie odmówić/coś wyjaśnić.\nCzęsto występuje z nagłymi zdarzeniami przerywającymi, takimi jak 電話が鳴る、来客が来る、メールが届く…\n\n• Podkreśla moment bycia „w trakcie” wykonywania czynności, zwykle po to, by wyjaśnić, dlaczego nie można zrobić czegoś innego, lub opisać zdarzenie, które przerwało czynność.\n• Z ところに/へ: wyraża, że inne zdarzenie następuje dokładnie w tym momencie (dzwoni telefon, ktoś przychodzi…).\n• Z ところを: podkreśla, że oddziaływanie dotyka trwającego procesu (ktoś przeszkadza, zostaje się przyłapanym…).\n• Z ところで: tło miejsca/momentu czynności będącej w toku.",
+    "notes": "• Partykuła po ところ zmienia niuans: ところに（nadejście zdarzenia）／ところを（podleganie wpływowi）／ところで（tło).\n• W służbowych e-mailach: ただいま確認しているところで、判明次第ご連絡いたします to standardowe wyrażenie.\n• Nie stosuje się, gdy występuje czasownik stanu, przy którym trudno o wyraźny przebieg (知っているところ zwykle brzmi nienaturalnie).",
+    "mistakes": [
+     "Mylenie z 最中に: 〜ているところに też jest możliwe, ale 最中に mocniej wyraża „w samym środku” i często wiąże się z kłopotem.",
+     "Użycie ところ, gdy występuje czasownik stanu: 知っているところ rzadko brzmi naturalnie; należy użyć po prostu 知っています.",
+     "Na JLPT często pyta się o rozróżnienie Vるところ／Vているところ／Vたところ według kontekstu czasowego."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vているところ",
+       "Właśnie w trakcie",
+       "Punkt ciężkości na danej chwili",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>食<rt>た</rt></ruby>べているところ。"
+      ],
+      [
+       "Vるところ",
+       "Zaraz zrobić, szykować się",
+       "Jeszcze się nie zaczęło",
+       "これから<ruby>出<rt>で</rt></ruby>かけるところ。"
+      ],
+      [
+       "Vたところ",
+       "Dopiero co skończone",
+       "Tuż po zakończeniu",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>着<rt>ちゃく</rt></ruby>いたところ。"
+      ],
+      [
+       "<ruby>最中<rt>さいちゅう</rt></ruby>（に）",
+       "W samym środku",
+       "Mocniejsze podkreślenie, zwykle wiąże się z kłopotem",
+       "<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>。"
+      ],
+      [
+       "〜ている",
+       "W trakcie/Nawyk",
+       "Nie podkreśla „właśnie teraz”",
+       "<ruby>今<rt>いま</rt></ruby>、<ruby>食<rt>た</rt></ruby>べている。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,449 @@
+{
+ "batch": "b039",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 574,
+   "src_hash": "ed066f44f925178f",
+   "fields": {
+    "meaning": "Przy założeniu, że…, w przypadku…\nNawet jeśli…, nawet przy założeniu, że…",
+    "examples": [
+     "Załóżmy, że Słońce jest kulą o średnicy 1 metra. Wtedy Ziemia ma około 9 milimetrów.",
+     "„Gdyby iść w odwiedziny do chorego, to mniej więcej o której godzinie byłoby najlepiej?”",
+     "Jeśli założyć, że A=B i B=C, to A=C.",
+     "Jeśli przyczyną choroby są ścieki z tamtej fabryki, to oczywiście pojawi się kwestia odszkodowań.",
+     "Jeśli to nie on jest sprawcą, to kto to ukradł?",
+     "Jeśli jest to trudne nawet dla Satō, osoby o świetnych wynikach w nauce, to ktoś taki jak ja na pewno tego nie zrozumie."
+    ],
+    "explain": "Służy do założenia sytuacji lub warunku, które jeszcze nie zaszły, i do wnioskowania lub przedstawienia opinii na tej podstawie.\nSłuży do założenia sytuacji lub warunku, które jeszcze nie zaszły, i do wnioskowania lub przedstawienia opinii na tej podstawie.\nSłuży do założenia sytuacji lub warunku, które jeszcze nie zaszły, i do wnioskowania lub przedstawienia opinii na tej podstawie.",
+    "notes": "1) Łatwo pomylić formy wyrażające założenie.\n→ ～とする znaczy „zakładając, że…”, często używa się go przy stawianiu fikcyjnego warunku.\n2) W danych użytkownika jest wiele wzorów (ghichu=2/3).\n→ Jeśli potrzebne są osobne pułapki dla każdej formy (としたら／としても), należy je uzupełnić według odpowiedniego ghichu.\n3) Nie mylić z ～とすると (naturalny rezultat).\n→ ～とする to „uznać za/założyć”; ～とすると może mieć znaczenie „jeśli tak, to” wynikające z wnioskowania."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 575,
+   "src_hash": "6188acc9b0ff41a2",
+   "fields": {
+    "meaning": "Jeśli założyć, że…, jeśli przyjąć, że…",
+    "connection": "V forma prosta + とすれば としたら とすると / N + だ / Na + だ / Aい",
+    "examples": [
+     "Jeśli założyć nieobecność A, liczba osób wynosi 9.",
+     "Jeśli wyjazd opóźni się o godzinę, przyjazd nastąpi około 19:00.",
+     "Jeśli to oryginał, to jest wart kilka milionów jenów.",
+     "Jeśli to on napisał tamtego maila, to jaki miał motyw?",
+     "Jeśli to założenie jest prawdziwe, można wyprowadzić następujący wzór.",
+     "Jeśli jutro będzie padać, mecz zostanie odwołany."
+    ],
+    "explain": "Wprowadza analizę: podaje się założenie i od razu wniosek/konsekwencję.\nNależy unikać polecenia/silnej woli w drugiej części zdania; lepiej pasuje do osądów, planów, obliczeń.\nW rozmowie forma ściągnięta だとすると/とすると stojąca na początku zdania, by kontynuować wnioskowanie, brzmi naturalnie.\n\n• Przyjmuje się założenie jako przesłankę do wnioskowania, obliczeń lub decyzji: „jeśli/załóżmy, że…, to…”.\n• Często używane, gdy informacja nie jest pewna; mówiący tymczasowo uznaje ją za prawdziwą, by wyprowadzić logiczną konsekwencję.\n• Nadaje się do szybkich obliczeń, scenariuszy „what-if”, sprawdzania warunków.\n• Niuans neutralny, można używać w języku mówionym i pisanym; ma nieco rozumowy charakter.",
+    "notes": "• W logice/podręcznikach 〜とすると często łączy się z 証明・仮定・結論. Przykład: 「仮にAとすると、Bが導かれる。」\n• Używane w szybkich szacunkach: 「一人500円とすると、合計は…」\n• Stawiane na początku akapitu, by zmienić kierunek wywodu: 「だとすると、次に問題となるのは…」",
+    "mistakes": [
+     "Mylenie z 〜としたところで (przyzwolenie). 〜とすると to warunek wnioskowania, nie zawiera znaczenia „choćby… to i tak…”.",
+     "Polecenie/silna wola w drugiej części zdania → nienaturalnie. Należy użyć osądu/planu, a nie „〜しろ”.",
+     "Pułapka wyboru: とすると vs なら. Gdy informacja pochodzi od słuchacza/spoza kontekstu → なら; gdy samemu stawia się założenie, by coś z niego wywnioskować → とすると."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "〜とすると",
+       "Założenie → wnioskowanie",
+       "Neutralne, często używane w obliczeniach",
+       "<ruby>増税<rt>ぞうぜい</rt></ruby>とすると<ruby>影響<rt>えいきょう</rt></ruby>は…"
+      ],
+      [
+       "〜とすれば",
+       "Poważne założenie",
+       "Nieco formalne, pewniejsza przesłanka",
+       "<ruby>事実<rt>じじつ</rt></ruby>とすれば<ruby>由々<rt>ゆゆ</rt></ruby>しき<ruby>問題<rt>もんだい</rt></ruby>"
+      ],
+      [
+       "〜としたら",
+       "Założenie osobiste/wyobrażenie",
+       "Bardziej język mówiony, bliskie mówiącemu",
+       "<ruby>私<rt>わたし</rt></ruby>が<ruby>君<rt>きみ</rt></ruby>だとしたら…"
+      ],
+      [
+       "〜なら",
+       "Warunek już znany",
+       "Przyjmuje wcześniejszą informację jako warunek",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ],
+      [
+       "〜たら",
+       "Warunek/Moment w czasie",
+       "Zwykle oznacza „po tym, jak”, mało wnioskowania",
+       "<ruby>着<rt>ちゃく</rt></ruby>いたら<ruby>連絡<rt>れんらく</rt></ruby>して"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 576,
+   "src_hash": "f7149faeecc5bca3",
+   "fields": {
+    "meaning": "Wraz z…, jednocześnie…",
+    "examples": [
+     "Wraz z wiekiem pamięć słabnie.",
+     "Wraz z nadejściem wiosny zaczęły kwitnąć kwiaty.",
+     "To miasto jest miejscowością turystyczną, a jednocześnie ma dużą wartość historyczną.",
+     "Wraz z upowszechnieniem się smartfonów zmienił się też styl życia.",
+     "Jest lekarzem, a zarazem profesorem uniwersyteckim.",
+     "W tym regionie wraz z rozwojem przemysłu stale rośnie też liczba ludności."
+    ],
+    "explain": "Używane w języku pisanym, wystąpieniach, raportach, pracach naukowych → ma charakter formalny.\nRzadko używane w mowie potocznej (zastępuje się je przez いっしょに, ～につれて, ～ながら).\nW znaczeniu „zmiany pociągającej za sobą inną” jest bliskie ～につれて/～にしたがって, ale bardziej formalne.\nW znaczeniu „jednocześnie” jest bliskie ～だけでなく / ～そして, ale styl jest bardziej zwarty.\n\n•\n① Wraz z, jednocześnie z: dwie czynności/zdarzenia zachodzą jednocześnie.\n\n•\n② Wraz ze zmianą A zmienia się też B: wyraża zmianę o równoległej tendencji.\n\n•\n③ Jednoczesne pełnienie kilku ról/posiadanie kilku cech: „Jest…, a jednocześnie także…”.\n\n• Kontekst ma zwykle charakter formalny, typowy dla języka pisanego lub wywodu logicznego.",
+    "notes": "1) Łatwo pomylić 3 znaczenia ～とともに.\n→ Ma znaczenie „razem z” (towarzyszenie), „jednocześnie” (w tym samym czasie) oraz „gdy zmienia się A, zmienia się też B”.\n2) Należy zwrócić uwagę na rodzaj wyrazu przed wzorem.\n→ Jeśli to osoba/grupa: zwykle „razem z”.\n→ Jeśli to zdarzenia w tym samym czasie: „jednocześnie”.\n→ Jeśli to zmiana: „wspólna zmiana”.\n3) Łatwo pomylić z ～につれて／～にしたがって.\n→ Gdy podkreśla się obiektywną zmianę postępującą wraz z procesem, ～につれて／～にしたがって jest zwykle wyraźniejsze. explain: Używa się, gdy chce się powiedzieć, że zdarzenia lub rzeczy postępują jednocześnie.\nWraz z jedną zmianą zachodzi też inna zmiana. ⏐ examples: 1. 家族とともに来日した。\nPrzyjazd do Japonii razem z rodziną.\n2. 自動車が普及するとともに、事故も増加した。\nWraz z upowszechnieniem się samochodów wzrosła też liczba wypadków.",
+    "mistakes": [
+     "Mylenie z につれて → につれて dotyczy tylko zmiany, nie używa się go w znaczeniu „razem z kimś”.",
+     "Pominięcie „である” w przypadku rzeczownika/przymiotnika な → niepoprawne gramatycznie w języku pisanym.",
+     "Użycie w bardzo swobodnej mowie potocznej sprawia, że zdanie brzmi sztywno, nienaturalnie.",
+     "Brak przecinka „、” po とともに w języku pisanym → warto go stawiać dla przejrzystości."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "～とともに",
+       "Wraz z / Jednocześnie / Zarówno…, jak i…",
+       "Formalne, używane w języku pisanym lub przemówieniach.",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>とともに<ruby>経験<rt>けいけん</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>える。"
+      ],
+      [
+       "～につれて",
+       "Im… tym… / Pociąga za sobą",
+       "Dotyczy tylko zmiany w czasie, nie ma znaczenia „towarzyszenia”.",
+       "<ruby>時間<rt>じかん</rt></ruby>が<ruby>経<rt>た</rt></ruby>つにつれて<ruby>慣<rt>な</rt></ruby>れてきた。"
+      ],
+      [
+       "～ながら",
+       "Robiąc… (jednocześnie)",
+       "Wyraża dwa równoległe działania tego samego wykonawcy czynności.",
+       "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>きき</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>する。"
+      ],
+      [
+       "～だけでなく",
+       "Nie tylko…, ale także…",
+       "Dodaje inną informację; nie zawiera znaczenia „jednoczesnego zachodzenia”.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>だけでなく<ruby>英語<rt>えいご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>せる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 577,
+   "src_hash": "60feaa43647ae1b6",
+   "fields": {
+    "meaning": "Jakże, naprawdę jak bardzo",
+    "examples": [
+     "Jakże wielka była moja radość na wieść o zdanym egzaminie!",
+     "Jakże nieswojo było mi w pojedynkę za granicą!",
+     "Jakże długie było moje czekanie na dzień, w którym cię zobaczę!",
+     "Dopiero jako rodzic udało mi się zrozumieć, jak wielki jest trud rodziców.",
+     "Jakaż to była ulga, że nie doszło do wypadku!",
+     "Jakże wielką wdzięczność czuję wobec wszystkich, którzy mnie wspierali!"
+    ],
+    "explain": "Zdanie zwykle kończy się na ～ことか。, by zachować niuans wykrzyknienia (druga część zdania nie jest potrzebna).\nUżywa się z równoważnymi wyrazami pytającymi: どれほど／どれだけ／なんと, by zmienić stopień formalności.\nPasuje do przemówień, wzruszających tekstów w języku pisanym, dziennika, opowieści.\nW mowie potocznej wiele osób skraca to do どんなに嬉しかったか (pomijając こと), ale w standardzie JLPT zachowuje się ことか .\n\n• Wykrzyknienie wysokiego stopnia: „(nie wiadomo) jak bardzo…!”, wyraża silne uczucia (radość, smutek, cierpienie, wdzięczność…).\n• Często retrospektywne: często łączy się z czasem przeszłym (～たことか), gdy spogląda się wstecz na doświadczenie.\n• Pragmatyka: skłania się ku językowi pisanemu, przemówieniom, opowieściom; rzadko używane w bardzo codziennych dialogach.\n• Nie podaje się konkretnej liczby: istotą jest nieokreśloność „ilości/wielkości”.",
+    "notes": "• Czasowniki wyrażające pragnienie: V-たい/てほしい + ことか wyraża „jakże się kiedyś pragnęło/jak bardzo się pragnęło”.\n• Można też użyć przeczenia: どんなに大変でなかったことか, ale naturalniejsza jest forma twierdząca.\n• Dodanie 副詞 wzmacnia uczucie: 本当に／実に／心から＋どんなに～ことか。 meaning_vi: Bardzo, ileż razy, ileż czasu… ⏐ explain: Służy do wyrażenia wysokiego stopnia, dużej częstotliwości zdarzenia lub cechy\nMa charakter wykrzyknienia ⏐ examples: 1. 合格できたら、どんなにうれしいことか。\nJakaż to będzie radość, jeśli uda mi się zdać\n2. 何度注意したことか。\nIleż to już razy zwracano uwagę",
+    "mistakes": [
+     "Mylenie z どんなに～ても: to jest warunek, a nie wykrzyknienie.",
+     "Pomijanie こと w stylu egzaminacyjnym: JLPT wymaga poprawnego wzoru ～ことか.",
+     "Dodanie po ～ことか zdania składowego z wyjaśnieniem zaburza konstrukcję; zwykle zdanie kończy się w tym miejscu."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "どんなに～ことか",
+       "Wykrzyknienie stopnia",
+       "Podkreślenie uczuć, zwykle czas przeszły",
+       "どんなに<ruby>大変<rt>たいへん</rt></ruby>だったことか"
+      ],
+      [
+       "どんなに～ても",
+       "Bez względu na to, jak…",
+       "Warunek z przyzwoleniem, druga część zdania",
+       "どんなに<ruby>高<rt>たか</rt></ruby>くても<ruby>買<rt>か</rt></ruby>う"
+      ],
+      [
+       "なんて～だ",
+       "Wykrzyknienie w mowie",
+       "Język mówiony, różnorodne",
+       "なんて<ruby>美<rt>うつく</rt></ruby>しいんだ"
+      ],
+      [
+       "いかに～か",
+       "Do jakiego stopnia",
+       "Bardzo formalne, język pisany",
+       "いかに<ruby>重要<rt>じゅうよう</rt></ruby>であるか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 578,
+   "src_hash": "85024916fb10582b",
+   "fields": {
+    "meaning": "Nie jest tak, że nie…; też jest możliwe",
+    "examples": [
+     "Nie można powiedzieć, że pisanie pracy naukowej po japońsku nie jest trudne, ale zajmuje to czas.",
+     "Nie jest tak, że nie mam pieniędzy, ale teraz chcę oszczędzać.",
+     "Nie można powiedzieć, że ten sklep nie jest tani, ale jakość jest przeciętna.",
+     "Myślę, że jego propozycja jest w sumie niezła.",
+     "Nie jest tak, że nie mogę pomóc w weekend, ale tylko na krótko.",
+     "Nie jest tak, że nie jem ostrych potraw, ale nie najlepiej je znoszę."
+    ],
+    "explain": "Używa się, gdy:Uznaje się możliwość, ale chce się zachować dystans/postawić warunek.Uprzejma odpowiedź na prośbę/zaproszenie:検討しないことはありませんが…\nUznaje się możliwość, ale chce się zachować dystans/postawić warunek.\nUprzejma odpowiedź na prośbę/zaproszenie:検討しないことはありませんが…\nNie używa się, gdy:Trzeba stwierdzić coś z pewnością; zastępuje się przez ～できる/～だ.Potrzebne jest zdecydowane przeczenie; używa się ～ない。\nTrzeba stwierdzić coś z pewnością; zastępuje się przez ～できる/～だ.\nPotrzebne jest zdecydowane przeczenie; używa się ～ない。\nIntonacja: akcent na ないことはない, by stworzyć wrażenie „można, ale…”.\nFormalnie: używa się ではないことはありません, ないことはありません。\n\n• Podstawowe znaczenie: podwójne przeczenie → „nie jest tak, że nie…” = uznanie, że możliwość/stopień istnieje, ale słabo, z rezerwą, warunkowo.\n• Niuans: niejednoznaczny, unika bezpośredniego twierdzenia; często używane, by nie zobowiązywać się w 100% (powściągliwość, skromność).\n• Stopień twierdzenia: niski do średniego. Nie jest równoznaczne z „z pewnością”, lecz z „też jest możliwe/nie do tego stopnia, żeby zupełnie nie”.\n• Często towarzyszą mu wyrazy określające stopień: まあ/別に/そんなに/少し/多少…, które łagodzą wypowiedź: 別に難しくないことはない。\n• Zwykle stoi przed が/けど/しかし, a druga część zdania podaje warunek, przeszkodę, inny wybór.",
+    "notes": "• W tłumaczeniu można oddać jako „też jest możliwe”, „nie do końca nie…”, „nie jest tak, że nie…, ale…”.\n• Często łączy się z warunkiem hipotetycznym: 条件次第では、参加できないことはない。\n• W czasie przeszłym: 行けないことはなかった (wtedy też nie było tak, że nie dało się pójść) → niuans wspomnienia, lekkiego żalu. | Rozszerzenie: N/Na じゃなくはない・Aくなくはない",
+    "mistakes": [
+     "Błędne rozumienie twierdzenia: uznawanie go za stanowcze przeczenie. W rzeczywistości to słabe twierdzenie.",
+     "Użycie, gdy potrzebne jest zobowiązanie: na pytanie wymagające zdecydowanego „Tak/Nie” odpowiada się tym wzorem → powstaje niejasność.",
+     "Mylenie z ～ないこともない: trudne zadania JLPT sprawdzają niuans „otwarcia na warunek” wnoszony przez も.",
+     "Brak が/けど w drugiej części zdania → zdanie jest urwane, brakuje wyjaśnienia."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ないことはない",
+       "Nie jest tak, że nie… (słaba możliwość)",
+       "Neutralne; często z „が/けど”.",
+       "<ruby>行<rt>い</rt></ruby>けないことはないが…"
+      ],
+      [
+       "～ないこともない",
+       "Nie jest tak, że nie…",
+       "Łagodniejsze, sugeruje „jeśli warunki będą odpowiednie”.",
+       "<ruby>手伝<rt>てつだ</rt></ruby>わないこともないよ。"
+      ],
+      [
+       "～なくはない",
+       "Nie jest tak, że nie…",
+       "Forma ściągnięta, język mówiony, mocny nacisk na przeczenie.",
+       "<ruby>高<rt>たか</rt></ruby>くなくはない。"
+      ],
+      [
+       "～ないわけではない",
+       "Nie jest tak, że nie…",
+       "Więcej wyjaśniania/usprawiedliwiania się (わけ).",
+       "<ruby>行<rt>い</rt></ruby>きたくないわけではない。"
+      ],
+      [
+       "～ないでもない",
+       "Nie jest tak, że nie…",
+       "Język mówiony; nieco archaiczne/miękkie.",
+       "<ruby>理解<rt>りかい</rt></ruby>できないでもない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 579,
+   "src_hash": "9a1821062a85e645",
+   "fields": {
+    "meaning": "Nie jest tak, że nie…; też jest możliwe",
+    "examples": [
+     "Nie jest tak, że nie da się tego zrobić na patelni, ale jeśli jest garnek, to lepiej użyć garnka.",
+     "Jeśli chodzi o jutro, to nie wykluczam udziału.",
+     "Nie można powiedzieć, że cena nie jest wysoka, ale kupię, bo jakość jest dobra.",
+     "Nie jest tak, że nie jem też ostrych potraw.",
+     "Przy odpowiednim wysiłku zdanie egzaminu nie jest niemożliwe.",
+     "Myślę, że na takich warunkach przedłużenie umowy nie jest wykluczone."
+    ],
+    "explain": "Służy do:Udzielenia „otwartej” odpowiedzi o charakterze przyzwolenia.Przygotowania gruntu pod towarzyszący warunek, ułatwia przejście do negocjacji.\nUdzielenia „otwartej” odpowiedzi o charakterze przyzwolenia.\nPrzygotowania gruntu pod towarzyszący warunek, ułatwia przejście do negocjacji.\nUprzejmy charakter: używa się ありません/です, by złagodzić wypowiedź w pracy.\nPragmatyka: zwykle następuje po nim が/けど + warunek/zastrzeżenie.\n\n• Znaczenie: „Nie jest tak, że nie…”, podobnie jak ～ないことはない, ale często sugeruje „jeśli warunki będą odpowiednie, to można/nie ma sprzeciwu”.\n• Niuans: zabarwienie pozytywne nieco silniejsze niż w ～ないことはない; „pozostawia otwartą” możliwość, kompromisowy.\n• Często używane w negocjacjach/w odpowiedzi na zaproszenie: 価格次第では、購入しないこともない。\n• Towarzyszą mu warunki, przysłówki: 条件次第で/場合によっては/まあ/別に/そんなに… + ～ないこともない。",
+    "notes": "• Naturalne tłumaczenie: „też jest możliwe…”, „nie jest tak, że nie…, jeśli…”.\n• Łączy się z なら/さえ/ば dla podkreślenia warunku: これさえあれば、できないこともない。\n• Czas przeszły: 行かなかったこともない（nie było tak, że się nie poszło… → możliwe, że poszło się trochę/w jakimś przypadku). meaning_vi: ～の可能性もある\nIstnieje też możliwość, że…; nie jest to niemożliwe… ⏐ examples: 1. 毎日、漢字を４つか５つなら、覚えられないこともない。\nJeśli to 4–5 znaków kanji dziennie, to nie jest tak, że nie da się ich zapamiętać.\n2. この会社を辞める人の気持ちがわからないこともない。\nNie jest tak, że nie rozumiem uczuć osób odchodzących z tej firmy.",
+    "mistakes": [
+     "Mylenie stopnia z ～ないことはない: zadania JLPT często pytają o niuans „otwarcia na warunek” wnoszony przez も.",
+     "Zbyt pozytywne tłumaczenie jako „z pewnością się da” → błędne znaczenie (to tylko możliwość).",
+     "Pominięcie zdania składowego z warunkiem sprawia, że zdanie brzmi niejasno, jest trudne do zrozumienia w rozmowie służbowej."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ないこともない",
+       "Nie jest tak, że nie… (otwarcie na warunek)",
+       "Zabarwienie pozytywne nieco silniejsze; pasuje do negocjacji.",
+       "<ruby>買<rt>か</rt></ruby>わないこともない。"
+      ],
+      [
+       "～ないことはない",
+       "Nie jest tak, że nie…",
+       "Neutralne, uznaje, ale z rezerwą.",
+       "<ruby>買<rt>か</rt></ruby>えないことはない。"
+      ],
+      [
+       "～なくはない",
+       "Nie jest tak, że nie…",
+       "Forma ściągnięta z języka mówionego, podkreślenie przeczenia.",
+       "<ruby>高<rt>たか</rt></ruby>くなくはない。"
+      ],
+      [
+       "～ないわけではない",
+       "Nie jest tak, że nie…",
+       "Ma niuans wyjaśniania (わけ).",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 580,
+   "src_hash": "c31ab91183ce5f9e",
+   "fields": {
+    "meaning": "Jeśli nie…, to",
+    "examples": [
+     "Trzeba już iść spać.",
+     "Trzeba zdążyć przed terminem oddania.",
+     "Jeśli szybko nie wyjdziesz, spóźnisz się na pociąg.",
+     "Jeśli nie weźmiesz leku, nie wyzdrowiejesz.",
+     "Do jutra muszę przygotować materiały.",
+     "Zimno, trzeba zamknąć okno."
+    ],
+    "explain": "W użyciu skróconym (zakończenie na ～ないと。 ) z kontekstu samo wynika „いけない/だめ”.\nW znaczeniu warunku druga część zdania zwykle zawiera przeczenie/negatywny skutek:間に合わない／困る／怒られる…\nFormalnie: w raportach, e-mailach służbowych preferuje się ～ないといけない／～なければならない.\n\n• Znaczenie obowiązku (język mówiony): V-ないと to zwykle forma skrócona V-ないといけない, druga część zdania ulega pominięciu, bo jest oczywista.\n• Znaczenie warunku: „jeśli nie…, to…”, druga część zdania podaje zły/niepożądany skutek.\n• Niuans: naturalny, codzienny; w tekstach formalnego języka pisanego należy używać pełnej formy.",
+    "notes": "• ～ないと może wyrażać poczucie pośpiechu/braku: krótkie urwanie zdania wyraża „przypominanie samemu sobie”.\n• Czasownik w przeczeniu musi mieć poprawną formę ない: 行く→行かない、とる→とらない、する→しない、来る→こない。\n• W swobodnej mowie potocznej warianty 〜なきゃ/〜なくちゃ zastępują 〜ないと i mają łagodniejszy niuans.\nmeaning_vi: Wyraża znaczenie „Jeśli nie ~, to ･･･”, gdzie ･･･ to niekorzystny stan lub zdarzenie. Czasem następuje pominięcie ･･･.\nexamples: 1. ①　気をつけないと\nTrzeba uważać\n2. ②　よく見ないと、間違えるよ。\nJeśli nie przyjrzysz się uważnie, popełnisz błąd.\n3. ➂　あの字は小さいから、目がよくないと読めないだろう。\nTamte znaki są małe, więc bez dobrego wzroku pewnie nie da się ich przeczytać.\n4. ➃　時間がないから、急がないと。\nNie ma czasu, więc trzeba się pospieszyć.",
+    "mistakes": [
+     "Rozumienie każdego ～ないと jako „trzeba”: niektóre zdania to warunek „jeśli nie…, to…”, istotna jest druga część zdania.",
+     "Pominięcie drugiej części zdania, gdy nie jest to forma skrócona: w znaczeniu warunku powinno wystąpić zdanie składowe wyrażające rezultat.",
+     "Użycie w formalnym tekście: należy zamienić na ～ないといけない/～なければならない."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans/Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "V-ないと",
+       "Język mówiony: „trzeba”; lub warunek „jeśli nie”",
+       "Zwięzłe, codzienne",
+       "<ruby>行<rt>い</rt></ruby>かないと。"
+      ],
+      [
+       "V-ないといけない/だめ",
+       "Trzeba (standardowe)",
+       "Neutralne, szeroko używane",
+       "<ruby>行<rt>い</rt></ruby>かないといけない。"
+      ],
+      [
+       "V-なければならない",
+       "Trzeba (formalne)",
+       "Sztywne, język pisany/przepisy",
+       "<ruby>報告<rt>ほうこく</rt></ruby>しなければならない。"
+      ],
+      [
+       "V-なくてはならない／V-なくちゃ",
+       "Trzeba; なくちゃ należy do języka mówionego",
+       "なくちゃ＝mowa bardzo potoczna",
+       "<ruby>行<rt>い</rt></ruby>かなくちゃ。"
+      ],
+      [
+       "V-ないと～ (warunek)",
+       "Jeśli nie, to…",
+       "Zawsze następuje po nim zdanie składowe wyrażające rezultat",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>しないと<ruby>落<rt>お</rt></ruby>ちる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 581,
+   "src_hash": "8cef083783e45783",
+   "fields": {
+    "meaning": "「心理的事情があるので、～しなければならない。」規則などで決まっていて～なければならないのではなくて、あまり～したくないが、社会的常識・心理的義務感があってそうする必要があるという意味で使う。主語は普通一人称。\nZe względów psychologicznych trzeba zrobić ~.\nUżywa się, gdy chodzi o to, że nie jest to coś ustalonego przepisem itp., co trzeba zrobić, lecz mimo niewielkiej chęci trzeba tak postąpić ze względu na normy społeczne, psychiczne poczucie obowiązku itp.\nPodmiotem jest zwykle pierwsza osoba.",
+    "examples": [
+     "Skoro padła obietnica, że pójdę, to chyba nie mogę nie pójść.",
+     "Język obcy jest obowiązkowy, więc nie mogę go nie wybrać.",
+     "To było pierwsze danie, które dla mnie przygotowała, więc mimo pełnego żołądka nie dało się go nie zjeść.",
+     "W tym mieście bez roweru jest jednak ciężko. Nie mogę go nie kupić.",
+     "Jest naprawdę gorąco, ale przecież nie można nic na siebie nie włożyć, prawda?",
+     "Chciałoby się zatrzymać tę płytę CD na zawsze, ale jest z biblioteki, więc nie mogę jej nie oddać."
+    ],
+    "explain": "Wyraża, że jest się zmuszonym coś zrobić, nie można tego nie zrobić, nawet jeśli w głębi duszy się nie chce.",
+    "notes": "1) Łatwo pomylić z ～わけにはいかない.\n→ ～ないわけにはいかない znaczy „nie można nie…”, czyli ostatecznie i tak trzeba to zrobić.\n2) Ma niuans niechęci.\n→ Niekoniecznie chce się to zrobić, ale okoliczności do tego zmuszają.\n3) Nie używa się, gdy mówiący działa dobrowolnie.\n→ Jeśli chodzi o „bardzo chcę to zrobić”, używa się innego wzoru wyrażającego wolę."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

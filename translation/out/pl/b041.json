@@ -1,0 +1,421 @@
+{
+ "batch": "b041",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 590,
+   "src_hash": "38f8719a45e35c75",
+   "fields": {
+    "meaning": "Im… tym…",
+    "examples": [
+     "Z wiekiem czas wydaje się płynąć coraz szybciej.",
+     "W miarę jak spada temperatura, liście coraz bardziej się przebarwiają.",
+     "Wraz z postępującą urbanizacją ubywa zieleni.",
+     "W miarę zdobywania doświadczenia przybywało mi pewności siebie.",
+     "Z upływem czasu ból zelżał.",
+     "W miarę jak robi się cieplej, rośnie liczba osób odwiedzających park."
+    ],
+    "explain": "Stosuje się do tendencji/procesów o charakterze ciągłym, zwykle zjawisk przyrodniczych/społecznych/psychicznych.\nDruga część zdania to wynikający z tego rezultat; nie zawiera bezpośredniego polecenia/woli.\nCzęsto występuje w objaśnieniach, raportach, analizach danych.\n\n- „Im …, tym …/Wraz z …, …”: dwa zjawiska zmieniają się w jednym kierunku, przy czym zmiana A pociąga za sobą odpowiednią zmianę B.\n- Kładzie nacisk na zależność współzmienności/stopniowej zmiany; nie używa się do zdarzeń momentalnych ani z wolą/poleceniem w drugiej części zdania.",
+    "notes": "• Oprócz zmiany w tym samym kierunku może też oznaczać zmianę odwrotną (A rośnie, B maleje), o ile zachodzi zależność funkcyjna.\n• Zdanie A to zwykle obiekt będący „podstawą czasową/punktem odniesienia zmiany”, zdanie B to zaobserwowany rezultat.\n• Często łączy się z wyrazami: 進む, 高まる, 低下する, 増える, 減る, 深まる,…\nmeaning_vi: Im …, tym …\nexplain: Wyraża dwie zmiany zachodzące równolegle: gdy A stopniowo się zmienia, B zmienia się wraz z nim. Ma charakter ciągły i obiektywny.\nexamples: 1. 試験が近づくにつれて、だんだん心配になってきた。\nW miarę zbliżania się egzaminu zaczęło mnie ogarniać coraz większe zdenerwowanie.\n2. 日本での生活が長くなるにつれ、友だちもできて楽しくなった。\nW miarę jak mój pobyt w Japonii się wydłużał, pojawili się też przyjaciele i zrobiło się przyjemniej.\n3. 再開発が進むにつれて、駅前の様子がすっかり変わってしまった。\nWraz z postępem przebudowy okolica przed dworcem zupełnie się zmieniła.\n4. 時間の経過につれ、その事件のことは忘れられてしまった。\nZ upływem czasu o tamtej sprawie zapomniano.",
+    "mistakes": [
+     "Użycie ze zdarzeniem momentalnym (×到着するにつれて驚いた) → błędny niuans „stopniowo”.",
+     "Umieszczenie polecenia/woli w drugiej części zdania (×増えるにつれて買いなさい) → nienaturalnie.",
+     "Pomylenie kierunku zależności: につれて nie wyraża bezpośredniej przyczyny tak jak ので/から."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～につれて",
+       "Wraz z A zmienia się też B",
+       "Nacisk na stopniową zmianę; naturalne",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>につれて<ruby>視力<rt>しりょく</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる。"
+      ],
+      [
+       "～にしたがって",
+       "Wraz z A zmienia się/postępuje B",
+       "Bardziej formalne; ma też niuans „według/zgodnie z”",
+       "<ruby>温度<rt>おんど</rt></ruby>の<ruby>上昇<rt>じょうしょう</rt></ruby>にしたがって<ruby>溶<rt>と</rt></ruby>ける。"
+      ],
+      [
+       "～にともなって",
+       "Pociąga za sobą/towarzyszy",
+       "Używane zarówno w znaczeniu „towarzyszenia” (accompaniment), jak i „zmiany” (change); formalne",
+       "<ruby>人口<rt>じんこう</rt></ruby><ruby>増加<rt>ぞうか</rt></ruby>にともなって<ruby>問題<rt>もんだい</rt></ruby>が<ruby>深刻<rt>しんこく</rt></ruby><ruby>化<rt>か</rt></ruby>。"
+      ],
+      [
+       "～とともに",
+       "Równolegle/wraz z",
+       "Oznacza zarówno jednoczesność, jak i wspólną zmianę",
+       "<ruby>成長<rt>せいちょう</rt></ruby>とともに<ruby>責任<rt>せきにん</rt></ruby>も<ruby>増<rt>ま</rt></ruby>す。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 591,
+   "src_hash": "2686e4e8fb0567fc",
+   "fields": {
+    "meaning": "Dla",
+    "examples": [
+     "Dla młodych ludzi Tokio jest ekscytującym, pełnym uroku miastem.",
+     "Milion jenów to dla mnie duże pieniądze, ale dla niego to chyba niewielka kwota.",
+     "Dla mnie Japonia jest krajem, w którym mogę spełnić swoje marzenia.",
+     "Deregulacja jest palącą kwestią zarówno dla rządu, jak i dla przedsiębiorstw prywatnych.",
+     "Rodzinnymi stronami jest dla mnie wyłącznie tamto miasto, w którym upłynęła moja młodość.",
+     "Dla studentów zagranicznych stypendium jest dużym wsparciem."
+    ],
+    "explain": "Służy do wyznaczenia ram oceny; następujące po nim orzeczenie wyraża cechę/ocenę.\nDodanie は służy podkreśleniu/kontrastowi; dodanie も rozszerza zakres.\nNie używa się „Nにとって + V oznaczający czynność” w znaczeniu „N robi …”; zamiast tego stosuje się が/は.\n\n• Wskazuje punkt widzenia/korzyść i szkodę/wartość dla strony N: „dla N …”.\n• Zwykle używane z osądami subiektywnymi, ale może to być też ocena obiektywna (gdy obiektem jest grupa/organizacja).\n• Nie służy do wskazywania wykonawcy czynności.",
+    "notes": "1) Łatwo pomylić z ～には.\n→ ～にとって to „dla (ze stanowiska N)”; służy do oceny z punktu widzenia N.\n2) Po tym wzorze gramatycznym zwykle następuje osąd.\n→ Przykład: 大切だ, 難しい, 便利だ… (ocena).\n3) Nie używa się do wskazania obiektu bezpośredniego oddziaływania.\n→ Jeśli chodzi o „robienie czegoś wobec kogoś” (czynność skierowana ku komuś), należy rozważyć ～に対して.",
+    "mistakes": [
+     "Użycie „にとって” do wskazania wykonawcy czynności (błędna funkcja).",
+     "Użycie orzeczenia oznaczającego bezpośrednią czynność (nienaturalne): należy użyć przymiotnika/osądu.",
+     "Pomylenie z „に対して/について”: inny cel semantyczny.",
+     "Pominięcie „の” w przydawce: „NにとってのN2”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～にとって",
+       "Dla (ocena)",
+       "Korzyść i szkoda/wartość",
+       "<ruby>私<rt>わたし</rt></ruby>にとって<ruby>大切<rt>たいせつ</rt></ruby>だ。"
+      ],
+      [
+       "～からすると／から<ruby>見<rt>み</rt></ruby>れば",
+       "Z punktu widzenia",
+       "Przypuszczenie na podstawie oznak",
+       "<ruby>専門<rt>せんもん</rt></ruby><ruby>家<rt>か</rt></ruby>からすると<ruby>危険<rt>きけん</rt></ruby>だ。"
+      ],
+      [
+       "～に<ruby>対<rt>たい</rt></ruby>して",
+       "Wobec (kierunek oddziaływania)",
+       "Działanie/postawa skierowane ku N",
+       "<ruby>子<rt>こ</rt></ruby>どもに<ruby>対<rt>たい</rt></ruby>して<ruby>優<rt>やさ</rt></ruby>しい。"
+      ],
+      [
+       "～について",
+       "O/temat",
+       "Ustanawia temat, a nie punkt widzenia korzyści i szkody",
+       "<ruby>政策<rt>せいさく</rt></ruby>について<ruby>議論<rt>ぎろん</rt></ruby>する。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 592,
+   "src_hash": "0de6736f6671a96e",
+   "fields": {
+    "meaning": "Przez cały…, na przestrzeni…",
+    "examples": [
+     "Zebranie odbywało się przez trzy dni.",
+     "Skutki tajfunu objęły cały region Kantō.",
+     "Przedstawił wyniki badań prowadzonych przez dwadzieścia lat.",
+     "Dyskusja ciągnęła się do późnej nocy.",
+     "Działa w wielu różnorodnych dziedzinach.",
+     "Ojciec prowadzi te badania od 20 lat."
+    ],
+    "explain": "Poprzedzający N musi być jednostką „zasięgu”: czas (時間/日/年), przestrzeń (地域/全域), liczba (回/項目), dziedzina (分野).\nMa formalny odcień znaczeniowy; używane w relacjach, opisach skali/długości.\nNie używa się do bardzo krótkich/błahych odcinków; przy krótkich stosuje się ずっと/ずいぶん/長い間.\n\nWyraża trwanie/objęcie „przez cały/na całym” odcinka czasu, zakresu, liczby czy dziedziny. Skupia się na rozległości i czasie trwania; nie musi to być ciągłość bez przerw, ale stopień objęcia jest duży.\n• Zwykle stosowane do znacznych zakresów (kilka dni, wiele lat, cały kraj...).\n• Styl formalny, częsty w raportach i wiadomościach.",
+    "notes": "• Forma przydawkowa „多岐にわたる + N” to zwrot bardzo częsty w tekstach naukowych/PR.\n• „長期にわたって/長時間にわたって” to formuły często spotykane w wiadomościach.\n• Nie łączy się bezpośrednio z czasownikiem (nie „V にわたって”); potrzebna jest nominalizacja: „検討にわたって” jest nienaturalne → „長期にわたる検討”. | Warianty: ～にわたり・にわたる+N",
+    "mistakes": [
+     "Użycie z N nieoznaczającym zasięgu: „気持ちにわたって” jest błędne; należy używać z konkretnym czasem/zakresem.",
+     "Pomylenie z „を通じて”: na egzaminie sprawdzana jest różnica między „objęciem” (にわたって) a „ciągłością przez cały czas” (を通じて).",
+     "Pominięcie wariantu przydawkowego: przed rzeczownikiem należy wybrać „にわたるN”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～にわたって",
+       "Przez cały/na całym",
+       "Nacisk na zasięg, formalne",
+       "<ruby>全国<rt>ぜんこく</rt></ruby>にわたって<ruby>影響<rt>えいきょう</rt></ruby>。"
+      ],
+      [
+       "～を<ruby>通<rt>つう</rt></ruby>じて／<ruby>通<rt>とお</rt></ruby>して",
+       "Przez cały (czas), za pośrednictwem",
+       "Nacisk na ciągłość/regularność",
+       "<ruby>一年<rt>いちねん</rt></ruby>を<ruby>通<rt>つう</rt></ruby>じて<ruby>暖<rt>あたた</rt></ruby>かい。"
+      ],
+      [
+       "～にかけて",
+       "Od... do (w przybliżeniu)",
+       "Niewyraźne granice, nie obejmuje całości",
+       "<ruby>明日<rt>あした</rt></ruby>にかけて<ruby>雨<rt>あめ</rt></ruby>。"
+      ],
+      [
+       "～<ruby>間<rt>かん</rt></ruby>（あいだ）",
+       "W ciągu całego okresu",
+       "Neutralne, bez nacisku na „duży zasięg”",
+       "<ruby>滞在<rt>たいざい</rt></ruby>の<ruby>間<rt>ま</rt></ruby>、<ruby>勉強<rt>べんきょう</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 593,
+   "src_hash": "c29f95e875012b2e",
+   "fields": {
+    "meaning": "Wbrew…, w przeciwieństwie do…",
+    "examples": [
+     "Wbrew przewidywaniom mecz zakończył się dużą różnicą punktów.",
+     "Nie wolno wbrew regulaminowi jeść ani pić w sali lekcyjnej.",
+     "Ta propozycja jest sprzeczna z wolą przełożonego, ale ma wystarczające podstawy.",
+     "Wynik okazał się niestety sprzeczny z oczekiwaniami.",
+     "Wbrew prognozie pogody deszcz nie padał.",
+     "Wbrew przewidywaniom"
+    ],
+    "explain": "Neutralnie formalne; można używać zarówno w języku mówionym, jak i pisanym.\nKładzie nacisk na przeciwstawienie wobec ogólnych norm/oczekiwań.\nW znaczeniu „naruszenia” ma wyraźny niuans krytyki/normatywności.\n\nWyraża działanie/rezultat „sprzeczny z, idący wbrew” zasadom, polityce, oczekiwaniom, prognozom... Może dotyczyć zarówno czynności zamierzonej (naruszenie), jak i obiektywnego rezultatu niezgodnego z przewidywaniami.\n• W połączeniu z rzeczownikiem o charakterze normatywnym (規則/法律/方針) znaczenie jest bliskie „naruszać/sprzeciwiać się”.\n• W połączeniu z rzeczownikiem oznaczającym oczekiwanie/przewidywanie (期待/予想) znaczy „wbrew, przeciwnie do”.",
+    "notes": "• „反する” to czasownik sino-japoński o formalnym odcieniu znaczeniowym; odmiana: „に反するN/に反したN/に反してV”.\n• Aby wyrazić sprzeczność z „tym, co faktycznie się zdarzyło”, używa się ～のに/～にもかかわらず; „に反して” nie przyłącza zdania składowego z czasownikiem, lecz łączy się z rzeczownikiem.\n• Para antonimiczna: „～に沿って/～に即して” (zgodnie z/ściśle według) vs „～に反して”.\nexplain: Wyraża rezultat sprzeczny z przewidywaniami, oczekiwaniami lub zasadami.\nexamples: 1. Aチームが勝つだろうという予想に反してBチームが勝った。\nWbrew przewidywaniom, że wygra drużyna A, zwyciężyła drużyna B.\n2. 応募者数は当初の見込みに反し、非常に多かった。\nLiczba kandydatów, wbrew początkowym przewidywaniom, była bardzo duża.\n3. 無断外泊は寮の規則に反する。\nNocowanie poza akademikiem bez pozwolenia jest sprzeczne z regulaminem akademika.\n4. 自由な言論を許さないのは憲法の精神に反する。\nNiedopuszczanie do swobody wypowiedzi jest sprzeczne z duchem konstytucji.\n5. たとえ親の命令でも、自分の意思に反することはしたくない。\nNawet jeśli to polecenie rodziców, nie chcę robić niczego wbrew własnej woli.\n6. 予測／予報／教え／法律／意／期待／希望／願い　＋　に反して\nWbrew przewidywaniom / prognozie / naukom / prawu / woli / oczekiwaniom / nadziei / życzeniu. explain: Wyraża sprzeczność, kontrast z pragnieniami, oczekiwaniami. N to zwykle wyrazy takie jak: 予想、期待、命令、意図など ⏐ examples: 1. 専門家の予想に反して、景気は回復し始めた。\nWbrew przewidywaniom specjalistów koniunktura zaczęła się poprawiać.\n2. 我々の期待に反して、新商品はあまり売れなかった。\nWbrew naszym oczekiwaniom nowy produkt nie sprzedawał się zbyt dobrze.",
+    "mistakes": [
+     "Użycie po zdaniu składowym z czasownikiem: „来るに反して” jest błędne; potrzebny jest rzeczownik: „予想に反して来た”.",
+     "Pomylenie z „に対して”: na egzaminie sprawdzane jest „przeciwstawienie wobec normy” (に反して) vs „porównanie przez kontrast” (に対して).",
+     "Pominięcie wariantu przydawkowego: przed rzeczownikiem należy poprawnie wybrać „に反するN/に反したN”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～に<ruby>反<rt>はん</rt></ruby>して",
+       "Wbrew/sprzecznie z",
+       "Przeciwstawienie wobec zasad/oczekiwań",
+       "<ruby>期待<rt>きたい</rt></ruby>に<ruby>反<rt>はん</rt></ruby>して<ruby>成功<rt>せいこう</rt></ruby>した。"
+      ],
+      [
+       "～に<ruby>対<rt>たい</rt></ruby>して",
+       "Wobec; kontrast (zestawienie)",
+       "Porównanie dwóch stron/stanowisk",
+       "<ruby>兄<rt>あに</rt></ruby>は<ruby>内向<rt>ないこう</rt></ruby><ruby>的<rt>てき</rt></ruby>であるのに<ruby>対<rt>たい</rt></ruby>して、<ruby>弟<rt>おとうと</rt></ruby>は<ruby>社交<rt>しゃこう</rt></ruby><ruby>的<rt>てき</rt></ruby>だ。"
+      ],
+      [
+       "～と<ruby>違<rt>ちが</rt></ruby>って",
+       "Inaczej niż",
+       "Zwykła różnica, nie „sprzeczność”",
+       "<ruby>今年<rt>ことし</rt></ruby>は<ruby>去年<rt>きょねん</rt></ruby>と<ruby>違<rt>ちが</rt></ruby>って<ruby>寒<rt>さむ</rt></ruby>い。"
+      ],
+      [
+       "～に<ruby>沿<rt>そ</rt></ruby>って",
+       "Zgodnie z/ściśle według",
+       "Znaczenie przeciwne do „に<ruby>反<rt>はん</rt></ruby>して”",
+       "<ruby>方針<rt>ほうしん</rt></ruby>に<ruby>沿<rt>そ</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 594,
+   "src_hash": "50b1b5665f94d16e",
+   "fields": {
+    "meaning": "Wobec, w przeciwieństwie do",
+    "examples": [
+     "Proszę zwracać się do dzieci łagodniej.",
+     "Jego wypowiedź spotkała się z wieloma głosami sprzeciwu.",
+     "Wzmocniono system wsparcia dla nowych pracowników.",
+     "Starszy brat jest aktywny, natomiast młodszy lubi czytać.",
+     "Rozdajemy po trzy sztuki na osobę.",
+     "W stosunku do analogicznego okresu poprzedniego roku sprzedaż wzrosła o 10%."
+    ],
+    "explain": "Używa się, gdy rzeczownik oznaczający osobę/organizację/konkretny obiekt jest tym, wobec kogo stosuje się politykę, postawę, działanie.\nW znaczeniu kontrastu używa się, gdy oba zdania składowe mają wyraźnie równoległy charakter; przy zwykłym porównaniu stopnia naturalniej jest użyć ～より/～に比べて.\nFormalny język pisany dopuszcza skrót に対し; jako określenie rzeczownika stosuje się に対するN.\nRzadko używane do czystego tematu dyskusji; w znaczeniu „o/w związku z” naturalniejsze jest について/に関して.\n\n• Obiekt, ku któremu coś jest skierowane: wyraża działanie/postawę/środek skierowane wobec osoby/grupy/rzeczy.\n• Ocena/pochwała i krytyka: użycie przy formułowaniu oceny wymierzonej w konkretny obiekt (会社に対して厳しい意見, 親に対して失礼だ).\n• Kontrast: łączy dwa zdania składowe, aby położyć nacisk na wyraźną różnicę między A i B. Znaczenie bliskie „podczas gdy/natomiast”.\n• Proporcja/przypadanie na: podaje proporcję, rozdział (１人に対して２個, 男性１人に対して女性２人).\n• Niuans: bardziej formalne i obiektywne niż について; nie używa się do zwykłych, poufałych uczuć.",
+    "notes": "• に対して często łączy się z czasownikami oceny/postawy, takimi jak 優しい, 厳しい, 失礼だ, 敬意を払う, 批判する.\n• Człon proporcji „N1に対してN2” często pojawia się w danych liczbowych/statystykach, raportach.\n• W kontraście można napisać Aは…。それに対して、Bは…, aby wyraźnie rozdzielić zdania.\nmeaning_vi: A…, podczas gdy B… (kontrast/porównanie)\nexplain: Służy do przeciwstawienia A i B w celu uwydatnienia różnicy: „A…, podczas gdy B…”. Często spotykana forma to Aのに対してB.\nexamples: 1. あの二人はふたごなのに、兄はおとなしいのに対して、弟はよくしゃべる。\nChoć ci dwaj są bliźniakami, starszy brat jest spokojny, natomiast młodszy dużo mówi.\n2. 近所のスーパーは夜１１時閉店なのに対し、コンビニは２４時間営業だ。\nPobliski supermarket zamyka się o 23, podczas gdy sklep convenience jest czynny całą dobę.\n3. この映画は海外では人気があるのに対して、日本国内ではそうでもない。\nTen film jest popularny za granicą, natomiast w samej Japonii niespecjalnie.\n4. 一般に、日本の若者は洋食を好む。それに対して、中高年は和食を好む。\nNa ogół japońska młodzież woli kuchnię zachodnią. Natomiast osoby w średnim i starszym wieku wolą kuchnię japońską.\n──────\n1. 目上の人に対しては敬語を使わなければならない。\nWobec osób wyższych rangą trzeba używać keigo (języka honoryfikatywnego).\n2. 先生は学生のどんな質問に対しても、ていねいに答えてくれる。\nNauczyciel uprzejmie odpowiada na każde pytanie studentów, jakiekolwiek by było.\n3. 厳しい父に対し、私はいつも反抗的な態度をとった。\nWobec surowego ojca moja postawa była zawsze buntownicza.\n4. 長引く不況で、国民の政府に対する不満が高まっている。\nZ powodu przedłużającej się recesji rośnie niezadowolenie obywateli wobec rządu.\n5. 彼女は自分に対して非常に厳しい人だ。\nOna jest osobą bardzo surową wobec samej siebie. meaning_vi: Wobec, wobec… to, wobec… też, ….wobec…. ⏐ explain: Służy do wyrażenia postawy, działania wobec jakiejś sprawy, kwestii\nAlbo do przedstawienia dwóch przeciwstawnych sobie spraw, rzeczy ⏐ examples: 1. 田中先生は、生徒に対して厳しい。\nPan Tanaka jest surowy wobec uczniów\n2. まじめな長男に対して、次男は遊んでばかりで学校もよく休む。\nW przeciwieństwie do sumiennego najstarszego syna drugi syn tylko się bawi i często opuszcza szkołę explain: Służy do wskazania obiektu: wobec jakiejś kwestii… W drugiej części zdania często występują wyrazy oznaczające relację przeciwstawienia (wyrazy oznaczające opór, sprzeciw, odparcie…) ⏐ examples: 1. 目上の人に対して、そういう言い方は失礼ですよ。\nWobec osoby wyższej rangą takie wyrażenie się jest niegrzeczne.\n2. 都市で人口が増えているのに対し、農村では減っている。\nPodczas gdy w miastach ludność rośnie, na wsi maleje. | Forma określająca: ～に対する + N",
+    "mistakes": [
+     "Mylenie z について/に関して: gdy mowa tylko „o temacie”, pierwszeństwo ma について; に対して łatwo brzmi zbyt sztywno/oficjalnie.",
+     "Użycie に対して do porównania stopnia: do porównania należy użyć ～より/～に比べて.",
+     "Pominięcie zmiany na に対する przy określeniu rzeczownika: ×学生に対して支援制度 → ○学生に対する支援制度.",
+     "Błędna kolejność w konstrukcji kontrastu: musi być „Aに対して、B…”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～について",
+       "O, na temat",
+       "Neutralne, konwersacyjne; ogólny zakres tematu",
+       "<ruby>環境<rt>かんきょう</rt></ruby>について<ruby>話<rt>はな</rt></ruby>す"
+      ],
+      [
+       "～に<ruby>関<rt>かん</rt></ruby>して",
+       "W związku z",
+       "Formalne, zakres badań/polityki",
+       "<ruby>規則<rt>きそく</rt></ruby>に<ruby>関<rt>かん</rt></ruby>して<ruby>調査<rt>ちょうさ</rt></ruby>する"
+      ],
+      [
+       "～に<ruby>向<rt>む</rt></ruby>けて",
+       "Z myślą o, ku (cel/adresat)",
+       "Nacisk na cel, kierunek ruchu",
+       "<ruby>子供<rt>こども</rt></ruby>に<ruby>向<rt>む</rt></ruby>けて<ruby>番組<rt>ばんぐみ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る"
+      ],
+      [
+       "～に<ruby>比<rt>くら</rt></ruby>べて",
+       "W porównaniu z",
+       "Porównanie stopnia, bez niuansu „wobec”",
+       "<ruby>去年<rt>きょねん</rt></ruby>に<ruby>比<rt>くら</rt></ruby>べて<ruby>暑<rt>あつ</rt></ruby>い"
+      ],
+      [
+       "それに<ruby>対<rt>たい</rt></ruby>して",
+       "Spójnik „natomiast”",
+       "Łączy zdania/akapity, aby wskazać kontrast",
+       "Aは<ruby>賛成<rt>さんせい</rt></ruby>だ。それに<ruby>対<rt>たい</rt></ruby>してBは<ruby>反対<rt>はんたい</rt></ruby>だ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 97,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 595,
+   "src_hash": "b78a08e8ff531419",
+   "fields": {
+    "meaning": "W porównaniu z",
+    "examples": [
+     "W tym roku w porównaniu z zeszłym jest mało deszczu.",
+     "W porównaniu z miastem na wsi czynsz jest niski.",
+     "W porównaniu z nim jestem niskiego wzrostu.",
+     "W porównaniu z poprzednią częścią ten film ma szybkie tempo.",
+     "W porównaniu z mówieniem lepiej radzę sobie z pisaniem.",
+     "Japonia w porównaniu z innymi krajami jest bezpieczna."
+    ],
+    "explain": "Wskazuje konkretny punkt odniesienia w celu podania różnicy stopnia. Odpowiednie do komentarzy, analiz.\nMożna używać w języku mówionym i pisanym; forma に比べ to zwięzły język pisany.\nNależy unikać porównywania niewspółmiernych kategorii; dla naturalności powinny należeć do tej samej klasy.\n\n• Wyraża porównanie stopnia z wyraźnym punktem odniesienia (Aに比べてBは…: B ma inny stopień niż A).\n• Kładzie nacisk na kryterium/aspekt porównania; często występuje z ほう, より, ほど, aby doprecyzować stopień.\n• Zwykle używane z danymi liczbowymi, momentami w czasie, miejscami, produktami, osobami/rzeczami tego samego rodzaju, aby uniknąć kulawego porównania.",
+    "notes": "• Często występuje ze wskaźnikami: 去年に比べて10％増, 昨日より2度高い.\n• Gdy jasne jest, że B jest podmiotem, często używa się „Aに比べて、Bのほうが…”.\n• Przy porównaniu zdań składowych używa się の do nominalizacji: 勉強するのに比べて…\nexplain: ◎ Wyraża znaczenie „W porównaniu z ~ bardziej ~”.\nexamples: 1. 私の国に比べて、日本は人が多い。\nW porównaniu z moim krajem w Japonii jest dużo ludzi.\n2. 前回に比べて、参加者が少ない。\nW porównaniu z poprzednim razem uczestników jest mało.\nmeaning_vi: Wyraża porównanie. W porównaniu z ~\nexplain: Służy do porównania A z B. Po ～に比べて zwykle następuje cecha, ocena lub dane liczbowe wskazujące różnicę.\nexamples: 1. 昼間に比べて深夜は電器料金が安い。\nW porównaniu z dniem późną nocą opłaty za prąd są niskie.\n2. 今年は例年に比べ、寒さが厳しいそうだ。\nPodobno w tym roku mrozy są ostrzejsze niż zwykle.\n3. 女性のほうが男性に比べ平均寿命の長い国が多い。\nW wielu krajach średnia długość życia kobiet jest wyższa niż mężczyzn.\n4. 「私は話すのに比べて、書く力が弱いんです。」\n„W porównaniu z mówieniem słabo radzę sobie z pisaniem”.\n──────\n1. ①　去年に比べて\nW porównaniu z zeszłym rokiem\n2. ②　去年に比べて、今年は雪が多い。\nW porównaniu z zeszłym rokiem w tym roku jest dużo śniegu.\n3. ➂     とり肉は豚肉に比べ、脂が少ない。\nMięso drobiowe ma mniej tłuszczu niż wieprzowina. meaning_vi: W porównaniu z, porównując z ⏐ explain: Używa się przy porównaniu dwóch rzeczy, spraw ⏐ examples: 1. 試験問題は昨年に比べて易しくなった。\nZadania egzaminacyjne stały się łatwiejsze w porównaniu z zeszłym rokiem\n2. 店で買うのに比べ、通信販売は便利だが、欠点もある。\nW porównaniu z kupowaniem w sklepie sprzedaż wysyłkowa jest wygodna, ale ma też wady",
+    "mistakes": [
+     "Pomylenie z に対して: ×Aに対してBのほうが高い → ○Aに比べてBのほうが高い.",
+     "Pominięcie strony porównywanej powoduje niejasność: warto dodać Bのほうが, aby było wiadomo, która strona przeważa.",
+     "Kulawe porównanie (różne kategorie) brzmi nienaturalnie.",
+     "Błędna kolejność: musi być „Aに比べて、B…”, nie należy odwracać sensu przy braku podmiotu."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～より",
+       "Bardziej niż",
+       "Krótkie, neutralne; bez nacisku na kryterium",
+       "AよりBが<ruby>高<rt>たか</rt></ruby>い"
+      ],
+      [
+       "～に<ruby>比<rt>くら</rt></ruby>べて",
+       "W porównaniu z",
+       "Nacisk na porównanie z punktem odniesienia/aspektem; bardziej formalne niż より",
+       "<ruby>去年<rt>きょねん</rt></ruby>に<ruby>比<rt>くら</rt></ruby>べて<ruby>高<rt>たか</rt></ruby>い"
+      ],
+      [
+       "～ほど…ない",
+       "Nie tak… jak",
+       "Porównanie „mniej niż”; przeczenie stopnia",
+       "Aほど<ruby>難<rt>むずか</rt></ruby>しくない"
+      ],
+      [
+       "～に<ruby>対<rt>たい</rt></ruby>して",
+       "Wobec; natomiast",
+       "Nie jest to porównanie stopnia; wyraża kierunek/kontrast",
+       "Aに<ruby>対<rt>たい</rt></ruby>してBは…"
+      ],
+      [
+       "～と<ruby>比<rt>くら</rt></ruby>べて",
+       "Odpowiednik に<ruby>比<rt>くら</rt></ruby>べて",
+       "Naturalne w rozmowie; lekki niuans",
+       "<ruby>東京<rt>とうきょう</rt></ruby>と<ruby>比<rt>くら</rt></ruby>べて…"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 596,
+   "src_hash": "8a01595bd2648e4b",
+   "fields": {
+    "meaning": "Wyraża silną pewność mówiącego.\n［ふつう］　+　に違いない\n［Na：ひまだN：雨だ］",
+    "connection": "V w formie prostej + に違いない / N / Na / Aい",
+    "examples": [
+     "Zrobiło się ciemno, a światło się nie pali. Z pewnością gdzieś wyszli.",
+     "Sprawcą jest bez wątpienia A. Ma przecież silny motyw, a do tego nie ma alibi.",
+     "Skoro nawet Yamada, który ma dobre oceny, zdołał rozwiązać tylko połowę, ten egzamin musiał być naprawdę trudny.",
+     "„Pana Suzukiego jeszcze nie ma. To nie jest osoba, która by się spóźniała, więc na pewno coś się stało”.",
+     "Na pewno nie ma wolnych miejsc",
+     "Nie ma mojego parasola. Ktoś musiał go zabrać."
+    ],
+    "explain": "Stanowczo potwierdza przypuszczenie mówiącego oparte na przesłankach: „na pewno…”. Mówiący jest przekonany, że to niemal na pewno prawda.",
+    "notes": "1) Łatwo pomylić z ～はずだ／～に決まっている.\n→ ～に違いない to „na pewno” na podstawie uzasadnionego wnioskowania, ale wciąż jest to przypuszczenie mówiącego.\n2) Nie używa się do słabych przypuszczeń.\n→ Jeśli chodzi tylko o „być może”, używa się ～かもしれない／～だろう.\n3) Często występuje z oznakami/przesłankami.\n→ Zwykle wcześniej pojawia się informacja stanowiąca podstawę wniosku."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

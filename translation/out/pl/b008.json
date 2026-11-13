@@ -1,0 +1,671 @@
+{
+ "batch": "b008",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 116,
+   "src_hash": "5b9498eeda54c06b",
+   "fields": {
+    "meaning": "Który (rzeczownik)",
+    "examples": [
+     "Która książka jest najciekawsza?",
+     "Który to pokój?",
+     "Która koszula należy do pana Tanaki?",
+     "Która osoba jest nauczycielem?",
+     "W której okolicy jest dworzec?",
+     "Ile to mniej więcej zajmuje stąd?"
+    ],
+    "explain": "Należy pamiętać, że po どの zawsze stoi rzeczownik; w przeciwnym razie zamienia się je na どれ.\nUprzejme pytanie o osobę: używa się どの方 zamiast どの人.\nPytanie o stopień: どのくらい/どのぐらい łączy się z V/A/名詞+です.\nW odniesieniu do pochodzenia/przynależności どこのN brzmi w rozmowie bardzo naturalnie: どこの会社ですか.\n\n„どの + N” służy do pytania o wskazanie konkretnego rzeczownika spośród wielu możliwości: „Który…?”.\n„どのくらい/どのぐらい” służy do pytania o stopień, czas, ilość: „ile/jak długo”.\nNie występuje samodzielnie; jeśli nie ma rzeczownika, używa się どれ (który).\nPrzy pochodzeniu/przynależności どこのN jest zwykle bardziej naturalne: どこの国／どこの会社.",
+    "notes": "„どのくらい” ≈ „どれくらい” (oba są powszechne, どれくらい jest nieco bardziej typowe dla języka mówionego).\nPrzy konkretnych punktach w czasie lepiej użyć „何時／何分／何日” zamiast どの.\n„どの辺” należy do mowy potocznej; uprzejmiej jest użyć „どのあたりですか”.",
+    "mistakes": [
+     "Użycie samego どの: ×どのが好き？ → ✓ どれが好き？ lub ✓ どの映画が好き？",
+     "Mylenie どの z どこの przy pytaniu o pochodzenie: ✓ どこの国／会社.",
+     "Pominięcie rzeczownika po どの, co prowadzi do braku informacji w odpowiedzi na JLPT.",
+     "Mylenie どのくらい (stopień) z いくつ/いくら (liczba/cena). Należy wybrać poprawnie, zgodnie z tym, co znaczy zdanie pytające."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "どの + N",
+       "Który (określenie rzeczownika)",
+       "Wymaga N",
+       "どの<ruby>映画<rt>えいが</rt></ruby>が<ruby>好<rt>す</rt></ruby>き？"
+      ],
+      [
+       "どれ",
+       "Który",
+       "Występuje samodzielnie",
+       "どれがあなたのですか。"
+      ],
+      [
+       "どちら",
+       "Który (uprzejmie)/gdzie",
+       "Zwykle 2 możliwości; uprzejme",
+       "AとB、どちら？"
+      ],
+      [
+       "どこの + N",
+       "Które N, skąd",
+       "Pytanie o pochodzenie/przynależność",
+       "どこの<ruby>会社<rt>かいしゃ</rt></ruby>ですか。"
+      ],
+      [
+       "どのくらい",
+       "Mniej więcej ile",
+       "Stopień/czas trwania",
+       "どのくらい<ruby>時間<rt>じかん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 117,
+   "src_hash": "e6ce75488b1b28bf",
+   "fields": {
+    "meaning": "Który（zaimek; odróżniać od どの + N — zob. wiersz どの～）",
+    "connection": "どれ + (です/partykuła)（występuje samodzielnie, bez N）",
+    "examples": [
+     "Które buty są twoje?",
+     "Jabłka, mandarynki, banany – które kupisz?",
+     "A: Który parasol jest twój?\nB: Czerwony."
+    ],
+    "explain": "Wskazuje, o który obiekt chodzi w grupie złożonej z 3 lub więcej obiektów.\n\nどれ : który\nどのN : które N"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 118,
+   "src_hash": "55a8ff63eb35c696",
+   "fields": {
+    "meaning": "Którykolwiek",
+    "connection": "どれでも + V (twierdzenie)",
+    "examples": [
+     "Proszę wybrać dowolny spośród tych.",
+     "Niezależnie od koloru cena jest taka sama.",
+     "Każdy prezent mnie cieszy.",
+     "Proszę bardzo, można wziąć dowolną rzecz, która się podoba.",
+     "Każdy napój kosztuje 100 jenów.",
+     "Może być którekolwiek miejsce. (określenie rzeczownika, używa się どのNでも)"
+    ],
+    "explain": "Brzmi przyjaźnie, często używane przy pozostawianiu komuś wyboru: „どれでもいいです”.\nNaturalne w instrukcjach/cennikach: „どれでも同じ価格”.\nNie używa się „どれでも” jako bezpośredniego określenia rzeczownika; zamienia się je na „どのNでも”.\nJeśli nie ma wyraźnej listy, warto rozważyć użycie なんでも (cokolwiek) zamiast どれでも.\n\n„どれでも” wyraża brak rozróżnienia między dostępnymi już możliwościami: „którykolwiek może być”.\nCzęsto łączy się z いい／大丈夫／構いません, by wyrazić zgodę/brak konkretnych wymagań.\nGdy trzeba określić rzeczownik, używa się „どのNでも” zamiast „どれでもN”.\nZakres „どれでも” musi być skończonym zbiorem możliwości – namacalnych lub podanych w wyliczeniu.",
+    "notes": "W obsłudze klienta „どれでもどうぞ” wyraża uprzejme zaproszenie do swobodnego wyboru.\n„どれでも +同じ” często spotyka się w promocjach, zestawach.\nZ czasownikiem wymagającym wyboru jednej rzeczy どれでも kładzie nacisk na „brak wybredności”; どれも (twierdzenie) kładzie nacisk na „wszystkie są…” (inny niuans).",
+    "mistakes": [
+     "×どれでも席→ ✓どの席でも（do określenia rzeczownika należy użyć どのNでも）",
+     "Pomylenie zakresu: przy ogólnym „cokolwiek” należy użyć なんでも, a nie どれでも.",
+     "Mylenie z どれも w przeczeniu: „どれも〜ません” = „żaden”, co jest czymś zupełnie innym niż „どれでも”.",
+     "Użycie どれでも w odniesieniu do miejsca/czasu: należy użyć odpowiednio どこでも／いつでも."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Rozróżnienie",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "どれでも",
+       "Którykolwiek z nich może być",
+       "Konkretny zbiór możliwości",
+       "どれでもいいです。"
+      ],
+      [
+       "どのNでも",
+       "Dowolne N",
+       "Określenie rzeczownika",
+       "どの<ruby>席<rt>せき</rt></ruby>でもOK。"
+      ],
+      [
+       "どれも",
+       "Wszystkie (całość)",
+       "+ twierdzenie: „wszystkie”; + przeczenie: „żaden”",
+       "どれも<ruby>好<rt>す</rt></ruby>きです／どれも<ruby>好<rt>す</rt></ruby>きではありません。"
+      ],
+      [
+       "どれか",
+       "Któryś",
+       "Tylko jeden, nieokreślony",
+       "どれか<ruby>選<rt>えら</rt></ruby>んで。"
+      ],
+      [
+       "なんでも",
+       "Cokolwiek",
+       "Bez ograniczenia do konkretnej listy",
+       "なんでもいいです。"
+      ],
+      [
+       "どこでも／いつでも",
+       "Gdziekolwiek/kiedykolwiek",
+       "Dla miejsca/czasu",
+       "どこでもいい／いつでも<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 119,
+   "src_hash": "e68d4b77c469960d",
+   "fields": {
+    "meaning": "Coś",
+    "examples": [
+     "Chcę coś zjeść.",
+     "Czy jest coś do picia?",
+     "Czy są jakieś pytania?",
+     "Może w czymś pomóc?",
+     "Może napijemy się czegoś razem?",
+     "Czy wczoraj coś się stało?"
+    ],
+    "explain": "Wyraża nieokreśloność, zachowując uprzejmy ton i dystans: pozwala uniknąć bezpośredniego „konkretne X”.\nW pytaniu 何か sugeruje oczekiwanie odpowiedzi „tak”: 何か問題がありますか。\nW rozmowie często pomija się を po 何か: 何か食べる？ (potocznie).\nUżywane z 〜ませんか do łagodnego zaproszenia/propozycji.\nAby wyrazić przeczenie całkowite, używa się 何も～ません, a nie 何か～ません.\n\n何か oznacza „coś / jakąś rzecz”, bez konkretnego określenia.\nCzęsto używane tam, gdzie pojawiają się zdania twierdzące, pytania sondujące, zaproszenia/propozycje, aby zachować nieokreśloność i uprzejmy ton.\nZ あります/います wyraża „jest coś” (przedmiot/osoba/zwierzę) bez precyzowania.\nNie używa się 何か przy formie przeczącej w znaczeniu „nic nie…” (wtedy używa się 何も～ません).\nW pytaniu przeczącym 〜ませんか 何か łagodzi zdanie: „Może… razem?”",
+    "notes": "„何かありますか” w zależności od kontekstu może znaczyć „Czy coś się stało?” (nie tylko „czy coś jest?”).\n„何か＋Nを＋ください” jest uprzejmiejsze niż „何かください”, gdy chodzi o określony rodzaj rzeczy: 何か飲み物をください。\nPytanie przeczące 〜ませんか z 何か ma zwykle niuans zaproszenia: 何か食べませんか（＝może zjemy coś razem）.\nW języku mówionym 何か bywa skracane do „なんか” (język mówiony), ale na egzaminie należy zachować 何か.",
+    "mistakes": [
+     "Użycie 何か z przeczeniem w znaczeniu „nic nie…”: ×何か食べません → poprawnie: 何も食べません。",
+     "Niepominięcie を w języku mówionym nie jest błędem, ale w języku pisanym na JLPT należy pisać wzorcowo: 何かを食べます（dopuszczalne), 何か食べます（bardziej naturalne).",
+     "Mylenie 何か i 何:",
+     "何を飲みますか（co pijesz? pytanie o konkret）",
+     "何か飲みますか（napijesz się czegoś? propozycja).",
+     "Błędne rozumienie 何かありますか jako „czy jest konkretne X?”; w rzeczywistości to ogólne pytanie „czy jest coś (jakaś sprawa)?”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "<ruby>何<rt>なに</rt></ruby>",
+       "Co (pytanie wprost)",
+       "Pytanie szczegółowe (typu wh), wymaga wskazania konkretu",
+       "<ruby>何<rt>なに</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みますか。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>か",
+       "Coś",
+       "Nieokreślone; pasuje do twierdzenia/pytania",
+       "<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>みたい。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>も～ない",
+       "Nic nie…",
+       "Tylko z przeczeniem",
+       "<ruby>何<rt>なに</rt></ruby>も<ruby>飲<rt>の</rt></ruby>みません。"
+      ],
+      [
+       "だれか",
+       "Ktoś",
+       "Podobne do <ruby>何<rt>なに</rt></ruby>か, ale dotyczy „kogo”",
+       "だれか<ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "どれか",
+       "Któryś",
+       "Wybór jednego spośród znanych",
+       "どれか<ruby>選<rt>えら</rt></ruby>んでください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 120,
+   "src_hash": "f3e0d627c49bc7f8",
+   "fields": {
+    "meaning": "Zupełnie nic",
+    "examples": [
+     "Dzisiaj nic nie jem.",
+     "Tutaj nic nie ma.",
+     "Nic nie rozumiem.",
+     "W wolne dni nic nie robię.",
+     "Niczego już nie potrzebuję.",
+     "O wczorajszej sprawie nic nie wiem."
+    ],
+    "explain": "Kładzie nacisk na „ani jednej rzeczy / zupełnie nic nie robić” → niuans stanowczy, całkowity.\nZwykle pomija się を po 何も: 何も食べません（bardziej naturalne niż 何もを食べません）.\nW mowie potocznej używa się ない: 何もない／何もしない。\nPrzy ogólnym zaprzeczeniu istnienia: 何もありません（nic nie ma） jest bardzo często używane w komunikatach/uprzejmych odpowiedziach.\n\n何も～ません/ない to wzór gramatyczny przeczenia całkowitego: „nic nie…”, „zupełnie nic…”.\nZawsze łączy się z czasownikiem/przymiotnikiem w formie przeczącej; nie używa się z twierdzeniem.\nUżywane z あります/います w znaczeniu „nie ma (zupełnie) nic”.\nStopień podkreśla się słowami pomocniczymi (od poziomu N4 wzwyż), takimi jak 全然/全く; na N5 wystarczy samo 何も + Vません.",
+    "notes": "„何もない” może występować samodzielnie jako pełne zdanie: 何もない（Nic nie ma）.\n„何も問題はありません” jest poprawne gramatycznie: 何も＋N＋は＋ありません → „Nie ma żadnego problemu”.\nW uprzejmej odpowiedzi można użyć: いいえ、何もありません。\nZ czasownikami poznawczymi: 何も覚えていません／何も聞いていません – oba brzmią naturalnie.",
+    "mistakes": [
+     "Użycie z twierdzeniem: ×何もあります → niepoprawnie. Należy użyć przeczenia: 何もありません。",
+     "Dodanie を po 何も: ×何もを食べません → を zwykle się pomija: 何も食べません。",
+     "Mylenie z 何か:",
+     "何か食べます（jem coś, twierdzenie)",
+     "何も食べません（nic nie jem, przeczenie).",
+     "Użycie いません w odniesieniu do rzeczy nieożywionych (×何もいません w pokoju z przedmiotami) → poprawnie: 何もありません."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "<ruby>何<rt>なに</rt></ruby>か",
+       "Coś",
+       "Używane z twierdzeniem/pytaniem",
+       "<ruby>何<rt>なに</rt></ruby>かありますか。"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>も～ない/ません",
+       "Nic nie…",
+       "Obowiązkowo z przeczeniem",
+       "<ruby>何<rt>なに</rt></ruby>もありません。"
+      ],
+      [
+       "<ruby>誰<rt>だれ</rt></ruby>も～ない",
+       "Nikt nie…",
+       "Rzeczownik pytający „kto” + も + przeczenie",
+       "<ruby>誰<rt>だれ</rt></ruby>もいません。"
+      ],
+      [
+       "どれも～ない",
+       "Żaden nie…",
+       "„Każdy… nie”",
+       "どれも<ruby>好<rt>す</rt></ruby>きじゃない。"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない",
+       "Zupełnie nie (rozszerzenie)",
+       "Przysłówek podkreślający stopień",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>分<rt>わ</rt></ruby>かりません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 121,
+   "src_hash": "d33195d1d1ed63b8",
+   "fields": {
+    "meaning": "Wszystko, cokolwiek",
+    "connection": "なんでも + V (twierdzenie)",
+    "examples": [
+     "Jem wszystko.",
+     "Do picia może być cokolwiek.",
+     "W tym sklepie jest wszystko.",
+     "On wie wszystko.",
+     "Jeśli są pytania, proszę pytać o cokolwiek.",
+     "To nic takiego."
+    ],
+    "explain": "なんでも używa się w wypowiedziach ogólnych, bez ograniczania wyboru. Pasuje zarówno do stylu uprzejmego, jak i do mowy potocznej.\nなんでもいい wyraża „brak wybredności”; uprzejmiej z です: なんでもいいです。\nなんでもない służy do uspokajania lub zaprzeczania ważności czegoś: „to nic / nic się nie stało”.\nNależy unikać なんでも z przeczeniem typu ない w znaczeniu „nic nie…”; w tym znaczeniu używa się 何も…ない.\n\nなんでも wyraża zakres obejmujący wszystko: „wszystko…”, „cokolwiek…”. Zwykle łączy się z czasownikiem/przymiotnikiem w twierdzeniu.\nなんでもいい: „cokolwiek może być”, wyraża brak konkretnych wymagań.\nなんでもない: stałe wyrażenie o znaczeniu „to nic / nic się nie stało”, nie rozumie się go jako „wszystko nie” (inaczej niż w standardowym wzorze przeczenia 何も…ない).\nW mowie codziennej なんでも ma czasem niuans przesady („wszystko…” w znaczeniu względnym).",
+    "notes": "W języku mówionym なんでも może mieć charakter wyolbrzymienia: „wszystko…”, ale rozumiane jako „prawie wszystko…”.\nNa wyższym poziomie なんでも ma też znaczenie „podobno…” (pogłoska), ale nie należy to do N5; nie należy mylić ze znaczeniem „wszystko”.\nなんでもかんでも to forma służąca do podkreślenia; należy unikać jej nadużywania w formalnym języku pisanym.",
+    "mistakes": [
+     "Błędne użycie z przeczeniem: aby powiedzieć „nic nie jem”, należy użyć 何も食べない, a nie „なんでも食べない”.",
+     "Mylenie なんでもない (to nic) z „何でもない = nie wszystko…” → poprawnie rozumie się je jako stałe wyrażenie „to nic”.",
+     "Zbyt szerokie użycie なんでも powoduje przesadę: należy uwzględnić kontekst (przykład: „なんでも知っている” to wyrażenie przesadne).",
+     "Gdy zdanie pytające dotyczy konkretnego wyboru, używa się どれでも/どのNでも zamiast なんでも."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "なんでも",
+       "Wszystko… (twierdzenie)",
+       "Używane z twierdzeniem",
+       "なんでも<ruby>食<rt>た</rt></ruby>べます"
+      ],
+      [
+       "<ruby>何<rt>なに</rt></ruby>も…ない",
+       "Nic nie…",
+       "Przeczenie całkowite",
+       "<ruby>何<rt>なに</rt></ruby>も<ruby>食<rt>た</rt></ruby>べない"
+      ],
+      [
+       "なんでもない",
+       "To nic / nic się nie stało",
+       "Stałe wyrażenie, a nie zwykła konstrukcja „なんでも + ない”",
+       "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>、なんでもないよ"
+      ],
+      [
+       "どれでも／どこでも／いつでも／だれでも",
+       "Którykolwiek/gdziekolwiek/kiedykolwiek/ktokolwiek",
+       "„-でも” + inne słowa pytające",
+       "どれでもいいです"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 122,
+   "src_hash": "c0b78ceb29ad30a9",
+   "fields": {
+    "meaning": "Dlaczego",
+    "connection": "なんで + [pytanie] (powód; 何で służy też do pytania o środek: バスで…)",
+    "examples": [
+     "Dlaczego się spóźniłeś?",
+     "Czym jeździsz do szkoły? — Jeżdżę autobusem.",
+     "Dlaczego uczysz się japońskiego?",
+     "Czym dzisiaj przyjechałeś? — Przyjechałem rowerem.",
+     "Czemu się śmiejesz?",
+     "Czym jedziesz do Tokio? — Jadę pociągiem."
+    ],
+    "explain": "Pytanie o powód w mowie potocznej: używa się なんで + 普通形 (forma prosta).\nAby było uprzejmiej: なんで～んですか albo zamiana na どうして/なぜ.\nPytanie o środek: なんで + V, odpowiedź to zwykle N + で.\nIntonacja wznosi się na końcu zdania pytającego, aby wyrazić pytanie.\n\nなんで (何で) ma na N5 2 główne znaczenia:\nDlaczego (potocznie, w codziennej rozmowie). Dodanie ～んですか nadaje uprzejmy ton: なんで～んですか。\nCzym (środek/sposób): pytanie o środek transportu, narzędzie itp.\nDlaczego (potocznie, w codziennej rozmowie). Dodanie ～んですか nadaje uprzejmy ton: なんで～んですか。\nCzym (środek/sposób): pytanie o środek transportu, narzędzie itp.\nRozróżnia się je, patrząc na odpowiedź:\nJeśli odpowiedź to N + で (バスで, はしで, てで, パソコンで) → pytanie o środek.\nJeśli odpowiedź to ～から／～ので (雨だから, 忙しいので) → pytanie o powód.\nJeśli odpowiedź to N + で (バスで, はしで, てで, パソコンで) → pytanie o środek.\nJeśli odpowiedź to ～から／～ので (雨だから, 忙しいので) → pytanie o powód.\nW kontekście formalnym lub na egzaminie do pytania o powód lepiej wybierać どうして/なぜ; なんで należy raczej do mowy potocznej.",
+    "notes": "Zapis w kanji: 何で. Powszechna wymowa: なんで. W znaczeniu „czym” można też rozumieć jako „jakim środkiem”.\nW niektórych sytuacjach なんで w znaczeniu „powód” może brzmieć zbyt poufale; należy unikać go wobec osoby wyższej rangą, jeśli nie jest się z nią w bliskich stosunkach.\nGdy chce się zapytać „w jaki sposób” (procedura, krok po kroku) → lepiej wybrać どうやって, aby uniknąć niejasności.",
+    "mistakes": [
+     "Mylenie znaczeń: なんで = „czym” czy „dlaczego”. Rozróżnia się je na podstawie odpowiedzi (N+で vs ～から/～ので).",
+     "Użycie なんで w zbyt formalnym kontekście → brzmi nieuprzejmie. Należy użyć どうして/なぜ.",
+     "Błędny zapis wymowy: „なにで” przy pytaniu o powód. Powszechną normą w języku mówionym jest なんで; „なにで” oznacza głównie „czym”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "なんで",
+       "Dlaczego/czym",
+       "Mowa potoczna; bez kontekstu może być niejasne",
+       "なんで<ruby>行<rt>い</rt></ruby>く？"
+      ],
+      [
+       "どうして",
+       "Dlaczego",
+       "Neutralne, uprzejmiejsze niż なんで",
+       "どうして<ruby>来<rt>こ</rt></ruby>ないんですか"
+      ],
+      [
+       "なぜ",
+       "Dlaczego",
+       "Formalne, język pisany",
+       "なぜ<ruby>遅<rt>おく</rt></ruby>れましたか"
+      ],
+      [
+       "どうやって",
+       "W jaki sposób",
+       "Tylko „sposób/metoda”, nie ma znaczenia „dlaczego”",
+       "どうやって<ruby>行<rt>い</rt></ruby>きますか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 123,
+   "src_hash": "6bbc8cddf396448c",
+   "fields": {
+    "name": "～に行く／来る（cel przemieszczania się）",
+    "meaning": "Cel czynności",
+    "connection": "Vます(bez ます)・N(czynność) + に + 行く・来る・帰る",
+    "examples": [
+     "Idę uczyć się japońskiego.\nIdę na naukę japońskiego."
+    ],
+    "explain": "に：Wskazuje cel czynności.\n\nV2, aby wykonać V1.\nV2 to zwykle czasowniki oznaczające przemieszczanie się, takie jak いきます iść, きます przychodzić, かえります wracać, もどります wracać z powrotem…",
+    "notes": "W przypadku rzeczownika odczasownikowego （Nする）：istnieją 2 sposoby użycia:\nPełne zdanie: N(miejsce)へ Nを Vに 行きます・来ます・帰ります"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 124,
+   "src_hash": "45652f02b1628ca5",
+   "fields": {
+    "meaning": "Prawie, niemal",
+    "examples": [
+     "Ten film znam prawie w całości.",
+     "Prawie nie umiem mówić po japońsku.",
+     "Prawie wszyscy studenci zdali test.",
+     "Dzisiaj prawie nie padało.",
+     "W wolne dni prawie codziennie chodzę do parku.",
+     "Wczoraj prawie cały dzień byłem w domu."
+    ],
+    "explain": "Nie dodaje się ない, gdy użyto go w pozycji przed rzeczownikiem: ほとんどのN (a nie ほとんどのNない).\nAby położyć nacisk na „prawie nie”, zawsze używa się go przy formie przeczącej: ほとんど～ない／ありません.\nPrzy konkretnej liczbie ほとんど akcentuje „prawie całość”, podczas gdy だいたい akcentuje „w przybliżeniu, około”.\nW języku mówionym można użyć „ほとんどは〜”, aby wskazać większość podmiotów: ほとんどは学生です (większość to uczniowie).\n\nZ twierdzeniem: „prawie wszystko/większość”. Przykład: ほとんど分かる = rozumieć prawie wszystko.\nZ przeczeniem: „prawie nie” (stopień bardzo niski, bliski 0). Przykład: ほとんど分からない.\nほとんどの + N służy do wyrażenia „prawie wszyscy/większość…”. W standardowym języku pisanym należy unikać „ほとんどN” bezpośrednio przed rzeczownikiem (poza pewnymi szczególnymi przypadkami).\nŁączy się z czasem/częstotliwością: ほとんど毎日 (prawie codziennie), ほとんど一日中 (prawie cały dzień).\nNiuans ilościowy wyraźnie mocniejszy niż だいたい (szacunkowo), bliski ほぼ (niemal całkowicie).",
+    "notes": "ほとんど + ありません/ないです to para bardzo często spotykana na N5, warto zapamiętać ją jako stałe wyrażenie.\nPrzy opisie czasu trwania: „ほとんど一日中” jest bardziej naturalne niż „ほとんど一日”, gdy chce się powiedzieć „cały dzień”.\n„ほとんどNだ” można spotkać w języku mówionym: ここはほとんど外国人だ (tu są prawie sami obcokrajowcy), ale standardowy język pisany preferuje ほとんどのN.",
+    "mistakes": [
+     "Błędne użycie z rzeczownikiem: × ほとんど学生→ ○ ほとんどの学生 (język pisany). W szczególnych przypadkach w języku mówionym bywa akceptowane, ale nie jest zalecane na egzaminie.",
+     "Pominięcie przeczenia, gdy chce się powiedzieć „prawie nie”: × ほとんど分かります → ○ ほとんど分かりません.",
+     "Mylenie z だいたい: だいたい znaczy „około, z grubsza” i nie jest tak mocne jak ほとんど.",
+     "Zbędne podwójne przeczenie: × ほとんどの人が来ませんない → ○ ほとんどの人が来ません."
+    ],
+    "comparison": {
+     "headers": [
+      "Słowo/Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "ほとんど",
+       "Prawie (bardzo wysoki/bardzo niski stopień)",
+       "Mocne: odsetek bliski 100%/0%",
+       "ほとんどできる／ほとんどできない"
+      ],
+      [
+       "ほぼ",
+       "Prawie, niemal",
+       "Formalne, neutralne, bliskie ほとんど w twierdzeniu",
+       "ほぼ<ruby>完成<rt>かんせい</rt></ruby>した。"
+      ],
+      [
+       "だいたい",
+       "Z grubsza, około",
+       "Akcentuje szacunek, nie tak mocne jak ほとんど",
+       "だいたい<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "たいてい",
+       "Zazwyczaj, w większości (nawyk)",
+       "Mówi o regularności, nie o dokładnym odsetku",
+       "たいてい<ruby>家<rt>いえ</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる。"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>～ない",
+       "Zupełnie nie",
+       "Mocniejsze niż „ほとんど～ない”",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>分<rt>わ</rt></ruby>からない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 125,
+   "src_hash": "5daac1d8bf5d9d85",
+   "fields": {
+    "meaning": "Jako tako, przeciętnie",
+    "examples": [
+     "Ten film jest dość ciekawy.",
+     "Po japońsku mówię jako tako.",
+     "Test poszedł jako tako.",
+     "W tym sklepie ceny są znośne.",
+     "On całkiem nieźle gra w tenisa.",
+     "No już, już, spokojnie."
+    ],
+    "explain": "Stawia się przed przymiotnikiem/czasownikiem, aby wskazać średni stopień.\nW rozmowie „まあまあです／まあまあかな” to bezpieczna odpowiedź, gdy nie chce się mocno chwalić ani krytykować.\nForma wykrzyknika „まあまあ、…” używana jest na początku zdania, aby załagodzić atmosferę.\nNie należy łączyć z mocno wzmacniającymi słowami, takimi jak „とても”, „すごく”.\nPoziom uprzejmości: neutralny; aby było uprzejmie, dodaje się です/ます.\n\nWyraża średni stopień: „jako tako”, „znośnie”, „dość”. Ani zbyt dobrze, ani zbyt źle.\nSłuży do wyrażenia skromności lub złagodzenia oceny, uniknięcia mocnego stwierdzenia.\nW roli wykrzyknika „まあまあ” służy do uspokajania/łagodzenia innych: „no już, spokojnie”.\nNiuans zależy od kontekstu: lekka pochwała („całkiem w porządku”) lub lekka krytyka („zaledwie znośne”).",
+    "notes": "Wyrażenia języka mówionego: „まあまあかな…”, „まあまあいける” (da się jako tako zjeść/wypić/zrobić).\n„まあまあの + N”: まあまあの成績 (znośne wyniki).\nNie używa się „とても” + まあまあ (sprzeczność stopnia).\nPowtórzony wykrzyknik „まあ、まあ” pełni inną funkcję; zwykle pisze się w pełnej postaci „まあまあ”.",
+    "mistakes": [
+     "Użycie razem z mocno wzmacniającym słowem: ×とてもまあまあ → należy wybrać jedno z dwóch.",
+     "Błędna pozycja: ×静かなまあまあ店→ 〇まあまあな静かな店 (ale naturalnie mówi się zwykle: まあまあ静かな店).",
+     "Mylenie まだまだ (jeszcze daleko) i まあまあ (jako tako) → różne znaczenia.",
+     "Nadużywanie w formalnym języku pisanym: należy unikać w tekstach naukowych; zastąpić przez „平均的/可もなく不可もない”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "まあまあ",
+       "Jako tako, dość",
+       "Średni stopień, złagodzenie",
+       "<ruby>味<rt>あじ</rt></ruby>はまあまあだ。"
+      ],
+      [
+       "けっこう",
+       "Dość, stosunkowo",
+       "Bardziej pozytywne niż まあまあ",
+       "この<ruby>本<rt>ほん</rt></ruby>はけっこういい。"
+      ],
+      [
+       "なかなか + Aい/Aな",
+       "Całkiem",
+       "Zwykle pochwała, zabarwienie pozytywne",
+       "なかなか<ruby>面白<rt>おもしろ</rt></ruby>い。"
+      ],
+      [
+       "ちょっと/<ruby>少<rt>すこ</rt></ruby>し",
+       "Trochę",
+       "Akcentuje mały stopień, a nie „średni”",
+       "ちょっと<ruby>高<rt>たか</rt></ruby>い。"
+      ],
+      [
+       "<ruby>普通<rt>ふつう</rt></ruby>(に)",
+       "Zwyczajnie",
+       "Neutralne, nie sugeruje pochwały/krytyki",
+       "<ruby>味<rt>あじ</rt></ruby>は<ruby>普通<rt>ふつう</rt></ruby>です。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 126,
+   "src_hash": "603f6aed7a4057d5",
+   "fields": {
+    "meaning": "Wciąż, jeszcze",
+    "examples": [
+     "Ten film jeszcze grają.",
+     "Jest już noc, ale on wciąż nie śpi.",
+     "Wciąż jeszcze studiuję.",
+     "W lodówce jest jeszcze mleko.",
+     "Praca domowa jeszcze niezrobiona? — Tak, jeszcze nie.",
+     "Japoński nadal jest bardzo trudny."
+    ],
+    "explain": "Stawia się bezpośrednio przed akcentowanym elementem (czasownik, rzeczownik, przymiotnik).\nNaturalnie łączy się z もう dla kontrastu: もう…／まだ…\n„まだです” to uprzejmy skrót; pełna forma to zwykle „まだVていません”.\n„まだまだ” wyraża skromność/oczekiwanie, że droga jest jeszcze długa.\n\nWskazuje stan/czynność w toku aż do teraźniejszości: „wciąż”, „jeszcze”.\nW pytaniu: wyraża oczekiwanie co do tego, czy zmiana już zaszła („czy już…?”).\nKrótka odpowiedź „まだです” odpowiada „jeszcze nie (zrobiono)”.\n„まだまだ” wzmacnia stopień: jeszcze długo, jeszcze dużo.",
+    "notes": "まだ + 可能形: まだ行けます (wciąż można iść / starcza sił).\nまだ + 数量: まだ二人来ます (przyjdą jeszcze dwie osoby).\nNależy unikać まだ z nieodpowiednim prostym czasem przeszłym: ×まだ行った → 〇まだ行っていない/まだ行く。",
+    "mistakes": [
+     "Mylenie z もう: „もう起きています” = już jest na nogach; „まだ起きています” = wciąż jeszcze nie śpi.",
+     "Użycie „まだ” z pominięciem poprawnego czasu: 〇まだしています／×まだします (inne znaczenie: jeszcze się nie zrobi).",
+     "Pytanie: „もう食べましたか。” Odpowiedź „まだです。” (poprawnie); ×„まだ。” w sytuacji formalnej.",
+     "„まだに” nie używa się na N5 (wzór いまだに należy do wyższego poziomu)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "まだ〜",
+       "Wciąż/jeszcze",
+       "Trwający stan",
+       "<ruby>雨<rt>あめ</rt></ruby>はまだ<ruby>降<rt>ふ</rt></ruby>っている。"
+      ],
+      [
+       "まだ〜ない",
+       "Jeszcze nie",
+       "Negacja oczekiwania",
+       "まだ<ruby>降<rt>ふ</rt></ruby>っていない。"
+      ],
+      [
+       "もう〜",
+       "Już",
+       "Nowy stan",
+       "もう<ruby>終<rt>お</rt></ruby>わった。"
+      ],
+      [
+       "もう〜ない",
+       "Już nie",
+       "Całkowite zakończenie",
+       "もう<ruby>時間<rt>じかん</rt></ruby>がない。"
+      ],
+      [
+       "<ruby>今<rt>いま</rt></ruby>でも",
+       "Do dziś wciąż",
+       "Akcentuje punkt „teraz”",
+       "<ruby>今<rt>いま</rt></ruby>でも<ruby>覚<rt>おぼ</rt></ruby>えている。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

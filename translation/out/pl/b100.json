@@ -1,0 +1,744 @@
+{
+ "batch": "b100",
+ "lang": "pl",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 1504,
+   "src_hash": "1acd26fcd74b7338",
+   "fields": {
+    "meaning": "Do samego końca, uparcie, bezwzględnie (あくまでも)",
+    "connection": "あくまでも + [zdanie/zdanie składowe]",
+    "examples": [
+     "To jest wyłącznie moja prywatna opinia.",
+     "Do końca obstawał przy swojej niewinności.",
+     "Konsekwentnie będziemy postępować zgodnie z planem."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1505,
+   "src_hash": "7b7d3cf1a6d6944f",
+   "fields": {
+    "meaning": "Rzeczywiście…, naprawdę wygląda na bardzo… (いかにも)",
+    "connection": "いかにも + [zdanie/zdanie składowe]",
+    "examples": [
+     "Mówi zupełnie jak typowy naukowiec.",
+     "Nosi zegarek, który wygląda na naprawdę drogi.",
+     "Na twarzy malował mu się wyraźny żal."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1506,
+   "src_hash": "281b5cd588bb965c",
+   "fields": {
+    "meaning": "Teraz już…, już nie… (もはや)",
+    "connection": "もはや + [zdanie/zdanie składowe]",
+    "examples": [
+     "Jest już za późno.",
+     "Ta technologia jest już przestarzała.",
+     "Nie ma już nikogo, kto mógłby go powstrzymać."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1507,
+   "src_hash": "ea0e0b4d492b6a62",
+   "fields": {
+    "meaning": "Jakże…, cóż za… (wykrzyknienie: なんという/なんて)",
+    "examples": [
+     "Cóż za piękny widok!",
+     "Jakiż to dobry i łagodny człowiek!",
+     "Coś ty najlepszego narobił!"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1508,
+   "src_hash": "6b5123307501ba71",
+   "fields": {
+    "meaning": "Zapewne…, z całą pewnością… (さぞ)",
+    "connection": "さぞ(かし) + [zdanie/zdanie składowe]",
+    "examples": [
+     "Samotne wychowywanie dziecka musiało być zapewne bardzo trudne.",
+     "Rodzice musieli się zapewne ogromnie ucieszyć z wiadomości o zdanym egzaminie.",
+     "Na szczycie góry musi być zapewne bardzo zimno."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1509,
+   "src_hash": "d3cac6d90af17578",
+   "fields": {
+    "meaning": "Szczególnie…, zwłaszcza… (とりわけ)",
+    "connection": "とりわけ + [zdanie/zdanie składowe]",
+    "examples": [
+     "Tegoroczne lato jest wyjątkowo gorące.",
+     "Jest dobry w językach obcych, zwłaszcza w wymowie.",
+     "Szczególnie zapadła mi w pamięć ostatnia scena."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1510,
+   "src_hash": "cf6bca587b4fe692",
+   "fields": {
+    "meaning": "Jeśli szczęście dopisze…, przy sprzyjającej okazji… (liczenie na okazję)",
+    "connection": "あわよくば + [zdanie/zdanie składowe]",
+    "examples": [
+     "Jeśli szczęście dopisze, chciałbym zdobyć zwycięstwo.",
+     "Poszedłem na przyjęcie z myślą, że przy odrobinie szczęścia może ją spotkam.",
+     "Liczyć na to, że przy okazji dostanie się coś za darmo – co za tupet."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1511,
+   "src_hash": "dbf4b9af413b5721",
+   "fields": {
+    "meaning": "Bez względu na to, jaki jest… (formalny język pisany)",
+    "examples": [
+     "Bez względu na powód przemoc jest niedopuszczalna.",
+     "Niezależnie od wyniku już sam fakt, że dało się z siebie wszystko, ma znaczenie.",
+     "Zgłaszać się można bez względu na doświadczenie."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1512,
+   "src_hash": "c1d63f8352fd3939",
+   "fields": {
+    "meaning": "Zapewne… (archaiczna forma だろう: 良かろう)",
+    "connection": "Aい (bez い) + かろう (良かろう)",
+    "examples": [
+     "Tak chyba wystarczy.",
+     "Iść samemu to zapewne niebezpieczne.",
+     "Morze zimą musi być zapewne przeraźliwie zimne."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1513,
+   "src_hash": "56887bd1f3288081",
+   "fields": {
+    "meaning": "Śmiało…, proszę bardzo… (polecenie wobec niższego rangą; styl teatralny/powieściowy)",
+    "examples": [
+     "Jeśli cię to złości, to proszę bardzo, atakuj.",
+     "Jak chcesz iść, to sobie idź.",
+     "Niech się śmieje, kto chce."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1514,
+   "src_hash": "ca5e0bdfd69301a1",
+   "fields": {
+    "meaning": "Pozostawiając w niezmienionym stanie…, tak jak było (着たなりで寝る)",
+    "examples": [
+     "Zasnął w płaszczu, nawet go nie zdejmując.",
+     "Nie wchodź do pokoju w butach.",
+     "Wyszedłem z domu, zostawiając zapalone światło."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1515,
+   "src_hash": "9b837d66624b921d",
+   "fields": {
+    "meaning": "Jeśli chodzi o…, to (skrajny stopień; nie do opisania)",
+    "examples": [
+     "Piękna wschodzącego słońca widzianego z góry Fuji nie dało się wręcz opisać słowami.",
+     "Jak bardzo się wtedy wstydziłem – nie da się tego wyrazić.",
+     "Jeśli chodzi o bałagan w jego pokoju, to nie ma tam nawet gdzie postawić stopy."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1516,
+   "src_hash": "b1168b2fb50817f3",
+   "fields": {
+    "meaning": "Czy to powiedzieć…, czy może… (wahanie przy doborze wyrażenia)",
+    "connection": "[wyrażenie A] + といおうか、[wyrażenie B] + といおうか",
+    "examples": [
+     "Szczery to on, czy może naiwny – co pomyśli, to od razu mówi.",
+     "Śmiałość to czy lekkomyślność – jego plan mnie zdumiał.",
+     "Czy to radość, czy zawstydzenie – mam mieszane uczucia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1517,
+   "src_hash": "de561607978e4615",
+   "fields": {
+    "meaning": "Jeśli…, to też (ma to swoje trudności/swoje sposoby)",
+    "connection": "NならNで / VたらVたで（powtórzenie tego samego słowa）",
+    "examples": [
+     "Jeśli jest ciasno, to trudno – przy odrobinie pomysłowości da się wygodnie mieszkać.",
+     "Jak nie ma pieniędzy, to nie ma – jakoś to będzie.",
+     "A kiedy już ma się wolny czas, to z kolei nie wiadomo, co z nim zrobić."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1518,
+   "src_hash": "ed190b5992bf4221",
+   "fields": {
+    "meaning": "Godny…, nieprzynoszący wstydu…",
+    "examples": [
+     "Był to wspaniały występ godny miana zwycięzcy.",
+     "Będę się starać, by nie przynieść wstydu mojej macierzystej szkole.",
+     "Chcę żyć tak, by nie musieć wstydzić się przed własnym sumieniem."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1519,
+   "src_hash": "b5bd9ad50b7990c0",
+   "fields": {
+    "meaning": "Śmieć coś zrobić…, ten cholerny… (wulgarne, pogardliwe)",
+    "examples": [
+     "Ten drań ukradł mi kasę!",
+     "Że też dzwoni o takiej porze, cholera!",
+     "Znowu, cholera, zaczęło padać."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1520,
+   "src_hash": "9c8cc93f57a897eb",
+   "fields": {
+    "meaning": "Zmuszać (kogoś) do…, nie pozostawiać wyboru",
+    "examples": [
+     "Tajfun zmusił mieszkańców do ewakuacji.",
+     "Brak funduszy wymusił zmianę planu.",
+     "Recesja zmusza wiele sklepów do zamknięcia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1521,
+   "src_hash": "0087c09ac75f4b03",
+   "fields": {
+    "meaning": "Mający ukryte okoliczności, z własnych powodów (訳あり商品)",
+    "connection": "訳あり + の + N / 訳あって + [zdanie/zdanie składowe]",
+    "examples": [
+     "W tym sklepie tanio sprzedaje się towary przecenione z różnych powodów.",
+     "Wygląda na to, że tych dwoje łączy jakaś skomplikowana relacja.",
+     "Z pewnych powodów mieszkam teraz u rodziców."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1522,
+   "src_hash": "d31532e238c1c1ff",
+   "fields": {
+    "meaning": "Bez względu na to, czy… czy nie… (wyraża, że żadna z dwóch przeciwstawnych możliwości nie zmienia rezultatu)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1523,
+   "src_hash": "140e1816f6ce4d0c",
+   "fields": {
+    "meaning": "Bardzo, ostro, na maksa, całkowicie (emfatyczny prefiks języka mówionego 「ガン」; np. ガン見 = uporczywie się gapić)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1524,
+   "src_hash": "c48c9412ef029c93",
+   "fields": {
+    "meaning": "Zrobić coś dla osoby lub zwierzęcia stojącego niżej od mówiącego; używane też do wyrażenia złości – celowego robienia czegoś, czego inni nie lubią",
+    "examples": [
+     "Kupiłem dziecku nowy rower, a już następnego dnia go ukradziono.",
+     "W tym roku znowu wysłałem młodszemu bratu w Tokio specjały z rodzinnych stron.",
+     "Kiedy wypuściłem psa w dużym parku, radośnie biegał dookoła.",
+     "Z takiej marnie płacącej firmy odejdę, kiedy tylko zechcę.",
+     "A: Jak bagaż jest ciężki, to ci go poniosę.\nB: Ach, nie trzeba, poradzę sobie.",
+     "A: Ty to najlepiej byś umarł!\nB: Skoro tak mówisz, to naprawdę umrę, zobaczysz."
+    ],
+    "explain": "Wyraża, że mówiący (lub osoba z jego strony) wykonuje jakąś czynność na rzecz osoby stojącej niżej od mówiącego lub zwierzęcia. Jak w przykładach 5. 6., bywa też używane jako wyrażenie złości w znaczeniu robienia czegoś, czego druga osoba nie lubi. Wobec osób równych mówiącemu używa się 「Ｖ－てあげる」.（２８６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1525,
+   "src_hash": "c8a75c60a354c9cb",
+   "fields": {
+    "meaning": "…że, …iż (jako określenie rzeczownika oznaczającego wypowiedź lub myśl; formalny język pisany)",
+    "connection": "forma prosta + との + N",
+    "examples": [
+     "Otrzymałem od mojego dawnego nauczyciela odpowiedź, że nie będzie mógł przyjść na ślub.",
+     "Studenci wyrazili życzenie, by pozwolono im wziąć roczny urlop dziekański w celu wyjazdu na studia za granicę.",
+     "W tej sprawie wszyscy poparli propozycję przewodniczącego, by przenieść ją na następne posiedzenie.",
+     "Otrzymałem polecenie służbowe, by od przyszłego miesiąca na rok przejść do oddziału w Sapporo.",
+     "Minister edukacji przedstawił stanowisko, że w celu poprawy edukacji szkolnej konieczna jest gruntowna reforma systemu egzaminów wstępnych do szkół wyższych."
+    ],
+    "explain": "Zdanie składowe wyrażające treść wypowiedzi lub myśli stanowi określenie rzeczownika; używa się go w formalnym stylu. Jako N występują rzeczowniki związane z czynnościami językowymi, np. 「手紙、返事、依頼、提案、警告、命令」, oraz z czynnościami myślowymi, np. 「意見、見解、考え、希望」. Stosuje się, mówiąc o wypowiedziach lub myślach innych osób; gdy wyraża się własne myśli mówiącego, zwykle używa się nie 「との」, lecz 「という」, jak w poniższym przykładzie.\n*（例） 私は夫婦別姓を合法化すべきだという意見をもっている。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1526,
+   "src_hash": "ef40c311006c6a17",
+   "fields": {
+    "meaning": "Wyraża potwierdzenie; ocenę",
+    "examples": [
+     "Pasokon to mały komputer, z którego może korzystać jedna osoba.",
+     "Renge to kwiat lotosu.",
+     "Jakiej właściwie formy opieki społecznej potrzebuje Japonia w XXI wieku?",
+     "„Uniwersalny” oznacza, że coś ma szerokie, ogólne zastosowanie w każdej sytuacji.",
+     "Czym właściwie jest dla mnie rodzina?"
+    ],
+    "explain": "Przyłącza się do rzeczownika i służy do opisania, jakie jest jego znaczenie, charakter lub treść. Używa się go w formie 「とは…ものだ」, by opisać istotne cechy czegoś, lub w formach …とは…のことだ／意味だ」, 「…とは…ということだ／意味だ」, by zdefiniować znaczenie lub treść wyrazu. Jest to wyrażenie charakterystyczne dla języka pisanego; w języku mówionym częściej używa się 「Ｎというのは」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1527,
+   "src_hash": "2738929f006d32a7",
+   "fields": {
+    "meaning": "Nie to, żeby nie (…); w pewnym stopniu odczuwa się, że tak jest",
+    "examples": [
+     "Poniekąd przyznaję, że i ja nie byłem bez winy.",
+     "Kiedy się nad tym zastanowić, można odnieść wrażenie, że jego opinia też jest słuszna.",
+     "A: Lubi pan natto?\nB: Jeść to jem, ale niezbyt za nim przepadam.",
+     "A: No chodź, chodźmy!\nB: Skoro tak nalegasz, to w sumie mogę pójść…"
+    ],
+    "explain": "Przyłącza się do formy przeczącej czasownika i wyraża, że takie działanie lub postrzeganie może zachodzić. Gdy użyte są czasowniki związane z myśleniem lub percepcją, takie jak 「言う、考える、思う、認める、感じる、気がする」, wyraża znaczenie w rodzaju 「何となくそんな気がする」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1528,
+   "src_hash": "09517739bae22e71",
+   "fields": {
+    "meaning": "Gdyby…, to jeszcze dałoby się przyjąć, ale tymczasem…",
+    "connection": "N + ならまだしも / forma prosta + ならまだしも"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1529,
+   "src_hash": "7bb8e0a3a01a3d40",
+   "fields": {
+    "meaning": "Wyraża coś, co nie zgadza się z przewidywaniami",
+    "examples": [
+     "Nawet w trudnym położeniu nie poddaje się i dzielnie walczy.",
+     "Choć żyła w ciepłym domu rodzinnym, jej serce nie zaznało spełnienia.",
+     "Nawet na łożu śmierci matka nie przestawała życzyć dzieciom szczęścia."
+    ],
+    "explain": "Przyłącza się do rzeczownika i wyraża znaczenie 「そこで表された状況の中におかれていても」. Dalej następuje coś, co rozmija się z tym, czego można by się spodziewać w takiej sytuacji. Charakterystyczne dla języka pisanego."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1530,
+   "src_hash": "5d30a5bf3487be6d",
+   "fields": {
+    "meaning": "Dla (tej osoby), z punktu widzenia (tej osoby)",
+    "examples": [
+     "Jaka piosenka jest teraz modna – dla mnie to zupełnie bez znaczenia. Jest mnóstwo ważniejszych rzeczy.",
+     "Dałem jej stary komputer, którego od dawna nie używałem, ale dla niej było to najwyraźniej coś bardzo cennego, bo dziękowała mi raz po raz.",
+     "Mówiłem o tym bez większego namysłu, ale dla niego był to pewnie poważny problem. Załamał się i przestał z kimkolwiek rozmawiać.",
+     "Dla mamy to, że syn, którego tak troskliwie wychowała, nagle wyprowadził się z domu, musiało być ogromnym szokiem, ale ja miałem ochotę dopingować młodszego brata, który próbuje usamodzielnić się od rodziców."
+    ],
+    "explain": "Przyłącza się do rzeczownika oznaczającego osobę i wyraża znaczenie 「その人にとっては」. Używa się go, gdy chce się powiedzieć, że dana osoba patrzy na coś inaczej niż inni. Mówi się też 「…にしてみたら」.（４３９）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1531,
+   "src_hash": "8f5efd206233b375",
+   "fields": {
+    "meaning": "Być przekonanym/sądzić, że… (choć w rzeczywistości tak nie jest)",
+    "examples": [
+     "Myślałem, że jazda na nartach jest trudna, ale kiedy spróbowałem, okazała się łatwa.",
+     "Byłem przekonany, że poprawiłem już wszystkie błędy, a tu usłyszałem, że jeszcze kilka zostało.",
+     "Byłem pewien, że jutro z powodu strajku nie będzie zajęć, więc w ogóle nie przygotowałem się do lekcji.",
+     "Myślałem, że klasyka to nuda, ale kiedy zacząłem czytać, okazała się zaskakująco ciekawa.",
+     "Myśląc, że pan Yoshida nie przyjdzie, przygotowałem jedzenie tylko dla 5 osób."
+    ],
+    "explain": "Wyraża błędne przekonanie mówiącego. Zwykle używa się, gdy mówiący był przekonany, że coś jest prawdą, a w rzeczywistości tak nie było."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1532,
+   "src_hash": "2e4080a63a945708",
+   "fields": {
+    "meaning": "A to…, a to… (wyliczanie z podkreśleniem, niuans narzekania)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1568,
+   "src_hash": "c04e810df440a266",
+   "fields": {
+    "name": "słowo pytające＋にしたって",
+    "connection": "[słowo pytające] + にしたって",
+    "examples": [
+     "Tak czy inaczej, szans na wygraną prawie nie ma.",
+     "Cokolwiek by się robiło, potrzebne są pieniądze.",
+     "Nikt nie chciałby się mieszać w taki problem.",
+     "Tak czy owak, rozwiązanie tego rodzaju problemów wymaga czasu."
+    ],
+    "explain": "W połączeniu ze słowami pytającymi takimi jak 「いずれ」「どちら」「なに」「だれ」 wyraża znaczenie 「どんな場合でも」 lub 「だれの場合でも」. Jak w przykładzie 2., może też wystąpić zdanie składowe zawierające słowo pytające. Jest to swobodny odpowiednik 「…にしても」 w języku mówionym.（４３６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1569,
+   "src_hash": "c73af965fdf2ce74",
+   "fields": {
+    "connection": "かつて + [zdanie składowe] / かつて + の + N",
+    "examples": [
+     "Ta okolica była niegdyś słynnym regionem uprawy ryżu.",
+     "Podobno była kiedyś w Japonii jako korespondentka gazety.",
+     "Jeśli tym razem w tym regionie dojdzie do trzęsienia ziemi, istnieje obawa, że osiągnie ono skalę, jakiej dotąd nie było…",
+     "Kiedy spotkałem go po długim czasie, był gruby jak zapaśnik sumo i nie pozostał w nim ślad po dawnym krzepkim sportowcu.",
+     "Nigdy dotąd nie zdarzyło się, by nasz kraj zdawał się na zagranicę w produkcji ryżu, naszego podstawowego pożywienia."
+    ],
+    "explain": "Oznacza 「以前」, 「昔」. Mówi się też 「かって」. W formie przeczącej, jak 「かつてない」 w przykładach 3. 5., oznacza 「今までに一度もない」. 「かつてない」 i 「未だかつて…ない」 to utarte wyrażenia. Charakterystyczne dla języka pisanego.（７９）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1570,
+   "src_hash": "6b06d87b0937e0fb",
+   "fields": {
+    "examples": [
+     "W chwili, gdy wstałem, dom mocno się zakołysał.",
+     "W tej samej chwili, gdy książę pocałował śpiącą królewnę, czar prysł.",
+     "W chwili, gdy dowiedziałem się, że oblałem egzamin, pociemniało mi przed oczami i sam czułem, jak krew odpływa mi z twarzy.",
+     "Oto chwila narodzin."
+    ],
+    "explain": "Oznacza 「ちょうどその時」. Rzadko łączy się z rzeczownikiem. W języku mówionym używa się 「Ｖ－たとたん」.（１４５）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1571,
+   "src_hash": "1c4e5949b068c991",
+   "fields": {
+    "examples": [
+     "To mała firma, ale osiąga całkiem przyzwoite zyski.",
+     "Skoro mówi, że nie chce, to pewnie ma ku temu swoje powody.",
+     "Dzieci też na swój sposób współpracują i dają z siebie wszystko.",
+     "Jeśli włoży się wysiłek, powinny przyjść odpowiednie rezultaty."
+    ],
+    "explain": "Zawiera sugestię, że coś ma swoje ograniczenia lub wady, i wyraża znaczenie 「それは認めた上でそれ相応の」.（４０７）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1572,
+   "src_hash": "ce13abfbb4669a35",
+   "fields": {
+    "meaning": "Wyraża niezależność od okoliczności",
+    "examples": [
+     "Czy to chorzy, czy starzy – wróg atakuje bez żadnych względów.",
+     "Nawet jeśli jest się zdrowym, po przekroczeniu wieku średniego lepiej poddawać się regularnym badaniom.",
+     "Nawet znamienity mnich nie zawsze potrafi wyzbyć się wątpliwości."
+    ],
+    "explain": "Nieco archaiczny wariant 「Ｎ／Ｎａであっても」.",
+    "notes": "Przyłącza się do wyrazów odmiennych i ma takie samo znaczenie jak 「ても」. Ponieważ jest to użycie z języka klasycznego, brzmi bardziej archaicznie niż 「ても」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1573,
+   "src_hash": "9c6f297c325c6c5e",
+   "fields": {
+    "examples": [
+     "Jego nowoczesna architektura w połączeniu ze wspaniałą przyrodą w tle tworzy prostą i kojącą przestrzeń.",
+     "W tym filmie brzmienie instrumentów łączy się z pięknymi obrazami, dzięki czemu stał się on wspaniałym dziełem, które nie może nie wzruszyć widza.",
+     "Jego pomysłowość w połączeniu z jej wyczuciem tradycyjnego piękna sprawia, że meble, które tworzą, są pełne oryginalności."
+    ],
+    "explain": "Przyłącza się do rzeczownika i wyraża znaczenie 「それが他の要素と作用し合って」, 「その性質が他の要素の性質と一緒に働いて」. Wyrażenie charakterystyczne dla języka pisanego.（２９３）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1574,
+   "src_hash": "dadd5bd26c98d9cd",
+   "fields": {
+    "meaning": "Gdyby to (ta osoba) miała powiedzieć…, według (tej osoby)… (に言わせると)",
+    "connection": "N（osoba）+ に言わせると"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1575,
+   "src_hash": "c14e186b1faf3606",
+   "fields": {
+    "examples": [
+     "Nietrudno sobie wyobrazić, że jeśli inflacja nadal będzie się utrzymywać, wzrosną niepokoje społeczne, a fundamenty rządu zaczną się chwiać.",
+     "Nietrudno sobie wyobrazić, że Tarō, porzucony zarówno przez rodziców, jak i przez nauczycieli, był bliski szukania ratunku w namowach grupy chuliganów.",
+     "Dlaczego posunął się do takiego czynu – nietrudno to zrozumieć, jeśli dokładnie wypyta się o okoliczności przed zdarzeniem i po nim."
+    ],
+    "explain": "Zwykle używa się idiomatycznie w formie 「想像／理解にかたくない」 i oznacza, że coś łatwo sobie wyobrazić, że jest oczywiste dla każdego. Formalne wyrażenie typowe dla języka pisanego.（４３１）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1576,
+   "src_hash": "df3d92f14e940493",
+   "fields": {
+    "meaning": "Wyraża dodawanie informacji",
+    "explain": "のみか oznacza: konstrukcja ～のみか wskazuje, że prawdziwy jest nie tylko pierwszy wymieniony fakt, lecz także dodatkowy, często bardziej zaskakujący lub istotny fakt. Można ją oddać jako „nie tylko…, lecz także…” lub „jak również…”.\n\nStruktura: rzeczownik + のみか\n\n～のみか to formalny spójnik łączący dwa powiązane fakty, który podkreśla, że drugi fakt jest dodatkową, a nawet poważniejszą kwestią niż pierwszy. Często używa się go w tekstach pisanych lub w formalnych kontekstach, by wyrazić, że coś jest prawdą nie tylko w jednym aspekcie, lecz także w innym, czasem nieoczekiwanym. W zdaniu przykładowym pokazuje, że w wyniku katastrofy dana osoba straciła nie tylko majątek, lecz także bliskich członków rodziny."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1577,
+   "src_hash": "87fbe1f1a1a7fa34",
+   "fields": {
+    "connection": "ひとつ + V（prośba・wola）",
+    "examples": [
+     "No to bardzo na ciebie liczę.",
+     "Mam do ciebie jedną prośbę.",
+     "Zrobisz coś dla mnie?",
+     "No to może spróbuję.",
+     "A może by tak przystać na tę propozycję?",
+     "Proszę się poczęstować."
+    ],
+    "explain": "Używane idiomatycznie w codziennym języku mówionym. Oznacza 「ちょっと、ためしに」. Używa się, gdy się o coś prosi, jak w 1. ～3., lub gdy próbuje się coś zrobić na próbę, jak w 4. 5. Wyrażenie w 6. ⑦ stosuje się, częstując kogoś jedzeniem itp.（５０６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1578,
+   "src_hash": "6094c96d5c3e2e46",
+   "fields": {
+    "name": "もあろう（klasyfikator＋もあろう）",
+    "meaning": "Wyraża podkreślenie | stopień (wielkość) ilości",
+    "connection": "klasyfikator＋もあろう",
+    "explain": "もあろう（数量詞＋もあろう） oznacza: wskazuje zaskakująco dużą ilość lub liczbę, podkreślając, że jest ona nieoczekiwanie lub imponująco wysoka.\n\nStruktura: 数量詞＋もあろう\n\nWyrażenie 'もあろう' stosuje się po liczebniku z klasyfikatorem, aby podkreślić wielkość lub zasięg czegoś. Często wyraża zaskoczenie lub nacisk na dużą ilość, sugerując, że wielkość jest godna uwagi lub znacząca. Na przykład '2メートルもあろう' znaczy „aż 2 metry” lub „około 2 metrów, czyli całkiem sporo”. Ta konstrukcja jest zwykle używana w tekstach pisanych lub w formalnych kontekstach, aby uwydatnić rozmiar lub ilość."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

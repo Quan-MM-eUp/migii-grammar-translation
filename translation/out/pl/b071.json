@@ -1,0 +1,573 @@
+{
+ "batch": "b071",
+ "lang": "pl",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 1078,
+   "src_hash": "85f0ff144b0496c1",
+   "fields": {
+    "meaning": "Jeśli już…, w przypadku gdy…",
+    "examples": [
+     "Jeśli już wyjeżdża się na studia za granicę, należy zacząć przygotowania z wyprzedzeniem.",
+     "Kiedy przyszło co do czego i trzeba było wyruszać, nagle ogarnął mnie niepokój.",
+     "Kiedy przychodzi do przeprowadzki, pozbycie się odpadów wielkogabarytowych to prawdziwy kłopot.",
+     "Jeśli zawody zostaną odwołane, opłata za udział zostanie zwrócona.",
+     "Jeśli to będzie dopiero w przyszłym tygodniu, może już być za późno."
+    ],
+    "explain": "Używa się przy wspominaniu decydującego momentu/początku zdarzenia (本番、締め切り、出発、中止...) lub gdy działanie zostało już ukierunkowane (V-辞書形).\nDruga część zdania często łączy się z:準備する、手配する、覚悟する、～べきだ、～つもりだ、～ないと（いけない）.\nNiuans bardziej stanowczy/osobisty niż となると; bardziej swobodny, typowy dla języka mówionego, w porównaniu z となれば.\nBrzmi nienaturalnie, gdy druga część zdania jest bezpośrednim poleceniem wobec słuchacza w formalnym kontekście; lepiej użyć propozycji/łagodnie wyrażonej woli.\n\n• Główne znaczenie: „Jeśli/gdy (coś) staje się A lub zostaje ustalone jako A, to B”. Nacisk na moment zmiany stanu lub podjęcia decyzji.\n• Niuans: skłania się ku stanowisku mówiącego, w drugiej części zdania często pojawia się wola/propozycja/planowane działanie mówiącego. Wrażenie „skoro już przyszło co do czego, trzeba…”.\n• Zakres użycia: zarówno sytuacje hipotetyczne (もし～), jak i niemal pewne/już postanowione (いざ/いよいよ～). Druga część zdania to zwykle plan, przygotowanie, przewidywany skutek.\n• Różnica względem ～となると/～となれば: となったら jest potoczne, praktyczne, często łączy się z osobistymi przygotowaniami; となると skłania się ku „jeśli chodzi o tę sprawę, to…” z oceną/trudnością; となれば skłania się ku ogólnemu założeniu, bardziej język pisany.",
+    "notes": "• „いざ～となったら/となると” to bardzo naturalne wyrażenie podkreślające „kiedy naprawdę przychodzi co do czego”.\n• Z określeniami czasu: 今日・明日・来週・年度末 + となったら wyraża „gdy tylko nadejdzie…”.\n• Intonacja: となった「ら」 łagodzi zdanie bardziej niż となると; wrażenie stanu po podjęciu decyzji.\n• Gdy treść A to oficjalny komunikat (会社の方針、中止等)、となったら pokazuje, „jak zareaguje” strona mówiącego.",
+    "mistakes": [
+     "Mylenie z となると: w zdaniu podkreślającym obiektywny problem lepiej użyć となると (例: お金がかかる“となると”が自然).",
+     "Użycie z przymiotnikami: Aい/na + となったら brzmi mniej naturalnie; preferowane są N/V o charakterze zdarzenia.",
+     "Bezpośrednie polecenie: 避ける w połączeniu z となったら w formalnym języku pisanym; zastąpić przez ～べきだ／～ほうがいい.",
+     "JLPT: rozpoznawanie niuansu osobistego (となったら) vs obiektywnego (となると) vs ogólnego założenia (となれば)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～となったら",
+       "Jeśli/gdy stanie się A, to...",
+       "Akcent na wolę/osobiste przygotowania, swobodne",
+       "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>すとなったら、<ruby>段取<rt>だんど</rt></ruby>りを<ruby>決<rt>き</rt></ruby>めよう。"
+      ],
+      [
+       "～となると",
+       "Jeśli chodzi o A / gdy przychodzi do A, to...",
+       "Sygnalizuje obiektywny problem/skutek, zmienia klimat rozmowy",
+       "<ruby>雨<rt>あめ</rt></ruby>となると、<ruby>計画<rt>けいかく</rt></ruby>は<ruby>見直<rt>みなお</rt></ruby>しだ。"
+      ],
+      [
+       "～となれば",
+       "Jeśli przypuśćmy/do tego stopnia, że A, to...",
+       "Ogólne założenie, język pisany, wysoka nieuchronność",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>となれば、<ruby>損失<rt>そんしつ</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きい。"
+      ],
+      [
+       "～としたら/～とすれば",
+       "Jeśli założyć, że A, to...",
+       "Czysty warunek hipotetyczny, neutralny",
+       "<ruby>行<rt>い</rt></ruby>くとしたら、いつにする？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1079,
+   "src_hash": "ec0746dacfab9abb",
+   "fields": {
+    "meaning": "Podobno…, mówi się, że…",
+    "connection": "V/A forma prosta + とのことだ / N/Naだ + とのことだ",
+    "examples": [
+     "Jak nam przekazano, pan Tanaka ma dziś wolne.",
+     "Według Japońskiej Agencji Meteorologicznej jutro mają wystąpić obfite opady śniegu.",
+     "Przekazano nam, że zebranie zostało odwołane, proszę to wziąć pod uwagę.",
+     "Osoba odpowiedzialna przekazała, że materiały należy wysłać jutro.",
+     "Podobno w przyszłym tygodniu on nie będzie mógł przyjść."
+    ],
+    "explain": "Używa się do przekazywania obiektywnej informacji, z zachowaniem uprzejmego dystansu wobec źródła informacji.\nPrzy pośrednim przekazywaniu polecenia/prośby: 「～するようにとのことです」 brzmi uprzejmie i nie wywiera bezpośredniej presji.\nW języku biznesowym zdanie często kończy się na ～とのことです (uprzejmie).\nNie używa się do wyrażania subiektywnej opinii/oceny mówiącego; służy wyłącznie do relacjonowania.\n\n• Wzór relacjonowania informacji zasłyszanej (伝聞): przekazuje pośrednio informację z innego źródła w sposób uprzejmy, neutralny.\n• Często używany w komunikatach firmowych, e-mailach, wiadomościach: “～とのことです” jest bardziej uprzejme niż “～そうです”.\n• Można dodać źródło: ～によると／～から／関係者によれば + ～とのことだ.\n• Różnica względem ～ということだ: ということだ jest nieco bardziej bezpośrednie, używane też przy objaśnianiu reguł; とのことだ jest uprzejme/dyplomatyczne, akcentuje źródło informacji.",
+    "notes": "• W przeczeniu/czasie przeszłym zachowuje się formę prostą: 来ないとのことだ／終わったとのことだ.\n• Źródło można pominąć, gdy wynika z kontekstu: （上司から）明日は在宅勤務とのことです。\n• W przypadku dłuższego cytatu można użyć 「～ということだ」, by podkreślić wyjaśnienie, a 「～とのことだ」, by podsumować informację.\n• Wariant bardzo uprzejmy: ～とのことでした（czas przeszły w formie uprzejmej, łagodzi zdanie w raportach).",
+    "mistakes": [
+     "Użycie dla osobistej opinii → niepoprawnie: 「おいしいとのことだ」 (gdy to własne odczucie). Należy użyć 「おいしいと思う」.",
+     "Brak źródła w formalnym tekście może powodować niejasność; warto dodać ～によると／～から.",
+     "Mylenie z ～そうだ（様態） „wygląda na to”: とのことだ służy wyłącznie do przekazywania informacji, nie do opisu wrażeń zmysłowych.",
+     "JLPT: gdy odpowiedź wymaga niuansu „komunikatu służbowego/uprzejmego przekazania informacji”, wybiera się とのことだ zamiast そうだ/らしい."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～とのことだ",
+       "Podobno / przekazano, że...",
+       "Uprzejme, wrażenie „przekazywania informacji”",
+       "<ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みとのことです。"
+      ],
+      [
+       "～そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Podobno...",
+       "Bardziej typowe dla języka mówionego, zwięzłe, mniej formalne",
+       "<ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みだそうだ。"
+      ],
+      [
+       "～ということだ",
+       "Rozumie się, że / uważa się, że...",
+       "Objaśnia wniosek/regułę; niuans analityczny",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>ということだ。"
+      ],
+      [
+       "～らしい",
+       "Wygląda na to / słyszy się, że...",
+       "Przypuszczenie oparte na pogłosce/wrażeniu, mniej pewne",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>らしい。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1080,
+   "src_hash": "4b13c120ee4dadea",
+   "fields": {
+    "meaning": "Uważa się, że…, prawdopodobnie…",
+    "connection": "V/A forma prosta + とみられる / N/Na(である) + とみられる",
+    "examples": [
+     "Liczbę ofiar śmiertelnych szacuje się na 10, szczegóły są wciąż sprawdzane.",
+     "Za główną przyczynę uważa się zużycie okablowania.",
+     "Przewiduje się, że sprzedaż tej firmy w przyszłym okresie zacznie się odbudowywać.",
+     "W pobliżu widziano mężczyznę, który prawdopodobnie jest sprawcą.",
+     "Liczbę uczestników szacuje się na około 300 osób.",
+     "Uważa się, że on już wyjechał za granicę."
+    ],
+    "explain": "Niuans neutralny – obiektywny: często używane w nagłówkach/serwisach informacyjnych, by uniknąć kategorycznego stwierdzenia przed ostatecznym ustaleniem.\nNaturalne połączenia: 数字＋とみられる／原因は～とみられる／～に関与したとみられる .\nPozycja: jako orzeczenie (na końcu zdania) lub jako określenie rzeczownika (przydawka).\nUnikanie subiektywności: bez osobistych emocji; jeśli potrzebny jest łagodniejszy niuans, dodaje się ～とみられている／～とみられます .\nCzas – aspekt: czas teraźniejszy do przedstawienia obecnie przyjętej oceny; czas przeszły przy ocenie minionych zdarzeń.\n\n～とみられる wyraża znaczenie „ uważa się, że / sądzi się, że / najprawdopodobniej…”, przedstawiając obiektywny osąd, zwykle oparty na faktach, danych liczbowych lub ocenie ekspertów. Typowy niuans stylu wiadomości – raportów, zmniejszający subiektywny ślad mówiącego.\n\n•\nŹródło przypuszczenia: dowody pośrednie lub zbiorcze (dane liczbowe, śledztwo, obserwacja, eksperci).\n\n•\nObiektywność: używa się bezosobowego podmiotu, często w połączeniu z 警察・専門家・当局・気象庁 w innym zdaniu składowym.\n\n•\nZakres znaczenia: szacunek ( 約N＋とみられる), przyczyna ( 原因は～とみられる), stan ( ～にあるとみられる).\n\n•\nOrientacyjny poziom JLPT: N2–N1 (często w czytaniu ze zrozumieniem tekstów prasowych).",
+    "notes": "•\nImplikacja odpowiedzialności za informację:\n～とみられる pozwala podać informację bez kategorycznego stwierdzenia, odpowiednie na etapie śledztwa.\n•\nWyrażenia ilościowe:\n約N＋とみられる／N超とみられる często występują w statystykach, ekonomii, przy klęskach żywiołowych.\n•\nZdania przyczynowo-skutkowe:\n～が原因だとみられる／～に起因するとみられる używa się, gdy nie ma jeszcze wniosków ekspertyzy sądowej/technicznej.\n•\nZmiana stylu: pisząc raport naukowy, można przeplatać と考えられる／と推定される, by zróżnicować niuanse.",
+    "mistakes": [
+     "Mylenie z ～らしい: zadania egzaminacyjne często zastawiają pułapkę dotyczącą źródła informacji. とみられる = obiektywna ocena; らしい = podobno/pogłoska.",
+     "Mylenie z ～とされる:",
+     "とされる ma silniejszy charakter „normatywny/naukowy”, nie jest tymczasowym szacunkiem.",
+     "Pominięcie 「だ」 przy N/przymiotnikach -na: N/na＋ だ＋とみられる to standardowa forma w języku pisanym.",
+     "Nadużywanie w codziennym języku mówionym: w codziennej rozmowie lepiej pasuje ～ようだ／～みたいだ.",
+     "Użycie do wyrażenia polecenia/woli: nienaturalne. Należy unikać bezpośredniego polecenia w drugiej części zdania.",
+     "Nieodpowiednie, gdy dowody są już pewne: gdy wynik został potwierdzony, lepiej użyć bezpośredniego twierdzenia zamiast とみられる."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Podobieństwo/Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～とみられる",
+       "Uważa się, że (osąd mający podstawy, styl wiadomości).",
+       "Obiektywne, osłabia „ja myślę”.",
+       "<ruby>死因<rt>しいん</rt></ruby>は<ruby>心不全<rt>しんふぜん</rt></ruby>とみられる。"
+      ],
+      [
+       "～と<ruby>見<rt>み</rt></ruby>られている",
+       "Jest uważane za (obecnie rozpowszechniony osąd).",
+       "Akcentuje „ocenę społeczeństwa/środowiska ekspertów”.",
+       "<ruby>被害<rt>ひがい</rt></ruby><ruby>総額<rt>そうがく</rt></ruby>は<ruby>数<rt>すう</rt></ruby><ruby>億<rt>おく</rt></ruby><ruby>円<rt>えん</rt></ruby>と<ruby>見<rt>み</rt></ruby>られている。"
+      ],
+      [
+       "～とされる",
+       "Uznaje się za / określa się jako (norma/definicja).",
+       "Mocniejsze, wysoki stopień „normatywności”.",
+       "これは<ruby>世界<rt>せかい</rt></ruby><ruby>最古<rt>さいこ</rt></ruby>とされる<ruby>文書<rt>ぶんしょ</rt></ruby>だ。"
+      ],
+      [
+       "～と<ruby>考<rt>かんが</rt></ruby>えられる",
+       "Sądzi się, że (wywód naukowy).",
+       "Akcentuje logikę, teorię.",
+       "<ruby>原因<rt>げんいん</rt></ruby>は<ruby>複合<rt>ふくごう</rt></ruby><ruby>要因<rt>よういん</rt></ruby>と<ruby>考<rt>かんが</rt></ruby>えられる。"
+      ],
+      [
+       "～らしい",
+       "Podobno / wygląda na to (według źródła, pogłoski).",
+       "Język mówiony, oparte na źródle pośrednim.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>休職<rt>きゅうしょく</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>らしい。"
+      ],
+      [
+       "～ようだ／～みたいだ",
+       "Wygląda na to, że (ogólne wrażenie, z zewnątrz).",
+       "Bardziej osobiste/typowe dla języka mówionego niż とみられる.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>お</rt></ruby>りそう みたいだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1081,
+   "src_hash": "0bf9730533a14de1",
+   "fields": {
+    "meaning": "Jeśli nie…, to nie…",
+    "examples": [
+     "Jeśli nie okaże się dokumentu tożsamości, wypożyczenie nie jest możliwe.",
+     "Jeśli nie powiadomi się nas wcześniej, zostanie naliczona opłata za anulowanie.",
+     "Dopóki nie sprawdzimy umowy, nie możemy przystąpić do dostawy."
+    ],
+    "explain": "Zwiększa obiektywność dzięki ～ます／です; pozwala uniknąć bezpośredniego polecenia.\nPasuje do tablic informacyjnych/regulaminów:入室不可,立入禁止…\n\n- Używa się do podania warunku koniecznego w instrukcjach/procedurach: jeśli nie zostanie spełniony, nie można przejść do następnego etapu.\n- Wysoki stopień normatywności, często pojawia się w komunikatach urzędów, procedurach, kontroli bezpieczeństwa.",
+    "notes": "• Forma ściągnięta w rozmowie: ～なきゃ（い）けない/～ないと, ale niuans formalności jest inny.\n• W czytaniu ze zrozumieniem nagłówki mają często postać 〜手続きの流れ・注意事項 z tym wzorem zdania. meaning_vi: Jeśli nie ～, to nie ⏐ explain: Wyraża, że jeśli pierwsza część zdania nie ～, to sytuacja w drugiej części nie może zostać zrealizowana.\nDruga część zdania ma znaczenie przeczące. Często wyraża negatywny stan emocjonalny mówiącego. ⏐ examples: 1. やってみないことには、できるかどうかわからない。\nJeśli się nie spróbuje, nie wiadomo, czy się uda.\n2. 実物を見ないことには、買う気にはなれない。\nDopóki nie zobaczę towaru na własne oczy, nie mam ochoty go kupić.",
+    "mistakes": [
+     "Mylenie z warunkiem wystarczającym: w rzeczywistości jest to tylko warunek konieczny; nawet przy spełnieniu A może to nie wystarczyć, by zaszło B.",
+     "Pominięcie で po N/A-na: Nでないことには／静かでないことには."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Kontekst użycia",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "～ないことには～ない",
+       "Procedury/regulaminy",
+       "Podkreśla warunek wstępny",
+       "<ruby>登録<rt>とうろく</rt></ruby>しないことには<ruby>閲覧<rt>えつらん</rt></ruby>できない"
+      ],
+      [
+       "～ないと～ない",
+       "Język mówiony",
+       "Łagodniejsze, codzienne",
+       "<ruby>急<rt>いそ</rt></ruby>がないと<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1082,
+   "src_hash": "e7ff6902ce9984c0",
+   "fields": {
+    "meaning": "Dopóki nie…, (nie)…; chyba że…",
+    "examples": [
+     "Wydawało mi się, że dopóki nie odejdę z obecnej firmy, takie życie się nie zmieni.",
+     "Podobno powiedziano, że rak jest już mocno zaawansowany i dopóki nie przeprowadzi się operacji, nie ma szans na ratunek."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1083,
+   "src_hash": "53b58c7112c10a4f",
+   "fields": {
+    "meaning": "Nie jest tak, że nie…; w pewnym stopniu…",
+    "examples": [
+     "Nie jest tak, że nie mogę pójść, ale dziś potrzebuję czasu na przygotowanie.",
+     "Za tę cenę nie wykluczam, że kupię.",
+     "Nie jest tak, że nie rozumiem jego uczuć.",
+     "Nie można powiedzieć, że ten problem nie jest trudny.",
+     "Nie powiem, że nie lubię sake, ale mam słabą głowę."
+    ],
+    "explain": "Często łączy się ze spójnikami/określeniami wyrażającymi warunek: けど／が／なら／とはいえ.\nCzęsto używa się, by uprzejmie odmówić lub ostrożnie się zgodzić: “可能だが積極的ではない”.\nZ Adj-i długa forma “〜くなくはない” jest typowa dla JLPT, ale w języku mówionym podobną treść wyraża się zwykle za pomocą まあ/別に.\n\n• „Nie jest tak, że nie…”, czyli przyznanie częściowe/niechętne/z zastrzeżeniem.\n• Niuans dwuznaczny, unikający kategorycznego stwierdzenia; zwykle sugeruje „może być, ale…/owszem, jest, jednak…”.\n• Znaczenie silnie zależy od intonacji i następującego zdania składowego (przyzwolenie, warunek, ograniczenie).",
+    "notes": "• Intonacja wznosząca na końcu wzmacnia wrażenie „całkiem możliwe”, opadająca – „niechętnie”.\n• W połączeniu z warunkiem “〜次第で／〜条件なら” wyraźnie zaznacza się ograniczenie: 手伝わなくはないが、時間次第だ。\n• Przy Na/N obowiązkowo “でなくはない”; pominięcie で jest błędem gramatycznym.",
+    "mistakes": [
+     "Pominięcie “で” przy Na/N: “静かでなくはない”.",
+     "Mylenie “〜くはない” (podkreśla tylko część przeciwstawianą) z “〜くなくはない” (podwójne przeczenie). Przykład: 高くはない ≠ 高くなくはない.",
+     "Użycie do mocnego twierdzenia → niepoprawny niuans (ten wzór nie jest kategoryczny).",
+     "Pytanie-pułapka w JLPT: wybór między なくはない／ないことはない／なくもない; należy zwrócić uwagę na stopień pewności i styl."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica w niuansie",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "〜なくはない",
+       "Nie jest tak, że nie…",
+       "Słabe twierdzenie, dwuznaczne",
+       "<ruby>行<rt>い</rt></ruby>かなくはない"
+      ],
+      [
+       "〜ないことはない",
+       "Nie jest tak, że nie…",
+       "Akcentuje logikę, nieco mocniejsze niż “なくはない”",
+       "<ruby>行<rt>い</rt></ruby>かないことはない"
+      ],
+      [
+       "〜なくもない",
+       "Niekoniecznie nie…",
+       "Język mówiony, łagodniejsze, nieco niejasne",
+       "<ruby>行<rt>い</rt></ruby>かなくもない"
+      ],
+      [
+       "〜わけではない",
+       "Nie jest tak, że… (przeczenie całkowite)",
+       "Stanowczo przeczy możliwemu wnioskowaniu",
+       "<ruby>行<rt>い</rt></ruby>けるわけではない"
+      ],
+      [
+       "〜とは<ruby>限<rt>かぎ</rt></ruby>らない",
+       "Nie zawsze…",
+       "Przeczy ogólności/uogólnieniu",
+       "<ruby>高<rt>たか</rt></ruby>いから<ruby>良<rt>よ</rt></ruby>いとは<ruby>限<rt>かぎ</rt></ruby>らない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1084,
+   "src_hash": "27511e0a797fab73",
+   "fields": {
+    "meaning": "Niekoniecznie nie…, w pewnym stopniu…",
+    "examples": [
+     "Nie jest tak, że nie jem ostrych potraw, ale nie przepadam za nimi.",
+     "Nie powiem, że nie rozumiem także jego uczuć.",
+     "Przy dużym wysiłku nie jest wykluczone, że zdążymy.",
+     "Nie powiem, że nie lubię cichych miejsc, ale wolę miasto.",
+     "W zależności od ceny nie wykluczam, że kupię."
+    ],
+    "explain": "Stopień uprzejmości: neutralny; można używać zarówno w rozmowie, jak i w mniej formalnym języku pisanym.\nŁagodna argumentacja: często używa się, by częściowo ustąpić przed podaniem warunku/przeciwstawnej głównej myśli.\nCzęste połączenia: ～なくもないが／けど, ～なくもないと思う, ～なくもないかな.\nPragmatyka: pozwala uniknąć wrażenia kategorycznego twierdzenia; odpowiednie, gdy nie chce się niczego obiecywać na pewno lub chce się zachować twarz.\n\n• Główne znaczenie: podwójne przeczenie o charakterze słabego twierdzenia: „niekoniecznie nie…”, „może też…”, „nie jest aż tak, że…”.\n• Niuans wahania/przyzwolenia: mówiący nie stwierdza stanowczo, przyznaje tylko w pewnym stopniu, zwykle by zostawić otwartą możliwość lub uniknąć mówienia wprost.\n• Implikacja warunku/kontekstu: często występuje z “が／けど／なら”, by podać warunek lub wyjątek: ～なくもないが…\n• Intensywność: twierdzenie słabsze niż “できる/ある/いい”, mocniejsze niż “わけではない”.",
+    "notes": "• Z przymiotnikami -na i rzeczownikami forma ではなくもない jest bardziej uprzejma niż じゃなくもない.\n• Często występuje z przysłówkami stopnia: 少し/まあ/わりと/条件次第で + ～なくもない.\n• Intonacja wznosząca na “ない” pomaga podkreślić „jednak jest możliwe / nie jest tak, że nie”.",
+    "mistakes": [
+     "Mylenie z ～わけではない: zdanie z ～なくもない niesie słabe twierdzenie, a nie tylko zaprzecza wyjątkowi.",
+     "Pominięcie następującego warunku: ～なくもない zwykle wymaga kolejnego zdania składowego, które precyzuje ograniczenie.",
+     "Użycie tam, gdzie potrzebna jest jasna deklaracja, może wywołać wrażenie „połowiczności”.",
+     "Błędna forma z przymiotnikiem -i: 高くない→高くなくもない (nie 高いなくもない)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Podobieństwo/Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ないこともない",
+       "Nie jest tak, że nie...",
+       "Równoważne, nieco bardziej formalne.",
+       "<ruby>行<rt>い</rt></ruby>けないこともない。"
+      ],
+      [
+       "～なくはない",
+       "Niekoniecznie nie...",
+       "Język mówiony, zwięzłe; niuans bliski ～なくもない.",
+       "<ruby>高<rt>たか</rt></ruby>くはない。"
+      ],
+      [
+       "～わけではない",
+       "Niekoniecznie / nie oznacza to, że...",
+       "Zaprzecza wyjątkowi; twierdzenie słabsze niż w trzech powyższych wzorach.",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。"
+      ],
+      [
+       "<ruby>別<rt>べつ</rt></ruby>に～ない",
+       "Nie szczególnie...",
+       "Bezpośrednie przeczenie, bez słabego twierdzenia jak w ～なくもない.",
+       "<ruby>別<rt>べつ</rt></ruby>に<ruby>欲<rt>ほ</rt></ruby>しくない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1085,
+   "src_hash": "87040d1827d9124f",
+   "fields": {
+    "meaning": "～というのは→驚(おどろ)き、意外(いがい)等(など)の感情(かんじょう)\nWyraża zaskoczenie, coś przekraczającego oczekiwania",
+    "connection": "N / V/A forma prosta + なんて/とは（przy Na w czasie teraźniejszym można pominąć だ）",
+    "examples": [
+     "Że życie w Japonii jest aż tak zabiegane (nawet mi się to nie śniło).",
+     "Że ochrona szczytu jest aż tak ścisła (to dla mnie nowość).",
+     "Wygrać 300 milionów jenów na loterii (ale zazdroszczę)!",
+     "„Że też ci dwoje się rozwodzą! A tak dobrze się dogadywali…”"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1086,
+   "src_hash": "a4e1128451c0e3b8",
+   "fields": {
+    "meaning": "Nawet w przypadku…, też (nie)…; choćby nawet…",
+    "examples": [
+     "Ile tego produktu się sprzeda – nawet prezes tak naprawdę tego nie wie.",
+     "Nawet jeśli zakaże się korzystania z telefonów komórkowych, nie wiadomo, ilu uczniów się do tego zastosuje."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1087,
+   "src_hash": "b7ef900707e1e523",
+   "fields": {
+    "name": "～にしたら・にすれば（stanowisko）",
+    "meaning": "～の立場(たちば)からいえば/いっても→気持(きも)ち、考(かんが)え方(かた)\nKontrast, z czyjegoś punktu widzenia",
+    "connection": "N(stanowisko) + にしたら・にすれば・にしてみれば",
+    "examples": [
+     "Farbowanie włosów na brązowo to dla mnie nic takiego, ale dla dziadków jest to podobno coś niewybaczalnego.",
+     "Ponieważ wiadomo, że firma jest w trudnej sytuacji finansowej, nawet strona związkowa raczej nie będzie mogła żądać dużej podwyżki płac.",
+     "Mój mąż często jest przenoszony służbowo. Jemu samemu to pewnie nie przeszkadza, bo sam wybrał tę pracę, ale dzieci zapewne uważają, że to okropne, że co dwa lata muszą zmieniać szkołę. Ja również rozumiem, że to nieuniknione, ale każda przeprowadzka mnie przygnębia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1088,
+   "src_hash": "0ca3d9952a0ff7f5",
+   "fields": {
+    "meaning": "基準(きじゅん)になるもの、相手(あいて)の希望(きぼう)等(など)から離(はな)れないようにする\nZgodnie z",
+    "examples": [
+     "Po około 5 minutach marszu wzdłuż torów po prawej stronie zobaczy się park.",
+     "Do egzaminu zostały jeszcze 3 miesiące. Będę się uczyć zgodnie z tym planem.",
+     "Liceum A, zgodnie ze swoją zasadą wychowawczą poszanowania indywidualności, także podczas egzaminów wstępnych przywiązuje dużą wagę do rozmowy kwalifikacyjnej.",
+     "W naszym biurze podróży mogą Państwo wybrać spośród wielu ofert wycieczkę odpowiadającą Państwa życzeniom.",
+     "„Bardzo przepraszam, że nie udało się spełnić Państwa oczekiwań.”",
+     "Wzdłuż nadmorskiej drogi ciągnął się rząd eleganckich restauracji."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1089,
+   "src_hash": "c3451e07ee640f94",
+   "fields": {
+    "meaning": "Związany z…",
+    "examples": [
+     "Ten błąd to problem, który dotyczy wiarygodności firmy.",
+     "Skoro chodzi o ludzkie życie, proszę zająć się tym w pierwszej kolejności.",
+     "On jest zaangażowany w nowe przedsięwzięcie i odpowiada za badanie rynku.",
+     "Informacji dotyczących prywatności nie wolno wynosić poza firmę.",
+     "Zidentyfikowano osobę, która mogła być zamieszana w tę sprawę."
+    ],
+    "explain": "Używa się w regulaminach/komunikatach, gdy podkreśla się wagę sprawy:安全に関わる、生命に関わる等.\nForma łącząca ～に関わって… pomaga wprowadzić związaną z tym przyczynę/konsekwencję.\nW rozmowie, gdy mowa o „uczestniczeniu w (jakimś przedsięwzięciu)”: プロジェクトに関わる/関わっている.\nNie należy nadużywać, gdy chodzi tylko o „o/na temat”: wtedy naturalniej brzmi ～に関する／～について.\n\n• Związek z jakąś dziedziną/obiektem i wpływ na nią (szeroko, obejmuje zarówno dobry, jak i zły wpływ).\n• Implikuje głęboki stopień powiązania, czasem z niuansem „bycia zamieszanym/maczania palców” (negatywnym) zależnie od kontekstu.\n• Często używane z poważnymi kategoriami: 命・安全・名誉・権利・プライバシー・信用・成否.\n• Różnica względem 関する: 関わる niesie sens przenikania się/wpływu, a nie tylko czystego tematu.",
+    "notes": "• “命に関わる” to niemal utarte wyrażenie ostrzegawcze (medycyna, bezpieczeństwo pracy).\n• W śledztwie: “事件に関わる（人物・証拠）” = „zamieszany/powiązany ze sprawą”.\n• Gdy trzeba podkreślić aktywny udział: 関与する/携わる również mogą pasować (z innym niuansem).",
+    "mistakes": [
+     "Mylenie z ～に関する/～について, gdy mowa tylko o samym temacie.",
+     "Mylenie z ～に関わらず (bez względu na), ponieważ pochodzi od tego samego czasownika 関わる.",
+     "Tłumaczenie maszynowe wszędzie jako „wplątany” → łatwo o niepotrzebny negatywny wydźwięk; należy uwzględnić kontekst."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～に<ruby>関<rt>かか</rt></ruby>わる",
+       "Związek/wpływ",
+       "Forma podstawowa, szeroko używana",
+       "<ruby>名誉<rt>めいよ</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わる<ruby>問題<rt>もんだい</rt></ruby>。"
+      ],
+      [
+       "～に<ruby>関<rt>かん</rt></ruby>する",
+       "Dotyczący (w sensie tematu)",
+       "Neutralne, słaby niuans „zamieszania”",
+       "<ruby>環境<rt>かんきょう</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>本<rt>ほん</rt></ruby>。"
+      ],
+      [
+       "～について",
+       "O, na temat",
+       "Język mówiony, objaśnianie/wymiana zdań",
+       "<ruby>計画<rt>けいかく</rt></ruby>について<ruby>話<rt>はな</rt></ruby>す。"
+      ],
+      [
+       "～に<ruby>関<rt>かか</rt></ruby>わらず",
+       "Bez względu na",
+       "Wzór o innym znaczeniu, łatwy do pomylenia",
+       "<ruby>年齢<rt>ねんれい</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わらず。"
+      ],
+      [
+       "<ruby>係<rt>かか</rt></ruby>る（かかる）",
+       "Dotyczyć (teksty prawne)",
+       "Inna pisownia; często w pismach urzędowych",
+       "<ruby>当社<rt>とうしゃ</rt></ruby>に<ruby>係<rt>かか</rt></ruby>る<ruby>案件<rt>あんけん</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1090,
+   "src_hash": "8889c1f71cfcd95d",
+   "fields": {
+    "meaning": "～を除(のぞ)いて/入(い)れないで\nWykluczenie, bez",
+    "examples": [
+     "Pomijanie śniadania szkodzi zdrowiu.",
+     "Ten film jest po prostu ciekawy, bez żadnych dyskusji.",
+     "Chcę usłyszeć szczerą recenzję, bez komplementów.",
+     "Ten budynek zawalił się podczas trzęsienia ziemi z powodu niedbałego wykonania.",
+     "„Żarty na bok – proszę powiedzieć mi prawdę.”",
+     "„Na przyjęciu końcoworocznym nie rozmawiajmy o pracy.”"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

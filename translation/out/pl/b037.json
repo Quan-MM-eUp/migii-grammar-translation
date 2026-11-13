@@ -1,0 +1,581 @@
+{
+ "batch": "b037",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 555,
+   "src_hash": "8bea0af5d1761162",
+   "fields": {
+    "meaning": "Z zamiarem, zamierzając coś zrobić",
+    "examples": [
+     "Powiedziałem to w żartach, ale niestety go zraniłem.",
+     "Uczę się angielskiego z zamiarem wyjazdu na studia za granicę.",
+     "Zakładam, że już to wypiłem, i odkładam te pieniądze.",
+     "Sprawdziłem wnętrze sklepu, wczuwając się w rolę klienta.",
+     "Wyraziłem opinię w przekonaniu, że mam rację, ale wzbudziłem niechęć.",
+     "Zrobiłem notatki z zamiarem, by nie zapomnieć."
+    ],
+    "explain": "Stoi przed czynnością główną i pełni funkcję okolicznika wskazującego nastawienie/cel.\nVたつもりで często łączy się z czasownikami oszczędzania/zastępowania:貯金する・我慢する・控える.\nPrzy podkreśleniu postawy/odgrywanej roli: Nのつもりで + czynność obserwacji/oceny.\nZwykle wyraża ujęcie subiektywne; gdy cel jest wyraźnie obiektywny, używa się ～ために.\n\n• Wskazuje cel/nastawienie przy wykonywaniu czynności głównej: „z zamiarem …, …”.\n• Vたつもりで: „uznając, że już się zrobiło …, żeby …”, używane przy oszczędzaniu/zastępowaniu.\n• Nのつもりで: „wcielając się w rolę/zakładając, że jest się …”.\n• Niuans subiektywny; różni się od ～ために (cel rzeczywisty) tym, że podkreśla „nastawienie/tendencję”.",
+    "notes": "• N3–N2. Często spotykane w tekstach do czytania przy opisie „wcielania się w rolę klienta/adresata”.\n• Vたつもりで ma niuans „powściągliwości, zastąpienia”, bardzo typowy dla reklam/haseł zachęcających do oszczędzania.\n• W krótkim zdaniu możliwe jest pominięcie przecinka: 冗談のつもりで言ったが…",
+    "mistakes": [
+     "Użycie jako orzeczenia: ～つもりで。× → Musi po nim następować zdanie nadrzędne.",
+     "Mylenie z ～ために: gdy chodzi tylko o subiektywne nastawienie → つもりで; gdy o cel obiektywny → ために.",
+     "Vたつもりで nie oznacza, że czynność rzeczywiście wykonano; wiele podchwytliwych zdań opisuje sytuację „nie wykonano, ale uznaje się, że tak”.",
+     "Błędne połączenie: Naだのつもりで × → Naなつもりで ○; Nだのつもりで × → Nのつもりで ○"
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～つもりで",
+       "Z zamiarem/w roli",
+       "Okolicznik, wskazuje nastawienie",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>するつもりで<ruby>図書館<rt>としょかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "～つもりだ",
+       "Zamiar (orzeczenie)",
+       "Kończy zdanie, nie pełni funkcji okolicznika",
+       "<ruby>来年<rt>らいねん</rt></ruby><ruby>留学<rt>りゅうがく</rt></ruby>するつもりだ"
+      ],
+      [
+       "～ために",
+       "Dla/żeby (cel)",
+       "Obiektywny, pożądany rezultat",
+       "<ruby>健康<rt>けんこう</rt></ruby>のために<ruby>走<rt>はし</rt></ruby>る"
+      ],
+      [
+       "～ように",
+       "Żeby (cel: możliwość/reguła)",
+       "Często łączy się z V<ruby>可能<rt>かのう</rt></ruby><ruby>形<rt>けい</rt></ruby>/<ruby>自動詞<rt>じどうし</rt></ruby>",
+       "<ruby>合格<rt>ごうかく</rt></ruby>できるように<ruby>勉強<rt>べんきょう</rt></ruby>する"
+      ],
+      [
+       "～つもりでいる",
+       "Długotrwałe utrzymywanie zamiaru",
+       "Podkreślenie trwałości/wytrwałości",
+       "<ruby>来年<rt>らいねん</rt></ruby>も<ruby>続<rt>つづ</rt></ruby>けるつもりでいる"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 556,
+   "src_hash": "ce08277fd5f62a41",
+   "fields": {
+    "meaning": "Jeśli nie…, to nie…",
+    "examples": [
+     "Nie można wejść, dopóki nie zostanie sprawdzony dokument tożsamości.",
+     "Dopóki roboty się nie zakończą, przejazd jest niemożliwy.",
+     "Nie mogę zdecydować, dopóki nie poradzę się rodziców.",
+     "Alkoholu nie wolno pić, dopóki nie skończy się 20 lat.",
+     "Tego programu nie da się używać, dopóki się go nie zainstaluje."
+    ],
+    "explain": "Używa się w przepisach, instrukcjach, ostrzeżeniach: po nim następuje ～ません／～できません.\nMożna przestawić zdania składowe dla podkreślenia procedury:予約してからでないと、受付できません。\nNiuans bardziej formalny/normatywny niż zwykłe ないと/なければ, ponieważ podkreśla „dopiero po tym, jak…”.\n\n• Wskazuje warunek konieczny przed wykonaniem czynności/zaakceptowaniem stanu opisanego dalej: „dopiero po V można…”.\n• Zdanie nadrzędne zwykle wyraża „nie można/nie wolno/trudno”, rzadko bezpośrednie pozytywne twierdzenie.\n• Wyraża obowiązkowe następstwo czynności, przepisy, procedury, logikę bezpieczeństwa.",
+    "notes": "• Zdanie nadrzędne prawie zawsze ma charakter przeczenia/trudności: ～ない／できない／困る／無理だ.\n• Przydatne w kontekście prawnym/proceduralnym: 入場、登録、承認、確認、支払い など.\n• „じゃないと” to wariant języka mówionego; należy go unikać w tekstach oficjalnych. | Wariant: ～てからでなければ",
+    "mistakes": [
+     "Użycie zdania nadrzędnego z pozytywnym twierdzeniem: ×登録してからでないと利用できます → powinno być 利用できません.",
+     "Pomylenie kolejności w czasie: zdanie składowe z Vて to warunek, który musi zostać spełniony wcześniej; należy unikać opisu jednoczesności.",
+     "Brak logiki warunku: pierwsza część zdania musi być czynnością wykonalną/dającą się kontrolować.",
+     "Mylenie z て初めて: てからでないと to obowiązkowy warunek konieczny; て初めて to uświadomienie sobie/rezultat po raz pierwszy."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vてからでなければ",
+       "Formalny odpowiednik",
+       "Styl uprzejmy/język pisany",
+       "<ruby>登録<rt>とうろく</rt></ruby>してからでなければ<ruby>利用<rt>りよう</rt></ruby>できない"
+      ],
+      [
+       "Vないと／Vなければ",
+       "Jeśli nie V, to…",
+       "Bez podkreślenia „dopiero po tym, jak”, łagodniejsze",
+       "<ruby>予約<rt>よやく</rt></ruby>しないと<ruby>入<rt>い</rt></ruby>れない"
+      ],
+      [
+       "Vて<ruby>初<rt>はじ</rt></ruby>めて",
+       "Dopiero po V…",
+       "Podkreślenie uświadomienia/rezultatu, który pojawia się po raz pierwszy",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>して<ruby>初<rt>はじ</rt></ruby>めて<ruby>日本<rt>にほん</rt></ruby>を<ruby>理解<rt>りかい</rt></ruby>した"
+      ],
+      [
+       "Vた<ruby>上<rt>うえ</rt></ruby>で",
+       "Po V… (dalsze działanie)",
+       "Neutralne, częste w stylu formalnym",
+       "<ruby>確認<rt>かくにん</rt></ruby>した<ruby>上<rt>うえ</rt></ruby>で<ruby>決定<rt>けってい</rt></ruby>する"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 557,
+   "src_hash": "7fce6263c78557cf",
+   "fields": {
+    "meaning": "Spróbuj…",
+    "examples": [
+     "Spróbuj tego. Jest pyszne.",
+     "Spróbuj zrobić to jeszcze raz. Na pewno ci się uda.",
+     "Spróbuj przeczytać to na głos.",
+     "Wyjdź na dwór i spróbuj poczuć wiatr.",
+     "Spróbuj pomyśleć samodzielnie.",
+     "To niebezpieczne, więc może spróbuj nie dotykać? (ironia)"
+    ],
+    "explain": "Używa się tylko wobec osoby niższej rangą/dzieci/osób bliskich; nie używa się wobec osoby wyższej rangą/klientów.\n„～て ごらんなさい ” brzmi łagodniej niż „～て ごらん ”.\nPełni tę samą funkcję co „～てみなさい”; „～てみる” oznacza próbę z własnej woli i nie ma charakteru polecenia.\nMoże brzmieć nieco apodyktycznie, jeśli relacja nie jest dość bliska.\n\n• Łagodna propozycja/polecenie „spróbuj zrobić …” skierowane do słuchacza niższego rangą/pozostającego w bliskiej relacji.\n• Niesie niuans zachęty do bezpośredniego doświadczenia: spróbować, by samemu poczuć/wyciągnąć wnioski.\n• ～てごらん to przekształcona forma rozkazująca „ご覧になる/ごらん” (patrzeć/oglądać), rozszerzona na wszystkie czasowniki poprzez Vて.",
+    "notes": "• Pochodzi od „ご覧なさい” (popatrz), rozszerzonego do postaci łagodnego wzoru polecenia dla wszystkich czasowników poprzez Vて.\n• W marketingu/aplikacjach: „まずは無料で試してごらん” brzmi dość potocznie; w stylu standardowym należy użyć „お試しください”.\n• Forma pytająca „～てごらん？” niesie niuans zaproszenia lub ironii, zależnie od intonacji.",
+    "mistakes": [
+     "Użycie wobec osoby wyższej rangą/klienta: niestosowne. Należy użyć „～てください／～ていただけますか”.",
+     "Mylenie z „～てみる”: ～てごらん ma charakter polecenia; ～てみる oznacza, że samemu się próbuje.",
+     "Przeczenie „～ないでごらん” użyte w niewłaściwym miejscu łatwo brzmi ironicznie/nieprzyjemnie.",
+     "Zapominanie o uprzejmym wariancie „～てごらんなさい” w kontekście edukacyjnym/rodzice - dzieci."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Niuans",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vてごらん",
+       "Spróbuj zrobić",
+       "Łagodne polecenie, wobec osoby niższej rangą",
+       "<ruby>食<rt>た</rt></ruby>べてごらん"
+      ],
+      [
+       "Vてみなさい",
+       "Spróbuj zrobić",
+       "Łagodne, powszechne w edukacji",
+       "<ruby>読<rt>よ</rt></ruby>んでみなさい"
+      ],
+      [
+       "Vてみる",
+       "Spróbować zrobić",
+       "Neutralne, bez polecenia",
+       "やってみる"
+      ],
+      [
+       "Vてください",
+       "Proszę zrobić",
+       "Uprzejme, neutralne",
+       "<ruby>座<rt>すわ</rt></ruby>ってください"
+      ],
+      [
+       "Vろ／Vな",
+       "Polecenie/zakaz",
+       "Bardzo mocne, szorstkie",
+       "<ruby>行<rt>い</rt></ruby>け／<ruby>行<rt>い</rt></ruby>くな"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 558,
+   "src_hash": "ef4236caaec209b7",
+   "fields": {
+    "meaning": "Nie móc wytrzymać…, okropnie…",
+    "examples": [
+     "Jutrzejszy wynik strasznie nie daje mi spokoju.",
+     "Strasznie mu zazdroszczę.",
+     "Przez deszcz nie mogę wyjść z domu i nudzę się nie do wytrzymania.",
+     "Okropnie martwię się o dziecko.",
+     "Strasznie chcę się jak najszybciej zobaczyć.",
+     "Noga swędzi mnie tak, że nie mogę wytrzymać."
+    ],
+    "explain": "Skłania się ku językowi mówionemu, używane w codziennych rozmowach dla podkreślenia wysokiego stopnia.\nZwykle wyraża uczucia o zabarwieniu negatywnym; uczucia o zabarwieniu pozytywnym też są możliwe, ale rzadsze.\n„で(は)” po な/N wzmacnia podkreślenie:退屈 では しょうがない (mocniejsze podkreślenie niż退屈でしょうがない).\nNależy unikać użycia do opisu stanu obiektywnego/niebędącego uczuciem (×忙しくてしょうがない w obiektywnym znaczeniu „jest dużo pracy”; używa się tylko wtedy, gdy mówiący czuje, że „męczy się z powodu nawału zajęć”).\n\nWyraża bardzo silny stopień uczucia/doznania „nie do wytrzymania/trudny do zniesienia”, niemal poza kontrolą.\n• Zwykle używane dla uczuć spontanicznych: うれしい、悔しい、心配だ、恥ずかしい、退屈だ…\n• Podmiotem jest zwykle mówiący (lub osoba, z którą mówiący może współodczuwać/której uczucia może wyczuć).\n• Niuans języka mówionego. „～でしょうがない” brzmi wyraźnie potocznie, „～しょうがありません” jest formalne.\n• Przeczenie: ～なくてしょうがない (会えなくてしょうがない: Nie można się spotkać, więc dręczy to niezmiernie).",
+    "notes": "• „しょうがない” = „仕方がない” (język mówiony). Tam, gdzie obowiązuje formalny język pisany, preferuje się „仕方がない/しょうがありません”.\n• Często występuje w utartych zwrotach: 気になってしょうがない／心配で(は)しょうがない／退屈で(は)しょうがない。\n• Gdy podmiotem jest inna osoba, zwykle potrzebny jest kontekst pozwalający na przypuszczenie co do jej uczuć.",
+    "mistakes": [
+     "Błędne połączenie morfologiczne: ×嬉しいでしょうがない → 嬉しくてしょうがない; ×静かでしょうがない → 静かで(は)しょうがない.",
+     "Opisywanie obiektywnego faktu zamiast uczucia mówiącego → nienaturalne.",
+     "Mylenie niuansu z ～でならない (bardziej formalne) i ～でたまらない (mocniejsze).",
+     "JLPT N2: często pojawiają się pytania o odmianę morfologiczną (くて/で/て) i rozróżnienie trzech wzorów ～しょうがない／～たまらない／～ならない."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～てしょうがない/～で(は)しょうがない",
+       "Mocny, język mówiony",
+       "Powszechne, neutralne",
+       "<ruby>不安<rt>ふあん</rt></ruby>で(は)しょうがない"
+      ],
+      [
+       "～てたまらない/～でたまらない",
+       "Mocniejszy",
+       "Poczucie gwałtownej udręki",
+       "<ruby>会<rt>あ</rt></ruby>いたくてたまらない"
+      ],
+      [
+       "～てならない/～でならない",
+       "Formalny",
+       "Książkowe, dotyczy raczej psychiki/poznania",
+       "<ruby>残念<rt>ざんねん</rt></ruby>でならない"
+      ],
+      [
+       "～て<ruby>仕方<rt>しかた</rt></ruby>がない",
+       "Niemal synonim",
+       "Bardziej formalne niż しょうがない",
+       "<ruby>暑<rt>あつ</rt></ruby>くて<ruby>仕方<rt>しかた</rt></ruby>がない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 559,
+   "src_hash": "b4cbf3a57af8caf0",
+   "fields": {
+    "meaning": "Dopiero gdy…",
+    "examples": [
+     "Dopiero gdy zachorowałem, uświadomiłem sobie, jak ważne jest zdrowie.",
+     "Dopiero mając własne dziecko, zrozumiałem trud rodziców.",
+     "Dopiero gdy zamieszkałem sam, przekonałem się, jak ciężkie są prace domowe.",
+     "Dopiero gdy pojechałem w zagraniczną delegację, dotkliwie odczułem potrzebę znajomości angielskiego.",
+     "Dopiero gdy się zachoruje, rozumie się, jak ważne jest zdrowie.",
+     "Dopiero gdy nauczyciel zwrócił mi uwagę, zauważyłem swój błąd."
+    ],
+    "explain": "Po ～てはじめて następuje zdanie składowe wyrażające rezultat/uświadomienie po raz pierwszy:分かった／気づいた／実感した／始まる…\nNie używa się do rezultatów zwyczajnych, powtarzających się; podkreśla „po raz pierwszy (初めて)”.\nCzęsto towarzyszy mu słowo oznaczające pierwszy raz:初めて, samo はじめて zawiera już znaczenie „first time”.\nNiuans narracyjny/refleksyjny; często spotykane w języku pisanym, esejach, wywiadach.\n\n• Znaczenie: „Dopiero po zrobieniu X/gdy zrobi się X, po raz pierwszy…”, podkreślenie, że wcześniej to nie nastąpiło/nie było uświadomione.\n• Zakres: Zwykle łączy się ze zdaniem składowym rezultatu będącym odkryciem/uświadomieniem/odczuciem po raz pierwszy albo stanem, który zaczyna obowiązywać.\n• Implikacja wcześniejszego przeczenia: Domyślnie rozumie się „wcześniej nie” (まだ/全然/分からなかった…).\n• Moment przełomowy: X jest punktem wyzwalającym Y. Nie używa się do oczywistych, codziennych spraw.",
+    "notes": "• Po ～てはじめて czasownik jest zwykle czasownikiem poznawczym: 分かる／気づく／感じる／実感する／認識する／始める.\n• Zręcznie wyraża naukę wyniesioną z doświadczenia w wypracowaniach refleksyjnych: 「失敗してはじめて、改めるべき点が見えた。」\n• Przed はじめて nie dołącza się partykuły konkretnego momentu w czasie (×昨日してはじめて); punkt odniesienia wyraża się zdaniem składowym Vて.",
+    "mistakes": [
+     "Użycie z rezultatem, który nie oznacza „pierwszego razu/uświadomienia” → błędny niuans. Należy zastąpić przez ～てから.",
+     "Podanie zdarzenia oczywistego/bez relacji punkt przełomowy-rezultat → nienaturalne.",
+     "Mylenie z ～て以来 (ciągłość) w pytaniach JLPT: należy zwracać uwagę na sygnały „do dziś/ずっと”.",
+     "Błędny czas gramatyczny: użycie Vた + はじめて (×) → musi być Vてはじめて."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vてはじめて",
+       "Dopiero po V…",
+       "Podkreślenie punktu wyzwalającego i „wcześniej nie”.",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>してはじめて、<ruby>自立<rt>じりつ</rt></ruby>した。"
+      ],
+      [
+       "Vてから",
+       "Po V…",
+       "Neutralne co do momentu, bez podkreślenia „pierwszego razu/uświadomienia”.",
+       "<ruby>食<rt>た</rt></ruby>べてから<ruby>勉強<rt>べんきょう</rt></ruby>する。"
+      ],
+      [
+       "Vて<ruby>以来<rt>いらい</rt></ruby>",
+       "Odkąd V (do dziś)",
+       "Podkreślenie nieprzerwanego trwania od danego punktu do teraźniejszości.",
+       "<ruby>卒業<rt>そつぎょう</rt></ruby>して<ruby>以来<rt>いらい</rt></ruby><ruby>会<rt>あ</rt></ruby>っていない。"
+      ],
+      [
+       "Nになってはじめて",
+       "Dopiero gdy stanie się N…",
+       "Punktem przełomowym jest zmiana statusu/stanu.",
+       "<ruby>親<rt>おや</rt></ruby>になってはじめて<ruby>分<rt>わ</rt></ruby>かる。"
+      ],
+      [
+       "Vてみてはじめて",
+       "Dopiero gdy spróbuje się V…",
+       "Podkreślenie doświadczenia na próbę.",
+       "<ruby>教<rt>おし</rt></ruby>えてみてはじめて<ruby>難<rt>むずか</rt></ruby>しさが<ruby>分<rt>わ</rt></ruby>かる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 560,
+   "src_hash": "d6128205086ef56f",
+   "fields": {
+    "meaning": "Nawet jeśli ~, trzeba się z tym pogodzić",
+    "examples": [
+     "Skoro kazaliśmy panu Wainowi czekać aż godzinę, trudno się dziwić, że się złości.",
+     "To popularny koncert, więc nic się nie poradzi, nawet jeśli nie uda się kupić biletu."
+    ],
+    "explain": "◎ Pogodzenie się z tym, że tak się o kimś mówi lub myśli, choć nie jest to rzecz najlepsza.",
+    "notes": "meaning_vi: Wyraża uczucie pogodzenia się z niezadowalającym rezultatem.\nexamples: 1. ①　行っても仕方（が）ない\nTrudno, trzeba iść\n2. ②　電車が止まったのなら、遅れても仕方（が）ない。\nSkoro pociąg stanął, to trudno, spóźnienie jest nieuniknione.\n3. ③　家賃が安いんだから、駅から遠くてもしょうがないよ。\nCzynsz jest niski, więc trudno, trzeba się pogodzić z tym, że do stacji jest daleko."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 561,
+   "src_hash": "6cfab3abd4b28925",
+   "fields": {
+    "meaning": "Według ~ podobno",
+    "connection": "V forma prosta + ということ / N + だ / Na + だ / Aい",
+    "examples": [
+     "Z tego, co mówi osoba z ryokanu, podobno nawet latem bywają tu zimne dni.",
+     "Według porannych wiadomości wczoraj zmarł znany pisarz."
+    ],
+    "explain": "◎ Przekazanie słuchaczowi tego, czego mówiący dowiedział się z informacji takich jak opowieści ludzi czy przeczytane treści."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 562,
+   "src_hash": "9ddfb8920358f92f",
+   "fields": {
+    "meaning": "Podobno; to znaczy, że",
+    "examples": [
+     "Według prognozy długoterminowej tegoroczne lato ma być upalne.",
+     "Z tego, co mówił lekarz, wynikało, że za jakieś 2 miesiące prawdopodobnie będzie można wyjść ze szpitala.",
+     "Podobno okolice dworca Tokio były dawniej morzem.",
+     "„W wiadomościach mówili, że w przyszłym roku ceny biletów JR mają podobno wzrosnąć”",
+     "＊„Przed chwilą był telefon, że pan Yamada będzie dziś nieobecny”",
+     "＊„Podobno pańska córka dostała się na uniwersytet – gratuluję”"
+    ],
+    "explain": "Służy do przekazywania informacji pośrednich z prasy, od innych osób, z oficjalnych komunikatów.\nSłuży do streszczenia lub objaśnienia wniosku po przedstawieniu sytuacji.\nNiuans neutralny, obiektywny; nie podkreśla osobistych uczuć.\nW języku mówionym może kończyć zdanie przy wyjaśnianiu: „…ということだね”.\nNie pasuje do zdań wyrażających polecenie ani osobistą wolę.\n\n～ということだ ma dwa główne odczytania zależnie od kontekstu:\n• Przekazywanie informacji/informacja zasłyszana: „podobno…”, „wiadomo, że…”. Mówiący nie był bezpośrednim świadkiem, lecz relacjonuje informację z innego źródła.\n• Wniosek/objaśnienie: „czyli…”, „to znaczy, że…”, służy do podsumowania przedstawionej treści.\nW obu przypadkach wzór ma niuans obiektywny, w niewielkim stopniu ujawnia osobiste uczucia, często występuje w języku pisanym, wiadomościach, wyjaśnieniach logicznych.",
+    "notes": "1) Łatwo pomylić 2 znaczenia ～ということだ.\n→ Ma znaczenie „podobno…” (informacja zasłyszana) oraz znaczenie „to znaczy…” (wyjaśnienie/definicja).\n2) Należy patrzeć na kontekst.\n→ Jeśli podano źródło informacji/coś usłyszanego: znaczenie „podobno”.\n→ Jeśli coś się streszcza, przelicza: znaczenie „to znaczy”.\n3) Łatwo pomylić z ～って (język mówiony).\n→ ～ということだ jest bardziej formalne i często używane w języku pisanym. | Wariant języka mówionego: ～ってことだ",
+    "mistakes": [
+     "Mylenie z ～そうだ: jeśli zdanie ma znaczenie wniosku/streszczenia, nie używa się ～そうだ.",
+     "Mylenie z ～わけだ: ～わけだ ma niuans subiektywny, a ～ということだ jest bardziej neutralne.",
+     "Użycie dla osobistej woli: niepoprawnie. Przykład ❌ 行きたいということだ.",
+     "Błędne pominięcie 「だ」 przy rzeczowniku/na-przymiotniku w standardowym języku pisanym.",
+     "W czytaniu ze zrozumieniem na JLPT, jeśli w zdaniu pojawia się „według prasy, według komunikatu”, należy w pierwszej kolejności wybrać ～ということだ."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ということだ",
+       "Podobno / to znaczy",
+       "Obiektywne, używane do informacji zasłyszanej i wniosku.",
+       "<ruby>中止<rt>ちゅうし</rt></ruby>ということだ。"
+      ],
+      [
+       "～そうだ（伝聞）",
+       "Podobno",
+       "Tylko informacja zasłyszana, nie używa się do wniosku.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうだ。"
+      ],
+      [
+       "～らしい",
+       "Chyba / podobno",
+       "Bardziej typowe dla języka mówionego, mniejsza wiarygodność.",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいらしい。"
+      ],
+      [
+       "～という意味だ",
+       "To znaczy, że",
+       "Objaśnia znaczenie, nie jest informacją zasłyszaną.",
+       "これは<ruby>危険<rt>きけん</rt></ruby>という意味だ。"
+      ],
+      [
+       "～わけだ",
+       "A więc to tak / dlatego",
+       "Wniosek o bardziej subiektywnym niuansie.",
+       "だから<ruby>失敗<rt>しっぱい</rt></ruby>したわけだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 563,
+   "src_hash": "1227532570634082",
+   "fields": {
+    "meaning": "Gdy mowa o…, to…",
+    "examples": [
+     "Gdy mowa o festynach, przypomina mi się dzieciństwo.",
+     "Jeśli chodzi o wakacje letnie, co roku wyjeżdżaliśmy całą rodziną w podróż.",
+     "Gdy mowa o lecie, przychodzą na myśl morze i fajerwerki.",
+     "Jeśli mowa o sushi, to jednak chyba Japonia.",
+     "Jeśli mowa o Kioto, to słynie ono ze świątyń i jesiennych liści.",
+     "Skoro mowa o przeprowadzce, to dokąd planuje się pan/pani przenieść?"
+    ],
+    "explain": "Stawia się po rzeczowniku/temacie, który właśnie się usłyszało/zobaczyło, aby wprowadzić skojarzenie lub poprosić o wyjaśnienie.\nCzęsto łączy się z czasownikami skojarzeń:思い出す・連想する・言えば…\nPrzy upewnianiu się co do sensu po というと zwykle następuje zdanie składowe z pytaniem/wyjaśnieniem.\nBardziej potoczne niż といえば, jeśli chodzi o wrażenie bezpośredniej rozmowy; というと skłania się ku „typowemu skojarzeniu”.\n\n• Skojarzenie/typowość: wychodząc od słowa kluczowego, podaje się to, co zwykle się kojarzy, typowy przykład.\n• Sprawdzenie/powtórzenie treści: używane, gdy chce się potwierdzić „czyli to znaczy, że…, tak?”.\n• Niuans konwersacyjny; というと podkreśla zmianę tematu wywołaną skojarzeniem ze słowem kluczowym, które właśnie padło/zostało usłyszane.",
+    "notes": "• Często pojawia się w rozmowie po usłyszeniu nowego słowa kluczowego: A「留学します。」B「留学というと、どこに？」\n• Nie używa się というと do definiowania pojęć; do definicji używa się というのは／とは.\n• W języku pisanym というと często występuje razem ze schematycznymi zwrotami: 一般に～といえば／～と聞くと～を連想する。",
+    "mistakes": [
+     "Użycie というと do połączenia dwóch zdań składowych bez związku skojarzeniowego → wymuszone. Powinna istnieć wyraźna relacja przywołania skojarzenia.",
+     "Mylenie z というのは służącym do definiowania. というと nie używa się do definiowania terminów.",
+     "Mylenie niuansu z といったら: というと jest neutralne; といったら niesie silne uczucie/przesadę."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Nというと",
+       "gdy mowa o N, to… (skojarzenie)",
+       "przywołuje typowy przykład",
+       "<ruby>夏<rt>なつ</rt></ruby>というと<ruby>海<rt>うみ</rt></ruby>"
+      ],
+      [
+       "Nといえば",
+       "skoro mowa o N, to przypomina się…",
+       "silne przy nagłej zmianie tematu",
+       "<ruby>夏<rt>なつ</rt></ruby>といえば<ruby>祭<rt>まつ</rt></ruby>り"
+      ],
+      [
+       "Nといったら",
+       "gdy mowa o N, to (aż nadto)",
+       "podkreślenie uczucia/stopnia",
+       "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>紅葉<rt>こうよう</rt></ruby>といったら…"
+      ],
+      [
+       "～っていうと",
+       "mówiona forma というと",
+       "bardzo potoczne",
+       "<ruby>大阪<rt>おおさか</rt></ruby>っていうと<ruby>粉<rt>こな</rt></ruby>もの"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 564,
+   "src_hash": "11403d158ac5e55d",
+   "fields": {
+    "meaning": "Oznacza…, to…",
+    "connection": "N + というのは + [zdanie/zdanie składowe]（definicja／wyjaśnienie）",
+    "examples": [
+     "「肉じゃが」 to potrawa z duszonego mięsa, ziemniaków, cebuli itp.",
+     "„Ceremonia pełnoletności” to uroczystość z okazji ukończenia 20 lat.",
+     "„Omotenashi” to serce pełne troski o drugą osobę.",
+     "Tokio to miasto, w którym gromadzą się ludzie i informacje.",
+     "Nie mogę pójść. A to dlatego, że wypadła mi pilna sprawa.",
+     "Stwierdzenie, że jest geniuszem, to lekka przesada."
+    ],
+    "explain": "Po というのは zwykle następuje zdanie definiujące, wskazujące istotę albo ogólną ocenę.\nGdy służy do podania przyczyny, następne zdanie często kończy się na からだ／ためだ／わけだ, aby związek przyczynowo-skutkowy był jasny.\nBardziej formalne niż っていうのは; odpowiednie w tekstach, wykładach.\nMożna używać także ze zdaniem składowym: S(plain) + というのは、～ (to, że …, jest …).\n\n• Definicja/wyjaśnienie pojęcia: AというのはBだ = „to, co nazywa się A, to B”.\n• Wprowadzenie przyczyny: というのは stawia się na początku zdania drugiego, aby podać przyczynę zdania poprzedniego.\n• Niuans objaśniający, spójny; często używane w prezentacjach, tekstach pisanych lub gdy chce się wyjaśnić termin.",
+    "notes": "• Przy podawaniu definicji należy unikać zbyt konkretnego przykładu zaraz po というのは; zamiast tego najpierw wskazuje się istotę, a dopiero potem podaje przykład.\n• Gdy wprowadza przyczynę, というのは zwykle otwiera nowe zdanie, po kropce lub nowym akapicie.\n• W ocenach przeczących często łączy się z ～にすぎない／～とは限らない／～わけではない.\nmeaning_vi: Definiuje, czym dana rzecz jest. Znaczenie ~ to...\nexamples: 1. ➀　デジカメとは\nDejikame to...\n2. ②　デジカメとは、デジタルカメラ（のこと）だ。\nDejikame to aparat cyfrowy.\n3. ③　「ひそひそ話すって（いうのは）、どんな話し方？」「ほかの人に聞こえないように小さい声で話すことだよ」\n„Mówić szeptem – jaki to sposób mówienia?” „To mówienie cichym głosem, tak żeby inni nie słyszeli.”\n4. ➃　顔が広いと（いうの）は、いろいろな分野に友達がたくさんいるという意味だ。\n„Mieć szerokie znajomości” znaczy mieć wielu przyjaciół w różnych dziedzinach.\nWariant definicyjny: N + とは",
+    "mistakes": [
+     "Użycie というと do definiowania zamiast というのは → błędna funkcja.",
+     "Zapominanie o は: „多様性というのは” → bez は znaczenie w funkcji definicji jest niepełne.",
+     "Zamienianie というのは w rozwlekły łącznik między dwoma zdaniami bez relacji przyczyny/definicji → rozwlekłe, zaburza tok wypowiedzi."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Nというのは",
+       "definicja/przyczyna",
+       "wyjaśnienie z は",
+       "<ruby>多様<rt>たよう</rt></ruby><ruby>性<rt>せい</rt></ruby>というのは…"
+      ],
+      [
+       "Nとは",
+       "to, definicja",
+       "zwięzłe, formalne, łączy się z <ruby>何<rt>なに</rt></ruby>々とは～だ",
+       "<ruby>多様<rt>たよう</rt></ruby><ruby>性<rt>せい</rt></ruby>とは…"
+      ],
+      [
+       "～ということは～",
+       "to znaczy (wniosek)",
+       "służy do przejścia do konsekwencji",
+       "<ruby>合格<rt>ごうかく</rt></ruby>だ。ということは…"
+      ],
+      [
+       "～という + N",
+       "„zwany …” (określenie N)",
+       "bez は; samo nie definiuje",
+       "<ruby>多様<rt>たよう</rt></ruby><ruby>性<rt>せい</rt></ruby>という<ruby>概念<rt>がいねん</rt></ruby>"
+      ],
+      [
+       "～っていうのは",
+       "forma mówiona",
+       "potoczne, konwersacyjne",
+       "<ruby>多様<rt>たよう</rt></ruby><ruby>性<rt>せい</rt></ruby>っていうのは…"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

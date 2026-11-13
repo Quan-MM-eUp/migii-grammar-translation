@@ -1,0 +1,674 @@
+{
+ "batch": "b023",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 314,
+   "src_hash": "f22c951745a5adef",
+   "fields": {
+    "meaning": "Wzór zdania なかなか～ない　wyraża trudność. Wzór zdania やっと～た wyraża z kolei, że coś trudnego lub czasochłonnego zostało zrealizowane. Wzór zdania とうとう～た／～なかった wyraża, że po długim czasie coś w końcu się wydarzyło albo nie wydarzyło.",
+    "examples": [
+     "Autobus jakoś nie przyjeżdża.",
+     "Praca wreszcie się skończyła.",
+     "Telewizor w końcu się zepsuł."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 315,
+   "src_hash": "1466d06ce760bbda",
+   "fields": {
+    "meaning": "dla, w celu",
+    "examples": [
+     "Zrobiliśmy zdjęcie na pamiątkę.",
+     "Z okazji ukończenia szkoły nauczyciel podarował mi długopis.",
+     "3 razy dziennie.",
+     "Przynajmniej raz w roku jeżdżę do Tajlandii dla przyjemności.",
+     "Raz w miesiącu jeżdżę zobaczyć się z dziewczyną.",
+     "Sprzątam 2 razy w tygodniu."
+    ],
+    "explain": "A\nWyraża miejsce, w którym znajdują się rzeczy i istoty żywe, jak w przykładzie ①, albo miejsce, w którym występuje jakiś stan, jak w przykładzie ②.\nB\nWyraża punkt docelowy obiektu czynności, jak w przykładzie ①, albo punkt docelowy wykonawcy czynności, jak w przykładzie ②．\nC\nWyraża obiekt, na który oddziałuje czynność.\nD\nWyraża punkt w czasie.",
+    "notes": "meaning_vi: Wyraża cel przemieszczania się. Czasowników łączących się z tym wzorem gramatycznym jest dość mało: przed に stoją czasowniki wyrażające wolę, a po に　– czasowniki ruchu, takie jak いきます、きます、かえります、もどります itd. Zwykle służy do podawania lekkich, zwyczajnych, codziennych celów.\nexamples: 1. ①父は公園へ散歩に行きました。\nTata poszedł na spacer do parku.\n2. ②うちに財布を忘れたので、とりに帰ります。\nZostawiłem portfel w domu, więc wrócę po niego.\n3. ③明日、8時に友達がうちにむかえに来る。\nJutro o 8 kolega przyjedzie po mnie do domu."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 316,
+   "src_hash": "3bfd15a1efb002e2",
+   "fields": {
+    "meaning": "podkreślenie ilości",
+    "connection": "Ilość + は (co najmniej) / Ilość + も (podkreślenie dużej ilości)",
+    "examples": [
+     "A: Naprawa tego samochodu zajmie co najmniej 2 tygodnie.\nB: Aż 2 tygodnie?",
+     "A: Ile pieniędzy potrzeba w Japonii na zorganizowanie wesela?\nB: Myślę, że potrzeba co najmniej 2 000 000 jenów.\nA: Co? Aż 2 000 000 jenów?"
+    ],
+    "explain": "•　は：Wskazuje minimalny stopień szacowany przez mówiącego.\n•　も：Używa się, gdy mówiący odczuwa daną liczbę jako zbyt dużą."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 317,
+   "src_hash": "0f1991d2a2fcfcd3",
+   "fields": {
+    "meaning": "もう wyraża, że osiągnięto już pewien stan, a まだ – że jeszcze go nie osiągnięto. Bywa też, że もう używa się z połączeniem „1 + klasyfikator” albo “すこし” itd. Wyraża wtedy dodanie jeszcze pewnej ilości （③④）。",
+    "examples": [
+     "To jest pyszne. Mogę zjeść jeszcze jedno?",
+     "Proszę dodać do zupy jeszcze trochę soli.",
+     "Tom: „Jadłaś już obiad?”\nSara: „Nie, jeszcze nie jadłam.”",
+     "Tom: „Czy bank jest jeszcze otwarty?”\nYamada: „Jest czwarta, więc jest już zamknięty.”"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 318,
+   "src_hash": "298cce6ee4aa05a1",
+   "fields": {
+    "meaning": "Wyraża rzeczy, które w naturalny sposób docierają do oczu i uszu.",
+    "examples": [
+     "Ładny pokój, prawda? Z okna widać morze.",
+     "Nie mam okularów, więc słabo widzę.",
+     "Słychać szum wiatru, prawda?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 319,
+   "src_hash": "41162961e901df55",
+   "fields": {
+    "name": "Forma kauzatywno-bierna",
+    "meaning": "być zmuszonym do zrobienia czegoś, nie mieć innego wyjścia, jak to zrobić; nie jest to wola mówiącego.\nNa skutek czyjegoś działania u innej osoby pojawia się jakieś uczucie lub stan.",
+    "connection": "N1は + N2に + V w formie kauzatywno-biernej (食べさせられる)",
+    "examples": [
+     "W dzieciństwie mama zmuszała mnie do jedzenia warzyw, których nie lubiłem.",
+     "Nauczyciel kazał mi ćwiczyć wiele razy, aż nauczyłem się dobrze wymawiać.",
+     "W czasach szkolnych lubiłem czytać książki, ale nie znosiłem, gdy kazano mi pisać wypracowania z wrażeniami z lektury.",
+     "Chociaż nie mogę dużo pić, starszy kolega zmusił mnie do picia alkoholu.",
+     "Ponieważ autobus nie przyjechał o planowanej godzinie, musiałem czekać na przystanku aż 20 minut.",
+     "W dzieciństwie starsza siostra często doprowadzała mnie do płaczu."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 321,
+   "src_hash": "c7b6215bace215e2",
+   "fields": {
+    "name": "Rzeczownik⇔Czasownik",
+    "meaning": "Rzeczownik ます jest używany jak rzeczownik . Czasowniki także są używane jak rzeczowniki, jednak dotyczy to tylko pewnych określonych czasowników; gdy towarzyszy im partykuła （を／で／い／itd.), partykułę można pominąć, jak w przykładzie ③（山におぼります➞山登り）",
+    "connection": "N(サ変) ⇔ Nします (料理⇔料理します) / Vます(bez ます) → N (帰ります→帰り・山登り)",
+    "examples": [
+     "Lubię gotowanie, ale nie lubię sprzątania. [⇔料理します、掃除します]",
+     "Bilet powrotny już kupiłem. [⇔帰ります]",
+     "Chodzenie po górach jest przyjemne. [⇔山にのぼります]"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 323,
+   "src_hash": "dffff2bbb59436c8",
+   "fields": {
+    "name": "Rzeczownik⇔Zdanie",
+    "meaning": "Forma prosta + の／こと　jest używana jak rzeczownik.",
+    "connection": "V/A w formie prostej + の/こと（nominalizacja zdania składowego）",
+    "examples": [
+     "Rozmawianie z przyjaciółmi jest przyjemne. [⇔友達と話す]",
+     "Zapomniałem, że umówiłem się na spotkanie z Tomem. [⇔会う約束をした]"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 324,
+   "src_hash": "452ee5089e6ac373",
+   "fields": {
+    "name": "Wyrażenia rozkazujące",
+    "meaning": "używa się w mowie męskiej, gdy osoba stojąca wyżej wydaje polecenie osobie niższej rangą, gdy mężczyzna rozmawia z bliskim przyjacielem lub osobą niższą rangą, albo gdy trzeba wyrazić się krótko.\npolecenie wobec osoby niższej rangą; ponieważ jest łagodniejsze niż czasownik w formie rozkazującej, często używa się go w mowie kobiecej.\nzakaz (mówiony z naciskiem wobec rozmówcy)",
+    "connection": "V w formie rozkazującej (しろ・行け) / Vるな（zakaz）",
+    "examples": [
+     "（starszy kolega → młodszy kolega）„Hej, pospiesz się. Spóźnimy się.”",
+     "（ojciec → dziecko）„Już siódma. Wstawaj.”",
+     "（nagła sytuacja）„Uwaga! Uciekaj szybko!”",
+     "（doping）„Jeszcze trochę. Dawaj!”",
+     "Ojciec (ze złością): „Tarō, chodź no tu.”",
+     "Matka (ze złością): „Tarō, chodź tu na chwilę.”"
+    ],
+    "notes": "Uwaga:\n引用の「と」の前には命令形が使える\nPrzed 「と」 cytowania można użyć formy rozkazującej.\n先生はいつも、わたしたちに「わからないことばがあるときは、辞書をひきなさい」と言います。\nNauczyciel mówi:「Gdy trafi się nieznane słowo, sprawdźcie je w słowniku.」\n→先生はいつもわたしたちに、わからないことばがあるときは辞書をひけと言います。\n→ Nauczyciel mówi, żeby sprawdzać w słowniku, gdy trafi się nieznane słowo."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 326,
+   "src_hash": "1bc70719769621b7",
+   "fields": {
+    "name": "Słowo pytające＋たら/ば＋いいですか itd.",
+    "meaning": "używa się, gdy pyta się o coś niezrozumiałego / gdy prosi się o radę.",
+    "connection": "Słowo pytające + Vたら/Vば + いいですか",
+    "examples": [
+     "„Gdzie należy się zgłosić w razie zgubienia karty bankomatowej?”",
+     "„O której godzinie mam jutro rano przyjść?”",
+     "„Wczoraj narobiłem kłopotu Lin…. Jak myślisz, co mam zrobić?”",
+     "„Który przycisk należy nacisnąć, żeby kupić bilety wieloprzejazdowe?”",
+     "Ta torba wygląda na wygodną w użyciu. Gdzie można ją kupić?",
+     "„Proszę mi powiedzieć, jak się uczyć, żeby poprawić oceny.”"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 327,
+   "src_hash": "2241573d2ba0d63c",
+   "fields": {
+    "name": "Wyrażenia języka uniżającego (kenjōgo)",
+    "meaning": "Używa się, gdy mówi się skromnie o własnych czynnościach",
+    "connection": "お + Vます(bez ます) + する/します / ご + N(サ変) + する",
+    "examples": [
+     "„Może zaparzę kawy?”",
+     "„Panie profesorze, czy mogę pożyczyć tę książkę?”",
+     "„Poczekam tutaj, aż pan prezes wróci.”",
+     "„Miło mi poznać. Nazywam się Kobayashi. Proszę o życzliwość.”",
+     "„Jutro będę cały dzień w domu.”",
+     "„Przepraszam, mam pytanie: gdzie jest dworzec Tokio?”"
+    ],
+    "notes": "Uwaga:\n「内」のひと（自分の家族や職場の人）のことを「外」の人に話すときには謙譲表現を使う。\nGdy mówi się „osobie z zewnątrz” o „osobie ze swojego kręgu” (własna rodzina/współpracownicy), używa się języka uniżającego (kenjōgo).\n1.  「父が「よろしく」と申しておりました」\n「Mój ojciec prosił, żeby przekazać「pozdrowienia」」\n2.  「部長は出張で大阪に行っております」\n「Kierownik działu jest w podróży służbowej w Osace」"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 328,
+   "src_hash": "73a3b069b72b173d",
+   "fields": {
+    "meaning": "Po przyjęciu informacji z poprzedniego zdania mówiący przedstawia swoje przypuszczenie albo życzenie czy zamiar, bądź też wzywa i ponagla rozmówcę do działania.",
+    "connection": "[zdanie/zdanie składowe]。では/じゃ、[zdanie/zdanie składowe]",
+    "examples": [
+     "Tom: „Mam starszego brata.” Nauczyciel: „Czyli jest was dwóch braci, tak?”",
+     "Czy wszystko gotowe? W takim razie zaczynajmy.",
+     "Co? Sara nie przyjdzie na imprezę? To może ja też sobie odpuszczę."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 330,
+   "src_hash": "84803fdf12aa4ef4",
+   "fields": {
+    "name": "（～は）forma bierna",
+    "meaning": "Wyrażenie w stronie biernej, w którym obiektem poddanym działaniu są rzeczowniki oznaczające rzeczy nieożywione, takie jak wydarzenia czy dzieła. Tego wyrażenia często używa się, gdy nie określa się wykonawcy czynności.",
+    "connection": "N(nieożywiony)が/は + V w formie biernej（wydarzenie, rzecz）",
+    "examples": [
+     "To jest czytane, naprawdę.",
+     "Gdzie odbędą się najbliższe igrzyska olimpijskie?",
+     "Ameryka jest nazywana „policjantem świata”.",
+     "Japoński ramen instant jest jedzony na całym świecie."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 333,
+   "src_hash": "7f81098a824631ec",
+   "fields": {
+    "meaning": "Nie robić V1, lecz robić V2",
+    "examples": [
+     "W niedzielę nigdzie nie wychodzę, tylko spokojnie odpoczywam w domu.",
+     "Wczoraj wieczorem uczyłem się, nie kładąc się spać."
+    ],
+    "explain": "Ponieważ nie da się wykonać obu rzeczy jednocześnie, trzeba świadomie zdecydować się na zrobienie jednej, a nie drugiej."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 334,
+   "src_hash": "b6772b297871027c",
+   "fields": {
+    "examples": [
+     "Wczoraj, po wyjściu znajomych, sprzątałem do dwunastej.",
+     "A: Co będziemy robić po posiłku?\nB: Chodźmy na karaoke."
+    ],
+    "explain": "Podkreśla następstwo czynności w czasie w odniesieniu do V2. V 2 następuje dopiero po tym, jak nastąpi V 1.\nCzas przyszły, teraźniejszy, przeszły … wyraża się w drugim czasowniku. (V2)"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 336,
+   "src_hash": "31f268cee73a6d4f",
+   "fields": {
+    "name": "～V w formie potencjalnej なくなりました",
+    "meaning": "nie móc już ~",
+    "connection": "V w formie potencjalnej + なくなりました (読める → 読めなくなりました)",
+    "examples": [
+     "A: Założysz to ubranie na jutrzejszą imprezę?\nB: Nie, przytyłem, więc nie mogę już go nosić.",
+     "A: Jak minęły wakacje?\nB: Dziecko zachorowało, więc nie mogliśmy już pojechać nad morze."
+    ],
+    "explain": "Mówi o rzeczach, które dawniej dało się robić, a teraz już się nie da.\n～V可能形ない　→　V可能形な い くなる\n\n～V可能(かのう)形(かたち)なくなりました： doszło do tego, że już nie można ~"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 338,
+   "src_hash": "9bb7aa2acd9ad116",
+   "fields": {
+    "name": "～う／よう（forma wolitywna）",
+    "meaning": "Mówi się o tym, co samemu zrobi się od teraz (przyszłość )\nZaproszenie kogoś bliskiego , używane też do wezwania wielu osób.",
+    "connection": "V w formie wolitywnej (寝よう・注意しよう)",
+    "examples": [
+     "Już dwunasta. Pora iść spać.",
+     "Popełniłem błąd przez nieuwagę, następnym razem będę uważać.",
+     "„Zjedzmy dziś razem obiad, co?”",
+     "„W tym roku koniecznie zdobądźmy mistrzostwo! Postarajmy się wszyscy razem!”",
+     "„W przyszłym roku pojedźmy razem na wycieczkę, dobrze?”"
+    ],
+    "notes": "Uwaga:\nていねいな会話では「～ましょう」を使う。\nW uprzejmej rozmowie używa się 「～ましょう」.\n1.  「寒いですね。はやく帰りましょう」\n「Zimno, prawda? Wracajmy szybko.」\n2.  「道を渡るときは注意しましょう」\n„Uważajmy, przechodząc przez ulicę.”\nmeaning_vi: Wyrażenie zamiaru lub nadziei na przyszłość. Bywa też zaproszeniem skierowanym do słuchacza. ⏐ examples: 1. ①    早く　行こう。\nChodźmy wcześnie.\n2. ②　来週は　病院へ　行こう。\nW przyszłym tygodniu chodźmy do szpitala.\n3. ➂　九州で　就職活動を　しようと　思います。\nZamierzam szukać pracy na Kiusiu"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 339,
+   "src_hash": "8d9a5729552ffac5",
+   "fields": {
+    "name": "～か（pytanie zależne）",
+    "meaning": "Forma łącząca 2 zdania. 「～か」 używa się, gdy występuje słowo pytające.",
+    "connection": "[zdanie/zdanie składowe pytające] + か",
+    "examples": [
+     "„Pobierzmy się.” „Co? Mówisz poważnie?” „A czy takie rzeczy mówi się dla żartu?”",
+     "„Choćby nie wiem jak mnie proszono, czy mógłbym zrobić coś takiego, co wygląda na oszustwo?”",
+     "„Jesteś tu od niedawna, prawda? Czy tak się odzywa do starszego kolegi?”",
+     "„A kto niby uwierzy w to, co mówisz?”",
+     "Któż 100 lat temu mógł przewidzieć, że nadejdzie epoka, w której ludzkość poleci na Księżyc?",
+     "Ile jest butelek piwa? Proszę policzyć."
+    ],
+    "explain": "Wstawia się zdanie ze słowem pytającym do innego zdania."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 340,
+   "src_hash": "6ebc07f9cb5e1561",
+   "fields": {
+    "meaning": "… czy nie",
+    "examples": [
+     "Proszę powiedzieć, czy jedzenie jest smaczne, czy nie.",
+     "Nie wiem, czy sklep jest otwarty, czy nie.",
+     "To danie przyrządziłem po raz pierwszy. Nie mam pewności, czy jest smaczne.",
+     "Martwię się, czy jutro będzie ładna pogoda.",
+     "Nie pamiętam, czy uczyłem się już wcześniej tego słowa.",
+     "Nie wiem, czy to prawdziwy diament, czy nie."
+    ],
+    "explain": "◎ 「～か どうか」 to wzór zdania wyrażający wybór 「AまたはB」. Czasownik i przymiotnik stojące bezpośrednio przed 「か」 przyjmują formę słownikową. Nawet w wypowiedzi uprzejmej nie zmienia się 「うまく 書けたか どうか」 na 「うまく 書けましたか どうか」.\n\n• Wyraża pytanie o dwóch możliwościach: „tak czy nie / poprawne czy niepoprawne”.\n• Używa się w zdaniu składowym poddanym nominalizacji, z czasownikami takimi jak わからない／決める／調べる／迷う／確かめる.\n• Ze słowem pytającym (いつ・どこ・だれ・なに…) zwykle używa się ～か (どうか nie jest potrzebne). かどうか też bywa możliwe w niektórych kontekstach, ale na egzaminie łatwo zostaje uznane za mało naturalne.",
+    "notes": "Uwaga:\n●　「かどうか」ではなく、否定形や反対のことばを使うこともできる。\nOprócz 「かどうか」 można też użyć słowa o przeciwnym znaczeniu albo formy przeczącej.\n1.会議に出席するかしないか、なるべく早く知らせてください。\nProszę możliwie szybko dać znać, czy weźmie pan udział w zebraniu, czy nie.\n2.来年子どもが生まれます。まだ男の子か女の子かわかりません。\nW przyszłym roku urodzi się dziecko. Jeszcze nie wiadomo, czy to chłopiec, czy dziewczynka.",
+    "mistakes": [
+     "Niepoprawnie z rzeczownikiem/przymiotnikiem な w czasie teraźniejszym: × 学生ですかどうか → ○ 学生かどうか.",
+     "Po słowie pytającym na egzaminie: preferować ～か, unikać nadużywania ～かどうか. × いつ行くかどうか → ○ いつ行くか.",
+     "Czas przeszły: zapominanie o だった przy przymiotniku な/N. × 便利だたかどうか → ○ 便利だったかどうか."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～かどうか",
+       "Czy … czy nie",
+       "Dwie możliwości: Yes/No",
+       "<ruby>合格<rt>ごうかく</rt></ruby>したかどうか"
+      ],
+      [
+       "<ruby>疑問<rt>ぎもん</rt></ruby><ruby>詞<rt>ことば</rt></ruby>＋か",
+       "Kto/co/kiedy…",
+       "Używane z いつ・どこ…",
+       "いつ<ruby>来<rt>く</rt></ruby>るか"
+      ],
+      [
+       "～か<ruby>否<rt>いな</rt></ruby>か",
+       "Czy tak, czy nie",
+       "Formalne, język pisany",
+       "<ruby>合意<rt>ごうい</rt></ruby>か<ruby>否<rt>いな</rt></ruby>か"
+      ],
+      [
+       "VるかVないか",
+       "…czy nie (oba zdania składowe podane wprost)",
+       "Forma paralelna",
+       "<ruby>行<rt>い</rt></ruby>くか<ruby>行<rt>い</rt></ruby>かないか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 341,
+   "src_hash": "9e312a11b8166ba6",
+   "fields": {
+    "meaning": "z ~",
+    "connection": "N + から + 作る (surowiec zmieniający właściwości) / N + で + 作る (materiał zachowujący pierwotną formę)",
+    "examples": [
+     "Papier wytwarza się z drewna.",
+     "To biurko jest robione z drewna.",
+     "A: Co jest surowcem do produkcji piwa?\nB: Piwo wytwarza się z jęczmienia."
+    ],
+    "explain": "から：wytworzony produkt zmienił właściwości i strukturę pierwotnego surowca. Patrząc na produkt, nie da się rozpoznać pierwotnego surowca.\nで：patrząc na produkt, od razu widać, z jakiego surowca powstał."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 344,
+   "src_hash": "6c2bbb16d6e47f98",
+   "fields": {
+    "meaning": "przekształcenie zdania w rzeczownik.",
+    "connection": "V/A w formie prostej + こと/ということ / N/Naだ + ということ",
+    "examples": [
+     "O tym, że w przyszłym miesiącu biorę wolne, nikomu jeszcze nie mówiłem.",
+     "„Proszę przekazać nauczycielowi, że dziś mnie nie będzie.”",
+     "Zadzwoniła mama. Usłyszałem, że babcia wyzdrowiała, i odetchnąłem z ulgą.",
+     "Nie wiedziałem, że w tym pokoju obowiązuje zakaz palenia, i zapaliłem papierosa.",
+     "O tym, że w Japonii samochody jeżdżą lewą stroną drogi, dowiedziałem się dopiero po przyjeździe do Japonii.",
+     "Na tej kartce jest napisane, co jest potrzebne przy przedłużaniu wizy."
+    ],
+    "notes": "Uwaga:\n●　「という」は話などの内容を表すので、次のような使い方もある。\nWyraża treść, na przykład tego, o czym jest opowieść…, istnieje też użycie takie jak poniżej.\n1.  「立ち入り禁止」はここには入るなと言う意味です。\n「Tachiri kinshi」 znaczy „nie wchodzić tutaj”.\n2.  これは、ウサギとカメが競争してカメが勝った、という話です。\nTo jest opowieść o tym, że zając i żółw ścigali się i żółw wygrał."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 346,
+   "src_hash": "0721c6a84e7f3bb3",
+   "fields": {
+    "meaning": "taki N jak ten/jak ten tam/jak tamten (こんな/そんな/あんな+N)",
+    "examples": [
+     "（pokazując czasopismo osobie w salonie fryzjerskim）„Poproszę o taką fryzurę…”",
+     "„Takiego człowieka nie znoszę. Absolutnie nie chcę go już więcej spotkać.”",
+     "„Podobno jutro jest egzamin. Wiedziałeś?” „Nie, o niczym takim nie słyszałem.”"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 348,
+   "src_hash": "97f69fac6d5ef8cd",
+   "fields": {
+    "meaning": "Wyraża, że jakaś czynność lub stopień przekracza odpowiedni zakres.",
+    "connection": "Vます(bez ます) + すぎる / A(bez い) + すぎる / Na + すぎる",
+    "examples": [
+     "Za późno!",
+     "Trochę za dużo pracujesz. Rozchorujesz się.",
+     "Za dużo zjadłem i boli mnie brzuch.",
+     "Jest trochę za duże. Czy nie ma nieco mniejszego?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 349,
+   "src_hash": "a8ed24a382a808e7",
+   "fields": {
+    "name": "～そう［wygląda na］",
+    "meaning": "~ Wygląda na (sądząc z wyglądu)",
+    "connection": "Vます + そう / Aい (bez い) + そう / Na + そう (いい→よさそう / ない→なさそう)",
+    "examples": [
+     "W ogóle nie mogłem trenować, więc wygląda na to, że tym razem przegram.",
+     "Zanosi się na deszcz, więc weźmy parasol.",
+     "To ciasto wygląda smakowicie, prawda?",
+     "Ostatnio wygląda, jakby miał dużo wolnego czasu."
+    ],
+    "explain": "◎ 「～そう」 występuje po czasowniku w formie MASU i oznacza, że możliwość tego jest duża.\n◎ W przypadku przymiotnika zmienia się go następująco:「OOい→OOそう」「OOな→OOそう」.",
+    "notes": "Przeczenie: ～そうもない・そうにない; forma określenia: そうなN・そうにV"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 350,
+   "src_hash": "adc117613fe41b01",
+   "fields": {
+    "meaning": "~ Nigdy dotąd nie",
+    "examples": [
+     "Jeszcze nigdy nie spotkałem tej osoby.",
+     "Nigdy nie słyszałem o czymś takim."
+    ],
+    "explain": "◎ Brak doświadczenia w robieniu danej rzeczy."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 351,
+   "src_hash": "d35ad5c6d0775e39",
+   "fields": {
+    "meaning": "Oznacza, że coś się robi po wykonaniu czynności z pierwszej części zdania.",
+    "examples": [
+     "Po przybyciu",
+     "Po powrocie do domu mówi się „ただいま”.",
+     "Spotkajmy się, gdy w przyszłym tygodniu wrócę do kraju.",
+     "Wczoraj, gdy spotkałem się z nauczycielem, oddałem pracę domową."
+    ],
+    "notes": "Łączy się z formą た (夕形) orzeczenia wyrażającego stan i wyraża przeszłe zdarzenie lub stan, które zaistniały równolegle z nim. W tym przypadku w pierwszej części można też użyć formy słownikowej, ale występuje subtelna różnica znaczeniowa.\n*（例） 子供がまだ小さい時は、いろいろ苦労が多かった。\n!Przy porównaniu （例） i ③ okazuje się, że ③, w którym użyto formy た, ma znaczenie, iż mówiący wspomina przeszłość, oraz znaczenie 「teraźniejszość różni się już od stanu z przeszłości」, podczas gdy （例）, w którym użyto formy słownikowej, nie zawiera takiego podtekstu."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 352,
+   "src_hash": "14d9b20111c8be56",
+   "fields": {
+    "examples": [
+     "Gdy przyjechałem do Japonii, zyskałem wielu przyjaciół.",
+     "Gdy wróciłem do domu, zorientowałem się, że nie mam klucza.",
+     "Gdy zebranie się skończyło, wezwał mnie kierownik działu.",
+     "Gdy byłem mały, często bawiłem się w tym parku.",
+     "Gdy pojechałem służbowo do Osaki, zjadłem prawdziwe, tamtejsze okonomiyaki.",
+     "Gdy pojawi się problem, proszę natychmiast się skontaktować."
+    ],
+    "explain": "Służy do zakotwiczenia momentu w czasie, w którym czynność została już zakończona, i dopiero wtedy następuje główne zdarzenie; daje odczucie „po zrobieniu V…”.\nStyl neutralny; można używać w języku mówionym i pisanym.\nGdy chce się położyć nacisk na „chwilę tuż po”, warto rozważyć użycie ～たとたん(に) lub ～た途端(に) zamiast ～たとき(に).\nJeśli głównym zdarzeniem jest odkrycie/uświadomienie sobie czegoś (気づく、分かる、見つける…), ～たとき(に) brzmi bardzo naturalnie.\n\n• Podaje moment w czasie tuż po zakończeniu czynności ze zdania podrzędnego, w którym zachodzi główne zdarzenie.\n• Czas gramatyczny czasownika przed とき wyraża względną relację czasową:\n\nV-る とき: czynność główna zachodzi przed V / w trakcie V.\nV-た とき: czynność główna zachodzi po zakończeniu V.\n\n• V-る とき: czynność główna zachodzi przed V / w trakcie V.\n• V-た とき: czynność główna zachodzi po zakończeniu V.\n• に wyraźniej zaznacza docelowy moment w czasie, ale często można je pominąć.\n• Zwykle używa się w odniesieniu do zdarzeń jednorazowych, konkretnych; rzadko do stale powtarzających się czynności nawykowych.\n• Gdy podmiot zdania podrzędnego i głównego jest różny, należy użyć odpowiedniej partykuły podmiotu (ga/wa), aby uniknąć niejasności.",
+    "notes": "• W zdaniu składowym z とき czas przeszły/teraźniejszy nie zależy od czasu gramatycznego całego zdania, lecz wyraża względną relację wcześniej-później.\n• Przy czynności nawykowej, powtarzającej się, zwykle używa się ogólnego とき (niekoniecznie V-た).\n• とき zwykle nie łączy się w zdaniu podrzędnym z partykułą tematu は, ale „X ときは …” brzmi naturalnie, gdy podaje się ogólny warunek.\n• に po とき pomaga uściślić moment w czasie, gdy zdanie jest długie/złożone; przydatne w języku pisanym.",
+    "mistakes": [
+     "Mylenie V-る とき i V-た とき: wybór niewłaściwego czasu gramatycznego w zdaniu składowym z とき zaburza relację czasową.",
+     "Użycie ～たとき dla czynności niezakończonej lub ogólnej czynności nawykowej → należy użyć ～るとき albo ogólnego とき.",
+     "Mylenie z ～たあとで: gdy chce się położyć nacisk na natychmiastowy związek przyczyny i rezultatu / natychmiastowe uświadomienie sobie czegoś, bardziej odpowiednie jest ～たところ.",
+     "Zapomnienie o に po とき w stylu formalnym może zmniejszyć jasność, gdy zdanie jest złożone."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "V-る とき(に)",
+       "Przed zrobieniem / w trakcie robienia",
+       "Moment przed V / jednoczesność z V",
+       "<ruby>帰<rt>かえ</rt></ruby>るとき、<ruby>電気<rt>でんき</rt></ruby>を<ruby>消<rt>け</rt></ruby>す。"
+      ],
+      [
+       "V-た とき(に)",
+       "Po zrobieniu",
+       "Moment po zakończeniu V",
+       "<ruby>帰<rt>かえ</rt></ruby>ったとき、<ruby>電気<rt>でんき</rt></ruby>が<ruby>消<rt>き</rt></ruby>えていた。"
+      ],
+      [
+       "V-た あとで",
+       "Po tym, jak",
+       "Nacisk na następstwo czynności; odstęp czasu może być długi",
+       "<ruby>食<rt>た</rt></ruby>べたあとで、<ruby>散歩<rt>さんぽ</rt></ruby>する。"
+      ],
+      [
+       "V-た ところ",
+       "Po zrobieniu – odkrycie/rezultat",
+       "Nacisk na rezultat odkryty od razu; zdarzenie jednorazowe",
+       "<ruby>聞<rt>き</rt></ruby>いたところ、<ruby>満席<rt>まんせき</rt></ruby>だった。"
+      ],
+      [
+       "V-た とたん(に)",
+       "Gdy tylko",
+       "Natychmiastowość, silne zaskoczenie",
+       "<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がったとたん、めまいがした。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 353,
+   "src_hash": "54333d7a17de9b6f",
+   "fields": {
+    "name": "～ために［cel］",
+    "meaning": "Cel/ o charakterze zależnym od woli",
+    "examples": [
+     "Pilnie się uczę, żeby zostać lekarzem.",
+     "Kupiłem prezent dla mamy."
+    ],
+    "explain": "◎ Używa się z czasownikiem w formie słownikowej lub z rzeczownikiem (z dodanym 「の」) do wyrażenia celu.",
+    "notes": "meaning_vi: Wyraża cel czynności. Łączy się z wyrażeniami oznaczającymi czynności zależne od woli. Podmiot zdania przed ために i po nim jest ten sam.\nexamples: 1. ①結婚式のために、いろいろ準備をしています。\nPrzygotowujemy mnóstwo rzeczy na wesele.\n2. ②アニメの勉強のために、日本に留学します。\nJadę na studia do Japonii, żeby uczyć się o anime.\n3. ③社長は会議に出席するため、アメリカへ行きました。\nPrezes pojechał do Ameryki, żeby wziąć udział w zebraniu.\n4. ④これは漢字を練習するための本です。\nTo jest książka do ćwiczenia znaków kanji.\n◎ Wzór zdania wyrażający przyczynę. Używa się z formą prostą czasownika i z 「N＋の」.\n1. かぜを 引いたため、昨日は 休みました。\nPrzeziębiłem się, więc wczoraj wziąłem wolne.\n2. 大雪の ため、電車が 止まって います。\nZ powodu śnieżycy pociągi nie kursują.\nBardziej formalne niż ので/から przy podawaniu przyczyny; często używane w ogłoszeniach, na tablicach informacyjnych, w wiadomościach.\nW znaczeniu celu bardziej formalne niż ～ように; odpowiednie, gdy czasownik oznacza czynność zamierzoną, a cel jest konkretny.\nNie używa się ために (cel) z czasownikami niezależnymi od woli / wyrażającymi możliwość, takimi jak 分かる、見える、起きる… (zamienia się na ～ように).\n1. A:　なんの　ために　貯金していますか。\nB:　将来　自分の店を　持つために、貯金しています。\nA: Po co pan oszczędza?\nB: Oszczędzam, żeby w przyszłości mieć własny sklep.\n2. A:　健康の　ために、　何か　していますか。\nB:　いいえ。でも、来週から　毎朝　走ろうと。\nA：Czy robi pan coś dla zdrowia?\nB: Nie. Ale zamierzam od przyszłego tygodnia biegać co rano.\n3. 家族の　ために、うちを　建てます。\nBuduję dom dla rodziny.\n──────\n1. 日本に留学するために、日本語を勉強している。\nWłaśnie\n「～ように」 ma znaczenie zmiany stanu. 「Vために」 wyraża cel czynności.\n1. ①　早く起きられるように／早く起きるために\nŻeby móc wcześnie wstać, żeby wcześnie wstać.\n2. ②　早く起きられるように、今晩なるべく早く寝ます。\nDziś wieczorem postaram się położyć wcześnie, żeby jutro móc wcześnie wstać.\n3. ③　早く起きるために、今晩なるべく早く寝ます。\nŻeby wcześnie wstać, dziś wieczorem postaram się położyć wcześnie."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

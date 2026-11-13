@@ -1,0 +1,539 @@
+{
+ "batch": "b047",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 655,
+   "src_hash": "4bddae3eb0e6492a",
+   "fields": {
+    "meaning": "I wtedy, zaraz potem",
+    "connection": "[zdanie/zdanie składowe]。 + すると、 + [zdanie/zdanie składowe]",
+    "examples": [
+     "Otworzyłem drzwi. Wtedy wyskoczył kot.",
+     "Zażyłem lekarstwo. Wtedy ból głowy od razu minął.",
+     "Zadzwoniłem do niego. Wtedy usłyszałem, że już wyruszył.",
+     "Wyszedłem na zewnątrz. Wtedy okazało się, że pada śnieg.",
+     "Włączyłem komputer. Wtedy rozległ się dziwny dźwięk."
+    ],
+    "explain": "Pozycja : Zawsze stoi na początku drugiego zdania składowego, po tym jak pierwsze kończy się kropką lub przecinkiem.\nNaturalność : Używa się, gdy rezultat następuje szybko, tuż po poprzedniej czynności.\nNiuans emocjonalny : Może zawierać poczucie zaskoczenia, nowego odkrycia.\nNie wyraża polecenia ani woli : Nie używa się w zdaniach rozkazujących → jedynie relacjonuje zdarzenia.\nStyl : Umiarkowanie formalny, często używany w piśmie – w narracji, dziennikach, na egzaminie JLPT.\n\n•\nWskazuje rezultat następujący tuż po poprzedniej czynności: „I wtedy…”, „Ledwie… a…”.\n\n•\nWyraża rezultat nieoczekiwany, nieprzewidziany: mówiący nie spodziewał się, że po A nastąpi B.\n\n•\nSłuży do naturalnego łączenia wątku w opowiadaniu: pasuje do tekstów opisowych i narracyjnych.\n\n•\nNiuans neutralny → nieco typowy dla języka pisanego: nie używa się w mowie potocznej między znajomymi (zwykle stosuje się そしたら、するとさ...).",
+    "notes": "•\nCzęsto pojawia się w zadaniach JLPT na czytanie ze zrozumieniem ze względu na charakter narracyjny i opisywanie zjawisk.\n• Często służy do wprowadzenia ważnego odkrycia w tekście: “すると、驚くべき事実が判明した。”\n• W żadnym wypadku nie używa się go, by w drugiej części zdania wprowadzić zamierzone działanie mówiącego. meaning_vi: Natychmiast, i wtedy ～ ⏐ explain: (1) a jest przyczyną zdarzenia b, które następuje zaraz potem.\n(2) na podstawie a wyciąga się wniosek b. ⏐ examples: 1. 薬を塗った。すると痛みが治まった。\nPosmarowałem lekarstwem. Wtedy ból ustąpił.\n2. 窓を開けた。すると、蛾が入ってきた。\nOtworzyłem okno. Wtedy do środka wleciała ćma.\n3. 「私は外出していました。」\n「すると、家は誰もいなかったんですね。」\nNie było mnie w domu. Czyli w domu nikogo nie było, prawda?",
+    "mistakes": [
+     "Mylenie z そして: そして jedynie łączy informacje, nie zawiera elementu zaskoczenia.",
+     "Użycie z wolą/poleceniem: w tym wzorze gramatycznym niepoprawne jest “すると、行きましょう”.",
+     "Mylenie z użyciem konwersacyjnym „W takim razie...”: np. “すると、君はどうする？” ma inne znaczenie.",
+     "Pominięcie przecinka po すると: w formalnym języku pisanym powinien być “、”.",
+     "Użycie, gdy dwa zdarzenia nie pozostają w związku przyczynowo-skutkowym ani w bliskości czasowej, jest nielogiczne."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "すると",
+       "I wtedy…, ledwie… a…",
+       "Naturalne następstwo czynności, możliwe zaskoczenie.",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ってきた。 すると、<ruby>風<rt>かぜ</rt></ruby>も<ruby>強<rt>つよ</rt></ruby>くなった。"
+      ],
+      [
+       "そして",
+       "I, a potem",
+       "Wyliczanie kolejnych zdarzeń, bez podkreślenia rezultatu.",
+       "ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた。 そして、<ruby>寝<rt>ね</rt></ruby>た。"
+      ],
+      [
+       "それから",
+       "Potem",
+       "Nacisk na kolejność w czasie – następna czynność.",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>した。 それから、<ruby>散歩<rt>さんぽ</rt></ruby>した。"
+      ],
+      [
+       "すると (wola)",
+       "W takim razie (wyraża wniosek/następne działanie mówiącego)",
+       "Używane w rozmowie, inne niż wzór gramatyczny “A。するとB。”",
+       "「<ruby>時間<rt>じかん</rt></ruby>がないよ」「 すると、<ruby>急<rt>いそ</rt></ruby>ごう！」"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 656,
+   "src_hash": "25f738b519801f98",
+   "fields": {
+    "meaning": "A właśnie, skoro o tym mowa",
+    "connection": "[zdanie/zdanie składowe]。 + そういえば、 + [zdanie/zdanie składowe]",
+    "examples": [
+     "Jutro egzamin, co? A właśnie, muszę kupić ołówki.",
+     "Ostatnio go nie widać, co? A właśnie, czy on nie wyjechał na studia za granicę?",
+     "Lato w Japonii jest gorące, prawda? A właśnie, w zeszłym roku było 40 stopni.",
+     "Zadanie domowe już zrobione? A właśnie, nauczyciel mówił, że termin jest do jutra.",
+     "Przed dworcem otwarto nową kawiarnię. A właśnie, jeszcze mnie tam nie było."
+    ],
+    "explain": "Używa się na początku drugiego zdania, by wprowadzić nową myśl związaną z poprzednim zdaniem.\nNiuans potoczny, naturalny; często używane w codziennej komunikacji, w języku mówionym.\nZwykle używa się, gdy mówiący właśnie coś sobie przypomniał; oddaje naturalny tok myśli wypowiadanych na głos.\nNie używa się w tekstach formalnych ani oficjalnych raportach (można zastąpić bardziej neutralnymi ところで, それにしても).\n\n•\nSłuży do zmiany tematu na zasadzie skojarzenia: słysząc, mówiąc lub myśląc o A, mówiący nagle przypomina sobie związane z tym B.\n\n•\nZawiera sens „A właśnie”, „No tak”: B nie jest głównym tematem, lecz czymś, co właśnie nagle przyszło na myśl.\n\n•\nNaturalne, potoczne: zwykle używane w rozmowie lub narracji; niuans przyjazny, niezbyt formalny.\n\n•\nNie wyraża bezpośredniego związku przyczynowo-skutkowego: A nie jest przyczyną B, a jedynie bodźcem do przypomnienia.",
+    "notes": "• Często pojawia się w dialogach w części JLPT na rozumienie ze słuchu, nadając wypowiedzi mówiącego naturalność.\n• W narracji w języku pisanym służy do wprowadzenia wspomnień z przeszłości lub powiązanych informacji.\n• Tłumaczy się elastycznie: „A właśnie”, „No tak”, „A, racja”…\n• Należy odróżniać od “そうすると” (w takim razie), bo brzmi podobnie, lecz znaczenie jest zupełnie inne. meaning_vi: Skoro o tym mowa; A czy to nie ～ ⏐ explain: Używa się, by rozpocząć zdanie na temat związany z tym, co się właśnie przypomniało. ⏐ examples: 1. 「そういえば、田中君、元気かな？」\nSkoro o tym mowa, ciekawe, czy u Tanaki wszystko dobrze.\n2. 「いい家ですね。そういえば、お父様は設計士さんでしたよね。」\nŁadny dom. A właśnie, ojciec jest przecież projektantem, prawda?",
+    "mistakes": [
+     "Użycie w stylu formalnym: nie pasuje do raportów ani prac naukowych → lepiej zastąpić przez ちなみに, ところで.",
+     "Mylenie z そうすると („w takim razie”) w zdaniach o charakterze logicznym.",
+     "Użycie, gdy dwa zdania nie są ze sobą powiązane: そういえば wymaga skojarzenia lub wspomnienia wywołanego poprzednim zdaniem.",
+     "Pominięcie przecinka po そういえば: w języku pisanym należy pisać “そういえば、…”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "そういえば",
+       "A właśnie",
+       "Pojawia się, gdy nagle przypomina się coś powiązanego.",
+       "そういえば、<ruby>彼<rt>かれ</rt></ruby>は<ruby>今日<rt>きょう</rt></ruby><ruby>休<rt>やす</rt></ruby>みだ。"
+      ],
+      [
+       "ところで",
+       "A tak przy okazji",
+       "Zmiana tematu, ale niekoniecznie na zasadzie skojarzenia.",
+       "ところで、<ruby>明日<rt>あした</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>は？"
+      ],
+      [
+       "それにしても",
+       "Mimo wszystko",
+       "Wyraża silne uczucie wobec tego, co powiedziano wcześniej.",
+       "<ruby>暑<rt>あつ</rt></ruby>いね。それにしても<ruby>今年<rt>ことし</rt></ruby>は<ruby>異常<rt>いじょう</rt></ruby>だ。"
+      ],
+      [
+       "そうすると",
+       "W takim razie",
+       "Wyraża wniosek z wcześniejszej informacji (logiczny).",
+       "<ruby>雨<rt>あめ</rt></ruby>か。そうすると<ruby>試合<rt>しあい</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>だね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 657,
+   "src_hash": "118e1ba238c66125",
+   "fields": {
+    "meaning": "Ale, a tymczasem",
+    "connection": "[zdanie/zdanie składowe]。 + それが、 + [zdanie/zdanie składowe]",
+    "examples": [
+     "Skontaktowałem się z nim. Tymczasem odpowiedź wciąż nie przyszła.",
+     "Myślałem, że jutro dam radę pójść. Tymczasem nagle dostałem gorączki…",
+     "Test był łatwy, prawda? A tymczasem zupełnie mi nie poszło.",
+     "Miałem jechać w podróż, ale niestety odwołano ją z powodu tajfunu.",
+     "Zadanie domowe już skończone?\n― No właśnie… nawet połowy jeszcze nie…"
+    ],
+    "explain": "Pozycja : Stoi na początku zdania składowego B, po pełnym zdaniu A.\nNiuans : Łagodny, z lekkim odcieniem żalu, przymusu sytuacji lub powodu, o którym trudno mówić.\nStopień potoczności : Często używane w codziennej rozmowie; rzadko w formalnym języku pisanym.\nZawieszenie głosu : Po それが można urwać wypowiedź, by oddać wahanie lub trudność powiedzenia czegoś wprost.\n\n•\nWyraża niezgodność z oczekiwaniami: fakt w zdaniu składowym B różni się od tego, czego można się spodziewać na podstawie zdania składowego A, lub jest z tym sprzeczny.\n\n•\nSłuży do łagodnego, nacechowanego emocjonalnie przejścia do innej myśli: niesie niuans „mówiło się tak, a jest inaczej”, „ale w rzeczywistości…”.\n\n•\nSłuży do wyjaśnienia trudności / taktownej odmowy: gdy mówiący z wahaniem podaje powód, dla którego nie może czegoś zrobić.\n\n• Powszechne w naturalnej rozmowie; ma charakter usprawiedliwienia, łagodnego kontrastu, inaczej niż でも (o bardziej bezpośrednim niuansie).",
+    "notes": "• Często towarzyszy mu mimika i wahanie, co łagodzi przeczenie lub odmowę.\n• Można użyć w odpowiedzi na bezpośrednie pytanie, na które trudno odpowiedzieć wprost.\n• W języku mówionym można przeciągnąć “それがね…”, by rozpocząć wyjaśnienie. meaning_vi: (1)Jeśli o to chodzi, to ～, ale ～\n(2) A jednak ～ ⏐ explain: (1)Używa się, mówiąc o rezultacie niezgodnym z przewidywaniami.\n(2) Wyraża rezultat inny niż zamiar lub przewidywanie z poprzedniego zdania. ⏐ examples: 1. 「お嬢さん、もう大学をご卒業されましたでしょう？」\n「それが、まだなんですよ。」\nCórka chyba już skończyła studia, prawda? No właśnie jeszcze nie.\n2. たばこをやめると誓った。それが、たった三日でまた吸ってしまった。\nPrzysiągłem, że rzucę palenie. A jednak już po trzech dniach znowu zapaliłem.",
+    "mistakes": [
+     "Mylenie z それで: それで = „dlatego więc…”, natomiast それが = „a tymczasem…”, wbrew oczekiwaniom.",
+     "Użycie w zbyt formalnym stylu: nie pasuje; w tekście argumentacyjnym lepiej zastąpić przez しかし, ただし.",
+     "Użycie, gdy B nie jest sprzeczne z A: それが wymaga, by zdanie składowe B różniło się od oczekiwań wynikających z A.",
+     "Pominięcie zdania składowego A: aby それが miało znaczenie, zawsze potrzebny jest wcześniejszy kontekst."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "それが",
+       "A tymczasem…, prawdę mówiąc…",
+       "Łagodne, często używane do odmowy lub wyjaśnienia.",
+       "<ruby>行<rt>い</rt></ruby>くつもりだった。 それが、<ruby>行<rt>い</rt></ruby>けなくて。"
+      ],
+      [
+       "でも／しかし",
+       "Ale, jednak",
+       "Silniejszy charakter argumentacyjny, bardziej bezpośrednie.",
+       "<ruby>行<rt>い</rt></ruby>きたい。でも<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "ところが",
+       "A jednak (zupełnie wbrew oczekiwaniom)",
+       "Rzeczywistość całkowicie sprzeczna z przewidywaniami, zwykle silne zaskoczenie.",
+       "<ruby>勝<rt>か</rt></ruby>つと<ruby>思<rt>おも</rt></ruby>った。ところが<ruby>負<rt>ま</rt></ruby>けた。"
+      ],
+      [
+       "それで",
+       "Dlatego więc…",
+       "Mówi o wynikającym rezultacie, bez znaczenia przeciwstawnego.",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。 それで<ruby>中止<rt>ちゅうし</rt></ruby>した。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 658,
+   "src_hash": "2d541983d78c77a9",
+   "fields": {
+    "meaning": "Mimo to, pomimo tego",
+    "connection": "[zdanie/zdanie składowe] 1 + それでも + [zdanie/zdanie składowe] 2",
+    "examples": [
+     "Wiele razy poniósł porażkę. Mimo to się nie poddał.",
+     "Mocno padało. Mimo to widzowie nie poszli do domu.",
+     "Zwróciłem mu uwagę. Mimo to popełnił ten sam błąd.",
+     "Ta praca jest ciężka. Mimo to chcesz się jej podjąć?",
+     "Dałem z siebie wszystko. Mimo to nie udało się wygrać."
+    ],
+    "explain": "Pozycja : Stoi na początku zdania składowego B, po tym jak zdanie składowe A kończy się kropką lub przecinkiem.\nOba zdania składowe muszą pozostawać w relacji przeciwstawnej : A każe sądzić, że B nie nastąpi, lecz w rzeczywistości B i tak następuje.\nNiuans : Nacechowany emocjonalnie – zaskoczenie, rozczarowanie, podziw, wytrwałość.\nStyl : Używane zarówno w rozmowie, jak i w języku pisanym; neutralny stopień formalności.\n\n•\nWyraża przyzwolenie + kontrast: choć A jest przeszkodą, trudnością lub czymś, co utrudnia zajście B, rezultat B i tak następuje.\n\n•\nZabarwienie emocjonalne: zwykle zawiera niuans wytrwałości, zaskoczenia, rozczarowania lub pochwały (bo B zostaje wykonane mimo A).\n\n•\nNaturalne tłumaczenie: „Mimo to…”, „A jednak…”, „Pomimo tego…”, „Nawet wtedy…”.\n\n•\nRóżnica względem それが・それで・そこで: それでも podkreśla silny kontrast między oczekiwaniem (wynikającym z A) a rzeczywistością (B).",
+    "notes": "• Często używane w narracji, przy wyrażaniu uczuć i woli.\n• Często łączy się z wyrażeniami podkreślającymi, jak それでもなお (a mimo to wciąż…), それでもやっぱり.\n• Tłumaczy się elastycznie: „A jednak”, „Pomimo tego”, „Nawet wtedy…”, „A mimo to…”.\n• Często pojawia się w JLPT N3–N2 w częściach na czytanie i słuchanie ze zrozumieniem. meaning_vi: Jednak, mimo to ～ ⏐ explain: Wyraża opinię lub rezultat przeciwny do sytuacji a z pierwszej części zdania. ⏐ examples: 1. 外は大雨だ。それでも出かけないといけない。\nNa dworze leje. Mimo to trzeba wyjść.\n2. みんなに反対されている。それでも私は彼と結婚したい。\nWszyscy są temu przeciwni. Mimo to chcę wziąć z nim ślub.",
+    "mistakes": [
+     "Mylenie z それで: それで = „dlatego więc…”, natomiast それでも = „mimo to…”.",
+     "Brak elementu kontrastu: niepoprawne, jeśli zdania składowe A i B nie są przeciwstawne albo A nie stanowi przeszkody dla B.",
+     "Użycie w nadmiernie formalnym stylu: nie pasuje do prac badawczych ani raportów → lepiej użyć しかしながら.",
+     "Pominięcie przecinka po それでも w języku pisanym: należy pisać “それでも、…”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "それでも",
+       "Mimo to… i tak…",
+       "Podkreśla, że B następuje wbrew A.",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。 それでも<ruby>行<rt>い</rt></ruby>く。"
+      ],
+      [
+       "それにしても",
+       "Mimo wszystko… (silne wykrzyknienie)",
+       "Nacisk na zaskoczenie lub narzekanie.",
+       "<ruby>暑<rt>あつ</rt></ruby>いね。 それにしても<ruby>今年<rt>ことし</rt></ruby>は<ruby>異常<rt>いじょう</rt></ruby>だ。"
+      ],
+      [
+       "けれど／でも",
+       "Ale…",
+       "Język mówiony, proste, bez podkreślenia pokonania przeszkody.",
+       "<ruby>行<rt>い</rt></ruby>きたい。 でも<ruby>忙<rt>いそが</rt></ruby>しい。"
+      ],
+      [
+       "それが",
+       "A jednak tak naprawdę…",
+       "Używane, gdy rzeczywistość jest wbrew oczekiwaniom; lekkie wahanie.",
+       "<ruby>行<rt>い</rt></ruby>くと<ruby>言<rt>い</rt></ruby>った。 それが<ruby>行<rt>い</rt></ruby>けなくなった。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 659,
+   "src_hash": "3113f1fba2928d88",
+   "fields": {
+    "meaning": "W takim razie…",
+    "connection": "それなら + [zdanie/zdanie składowe]",
+    "examples": [
+     "Jutro jest wolne. — W takim razie wyjdźmy gdzieś razem.",
+     "Już wyprzedane. — W takim razie trzeba było zrobić rezerwację.",
+     "Nie masz samochodu? W takim razie jedźmy autobusem.",
+     "Ten projekt wiąże się z dużym ryzykiem. W takim razie rozważmy inny wariant.",
+     "Źle się czujesz? W takim razie nie przemęczaj się."
+    ],
+    "explain": "Zwykle stoi na początku zdania będącego odpowiedzią i towarzyszy mu propozycja/rozwiązanie/ustępstwo.\nNie używa się wyłącznie do wyrażenia kontrastu; musi zachodzić relacja warunku „jeśli A jest prawdą, to B...”.\nMowa potoczna: だったら／じゃ(あ); uprzejmie: それならば／それでは.\n\n• Znaczenie: „W takim razie/skoro tak, to...”; używa się, gdy po przyjęciu informacji A podejmuje się decyzję/wysuwa propozycję B.\n• Funkcja w rozmowie: reakcja, przejście do rozwiązania, udzielenie rady/postawienie nowego warunku.\n• Stopień formalności: neutralne w rozmowie; それならば jest bardziej uprzejme; だったら/じゃ(あ) bardziej potoczne.",
+    "notes": "• Pasuje do negocjacji/rozwiązywania problemów, bo wyraża elastyczną reakcję.\n• Może łączyć się z poleceniem/radą: それなら、やめたほうがいい。\n• W uprzejmych e-mailach preferuje się それでは／それならば.",
+    "mistakes": [
+     "Użycie それなら do czystego kontrastu (należy użyć しかし/だが) → błędna funkcja.",
+     "Mylenie z それでは: w naturalnej rozmowie それなら jest neutralne; それでは jest formalne/służy do prowadzenia przez kolejne kroki.",
+     "B nie ma charakteru „reakcji na A” → wypowiedź staje się niespójna."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "だったら",
+       "W takim razie (bardzo potoczne, język mówiony)",
+       "Bardziej potoczne niż それなら",
+       "<ruby>暇<rt>ひま</rt></ruby>？だったら<ruby>来<rt>き</rt></ruby>て。"
+      ],
+      [
+       "じゃ(あ)",
+       "No to",
+       "Bardzo krótkie, codzienne",
+       "<ruby>雨<rt>あめ</rt></ruby>？じゃ<ruby>中止<rt>ちゅうし</rt></ruby>。"
+      ],
+      [
+       "それでは",
+       "W takim razie; a zatem (otwarcie/zamknięcie fragmentu)",
+       "Bardziej uprzejme; służy też do przejścia do kolejnego punktu prezentacji",
+       "それでは<ruby>始<rt>はじ</rt></ruby>めます。"
+      ],
+      [
+       "なら",
+       "Jeśli to/skoro to",
+       "Morfem gramatyczny dołączany bezpośrednio do rzeczownika/czasownika/przymiotnika",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>行<rt>い</rt></ruby>かない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 660,
+   "src_hash": "2b6be708668bf4be",
+   "fields": {
+    "meaning": "No bo…, bo przecież",
+    "examples": [
+     "Nie chcę iść. No bo padam ze zmęczenia.",
+     "Dziś nie dam rady. Bo mam już umówione spotkanie.",
+     "Nic o tym nie wiem. No bo nikt mi nie powiedział.",
+     "Nie złość się. Przecież to miał być żart.",
+     "On jest miły. No bo zawsze pomaga."
+    ],
+    "explain": "Mowa potoczna, zwykle w rozmowach z przyjaciółmi/rodziną.\nDodanie んだもん／もの wzmacnia niuans usprawiedliwiania się/słodkiego tonu; から jest bardziej neutralne.\nNależy unikać na początku tekstów formalnych; gdy potrzebne jest standardowe podanie przyczyny, używa się ので／ため／だから.\n\n• Wyjaśnia przyczynę w sposób emocjonalny/lekko wykrętny: „No bo przecież…”.\n• Nie służy ścisłej argumentacji logicznej, lecz wyraża osobisty nastrój, usprawiedliwienie.\n• Zwykle stoi na początku zdania, po nim następuje przecinek; S2 jest zdaniem składowym podającym przyczynę.",
+    "notes": "• Forma “だってさ” służy do cytowania plotek/cudzych słów, a nie do podania przyczyny.\n• W uprzejmej rozmowie można zmienić na: 申し訳ありません。忙しいので…。 (unikać だって).\n• Dzieci i kobiety często używają ～んだもん／もの; dorośli mężczyźni zwykle ograniczają użycie, by uniknąć dziecinnego niuansu. explain: Wyrażenie będące odpowiednikiem 「なぜなら」 「なぜかというと」 「どうしてかというと」 w języku mówionym ⏐ examples: 1. 「何を怒ってるの？」「だって、約束を破ったじゃないか。」\nO co się złościsz? No bo przecież obietnica została złamana.\n2. 「テストの点、よかったんだって？」\n「うん。だってやさしかったんだもん。」\nPodobno dobrze ci poszedł test? No. Bo był łatwy.",
+    "mistakes": [
+     "Użycie だって w wypracowaniu/korespondencji służbowej → niewłaściwe; należy zastąpić przez ので／ため／理由は～です.",
+     "Mylenie spójnika だって z partykułą だって „nawet”: należy patrzeć na pozycję (początek zdania vs po rzeczowniku).",
+     "Łączenie だって z です／ます powoduje niespójność stylu: należy unikać “だって、忙しいですから。” w sytuacjach formalnych.",
+     "W zadaniach na słuchanie だって + んだもん sygnalizuje emocje, a nie obiektywną przyczynę."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "だって、",
+       "Usprawiedliwienie/emocje",
+       "Bardzo swobodne, czasem dziecinne",
+       "だって、<ruby>眠<rt>ねむ</rt></ruby>いんだもん。"
+      ],
+      [
+       "だから、",
+       "Wnioskowanie, konkluzja",
+       "Bardziej neutralne, możliwe w piśmie",
+       "<ruby>雨<rt>あめ</rt></ruby>だ。だから、<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "ので／ため",
+       "Obiektywna przyczyna",
+       "Formalne/obiektywne, bez emocji",
+       "<ruby>忙<rt>いそが</rt></ruby>しいので<ruby>参加<rt>さんか</rt></ruby>できません。"
+      ],
+      [
+       "なぜなら、",
+       "Wyjaśnienie przyczyny",
+       "Język pisany, formalne",
+       "なぜなら、～からだ。"
+      ],
+      [
+       "Nだって (partykuła)",
+       "„Nawet/też”",
+       "Nie jest spójnikiem; pozycja po rzeczowniku",
+       "<ruby>子<rt>こ</rt></ruby>どもだってできる。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 661,
+   "src_hash": "c0e6c048c68f0f2f",
+   "fields": {
+    "meaning": "Bo, powodem jest to, że",
+    "connection": "[zdanie/zdanie składowe]。というのは + [zdanie/zdanie składowe]（podanie przyczyny）",
+    "examples": [
+     "Ten system zostanie zrewidowany od przyszłego roku. A to dlatego, że przestał odpowiadać obecnej sytuacji.",
+     "SDGs to Cele Zrównoważonego Rozwoju.",
+     "Wygląda na to, że on nie weźmie udziału. A to dlatego, że przed chwilą dał znać, że źle się czuje.",
+     "Tego leku nie obejmuje ubezpieczenie. A to dlatego, że nie został jeszcze zatwierdzony.",
+     "Tak zwana „czarna firma” to przedsiębiorstwo, które nakłada na pracowników nadmierne obciążenia."
+    ],
+    "explain": "Po というのは zwykle stawia się przecinek, by oddzielić część wyjaśniającą.\nPrzy podawaniu przyczyny warto zakończyć przez からだ／ためだ, by związek przyczynowo-skutkowy był jasny.\nUżycie do definiowania: XというのはYのことだ → zwięzłe, formalne, częste w podręcznikach i artykułach.\nJęzyk mówiony: っていうのは → łagodne, pasuje do rozmowy, blogów.\nNie używa się というのは na końcu zdania; zawsze następuje po nim zdanie składowe z wyjaśnieniem.\n\n• Wyjaśnienie/definicja: sposób na „doprecyzowanie” treści podanej w poprzednim zdaniu. Zwykle łączy się z のことだ／ということだ.\n• Podanie przyczyny: wskazuje przyczynę o charakterze konkluzji dla pierwszej części zdania. Często towarzyszy mu からだ／ためだ domykające przyczynę.\n• Zakres odniesienia: というのは zwykle odnosi się bezpośrednio do całego poprzedniego zdania (A)。Dla jasności można użyć この/その＋話/件.\n• Niuans: charakter logiczny, obiektywny; często używane w prasie, dyskusjach, raportach, prezentacjach.",
+    "notes": "• Zamiast からだ można użyć わけだ/ためだ/にほかならない, by wzmocnić niuans konkluzji.\n• Jeśli część wyjaśniająca jest długa, warto podzielić zdanie i postawić przecinek po というのは dla czytelności.\n• W języku mówionym というのは może przybrać formę ściągniętą つーのは/てのは (bardzo potoczne); należy unikać na egzaminie JLPT.",
+    "mistakes": [
+     "Mylenie z ということは: というのは wyjaśnia A; ということは wyprowadza B z A.",
+     "Pominięcie からだ/ためだ przy podawaniu przyczyny sprawia, że zdaniu brakuje siły konkluzji.",
+     "Umieszczenie というのは na końcu zdania (niepoprawnie); musi po nim następować zdanie składowe z wyjaśnieniem.",
+     "Pisownia bez przecinka: “というのはB…” jest dopuszczalna, ale w zadaniach na czytanie lepiej postawić przecinek dla jasności znaczenia."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "というのは",
+       "Wyjaśnienie/definicja/przyczyna",
+       "Odnosi się do poprzedniego zdania; zwykle z からだ/ということだ",
+       "A。というのは、Bからだ。"
+      ],
+      [
+       "なぜなら／なぜかというと",
+       "Podanie przyczyny",
+       "Bezpośrednio wprowadza przyczynę; zwykle kończy się na からだ",
+       "A。なぜなら、Bからだ。"
+      ],
+      [
+       "つまり",
+       "Podsumowując, innymi słowy",
+       "Wyraża tę samą treść inaczej; niekoniecznie podaje przyczynę",
+       "A。つまり、B。"
+      ],
+      [
+       "ということは",
+       "Wynika z tego, wnioskowanie",
+       "B nie wyjaśnia A, lecz jest wnioskiem z A",
+       "A。ということは、B（だ）。"
+      ],
+      [
+       "とは",
+       "Formalna definicja",
+       "Zwykle bezpośrednio po terminie, nie wymaga poprzedniego zdania",
+       "XとはYのことだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 662,
+   "src_hash": "ef89a3cf204d366a",
+   "fields": {
+    "meaning": "To, co nazywa się…; coś o nazwie…",
+    "examples": [
+     "„Dejikame” to skrócone określenie aparatu cyfrowego.",
+     "– Co oznacza „kakutei” w odniesieniu do pociągów?\n– To pociąg zatrzymujący się na każdej stacji."
+    ],
+    "explain": "Używa się, gdy chce się zdefiniować lub wyjaśnić jakąś rzecz czy sprawę (definiowane wyrażenie jest podmiotem)"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 664,
+   "src_hash": "5ab000d43b934d48",
+   "fields": {
+    "meaning": "Nie trzeba….",
+    "examples": [
+     "Nie musisz przepraszać.",
+     "Nie trzeba przychodzić. Wystarczy wysłać pocztą."
+    ],
+    "explain": "Używa się, gdy chce się powiedzieć rozmówcy, że nie musi koniecznie wykonywać danej czynności. Nawet jeśli jej nie wykona, jest to do przyjęcia."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 665,
+   "src_hash": "b5251695029abeb6",
+   "fields": {
+    "meaning": "Wyraża znaczenie przyjęcia ~ za kryterium oceny. Patrząc od strony ~, biorąc pod uwagę ~",
+    "examples": [
+     "Sądząc po charakterze Kenty",
+     "Sądząc po charakterze Kenty, pewnie nie potrafi powiedzieć wprost „lubię cię” osobie, którą lubi.",
+     "Sądząc po zachowaniu tej osoby, na pewno mnie nie lubi."
+    ],
+    "notes": "Wyraża podstawę osądu. Mówi się także 「からして」, 「からみて」 itp.（９０）"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 667,
+   "src_hash": "8b91b804873e5a29",
+   "fields": {
+    "meaning": "「～がいちばん…。」客観的な事実ではなくて、話者が主観的に言うときに使う。\nUżywa się, gdy mówiący chce wyrazić swoje subiektywne odczucie, a nie obiektywny fakt.",
+    "connection": "N + くらい/ぐらい/ほど + ～はない（～ jest naj-, subiektywnie）",
+    "examples": [
+     "Nie ma nikogo, kto kochałby zwierzęta tak jak Lee.",
+     "Uważam, że nie ma nic przyjemniejszego niż gotowanie.",
+     "Ech, jutro znowu test z kanji. Nie ma nic gorszego niż testy.",
+     "Nigdy nie czułem takiego niepokoju jak wtedy, gdy dwa lata temu dowiedziałem się o chorobie."
+    ],
+    "explain": "Używa się, by podkreślić wysoki stopień cechy rzeczy, zdarzenia lub osoby.\nZawiera twierdzenie, że poza daną rzeczą, zdarzeniem czy osobą nie ma nic równorzędnego, co mogłoby je zastąpić",
+    "notes": "meaning_vi: 「ほど．．．はない」wyraża znaczenie konstrukcji「～が一番．．．だ」. Nie ma ~ równie ~\nexamples: 1. ①　ニューヨークほど（は）寒くない\nNie jest tak zimno jak w Nowym Jorku\n2. ②　A大学の入学試験は、B大学の試験ほど難しくない。\nEgzamin wstępny na uniwersytet A nie jest tak trudny jak egzamin na uniwersytet B.\n3. ③　ロンドンはニューヨークほどは寒くない。\nW Londynie nie jest tak zimno jak w Nowym Jorku.\n4. ④　今日は思ったほど暑くない。\nDziś nie jest tak gorąco, jak się wydawało.\n──────\n1. ①　サッカーほどおもしろいスポーツはない\nNie ma sportu ciekawszego niż piłka nożna.\n2. ②　健太ほど忘れっぽい人はいない。\nNie ma nikogo bardziej zapominalskiego niż Kenta\n3. ③　人の自慢話を聞くことほど退屈なことはない。\nNie ma nic nudniejszego niż słuchanie cudzych przechwałek.\nmeaning_vi: Takiego… jak… nie ma….\nexamples: 1. 彼女くらい親切な人はいない。\nNie ma nikogo tak życzliwego jak ona\n2. 今年ほど雪の降った年はなかった。\nNie było jeszcze roku tak śnieżnego jak ten"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

@@ -1,0 +1,618 @@
+{
+ "batch": "b069",
+ "lang": "pl",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 1052,
+   "src_hash": "39dd28835c628f84",
+   "fields": {
+    "meaning": "Lub, albo",
+    "examples": [
+     "Płatności można dokonać gotówką lub kartą kredytową.",
+     "Udział jutro albo nawet w przyszłym tygodniu – oba terminy są w porządku.",
+     "Spotkanie osobiście czy może online – co Państwo wybierają?",
+     "Możliwe, że przyczyną jest błąd w ustawieniach.",
+     "Proszę złożyć dokumenty po japońsku lub po angielsku."
+    ],
+    "explain": "Forma „N、あるいは N” jest częsta w formalnych ogłoszeniach i instrukcjach.\nNa początku zdania „あるいは、...” niesie uprzejmy niuans przypuszczenia.\nW zdaniach pytających o wybór należy używać それとも; „Xか、あるいはYか” służy podkreśleniu/językowi pisanemu.\n\n- Spójnik/przysłówek o znaczeniu „lub; albo; być może”.\n- Niuans formalny, odpowiedni w oficjalnych tekstach, regulaminach, opisach technicznych.\n- Z „か”: używa się ramy „Xか、あるいはYか”, aby podkreślić dwie wykluczające się możliwości.",
+    "notes": "• Przy wyliczaniu więcej niż 2 elementów można: A、B、あるいはC のいずれか.\n• „あるいは” może stać w środku zdania z przecinkami przed i po, aby wyraźnie oddzielić myśli.\n• W specyfikacjach technicznych „または” i „もしくは/あるいは” czasem mają różny stopień inkluzywności; zależy to od konwencji dokumentu. explain: Wybór między dwiema rzeczami, dwiema stronami.\nSztywniejszy odpowiednik　「または」 ⏐ examples: 1. ファックス、あるいはメールでお知らせください。\nProszę poinformować faksem lub mailem.\n2. 来週の火曜日の午後はどうですか。あるいは水曜日の午前でもかまいませんが・・・。\nCzy pasuje wtorek po południu w przyszłym tygodniu? Albo środa przed południem też byłaby w porządku…",
+    "mistakes": [
+     "Błędne połączenie partykuł: (x) A あるいは B か → (o) A か、あるいは B か.",
+     "Użycie あるいは w samodzielnym zdaniu pytającym brzmi sztywno; lepiej wybrać それとも.",
+     "Mylenie niuansu z または/もしくは: あるいは na początku zdania może wyrażać przypuszczenie."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Niuans",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "あるいは",
+       "Lub; być może",
+       "Formalny/pisany",
+       "A、あるいはB"
+      ],
+      [
+       "または",
+       "Lub",
+       "Neutralny, standardowy",
+       "A または B"
+      ],
+      [
+       "もしくは",
+       "Lub",
+       "Formalny; bliski あるいは",
+       "A もしくは B"
+      ],
+      [
+       "それとも",
+       "Czy też",
+       "Używany w zdaniach pytających",
+       "<ruby>行<rt>い</rt></ruby>く？それともやめる？"
+      ],
+      [
+       "ないし",
+       "Lub/do",
+       "Prawniczy/techniczny",
+       "2ないし<ruby>3名<rt>さんめい</rt></ruby>"
+      ],
+      [
+       "とか",
+       "Lub",
+       "Język mówiony, potoczny",
+       "AとかBとか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1053,
+   "src_hash": "5d5ce79172aaec31",
+   "fields": {
+    "meaning": "Dobrze chociaż, że ～",
+    "connection": "V forma prosta + だけましだ / N + である / Na / Aい",
+    "examples": [
+     "Dobrze, że ty chociaż masz pracę. Mnie wylali z roboty.",
+     "Pensję mi obcięli, ale dobrze chociaż, że mnie nie zwolnili.",
+     "Moje mieszkanie jest ciasne i drogie, ale przynajmniej jest wygodnie położone."
+    ],
+    "explain": "Wyraża myśl, że choć sytuacja nie jest szczególnie dobra, to fakt, że jest na takim poziomie i nie jest gorzej, to już całkiem dobrze."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1054,
+   "src_hash": "627148e7437ceb3e",
+   "fields": {
+    "meaning": "Ledwie…, a już…; zdawało się, że…, a tu…",
+    "examples": [
+     "O tej porze roku bywa, że w jednej chwili świeci słońce, a w następnej nagle zaczyna padać, więc może weźmiesz parasol?",
+     "Choć to niedziela, tata chyba jest zajęty. Ledwie przed chwilą wrócił, a już znowu wyszedł."
+    ],
+    "notes": "Wariant: ～かと思えば"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1055,
+   "src_hash": "4baf765ab1b05f8d",
+   "fields": {
+    "meaning": "Od… aż po…",
+    "examples": [
+     "To wydarzenie, z którego mogą się cieszyć wszyscy – od dzieci aż po seniorów.",
+     "Wszystko – od planowania aż po sprzedaż – jest realizowane kompleksowo wewnątrz firmy.",
+     "Od wiosny aż po zimę nie brakuje turystów.",
+     "W ofercie jest szeroki asortyment – od artykułów pierwszej potrzeby aż po towary luksusowe.",
+     "Rozbudowano sieć od obszarów miejskich aż po odległe wyspy."
+    ],
+    "explain": "Używa się w języku pisanym, prezentacjach, opisach usług/produktów/adresatów.\nN2 to zwykle skrajny punkt lub reprezentatywny przykład drugiego końca zakresu.\nPoprzedza zdanie nadrzędne opisujące działanie obejmujące całość: 〜に至るまで + V.\nNie używa się do opisu konkretnej odległości fizycznej krok po kroku; służy do wyrażenia ogólnego zakresu.\nPodkreśla kompleksowość: występuje ze słowami takimi jak幅広く,一貫して, あらゆる.\n\n～から～に至るまで znaczy „od ... aż do/aż po ...”, podkreśla szeroki zakres rozciągający się od punktu początkowego do końcowego; zwykle ma niuans formalny, używa się go w objaśnieniach, raportach, reklamach.\n• Daje poczucie „objęcia całości”, „aż po skrajności/peryferie”.\n• Często używa się, gdy N2 jest zaskakującym, odległym punktem skrajnym lub gdy podkreśla się kompleksowość.\n• W porównaniu z ～から～まで: bardziej formalne, silniejszy niuans „aż po”.\n• „至る” to czasownik „dochodzić (do stopnia/punktu)”, używany w formie łączącej „に至るまで”.",
+    "notes": "• Warto wybrać parę N1 i N2 stanowiącą dwa przeciwstawne/odległe końce, by zachować dobry rytm.\n• Przy wyliczaniu więcej niż dwóch elementów używa się „N1からN2、N3に至るまで”.\n• W marketingu: „企画から運用に至るまでワンストップで提供”.\n• W tekstach naukowych: „古代から近代に至るまでの変遷”.",
+    "mistakes": [
+     "Mylenie z ～まで: bez „に至る” znika niuans formalności/kompleksowości.",
+     "Wybór pary A–B pozbawionej logiki (nie dwa bieguny) – zdanie traci siłę podkreślenia.",
+     "Egzamin JLPT: pułapka z zamianą na ～から～にかけて; jeśli zadanie wymaga „aż po skrajny punkt” → wybiera się ～に至るまで.",
+     "Użycie z czasownikiem/określeniem: musi być N + に至るまで, nie łączy się bezpośrednio V + に至るまで."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～から～まで",
+       "Od ... do ... (neutralnie)",
+       "Mniej formalne, nie podkreśla „aż po”",
+       "<ruby>子<rt>こ</rt></ruby>どもから<ruby>大人<rt>おとな</rt></ruby>まで"
+      ],
+      [
+       "～から～にかけて",
+       "W okresie, rozciągając się",
+       "Podkreśla nieostry zakres, nie tylko 2 bieguny",
+       "<ruby>朝<rt>あさ</rt></ruby>から<ruby>昼<rt>ひる</rt></ruby>にかけて"
+      ],
+      [
+       "～に<ruby>至<rt>いた</rt></ruby>る",
+       "Prowadzić do, dochodzić do (rezultatu/punktu)",
+       "Czasownik końcowy, nie konstrukcja zakresu",
+       "<ruby>交渉<rt>こうしょう</rt></ruby>は<ruby>決裂<rt>けつれつ</rt></ruby>に<ruby>至<rt>いた</rt></ruby>る"
+      ],
+      [
+       "～から～に<ruby>至<rt>いた</rt></ruby>るまで",
+       "Obejmuje wszystko od A aż po B",
+       "Formalne, kompleksowe objęcie",
+       "<ruby>商品<rt>しょうひん</rt></ruby>からサービスに<ruby>至<rt>いた</rt></ruby>るまで"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1056,
+   "src_hash": "1588970de96c720d",
+   "fields": {
+    "meaning": "Zrobić czy nie zrobić",
+    "connection": "V forma wolitywna + か + Vる + まいか",
+    "examples": [
+     "Ciągle się zastanawiam, czy powiedzieć mu prawdę, czy nie.",
+     "Czy podjąć pracę, czy nie iść na dalsze studia – zamierzam zdecydować po rozmowie z rodzicami.",
+     "W trakcie wahania, czy kupić to teraz, czy nie, wszystko się wyprzedało.",
+     "Aż do samego końca trudno było zdecydować, czy wrócić do kraju, czy nie.",
+     "Zastanawiam się, czy pójść na zebranie, czy nie."
+    ],
+    "explain": "Używa się, gdy podkreśla się proces wahania; pasuje do wypracowań i narracji.\nDobrze łączy się z czasownikami dotyczącymi decyzji:決める,迷う,悩む,考える.\nPo tej konstrukcji zwykle następuje rezultat/rozwój sytuacji: ～か～まいか、結局～／～と考えた。\nZ する: spotyka się zarówno するまいか, jak i すまいか; we współczesnym języku preferuje się するまいか.\n\n• Wyraża wahanie, niezdecydowanie między dwiema opcjami „zrobić czy nie zrobić”.\n• Niuans bardziej formalny niż VるかVないか; zabarwienie języka pisanego/przemówień.\n• Podmiotem jest zwykle mówiący lub osoba podejmująca decyzję; wyraża proces rozważania.\n• Czasem używa się do przedstawienia tła wahania przed podjęciem decyzji: ～か～まいか、結局…",
+    "notes": "• „まい” to archaiczna forma przeczenia woli; dziś przetrwała głównie w tej konstrukcji i w ～まいと思う.\n• W języku mówionym zwykle zastępuje się ją przez VるかVないか, by brzmieć naturalniej.\n• W tytułach/literaturze konstrukcja ta tworzy symetryczny rytm i wzmacnia podkreślenie.",
+    "mistakes": [
+     "Błędna forma: druga część musi mieć postać „Vる＋まいか” (lub Vまいか w czasownikach ichidan), nie używa się „ないか”.",
+     "Mylenie z ～ようが～まいが (bez względu na to) prowadzi do błędnego znaczenia.",
+     "Użycie w potocznym języku mówionym brzmi sztywno; JLPT chętnie sprawdza formalny niuans tej konstrukcji.",
+     "Użycie różnych czasowników w obu częściach: należy powtórzyć ten sam czasownik, by zachować poprawną symetrię."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "Vようか Vるまいか",
+       "Wahanie „zrobić czy nie”",
+       "Formalne, język pisany",
+       "<ruby>行<rt>い</rt></ruby>こうか<ruby>行<rt>い</rt></ruby>くまいか<ruby>迷<rt>まよ</rt></ruby>う"
+      ],
+      [
+       "Vるか Vないか",
+       "Czy zrobić, czy nie (neutralnie)",
+       "Język mówiony, łatwiejsze w użyciu",
+       "<ruby>行<rt>い</rt></ruby>くか<ruby>行<rt>い</rt></ruby>かないか<ruby>決<rt>き</rt></ruby>める"
+      ],
+      [
+       "Vようが Vるまいが",
+       "Niezależnie od tego, czy się zrobi, czy nie…",
+       "Bez wahania; podkreśla „bez względu na to”",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>くだ</rt></ruby>ろうが<ruby>降<rt>ふ</rt></ruby>るまいが<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "～かどうか",
+       "Czy… czy nie",
+       "Znominalizowane zdanie składowe, nie podkreśla wahania",
+       "<ruby>行<rt>い</rt></ruby>くかどうか<ruby>分<rt>わ</rt></ruby>からない"
+      ],
+      [
+       "～べきか～べきでないか",
+       "Czy należy, czy nie należy",
+       "Podkreśla normę/moralność",
+       "<ruby>言<rt>い</rt></ruby>うべきか<ruby>言<rt>い</rt></ruby>うべきでないか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1057,
+   "src_hash": "939a2ad848e5efb5",
+   "fields": {
+    "meaning": "Warte…, warte tego, by…",
+    "connection": "Vます(bez ます) + がい (やりがい・生きがい)",
+    "examples": [
+     "Przy tym projekcie naprawdę warto się uczyć.",
+     "Gdy dziecko dorasta, czuje się, że warto było je wychowywać.",
+     "Jak na takie stanie w kolejce smak był przeciętny – nie warto było czekać.",
+     "Dla miłośników historii to materiały warte przeczytania."
+    ],
+    "explain": "Może przyjmować uzupełnienie wskazujące obiekt: ～をV-ます + がいがある（実習生を教えがいがある）.\nNie używa się z czasownikami czysto stanowymi/bez wyraźnego efektu.\n\n- Akcent na uczuciu: mówiący „czuje, że było warto”.\n- Pasuje do języka mówionego, ogłoszeń rekrutacyjnych, dzielenia się doświadczeniami.",
+    "notes": "• Wiele słów naturalnie łączy się z tą formą: 教えがい／鍛えがい／挑みがい／撮りがい／見がい／味わいがい.\n• „見がい” istnieje, ale „見ごたえ” jest częstsze w znaczeniu „warte obejrzenia”. examples: 1. やりがいのある仕事\nPraca, którą warto wykonywać\n2. 教えがいのある生徒\nUczeń, którego warto uczyć",
+    "mistakes": [
+     "Pominięcie „が” po がい: „やりがいある” → nienaturalne; należy mówić „やりがいがある”.",
+     "Użycie z czasownikiem, który nie daje efektu: np. „あるがい” jest niepoprawne.",
+     "Mylenie z 甲斐があって: to zdanie składowe wyrażające skutek po wykonaniu czynności; ～がいがある to ogólna ocena."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "～がいがある",
+       "Uczucie „było warto”",
+       "Subiektywne",
+       "<ruby>作<rt>つく</rt></ruby>りがいがある"
+      ],
+      [
+       "～<ruby>甲斐<rt>かい</rt></ruby>がある（kanji）",
+       "Formalne/język pisany",
+       "Znaczenie równoważne",
+       "<ruby>努力<rt>どりょく</rt></ruby>の<ruby>甲斐<rt>かい</rt></ruby>があった"
+      ],
+      [
+       "～する<ruby>価値<rt>かち</rt></ruby>がある",
+       "Obiektywne",
+       "Używane, gdy potrzebna jest logiczna argumentacja",
+       "<ruby>投資<rt>とうし</rt></ruby>する<ruby>価値<rt>かち</rt></ruby>がある"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1058,
+   "src_hash": "227705fd69656e54",
+   "fields": {
+    "meaning": "Daje się… / Samo się… (uczucie, którego trudno uniknąć)",
+    "connection": "Nが + Vられる（spontaniczność・możliwość: 感じられる・思い出される）",
+    "examples": [
+     "W jego wypowiedzi wyczuwa się szczerość.",
+     "Z tego dzieła można wyczytać wewnętrzne rozterki autora.",
+     "Gdy przychodzi wiosna, same powracają wspomnienia krajobrazów rodzinnych stron.",
+     "Na miejscu można zauważyć kilka problemów związanych z bezpieczeństwem.",
+     "Budzi obawy możliwe skrzywienie danych.",
+     "Obecny wynik można też uznać za przypadek."
+    ],
+    "explain": "Zwykle pomija się wykonawcę czynności (mówiącego); podkreśla się „naturalność/obiektywność”.\nMożna dodać podmiot odczuwający za pomocą に/には:彼には誠意が感じられた (rzadziej niż forma bezosobowa).\nPasuje do stylu raportów: ～が観察される／～が指摘される／～が確認される .\n\n• Strona bierna spontaniczna: uczucie/myśl pojawia się samoistnie, bez wskazania wykonawcy czynności. Przykładowe czasowniki: 思われる・感じられる・思い出される・偲ばれる・うかがわれる・懸念される.\n• Obserwacja/odnotowanie: wyraża zjawisko dostrzegane/zauważane w sposób obiektywny: 見られる・見受けられる・観察される・確認される.\n• Niuans: obiektywny, neutralny, język pisany, raporty, teksty naukowe, wiadomości.",
+    "notes": "• Typowe czasowniki spontaniczne: 思われる・考えられる・感じられる・思い出される・偲ばれる・うかがわれる・期待される・懸念される.\n• 見られる ma dwa znaczenia: „można zobaczyć” (możliwość) i „zostaje zaobserwowane” (obiektywna strona bierna); rozróżnia się je po kontekście.\n• Na egzaminie/w piśmie należy unikać „ら抜き言葉”: poprawnie 考えられる, nie 考えれる.",
+    "mistakes": [
+     "Mylenie ze znaczeniem formy potencjalnej: 見られる nie zawsze znaczy „można zobaczyć”; może znaczyć „zostaje zaobserwowane”.",
+     "Dodanie wykonawcy czynności z に w konstrukcji spontanicznej zmienia sens: 誠意が彼に感じられる jest nienaturalne; należy powiedzieć 彼の発言には誠意が感じられる.",
+     "Mylenie z subiektywnym ～ように感じる/思う; zadania egzaminacyjne często wymagają wyboru formy bardziej obiektywnej niż subiektywnej."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład porównawczy"
+     ],
+     "rows": [
+      [
+       "Nが<ruby>感<rt>かん</rt></ruby>じられる",
+       "Wyczuwa się",
+       "Obiektywne, spontaniczne",
+       "<ruby>温<rt>あたた</rt></ruby>かみが<ruby>感<rt>かん</rt></ruby>じられる"
+      ],
+      [
+       "<ruby>私<rt>わたし</rt></ruby>はNを<ruby>感<rt>かん</rt></ruby>じる",
+       "Czuję N",
+       "Subiektywne, mówiący jest wykonawcą czynności",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>温<rt>あたた</rt></ruby>かみを<ruby>感<rt>かん</rt></ruby>じる"
+      ],
+      [
+       "Nが<ruby>見<rt>み</rt></ruby>られる",
+       "Obserwuje się",
+       "Neutralne, relacjonujące",
+       "<ruby>増加<rt>ぞうか</rt></ruby><ruby>傾向<rt>けいこう</rt></ruby>が<ruby>見<rt>み</rt></ruby>られる"
+      ],
+      [
+       "～ように<ruby>見<rt>み</rt></ruby>える/<ruby>聞<rt>き</rt></ruby>こえる",
+       "Wygląda na/brzmi jak",
+       "Subiektywne przypuszczenie",
+       "<ruby>元気<rt>げんき</rt></ruby>に<ruby>見<rt>み</rt></ruby>える"
+      ],
+      [
+       "<ruby>受身<rt>うけみ</rt></ruby> zwykłe: NはXにVられる",
+       "Prawdziwa strona bierna",
+       "Z wykonawcą czynności X (に)",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>彼<rt>かれ</rt></ruby>に<ruby>笑<rt>わらわ</rt></ruby>われた"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1059,
+   "src_hash": "2a1f6a02c6961bec",
+   "fields": {
+    "meaning": "…do końca, …w całości (przeczenie きれない: nie móc …do końca/nie nadążyć)",
+    "connection": "Vます(bez ます) + きれる（przeczenie: きれない）",
+    "examples": [
+     "Mam tyle do napisania, że na jednej kartce nie zmieszczę wszystkiego.",
+     "B: Przepraszamy, wszystko zostało wyprzedane. Jutro będzie nowa dostawa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1061,
+   "src_hash": "831892f84a1a8198",
+   "fields": {
+    "meaning": "Skoro… (podanie jednego z powodów), także dlatego, że…",
+    "examples": [
+     "〈父が息子に〉Skoro dziś nie ma ani mamy, ani Maki, może pójdziemy we dwóch zjeść kolację na mieście?",
+     "A: Co robić, nie zdążę z referatem. Skoro i tak źle się czuję, może poproszę o wolne jutro w pracy dorywczej?\nB: No to tak zrób."
+    ],
+    "notes": "Dołącza się do zdania składowego. Ma budowę 「ことだ＋し」 i używa się go, gdy przedstawia się okoliczności lub sytuację stanowiące powód bądź podstawę jakiegoś osądu, decyzji czy życzenia. 「ことですし」 jak w ② to forma bardziej uprzejma. Bywa, że podaje się dwa powody jak w ③, tylko jeden jak w ②, albo dodaje się go na końcu jako dopowiedzenie, jak w ①. Należy do języka mówionego, ale jest wyrażeniem bardziej formalnym niż samo 「し」. （１１７）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1062,
+   "src_hash": "4321ac83fd79b431",
+   "fields": {
+    "meaning": "Gdy tylko chodzi o…, to… (postawa/stan zmienia się całkowicie)",
+    "examples": [
+     "Zwykle jest małomówny, ale gdy chodzi o wspinaczkę górską, nagle robi się gadatliwy.",
+     "Robienie sobie bento jest bardziej ekonomiczne i zdrowsze, ale jeśli ma to być codziennie, może okazać się męczące."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1064,
+   "src_hash": "9592280b4d212485",
+   "fields": {
+    "meaning": "To znaczy, innymi słowy",
+    "connection": "[zdanie/zdanie składowe]、 + すなわち、 + [równoważne zdanie/zdanie składowe]",
+    "examples": [
+     "Brakuje głównego składnika tego leku, czyli witaminy C.",
+     "Jest osobą posługującą się trzema językami, czyli osobą trójjęzyczną.",
+     "Firmy A i B to ta sama osoba prawna, czyli z prawnego punktu widzenia ta sama organizacja.",
+     "Ta liczba to przychód ze sprzedaży, czyli nie jest to czysty dochód."
+    ],
+    "explain": "Używa się w definicjach, objaśnieniach terminów, przy wskazywaniu relacji tożsamości.\nStyl formalny/naukowy; つまり ma bardziej potoczny, podsumowujący charakter.\nZwykle stawia się przecinek przed/po, by wydzielić objaśniające zdanie składowe.\nNie używa się do wyrażania skutku, polecenia ani wykrzyknienia.\n\nすなわち: „to znaczy/czyli/innymi słowy (w sensie tożsamości)”. Używa się do podania definicji, precyzyjnego objaśnienia lub ponownego odniesienia za pomocą równoważnego wyrażenia.\n• Podkreśla relację tożsamości/równości: S2 ≒ inne ujęcie S1.\n• Stopień formalności wyższy niż つまり; nacisk na precyzję, obiektywność.\n• Nie używa się do wnioskowania o rezultacie ani do emocjonalnego podsumowania.",
+    "notes": "• Wskazówka: jeśli między S1 a S2 można wstawić „= (równa się)”, すなわち jest właściwym wyborem.\n• W tekstach naukowych często pojawia się w definicjach: Xとは、すなわちYである。\n• Kanji 即ち jest dziś rzadko używane; dla czytelności preferuje się zapis kaną すなわち. meaning_vi: Innymi słowy, to znaczy ⏐ explain: Używa się, gdy wyraża się coś w inny sposób.\nPodobne do　「つまり」, ale nie można go użyć, mówiąc o rezultacie.\n財布をなくした。すなわちお金がない。（X)\n→財布をなくした。つまりお金がない。（O)\nZdanie o formalnym, sztywnym charakterze. ⏐ examples: 1. 「母の兄、すなわち僕のおじですが・・・・・・」\nStarszy brat mamy, czyli inaczej mówiąc mój wujek…\n2. このペットボトルには１０００ミリリットル、すなわち１リットルの水が入っています。\nW tej butelce mieści się 1000 ml, czyli 1 litr wody.",
+    "mistakes": [
+     "Mylenie z つまり: gdy pytanie wymaga „definicji tożsamości” → すなわち; gdy wymaga „podsumowania/wniosku” → つまり.",
+     "Użycie do wyrażenia rezultatu/związku przyczynowo-skutkowego jest niepoprawne: ×「雨だ。すなわち、行かない」→ należy użyć それで/だから.",
+     "Jeśli S2 nie jest równoważne S1, zdanie staje się nieprecyzyjne; należy zapewnić relację tożsamości."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "つまり",
+       "To znaczy, innymi słowy",
+       "Podsumowanie/sugerowanie ogólnego wniosku; mniej formalne.",
+       "<ruby>遅<rt>おく</rt></ruby>れる。つまり、<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わない。"
+      ],
+      [
+       "<ruby>要<rt>よう</rt></ruby>するに",
+       "Krótko mówiąc",
+       "Podsumowanie głównej myśli, niuans subiektywny.",
+       "<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い。<ruby>要<rt>よう</rt></ruby>するに、<ruby>賛成<rt>さんせい</rt></ruby>だ。"
+      ],
+      [
+       "ということは",
+       "Czyli (wniosek)",
+       "Implikuje wnioskowanie, nie tożsamość definicyjną.",
+       "<ruby>雨<rt>あめ</rt></ruby>？ ということは、<ruby>中止<rt>ちゅうし</rt></ruby>だね。"
+      ],
+      [
+       "すなわち",
+       "To znaczy (tożsamość/definicja)",
+       "Precyzyjne, obiektywne, używane przy terminach.",
+       "A、すなわちB。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1065,
+   "src_hash": "e8262c3cc32246ce",
+   "fields": {
+    "meaning": "Z pewnością…, na pewno…",
+    "examples": [
+     "Ta powieść z pewnością poruszy każdego, kto ją przeczyta.",
+     "Nieprawidłowości na pewno ujawnię – za wszelką cenę.",
+     "Jego szczere słowa z pewnością trafią do serc słuchaczy.",
+     "Ten problem musi zostać rozwiązany jeszcze dziś – za wszelką cenę.",
+     "To nagranie z pewnością wstrząśnie opinią publiczną."
+    ],
+    "explain": "Wyraża silny związek przyczynowo-skutkowy lub zdecydowanie: charakter „na pewno się stanie/na pewno to zrobię”.\nFormalne; odpowiednie w komentarzach publicystycznych, przemówieniach, wiadomościach; rzadko w codziennej rozmowie.\nZnaczenie A zwykle łączy się z N/人を + V-使役: „sprawić/wpędzić … w stan X”.\nZnaczenie B pasuje do kontekstów wyrażających wolę, odpowiedzialność, determinację mówiącego/instytucji.\nZwykle nie używa się go dla zwykłych czynności, którym brak nieuchronności/zdecydowania.\n\n• Znaczenie A (nieuchronny skutek): „Na pewno/nie może nie wywołać …” — silny sprawca nieuchronnie prowadzi do reakcji/skutku. Przykład: その演説は聴衆を魅了せずにはおかない。\n• Znaczenie B (silna wola/determinacja): „Na pewno to zrobię…; nie odpuszczę” — mówiący wyraża wolę doprowadzenia sprawy do końca. Przykład: この件は必ず突き止めずにはおかない。\n• Niuans: sztywny, język pisany, prasa/komentarze/przemówienia; stanowczy, niemal pewna prognoza lub niezachwiana determinacja.\n• Podmiotem jest zwykle rzecz/zjawisko wywierające wpływ (Znaczenie A) albo „ja/my” wyrażający determinację (Znaczenie B).",
+    "notes": "• W tekstach komentujących konstrukcja ta „podnosi” stopień pewności prognozy, niemal przesądzając skutek.\n• W znaczeniu A należy unikać podmiotu „ja”, chyba że to wypowiedź strategiczna (PR, oświadczenie, uchwała).\n• Z tą konstrukcją nie używa się podwójnego przeczenia; aby wyrazić przeczenie, trzeba przeformułować całe zdanie.",
+    "mistakes": [
+     "Mylenie z ～ずにはすまない: ta konstrukcja to „na pewno wywoła/na pewno zrobię”, tamta to „bez zrobienia tego się nie obejdzie (obowiązek)”.",
+     "Użycie w swobodnej rozmowie → brzmi sztucznie; w codziennej mowie należy wybrać ～ずにはいられない.",
+     "Niepasujący podmiot: w znaczeniu A jako podmiot naturalniej używać rzeczy/dzieła/oświadczenia."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ずにはおかない",
+       "Na pewno wywoła/na pewno zrobi",
+       "Formalne, stanowcze; podkreśla nieuchronność lub twardą wolę",
+       "<ruby>映画<rt>えいが</rt></ruby>は<ruby>観客<rt>かんきゃく</rt></ruby>を<ruby>泣<rt>な</rt></ruby>かせずにはおかない。"
+      ],
+      [
+       "～ずにはすまない",
+       "Bez zrobienia tego się nie obejdzie",
+       "Obowiązek/moralność; trzeba to zrobić, jak należy",
+       "<ruby>迷惑<rt>めいわく</rt></ruby>をかけたから<ruby>謝<rt>あやま</rt></ruby>らずにはすまない。"
+      ],
+      [
+       "～ずにはいられない",
+       "Nie można się powstrzymać",
+       "Spontaniczne uczucie; bardziej typowe dla języka mówionego; bez niuansu stanowczości czy nieuchronności",
+       "<ruby>彼<rt>かれ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>くと<ruby>踊<rt>おど</rt></ruby>らずにはいられない。"
+      ],
+      [
+       "～ないではおかない",
+       "Równoważne",
+       "Wariant nieco bardziej typowy dla języka mówionego; to samo znaczenie",
+       "<ruby>人<rt>ひと</rt></ruby>を<ruby>感心<rt>かんしん</rt></ruby>させないではおかない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 1066,
+   "src_hash": "97a28fb36351ec2f",
+   "fields": {
+    "meaning": "Nie można nie…, trzeba…",
+    "examples": [
+     "Skoro złamało się obietnicę, nie obejdzie się bez przeprosin.",
+     "Ponieważ naraziliśmy klientów na kłopot, firma zapewne nie obejdzie się bez złożenia wyjaśnień.",
+     "Ponieważ zgubiono ważne dokumenty, nie obejdzie się bez zgłoszenia tego przełożonemu.",
+     "Jeśli okaże się, że naruszono przepisy, nie obejdzie się bez nałożenia kary.",
+     "Po tak wielkiej pomocy czuję, że muszę się jakoś odwdzięczyć."
+    ],
+    "explain": "Podkreśla „obowiązek społeczny/moralny”, a nie wybuch emocji.\nAby złagodzić ciężar wypowiedzi, często dodaje się ～だろう／と思う; w pracy używa się go, by potwierdzić odpowiedzialność za załatwienie sprawy.\nNie używa się w kontekście zabawy czy hobby; pasuje do sytuacji wymagających przeprosin, wyjaśnień, odszkodowania, załatwienia sprawy.\n\n• Znaczenie: „Bez zrobienia tego się nie obejdzie/nie wypada” z powodu wymogów moralności, etykiety, zasad, odpowiedzialności.\n• Nie jest to silna wola, lecz presja norm/okoliczności, które nakładają obowiązek działania, by załatwić sprawę jak należy.\n• Często występuje z czasownikami takimi jak 謝る, 連絡する, 説明する, 報告する, 対応する, 補償する itp.\n• Niuans formalny, język pisany, praca, oficjalne komunikaty.",
+    "notes": "• Oprócz przeprosin/wyjaśnień konstrukcja pasuje do deklaracji odpowiedzialności zarządczej: 対応せずにはすまない, 再発防止策を講じずにはすまない.\n• W e-mailach służbowych łączy się ją z ものと存じます/と考えております, by brzmiała uprzejmie.\n• Nie należy jej nadużywać w swobodnej rozmowie, bo brzmi „ciężko od odpowiedzialności”.",
+    "mistakes": [
+     "Mylenie z ～ずにはいられない: JLPT często stosuje pułapkę emocje (いられない) vs obowiązek (すまない).",
+     "Zły wybór podmiotu/czynności: używa się z czynnościami „załatwiania sprawy” wynikającymi z odpowiedzialności (謝る, 説明する, 対応する...).",
+     "Brak złagodzenia w stylu uprzejmym: należy dodać だろう／と思う, by brzmiało naturalnie."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ずにはすまない",
+       "Bez zrobienia tego się nie obejdzie",
+       "Presja norm/moralności; formalne",
+       "<ruby>遅刻<rt>ちこく</rt></ruby>したら<ruby>一言<rt>ひとこと</rt></ruby><ruby>連絡<rt>れんらく</rt></ruby>せずにはすまない。"
+      ],
+      [
+       "～ざるを<ruby>得<rt>え</rt></ruby>ない",
+       "Trzeba, z konieczności",
+       "Z powodu obiektywnych okoliczności; bardziej neutralne moralnie",
+       "<ruby>雨<rt>あめ</rt></ruby>で<ruby>中止<rt>ちゅうし</rt></ruby>せざるを<ruby>得<rt>え</rt></ruby>ない。"
+      ],
+      [
+       "～ないわけにはいかない",
+       "Nie można nie",
+       "Zasady społeczne/ogólna logika; bardziej typowe dla języka mówionego",
+       "<ruby>招待<rt>しょうたい</rt></ruby>されたから<ruby>行<rt>い</rt></ruby>かないわけにはいかない。"
+      ],
+      [
+       "～ずにはいられない",
+       "Nie można się powstrzymać",
+       "Wybuch emocji, bez znaczenia „jak wypada”",
+       "<ruby>彼<rt>かれ</rt></ruby>の<ruby>冗談<rt>じょうだん</rt></ruby>には<ruby>笑<rt>わらわ</rt></ruby>わずにはいられない。"
+      ],
+      [
+       "～ずにはおかない",
+       "Na pewno wywoła/na pewno zrobi",
+       "Stanowczość/nieuchronność, w odróżnieniu od „obowiązku”",
+       "その<ruby>発言<rt>はつげん</rt></ruby>は<ruby>波紋<rt>はもん</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げずにはおかない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

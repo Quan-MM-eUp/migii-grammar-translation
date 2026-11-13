@@ -1,0 +1,568 @@
+{
+ "batch": "b003",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 38,
+   "src_hash": "9fc07317e80ceeec",
+   "fields": {
+    "meaning": "dać (mnie/moim bliskim)",
+    "examples": [
+     "Nauczyciel dał mi książkę.",
+     "Tata dał mi zegarek."
+    ],
+    "explain": "くれます stosuje się tylko wtedy, gdy ktoś inny daje coś nam samym(lub naszym bliskim ちち、はは、あね、あに、おとうと、いもうと…)\nMożliwe jest pominięcie わたしに w następujący sposób:\nN 1 が　Nを　くれました",
+    "notes": "explain: Stosuje się が dla dającego, に dla odbiorcy (czyli mnie/mojej grupy): N が私に N を くれます。\nNie stosuje się くれる, jeśli odbiorca nie należy do mojej strony (wtedy stosuje się あげる).\nW rozmowie często używa się くれた (potoczny czas przeszły):友だちがくれた。\nexamples: 1. 友だちが私にプレゼントをくれました。\nPrzyjaciel dał mi prezent.\n2. 母が私に新しい靴をくれました。\nMama dała mi nowe buty.\n3. 会社が私に休みをくれました。\nFirma dała mi wolne.\n4. 田中さんが妹に本をくれました。\nTanaka dał książkę mojej młodszej siostrze.\n5. 先生が私に日本語を教えてくれます。\nNauczyciel uczy mnie japońskiego.\nexplain: Potoczne, bliskie; pasuje do dziennika, rozmowy, opisu osobistej wdzięczności.\nCzęsto pomija się „私に”, gdy jest oczywiste, że odbiorcą jestem ja:友だちがプレゼントをくれた。\nPrzy rzeczownikach abstrakcyjnych, jak アドバイス/情報: „アドバイスをくれる” jest naturalniejsze niż „アドバイスをあげる”.\nW pracy wobec osoby wyższej rangą/klienta: preferuje się くださる/いただく.\nexamples: 1. 友だちが私に手作りのクッキーをくれた。\nPrzyjaciel dał mi ciasteczka własnej roboty.\n2. 父が弟に新しい自転車をくれた。\nTata kupił w prezencie mojemu młodszemu bratu nowy rower.\n3. 先生が娘に絵本をくれた。\nNauczyciel dał mojej córce książkę z obrazkami. (odbiorca należy do mojej strony)\n4. 彼が私に誕生日プレゼントをくれた。\nOn dał mi prezent urodzinowy.\n5. （対比）彼が私に本をくださった。\nTa sama treść, ale z szacunkiem wobec dającego (くださる).\n6. （×）彼が田中さんに本をくれた→彼が田中さんに本をあげた。\n(Poprawka) Odbiorca nie należy do mojej strony → stosuje się あげる.\ncomparison: Wzór gramatyczny | Znaczenie | Różnica | Krótki przykład\nN をくれる | Dać coś mnie/mojej grupie | Potoczne | 友人（ゆうじん）が花（はな）をくれた\nN をくださる | (Osoba wyższa rangą) daje coś mnie | Keigo od くれる | 先生（せんせい）が本（ほん）をくださった\nN をもらう | Ja dostaję | Neutralne | 友人（ゆうじん）から花（はな）をもらった\nN をいただく | Ja dostaję (kenjōgo) | Bardzo uprzejme | 先生（せんせい）から本（ほん）をいただいた\nN をあげる | Ja daję komuś | Punkt widzenia dającego | 私（わたし）は彼（かれ）に花（はな）をあげた\nN をください | Prosić (proszę dać) | Zdanie wyrażające prośbę | 領収（りょうしゅう）書（しょ）をください\nVてくれる | Zrobić V dla mnie | Powiązany wzór gramatyczny z czasownikiem | 手伝（てつだ）ってくれる\ncommon_mistakes: • Użycie くれる, gdy odbiorca nie należy do własnej strony: niepoprawnie. Poprawka: あげる/与える.\n• Użycie くれる, gdy dającym jest osoba wyższa rangą, w stylu formalnym: należy zamienić na くださる/いただく.\n• Pomylenie pozycji partykuł: „X が 私に N を くれる” (a nie 私がXに…くれる).\n• Zgubienie „に” przy odbiorcy w długim zdaniu: łatwo o niejasność podmiot–czasownik–dopełnienie.\nmeaning_vi: Wyraża znaczenie otrzymania prawa własności przekazanego przez drugą osobę. Czasowniki 「あげる．もらう．くれる」 wszystkie mają znaczenie\nexamples: 1. ①　あなたが　くれたんでしょう。\nTo ty mi to dałeś, prawda?\n2. ②　わたしは　かのじょに　指輪を　あげました。\nDałem swojej dziewczynie pierścionek.\n3. ➂　かのじょは　わたしに　時計を　くれました。\nMoja dziewczyna dała mi zegarek.\n4. ➃　わたしは　かのじょに　時計を　もらいました。\nDostałem zegarek od swojej dziewczyny.",
+    "mistakes": [
+     "Pomylenie ról: ×私が田中さんに本をくれました → powinno być私が田中さんに本をあげました。",
+     "Opuszczenie に przy odbiorcy: ×友だちが私本をくれました → poprawnie:私に本をくれました。",
+     "Użycie くれる, gdy odbiorca nie należy do mojej strony: ×田中さんが鈴木さんに本をくれました → należy użyć あげました。"
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "N が <ruby>私<rt>わたし</rt></ruby>に くれます",
+       "A daje coś mnie",
+       "Odbiorcą jestem ja/moja grupa",
+       "<ruby>友<rt>とも</rt></ruby>だちが<ruby>私<rt>わたし</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>をくれました。"
+      ],
+      [
+       "<ruby>私<rt>わたし</rt></ruby>は N に もらいます",
+       "Ja dostaję od N",
+       "Punkt widzenia odbiorcy",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちに<ruby>本<rt>ほん</rt></ruby>をもらいました。"
+      ],
+      [
+       "<ruby>私<rt>わたし</rt></ruby>は N に あげます",
+       "Ja daję N",
+       "Dającym jestem ja",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちに<ruby>本<rt>ほん</rt></ruby>をあげました。"
+      ],
+      [
+       "N が <ruby>私<rt>わたし</rt></ruby>に Vて くれます",
+       "Zrobić V dla mnie",
+       "Czynność na moją korzyść",
+       "<ruby>友<rt>とも</rt></ruby>だちが<ruby>手伝<rt>てつだ</rt></ruby>ってくれました。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 39,
+   "src_hash": "6ef9630e7236b97c",
+   "fields": {
+    "meaning": "Tutaj, tam, tam dalej",
+    "connection": "ここ・そこ・あそこ + partykuła (に/で/へ…)",
+    "examples": [
+     "Tutaj jest sala konferencyjna.",
+     "Tam jest szpital."
+    ],
+    "explain": "ここ、そこ、あそこ lub こちら、そちら、あちら：Służą do wskazywania miejsca.\nPrzy czym こちら、そちら、あちら to uprzejme odpowiedniki ここ、そこ、あそこ. Ponadto こちら、そちら、あちら stosuje się także do wskazywania kierunku.\n\nここ：to miejsce, tutaj\nそこ：tamto miejsce, tam\nあそこ：tamto miejsce (dalej), tam dalej\n→　słowo pytające　どこ：Gdzie?\nこちら：w tę stronę\nそちら：w tamtą stronę\nあちら：w tamtą stronę (dalej)\n→　słowo pytające　どちら：Gdzie, po której stronie, w którą stronę?"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 40,
+   "src_hash": "a0168e13160b8ed5",
+   "fields": {
+    "meaning": "そうですか　Ach tak(Rozumiem).",
+    "connection": "Użycie samodzielne（odpowiedź／potwierdzenie informacji）",
+    "examples": [
+     "A: Czy ten parasol jest twój?\nB: Nie, nie mój. To parasol Satō.\nA: Ach tak."
+    ],
+    "explain": "Gdy mówiący przyjmuje jakąś informację i daje do zrozumienia, że ją zrozumiał.\nMimo że na końcu zdania jest か, nie jest to zdanie pytające, lecz wykrzyknienie.\nそうですか wymawia się z niskim tonem na końcu zdania."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 41,
+   "src_hash": "0245a6de532dcb02",
+   "fields": {
+    "meaning": "そうですね　Rzeczywiście(No właśnie).",
+    "connection": "Użycie samodzielne（zgoda／odpowiedź）",
+    "examples": [
+     "A: Jutro jest wolne, prawda?\nB: A, rzeczywiście."
+    ],
+    "explain": "そうですね　wyraża zgodę, współodczuwanie wobec tego, co mówi rozmówca.\nそうですね　zgoda, współodczuwanie wobec tego, co się samemu myśli i wie # そうですか przyjęcie nowej informacji, której się nie znało ."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 42,
+   "src_hash": "1373d25621581f8c",
+   "fields": {
+    "meaning": "I potem…",
+    "connection": "そして + [zdanie/zdanie składowe]",
+    "examples": [
+     "To ciasto jest smaczne. I do tego tanie.",
+     "Góra Fudżi jest piękna. I do tego słynna.",
+     "Jestem studentem. Poza tym pracuję też dorywczo.",
+     "Rano wstałem. Potem wziąłem prysznic.",
+     "Japońskie jedzenie jest smaczne. I do tego dobre dla zdrowia.",
+     "On jest inteligentny. I do tego bardzo życzliwy."
+    ],
+    "explain": "„そして” to spójnik o naturalnym, neutralnym niuansie, używany do opowiadania, przedstawiania lub wyjaśniania.\nMożna go stosować zarówno w mowie potocznej, jak i w oficjalnym języku pisanym.\nGdy łączy dwa zdania składowe o tym samym podmiocie lub tym samym temacie, „そして” sprawia, że tekst jest spójniejszy i łatwiejszy do zrozumienia.\nW odróżnieniu od „それで” (przyczyna – rezultat) „そして” jedynie łączy zdarzenia według następstwa czynności lub na zasadzie wyliczania.\n\n„そして” służy do łączenia dwóch zdań, które pozostają w relacji następstwa czynności lub dodawania informacji.\nZnaczenie podstawowe:„i”, „potem”, „co więcej”.\nStosuje się w języku mówionym i w języku pisanym; wyraża naturalne powiązanie dwóch czynności, zdarzeń lub myśli.\nW odróżnieniu od „それから” (skupia się na kolejności w czasie) „そして” może łączyć także zdania składowe powiązane treścią lub niosące podkreślenie.",
+    "notes": "„そして” często pojawia się w narracji lub w opisie następujących po sobie zdarzeń.\nW potocznej rozmowie Japończycy czasem stosują pominięcie „そして” albo zastępują je przez „で” lub „それで”.\nW formalnym języku pisanym „そして” sprawia, że tekst jest spójny, naturalny i niezbyt sztywny.\nNa poziomie JLPT N5 jest to jeden z najbardziej podstawowych spójników, które trzeba zapamiętać przy pisaniu akapitu lub łączeniu zdań.",
+    "mistakes": [
+     "Mylenie z „それで”:„そして” jedynie łączy zdarzenia lub myśli; „それで” wyraża przyczynę – rezultat.",
+     "Błędna pozycja:„そして” zwykle łączy dwa niezależne zdania, nie stosuje się go między dwoma zdaniami składowymi w jednym krótkim zdaniu.",
+     "Błędny zapis w kanji:„そして” zawsze zapisuje się hiraganą, nie ma formy w kanji.",
+     "Na JLPT N5 często sprawdza się wybór właściwego spójnika spośród „そして”, „それから”, „それで”."
+    ],
+    "comparison": {
+     "headers": [
+      "Spójnik",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "そして",
+       "I / Co więcej / Potem",
+       "Łączy dwa zdania o tym samym temacie, dodaje informację lub wskazuje następstwo czynności",
+       "パンを<ruby>食<rt>た</rt></ruby>べました。そしてコーヒーを<ruby>飲<rt>の</rt></ruby>みました。"
+      ],
+      [
+       "それから",
+       "Potem / Następnie",
+       "Podkreśla kolejność w czasie",
+       "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。それから<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。"
+      ],
+      [
+       "それで",
+       "Dlatego / W związku z tym",
+       "Wyraża relację przyczyna – rezultat",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>お</rt></ruby>りました。それで<ruby>試合<rt>しあい</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>になりました。"
+      ],
+      [
+       "そしてまた",
+       "A ponadto",
+       "Forma emfatyczna „そして”, stosowana w języku pisanym",
+       "<ruby>彼<rt>かれ</rt></ruby>は<ruby>医者<rt>いしゃ</rt></ruby>です。そしてまた<ruby>先生<rt>せんせい</rt></ruby>でもあります。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 43,
+   "src_hash": "0ae18008eb3fed7d",
+   "fields": {
+    "meaning": "bardzo ~",
+    "examples": [
+     "W Pekinie jest bardzo zimno.",
+     "To danie jest bardzo smaczne.",
+     "Wczoraj było bardzo przyjemnie."
+    ],
+    "explain": "とても dodatkowo podkreśla cechę wyrażoną przymiotnikiem\nあまり łączy się z końcówką przeczącą i ma znaczenie osłabiające\n\n～とても～：　bardzo ~\n～あまり～ない：　niezbyt ~."
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 44,
+   "src_hash": "870b8762f6a99629",
+   "fields": {
+    "name": "なん i なに",
+    "meaning": "なん i なに to słowa pytające o tym samym znaczeniu „co”",
+    "connection": "なに/なん + partykuła (何を/何が/何の N) / なん + [klasyfikator] (なんじ・なんにん…)",
+    "examples": [
+     "Co to za książka?",
+     "Ile lat ma mała Teresa?",
+     "Co będziesz jeść?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 45,
+   "src_hash": "0aaf46b330eb267d",
+   "fields": {
+    "meaning": "dostać",
+    "examples": [
+     "Dostałem od taty zegarek.",
+     "Nam dostał od nauczyciela słownik."
+    ],
+    "explain": "Ktoś dostał coś od kogoś.\nNie stosuje się もらいます, by powiedzieć, że ktoś inny dostał jakąś rzecz od nas.",
+    "notes": "meaning_vi: Dostać od (kogoś, źródła)\nexplain: から podkreśla „z jakiego źródła”: można stosować do osób, organizacji i miejsc (先生から・会社から・銀行から・学校から…).\nPrzy konkretnej osobie naturalne jest też に:私は友だち に プレゼントをもらいました。\nGdy odbiorcą jestem ja/moja grupa, もらう nadaje się do mówienia z punktu widzenia „otrzymywania”.\nW stylu formalnym/zapiskach zwykle stosuje się から; w codziennej rozmowie spotyka się zarówno に, jak i から.\nexamples: 1. 私は先生から本をもらいました。\nDostałem książkę od nauczyciela.\n2. 会社からメールをもらいました。\nDostałem e-mail z firmy.\n3. 昨日、友だちから電話をもらいました。\nWczoraj dostałem telefon od przyjaciela.\n4. 弟は近所の人からお菓子をもらいました。\nMłodszy brat dostał słodycze od sąsiada.\n5. 私は両親からお金をもらいません。\nNie dostaję pieniędzy od rodziców.\n6. これは田中さんからのプレゼントです。\nTo prezent od Tanaki.\nexplain: Przy konkretnej osobie/instytucji preferuje się に; から stosuje się, gdy podkreśla się „od strony” lub źródło (父から・会社から・国から).\nV-て もらいます często stosuje się, gdy mowa o „prośbie/otrzymaniu pomocy”. Uprzejmiej przy proszeniu: V-て もらえますか／V-て いただけますか (bardzo uprzejme).\nPodmiot: gdy odbiorcą nie jest mówiący, należy go wyraźnie podać, by uniknąć niejasności (例:弟は先生に本をもらいました).\nNiuans wdzięczności/otrzymania przysługi jest silniejszy w V-て もらう niż przy samym „otrzymaniu rzeczy”.\nexamples: 1. 私は友だちに花をもらいました。\nDostałem kwiaty od przyjaciela.\n2. 姉にお金をもらいませんでした。\nNie dostałem pieniędzy od starszej siostry.\n3. 先生に漢字を教えてもらいます。\nNauczyciel uczy mnie kanji.\n4. 田中さんからメールをもらいましたか。— はい、もらいました。\nCzy dostałeś już e-mail od Tanaki? — Tak, dostałem.\n5. 友だちに宿題を手伝ってもらいました。\nPrzyjaciel pomógł mi w pracy domowej.\n6. 母に新しい靴をもらいました。\nDostałem od mamy nowe buty.\n7. 先生にもう一度説明してもらえますか。\nCzy mógłby pan wyjaśnić to jeszcze raz?\ncomparison: Wzór gramatyczny | Znaczenie | Główna różnica | Krótki przykład\nN に N を もらう | Dostać rzecz | Punkt widzenia odbiorcy | 私（わたし）は友（とも）だちに本（ほん）をもらった。\nN に V-て もらう | Ktoś coś dla nas robi | Podkreśla przysługę/pomoc | 母（はは）に送（おく）ってもらう。\nN が 私（わたし）に N を くれる | Ktoś daje coś mnie | Punkt widzenia odbiorcy, ale z użyciem くれる | 友（とも）だちが私（わたし）に本（ほん）をくれた。\n私（わたし）は N に N を あげる | Ja daję komuś | Punkt widzenia dającego | 私（わたし）は弟（おとうと）に本（ほん）をあげた。\nV-て くれる | Ktoś robi coś dla mnie | Znaczeniowo odpowiada V-て もらう, ale podmiotem jest „wykonujący” | 友（とも）だちが手伝（てつだ）ってくれた。\ncommon_mistakes: Błędna partykuła przy dającym: を zamiast に/から. Poprawnie:友だちに/から本をもらう.\nMylenie punktu widzenia z くれる/あげる. Należy ustalić, „kto jest odbiorcą”.\nZapominanie o obiekcie z を przy otrzymywaniu rzeczy:私は彼にを× →私は彼に手紙をもらいました.\nUżycie もらいます, by powiedzieć „ja daję komuś”, jest niepoprawne. W takim wypadku musi być あげます.\nMało uprzejma prośba: × V-て もらいますか → należy użyć もらえますか/いただけますか.\nexplain: Stosuje się, gdy mówiący jest w pozycji odbiorcy lub reprezentuje odbiorcę (własną rodzinę, własną grupę).\nUprzejmie: もらいます； zwykła: もらう； czas przeszły: もらった； możliwość: もらえる.\nŁagodne, neutralne . Zależnie od kontekstu może wyrażać wdzięczność.\nW stylu kenjōgo można użyć いただく zamiast もらう.\nexamples: 1. 先生に本をもらいました。\nDostałem książkę od nauczyciela.\n2. 母から手紙をもらった。\nDostałem list od mamy.\n3. 誕生日に友だちにケーキをもらった。\nNa urodziny dostałem od przyjaciela tort.\n4. 会社からボーナスをもらいました。\nDostałem premię od firmy.\n5. 兄は外国人の友達に日本のお土産をもらった。\nStarszy brat dostał japońską pamiątkę od zagranicznego przyjaciela.\ncomparison: Wzór gramatyczny | Znaczenie | Różnica | Przykład\nN を もらう | Dostać coś od kogoś | Mówiący jest odbiorcą | 友（とも）だちに本（ほん） をもらう\nN を くれる | Ktoś daje coś mnie | Dający → ja (punkt widzenia odbiorcy) | 友（とも）だちが本（ほん） をくれる\nN を あげる | Ja daję komuś | Ja → inna osoba (punkt widzenia dającego) | 私（わたし）が友（とも）だちに本（ほん） をあげる\nN を いただく | Otrzymać w sposób uniżony (kenjōgo) | Uprzejmiejsze niż もらう | 先生（せんせい）に本（ほん） をいただきました\ncommon_mistakes: • Błędna partykuła: powinno być N（dający）に N を もらう, nie stosuje się から w formalnym języku pisanym (ale w rozmowie nadal można).\n• Mylenie z くれる (relacja wykonawca czynności – obiekt jest odwrócona).\n• Na JLPT często sprawdza się rozróżnianie trzech wzorów gramatycznych: あげる・くれる・もらう.\nmeaning_vi: Wyraża znaczenie otrzymania prawa własności przekazanego przez drugą osobę.\nexamples: 1. ①　姉に　この　服を　もらいました。\nDostałem to ubranie od starszej siostry.\n2. ②　なおきくんに　ラブレターを　もらいました。\nDostałem list miłosny od Naokiego.\n3. ③　たんじょう日に　だれかに　プレゼントを　もらいましたか。\nCzy dostałeś od kogoś prezent na urodziny?\n4. ④　これ、母に　もらったんです。とても　べんりです。\nTo dostałem od mamy. Jest bardzo praktyczne.",
+    "mistakes": [
+     "Błędne oznaczenie roli: ×私は田中さんをプレゼントをもらいました → poprawnie:私は田中さんから（に）プレゼントをもらいました。",
+     "Pomylenie kierunku dawania/otrzymywania: ×私は田中さんにプレゼントをもらいました (poprawnie), ale jeśli chodzi o „ja daję”, należy użyć あげます, a nie もらいます.",
+     "Opuszczenie を przy dopełnieniu: ×先生から本もらいました → poprawnie:本をもらいました。",
+     "Użycie から po私jest nienaturalne, jeśli rozumieć je jako „ode mnie”: ×私からもらいました (dostałem od siebie) → bez sensu."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "N に/から もらいます",
+       "Dostać od ~",
+       "Punkt widzenia odbiorcy",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちから<ruby>本<rt>ほん</rt></ruby>をもらいました。"
+      ],
+      [
+       "N が <ruby>私<rt>わたし</rt></ruby>に くれます",
+       "Ktoś daje coś mnie",
+       "Punkt widzenia dającego (w kierunku mnie)",
+       "<ruby>友<rt>とも</rt></ruby>だちが<ruby>私<rt>わたし</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>をくれました。"
+      ],
+      [
+       "N は N に あげます",
+       "A daje B",
+       "Wykonawcą czynności jest dający",
+       "<ruby>私<rt>わたし</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちに<ruby>本<rt>ほん</rt></ruby>をあげました。"
+      ],
+      [
+       "Vて もらいます",
+       "Ktoś coś dla nas robi",
+       "Nieco powyżej poziomu N5",
+       "<ruby>友<rt>とも</rt></ruby>だちに<ruby>手伝<rt>てつだ</rt></ruby>ってもらいました。"
+      ],
+      [
+       "N からの N",
+       "N od ~ (wyrażenie rzeczownikowe)",
+       "Służy jako określenie rzeczownika",
+       "<ruby>先生<rt>せんせい</rt></ruby>からのメール"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 46,
+   "src_hash": "5c5e9a87debe835b",
+   "fields": {
+    "meaning": "Zróbmy razem",
+    "examples": [
+     "Odpocznijmy chwilę.",
+     "Obejrzyjmy razem film.",
+     "Jutro też dajmy z siebie wszystko.",
+     "Wracajmy szybko.",
+     "Zastanówmy się jeszcze raz.",
+     "Jest niebezpiecznie, więc starajmy się tam nie chodzić."
+    ],
+    "explain": "Często stosuje się, gdy chce się kogoś namówić, zachęcić lub zaproponować wspólne działanie.\nMoże łączyć się z „一緒に”, by podkreślić wspólną czynność: 一緒に行きましょう。\nGdy mówi się do siebie (bez udziału innych osób), ma znaczenie postanowienia: もう泣くのをやめましょう。 → Przestańmy już płakać (do siebie).\nW odróżnieniu od 「～てください」 (prośba do innej osoby) 「～ましょう」 wyraża łagodne zaproszenie / sugestię.\n\n① Propozycja / zaproszenie słuchacza do wspólnego zrobienia czegoś:Wyraża chęć zaproszenia, zasugerowania wspólnej czynności.\n→ „Zróbmy razem…”, „Zróbmy…”.\n② Wyrażenie woli, postanowienia mówiącego:Gdy używa się go samodzielnie (bez udziału słuchacza), ma znaczenie „Zrobię…”, „No to do dzieła!”.\n③ Bardziej formalne i uprzejme niż forma rozkazująca:Jest to łagodny sposób zapraszania i proponowania, stosowany w uprzejmej rozmowie lub w komunikatach.",
+    "notes": "Forma ～ましょう to forma grzecznościowa formy wolitywnej (Vよう).\nW rozmowie „～ましょうか？” służy do zaproponowania pomocy lub zapytania innej osoby o zdanie:例：手伝いましょうか？→ Może pomogę?\nForma przecząca „～ないでおきましょう” lub „～やめましょう” wyraża propozycję, by czegoś nie robić.",
+    "mistakes": [
+     "Błędna forma czasownika: należy odmienić w formie ます → ましょう(✕行くましょう → ○行きましょう).",
+     "Mylenie z 「Vませんか」:",
+     "„Vましょう” = aktywna propozycja wspólnego działania,",
+     "„Vませんか” = zaproszenie z pytaniem słuchacza o zdanie.",
+     "Zapominanie o niuansie uprzejmości: „Vよう” jest potoczne, „Vましょう” – uprzejme.",
+     "Na JLPT N5 często sprawdza się rozróżnianie „Vましょう”, „Vませんか”, „Vてください”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Główna różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "Vましょう",
+       "Zróbmy razem / Zaproszenie",
+       "Sugestia, łagodne, uprzejme",
+       "<ruby>行<rt>い</rt></ruby>きましょう。"
+      ],
+      [
+       "Vませんか",
+       "Czy nie zechciałby pan / zechciałaby pani…?",
+       "Uprzejme zaproszenie w formie pytania",
+       "<ruby>行<rt>い</rt></ruby>きませんか。"
+      ],
+      [
+       "Vてください",
+       "Proszę zrobić…",
+       "Bezpośrednia prośba, bez znaczenia „razem”",
+       "<ruby>来<rt>き</rt></ruby>てください。"
+      ],
+      [
+       "Vよう",
+       "Forma wolitywna (krótka, potoczna)",
+       "Stosowana w języku mówionym, między przyjaciółmi",
+       "<ruby>行<rt>い</rt></ruby>こう！"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 47,
+   "src_hash": "9a959b574a38b1ed",
+   "fields": {
+    "meaning": "Może zrobimy to razem?",
+    "examples": [
+     "Hana, może też pójdziesz?",
+     "Może wpadniesz do mnie w weekend?",
+     "Może spokojnie porozmawiamy?",
+     "Czy są jakieś pytania?",
+     "Może obejrzymy razem film?",
+     "Może napijemy się kawy?"
+    ],
+    "explain": "Tego wzoru zdania używa się, by namówić lub zaprosić kogoś do wspólnego wykonania jakiejś czynności.\nVませんか nie ma tu znaczenia przeczenia.\nVませんか stosuje się do zapraszania, gdy nie wiadomo, czy rozmówca się zgodzi.\nGdy chętnie przyjmuje się zaproszenie, odpowiada się za pomocą Vましょう。\n\nZnaczenie: „Czy nie chciałbyś / nie chciałby pan / nie chciałaby pani…?” – służy do uprzejmego zapraszania, namawiania.\nPunkt ciężkości spoczywa na słuchaczu: pyta się go o zdanie i szanuje jego decyzję.\nMożna stosować w większości sytuacji, od potocznych po uprzejme; bezpieczne w komunikacji.",
+    "notes": "Jeszcze uprzejmiej można zaprosić, dodając いかがですか do rzeczownika: コーヒーはいかがですか。\nUprzejma odpowiedź: はい、いいですね／すみません、今日はちょっと…。\nNie łączy się bezpośrednio z przymiotnikiem/noun; trzeba użyć czasownika czynnościowego.",
+    "mistakes": [
+     "Błędna odmiana: ×行くませんか → ✓行きませんか.",
+     "Użycie do zaproponowania pomocy (błędna funkcja): proponując otwarcie drzwi, należy użyć開けましょうか, a nie開けませんか.",
+     "Brak一緒に sprawia, że w niektórych kontekstach zaproszenie jest niejasne; dodanie一緒に uwydatnia znaczenie wspólnego działania."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ませんか",
+       "Zaproszenie/namowa",
+       "Pyta słuchacza o zdanie",
+       "<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きませんか。"
+      ],
+      [
+       "～ましょう",
+       "Zróbmy razem",
+       "Aktywna decyzja",
+       "<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きましょう。"
+      ],
+      [
+       "～ましょうか",
+       "Propozycja/sugestia",
+       "Może znaczyć „może ja to zrobię?”",
+       "<ruby>送<rt>おく</rt></ruby>りましょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 48,
+   "src_hash": "c5dd240a4396db31",
+   "fields": {
+    "name": "～か（wyliczanie: A lub B）",
+    "meaning": "~ albo ~, lub (podaje możliwości do wyboru: VかVか・NかNか)",
+    "examples": [
+     "Pomarańczowy albo żółty.",
+     "W weekend chcę pojechać nad morze albo w góry.",
+     "Spotkajmy się w poniedziałek, piątek albo sobotę!",
+     "O to poprośmy Yamadę albo Hondę.",
+     "Sposób użycia.",
+     "Sposób przyrządzania jest prosty."
+    ],
+    "explain": "Gdy intonacja na końcu zdania opada, nie jest to zdanie pytające, lecz sygnał, że przyjęło się nową informację od mówiącego.\nTak samo jak w przypadku そうですか.\n\nPartykuła łącząca rzeczownik z innym rzeczownikiem. Wyraża podanie kilku możliwości do wyboru.",
+    "notes": "sposób V~"
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 49,
+   "src_hash": "190772d57607dde9",
+   "fields": {
+    "name": "～から（przyczyna）",
+    "meaning": "Ponieważ… | Ponieważ…, więc…",
+    "connection": "[zdanie/zdanie składowe] + から",
+    "examples": [
+     "Przepraszam za spóźnienie. To dlatego, że pociąg się opóźnił.",
+     "Dzisiaj biorę wolne. To dlatego, że mam gorączkę.",
+     "Jest niebezpiecznie, więc proszę nie wchodzić.",
+     "Myślę, że to potrzebne. Bo jest tanie i wygodne.",
+     "Pada deszcz, więc zostańmy dziś w domu.",
+     "Lubię japoński, więc chcę pojechać na studia do Japonii."
+    ],
+    "explain": "Zwykle zdanie składowe z przyczyną stawia się najpierw, a rezultat potem. Dla podkreślenia przyczyny można rozdzielić zdania: ～。～から。\nW sytuacjach formalnych/wobec osoby wyższej rangą zamiast ～から preferuje się ～ので／～ため(に), by nie zabrzmieć szorstko/narzucająco.\n～からだ na końcu zdania służy do odpowiedzi na „dlaczego”: どうして？―忙しい からだ。\n\nWyraża „bo/to dlatego, że…” przy bezpośrednim, zwięzłym podaniu przyczyny.\nCzęsto używane jako samodzielne zdanie wyjaśniające, stojące po zdaniu z rezultatem lub po pytaniu.\nNiuans neutralny, łatwe w użyciu w codziennej rozmowie i prostych e-mailach.",
+    "notes": "Z i形容詞/czasownikiem: [Plain] + からです. Z rzeczownikiem/na形容詞: N/na + だ + からです (uprzejmie: ～だからです).\nW e-mailu z przeprosinami: ご迷惑をおかけしました。確認が遅れたからです。\nJeśli w sytuacji formalnej chce się brzmieć łagodniej, warto rozważyć ～のでです／～ためです (poza N5).",
+    "mistakes": [
+     "Zapominanie o だ przy な/名: ×静かから→ ○静かだから; ×学生から→ ○学生だから.",
+     "Użycie ～から zbyt bezpośrednio wobec osoby wyższej rangą; należy zamienić na ～ので／～ため.",
+     "Pomylenie kolejności informacji: w jednym zdaniu najpierw przyczyna, potem rezultat; przy odwróceniu stosuje się からだ/なぜなら dla jasności."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～からです",
+       "To dlatego, że… (zdanie wyjaśniające)",
+       "Często stosowane jako samodzielna odpowiedź",
+       "<ruby>行<rt>い</rt></ruby>きません。<ruby>忙<rt>いそが</rt></ruby>しいからです。"
+      ],
+      [
+       "～ですから、…",
+       "Ponieważ…, więc…",
+       "Przyczyna na początku, uprzejme",
+       "<ruby>雨<rt>あめ</rt></ruby>ですから、<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "～だから（です）",
+       "Ponieważ… (rzeczownik/na)",
+       "Stosowane z N/na<ruby>形容詞<rt>けいようし</rt></ruby>: N/na + だから",
+       "<ruby>学生<rt>がくせい</rt></ruby>だから、<ruby>安<rt>やす</rt></ruby>い／<ruby>学生<rt>がくせい</rt></ruby>だからです。"
+      ],
+      [
+       "～ので（です）",
+       "Ponieważ (łagodnie)",
+       "N4; uprzejmiejsze, bardziej obiektywne niż ～から",
+       "<ruby>雨<rt>あめ</rt></ruby>なので、<ruby>行<rt>い</rt></ruby>きません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 50,
+   "src_hash": "8f4469cdad4c3fad",
+   "fields": {
+    "meaning": "Ale…",
+    "examples": [
+     "Autobus jest tani, ale niewygodny.",
+     "Ta herbata jest droga, ale smaczna.",
+     "Ten sklep jest mały, ale bardzo znany.",
+     "Japoński jest trudny, ale ciekawy.",
+     "Jest tanie, ale jakość jest dobra.",
+     "Przepraszam, ale proszę jeszcze raz."
+    ],
+    "explain": "„が” stawia się między dwoma pełnymi zdaniami składowymi; zwykle z przecinkiem: ～が、～.\nTon uprzejmy/neutralny; przy mocnym kontraście stosuje się でも/しかし.\nW e-mailach/tekstach argumentacyjnych ～が tworzy łagodne przejście.\n\nA\nWyraża wykonawcę czynności lub zdarzenia (bywa nim też słowo pytające). Często stosowane, gdy mowa o zdarzeniach rozgrywających się na oczach mówiącego, jak w przykładzie, albo gdy mówi się, że to nie co innego, jak w przykładzie.\nB\nCzęsto występuje we wzorze zdania o postaci ～は～が。。。Służy do wyrażenia części tematu, jak w przykładzie ①, albo obiektu możliwości, odczuć, uczuć, jak w przykładach ②③④.",
+    "notes": "Uprzejme formuły rozpoczynające wypowiedź:恐れ入りますが／失礼ですが／申し訳ありませんが.\nW długim zdaniu złożonym możliwe jest pominięcie drugiej części zdania, gdy sytuacja jest jasna: すみませんが、明日… (w domyśle „trudno/nie da się”).",
+    "mistakes": [
+     "Mylenie „が” łączącego zdania składowe z „が” podmiotu: należy sprawdzić, czy są dwa zdania składowe – przed i po.",
+     "Wstawienie „でも” między zdania składowe, jak „XでもY”, łatwo zmienia niuans; przy bezpośrednim łączeniu zdań składowych stosuje się „が/けど”.",
+     "Nadużywanie „が” może sprawić, że zdanie będzie rozwlekłe; przy mocnym kontraście należy przejść na „しかし/でも”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór gramatyczny",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～が、～",
+       "Ale (łagodne, język pisany/uprzejme)",
+       "Płynne, łagodzi zgrzyt",
+       "<ruby>高<rt>たか</rt></ruby>いが、<ruby>良<rt>よ</rt></ruby>い"
+      ],
+      [
+       "～けど、～",
+       "Ale (potoczne)",
+       "Język mówiony, potoczne",
+       "<ruby>行<rt>い</rt></ruby>くけど、<ruby>君<rt>きみ</rt></ruby>は？"
+      ],
+      [
+       "でも、～",
+       "Ale (początek zdania)",
+       "Rozdziela zdania, podkreślenie",
+       "でも、<ruby>行<rt>い</rt></ruby>きたい"
+      ],
+      [
+       "しかし、～",
+       "Jednak (formalne)",
+       "Formalny język pisany",
+       "しかし、<ruby>問題<rt>もんだい</rt></ruby>がある"
+      ],
+      [
+       "が (podmiot)",
+       "Oznacza podmiot",
+       "Nie ma znaczenia „ale”",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable (tu cham)",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

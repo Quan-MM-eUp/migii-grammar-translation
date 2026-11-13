@@ -1,0 +1,637 @@
+{
+ "batch": "b011",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 154,
+   "src_hash": "fa5d23c28449fa5d",
+   "fields": {
+    "meaning": "Do… | Zanim ~",
+    "examples": [
+     "Do siódmej",
+     "Zanim mama wróci, muszę posprzątać pokój.",
+     "Proszę skończyć tę pracę jutro do godziny piątej.",
+     "Trzeba zapłacić do końca marca.",
+     "Zamierzam mieszkać w tym mieszkaniu do przyszłego roku.",
+     "„Proszę przyjść jutro o wpół do dziewiątej”"
+    ],
+    "explain": "Często spotykane w instrukcjach, harmonogramach i prośbach związanych z pracą.\n„～までには” w porównaniu z „～までに” dodaje osobiste podkreślenie/determinację.\nNie używa się z rzeczownikami oznaczającymi długość czasu (3時間までに×); stosuje się konkretny termin/punkt w czasie lub wydarzenie.\n\n• Wyraża termin ostateczny: czynność musi zostać zakończona przed danym momentem lub dokładnie w nim (łącznie z tym momentem).\n• Różnica względem ～まで (do/aż do): ～までに wskazuje „punkt graniczny”, nie wyraża trwania.\n• Vる＋までに: „zanim (nadejdzie chwila, gdy) … nastąpi”, często używane do określenia warunku przygotowań.\n• Często łączy się z czasownikami oznaczającymi zakończenie czynności: 終える, 提出する, 着く, 用意する,…",
+    "notes": "• Punktem w czasie może być „wydarzenie”: 試験までに, 雨季までに…\n• Przy nieprecyzyjnym terminie używa się „～頃までに” dla większej elastyczności: 今月末までに／今月末頃までに.\n• W e-mailach służbowych łączy się z „必ず／遅くとも／目安として”, aby jasno określić termin: 遅くとも金曜までに。",
+    "mistakes": [
+     "Błędne użycie z długością czasu: 3時間までに終わる× → 3時間以内に終わる✓ lub 3時間で終わる✓",
+     "Mylenie ～まで z ～までに: 5時まで来て× (znaczenie niejasne) → 5時までに来て✓",
+     "Błąd w zdaniu składowym Vる＋までに (użycie czasu przeszłego): 会議が始まったまでに× → 始まるまでに✓",
+     "Na JLPT często sprawdzany jest niuans „deadline”: należy wybrać ～までに, gdy pojawiają się słowa kluczowe „by/nie później niż/zanim”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～まで",
+       "Do/aż do (trwanie)",
+       "Podkreśla okres trwający do danego momentu",
+       "<ruby>5時<rt>ごじ</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>く。"
+      ],
+      [
+       "～までに",
+       "Przed/nie później niż",
+       "Podkreśla moment ostatecznego terminu",
+       "<ruby>5時<rt>ごじ</rt></ruby>までに<ruby>来<rt>く</rt></ruby>る。"
+      ],
+      [
+       "～<ruby>以内<rt>いない</rt></ruby>に",
+       "W ciągu (okres)",
+       "Używane dla długości czasu, zakresu",
+       "<ruby>3日<rt>みっか</rt></ruby><ruby>以内<rt>いない</rt></ruby>に<ruby>返信<rt>へんしん</rt></ruby>。"
+      ],
+      [
+       "～までで",
+       "Do… i koniec",
+       "Ograniczenie – zakończenie w danym punkcie",
+       "<ruby>今日<rt>きょう</rt></ruby>はここまでで<ruby>終<rt>お</rt></ruby>わり。"
+      ],
+      [
+       "～までには",
+       "Przed… (z naciskiem)",
+       "Dodaje wolę/podkreślenie",
+       "<ruby>今週<rt>こんしゅう</rt></ruby>までには<ruby>決<rt>き</rt></ruby>める。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 155,
+   "src_hash": "011cbf4d75995020",
+   "fields": {
+    "meaning": "Między innymi ~ i ~",
+    "examples": [
+     "W weekendy między innymi oglądam filmy i spotykam się ze znajomymi.",
+     "Podczas podróży między innymi zwiedzałem świątynie i robiłem zdjęcia.",
+     "W dni wolne między innymi sprzątam i ucinam sobie drzemkę.",
+     "Latem między innymi pływałem i jeździłem na kemping.",
+     "W deszczowe dni na przykład czytam w domu książki.",
+     "A: Co robisz w niedziele?\nB: Między innymi sprzątam pokój i robię pranie."
+    ],
+    "explain": "Czasownik przyjmuje formę た + り.\nSłuży do wyliczania czynności bez zachowania następstwa czynności.\nUżywa się dla jednego lub wielu wykonawców czynności.\nCzas gramatyczny zdania wyraża się na czasowniku する.\n\nV1たり、V2たり、～ する : Między innymi V1 i V2 ~",
+    "notes": "meaning: Wyliczanie czynności / podawanie typowych przykładów — examples odpowiednie wiersze wprowadzono powyżej"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 156,
+   "src_hash": "c671392067bf3fde",
+   "fields": {
+    "meaning": "hobby ~",
+    "examples": [
+     "A: Jakie jest twoje hobby?\nB: Sport.",
+     "A: Jakie hobby ma Karina?\nB: Granie na pianinie."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 157,
+   "src_hash": "722481519782794c",
+   "fields": {
+    "name": "Zamiana N1 na N2",
+    "meaning": "Zamienić N1 na N2.",
+    "examples": [
+     "Wymieniam dolary na jeny."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 158,
+   "src_hash": "5826e0ed47cfe332",
+   "fields": {
+    "name": "Czasownik w formie słownikowej Vる",
+    "meaning": "Forma słownikowa (podstawowa) czasownika: Vる",
+    "connection": "Grupa I: Vいます → Vう / Grupa II: Vます → Vる / Grupa III: きます → くる・します → する",
+    "examples": [
+     "Codziennie rano piję kawę.",
+     "Lubię oglądać japońskie filmy.",
+     "W bibliotece można wypożyczać książki."
+    ],
+    "explain": "Jest to podstawowa forma czasownika i to w niej czasowniki są zapisywane w słownikach."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 159,
+   "src_hash": "8c4ed01e217532c4",
+   "fields": {
+    "meaning": "Stawać się ~ | Adjで～ - łączenie zdań z przymiotnikiem な | Adjじゃない(ではない) - przeczenie przymiotnika な | Adjに V - przysłówek utworzony od przymiotnika な | Adjになります - stawać się (przymiotnik な) | Adjにします - sprawiać, że coś staje się (przymiotnik な)",
+    "examples": [
+     "Po umyciu rąk ręce stają się czyste.",
+     "Ten pokój jest cichy i przestronny.",
+     "Mam kłopot, bo jest daleko od stacji i niewygodnie robić zakupy.",
+     "Ona jest energiczną i pogodną osobą.",
+     "To miasto jest znane i przyjeżdża do niego wielu turystów.",
+     "Chcę mieć poręczny i tani smartfon."
+    ],
+    "explain": "Czynność o wyraźnym celu, zwykle mająca osobę/rolę, która ją wykonuje: 私がNをAにします.\nRzeczownik z を to obiekt ulegający zmianie; Aな to nowy, pożądany stan.\nW przypomnieniach/na tablicach informacyjnych: 〜にしてください/〜にしましょう używa się uprzejmie, z niuansem propozycji/prośby.\nRóżnica niuansu: 「Aにします」 (wybór) vs 「Aにします」 (sprawienie, że coś staje się A). Rozróżnia się je na podstawie kontekstu oraz obecności/braku を-obiektu.\nŁączy się z przymiotnikami abstrakcyjnymi (簡単,便利,安全,重大), aby mówić o optymalizacji/standaryzacji.\n\nWyraża działanie zamierzone: zmianę stanu/cechy rzeczy na taką, jaką określa dany przymiotnik な.\n- Wzór: Nを Aな に します = Sprawić, że N staje się A (z inicjatywy mówiącego/wykonawcy czynności).\nSłuży do „uproszczenia”, „oczyszczenia”, „zabezpieczenia”, „wyciszenia” jakiegoś obiektu: 簡単・きれい・安全・静か…\nDomyślnie zakłada pożądany cel/standard: mówiący wyznacza stan docelowy i go wytwarza.\nW odróżnieniu od ～になります (naturalnie/bez zamiaru): ～にします podkreśla ingerencję, wybór, decyzję człowieka.\nUżywa się także w kontekście wyboru jednej z opcji (z rzeczownikiem): Aにします „wybieram A”. Z な形容詞 ma niuans „dostosować tak, aby stało się A”.",
+    "notes": "Niektóre słowa mają też odrębną formę przysłówka (うまく/きちんと), ale 上手に/きちんと pełnią tę samą funkcję przysłówka. Wybiera się według przyzwyczajenia/kolokacji.\n„静かにして”: utarte polecenie „bądź cicho”.\n„きれい” to な形容詞, ale w niektórych konstrukcjach jest też rzeczownikiem; jako przysłówek zawsze występuje w postaci „きれいに”.\nWyrazy z grupy -的（的）, takie jak 積極的・具体的, zwykle naturalnie używa się w postaci „～的に”.",
+    "mistakes": [
+     "Błędne użycie い形容詞+ にする (niepoprawnie). Poprawnie: い形容詞+ くする; な形容詞+ にする.",
+     "Mylenie を i が: musi być NをAにする (a nie NがAにする).",
+     "Mylenie z ～になる: 要 odróżniać działanie zamierzone (にする) od naturalnego (になる).",
+     "Mechaniczne tłumaczenie jako „decide to be A” w każdym przypadku: z な形容詞 zwykle oznacza „sprawić, że coś staje się A”, natomiast „zdecydować się na/wybrać” stosuje się w połączeniu z rzeczownikiem."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "NをAにする",
+       "Uczynić/zmienić w A (celowo)",
+       "Jest wykonawca czynności, który oddziałuje",
+       "<ruby>部屋<rt>へや</rt></ruby>を<ruby>静<rt>しず</rt></ruby>かにする"
+      ],
+      [
+       "NがAになる",
+       "Stać się A (naturalnie/rezultat)",
+       "Nie podkreśla zamiaru",
+       "<ruby>部屋<rt>へや</rt></ruby>が<ruby>静<rt>しず</rt></ruby>かになる"
+      ],
+      [
+       "い<ruby>形容詞<rt>けいようし</rt></ruby> + くする",
+       "Sprawić, że… (z い<ruby>形容詞<rt>けいようし</rt></ruby>)",
+       "Postać く, nie używa się に",
+       "<ruby>音<rt>おと</rt></ruby>を<ruby>小<rt>ちい</rt></ruby>さくする"
+      ],
+      [
+       "Nにする (wybór)",
+       "Zdecydować się na/wybrać",
+       "Brak を-obiektu, który ulega zmianie",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は<ruby>水<rt>みず</rt></ruby>にします"
+      ],
+      [
+       "V + ようにする",
+       "Starać się, aby ~",
+       "Czynność nawykowa/cel, a nie zmiana cechy",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るようにする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 160,
+   "src_hash": "47888e9a6e7fcba6",
+   "fields": {
+    "meaning": "Zdarzyło się już (kiedyś) ~",
+    "examples": [
+     "Mama ostatnio czasem zapomina, jak ktoś się nazywa.",
+     "W śnieżne dni zdarza się poślizgnąć na drodze, więc proszę uważać.",
+     "Sara czasami nie słucha tego, co mówię.",
+     "Wiele razy byłem w zamku w Osace.",
+     "A: „O której mniej więcej jesz codziennie śniadanie?”\nB: „Zwykle jem o siódmej, ale kiedy nie mam czasu, zdarza się też, że nie jem.”",
+     "A: Nam, czy wspinałeś się kiedyś na górę Fudżi?\nB: Tak, raz."
+    ],
+    "explain": "Mówi o doświadczeniu, które się przeżyło.\nCzasownika あります nie odmienia się w czasie przeszłym.\n\nUżywa się, gdy mówi się o rzeczach, które zdarzają się wyjątkowo. Nie używa się w odniesieniu do rzeczy, które zdarzają się z dużą częstotliwością. Może też występować w postaci ~こともあります, jak w przykładzie ④."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 161,
+   "src_hash": "4509ddef8fd1ec8b",
+   "fields": {
+    "meaning": "Albo… albo…",
+    "examples": [
+     "Czym jedziesz: pociągiem czy autobusem?",
+     "Jeszcze nie zdecydowałem, czy jutro pójdę, czy nie.",
+     "O to, czy ten plan jest bezpieczny, czy niebezpieczny, zapytajmy specjalistę.",
+     "W przyszłym tygodniu okaże się, czy egzamin jest zdany, czy niezdany.",
+     "Nie wiem, czy on mówi poważnie, czy żartuje.",
+     "O tym, czy zebranie odbędzie się dziś, czy jutro, zdecyduje prezes."
+    ],
+    "explain": "Neutralne, używane zarówno w języku mówionym, jak i w języku pisanym. W bardziej formalnym stylu można użyć AかBかにつきましては…\nGdy zadaje się pytanie bezpośrednie, か pojawia się raz przed drugą możliwością wyboru: Aですか、Bですか。\nPrzy długich zdaniach składowych należy dla jasności powtórzyć pełną postać przed か i po nim.\nCzęsto łączy się z は, aby uczynić z wyrażenia „AかBか” temat: AかBかは〜\n\nPrzedstawia przeciwstawne możliwości wyboru/ewentualności: „A czy B (czy C)”.\nUżywa się w znaczeniu „czy A, czy B” w połączeniu z czasownikami oznaczającymi poznanie/niepewność: 分かる、決める、迷う、知る、調べる、考える.\nGdy drugą możliwością jest „nie A”, można użyć „AかAないか” lub skrócić do „Aかどうか”.\nGdy zadaje się pytanie bezpośrednie, można użyć „それとも” jako łącznika: Aですか、それともBですか。\nW przypadku rzeczownika/przymiotnika な przed か używa się formy prostej: 静かか静かではないか.",
+    "notes": "W przypadku な形容詞/名詞 forma przecząca w parze przeciwstawnej to zwykle ではない／じゃない: 静かか静かではないか.\nDrugą możliwość można pominąć, gdy kontekst jest jasny: 行くか（どうか）まだ…\nW tytułach/tabelach A/B zapisuje się zwykle krótko: 可/不可,賛成/反対.\nmeaning_vi: Pytanie o wybór: …N1 czy N2? (～ですか、～ですか)\nexplain: Jest to rodzaj pytania o wybór między N1 a N2.\nNa pytanie tego typu zazwyczaj odpowiada się, wybierając jedną z możliwości podanych przez pytającego.\nexamples: 1. A: これは　しんぶんですか、ざっしですか。\nB: しんぶんです。\nA: Czy to jest gazeta, czy czasopismo?\nB: Gazeta.\n2. A: あなたは　じゅうはっさいですか、はたちですか。\nB: わたしは　はたちです。\nA: Masz 18 czy 20 lat?\nB: Mam 20 lat.",
+    "mistakes": [
+     "Mylenie AかBか z AやB: か oznacza wybór wykluczający; や to wyliczanie.",
+     "Pomijanie drugiego か w dłuższym tekście powoduje niejasność. Należy zachować symetryczną konstrukcję: AかBか.",
+     "Gdy opcją B jest „nie A”, używa się かどうか, aby uniknąć niepotrzebnego, rozwlekłego powtarzania.",
+     "Zadając pytanie bezpośrednie, nie stawia się か bezpośrednio po A: mówi się „Aですか、Bですか” (a nie „Aか、Bですか”)."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "AかBか",
+       "A czy B",
+       "Dwie konkretne możliwości",
+       "<ruby>行<rt>い</rt></ruby>くか<ruby>行<rt>い</rt></ruby>かないか"
+      ],
+      [
+       "Aかどうか",
+       "Czy A, czy nie",
+       "Opcja B nie jest podana wprost",
+       "<ruby>行<rt>い</rt></ruby>くかどうか"
+      ],
+      [
+       "AやB",
+       "A i B (itp.)",
+       "Wyliczanie bez przeciwstawienia",
+       "<ruby>本<rt>ほん</rt></ruby>や<ruby>雑誌<rt>ざっし</rt></ruby>"
+      ],
+      [
+       "AとかBとか",
+       "Na przykład A, B",
+       "Niuans przykładu, niedookreślenie",
+       "<ruby>寿司<rt>すし</rt></ruby>とか<ruby>天ぷら<rt>てんぷら</rt></ruby>とか"
+      ],
+      [
+       "それとも/あるいは",
+       "Czy też",
+       "Spójnik między dwiema częściami zdania",
+       "<ruby>紅茶<rt>こうちゃ</rt></ruby>ですか、それともコーヒーですか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 162,
+   "src_hash": "aee9e537da2a8a9f",
+   "fields": {
+    "meaning": "Wyraża, że obraz lub dźwięk w naturalny sposób sam dociera do oczu lub uszu.",
+    "examples": [
+     "Widać gwiazdy.",
+     "Słychać dźwięk telewizora z sąsiedniego domu.",
+     "Ze szczytu góry widać Tokyo Tower.",
+     "Czy przed chwilą nie było czegoś słychać?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 163,
+   "src_hash": "03fba4f2c8a93762",
+   "fields": {
+    "name": "～が＋czasownik nieprzechodni＊",
+    "meaning": "Czasownik nieprzechodni: czasownik, który nie wymaga uzupełnienia (występującego z「～を」).",
+    "connection": "Nが + V nieprzechodni",
+    "examples": [
+     "Światło gaśnie.",
+     "Telewizor się włącza.",
+     "Drzwi się otwierają.",
+     "Drzwi się zamykają.",
+     "Kot wchodzi.",
+     "Kot wychodzi."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 165,
+   "src_hash": "6ca66c666013bdab",
+   "fields": {
+    "meaning": "Sposób łączenia kilku przymiotników.",
+    "connection": "Aくて + [kolejny przymiotnik] / Naで + [kolejny przymiotnik] / Nで + [kolejny przymiotnik]",
+    "examples": [
+     "Jest przestronny i ładny.",
+     "Moja szkoła jest duża i znajduje się blisko stacji.",
+     "Shun jest bystrym i ciekawym człowiekiem.",
+     "Mój kraj to piękny i bardzo bezpieczny kraj."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 166,
+   "src_hash": "b13a1a0636eb6400",
+   "fields": {
+    "meaning": "Wprawdzie…, ale…",
+    "examples": [
+     "Pada, ale wychodzę.",
+     "Japoński jest trudny, ale ciekawy.",
+     "Przepraszam, ale proszę jeszcze raz.",
+     "Mam dużo pracy, ale pomogę.",
+     "To jest drogie, ale bardzo dobre.",
+     "Teraz to trochę… (ale…)"
+    ],
+    "explain": "けど jest typowe dla rozmowy; ですけど jest uprzejme; だけど używa się po Aな/N.\nSłuży do wprowadzenia prośby/propozycji: すみませんけど、ペンを貸してください。\nSłuży do osłabienia bezpośredniości/przeczenia, nadaje wypowiedzi łagodny ton.\n\n～けど znaczy „ale/chociaż…”. Służy do łączenia dwóch części zdania pozostających w kontraście, łagodzenia wypowiedzi lub jako wstęp prowadzący do prośby/propozycji.\nPodstawowe znaczenie: lekkie przeciwstawienie, zmiana kierunku wypowiedzi.\nNiuans rozmowy, naturalny, łagodniejszy niż が; ですけど jest uprzejme.\nMożna postawić na końcu zdania, aby je „zawiesić” w celu zasugerowania czegoś/złagodzenia tonu: 今日はちょっと…けど。",
+    "notes": "Pierwsza część zdania przed けど może być pełnym zdaniem składowym albo wyrażeniem rzeczownikowym/przymiotnikowym: 学生ですけど…。\n„Zawieszenie” wypowiedzi za pomocą けど pomaga zachować uprzejmość/zmniejszyć presję: 今日は無理ですけど…。\nW uprzejmych e-mailach można użyć けれども/しかしながら (poziom wyższy niż N5).",
+    "mistakes": [
+     "Błędne miejsce です: × です高いけど → poprawnie: 高いですけど。",
+     "Użycie けど w zbyt formalnym tekście → warto rozważyć が/しかし.",
+     "Pominięcie odmiany przez czas gramatyczny w pierwszej części zdania: ×行くたけど→ poprawnie: 行くけど／行ったけど。"
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "A けど B",
+       "Potocznie, łagodnie",
+       "Rozmowa",
+       "<ruby>寒<rt>さむ</rt></ruby>いけど、<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "A が B",
+       "Neutralnie, nieco sztywno",
+       "Język pisany/uprzejmy",
+       "<ruby>寒<rt>さむ</rt></ruby>いが、<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "でも、B",
+       "Łączenie zdań",
+       "Rozpoczyna nowe zdanie",
+       "<ruby>寒<rt>さむ</rt></ruby>い。でも、<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "A けれど（も）B",
+       "Bardziej uprzejmie",
+       "Dłuższe niż けど",
+       "<ruby>寒<rt>さむ</rt></ruby>いけれど、<ruby>行<rt>い</rt></ruby>きます。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 167,
+   "src_hash": "117ea129c7f775eb",
+   "fields": {
+    "meaning": "Zaimki wskazujące. Gdy wskazują przedmioty, przyjmują postać「これ・それ・あれ・どれ」, gdy wskazują miejsca –「ここ・そこ・あそこ・どこ」, a gdy określają rzeczownik –「このN・そのN・あのN・どのN」.",
+    "connection": "こ/そ/あ/ど + れ (rzecz) ・ + の + N ・ ここ/そこ/あそこ/どこ (miejsce) ・ こちら/そちら/あちら/どちら (kierunek)",
+    "examples": [
+     "Te pieniądze",
+     "Tamta piękna osoba to Hana.",
+     "Zaśpiewam tu jedną piosenkę.",
+     "Ile to kosztuje?"
+    ],
+    "notes": "meaning_vi: Grupa こ Grupa そ Grupa あ Grupa ど\nprzedmioty これ それ あれ どれ(Lekcja 16)\nprzedmioty/osoby この N その N あの N どの N(Lekcja 16)\nmiejsce ここ そこ あそこ どこ\nkierunek/\nmiejsce (uprzejmie) こちら そちら あちら どちら\nexamples: 1. ①　こ～／そ～／あ～／ど～\nten ~, ów ~, tamten ~, który ~\n2. ②　「どうしたらいいんですか？」「こうすれば、いいんですよ」\n„Jak należy to zrobić?” „Wystarczy zrobić to w ten sposób”\n3. ③　「どんな家に住みたい？」「（遠くの大きな家を指して）あんな家に住みたいなあ」\n„W jakim domu chcesz mieszkać?” „(wskazując duży dom w oddali) Chciałoby się mieszkać w takim domu jak tamten”\n4. ➃　「ああ、そんなにたくさん買っちゃった！もうお金が全然ない」「そんなに買うからだよ」\n„Ach, kupiłem aż tyle! Nie mam już w ogóle pieniędzy” „To dlatego, że tyle kupujesz”\n5. ⑤　「昨日行ったあの店、安くておいしかったね」「そうだね」\n„Tamten lokal, w którym byliśmy wczoraj, był tani i smaczny, prawda?” „No tak”\n6. ⑥　昨日、新しくできたすし屋に行ってみた。でも、その店は込んでいて、入れなかった。\nWczoraj wybrałem się do nowo otwartego baru sushi. Ale było tam tłoczno i nie udało się wejść."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 168,
+   "src_hash": "28f3f21f17043846",
+   "fields": {
+    "meaning": "Forma liczby mnogiej rzeczowników lub zaimków oznaczających osoby.",
+    "connection": "N(osoba) + たち",
+    "examples": [
+     "My ~",
+     "Dzieci poszły się bawić.",
+     "My damy z siebie wszystko."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 169,
+   "src_hash": "788cdfa05a9179f9",
+   "fields": {
+    "meaning": "jeśli ~ | Kiedy, po tym jak ~",
+    "examples": [
+     "„Jeśli jutro będzie ładna pogoda, może pojedziemy nad morze?”",
+     "Jeśli będę mieć pieniądze i czas, chcę wyruszyć statkiem w podróż dookoła świata",
+     "„Jeśli nie smakuje, nie trzeba jeść”",
+     "„Umiesz czytać kanji?” „Tak, jeśli są to proste kanji, to umiem”",
+     "Kiedy zaczną się ferie zimowe, zamierzam wrócić do kraju.",
+     "„Czy mogę iść do domu, kiedy skończę tę pracę?”"
+    ],
+    "explain": "V 1 たら、V 2 : Podkreśla, że gdy V 1 się urzeczywistni, V 2 z pewnością nastąpi.\n\nOznacza, że coś się robi lub czegoś się nie robi po zrealizowaniu lub spełnieniu warunku z pierwszej części zdania.",
+    "notes": "Uwaga:\n「と」や「ば」（５８番）より、会話で使うことが多い。１回だけのことに使うことが多い\nW porównaniu z wzorami gramatycznymi と i ば z wzoru gramatycznego 57 ten wzór gramatyczny jest częściej używany w rozmowie. Zwykle dotyczy zdarzeń, które mają miejsce tylko raz\nmeaning_vi: Wyraża, że po zrealizowaniu ~ następuje …. Część ~ nie jest założeniem, lecz czymś, co jest już ustalone i zostanie zrealizowane od tej chwili.\nexamples: 1. ①3時になったら、休みましょう。\nKiedy będzie trzecia, zróbmy przerwę.\n2. ②この学校を卒業したら、何をしますか。\nCo będziesz robić po ukończeniu tej szkoły?\n3. ③お湯が沸いたら、火を止めてください。\nKiedy woda się zagotuje, proszę wyłączyć gaz.\n──────\n1. ①もし水がなかったら、私たちは生きられません。\nGdyby nie było wody, nie moglibyśmy żyć.\n2. ②もし大きい地震が起きたら、すぐ机の下に入ってください。\nJeśli dojdzie do silnego trzęsienia ziemi, proszę natychmiast wejść pod biurko.\n3. ③明日天気が良かったら、どこへ行きませんか。\nJeśli jutro będzie ładna pogoda, może gdzieś pojedziemy?"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 170,
+   "src_hash": "4a7a1b9892adce08",
+   "fields": {
+    "meaning": "Nawet jeśli… | Choćby ~",
+    "examples": [
+     "Nawet jeśli będzie padać, mecz się odbędzie.",
+     "Nawet gdy mam dużo zajęć, staram się uprawiać sport.",
+     "Nawet jeśli on jest przeciwny, będę realizować plan.",
+     "Nawet jeśli coś jest tanie, nie kupuję, jeżeli jest złej jakości.",
+     "Nawet jeśli nie dasz rady przyjść, przynajmniej daj znać.",
+     "Materiałów można zapomnieć, ale proszę przynajmniej przestrzegać czasu."
+    ],
+    "explain": "Y zwykle wyraża wolę/nastawienie mówiącego: 行く／頑張る／続ける／構わない…\nGdy Y jest obiektywnym faktem, również można użyć tego wzoru, jeśli wskazuje się relację „braku wpływu”.\nŁączy się ze słowami podkreślającymi (たとえ／いくら／どんなに／もし), aby zwiększyć siłę założenia/intensywność.\nNależy odróżniać od ～てもいい: dodanie いい zmienia znaczenie na „wolno/nie szkodzi”.\n\n• Główne znaczenie: przyzwolenie/przyzwolenie hipotetyczne „nawet jeśli X, to Y i tak…”; Y nie ulega wpływowi X.\n• Zakres: może dotyczyć samego założenia (jeszcze niezaistniałego) albo stanu faktycznego; inaczej niż のに (fakt już zaistniały, wbrew oczekiwaniom).\n• Częste konstrukcje: たとえ～ても, いくら～ても, もし～ても; Y zwykle wyraża wolę/osąd/czynność nawykową.\n• Warianty oznaczające pozwolenie/brak problemu: ～てもいい (wolno), ～てもかまわない (nie szkodzi).",
+    "notes": "• Wzór przeciwstawnego powiązania w argumentacji: 「Aても、Bと言えない」 służy do zaprzeczenia wnioskowaniu.\n• W reklamach/sloganach: 「どれだけ動いても、快適。」 ma niuans zapewnienia o jakości.\n• Przy łączeniu kilku części zdania wyrażających przyzwolenie: 「安くても、軽くても、丈夫でなければ意味がない。」\nmeaning_vi: Wyraża, że rzeczy ~, które wydawałyby się oczywiste, w rzeczywistości nie następują. Część ~ może być czymś o charakterze twierdzenia, jak w przykładach ①②; może też być stanem faktycznym, jak w przykładzie. Ten wzór zdania występuje ze słowami takimi jak もし・どんなに・いくら albo ze słowem pytającym, jak w przykładach ②④⑤.\nexamples: 1. ①後輩「明日雪がふったら、練習は休みですか。」\n先輩【いや、雪が降っても、休みじゃないよ。」\nMłodszy kolega: „Czy jeśli jutro spadnie śnieg, trening będzie odwołany?”\nStarszy kolega: „Nie, nawet jeśli spadnie śnieg, trening nie będzie odwołany.”\n2. ②もし暑くても、仕事にはスーツを着ていきます。\nNawet jeśli jest gorąco, do pracy chodzę w garniturze.\n3. ③この料理はかんたんです。初めて作っる人でもできます。\nTa potrawa jest prosta. Poradzi sobie z nią nawet ktoś, kto przyrządza ją pierwszy raz.\n4. ④説明が難しくて、何回読んでも、意味が分かりません。\nObjaśnienie jest trudne i bez względu na to, ile razy je czytam, nie rozumiem jego znaczenia.\n5. ⑤山田「ケーキが好きなんでしょう？これ、全部どうぞ。」\nトム「え、いくら好きでも、こんなにたくさんは食べませんよ。」\nYamada: „Lubisz ciasta, prawda? Proszę, to wszystko dla ciebie.”\nTom: „Co? Choćbym nie wiem jak lubił, tyle nie zjem.”",
+    "mistakes": [
+     "Mylenie z のに: jeśli zdanie ma niuans żalu/niezgodności z oczekiwaniami → należy wybrać のに, a nie ても.",
+     "Błędna forma łączenia z な-adj/N: musi być で＋も (きれいでも), a nie にも.",
+     "Mylenie なくても z も…ない – to inna konstrukcja; „nawet jeśli nie” to ～なくても, a nie ～ないでも (z wyjątkiem ograniczonych użyć w języku mówionym).",
+     "JLPT: pułapka てもいい (pozwolenie) vs ても (przyzwolenie). Słowa kluczowe oznaczające pytanie o pozwolenie/OK → てもいい."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Zasadnicza różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～ても",
+       "Nawet jeśli…",
+       "Założenie lub stan faktyczny; Y nie ulega wpływowi.",
+       "<ruby>寒<rt>さむ</rt></ruby>くても<ruby>走<rt>はし</rt></ruby>る。"
+      ],
+      [
+       "～のに",
+       "A mimo to…",
+       "Fakt sprzeczny z oczekiwaniami; wyraża rozczarowanie/niezadowolenie.",
+       "<ruby>寒<rt>さむ</rt></ruby>いのに<ruby>走<rt>はし</rt></ruby>った。"
+      ],
+      [
+       "～てもいい",
+       "Wolno",
+       "Charakter pozwolenia; nie przyzwolenie.",
+       "ここに<ruby>座<rt>すわ</rt></ruby>ってもいい？"
+      ],
+      [
+       "いくら～ても",
+       "Bez względu na to, ile…",
+       "Podkreśla stopień; często łączy się z ない/<ruby>不足<rt>ふそく</rt></ruby>.",
+       "いくら<ruby>食<rt>た</rt></ruby>べても<ruby>太<rt>ふと</rt></ruby>らない。"
+      ],
+      [
+       "たとえ～ても",
+       "Choćby nawet…",
+       "Silnie podkreśla założenie.",
+       "たとえ<ruby>負<rt>ま</rt></ruby>けても<ruby>諦<rt>あきら</rt></ruby>めない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 171,
+   "src_hash": "57b39406b4bdd65b",
+   "fields": {
+    "meaning": "W ~ jest N",
+    "connection": "N (miejsce) + で + N (wydarzenie) + が + あります",
+    "examples": [
+     "Na boisku odbędzie się mecz piłki nożnej."
+    ],
+    "explain": "•　N to słowa oznaczające zdarzenia, wydarzenia, wypadki, na które składa się wiele czynności, np. przyjęcie, konferencja, przestępstwo, klęska żywiołowa…\n•　”あります” używa się w znaczeniu „odbywać się”, „mieć miejsce/zdarzać się”, a miejsce, w którym dane zdarzenie zachodzi, oznacza się za pomocą で.\n\n～で: W"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 172,
+   "src_hash": "09cbe4e3a6469dea",
+   "fields": {
+    "meaning": "na przykład; nawet ~ (子どもでも)",
+    "examples": [
+     "Koniecznie chcę mieć ten obraz. Chcę go kupić, choćby za pożyczone pieniądze.",
+     "Chcę doprowadzić tę transakcję do skutku, nawet kosztem pewnego nadwyrężenia sił.",
+     "Przełożony polecił mi to ukończyć, nawet za cenę działań niezgodnych z prawem.",
+     "Przełożony polecił mi ukończyć tę pracę, choćby trzeba było zarwać noc.",
+     "Ta potrawa wygląda na prostą, więc chyba nawet ja dam radę ją przyrządzić.",
+     "Podobno ten piosenkarz nawet latem śpi z szalem owiniętym wokół szyi."
+    ],
+    "explain": "Podaje propozycję, typowy przykład dla pewnej grupy słów.\nUżywa się, gdy chce się coś zaproponować, zasugerować lub wyrazić wobec kogoś życzenie.\n\nA\nPodaje przykład skrajny lub nieoczywisty, sugerując, że nawet w takim przypadku dany stan lub czynność ma miejsce.\nB\nNajczęściej występuje z połączeniem „1 + klasyfikator” i wyraża przyzwolenie w znaczeniu, że już tyle wystarczy.\nC\nŁagodnie podaje przykład w zdaniu zawierającym propozycję, prośbę, wyrażenie woli itp., aby podać łagodne przykłady.\nD\nCzęsto towarzyszy mu słowo pytające, co wyraża, że chodzi o wszystkie obiekty tego samego rodzaju.",
+    "notes": "explain (oryginał): ◎ Wzór zdania używany przy podawaniu jako przykładu czegoś o niskim stopniu"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 173,
+   "src_hash": "3c4f4abdd2238a94",
+   "fields": {
+    "connection": "Vる / Vない / Nだ / Naだ / Aい + と + [zdanie/zdanie składowe]",
+    "examples": [
+     "W tej okolicy, gdy nadchodzi koniec marca, zakwitają wiśnie. (zjawisko przyrodnicze)",
+     "Po skręceniu za tamtym rogiem jest stacja. (wskazywanie drogi)",
+     "Po naciśnięciu tego przycisku wypada reszta. (obsługa urządzenia)",
+     "Kiedy jest ładna pogoda, z tego okna widać górę Fudżi.",
+     "Nie potrafię się uczyć, jeśli w pokoju nie jest cicho.",
+     "W przypadku grup liczących 20 lub więcej osób obowiązuje zniżka 10%."
+    ],
+    "explain": "Po と następuje coś oczywistego, zdarzenie, które nieuchronnie zachodzi.\nDruga część zdania, po と, nie może wyrażać woli, chęci, prośby, życzenia ani zaproszenia czy wezwania.\n\nA\nWyliczanie rzeczy, osób, zdarzeń.\nB\nWyraża osobę, z którą wspólnie wykonuje się jakąś czynność.\nC\nWyraża obiekt, na który skierowana jest czynność （①）、wyraża punkt odniesienia w porównaniu (②③）.\nD\nPodaje nazwę, treść wypowiedzi, myśli itp.",
+    "notes": "Uwaga:\n後ろに意志、希望、命令、依頼などの表現は続かない\npo nim nie można używać wyrażeń takich jak wola, oczekiwanie, życzenie, prośba.\n1.  X暑いと窓を開けてください。（→暑かったら～）（→５７番）\nX ponieważ jest gorąco, proszę otworzyć okno\n2.  X高校を卒業すると、留学するつもりだ。（高校を卒業したら～）（→５７番）\nX po ukończeniu liceum zamierzam wyjechać na studia za granicę."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

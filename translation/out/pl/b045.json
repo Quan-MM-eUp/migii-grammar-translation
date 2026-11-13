@@ -1,0 +1,598 @@
+{
+ "batch": "b045",
+ "lang": "pl",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 627,
+   "src_hash": "11059d47de1cea8d",
+   "fields": {
+    "meaning": "Dla…, z myślą o…",
+    "examples": [
+     "To jest program dla dzieci.",
+     "Terminy wyjaśniono przystępnie z myślą o początkujących.",
+     "Ten produkt jest przeznaczony dla firm.",
+     "Zmieniamy specyfikację na wersję przeznaczoną na rynki zagraniczne.",
+     "Zamieszczono reklamę w czasopiśmie dla kobiet.",
+     "W tej fabryce produkuje się głównie samochody na rynek amerykański."
+    ],
+    "explain": "Często używane w marketingu, instrukcjach obsługi, segmentacji użytkowników.\nNeutralne/formalne; może występować samodzielnie jako przydawka:学生向け割引.\nAdresat może być określony szeroko (海外向け) lub wąsko (上級者向け).\n\n• Wskazuje cel, do którego coś jest „skierowane” lub dla którego zostało „zaprojektowane”: konkretna grupa/konkretny adresat.\n• Niuans zamiaru producenta/twórcy: „skierować produkt/treść w stronę…”.\n• W odróżnieniu od ～向き (odpowiedni): ～向け to „ukierunkowany, przeznaczony specjalnie”; ～向き to „ogólnie odpowiedni”.",
+    "notes": "1) Łatwo pomylić ～向け i ～向き.\n→ ～向け oznacza „przeznaczony dla adresata/skierowany do niego”; zwykle chodzi o produkt, informację, usługę skierowane do N.\n2) W danych występują 2 użycia (ghichu=1 i ghichu=2).\n→ Znaczenie „przeznaczony dla” różni się od „zmierzania do celu” (～に向けて).\n3) Należy sprawdzić, co stoi po tym wyrażeniu.\n→ Jeśli jest to „produkt/materiał przeznaczony dla kogoś”: ～向け.\n→ Jeśli jest to „działanie zmierzające do celu”: ～に向けて.\nexplain: ◎ Sposób wyrażenia, że dana rzecz jest odpowiednia dla określonego rodzaju osób.\nexamples: 1. これは女性向けの雑誌です。\nTo jest czasopismo dla kobiet.\n2. このホテルは、旅行者向けのサイトで見つけました。\nTen hotel udało mi się znaleźć na stronie internetowej dla podróżnych.",
+    "mistakes": [
+     "Mylenie z ～向き: możliwe są zarówno 子供向き, jak i 子供向け, ale 向け podkreśla „skierowanie do/zaprojektowanie dla”.",
+     "Mylenie z ～行き: X 東京向けの電車 → powinno być 東京行きの電車.",
+     "Użycie 向け do doraźnej, osobistej czynności: X 私向けに席を取って → brzmi dziwnie; lepiej: 私のために席を取って."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～<ruby>向<rt>む</rt></ruby>き",
+       "Odpowiedni dla",
+       "Naturalnie pasująca cecha/predyspozycja; niekoniecznie zaprojektowane z myślą o tym.",
+       "この<ruby>靴<rt>くつ</rt></ruby>は<ruby>登山<rt>とざん</rt></ruby><ruby>向<rt>む</rt></ruby>きだ。"
+      ],
+      [
+       "～<ruby>用<rt>よう</rt></ruby>",
+       "Do użytku/ do stosowania",
+       "Wyraźnie wskazuje konkretny cel użycia przedmiotu; bardziej fizyczne.",
+       "<ruby>業務<rt>ぎょうむ</rt></ruby><ruby>用<rt>よう</rt></ruby><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>。"
+      ],
+      [
+       "～<ruby>向<rt>む</rt></ruby>け",
+       "Dla/ skierowany do",
+       "Celowe ukierunkowanie na grupę osób/ rynek.",
+       "<ruby>子供<rt>こども</rt></ruby><ruby>向<rt>む</rt></ruby>けの<ruby>映画<rt>えいが</rt></ruby>。"
+      ],
+      [
+       "～<ruby>向<rt>む</rt></ruby>かう（<ruby>動詞<rt>どうし</rt></ruby>）",
+       "Kierować się ku/ zmierzać do",
+       "Czasownik oznaczający kierunek ruchu; zupełnie inna funkcja niż nominalizacja w ～<ruby>向<rt>む</rt></ruby>け.",
+       "<ruby>駅<rt>えき</rt></ruby>に<ruby>向<rt>む</rt></ruby>かう。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 628,
+   "src_hash": "a8278c8e6229e135",
+   "fields": {
+    "meaning": "W trakcie, w samym środku",
+    "examples": [
+     "W samym środku zebrania zadzwonił telefon.",
+     "W trakcie pisania egzaminu zabrakło prądu.",
+     "Proszę nie wstawać od stołu w trakcie posiłku.",
+     "W samym środku prezentacji nie dało się znaleźć materiałów.",
+     "W trakcie robót zaczął padać deszcz."
+    ],
+    "explain": "Używane zarówno w języku mówionym, jak i w języku pisanym; nieco bardziej formalne niż ～間に.\nPierwsza część zdania ustala moment „bycia w toku”, a druga część zdania to zwykle zdarzenie, które się wtrąca.\nNienaturalne, gdy jest to czasownik stanu, np.知っている・分かっている; preferowane są czynności/działania.\nCzęsto łączy się z rzeczownikami oznaczającymi działania:会議・授業・試合・手術・面接・作業.\n\n• „Właśnie w chwili, gdy trwa…, to… (zwykle coś, co przerywa/jest niepożądane)”\n• Podkreśla kulminacyjny moment czynności/działania, mocniej niż ～間に.\n• Zwykle używane z czynnościami krótkimi/ograniczonymi w czasie (会議・試験・食事), rzadko z długotrwałymi stanami statycznymi.\n• Druga część zdania to często awaria, przeszkoda, wiadomość budząca zaskoczenie; może to być jednak także zdarzenie neutralne.",
+    "notes": "• Forma „最中だ/です” często służy do zarysowania tła sytuacji: 会議の最中です。\n• W języku uprzejmym: ～最中にございます jest rzadko używane; lepiej pozostać przy ～最中に/～最中です.\n• Aby podkreślić, że czegoś nie należy robić: ～最中に…しないでください／～最中はご遠慮ください。\nmeaning_vi: Gdy trwa dana czynność, właśnie wtedy... (Wyraża sytuację, w której zdarza się coś nieprzewidzianego.)\nexamples: 1. ①　シャワーを浴びている最中に\nW trakcie brania prysznica...\n2. ②　シャワーを浴びている最中に、客が来た。\nW trakcie brania prysznica przyszedł gość.\n3. ③　引っ越しの最中に雨が降り出した。\nW trakcie przeprowadzki zaczął padać deszcz. | Forma kończąca zdanie: ～最中だ",
+    "mistakes": [
+     "Pominięcie „の” przy rzeczowniku: niepoprawnie „会議最中に” → poprawnie „会議の最中に”.",
+     "Użycie z V w formie słownikowej: niepoprawnie „食事する最中に” → poprawnie „食事している最中に”.",
+     "Zastosowanie do stanu statycznego (知っている最中に) jest nienaturalne.",
+     "Mylenie z ～間に: na egzaminie często sprawdza się rozróżnienie niuansu „właśnie w chwili” vs „w przedziale”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～<ruby>最中<rt>さいちゅう</rt></ruby>に",
+       "Właśnie w trakcie…",
+       "Punkt środkowy, kulminacja; silny charakter wtrącenia",
+       "<ruby>試験<rt>しけん</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>雨<rt>あめ</rt></ruby>"
+      ],
+      [
+       "～<ruby>間<rt>かん</rt></ruby>に",
+       "W ciągu (przedziału czasu)",
+       "Nie akcentuje samego punktu środkowego",
+       "<ruby>休<rt>やす</rt></ruby>みの<ruby>間<rt>ま</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>"
+      ],
+      [
+       "Vるところに/で/を",
+       "Tuż przed/w trakcie/tuż po",
+       "Precyzuje moment; niuans neutralny",
+       "<ruby>出<rt>で</rt></ruby>かけるところに<ruby>電話<rt>でんわ</rt></ruby>"
+      ],
+      [
+       "～<ruby>途中<rt>とちゅう</rt></ruby>で",
+       "W drodze/w połowie",
+       "Nacisk na przebieg, niekoniecznie kulminacja",
+       "<ruby>帰<rt>かえ</rt></ruby>る<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>雨<rt>あめ</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 629,
+   "src_hash": "22ca7bea20039acc",
+   "fields": {
+    "meaning": "Nieco…, jakby…",
+    "examples": [
+     "Ostatnio w pracy jest trochę za dużo zajęć i brakuje mi snu.",
+     "Z powodu deszczu rozpoczęcie meczu nieco się opóźnia.",
+     "Na zebraniach on zawsze jest trochę spięty.",
+     "Czuję lekkie przeziębienie, więc dziś wrócę wcześniej do domu.",
+     "Od przejadania się zaczynam lekko przybierać na wadze.",
+     "Czuję lekkie zmęczenie."
+    ],
+    "explain": "Budowa: N/ temat Vます bezpośrednio +気味; nie przyjmuje przymiotników い/な.\nStopień: „odrobinę/dość”, a nie silnie; przy dużym nasileniu używa się ～気がする, ～っぽい, ～過ぎ, ～ぎみでもない.\nKontekst: od neutralnego po uprzejmy; można używać w pracy przy opisywaniu sytuacji.\nZwykle łączy się ze słownictwem, które ma lekko negatywny wydźwięk:疲れ,太り,不足,下降,遅れ; pozytywny wydźwięk jest rzadszy (上向き気味istnieje, ale jest rzadkie).\n\n• „Trochę, z poczuciem, że”: wyraża niewielki stopień, coś jeszcze niewyraźnego, przy czym istnieje tendencja do pojawiania się.\n• Zakres znaczenia: zwykle stosowane do stanu ciała (疲れ気味, 太り気味), psychiki (緊張気味, 焦り気味), sytuacji (遅れ気味, 下降気味).\n• W dużym stopniu obiektywne: mówi się jak przy obserwacji siebie/innych, bez mocnego osądu.\n• W odróżnieniu od っぽい: 気味 akcentuje „lekka obecna tendencja”, っぽい akcentuje „cecha podobieństwa/skłanianie się ku czemuś, niekiedy subiektywnie, język mówiony”.",
+    "notes": "• Pisownia łączna/rozdzielna: 忙し気味／忙しぎみ – spotyka się obie; zapis hiraganą ぎみ jest powszechny w materiałach do nauki.\n• W przypadku utartych kango: 目つきが悪い vs 目つき気味(rzadkie) → pierwszeństwo mają dobrze znane rzeczowniki oznaczające stan.\n• W języku mówionym można używać z lekką przesadą wraz z przysłówkiem: ちょっと疲れ気味, 少し太り気味. meaning_vi: Jakby, trochę, mieć wrażenie, że ⏐ explain: Wyraża znaczenie „występuje taki stan, istnieje taka tendencja”Zwykle używane w przypadkach o złym znaczeniu. ⏐ examples: 1. 残業続きで、疲れ気味だ。\nPrzez ciągłe nadgodziny czuję lekkie zmęczenie.\n2. 新入社員は緊張気味の顔をしていた。\nNowy pracownik miał nieco spiętą minę.",
+    "mistakes": [
+     "Niepoprawne połączenie z daną częścią mowy: × 寒い気味 → Poprawnie: 寒気味 jest nienaturalne; używa się 寒気がする／寒がりだ.",
+     "Mylenie stopnia: 気味 oznacza tylko „trochę”; aby powiedzieć mocno „bardzo zmęczony”, używa się すごく疲れている, 疲れすぎだ, ぐったりだ.",
+     "Mylenie z ～がち: 遅れ気味 (nieco opóźniony) ≠ 遅れがち (często się opóźnia).",
+     "JLPT: pytania-pułapki z wyborem między 気味/っぽい/がち na podstawie niuansu „lekko – często – podobnie”."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～<ruby>気味<rt>ぎみ</rt></ruby>",
+       "Trochę/tendencja (lekka)",
+       "Obiektywne, używane z N/Vます",
+       "<ruby>疲<rt>つか</rt></ruby>れ<ruby>気味<rt>ぎみ</rt></ruby>"
+      ],
+      [
+       "～っぽい",
+       "Podobny do/skłaniający się ku",
+       "Język mówiony, subiektywne, szeroka łączliwość",
+       "<ruby>子供<rt>こども</rt></ruby>っぽい／ミスしがちっぽい(×)"
+      ],
+      [
+       "～がち",
+       "Często (powtarzająca się tendencja)",
+       "Mocniejsze niż <ruby>気味<rt>きみ</rt></ruby>, ma zabarwienie negatywne",
+       "<ruby>遅<rt>おく</rt></ruby>れがち／<ruby>病気<rt>びょうき</rt></ruby>がち"
+      ],
+      [
+       "～<ruby>気<rt>き</rt></ruby>がする",
+       "Mieć odczucie",
+       "Akcentuje subiektywne odczucie, pełne zdanie składowe",
+       "<ruby>疲<rt>つか</rt></ruby>れている<ruby>気<rt>き</rt></ruby>がする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 630,
+   "src_hash": "c48f99200e922ab1",
+   "fields": {
+    "meaning": "Jest zaplanowane, postanowione, że ～",
+    "examples": [
+     "Jutro ma się tu odbyć uroczystość ukończenia szkoły.",
+     "Ustalono, że 60 punktów i więcej oznacza zaliczenie.",
+     "Jutro ma się odbyć zebranie w sprawie nowego projektu.",
+     "Zapadła decyzja, że niedługo przenoszę się służbowo do Osaki."
+    ],
+    "explain": "Używane, gdy chce się podkreślić, że o danej sprawie nie decyduje sam wykonawca czynności, lecz wynika ona z oddziaływania, ustaleń, polecenia innych osób lub innych czynników"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 631,
+   "src_hash": "18e5c5eff8e2e0a5",
+   "fields": {
+    "meaning": "Gdy tylko (coś się zrobi), to….",
+    "examples": [
+     "Tuż po otwarciu okna do środka wdarł się silny wiatr.",
+     "Zaraz po wypiciu alkoholu twarz zrobiła się czerwona."
+    ],
+    "explain": "Używane w sytuacji, gdy jakieś zdarzenie następuje natychmiast po wykonaniu pewnej czynności.\nW drugiej części zdania nie stosuje się żadnego wzoru zdania o znaczeniu czynnym (czasownik przechodni) ani formy kauzatywnej czy wyrażającej obowiązek"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 632,
+   "src_hash": "ae32abbcd7591622",
+   "fields": {
+    "meaning": "Gdy…, podczas…",
+    "examples": [
+     "Przy rejestracji prosimy o okazanie dokumentu tożsamości.",
+     "Po przybyciu do naszej firmy prosimy podać nazwisko w recepcji.",
+     "Przy wjeździe do Japonii wymagany jest ten dokument.",
+     "Podczas korzystania z usługi prosimy koniecznie zmienić hasło.",
+     "W razie wystąpienia klęski żywiołowej prosimy nie korzystać z windy."
+    ],
+    "explain": "Do „際（に）” dodaje się „は/には”, aby zaakcentować temat: ～際には (mocniejsze podkreślenie niż ～際に).\nZwykle stoi w pierwszej części zdania, a druga część zdania to instrukcja, przepis, uprzejma prośba.\nCzęsto spotykane rzeczowniki: ご利用／ご来場／ご来店／ご乗車／入学／登録／申請／購入／訪問。\nNie używa się, gdy chodzi o chwilowe, bardzo codzienne emocje; w zwyczajnych sytuacjach stosuje się とき.\n\n• Wskazuje moment, w którym zachodzi czynność/zdarzenie, odpowiada „kiedy/gdy”, ale ma charakter formalny; często używane w instrukcjach, na tablicach informacyjnych, w firmowych e-mailach.\n• Zwykle towarzyszą mu wyrażenia takie jak prośba, uwaga, zakaz: ご注意ください／ご連絡ください／持参してください／ご遠慮ください。\n• Nie używa się w odniesieniu do codziennych nawyków ani potocznie w rozmowie; zastępuje się przez とき.",
+    "notes": "• „際” czyta się さい; nie należy mylić z きわ (znaczenie „brzeg, skraj”). W tym wzorze gramatycznym czyta się wyłącznie さい.\n• „際は/際には” często pojawia się w formularzach/na tablicach informacyjnych; dodanie には daje podkreślenie i bardziej formalny ton.\n• Często spotykane pary 敬語: ごV-ます＋の際（に）／V-辞＋際（に）＋お/ご～ください。\n• Wariant: ～際（に）は",
+    "mistakes": [
+     "Użycie w rozmowie prowadzonej potocznie brzmi sztywno: × 映画を見る際にポップコーン買う？ → とき jest bardziej naturalne.",
+     "Pominięcie „には”, gdy potrzebne jest podkreślenie: ご利用の際には jest lepsze niż ご利用の際, gdy chce się wyrazić uprzejmie/z naciskiem.",
+     "Mylenie z 場合: w znaczeniu „w przypadku wystąpienia problemu” należy użyć 場合, a nie 際.",
+     "JLPT: łatwo pomylić ～折に (bardzo uprzejme) z ～際に; uwaga na kontekst listów/kartek okolicznościowych."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "～<ruby>際<rt>ぎわ</rt></ruby>に",
+       "Gdy (formalne)",
+       "Pisma, komunikaty, uprzejma prośba",
+       "ご<ruby>利用<rt>りよう</rt></ruby>の<ruby>際<rt>さい</rt></ruby>に～"
+      ],
+      [
+       "～とき",
+       "Gdy (neutralne)",
+       "Powszechne, używane w każdym kontekście",
+       "<ruby>暇<rt>ひま</rt></ruby>なとき～"
+      ],
+      [
+       "～<ruby>折<rt>おり</rt></ruby>（に）",
+       "Gdy (bardzo uprzejme, wytworne)",
+       "Bardziej formalne, eleganckie (listy)",
+       "<ruby>上京<rt>じょうきょう</rt></ruby>の<ruby>折<rt>おり</rt></ruby>に～"
+      ],
+      [
+       "～<ruby>場合<rt>ばあい</rt></ruby>（は）",
+       "W przypadku",
+       "Wprowadza ogólny warunek/wyjątek",
+       "<ruby>紛失<rt>ふんしつ</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>は～"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 633,
+   "src_hash": "1ebac67e0106d8ec",
+   "fields": {
+    "meaning": "～の可能性もある\nIstnieje też możliwość, że…; nie jest tak, że się nie da…",
+    "examples": [
+     "Nie jest tak, że tego nie jem, ale niezbyt to lubię.",
+     "Rzucić alkohol i papierosy jest trudno, ale nie jest to niemożliwe.",
+     "Nie jest tak, że nie jem kurczaka, ale niespecjalnie go lubię.",
+     "„Jeśli pobiegniemy, to nie jest wykluczone, że zdążymy. Pospieszmy się!”"
+    ],
+    "explain": "Używane, gdy chce się powiedzieć, że mówiący nie zaprzecza danej sprawie czy rzeczy, lecz chce wskazać powód/ stopień niższy niż przeczenie"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 634,
+   "src_hash": "2a6229c0060f4a5d",
+   "fields": {
+    "meaning": "Ani trochę nie…",
+    "examples": [
+     "Ani trochę nie boli, więc się nie martw.",
+     "Jego wyjaśnienie ani trochę nie jest trudne.",
+     "Ten film ani trochę nie był ciekawy.",
+     "Mimo zmęczenia on ani trochę nie próbuje odpocząć.",
+     "Wygląda na to, że ona ani trochę mnie nie podejrzewa."
+    ],
+    "explain": "少しも/すこしも stawia się przed wyrazem, którego dotyczy negacja, dla podkreślenia „ani odrobinę nie”.\nPasuje zarówno do języka pisanego, jak i do języka mówionego; ちっとも〜ない to raczej język mówiony, mowa potoczna.\nMoże mu towarzyszyć czas przeszły/możliwość/wola:少しもできなかった／少しも行く気がしない.\n\n• „Ani trochę nie…/ani odrobinę nie…”. Podkreśla stopień równy 0.\n• Służy do wyrażenia przeczenia całkowitego wobec odczucia/stanu/czynności.\n• W porównaniu z 全然〜ない/まったく〜ない: natężenie słabsze niż まったく, równe lub słabsze niż 全然 zależnie od kontekstu.\n• Pisownia: zarówno 少しも, jak i すこしも są poprawne; 少しも zwykle stosuje się w języku pisanym.",
+    "notes": "• W środku można wstawić wyraz wzmacniający: 少しも全く覚えていない（język pisany, podwójne podkreślenie）.\n• W komunikacji, która ma być uprzejma, należy unikać nadużywania wobec rozmówcy, aby nie sprawiać wrażenia skrajności.\n• Forma pytania retorycznego: 少しも悪くない？（Ani trochę nie jest złe, prawda?）",
+    "mistakes": [
+     "Użycie z twierdzeniem: 少しも wymaga przeczenia. 誤）少しも大丈夫 → 正）少しも大丈夫ではない。",
+     "Mylenie stopnia: まったく＞全然≧少しも＞ちっとも（orientacyjnie; zależnie od kontekstu).",
+     "Błąd w pisowni: すくしも× → すこしも／少しも〇.",
+     "Niewłaściwe miejsce w zdaniu: musi stać przed elementem, którego dotyczy negacja, aby działać z pełną siłą."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Niuans",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "<ruby>少<rt>すこ</rt></ruby>しも〜ない",
+       "Ani trochę nie",
+       "Powszechne, neutralne",
+       "<ruby>少<rt>すこ</rt></ruby>しも<ruby>寒<rt>さむ</rt></ruby>くない"
+      ],
+      [
+       "ちっとも〜ない",
+       "Ani odrobinę nie (język mówiony)",
+       "Mowa potoczna, niekiedy ma niuans narzekania",
+       "ちっとも<ruby>良<rt>よ</rt></ruby>くならない"
+      ],
+      [
+       "<ruby>全然<rt>ぜんぜん</rt></ruby>〜ない",
+       "Zupełnie nie",
+       "Mocne, powszechne; współcześnie można używać z twierdzeniem (język mówiony)",
+       "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>分<rt>わ</rt></ruby>からない"
+      ],
+      [
+       "まったく〜ない",
+       "Zupełnie nie",
+       "Bardziej formalne, duża siła",
+       "まったく<ruby>興味<rt>きょうみ</rt></ruby>がない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 635,
+   "src_hash": "38a72b8d7f43d724",
+   "fields": {
+    "meaning": "Dlatego, w związku z tym",
+    "connection": "[zdanie/zdanie składowe]。ですから、[zdanie/zdanie składowe]",
+    "examples": [
+     "Pogoda jest zła. Dlatego dzisiaj nie wychodzę z domu.",
+     "Jestem tu od niedawna, więc wielu rzeczy jeszcze nie wiem.",
+     "Egzamin jest jutro, więc proszę wcześnie położyć się spać.",
+     "To jest strefa niebezpieczna. Dlatego prosimy nie wchodzić.",
+     "To on jest osobą odpowiedzialną, więc lepiej skonsultować się z nim bezpośrednio.",
+     "Popyt rośnie. Dlatego zwiększymy produkcję."
+    ],
+    "explain": "Używane przy przedstawianiu rozumowania, w prezentacjach, służbowych e-mailach: „A (informacja). ですから、B (wniosek/zalecenie)”.\nW rozmowie ですから może otwierać odpowiedź: „ ですから、先ほど申し上げたとおり…”.\nW porównaniu z だから: bardziej uprzejme, mniej bezpośrednie; pasuje do formalnych okoliczności.\nNie używa się, gdy okazuje się silne emocje; gdy trzeba podkreślić twardą argumentację, stosuje się したがって.\nWewnątrz zdania „Aですから、B” występuje zwykle, gdy A to rzeczownik/na-adj; gdy jest to czasownik/い-adj, używa się ～から/～ので: 「雨が降る から、…」.\n\n• Główne znaczenie: Podaje wniosek/rezultat oparty na właśnie podanej informacji/warunku: „dlatego/więc/w związku z tym”.\n• Stopień uprzejmości: Bardziej uprzejme niż だから; często używane w prezentacjach, wiadomościach, eleganckim języku pisanym.\n• Pozycja: Zwykle stoi na początku zdania składowego wyrażającego rezultat, oddzielone od zdania składowego podającego powód (poprzednie zdanie).\n• Rozróżnienie 2 użyć:\n\nSamodzielny spójnik: 「A。ですから、B。」\nPołączenie wewnątrz zdania: 「Aですから、B。」 (A to rzeczownik/na-adj + です)\n\n• Samodzielny spójnik: 「A。ですから、B。」\n• Połączenie wewnątrz zdania: 「Aですから、B。」 (A to rzeczownik/na-adj + です)\n• Niuans: Obiektywna, uprzejma argumentacja; silne/nadmiernie osobiste emocje są niewskazane.",
+    "notes": "• Gdy prośba ma zostać złagodzona: 「危険ですから、こちらへお願いします。」 brzmi bardziej uprzejmie niż 「危ないから…」.\n• W dyskusji rozpoczęcie zdania od ですから w celu wprowadzenia wniosku nadaje wywodowi spójność i pozwala uniknąć nagłej „zmiany kursu”.\n• Zamiast powtarzać raz za razem ですから, warto przeplatać je z それで/したがって, aby tekst był naturalny. explain: Używane w zdaniu wyrażającym rezultat, następstwo poprzedniego zdania. Zdanie bezpośrednio poprzedzające zwykle podaje powód, osąd, oczywisty rezultat ⏐ examples: 1. 「天気予報では午後から雨だそうです。ですから、傘を持っていったほうがいいですよ。」\nWedług prognozy pogody od popołudnia ma podobno padać. Dlatego lepiej wziąć ze sobą parasol.\n2. 明日から旅行に行きます。ですから、申し訳ありませんが、来週のパーテイーには出席できません。\nOd jutra wyjeżdżam w podróż. Dlatego, bardzo przepraszam, ale nie uda mi się wziąć udziału w przyjęciu w przyszłym tygodniu",
+    "mistakes": [
+     "Użycie ですから w kontekście mowy potocznej między przyjaciółmi → brzmi z dystansem; lepiej użyć だから/それで.",
+     "Mylenie „Aです。ですから、B。” z „Aだから、B。” Gdy A to rzeczownik/na-adj, oba są możliwe, ale niuans jest inny.",
+     "Użycie ですから do podania mocno subiektywnego powodu (złość) → nieodpowiednie; lepiej użyć だって/だもん, które niosą emocje.",
+     "JLPT: pułapka w rozróżnianiu それで vs ですから (oba tłumaczy się jako „dlatego”): それで skłania się ku następstwu zdarzeń; ですから akcentuje logiczny wniosek."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Główna różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "ですから",
+       "Dlatego, w związku z tym",
+       "Uprzejme; używane jako spójnik albo „Aですから、B”.",
+       "<ruby>雨<rt>あめ</rt></ruby>です。ですから、<ruby>中止<rt>ちゅうし</rt></ruby>です。"
+      ],
+      [
+       "だから",
+       "Dlatego",
+       "Mowa potoczna, język mówiony; niekiedy obcesowe.",
+       "<ruby>遅<rt>おく</rt></ruby>れる。だから<ruby>先<rt>さき</rt></ruby>に<ruby>行<rt>い</rt></ruby>って。"
+      ],
+      [
+       "それで",
+       "Dlatego/no i",
+       "Łączy następujące po sobie zdarzenia; ciąży bardziej ku związkowi faktów niż ku logicznemu powodowi.",
+       "<ruby>雨<rt>あめ</rt></ruby>だった。それで、<ruby>家<rt>いえ</rt></ruby>にいた。"
+      ],
+      [
+       "したがって",
+       "W związku z tym (bardzo formalne)",
+       "Język pisany, naukowy/prawniczy; mocne rozumowanie.",
+       "<ruby>需要<rt>じゅよう</rt></ruby><ruby>増<rt>ぞう</rt></ruby>。したがって、<ruby>価格<rt>かかく</rt></ruby><ruby>上昇<rt>じょうしょう</rt></ruby>。"
+      ],
+      [
+       "～ので／～から",
+       "Ponieważ…, więc…",
+       "Połączenie wewnątrz zdania podające bezpośredni powód.",
+       "<ruby>雨<rt>あめ</rt></ruby>なので<ruby>中止<rt>ちゅうし</rt></ruby>します。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 636,
+   "src_hash": "3c6f2028a6b04644",
+   "fields": {
+    "meaning": "Bez względu na to, jak bardzo",
+    "examples": [
+     "Bez względu na to, jak bardzo dokucza mi zmęczenie, dotrzymuję obietnic.",
+     "Bez względu na to, ile ćwiczę, jakoś nie robię postępów.",
+     "Bez względu na to, jak dużo mam zajęć, czas spędzany z rodziną jest ważny.",
+     "Zamierzam to kupić bez względu na to, jak będzie drogie.",
+     "Bywa, że bez względu na to, jak długo się tłumaczy, przekaz nie dociera.",
+     "Bez względu na to, jak wielki czuję niepokój, chcę spróbować podjąć wyzwanie."
+    ],
+    "explain": "Podkreślenie można uzyskać, używając いくら／どれほど zamiast どんなに (podobny niuans).\nDruga część zdania to zwykle zdanie składowe, w którym twierdzenie wyraża stanowisko/wolę, lub ogólny osąd.\nPasuje zarówno do języka mówionego, jak i do języka pisanego; niesie niuans „bez względu na jakikolwiek stopień”.\n\n• Skrajne przyzwolenie: „choćby… nie wiem jak bardzo, to… (rezultat/pogląd się nie zmienia)”.\n• Podkreślenie za pomocą どんなに: obejmuje każdy stopień, każdy sposób.\n• Druga część zdania zwykle wyraża niezmienny rezultat/wolę/ocenę; często ma niuans stałości, trudności w zmianie.",
+    "notes": "• Można powtórzyć: どんなにどんなに…, ale zwykle unika się powtórzenia, aby nie brzmiało to ciężko.\n• Przeczenie w drugiej części zdania nie jest koniecznością; zarówno twierdzenie, jak i przeczenie są powszechne, zależnie od treści.\n• Połączenie z czasownikiem wyrażającym możliwość dla podkreślenia „mimo wszelkich starań”: どんなに頑張ってもできない。",
+    "mistakes": [
+     "Mylenie z ～ことか: jedno to warunek, drugie to wykrzyknienie.",
+     "Niepoprawna forma wyrazu: Aい→Aくても; Aな→Aでも; N→Nでも; V→Vてでも? (inny wzór, nie mylić).",
+     "Pominięcie も: musi wystąpić „ても/でも”; brak „も” to niepoprawna konstrukcja."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Krótki przykład"
+     ],
+     "rows": [
+      [
+       "どんなに～ても",
+       "Bez względu na to, jak…",
+       "Obejmuje każdy stopień",
+       "どんなに<ruby>遅<rt>おそ</rt></ruby>くても<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "いくら～ても",
+       "Bez względu na to, ile…",
+       "Akcentuje ilość/wartość (pieniądze, liczba razy…)",
+       "いくら<ruby>待<rt>ま</rt></ruby>っても<ruby>来<rt>こ</rt></ruby>ない"
+      ],
+      [
+       "たとえ～ても",
+       "Nawet gdyby…",
+       "Wyraz sygnalizujący mocne założenie, bardziej formalne",
+       "たとえ<ruby>失敗<rt>しっぱい</rt></ruby>しても<ruby>諦<rt>あきら</rt></ruby>めない"
+      ],
+      [
+       "～のに",
+       "Mimo że (faktycznie)",
+       "To nie założenie, wskazuje sprzeczność",
+       "<ruby>説明<rt>せつめい</rt></ruby>したのに<ruby>伝<rt>つた</rt></ruby>わらない"
+      ],
+      [
+       "～ことか",
+       "Wykrzyknienie „jakże”",
+       "Inna funkcja: wykrzyknienie, nie warunek",
+       "どんなに<ruby>嬉<rt>うれ</rt></ruby>しかったことか"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 637,
+   "src_hash": "ceffb5ce4229f44b",
+   "fields": {
+    "meaning": "Język mówiony: odpowiednik konstrukcji 「なければならない／なくてはいけない」",
+    "connection": "Vなければならない → Vなきゃ・Vなく(っ)ちゃ / Vないと（język mówiony）",
+    "examples": [
+     "Trzeba kupić.",
+     "Do jutra muszę napisać referat.",
+     "O, już ósma. Muszę się powoli zbierać do wyjścia.",
+     "Od jutra używamy nowego podręcznika, więc muszę go dzisiaj kupić."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 638,
+   "src_hash": "3728f6fbd2896a56",
+   "fields": {
+    "meaning": "Zupełnie nie",
+    "examples": [
+     "Zupełnie nie rozumiem, o czym on mówi.",
+     "To zadanie zupełnie nie jest trudne.",
+     "Ona zupełnie nie dotrzymuje obietnic.",
+     "Zupełnie nie pamiętam tego, co było wczoraj.",
+     "Takie rzeczy zupełnie mnie nie interesują."
+    ],
+    "explain": "まったく zwykle stoi przed częścią zawierającą przeczenie, dla podkreślenia znaczenia „ani trochę nie”.\nMożna używać na wielu poziomach języka, od mowy potocznej po język pisany.\nJeśli nie łączy się z ～ない, lecz z przymiotnikiem, który ma pozytywny wydźwięk (まったく素晴らしい), znaczenie zmienia się na „doprawdy…”, „rzeczywiście…”.\nW rozmowie, gdy występuje samodzielnie „まったく！” → ma znaczenie narzekania: „Nie do wytrzymania!”, „No naprawdę!”.\n\n•\nまったく～ない służy do podkreślenia stopnia, jest to stanowcze przeczenie: „zupełnie nie…”, „wcale nie…”, „ani trochę nie…”.\n\n• Zwykle łączy się z czasownikiem, przymiotnikiem lub rzeczownikiem w formie przeczenia: ～ない・～くない・～ではない.\n• Ma mocny niuans, niekiedy wyraża zaskoczenie, narzekanie lub rozczarowanie.",
+    "notes": "• W języku pisanym zamiast まったく można używać zapisu znakami kanji 全く.\n• Przy znaczeniu, które ma pozytywny wydźwięk (まったく～だ), należy w tłumaczeniu wyraźnie to rozróżnić, aby uniknąć nieporozumień.\n• Przykład: まったく君は… → „Doprawdy, ty… (z lekkim wyrzutem)”. explain: Używane jako twierdzenie, że dana rzecz lub sprawa zupełnie nie istnieje, nie może się zdarzyć. ⏐ examples: 1. 私はまったく泳げない。\nZupełnie nie umiem pływać\n2. 彼が怒っている理由は、私にはまったくわからない。\nPowód, dla którego on się złości, jest dla mnie zupełnie niezrozumiały\n3. 前とは違うまったく新しい計画を立てた。\nPowstał zupełnie nowy plan, inny niż poprzedni",
+    "mistakes": [
+     "Mylenie z ぜんぜん → まったく sprawia mocniejsze wrażenie, ani trochę nie.",
+     "Użycie まったく z wyrazem bez przeczenia → znaczenie zmienia się na „doprawdy…”, nie jest to już przeczenie.",
+     "JLPT często sprawdza niuans: まったく～ない vs 全然～ない."
+    ],
+    "comparison": {
+     "headers": [
+      "Wzór",
+      "Znaczenie",
+      "Różnica",
+      "Przykład"
+     ],
+     "rows": [
+      [
+       "まったく～ない",
+       "Zupełnie nie…",
+       "Mocny stopień, absolutnie nie.",
+       "まったく<ruby>分<rt>わ</rt></ruby>からない。"
+      ],
+      [
+       "ぜんぜん～ない",
+       "Ani trochę nie…",
+       "Bardziej język mówiony, często używane w życiu codziennym.",
+       "ぜんぜん<ruby>分<rt>わ</rt></ruby>からない。"
+      ],
+      [
+       "<ruby>少<rt>すこ</rt></ruby>しも／ちっとも～ない",
+       "Ani odrobinę nie…",
+       "Używane dla podkreślenia „ani trochę nie”.",
+       "<ruby>少<rt>すこ</rt></ruby>しも<ruby>変<rt>か</rt></ruby>わっていない。"
+      ],
+      [
+       "<ruby>全<rt>まった</rt></ruby>く～ない（<ruby>漢字<rt>かんじ</rt></ruby>）",
+       "Zapis まったく znakami kanji",
+       "Używane w języku pisanym, w prasie.",
+       "<ruby>全<rt>まった</rt></ruby>く<ruby>興味<rt>きょうみ</rt></ruby>がない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}
