@@ -1,0 +1,723 @@
+{
+ "batch": "b012",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 174,
+   "src_hash": "12a824ab116ae25f",
+   "fields": {
+    "meaning": "Quando, no momento em que  ~ | Quando, no momento em que",
+    "connection": "V forma simples + とき / N + の / Na + な / Aい",
+    "examples": [
+     "Quando tomo café, coloco açúcar.",
+     "Quando se está doente, é preciso tomar remédio.",
+     "Quando vou ao Japão, levo meu passaporte.",
+     "Quando fui ao Japão, fiz turismo em Kyoto.",
+     "Quando estou livre, assisto a filmes.",
+     "Quando eu era criança, brincava muito no parque."
+    ],
+    "explain": "Enfatiza o momento em que um fato ocorre ou uma ação é realizada.\nEspecialmente com verbos:\nAo usar とき, considera-se a ordem das ações para conjugar V 1 na forma adequada.\n\nV 1 た  : depois de V1, V2 （V 1 ocorre antes）\nV 1 る  : antes de V1, V2 （V 1 ocorre depois）\nれ い１ ：\n部屋を　出たとき、ドアを　閉めます。\n(Depois de) sair do quarto, fecho a porta.\nO verbo que acompanha とき está na forma た (出た), por isso entende-se que 部屋を　出た ocorre antes e ドアを　閉めます ocorre depois.\nれい２：\nきのう、家へ帰るとき、パンを　買いました。\nOntem, (antes de) voltar para casa, comprei pão.\nO verbo que acompanha とき está na forma る (帰る), por isso entende-se que パンを　買いました ocorre antes e 家へ帰る ocorre depois.\n\n～とき expressa “quando, no momento em que” uma situação/um momento ocorre.\nDiferença importante (verbos):\nV-辞書形+ とき: a ação principal ocorre antes/durante V (antes da conclusão de V).\nV-た形+ とき: a ação principal ocorre após a conclusão de V.\nV-辞書形+ とき: a ação principal ocorre antes/durante V (antes da conclusão de V).\nV-た形+ とき: a ação principal ocorre após a conclusão de V.\nCom adjetivos/substantivos: não há distinção “antes/depois”, apenas se indica o contexto do momento.",
+    "notes": "Com verbos de movimento (行く、来る、帰る), escolhe-se 辞書形/た形 para distinguir “antes de ir” e “depois de chegar”.\n「このとき／そのとき／あのとき」 são expressões que indicam “neste momento/nesse momento/naquele momento”.\nNão se usa 「Nとき」 diretamente; deve ser Nのとき(例：朝のとき× →朝は/朝に ou 朝起きたとき).",
+    "mistakes": [
+     "Erro de momento: ×日本へ行くとき、写真をたくさん撮りました（no sentido de depois de chegar）→ ✓日本へ行ったとき…。",
+     "Esquecer の com substantivos: ×学生とき→ ✓学生のとき。",
+     "Usar o tempo verbal errado na oração principal torna a frase difícil de entender; mantenha a coerência (passado/presente)."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～とき",
+       "Quando, no momento em que",
+       "Indica o momento, neutro",
+       "<ruby>忙<rt>いそが</rt></ruby>しいとき…"
+      ],
+      [
+       "～<ruby>間<rt>ま</rt></ruby>（あいだ）",
+       "Enquanto (período de tempo)",
+       "Enfatiza a duração, tem extensão",
+       "<ruby>雨<rt>あめ</rt></ruby>の<ruby>間<rt>ま</rt></ruby>、<ruby>家<rt>いえ</rt></ruby>にいました。"
+      ],
+      [
+       "～と",
+       "Sempre que… então…",
+       "Relação de condição inevitável, não um simples “quando”",
+       "<ruby>春<rt>はる</rt></ruby>になると、<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>く。"
+      ],
+      [
+       "～ときに",
+       "Quando (enfatiza o momento)",
+       "Acrescenta に para dar ênfase",
+       "<ruby>出発<rt>しゅっぱつ</rt></ruby>のときに<ruby>連絡<rt>れんらく</rt></ruby>してください。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 176,
+   "src_hash": "bb2b19ccb34c2abe",
+   "fields": {
+    "meaning": "Dizer que ~.",
+    "connection": "[frase/oração] + と言います",
+    "examples": [
+     "Tanaka: Hoje à noite eu vou sair.",
+     "Tanaka disse que ia sair hoje à noite.",
+     "Tanaka disse: “Hoje à noite eu vou sair.”",
+     "Miller: Hoje eu tenho que voltar cedo.",
+     "Miller disse que hoje ele tinha que voltar cedo para casa.",
+     "Miller disse: “Hoje eu tenho que voltar cedo para casa.”"
+    ],
+    "explain": "Usa-se para relatar algum conteúdo.\nComo geralmente se usa para relatar o que foi dito, é comum usá-lo no passado: 言いました。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 177,
+   "src_hash": "2bdcf636d05a0ee8",
+   "fields": {
+    "meaning": "O que fazer agora",
+    "examples": [
+     "E o jantar, o que vamos fazer?",
+     "O que vamos fazer com esta caixa?",
+     "Amanhã vai chover. O que vamos fazer com o piquenique?",
+     "E o recibo, como prefere?",
+     "O pagamento, em dinheiro ou cartão, como prefere?",
+     "Vai fazer esta questão de novo mais tarde? — Sim, vou fazer isso."
+    ],
+    "explain": "Usa-se para pedir que o ouvinte tome uma decisão; quem pergunta se mantém neutro.\nEm conversa coloquial: どうする？/ どうするの？\nPolido: どうしますか; formal em serviços: どういたしますか。\nAs respostas costumam usar そうします/やめます/あとでにします/こちらにします.\n\nPergunta sobre uma decisão/a próxima ação: “O que (você/nós) vai(vamos) fazer / como?”.\nGeralmente vem depois de um contexto/alvo já mencionado (objeto, plano, situação).\nEm serviços, usa-se para confirmar a escolha do cliente (pagamento, embrulho, entrega…).\nDiferente de どうですか (pede uma avaliação), どうしますか foca na ação/decisão.",
+    "notes": "Respostas modelo em serviços: “袋は いりますか。— いりません。/ お願いします。/有料ですが どうしますか。— お願いします。”\nEm grupo, どうする？ cria um clima de discussão conjunta; acrescentar ね para suavizar: どうするね é dialetal, no padrão どうするね não é correto; deve-se usar どうする？/どうしようか。\nEm situações urgentes: どうする？！ tem uma nuance de tensão: “O que fazer agora?!”",
+    "mistakes": [
+     "Confundir com どうですか: どうしますか pergunta sobre a ação, どうですか pede avaliação/sugestão.",
+     "Falta de contexto que indique o alvo: dizer “どうしますか” sozinho fica difícil de entender; deve-se explicitar “N は どうしますか”。",
+     "Use どうしましょうか quando quiser fazer uma sugestão, evitando どうしますか para não dar a sensação de forçar uma decisão."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Uso",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "どうしますか",
+       "Pergunta sobre decisão/ação",
+       "Foco em “o que fazer/como”",
+       "<ruby>席<rt>せき</rt></ruby>は どうしますか。"
+      ],
+      [
+       "どうですか",
+       "Pede avaliação/sugestão",
+       "Foco em “como está/é bom?”",
+       "この<ruby>席<rt>せき</rt></ruby>は どうですか。"
+      ],
+      [
+       "なにを しますか",
+       "Pergunta “o que fazer” concretamente",
+       "Espera o nome de uma ação concreta",
+       "<ruby>休<rt>やす</rt></ruby>みに なにを しますか。"
+      ],
+      [
+       "どれに しますか",
+       "Escolha entre várias opções",
+       "Foco em “qual escolher”",
+       "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は どれに しますか。"
+      ],
+      [
+       "どうしましょうか",
+       "Sugestão de decidir juntos",
+       "Polido, o falante participa da decisão",
+       "<ruby>次<rt>つぎ</rt></ruby>は どうしましょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 178,
+   "src_hash": "d2551ec1d3713cdd",
+   "fields": {
+    "meaning": "Como é / que tal",
+    "examples": [
+     "Que tal esta roupa?",
+     "Como é a vida no Japão?",
+     "Que tal um café?",
+     "Que tal este lugar?",
+     "Como foi a viagem?",
+     "Como está o andamento da lição de casa?"
+    ],
+    "explain": "Pergunta geral sobre qualidade/impressão: どうですか tem uma nuance neutra e suave.\nUsar は para indicar o tópico (N は どうですか) é mais natural do que を neste padrão gramatical.\nEm convites: com entonação ascendente, em um contexto em que a decisão cabe ao ouvinte, entende-se como “convite/sugestão”.\nRespostas típicas: いいです／だめです／大丈夫です／ちょっと… (recusa delicada).\n\nPede opinião/avaliação sobre uma pessoa/coisa/situação: “como é?”.\nUsado como sugestão leve: “que tal N?” → incentiva a escolher/experimentar.\nO contexto determina o significado: a mesma frase pode ser “avaliação” ou “convite/sugestão”.\nForma mais polida: いかがですか (serviços, atendimento a clientes).\nDiferente de どうしますか: どうですか não exige uma decisão de ação imediata.",
+    "notes": "Use どうでしたか para perguntar sobre uma experiência já vivida (passado).\nEm serviços: “試飲はいかがですか” (Gostaria de experimentar?), resposta polida: “結構です/お願いします”。\nEvite repetir どう muitas vezes; substitua por いかが ou por adjetivos específicos (おいしいですか,便利ですか…).",
+    "mistakes": [
+     "Confundir com どうしますか quando se precisa de uma ação concreta; どうですか não exige decisão.",
+     "Usar を com どうですか em convites/sugestões: は é mais natural (コーヒーは どうですか).",
+     "Usar どうですか de forma direta demais em contextos formais; prefira いかがですか."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Função",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "どうですか",
+       "Pede avaliação/sugestão",
+       "Não exige decisão",
+       "この<ruby>本<rt>ほん</rt></ruby>は どうですか。"
+      ],
+      [
+       "どうしますか",
+       "Pergunta sobre decisão/ação",
+       "Pede que se escolha/o que fazer",
+       "<ruby>本<rt>ほん</rt></ruby>は どうしますか。"
+      ],
+      [
+       "いかがですか",
+       "Forma polida de どうですか",
+       "Mais formal",
+       "お<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は いかがですか。"
+      ],
+      [
+       "～ませんか",
+       "Convite direto",
+       "Caráter de convite explícito",
+       "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ませんか。"
+      ],
+      [
+       "～は どうでしょうか",
+       "Sugestão suave",
+       "Mais suave que どうですか, usado ao ponderar",
+       "この<ruby>案<rt>あん</rt></ruby>は どうでしょうか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 179,
+   "src_hash": "c703fd86ab3664c1",
+   "fields": {
+    "name": "～は［idioma］で何と／どう言いますか",
+    "meaning": "Como se diz",
+    "connection": "Nは + [idioma]で + どう/なんと言いますか",
+    "examples": [
+     "Como se diz 「猫」 em inglês?",
+     "Como se diz este sentimento em japonês?",
+     "Como se diz esta frase em japonês?",
+     "Como se chama Wi-Fi em japonês?"
+    ],
+    "explain": "Formal: X は日本語で何と言いますか／どう言いますか。\nColoquial: X って日本語で何て言う？／どう言う？\nO padrão gramatical “X は日本語で何ですか” é adequado para perguntar uma palavra isolada.\nAo responder, usa-se: 「X」は日本語で「Y」と言います。/ Y と言います。\n\nPergunta a expressão de uma palavra/frase em um idioma: “como se diz”, “como se chama”.\n何と言いますか enfatiza “dizer o quê”. どう言いますか enfatiza “dizer como” (a expressão).\nCom palavras/expressões isoladas, 何と言いますか／何ですか são ambos naturais. Com paráfrases/frases longas, どう言いますか é mais natural.",
+    "notes": "“何と言いますか” costuma ser pronunciado de forma abreviada como “なんと言いますか/何て言いますか”.\nNão confunda どう言う (dizer como) com どういうN (que tipo de N).\nPara enfatizar o idioma: X は英語では何と言いますか（em contraste com outro idioma）.\nNotas originais: Ortografia: 何と言いますか／なんと言いますか estão ambos corretos; なんて言いますか tende à conversa coloquial.\nInterjeições “ええと/あの/その” costumam vir antes de なんと言いますか para indicar hesitação.\nAo apontar para um objeto concreto, pode-se omitir o idioma se o contexto for claro: これ、なんと言いますか。\nPara confirmar uma palavra que acabou de esquecer: 何て言うんでしたっけ (esqueci, como se chama mesmo?)",
+    "mistakes": [
+     "Partícula errada: ×日本語に何と言いますか → ✓日本語で何と言いますか。",
+     "Usar どう言いますか para kanji: ao perguntar a leitura, é preciso usar どう読みますか.",
+     "Confundir 何ですか (o que é) com 何と言いますか (como se chama); ambos estão corretos com palavras isoladas, mas têm nuances diferentes."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "X は <ruby>日本語<rt>にほんご</rt></ruby>で <ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>いい</rt></ruby>いますか",
+       "Como se chama",
+       "Comum, neutro",
+       "「apple」は<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>いい</rt></ruby>いますか。"
+      ],
+      [
+       "X は <ruby>日本語<rt>にほんご</rt></ruby>で どう<ruby>言<rt>いい</rt></ruby>いますか",
+       "Como se diz",
+       "Enfatiza a expressão; adequado a frases/locuções",
+       "この<ruby>表現<rt>ひょうげん</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>でどう<ruby>言<rt>いい</rt></ruby>いますか。"
+      ],
+      [
+       "X は <ruby>日本語<rt>にほんご</rt></ruby>で <ruby>何<rt>なに</rt></ruby>ですか",
+       "O que é",
+       "Simples, palavra isolada",
+       "これは<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>何<rt>なに</rt></ruby>ですか。"
+      ],
+      [
+       "どう<ruby>読<rt>よ</rt></ruby>みますか",
+       "Como se lê",
+       "Pergunta a leitura, não o significado",
+       "この<ruby>漢字<rt>かんじ</rt></ruby>はどう<ruby>読<rt>よ</rt></ruby>みますか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 180,
+   "src_hash": "c091e8da267c3ca9",
+   "fields": {
+    "meaning": "por mais que se espere, ~ não ~",
+    "examples": [
+     "Pratico todos os dias, mas não consigo ficar bom de jeito nenhum.",
+     "Como não consigo descansar o suficiente, o resfriado demora a sarar.",
+     "A lição de casa não termina nunca.",
+     "Não consigo pegar um táxi de jeito nenhum.",
+     "O resfriado não sara de jeito nenhum.",
+     "A dieta não dá certo de jeito nenhum."
+    ],
+    "explain": "◎ A situação não avança como o falante espera.\n\nExpressa o sentimento de pesar por não conseguir fazer algo de acordo com o desejo, por não conseguir ter sucesso com facilidade."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 182,
+   "src_hash": "10a0a5e56a35619f",
+   "fields": {
+    "meaning": "Voltar…",
+    "connection": "[lugar]に/へ + 帰ります",
+    "examples": [
+     "Volto para casa às 8 horas todos os dias.",
+     "Neste fim de semana vou voltar para o meu país.",
+     "No Ano-Novo, volto para a casa dos meus pais.",
+     "Quando a aula terminar, volto para o meu quarto.",
+     "Hoje vou voltar tarde para casa.",
+     "Volto para o dormitório de ônibus."
+    ],
+    "explain": "に帰る enfatiza que o destino é um lugar ao qual se “pertence”; へ帰る também é possível, mas indica a direção de forma neutra e é menos usado.\n帰る vs戻る:戻る é “voltar (à posição/ao estado imediatamente anterior)”, não necessariamente para casa.\n帰ってくる/帰っていく: nuance de aproximar-se do falante/afastar-se do falante.\nCostuma ser usado de forma polida em conversas de trabalho: 先に失礼して家に帰ります。\n\nMovimento de volta ao ponto de partida/ao lugar ao qual se pertence (casa, terra natal, quarto, dormitório…).\nに marca o destino concreto; 帰る expressa “voltar” (diferente de 行く/来る).\nNuance de familiaridade quando usado com 家/実家/故郷.\nPode ser combinado com o momento e o meio de transporte: ９時に/電車で家に帰ります.",
+    "notes": "“国に帰ります” é uma expressão familiar para estudantes estrangeiros; costuma aparecer com 休み/連休/旧正月.\nAcrescenta-se o motivo com ので/から/ために: 急用のために国に帰ります。\nNuance diferente de 戻る: 会社から家に戻る geralmente soa pouco natural; usa-se 帰る.",
+    "mistakes": [
+     "Usar で em vez de に: 家で帰ります (incorreto) → 家に帰ります.",
+     "Omitir に com 帰る: 家帰る (comum na linguagem falada, mas no padrão deve-se usar 家に帰る).",
+     "Confundir 戻る e 帰る: 家に戻る (pouco natural, salvo em certos contextos), prefira 家に帰る.",
+     "へ帰ります raramente é a melhor resposta no exame JLPT; prefira に帰ります."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～に<ruby>帰<rt>かえ</rt></ruby>ります",
+       "voltar (para casa/terra natal…)",
+       "Destino ao qual se pertence",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>る"
+      ],
+      [
+       "～へ<ruby>帰<rt>かえ</rt></ruby>ります",
+       "voltar em direção a",
+       "Enfatiza a direção, pouco usado",
+       "<ruby>家<rt>いえ</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>る"
+      ],
+      [
+       "～に<ruby>行<rt>い</rt></ruby>きます",
+       "ir a",
+       "Não implica “voltar”",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "<ruby>戻<rt>もど</rt></ruby>ります",
+       "retornar",
+       "Posição/estado imediatamente anterior",
+       "<ruby>席<rt>せき</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>る"
+      ],
+      [
+       "<ruby>帰宅<rt>きたく</rt></ruby>します",
+       "voltar para casa (formal)",
+       "Linguagem escrita/polida",
+       "<ruby>９時<rt>きゅうじ</rt></ruby>に<ruby>帰宅<rt>きたく</rt></ruby>する"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 183,
+   "src_hash": "e3df4c22d418e293",
+   "fields": {
+    "meaning": "Retornar…",
+    "connection": "[lugar]に + 戻ります",
+    "examples": [
+     "Vou voltar para casa.",
+     "Vou voltar para a empresa.",
+     "As férias acabaram e voltei ao trabalho.",
+     "O tempo voltou a ficar ensolarado.",
+     "Quero voltar à vida de antigamente."
+    ],
+    "explain": "“N + に戻ります” é usado tanto para lugares quanto para estados (concretos ou abstratos).\nÉ uma expressão neutra e polida, usada tanto na conversa do dia a dia quanto na linguagem escrita.\nAo falar de pessoas, “戻る” tem a nuance de “voltar por si mesmo”; ao falar de coisas ou situações, pode significar “voltar a ser como antes”.\n\n① Voltar ao ponto de partida: expressa o retorno ao local original.\n→ “voltar”, “retornar”.\n② Voltar ao estado anterior: usado quando uma coisa, situação ou estado de espírito volta a ser como era.\n→ “voltar ao estado original”, “retornar à situação anterior”.\n“戻ります” é a forma de verbo intransitivo correspondente a “戻す” (devolver, restituir). O falante volta por si mesmo ou retorna por si mesmo a algum estado.",
+    "notes": "“戻る” pode ser usado tanto no sentido físico (voltar a um lugar) quanto no abstrato (voltar a um estado, a um estado psicológico).\nDistinga claramente “戻る” (voltar por si mesmo) e “戻す” (fazer voltar / devolver a alguém).\nNa comunicação, “戻ります” é muito usado no escritório: 例：「すぐ戻ります。」→ “Já volto.” (ao se ausentar momentaneamente).",
+    "mistakes": [
+     "Confundir 戻る（voltar por si mesmo）e 戻す（devolver, restituir）.",
+     "Usar a partícula errada: deve ser に戻る, não へ戻る (embora às vezes seja aceitável, “に” é mais natural).",
+     "Confundir com 帰る: “戻る” é usado para um lugar de onde se saiu temporariamente e ao qual se retorna; “帰る” é usado para o lugar ao qual se pertence (casa, terra natal…).",
+     "O JLPT N5–N4 costuma cobrar a distinção entre “戻る”, “帰る” e “戻す”."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Diferença principal",
+      "Exemplo"
+     ],
+     "rows": [
+      [
+       "～に<ruby>戻<rt>もど</rt></ruby>る",
+       "Voltar, retornar (a um lugar / estado anterior)",
+       "Voltar ou retornar por si mesmo",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>る。"
+      ],
+      [
+       "～へ<ruby>帰<rt>かえ</rt></ruby>る",
+       "Voltar para casa / terra natal / lugar ao qual se pertence",
+       "Geralmente usado para pessoas que voltam ao “ponto de partida”",
+       "<ruby>国<rt>くに</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>る。"
+      ],
+      [
+       "～を<ruby>戻<rt>もど</rt></ruby>す",
+       "Devolver, restituir (verbo transitivo)",
+       "Alguém “devolve” um objeto, um estado",
+       "<ruby>本<rt>ほん</rt></ruby>を<ruby>棚<rt>たな</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>す。（Devolver o livro à estante）"
+      ],
+      [
+       "～に<ruby>帰<rt>かえ</rt></ruby>る",
+       "Igual a “～へ<ruby>帰<rt>かえ</rt></ruby>る”",
+       "Enfatiza que o destino é a “moradia” ou a “terra natal”",
+       "<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>る。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 184,
+   "src_hash": "0c049f760a0c578f",
+   "fields": {
+    "meaning": "Haver (coisa, lugar)",
+    "connection": "[lugar]に + Nが + あります/います",
+    "examples": [
+     "Há alunos na sala de aula.",
+     "Tem água na geladeira.",
+     "Há cachorros no parque? — Sim, há.",
+     "Há um computador em cima da mesa.",
+     "Esta é uma cidade tranquila. A estação fica aqui perto.",
+     "Hoje há uma reunião."
+    ],
+    "explain": "Ordem típica: [Lugar] に [Sujeito novo] が あります／います.\nが marca a informação nova; は coloca o tópico à frente para enfatizar a localização: 図書館は駅の西にあります.\nPergunta polida sobre o lugar: 〜はどこにありますか。 Para pessoas: 〜はどこにいますか。\nMuito polido: 〜がございます（coisas/objetos em serviços, vendas).\n\nExpressa a existência/presença de coisas/pessoas em um lugar específico.\nあります: objetos, eventos, conceitos inanimados (会議があります＝há uma reunião).\nいます: pessoas, animais, seres vivos. Estar naquela posição no momento presente/temporariamente.\nVariante de posse: “Nがあります” às vezes expressa “ter N” (私には時間があります＝eu tenho tempo), mas com objetos pessoais 持っています costuma ser mais natural.",
+    "notes": "Com robôs/personagens fictícios que têm “vida”: geralmente se usa います (ロボットがいます) — depende do contexto.\nElementos de posição detalhada: 上／下／中／隣／前／後ろ＋に para indicar relações espaciais: 机の下に箱があります。\n“Ter tempo/eventos”: 時間があります／試験があります — usa-se あります por serem conceitos inanimados.",
+    "mistakes": [
+     "Confundir が/に: ✕公園が犬にいます → 〇公園に犬がいます.",
+     "Usar を: ✕部屋を机があります → 〇部屋に机があります.",
+     "Confundir あります/います: ✕店に店員があります → 〇店に店員がいます.",
+     "Expressar posse: ✕私は車があります → 〇車があります／車を持っています.",
+     "Confundir です com あります: ✕机の上は本です（outro significado） → 〇机の上に本があります.",
+     "Ordem do numeral: ✕三本の木があります（aceitável, mas enfatiza N）; para existência é mais natural: 木が三本あります."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Distinção",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "〜に〜があります",
+       "Há (coisa) em (lugar)",
+       "Inanimados, eventos",
+       "<ruby>机<rt>つくえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>があります"
+      ],
+      [
+       "〜に〜がいます",
+       "Há (pessoa/animal) em (lugar)",
+       "Seres vivos",
+       "<ruby>庭<rt>にわ</rt></ruby>に<ruby>猫<rt>ねこ</rt></ruby>がいます"
+      ],
+      [
+       "〜は〜にあります",
+       "N fica na posição ~",
+       "O tópico é N; enfatiza a localização",
+       "<ruby>銀行<rt>ぎんこう</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にあります"
+      ],
+      [
+       "〜を<ruby>持<rt>も</rt></ruby>っています",
+       "Ter/possuir ~",
+       "Mais natural para objetos pessoais",
+       "<ruby>車<rt>くるま</rt></ruby>を<ruby>持<rt>も</rt></ruby>っています"
+      ],
+      [
+       "〜にいます vs 〜に<ruby>住<rt>す</rt></ruby>んでいます",
+       "Estar vs morar",
+       "にいます: temporário; <ruby>住<rt>す</rt></ruby>んでいます: local de residência",
+       "<ruby>東京<rt>とうきょう</rt></ruby>にいます／<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>住<rt>す</rt></ruby>んでいます"
+      ],
+      [
+       "〜です（identificação）",
+       "Ser ~ (identidade)",
+       "Não expressa existência",
+       "ここは<ruby>図書館<rt>としょかん</rt></ruby>です"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 185,
+   "src_hash": "a29cfcde7d16fac0",
+   "fields": {
+    "meaning": "Para expressar um sentimento ou uma avaliação （すき・きらい・下手・上手）em relação a uma ação, é preciso fazer a nominalização do verbo que indica essa ação. Semelhante a 「～こと」.",
+    "examples": [
+     "Gosto de viajar.",
+     "Gosto de correr de manhã.",
+     "Ele dirige mal.",
+     "Eu detesto tomar banho de banheira."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 186,
+   "src_hash": "fd6292a2f7fb8996",
+   "fields": {
+    "meaning": "Indica o agente da locução que funciona como modificador",
+    "connection": "N1の/が + V/A + N2 (agente da oração modificadora)",
+    "examples": [
+     "A cafeteria de que eu gosto.",
+     "A pessoa de quem eu gosto é ele?",
+     "A turma A é a turma em que o professor é divertido."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 187,
+   "src_hash": "14890696fd2cff57",
+   "fields": {
+    "meaning": "Antes de…",
+    "examples": [
+     "Antes de dormir, escovo os dentes.",
+     "Antes de sair, verifique a previsão do tempo.",
+     "Antes da aula, limpei a sala.",
+     "Volto antes das 3 horas.",
+     "Antes de ir ao Japão, tirei o passaporte.",
+     "Antes das refeições, vamos lavar as mãos."
+    ],
+    "explain": "Enfatiza a preparação/condição que deve ser cumprida antes de outra atividade.\nCom hábitos/regras: ～前に～する tem nuance de recomendação/instrução.\nForma polida: ～前に～してください／お願いいたします。\nPara dizer “não faça A antes de B”, pode-se usar ～までVない ou Vないで para indicar que se evita fazer algo.\n\nIndica que a ação B ocorre antes de A acontecer: A の/辞書形前に、B。\nFoca na preparação/condição antes de realizar a ação principal.\nCom um momento específico, “X時前に” é mais natural que “X時の前に”.\nV辞書形+前に: A ainda não ocorreu no momento de B (enfatiza o futuro de A em relação a B).",
+    "notes": "Vた +前に é incorreto; deve-se usar V辞書形+前に porque a ação A ainda não ocorreu no momento de B.\nMomentos numéricos: “X時前に” é natural; “X時の前に” é pouco usado e soa forçado.\n“以前（いぜん）” = “antigamente” (passado distante), não é usado como “前に” para indicar uma sequência imediata.",
+    "mistakes": [
+     "Tempo verbal errado: ×食べた前に → ✓食べる前に.",
+     "Usar “の” com horas: ×3時の前に → ✓3時前に／3時までに.",
+     "Confundir com うちに: “aproveitar enquanto ainda está livre” → ひまなうちに, não se usa “ひまの前に”.",
+     "Confundir com までに: ao enfatizar o prazo de entrega de um trabalho, usa-se までに, não 前に."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Diferença principal",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "V<ruby>辞書<rt>じしょ</rt></ruby><ruby>形<rt>けい</rt></ruby><ruby>前<rt>まえ</rt></ruby>に",
+       "Antes de fazer V",
+       "Enfatiza que A ainda não ocorreu no momento de B",
+       "<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に"
+      ],
+      [
+       "Nの<ruby>前<rt>まえ</rt></ruby>に",
+       "Antes de N (evento)",
+       "Usado com substantivos que indicam eventos",
+       "<ruby>試験<rt>しけん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に"
+      ],
+      [
+       "～までに",
+       "Antes do prazo",
+       "Enfatiza o prazo, não a sequência",
+       "<ruby>5時<rt>ごじ</rt></ruby>までに<ruby>提出<rt>ていしゅつ</rt></ruby>"
+      ],
+      [
+       "～うちに",
+       "Enquanto/antes que o estado mude",
+       "Enfatiza “aproveitar enquanto ainda …”",
+       "<ruby>若<rt>わか</rt></ruby>いうちに"
+      ],
+      [
+       "Vてから",
+       "Depois de fazer V, …",
+       "Expressa a sequência inversa de “<ruby>前<rt>まえ</rt></ruby>に”",
+       "<ruby>食<rt>た</rt></ruby>べてから"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 188,
+   "src_hash": "1ea176a2776db663",
+   "fields": {
+    "meaning": "Muito trabalhoso, difícil",
+    "examples": [
+     "O japonês é puxado.",
+     "Fazer hora extra todos os dias é cansativo.",
+     "A mudança foi muito trabalhosa.",
+     "Acordar cedo de manhã é difícil.",
+     "Que complicado, hein. Quer que eu ajude?",
+     "Este trabalho não é pesado."
+    ],
+    "explain": "Usa-se は para apresentar o tópico a ser avaliado: N は たいへんです. Para enfatizar o sujeito ao apresentar algo novo, pode-se usar が (com outra nuance), mas o padrão gramatical aqui é は.\nUsa-se たいへんですね ao ouvir sobre as dificuldades de outra pessoa, demonstrando polidez e empatia.\nNa linguagem coloquial: たいへんだ／たいへんだった.\nEvite usar たいへん no lugar de むずかしい quando se fala puramente da “dificuldade do conteúdo”. たいへん tende a “trabalhoso, que exige esforço, cansativo”.\n\n“たいへん” expressa o grau de dificuldade, esforço, gravidade. Usa-se para dizer que algo é “difícil/penoso/complicado”.\nCom “N は たいへんです”: avaliação geral sobre uma matéria, um trabalho, uma situação.\nCom “V の は たいへんです”: enfatiza que uma ação específica é trabalhosa de realizar.\nEm contextos anormais/acidentes, たいへん pode ser entendido como “grave/terrível”.\nA exclamação “たいへんですね” demonstra empatia/polidez na conversa.",
+    "notes": "たいへん pode ser usado como advérbio polido “muito”: たいへんおいしい、たいへん失礼しました.\nFórmula social: お仕事はたいへんですか (O trabalho é puxado?).\nAo enfatizar um incidente grave: たいへんなことになった (Aconteceu algo sério).",
+    "mistakes": [
+     "Confundir com むずかしい: “um problema de matemática difícil” deve ser 問題はむずかしい, e não たいへん.",
+     "Omitir “の” na nominalização do verbo: ×勉強するはたいへんです → ○勉強するのはたいへんです.",
+     "Usar が em vez de は muda o foco da frase; com este padrão gramatical, mantenha N は たいへんです para indicar o tópico.",
+     "Esquecer de conjugar na forma polida/no passado: たいへんでした (correto) em vez de たいへんです (ao falar do passado)."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical/palavra",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "たいへん",
+       "Trabalhoso, grave",
+       "Enfatiza o peso/o esforço",
+       "<ruby>仕事<rt>しごと</rt></ruby>はたいへんです。"
+      ],
+      [
+       "むずかしい",
+       "Difícil (em conteúdo/grau)",
+       "Foco na dificuldade intelectual/técnica",
+       "この<ruby>問題<rt>もんだい</rt></ruby>はむずかしい。"
+      ],
+      [
+       "つらい",
+       "Doloroso, penoso",
+       "Enfatiza o sentimento/a dor psicológica ou física",
+       "<ruby>別<rt>わか</rt></ruby>れるのはつらい。"
+      ],
+      [
+       "きつい",
+       "Severo, pesado",
+       "Linguagem falada, mais forte que たいへん",
+       "このバイトはきつい。"
+      ],
+      [
+       "たいへんに + A/Adv",
+       "Muito (grau elevado)",
+       "Usado como advérbio formal",
+       "たいへんに<ruby>忙<rt>いそが</rt></ruby>しいです。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 189,
+   "src_hash": "54f6c2fbf739b5fd",
+   "fields": {
+    "meaning": "Partícula que indica a direção do movimento. Costuma ser usada com verbos de movimento como 「行く」「帰る」「来る」",
+    "connection": "[lugar/direção]へ/に + V de movimento",
+    "examples": [
+     "Vou a Akihabara e Harajuku.",
+     "Quero voltar para casa.",
+     "Venho aqui todos os dias.",
+     "Aonde você vai?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

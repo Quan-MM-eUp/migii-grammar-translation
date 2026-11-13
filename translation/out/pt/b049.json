@@ -1,0 +1,811 @@
+{
+ "batch": "b049",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 683,
+   "src_hash": "f51a7b88bd8bcaea",
+   "fields": {
+    "meaning": "Apresenta algo pequeno e expressa o sentimento de que “só isso já basta”",
+    "examples": [
+     "Basta olhar.",
+     "Pode ser só esta lição de casa — você me explica?",
+     "Basta você estar ao meu lado."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 684,
+   "src_hash": "17caab28d3a736fc",
+   "fields": {
+    "name": "～って（ouvir dizer）",
+    "meaning": "Expressão da linguagem falada usada para transmitir a outras pessoas, como informação de terceiros, o que se ouviu de alguém.",
+    "connection": "[frase/oração] + って（transmissão de informação de terceiros）",
+    "examples": [
+     "Dizem que não vai participar.",
+     "O Kimura disse que não vai participar da festa.",
+     "Dizem que amanhã vai nevar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 685,
+   "src_hash": "4e6d4419d2b85b1c",
+   "fields": {
+    "meaning": "Forma da linguagem falada das estruturas「～というのは」、「～と」. A estrutura「「N1～ってN2 do exemplo ⑤ é a forma da linguagem falada da estrutura「N1 というN2」 e indica o nome de N2.",
+    "connection": "N/[frase/oração] + って（= というのは/と）",
+    "examples": [
+     "Ajudar com o quê?",
+     "“Me ajuda um pouco?” “Ajudar com o quê?”",
+     "“O que é デジカメ?” “デジカメ quer dizer câmera digital.”",
+     "“Aqui está escrito ‘Proibido fumar’.” “Ah, eu não tinha percebido.”",
+     "“Você conhece um tal de Yamada, da turma ao lado?” “Não conheço.”"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 686,
+   "src_hash": "39d684e666445863",
+   "fields": {
+    "meaning": "Forma da linguagem falada da estrutura 「～ても／でも」",
+    "examples": [
+     "Mesmo correndo",
+     "Mesmo que você corra agora, não vai chegar a tempo.",
+     "Por mais espaçoso que seja, não quero morar num apartamento longe da estação.",
+     "Este prato é simples, então até uma criança consegue fazer."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 689,
+   "src_hash": "64b564b30cea7458",
+   "fields": {
+    "meaning": "Pretendia…, mas (não aconteceu)",
+    "examples": [
+     "Eu tinha planejado acordar cedo no dia seguinte, mas acabei perdendo a hora.",
+     "Eu achava que já tinha enviado aquele e-mail, mas ele ainda estava nos rascunhos.",
+     "Eu pretendia não sair hoje, mas surgiu um compromisso urgente.",
+     "Era só uma brincadeira. Desculpe se isso te incomodou.",
+     "Na época de estudante, eu pretendia estudar no exterior, mas não tinha dinheiro suficiente."
+    ],
+    "explain": "Forma polida, muito usada em explicações acompanhada de “が／けど” para introduzir um resultado contrário à expectativa.\nVた + つもりでした costuma vir com “が／のに／けど” para sinalizar a diferença em relação à realidade.\nPara falar da intenção de outra pessoa: use ～つもりだったようだ／と言っていた para ser polido e preciso.\nPedir desculpas/corrigir: “～したつもりでしたが…” é um modelo muito natural em e-mails/no trabalho.\n\n• Intenção no passado: “tinha planejado/pretendia …” num momento do passado. Se foi realizada ou não depende do contexto seguinte.\n• Crença equivocada/mal-entendido: “achava que já tinha …”, usado com Vた, geralmente seguido de um resultado contrário à expectativa e de um pedido de desculpas/correção.\n• Intenção negativa: Vない + つもりでした = “pretendia não …”.\n• O agente geralmente é o falante; com outras pessoas é preciso usar citação/expressão indireta.",
+    "notes": "• A forma negativa no presente “～つもりはない” (não ter intenção) é diferente do passado polido “～つもりでした”.\n• Em e-mails de trabalho, “送ったつもりでしたが、確認が足りませんでした” é uma forma diplomática de pedir desculpas.\n• Com N: “冗談のつもり” é uma expressão fixa comum para explicar um mal-entendido.",
+    "mistakes": [
+     "Usar para outra pessoa sem citação: “彼は行くつもりでした” pode soar como conjectura subjetiva; prefira “と言っていました/だったようです”.",
+     "Confundir com ～はずだった: “つもり” é a intenção pessoal; “はず” é uma expectativa fundamentada.",
+     "Confundir “achar que já fez V” com “pretender fazer V”: é preciso usar Vた + つもり para expressar “achar que já fez”.",
+     "Omitir a oração contrária à expectativa que vem depois: com Vた + つもりでした, geralmente é preciso mencionar a realidade diferente para deixar o sentido claro."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～つもりでした",
+       "Pretendia/achava que",
+       "Subjetivo do falante; pode não corresponder à realidade",
+       "<ruby>行<rt>い</rt></ruby>くつもりでした"
+      ],
+      [
+       "～はずだった",
+       "Deveria/era para",
+       "Expectativa objetiva, fundamentada",
+       "<ruby>来<rt>く</rt></ruby>るはずだった"
+      ],
+      [
+       "～<ruby>予定<rt>よてい</rt></ruby>だった",
+       "Havia um plano",
+       "Agenda/plano oficial",
+       "<ruby>出張<rt>しゅっちょう</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>だった"
+      ],
+      [
+       "～つもりで",
+       "Com a intenção de…",
+       "Adjunto adverbial de finalidade da ação principal",
+       "<ruby>勉強<rt>べんきょう</rt></ruby>するつもりで<ruby>来<rt>き</rt></ruby>た"
+      ],
+      [
+       "～ところだった",
+       "Por pouco",
+       "Quase aconteceu, mas não aconteceu",
+       "<ruby>遅<rt>おく</rt></ruby>れるところだった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 691,
+   "src_hash": "f797958a37d3f7f5",
+   "fields": {
+    "meaning": "Ser mandado/solicitado a fazer algo",
+    "connection": "「Vてくれ」 + と + 頼む/言う（citação de um pedido）",
+    "examples": [
+     "Ele me pediu que explicasse mais uma vez.",
+     "Meu chefe me mandou entregar o relatório até amanhã.",
+     "Um amigo me disse: “Entra mais em contato comigo”.",
+     "O segurança me disse para não tirar fotos aqui.",
+     "Minha mãe está pedindo que eu volte logo para casa."
+    ],
+    "explain": "Tem uma nuance direta, que pode soar rude se usada como pedido direto; geralmente serve para relatar um pedido.\n“くれ” implica um benefício voltado a quem pede. Para um pedido neutro/polido, use “～てくださいと” ou “～ように言う”.\nAgente/alvo: AはBにVてくれと頼む → B é quem faz V em benefício de A.\nA forma contraída da linguagem falada “～てくれって” é comum em conversas e não é usada em textos formais.\n\n• Citação do conteúdo de um pedido “faça V para mim/nós” com ～てくれと + 言う/頼む/頼まれる.\n• “くれ” indica benefício voltado ao falante/grupo do falante; soa como pedido/ordem um tanto rude quando usado diretamente.\n• Forma negativa “～ないでくれと” = “pedir para não …”.\n• Costuma vir com verbos de fala/pedido: 言う・頼む・注意する・命じる（forte, pouco usado com くれ）.",
+    "notes": "• Em relatos no trabalho/e-mails, prefira “～てくださいと（依頼されました）／～ように言われました” para manter o tom polido.\n• Com superiores/clientes, evite totalmente usar “～てくれ” diretamente, pois é rude.\n• “～てくれと言われた” pode ser entendido como ordem ou pedido, dependendo da relação de poder.\nexamples: 1. 友達に、田中さんの電話番号を教えてくれと頼まれた。\nUm amigo me pediu para passar o número de telefone do Tanaka.\n2. 大家に、玄関の前に自転車を置かないでくれと言われた。\nO proprietário me disse para não deixar a bicicleta em frente à entrada.",
+    "mistakes": [
+     "Esquecer a partícula de citação “と”: o correto é “Vてくれと 言う”.",
+     "Confundir a direção do benefício: “くれ” é fazer para mim/nós. Para falar de forma neutra, use “ください”.",
+     "Usar tendo como alvo um superior: não é polido. Passe para “～ていただけますか／～てください”.",
+     "Confundir com “Vてくる”: “～てくれと” é um pedido, não um verbo composto."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Nuance/diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "Vてくれと<ruby>言<rt>い</rt></ruby>う",
+       "Mandar/pedir que façam V para si",
+       "Direto, um tanto rude quando usado diretamente",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくれと<ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "Vてくださいと <ruby>言<rt>い</rt></ruby>う",
+       "Dizer “por favor, faça V”",
+       "Polido, neutro",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってくださいと <ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "Vてほしいと <ruby>言<rt>い</rt></ruby>う",
+       "Desejar que alguém faça V",
+       "Expressa desejo, mais suave que くれ",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってほしいと <ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "V(る/ない)ように <ruby>言<rt>い</rt></ruby>う",
+       "Mandar/lembrar de fazer/não fazer",
+       "Indireto, mais polido",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>く</rt></ruby>るように <ruby>言<rt>い</rt></ruby>う"
+      ],
+      [
+       "Vないでくれ",
+       "Não faça V",
+       "Proibição direta; rude",
+       "<ruby>触<rt>さわ</rt></ruby>らないでくれ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 692,
+   "src_hash": "857adcedf6c2d460",
+   "fields": {
+    "meaning": "「～という事実（または仮定の状況）だと、 …というよくない結果になる。」 …はマイナスの意味の文で、話者の希望・意向を表す文や働きかけの文は来ない。\nSe o fato (ou uma situação tomada como hipótese) for ~, isso levará ao resultado ruim …\n… é uma frase com conotação negativa, e não uma frase que expressa desejo ou intenção do falante, nem que incita o interlocutor a fazer algo.",
+    "connection": "Vては / Aくては / N・Naでは + [resultado ruim] / V forma simples + のでは",
+    "examples": [
+     "O Yamada acabou de ser operado, então ir visitá-lo provavelmente só vai incomodar.",
+     "Com uma atitude tão irresponsável, todos vão te detestar.",
+     "Se for começar a construir a casa só agora, ela não vai ficar pronta até o fim do ano."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 693,
+   "src_hash": "06747e10f5df9795",
+   "fields": {
+    "meaning": "Indica um conselho para fazer ~",
+    "examples": [
+     "Que tal tentar fazer exercício?",
+     "“Não consigo dormir todas as noites e estou sofrendo com isso.” “Que tal tentar fazer exercício durante o dia?”",
+     "Este livro é interessante; que tal dar uma lida?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 694,
+   "src_hash": "7d9acac6eb7a8206",
+   "fields": {
+    "name": "～てる（forma contraída de Vている）",
+    "meaning": "Forma contraída da linguagem falada de Vている",
+    "connection": "Vている → Vてる / Vていた → Vてた（linguagem falada）",
+    "examples": [
+     "Ter/ Acabar esquecendo/ Deixar escrito",
+     "Deixa esta cerveja na geladeira.",
+     "“Você conhece aquela pessoa lendo jornal ali?”\n“Ah, é o Yoshida.”",
+     "“Posso beber todo este suco?”\n“Pode, sim.”"
+    ],
+    "explain": "Forma da linguagem falada das estruturas「～ている／～てしまう／～ておく」"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 695,
+   "src_hash": "75b960fcf1a92473",
+   "fields": {
+    "meaning": "Expressa um sentimento ou sensação forte que não se consegue controlar.",
+    "examples": [
+     "Estou com uma sede insuportável.",
+     "Estou com um sono insuportável.",
+     "Ah, não consigo parar de pensar no resultado da partida."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 696,
+   "src_hash": "a4e26d2042a4048f",
+   "fields": {
+    "meaning": "「～の動作をすることで、…という事実に気がついた。」… は前から続いている状態を表す文で、少し意外感がある内容。「…ていた」の形がよく使われる。～と…の主語は違う。\nAo realizar a ação ~, percebe-se o fato de que …\n… é uma frase que expressa um estado já existente desde antes, com um conteúdo que causa um pouco de surpresa.\nA forma ていた é usada com frequência.\nO sujeito de ~ e o de … são diferentes.",
+    "connection": "Vると/Vたら、～ていた・～た / Vていると/Vていたら、～た（descoberta, surpresa）",
+    "examples": [
+     "Abri o presente e havia uma boneca dentro.",
+     "Quando saí pela porta, havia vários homens grandes ali.",
+     "Olhei pela janela e a paisagem estava toda branca de neve.",
+     "Por volta da meia-noite, enquanto eu assistia à TV, um amigo dos Estados Unidos me ligou.",
+     "Enquanto falávamos da Maki no café, por acaso a própria Maki entrou.",
+     "Enquanto eu limpava o jardim, de repente começou a chover forte."
+    ],
+    "notes": "Vると、(すぐに)Vた — as duas orações têm o mesmo sujeito, sequência de ações"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 697,
+   "src_hash": "ce0838ca11232a31",
+   "fields": {
+    "meaning": "Tomara que, quem dera",
+    "connection": "V/A forma simples + といいなあ",
+    "examples": [
+     "Tomara que amanhã faça sol.",
+     "Tomara que gostem deste presente.",
+     "Tomara que eu passe na prova.",
+     "Tomara que eu consiga voltar cedo hoje.",
+     "Tomara que entrem em contato logo.",
+     "Seria bom se tivesse lugar livre..."
+    ],
+    "explain": "Usado com o presente/futuro; com o passado é raro, apenas quando se deseja, com nuance positiva, algo que já pode ter acontecido (sem saber o resultado): ちゃんと届いていた といいなあ。\nPara ações que outra pessoa faz para você: ～てくれるといいなあ.\nEvite em textos formais; substitua por ～ことを願っております／～だと幸いです。\nといいなあ expressa um desejo pessoal; não tem a nuance de aconselhar alguém a fazer algo.\n\n• Expressa um desejo/esperança pessoal sobre o futuro ou sobre algo ainda desconhecido no presente: “Quem dera/Tomara que…”.\n• Costuma ser usado quando o falante não controla a situação (provas, tempo, respostas…).\n• Nuance coloquial, usada ao falar consigo mesmo ou ao compartilhar um sentimento leve com o ouvinte.\n• Acrescentar なあ reforça o caráter de monólogo; な substitui なあ em algumas regiões/na linguagem falada.",
+    "notes": "• Para ser polido com parceiros de negócios: 「ご検討いただけると幸いです」 em vez de ～といいなあ.\n• Em redes sociais/diários, ～といいなあ expressa um desejo sincero e natural.\n• Tom emocional: alonga-se なぁ para dar ênfase ao sentimento: ～といいなぁ (escrita informal, linguagem falada).\nmeaning_vi: Quem dera…, tomara que\nexplain: Usado para expressar a vontade, o desejo pessoal. Pertence ao tipo de frase de exclamação\nexamples: 1. もっと日本語がうまく話せたらいいなあ。\nQuem dera eu conseguisse falar japonês com mais fluência.\n2. 明日、雨が降らないといいなあ。\nTomara que amanhã não chova.",
+    "mistakes": [
+     "Confundir com ～といい (aconselhar outra pessoa) em frases de escolha: se o agente for “você” → é um conselho, não de um desejo.",
+     "Usar em textos formais → inadequado; escolha ～と幸いです／～ことを願っております.",
+     "Tempo verbal/terminação do adjetivo incorretos: Aだといいなあ (manter だ também é aceito na linguagem falada coloquial; mas na prova mantenha a forma correta).",
+     "Confundir quando o agente pode controlar a situação: se o falante pode decidir, use ～ばいい em vez de ～といいなあ (com o sentido de “deveria”)."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença principal",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～といいなあ",
+       "Tomara/quem dera (coloquial)",
+       "Monólogo, pessoal; geralmente algo fora de controle.",
+       "<ruby>合格<rt>ごうかく</rt></ruby>するといいなあ。"
+      ],
+      [
+       "～といい",
+       "Deveria/seria bom se… (conselho)",
+       "Voltado ao ouvinte; tem caráter de sugestão/recomendação.",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るといいよ。"
+      ],
+      [
+       "～ばいいのに",
+       "Quem dera… (pesar/queixa)",
+       "Nuance de insatisfação/pesar mais forte.",
+       "もっと<ruby>安<rt>やす</rt></ruby>ければいいのに。"
+      ],
+      [
+       "～たらいいなあ",
+       "Tomara/quem dera (condição)",
+       "Significado equivalente, coloquial; dá ênfase à condição hipotética.",
+       "<ruby>雨<rt>あめ</rt></ruby>がやんだらいいなあ。"
+      ],
+      [
+       "～といいんだけど",
+       "Tomara que…",
+       "Suave, hesitante; um pouco mais polido que なあ.",
+       "<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>うといいんだけど。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 698,
+   "src_hash": "1671c6e672b8f05b",
+   "fields": {
+    "meaning": "Tem significado semelhante ao da estrutura 「～のに」, mas expressa um sentimento de surpresa mais forte que 「～のに」",
+    "connection": "V/A forma simples + というのに / N/Naだ + というのに",
+    "examples": [
+     "Embora eu vá viajar...",
+     "Embora eu vá viajar a partir de amanhã, ainda não terminei os preparativos.",
+     "Já é uma da manhã, e meu pai ainda não voltou para casa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 699,
+   "src_hash": "6be25295516b6a39",
+   "fields": {
+    "meaning": "Tem o sentido de “bem na hora em que ~”",
+    "examples": [
+     "Bem na hora em que eu estava cozinhando",
+     "O telefone tocou bem na hora em que eu estava cozinhando, e fiquei sem saber o que fazer.",
+     "Um amigo me viu bem quando eu estava num encontro.",
+     "Eu tinha acabado de pegar o trem para ir à empresa quando percebi que hoje era feriado."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 700,
+   "src_hash": "5d41b43db9502438",
+   "fields": {
+    "name": "～ところだ・～ところ（＋partícula）…",
+    "meaning": "「～の直前だ（①）・進行中だ（②）・直後だ（③④）。」文中では、後に来る動詞によって「ところを・ところで・ ことろへ」などの形になる。\nLogo antes de ~ (①)/ Enquanto ~ (②)/ Logo depois de (③④).\nNa frase, conforme o verbo que vem depois, a partícula que acompanha muda para formas como \"ところを／ところで／ところへ／etc. \".",
+    "connection": "Vる + ところだ（prestes a）/ Vている + ところだ（em andamento）/ Vた + ところだ（acabou de）( + partícula を/で/に…)",
+    "examples": [
+     "O foguete está prestes a decolar. É um momento de tensão.",
+     "Durante a prova, o professor me chamou a atenção bem quando eu estava olhando as respostas do colega ao lado.",
+     "O telefone tocou bem quando a novela que eu tanto esperava tinha acabado de começar.",
+     "As crianças voltaram para casa bem quando o bolo tinha acabado de ficar pronto."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 701,
+   "src_hash": "f8deaa6e9d4f884c",
+   "fields": {
+    "meaning": "Menosprezo/surpresa/ironia",
+    "connection": "[frase/oração] + などと/なんて + 言う/思う",
+    "examples": [
+     "Não dá para acreditar que ele seja o culpado.",
+     "Filhos agredirem os pais era algo impensável antigamente.",
+     "“Se você ficar pensando que está tudo bem porque ainda falta uma semana para a prova, vai fracassar de novo.”",
+     "Aquele político sempre dizia coisas como “trabalho pelo povo”, mas na verdade só pensava nos próprios interesses."
+    ],
+    "explain": "Costuma ser usado para fazer uma avaliação, ironizar ou expressar negação diante do que outra pessoa disse ou pensou.",
+    "notes": "1) Fácil de confundir com o simples など (exemplificação).\n→ ～などと（なんて）言う／思う costuma ser usado para fazer uma avaliação, ironizar, expressar surpresa ou negação.\n2) Costuma vir com os verbos “dizer/pensar”.\n→ Estrutura frequente: 普通形＋などと＋言う／思う.\n3) Se você só quer fazer uma enumeração, não use este ponto gramatical.\n→ Este ponto gramatical dá ênfase à atitude do falante, não é apenas um exemplo."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 702,
+   "src_hash": "aabe1479dab4fa9e",
+   "fields": {
+    "meaning": "Expressão da linguagem falada que transmite um sentimento de surpresa. Pode haver omissão do que vem depois de「なんて」.\n［ふつう］　+　なんて",
+    "connection": "V/A forma simples + なんて / N/Na(だ) + なんて（surpresa）",
+    "examples": [
+     "Quem diria que era tão gentil assim",
+     "Não dá para acreditar que leu este livro inteiro em um só dia.",
+     "Já ter participado das Olimpíadas, que incrível!",
+     "Quem diria que aquela história era mentira."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 703,
+   "src_hash": "ae5fea8752178c07",
+   "fields": {
+    "meaning": "Expressão da linguagem falada que transmite um sentimento de menosprezo por alguma coisa.",
+    "connection": "N + なんて（menosprezo）",
+    "examples": [
+     "Essas coisas de boato",
+     "Boato, todo mundo esquece logo.",
+     "“Qual será que eu escolho?” “Que tal este aqui?”",
+     "Fazer bolo? Isso é fácil."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 704,
+   "src_hash": "9d3caa0306711260",
+   "fields": {
+    "meaning": "Tem o sentido de “é ~, mas mesmo assim ~”",
+    "connection": "V forma simples / N / Na + にしては ・ V forma simples / N の / Na な / Aい + わりに",
+    "examples": [
+     "Para um estudante...",
+     "O Tanaka mora num apartamento bom demais para um estudante. Os pais dele devem ser ricos.",
+     "Para quem estuda 3 horas por dia, as notas de Kawata não são muito boas.",
+     "Este apartamento é barato, considerando que fica perto da estação."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 705,
+   "src_hash": "c12a9903512b0172",
+   "fields": {
+    "meaning": "Para, dirigido a, sobre",
+    "examples": [
+     "Recebemos perguntas sobre os produtos em nosso site.",
+     "O professor Mori chama severamente a atenção dos alunos que chegam atrasados."
+    ],
+    "explain": "◎ Expressão que indica o alvo de ações como \"dar um presente\"",
+    "notes": "Expressa o sentido de 「それに向けての」「それに関しての」 e modifica o substantivo que vem em seguida. Às vezes também se usa a forma 「ＮにたいしてのＮ」, como em 「その問に対しての解答」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 706,
+   "src_hash": "8dad8f0c4fa8b3c6",
+   "fields": {
+    "meaning": "Junto com ~",
+    "examples": [
+     "Com o aumento da população, vários problemas também vêm surgindo.",
+     "Já concluí alguns trâmites decorrentes da mudança."
+    ],
+    "explain": "◎ Descreve algo que ocorre em simultaneidade com outro acontecimento ou logo após ele."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 708,
+   "src_hash": "7f8d9317b8333186",
+   "fields": {
+    "name": "～には（finalidade）",
+    "meaning": "Expressa a finalidade e o que é necessário para atingir o objetivo.",
+    "connection": "Vる + には / N(サ変) + には（finalidade）",
+    "examples": [
+     "Para ficar bom",
+     "O que devo fazer para ficar bom em japonês?",
+     "Para ir ao local do show, o ônibus é prático."
+    ],
+    "notes": "Expressa o sentido de 「そうするためには」「そうしたいと思うのなら」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 709,
+   "src_hash": "b799833d4ec5d2ed",
+   "fields": {
+    "meaning": "Com base em …, fundamentado em …",
+    "examples": [
+     "Este filme foi feito com base em um caso real.",
+     "Formular uma hipótese com base nos dados.",
+     "Conforme a lei, esta loja não vende bebidas alcoólicas a menores de 20 anos.",
+     "A declaração do governador desta vez não se baseia em conhecimentos corretos.",
+     "Daqui em diante, pretendemos continuar desenvolvendo produtos baseados nas opiniões dos clientes."
+    ],
+    "explain": "Usado para apresentar a base, o fundamento de uma decisão ou avaliação. Usado com frequência na linguagem escrita.",
+    "notes": "1) Fácil de confundir com ～によって.\n→ ～にもとづいて／もとづき significa “com base em/conforme” padrões, dados, leis, regulamentos.\n2) Muito usado na linguagem escrita (leis, jornais, pesquisas).\n→ Tem nuance formal.\n3) Não é usado para meios.\n→ Se for “por meio de…”, use ～によって／～を通じて…"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 710,
+   "src_hash": "8a645f7eeb4f7108",
+   "fields": {
+    "meaning": "Com base em ~",
+    "examples": [
+     "A partida é realizada com base nas regras internacionais.",
+     "Esta previsão de vendas se baseia nos dados do ano passado."
+    ],
+    "explain": "◎ Expressa a ideia de tomar um fato ou uma coisa como base ao agir ou ao fazer um julgamento sobre algo."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 711,
+   "src_hash": "70ccef5fd7d82a72",
+   "fields": {
+    "meaning": "Dependendo do caso, ~ (há casos em que ~)",
+    "examples": [
+     "Os costumes variam de país para país.",
+     "A forma de sentir varia de pessoa para pessoa.",
+     "Meu horário de chegada em casa muda todo dia. Dependendo do dia, chega a ser tarde da noite.",
+     "Dependendo da situação, o festival cultural deste ano pode ser cancelado."
+    ],
+    "explain": "「～が違えば…。」 …は一定ではないことを表す文（さまざまだ・変えるなど）。「～によっては…」の…は、いろいろな場合のうちの一つの例を言う文。\nSe ~ mudar, então …\n… é uma frase que expressa algo não fixo ( 様々だ／変える etc.)\n… em ~ によっては… é uma frase que dá alguns exemplos dentre vários casos."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 712,
+   "src_hash": "c55c4c01911ea10a",
+   "fields": {
+    "meaning": "「～が原因で…という結果が起こる。」 …には状態を表す文は来ない。また、希望・意向・相手への働きかけなのでの文は来ない。少し硬い言い方。\n~ é a causa que provoca o resultado …\n… não é usado para expressar um estado, nem é uma frase que expressa desejo, intenção ou que incita o interlocutor a fazer algo. É uma expressão um pouco formal.",
+    "examples": [
+     "Ao aprender uma língua estrangeira, também é possível conhecer a forma de pensar das pessoas daquele país.",
+     "Quem deseja pagar com cartão de crédito, por favor, leia as observações a seguir.",
+     "Na nossa fábrica, devido à falta de material, já não é possível produzir tatames.",
+     "A gripe deste ano é causada por um tipo de vírus nunca visto antes."
+    ],
+    "notes": "meaning_vi: Por meio de…, devido a…, dependendo de… (によって/による)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 713,
+   "src_hash": "400153cffb9bba16",
+   "fields": {
+    "meaning": "~ Dependendo de…, há casos em que",
+    "examples": [
+     "Com esta injeção, dependendo da pessoa, pode haver febre.",
+     "Dependendo do tempo, a partida pode ser cancelada."
+    ],
+    "explain": "◎ Há algumas condições desse tipo em determinadas condições e situações."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 714,
+   "src_hash": "3591b48aff6c0735",
+   "fields": {
+    "meaning": "Indica que há muitos casos diferentes.",
+    "examples": [
+     "Varia de pessoa para pessoa",
+     "Os preços variam de loja para loja.",
+     "O horário do jantar varia de pessoa para pessoa.",
+     "A maneira de passar os dias de folga depende do humor do dia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 716,
+   "src_hash": "56cab1fd67e0f267",
+   "fields": {
+    "meaning": "Indica a fonte da informação\nニュースに　+　よれば／よる",
+    "examples": [
+     "Segundo o médico",
+     "Segundo a previsão do tempo, parece que amanhã vai chover.",
+     "Segundo as estatísticas, a população desta cidade vem diminuindo há 20 anos."
+    ],
+    "notes": "Variante: ～によれば"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 717,
+   "src_hash": "bdc291360bac9f6d",
+   "fields": {
+    "name": "～に対して（alvo）",
+    "meaning": "Indica o interlocutor ou o alvo para o qual a ação se dirige",
+    "connection": "Nに + 対して（alvo para o qual a ação se dirige）",
+    "examples": [
+     "Em relação aos superiores",
+     "Procuro usar linguagem honorífica com os superiores.",
+     "Quem tiver perguntas sobre a apresentação, fique à vontade.",
+     "Escrevam as perguntas sobre a apresentação nesta folha, por favor."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 718,
+   "src_hash": "2599ff644deb1a56",
+   "fields": {
+    "meaning": "Indica informações sobre ...",
+    "examples": [
+     "Sobre a festa",
+     "O Tanaka sabe bastante coisa sobre a festa.",
+     "Professor, com licença. Eu queria conversar um pouco com o senhor sobre a prova.",
+     "Tenho uma pergunta sobre a prova da semana que vem.",
+     "Você sabia que o Tanaka foi internado?"
+    ],
+    "notes": "meaning original: Sobre o assunto"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 719,
+   "src_hash": "49cccbf4560faa9e",
+   "fields": {
+    "meaning": "「～が事実だから、当然…。」 ～には相手が知っているはずの事実を表す文、 …には話者の判断・希望・意向や相手への働きかけなどの文が来る。\nComo ~ é um fato, naturalmente …\n~ é uma frase que expressa um fato que, com certeza, o interlocutor também conhece.\n… é uma frase que expressa julgamento, desejo, intenção do falante, ou que incita o interlocutor a fazer algo.",
+    "examples": [
+     "O mundo é grande, então é natural que existam vários costumes.",
+     "Você está machucado, então não deve se esforçar demais.",
+     "Não riam, por favor. Estou fazendo isso a sério."
+    ],
+    "notes": "Recebe uma oração, reconhece como fato o que nela se afirma e indica que esse fato, como causa ou motivo, leva ao que se diz em seguida. Por exemplo, em ①, aceita-se que se trata de uma criança e, com base nisso, chega-se ao julgamento de que não há o que fazer se ela não entende. Já no caso de 「まだ子供だから分からないのだろう」, faz-se uma conjectura sobre o motivo: provavelmente não entende porque é criança. Na linguagem falada, costuma virar 「…んだから」.（４６６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 720,
+   "src_hash": "e5a678ad1eb6a845",
+   "fields": {
+    "meaning": "Será que não é ~ ~?",
+    "connection": "V/A forma simples + のではないだろうか / N・Na + なの",
+    "examples": [
+     "Não seria importante expressar claramente a própria opinião?",
+     "Será que, na verdade, o Tanaka não é contra este método?"
+    ],
+    "explain": "◎ A parte「だろうか」( será que, não é?) é acrescentada após a terminação negativa「のではない」; tem a forma de frase interrogativa, mas na verdade dá ênfase a uma afirmação, como 「～のだ」.",
+    "notes": "Variante: ～(の)ではないかと思う; linguagem falada: ～んじゃない？"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

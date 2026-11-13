@@ -1,0 +1,816 @@
+{
+ "batch": "b052",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 767,
+   "src_hash": "39bef7d2beb279ab",
+   "fields": {
+    "meaning": "É que…, mas é porque…",
+    "connection": "V/A forma simples + んだもん（linguagem falada, indica o motivo）",
+    "examples": [
+     "Hoje eu não vou. É que estou sem forças.",
+     "Não estou chorando! É que entrou um cisco no meu olho.",
+     "Acabei me atrasando. É que o trem atrasou, ué.",
+     "Qual é o problema? Eu queria, ué!",
+     "Mas eu sou iniciante, ué."
+    ],
+    "explain": "Usado em conversas informais; evita-se na linguagem falada formal ou com superiores (exceto “～んですもの”).\nExpressa sentimentos, às vezes de forma infantil; adequado para explicar motivos pessoais e banais.\nPode ser combinado com “だって” no início da frase para enfatizar o motivo: だって、忙しい んだもん。\n\n- Apresenta um motivo/desculpa de forma emotiva e informal: “é que…”, “mas é porque…”.\n- Nuance: manha, teimosia, justificativa; usado frequentemente por mulheres/crianças, ou quando o falante quer atenuar a própria responsabilidade.\n- Geralmente fica no final da frase; raramente é seguido de outra oração.",
+    "notes": "• “もん” é a forma falada de “もの”; “～んだもの” soa mais polido que “～んだもん”.\n• Ao enfatizar a irritação: ～んだもん！ (entonação subindo no final da frase).\n• Em diálogos, a fala anterior costuma ser um questionamento/crítica; a seguinte usa ～んだもん para se justificar. explain: Usado para explicar um motivo acompanhado de um estado de ânimo descontente, irritado ou decepcionado\nUsado geralmente na linguagem coloquial do dia a dia ⏐ examples: 1. 「どうして食べないの？」「だって、まずいんだもん。」\n“Por que você não come?” “Ué, é que está ruim”\n2. 今日の試験、できなかった・・・。勉強しなかったんだもん、仕方がない。\nNão consegui fazer a prova de hoje… é que eu não estudei, então não tem jeito",
+    "mistakes": [
+     "Usar com superiores ou em textos formais: inadequado. Troque por ～ので／～から／～んです.",
+     "Esquecer “な” com N/na: 便利んだもん × correto: 便利なんだもん。",
+     "Confundir a nuance com ～から: o JLPT faz pegadinhas com opções com/sem a nuance emotiva de manha."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～んだもん／～んだもの",
+       "Justificativa emotiva",
+       "Informal, suave, manhoso",
+       "<ruby>行<rt>い</rt></ruby>けないんだもん。"
+      ],
+      [
+       "～から／～ので",
+       "Porque, por causa de (neutro)",
+       "Mais objetivo; adequado à linguagem escrita/polida",
+       "<ruby>忙<rt>いそが</rt></ruby>しいから<ruby>行<rt>い</rt></ruby>けない。"
+      ],
+      [
+       "～わけだ",
+       "Não é à toa / é natural que",
+       "Não tem a nuance de desculpa infantil",
+       "<ruby>寒<rt>さむ</rt></ruby>いわけだ。"
+      ],
+      [
+       "～んです",
+       "Explicação (polida)",
+       "Neutro; acrescentar “もの” cria uma nuance suave",
+       "<ruby>忙<rt>いそが</rt></ruby>しいんです。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 769,
+   "src_hash": "6eef923f4ef9a26f",
+   "fields": {
+    "meaning": "Em compensação, em troca (conjunção no início da frase)",
+    "connection": "[frase/oração]。そのかわり(に)、[frase/oração]",
+    "examples": [
+     "Hoje, por favor, faça hora extra. Em compensação, amanhã você pode ir embora cedo.",
+     "Meu irmão mais velho não vai bem nos estudos. Em compensação, é bom em esportes.",
+     "Esta loja é cara. Em compensação, o sabor é garantido."
+    ],
+    "explain": "Conjunção no início da frase: toma toda a primeira oração como premissa, e a segunda oração apresenta algo que a substitui ou compensa em grau equivalente. No significado corresponde a ～かわりに, mas fica independente no início da frase seguinte, geralmente acompanhada de 「、」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 770,
+   "src_hash": "de49600d6ef59b10",
+   "fields": {
+    "name": "～ことだ（conselho）",
+    "meaning": "Ou seja, deve-se",
+    "examples": [
+     "Agasalhe-se bem e descanse com calma.",
+     "O importante é não se esforçar demais."
+    ],
+    "explain": "Usado para dar um conselho sobre determinado assunto"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 772,
+   "src_hash": "4d65fcf28cfff2b9",
+   "fields": {
+    "name": "～ますように（prece）",
+    "meaning": "Para que, tomara que, que…",
+    "connection": "Vます・Vません・Vれます + ように（prece）",
+    "examples": [
+     "Que eu passe no exame.",
+     "Que a doença da minha mãe se cure.",
+     "Que eu não pegue influenza."
+    ],
+    "explain": "Geralmente usado para expressar esperança ou fazer uma prece por algo"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 774,
+   "src_hash": "d17e6ad760b4d46d",
+   "fields": {
+    "meaning": "Nem um pouco, absolutamente não",
+    "examples": [
+     "Não entendo nem um pouco o inglês que aquela pessoa fala.",
+     "Não ligo nem um pouco para a minha forma física.",
+     "Só consigo falar um pouco de japonês."
+    ],
+    "explain": "Usado para enfatizar a negação"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 775,
+   "src_hash": "2cba8dba367cde84",
+   "fields": {
+    "meaning": "…..até…..mas….",
+    "examples": [
+     "Piano, tocar eu até toco, mas não toco bem.",
+     "Esta bolsa, cara ela é, mas é muito prática de usar."
+    ],
+    "explain": "Usado quando se quer explicar ou expressar que a realidade é inferior, não chegando ao grau que o interlocutor imagina"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 778,
+   "src_hash": "e7f7483cd42f655f",
+   "fields": {
+    "meaning": "Sobre….",
+    "examples": [
+     "Estudar sobre a cultura japonesa.",
+     "Ler as “Instruções sobre o exame”."
+    ],
+    "explain": "Usado ao falar de uma ação ou fato centrado em determinado assunto"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 779,
+   "src_hash": "cb74d70e1884d086",
+   "fields": {
+    "name": "～ように（desejo de resultado）",
+    "meaning": "Faça…/ Não faça…",
+    "examples": [
+     "Não fume aqui.",
+     "“Amanhã, venha mais cedo.”\n“Entendido.”"
+    ],
+    "explain": "Usado para fazer um pedido ou dar instruções a outra pessoa (de posição inferior) para que faça algo"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 780,
+   "src_hash": "1284ce5f6b45c121",
+   "fields": {
+    "name": "～まで（até que）",
+    "meaning": "Até que (ação)",
+    "examples": [
+     "Faltam 30 minutos para o filme começar.",
+     "Vou ficar esperando até receber notícias."
+    ],
+    "explain": "Usado para descrever o destino (ponto final) de um fato"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 781,
+   "src_hash": "25ac8eb16f2aa121",
+   "fields": {
+    "name": "～らしい（característica）",
+    "meaning": "Com aparência típica de (homem, mulher, criança….)",
+    "examples": [
+     "Hoje foi um dia quente, bem típico de primavera.",
+     "Não costumo usar roupas bem femininas."
+    ],
+    "explain": "Usado na linguagem falada. Usado para descrever uma característica que se percebe em algo ou em alguma situação"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 782,
+   "src_hash": "e14bd106d078df09",
+   "fields": {
+    "name": "～とく・どく（Vておく abreviado）",
+    "meaning": "Fazer algo antecipadamente, deixar feito",
+    "examples": [
+     "Vou anotar no caderno os pontos que errei na prova.",
+     "Deixa isso lavado pra mim.",
+     "O papel higiênico está quase acabando, então tenho que comprar logo."
+    ],
+    "explain": "Esta é a forma abreviada de Vておく.\nVておく tem 3 significados:\nPreparar algo antecipadamente.Dar conta de um trabalho.Manter o estado atual.\nConsulte os pontos gramaticais que usam Vておく: Ver"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 783,
+   "src_hash": "a82a210b03b7586c",
+   "fields": {
+    "name": "～(ら)れている（passiva）",
+    "meaning": "Ser…, estar… (voz passiva)",
+    "connection": "V forma passiva + ている",
+    "examples": [
+     "Neste livro não estão escritas explicações detalhadas.",
+     "A cerimônia de ingresso será realizada neste salão.",
+     "Dizem que este é o maior diamante do mundo.",
+     "Antigamente, essa ideia era considerada correta."
+    ],
+    "explain": "Usado para relatar um fato realizado por outro agente (agente oculto)\nFala de coisas amplamente conhecidas.\nConsulte:\nRevise a conjugação dos verbos na forma passiva (受身形）：Ver\nRevise os pontos gramaticais que usam a forma passiva (受身形）：Ver"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 784,
+   "src_hash": "03e0438aa22ac77a",
+   "fields": {
+    "name": "～上げる・～上がる（conclusão）",
+    "meaning": "Terminar de….",
+    "examples": [
+     "Finalmente terminei de escrever o relatório.",
+     "O bolo já está assado!"
+    ],
+    "explain": "Usado para falar da conclusão total, do término de um trabalho. Pode ser usado tanto com verbos intransitivos quanto com verbos transitivos",
+    "notes": "Distinguir de あげる de dar–receber (linha ～上げる)"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 787,
+   "src_hash": "ae3359118ad9229a",
+   "fields": {
+    "meaning": "Dizer a (alguém), pedir a (alguém) que faça/ não faça algo",
+    "examples": [
+     "Por favor, diga ao Tanaka para vir ao meu quarto.",
+     "Minha esposa vive me dizendo para não fumar em casa."
+    ],
+    "explain": "Usado quando se quer pedir a alguém que transmita a sua ordem a uma terceira pessoa\nOu usado para relatar uma ordem transmitida por outra pessoa"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 791,
+   "src_hash": "31da1ff25024d4ea",
+   "fields": {
+    "name": "～たところ（resultado・descoberta）",
+    "meaning": "Depois de tentar fazer algo…..",
+    "examples": [
+     "Quando perguntei ao professor qual seria a matéria da próxima prova, ele me disse que vai até a lição 10.",
+     "Como estava com dor de dente, fui ao dentista e ele me disse que eu estava com uma cárie grave."
+    ],
+    "explain": "Usado quando se quer falar da surpresa ou do grau de gravidade de um problema depois de tentar fazer algo"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 793,
+   "src_hash": "ca1e6bf9ccc65b04",
+   "fields": {
+    "meaning": "Para, a fim de",
+    "examples": [
+     "Por favor, fale mais alto para que todos possam ouvir.",
+     "Vou anotar na agenda para não esquecer.",
+     "Estou economizando para comprar uma casa.\nLarguei a escola para trabalhar."
+    ],
+    "explain": "Usado para indicar a finalidade da ação realizada em seguida\nNão pode ser usado com verbos transitivos nem com verbos de sentido volitivo. Geralmente usado com verbos na forma potencial e com verbos intransitivos"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 794,
+   "src_hash": "33970aec6bef7ad6",
+   "fields": {
+    "meaning": "Ter tido a intenção de fazer/ não fazer algo",
+    "examples": [
+     "Ontem eu pretendia ir fazer compras, mas, como estava com dor de cabeça, fiquei em casa o tempo todo.",
+     "Eu pretendia não comer doces, mas acabei comendo sem querer."
+    ],
+    "explain": "Usado para falar de um plano ou intenção de realizar uma ação no passado que, depois, acabou não sendo realizada"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 795,
+   "src_hash": "8daf88763915fdde",
+   "fields": {
+    "meaning": "Querer que outra pessoa faça/não faça algo para si",
+    "examples": [
+     "Hum, eu gostaria que você me mostrasse o livro didático…",
+     "Tenho uma coisa que gostaria que você me ensinasse."
+    ],
+    "explain": "Usado quando se quer pedir a outra pessoa que faça algo para si; geralmente usado na forma simples, não formal"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 798,
+   "src_hash": "9d47cb8e0c82ec46",
+   "fields": {
+    "meaning": "最後まで～し続ける\nFazer ~ até o fim",
+    "connection": "Vます(sem ます) + 通す (やり通す・読み通す)",
+    "examples": [
+     "Aquilo que decidi por conta própria, vou levar até o fim.",
+     "Não importava o que lhe perguntassem, ele permaneceu em silêncio até o fim."
+    ],
+    "notes": "Liga-se a verbos que expressam atos volitivos e expressa o sentido de 「最後まで－．する」. （３１６）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 799,
+   "src_hash": "ab1f577b20af0af5",
+   "fields": {
+    "meaning": "Parece que, significa que, o fato é que",
+    "connection": "V forma simples + ということだ とのことだ / N + (だ) / Na + (だ) / Aい",
+    "examples": [
+     "O Tanaka ligou; parece que vai se atrasar um pouco.",
+     "O resultado da prova foi 70%, ou seja, passei."
+    ],
+    "explain": "Tem 2 significados principais:\n– Fala de algo que se ouviu/leu\n– Fala de um significado, fato ou resultado deduzido\nO verbo pode estar na forma volitiva ou na forma imperativa"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 801,
+   "src_hash": "e377c87830e5c731",
+   "fields": {
+    "meaning": "「～の状態が続いているとき、ずっと…する・ずっと…の状態だ。」～は継続的なことを表す言葉。…継続的なことを表す文。\nEnquanto o estado ~ continua, uma ação … é realizada/ ocorre durante todo esse tempo.\n~ é uma expressão que indica algo que se mantém por um determinado período de tempo.\n… também é uma frase que indica algo que se mantém por um determinado período de tempo.\n「～の状態が続いているとき、 …する・…が起こる。」 ～は継続的なことを表す言葉。…は瞬間的なことを表す文。\nEnquanto o estado ~ continua, faz-se …/… acontece.\n~ é uma expressão que indica algo que se mantém por um determinado período de tempo.\n… é uma frase que indica algo que acontece em um curto espaço de tempo.",
+    "connection": "Vている/Vる/Vない/Nの + 間、…（durante todo o período）/ 間に、…（em um momento dentro do período）",
+    "examples": [
+     "Enquanto a mãe tirava um cochilo, as crianças ficaram vendo TV.",
+     "Enquanto eu estiver fora, viajando, será que você poderia cuidar do meu cachorro?",
+     "Enquanto a mãe tirava um cochilo, as crianças saíram para brincar.",
+     "Enquanto eu estava fora, viajando, cresceu muito mato no jardim."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 802,
+   "src_hash": "cad7431e70137e5e",
+   "fields": {
+    "name": "～の（nominalização）",
+    "meaning": "O ato de (substantivo)",
+    "connection": "V/Aい forma simples + の / Na + な + の（nominalização: いいのを、元気なのが…）",
+    "examples": [
+     "Esqueci completamente de ligar para o Tanaka.",
+     "Não gosto muito de ir a lugares lotados no domingo."
+    ],
+    "explain": "Usado para transformar substantivos, verbos, adjetivos e orações em sintagmas nominais\nUsado em situações informais, de forma concisa"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 804,
+   "src_hash": "8879654d1b1ef5ed",
+   "fields": {
+    "meaning": "(Verbo) por completo…/ Não conseguir… por completo; fazer integralmente, totalmente",
+    "examples": [
+     "A porção de arroz é grande demais, não consigo comer tudo.",
+     "Li um romance longo inteirinho em 2 dias.",
+     "Um aspecto de total exaustão."
+    ],
+    "explain": "Usado quando se usa algo por completo, sem deixar sobrar nada\nPor outro lado, na forma negativa, expressa que a ação ou a característica da coisa não chega ao fim e se prolonga",
+    "notes": "meaning_vi: Fazer até terminar, terminar tudo ⏐ examples: 1. この小説はおもしろくて、１日で読み切った。\nEste romance é tão interessante que o li inteirinho em um dia.\n2. 彼は疲れ切った顔をしている。\nEle está com cara de quem está totalmente exausto."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 806,
+   "src_hash": "dac47503881a0edd",
+   "fields": {
+    "meaning": "Ouvir/ Ser advertido/ Levar bronca/ Ser repreendido para fazer/ não fazer algo",
+    "connection": "V forma imperativa・Vるな + と + 言われる・注意される・しかられる・怒られる",
+    "examples": [
+     "O médico me disse para não beber álcool.",
+     "O professor me disse para estudar mais.",
+     "Meu pai me chamou a atenção para voltar mais cedo para casa."
+    ],
+    "explain": "Usado para relatar uma ordem recebida de outra pessoa"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 807,
+   "src_hash": "ca966f1c5fc7fca2",
+   "fields": {
+    "name": "～まで（até mesmo）",
+    "meaning": "Até o ponto de (substantivo), até mesmo",
+    "examples": [
+     "Este peixe dá para comer até as espinhas.",
+     "Até você desconfia de mim?"
+    ],
+    "explain": "Usado para expressar surpresa com o grau excessivo de algo"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 808,
+   "src_hash": "275fa6484399a080",
+   "fields": {
+    "meaning": "Pedir permissão para realizar uma ação própria.",
+    "connection": "V forma causativa て + ほしい",
+    "examples": [
+     "Quero que me deixem descansar.",
+     "Por favor, deixe-me fazer este trabalho, faço questão.",
+     "Ontem apelei ao chefe de seção para que me deixasse trabalhar no novo projeto.",
+     "Estou com dor de cabeça, então gostaria que me deixassem faltar ao trabalho hoje..."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 809,
+   "src_hash": "ea0c2340da7fc7bd",
+   "fields": {
+    "meaning": "「passiva」＋「causativa」(使役受身) Expressa o sentimento de incômodo ao se ver numa situação indesejada por causa da ação ou das palavras de alguém. Também expressa um sentimento despertado por alguma ocasião.\n【「～される／～（さ）せられる」の作り方】\n読まない+　される／せられる→読まされる／読ませられる\n見ない+　させられる→見させられる\nこない+　させられる→こさせられる\nする→させられる",
+    "connection": "Vる → V forma causativa-passiva (待つ→待たされる; grupo II: 見る→見させられる)",
+    "examples": [
+     "Ter de esperar (contra a vontade)",
+     "Tive que ouvir meu irmão mais velho cantar mal.",
+     "Quando era criança, eu tinha que limpar o quarto todos os dias.",
+     "Aquele filme me fez perceber o horror da guerra.",
+     "A palestra do professor me fez refletir sobre os problemas ambientais."
+    ],
+    "explain": "「受身」＋「使役」Expressa o sentimento de incômodo ao se ver numa situação indesejada por causa da ação ou das palavras de alguém. Também expressa um sentimento despertado por alguma ocasião.\n【「～される／～（さ）せられる」の作り方】\nV-u：読まない+　される／せられる→読まされる／読ませられる\nV-ru：見ない+　させられる→見させられる\nV-irr（不規則）：こない+　させられる→こさせられる\nする→させられる"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 810,
+   "src_hash": "651c9c366eb4bd76",
+   "fields": {
+    "meaning": "「～という情報を受けて、…。」～はほかの人の話や様子などから分かったこと、…は話者の判断・意志・相手への働きかけの文など。\nAo receber a informação ~ , …\n~ é algo que o falante soube pelo relato de outra pessoa ou pela situação real.\n… é uma frase que expressa o julgamento ou a intenção do falante, ou um apelo para que o interlocutor faça algo.",
+    "connection": "V/A forma simples + (の)なら / N/Na + なら（recebe a informação e faz um julgamento）",
+    "examples": [
+     "Você não vai mais usar essa caixa? Se não for usar, me dê.",
+     "Ah, amanhã vai chover? Se chover, acho que não vai dar para ir andar de bicicleta, né.",
+     "Se você já terminou de ler esse livro, não me empresta?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 811,
+   "src_hash": "f4a43a170750c46a",
+   "fields": {
+    "meaning": "A cada…, uma vez a cada… (Nごとに)",
+    "examples": [
+     "Tome este remédio a cada 6 horas.",
+     "As Olimpíadas são realizadas a cada 4 anos.",
+     "Toda pessoa que encontro me faz a mesma pergunta."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 812,
+   "src_hash": "61d18324776e3567",
+   "fields": {
+    "meaning": "…juntos, …uns aos outros (Vます+合う)",
+    "examples": [
+     "Nos momentos difíceis, vamos nos ajudar uns aos outros.",
+     "Os dois conversaram sobre o futuro.",
+     "Fiquem à vontade e, por favor, apresentem suas opiniões uns aos outros."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 813,
+   "src_hash": "c021cf1c2b688de0",
+   "fields": {
+    "meaning": "Só… (descrição negativa, ばかりで…ない)",
+    "connection": "V forma simples + ばかりで / Na / Aい",
+    "examples": [
+     "Ele só reclama e não faz nada.",
+     "Este trabalho só dá canseira, e o salário é baixo.",
+     "Meu filho só fica jogando videogame e não me ajuda."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 814,
+   "src_hash": "b15574dfe8518ee1",
+   "fields": {
+    "meaning": "Não exatamente…, não particularmente… (別に～ない)",
+    "examples": [
+     "Não tenho nenhum compromisso em especial.",
+     "Aquele filme não foi lá muito interessante.",
+     "A: Você está com raiva?\nB: Não estou com raiva nenhuma."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 815,
+   "src_hash": "bef54bdc3ee82e09",
+   "fields": {
+    "meaning": "Pela primeira vez depois de (um período)… (3年ぶりに)",
+    "connection": "[período de tempo] + ぶりに (3年ぶりに)",
+    "examples": [
+     "Encontrei meus amigos do ensino médio pela primeira vez em 10 anos.",
+     "A chuva parou pela primeira vez em 3 dias.",
+     "Comi comida do meu país pela primeira vez em um mês."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 816,
+   "src_hash": "8fc981ee5323442b",
+   "fields": {
+    "meaning": "Durante…, ao longo de todo… (N中: ちゅう/じゅう)",
+    "examples": [
+     "Estou em reunião, então ligo de volta depois.",
+     "Entregue o relatório ainda hoje, por favor.",
+     "Durante as férias de verão, trabalhei meio período o tempo todo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 817,
+   "src_hash": "c5c963add91f7b2d",
+   "fields": {
+    "meaning": "…ou algo assim (N か何か)",
+    "examples": [
+     "Estou com sede, queria beber um chá ou algo assim.",
+     "Você tem uma caneta ou alguma coisa para escrever?",
+     "Que tal irmos ver um filme ou algo assim no fim de semana?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 818,
+   "src_hash": "74efb1541c410dc2",
+   "fields": {
+    "meaning": "No fim das contas, afinal…",
+    "connection": "([frase/oração]) + 結局(は) + conclusão",
+    "examples": [
+     "Pensei bastante, mas no fim decidi não ir.",
+     "No fim das contas, nada foi decidido na reunião.",
+     "Fui às pressas, mas no fim não cheguei a tempo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 819,
+   "src_hash": "5c78b704c22be9bb",
+   "fields": {
+    "meaning": "…absorver-se/afundar-se; …para dentro (Vます+込む)",
+    "examples": [
+     "Por favor, não pulem no rio.",
+     "Ele está calado, mergulhado em pensamentos.",
+     "Um desconhecido entrou sorrateiramente na casa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 820,
+   "src_hash": "5d29e1c6366766c8",
+   "fields": {
+    "meaning": "Talvez…, quem sabe… (もしかしたら～かもしれない)",
+    "connection": "もしかしたら もしかすると + [frase/oração] + かもしれない",
+    "examples": [
+     "Talvez neve amanhã.",
+     "Pode ser que ele já tenha ido embora.",
+     "Quem sabe eu consiga ir ao Japão no mês que vem."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 821,
+   "src_hash": "403f769f88242faf",
+   "fields": {
+    "meaning": "Se por acaso…, supondo que… (もしも～たら)",
+    "examples": [
+     "Se por acaso eu ganhar na loteria, quero fazer uma viagem ao redor do mundo.",
+     "Se por acaso chover amanhã, o jogo será cancelado.",
+     "Se por acaso tiver algum problema, entre em contato a qualquer hora."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 822,
+   "src_hash": "775ed1e4478392b1",
+   "fields": {
+    "meaning": "…de novo (refazer: Vます+直す)",
+    "examples": [
+     "Reescrevi as partes erradas da redação.",
+     "Por favor, pense melhor mais uma vez.",
+     "A ligação está ruim, então vou ligar de novo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

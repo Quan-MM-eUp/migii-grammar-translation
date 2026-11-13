@@ -1,0 +1,631 @@
+{
+ "batch": "b060",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 948,
+   "src_hash": "71aba646e61959cc",
+   "fields": {
+    "meaning": "Por exemplo, coisas como",
+    "connection": "[frase/oração na forma simples] + とか / N + とか",
+    "examples": [
+     "「Dizem que construir aquela casa custou mais de 100 milhões de ienes.」「Nossa, é mesmo?」",
+     "Ela disse algo como que vai a uma estação de águas termais no próximo feriado prolongado.",
+     "〈Carta〉Como vai? Aqui estamos todos bem. Soube pelo Sr. Hara que você, Sachiko, virá a Kyoto no mês que vem. Não deixe de passar aqui também.",
+     "「Ouvi dizer que a aula de inglês de amanhã não vai ter. É verdade?」",
+     "Soube que sua mãe foi internada. Como ela está? (carta)",
+     "Parece que houve um acidente com uma pessoa na linha da estação, então o trem parou e acabei me atrasando."
+    ],
+    "explain": "Enumeração não exaustiva, que subentende “há muitas outras coisas”.\nInformação de terceiros com “とか” no final da frase: reduz a responsabilidade pelo que se diz e mostra falta de certeza.\nNa conversa, pode aparecer também “とかさ/とかって” para reforçar o tom de linguagem falada.\nNão convém usar muitos “とか” seguidos na linguagem escrita, pois isso dá uma sensação de prolixidade/falta de clareza.\n\n- Enumeração: apresenta alguns exemplos representativos, sem abranger tudo; tem caráter sugestivo, casual e informal.\n- Informação de terceiros: “とか” no final da frase expressa uma fonte vaga; o falante não afirma com certeza (pelo que dizem, parece que).\n- Com “とかで”: indica uma causa vaga, que o falante não sabe exatamente (algo como “por causa de algo como…”).\n- Grau de polidez: bastante próprio da linguagem falada; evite em textos formais que exijam alta precisão.",
+    "notes": "1) Fácil de confundir com ～という／～って.\n→ ～とか costuma ser usado para transmitir algo ouvido mas incerto, ou para uma citação vaga.\n2) Comum em conversas/cartas.\n→ Nuance leve de “ouvi dizer que…”, sem afirmar.\n3) Não se usa quando a fonte é certa.\n→ Para transmitir com mais certeza, use ～ということだ／～そうだ.",
+    "mistakes": [
+     "Usar “とか” em texto formal/apresentação acadêmica → falta de seriedade. Substitua por や/など/によると～そうだ.",
+     "Confundir “とか” (enumeração) com “とかで” (motivo). “とかで” precisa ser seguido de um verbo que indique resultado: 中止になった/遅れた.",
+     "Informação de terceiros com “とか”, mas com afirmação forte → contradição de nuance. Se houver certeza, use ～と聞いた/～そうだ.",
+     "Abusar de “とか” seguidos deixa a frase fragmentada; escolha 1–2 itens representativos."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Função",
+      "Diferença principal",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "NやN",
+       "Enumerar exemplos",
+       "Mais neutro, menos próprio da linguagem falada",
+       "<ruby>寿司<rt>すし</rt></ruby>や<ruby>天ぷら<rt>てんぷら</rt></ruby>"
+      ],
+      [
+       "Nなど",
+       "“etc.”; depreciativo/relutante conforme o contexto",
+       "Mais formal que とか na linguagem escrita",
+       "<ruby>本<rt>ほん</rt></ruby>などを<ruby>読<rt>よ</rt></ruby>む"
+      ],
+      [
+       "～そうだ（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Ouvir dizer",
+       "Neutro, mais objetivo que とか",
+       "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうだ"
+      ],
+      [
+       "～って（<ruby>伝聞<rt>でんぶん</rt></ruby>）",
+       "Ouvir dizer (muito próprio da linguagem falada)",
+       "Ainda mais informal que とか",
+       "<ruby>彼<rt>かれ</rt></ruby>、<ruby>来<rt>こ</rt></ruby>ないって"
+      ],
+      [
+       "～とかで",
+       "Motivo vago",
+       "Só na linguagem falada, não formal",
+       "<ruby>事故<rt>じこ</rt></ruby>とかで<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 949,
+   "src_hash": "5ecb4f3a6ddd6322",
+   "fields": {
+    "meaning": "Quase, por pouco",
+    "examples": [
+     "Fui empurrado na plataforma da estação e por pouco não caí nos trilhos.",
+     "Eu estava com pressa quando saí, então por pouco não esqueci a carteira.",
+     "Se ela não tivesse me alertado, eu teria sido enganado.",
+     "(Na prova) Faltava pouco para eu terminar de escrever, mas o sinal tocou.",
+     "O atleta Takahashi estava a um passo de se tornar titular, mas se machucou em um acidente e acabou se aposentando.",
+     "Por pouco não perdi o trem."
+    ],
+    "explain": "Expressa uma ação que quase aconteceu, mas que no fim foi evitada. Costuma ser usado para situações indesejadas.\nExpressa algo que quase foi alcançado ou quase aconteceu, mas no fim não se concretizou, com sensação de pesar.\n\n• Expressa algo que “quase aconteceu” bem naquele momento, mas que no fim NÃO aconteceu.\n• Dois sentidos:\n\nVるところだった：quase fez X (mas evitou).\nVないところだった：quase NÃO fez X (mas no fim fez).\n\n• Vるところだった：quase fez X (mas evitou).\n• Vないところだった：quase NÃO fez X (mas no fim fez).\n• Costuma vir com もう少しで, 危うく, 今にも para enfatizar o “quase”.\n• Diferente de ～そうになった: ～ところだった enfatiza o momento iminente; ～そうになった enfatiza o estado de “quase” passar a algo.",
+    "notes": "1) Fácil de confundir com ～そうになった／～かけた.\n→ ～ところだった é “por pouco não…”, geralmente em situações indesejadas.\n2) Costuma ter a nuance de “ainda bem que não aconteceu”.\n→ Enfatiza que foi por um triz, quase causando consequências.\n3) Atenção ao outro significado nos seus dados (ghichu=2).\n→ Se quiser registrar uma pegadinha separada para o significado ghichu=2, convém atualizar também o ct ghichu=2.",
+    "mistakes": [
+     "Usar quando o fato já aconteceu: erro no sentido de “quase”.",
+     "Confundir com Vるところだ (estar prestes a fazer) e Vたところだ (acabar de fazer): tempo verbal e sentido diferentes.",
+     "Confundir com ～そうになった: se a questão pede “quase” com ênfase no momento iminente → prefira ～ところだった.",
+     "Esquecer a negação em “quase não”: ×間に合うところだった（quase não deu tempo）→ correto: 間に合わないところだった。"
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "Vるところだった",
+       "Quase fazer V",
+       "Não aconteceu",
+       "<ruby>転<rt>ころ</rt></ruby>ぶところだった"
+      ],
+      [
+       "Vないところだった",
+       "Quase não V",
+       "No fim, fez V",
+       "<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わないところだった"
+      ],
+      [
+       "Vそうになった",
+       "Quase/estar a ponto de V",
+       "Enfatiza o estado prestes a mudar; não necessariamente “no último instante”",
+       "<ruby>泣<rt>な</rt></ruby>きそうになった"
+      ],
+      [
+       "Vるところだ",
+       "Estar prestes a fazer V (presente)",
+       "Tempo verbal diferente (preparando-se), sem “quase”",
+       "<ruby>今<rt>いま</rt></ruby><ruby>出<rt>で</rt></ruby>るところだ"
+      ],
+      [
+       "Vかける",
+       "Deixar pela metade",
+       "No meio da ação",
+       "<ruby>死<rt>し</rt></ruby>にかけた"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 950,
+   "src_hash": "cf9522db11ed93fb",
+   "fields": {
+    "meaning": "A julgar pelo fato de ~",
+    "connection": "V na forma simples + ところを見ると",
+    "examples": [
+     "A julgar pelo fato de estar faltando ao trabalho há uma semana inteira, parece que não está nada bem de saúde.",
+     "A julgar pelo fato de não dizer nada, parece que o presidente da empresa também não é contra.",
+     "〈A mãe para o filho〉Já terminou a lição de casa? … Pelo seu silêncio, ainda não, né. Vá fazer logo.",
+     "A julgar pela fila que sempre se forma, com certeza deve ser um restaurante gostoso."
+    ],
+    "explain": "◎ Expressa conjectura, com a ideia de “julgar a partir da situação real ~”.",
+    "notes": "Usado quando o falante expressa uma conjectura com base em uma experiência direta. No final da frase, costuma-se usar 「らしい／ようだ／にちがいない」 etc. Às vezes também se usa a forma 「…ところからみて」.\n*（例） 高級車に乗っているところからみて、相当の金持ちらしい。"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 951,
+   "src_hash": "eeb7a0f81f533796",
+   "fields": {
+    "meaning": "Mesmo que…, supondo que…",
+    "examples": [
+     "Mesmo que chova, o jogo será realizado como previsto.",
+     "Mesmo que eu fracasse, quero tentar.",
+     "Mesmo que ele tenha dito a verdade, não consigo acreditar de imediato.",
+     "Mesmo que o preço seja alto, escolho a qualidade.",
+     "Mesmo sendo estudante, deve-se assumir a responsabilidade.",
+     "(Se) mesmo que eu me mude…"
+    ],
+    "explain": "Enfatiza que “o resultado/a posição não muda”.\nAdequado para argumentação e contestação: “Admitindo que…, mesmo assim…”.\nPode ser usado tanto com suposições reais quanto remotas; nuance mais formal que ～ても.\nCostuma combinar com たとえ para dar ênfase: たとえ～としても.\n\n• Concessão: mesmo que a suposição X seja verdadeira, o resultado/opinião Y não muda.\n• Usado também para suposições pouco prováveis ou para admitir provisoriamente um ponto a fim de argumentar.\n• Costuma vir com expressões de determinação/opinião forte: ～買う／～変わらない／～構わない／～挑戦したい.",
+    "notes": "• Com N/na, convém manter だ na linguagem escrita: N/na + だとしても.\n• Costuma acompanhar argumentos de contraposição: たとえAとしても、B（Aを認めつつB）.\n• Em discursos, é usado para fazer uma “concessão estratégica” antes de afirmar a própria opinião.",
+    "mistakes": [
+     "Confundir com ～としたら: se a frase precisa da nuance “mesmo que”, deve-se usar ～としても.",
+     "Omitir だ com N/na na linguagem escrita: × 学生としても (ambíguo) → 〇 学生だとしても.",
+     "Usar quando o resultado na verdade depende da condição: se o resultado muda, não se deve usar ～としても.",
+     "O JLPT costuma testar os pares たとえ/仮に + ～としても/～ても: escolha o par natural."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～としても",
+       "Mesmo que ~",
+       "Formal, argumentativo; o resultado não muda",
+       "<ruby>高<rt>たか</rt></ruby>いとしても<ruby>買<rt>か</rt></ruby>う"
+      ],
+      [
+       "～ても／～でも",
+       "Ainda que ~, …",
+       "Comum, mais próprio da linguagem falada",
+       "<ruby>雨<rt>あめ</rt></ruby>でも<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "たとえ～ても",
+       "Supondo que… ainda que…",
+       "Enfatiza a suposição",
+       "たとえ<ruby>負<rt>ま</rt></ruby>けても<ruby>学<rt>まな</rt></ruby>ぶ"
+      ],
+      [
+       "～にしても",
+       "Mesmo que/ainda que",
+       "Costuma vir com avaliação/critério",
+       "<ruby>冗談<rt>じょうだん</rt></ruby>にしても<ruby>言<rt>いい</rt></ruby>いすぎだ"
+      ],
+      [
+       "～としたら",
+       "Se, supondo que ~",
+       "Condição hipotética, não concessão",
+       "<ruby>行<rt>い</rt></ruby>けないとしたら<ruby>連絡<rt>れんらく</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 952,
+   "src_hash": "fe707200e5188c94",
+   "fields": {
+    "meaning": "Nem um sequer ~",
+    "connection": "quantidade mínima + として…ない",
+    "examples": [
+     "Das obras dele, nem uma sequer é fácil de entender.",
+     "Ninguém, nem uma única pessoa, sabe o verdadeiro motivo de eu ter deixado o emprego.",
+     "Já se passaram 10 anos desde o acidente, mas não há um dia sequer em que eu não me lembre dele.",
+     "Muitos pesquisadores tentaram desvendar este mistério, mas nem um sequer conseguiu."
+    ],
+    "explain": "◎ Expressa negação total: “nenhum, qualquer que seja”.",
+    "notes": "Segue palavras com 「一」 que indicam a quantidade mínima, como 「一日」「一時（いっとき）」「（だれ）一人」「（何）一つ」, e, acompanhado da forma negativa do predicado, expressa o sentido de 「全然…ない」. Quando acompanha interrogativos como 「なに」「だれ」, 「として」 pode ser omitido.\n*（例） だれ一人、私の発言を支持してくれる人はいなかった。É uma expressão um tanto de linguagem escrita; na linguagem falada, o comum é dizer algo como 「一人も…ない」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 953,
+   "src_hash": "8d4bbc4b0c947521",
+   "fields": {
+    "meaning": "Se for o caso de…, se for assim…",
+    "examples": [
+     "Se o prazo é segunda-feira da semana que vem, temos que nos apressar.",
+     "Se ele não pode ir, então quem é que vai acabar indo?",
+     "Se for para se mudar, vai custar bastante dinheiro, né.",
+     "Se for para trabalhar no exterior, também é preciso pensar na família.",
+     "Quando se trata de provas, ele fica nervoso de repente.",
+     "Se amanhã tenho viagem de negócios, hoje preciso voltar mais cedo para casa."
+    ],
+    "explain": "Usado quando: apresenta-se uma condição e logo em seguida discutem-se as consequências/o que é preciso considerar.\nA segunda oração costuma conter:費用がかかる、時間が必要だ、手続きが増える、難しい、無理だ、見直しだ.\nNuance de mudança de tópico: “A となると、(話は)～” como estrutura de argumentação.\nMais objetivo que となったら; pouca vontade pessoal, geralmente é um juízo/consequência geral.\n\n• Significado principal: “Quando se trata de A, (vai) surgir B”. Enfatiza o reconhecimento da situação e a discussão das consequências e questões a ponderar.\n• Nuance: mais objetivo que となったら; costuma apresentar na segunda oração dificuldades, custos, restrições, exigências etc.\n• Aparece com frequência em conversas/negociações ao passar da premissa para a análise das consequências.\n• A segunda oração raramente é um desejo pessoal direto; geralmente é avaliação, conjectura, obrigação ou algo inevitável.",
+    "notes": "• Formas enfáticas: ～となると、話は別だ／大問題だ／厄介だ.\n• Expressa “sempre que… então…” com hábitos/características: N となると～ (試合となると燃えるタイプだ).\n• Adequado em conversas de trabalho ao listar exigências que surgem de uma premissa.\n• Não convém abusar dele para ordens diretas ao ouvinte; a forma de obrigação/recomendação soa mais natural.",
+    "mistakes": [
+     "Confundir com というと/といえば (associação) – となると fala de consequências a resolver, não apenas evoca uma associação.",
+     "Usar となると para expressar um desejo pessoal forte (～したい) soa forçado; convém transformar em obrigação/sugestão (～しないと/～すべきだ).",
+     "Pegadinha de contexto do JLPT: quando a segunda oração é “費用・手続き・見直し・困る”, a resposta costuma ser となると."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença principal",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～となると",
+       "Quando se trata de A, …",
+       "Levanta problemas, consequências objetivas",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>となると、<ruby>費用<rt>ひよう</rt></ruby>が<ruby>心配<rt>しんぱい</rt></ruby>だ。"
+      ],
+      [
+       "～となったら",
+       "Se/quando chegar a hora de A, …",
+       "Vontade/preparação pessoal, linguagem falada",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>するとなったら、<ruby>準備<rt>じゅんび</rt></ruby><ruby>開始<rt>かいし</rt></ruby>だ。"
+      ],
+      [
+       "～となれば",
+       "Se por acaso/se chegar a A, …",
+       "Suposição abrangente, linguagem escrita, algo inevitável",
+       "<ruby>雨<rt>あめ</rt></ruby>となれば、<ruby>中止<rt>ちゅうし</rt></ruby>は<ruby>避<rt>さ</rt></ruby>けられない。"
+      ],
+      [
+       "～とすると/～とすれば",
+       "Supondo A, …",
+       "Neutro, suposição lógica",
+       "<ruby>行<rt>い</rt></ruby>くとすると、<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>？"
+      ],
+      [
+       "～というと/～といえば",
+       "Falando de A (associação)",
+       "Associação de tópico, sem ênfase nas consequências",
+       "<ruby>春<rt>はる</rt></ruby>というと、<ruby>桜<rt>さくら</rt></ruby>だね。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 954,
+   "src_hash": "c87162742f02b375",
+   "fields": {
+    "meaning": "Embora ~",
+    "connection": "V/A na forma simples + とはいうものの / N・Na + (だ)",
+    "examples": [
+     "Embora o local da entrevista seja perto de casa, pretendo sair cedo no dia.",
+     "Mesmo que tenha sido por falta de tempo, este relatório está ruim demais.",
+     "Embora já seja março, os dias continuam bem frios, não é?",
+     "Embora o incêndio na fábrica não tenha se transformado em um grande acidente, causou enorme apreensão aos moradores da região.",
+     "Embora ganhar ou perder não importe, quando se perde, a gente fica chateado mesmo."
+    ],
+    "explain": "◎ Expressa o sentimento “é ~, mas mesmo assim ~” ou “reconheço esse fato, mas ainda assim não basta”."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 955,
+   "src_hash": "4c2b7c90dc33a9a0",
+   "fields": {
+    "meaning": "Não só não…, como também…",
+    "examples": [
+     "Estou tão ocupado que não consigo ir nem a uma estação de águas termais aqui perto, quanto mais ao exterior.",
+     "Dizem que ele, em vez de pedir desculpas, ficou reclamando.",
+     "Estou tão ocupado com os estudos que não tenho tempo nem para ver TV em casa, quanto mais para sair com os amigos.",
+     "Estou com tanta dor de garganta que não consigo nem beber água, quanto mais comer.",
+     "Este quadro custou 1 milhão de ienes. Mas eu acho que ele vale não 1 milhão, e sim 2 milhões de ienes.",
+     "Fui ver um filme muito comentado, mas, longe de ser interessante, era chato, e acabei indo embora no meio."
+    ],
+    "explain": "Enfatiza a grande diferença entre a expectativa (A) e a realidade (B).\nCostuma ter nuance de insatisfação e crítica, mas também pode ser usado no sentido de “muito melhor”.\nNão se usa com ordens/vontade direta. Geralmente é descrição/avaliação.\nDepois de N/Aな, é preciso manter a forma correta: Aな＋な＋どころか.\n\n- Expressa um fato totalmente contrário à expectativa/suposição A: “que nada de A, quanto mais A, (na verdade) B…”.\n- Dois usos básicos:\n1) “Quanto mais A, nem mesmo B (nível mais baixo/mais básico) é/foi…”.\n2) “Não só não A, como, ao contrário, B (oposto).”\n- Costuma vir com pares de antônimos ou escalas de grau para enfatizar a distância.",
+    "notes": "- Quando A é uma expectativa positiva, どころか inverte fortemente para o negativo (ou vice-versa). Exemplo: 安いどころか高い（inversão de sentido）.\n- Costuma combinar com まで/さえ/も para aumentar o contraste: AどころかBまで～.\n- Em discursos escritos, pode aparecer a forma Aどころか、むしろBだ para deixar o contraste claro.",
+    "mistakes": [
+     "Confundir com どころではない (não é hora de fazer A) → sentido diferente. Leia o contexto com atenção: “não é hora” vs “bem ao contrário/quanto mais”.",
+     "Faltar “な” antes de どころか com Aな: ×便利どころか → ◯便利などころか.",
+     "Erro na lógica de grau: A deve ser o nível esperado/mais leve que B. Exemplo: ×難しいどころか簡単だ (pode ser usado, mas pondere o contexto de inversão forte).",
+     "Usar para ordem/sugestão → pouco natural. Evite: ×勉強するどころか早くしろ。"
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Distinção",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～どころか",
+       "Bem ao contrário/quanto mais",
+       "Enfatiza grande distância, contraste",
+       "<ruby>静<rt>しず</rt></ruby>かどころかうるさい"
+      ],
+      [
+       "～どころではない",
+       "Não é hora/situação para…",
+       "Fala de uma situação em que não se pode fazer A",
+       "<ruby>遊<rt>あそ</rt></ruby>ぶどころではない"
+      ],
+      [
+       "～はおろか",
+       "Nem mesmo A… (a segunda oração é um nível mais evidente)",
+       "Formal, usado com substantivos",
+       "<ruby>敬語<rt>けいご</rt></ruby>はおろか<ruby>挨拶<rt>あいさつ</rt></ruby>も…"
+      ],
+      [
+       "～どころか…まで/さえ",
+       "Não só A, até B também",
+       "Combinação para enfatizar o âmbito",
+       "<ruby>雨<rt>あめ</rt></ruby>どころか<ruby>雪<rt>ゆき</rt></ruby>まで"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 956,
+   "src_hash": "fd01786811cf49d7",
+   "fields": {
+    "meaning": "Não é hora de…, não dá para…",
+    "examples": [
+     "Como minha mãe foi internada, viajar ficou fora de questão.",
+     "Estou tão ocupado que não tenho como cuidar dos outros.",
+     "Hoje eu estava tão ocupado que nem deu para comer.",
+     "Minha mãe vai ter que fazer uma cirurgia, e estou tão preocupado que não consigo nem pensar em estudar.",
+     "「Que tal ir ver um filme neste sábado?」",
+     "「Desculpa, estou com prova, não dá agora.」"
+    ],
+    "explain": "O significado 1 costuma vir com Vる/Vている e substantivos que indicam atividades:遊ぶ、休む、旅行、花見…\nO significado 2 enfatiza a gravidade/algo muito além do normal:痛いどころではない, ミスどころではない…\nNuance fortemente de linguagem falada; ainda assim pode ser usado na linguagem escrita formal.\nNão é seguido de vontade/ordem dirigida ao ouvinte; é principalmente uma constatação objetiva da situação.\n\n• Significado 1 (comum): não é hora/não há condições de fazer ~ porque a situação não permite. Nuance de pressa, correria, situação grave.\n• Significado 2: “longe de ~ / nada de ~”, enfatiza um grau muito além da expectativa ou totalmente contrário.\n• Diferente da simples negação, ～どころではない põe o foco em “o contexto/a situação não permite” ou “o grau é muito diferente”.\n• Costuma acompanhar substantivos ligados a situações: 暇, 冗談, 笑い事, 花見, 旅行, ボーナス…",
+    "notes": "• Para enfatizar um momento de urgência, use o passado: ～どころではなかった.\n• Com substantivos abstratos: 笑い事どころではない, 人手不足どころではない… muito natural em notícias.\n• Em conversas informais, pode-se usar a forma contraída: ～どころじゃない.",
+    "mistakes": [
+     "Confundir com ～どころか: se há duas orações claramente opostas, use どころか; se apenas se diz “não é hora/longe de ~”, use どころではない.",
+     "Ligar à forma errada do verbo: Vる/Vている são ambas possíveis, mas para a situação “estou fazendo ~, não é hora” costuma-se usar Vている.",
+     "Usar para a vontade do ouvinte é incorreto: × 遊ぶどころではないから、遊びなさい.",
+     "Abusar com adjetivos -na: com substantivos/expressões de situação é mais natural."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença principal",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～どころではない",
+       "Não é hora / longe de ~",
+       "Enfatiza a situação ou o grau",
+       "<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>遊<rt>あそ</rt></ruby>ぶどころではない"
+      ],
+      [
+       "～どころか",
+       "Não só não ~, como ao contrário…",
+       "Comparação de contraste forte; apresenta duas orações opostas",
+       "<ruby>雨<rt>あめ</rt></ruby>がやむどころか、<ruby>強<rt>つよ</rt></ruby>くなった"
+      ],
+      [
+       "～ている<ruby>場合<rt>ばあい</rt></ruby>ではない",
+       "Não é hora de ~",
+       "Próximo do significado 1; nuance de advertência, direta",
+       "<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>ではない"
+      ],
+      [
+       "～わけではない",
+       "Não é que ~",
+       "Negação parcial; sem foco na situação",
+       "<ruby>嫌<rt>きら</rt></ruby>いなわけではない"
+      ],
+      [
+       "～どころの<ruby>騒<rt>さわ</rt></ruby>ぎではない",
+       "Muito além de ~ (linguagem falada, enfático)",
+       "Enfatiza a gravidade",
+       "<ruby>忙<rt>いそが</rt></ruby>しいどころの<ruby>騒<rt>さわ</rt></ruby>ぎではない"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 957,
+   "src_hash": "b2c9cbb5d0306b9f",
+   "fields": {
+    "meaning": "～なければ・・・ない\nSe não..., não",
+    "examples": [
+     "Se o presidente da sessão não vier, a reunião não pode começar.",
+     "Acho que, se não nos encontrarmos pessoalmente, não dá para saber que tipo de pessoa é.",
+     "「Se você não fizer o teste, não temos como saber o seu nível.」",
+     "「Por mais que eu esteja mal, se eu não cuidar da casa, ela vira uma bagunça.」",
+     "Se aqueles dois não vierem, não podemos começar a festa.",
+     "A: E aí? Acha que dá para consertar?\nB: Hum, sem tentar, não sei dizer."
+    ],
+    "notes": "Na forma 「ＸないことにはＹない」, expressa que, se X não se realizar, Y também não se realiza. X representa a condição necessária para que Y se concretize. Pode ser substituído por 「なければ」「なくては」.（１２２）"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 958,
+   "src_hash": "e197397a5a51e3cb",
+   "fields": {
+    "meaning": "Dar um jeito de; quem dera…, será que não dá para… de jeito nenhum",
+    "examples": [
+     "Consultei a agência de viagens para ver se havia algum jeito de eu participar daquele tour.",
+     "Fiquei pesquisando de várias formas se não haveria um método melhor, e encontrei.",
+     "A: Será que não dá para fazer arroz com curry de um jeito mais fácil?\nB: Você sempre quer moleza.",
+     "A: Aqui está sempre lotado, né.\nB: É. Será que não dá para melhorar isso um pouco?"
+    ],
+    "explain": "◎ Expressa o estado de espírito de quem procura algum jeito de realizar algo difícil.",
+    "notes": "meaning_vi: será que não dá para ～ de jeito nenhum, quem dera～ ⏐ explain: Expressa o desejo de conseguir realizar algo ou de encontrar alguma solução em uma situação difícil.\nFrase formal. ⏐ examples: 1. 最近、変なメールがたくさん来る。どうにかならないものか。\nUltimamente têm chegado muitos e-mails estranhos. Quem dera eu pudesse fazer alguma coisa.\n2. デジカメが壊れた。（なんとか） 直らないものだろうか。\nA câmera digital quebrou. Quem dera eu conseguisse consertá-la."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 959,
+   "src_hash": "d3f479c791e7c837",
+   "fields": {
+    "meaning": "Enquanto…, ao mesmo tempo… / Embora… | Enquanto…",
+    "examples": [
+     "Embora achasse que o que ele dizia estava certo, acabei discordando sem querer.",
+     "Meu irmão mais novo disse que ia estudar depois do jantar, mas ainda está vendo TV.",
+     "É perigoso andar mexendo no celular.",
+     "Ele cozinha cantando.",
+     "Embora soubesse, não disse nada.",
+     "Infelizmente, desta vez, permita-me recusar."
+    ],
+    "explain": "A ação seguinte é a ação principal, o foco da frase. Exemplo: “音楽を聞きながら勉強する” → a ação principal é “estudar”.\nCostuma ser usado no cotidiano, em conversas informais ou em textos escritos simples.\nSó se usa quando as duas ações são realizadas pela mesma pessoa/pelo mesmo sujeito.\nNão se usa com ações opostas ou que não podem ocorrer ao mesmo tempo (✕泳ぎながら寝る).\n\n• Simultaneidade: expressa duas ações que ocorrem ao mesmo tempo, realizadas pelo mesmo sujeito. A ação da oração principal é o foco; a oração com ～ながら é o estado de fundo.\n• Concessão: “Embora …, …”. Enfatiza a contradição entre as duas orações, geralmente saber mas não fazer/não conseguir.\n• Restrições: não se usa com dois sujeitos diferentes; evite com ações momentâneas (一回性) difíceis de ocorrer em paralelo, como 立つ・着く, no sentido de simultaneidade.",
+    "notes": "• Ordem natural: fundo antes, principal depois. Exemplo: “走りながら考える” é mais natural que “考えながら走る”, dependendo do foco.\n• Com verbos de percepção (聞く・見る・考える), é muito natural para a ação de fundo: 考えながら運転する。\n• Substantivo + ながらに/ながらの: forma arcaica/fixa (生まれながらに, 昔ながらの味).",
+    "mistakes": [
+     "Erro de sujeito: usar ながら quando as duas ações são feitas por pessoas diferentes é incorreto.",
+     "Confundir com ～ながらも (padrão que expressa contradição, não simultaneidade).",
+     "Não retirar ます: a forma correta é Vます → V(sem ます) + ながら (✕ 食べますながら → ○ 食べながら).",
+     "O JLPT costuma testar: qual ação é a principal/secundária e se há o mesmo sujeito."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Função",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～ながら",
+       "Enquanto…; embora…",
+       "Bastante neutro; usado na linguagem falada e na escrita.",
+       "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>きき</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>する"
+      ],
+      [
+       "～つつ",
+       "Enquanto…; embora…",
+       "Mais formal/escrito; pouco usado na linguagem falada.",
+       "<ruby>反省<rt>はんせい</rt></ruby>しつつ<ruby>続<rt>つづ</rt></ruby>ける"
+      ],
+      [
+       "～ながらも",
+       "Concessão forte",
+       "Enfatiza o contraste; formal.",
+       "<ruby>不十分<rt>ふじゅうぶん</rt></ruby>ながらも<ruby>成功<rt>せいこう</rt></ruby>した"
+      ],
+      [
+       "～のに／～ものの",
+       "Embora…",
+       "Sem implicar simultaneidade; pura contradição.",
+       "<ruby>知<rt>し</rt></ruby>っているのに<ruby>言<rt>い</rt></ruby>わない"
+      ],
+      [
+       "～て",
+       "Ligar ações",
+       "Simultaneidade não obrigatória; apenas sequência.",
+       "<ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きて、<ruby>走<rt>はし</rt></ruby>る"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 960,
+   "src_hash": "1ed8599b21b5efe1",
+   "fields": {
+    "meaning": "Por ocasião de…, ao iniciar… (algo importante, formal)",
+    "examples": [
+     "Para se candidatar à bolsa de estudos, há algumas condições; para mais detalhes, informe-se na secretaria.",
+     "Uma das coisas importantes ao escrever um artigo acadêmico é seguir as regras de redação."
+    ],
+    "notes": "Variantes: ～にあたり・にあたっては"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 961,
+   "src_hash": "ed6d9f742a14e395",
+   "fields": {
+    "examples": [
+     "A seguir, vou falar sobre o papel das empresas na sociedade.",
+     "Para você, o que é que você mais valoriza na vida?"
+    ],
+    "explain": "◎ Uso na linguagem escrita que expressa a ideia de “Y em (âmbito, lugar) X”."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

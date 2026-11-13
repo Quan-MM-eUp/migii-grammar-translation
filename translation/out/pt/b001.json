@@ -1,0 +1,657 @@
+{
+ "batch": "b001",
+ "lang": "pt",
+ "model": "claude-fable-5-2",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 1,
+   "src_hash": "dc37b6611f0eeefa",
+   "fields": {
+    "meaning": "N + A\ncomo é?",
+    "examples": [
+     "A: Como é a câmera de Tanaka?\nB: É uma câmera cara.",
+     "A: Como é o Monte Fuji?\nB: É uma montanha famosa."
+    ],
+    "explain": "Ao modificar um substantivo, o adjetivo é colocado antes do substantivo, mantendo い/な.\nどんな vem antes do substantivo para perguntar sobre a qualidade ou o estado desse substantivo.\n\nO grupo A + N passa a ter a natureza de um substantivo."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 2,
+   "src_hash": "3a75ec83fe2457b3",
+   "fields": {
+    "meaning": "isto, este\nisso, esse\naquilo, aquele",
+    "connection": "これ・それ・あれ + (です/partícula)",
+    "examples": [
+     "Isto é um guarda-chuva.",
+     "Aquele é o carro de Tanaka.",
+     "Esse é o meu livro."
+    ],
+    "explain": "これ、それ、あれ：Usados apenas para coisas.\nこのN、そのN、あのN：Podem ser usados tanto para pessoas quanto para coisas. Vêm sempre acompanhados de um substantivo.\n►Uso:\nこれ、このN：Usados quando o objeto está perto do falante.\nそれ、そのN：Usados quando o objeto está longe do falante e perto do ouvinte.\nあれ、あのN：Usados quando o objeto está longe tanto do falante quanto do ouvinte.\n\nこれ：isto, este\nそれ：isso, esse\nあれ：aquilo, aquele\nこのN：este N\nそのN：esse N\nあのN：aquele N"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 3,
+   "src_hash": "12447aca54540a1f",
+   "fields": {
+    "meaning": "este N\nesse N\naquele N",
+    "examples": [
+     "Aquela pessoa é o professor Yamada.",
+     "Este livro não é um livro de japonês.",
+     "Quem é essa pessoa?"
+    ],
+    "explain": "これ、それ、あれ：Usados apenas para coisas.\nこのN、そのN、あのN：Podem ser usados tanto para pessoas quanto para coisas. Vêm sempre acompanhados de um substantivo.\n►Uso:\nこれ、このN：Usados quando o objeto está perto do falante.\nそれ、そのN：Usados quando o objeto está longe do falante e perto do ouvinte.\nあれ、あのN：Usados quando o objeto está longe tanto do falante quanto do ouvinte.\n\nこれ：isto, este\nそれ：isso, esse\nあれ：aquilo, aquele\nこのN：este N\nそのN：esse N\nあのN：aquele N"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 4,
+   "src_hash": "d5bc846f4e043a07",
+   "fields": {
+    "name": "Pergunta com palavra interrogativa",
+    "meaning": "Pergunta com palavra interrogativa: …é o quê/quem/onde?",
+    "connection": "～は + [palavra interrogativa] + ですか（resposta: ～は + Nです）",
+    "examples": [
+     "A: Quem é aquela pessoa?\nB: É Yamada.",
+     "A: Quantos anos você tem?\nB: Tenho 20 anos."
+    ],
+    "explain": "Substitui-se o conteúdo sobre o qual se quer perguntar pela palavra interrogativa. Palavras interrogativas são palavras usadas para perguntar, como: quem? o quê? onde? quantos anos? quanto custa? …\nNesse tipo de pergunta, responde-se diretamente, sem はい nem いいえ."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 5,
+   "src_hash": "794ea5ffb3a7d41d",
+   "fields": {
+    "name": "Pergunta de confirmação",
+    "meaning": "~ não é?",
+    "connection": "～は + N + ですか（resposta: はい、Nです / いいえ、Nじゃありません）",
+    "examples": [
+     "A: O Sr. Schmidt é alemão?\nB: Sim, é alemão.",
+     "A: Você tem 18 anos?\nB: Não, tenho 20 anos."
+    ],
+    "explain": "Este é o tipo de pergunta de confirmação, usado para verificar se uma informação é correta ou incorreta.\nNa resposta, é obrigatório usar はい(sim) ou いいえ(não)."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 6,
+   "src_hash": "c032669a0c470f80",
+   "fields": {
+    "name": "Aprender a contar horas e minutos",
+    "meaning": "que horas?\nquantos minutos?",
+    "examples": [
+     "A: Que horas e quantos minutos são agora?\nB: São sete e trinta.\nSão sete e meia.",
+     "A: Que horas são agora no Japão?\nB: São nove horas."
+    ],
+    "explain": "～じはん：~ e meia\nEx.: duas e meia: にじはん\nはん equivale a 30 minutos; no entanto, はん não é usado sozinho: vem sempre acompanhado da hora."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 7,
+   "src_hash": "4b31e13400f45e80",
+   "fields": {
+    "name": "Perguntar o preço",
+    "meaning": "quanto custa?",
+    "examples": [
+     "A: Quanto custam estes sapatos?\nB: Custam 800 ienes.",
+     "A: Quanto custa aquela agenda?\nB: Custa 50.000 dongs."
+    ],
+    "explain": "Ao responder sobre o preço, usa-se o numeral acompanhado da unidade monetária.\nEx.: 80.000 dongs : はちまん　ドン"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 8,
+   "src_hash": "ad8162773df3701d",
+   "fields": {
+    "name": "Perguntar o número de telefone",
+    "meaning": "qual número?",
+    "examples": [
+     "A: Qual é o número de telefone da biblioteca?\nB: É 08 678 789.",
+     "A: Qual é o número do celular do professor Yamada?\nB: É 0909 707 708."
+    ],
+    "explain": "O número de telefone é lido algarismo por algarismo.\nQuando o número de telefone é longo, ele é dividido e lido em grupos, usando の.\nEx.: 0650-222-123 : ゼロろくごゼロの　にににの　いちにさん"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 9,
+   "src_hash": "9396856e3292a9f9",
+   "fields": {
+    "name": "Perguntar a idade",
+    "meaning": "~ quantos anos tem?",
+    "examples": [
+     "A: Quantos anos tem o professor Yamada?\nB: O professor Yamada tem 40 anos.",
+     "A: Quantos anos você tem?\nB: Tenho 21 anos."
+    ],
+    "explain": "Usa-se なんさい ou おいくつ para perguntar a idade. Entre eles, おいくつ é a maneira polida de perguntar a idade."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 10,
+   "src_hash": "7a508f7b5c207924",
+   "fields": {
+    "name": "Perguntar e contar andares de prédio",
+    "meaning": "Em que andar?",
+    "connection": "～は + なんがい + ですか（resposta: ～かいです）",
+    "examples": [
+     "A: Em que andar fica a seção de relógios?\nB: Fica no terceiro andar.",
+     "A: Em que andar fica a livraria?\nB: Fica no segundo subsolo."
+    ],
+    "explain": "O térreo é contado como 1º andar\nPara contar os subsolos, coloca-se ちか na frente.\nEx.: Primeiro subsolo　→　ちかいっかい"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 11,
+   "src_hash": "9d1fdd14fb097f75",
+   "fields": {
+    "name": "Padrão de frase que indica lugar",
+    "meaning": "Indicação de lugar: aqui é…, …é aqui (apresentação vs ênfase na localização)",
+    "connection": "ここ/そこ/あそこ + は + Nです（apresentação） / Nは + ここ/そこ/あそこ + です（ênfase na localização）",
+    "examples": [
+     "Aqui é a minha casa.",
+     "A minha casa é aqui."
+    ]
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 12,
+   "src_hash": "2fff81d4b380552d",
+   "fields": {
+    "name": "N を V(verbo transitivo)",
+    "meaning": "Fazer algo com N (estrutura de objeto direto: NをV)",
+    "examples": [
+     "Eu como pão.",
+     "Bebo água."
+    ],
+    "explain": "Partícula を：usada para indicar o alvo da ação do verbo.\nO substantivo que vem antes de を é o alvo que sofre a ação do verbo e é chamado de objeto direto; modifica diretamente esse verbo."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 13,
+   "src_hash": "0f9b332869b1d4b8",
+   "fields": {
+    "meaning": "Fazer/jogar N (Nをします: テニスをします)",
+    "examples": [
+     "Trabalho.",
+     "Jogo futebol.",
+     "Dou uma festa.",
+     "Faço uma ligação."
+    ],
+    "explain": "Nをします　Fazer, jogar, realizar … N.\nO verbo します aceita um âmbito amplo de substantivos como objeto direto. Indica que se realiza a ação com o significado expresso pelo objeto direto."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 14,
+   "src_hash": "5d67df1f41928450",
+   "fields": {
+    "name": "N1とN2N1 e N2",
+    "meaning": "N1 e N2",
+    "examples": [
+     "O banco fecha aos sábados e domingos.",
+     "A: Em que andar fica a biblioteca?\nB: Fica no 3º e no 4º andar."
+    ],
+    "explain": "A partícula と liga 2 substantivos de mesma função, com o significado de “e”."
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 15,
+   "src_hash": "4237926b3a3ccbb4",
+   "fields": {
+    "meaning": "Palavra interrogativa なん | Palavra interrogativa だれ | Omissão de N1 | Palavra interrogativa　どこ",
+    "connection": "N + の + N / Palavra interrogativa (なん/だれ) + の + N",
+    "examples": [
+     "O Sr. Yamada é um professor homem.",
+     "Aquele é o dicionário de Tanaka.",
+     "Aquele é um carro da Alemanha.",
+     "A: Este livro é de quê?\nB: É um livro de japonês.",
+     "A: De quem é este livro?\nB: É o meu livro.",
+     "A: De quem é aquele livro?\nB: É de Miller."
+    ],
+    "explain": "N 2 の N 1 です　pode-se omitir N 1 quando N 1 já apareceu antes e é um substantivo que indica coisa.\n\n“の” só é usado para substituir substantivos que indicam coisas, e não substantivos de pessoa.\n\nN1de quê?\nN1de N2"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 16,
+   "src_hash": "98564f149825fd68",
+   "fields": {
+    "name": "Palavra interrogativa de tempo いつ",
+    "meaning": "Quando?",
+    "examples": [
+     "A: Quando é o seu aniversário?\nB: É dia 20 de julho.",
+     "A: Quando você vai ao Japão?\nB: Vou ao Japão em abril deste ano."
+    ],
+    "explain": "いつ：Usado para perguntar sobre o tempo. Não vem acompanhado de に"
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 17,
+   "src_hash": "6f20653944eab135",
+   "fields": {
+    "name": "Partícula が",
+    "meaning": "Sujeito, alvo da ênfase",
+    "examples": [
+     "Há um cachorro.",
+     "Há um livro aqui.",
+     "Entendo japonês.",
+     "Eu gosto de maçã.",
+     "Dá para ver a montanha.",
+     "Meu irmão mais novo veio."
+    ],
+    "explain": "が é usado para introduzir uma informação nova na frase (informação que o ouvinte ainda não conhece).\nは é usado para falar de uma informação já conhecida ou do tópico geral da conversa.\nNa frase com “が”, a parte que vem antes de “が” é o foco da informação – a parte que o falante quer enfatizar.\nCostuma aparecer na resposta a perguntas como “Quem?”, “O quê?”, “Onde?”, “Qual?” (～が～です／～がいます／～があります).\n\n① Identificar o sujeito (pessoa / coisa que realiza a ação, existe…):\nQuando se quer dizer “quem / o que tem, está, aparece, sabe, gosta…”, usa-seが.\n② Usado para enfatizar o alvo de que se fala:\n“が” costuma ser usado quando se quer enfatizar quem / o que está fazendo algo ou existe.\n③ Usado com verbos de estado, sentimento, capacidade, existência:\nあります・います・わかります・好きです・嫌いです・上手です・下手です・見えます・聞こえます…",
+    "notes": "“が” aparece em muitas outras estruturas do JLPT N5, como:～がいます／～があります／～がわかります／～が好きです／～が見えます／～が聞こえます。\nNa conversa natural, “が” pode ser omitido quando o ouvinte já entende o contexto:（だれが来た？）→山田。\n“が” também é usado em estruturas que ligam frases e indicam um contraste leve:雨が降っていますが、行きます。→ Está chovendo, mas eu vou.",
+    "mistakes": [
+     "Confusão entre が e は:",
+     "✕私は犬が好きです → (correto, mas, numa comparação) “は” enfatiza o tópico; “が” enfatiza o alvo de que se gosta.",
+     "→ “が” é que é natural:私は犬が好きです。",
+     "Esquecer が em frases com います／あります:",
+     "✕ ここにねこいます → ○ ここにねこがいます。",
+     "Usar “を” no lugar de “が” é gramaticalmente incorreto:",
+     "✕日本語をわかります → ○日本語がわかります。",
+     "O JLPT N5 costuma testar: a escolha correta entre “が” e “は”, especialmente em frases sobre “gostos”, “compreensão”, “existência”."
+    ],
+    "comparison": {
+     "headers": [
+      "Partícula",
+      "Significado / função",
+      "Quando usar",
+      "Exemplo"
+     ],
+     "rows": [
+      [
+       "が",
+       "Indica o sujeito / enfatiza a informação nova",
+       "Ao responder a “Quem?”, “O quê?”, “Onde?”",
+       "だれが<ruby>来<rt>き</rt></ruby>ましたか。 → <ruby>山田<rt>やまだ</rt></ruby>さんが<ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "は",
+       "Indica o tópico / comparação / informação já conhecida",
+       "Ao falar do tópico geral",
+       "<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>学生<rt>がくせい</rt></ruby>です。"
+      ],
+      [
+       "→ “が” concentra-se em “quem veio”; “は” concentra-se em “falar sobre essa pessoa”."
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 18,
+   "src_hash": "398a887eb61bd34b",
+   "fields": {
+    "name": "Partícula で",
+    "meaning": "Com…, em…, por causa de… | Lugar onde ocorre a ação, meio",
+    "examples": [
+     "As crianças estão brincando no parque.",
+     "Vou ao aeroporto de ônibus.",
+     "O trem atrasou por causa de um acidente.",
+     "Vamos sair para comer em quatro.",
+     "Comprei isto por 1.500 ienes.",
+     "Com esta, é a terceira vez."
+    ],
+    "explain": "Lugar: para ações ativas usa-se で; para existência/permanência usa-se に (学校 で 勉強する vs学校 に いる).\nCausa: で enfatiza o caráter objetivo; から/ので tendem ao motivo subjetivo/à explicação.\nDuração com で:一時間 で 終わる = conclusão dentro desse período; diferente de一時間 に (frequência).\nO で de ligação de Adj-na/N tem nuance de enumeração em pé de igualdade; é natural e usado tanto na linguagem escrita quanto na fala.\n“Número de pessoas で”:二人 で = “duas pessoas juntas…”, indica o âmbito de participação.\n\nIndica o lugar onde ocorre a ação: Lugar onde se realiza uma ação ativa (学校で勉強する).\nMeio/modo/instrumento: Meio de transporte, língua, utensílio (車で、箸で、日本語で).\nCausa objetiva: Desastre natural, incidente, doença, engarrafamento (地震で、事故で、風邪で).\nMaterial/matéria-prima; preço:木で作る; 500円で買える.\nÂmbito/grupo/unidade:三人で (em 3 pessoas),一時間で (em 1 hora).\nQualidade/estado; forma て de ligação de だ:学生で、静かで (equivalente a Adj-naのて形).\nEnumeração em pé de igualdade/contraste de qualidades: AでBだ (igualdade), AではなくB (negação com contraste).\nNuance de “com/graças a/devido a”: conforme o contexto, traz conotação positiva (～で助かる) ou conotação negativa (～で困る).",
+    "notes": "で pode formar expressões fixas: これで以上, それでは (では) = “então”.\n“手段で” e “材料で” são fáceis de confundir: ペンで書く (com caneta) vs木で作る (de madeira).\n“期間で” não é usado para um período contínuo em que a ação não se conclui:3年間で仕上げた (concluído em 3 anos) OK;3年間で勉強している geralmente é pouco natural.\nmeaning_vi: A\nExpressa o lugar onde ocorre uma ação ou um fato, como no exemplo ①, e o lugar onde acontece um evento, como no exemplo ②.\nB\nExpressa o modo, como no exemplo ①, e o material, como no exemplo ②.\nC\nExpressa o âmbito.\nD\nExpressa a causa, o motivo.\nexamples: 1. ①廊下で絵をかきました。\nFiz um desenho no corredor.\n2. ②近所で火事がありました。\nHouve um incêndio na vizinhança.\n3. ①毎日自転車で会社に行きます。\nVou de bicicleta para a empresa todos os dias.\n4. ②紙で人形を作りました。\nFiz um boneco de papel.\n5. ①日本で一番高い山は富士山です。\nA montanha mais alta do Japão é o Monte Fuji.\n6. ①父は今仕事で忙しいです。\nMeu pai está ocupado com o trabalho agora.\n7. ②かぜで学校へ行けませんでした。\nNão pude ir à escola por causa de um resfriado.\n──────\n1. ①　日本で\nNo Japão.\n2. ②　タイの　大学で　日本を　べんきょうしました。\nEstudei japonês em uma universidade da Tailândia.\n3. ③　わたしは　毎日　おふろで　うたいます。\nEu canto no banho todos os dias.\n4. ④　へやで　DVDを　見ます。\nAssisto a DVDs no quarto.\n──────\n1. ①　ひとりで\nSozinho.\n2. ②　いつも　ひとりで　えいがを　見ます。\nSempre assisto a filmes sozinho.\n3. ③　みなんで　あそびに　行きました。\nSaímos todos juntos para passear.\n4. ④　かぞくで　バーべーキューを　しました。\nFizemos um churrasco em família.\n──────\n1. ①　車で　行きますか。\nVocê vai de carro?\n2. ②　北海道へ　行きたいです。何で　行きますか。\nQuero ir a Hokkaido. Como se vai até lá?\n3. ③　フェリーで　行きます。17時間くらいです。\nVai-se de balsa. Leva cerca de 17 horas.\n4. ④　ホールペンで　書きます。\nEscrevo com caneta esferográfica.",
+    "mistakes": [
+     "Confusão entre に e で:会議であります (incorreto) →会議があります;会議は会議室であります (para “realizar-se em…”, usa-se で).",
+     "Usar から/ので no lugar de で para causa objetiva:事故で遅れた (correto) ≠事故だから遅れた (tende à explicação).",
+     "Adj-i + で (incorreto):高いで便利(incorreto) →高くて便利.",
+     "“Duração com で” incorreta:一時間に終わる (incorreto) →一時間で終わる.",
+     "Para enumeração de substantivos usa-se と, e não で: りんごとバナナを買う (correto), りんごでバナナ… (incorreto)."
+    ],
+    "comparison": {
+     "headers": [
+      "Par comparado",
+      "Diferença",
+      "Padrão de frase",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "で vs に (local)",
+       "で: lugar da ação; に: lugar de existência/destino",
+       "<ruby>場所<rt>ばしょ</rt></ruby>でV／<ruby>場所<rt>ばしょ</rt></ruby>にいる",
+       "<ruby>駅<rt>えき</rt></ruby>で<ruby>待<rt>ま</rt></ruby>つ／<ruby>駅<rt>えき</rt></ruby>にいる"
+      ],
+      [
+       "で (causa) vs から/ので",
+       "で: causa objetiva; から/ので: motivo explicativo",
+       "Nで ～／～から",
+       "<ruby>雪<rt>ゆき</rt></ruby>で<ruby>休校<rt>きゅうこう</rt></ruby>／<ruby>眠<rt>ねむ</rt></ruby>いので<ruby>帰<rt>かえ</rt></ruby>る"
+      ],
+      [
+       "で (meio) vs を (alvo)",
+       "で: instrumento; を: objeto direto",
+       "<ruby>道具<rt>どうぐ</rt></ruby>でV／NをV",
+       "<ruby>箸<rt>はし</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる／ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "で (ligação) vs くて",
+       "で é usado com な/N; くて, com い-adj",
+       "Aな/Nで、Aいくて",
+       "<ruby>便利<rt>べんり</rt></ruby>で<ruby>安<rt>やす</rt></ruby>くていい"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 19,
+   "src_hash": "aa9d4651282fb521",
+   "fields": {
+    "name": "Partícula と",
+    "meaning": "Junto com | E, junto com, citação | Partícula que liga substantivo a substantivo",
+    "connection": "N + と / [frase/oração] + と",
+    "examples": [
+     "Misturo a água e o açúcar.",
+     "Vi um filme com ele.",
+     "Ele disse: “Tudo bem”.",
+     "Estou pensando em ir amanhã.",
+     "Quando chega a primavera, o tempo esquenta.",
+     "Tóquio e Osaka têm atmosferas diferentes."
+    ],
+    "explain": "Enumeração rigorosa: usa-se と quando a lista é completa; se não for completa, usa-se や/とか.\nと condicional: na segunda oração não se usam vontade/ordem, como ～てください/～ましょう; usa-se quando o resultado é inevitável, em descrições.\nCitação sem aspas:彼は来ない と 思う (citação indireta).\nO と de companhia tem preferência para parceiros que são pessoas/seres com vontade; para instrumentos usa-se で.\n\nEnumeração de caráter exaustivo: AとB = apenas A e B, sem “etc.” implícito.\nCompanhia/parceiro: fazer algo “junto com” alguém (彼と行く).\nCitação: liga uma fala, um pensamento, uma placa, uma regra a um verbo de comunicação (言う,思う,書く…).\nと condicional: relação inevitável, natural; não se usa com vontade/ordem na segunda oração.\nContraste e comparação: AとBは同じ/違う/比べる.\nDenominação: AというB = B “chamado” A.",
+    "notes": "と言えば／と言うと／とすると têm nuance de mudança de assunto ou de suposição; atenção aos significados diferentes conforme o contexto.\n名詞＋と＋して (na qualidade de) é uma expressão fixa avançada, diferente de “e”.\n“Aと違ってB”: estrutura de comparação e contraste útil na redação de textos dissertativos.",
+    "mistakes": [
+     "Usar o と condicional com ordem/vontade na segunda oração: ボタンを押すと、開けてください (pouco natural) → ボタンを押したら、開けてください.",
+     "Confusão entre と e で:友達と行く (correto, “com um amigo”) ≠友達で行く (incorreto).",
+     "Usar と em enumeração incompleta: りんごとなど (incorreto) → りんごやなど.",
+     "Citação sem と: 「行かない」思う (incorreto) → 「行かない」と思う."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão gramatical",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "と (enumeração)",
+       "e (completo)",
+       "Lista fechada",
+       "AとB"
+      ],
+      [
+       "や／とか",
+       "e (etc.)",
+       "Lista aberta",
+       "AやBとか"
+      ],
+      [
+       "と (companhia)",
+       "com (junto)",
+       "Parceiro que faz junto",
+       "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "で (instrumento)",
+       "com (utensílio)",
+       "Não é companhia",
+       "<ruby>箸<rt>はし</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる"
+      ],
+      [
+       "と (condicional)",
+       "sempre que…, …",
+       "Inevitável/natural",
+       "<ruby>春<rt>はる</rt></ruby>と<ruby>咲<rt>さ</rt></ruby>く"
+      ],
+      [
+       "なら／たら",
+       "se…",
+       "Suposição/condição geral",
+       "<ruby>雨<rt>あめ</rt></ruby>なら<ruby>中止<rt>ちゅうし</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 20,
+   "src_hash": "9427bb57a1e2d165",
+   "fields": {
+    "name": "Partícula に",
+    "meaning": "Em…, a…, para… | Lugar, momento, finalidade",
+    "examples": [
+     "A reunião começa às 3 da tarde.",
+     "Quando chegar à estação, me liga.",
+     "Há um computador na mesa.",
+     "Vou ao Japão para estudar japonês.",
+     "Faço uma pergunta ao professor.",
+     "Um amigo me mandou a foto."
+    ],
+    "explain": "Tempo: usado com pontos específicos (３時,４月１日). Com palavras como今日/明日/来週geralmente se omite に:明日会う.\nLocal: に para destino/existência; で para o lugar onde ocorre a ação:学校 に 行く vs学校 で 勉強する.\nFinalidade: Vます + に +行く/来る/帰る. Enfatiza a finalidade do deslocamento.\nMudança/fazer ficar: Aい usa く, Aな/N usa に:部屋をきれいにする／値段を高くする.\n\nDestino/direção específica: enfatiza o ponto de chegada, diferente de へ (que indica direção).\nLocal de existência: usado com ある/いる para dizer “estar em, haver”.\nMomento determinado: hora, dia, mês; palavras de tempo genéricas (今日、明日) geralmente não usam に.\nFinalidade com Vます-stem: “ir/vir para …”.\nIndica o resultado de uma mudança: N/Adj-na + になる; com adjetivos い usa-se くなる.\nDestinatário indireto: quem recebe/dá nos verbos de dar e receber.\nUnidade/frequência:一日に,一時間に,一人に…\nAgente na frase passiva: NにVられる.",
+    "notes": "• O agente da passiva é a pessoa/coisa que causa ativamente a ação: 先生に褒められた. Para dizer “por” no sentido de causa/graças a, usa-se ～によって.\n• Destino abstrato: 質問に答える（responder “a” uma pergunta）, 相談に乗る.\n• Proporção: 100グラムに塩を5グラム（5 g de sal para cada 100 g）.\n• Indica o alvo do sentimento: 彼女に夢中だ（estar louco por ela）.",
+    "mistakes": [
+     "Confusão entre に e で: ×学校に勉強する → 〇学校で勉強する.",
+     "Finalidade incorreta: ×本を買うに行く → 〇本を買いに行く（usa-se Vます sem ます）.",
+     "Acrescentar に a tempo vago: ×今日に行く → 〇今日行く. Só com um ponto específico se usa に: ３時に行く.",
+     "Aい usando に em なる/する: ×高になる → 〇高くなる. Só Aな/N usam に.",
+     "Destino vs direção: ×東京へ着く (ainda aceito), mas o padrão é 東京に着く（destino específico）."
+    ],
+    "comparison": {
+     "headers": [
+      "Partícula",
+      "Significado",
+      "Distinção rápida",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "に",
+       "Destino, ponto no tempo, existência, resultado",
+       "Ponto/destino",
+       "<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く／<ruby>机<rt>つくえ</rt></ruby>にある"
+      ],
+      [
+       "へ",
+       "Direção",
+       "Vago, sem ênfase no destino",
+       "<ruby>東京<rt>とうきょう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く"
+      ],
+      [
+       "で",
+       "Lugar onde ocorre a ação/meio",
+       "Lugar onde se faz algo",
+       "<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>する"
+      ],
+      [
+       "を",
+       "Objeto direto/percurso",
+       "Coisa afetada/por onde se passa",
+       "<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>る"
+      ],
+      [
+       "と",
+       "Com/junto",
+       "Companhia/citação",
+       "<ruby>友達<rt>ともだち</rt></ruby>と<ruby>行<rt>い</rt></ruby>く"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 21,
+   "src_hash": "2e166b88650fbb41",
+   "fields": {
+    "name": "Partícula の",
+    "meaning": "Posse, modificação",
+    "examples": [
+     "Sou estudante da Universidade Fuji.",
+     "Sou professor da Universidade Sakura.",
+     "Gosto de música japonesa.",
+     "Acordar cedo faz bem à saúde.",
+     "Me preocupa o fato de ele não vir.",
+     "Por favor, me dê o barato."
+    ],
+    "explain": "のだ／んだ acrescentam nuance de explicação, de compartilhamento do contexto; em perguntas: ～の？／～んですか？ aumentam a atenuação.\nA nominalização com の costuma ser usada quando o agente é o falante e o conteúdo é familiar, transmitindo uma sensação concreta.\nA substituição de um substantivo por の exige contexto claro; pode-se acrescentar もの para reforçar a nuance de objeto tangível.\n\n「の」 é uma partícula multifuncional: liga substantivos (posse/atributo), nominaliza orações, substitui substantivos e expressa nuance de explicação com 「のだ／んだ」.\nA nominalização com 「の」 tende a fatos concretos, ao sensível; 「こと」 tende a conceitos/ao abstrato.\n「のだ／んだ」 acrescentam motivo, ênfase, e tornam a frase natural na conversa; forma polida: 「のです／んです」.",
+    "notes": "Em frases coloquiais, terminar com 「の」 traz uma nuance suave, que às vezes soa feminina/delicada: ～の？ ～なの。\nの antes de に/へ/から forma grupos:学校の前の店（a sequência de の seguidos continua natural se a relação for clara).\nNa linguagem escrita, のだ pode se tornar のだ→のである para ficar formal.",
+    "mistakes": [
+     "Confusão entre の e こと: ×日本語を勉強するのは大切だ（aceitável, coloquial) mas em textos oficiais prefere-se こと.",
+     "Omitir o substantivo substituído causa ambiguidade: ×赤いの→ é preciso contexto claro ou acrescentar名詞:赤いのシャツ × →赤いシャツ.",
+     "O abuso de のだ faz a frase soar como justificativa; o JLPT costuma perguntar sobre a nuance de explicação vs simples afirmação."
+    ],
+    "comparison": {
+     "headers": [
+      "Par comparado",
+      "Diferença",
+      "Sugestão de uso",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "の vs こと（nominalização）",
+       "の: concreto/sensível; こと: geral/formal",
+       "Em relatórios/regras usa-se こと; para sentimentos/ações concretas usa-se の",
+       "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>するのが<ruby>好<rt>す</rt></ruby>き／<ruby>勉強<rt>べんきょう</rt></ruby>することが<ruby>重要<rt>じゅうよう</rt></ruby>"
+      ],
+      [
+       "のだ vs だ",
+       "のだ traz explicação/motivo; だ é neutro",
+       "Ao se justificar ou enfatizar o contexto, usa-se のだ",
+       "<ruby>遅<rt>おく</rt></ruby>れたのだ（porque…）"
+      ],
+      [
+       "の vs もの（pronominalização）",
+       "もの é concreto/objeto, com nuance material ou emotiva",
+       "Crianças/expressões carregadas de emoção costumam usar もの",
+       "<ruby>甘<rt>あま</rt></ruby>いの／<ruby>甘<rt>あま</rt></ruby>いものが<ruby>好<rt>す</rt></ruby>き"
+      ],
+      [
+       "の（posse）vs と（enumeração)",
+       "の: atributo; と: ligação/igualdade",
+       "Usa-se の para marcar a relação “de”",
+       "<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>／<ruby>日本<rt>にほん</rt></ruby>と<ruby>文化<rt>ぶんか</rt></ruby> ×"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-fable-5-2",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

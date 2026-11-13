@@ -1,0 +1,753 @@
+{
+ "batch": "b053",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 823,
+   "src_hash": "3e6caaefce41b8f9",
+   "fields": {
+    "meaning": "Procurar…, na medida do possível (なるべく早く)",
+    "examples": [
+     "Responda o mais rápido possível, por favor.",
+     "Procuro fazer exercícios todos os dias, na medida do possível.",
+     "Evite comer doces o máximo possível, por favor."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 824,
+   "src_hash": "b02862ebb1f5597f",
+   "fields": {
+    "meaning": "Acostumar-se a…, estar acostumado a…",
+    "examples": [
+     "Você já se acostumou à vida no Japão?",
+     "Fui me acostumando aos poucos ao novo trabalho.",
+     "Não estou acostumado a acordar cedo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 825,
+   "src_hash": "e761d60f93389eac",
+   "fields": {
+    "meaning": "…será que…? (pergunta polida, suaviza a pergunta)",
+    "connection": "V forma simples + のでしょうか んでしょうか / N + な / Na / Aい",
+    "examples": [
+     "Este trem para na estação de Tóquio?",
+     "Por que será que ele não veio?",
+     "Será que posso usar este assento?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 826,
+   "src_hash": "e39375e4d798d72b",
+   "fields": {
+    "meaning": "Além disso, ainda mais, cada vez mais…",
+    "connection": "さらに + [frase/oração]",
+    "examples": [
+     "Com o tufão, a chuva ficou ainda mais forte.",
+     "Esta loja é barata. Além disso, o atendimento também é bom.",
+     "Dizem que no ano que vem as tarifas vão subir ainda mais."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 827,
+   "src_hash": "53e3c686e32eb1e9",
+   "fields": {
+    "meaning": "No máximo…, quando muito…",
+    "connection": "せいぜい + Quantidade・N / V",
+    "examples": [
+     "Daqui até a estação, mesmo a pé, são no máximo 10 minutos.",
+     "Na festa devem vir no máximo 20 pessoas.",
+     "Para o almoço, posso gastar no máximo 1.000 ienes."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 828,
+   "src_hash": "a39afb6b318a24c6",
+   "fields": {
+    "meaning": "Um momento, por algum tempo…",
+    "connection": "しばらく + [frase/oração]",
+    "examples": [
+     "Aguarde um momento, por favor.",
+     "Fiquei um tempo sem estudar japonês.",
+     "Faz algum tempo que não vejo ele."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 829,
+   "src_hash": "27c889328e769b76",
+   "fields": {
+    "meaning": "Já… (fato concluído anteriormente)",
+    "examples": [
+     "A reunião já começou.",
+     "Quando cheguei à estação, o trem já tinha partido.",
+     "Essa notícia eu já sei."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 830,
+   "src_hash": "9dad080293fd2682",
+   "fields": {
+    "name": "Quantidade＋は",
+    "meaning": "No mínimo… (quantidade+は)",
+    "connection": "Quantidade + は",
+    "examples": [
+     "Até a estação leva no mínimo 30 minutos.",
+     "Esta bolsa deve custar no mínimo 20.000 ienes.",
+     "No local havia pelo menos 100 pessoas reunidas."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 831,
+   "src_hash": "8ce46c308bc23cd3",
+   "fields": {
+    "name": "～たものだ（recordação）",
+    "meaning": "Costumava…, sempre… antigamente (recordação)",
+    "examples": [
+     "Quando criança, eu costumava nadar muito neste rio.",
+     "Na época de estudante, eu ficava conversando com os amigos até de manhã.",
+     "Meu pai diz que, quando jovem, costumava escalar montanhas com frequência."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 832,
+   "src_hash": "632e9f2c961d8b2a",
+   "fields": {
+    "meaning": "De fato…, realmente…",
+    "connection": "確かに + [frase/oração]",
+    "examples": [
+     "De fato, este prato é gostoso, mas o preço é alto demais.",
+     "O que ele diz está realmente correto.",
+     "Eu tenho certeza de que tranquei a porta, mas ela está aberta."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 833,
+   "src_hash": "b328605abcada272",
+   "fields": {
+    "meaning": "Basta… para resolver, resolver-se com…",
+    "examples": [
+     "O conserto saiu por apenas 5.000 ienes.",
+     "Se é um assunto que se resolve por telefone, não precisa ir até lá.",
+     "O ferimento foi só leve."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 834,
+   "src_hash": "74ece88be21b8dfe",
+   "fields": {
+    "meaning": "Para não…, senão… (prevenção de algo ruim)",
+    "examples": [
+     "Para não esquecer, vou anotar.",
+     "Para não pegar um resfriado, leve um agasalho.",
+     "Para não nos atrasarmos, vamos sair mais cedo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 835,
+   "src_hash": "a7b4cf5a7ae90437",
+   "fields": {
+    "meaning": "Não é hora de… (～ている場合じゃない)",
+    "examples": [
+     "Agora não é hora de rir.",
+     "Não é hora de jogar videogame. Amanhã tem prova!",
+     "Não é hora de ficar de bobeira. Vamos nos apressar."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 836,
+   "src_hash": "484e0e65fe728537",
+   "fields": {
+    "meaning": "Sufixo 的: transforma um substantivo em Na/advérbio (経済的)",
+    "examples": [
+     "Essa forma de pensar não é realista.",
+     "Explique de forma mais concreta, por favor.",
+     "Ele desistiu de estudar no exterior por motivos financeiros."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 837,
+   "src_hash": "0578ac728d7ae574",
+   "fields": {
+    "meaning": "Não adianta…, de nada serve…",
+    "examples": [
+     "Agora não adianta se arrepender.",
+     "Reclamar não adianta, então vamos refazer.",
+     "Não adianta se preocupar. Só resta esperar o resultado."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 839,
+   "src_hash": "0dccc4e6a0434717",
+   "fields": {
+    "meaning": "Parece que…, pelo visto… (とみえる/とみえて)",
+    "connection": "V forma simples + と見える とみえる とみえて / N + だ / Na + だ / Aい",
+    "examples": [
+     "Pelo visto ele estava cansado, pois dormiu logo.",
+     "Parece que esta loja é popular, pois está sempre cheia.",
+     "Parece que choveu, pois a rua está molhada."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 840,
+   "src_hash": "73f86235cfa222ea",
+   "fields": {
+    "meaning": "No meio de…, a caminho de… (途中で/途中に)",
+    "examples": [
+     "A caminho da escola, encontrei o professor.",
+     "No meio da reunião, recebi um telefonema.",
+     "No caminho de volta, passei no supermercado."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 842,
+   "src_hash": "313168a5bb48b887",
+   "fields": {
+    "meaning": "De jeito nenhum…, dificilmente… (とても～ない)",
+    "examples": [
+     "Um problema tão difícil assim, eu não consigo resolver de jeito nenhum.",
+     "Que ele seja o culpado, isso eu não consigo acreditar de jeito nenhum.",
+     "Estou tão ocupado que não consigo arranjar tempo para viajar de jeito nenhum."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 843,
+   "src_hash": "ea412225d779079d",
+   "fields": {
+    "meaning": "Deixando… de lado, à parte…",
+    "connection": "N + は別として はべつとして / V forma simples + かどうか / Na + かどうか / Aい + かどうか",
+    "examples": [
+     "Brincadeiras à parte, o que você realmente pretende fazer?",
+     "Se vamos ou não é outra questão; vamos pelo menos ouvir o que têm a dizer.",
+     "Deixando o design de lado, as funções são muito boas."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 844,
+   "src_hash": "777286a0330fb91a",
+   "fields": {
+    "meaning": "Ser famoso por… (～で有名)",
+    "examples": [
+     "Kyoto é famosa pelos templos antigos.",
+     "Esta cidade é famosa por suas fontes termais.",
+     "Aquele professor é famoso por passar muita lição de casa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 845,
+   "src_hash": "a9b139775907da36",
+   "fields": {
+    "meaning": "De propósito, intencionalmente…",
+    "examples": [
+     "Acho que ele perdeu de propósito.",
+     "Não foi de propósito. Desculpe.",
+     "Meu irmão mais novo fingiu de propósito que não estava ouvindo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 846,
+   "src_hash": "5003da8b04619409",
+   "fields": {
+    "meaning": "Mais do que…, em comparação com… (よりも)",
+    "connection": "V forma simples + よりも / N",
+    "examples": [
+     "Este inverno está mais frio do que o do ano passado.",
+     "O processo é mais importante do que o resultado.",
+     "A prova foi mais fácil do que eu pensava."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 847,
+   "src_hash": "03ee2a883153ecb2",
+   "fields": {
+    "meaning": "Parece…, dá a impressão de… (ように見える)",
+    "connection": "V forma simples + ように見える / N + の / Na / Aい",
+    "examples": [
+     "Ele parece estar bravo.",
+     "Este plano parece simples, mas na verdade é difícil.",
+     "Vista de longe, parece uma ilha."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 848,
+   "src_hash": "6a023b9f43c74c18",
+   "fields": {
+    "meaning": "De qualquer maneira…, custe o que custar…",
+    "connection": "どうしても + [frase/oração]",
+    "examples": [
+     "Quero entrar nesta universidade custe o que custar.",
+     "Por mais que eu tente, não consigo me lembrar do nome dele.",
+     "Tenho um compromisso ao qual preciso ir de qualquer maneira."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 849,
+   "src_hash": "be28dbfbbf27940c",
+   "fields": {
+    "meaning": "De repente…, sem querer, por acaso…",
+    "examples": [
+     "Quando olhei de repente pela janela, estava nevando.",
+     "De repente me lembrei da minha infância.",
+     "No meio da noite, acordei de repente."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 850,
+   "src_hash": "e337a29f3cc4796d",
+   "fields": {
+    "meaning": "De uma só vez, ao mesmo tempo…",
+    "connection": "一度に + [frase/oração]",
+    "examples": [
+     "Se comer muito de uma só vez, vai ficar com dor de barriga.",
+     "É impossível levar toda a bagagem de uma só vez.",
+     "Por favor, uma pergunta de cada vez."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 851,
+   "src_hash": "49c35350494ea93b",
+   "fields": {
+    "meaning": "Afinal…, …mas o que é isso (ênfase na interrogação)",
+    "connection": "一体 + [frase interrogativa]",
+    "examples": [
+     "Afinal, quem fez uma coisa dessas?",
+     "Afinal, o que é isto?",
+     "Para onde será que ele foi, afinal?"
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 852,
+   "src_hash": "b6b241bcbd1e125a",
+   "fields": {
+    "meaning": "Será possível que…, de jeito nenhum…",
+    "connection": "まさか + [frase/oração negativa] (～ないだろう)",
+    "examples": [
+     "Nunca imaginei que ele fosse mentir.",
+     "Quem diria que eu ia encontrar o professor num lugar como este.",
+     "Não é possível que vá chover."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 853,
+   "src_hash": "b3fa8852c15f807d",
+   "fields": {
+    "meaning": "Antes…, melhor dizendo…",
+    "connection": "むしろ + [frase/oração]",
+    "examples": [
+     "É mais rápido ir a pé do que de táxi.",
+     "Ele parece mais um amigo do que um professor.",
+     "Quando alguém me ajuda, acaba levando até mais tempo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 854,
+   "src_hash": "c67a7eea52734953",
+   "fields": {
+    "meaning": "Acabar…, sem querer… (involuntário)",
+    "connection": "つい + V (geralmente Vてしまう)",
+    "examples": [
+     "Estou de dieta, mas acabei comendo bolo sem querer.",
+     "Estava tão interessante que acabei lendo até a meia-noite.",
+     "Acabei contando o segredo sem querer."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 855,
+   "src_hash": "ca2b20ea8492e8c6",
+   "fields": {
+    "meaning": "Finalmente…, no fim… (ついに)",
+    "connection": "ついに + [frase/oração]",
+    "examples": [
+     "A longa obra terminou e finalmente a nova estação ficou pronta.",
+     "Depois de 10 anos, ele finalmente realizou seu sonho.",
+     "Liguei várias vezes, mas no fim ele não atendeu."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 856,
+   "src_hash": "0ed99e67bdaab980",
+   "fields": {
+    "meaning": "Dar-se ao trabalho de…, fazer questão de… (わざわざ)",
+    "examples": [
+     "Obrigado por ter se dado ao trabalho de vir me buscar na estação.",
+     "Não precisa se dar ao trabalho de ir comprar; dá para encomendar pela internet.",
+     "Agradecemos por terem se dado ao trabalho de vir de tão longe."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 857,
+   "src_hash": "982fc23422d43859",
+   "fields": {
+    "meaning": "Bastante, consideravelmente…",
+    "examples": [
+     "Hoje está bastante frio, não é?",
+     "O japonês dele melhorou bastante.",
+     "Vai levar bastante tempo até ficar pronto."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 858,
+   "src_hash": "317289e128b0aa68",
+   "fields": {
+    "meaning": "…varia de acordo com…",
+    "connection": "[frase interrogativa] + かは + N + によって違う",
+    "examples": [
+     "O que cada um acha gostoso varia de pessoa para pessoa.",
+     "O que fazer depois da formatura varia de estudante para estudante.",
+     "Quanto custa varia conforme a estação."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 859,
+   "src_hash": "4cd24a3a854a823e",
+   "fields": {
+    "meaning": "Cada um, cada qual…",
+    "examples": [
+     "Cada pessoa tem seu próprio modo de pensar.",
+     "Os participantes apresentaram cada um a sua opinião.",
+     "A cultura varia de país para país."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 860,
+   "src_hash": "abb897aac873c861",
+   "fields": {
+    "meaning": "Se possível… (sugestão modesta)",
+    "connection": "できれば/できたら + [pedido・sugestão]",
+    "examples": [
+     "Se possível, gostaria de receber uma resposta até amanhã.",
+     "Se possível, um assento na janela, por favor.",
+     "Se possível, gostaria que mudassem o horário da reunião."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 861,
+   "src_hash": "be8e8740c7e2ac69",
+   "fields": {
+    "meaning": "Se… servir (modéstia: 私でよければ)",
+    "examples": [
+     "Se eu puder ser útil, posso ajudar.",
+     "Se usado servir, dá para comprar barato.",
+     "Se amanhã servir, tenho tempo."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 862,
+   "src_hash": "71e01fa81b60069e",
+   "fields": {
+    "meaning": "Em termos de…, falando de…",
+    "examples": [
+     "O \"pho\" do Vietnã, comparando com o Japão, é algo como o ramen.",
+     "Em termos de preço, este aqui compensa mais.",
+     "Em termos de tamanho, esta sala é mais ou menos como uma sala de aula."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 863,
+   "src_hash": "50460525fb0ee67b",
+   "fields": {
+    "meaning": "Pode-se dizer que…",
+    "connection": "V/A forma simples + と言える / N/Naだ + と言える",
+    "examples": [
+     "Pode-se dizer que este resultado é um sucesso.",
+     "Pode-se dizer que ele é um dos atletas mais famosos do mundo.",
+     "É preciso investigar até que se possa dizer que é seguro."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 864,
+   "src_hash": "258af08daaceb6ce",
+   "fields": {
+    "name": "代（tarifa・custo）",
+    "meaning": "Sufixo 代: tarifa, custo (電気代, バス代)",
+    "examples": [
+     "Este mês a conta de luz veio alta.",
+     "A passagem de ônibus é paga pela empresa.",
+     "A refeição sai por uns 3.000 ienes por pessoa."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

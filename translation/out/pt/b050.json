@@ -1,0 +1,557 @@
+{
+ "batch": "b050",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 721,
+   "src_hash": "1c5242701d79fa38",
+   "fields": {
+    "meaning": "Compara duas coisas que se contrastam.",
+    "connection": "V/A forma simples + のに対して / Naな(である)/Nである + のに対して（contraste）",
+    "examples": [
+     "Ao contrário de ser irritadiço",
+     "Em Tóquio, o soba é popular; já em Osaka, o udon é que é popular.",
+     "Meu pai é impaciente e se irrita fácil; minha mãe, ao contrário, é tranquila."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 722,
+   "src_hash": "c2080c8385aff75d",
+   "fields": {
+    "name": "～のに（finalidade）",
+    "meaning": "Expressa uma finalidade e o que é necessário para alcançar o objetivo.",
+    "connection": "Vる + のに + 使う/便利だ/かかる…（finalidade・utilidade）",
+    "examples": [
+     "Usar para pesquisar",
+     "Uso a internet para pesquisar o significado das palavras.",
+     "Para cortar cabelo, você precisa de uma tesoura."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 723,
+   "src_hash": "0d1c06ff93e16af1",
+   "fields": {
+    "name": "～のに（contraste）",
+    "meaning": "Expressa uma ligação contrária à expectativa",
+    "connection": "V/A forma simples + のに / Nな/Naな + のに（contrário à expectativa）",
+    "examples": [
+     "Embora tivesse prometido...",
+     "Ele prometeu que viria, mas não veio.",
+     "Apesar de ainda serem 2 horas da tarde, está escuro como no fim do dia."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 724,
+   "src_hash": "fd84370573a48249",
+   "fields": {
+    "meaning": "(O que) ~ é",
+    "connection": "V forma simples + のは + ～(こと)だ",
+    "examples": [
+     "O que tenho me esforçado para fazer ultimamente é caminhar todas as manhãs.",
+     "Quem estava falando comigo ao telefone agora há pouco era o Sr. Tanaka."
+    ],
+    "explain": "◎ Expressa um juízo categórico sobre determinado fato."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 725,
+   "src_hash": "58f7cfcbbf38e4aa",
+   "fields": {
+    "meaning": "Segundo ~",
+    "examples": [
+     "Segundo o que meu amigo disse, parece que ainda há ingressos."
+    ],
+    "explain": "◎ Indica a fonte da informação. 「～の話によると」 é uma expressão semelhante."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 726,
+   "src_hash": "674fafd1e79043b3",
+   "fields": {
+    "meaning": "Expressa o reconhecimento de que algo é natural.",
+    "examples": [
+     "É natural ficar com raiva",
+     "Se você fez uma coisa tão horrível, é natural que ele fique com raiva.",
+     "Como foi algo de 30 anos atrás, não é de estranhar que não se lembre."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 727,
+   "src_hash": "043763a2e8c7eec5",
+   "fields": {
+    "meaning": "～によくにている\nMuito parecido com ~",
+    "connection": "Nの + ようだ / N + みたいだ（muito parecido）",
+    "examples": [
+     "A paisagem que se vê daqui parece uma pintura.",
+     "Este pão é doce e macio como um bolo.",
+     "Pise com o sapato no gelo que parece vidro e divirta-se."
+    ],
+    "explain": "Usado na linguagem falada para descrever pessoas ou coisas que têm o aspecto de algo com que o interlocutor pode compará-las",
+    "notes": "meaning_vi: よく似ているものに例えて言う\nusado para comparar algo com uma coisa que tem pontos em comum\nexamples: 1. 今日は暖かくて、まるで春が来たかのようだ。\nHoje está quente, como se a primavera tivesse chegado.\n2. 朝から晩までロボットのように働いた。\nTrabalhei como um robô de manhã até a noite.\n3. バケツをひっくり返したような雨だった。\nChoveu a cântaros.\nmeaning_vi: Expressão de comparação: algo é semelhante a outra coisa. 「まるで」 enfatiza a comparação.\n春　+　のようだ／春　+　みたいだ\n春　+　のようなN／春　+　みたいだなN\n春　+　のように～／春　+　みたいに～\nexamples: 1. ①　（まるで）母親のようだ／母親みたいだ\n(Igualzinho) a uma mãe.\n2. ②　今日は暖かくて、（まるで）春のようだ／みたいだ。\nHoje está quente, (igualzinho) à primavera.\n3. ③　今日は暖かくて、（まるで）春のような／みたいな日だ。\nHoje é um dia quente, (igualzinho) a um dia de primavera.\n4. ➃　今日は（まるで）春のように／みたいに暖かい。\nHoje está quente (igualzinho) à primavera.\nmeaning_vi: Como, parece\nexamples: 1. 彼の話し方は、女みたいだ。\nO jeito de ele falar parece de mulher.\n2. ここの砂は星みたいな形をしている。\nA areia daqui tem formato de estrela.\n3. このアパートはだれも住んでいないみたいだ。\nParece que ninguém mora neste apartamento.\n4. 明日は雨みたいね。\nParece que amanhã vai chover, né.\n5. リンさんみたいに日本語がうまくなりたい。\nQuero ficar bom em japonês como a Lin."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 728,
+   "src_hash": "dd42c71491d45a21",
+   "fields": {
+    "meaning": "「が」 em uma oração que modifica um substantivo passa a ser 「の」\n父が作ったN　＝　父の作ったN",
+    "connection": "N1の/が + V + N2（の no lugar de が na oração modificadora）",
+    "examples": [
+     "O apartamento que a imobiliária recomenda",
+     "Quero comer a comida que minha mãe fez.",
+     "Quem é aquela pessoa alta?",
+     "Quero morar em um lugar de paisagem bonita."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 729,
+   "src_hash": "86c44c360bfcb9fd",
+   "fields": {
+    "meaning": "Não é possível que ~ (negação com certeza)",
+    "connection": "V/A forma simples + はずがない / Naな(である)・Nの(である) + はずがない",
+    "examples": [
+     "Combinamos direitinho, então não é possível que ele não venha. O que será que aconteceu?",
+     "Não é possível que aquela loja esteja fechada hoje. Eu confirmei por telefone.",
+     "É um exame nacional, então não tem como ser fácil. Preciso me esforçar...",
+     "Uma casa grande assim, não tem como eu conseguir comprar, né?",
+     "Treinamos para vencer a partida. Não tem como o treino não ser puxado."
+    ],
+    "explain": "「絶対～ない。」 話者が強い確信を持って否定する言い方。\nCom certeza não ~.\nForma de negar com forte convicção por parte do falante."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 730,
+   "src_hash": "91be5ffa5d593c3f",
+   "fields": {
+    "name": "～はずだ（naturalmente）",
+    "meaning": "Naturalmente… (não é à toa)\nEra para… (mas, na realidade…)\nTenho certeza de que… mas a realidade é outra",
+    "examples": [
+     "Não é à toa que a porta não abria. Era a chave errada.",
+     "Não é à toa que estou me sentindo tão mole. Estou com 38 graus de febre.",
+     "O trem deveria partir às 3 horas, mas atrasou cerca de 10 minutos porque um passageiro passou mal de repente.",
+     "\"Que estranho. Era para funcionar apertando este botão...\"",
+     "Eu achava que, vindo para o Japão, logo conseguiria falar japonês. Não era para ser assim.",
+     "Não estou achando a tesoura. Tenho certeza de que, quando a vi agora há pouco, ela estava em cima da mesa..."
+    ],
+    "explain": "Inferência lógica a partir de uma causa, chegando à conclusão \"naturalmente…\".\nExpressa um resultado diferente do previsto ou esperado inicialmente.\nExpressa algo que o falante tem certeza de lembrar como verdadeiro, mas que na realidade é diferente.",
+    "notes": "1) É fácil confundir os significados de ～はずだ.\n→ Significa \"naturalmente (inferência lógica)\", pode significar \"era para…\" e também \"tenho certeza de que…\".\n2) Observe o contexto.\n→ Se há base para a inferência: sentido \"naturalmente\".\n→ Se o resultado contraria a previsão: sentido \"era para…\".\n3) É fácil confundir com ～に違いない.\n→ ～はずだ se baseia em inferência lógica; ～に違いない é um juízo mais categórico, baseado em intuição/evidências."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 731,
+   "src_hash": "579aa83c01cc83b3",
+   "fields": {
+    "meaning": "Não só…, mas também",
+    "examples": [
+     "Não só os alunos, mas também os professores, por favor, participem.",
+     "Este prato, além do sabor, claro, também tem uma aparência bonita.",
+     "Os kanjis, nem se fala, mas o hiragana também precisa ser praticado.",
+     "Ele trabalha não só nos dias úteis, claro, mas também nos fins de semana.",
+     "Além de não termos tempo, claro, o orçamento também não é suficiente.",
+     "Fumar, nem se fala, mas beber também é proibido dentro da escola."
+    ],
+    "explain": "N1 deve ser algo óbvio/natural no contexto; N2 é um acréscimo.\nGeralmente se substitui a partícula original de N1 por は para enfatizar o tópico:日本語 は もちろん（não se usa を/が aqui）.\nQuando N1 é uma oração, lembre-se de nominalizá-la com の: ～のはもちろん.\nA segunda oração tem も/まで/さえ para marcar a adição; まで/さえ dão a nuance de \"até mesmo\".\nRegistro: neutro → formal; a variante ～はもとより é mais formal.\n\n- Significado: \"N1, nem se fala; N2 também…\". N1 é algo óbvio, naturalmente verdadeiro; N2 é uma informação adicional, não tão óbvia.\n- Nuance: enfatiza o caráter \"óbvio\" de N1. Em comparação com ～だけでなく, a marcação de tópico com は destaca mais N1.\n- Pode ser usado tanto com nuance positiva quanto negativa; aparece com frequência em avisos, regulamentos e apresentações.",
+    "notes": "• Com sintagmas nominais longos, usar のはもちろん deixa a frase mais clara: 安全に配慮するのはもちろん、…\n• Em propagandas/apresentações: \"品質はもちろん、価格も…\" é um bordão.\n• Coloque em N2 a informação mais nova/atraente para uma comunicação mais eficaz.\n• \"もちろん\" também pode ser usado como advérbio independente no início da frase: もちろん、参加します。 (estrutura diferente da que está sendo estudada).\nmeaning_vi: Não só … mas também …\nexplain: Expressa que o que vem antes é óbvio e enfatiza o que vem depois em grau maior: \"não só… mas também…\".\nexamples: 1. 会社の経営が悪化して、ボーナスはもちろん給料も出ない状態だ。\nA situação financeira da empresa piorou, e não sai nem o bônus, claro, nem mesmo o salário.\n2. 「今度のパーティーには、君はもちろん、奥さんにも出席してもらいたい。」\n\"Na próxima festa, gostaria que não só você, claro, mas também sua esposa comparecesse.\"\n3. コンビニでは日用品の販売はもちろん、宅配便の受け付けもするし、公共料金の支払いもできる。\nNas lojas de conveniência, além de vender artigos do dia a dia, claro, também se recebem encomendas para entrega e se podem pagar contas de serviços públicos.\n4. 彼はスポーツマンで、自分でするのはもちろん、見るのも大好きだそうだ。\nDizem que ele é esportista e adora não só praticar, claro, mas também assistir.\n5. 日本へ留学するなら、言葉はもとより文化や習慣も学んでほしい。\nSe for estudar no Japão, quero que você aprenda não só a língua, claro, mas também a cultura e os costumes.\n6. アメリカ大統領選挙の結果は、国内はもとより国外にも大きな影響を与える。\nO resultado da eleição presidencial americana tem grande impacto não só dentro do país, claro, mas também no exterior.\nmeaning_vi: (Substantivo), nem se fala, mas também (Substantivo')\nexplain: Usado para expressar que uma coisa também tem uma característica (boa) semelhante a outra característica óbvia.\nGeralmente expressa elogio ou surpresa\nexamples: 1. 彼は勉強はもちろんスポーツもよくできる。\nEle vai bem não só nos estudos, claro, mas também nos esportes.\n2. キャベツは炒めて食べるはもちろん、生で食べてもおいしいです。\nO repolho é gostoso não só refogado, claro, mas também cru.",
+    "mistakes": [
+     "Manter a partícula original em N1 (× 日本語をもちろん) → é preciso trocar por は: 日本語はもちろん.",
+     "Faltar も na segunda oração enfraquece o sentido de adição: é preciso ～も/まで/さえ.",
+     "Confundir com ～ばかりか quando o enunciado pede \"surpresa/além do esperado\" → escolha ～ばかりか.",
+     "Esquecer de nominalizar com の quando N1 é uma oração: × 時間がないはもちろん → 時間がないのはもちろん."
+    ],
+    "comparison": {
+     "headers": [
+      "Ponto gramatical",
+      "Significado",
+      "Semelhança/Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～だけでなく～も",
+       "Não só A, mas B também",
+       "Neutro, não enfatiza o \"óbvio\"; uso amplo",
+       "<ruby>学生<rt>がくせい</rt></ruby>だけでなく<ruby>先生<rt>せんせい</rt></ruby>も<ruby>参加<rt>さんか</rt></ruby>。"
+      ],
+      [
+       "～ばかりか～も",
+       "Não apenas A, mas B também",
+       "Nuance de \"além do esperado/surpresa\" mais forte que ～はもちろん",
+       "<ruby>雨<rt>あめ</rt></ruby>ばかりか<ruby>風<rt>かぜ</rt></ruby>も<ruby>強<rt>つよ</rt></ruby>い。"
+      ],
+      [
+       "～に<ruby>加<rt>くわ</rt></ruby>えて",
+       "Além de A, também B",
+       "Tende à enumeração, pouca nuance de \"óbvio\"",
+       "<ruby>経験<rt>けいけん</rt></ruby>に<ruby>加<rt>くわ</rt></ruby>えて<ruby>資格<rt>しかく</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>。"
+      ],
+      [
+       "～はもとより",
+       "… nem se fala",
+       "Formal/administrativo; o mais próximo em significado",
+       "<ruby>子<rt>こ</rt></ruby>どもはもとより<ruby>大人<rt>おとな</rt></ruby>も<ruby>歓迎<rt>かんげい</rt></ruby>。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 732,
+   "src_hash": "351adc4415b18021",
+   "fields": {
+    "meaning": "「もし～の場合、…という結果になるはずだが、実際にはそうではない。」～も…も実際とは違うことを言う。…は「～た・～のだが・～のに」などの文が多い。\nNo caso de ~, certamente se chegaria ao resultado …, mas na realidade não é assim.\n~ e … são condições diferentes da realidade.\n… costuma estar nas formas ～た／～のだが／～のに etc.",
+    "connection": "Vば…/Vたら…/N・Naなら…（suposição contrafactual; a segunda oração costuma ter ～のに/んだけど）",
+    "examples": [
+     "Se eu tivesse dinheiro e tempo livre, também viajaria para o exterior...",
+     "Se eu tivesse dormido demais, não teria conseguido pegar este voo. Que bom que deu tempo.",
+     "Ah, que pena. Se eu fosse estudante, teria conseguido comprar o ingresso com desconto de estudante..."
+    ],
+    "notes": "Finais comuns da segunda oração: ～たい・～のに・～(ば)よかった"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 733,
+   "src_hash": "62437a114621aafd",
+   "fields": {
+    "meaning": "A estrutura 「～ばいい」 expressa o desejo do falante. A estrutura 「～ばいいのに」 expressa pesar porque a situação atual é diferente do que se deseja.",
+    "connection": "Vば + (いい)と思う（desejo, modéstia）",
+    "examples": [
+     "Quem me dera ter um quarto novo",
+     "Fui à festa pensando que seria bom se eu conhecesse alguém legal.",
+     "Ah, se uma pessoa tão incrível como aquela fosse meu namorado...",
+     "Quero esta bolsa, mas é cara, né. Bem que podia ser mais barata."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 734,
+   "src_hash": "7a65cfbf8fcd40a9",
+   "fields": {
+    "meaning": "Se ao menos, quem dera",
+    "connection": "V + [frase/oração] + のに / N + なら / Na + なら / Aい + い ければ",
+    "examples": [
+     "Se eu tivesse saído um pouco mais cedo, teria chegado a tempo.",
+     "Se eu tivesse dinheiro, teria podido viajar.",
+     "Você devia ter perguntado a ele.",
+     "Se não estivesse chovendo, eu teria podido ir.",
+     "Se você tivesse me avisado, eu teria ido te buscar.",
+     "Bem que você podia ficar quieto."
+    ],
+    "explain": "Usado para arrependimento/pesar por uma condição que não se realizou; tem nuance de queixa quando se dirige a outra pessoa.\nA segunda oração geralmente fica no passado: ～たのに, indicando um resultado desejado que não aconteceu.\nNão se combina com ordem/vontade na segunda oração quando expressa arrependimento; para sugestão, use ～ばいいのに.\nCom Aな/N, ～なら é o mais natural; em registro formal, pode-se usar ～であれば.\n\n- Significado: \"Se ao menos A, teria B…\", expressa arrependimento, crítica leve ou pesar por uma condição que não se realizou (contrafactual).\n- A segunda oração com ～のに indica o resultado desejado que não foi alcançado; geralmente no passado: ～たのに／～だったのに.\n- Nuance: pode implicar censura a si mesmo/ao interlocutor; para uma sugestão leve, use ～ばいいのに.",
+    "notes": "• Padrão de tempo verbal: [condição ば] + [resultado desejado no passado] + のに é o padrão para arrependimento.\n• Com い形容詞: 高ければ買ったのに／安ければよかったのに.\n• Com N/Aな na negativa: Nでなければ／Aでなければ usa-se quando a condição real é negativa.\n• Na linguagem falada, pode-se omitir o sujeito e interromper a frase para enfatizar o sentimento: もっと早く出れば……（ため息）……間に合ったのに。\nmeaning_vi: Supõe algo diferente da realidade e expressa queixa sobre a realidade ou o desejo de fazer aquilo.\nexamples: 1. ①　時間があれば行ったのに\nSe eu tivesse tempo, teria ido.\n2. ②　「昨日どうしてカラオケに行かなかったの？」\n「忙いそがしかったんだ。時間じかんがあれば行いったのに」\n\"Por que você não foi ao karaokê ontem?\"\n\"Porque eu estava muito ocupado. Se eu tivesse tempo, teria ido.\"\n3. ➂　昨日のカラオケ、楽しかったよ。リーさんも行ったらよかったのに。\nO karaokê de ontem foi divertido. Você também devia ter ido, Lee.\n4. ➃　この荷物、重くなければ、一人で運べるのに。\nSe esta bagagem não fosse pesada, eu conseguiria carregá-la sozinho.",
+    "mistakes": [
+     "Usar o presente na segunda oração ao expressar arrependimento: deve-se usar ～たのに para deixar claro que \"já foi\".",
+     "Confundir com ～のに (concessão): se a frase expressa \"contrafactual + pesar\", é preciso ter a condição ば na primeira oração.",
+     "Uso incorreto com Aな/N: escolha ～なら/～であれば em vez de usar ば diretamente.",
+     "Inversão da ordem natural: a condição deve ser algo controlável/hipotético; a segunda oração é o resultado desejado."
+    ],
+    "comparison": {
+     "headers": [
+      "Ponto gramatical",
+      "Significado",
+      "Semelhança/Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～のに（concessão）",
+       "Embora A, B",
+       "Não precisa da condição ば; apresenta um fato real em contraste",
+       "<ruby>雨<rt>あめ</rt></ruby>なのに、<ruby>出<rt>で</rt></ruby>かけた。"
+      ],
+      [
+       "～たらよかったのに",
+       "Se ao menos tivesse…, teria sido bom",
+       "Próximo de ～ばよかったのに; たら tem nuance mais coloquial",
+       "<ruby>聞<rt>き</rt></ruby>けたらよかったのに。"
+      ],
+      [
+       "～さえ～ば",
+       "Basta A para B",
+       "Condição mínima, sem implicar arrependimento",
+       "<ruby>時間<rt>じかん</rt></ruby>さえあれば、<ruby>行<rt>い</rt></ruby>ける。"
+      ],
+      [
+       "～ばいいのに",
+       "Quem dera/Se ao menos (fizesse) A",
+       "Sugestão/queixa leve, não descreve um resultado já perdido",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ればいいのに。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 735,
+   "src_hash": "aabc376e1fb77563",
+   "fields": {
+    "meaning": "Forma contraída da estrutura 「～ば～ほど」",
+    "connection": "Vる/Aい + ほど（forma contraída de Vば Vるほど: 短いほどいい）",
+    "examples": [
+     "Quanto mais curto",
+     "Costuma-se dizer que, quanto mais curto o discurso de casamento, melhor.",
+     "Quanto mais uma pessoa fuma, mais fácil é ela adoecer."
+    ]
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 736,
+   "src_hash": "9f251ae53fa8734a",
+   "fields": {
+    "meaning": "Dizer, mandar alguém fazer algo",
+    "examples": [
+     "Quando eu era criança, minha mãe sempre me mandava ler livros.",
+     "No museu de arte, chamaram minha atenção para não tirar fotos."
+    ],
+    "explain": "◎ Forma de expressar a orientação para determinado estado. Usada ao transmitir instruções ou estabelecer metas …",
+    "notes": "meaning_vi: Dizer para (alguém) fazer…\nexplain: O grau de polidez é ajustado pelo verbo que acompanha:言う（neutro）,頼む（pedir）,注意する（advertir）,指示する（instruir）,依頼する（pedido formal）.\nVないように言う é usado para proibir/advertir a evitar algo; Vてくれるように言う é pedir que façam algo por você.\nUsa-se a forma passiva quando se quer enfatizar a regra/instrução em vez de quem deu a ordem: ～ように言われている。\nexamples: 1. ①　買うように言う。\nDizer \"compre\"\n2. ②　先生はみんなにもっと勉強するように言った。\nO professor disse a todos que estudassem mais.\n3. ③　医者にお酒を飲まないように言われた。\nO médico me disse \"não beba álcool\"\n──────\n1. 先生は学生に、毎日復習するように言った。\nO professor disse aos alunos que revisassem a matéria todos os dias.\n2. 部長に、資料を明日までに提出するように言われました。\nO gerente me pediu para entregar os documentos até amanhã.\n3. 子どもに、危ないから川に近づかないように言う。\nDigo ao meu filho que não chegue perto do rio, porque é perigoso.\n4. 受付に、着いたら電話してくれるように言っておきます。\nVou avisar a recepção para me ligar quando você chegar.\n5. 会議では、携帯はマナーモードにするように言われています。\nNas reuniões, pede-se que o celular fique no modo silencioso.\n6. 医者は彼に、酒を控えるように言った。\nO médico disse a ele que diminuísse a bebida.",
+    "mistakes": [
+     "Erro na partícula \"に\" que indica o destinatário: × 彼を早く来るように言った → ○ 彼に早く来るように言った。",
+     "Omitir ように leva a um sentido direto diferente: × 静かにすると言った → \"disse que eu ficaria quieto\", e não \"mandou ficar quieto\".",
+     "Confundir com ～てください no discurso indireto com terceiros: ao transmitir um pedido a uma terceira pessoa, ～ように言う é mais natural.",
+     "Usar adjetivo/substantivo diretamente é incorreto: × 静かだように言う → ○ 静かにするように言う。"
+    ],
+    "comparison": {
+     "headers": [
+      "Ponto gramatical",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～てください",
+       "Faça … (direto)",
+       "Direto ao ouvinte; ～ように<ruby>言<rt>い</rt></ruby>う é discurso indireto.",
+       "<ruby>静<rt>しず</rt></ruby>かにしてください。"
+      ],
+      [
+       "<ruby>命令<rt>めいれい</rt></ruby><ruby>形<rt>けい</rt></ruby>／～なさい",
+       "Ordem",
+       "Forte/rígido. ように<ruby>言<rt>い</rt></ruby>う é mais suave, adequado à linguagem escrita/instruções.",
+       "<ruby>静<rt>しず</rt></ruby>かにしなさい。"
+      ],
+      [
+       "～ようにする",
+       "Esforçar-se para",
+       "Expressa o esforço do falante; função diferente de \"transmitir um pedido\".",
+       "<ruby>静<rt>しず</rt></ruby>かにするようにする。"
+      ],
+      [
+       "～てほしい（と）<ruby>言<rt>い</rt></ruby>う",
+       "Querer que o outro faça",
+       "Enfatiza o desejo do falante. てくれるように<ruby>言<rt>い</rt></ruby>う acrescenta a nuance de \"pedir que façam por mim\".",
+       "<ruby>手伝<rt>てつだ</rt></ruby>ってほしいと<ruby>言<rt>い</rt></ruby>う。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 737,
+   "src_hash": "7590dd3da3307e78",
+   "fields": {
+    "meaning": "Sinto/acho que parece que ~",
+    "connection": "V forma simples + ように感じる / 思う / N の / Na な",
+    "examples": [
+     "Acho que o que ele está dizendo está errado.",
+     "Sinto que, ultimamente, o atendimento desta loja piorou."
+    ],
+    "explain": "◎ Diferentemente de 「～と感じた／思った」, que expressa diretamente uma avaliação ou impressão, esta é uma forma de expressar uma impressão quando ainda não se tem certeza."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 738,
+   "src_hash": "481f955c4a6a3e7f",
+   "fields": {
+    "meaning": "Por meio de ~",
+    "examples": [
+     "Foi por meio desta atividade que eu a conheci.",
+     "No meu caso, aprendi japonês por meio do trabalho."
+    ],
+    "explain": "◎ Algo se torna o meio ou intermediário útil para outra coisa.",
+    "notes": "meaning_vi: Por meio de…, ao longo de…\nexplain: Usado para canais de transmissão (人・媒体・制度・経験) ou para um período inteiro (日・年・季節).\nNuance de neutra a formal; muito usado em textos escritos e notícias.\n\"を通じて\" tende ao resultado obtido por um canal; \"を通して\" tende à experiência/processo.\nexamples: 1. インターネットを通じて情報を集める。\nColetar informações por meio da internet.\n2. 留学を通して多くのことを学んだ。\nAprendi muitas coisas por meio do intercâmbio.\n3. 一年を通じてこの地域は湿度が高い。\nEsta região tem umidade alta o ano inteiro.\n4. テレビを通じて最新ニュースが伝えられた。\nAs últimas notícias foram transmitidas pela TV.\n5. 仕事を通して彼と知り合った。\nConheci-o por meio do trabalho.\n6. 四季を通じて楽しめる公園だ。\nÉ um parque que se pode aproveitar nas quatro estações.\nmeaning_vi: Por meio de, através de …\nAo longo de…\nexplain: Expressa o meio, intermediário ou método para realizar uma ação: \"por meio de…\".\nExpressa algo que ocorre ao longo de todo um período.\nexamples: 1. 彼女とサークルの先輩を通して知り合った。\nConheci-a por meio de um veterano do clube.\n2. 子どもは学校の勉強だけではなく、いろいろな経験を通して成長していく。\nAs crianças crescem não só com os estudos na escola, mas também por meio de várias experiências.\n3. むかし読書を通して得た知識が、今役に立っている。\nO conhecimento que adquiri há muito tempo por meio da leitura me é útil hoje.\n4. 紅白歌合戦は衛星放送を通じて海外でも見られる。\nO Kōhaku Uta Gassen também pode ser assistido no exterior por meio da transmissão via satélite.\n5. 佐藤教授はあらゆる機会を通じて環境保護を訴えている。\nO professor Sato defende a proteção ambiental em todas as oportunidades.\n6. 京都には年間（／四季）を通じて観光客が訪れる。\nKyoto recebe turistas o ano inteiro (/ nas quatro estações).\n7. 私は高校３年間を通して無遅刻無欠席だった。\nDurante os 3 anos do ensino médio, nunca me atrasei nem faltei.\n8. 彼女は一生を通して恵まれない子どもたちのために働いた。\nEla trabalhou a vida inteira pelas crianças desfavorecidas.\nmeaning_vi: Significa \"por meio de ~\", \"ao longo de ~\"\nexamples: 1. ①　スポーツを通じて\nPor meio do esporte\n2. ②　子供たちはスポーツを通じて、いろいろなことを学ぶことができます。\nAs crianças podem aprender muitas coisas por meio do esporte.\n3. ③　彼女は、先輩を通して知り合いました。\nConheci-a por meio de um veterano.\n4. ➃　この国は一年を通して暑い。\nEste país é quente o ano inteiro.\nmeaning_vi: por meio de ～; ao longo de ～\nexplain: Usado ao mencionar o estabelecimento de uma relação ou a transmissão de informações ou contato obtidos por meio de um intermediário.\nAo mencionar um período contínuo, sem interrupção.\nexamples: 1. 友人を通じて彼と知り合った。\nConheci-o por meio de um amigo.\n2. テレビのニュースを通じてその事件を知った。\nFiquei sabendo desse incidente pelo noticiário da TV.\n3. ここでは一年を通じて美しい花が見られます。\nAqui é possível ver flores bonitas o ano inteiro.",
+    "mistakes": [
+     "Confundir com ～によって (causa/passiva): \"TVによって伝えられた\" pode ficar ambíguo; \"TVを通じて\" é mais natural.",
+     "Usar \"通して\" quando se quer enfatizar o \"período inteiro\": prefira \"通じて\" pela nuance formal e estável no JLPT.",
+     "Combinar com verbos que exigem um agente específico: \"先生を通じて教える\" fica ambíguo; o correto seria \"先生を通じて知らせる/紹介される\"."
+    ],
+    "comparison": {
+     "headers": [
+      "Ponto gramatical",
+      "Significado",
+      "Diferença sutil",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～を<ruby>通<rt>つう</rt></ruby>じて",
+       "Por meio de; ao longo de",
+       "Formal, enfatiza o canal/período inteiro",
+       "<ruby>仲介<rt>ちゅうかい</rt></ruby><ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>通<rt>つう</rt></ruby>じて<ruby>契約<rt>けいやく</rt></ruby>"
+      ],
+      [
+       "～を<ruby>通<rt>とお</rt></ruby>して",
+       "Por meio de",
+       "Enfatiza o processo/experiência",
+       "<ruby>活動<rt>かつどう</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して<ruby>成長<rt>せいちょう</rt></ruby>"
+      ],
+      [
+       "～によって",
+       "Por/graças a/dependendo de",
+       "Sentido amplo; inclui passiva e causa",
+       "<ruby>研究<rt>けんきゅう</rt></ruby>によって<ruby>明<rt>あき</rt></ruby>らかになった"
+      ],
+      [
+       "～<ruby>経由<rt>けいゆ</rt></ruby>で",
+       "Via (ponto de conexão)",
+       "Físico/rota concreta",
+       "<ruby>香港<rt>ほんこん</rt></ruby><ruby>経由<rt>けいゆ</rt></ruby>で<ruby>帰国<rt>きこく</rt></ruby>"
+      ],
+      [
+       "～を<ruby>介<rt>かい</rt></ruby>して",
+       "Por meio de (<ruby>介<rt>かい</rt></ruby>す)",
+       "Formal/técnico (medicina, tecnologia)",
+       "<ruby>蚊<rt>か</rt></ruby>を<ruby>介<rt>かい</rt></ruby>して<ruby>感染<rt>かんせん</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 739,
+   "src_hash": "3178c0cf39d6b587",
+   "fields": {
+    "meaning": "Pretender",
+    "connection": "V forma volitiva + と思っている",
+    "examples": [
+     "Estou pensando em usar yukata no próximo festival de fogos de artifício.",
+     "Quando os filhos crescerem, penso em ir morar no interior com minha esposa."
+    ],
+    "explain": "◎ Expressa a vontade ou a intenção do falante durante determinado período. É semelhante à expressão 「～つもりだ」."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

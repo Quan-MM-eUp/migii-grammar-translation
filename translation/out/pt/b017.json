@@ -1,0 +1,445 @@
+{
+ "batch": "b017",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 250,
+   "src_hash": "460e465fff95a17f",
+   "fields": {
+    "meaning": "Apenas… / Não há outro além de… | só, somente ~",
+    "examples": [
+     "Só consigo conhecê-lo por meio de suas obras.",
+     "Não tenho tempo, então a única saída é pedir a ele.",
+     "Só sobraram 100 ienes.",
+     "É um produto exclusivo que só se compra aqui.",
+     "Hoje não tenho tempo, então só posso comer na loja de conveniência.",
+     "É um segredo que só ele sabe."
+    ],
+    "explain": "しか vem depois de substantivo/quantidade/pronome de lugar e antes de verbo na forma negativa.\nMantêm-se as partículas relacionais antes de しか quando necessário:日本 でしか 見られ ない ,今日 までにしか でき ない .\nDiferença em relação a だけ: だけ é neutro, しか tem a nuance de “além disso, não há mais nada”.\nV-辞書形+ しかない expressa falta de alternativa.\n\n• Limita o âmbito: “só … e não … (além disso, não há)”.\n• Nuance mais forte que だけ: しか enfatiza a sensação de falta/insatisfação.\n• V-辞書形 + しかない tem o sentido de expressão fixa “a única saída é …”.\n• Obrigatoriamente usado com a forma negativa (ない/ありません/できない…), não se usa com afirmação.",
+    "notes": "• O sujeito costuma ser omitido na conversa: これしかない（só resta isto）.\n• Com pessoas/animais, ～しかいない é muito natural: 会場にはスタッフしかいない。\n• Enfatiza-se a limitação com “たった/わずか + quantidade + しか + ない”.",
+    "mistakes": [
+     "Usar afirmação com しか: 水しか飲む（incorreto）→ 水しか飲まない.",
+     "Posição errada da partícula: 水をしか飲まない（を sobrando）→ 水しか飲まない.",
+     "Confundir com “だれも～ない”: não se usa “だれしか～ない”; o correto é だれもいない／彼しかいない.",
+     "Esquecer de manter a partícula relacional: ここしか買えない（ambíguo）→ ここでしか買えない."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "N だけ V",
+       "Só ~ (neutro)",
+       "Não exige negação; nuance mais leve.",
+       "<ruby>水<rt>みず</rt></ruby>だけ<ruby>飲<rt>の</rt></ruby>む。"
+      ],
+      [
+       "ほかに～ない",
+       "Não há outro …",
+       "Significado equivalente, estrutura diferente.",
+       "ほかに<ruby>方法<rt>ほうほう</rt></ruby>がない。"
+      ],
+      [
+       "～ほか（は）～ない",
+       "Além de … não há …",
+       "Mais formal, próprio da linguagem escrita formal.",
+       "<ruby>彼<rt>かれ</rt></ruby>ほかに<ruby>頼<rt>たよ</rt></ruby>れる<ruby>人<rt>ひと</rt></ruby>はない。"
+      ],
+      [
+       "～ざるを<ruby>得<rt>え</rt></ruby>ない",
+       "Ter de / não poder deixar de",
+       "Imposição forte, sem o sentido de “só”.",
+       "<ruby>出発<rt>しゅっぱつ</rt></ruby>を<ruby>延期<rt>えんき</rt></ruby>せざるを<ruby>得<rt>え</rt></ruby>ない。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 251,
+   "src_hash": "afbd445271fbc226",
+   "fields": {
+    "meaning": "Não só ~ como também ~",
+    "connection": "V/A forma simples + し / N・Na + だし",
+    "examples": [
+     "Era longe e a bagagem também estava pesada, então fiquei cansado.",
+     "Ontem à noite estava quente e o vizinho também fazia barulho, então não consegui dormir bem."
+    ],
+    "explain": "◎ 「し」, como em「忙しいですし」ou「お金もありません」, é usado para mencionar em sequência fatos de mesma natureza.",
+    "notes": "meaning_vi: Não só… como também…, e ainda…\nexplain: Ao persuadir/dar motivos, coloca-se o fator mais forte no fim da sequência para levar à conclusão.\nNa linguagem formal, pode-se substituir o final por ～上に／さらに para maior coesão.\nEvite usar orações com し em excesso numa frase longa.\nexamples: 1. このアプリは無料だし、使いやすいし、おすすめです。\nEste aplicativo é gratuito, fácil de usar; eu recomendo.\n2. 駅に近いし、静かだし、ここに住みたい。\nÉ perto da estação e é tranquilo; quero morar aqui.\n3. 今日は雨だし、寒いし、家にいよう。\nHoje está chovendo e ainda está frio; vamos ficar em casa.\n4. 時間もないし…また今度。\nTambém não tenho tempo… fica para a próxima.",
+    "mistakes": [
+     "Omitir だ com な形容詞/N: ×便利し → 便利だし.",
+     "Confundir com ～て para dar motivos. O JLPT costuma exigir し quando há “vários motivos”.",
+     "Terminar com し na linguagem escrita formal pode ficar sem coesão se não houver uma conclusão clara."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo"
+     ],
+     "rows": [
+      [
+       "～し",
+       "Enumeração de motivos",
+       "Suave, conversacional",
+       "<ruby>安<rt>やす</rt></ruby>いし、<ruby>速<rt>はや</rt></ruby>いし"
+      ],
+      [
+       "～て、～て",
+       "Sequência de ações",
+       "Não tem sentido de “motivo”",
+       "<ruby>食<rt>た</rt></ruby>べて、<ruby>寝<rt>ね</rt></ruby>て"
+      ],
+      [
+       "～<ruby>上<rt>じょう</rt></ruby>に",
+       "Além disso",
+       "Formal, gradação",
+       "<ruby>便利<rt>べんり</rt></ruby>な<ruby>上<rt>うえ</rt></ruby>に<ruby>安<rt>やす</rt></ruby>い"
+      ],
+      [
+       "～たり",
+       "Enumeração de exemplos",
+       "Não é motivo",
+       "<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>たりする"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 252,
+   "src_hash": "af07c1965e8e790a",
+   "fields": {
+    "meaning": "Já ter feito…",
+    "examples": [
+     "Já ouvi esta música.",
+     "Você já subiu o monte Fuji?",
+     "Quando estava no ensino médio, estudei por um ano nos Estados Unidos.",
+     "“Você conhece esta música?” “Sim, já ouvi uma vez antes.”",
+     "Eu nunca vi neve nem uma vez.",
+     "Você já subiu o monte Fuji?"
+    ],
+    "explain": "Costuma vir com palavras que indicam número de vezes:一度／何回も／数回／一回も…ない para deixar clara a frequência da experiência.\nForma polida: 〜たことが あります ／〜たことが ありません .\nAo perguntar sobre experiência: 〜たことが ありますか ？ é o padrão polido e neutro.\n\n• Vたことがある expressa uma experiência no passado sem momento específico definido, com ênfase em “já fez ou não”.\n• Negação: Vたことがない = nunca ter tido essa experiência.\n• Não se usa com eventos muito específicos/momentos definidos (昨日/先週…), pois contradiz o caráter “sem momento definido”.\n• Diferença em relação ao Vた simples: Vた relata algo que ocorreu uma vez (pode ter tempo); Vたことがある enfatiza a experiência de já ter feito.",
+    "notes": "• Acrescentar um período amplo ainda é possível: 子どものころに、海外へ行ったことがある (período da infância, não um momento específico).\n• Com もう/まだ: もう行ったことがあります (já fui)／まだ行ったことがありません (ainda não fui).\n• Na conversa natural, costuma-se omitir ことが: 食べたことある？ (linguagem falada).",
+    "mistakes": [
+     "Associar a um momento específico: “昨日富士山に登ったことがある” (pouco natural) → “昨日登った” ou “富士山に登ったことがある”.",
+     "Confundir com hábito: “よく行く” ≠ “行ったことがある”. Um é algo frequente, o outro é a experiência de já ter feito.",
+     "Omitir こと gera inadequação na linguagem escrita formal: “食べたことある” é linguagem falada; o JLPT exige a forma completa.",
+     "Dupla negação incorreta: “一度も行ったことありません” (correto), e não “一度も行ったことないです” no padrão de prova (deve-se manter o nível de polidez uniforme)."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "Vたことがある",
+       "Já ter feito (experiência)",
+       "Sem momento específico",
+       "<ruby>寿司<rt>すし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたことがある"
+      ],
+      [
+       "Vた",
+       "Fez (passado)",
+       "Pode vir com momento específico",
+       "<ruby>昨日<rt>きのう</rt></ruby><ruby>寿司<rt>すし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた"
+      ],
+      [
+       "Vることがある",
+       "Às vezes",
+       "Hábito/frequência",
+       "<ruby>遅<rt>おく</rt></ruby>れることがある"
+      ],
+      [
+       "<ruby>経験<rt>けいけん</rt></ruby>がある",
+       "Ter experiência",
+       "Substantivo + がある",
+       "<ruby>留学<rt>りゅうがく</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>がある"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 98,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 253,
+   "src_hash": "9687c9915ab70062",
+   "fields": {
+    "meaning": "Deveria…, é melhor…",
+    "examples": [
+     "Amanhã você tem que acordar cedo, então é melhor ir dormir já.",
+     "É melhor não comer muito antes de dormir.",
+     "Se você está com dor de cabeça, é melhor dormir cedo hoje.",
+     "Acho que é melhor consultar o chefe sobre esse assunto.",
+     "É melhor não se forçar a trabalhar.",
+     "Entre inglês e japonês, é melhor escrever em japonês."
+    ],
+    "explain": "Conselho em grau moderado, amigável; em contextos polidos, pode-se usar ～ほうがよい/よろしいです.\nEvite usar diretamente com superiores/clientes se não for solicitado; substitua por sugestões suaves: ～てはいかがでしょうか, ～たらいかがですか.\nNão se usa para regras/normas rígidas (use ～べきだ/～ねばならない).\n\n• Dá conselhos e recomendações de caráter pessoal/baseados na experiência.\n• Afirmação: V-たほうがいい; negação: V-ないほうがいい (mais comum que V-なかったほうがいい).\n• V-るほうがいい é usado ao comparar duas opções de forma objetiva, não necessariamente como conselho direto.\n• Grau de força: ～たほうがいい < ～べきだ (forte, normativo) / mais suave: ～たらどう/～たらいい.\n• Costuma ser usado no presente; o sujeito implícito é “você/eu/nós”.",
+    "notes": "• Na conversa, acrescenta-se よ/ね/よね para ajustar o grau de intimidade e certeza.\n• Evite V-なかったほうがいい (pouco natural); use V-ないほうがいい.\n• Com substantivos/opções, usa-se ～にしたほうがいい para recomendar uma escolha: Aにしたほうがいい。",
+    "mistakes": [
+     "Usar V-るほうがいい como conselho geral → para conselho afirmativo, prefira V-たほうがいい.",
+     "Usar com sujeito inadequado ao contexto social (falar diretamente com um superior) → falta de polidez.",
+     "Confundir com ～べきだ: quando a questão pede uma recomendação suave, escolha ～たほうがいい."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Nuance",
+      "Diferença",
+      "Exemplo"
+     ],
+     "rows": [
+      [
+       "V-たほうがいい",
+       "Conselho",
+       "Pessoal, suave",
+       "<ruby>早<rt>はや</rt></ruby>めに<ruby>行<rt>い</rt></ruby>ったほうがいい。"
+      ],
+      [
+       "V-ないほうがいい",
+       "Não deveria",
+       "Negativo, aconselha evitar",
+       "<ruby>夜<rt>よる</rt></ruby><ruby>更<rt>ふ</rt></ruby>かししないほうがいい。"
+      ],
+      [
+       "V-たらいい/どう",
+       "Sugestão",
+       "Mais suave, aberto",
+       "<ruby>医者<rt>いしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったらどう？"
+      ],
+      [
+       "V-るほうがいい",
+       "Comparação",
+       "Não é bem um conselho",
+       "<ruby>車<rt>くるま</rt></ruby>より<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>くほうがいい。"
+      ],
+      [
+       "V-べきだ",
+       "Deve/tem de",
+       "Forte, normativo",
+       "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まも</rt></ruby>るべきだ。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 254,
+   "src_hash": "308d842cc06bb739",
+   "fields": {
+    "meaning": "Indica o motivo de algum fato.",
+    "examples": [
+     "Corro todos os dias pela saúde.",
+     "Estou estudando com muito empenho para me tornar médico no futuro.",
+     "Não consigo memorizar os kanji de jeito nenhum. Por isso, para memorizá-los, pratico escrevendo várias vezes.",
+     "Meu pai trabalha com muito empenho pela família.",
+     "Este é um dicionário para quem estuda japonês.",
+     "Eu não quero trabalhar pela empresa. Trabalho por mim mesmo."
+    ],
+    "notes": "Observação:\n「ために」の前に,可能形、ナイ形など使えない。\nAntes de 「ために」 não se pode usar o verbo na forma potencial nem na forma ない。\n1.  X日本語が話せるために、毎日練習します。　→日本語が話せるように～\nX Para poder falar japonês, pratico todos os dias. → Para conseguir falar japonês…\n2.  X　かぜをひかないために、注意してください。　→　かぜをひかないように～(→　N3)\nX Para não pegar resfriado, tome cuidado. → Para não pegar resfriado…\n◎ Padrão de frase que indica causa ou motivo. Usa-se com a forma simples do verbo e com「N＋の」.\n1. かぜを 引いたため、昨日は 休みました。\nComo peguei um resfriado, faltei ontem.\n2. 大雪の ため、電車が 止まって います。\nPor causa da neve forte, os trens estão parados.\nÉ mais formal que ので/から ao indicar causa; muito usado em avisos, placas e notícias.\nPara finalidade, é mais formal que ～ように; adequado quando o verbo é volitivo e o objetivo é concreto.\nNão se usa ために (finalidade) com verbos não volitivos/de capacidade como分かる、見える、起きる… (passa-se para ～ように).\n1. A:　なんの　ために　貯金していますか。\nB:　将来　自分の店を　持つために、貯金しています。\nA: Para que você está economizando dinheiro?\nB: Estou economizando para ter minha própria loja no futuro.\n2. A:　健康の　ために、　何か　していますか。\nB:　いいえ。でも、来週から　毎朝　走ろうと。\nA：Você faz alguma coisa pela saúde?\nB: Não. Mas estou pensando em correr todas as manhãs a partir da semana que vem.\n3. 家族の　ために、うちを　建てます。\nVou construir uma casa para a família.\n──────\n1. 日本に留学するために、日本語を勉強している。\nEstou"
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 255,
+   "src_hash": "dbdf619e1cac60be",
+   "fields": {
+    "meaning": "Deveria V ~ | Se… seria bom",
+    "examples": [
+     "Se você está cansado, é bom descansar um pouco.",
+     "Quem dera eu pudesse trabalhar no Japão.",
+     "O que eu devo fazer com este problema?",
+     "Quem dera a chuva parasse.",
+     "Seria bom ter tempo, né?",
+     "Teria sido melhor ter pedido conselho mais cedo, né."
+    ],
+    "explain": "Para conselhos levemente polidos: Vたらいいですよ／と思います。\nO desejo vem com な(あ)/のに para intensificar a emoção:会えたらいいな／雨ならやんだらいいのに。\nPara pedir opinião: どうしたらいいですか／いつ行っ たらいいですか。\nNão se deve usar diretamente com superiores quando há risco de soar como ordem; use padrões mais suaves como ～ていただけますか ou ～たらいかがですか.\n\n• Aconselhar/sugerir: “Fazer … seria bom” → mais suave que 〜たほうがいい, adequado à comunicação levemente polida.\n• Desejo pessoal: “Quem dera/se ao menos …” → com な(あ)/ね para expressar emoção: 会えたらいいな。\n• Perguntar como agir: “どうしたらいいですか” é um padrão fixo para pedir conselho.\n• A condição たら tem o sentido de “se essa condição ocorrer, seria bom” (suposição/possibilidade).",
+    "notes": "• “〜たらいいのに” costuma expressar arrependimento ou um desejo difícil de realizar.\n• Ao pedir orientação, “どうしたらいいですか” é mais natural que “どうすればいいですか” na linguagem falada; ambos estão corretos.\n• Não use “〜たらいい！” como ordem; acrescente ですよ/と思います para suavizar.\nmeaning_vi: Se… seria bom / deveria…\nexplain: Conselho leve, menos impositivo que ～べきだ ou ～ほうがいい.\nA forma interrogativa “～ばいいですか” é comum quando se quer que o ouvinte indique como resolver algo.\n～ばいいのに tem um sentimento de censura/pena; cuidado ao usar com pessoas mais velhas/superiores.\n～ばよい é formal/muito polido, usado na linguagem escrita e no trabalho.\nexamples: 1. 疲れたら、休めばいい。\nQuando estiver cansado, é só descansar.\n2. 「駅はどう行けばいいですか」「この道をまっすぐいけばいいですよ」\n\"Como faço para chegar à estação?\" \"É só seguir reto por esta rua que você chega.\"\n──────\n1. どうすればいいですか。\nO que eu devo fazer?\n2. 迷ったら、先生に聞けばいい。\nSe ficar em dúvida, é só perguntar ao professor.\n3. そんなに心配しなければいい。\nNão precisa se preocupar tanto.\n4. もっと勉強すればいいのに。\nSe ao menos você estudasse mais (deveria ter estudado).\n5. 雨なら、無理に行かなければいい。\nSe chover, não precisa ir.\n6. 今回は謝ればいいだけだ。\nDesta vez, basta pedir desculpas.\ncomparison: Padrão | Nuance | Diferença | Exemplo curto\n～ばいい | Conselho leve/condição suficiente | Suave, sem imposição | 早（はや）く寝（ね）れ ばいい。\n～たらいい | Equivalente, natural na linguagem falada | Tem caráter hipotético, após a condição ocorrer | 早（はや）く寝（ね）たらいい。\n～ほうがいい | Conselho mais forte | Compara 2 opções, sentido de “deveria” claro | 早（はや）く寝（ね）たほうがいい。\n～べきだ | Obrigação/norma | Forte, de princípio | 守（まも）るべきだ。\n～てもいい | Permitido | Não é conselho; é permissão | 帰（かえ）ってもいい。\ncommon_mistakes: • Entender como ordem: ～ばいい não é “ter de”, é apenas uma sugestão leve.\n• Confundir com ～てもいい (permissão) → função diferente.\n• Erro na conjugação da ば形 de verbos godan: 書く→書けば; 買う→買えば; 行く→行けば.\n• Confundir a nuance: para uma sugestão forte, escolha ～ほうがいい／～べきだ em vez de ～ばいい.\nexplain: ～Vば いいです： Deveria V ~\nUsado para pedir ou dar conselhos.\nO uso é igual ao de NVTたら　いいです。\nexamples: 1. A:　本を　借りたいんですが、どう　すれば　いいですか。\nB:　受付で　カードを　作って　もらって　ください。\nA: Eu queria pegar um livro emprestado; o que devo fazer?\nB: Peça para fazerem um cartão na recepção, por favor.\n2. A:　友達が　結婚します。どんな物を　あげれば　いいですか。\nB:　ワインを　あげれば　いいですよ。\nA: Um amigo meu vai se casar. O que será que eu devo dar de presente?\nB: Dar um vinho seria bom.\nexplain: Para um desejo próprio: ～といい んですが / のですが (polido, com um pouco de preocupação).\nPara outra pessoa: ～といい ですね (polido, com tom de votos).\nPara dar conselho: ～といい ですよ / よ (informal). Pode ser substituído por ～たらいい／～ばいい.\nO conteúdo deve ser um fato futuro; para o passado, usa-se ～とよかった (teria sido tão bom) para expressar arrependimento.\nexamples: 1. 試験、うまくいくといいですね。\nEspero que a prova corra bem.\n2. 忘れ物が見つかるといいんですが。\nEspero que o objeto perdido seja encontrado.\n3. 時間があるといいね、映画に行こう。\nTomara que dê tempo; vamos ao cinema.\n4. 風邪なら、今日は早く休むといいですよ。\nSe for resfriado, é bom descansar cedo hoje.\n5. 英語は毎日少しずつ続けるといいよ。\nNo inglês, é bom continuar um pouco todos os dias.\n6. 明日は晴れだといいなあ。\nTomara que amanhã faça sol.\n──────\n1. ①いい仕事が見つかるといいですね。\nTomara que você encontre um bom emprego.\n2. ②運動会の日、雨が降らないといいですけど｡｡｡\nEspero que não chova no dia da gincana esportiva.\n3. ③のどが痛いの？悪いかぜでないといいけど｡｡｡\nVocê está com dor de garganta? Espero que não seja um resfriado forte.\n4. ④部屋がもっと広いといいけどなあ。\nQuem dera o quarto fosse mais espaçoso.\n5. ⑤ホームステイの家族がみんな親切だといいなあ。\nEspero que todos da família do homestay sejam gentis.\ncomparison: Padrão | Função | Diferença | Exemplo curto\n～といい（ですね） | Votos/esperança | Para outra pessoa; polido. | 合格（ごうかく）だ といいですね。\n～といい（んですが） | Esperança (própria) | Com nuance de anseio, preocupação. | 雨（あめ）がやむ といいんですが。\n～たらいい／～ばいい | Sugestão | Semelhante a aconselhar; às vezes mais direto. | 休（やす）ん だらいい よ。\n～ますように | Votos | Mais formal, tende à prece. | 合格（ごうかく）し ますように。\n～といい vs ～たい | Desejo/esperança vs vontade | ～たい é a vontade do falante; ～といい é esperar algo fora do próprio controle. | 休（やす）み たい ／休（やす）み だといい。\ncommon_mistakes: • Usar ～といいです para um desejo próprio soa rígido; mais natural: ～といいんですが。\n• Usar ～といい para aconselhar de forma direta demais em contexto formal; considere ～たらいかがでしょうか。\n• Aplicar ～といい a algo totalmente sob o próprio controle → pouco natural (×「早く寝るといいんですが」). Prefira ～ばいい／～たほうがいい。\n• Confundir com ～ますように (prece). O JLPT testa a nuance de polidez e o alvo (si mesmo vs outra pessoa).\nmeaning_vi: 「～ことを望んでいる。」 ～には話者自身の意志的行為を表す言葉は来ない。\nEspero que ~.\n~ não é uma palavra que expresse uma ação volitiva do próprio falante.\nexamples: 1. 疲れているようですね。あしたはゆっくり休むといいですよ。\nParece que você está cansado。É bom descansar bem amanhã。\n2. その仕事、気が進まないのなら引き受けなければいいんじゃないですか。\nEsse trabalho、se você não está com vontade, não é melhor simplesmente não aceitar？\n3. 申込書の書き方がわからなければ、事務の人に聞いてみたらいいですよ。\nSe não souber como preencher o formulário de inscrição、é bom perguntar ao pessoal da secretaria。\n──────\n1. 先生「このクラスも今日でお別れです。いつかまたみんなで会えるといいですね。」\nProfessor「Hoje é o dia da despedida desta turma também。Espero que um dia todos possamos nos reencontrar。」\n2. 最近ずっと体の調子が悪い。悪い病気でなければいいが…。\nUltimamente minha saúde não anda bem。Espero que não seja uma doença grave…。\n3. あした入学試験だ。頑張ろう。合格できたらいいなあ。\nAmanhã é o exame de admissão。Vamos lá。Tomara que eu consiga passar。\nmeaning_vi: Expressa conselho, sugestão.\n（～ばいい）／（～たらいい）／（～と）+いい\nexamples: 1. ①　買えばいい／買ったらいい／買うといい\nDeveria comprar.\n2. ②　「日本語がうまくなるには、どうしたらいいですか。」\n「日本人(にほんじん)と友達(ともだち)になるといいですよ。」\n\"O que devo fazer para ficar fluente em japonês?\"\n\"É bom fazer amizade com japoneses.\"\n3. ③    勉強したくないなら、学校をやめればいい。\nSe não quer estudar, é só largar a escola.\n4. ➃　食べたくないなら、食べなければいい。\nSe não quer comer, não precisa comer.\nmeaning_vi: Quem dera…, se ao menos… seria bom (といい/たらいい)",
+    "mistakes": [
+     "Confundir a função de “conselho” com a de “desejo”: é preciso se basear no contexto e na terminação da frase (ですよ vs な/のに).",
+     "Usar de forma direta demais com superiores → falta de polidez; considere ～たらいかがですか/～ていただけますか.",
+     "Confundir com 〜たほうがいい (mais forte) em frases de conselho em situações delicadas."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Nuance/Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "Vたらいい",
+       "Deveria/desejo",
+       "Suave, condição concreta",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>たらいい"
+      ],
+      [
+       "Vばいい",
+       "Deveria/desejo",
+       "Um pouco mais direto; linguagem escrita",
+       "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ればいい"
+      ],
+      [
+       "Vといい",
+       "Tomara que",
+       "Esperança de que ocorra naturalmente, sem intenção",
+       "<ruby>晴<rt>は</rt></ruby>れるといいね"
+      ],
+      [
+       "Vたほうがいい",
+       "Deveria (forte)",
+       "Conselho forte, baseado na experiência",
+       "<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ったほうがいい"
+      ],
+      [
+       "Vたらどうですか",
+       "Que tal…",
+       "Linguagem falada, mais direto que たらいい",
+       "<ruby>休<rt>やす</rt></ruby>んだらどう？"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 256,
+   "src_hash": "0706b290d3b3f4e4",
+   "fields": {
+    "meaning": "Provavelmente…",
+    "examples": [
+     "Se perguntar a ele, provavelmente ele vai saber.",
+     "Tanaka e os outros provavelmente já chegaram a Tóquio.",
+     "Amanhã provavelmente vai nevar.",
+     "Ele provavelmente já chegou em casa.",
+     "Esse plano provavelmente não vai dar certo.",
+     "Você também acha isso, não acha?"
+    ],
+    "explain": "Linguagem falada coloquial/fala masculina: ～だろう／～だろ？; linguagem polida: ～でしょう／～でしょうか.\nCombina com advérbios de conjectura: おそらく／たぶん ～だろう (aumentam/diminuem o grau de certeza).\nEvite ～だろうですか. A pergunta polida deve ser ～でしょうか.\n\n• Conjectura com grau de confiança moderado: “provavelmente/ deve ser”.\n• Usado como terminação de confirmação/pergunta buscando concordância (sobretudo na fala masculina): ～だろう？ “não é?”.\n• ～だろうか: autoquestionamento, ponderação; na linguagem escrita formal usa-se muito ～であろう/～であろうか.\n• Nuance mais direta e forte que でしょう. Em conversas polidas, deve-se usar でしょう.",
+    "notes": "• Forma formal da linguagem escrita: ～であろう (mesmo significado, estilo elevado).\n• Interrogação negativa: ～ないだろうか muitas vezes tem o sentido de “não seria …?”.\n• Na comunicação polida, passa-se para ～でしょう para evitar rudeza. | Variante: （～だろう）と思う — conjectura do falante",
+    "mistakes": [
+     "Forma incorreta: × 静かだだろう → 静かだろう.",
+     "Misturar estilos: × でしょうだろう (mistura). Escolha um estilo consistente.",
+     "Perguntar com polidez usando だろうか a um superior pode soar um pouco rígido; prefira でしょうか.",
+     "Confundir o grau de certeza com ～かもしれない em perguntas-armadilha sobre o grau de confiança."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Grau de certeza",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "～だろう",
+       "Médio",
+       "Coloquial/direto; pergunta de confirmação: ～だろう？",
+       "<ruby>来<rt>く</rt></ruby>るだろう"
+      ],
+      [
+       "～でしょう",
+       "Médio",
+       "Mais polido, mais neutro.",
+       "<ruby>来<rt>く</rt></ruby>るでしょう"
+      ],
+      [
+       "～かもしれない",
+       "Baixo",
+       "Mais fraco que “provavelmente”.",
+       "<ruby>来<rt>く</rt></ruby>るかもしれない"
+      ],
+      [
+       "～に<ruby>違<rt>ちが</rt></ruby>いない",
+       "Alto",
+       "Quase certeza.",
+       "<ruby>来<rt>く</rt></ruby>るに<ruby>違<rt>ちが</rt></ruby>いない"
+      ],
+      [
+       "～はずだ",
+       "Alto (lógica)",
+       "Baseado em razões, lógica.",
+       "<ruby>来<rt>く</rt></ruby>るはずだ"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 257,
+   "src_hash": "c396f7886c456f1f",
+   "fields": {
+    "meaning": "「～と言っている・～と聞いた。」「～と」のくだけた話し言葉で。②③④⑤のように、後の動詞（言っている・聞いたなど）をよく省略する。④のように、言った言葉に直接「って」をつけることもある。\nDizer que ~ / ouvir dizer que ~.\nÉ uma forma usada na linguagem falada, uma pronúncia alterada de ～と.\nNos exemplos ②③④, costuma-se omitir o verbo que vem depois, いっている／きいた….\nHá casos em que って é anexado diretamente às próprias palavras ditas, como no exemplo ④.",
+    "examples": [
+     "“Mãe, o pai disse que hoje vai chegar tarde.”",
+     "“O Tanaka disse que vai?” “Não, disse que não vai.”",
+     "“Aprendi na escola que antigamente esta região era mar.”",
+     "“O que disse a previsão do tempo?” “Disse que vai fazer sol. E também que vai estar quente.”",
+     "Depois de muito tempo, chegou um e-mail da Tei. Ela disse que está bem.",
+     "O Ogawa disse que hoje vai faltar."
+    ],
+    "explain": "Forma coloquial de repassar uma informação ouvida ou o que outra pessoa disse (“ouvi dizer que…/disse que…”). Muito usada na conversa.",
+    "notes": "1) Fácil de confundir com a partícula de citação と.\n→ ～って é a forma falada de と言って／という, usada para relatar falas/informações.\n2) Atenção ao contexto da linguagem falada.\n→ Aparece muito em conversas; não é preferido na linguagem escrita formal.\n3) Fácil de confundir os 2 usos.\n→ Pode ser “ouvi dizer que…” ou “disse que…” (citação), conforme a frase."
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}

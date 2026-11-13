@@ -1,0 +1,816 @@
+{
+ "batch": "b006",
+ "lang": "pt",
+ "model": "claude-opus-5-5",
+ "prompt_ver": "2",
+ "date": "2026-11-13",
+ "items": [
+  {
+   "id": 91,
+   "src_hash": "6660bc7ea2d15ee0",
+   "fields": {
+    "meaning": "Este lado / eu / aqui",
+    "examples": [
+     "Este é o Sr. Tanaka.",
+     "Por aqui, por favor.",
+     "O banheiro é aqui.",
+     "O que acha deste produto?",
+     "Eu é que agradeço.",
+     "Somos três pessoas."
+    ],
+    "explain": "Mais polido que これ/ここ/この; adequado a serviços, orientações e comunicação cortês.\nIndicar o caminho com delicadeza:受付は こちら です。\nApresentar pessoas: こちら は山田課長です。\n\nこちらé um demonstrativo polido equivalente a “この/ここ/これ” (porém mais polido), com o sentido de “este lado/isto/esta pessoa/nós”.\nPara pessoas: “esta pessoa” (polido, cortês).\nPara lugar/direção: “por aqui/deste lado”.\nPara organização/grupo: “nós/do nosso lado”.\nUsado em orientações, serviços, ao telefone e em apresentações.",
+    "notes": "A expressãoこちらこそé usada para responder a um agradecimento/pedido de desculpas: “eu é que agradeço/eu também”.\nAo telefone/em serviços:こちらはABC会社でございます。 (Aqui é da empresa ABC.)\n“こちらになります” é uma forma polida de dizer “aqui está ~” (com nuance de atendimento).",
+    "mistakes": [
+     "Confundir com これ/ここ: para dizer “o banheiro é aqui” de forma polida, diz-se こちらがお手洗いです (e não これが…).",
+     "Usar こちら para algo longe do falante → use あちら/そちら conforme a distância/o contexto.",
+     "Omitir の ao modificar um substantivo: × こちら部屋→ correto: こちらの部屋。"
+    ],
+    "comparison": {
+     "headers": [
+      "Palavra",
+      "Significado",
+      "Nuance",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "こちら",
+       "“este” lado/coisa/pessoa",
+       "Polido",
+       "こちらへどうぞ。"
+      ],
+      [
+       "これ",
+       "“isto” (objeto)",
+       "Neutro",
+       "これはペンです。"
+      ],
+      [
+       "ここ",
+       "“aqui” (lugar)",
+       "Neutro",
+       "ここは<ruby>東京<rt>とうきょう</rt></ruby>です。"
+      ],
+      [
+       "この",
+       "“este/esta” + N",
+       "Neutro",
+       "この<ruby>本<rt>ほん</rt></ruby>"
+      ],
+      [
+       "そちら／あちら",
+       "esse lado/aquele lado (polido)",
+       "Mesma série polida",
+       "そちらはどうですか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 92,
+   "src_hash": "b9a486015e66bd53",
+   "fields": {
+    "meaning": "Há pouco",
+    "connection": "さっき + [frase/oração] / さっきの + N",
+    "examples": [
+     "Encontrei o Sr. Tanaka há pouco.",
+     "Você viu o e-mail de agora há pouco?",
+     "Estou com dor de cabeça desde agora há pouco.",
+     "Até agora há pouco estava chovendo.",
+     "Liguei há pouco.",
+     "Por favor, me envie a foto de agora há pouco."
+    ],
+    "explain": "さっき geralmente vem com o passado: さっき行きました／来ました。\nさっきから + Vている expressa um estado contínuo até o presente.\nさっきまで enfatiza que algo acabou de terminar.\nColoquial, usado na conversa; em contextos formais pode-se usar先ほど (mais polido).\n\nさっきexpressa um momento muito próximo no passado: “há pouco, agora há pouco”. Geralmente vem com o tempo passado, ou com a forma progressiva ao usarさっきから.\nさっき: um momento pouco antes do presente, vago (de alguns minutos a um intervalo curto).\nさっきから: desde há pouco até agora (contínuo).\nさっきまで: até agora há pouco (acabou de parar).",
+    "notes": "O quão “próximo” é さっき depende do contexto (geralmente dentro de algumas dezenas de minutos).\nNão se usa さっき para o futuro; para uma ação em andamento no presente, use さっきから + Vている.\nEm e-mails de trabalho, prefira先ほど por ser mais polido.",
+    "mistakes": [
+     "Tempo verbal errado: × さっき行きます → correto: さっき行きました。",
+     "Confundir さっき com もうすぐ (futuro): × さっき始まります → correto: もうすぐ始まります。",
+     "Omitir の ao funcionar como modificador: × さっき店→ correto: さっきの店。"
+    ],
+    "comparison": {
+     "headers": [
+      "Palavra",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "さっき",
+       "Há pouco",
+       "Passado próximo, vago",
+       "さっき<ruby>会<rt>あ</rt></ruby>いました。"
+      ],
+      [
+       "たった<ruby>今<rt>いま</rt></ruby>",
+       "Agora mesmo (imediato)",
+       "Mais próximo que さっき",
+       "たった<ruby>今<rt>いま</rt></ruby><ruby>着<rt>つ</rt></ruby>きました。"
+      ],
+      [
+       "<ruby>先<rt>さき</rt></ruby>ほど",
+       "Há pouco (polido)",
+       "Formal",
+       "<ruby>先<rt>さき</rt></ruby>ほどお<ruby>電話<rt>でんわ</rt></ruby>しました。"
+      ],
+      [
+       "もうすぐ",
+       "Em breve",
+       "Futuro próximo",
+       "もうすぐ<ruby>始<rt>はじ</rt></ruby>まります。"
+      ],
+      [
+       "さっきから／さっきまで",
+       "Desde há pouco / Até agora há pouco",
+       "Contínuo / terminou recentemente",
+       "さっきから<ruby>待<rt>ま</rt></ruby>っています。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 93,
+   "src_hash": "1761a87de00a313c",
+   "fields": {
+    "meaning": "Imediatamente",
+    "examples": [
+     "Venha agora mesmo, por favor.",
+     "Quando chego em casa, tomo banho logo.",
+     "Assim que a aula terminou, fui para casa.",
+     "Há uma loja de conveniência bem perto da estação.",
+     "Assim que ouvi aquela história, as lágrimas vieram."
+    ],
+    "explain": "“すぐに” indica um momento ou posição muito próximos em relação ao ponto de referência atual.\nPode vir antes de verbos ou de substantivos que indicam tempo: すぐに行く／すぐに電話する／帰ってすぐに寝る。\nNa forma coloquial, costuma-se omitir “に”: すぐ行くね！ → “Já estou indo, tá?”\n“すぐ” enfatiza a sensação de rapidez, sem demora; adequado para expressar urgência ou imediatismo.\n\n① “すぐに” expressa uma ação que acontece logo após outra, enfatizando o caráter imediato.\n② Significado em português: “imediatamente”, “logo depois”, “logo”.\n③ Pode expressar proximidade tanto no tempo quanto no espaço:・No tempo → a ação acontece logo em seguida.\n・No espaço → “bem perto”, “logo ao lado”.\n“すぐに” pode ser usado sozinho ou combinado com “あとで／前に／近くに” para enfatizar o grau de proximidade.",
+    "notes": "“すぐに” é um advérbio de tempo, colocado antes do verbo principal da frase.\nPode ser usado em instruções e orientações para ações de emergência:火事です！すぐに逃げてください！→ Fogo! Fujam imediatamente!\nNo nível JLPT N5, basta dominar o uso básico de “fazer algo imediatamente”.\nEm níveis mais avançados, “すぐに” pode expressar uma “reação emocional rápida”, por exemplo:彼はすぐに怒ります。→ Ele se irrita facilmente.",
+    "mistakes": [
+     "Esquecer “に” na linguagem escrita ou na prova do JLPT:",
+     "✕ すぐ行きます → (correto na conversa, mas no JLPT convém escrever) ○ すぐに行きます。",
+     "Confundir “すぐに” com “もうすぐ”:",
+     "すぐに → imediatamente.",
+     "もうすぐ → em breve.",
+     "Não se usa “すぐに” com ações prolongadas (como勉強しています) — só com ações que se iniciam ou são curtas.",
+     "O JLPT N5 costuma pedir: escolher corretamente entre “すぐに”, “もうすぐ” e “あとで” para expressar o momento exato."
+    ],
+    "comparison": {
+     "headers": [
+      "Palavra / Padrão",
+      "Significado",
+      "Principal diferença",
+      "Exemplo"
+     ],
+     "rows": [
+      [
+       "すぐに",
+       "Imediatamente",
+       "Expressa algo que acontece logo após uma ação",
+       "すぐに<ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "すぐ",
+       "Já, logo (coloquial, abreviado)",
+       "Forma curta de “すぐに”, usada na conversa informal",
+       "すぐ<ruby>行<rt>い</rt></ruby>くね。"
+      ],
+      [
+       "もうすぐ",
+       "Em breve… / Está chegando",
+       "Ainda não aconteceu, mas vai acontecer num futuro próximo",
+       "もうすぐ<ruby>春<rt>はる</rt></ruby>です。"
+      ],
+      [
+       "たった<ruby>今<rt>いま</rt></ruby>",
+       "Acabou de…",
+       "Enfatiza uma ação que acabou de acontecer",
+       "たった<ruby>今<rt>いま</rt></ruby><ruby>帰<rt>かえ</rt></ruby>りました。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 94,
+   "src_hash": "7245773dc8a4eaf0",
+   "fields": {
+    "meaning": "De jeito nenhum",
+    "connection": "ぜんぜん + [predicado negativo] (Vません / Aくない / Naではない)",
+    "examples": [
+     "Não tenho dinheiro nenhum.",
+     "Ontem não estudei nada.",
+     "Este filme não tem graça nenhuma.",
+     "Não entendi nada do que o professor disse.",
+     "O inverno no Japão é frio, mas o inverno no Vietnã não é nada frio."
+    ],
+    "explain": "Geralmente vem antes de um verbo negativo ou de um adjetivo negativo .\nEnfatiza a ideia de “não haver absolutamente nada” ou de “grau zero”.\nNa conversa, pode-se usar “ぜんぜん + sentido positivo”, como “ぜんぜん大丈夫！” (Está tudo bem!) – porém, é um modo de falar natural da conversa, que não se usa na prova do JLPT .\nCombina com entonação forte ou emoção evidente (irritação, surpresa, ênfase).\n\n① “ぜんぜん”é um advérbio que enfatiza o grau de negação absoluta: “de jeito nenhum”, “nem um pouco”.\n②Usado comverbos negativosouadjetivos negativospara expressar que a ação ou o estado não ocorre em absoluto.\n③Na conversa moderna, às vezes “ぜんぜん” é usado com sentido positivo (“muito”, “totalmente”) para dar ênfase — mas no JLPT N5 basta lembrar osentido negativo.",
+    "notes": "「ぜんぜん」 = “completely / totally / not at all”, conforme o contexto.\nEm kanji escreve-se 「全然」, mas na comunicação diária costuma-se escrever em hiragana: 「ぜんぜん」.\nNo japonês moderno, pode-se ouvir: 「ぜんぜんOK！」, 「ぜんぜん大丈夫！」 → com sentido positivo, “totalmente tranquilo”. Porém, é um uso coloquial, que não se usa na linguagem escrita nem no JLPT.",
+    "mistakes": [
+     "Usar incorretamente com frase afirmativa na prova do JLPT:",
+     "✕ ぜんぜんわかります → ○ ぜんぜんわかりません。",
+     "Confundir com あまり:“ぜんぜん” = de jeito nenhum, mais forte que “あまり”.",
+     "Esquecer o verbo negativo: ✕ ぜんぜん勉強→ ○ ぜんぜん勉強しません。",
+     "O JLPT N5 costuma pedir: escolher o advérbio de negação correto entre “あまり”, “ぜんぜん” e “ちょっと”."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo"
+     ],
+     "rows": [
+      [
+       "ぜんぜん + Vない／Adjない",
+       "De jeito nenhum…",
+       "Negação absoluta, forte",
+       "ぜんぜんわかりません。"
+      ],
+      [
+       "あまり + Vない／Adjない",
+       "Não … muito",
+       "Negação leve, relativa",
+       "あまりわかりません。"
+      ],
+      [
+       "<ruby>全<rt>まった</rt></ruby>く（まったく） + Vない",
+       "Absolutamente não… (bem formal)",
+       "Igual a “ぜんぜん”, mas usado na linguagem escrita ou em contextos mais formais",
+       "<ruby>全<rt>まった</rt></ruby>く<ruby>知<rt>し</rt></ruby>りません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 95,
+   "src_hash": "0b0aebd5137f0034",
+   "fields": {
+    "meaning": "Esse lado / você / aí",
+    "examples": [
+     "Olá. Que horas são aí agora?",
+     "Irei até aí por volta das 3 da tarde.",
+     "Amanhã vamos nos encontrar aí.",
+     "No seu país, quando é a primavera?",
+     "Aqui está ensolarado. E aí, como está?",
+     "Obrigado pela ligação. Aí é da empresa ABC?"
+    ],
+    "explain": "Polido: usa-se そちら em vez de そっち/そこ para mostrar respeito ao ouvinte.\nEvite usá-lo para se dirigir diretamente a uma pessoa: em vez de “そちらは田中さんですか”, use “田中様でいらっしゃいますか”. Porém, no contexto de organizações, “そちらはABC会社ですか” é natural.\nPar simétrico: こちら（do meu lado）– そちら（do seu lado）– あちら（de um terceiro/longe de ambos）.\nUse a partícula adequada: そちらへ（direção）, そちらに（para/em）, そちらで（ação realizada naquele lugar）.\n\n“そちら” é um pronome polido que indica o lado do ouvinte (posição, organização, grupo, situação desse lado).\nUsado ao telefone, em e-mails e no atendimento, sendo mais polido que そこ/そっち.\nPode indicar direção/destino (そちらへ), lugar (そちらで) ou posse (そちらのN).\nNa conversa, “そちらは？” é usado para devolver a pergunta sobre o lado do ouvinte (tempo, situação).",
+    "notes": "Ao telefone, pode-se começar com: そちらはABC会社でいらっしゃいますか。\nPerguntar sobre o tempo/a situação: そちらはどうですか／そちらの状況はいかがですか。\nNo atendimento, os funcionários costumam referir-se a si mesmos como こちら e ao cliente como そちら（のご希望）, como forma polida e indireta.",
+    "mistakes": [
+     "Usar そこ/そっち em contextos formais em vez de そちら → pouco polido.",
+     "Partícula errada: “そちらで行きます” (incorreto) → deve ser “そちらへ行きます”.",
+     "Chamar o ouvinte diretamente de そちら em qualquer situação → pode soar rude. Use o nome +様ou a expressão de keigo (linguagem honorífica) adequada.",
+     "Confundir o eixo dos demonstrativos: こちら (do meu lado) ≠ そちら (do seu lado) ≠ あちら (do lado de lá)."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Grau de polidez/Âmbito",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "こちら",
+       "Do meu lado/aqui",
+       "Polido",
+       "こちらは<ruby>山田<rt>やまだ</rt></ruby>です。"
+      ],
+      [
+       "そちら",
+       "Do seu lado/aí onde você está",
+       "Polido",
+       "そちらは<ruby>雨<rt>あめ</rt></ruby>ですか。"
+      ],
+      [
+       "あちら",
+       "Do lado de lá/ali",
+       "Polido",
+       "あちらへお<ruby>願<rt>ねが</rt></ruby>いします。"
+      ],
+      [
+       "そこ／そっち",
+       "Aí/do seu lado",
+       "Coloquial",
+       "そこは<ruby>暑<rt>あつ</rt></ruby>い？／そっちどう？"
+      ],
+      [
+       "<ruby>御社<rt>おんしゃ</rt></ruby>／<ruby>貴社<rt>きしゃ</rt></ruby>",
+       "Sua empresa (respeitoso)",
+       "Muito formal (linguagem escrita)",
+       "<ruby>貴社<rt>きしゃ</rt></ruby>のご<ruby>担当<rt>たんとう</rt></ruby><ruby>者<rt>しゃ</rt></ruby><ruby>様<rt>さま</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 96,
+   "src_hash": "378339a5fa39887f",
+   "fields": {
+    "meaning": "Depois disso…",
+    "connection": "それから + [frase/oração]",
+    "examples": [
+     "Tomei o café da manhã. Depois, fui para a escola.",
+     "Vou fazer a lição de casa e, depois, ver TV.",
+     "Vou pegar o passaporte e, depois, ir para o aeroporto.",
+     "Compre leite e, depois, compre pão também, por favor.",
+     "Hum… e outra coisa: tenho uma pergunta."
+    ],
+    "explain": "Sequência temporal clara: usado para relatar etapas/atividades de um dia.\nAcrescentar algo de que se lembrou: como palavra de apoio ao listar coisas a comprar/pedidos.\nNa linguagem escrita simples e na conversa diária, それから é muito comum e natural.\nNão expressa relação de causa e resultado; se necessário, use それで／だから.\n\nSignificado: “depois disso; então; em seguida”. Liga ações/ideias em uma ordem temporal clara.\nNuance: enfatiza mais a sequência que そして (neutro). Adequado para enumerar ações feitas uma após a outra.\nTambém é usado como “ah, e mais/aproveitando” para acrescentar algo de que se acabou de lembrar na conversa.",
+    "notes": "Ao enumerar vários itens em instruções, まず／次に／それから／最後に deixa o encadeamento muito claro.\nNa conversa, それから pode servir de pausa para o falante pensar no que vem a seguir, dando um ritmo natural.\nEvite ligar frases demais seguidas com それから; alterne com それに, そして, そのあと para evitar monotonia.",
+    "mistakes": [
+     "Usar それから para relação de resultado: incorreto. Use それで/だから.",
+     "Confundir com そして: para enfatizar a “ordem temporal”, escolha それから; そして apenas liga ideias de forma neutra.",
+     "Repetir それから com muita frequência num texto o torna monótono; alterne com outros conectivos."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Principal diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "それから",
+       "Depois disso; em seguida",
+       "Enfatiza a ordem temporal",
+       "<ruby>掃除<rt>そうじ</rt></ruby>した。それから<ruby>勉強<rt>べんきょう</rt></ruby>。"
+      ],
+      [
+       "そして",
+       "E; e então",
+       "Neutro, pouca ênfase no tempo",
+       "<ruby>安<rt>やす</rt></ruby>い。そしておいしい。"
+      ],
+      [
+       "それに",
+       "Além disso",
+       "Acrescenta motivo/característica",
+       "<ruby>安<rt>やす</rt></ruby>い。それに<ruby>近<rt>ちか</rt></ruby>い。"
+      ],
+      [
+       "それで",
+       "Por isso, então",
+       "Causa → resultado",
+       "<ruby>雨<rt>あめ</rt></ruby>。それで<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "そのあと（に）",
+       "Depois disso (substantivo/locução)",
+       "Sentido equivalente, mas não é conjunção",
+       "そのあと、<ruby>帰<rt>かえ</rt></ruby>った。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 97,
+   "src_hash": "be750d5be730ed96",
+   "fields": {
+    "meaning": "Geralmente, na maioria",
+    "connection": "たいてい + V / たいてい + [frase/oração]",
+    "examples": [
+     "Eu geralmente acordo às 6 horas.",
+     "Nos fins de semana, geralmente vejo filmes em casa.",
+     "A maioria dos estudantes faz bico.",
+     "Esta loja geralmente está vazia.",
+     "O verão no Japão geralmente é quente."
+    ],
+    "explain": "Colocado no início da frase ou antes do predicado.\nNuance de generalização, sem afirmar 100%.\nAdequado para descrever hábitos e tendências.\n\nNa maioria das vezes, a maior parte do tempo; fala de hábitos e tendências gerais.\nMais forte que “よく”, mais fraco que “いつも”.\nNão é usado para indicar “aproximação de números”.",
+    "notes": "Em anúncios/notícias, às vezes usa-se o kanji “大抵”.\n“たいていのN” ajuda a delimitar o âmbito do sujeito: たいていの子ども, たいていの場合.\nQuando se quer mais certeza, “ほぼ/ほとんど” podem ser adequados, mas com nuance diferente.",
+    "mistakes": [
+     "Usar “たいてい” para estimar números → função errada.",
+     "Confundir com “いつも”: este tem grau mais forte que “たいてい”.",
+     "Omitir “の” ao funcionar como modificador: o correto é “たいていの人”."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "たいてい",
+       "Na maioria das vezes",
+       "Frequência alta",
+       "たいてい<ruby>行<rt>い</rt></ruby>きます"
+      ],
+      [
+       "いつも",
+       "Sempre",
+       "Quase 100%",
+       "いつも<ruby>遅<rt>おく</rt></ruby>れます"
+      ],
+      [
+       "よく",
+       "Frequentemente",
+       "Média a alta",
+       "よく<ruby>勉強<rt>べんきょう</rt></ruby>します"
+      ],
+      [
+       "たまに",
+       "De vez em quando",
+       "Frequência baixa",
+       "たまに<ruby>行<rt>い</rt></ruby>きます"
+      ],
+      [
+       "だいたい",
+       "Mais ou menos/aproximadamente",
+       "Não indica frequência",
+       "だいたい1000<ruby>円<rt>えん</rt></ruby>"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 98,
+   "src_hash": "e644a8b09b798fd4",
+   "fields": {
+    "meaning": "Aproximadamente, em grande parte",
+    "connection": "だいたい + [quantidade/N] / だいたい + V",
+    "examples": [
+     "Até a escola são uns 20 minutos.",
+     "Entendi mais ou menos o conteúdo deste livro.",
+     "O almoço custa por volta de 500 ienes.",
+     "Os preparativos estão praticamente prontos.",
+     "Pode ser aproximado: me diga a quantidade, por favor."
+    ],
+    "explain": "Colocado logo antes do item a ser estimado ou no início da frase.\nNeutro, pode ser usado na maioria das situações.\nAdequado quando não é necessária precisão absoluta.\n\nAproximação de quantidade/tempo (about/approximately).\nAvaliação geral, sem detalhes (generally/broadly).\nNão é usado para “frequência” (diferente de “たいてい”).",
+    "notes": "Kanji:大体; no N5, prefira o kana “だいたい”.\n“だいたい合っている” = está mais ou menos certo.\nNa conversa: “だいたいね…” introduz a ideia de “de modo geral…”.",
+    "mistakes": [
+     "Confundir com “たいてい” (frequência) → uso no contexto errado.",
+     "Combinar com números exatos e com a palavra “ちょうど” gera contradição.",
+     "Omitir “ぐらい/くらい” quando é preciso enfatizar a aproximação: em muitos contextos, “ぐらい” soa mais natural."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "だいたい",
+       "Mais ou menos/aproximadamente",
+       "Não indica frequência",
+       "だいたい<ruby>100人<rt>ひゃくにん</rt></ruby>"
+      ],
+      [
+       "たいてい",
+       "Na maioria das vezes/geralmente",
+       "Fala de hábitos",
+       "たいてい<ruby>家<rt>いえ</rt></ruby>にいる"
+      ],
+      [
+       "およそ",
+       "Cerca de (formal)",
+       "Linguagem escrita, notícias",
+       "およそ3<ruby>割<rt>わり</rt></ruby>"
+      ],
+      [
+       "ほとんど",
+       "Quase todo",
+       "Abrangência alta",
+       "ほとんど<ruby>終<rt>お</rt></ruby>わった"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 99,
+   "src_hash": "e4cd7f5ba97cd4c6",
+   "fields": {
+    "meaning": "Por isso…",
+    "connection": "[frase/oração]。だから/ですから、[frase/oração]",
+    "examples": [
+     "Não tenho tempo. Por isso, hoje não dá.",
+     "É perigoso. Por isso, não se aproxime, por favor.",
+     "Gosto de estudar. Por isso, vou muito à biblioteca.",
+     "Está chovendo. Por isso, vou levar o guarda-chuva.",
+     "É barato. Por isso, vou comprar."
+    ],
+    "explain": "Colocado depois da frase que apresenta o motivo, para levar à conclusão.\nMantenha a polidez adequada ao ouvinte: だから → ですから.\nÉ muito natural para responder a “どうして？”.\n\nLiga o motivo já apresentado (S1) ao resultado/à intenção (S2), no sentido de “por isso/portanto”.\nColoquial e direto; troque por “ですから” quando for preciso ser polido.\nDiferente de “ので/から” (ligação dentro da frase) e de “それで” (continuação dos fatos).",
+    "notes": "Para soar ainda mais suave: “ですので” (avançado) em vez de “ですから”.\n“だからこそ” enfatiza que o resultado é inevitável, com nuance positiva.\nEvite repetir “だから” com muita frequência numa mesma fala.",
+    "mistakes": [
+     "Omitir a frase de motivo (S1) → “だから” fica abrupto.",
+     "Confundir com “それで” na linguagem escrita narrativa.",
+     "Usar “だから” com superiores/clientes: falta de polidez → troque por “ですから”."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Uso",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "だから",
+       "Conjunção",
+       "Linguagem falada",
+       "<ruby>雨<rt>あめ</rt></ruby>。だから<ruby>行<rt>い</rt></ruby>かない。"
+      ],
+      [
+       "ですから",
+       "Formal",
+       "Polido",
+       "<ruby>忙<rt>いそが</rt></ruby>しいです。ですから<ruby>無理<rt>むり</rt></ruby>です。"
+      ],
+      [
+       "ので",
+       "Dentro da frase",
+       "Suave, polido",
+       "<ruby>雨<rt>あめ</rt></ruby>なので<ruby>行<rt>い</rt></ruby>きません。"
+      ],
+      [
+       "から",
+       "Dentro da frase",
+       "Direto",
+       "<ruby>雨<rt>あめ</rt></ruby>だから<ruby>行<rt>い</rt></ruby>かない。（Nだから）"
+      ],
+      [
+       "それで",
+       "Continuação",
+       "Pouca ênfase no motivo",
+       "<ruby>雨<rt>あめ</rt></ruby>でした。それで<ruby>中止<rt>ちゅうし</rt></ruby>に。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 100,
+   "src_hash": "3db326efec7e5c55",
+   "fields": {
+    "meaning": "Alguém",
+    "examples": [
+     "Alguém está batendo na porta.",
+     "Tem alguém aí?",
+     "Estou procurando alguém.",
+     "Será que alguém poderia me ajudar?",
+     "Esta é a bolsa de alguém.",
+     "No fim de semana, vou ao cinema com alguém."
+    ],
+    "explain": "Usado quando o falante não sabe exatamente quem é ou não quer especificar.\nEm perguntas, だれか～? sugere que talvez exista tal pessoa (espera-se a resposta “sim/não”).\nEm pedidos/pedidos de socorro, だれか～! tem nuance de urgência: だれか助けて！\nNa linguagem polida: pode-se usar どなたか (forma polida de だれか).\nNão se usa com negação para significar “ninguém”; nesse caso, passa-se a だれも～ない.\n\nだれか significa “alguém, uma pessoa qualquer” (indefinido).\nGeralmente usado na frase afirmativa ou interrogativa para falar de uma pessoa que não se sabe quem é.\nEnfatiza “uma pessoa qualquer dentre as possíveis”, mas não “todo mundo” (diferente de だれでも).\nVem com partículas como が, を, に, と, へ, の, conforme a função na frase.\nNão se usa だれか + ません/ない no sentido de “ninguém”; para dizer “ninguém”, usa-se だれも～ません/ない.",
+    "notes": "Como modificador: だれかのN (exemplo: だれかの手紙).\nNa conversa, pode-se omitir a partícula se for fácil de entender: だれか来た？\nCombinado com もし: もし だれか困っていたら、助けましょう。 reforça a ideia de suposição.",
+    "mistakes": [
+     "Incorreto: だれか来ません。→ Correto: だれも来ません。 (ninguém vem)",
+     "Confundir だれか com だれでも: だれか入れます (apenas alguém) ≠ だれでも入れます (qualquer um pode entrar).",
+     "Esquecer a partícula adequada: だれかに聞きます, だれかを探します, だれかと行きます."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Principal diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "だれか",
+       "Alguém (indefinido)",
+       "Afirmativa/interrogativa; uma pessoa que não se sabe quem é",
+       "だれかが <ruby>来<rt>き</rt></ruby>た。"
+      ],
+      [
+       "だれでも",
+       "Qualquer um / qualquer pessoa",
+       "Nega a individualidade; abrange todas as pessoas",
+       "だれでも <ruby>参加<rt>さんか</rt></ruby>できます。"
+      ],
+      [
+       "だれも～ない",
+       "Ninguém",
+       "Exige negação",
+       "だれも <ruby>来<rt>き</rt></ruby>ません。"
+      ],
+      [
+       "なにか / どこか / いつか",
+       "Algo / algum lugar / algum dia",
+       "Semelhante a だれか, mas para coisas, lugares e tempo",
+       "なにか <ruby>食<rt>た</rt></ruby>べます。/ どこか <ruby>行<rt>い</rt></ruby>きます。"
+      ],
+      [
+       "どなたか",
+       "Alguém (polido)",
+       "Mais polido que だれか",
+       "どなたか いらっしゃいますか。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 101,
+   "src_hash": "4ba723e858f4b738",
+   "fields": {
+    "meaning": "Qualquer um",
+    "connection": "だれでも + V (afirmativa)",
+    "examples": [
+     "Qualquer pessoa pode entrar nesta biblioteca.",
+     "Qualquer um entende esta questão.",
+     "Qualquer pessoa pode participar do evento.",
+     "Este é um aplicativo que qualquer um consegue usar.",
+     "Todo mundo erra às vezes.",
+     "Há uma placa grande para que qualquer um encontre a entrada."
+    ],
+    "explain": "Usado em contextos neutros/objetivos (anúncios, orientações, regras, apresentações).\nQuando se enfatiza “sem restrição de público”: だれでもOK, だれでも歓迎.\nEvite usar com sentido muito pessoal/particular, difícil de generalizar (por exemplo: “todo mundo adora este prato” pode soar exagerado).\nForma polida: どなたでも, para desconhecidos/clientes.\n\nIndica abrangência: “qualquer pessoa…/todo mundo…”.\nGeralmente usado em regras, avisos e descrições de facilidade ou universalidade.\nCombina com verbos de capacidade, direito de uso, grau de facilidade/dificuldade, entender/saber.\nNão é usado para dizer “ninguém” (na negação, pode ser entendido como “nem todo mundo…”).\nEm convites/sugestões suaves, pode-se usar: だれでも来てください (venha quem quiser).",
+    "notes": "Ao acrescentar は: だれでもは～ enfatiza o tópico em contraste, com nuance de ênfase.\nForma de modificador comum em anúncios: だれでも簡単に～できる.\nCuidado com a negação: だれでも～ない geralmente é entendido como “nem todo mundo…”, e não como “ninguém…”.",
+    "mistakes": [
+     "Confundir com だれも: “qualquer um” é だれでも, e não だれも.",
+     "Usar だれでも + ません para dizer “ninguém” é incorreto; deve-se usar だれも～ません.",
+     "Confundir com みんな: みんな é “todos” (um grupo definido), だれでも é “qualquer pessoa” (aberto, com caráter condicional)."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "だれでも",
+       "Qualquer um / qualquer pessoa",
+       "Abrangência, afirmativo",
+       "だれでも <ruby>入<rt>い</rt></ruby>れます。"
+      ],
+      [
+       "だれか",
+       "Alguém",
+       "Uma pessoa indefinida, sem abrangência",
+       "だれかが <ruby>呼<rt>よ</rt></ruby>んでいます。"
+      ],
+      [
+       "だれも～ない",
+       "Ninguém",
+       "Exige negação",
+       "だれも <ruby>来<rt>き</rt></ruby>ません。"
+      ],
+      [
+       "みんな",
+       "Todos",
+       "Grupo definido, sem o sentido de “qualquer pessoa”",
+       "みんな <ruby>来<rt>き</rt></ruby>ました。"
+      ],
+      [
+       "どなたでも",
+       "Qualquer um (polido)",
+       "Mais polido que だれでも",
+       "どなたでも <ruby>参加<rt>さんか</rt></ruby>できます。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 99,
+    "qa": "ok",
+    "issues": []
+   }
+  },
+  {
+   "id": 102,
+   "src_hash": "d2615f34dcc10409",
+   "fields": {
+    "meaning": "Ninguém",
+    "examples": [
+     "Hoje ninguém veio.",
+     "Ninguém sabe disso.",
+     "Não conversei com ninguém na festa.",
+     "Ando tão ocupado que não encontro ninguém.",
+     "Ninguém conseguiu responder àquela pergunta.",
+     "À noite é perigoso, então ninguém sai de casa."
+    ],
+    "explain": "Usado para negar todo o grupo de pessoas possivelmente envolvidas.\nO acréscimo de も cria a nuance de “nem uma única pessoa…”.\nNa linguagem falada, pode-se reforçar a ênfase com ぜんぜん/まったく (mas com cuidado quanto ao grau): ぜんぜん だれも来ない。\nNo passado: だれも来ませんでした mantém o sentido de “ninguém…”.\n\nだれも～ません/ない expressa “ninguém …”.\nÉ uma negação total referente ao sujeito “pessoa”.\nA partícula depende da relação: に → だれにも, と → だれとも.\nNão é usado na afirmativa (だれも～ます/だれも～だ) no japonês padrão moderno.\nÊnfase quando vem no início da frase: だれも～ない → negação forte, “ninguém mesmo”.",
+    "notes": "Para dizer “nem uma única vez”:一度も～ません (nem uma vez), diferente de だれも (cujo alvo são pessoas).\nNão insira が depois de だれも quando funciona como sujeito de uma negação: geralmente usa-se だれも来ません (e não だれもが来ません).\nQuando é preciso ser polido no atendimento: どなたも～ません/いらっしゃいません.",
+    "mistakes": [
+     "Usar a afirmativa com だれも: Incorreto “だれも来ます” → Correto “だれも来ません”。",
+     "Esquecer de mudar に/と para だれにも/だれとも na negação.",
+     "Confundir com だれでも～ない: “nem todo mundo…” ≠ “ninguém…”."
+    ],
+    "comparison": {
+     "headers": [
+      "Padrão",
+      "Significado",
+      "Diferença",
+      "Exemplo curto"
+     ],
+     "rows": [
+      [
+       "だれも～ない",
+       "Ninguém",
+       "Exige negação",
+       "だれも <ruby>来<rt>こ</rt></ruby>ない。"
+      ],
+      [
+       "だれでも",
+       "Qualquer um",
+       "Afirmativo, abrangente",
+       "だれでも <ruby>入<rt>い</rt></ruby>れる。"
+      ],
+      [
+       "だれか",
+       "Alguém",
+       "Indefinido, não é negação total",
+       "だれかが いる。"
+      ],
+      [
+       "なにも～ない",
+       "Nada",
+       "O alvo são coisas",
+       "なにも いらない。"
+      ],
+      [
+       "どこも～ない",
+       "Nenhum lugar",
+       "O alvo são lugares",
+       "どこも <ruby>開<rt>ひら</rt></ruby>いていない。"
+      ],
+      [
+       "どなたも～ません",
+       "Ninguém (polido)",
+       "Polido, usado com clientes/parceiros",
+       "どなたも いません。"
+      ]
+     ]
+    }
+   },
+   "qa": {
+    "judge": "claude-sonnet",
+    "score": 100,
+    "qa": "ok",
+    "issues": []
+   }
+  }
+ ],
+ "qa_rounds": 0
+}
